@@ -228,6 +228,10 @@ def badge(level: str) -> str:
     return f'<span class="badge badge-{safe_level}">{safe_level}</span>'
 
 
+def slug(value: str) -> str:
+    return "".join(char if char.isalnum() or char == "-" else "-" for char in value).strip("-").lower()
+
+
 def render_markdown(path: Path) -> tuple[dict[str, Any], str]:
     front_matter, body = split_front_matter(path)
     rendered = markdown_lib.markdown(body, extensions=MARKDOWN_EXTENSIONS)
@@ -241,6 +245,8 @@ def render_page(path: Path, paper: Paper, kind: str) -> str:
     session = str(front_matter.get("session") or paper.session)
     kind_label = "Fascicolo" if kind == "paper" else "Chiavi e commenti"
     title = f"{kind_label} · {level} · {session}"
+    counterpart_label = "Apri chiavi" if kind == "paper" else "Apri fascicolo"
+    counterpart_href = "answers.html" if kind == "paper" else "paper.html"
 
     return f"""<!doctype html>
 <html lang="it">
@@ -252,11 +258,21 @@ def render_page(path: Path, paper: Paper, kind: str) -> str:
 </head>
 <body>
   <header class="paper-header">
-    <div class="site-name">CILS Exam Factory · esercitazione non ufficiale</div>
-    <div class="paper-meta">
-      {badge(level)}
-      <span>{html.escape(level_name)}</span>
-      <span>Sessione {html.escape(session)}</span>
+    <div class="paper-header-inner">
+      <div>
+        <div class="site-name">CILS Exam Factory · esercitazione non ufficiale</div>
+        <div class="paper-meta">
+          {badge(level)}
+          <span>{html.escape(level_name)}</span>
+          <span>Sessione {html.escape(session)}</span>
+          <span>{html.escape(kind_label)}</span>
+        </div>
+      </div>
+      <nav class="paper-actions" aria-label="Azioni documento">
+        <a href="../../../index.html">Torna all'indice</a>
+        <a href="{html.escape(counterpart_href, quote=True)}">{html.escape(counterpart_label)}</a>
+        <a href="{html.escape(kind, quote=True)}.md">Scarica Markdown</a>
+      </nav>
     </div>
   </header>
   <main class="paper">
@@ -295,20 +311,31 @@ def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | 
             pdf_printer.render(html_target, pdf_target, md_source)
 
 
-def artifact_link(out_root: Path, href: str, label: str) -> str:
+def artifact_link(out_root: Path, href: str, label: str, primary: bool = False) -> str:
     if (out_root / href).exists():
-        return f'[<a href="{html.escape(href, quote=True)}">{html.escape(label)}</a>]'
+        classes = "download-button download-button-primary" if primary else "download-button"
+        return f'<a class="{classes}" href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
     return ""
 
 
 def link_group(out_root: Path, base: str, stem: str, label: str) -> str:
+    candidates = [
+        (f"{base}/{stem}.pdf", "PDF"),
+        (f"{base}/{stem}.html", "HTML"),
+        (f"{base}/{stem}.md", "MD"),
+    ]
+    available = [(href, text) for href, text in candidates if (out_root / href).exists()]
     links = [
-        artifact_link(out_root, f"{base}/{stem}.pdf", "PDF"),
-        artifact_link(out_root, f"{base}/{stem}.html", "HTML"),
-        artifact_link(out_root, f"{base}/{stem}.md", "MD"),
+        artifact_link(out_root, href, text, primary=index == 0)
+        for index, (href, text) in enumerate(available)
     ]
     rendered_links = " ".join(link for link in links if link)
-    return f"{html.escape(label)} {rendered_links}".strip()
+    return (
+        f'<div class="download-group">'
+        f'<div class="download-label">{html.escape(label)}</div>'
+        f'<div class="download-links">{rendered_links}</div>'
+        "</div>"
+    )
 
 
 def render_index(papers: list[Paper], out_root: Path) -> str:
@@ -316,40 +343,55 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
     for paper in papers:
         papers_by_date.setdefault(paper.date, []).append(paper)
 
+    sessions = sorted(papers_by_date, reverse=True)
+    latest_session = sessions[0] if sessions else ""
+    total_papers = len(papers)
+    total_sources = sum(paper.source_count for paper in papers)
+    session_nav = ""
+    if sessions:
+        session_links = "\n".join(
+            f'        <a href="#session-{html.escape(slug(session), quote=True)}">{html.escape(session)}</a>'
+            for session in sessions
+        )
+        session_nav = f"""    <nav class="session-nav" aria-label="Sessioni pubblicate">
+      <span>Sessioni</span>
+{session_links}
+    </nav>"""
+
     session_cards: list[str] = []
-    for session in sorted(papers_by_date, reverse=True):
-        rows: list[str] = []
+    for session in sessions:
+        cards: list[str] = []
         for paper in sorted(papers_by_date[session], key=level_sort_key):
             base = f"papers/{paper.date}/{paper.level}"
-            rows.append(
-                "      <tr>"
-                f'<td data-label="Livello">{badge(paper.level)}</td>'
-                f'<td data-label="Titolo">{html.escape(paper.title)}</td>'
-                f'<td data-label="Fascicolo">{link_group(out_root, base, "paper", "Fascicolo")}</td>'
-                f'<td data-label="Chiavi">{link_group(out_root, base, "answers", "Chiavi e commenti")}</td>'
-                f'<td data-label="Fonti">{paper.source_count} testi autentici</td>'
-                "</tr>"
+            cards.append(
+                f"""      <article class="level-card">
+        <div class="level-card-header">
+          {badge(paper.level)}
+          <div>
+            <h3>{html.escape(paper.title)}</h3>
+            <p>{paper.source_count} testi autentici verificati</p>
+          </div>
+        </div>
+        <div class="level-card-downloads">
+          {link_group(out_root, base, "paper", "Fascicolo")}
+          {link_group(out_root, base, "answers", "Chiavi e commenti")}
+        </div>
+      </article>"""
             )
 
-        table_rows = "\n".join(rows)
+        level_cards = "\n".join(cards)
+        latest_badge = '<span class="session-label">Ultima sessione</span>' if session == latest_session else ""
         session_cards.append(
-            f"""  <section class="session-card">
-    <h2>Sessione {html.escape(session)}</h2>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Livello</th>
-            <th>Titolo</th>
-            <th>Fascicolo</th>
-            <th>Chiavi e commenti</th>
-            <th>Fonti</th>
-          </tr>
-        </thead>
-        <tbody>
-{table_rows}
-        </tbody>
-      </table>
+            f"""  <section class="session-card" id="session-{html.escape(slug(session), quote=True)}">
+    <div class="session-heading">
+      <div>
+        <p class="session-kicker">Sessione</p>
+        <h2>{html.escape(session)}</h2>
+      </div>
+      {latest_badge}
+    </div>
+    <div class="level-grid">
+{level_cards}
     </div>
   </section>"""
         )
@@ -373,7 +415,13 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
       <h1>CILS Exam Factory</h1>
       <p class="tagline">Materiali di pratica in italiano, con chiavi commentate. Practice papers for Italian learners, with answer keys and notes.</p>
       <p class="intro">Cos'è: una raccolta statica di fascicoli CILS simulati, generati da testi autentici adattati, controllati con risoluzione alla cieca e pubblicati solo dopo audit di formato.</p>
+      <div class="hero-stats" aria-label="Statistiche pubblicazione">
+        <div><strong>{total_papers}</strong><span>fascicoli pubblicati</span></div>
+        <div><strong>{len(sessions)}</strong><span>sessioni</span></div>
+        <div><strong>{total_sources}</strong><span>fonti autentiche</span></div>
+      </div>
     </header>
+{session_nav}
 
 {cards_html}
 

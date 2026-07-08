@@ -193,6 +193,13 @@ def run_test() -> None:
         assert_contains(index, "Fixture Published Paper")
         assert_contains(index, "papers/2000-01-01/FX/paper.html")
         assert_contains(index, "papers/2000-01-01/FX/paper.md")
+        assert_contains(index, 'class="session-nav"')
+        assert_contains(index, 'href="#session-2000-01-01"')
+        assert_contains(index, 'class="level-card"')
+        assert_contains(index, 'class="download-button download-button-primary"')
+        assert_contains(paper_dir / "paper.html", 'class="paper-actions"')
+        assert_contains(paper_dir / "paper.html", "Torna all'indice")
+        assert_contains(paper_dir / "paper.html", "Scarica Markdown")
         assert_not_contains(index, "Fixture Draft Paper")
         assert_not_contains(index, "papers/2000-01-01/FD/")
 
