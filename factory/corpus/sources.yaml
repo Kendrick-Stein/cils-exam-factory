@@ -1,0 +1,64 @@
+# Authentic Italian text sources, whitelisted per genre.
+# corpus-hunter picks from here first; anything else needs a note in sources.md explaining why.
+
+rules:
+  attribution: "Testo adattato da: <titolo>, <testata/sito>, <url>, consultato il <gg/mm/aaaa>"
+  paywalled_full_texts: forbidden          # if a fetch hits a paywall wall, drop the candidate
+  invented_text: forbidden                 # every sentence must originate in the fetched page (trims/simplifications allowed per level)
+  recency: "cronaca/blog: prefer < 12 months old; realia/letteratura: any age"
+  # words per SINGLE reading text (linee guida give totals per test; dic-2024 samples confirm)
+  length_bands_words:
+    A1: {main: [60, 150], micro: [15, 50]}     # annunci/messaggi are micro-texts
+    A2: {main: [120, 250], micro: [20, 60]}
+    B1: {main: [300, 450], micro: [40, 90]}
+    B2: {main: [400, 600], micro: [60, 120]}
+    C1: {main: [500, 700], micro: [80, 150]}
+
+sources:
+  news_general:
+    - {site: ansa.it, note: "agenzia, testi brevi e fattuali — ottimi B1/B2; no paywall"}
+    - {site: rainews.it, note: "cronaca nazionale, linguaggio standard"}
+    - {site: ilpost.it, note: "approfondimenti B2/C1; alcuni articoli riservati — usare i liberi"}
+    - {site: today.it, note: "cronaca locale semplice, utile A2/B1"}
+    - {site: fanpage.it, note: "cronaca/costume, B1/B2"}
+  news_easy:
+    - {site: focusjunior.it, note: "divulgazione per ragazzi — sintassi semplice, A2/B1"}
+    - {site: italianofacile.news, note: "se raggiungibile; verificare autenticità"}
+  culture_science:
+    - {site: focus.it, note: "divulgazione scientifica B2/C1"}
+    - {site: wired.it, note: "tecnologia/società B2/C1; verificare accesso"}
+    - {site: nationalgeographic.it, note: "ambiente/viaggi B2/C1"}
+  opinion_essay:
+    - {site: ilpost.it, note: "editoriali e analisi C1"}
+    - {site: internazionale.it, note: "opinioni/reportage C1; alcuni tradotti — preferire firme italiane"}
+    - {site: doppiozero.com, note: "saggistica culturale C1"}
+  literature_public_domain:
+    - {site: liberliber.it, note: "narrativa italiana di pubblico dominio (C1: brani letterari)"}
+    - {site: it.wikisource.org, note: "novelle/racconti (Pirandello, Verga…) — pubblico dominio"}
+  practical_realia:
+    - {site: giallozafferano.it, note: "ricette: istruzioni A2/B1"}
+    - {site: trenitalia.com, note: "avvisi/orari/regole di viaggio A1/A2"}
+    - {site: comune.bologna.it / comune.milano.it / altri comuni, note: "avvisi ai cittadini, servizi — regolativo A2/B1"}
+    - {site: beniculturali.it / siti di musei (uffizi.it, museiincomuneroma.it), note: "orari/biglietti/visite A2/B1"}
+    - {site: subito.it, note: "annunci (case, lavoro, usato) — micro-testi A1/A2; anonimizzare i contatti"}
+    - {site: eventbrite.it / siti di sagre e festival, note: "programmi di eventi A2/B1"}
+  blogs_lifestyle:
+    - {site: dissapore.com, note: "cibo/costume B1/B2"}
+    - {site: viaggiapiccoli.com / blog di viaggio italiani, note: "racconti di viaggio B1/B2"}
+
+levels:
+  A1:
+    genres: [annunci, cartelli/avvisi, orari, menù, messaggi personali brevi, presentazioni di persone]
+    prefer: [practical_realia, news_easy]
+  A2:
+    genres: [e-mail informali, istruzioni semplici (ricette), avvisi pubblici, brevi cronache locali, annunci]
+    prefer: [practical_realia, news_easy, news_general]
+  B1:
+    genres: [cronaca, testi informativi pratici, blog narrativi, interviste semplici, testi regolativi]
+    prefer: [news_general, practical_realia, blogs_lifestyle]
+  B2:
+    genres: [articoli di approfondimento, divulgazione scientifica, recensioni, interviste]
+    prefer: [news_general, culture_science, blogs_lifestyle]
+  C1:
+    genres: [editoriali/opinione, saggistica, testi letterari (narrativa), reportage]
+    prefer: [opinion_essay, literature_public_domain, culture_science]
