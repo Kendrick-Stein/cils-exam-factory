@@ -18,7 +18,16 @@ You are the **orchestrator**. The workflow authority is `factory/PIPELINE.md` �
 
 If the session dir for a level already exists **and was published**, refuse to overwrite (immutability) — offer a new date instead.
 
-## Role dispatch (Agent tool)
+## Role dispatch — default executor: Codex (Claude orchestrates only)
+
+User directive (2026-07-08): to save Claude tokens, stages run on Codex; Claude Code builds the dispatch prompts (from the role files in `.claude/agents/` + the level inputs), enforces gates, owns manifests, builds, publishes.
+
+- S1/S2/S4/S5: `node "$(ls -d ~/.claude/plugins/cache/openai-codex/codex/*/scripts/codex-companion.mjs | tail -1)" task --background --write "<role body + level inputs + output paths>"` → `status`/`result <job-id>`. Levels can run as parallel background tasks.
+- S3: fresh `codex exec --sandbox read-only` on `/tmp/cils-blind-<session>-<level>/paper.md` (fresh session ⇒ independent context).
+- S2 must also emit `papers/<date>/<LEVEL>/key.json` (`{"L1.1": "B", …, "L3": "A-D-…"}`), so S4 reconcile = local JSON diff; only failing items go back to an LLM.
+- Corpus tasks on Codex must quote fetch evidence (curl output snippets + URLs); spot-verify 1–2 sources with WebFetch. If Codex has no network, fall back to running S1 in the main context with WebSearch/WebFetch.
+
+Alternative (only when the user explicitly allows Claude subagents):
 
 | Stage | subagent_type | run_in_background |
 |---|---|---|

@@ -34,7 +34,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 ### S2 — Authoring (item-writer)
 - **Input:** template, `sources.md`, `factory/exams/cils/style-guide.md`, `factory/validation/checklist.md` (item-quality section).
 - **Work:** fill the template **exactly** — item counts, points, durations and consegna wording are immutable; adapt each text to its length band, ending with the attribution line «Testo adattato da: *Titolo*, Publisher, URL, consultato il GG/MM/AAAA»; write the answers part: chiavi table (`Item | Risposta | Spiegazione`, explanations 1–3 lines with a short 中文 note on the tricky point), one 范文 per writing task (inside the required word range, level-appropriate, followed by 3–5 "espressioni utili"), and the **Glossario da ricordare** (15–25 rows: Parola/Espressione | Categoria | 中文 | EN | Esempio dal testo).
-- **Output:** complete `paper.md` + `answers.md` (front-matter per plan schema).
+- **Output:** complete `paper.md` + `answers.md` (front-matter per plan schema) + `key.json` (machine-readable key: `{"L1.1": "B", …, "L3": "A-D-…", "S1.1": "la", …}`) for mechanical reconciliation.
 - **Gate (orchestrator, mechanical):** per-prova item counts match `exam.yaml`; no unreplaced `{{slots}}`; attribution present per text; writing word ranges printed; points sums correct.
 
 ### S3 — Blind validation (blind-solver, isolation is the point)

@@ -1,0 +1,10 @@
+exam: cils
+level: C1
+session: "2026-07-08"
+title: "CILS TRE — C1 · Esercitazione"
+status: draft
+sources: []
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/C1.md
+  stages: []
