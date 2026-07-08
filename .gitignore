@@ -1,0 +1,22 @@
+# Local copies of official CILS papers — copyrighted, never publish
+reference/
+
+# OS / editor noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Scratch space used by pipeline runs
+work/
