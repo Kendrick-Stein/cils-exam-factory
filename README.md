@@ -26,7 +26,9 @@ authentic web texts ──► corpus hunter (search, clean, CEFR-grade)
 
 ## Run it yourself
 
-Open this repo in Claude Code and run `/genpapers` (see `CLAUDE.md`), or use any coding agent following `AGENTS.md`. Requirements: Python 3.10+, Google Chrome (for PDF rendering), `pip install markdown pyyaml`.
+Open this repo in Claude Code and run `/genpapers` (see `CLAUDE.md`), or ask Codex for `Make Paper` / `genpapers` and follow `AGENTS.md`. Requirements: Python 3.10+, Google Chrome (for PDF rendering), `pip install markdown pyyaml`.
+
+Published papers are built into `docs/`. The GitHub Actions workflow in `.github/workflows/pages.yml` deploys that directory to GitHub Pages after a push to `main`.
 
 ## Disclaimer
 

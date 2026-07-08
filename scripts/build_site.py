@@ -146,6 +146,7 @@ def scan_papers(papers_root: Path) -> list[Paper]:
         manifest = load_yaml(manifest_path)
         if manifest.get("status") != "published":
             continue
+        validate_publish_gate(manifest_path, manifest)
 
         paper_root = manifest_path.parent
         paper_md = paper_root / "paper.md"
@@ -160,6 +161,58 @@ def scan_papers(papers_root: Path) -> list[Paper]:
         papers.append(Paper(date=date, level=manifest_level, root=paper_root, manifest=manifest))
 
     return papers
+
+
+def validate_publish_gate(manifest_path: Path, manifest: dict[str, Any]) -> None:
+    validation = manifest.get("validation")
+    if not isinstance(validation, dict):
+        raise BuildError(f"publish gate failed for {manifest_path}: missing validation block")
+
+    result = validation.get("result")
+    if result != "pass":
+        raise BuildError(f"publish gate failed for {manifest_path}: validation result is not pass")
+
+    objective_items = validation.get("objective_items", validation.get("objective_total"))
+    final_agreement = validation.get("final_agreement", validation.get("blind_matched"))
+    if objective_items is None or final_agreement is None:
+        agreement = str(validation.get("agreement") or validation.get("blind_agreement") or "")
+        if "/" not in agreement:
+            raise BuildError(f"publish gate failed for {manifest_path}: missing blind agreement")
+        final_agreement, objective_items = agreement.split("/", 1)
+
+    try:
+        objective_count = int(objective_items)
+        matched_count = int(final_agreement)
+    except (TypeError, ValueError) as exc:
+        raise BuildError(f"publish gate failed for {manifest_path}: malformed blind agreement") from exc
+    if objective_count <= 0 or matched_count != objective_count:
+        raise BuildError(f"publish gate failed for {manifest_path}: blind agreement is not 100%")
+
+    flags = validation.get("flags", 0)
+    flag_count = len(flags) if isinstance(flags, list) else int(flags or 0)
+    if flag_count != 0:
+        raise BuildError(f"publish gate failed for {manifest_path}: validation flags remain open")
+
+    mismatches = validation.get("mismatches", 0)
+    mismatch_count = len(mismatches) if isinstance(mismatches, list) else int(mismatches or 0)
+    if mismatch_count != 0:
+        raise BuildError(f"publish gate failed for {manifest_path}: validation mismatches remain open")
+
+    pipeline = manifest.get("pipeline")
+    if not isinstance(pipeline, dict):
+        raise BuildError(f"publish gate failed for {manifest_path}: missing pipeline block")
+    stages = pipeline.get("stages")
+    if not isinstance(stages, list):
+        raise BuildError(f"publish gate failed for {manifest_path}: missing pipeline stages")
+    format_results = [
+        str(stage.get("result", "")).lower()
+        for stage in stages
+        if isinstance(stage, dict) and stage.get("stage") == "format_audit"
+    ]
+    if not format_results:
+        raise BuildError(f"publish gate failed for {manifest_path}: missing format audit")
+    if format_results[-1] != "pass":
+        raise BuildError(f"publish gate failed for {manifest_path}: format audit is not pass")
 
 
 def level_sort_key(paper: Paper) -> tuple[int, str]:

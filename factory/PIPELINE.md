@@ -38,12 +38,12 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - **Gate (orchestrator, mechanical):** per-prova item counts match `exam.yaml`; no unreplaced `{{slots}}`; attribution present per text; writing word ranges printed; points sums correct.
 
 ### S3 — Blind validation (blind-solver, isolation is the point)
-- **Input:** `paper.md` ONLY. No `answers.md`, no `sources.md`, no web access, no other repo files. Mechanics: copy `paper.md` alone into an isolated dir outside the repo (`/tmp/cils-blind-<session>-<level>/`) and hand the solver only that path — or paste the paper text into the prompt.
+- **Input:** `paper.md` ONLY. No `answers.md`, no `sources.md`, no web access, no other repo files. Mechanics: run `python3 scripts/blind_validation.py prepare --paper-dir papers/<date>/<LEVEL>` to copy `paper.md` alone into an isolated dir outside the repo (`/tmp/cils-blind-<session>-<level>/`) and hand the solver only that path — or paste the paper text into the prompt.
 - **Work:** solve every objective item → JSON `{"L1.1": "B", ...}` with per-item confidence (`hi|med|lo`); flag list `{item_id, reason}` for anything ambiguous, unanswerable from the text alone, with overlapping options, or with more than one defensible answer. For writing tasks: verify the consegna is self-contained and the word range is printed (do not write essays).
 - **Output:** returned to orchestrator (stored under `papers/<date>/<LEVEL>/` only if debugging; not required).
 
 ### S4 — Reconcile (orchestrator + item-writer)
-- Compare key vs blind answers. **Failing item** = mismatch with the key **or** any ambiguity flag (flags fail even when the answer matches).
+- Compare key vs blind answers with `python3 scripts/blind_validation.py reconcile --paper-dir papers/<date>/<LEVEL> --blind-output <file> --report papers/<date>/<LEVEL>/blind-validation.json --write-manifest`. **Failing item** = mismatch with the key **or** any ambiguity flag (flags fail even when the answer matches).
 - For each failing item: item-writer gets the item, the blind-solver's answer/reasoning, and must repair it (fix stem/distractors/text reference — or replace the item) keeping counts/points/consegne identical.
 - Re-validate: fresh blind-solver on the **affected prove only** (send those prova blocks with their texts).
 - **Gate:** 100% agreement on objective items and 0 flags within **max 2 repair rounds**; otherwise `status: draft`, `reason: validation`, continue with other levels.
@@ -56,10 +56,11 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - **Manifest:** append `{stage: format_audit, result}`; on PASS set `status: published`.
 
 ### S6 — Build (deterministic)
-- `python3 scripts/build_site.py` (add `--no-pdf` only for previews). Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains paper/answers in html+pdf+md for every published level.
+- `python3 scripts/build_site.py` (add `--no-pdf` only for previews). The builder enforces the publish gate for `status: published` manifests: validation pass, 100% blind agreement, zero flags, zero mismatches, and latest `format_audit` result pass. Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains paper/answers in html+pdf+md for every published level.
+- Optional status audit before publish: `python3 scripts/paper_status.py --session <date> --levels A1,A2,B1,B2,C1` reports publishable levels and the next missing stage for drafts.
 
 ### S7 — Publish
-- `git add papers docs && git commit -m "feat(papers): <date> <levels>" && git push`. Skipped with `--no-publish`. Draft levels are excluded by the build; report them explicitly to the user. Never force-push; published sessions are immutable (corrections = new session).
+- Stage only publishable levels plus docs: `git add papers/<date>/<published-levels> docs && git commit -m "feat(papers): <date> <levels>" && git push`. Skipped with `--no-publish`. Draft levels are excluded by the build and must not be staged as a completed session; report them explicitly to the user. Never force-push; published sessions are immutable (corrections = new session).
 
 ## Failure summary
 

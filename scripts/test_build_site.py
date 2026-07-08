@@ -36,7 +36,18 @@ sources:
     adapted: true
     words_used: 42
 validation:
+  objective_items: 1
+  final_agreement: 1
+  flags: 0
   result: pass
+pipeline:
+  stages:
+    - stage: blind_validation
+      agreement: 1/1
+      flags: 0
+      result: pass
+    - stage: format_audit
+      result: pass
 """,
     )
     write_text(
@@ -184,6 +195,177 @@ def run_test() -> None:
         assert_contains(index, "papers/2000-01-01/FX/paper.md")
         assert_not_contains(index, "Fixture Draft Paper")
         assert_not_contains(index, "papers/2000-01-01/FD/")
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-invalid-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace("flags: 0", "flags: 1"),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted a published paper with validation flags")
+        if "publish gate" not in completed.stderr:
+            raise AssertionError(
+                "expected publish-gate error for invalid published manifest\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-fail-result-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace("result: pass", "result: fail\n  blind_pass: true", 1),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted result: fail with blind_pass: true")
+        if "validation result is not pass" not in completed.stderr:
+            raise AssertionError(
+                "expected validation result gate error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-missing-result-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace("  result: pass\n", "  blind_pass: true\n", 1),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted missing validation.result with blind_pass: true")
+        if "validation result is not pass" not in completed.stderr:
+            raise AssertionError(
+                "expected missing validation result gate error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-missing-audit-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace(
+                "    - stage: format_audit\n      result: pass\n",
+                "",
+            ),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted a published paper without format_audit")
+        if "format audit" not in completed.stderr:
+            raise AssertionError(
+                "expected format-audit gate error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-failed-audit-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace(
+                "- stage: format_audit\n      result: pass",
+                "- stage: format_audit\n      result: fail",
+            ),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted a failed format_audit")
+        if "format audit" not in completed.stderr:
+            raise AssertionError(
+                "expected failed format-audit gate error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
 
 
 def main() -> int:

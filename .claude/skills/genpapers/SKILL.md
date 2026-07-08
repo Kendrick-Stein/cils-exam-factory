@@ -23,8 +23,8 @@ If the session dir for a level already exists **and was published**, refuse to o
 User directive (2026-07-08): to save Claude tokens, stages run on Codex; Claude Code builds the dispatch prompts (from the role files in `.claude/agents/` + the level inputs), enforces gates, owns manifests, builds, publishes.
 
 - S1/S2/S4/S5: `node "$(ls -d ~/.claude/plugins/cache/openai-codex/codex/*/scripts/codex-companion.mjs | tail -1)" task --background --write "<role body + level inputs + output paths>"` → `status`/`result <job-id>`. Levels can run as parallel background tasks.
-- S3: fresh `codex exec --sandbox read-only` on `/tmp/cils-blind-<session>-<level>/paper.md` (fresh session ⇒ independent context).
-- S2 must also emit `papers/<date>/<LEVEL>/key.json` (`{"L1.1": "B", …, "L3": "A-D-…"}`), so S4 reconcile = local JSON diff; only failing items go back to an LLM.
+- S3: run `python3 scripts/blind_validation.py prepare --paper-dir papers/<date>/<LEVEL>` to create `/tmp/cils-blind-<session>-<level>/paper.md`, then run fresh `codex exec --sandbox read-only` on that isolated file (fresh session ⇒ independent context).
+- S2 must also emit `papers/<date>/<LEVEL>/key.json` (`{"L1.1": "B", …, "L3": "A-D-…"}`), so S4 reconcile is `python3 scripts/blind_validation.py reconcile --paper-dir papers/<date>/<LEVEL> --blind-output <file> --report papers/<date>/<LEVEL>/blind-validation.json --write-manifest`; only failing items go back to an LLM.
 - Corpus tasks on Codex must quote fetch evidence (curl output snippets + URLs); spot-verify 1–2 sources with WebFetch. If Codex has no network, fall back to running S1 in the main context with WebSearch/WebFetch.
 
 Alternative (only when the user explicitly allows Claude subagents):
@@ -46,15 +46,15 @@ Alternative (only when the user explicitly allows Claude subagents):
 
 1. **S1 QC:** every text slot has an accepted candidate (genre, CEFR verdict, length band). Reject skimpy metadata.
 2. **S2 mechanical check:** count items per prova against `factory/exams/<exam>/exam.yaml`; verify point statements, attribution lines, no `{{slots}}` left.
-3. **S4 reconcile:** diff key vs blind answers; any mismatch or flag → repair → fresh blind-check of affected prove; 100%/0-flags within 2 rounds or the level stays `draft`.
+3. **S4 reconcile:** use `scripts/blind_validation.py reconcile` to diff key vs blind answers; any mismatch or flag → repair → fresh blind-check of affected prove; 100%/0-flags within 2 rounds or the level stays `draft`.
 4. **S5:** apply auditor fixes, re-audit once if needed; only then set `status: published`.
 
 ## Build & publish
 
 ```bash
 python3 scripts/build_site.py          # S6 — verify exit 0 and per-level outputs
-git add papers docs
-git commit -m "feat(papers): <date> <levels>"   # S7 (skip with --no-publish)
+git add papers/<date>/<published-levels> docs
+git commit -m "feat(papers): <date> <levels>"   # S7 (skip with --no-publish; draft levels excluded)
 git push
 ```
 

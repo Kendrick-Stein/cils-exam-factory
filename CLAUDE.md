@@ -7,9 +7,11 @@ Generates CILS-style Italian practice papers (A1–C1, **no listening/oral**) fr
 `/genpapers [levels] [date] [--no-publish]` → orchestration in `.claude/skills/genpapers/SKILL.md`.
 Everything pipeline-critical lives under `factory/` — read `factory/PIPELINE.md` first; it is the source of truth for the workflow.
 
-## Execution mode (default: Codex executes, Claude orchestrates)
+Codex users can invoke the same factory as `Make Paper` / `genpapers`; that entrypoint is documented in `AGENTS.md` and `.codex/skills/make-paper/SKILL.md`.
 
-User directive (2026-07-08, after hitting the Claude monthly spend limit): **Claude Code only plans, gates, owns manifests, builds and publishes; heavy stages run on Codex** to save Claude tokens.
+## Execution mode (recommended: Codex executes, Claude orchestrates)
+
+User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, builds and publishes; heavy stages run on Codex** when cost or Claude subagent limits matter.
 
 - Stage task (S1/S2/S4/S5): `node "$(ls -d ~/.claude/plugins/cache/openai-codex/codex/*/scripts/codex-companion.mjs | tail -1)" task --background --write "<stage prompt>"` → poll `status <job-id>`, fetch `result <job-id>`.
 - S3 blind validation: fresh `codex exec --sandbox read-only` on an isolated `/tmp/cils-blind-<session>-<level>/paper.md` copy (independent model AND context).

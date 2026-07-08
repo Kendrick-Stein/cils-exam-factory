@@ -8,3 +8,10 @@ Dependencies: only `markdown` and `pyyaml` beyond the Python standard library.
 Install hint: `python3 -m pip install --user markdown pyyaml`.
 PDFs require Google Chrome at `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`.
 If Chrome is missing or PDF export fails, the build warns and keeps HTML/MD outputs.
+
+Blind validation:
+- `python3 scripts/blind_validation.py prepare --paper-dir papers/<date>/<LEVEL>` creates the isolated `/tmp/cils-blind-<date>-<LEVEL>/paper.md` copy for S3.
+- After saving solver output, `python3 scripts/blind_validation.py reconcile --paper-dir papers/<date>/<LEVEL> --blind-output <blind-output.txt> --report papers/<date>/<LEVEL>/blind-validation.json --write-manifest` compares it with `key.json`, writes failing items, and updates `manifest.yaml`.
+
+Publish gate: `build_site.py` only accepts `status: published` papers whose manifest validation block proves 100% blind agreement, zero flags, zero mismatches, pass result, and latest `format_audit` result pass.
+Status audit: `python3 scripts/paper_status.py --session <date> --levels A1,A2,B1,B2,C1` reports which levels are publishable and which next pipeline stage is missing.
