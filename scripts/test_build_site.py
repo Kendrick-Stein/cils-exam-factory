@@ -35,6 +35,11 @@ sources:
     used_in: "Fixture"
     adapted: true
     words_used: 42
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
 validation:
   objective_items: 1
   final_agreement: 1
@@ -45,6 +50,8 @@ pipeline:
     - stage: blind_validation
       agreement: 1/1
       flags: 0
+      result: pass
+    - stage: quality_audit
       result: pass
     - stage: format_audit
       result: pass
@@ -203,6 +210,51 @@ def run_test() -> None:
         assert_not_contains(index, "Fixture Draft Paper")
         assert_not_contains(index, "papers/2000-01-01/FD/")
 
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-legacy-gate-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8")
+            .replace(
+                """quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
+""",
+                "",
+            )
+            .replace(
+                "    - stage: quality_audit\n      result: pass\n",
+                "",
+            ),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode != 0:
+            raise AssertionError(
+                "build_site.py should keep building legacy published papers without quality_audit\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+        assert_contains(docs / "index.html", "Fixture Published Paper")
+
     with tempfile.TemporaryDirectory(prefix="cils-build-site-invalid-") as tmp:
         tmp_root = Path(tmp)
         papers, docs = make_fixture(tmp_root)
@@ -302,6 +354,77 @@ def run_test() -> None:
                 f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
             )
 
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-escape-level-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace("level: FX", "level: ../ESCAPE"),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted a manifest level that escapes output paths")
+        if "unsafe level" not in completed.stderr and "level mismatch" not in completed.stderr:
+            raise AssertionError(
+                "expected unsafe level error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-revision-sort-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        for revision in ("2000-01-01-r2", "2000-01-01-r9", "2000-01-01-r10"):
+            source = papers / "2000-01-01" / "FX"
+            target = papers / revision / "FX"
+            target.mkdir(parents=True, exist_ok=True)
+            for name in ("manifest.yaml", "paper.md", "answers.md"):
+                text = (source / name).read_text(encoding="utf-8").replace("2000-01-01", revision)
+                write_text(target / name, text)
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode != 0:
+            raise AssertionError(
+                "build_site.py failed revision sort fixture\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+        index = (docs / "index.html").read_text(encoding="utf-8")
+        if index.find(">2000-01-01-r10<") > index.find(">2000-01-01-r9<"):
+            raise AssertionError("revision session r10 should sort before r9")
+        if '<h2>2000-01-01-r10</h2>' not in index:
+            raise AssertionError("latest revision session r10 should be rendered")
+
     with tempfile.TemporaryDirectory(prefix="cils-build-site-missing-audit-") as tmp:
         tmp_root = Path(tmp)
         papers, docs = make_fixture(tmp_root)
@@ -335,6 +458,78 @@ def run_test() -> None:
         if "format audit" not in completed.stderr:
             raise AssertionError(
                 "expected format-audit gate error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-missing-quality-audit-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace(
+                "    - stage: quality_audit\n      result: pass\n",
+                "",
+            ),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted a published paper without quality_audit")
+        if "quality audit" not in completed.stderr:
+            raise AssertionError(
+                "expected quality-audit gate error\n"
+                f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-failed-quality-audit-") as tmp:
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        manifest = papers / "2000-01-01" / "FX" / "manifest.yaml"
+        manifest.write_text(
+            manifest.read_text(encoding="utf-8").replace(
+                "- stage: quality_audit\n      result: pass",
+                "- stage: quality_audit\n      result: fail",
+            ),
+            encoding="utf-8",
+        )
+
+        cmd = [
+            sys.executable,
+            str(build_script),
+            "--papers-root",
+            str(papers),
+            "--out",
+            str(docs),
+            "--no-pdf",
+        ]
+        completed = subprocess.run(
+            cmd,
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode == 0:
+            raise AssertionError("build_site.py accepted a failed quality_audit")
+        if "quality audit" not in completed.stderr:
+            raise AssertionError(
+                "expected failed quality-audit gate error\n"
                 f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
             )
 

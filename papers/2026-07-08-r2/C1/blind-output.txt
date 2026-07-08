@@ -1,0 +1,411 @@
+{
+  "answers": {
+    "L1.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.2": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.3": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.4": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.5": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.6": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L1.7": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L2.1": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.2": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.3": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.4": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.5": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.6": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.7": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.8": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.9": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.10": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.11": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.12": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.13": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.14": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L3.1": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L3.2": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L3.3": {
+      "answer": "M",
+      "confidence": "hi"
+    },
+    "L3.4": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L3.5": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.6": {
+      "answer": "H",
+      "confidence": "hi"
+    },
+    "L3.7": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L3.8": {
+      "answer": "O",
+      "confidence": "hi"
+    },
+    "L3.9": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "L3.10": {
+      "answer": "K",
+      "confidence": "hi"
+    },
+    "L3.11": {
+      "answer": "E",
+      "confidence": "hi"
+    },
+    "L3.12": {
+      "answer": "N",
+      "confidence": "hi"
+    },
+    "L3.13": {
+      "answer": "J",
+      "confidence": "hi"
+    },
+    "L3.14": {
+      "answer": "P",
+      "confidence": "hi"
+    },
+    "L3.15": {
+      "answer": "L",
+      "confidence": "hi"
+    },
+    "L3.16": {
+      "answer": "G",
+      "confidence": "hi"
+    },
+    "S1.1": {
+      "answer": "soprattutto",
+      "confidence": "hi"
+    },
+    "S1.2": {
+      "answer": "ma",
+      "confidence": "hi"
+    },
+    "S1.3": {
+      "answer": "quando",
+      "confidence": "hi"
+    },
+    "S1.4": {
+      "answer": "oppure",
+      "confidence": "hi"
+    },
+    "S1.5": {
+      "answer": "Per questo",
+      "confidence": "hi"
+    },
+    "S1.6": {
+      "answer": "affinché",
+      "confidence": "hi"
+    },
+    "S1.7": {
+      "answer": "perché",
+      "confidence": "hi"
+    },
+    "S1.8": {
+      "answer": "invece",
+      "confidence": "hi"
+    },
+    "S1.9": {
+      "answer": "Nonostante",
+      "confidence": "hi"
+    },
+    "S1.10": {
+      "answer": "perché",
+      "confidence": "hi"
+    },
+    "S1.11": {
+      "answer": "quando",
+      "confidence": "med"
+    },
+    "S1.12": {
+      "answer": "bensì",
+      "confidence": "hi"
+    },
+    "S1.13": {
+      "answer": "quando",
+      "confidence": "hi"
+    },
+    "S1.14": {
+      "answer": "non come",
+      "confidence": "hi"
+    },
+    "S1.15": {
+      "answer": "mentre",
+      "confidence": "hi"
+    },
+    "S1.16": {
+      "answer": "prima di",
+      "confidence": "hi"
+    },
+    "S1.17": {
+      "answer": "Anche se",
+      "confidence": "hi"
+    },
+    "S1.18": {
+      "answer": "purché",
+      "confidence": "hi"
+    },
+    "S1.19": {
+      "answer": "tuttavia",
+      "confidence": "hi"
+    },
+    "S1.20": {
+      "answer": "In definitiva",
+      "confidence": "hi"
+    },
+    "S2.1": {
+      "answer": "si diffuse",
+      "confidence": "hi"
+    },
+    "S2.2": {
+      "answer": "si spostavano",
+      "confidence": "hi"
+    },
+    "S2.3": {
+      "answer": "fosse",
+      "confidence": "hi"
+    },
+    "S2.4": {
+      "answer": "iniziarono",
+      "confidence": "hi"
+    },
+    "S2.5": {
+      "answer": "immaginava",
+      "confidence": "hi"
+    },
+    "S2.6": {
+      "answer": "potesse",
+      "confidence": "hi"
+    },
+    "S2.7": {
+      "answer": "capitava",
+      "confidence": "hi"
+    },
+    "S2.8": {
+      "answer": "si consumavano",
+      "confidence": "hi"
+    },
+    "S2.9": {
+      "answer": "passò",
+      "confidence": "hi"
+    },
+    "S2.10": {
+      "answer": "abbia",
+      "confidence": "med"
+    },
+    "S2.11": {
+      "answer": "venivano serviti",
+      "confidence": "hi"
+    },
+    "S2.12": {
+      "answer": "assumessero",
+      "confidence": "hi"
+    },
+    "S2.13": {
+      "answer": "scrive",
+      "confidence": "med"
+    },
+    "S2.14": {
+      "answer": "stavano",
+      "confidence": "hi"
+    },
+    "S2.15": {
+      "answer": "morivano",
+      "confidence": "med"
+    },
+    "S2.16": {
+      "answer": "Essendo",
+      "confidence": "hi"
+    },
+    "S2.17": {
+      "answer": "venivano riusati",
+      "confidence": "hi"
+    },
+    "S2.18": {
+      "answer": "ricongelando",
+      "confidence": "hi"
+    },
+    "S2.19": {
+      "answer": "furono sostituiti",
+      "confidence": "hi"
+    },
+    "S2.20": {
+      "answer": "iniziarono",
+      "confidence": "hi"
+    },
+    "S3.1": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.2": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.3": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.4": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.5": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.6": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.7": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.8": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.9": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.10": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.11": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.12": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.13": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.14": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.15": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S4.1": {
+      "answer": "UNA CONVENZIONE CON IL COMUNE SARÀ FIRMATA DAI SOGGETTI SELEZIONATI.",
+      "confidence": "hi"
+    },
+    "S4.2": {
+      "answer": "GLI OBBLIGHI DI COMUNICAZIONE SARANNO INDICATI NELLA CONVENZIONE.",
+      "confidence": "hi"
+    },
+    "S4.3": {
+      "answer": "EVENTUALI VARIAZIONI DI DATE O LUOGHI DOVRANNO ESSERE COMUNICATE DAL RESPONSABILE ALMENO DIECI GIORNI PRIMA DELL'EVENTO.",
+      "confidence": "hi"
+    },
+    "S4.4": {
+      "answer": "IN CASO DI INCOMPLETEZZA DELLA DOCUMENTAZIONE FINALE, IL SALDO POTRÀ ESSERE SOSPESO.",
+      "confidence": "hi"
+    },
+    "S4.5": {
+      "answer": "L'ACCESSIBILITÀ DEGLI SPAZI DOVRÀ ESSERE GARANTITA DAGLI ORGANIZZATORI.",
+      "confidence": "hi"
+    },
+    "S4.6": {
+      "answer": "IL LOGO ISTITUZIONALE DOVRÀ ESSERE USATO CORRETTAMENTE DAGLI ORGANIZZATORI NEI MATERIALI PUBBLICI.",
+      "confidence": "hi"
+    }
+  },
+  "flags": [],
+  "writing_checks": {
+    "W1": {
+      "selected_trace": "1",
+      "word_count": 171,
+      "within_limit": true,
+      "text": "Considerare il silenzio una semplice scelta privata significa ignorare che il rumore non colpisce tutti allo stesso modo. Chi vive vicino a una tangenziale, a un locale notturno o a un cantiere permanente non può difendersi soltanto comprando finestre migliori o fuggendo nel fine settimana. Per questo ritengo che il silenzio debba essere protetto come un bene pubblico, al pari dell'aria pulita o del verde urbano. Naturalmente ognuno ha una responsabilità: abbassare la voce nei luoghi condivisi, limitare l'uso inutile del clacson, rispettare gli orari di riposo. Tuttavia queste scelte restano fragili se non sono sostenute da regole e da una progettazione intelligente. Servono limiti più rigorosi per traffico e movida, scuole e ospedali schermati, quartieri con spazi dove camminare senza essere aggrediti dal frastuono. Difendere il silenzio non vuol dire rendere la città muta, ma permettere alle parole, al sonno e alla concentrazione di avere un posto. In una società che corre sempre, creare pause condivise è anche una forma di giustizia: restituisce tempo a chi non può comprarselo altrove."
+    },
+    "W2": {
+      "selected_trace": "2",
+      "word_count": 110,
+      "within_limit": true,
+      "text": "Gentili responsabili dell'Associazione Via degli Dei,\n\nvi scrivo in merito al cammino organizzato dal 12 al 16 giugno. Il 13 giugno, poche ore prima del mio arrivo a Sasso Marconi, la struttura convenzionata ha annullato la prenotazione, lasciandomi senza indicazioni alternative. Ho dovuto cercare una pensione fuori dal percorso e sostenere 48 euro aggiuntivi, oltre al costo di un breve trasferimento in treno. Comprendo che possano verificarsi imprevisti, ma ritengo necessario un sistema di reperibilità più efficace e un elenco aggiornato di strutture sostitutive. Vi chiedo quindi il rimborso delle spese documentate e un riscontro scritto sui provvedimenti previsti. Allego ricevute e conferma della cancellazione ricevuta.\n\nCordiali saluti,\nMarco Bianchi"
+    }
+  }
+}

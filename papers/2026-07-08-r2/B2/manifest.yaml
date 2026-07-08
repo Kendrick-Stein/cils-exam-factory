@@ -1,0 +1,123 @@
+exam: cils
+level: B2
+session: 2026-07-08-r2
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2026/economia-circolare-italia-leader-in-europa-ma-ancora-troppo-dipendente-dalle-importazioni-di-materiali.html
+  title: 'Economia circolare: Italia leader in Europa, ma ancora troppo dipendente
+    dalle importazioni di materiali'
+  publisher: ENEA media / Circular Economy Network
+  published: '2026-05-14'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  note: off-whitelist institutional source; adapted text within target band
+  words_used: 1
+- id: T2
+  url: https://www.portaledeigiovani.it/scheda/volontari-da-impiegare-progetti-di-servizio-civile-universale
+  title: Bando di Servizio Civile Universale — scadenza prorogata
+  publisher: Portale dei Giovani / Eurodesk Italy
+  published: '2026-04-07'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  note: adapted text within target band
+  words_used: 1
+- id: T3
+  url: https://www.viaggiapiccoli.com/cosa-vedere-a-palermo-in-un-giorno/
+  title: 'Cosa vedere a Palermo in un giorno: itinerario a piedi tra mercati, chiese
+    e profumi'
+  publisher: Viaggiapiccoli
+  published: '2026-01-21'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  note: adapted text within target band
+  words_used: 1
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/07/08/la-musica-piace-gia-a-tre-mesi-ma-solo-a-un-anno-ci-si-muove-a-ritmo_4a5920aa-aafe-4796-850c-d9f67ad39e16.html
+  title: La musica piace già a 3 mesi, ma solo a 1 anno ci si muove a ritmo
+  publisher: ANSA Scienza
+  published: '2026-07-08'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  note: adapted text within target band
+  words_used: 1
+- id: T5
+  url: https://www.ansa.it/donne/notizie/2026/03/26/linda-calistri-la-piu-giovane-pilota-di-linea-una-passione-nata-tutta_009cd181-6cf5-4e67-a4d4-009845b66762.html
+  title: 'Linda Calistri, la più giovane pilota di linea: una passione nata tutta
+    in famiglia'
+  publisher: ANSA Donne
+  published: '2026-04-08'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  note: adapted text within target band
+  words_used: 1
+- id: T6
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/bologna-estate-colora-la-citta
+  title: Bologna Estate colora la città
+  publisher: Comune di Bologna
+  published: '2026-05-13'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  note: adapted text within target band
+  words_used: 1
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: 2026-07-08T17:48+08:00
+    agent: codex
+    result: 6/6 authentic source slots selected; source metadata and adaptation notes
+      recorded in sources.md
+  - stage: authoring
+    at: 2026-07-08T17:48+08:00
+    executor: codex
+    result: paper.md, answers.md, and key.json present; all text slots within template
+      length bands
+  - stage: quality_audit
+    at: '2026-07-08T14:01:53+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-08T14:06:41+00:00'
+    agreement: 82/87
+    flags: 6
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-08T14:58:47+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-07-08T14:58:50+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-08T15:01:58+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-08T15:02:02+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
+  audit_result: pass
+  audit_issues: 0

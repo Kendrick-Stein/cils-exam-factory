@@ -1,6 +1,6 @@
 # Paper Generation Pipeline (S0–S7)
 
-Source of truth for generating one **session** (a dated batch) of practice papers. Default: exam `cils`, levels `A1,A2,B1,B2,C1`, session = today's local date.
+Source of truth for generating one **session** (a dated batch) of practice papers. Default: exam `cils`, levels `A1,A2,B1,B2,C1`, session = today's local date. Use a revision session such as `YYYY-MM-DD-r2` when regenerating the same day without overwriting a published `YYYY-MM-DD` session.
 
 ## Actors
 
@@ -10,7 +10,8 @@ Source of truth for generating one **session** (a dated batch) of practice paper
 | **corpus-hunter** | Agent tool, role file `.claude/agents/corpus-hunter.md` | same prompt run in-context |
 | **item-writer** | Agent tool, role file `.claude/agents/item-writer.md` | same prompt run in-context |
 | **blind-solver** | Agent tool, role file `.claude/agents/blind-solver.md` — **fresh context, gets ONLY `paper.md`, no web tools** | fresh `codex exec --sandbox read-only` subprocess |
-| **format-auditor** | Agent tool, role file `.claude/agents/format-auditor.md` | same prompt run in-context |
+| **format-auditor** | deterministic `scripts/format_audit.py` gate | same local command |
+| **quality-auditor** | deterministic `scripts/paper_quality_audit.py` gate | same local command |
 
 Levels are independent: run S1–S5 for different levels in parallel where the harness allows; S6–S7 run once per session at the end.
 
@@ -21,6 +22,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 ## Stages
 
 ### S0 — Scaffold (orchestrator)
+- Preflight: if `papers/<date>/<LEVEL>/manifest.yaml` already exists with `status: published`, refuse to overwrite it. Use a new date or a same-day revision session such as `YYYY-MM-DD-r2`.
 - Create `papers/<date>/<LEVEL>/`; write `manifest.yaml` stub: `exam`, `level`, `session`, `title` (from `exam.yaml` `level_name` + "· Esercitazione"), `status: draft`, empty `sources`, `pipeline.generator`, `pipeline.template`.
 - Load the level's entry in `factory/exams/cils/exam.yaml` and its template `factory/exams/cils/templates/<LEVEL>.md`.
 
@@ -33,9 +35,9 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 
 ### S2 — Authoring (item-writer)
 - **Input:** template, `sources.md`, `factory/exams/cils/style-guide.md`, `factory/validation/checklist.md` (item-quality section).
-- **Work:** fill the template **exactly** — item counts, points, durations and consegna wording are immutable; adapt each text to its length band, ending with the attribution line «Testo adattato da: *Titolo*, Publisher, URL, consultato il GG/MM/AAAA»; write the answers part: chiavi table (`Item | Risposta | Spiegazione`, explanations 1–3 lines with a short 中文 note on the tricky point), one 范文 per writing task (inside the required word range, level-appropriate, followed by 3–5 "espressioni utili"), and the **Glossario da ricordare** (15–25 rows: Parola/Espressione | Categoria | 中文 | EN | Esempio dal testo).
+- **Work:** fill the template **exactly** — item counts, points, durations and consegna wording are immutable; adapt each text to its length band while preserving source facts and voice; keep source credit in `manifest.yaml`, not visible in `paper.md`; write the answers part: chiavi table (`Item | Risposta | Spiegazione`, explanations 1–3 lines with a short 中文 note on the tricky point), one 范文 per writing task (inside the required word range, level-appropriate, followed by 3–5 "espressioni utili"), and the **Glossario da ricordare** (15–25 rows: Parola/Espressione | Categoria | 中文 | EN | Esempio dal testo).
 - **Output:** complete `paper.md` + `answers.md` (front-matter per plan schema) + `key.json` (machine-readable key: `{"L1.1": "B", …, "L3": "A-D-…", "S1.1": "la", …}`) for mechanical reconciliation.
-- **Gate (orchestrator, mechanical):** per-prova item counts match `exam.yaml`; no unreplaced `{{slots}}`; attribution present per text; writing word ranges printed; points sums correct.
+- **Gate (orchestrator, mechanical):** per-prova item counts match `exam.yaml`; no unreplaced `{{slots}}`; no visible source attribution lines in `paper.md`; manifest source entries complete; writing word ranges printed; points sums correct.
 
 ### S3 — Blind validation (blind-solver, isolation is the point)
 - **Input:** `paper.md` ONLY. No `answers.md`, no `sources.md`, no web access, no other repo files. Mechanics: run `python3 scripts/blind_validation.py prepare --paper-dir papers/<date>/<LEVEL>` to copy `paper.md` alone into an isolated dir outside the repo (`/tmp/cils-blind-<session>-<level>/`) and hand the solver only that path — or paste the paper text into the prompt.
@@ -50,13 +52,19 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - **Manifest:** append each `blind_validation` (with `agreement: "n/m"`, `flags`) and `reconcile` (with `round`, `fixed_items`) entry; set `validation:` block with final numbers.
 
 ### S5 — Format audit (format-auditor)
-- **Input:** `paper.md`, `answers.md`, template, `exam.yaml`, `factory/validation/checklist.md` (format section), style-guide.
-- **Work:** line-by-line checklist verdict (PASS/FAIL + fix list): structure order, headings, counts, point statements, durations, word ranges, attribution lines, answers/glossario completeness, markdown conventions (consegne as blockquotes, tables well-formed).
+- **Input:** `paper.md`, `answers.md`, `key.json`, `manifest.yaml`, template, `exam.yaml`, `factory/validation/checklist.md` (format section), style-guide.
+- **Work:** run `python3 scripts/format_audit.py --session <date> --levels <levels> --report papers/<date>/format-audit.json --write-manifest`. It checks required files, front matter/session/level consistency, official-style cover and answer-sheet markers, section order, prova heading counts, source attribution kept out of `paper.md`, B2/C1 inline point leakage, study-aid leakage, and valid `key.json`.
 - Orchestrator applies fixes; one re-audit if anything failed. PASS required.
-- **Manifest:** append `{stage: format_audit, result}`; on PASS set `status: published`.
+- **Manifest:** append `{stage: format_audit, result}`; keep `status: draft` until S5b quality audit also passes.
+
+### S5b — Quality audit (deterministic)
+- **Input:** `paper.md`, `manifest.yaml`, `exam.yaml`, and the whole session's manifests.
+- **Work:** run `python3 scripts/paper_quality_audit.py --session <date> --levels <levels> --report papers/<date>/quality-audit.json --write-manifest`.
+- **Gate:** PASS required. The audit checks official-style student-paper separation, reading and structure text length bands, C1 P4 continuous-text shape, B2/C1 item-depth signals, declared variant/source policy, source slot coverage/`words_used`, and cross-level source reuse. Any failure keeps the affected level in `draft` until repaired and re-audited.
+- **Manifest:** append `{stage: quality_audit, result, issues}`; keep `quality.audit_result: pass`. Only after blind validation, format audit and quality audit all pass may the orchestrator set `status: published`.
 
 ### S6 — Build (deterministic)
-- `python3 scripts/build_site.py` (add `--no-pdf` only for previews). The builder enforces the publish gate for `status: published` manifests: validation pass, 100% blind agreement, zero flags, zero mismatches, and latest `format_audit` result pass. Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains paper/answers in html+pdf+md for every published level.
+- `python3 scripts/build_site.py` (add `--no-pdf` only for previews). The builder enforces the publish gate for `status: published` manifests: validation pass, 100% blind agreement, zero flags, zero mismatches, latest `quality_audit` result pass, and latest `format_audit` result pass. Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains paper/answers in html+pdf+md for every published level.
 - Optional status audit before publish: `python3 scripts/paper_status.py --session <date> --levels A1,A2,B1,B2,C1` reports publishable levels and the next missing stage for drafts.
 
 ### S7 — Publish
@@ -70,6 +78,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 | S2 gates | 1 rewrite | level → draft (`reason: authoring`) |
 | S3/S4 | ≤2 repair rounds | level → draft (`reason: validation`) |
 | S5 | 1 re-audit | level → draft (`reason: format`) |
+| S5b | repair, re-audit | level → draft (`reason: quality`) |
 | S6 | fix build env, retry once | stop before publish, report |
 
 A drafted level never blocks the others; the session publishes whatever passed all gates.

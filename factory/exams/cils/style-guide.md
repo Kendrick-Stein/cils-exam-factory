@@ -23,7 +23,7 @@ Always bold-italic in the real papers; in markdown they live in blockquotes. Can
 - Cloze lessicale MC: «Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE…»
 - Situazioni comunicative: «Scegli per ogni espressione una delle quattro situazioni di comunicazione. DEVI SCRIVERE…»
 - Writing word count: «Devi scrivere da X a Y parole.» — always its own line.
-- Points statement (blue print in the originals): «Punteggio massimo: punti N — punti X per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.» Ricostruzione variant: «punti 0,6 per ogni legame ricostruito in modo consequenziale; punti 0 per ogni legame ricostruito in modo non consequenziale o omesso.»
+- Points statement: when present in official materials, keep it on criteria/scoring pages, not inside B2/C1 prova bodies. The official 2024 B2/C1 quaderni do not print per-prova scoring lines in the student item pages.
 
 ## 3. Items & examples
 
@@ -38,13 +38,13 @@ Always bold-italic in the real papers; in markdown they live in blockquotes. Can
 
 - Boxed in the original, centred ALL-CAPS title. In markdown: `### TITLE` above the text.
 - Interviews: interviewer questions bold, answers plain.
-- **Attribution (our deviation, required):** every adapted text ends with `*Testo adattato da: Titolo, Testata, URL, consultato il GG/MM/AAAA*`. The dic-2024 papers use purpose-written texts without attribution; we use credited authentic sources instead — this is the factory's core feature, and mirrors the linee guida's own «Adattamento di testi di giornali, siti internet…».
+- **Source attribution:** student `paper.md` must not print source attribution lines. The dic-2024 papers do not show `Testo adattato da` in the quaderno; this factory keeps source credit and adaptation metadata in `manifest.yaml` and audit files instead.
 - Text-selection rules (linee guida § 1.4.3.2): no culture-bound trivia required for comprehension; no religious/moral/political content; lexis within level (De Mauro VdB + level's lessico comune quota); anything outside must be inferable from context.
 
 ## 5. Answer sheet & writing space (our practical adaptations)
 
-- Real exams use optical sheets + barcoded writing sheets. Practice papers end with a simplified **"Foglio delle risposte"** (one grid per prova) and writing prove include a lined box in-paper.
-- Real B1+ papers put writing prompts on separate sheets; we print them in-paper (the Cittadinanza variant does too, so the pattern is authentic).
+- Real exams use optical sheets + barcoded writing sheets. Practice papers include an **"ESEMPIO DI FOGLIO DELLE RISPOSTE"** near the cover; any simplified answer grid is a practice artifact, not a source of solutions.
+- Real B1+ papers put writing prompts on separate sheets; when the generator prints them in-paper for practice, it must still keep keys, criteria, model answers and study aids in `answers.md`.
 - STAMPATELLO note is kept for open-cloze grids (authentic flavour, useful habit).
 
 ## 6. Answers file (`answers.md`)

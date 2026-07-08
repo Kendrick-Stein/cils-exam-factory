@@ -1,0 +1,158 @@
+exam: cils
+level: A2
+session: 2026-07-08-r2
+title: CILS A2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/toscana/notizie/2025/05/26/fratello-e-sorella-gemelli-festeggiano-100-anni-a-bagno-a-ripoli_89be1366-ef3d-4b1a-b088-5504b004084e.html
+  title: 'Spengono duecento candeline in due: la festa di Paola e Paolo, due gemelli
+    di 100 anni'
+  publisher: ANSA
+  published: '2025-05-26'
+  accessed: '2026-07-08'
+  used_in: L1
+  adapted: true
+  words_used: 1
+- id: T2
+  url: https://www.bibliotecasalaborsa.it/documents/prestito
+  title: Prendere in prestito
+  publisher: Biblioteca Salaborsa, Bologna
+  published: 2021-05-21; aggiornato 2024-09-19
+  accessed: '2026-07-08'
+  used_in: L2
+  adapted: true
+  words_used: 1
+- id: T3a
+  url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
+  title: Bruschetta al pomodoro fresco
+  publisher: GialloZafferano
+  published: '2017-08-04'
+  accessed: '2026-07-08'
+  used_in: L3.1
+  adapted: true
+  words_used: 1
+- id: T3b
+  url: https://www.trenitalia.com/it/offerte/promo-italia-in-tour.html
+  title: Italia in Tour — 3 giorni di viaggio a 35€
+  publisher: Trenitalia
+  accessed: '2026-07-08'
+  used_in: L3.2
+  adapted: true
+  words_used: 1
+- id: T3c
+  url: https://www.museiincomuneroma.it/it/notizie/domenica-1-febbraio-2026-ingresso-gratuito-nei-musei-civici-e-siti-archeologici-di-roma
+  title: Domenica 1° febbraio 2026 ingresso gratuito nei musei civici e siti archeologici
+    di Roma
+  publisher: Musei in Comune Roma
+  published: '2026-01-27'
+  accessed: '2026-07-08'
+  used_in: L3.3
+  adapted: true
+  words_used: 1
+- id: T3d
+  url: https://www.bibliotecasalaborsa.it/ragazzi/news/estate-2026-gli-orari-di-salaborsa-ragazzi
+  title: Estate 2026 | Gli orari di Salaborsa Ragazzi
+  publisher: Biblioteca Salaborsa Ragazzi, Bologna
+  published: '2026-06-11'
+  accessed: '2026-07-08'
+  used_in: L3.4
+  adapted: true
+  words_used: 1
+- id: T3e
+  url: https://www.comune.torino.it/novita/comunicati/estate-torino-programmazione-2026-nei-punti-estivi-della-citta-aperture-delle
+  title: Estate a Torino, la programmazione 2026 nei Punti estivi della Città e le
+    aperture delle piscine comunali
+  publisher: Città di Torino
+  published: '2026-06-22'
+  accessed: '2026-07-08'
+  used_in: L3.5
+  adapted: true
+  words_used: 1
+- id: T3f
+  url: https://www.comune.torino.it/schede-informative/consegna-farmaci-domicilio
+  title: Consegna farmaci a domicilio
+  publisher: Città di Torino
+  published: aggiornata 2026-06-04
+  accessed: '2026-07-08'
+  used_in: L3.6
+  adapted: true
+  words_used: 1
+- id: T4
+  url: https://www.comune.torino.it/vivere-comune/luoghi/mercato-repubblicaporta-palazzo
+  title: Mercato Repubblica/Porta Palazzo
+  publisher: Città di Torino
+  published: aggiornamento 2025-12-31
+  accessed: '2026-07-08'
+  used_in: S1
+  adapted: true
+  words_used: 1
+- id: T5
+  url: https://www.viaggiapiccoli.com/la-fattoria-bosco-verde-a-civitella-di-romagna/
+  title: 'La Fattoria Bosco Verde a Civitella: nel cuore delle colline romagnole'
+  publisher: Viaggiapiccoli
+  published: '2024-04-25'
+  accessed: '2026-07-08'
+  used_in: S2
+  adapted: true
+  words_used: 1
+- id: T6
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/lestate-non-ferma-le-attivita-ragazze-e-ragazzi-di-bologna-arriva-il-maxi-calendario-dei-centri
+  title: 'L''estate non ferma le attività per ragazze e ragazzi di Bologna: arriva
+    il maxi-calendario dei centri Cresco'
+  publisher: Comune di Bologna
+  published: '2026-06-26'
+  accessed: '2026-07-08'
+  used_in: S3
+  adapted: true
+  words_used: 1
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: 2026-07-08T16:35+08:00
+    agent: corpus-hunter
+    result: 6/6 slot OK
+  - stage: authoring
+    at: 2026-07-08T16:34+08:00
+    executor: codex
+  - stage: quality_audit
+    at: '2026-07-08T14:01:53+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-08T14:06:41+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-07-08T14:58:50+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-08T15:01:58+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-08T15:02:02+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-08T15:07:27+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
+  audit_result: pass
+  audit_issues: 0

@@ -2,7 +2,7 @@
 # corpus-hunter picks from here first; anything else needs a note in sources.md explaining why.
 
 rules:
-  attribution: "Testo adattato da: <titolo>, <testata/sito>, <url>, consultato il <gg/mm/aaaa>"
+  source_credit_manifest: "<titolo>, <testata/sito>, <url>, consultato il <gg/mm/aaaa> (store in manifest.yaml; do not print in paper.md)"
   paywalled_full_texts: forbidden          # if a fetch hits a paywall wall, drop the candidate
   invented_text: forbidden                 # every sentence must originate in the fetched page (trims/simplifications allowed per level)
   recency: "cronaca/blog: prefer < 12 months old; realia/letteratura: any age"

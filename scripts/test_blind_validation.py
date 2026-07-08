@@ -15,15 +15,15 @@ def write_text(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def make_paper(root: Path) -> Path:
-    paper_dir = root / "papers" / "2000-01-02" / "B1"
+def make_paper(root: Path, session: str = "2000-01-02") -> Path:
+    paper_dir = root / "papers" / session / "B1"
     write_text(
         paper_dir / "paper.md",
-        """---
+        f"""---
 exam: CILS
 level: B1
 level_name: "CILS UNO — B1"
-session: "2000-01-02"
+session: "{session}"
 kind: paper
 ---
 
@@ -52,9 +52,9 @@ kind: paper
     )
     write_text(
         paper_dir / "manifest.yaml",
-        """exam: cils
+        f"""exam: cils
 level: B1
-session: "2000-01-02"
+session: "{session}"
 title: "Fixture"
 status: draft
 sources: []
@@ -183,6 +183,29 @@ W1: ok
         ):
             if needle not in manifest:
                 raise AssertionError(f"manifest missing {needle!r}:\n{manifest}")
+
+    with tempfile.TemporaryDirectory(prefix="cils-blind-validation-revision-") as tmp:
+        tmp_root = Path(tmp)
+        paper_dir = make_paper(tmp_root, session="2000-01-02-r2")
+        blind_root = tmp_root / "blind-root"
+
+        prepare = run_cmd(
+            [
+                str(script),
+                "prepare",
+                "--paper-dir",
+                str(paper_dir),
+                "--tmp-root",
+                str(blind_root),
+            ],
+            cwd=repo_root,
+        )
+        prepare_report = json.loads(prepare.stdout)
+        isolated_paper = Path(prepare_report["isolated_paper"])
+        if isolated_paper != blind_root / "cils-blind-2000-01-02-r2-B1" / "paper.md":
+            raise AssertionError(f"unexpected revision blind path: {isolated_paper}")
+        if not isolated_paper.exists():
+            raise AssertionError("revision prepare did not copy paper.md")
 
     with tempfile.TemporaryDirectory(prefix="cils-blind-validation-unsafe-") as tmp:
         tmp_root = Path(tmp)
@@ -431,6 +454,51 @@ FLAGS
         report = json.loads(reconcile.stdout)
         if report["result"] != "pass":
             raise AssertionError(f"capitalization-only differences should pass: {report}")
+
+    with tempfile.TemporaryDirectory(prefix="cils-blind-validation-alternatives-") as tmp:
+        tmp_root = Path(tmp)
+        paper_dir = make_paper(tmp_root)
+        write_text(
+            paper_dir / "key.json",
+            json.dumps(
+                {
+                    "S1.1": "in particolare || soprattutto",
+                    "S1.2": "ma || bensì",
+                    "S1.3": "UNA CONVENZIONE SARÀ FIRMATA DAI SOGGETTI SELEZIONATI CON IL COMUNE. || UNA CONVENZIONE CON IL COMUNE SARÀ FIRMATA DAI SOGGETTI SELEZIONATI.",
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+        )
+        blind_output = tmp_root / "blind-output.txt"
+        write_text(
+            blind_output,
+            """ANSWERS
+{
+  "S1.1": {"answer": "soprattutto", "confidence": "hi"},
+  "S1.2": {"answer": "BENSÌ", "confidence": "hi"},
+  "S1.3": {"answer": "UNA CONVENZIONE CON IL COMUNE SARÀ FIRMATA DAI SOGGETTI SELEZIONATI.", "confidence": "hi"}
+}
+FLAGS
+[]
+""",
+        )
+        reconcile = run_cmd(
+            [
+                str(script),
+                "reconcile",
+                "--paper-dir",
+                str(paper_dir),
+                "--blind-output",
+                str(blind_output),
+            ],
+            cwd=repo_root,
+        )
+        report = json.loads(reconcile.stdout)
+        if report["result"] != "pass":
+            raise AssertionError(f"declared alternative answers should pass: {report}")
+        if report["agreement"] != "3/3":
+            raise AssertionError(f"unexpected alternative-answer agreement: {report}")
 
     with tempfile.TemporaryDirectory(prefix="cils-blind-validation-aliases-") as tmp:
         tmp_root = Path(tmp)

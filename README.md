@@ -20,16 +20,16 @@ authentic web texts ──► corpus hunter (search, clean, CEFR-grade)
                         ──► HTML + PDF build ──► published here
 ```
 
-- Texts are **authentic** (news, blogs, institutional sites, public-domain literature), abridged and adapted with credit — «Testo adattato da …» — exactly as real CILS papers do. Every source URL and access date is recorded in the paper's `manifest.yaml`.
+- Texts are **authentic** (news, blogs, institutional sites, public-domain literature), abridged and adapted within level norms. Source credit, URLs, access dates, and word counts are recorded in each paper's `manifest.yaml`; the student copy stays closer to official CILS quaderni and does not print source-credit lines.
 - A paper is published only if an independent "blind solver" agent, given the student copy alone, reproduces the answer key exactly and flags no ambiguity.
 - Templates were derived from official December 2024 CILS papers (structure, item counts, points, timing, instruction wording). Official papers are **not** redistributed here.
 
 ## Run it yourself
 
-Open this repo in Claude Code and run `/genpapers` (see `CLAUDE.md`), or ask Codex for `Make Paper` / `genpapers` and follow `AGENTS.md`. Requirements: Python 3.10+, Google Chrome (for PDF rendering), `pip install markdown pyyaml`.
+Open this repo in Claude Code and run `/genpapers` (see `CLAUDE.md`), or ask Codex for `Make Paper` / `genpapers` and follow `AGENTS.md`. Session names are `YYYY-MM-DD`; same-day revisions use `YYYY-MM-DD-rN`. Requirements: Python 3.10+, Google Chrome (for PDF rendering), `pip install markdown pyyaml`.
 
 Published papers are built into `docs/`. The GitHub Actions workflow in `.github/workflows/pages.yml` deploys that directory to GitHub Pages after a push to `main`.
 
 ## Disclaimer
 
-This is an independent study project. It is **not affiliated with, nor endorsed by, the Università per Stranieri di Siena** (owner of the CILS certification). Generated papers are practice material only and do not guarantee equivalence with real exam difficulty or content. Adapted text excerpts remain © their original publishers, credited in each paper; practice materials are free for personal, non-commercial study.
+This is an independent study project. It is **not affiliated with, nor endorsed by, the Università per Stranieri di Siena** (owner of the CILS certification). Generated papers are practice material only and do not guarantee equivalence with real exam difficulty or content. Adapted text excerpts remain © their original publishers, credited in manifests; practice materials are free for personal, non-commercial study.

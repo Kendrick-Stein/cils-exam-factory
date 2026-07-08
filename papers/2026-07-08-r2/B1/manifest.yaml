@@ -1,0 +1,117 @@
+exam: cils
+level: B1
+session: 2026-07-08-r2
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/campania/notizie/2026/04/07/a-22-anni-rinuncia-alla-laurea-per-il-sogno-di-pasticciera_8831b282-a25c-442d-9df2-fe8e9577d242.html
+  title: A 22 anni rinuncia alla laurea per il sogno di pasticciera
+  publisher: ANSA (Campania)
+  published: '2026-04-07'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 1
+- id: T2
+  url: https://www.legambientelombardia.it/torna-il-concorso-fotografico-gratuito-il-mio-giardino-biodiverso-con-ledizione-2026-questo-giardino-non-e-un-hotel-o-forse-si/
+  title: Concorso fotografico «Il mio giardino biodiverso» — edizione 2026
+  publisher: Legambiente Lombardia
+  published: '2026-03-02'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  note: off-whitelist, giustificato in sources.md (bando/regolamento autentico, nessun
+    paywall)
+  words_used: 1
+- id: T3
+  url: https://www.viaggiapiccoli.com/gita-in-camper-nellappenino-emiliano/
+  title: Gita in camper nell'Appenino Emiliano
+  publisher: Viaggiapiccoli
+  published: '2024-05-14'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  note: più vecchio di 12 mesi (contenuto atemporale, giustificato)
+  words_used: 1
+- id: T4
+  url: https://www.ansa.it/sito/notizie/cronaca/2026/01/26/nato-a-parigi-vive-a-brescia-e-un-cucciolo-di-maine-coon-il-gatto-piu-bello_32f749a4-1857-44df-968e-1ba983fd6622.html
+  title: È un cucciolo di Maine Coon il gatto più bello del mondo
+  publisher: ANSA (Cronaca)
+  published: '2026-01-26'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 1
+- id: T5
+  url: https://unduetresiviaggia.it/da-informatico-a-travel-blogger-storytime/
+  title: Da informatico a travel blogger — storytime
+  publisher: Un due tre si viaggia
+  published: '2024-07-27'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  note: più vecchio di 12 mesi (contenuto atemporale, giustificato)
+  words_used: 1
+- id: T6
+  url: https://www.ansa.it/campania/notizie/2026/07/07/a-napoli-il-rifugio-climatico-culturale-con-laboratori-e-letture_15589e2c-0a7c-4d1d-b850-52b07278e34d.html
+  title: A Napoli il «rifugio climatico culturale» con laboratori e letture
+  publisher: ANSA (Campania)
+  published: '2026-07-07'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 1
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: 2026-07-08T15:55+08:00
+    agent: corpus-hunter
+    result: 6/6 slot OK + realia P4; T1 sotto banda slot ma dentro banda ufficiale;
+      dettagli in sources.md
+  - stage: authoring
+    at: 2026-07-08T17:10+08:00
+    executor: codex
+    result: paper.md, answers.md, key.json present; no template placeholders
+  - stage: quality_audit
+    at: '2026-07-08T14:01:53+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-08T14:06:41+00:00'
+    agreement: 85/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-08T14:08:59+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-07-08T14:58:50+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-08T15:01:58+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-08T15:02:02+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
+  audit_result: pass
+  audit_issues: 0

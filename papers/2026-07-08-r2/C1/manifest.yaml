@@ -1,0 +1,120 @@
+exam: cils
+level: C1
+session: 2026-07-08-r2
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2026/05/22/dodo-aspetto-estinzione/
+  title: Da quattro secoli pensiamo ai dodo nel modo sbagliato
+  publisher: Il Post
+  published: '2026-05-22'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 555
+- id: T2
+  url: https://www.comune.bologna.it/amministrazione/concorsi-avvisi-bandi/avvisi-pubblici/contributi-progetti-di-promozione-culturale-anno-2026
+  title: Contributi per progetti di promozione culturale - Anno 2026
+  publisher: Comune di Bologna
+  published: '2026'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 547
+- id: T3
+  url: https://camminiditalia.org/oltre-la-comfort-zone-vi-racconto-la-mia-via-degli-dei/
+  title: Oltre la comfort zone — Vi racconto la mia Via degli Dei
+  publisher: Cammini d'Italia
+  published: '2024-10-18'
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 1
+- id: T4
+  url: https://www.doppiozero.com/fare-silenzio
+  title: Fare silenzio
+  publisher: Doppiozero
+  published: '2026-03-09'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 260
+- id: T5
+  url: https://www.ilpost.it/2022/08/14/gelati-pericolosi/
+  title: Quando i gelati erano pericolosi
+  publisher: Il Post
+  published: '2022-08-14'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 250
+- id: T6
+  url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/03/02/perche-il-cervello-non-resiste-agli-snack-anche-se-lo-stomaco-e-pieno_f4591d0c-e331-48f3-8101-f29ce67f5e12.html
+  title: Perché il cervello non resiste agli snack anche se lo stomaco è pieno
+  publisher: ANSA Scienza
+  published: '2026-03-02'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 220
+- id: T7
+  url: https://www.comune.bologna.it/amministrazione/concorsi-avvisi-bandi/avvisi-pubblici/contributi-progetti-di-promozione-culturale-anno-2026
+  title: Contributi per progetti di promozione culturale - Anno 2026
+  publisher: Comune di Bologna
+  published: '2026'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 4
+  adapted: true
+  words_used: 134
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: 2026-07-08T16:40+08:00
+    agent: corpus-hunter
+    result: 6/6 slot OK
+  - stage: authoring
+    at: 2026-07-08T16:45+08:00
+    executor: codex
+  - stage: quality_audit
+    at: '2026-07-08T14:01:53+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-08T14:06:41+00:00'
+    agreement: 73/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-08T14:08:59+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-07-08T14:58:50+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-08T15:01:58+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-08T15:02:02+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
+  audit_result: pass
+  audit_issues: 0

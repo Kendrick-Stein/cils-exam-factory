@@ -23,7 +23,7 @@ class ValidationError(Exception):
     """A user-facing validation error."""
 
 
-SAFE_SESSION = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+SAFE_SESSION = re.compile(r"^\d{4}-\d{2}-\d{2}(?:-r[1-9]\d*)?$")
 SAFE_LEVEL = re.compile(r"^[A-Za-z0-9_-]+$")
 ANSWER_ID_ALIASES = (
     (re.compile(r"^lettura_p(\d+)_(\d+)$", re.IGNORECASE), "L"),
@@ -201,10 +201,17 @@ def collapse_split_sequence_answers(key: dict[str, str], blind_answers: dict[str
     return collapsed
 
 
-def answers_match(expected: str, actual: str | None) -> bool:
+def answer_variants(expected: str) -> list[str]:
+    variants = [variant.strip() for variant in expected.split("||")]
+    return [variant for variant in variants if variant]
+
+
+def single_answer_matches(expected: str, actual: str | None) -> bool:
     if actual is None:
         return False
     if actual.casefold() == expected.casefold():
+        return True
+    if " ".join(actual.split()).casefold() == " ".join(expected.split()).casefold():
         return True
     if "-" in expected:
         expected_parts = [part.casefold() for part in re.split(r"\s*-\s*", expected.strip()) if part]
@@ -214,6 +221,10 @@ def answers_match(expected: str, actual: str | None) -> bool:
     if not expected.endswith("'"):
         return False
     return actual.casefold().startswith(expected.casefold()) and len(actual) > len(expected)
+
+
+def answers_match(expected: str, actual: str | None) -> bool:
+    return any(single_answer_matches(variant, actual) for variant in answer_variants(expected))
 
 
 def compare_answers(key: dict[str, str], blind_answers: dict[str, str], flags: list[dict[str, str]]) -> dict[str, Any]:

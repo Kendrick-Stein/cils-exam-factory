@@ -1,6 +1,6 @@
 ---
 name: genpapers
-description: Generate a dated batch of CILS-style practice papers (A1–C1, no listening) from authentic web texts, validate them with blind solving and format audit, build the static site and publish to GitHub Pages. Use when the user asks to generate exam papers / practice tests ("genpapers", "生成试卷", "make paper", "出题").
+description: Generate a dated batch of CILS-style practice papers (A1–C1, no listening) from authentic web texts, validate them with blind solving, quality audit and format audit, build the static site and publish to GitHub Pages. Use when the user asks to generate exam papers / practice tests ("genpapers", "生成试卷", "make paper", "出题").
 ---
 
 # /genpapers — orchestrate one session of the paper factory
@@ -12,11 +12,11 @@ You are the **orchestrator**. The workflow authority is `factory/PIPELINE.md` �
 `/genpapers [levels] [date] [--no-publish] [--exam cils]`
 
 - `levels`: comma list, default `A1,A2,B1,B2,C1`
-- `date`: session date `YYYY-MM-DD`, default today (local time)
+- `date`: session date `YYYY-MM-DD`, default today (local time); use `YYYY-MM-DD-rN` for a same-day revision session
 - `--no-publish`: stop after S6 (build), skip git commit/push
 - `--exam`: default `cils` → all specs read from `factory/exams/<exam>/`
 
-If the session dir for a level already exists **and was published**, refuse to overwrite (immutability) — offer a new date instead.
+If the session dir for a level already exists **and was published**, refuse to overwrite (immutability) — offer a new date or a same-day revision session such as `YYYY-MM-DD-r2` instead.
 
 ## Role dispatch — default executor: Codex (Claude orchestrates only)
 
@@ -45,9 +45,10 @@ Alternative (only when the user explicitly allows Claude subagents):
 ## Gates you enforce personally
 
 1. **S1 QC:** every text slot has an accepted candidate (genre, CEFR verdict, length band). Reject skimpy metadata.
-2. **S2 mechanical check:** count items per prova against `factory/exams/<exam>/exam.yaml`; verify point statements, attribution lines, no `{{slots}}` left.
+2. **S2 mechanical check:** count items per prova against `factory/exams/<exam>/exam.yaml`; verify point statements, no visible source attribution lines in `paper.md`, complete manifest source metadata, and no `{{slots}}` left.
 3. **S4 reconcile:** use `scripts/blind_validation.py reconcile` to diff key vs blind answers; any mismatch or flag → repair → fresh blind-check of affected prove; 100%/0-flags within 2 rounds or the level stays `draft`.
-4. **S5:** apply auditor fixes, re-audit once if needed; only then set `status: published`.
+4. **S5:** apply auditor fixes, re-audit once if needed.
+5. **S5/S5b:** run `python3 scripts/format_audit.py --session <date> --levels <published-candidates> --report papers/<date>/format-audit.json --write-manifest`, then `python3 scripts/paper_quality_audit.py --session <date> --levels <published-candidates> --report papers/<date>/quality-audit.json --write-manifest`; repair any failures (section order/counts, source/study-aid leakage, student-copy leakage, length/depth problems, missing quality metadata, cross-level reuse, variant mismatch) and rerun until pass. Only then set `status: published`.
 
 ## Build & publish
 

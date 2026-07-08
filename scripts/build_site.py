@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import re
 import shutil
 import subprocess
 import sys
@@ -27,6 +28,8 @@ DISCLAIMER = (
 )
 LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1"]
 MARKDOWN_EXTENSIONS = ["tables", "attr_list", "md_in_html", "sane_lists"]
+SAFE_LEVEL_RE = re.compile(r"^[A-Za-z0-9_-]+$")
+SESSION_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})(?:-r([1-9]\d*))?$")
 
 
 class BuildError(Exception):
@@ -157,7 +160,13 @@ def scan_papers(papers_root: Path) -> list[Paper]:
             raise BuildError(f"missing answers.md for published manifest: {manifest_path}")
 
         date, level, _ = relative_parts
+        if not SAFE_LEVEL_RE.fullmatch(level):
+            raise BuildError(f"unsafe level directory in published paper path: {manifest_path}")
         manifest_level = str(manifest.get("level") or level)
+        if not SAFE_LEVEL_RE.fullmatch(manifest_level):
+            raise BuildError(f"unsafe level in published manifest {manifest_path}: {manifest_level!r}")
+        if manifest_level != level:
+            raise BuildError(f"level mismatch in published manifest {manifest_path}: {manifest_level!r} != {level!r}")
         papers.append(Paper(date=date, level=manifest_level, root=paper_root, manifest=manifest))
 
     return papers
@@ -209,6 +218,16 @@ def validate_publish_gate(manifest_path: Path, manifest: dict[str, Any]) -> None
         for stage in stages
         if isinstance(stage, dict) and stage.get("stage") == "format_audit"
     ]
+    quality_results = [
+        str(stage.get("result", "")).lower()
+        for stage in stages
+        if isinstance(stage, dict) and stage.get("stage") == "quality_audit"
+    ]
+    quality_required = isinstance(manifest.get("quality"), dict)
+    if not quality_results and quality_required:
+        raise BuildError(f"publish gate failed for {manifest_path}: missing quality audit")
+    if quality_results and quality_results[-1] != "pass":
+        raise BuildError(f"publish gate failed for {manifest_path}: quality audit is not pass")
     if not format_results:
         raise BuildError(f"publish gate failed for {manifest_path}: missing format audit")
     if format_results[-1] != "pass":
@@ -343,7 +362,7 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
     for paper in papers:
         papers_by_date.setdefault(paper.date, []).append(paper)
 
-    sessions = sorted(papers_by_date, reverse=True)
+    sessions = sorted(papers_by_date, key=session_sort_key, reverse=True)
     latest_session = sessions[0] if sessions else ""
     total_papers = len(papers)
     total_sources = sum(paper.source_count for paper in papers)
@@ -380,15 +399,14 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
             )
 
         level_cards = "\n".join(cards)
-        latest_badge = '<span class="session-label">Ultima sessione</span>' if session == latest_session else ""
+        latest_badge = '\n      <span class="session-label">Ultima sessione</span>' if session == latest_session else ""
         session_cards.append(
             f"""  <section class="session-card" id="session-{html.escape(slug(session), quote=True)}">
     <div class="session-heading">
       <div>
         <p class="session-kicker">Sessione</p>
         <h2>{html.escape(session)}</h2>
-      </div>
-      {latest_badge}
+      </div>{latest_badge}
     </div>
     <div class="level-grid">
 {level_cards}
@@ -442,6 +460,14 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
 </body>
 </html>
 """
+
+
+def session_sort_key(session: str) -> tuple[str, int]:
+    match = SESSION_RE.fullmatch(session)
+    if not match:
+        return (session, 0)
+    base, revision = match.groups()
+    return (base, int(revision or "0"))
 
 
 def write_index(papers: list[Paper], out_root: Path) -> None:

@@ -6,7 +6,41 @@
 
 exam: cils
 name: "CILS — Certificazione di Italiano come Lingua Straniera (Università per Stranieri di Siena)"
-excluded_sections_note: "Ogni esame CILS reale ha 5 abilità; qui si generano solo lettura, analisi delle strutture e produzione scritta. Ascolto e produzione orale sono esclusi per progetto."
+excluded_sections_note: "Il modulo standard CILS valuta 5 abilità; alcune varianti ufficiali hanno struttura diversa. Questo factory genera solo lettura, analisi delle strutture e produzione scritta. Ascolto e produzione orale sono esclusi per progetto."
+
+variant_profiles:
+  cils-2024-standard:
+    module: standard
+    levels: [A1, A2, B1, B2, C1]
+    reading_p2_type: vero_falso
+    points_display: official_style
+    source_attribution: manifest-only
+    writing_prompt_location: practice_inline
+    answer_sheet_style: optical_2024_simplified
+    note: "Default practice profile for standard adult papers; B1/B2/C1 follows dic-2024 structure where available."
+  cils-2024-a2-integrazione:
+    module: a2_integrazione
+    levels: [A2]
+    sections: [lettura, scritta]
+    reading_prove: 2
+    structures: absent
+    source_attribution: manifest-only
+    writing_prompt_location: separate_barcoded_sheets
+    answer_sheet_style: optical_2024
+    note: "Official dic-2024 A2 Integrazione module; not the same as standard adult A2."
+  cils-2024-b1-cittadinanza:
+    module: b1_cittadinanza
+    levels: [B1]
+    source_attribution: manifest-only
+    writing_prompt_location: in_quaderno
+    answer_sheet_style: optical_2024
+    note: "Citizenship module variant; use only when explicitly requested."
+  cils-historical-info-presenti:
+    module: standard
+    levels: [B2, C1]
+    reading_p2_type: info_presenti_15
+    source_attribution: manifest-only
+    note: "Historical B2/C1 variant where reading P2 asks for informazioni presenti rather than 14 V/F items."
 
 levels:
   A1:
@@ -208,7 +242,7 @@ levels:
           - {n: 3, tipo: cloze_mc_4, focus: "lessico (anche colto/idiomatico)", items: 15, punti_item: 0.4, punti: 6,
              testo: {slot: T6, genere: "articolo informativo", parole: [200, 240]}}
           - {n: 4, tipo: trasformazione_frasi, focus: "riformulazione mantenendo il significato (registro, nominalizzazione, discorso indiretto)", items: 6, punti_item: 1, punti: 6,
-             testo: {slot: null, genere: "6 frasi con esempio (0) svolto", parole: null}}
+             testo: {slot: T7, genere: "testo continuo amministrativo/istituzionale da cui derivare 6 trasformazioni", parole: [130, 180]}}
       - id: scritta
         nome: "Test di produzione scritta"
         durata: "1 ora e 30 minuti"

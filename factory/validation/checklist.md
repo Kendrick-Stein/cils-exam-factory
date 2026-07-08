@@ -20,7 +20,7 @@ Two audiences: **item-writer** (write to these rules), **blind-solver/format-aud
 2. Section order, titles, durations and per-section point statements match `exam.yaml`.
 3. **Item counts per prova exactly** as `exam.yaml`; point sums correct (incl. scaling notes, e.g. B1 strutture 24→20).
 4. Consegne verbatim from the template (no improvised instructions); consegne rendered as blockquotes.
-5. Every reading text ends with its attribution line («Testo adattato da: …»); length inside the band in `factory/corpus/sources.yaml`.
+5. Source attribution lines are absent from `paper.md`; every source is traceable in `manifest.yaml`; authored text length stays inside the band in `exam.yaml`.
 6. No unreplaced `{{slots}}`, no English/中文 in `paper.md` (Italian only); items numbered per prova starting at 1 (esempio = 0).
 7. `answers.md`: chiavi table complete with qualified IDs (`L1.1`…), one spiegazione per item (with 中文 note), 范文 per writing task **within the printed word range** (count the words), 3–5 espressioni utili per 范文, Glossario 15–25 rows with all 5 columns filled.
 8. Markdown mechanics: tables well-formed, gaps rendered `__(n)__`, options as `A. / B. / C. (/ D.)` lines, no broken headings.
@@ -30,3 +30,18 @@ Two audiences: **item-writer** (write to these rules), **blind-solver/format-aud
 
 - Failing item = blind-solver mismatch **or** any ambiguity flag (a flag fails the item even when answers agree).
 - Repairs keep counts/points/consegne identical; re-validate affected prove with a **fresh** blind-solver; max 2 rounds, then `status: draft`.
+
+## D. Deterministic quality audit
+
+Run `python3 scripts/paper_quality_audit.py --session <date> --levels <levels> --report papers/<date>/quality-audit.json --write-manifest` before build/publish.
+
+The audit must PASS with zero issues. It checks:
+- `paper.md` keeps study aids out of the student copy; explanations, 范文, 中文 notes and glossario belong only in `answers.md`.
+- `manifest.yaml` declares `quality.variant_profile`, `quality.source_policy: excerpt-first`, `quality.source_attribution: manifest-only`, and a bounded `quality.max_rewrite`.
+- `manifest.yaml` contains every `exam.yaml` text slot used by the level, including sub-slots such as `T3a` for microtexts, and each source declares `words_used`.
+- Reading texts meet the `exam.yaml` length bands after authoring, not only in `sources.md`.
+- Structure-analysis texts with configured `testo.parole` also meet the `exam.yaml` length bands; C1 transformation P4 uses one continuous administrative/institutional text, not unrelated sentences.
+- Student copies do not print visible `Testo adattato da` source lines; source credit stays in `manifest.yaml`.
+- B2/C1 reading items include enough interpretation/inference/purpose/causal framing and are not only direct numeric lookup.
+- Source URLs are not reused across levels in the same session unless explicitly justified with `allow_cross_level_reuse: true`.
+- B2/C1 student copies follow the current official-paper convention of not printing inline per-prova scoring statements.

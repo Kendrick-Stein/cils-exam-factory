@@ -35,6 +35,7 @@ def test_claude_slash_command() -> None:
         "paper.md",
         "only",
         "--no-publish",
+        "YYYY-MM-DD-rN",
     ):
         assert_contains(path, text, needle)
 
@@ -55,8 +56,11 @@ def test_codex_make_paper_skill() -> None:
         "scripts/blind_validation.py prepare",
         "scripts/blind_validation.py reconcile",
         "scripts/paper_status.py",
+        "scripts/format_audit.py",
+        "scripts/paper_quality_audit.py",
         "codex exec --sandbox read-only",
         "scripts/build_site.py",
+        "YYYY-MM-DD-rN",
     ):
         assert_contains(path, text, needle)
 
@@ -70,6 +74,7 @@ def test_docs_point_to_both_entrypoints() -> None:
     for path, text in docs.items():
         assert_contains(path, text, "/genpapers")
         assert_contains(path, text, "Make Paper")
+        assert_contains(path, text, "YYYY-MM-DD-rN")
 
 
 def test_script_docs_cover_validation_helpers() -> None:
@@ -80,6 +85,8 @@ def test_script_docs_cover_validation_helpers() -> None:
         "scripts/blind_validation.py reconcile",
         "Publish gate",
         "zero flags",
+        "scripts/paper_quality_audit.py",
+        "scripts/format_audit.py",
     ):
         assert_contains(path, text, needle)
 
@@ -92,6 +99,8 @@ def test_pipeline_mentions_deterministic_validation_helpers() -> None:
         "scripts/blind_validation.py reconcile",
         "publish gate",
         "zero flags",
+        "quality_audit",
+        "scripts/paper_quality_audit.py",
         "format_audit",
         "git add papers/<date>/<published-levels> docs",
         "scripts/paper_status.py",

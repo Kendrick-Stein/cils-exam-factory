@@ -12,7 +12,7 @@ Delegate the full workflow to `.claude/skills/genpapers/SKILL.md`. Before doing 
 Defaults:
 - exam: `cils`
 - levels: `A1,A2,B1,B2,C1`
-- session date: today, unless a `YYYY-MM-DD` date is provided
+- session date: today, unless a `YYYY-MM-DD` date is provided; use `YYYY-MM-DD-rN` for a same-day revision session that must not overwrite a published session
 
 Supported option:
 - `--no-publish`: run through build validation and skip S7 commit/push.

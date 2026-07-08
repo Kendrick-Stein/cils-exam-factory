@@ -12,7 +12,7 @@ This is a Codex-facing entrypoint for the same factory used by Claude. Treat `AG
 Defaults:
 - exam: `cils`
 - levels: `A1,A2,B1,B2,C1`
-- session date: today's local date unless the user provides one
+- session date: today's local date unless the user provides one; use `YYYY-MM-DD-rN` for a same-day revision session that preserves published-paper immutability
 
 Core workflow:
 1. Read `factory/PIPELINE.md`, `AGENTS.md`, and the relevant CILS exam config/template files referenced by the pipeline.
@@ -30,15 +30,27 @@ Core workflow:
    python3 scripts/blind_validation.py reconcile --paper-dir papers/<date>/<LEVEL> --blind-output <blind-output.txt> --report papers/<date>/<LEVEL>/blind-validation.json --write-manifest
    ```
 
-   Any mismatch or flag is a failing item and must go back through S4 repair; do not mark the level publishable until the reconcile report passes and S5 format audit passes.
+   Any mismatch or flag is a failing item and must go back through S4 repair; do not mark the level publishable until the reconcile report passes, S5 format audit passes, and S5b quality audit passes.
 
-5. For S6, run:
+5. Before S6, run the deterministic format and quality gates:
+
+   ```bash
+   python3 scripts/format_audit.py --session <date> --levels <levels> --report papers/<date>/format-audit.json --write-manifest
+   ```
+
+   ```bash
+   python3 scripts/paper_quality_audit.py --session <date> --levels <levels> --report papers/<date>/quality-audit.json --write-manifest
+   ```
+
+   Repair any failures before publishing. The format gate checks student-paper structure and leakage; the quality gate checks official-style student-paper separation, declared variant/source policy, reading length, B2/C1 item depth, and cross-level source reuse.
+
+6. For S6, run:
 
    ```bash
    python3 scripts/build_site.py
    ```
 
-6. For S7, publish only after checking manifests: each staged level must be `status: published`, with 100% blind agreement, zero flags, and format PASS. Stage those publishable paper directories plus `docs/`, then commit and push. Skip this step when `--no-publish` is present.
+7. For S7, publish only after checking manifests: each staged level must be `status: published`, with 100% blind agreement, zero flags, quality PASS, and format PASS. Stage those publishable paper directories plus `docs/`, then commit and push. Skip this step when `--no-publish` is present.
 
 Useful status check before build/publish:
 

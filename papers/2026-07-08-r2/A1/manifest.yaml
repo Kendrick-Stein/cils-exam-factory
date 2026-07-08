@@ -1,0 +1,135 @@
+exam: cils
+level: A1
+session: 2026-07-08-r2
+title: CILS A1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.bibliotecasalaborsa.it/
+  title: Biblioteca Salaborsa — presentazione
+  publisher: Biblioteca Salaborsa (Bologna)
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 1
+- id: T2
+  url: https://www.museiincomuneroma.it/it/infopage/museo-civico-di-zoologia
+  title: Museo Civico di Zoologia — orari e biglietti
+  publisher: Musei in Comune Roma
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 1
+- id: T3a
+  url: https://www.trenitalia.com/it/informazioni.html
+  title: Avviso trasporto biciclette
+  publisher: Trenitalia
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 1
+- id: T3b
+  url: https://www.mercatodelleerbe.eu/
+  title: Avviso chiusure estive
+  publisher: Mercato delle Erbe (Bologna)
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  note: off-whitelist, giustificato in sources.md
+  words_used: 1
+- id: T3c
+  url: https://www.museiincomuneroma.it/it/didattica/notturno-con-la-scienza-0
+  title: Notturno con la scienza
+  publisher: Musei in Comune Roma
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 1
+- id: T3d
+  url: https://www.bibliotecasalaborsa.it/events/salaborsa_dal_1_luglio
+  title: Avviso servizi studio e prestito
+  publisher: Biblioteca Salaborsa (Bologna)
+  accessed: '2026-07-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 1
+- id: T4
+  url: https://www.mercatodelleerbe.eu/
+  title: Il Mercato delle Erbe — presentazione e orari
+  publisher: Mercato delle Erbe (Bologna)
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  note: off-whitelist, giustificato in sources.md
+  words_used: 1
+- id: T5
+  url: https://www.viaggiapiccoli.com/panchina-gigante-lago-di-garda-san-felice-del-benaco/
+  title: La panchina gigante del Lago di Garda
+  publisher: Viaggiapiccoli
+  published: '2024-04-18'
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  note: più vecchio di 12 mesi (contenuto atemporale, giustificato)
+  words_used: 1
+- id: T6
+  url: https://www.trenitalia.com/it/servizi/trasporto-animali-domestici.html
+  title: Viaggia in treno con il tuo animale domestico
+  publisher: Trenitalia
+  accessed: '2026-07-08'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 1
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: 2026-07-08T16:20+08:00
+    agent: corpus-hunter
+    result: 6/6 slot OK; fonti istituzionali/blog; adattamenti A2→A1; dettagli in
+      sources.md
+  - stage: authoring
+    at: 2026-07-08T17:10+08:00
+    executor: codex
+    result: paper.md, answers.md, key.json present; no template placeholders
+  - stage: quality_audit
+    at: '2026-07-08T14:01:53+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-08T14:06:41+00:00'
+    agreement: 44/44
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-08T14:11:03+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-07-08T14:58:50+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-08T15:01:58+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-08T15:02:02+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: light
+  audit_result: pass
+  audit_issues: 0

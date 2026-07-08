@@ -29,6 +29,8 @@ User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, bu
 | `factory/exams/cils/style-guide.md` | Layout & wording conventions from the real papers |
 | `factory/corpus/sources.yaml`, `cefr-criteria.md` | Where texts come from; how CEFR level is graded |
 | `factory/validation/checklist.md` | Quality gates |
+| `scripts/format_audit.py` | Deterministic paper-format, section-order, leakage and key-file audit |
+| `scripts/paper_quality_audit.py` | Deterministic official-style, difficulty, length and cross-level reuse audit |
 | `scripts/build_site.py` | `papers/` → `docs/` (HTML + PDF + index); `docs/` is the GitHub Pages root |
 | `papers/<date>/<LEVEL>/` | Generated output + `manifest.yaml` (provenance) |
 | `reference/` | LOCAL copies of official papers — gitignored, **never commit or republish** |
@@ -37,14 +39,14 @@ User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, bu
 ## Hard rules
 
 1. **Blind-solver isolation:** blind-solver agents receive ONLY `paper.md` — never `answers.md`, `sources.md`, or web access.
-2. **Publish gate:** a paper is publishable only when blind-solve agreement is 100% on objective items, 0 ambiguity flags, and format audit is PASS. Otherwise `manifest.yaml` keeps `status: draft` and the build skips it.
-3. **Immutability:** published papers never change; corrections go into a new dated session.
-4. **Authenticity:** every source text is a real published text, adapted with credit («Testo adattato da: …») and logged in the manifest.
-5. **Copyright:** nothing from `reference/` may be committed, and source texts are used only as attributed adapted excerpts within level norms.
+2. **Publish gate:** a paper is publishable only when blind-solve agreement is 100% on objective items, 0 ambiguity flags, quality audit is PASS, and format audit is PASS. Otherwise `manifest.yaml` keeps `status: draft` and the build skips it.
+3. **Immutability:** published papers never change; corrections go into a new dated or same-day revision session.
+4. **Authenticity:** every source text is a real published text; adaptations are logged and credited in `manifest.yaml`, not printed as source lines in the student paper.
+5. **Copyright:** nothing from `reference/` may be committed, and source texts are used only as manifest-attributed adapted excerpts within level norms.
 
 ## Conventions
 
-- Session dir = `YYYY-MM-DD` (local date of generation). One session may contain multiple levels.
+- Session dir = `YYYY-MM-DD` (local date of generation) or `YYYY-MM-DD-rN` for a same-day revision that preserves immutability. One session may contain multiple levels.
 - Commits: `feat(papers): <date> <levels>` for generated content; `feat(cils): …` for exam config; `feat:`/`fix:`/`docs:` otherwise.
-- After generation: `python3 scripts/build_site.py`, commit `papers/` + `docs/` together, push (that is the publish step).
+- After generation: run `python3 scripts/format_audit.py --session <date> --levels <levels> --report papers/<date>/format-audit.json --write-manifest`, then `python3 scripts/paper_quality_audit.py --session <date> --levels <levels> --report papers/<date>/quality-audit.json --write-manifest`, then `python3 scripts/build_site.py`, commit `papers/` + `docs/` together, push (that is the publish step).
 - Adding a new exam (CELI, DELF, JLPT…): create `factory/exams/<exam>/` mirroring the CILS layout; pipeline, agents and scripts are exam-agnostic.
