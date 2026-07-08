@@ -30,7 +30,7 @@ If the session dir for a level already exists **and was published**, refuse to o
 
 - If a named agent type is not registered (first session after install), fall back to `subagent_type: general-purpose` and paste the role file's body into the prompt.
 - Every dispatch prompt must state: level, session date, absolute file paths the role needs, and the exact output path.
-- **Blind-solver isolation (hard rule):** paste the full text of `paper.md` INTO the prompt; instruct it to use no files and no web. Never mention `answers.md`, `sources.md` or source URLs in that prompt.
+- **Blind-solver isolation (hard rule):** copy `paper.md` alone to an isolated dir outside the repo (`/tmp/cils-blind-<session>-<level>/paper.md`) and give the solver ONLY that absolute path ("read exactly this one file, nothing else, no web"). Never mention `answers.md`, `sources.md`, source URLs or the repo path in that prompt. (Pasting the full paper text into the prompt is an equally valid alternative.)
 - After each stage, append the manifest entries specified in `factory/PIPELINE.md` yourself (orchestrator owns `manifest.yaml`).
 
 ## Gates you enforce personally

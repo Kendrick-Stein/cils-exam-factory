@@ -38,7 +38,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - **Gate (orchestrator, mechanical):** per-prova item counts match `exam.yaml`; no unreplaced `{{slots}}`; attribution present per text; writing word ranges printed; points sums correct.
 
 ### S3 — Blind validation (blind-solver, isolation is the point)
-- **Input:** `paper.md` ONLY. No `answers.md`, no `sources.md`, no web access, no other repo files.
+- **Input:** `paper.md` ONLY. No `answers.md`, no `sources.md`, no web access, no other repo files. Mechanics: copy `paper.md` alone into an isolated dir outside the repo (`/tmp/cils-blind-<session>-<level>/`) and hand the solver only that path — or paste the paper text into the prompt.
 - **Work:** solve every objective item → JSON `{"L1.1": "B", ...}` with per-item confidence (`hi|med|lo`); flag list `{item_id, reason}` for anything ambiguous, unanswerable from the text alone, with overlapping options, or with more than one defensible answer. For writing tasks: verify the consegna is self-contained and the word range is printed (do not write essays).
 - **Output:** returned to orchestrator (stored under `papers/<date>/<LEVEL>/` only if debugging; not required).
 
