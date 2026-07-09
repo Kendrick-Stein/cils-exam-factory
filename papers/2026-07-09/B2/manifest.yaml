@@ -1,0 +1,124 @@
+exam: cils
+level: B2
+session: '2026-07-09'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2023/08/31/cinghiali-radioattivi/
+  title: Non c'entra solo Chernobyl con i cinghiali radioattivi
+  publisher: Il Post
+  published: '2023-08-31'
+  accessed: '2026-07-09'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 481
+  note: più vecchio di 12 mesi (divulgazione atemporale, deroga giustificata); ricomposizione
+    dai fatti dichiarata
+- id: T2
+  url: https://wiki.wikimedia.it/wiki/Wiki_Loves_Monuments/2025/Regolamento
+  title: Wiki Loves Monuments Italia — Regolamento
+  publisher: Wikimedia Italia
+  published: '2025'
+  accessed: '2026-07-09'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 435
+  note: off-whitelist, giustificato in sources.md
+- id: T3
+  url: https://camminiditalia.org/grande-traversata-elbana/
+  title: Il cammino di Irene e Luca nel cuore selvaggio dell'isola d'Elba
+  publisher: Cammini d'Italia
+  published: '2026-05-25'
+  accessed: '2026-07-09'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 350
+  note: off-whitelist, giustificato in sources.md; ricomposizione dai fatti dichiarata
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/07/06/le-risate-spontanee-e-quelle-volontarie-nascono-in-zone-diverse-del-cervello_4a521a21-6a9c-4a79-ac1d-62a062213c18.html
+  title: Le risate spontanee e quelle volontarie nascono in zone diverse del cervello
+  publisher: ANSA Scienza
+  published: '2026-07-06'
+  accessed: '2026-07-09'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 259
+- id: T5
+  url: https://www.dissapore.com/ristoranti/jessica-rosval-e-davide-guidara-due-fuoriclasse-della-nuova-generazione-gastronomica/
+  title: 'Jessica Rosval e Davide Guidara: due fuoriclasse della nuova generazione
+    gastronomica'
+  publisher: Dissapore
+  published: '2026-03-10'
+  accessed: '2026-07-09'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 242
+- id: T6
+  url: https://www.ansa.it/valledaosta/notizie/2026/07/08/torna-ad-aosta-sotto-i-ponti-storie-appartate-sotto-lo-scorrere-del-tempo_6276e694-bea2-454f-b1ab-1cc1a28d46d5.html
+  title: Torna ad Aosta 'Sotto i ponti - Storie appartate sotto lo scorrere del tempo'
+  publisher: ANSA Valle d'Aosta
+  published: '2026-07-08'
+  accessed: '2026-07-09'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 218
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: 2026-07-09T17:30+08:00
+    agent: corpus-hunter (main-context fallback — Codex sandbox senza rete)
+    result: 6/6 slot OK (P4 strutture senza slot testo); deroghe e ricomposizioni
+      dichiarate in sources.md
+  - stage: authoring
+    at: 2026-07-09T12:58+08:00
+    executor: codex
+    result: paper.md, answers.md, key.json written; S2 mechanical gate pass (key counts,
+      no placeholders, no leakage)
+  - stage: blind_validation
+    at: '2026-07-09T05:10:59+00:00'
+    agreement: 78/87
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-09T05:32:01+00:00'
+    agreement: 85/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-09T05:42:12+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-09T05:42:28+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-09T05:42:28+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-09T05:55:29+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-09T05:55:29+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

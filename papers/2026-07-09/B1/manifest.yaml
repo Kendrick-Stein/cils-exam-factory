@@ -1,0 +1,116 @@
+exam: cils
+level: B1
+session: '2026-07-09'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.dissapore.com/ristoranti/intervista-a-valerio-braschi-lunico-masterchef-che-ce-lha-fatta/
+  title: Intervista a Valerio Braschi, l'unico Masterchef che ce l'ha fatta
+  publisher: Dissapore
+  published: '2026-03-24'
+  accessed: '2026-07-09'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 473
+- id: T2
+  url: https://www.bibliotecasalaborsa.it/documents/05-01-introduzione-generale-ai-servizi
+  title: Carta dei servizi — Introduzione generale ai servizi
+  publisher: Biblioteca Salaborsa / Biblioteche del Comune di Bologna
+  accessed: '2026-07-09'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 300
+- id: T3
+  url: https://camminiditalia.org/cammino-di-oropa-in-solitaria/
+  title: 'Cammino di Oropa in solitaria: il diario di Silvia tra vesciche e meraviglia'
+  publisher: Cammini d'Italia
+  published: '2026-02-16'
+  accessed: '2026-07-09'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  note: off-whitelist, giustificato in sources.md; ricomposizione dai fatti dichiarata
+  words_used: 252
+- id: T4
+  url: https://www.ansa.it/campania/notizie/2026/05/22/a-napoli-il-museo-dellombrello-artigianale-da-eduardo-a-re-carlo-iii_555ca021-4ed4-4eb2-8483-d657203e4dc1.html
+  title: A Napoli il Museo dell'ombrello artigianale, da Eduardo a Re Carlo III
+  publisher: ANSA Campania
+  published: '2026-05-22'
+  accessed: '2026-07-09'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 233
+- id: T5
+  url: https://www.dissapore.com/cucina/il-lavoro-di-cuoco-cristina-bowerman-spiega/
+  title: 'Come diventare grandi chef: intervista a Cristina Bowerman'
+  publisher: Dissapore
+  published: '2012-03-07'
+  accessed: '2026-07-09'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  note: più vecchio di 12 mesi (intervista di mestiere atemporale, deroga giustificata
+    in sources.md)
+  words_used: 202
+- id: T6
+  url: https://www.ansa.it/valledaosta/notizie/2026/07/02/le-marmotte-non-dormono-12-appuntamenti-per-lestate-valdostana_99ec6b1f-0055-420e-8622-b40088b6065d.html
+  title: '''Le marmotte non dormono'', 12 appuntamenti per l''estate valdostana'
+  publisher: ANSA Valle d'Aosta
+  published: '2026-07-02'
+  accessed: '2026-07-09'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 173
+pipeline:
+  generator: claude-fable-5
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: 2026-07-09T17:30+08:00
+    agent: corpus-hunter (main-context fallback — Codex sandbox senza rete)
+    result: 6/6 slot OK (P4 strutture senza slot testo); deroghe e backup in sources.md
+  - stage: authoring
+    at: 2026-07-09T12:58+08:00
+    executor: codex
+    result: paper.md, answers.md, key.json written; S2 mechanical gate pass (key counts,
+      no placeholders, no leakage)
+  - stage: blind_validation
+    at: '2026-07-09T05:10:59+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-09T05:32:01+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-09T05:42:28+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-09T05:42:28+00:00'
+    result: fail
+    issues: 3
+  - stage: format_audit
+    at: '2026-07-09T05:55:29+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-09T05:55:29+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit
