@@ -1,0 +1,155 @@
+exam: cils
+level: A1
+session: '2026-07-10'
+title: CILS A1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/parchi-movimento-2026
+  title: Parchi in Movimento 2026
+  publisher: Comune di Bologna
+  published: '2026'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 110
+- id: T2
+  url: https://www.muse.it/
+  title: MUSE — Museo delle Scienze di Trento (orari)
+  publisher: MUSE — Museo delle Scienze di Trento
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 113
+- id: T3a
+  url: https://portaleventi.it/evento/sagra-del-raviolo-casalingo-a-borgo-fornari
+  title: Sagra del Raviolo Casalingo a Borgo Fornari 2026
+  publisher: PortalEventi
+  published: '2026'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 26
+- id: T3b
+  url: https://portaleventi.it/evento/sagra-a-tre-stelle-a-gabbro
+  title: Sagra a Tre Stelle a Gabbro 2026
+  publisher: PortalEventi
+  published: '2026'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 27
+- id: T3c
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/piazza-lucio-dalla-ospitera-il-mercato-di-campi-aperti-del-giovedi
+  title: Piazza Lucio Dalla ospiterà il mercato di Campi Aperti del giovedì
+  publisher: Comune di Bologna
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 23
+- id: T3d
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/da-oggi-riapre-bologna-il-parcheggio-pubblico-piazza-del-mercato-rionale-s-viola-si-chiamera
+  title: Riapre il parcheggio pubblico S. Viola
+  publisher: Comune di Bologna
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 22
+- id: T4
+  url: https://blog.giallozafferano.it/amicincucina/ricetta-pasta-al-pomodoro-e-basilico-ricetta-tradizionale-italiana/
+  title: Pasta al pomodoro e basilico — ricetta tradizionale italiana
+  publisher: Amici in cucina — blog GialloZafferano
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 79
+- id: T5
+  url: https://www.famigliatuttofareinviaggio.com/liguria-bambini-camogli-abbazia-san-fruttuoso/
+  title: 'Liguria con bambini: Camogli e Abbazia di San Fruttuoso'
+  publisher: Famiglia tuttofare in viaggio
+  published: '2022-07-22'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 100
+  note: racconto di viaggio atemporale; deroga recency (>12 mesi) giustificata come
+    per realia/narrativa
+- id: T6
+  url: https://blog.giallozafferano.it/valeriaciccotti/insalata-caprese/
+  title: Insalata Caprese — introduzione e origini
+  publisher: Valeria Ciccotti — blog GialloZafferano
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 72
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-10T17:06:26+08:00'
+    agent: corpus-hunter (Claude subagent)
+    result: 6/6 slot OK (T3 = 4 micro-testi); single-source T2 (muse.it); no URL reuse
+  - stage: authoring
+    at: '2026-07-10T17:06:26+08:00'
+    executor: claude item-writer subagent
+    result: paper.md/answers.md/key.json scritti; conteggi per prova = exam.yaml;
+      S2 gate pass
+  - stage: blind_validation
+    at: '2026-07-10T09:08:28+00:00'
+    agreement: 44/44
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-10T09:16:43+00:00'
+    agreement: 44/44
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-10T09:29:56+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-07-11T14:24:54+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-11T14:24:54+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:31:48+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-11T14:31:48+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-11T14:35:20+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-11T14:41:19+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:41:19+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

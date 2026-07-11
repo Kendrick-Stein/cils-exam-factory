@@ -1,0 +1,133 @@
+exam: cils
+level: B1
+session: '2026-07-10'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/sito/notizie/cultura/musica/2026/07/09/anna-io-come-ultimo-ho-successo-perche-uso-la-stessa-lingua-di-chi-mi-ascolta_27c22289-bc11-496a-82a7-de5382d2424a.html
+  title: 'ANNA: "Io come Ultimo ho successo perché uso la stessa lingua di chi mi
+    ascolta"'
+  publisher: ANSA — Cultura/Musica
+  published: '2026-07-09'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 443
+- id: T2
+  url: https://www.comune.sandonatomilanese.mi.it/novita/comunicati/orti-urbani-al-via-le-domande-per-lassegnazione
+  title: 'Orti urbani: al via le domande per l''assegnazione'
+  publisher: Comune di San Donato Milanese
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 320
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/il-cuore-verde-ditalia-ma-non-solo-ecco-cosa-vedere-in-un-viaggio-di-4-giorni-in-umbria.html
+  title: 'Il cuore verde d''Italia: cosa vedere in un viaggio di 4 giorni in Umbria
+    (Civita di Bagnoregio)'
+  publisher: Turisti per Caso
+  published: 2025-06
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 255
+  note: Off-whitelist (blog di viaggio italiano) giustificato in sources.md; ACCEPT
+    WITH ADAPTATION.
+- id: T4
+  url: https://www.ansa.it/sito/notizie/cronaca/2026/05/25/una-maxi-frittata-da-2.001-uova-paesino-del-molise-supera-un-nuovo_08471858-e247-4a74-9856-7ad0c620af51.html
+  title: Una maxi frittata da 2.001 uova, paesino del Molise supera un nuovo record
+  publisher: ANSA — Cronaca
+  published: '2026-05-25'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 240
+- id: T5
+  url: https://www.ansa.it/canale_legalita_scuola/notizie/2026/04/13/calcolo-mentale-per-il-campione-aaryan-shukla-la-matematica-e-un-processo-non-fa-paura_edbbad9f-942e-409b-83f2-8eb80cb43834.html
+  title: Calcolo mentale, per il campione Aaryan Shukla 'la matematica è un processo,
+    non fa paura'
+  publisher: ANSA — Scuola
+  published: '2026-04-14'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 220
+- id: T6
+  url: https://www.ansa.it/sito/notizie/cultura/libri/2026/06/20/bisceglie-diventa-la-prima-book-town-ditalia-al-via-10mila-libri-al-borgo_5b8262db-c03f-408a-92db-6bc14205ffb3.html
+  title: Bisceglie diventa la prima Book Town d'Italia, al via '10mila libri al borgo'
+  publisher: ANSA — Cultura/Libri
+  published: '2026-06-20'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 175
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-10T17:22:55+08:00'
+    agent: corpus-hunter (Claude subagent)
+    result: 6/6 slot OK; ANSA-heavy (fanpage/today bot-bloccati); no URL reuse; P4
+      senza slot
+  - stage: authoring
+    at: '2026-07-10T17:22:55+08:00'
+    executor: claude item-writer subagent
+    result: paper.md/answers.md/key.json scritti; conteggi per prova = exam.yaml;
+      S2 gate pass
+  - stage: blind_validation
+    at: '2026-07-10T09:27:45+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-10T09:40:35+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:18:32+00:00'
+    agreement: 85/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:20:06+00:00'
+    agreement: 0/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:20:18+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-11T14:20:27+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:20:27+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-11T14:41:19+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:41:19+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
