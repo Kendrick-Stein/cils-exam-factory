@@ -1,0 +1,197 @@
+exam: cils
+level: B2
+session: '2026-07-10'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2026/07/06/la-prima-cellula-sintetica-costruita-da-zero/
+  title: La prima cellula sintetica costruita da zero?
+  publisher: Il Post
+  published: '2026-07-06'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 529
+- id: T2
+  url: https://www.parconazionale5terre.it/cinque-terre-card.php
+  title: Cinque Terre Card 2026 — guida e regole d'uso
+  publisher: Parco Nazionale delle Cinque Terre
+  published: '2026'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 493
+  note: Fonte assemblata da quattro pagine ufficiali elencate in sources.md.
+- id: T3
+  url: https://www.ilpost.it/2026/02/27/camini-reggio-calabria-ripopolato-dai-migranti/
+  title: Il borgo calabrese ripopolato dai migranti
+  publisher: Il Post
+  published: '2026-02-27'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 402
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/natura/2026/07/06/i-delfini-delladriatico-sempre-piu-dipendenti-dai-pescherecci-per-il-cibo_83e40af5-1055-4ccf-9bd1-59f422b511ae.html
+  title: I delfini dell'Adriatico sempre più dipendenti dai pescherecci per il cibo
+  publisher: ANSA Scienza/Natura
+  published: '2026-07-06'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 255
+- id: T5
+  url: https://www.dissapore.com/ristoranti/intervista-a-valerio-braschi-lunico-masterchef-che-ce-lha-fatta/
+  title: Intervista a Valerio Braschi, l'unico Masterchef che ce l'ha fatta
+  publisher: Dissapore
+  published: '2026-03-24'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 244
+- id: T6
+  url: https://www.comune.udine.it/Novita/Comunicati/La-nuova-app-per-avere-tutte-le-informazioni-sulla-raccolta-differenziata-a-portata-di-mano
+  title: La nuova app per avere tutte le informazioni sulla raccolta differenziata
+    a portata di mano
+  publisher: Comune di Udine
+  published: '2026-02-19'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 205
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-10T17:30:00+08:00'
+    result: 6/6 source slots accepted from authenticated texts in sources.md
+  - stage: authoring
+    at: '2026-07-11T14:25:00+00:00'
+    result: paper.md, answers.md and key.json completed against the B2 template
+  - stage: format_audit
+    at: '2026-07-11T14:25:42+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:25:42+00:00'
+    result: fail
+    issues: 3
+  - stage: quality_audit
+    at: '2026-07-11T14:26:24+00:00'
+    result: fail
+    issues: 2
+  - stage: quality_audit
+    at: '2026-07-11T14:27:09+00:00'
+    result: fail
+    issues: 1
+  - stage: format_audit
+    at: '2026-07-11T14:27:09+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:27:29+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:27:46+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-11T14:27:46+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:30:22+00:00'
+    result: fail
+    issues: 1
+  - stage: format_audit
+    at: '2026-07-11T14:30:22+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:31:00+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:31:39+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:32:02+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:32:47+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:33:00+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-11T14:33:00+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:36:16+00:00'
+    result: fail
+    issues: 1
+  - stage: format_audit
+    at: '2026-07-11T14:36:16+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:36:49+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:37:03+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-11T14:37:12+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-11T14:37:12+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-11T14:38:55+00:00'
+    agreement: 81/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:53:38+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:55:57+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-11T14:55:57+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:55:57+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
