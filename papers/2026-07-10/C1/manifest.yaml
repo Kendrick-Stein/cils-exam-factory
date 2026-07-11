@@ -1,0 +1,116 @@
+exam: cils
+level: C1
+session: '2026-07-10'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2026/07/03/frodi-scientifiche-ricerca-cina-geng-hongwei/
+  title: In Cina uno youtuber è diventato un super vigilante delle frodi scientifiche
+  publisher: Il Post
+  published: '2026-07-03'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 650
+- id: T2
+  url: https://www.comune.roma.it/web/it/notizia/nuovo-sistema-tariffario-musei-monumenti.page
+  title: Nuovo sistema tariffario per i musei e i monumenti
+  publisher: Roma Capitale — Sito istituzionale
+  published: '2026-02-01'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 552
+- id: T3
+  url: https://it.wikisource.org/wiki/Racconti_sardi/Il_Padre
+  title: Il Padre (Racconti sardi)
+  publisher: Grazia Deledda — Wikisource
+  published: '1894'
+  accessed: '2026-07-10'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 431
+- id: T4
+  url: https://www.ilpost.it/2026/06/29/psicologia-fare-bagagli-vacanze/
+  title: Perché fare i bagagli ci mette in crisi
+  publisher: Il Post
+  published: '2026-06-29'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 284
+- id: T5
+  url: https://it.wikisource.org/wiki/La_giara_(Novella,_1928)
+  title: La giara (Novelle per un anno)
+  publisher: Luigi Pirandello — Wikisource
+  published: '1909'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 253
+- id: T6
+  url: https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/07/09/il-pianeta-rosa-e-avvolto-da-nubi-di-sale-lo-ha-scoperto-il-telescopio-webb_637d1445-495e-4165-81d4-82969a7b6aa6.html
+  title: Il Pianeta Rosa è avvolto da nubi di sale, lo ha scoperto il telescopio Webb
+  publisher: ANSA Scienza & Tecnica
+  published: '2026-07-09'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 234
+- id: T7
+  url: https://www.comune.roma.it/web/it/notizia/ztl-veicoli-elettrici-idrogeno-accesso-luglio-2026.page
+  title: ZTL veicoli elettrici o a idrogeno, le novità sull'accesso
+  publisher: Roma Capitale — Sito istituzionale
+  published: '2026-07-01'
+  accessed: '2026-07-10'
+  used_in: Analisi delle strutture, Prova n. 4
+  adapted: true
+  words_used: 153
+pipeline:
+  generator: codex (item-writer subagent)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-10T00:00:00+08:00'
+    result: 7/7 slot OK; accepted authentic sources recorded in sources.md
+  - stage: authoring
+    at: '2026-07-11T00:00:00+08:00'
+    result: paper.md, answers.md, key.json written; draft awaiting blind validation
+  - stage: blind_validation
+    at: '2026-07-11T14:36:29+00:00'
+    agreement: 75/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:39:58+00:00'
+    agreement: 81/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-11T14:41:08+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-11T14:41:19+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-11T14:41:19+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass
