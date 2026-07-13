@@ -1,0 +1,17 @@
+ANSWERS
+{
+  "L1.1": {"answer": "B"}, "L1.2": {"answer": "C"}, "L1.3": {"answer": "B"}, "L1.4": {"answer": "A"}, "L1.5": {"answer": "D"}, "L1.6": {"answer": "C"}, "L1.7": {"answer": "B"},
+  "L2.1": {"answer": "Vero"}, "L2.2": {"answer": "Vero"}, "L2.3": {"answer": "Falso"}, "L2.4": {"answer": "Falso"}, "L2.5": {"answer": "Vero"}, "L2.6": {"answer": "Falso"}, "L2.7": {"answer": "Vero"}, "L2.8": {"answer": "Falso"}, "L2.9": {"answer": "Vero"}, "L2.10": {"answer": "Falso"}, "L2.11": {"answer": "Vero"}, "L2.12": {"answer": "Falso"}, "L2.13": {"answer": "Vero"}, "L2.14": {"answer": "Falso"},
+  "L3": {"answer": "A-C-F-B-E-H-D-G-I-L-N-K-P-M-O-J"},
+  "S1.1": {"answer": "di"}, "S1.2": {"answer": "a"}, "S1.3": {"answer": "alla"}, "S1.4": {"answer": "di"}, "S1.5": {"answer": "in"}, "S1.6": {"answer": "alla"}, "S1.7": {"answer": "che"}, "S1.8": {"answer": "a"}, "S1.9": {"answer": "di"}, "S1.10": {"answer": "di"}, "S1.11": {"answer": "al"}, "S1.12": {"answer": "in"}, "S1.13": {"answer": "come"}, "S1.14": {"answer": "nel"}, "S1.15": {"answer": "in"}, "S1.16": {"answer": "di"}, "S1.17": {"answer": "in"}, "S1.18": {"answer": "di"}, "S1.19": {"answer": "a"}, "S1.20": {"answer": "a"},
+  "S2.1": {"answer": "conduceva"}, "S2.2": {"answer": "erano"}, "S2.3": {"answer": "sembrava"}, "S2.4": {"answer": "apparve"}, "S2.5": {"answer": "c'erano"}, "S2.6": {"answer": "sognava"}, "S2.7": {"answer": "avrebbe seguito"}, "S2.8": {"answer": "erano"}, "S2.9": {"answer": "sperava"}, "S2.10": {"answer": "venisse"}, "S2.11": {"answer": "potesse"}, "S2.12": {"answer": "mise"}, "S2.13": {"answer": "partì"}, "S2.14": {"answer": "camminò"}, "S2.15": {"answer": "fece"}, "S2.16": {"answer": "promise"}, "S2.17": {"answer": "avrebbe offerto"}, "S2.18": {"answer": "si rivelò"}, "S2.19": {"answer": "festeggiavano"}, "S2.20": {"answer": "era"},
+  "S3.1": {"answer": "B"}, "S3.2": {"answer": "C"}, "S3.3": {"answer": "A"}, "S3.4": {"answer": "D"}, "S3.5": {"answer": "B"}, "S3.6": {"answer": "C"}, "S3.7": {"answer": "A"}, "S3.8": {"answer": "D"}, "S3.9": {"answer": "B"}, "S3.10": {"answer": "A"}, "S3.11": {"answer": "C"}, "S3.12": {"answer": "A"}, "S3.13": {"answer": "D"}, "S3.14": {"answer": "B"}, "S3.15": {"answer": "C"},
+  "S4.1": {"answer": "IL COMUNE DI FIRENZE DOVRÀ ASSEGNARE I 55 POSTI A TEMPO PIENO E INDETERMINATO ALLE PROPRIE DIREZIONI."},
+  "S4.2": {"answer": "DEI 55 POSTI, 27 UNITÀ SONO PREVISTE PER L'ANNUALITÀ 2025 E 28 UNITÀ PER L'ANNUALITÀ 2026."},
+  "S4.3": {"answer": "L'INDIZIONE DEL PRESENTE CONCORSO AVVIENE CONTESTUALMENTE ALLA PREVENTIVA PROCEDURA DI MOBILITÀ DEL PERSONALE."},
+  "S4.4": {"answer": "SOLO AL TERMINE DI TALE PROCEDURA L'AMMINISTRAZIONE DEFINIRÀ IL NUMERO DEI POSTI ATTRIBUIBILI AL CONCORSO."},
+  "S4.5": {"answer": "QUALORA I POSTI RISULTINO INTERAMENTE COPERTI, IL CONCORSO PUÒ ESSERE REVOCATO."},
+  "S4.6": {"answer": "IL PROFILO DI ISTRUTTORE AMMINISTRATIVO GODE DEL TRATTAMENTO ECONOMICO PREVISTO PER LA POSIZIONE INIZIALE."}
+}
+FLAGS
+[]

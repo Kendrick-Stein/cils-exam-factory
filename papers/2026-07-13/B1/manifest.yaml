@@ -1,0 +1,99 @@
+exam: cils
+level: B1
+session: '2026-07-13'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.paeseitaliapress.it/sport/2025/06/25/da-pilota-a-campione-paralimpico-la-storia-di-alex-mazzeo/
+  title: 'Da pilota a campione paralimpico: la storia di Alex Mazzeo'
+  publisher: Paese Italia Press (Valentina Chabert)
+  published: '2025-06-25'
+  accessed: '2026-07-13'
+  used_in:
+  - lettura.prova1
+  adapted: true
+  words_used: 444
+- id: T2
+  url: https://www.murazzanophoto.it/
+  title: Regolamento — Concorso Fotografico "Vivere Murazzano – Il borgo che resta"
+    2026
+  publisher: Comune di Murazzano (CN) — murazzanophoto.it
+  published: '2026'
+  accessed: '2026-07-13'
+  used_in:
+  - lettura.prova2
+  adapted: true
+  words_used: 321
+- id: T3
+  url: https://diariodiavventure.com/da-marciac-a-maubourguet/
+  title: Una piccola candela (trentanovesima tappa, da Marciac a Maubourguet)
+  publisher: Diario di Avventure — Nadia Meriggio
+  published: '2026-01-24'
+  accessed: '2026-07-13'
+  used_in:
+  - lettura.prova3
+  adapted: true
+  words_used: 256
+- id: T4
+  url: https://www.ansa.it/canale_lifestyle/notizie/pets/2026/07/12/in-ecuador-gli-animali-domestici-fanno-da-testimoni-ai-matrimoni-_6b6a4c5b-fd1f-4a43-b2fc-61efb53b2d9b.html
+  title: In Ecuador gli animali domestici fanno da testimoni ai matrimoni
+  publisher: ANSA (Lifestyle / Pets)
+  published: '2026-07-12'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture.prova1
+  adapted: true
+  words_used: 250
+- id: T5
+  url: https://www.salepepe.it/news/piaceri/intervista-pietro-parisi-cuoco-contadino-la-sua-cucina-etica-riciclo-2/
+  title: Intervista a Pietro Parisi, il cuoco contadino e la sua cucina etica e di
+    riciclo
+  publisher: Sale&Pepe
+  published: '2026'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture.prova2
+  adapted: true
+  words_used: 225
+- id: T6
+  url: https://www.ansa.it/umbria/notizie/2026/06/27/biblioteca-comunale-assisi-letture-estive-in-parchi-e-giardini-del-territorio_8f052a8e-d429-4473-87b7-f4fad1ad7c0f.html
+  title: Biblioteca comunale Assisi, letture estive in parchi e giardini del territorio
+  publisher: ANSA (Umbria)
+  published: '2026-06-27'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture.prova3
+  adapted: true
+  words_used: 185
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: blind_validation
+    at: '2026-07-13T09:34:01+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

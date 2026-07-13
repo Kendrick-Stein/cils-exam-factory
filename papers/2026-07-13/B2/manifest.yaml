@@ -1,0 +1,99 @@
+exam: cils
+level: B2
+session: '2026-07-13'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/06/30/galassia-andromeda-xxxvi/
+  title: Galassia quasi invisibile racconta l'alba dell'universo
+  publisher: Media INAF (notiziario dell'Istituto Nazionale di Astrofisica)
+  published: '2026-06-30'
+  accessed: '2026-07-13'
+  used_in: Lettura Prova 1 (scelta multipla)
+  adapted: true
+  words_used: 484
+  off_whitelist_justification: 'Media INAF è l''organo divulgativo ufficiale gratuito
+    dell''INAF; usato perché i siti divulgativo-scientifici whitelisted (focus.it,
+    fanpage.it) restituiscono HTTP 403 al WebFetch. Astronomia divulgativa: nessuna
+    collisione con le scelte di C1.'
+- id: T2
+  url: https://www.comune.castiadas.su.it/it/news/bando-per-la-partecipazione-al-centro-estivo-anno-2026
+  title: Bando per la partecipazione al «Centro Estivo» – Anno 2026
+  publisher: Comune di Castiadas
+  published: '2026-06-05'
+  accessed: '2026-07-13'
+  used_in: Lettura Prova 2 (vero/falso)
+  adapted: true
+  words_used: 452
+- id: T3
+  url: https://www.marcogrippa.it/viaggio-in-galizia-cammino-dei-fari/
+  title: 'Cammino dei Fari, Galizia: fotografia e racconto di viaggio'
+  publisher: marcogrippa.it — Marco Grippa
+  published: null
+  accessed: '2026-07-13'
+  used_in: Lettura Prova 3 (ricostruzione, 11 parti)
+  adapted: true
+  words_used: 381
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/07/09/il-pianeta-rosa-e-avvolto-da-nubi-di-sale-lo-ha-scoperto-il-telescopio-webb_637d1445-495e-4165-81d4-82969a7b6aa6.html
+  title: Il Pianeta Rosa è avvolto da nubi di sale, lo ha scoperto il telescopio Webb
+  publisher: ANSA — Canale Scienza / Spazio e Astronomia
+  published: '2026-07-10'
+  accessed: '2026-07-13'
+  used_in: Strutture Prova 1 (cloze aggettivi e pronomi)
+  adapted: true
+  words_used: 246
+- id: T5
+  url: https://www.viaggiatoridelgusto.it/storie-di-vino-e-di-olio-in-valsusa-coraggio-e-passione-di-giuliano-bosio/
+  title: 'Storie di vino e di olio in Valsusa: coraggio e passione di Giuliano Bosio'
+  publisher: Viaggiatori del Gusto
+  published: '2022-08-08'
+  accessed: '2026-07-13'
+  used_in: Strutture Prova 2 (cloze verbi)
+  adapted: true
+  words_used: 244
+  off_whitelist_justification: 'Racconto italiano autentico food-and-travel con citazioni-intervista,
+    accesso libero; i blog-intervista whitelisted (dissapore, cibotoday) restituiscono
+    HTTP 403 al WebFetch. Genere narrativo: recency "any recent age" per sources.yaml.'
+- id: T6
+  url: https://www.comune.chioggia.ve.it/novita/torna-alberi-in-pianura-il-comune-di-chioggia-rinnova-ladesione-alliniziativa-di-veneto-agricoltura-al-via-le-prenotazioni-gratuite/
+  title: 'Torna «Alberi in Pianura»: il Comune di Chioggia rinnova l''adesione e apre
+    le prenotazioni gratuite'
+  publisher: Comune di Chioggia
+  published: '2026-07-04'
+  accessed: '2026-07-13'
+  used_in: Strutture Prova 3 (cloze lessicale MC)
+  adapted: true
+  words_used: 205
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: blind_validation
+    at: '2026-07-13T09:14:49+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

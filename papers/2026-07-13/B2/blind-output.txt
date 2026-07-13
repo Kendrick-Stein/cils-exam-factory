@@ -1,0 +1,12 @@
+ANSWERS
+{
+  "L1.1": {"answer": "B"}, "L1.2": {"answer": "A"}, "L1.3": {"answer": "C"}, "L1.4": {"answer": "D"}, "L1.5": {"answer": "B"}, "L1.6": {"answer": "C"}, "L1.7": {"answer": "D"},
+  "L2.1": {"answer": "Vero"}, "L2.2": {"answer": "Falso"}, "L2.3": {"answer": "Falso"}, "L2.4": {"answer": "Vero"}, "L2.5": {"answer": "Falso"}, "L2.6": {"answer": "Falso"}, "L2.7": {"answer": "Vero"}, "L2.8": {"answer": "Falso"}, "L2.9": {"answer": "Vero"}, "L2.10": {"answer": "Vero"}, "L2.11": {"answer": "Falso"}, "L2.12": {"answer": "Falso"}, "L2.13": {"answer": "Falso"}, "L2.14": {"answer": "Vero"},
+  "L3": {"answer": "A-D-G-J-B-H-E-K-C-I-F"},
+  "S1.1": {"answer": "la cui"}, "S1.2": {"answer": "le cui"}, "S1.3": {"answer": "i cui"}, "S1.4": {"answer": "suo"}, "S1.5": {"answer": "lo"}, "S1.6": {"answer": "quella"}, "S1.7": {"answer": "i cui"}, "S1.8": {"answer": "questo"}, "S1.9": {"answer": "lo"}, "S1.10": {"answer": "che"}, "S1.11": {"answer": "quelle"}, "S1.12": {"answer": "Tutti"}, "S1.13": {"answer": "le cui"}, "S1.14": {"answer": "la cui"}, "S1.15": {"answer": "lo"}, "S1.16": {"answer": "questa"}, "S1.17": {"answer": "il cui"}, "S1.18": {"answer": "la cui"}, "S1.19": {"answer": "che"}, "S1.20": {"answer": "altro"},
+  "S2.1": {"answer": "ha"}, "S2.2": {"answer": "lavorava"}, "S2.3": {"answer": "si occupava"}, "S2.4": {"answer": "sapeva"}, "S2.5": {"answer": "viaggiava"}, "S2.6": {"answer": "decise"}, "S2.7": {"answer": "aiutavo"}, "S2.8": {"answer": "piaceva"}, "S2.9": {"answer": "è stato premiato"}, "S2.10": {"answer": "compariva"}, "S2.11": {"answer": "credevano"}, "S2.12": {"answer": "fosse scomparso"}, "S2.13": {"answer": "è tornato"}, "S2.14": {"answer": "ho imparato"}, "S2.15": {"answer": "ho venduto"}, "S2.16": {"answer": "sarà"}, "S2.17": {"answer": "accontenterei"}, "S2.18": {"answer": "seguo"}, "S2.19": {"answer": "rischia"}, "S2.20": {"answer": "vince"},
+  "S3.1": {"answer": "A"}, "S3.2": {"answer": "A"}, "S3.3": {"answer": "B"}, "S3.4": {"answer": "A"}, "S3.5": {"answer": "A"}, "S3.6": {"answer": "B"}, "S3.7": {"answer": "A"}, "S3.8": {"answer": "A"}, "S3.9": {"answer": "A"}, "S3.10": {"answer": "B"}, "S3.11": {"answer": "B"}, "S3.12": {"answer": "A"}, "S3.13": {"answer": "A"}, "S3.14": {"answer": "A"}, "S3.15": {"answer": "B"},
+  "S4.1": {"answer": "B"}, "S4.2": {"answer": "A"}, "S4.3": {"answer": "B"}, "S4.4": {"answer": "A"}, "S4.5": {"answer": "B"}, "S4.6": {"answer": "B"}, "S4.7": {"answer": "A"}, "S4.8": {"answer": "A"}, "S4.9": {"answer": "A"}, "S4.10": {"answer": "B"}
+}
+FLAGS
+[]
