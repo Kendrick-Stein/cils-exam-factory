@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Casa della Cultura",
+    "T1_TEXT": "La Casa della Cultura è un edificio di circa 3000 metri quadrati con un cortile esterno e ampi spazi verdi. Qui hanno sede il Centro Interculturale e il Centro Civico di Formazione Musicale. L’edificio ha molte aule. Alcune sono preparate per fare musica. Nelle aule ci sono banchi, sedie, lavagne, computer, strumenti musicali e materiale per studenti e insegnanti. All’interno ci sono anche una biblioteca, una sala per conferenze con 99 posti, alcuni uffici e laboratori. I laboratori possono ospitare attività artistiche e interculturali. Fuori, nel cortile, ci sono panchine, tavoli e attrezzature per fare attività all’aperto.",
+    "L1_ITEMS": "1. **La Casa della Cultura...**\n   A) ha un cortile senza panchine.\n   B) ha un cortile esterno e ampi spazi verdi.\n   C) non ha spazi fuori dall’edificio.\n\n2. **Nella Casa della Cultura ha sede...**\n   A) un centro di attività sportive.\n   B) una scuola di cucina.\n   C) un centro di formazione musicale.\n\n3. **Nelle aule ci sono...**\n   A) strumenti musicali.\n   B) panchine e tavoli.\n   C) uffici e laboratori.\n\n4. **Nel cortile è possibile...**\n   A) seguire una conferenza.\n   B) fare attività all’aperto.\n   C) usare la biblioteca."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice «un cortile esterno e ampi spazi verdi»; 注意：最后还明确写有长椅。 |\n| L1.2 | C | La risposta riprende «Centro Civico di Formazione Musicale»; 关键词是 “musicale”。 |\n| L1.3 | A | Il testo dice «Nelle aule ci sono ... strumenti musicali»; 另外两组选项属于其他空间。 |\n| L1.4 | B | Nel cortile ci sono «attrezzature per fare attività all’aperto»; 地点提示是 “nel cortile”。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "spazi verdi",
+      "categoria": "nome plurale",
+      "zh": "绿地",
+      "en": "green spaces",
+      "esempio": "un cortile esterno e ampi spazi verdi"
+    },
+    {
+      "parola": "aule",
+      "categoria": "nome plurale",
+      "zh": "教室",
+      "en": "classrooms",
+      "esempio": "L’edificio ha molte aule."
+    },
+    {
+      "parola": "strumenti musicali",
+      "categoria": "nome plurale",
+      "zh": "乐器",
+      "en": "musical instruments",
+      "esempio": "Nelle aule ci sono banchi, sedie, lavagne, computer, strumenti musicali"
+    },
+    {
+      "parola": "sala per conferenze",
+      "categoria": "nome femminile",
+      "zh": "会议厅",
+      "en": "conference room",
+      "esempio": "una sala per conferenze con 99 posti"
+    },
+    {
+      "parola": "attività all’aperto",
+      "categoria": "espressione",
+      "zh": "户外活动",
+      "en": "outdoor activities",
+      "esempio": "attrezzature per fare attività all’aperto"
+    }
+  ]
+}

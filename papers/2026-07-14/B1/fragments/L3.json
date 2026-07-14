@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "IL NOSTRO ERRORE IN THAILANDIA",
+    "T3_PART_A": "Abbiamo iniziato il nostro viaggio in Thailandia con un errore: siamo andati a vedere il villaggio Karen, quello delle donne giraffa, vicino a Chiang Rai.",
+    "T3_PART_B": "Dopo quella piccola danza, l’infinita tenerezza che provavamo si è presto trasformata in amarezza. Le ragazze, intanto, sorridevano e ci invitavano a fare fotografie.",
+    "T3_PART_C": "Prima di quell’arrivo solitario, avevamo scelto quel luogo perché online era descritto come «villaggio etico», sorto per preservare diverse minoranze etniche. L’impatto è stato subito negativo.",
+    "T3_PART_D": "Lasciata quella prima scena di fotografie e saluti, abbiamo attraversato altri piccoli villaggi e siamo arrivati dalle donne giraffa, sempre sorridenti. A ogni loro sorriso, la nostra tristezza aumentava.",
+    "T3_PART_E": "Tra quelle persone, gli anziani, appena ci hanno visto, sono corsi a indossare i vestiti tradizionali e hanno fatto per noi una piccola danza.",
+    "T3_PART_F": "Con queste tre domande ancora in mente, abbiamo salutato e siamo usciti dal villaggio con il fiato corto e il cuore pesante.",
+    "T3_PART_G": "Ora vogliamo spiegare perché consideriamo quella visita un errore. Siamo arrivati in auto di prima mattina ed eravamo gli unici visitatori.",
+    "T3_PART_H": "Di fronte a quella tristezza provocata dai sorrisi, ci siamo posti tre domande: le aiutavamo, le sfruttavamo, oppure qualcuno sfruttava sia loro sia noi?",
+    "T3_PART_I": "Proprio mentre uscivamo col cuore pesante, arrivavano tre pullman pieni di turisti. Se avessimo potuto, li avremmo fermati tutti: perciò consigliamo di non commettere il nostro errore.",
+    "T3_PART_J": "Quell’impatto negativo aveva una ragione precisa: invece del villaggio che ci aspettavamo, abbiamo trovato una fila di bancarelle, molti anziani e alcune ragazze.",
+    "T3_PART_K": "Dopo l’invito alle fotografie, le ragazze chiedevano anche ai loro bambini di sorridere e salutare. A quel punto abbiamo capito che non era ciò che ci aspettavamo."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | «Abbiamo iniziato il nostro viaggio» presenta il viaggio e l’«errore»: è l’inizio dato. 中文：先引出整段经历。 |\n| 2 | G | «Ora vogliamo spiegare» riprende l’errore annunciato in A; poi introduce l’arrivo. 中文：“Ora”承接开头的悬念。 |\n| 3 | C | «Prima di quell’arrivo solitario» rinvia soltanto all’arrivo in cui gli autori «eravamo gli unici visitatori», raccontato in G. 中文：“独自到达”锁定上一段。 |\n| 4 | J | «Quell’impatto negativo» riprende alla lettera «L’impatto è stato subito negativo» di C e ne spiega la ragione. 中文：同一名词短语形成唯一回指。 |\n| 5 | E | «Tra quelle persone» riprende «molti anziani e alcune ragazze» di J; subito dopo specifica gli anziani. 中文：“那些人”必须指前段列出的人。 |\n| 6 | B | «Dopo quella piccola danza» riprende la «piccola danza» compiuta dagli anziani in E. 中文：事件完成后才出现情绪变化。 |\n| 7 | K | «Dopo l’invito alle fotografie» riprende «ci invitavano a fare fotografie» di B e aggiunge il comportamento dei bambini. 中文：先邀请拍照，随后才让孩子微笑。 |\n| 8 | D | «Lasciata quella prima scena di fotografie e saluti» riassume fotografie, sorrisi e saluti di K; quindi il viaggio prosegue. 中文：离开“第一幕”后才能经过其他村庄。 |\n| 9 | H | «quella tristezza provocata dai sorrisi» riprende alla lettera «A ogni loro sorriso, la nostra tristezza aumentava» di D e introduce «tre domande». 中文：情绪与笑容双重回指。 |\n| 10 | F | «Con queste tre domande ancora in mente» può riferirsi solo alle tre domande elencate in H; poi avviene l’uscita. 中文：数量词“三个”锁定上一段。 |\n| 11 | I | «Proprio mentre uscivamo col cuore pesante» riprende «siamo usciti… con… il cuore pesante» di F; l’arrivo dei pullman chiude il racconto. 中文：同一时刻和同一感受锁定结尾。 |",
+    "ANS_L3_SEQUENCE": "A–G–C–J–E–B–K–D–H–F–I"
+  },
+  "key": {
+    "L3": "A-G-C-J-E-B-K-D-H-F-I"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "minoranze etniche",
+      "categoria": "locuzione nominale",
+      "zh": "少数族群",
+      "en": "ethnic minorities",
+      "esempio": "Prima di quell’arrivo solitario, avevamo scelto quel luogo perché online era descritto come «villaggio etico», sorto per preservare diverse minoranze etniche."
+    },
+    {
+      "parola": "bancarelle",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "摊位",
+      "en": "stalls",
+      "esempio": "Quell’impatto negativo aveva una ragione precisa: invece del villaggio che ci aspettavamo, abbiamo trovato una fila di bancarelle, molti anziani e alcune ragazze."
+    },
+    {
+      "parola": "vestiti tradizionali",
+      "categoria": "locuzione nominale",
+      "zh": "传统服饰",
+      "en": "traditional clothes",
+      "esempio": "Tra quelle persone, gli anziani, appena ci hanno visto, sono corsi a indossare i vestiti tradizionali e hanno fatto per noi una piccola danza."
+    },
+    {
+      "parola": "infinita tenerezza",
+      "categoria": "locuzione nominale",
+      "zh": "无限怜爱",
+      "en": "immense tenderness",
+      "esempio": "Dopo quella piccola danza, l’infinita tenerezza che provavamo si è presto trasformata in amarezza."
+    },
+    {
+      "parola": "fiato corto",
+      "categoria": "locuzione nominale",
+      "zh": "呼吸急促",
+      "en": "shortness of breath",
+      "esempio": "Con queste tre domande ancora in mente, abbiamo salutato e siamo usciti dal villaggio con il fiato corto e il cuore pesante."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "ANNA RACCONTA LA SUA VITA SUGLI SCI",
+    "S2_TEXT_WITH_GAPS": "Oggi Anna *(essere)* __è (0)__ intervistata. In questi mesi *(iniziare)* __(1)__ a fare qualche gara in Coppa del mondo. Finora *(viaggiare)* __(2)__ tanto. Quest'anno, fino a oggi, *(essere)* __(3)__ per la prima volta in America. Finora l'esperienza più bella *(essere)* __(4)__ la convocazione alle Olimpiadi. In questi mesi *(imparare)* __(5)__ tantissimo. Oggi Anna *(ricordare)* __(6)__ anche i primi passi sugli sci. Mentre Anna era bambina, sua madre *(praticare)* __(7)__ sempre questo sport a livello agonistico. Mentre Anna iniziava a sciare, la mamma *(essere)* __(8)__ sempre con lei. Poi, mentre cresceva, *(seguire)* __(9)__ sua sorella maggiore Nadine. Adesso Anna *(fare)* __(10)__ un gran lavoro per conciliare scuola e allenamenti."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ha iniziato | passato prossimo | S2.6 | ricorda | presente |\n| S2.2 | ha viaggiato | passato prossimo | S2.7 | praticava | imperfetto |\n| S2.3 | è stata | passato prossimo | S2.8 | era | imperfetto |\n| S2.4 | è stata | passato prossimo | S2.9 | seguiva | imperfetto |\n| S2.5 | ha imparato | passato prossimo | S2.10 | fa | presente |",
+    "ANS_S2_NOTES": "- **S2.1 — ha iniziato:** «In questi mesi» colloca l'inizio nel passato recente. 中文：明确的近期时间段要求用近过去时。\n- **S2.2 — ha viaggiato:** «Finora» indica un'esperienza conclusa entro il presente. 中文：截至目前，锁定近过去时。\n- **S2.3 — è stata:** «Quest'anno, fino a oggi» collega la prima esperienza al presente; il soggetto femminile è Anna. 中文：时间标记锁定近过去时，Anna 也锁定阴性配合。\n- **S2.4 — è stata:** «Finora» presenta l'esperienza più bella fino al presente; «l'esperienza» è femminile. 中文：截至目前锁定近过去时，阴性主语锁定词尾。\n- **S2.5 — ha imparato:** «In questi mesi» indica un risultato acquisito nel periodo recente. 中文：近期已取得的结果锁定近过去时。\n- **S2.6 — ricorda:** «Oggi» richiede il presente. 中文：今天的叙述锁定现在时。\n- **S2.7 — praticava:** «Mentre Anna era bambina» e «sempre» descrivono un'abitudine passata. 中文：过去的持续习惯锁定未完成过去时。\n- **S2.8 — era:** «Mentre Anna iniziava» presenta la presenza della mamma come sfondo nel passato. 中文：mentre 引出的过去背景锁定未完成过去时。\n- **S2.9 — seguiva:** «mentre cresceva» descrive un'azione abituale e contemporanea nel passato. 中文：mentre 引出的过去背景锁定未完成过去时。\n- **S2.10 — fa:** «Adesso» richiede il presente. 中文：现在这一明确标记锁定现在时。"
+  },
+  "key": {
+    "S2.1": "ha iniziato",
+    "S2.2": "ha viaggiato",
+    "S2.3": "è stata",
+    "S2.4": "è stata",
+    "S2.5": "ha imparato",
+    "S2.6": "ricorda",
+    "S2.7": "praticava",
+    "S2.8": "era",
+    "S2.9": "seguiva",
+    "S2.10": "fa"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Coppa del mondo",
+      "categoria": "locuzione nominale",
+      "zh": "世界杯",
+      "en": "World Cup",
+      "esempio": "In questi mesi ha iniziato a fare qualche gara in Coppa del mondo."
+    },
+    {
+      "parola": "convocazione",
+      "categoria": "nome femminile",
+      "zh": "征召；入选通知",
+      "en": "selection; call-up",
+      "esempio": "Finora l'esperienza più bella è stata la convocazione alle Olimpiadi."
+    },
+    {
+      "parola": "primi passi",
+      "categoria": "locuzione nominale",
+      "zh": "最初几步；初次经历",
+      "en": "first steps",
+      "esempio": "Oggi Anna ricorda anche i primi passi sugli sci."
+    },
+    {
+      "parola": "livello agonistico",
+      "categoria": "locuzione nominale",
+      "zh": "竞技水平",
+      "en": "competitive level",
+      "esempio": "Sua madre praticava sempre questo sport a livello agonistico."
+    },
+    {
+      "parola": "conciliare",
+      "categoria": "verbo",
+      "zh": "兼顾；协调",
+      "en": "to reconcile; balance",
+      "esempio": "Adesso Anna fa un gran lavoro per conciliare scuola e allenamenti."
+    }
+  ]
+}

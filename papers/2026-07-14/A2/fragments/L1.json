@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "A Offida arriva “500 in Cinquecento”",
+    "T1_TEXT": "Offida, in provincia di Ascoli Piceno, si prepara ad accogliere l'11 e il 12 luglio la terza edizione di “500 in Cinquecento”. L'iniziativa unisce la passione per la storica Fiat 500 alle celebrazioni per i 500 anni dell'Ordine dei Frati Cappuccini.\n\nNel paese arriveranno oltre 90 equipaggi da tutta Italia. Il centro storico diventerà così un luogo d'incontro tra cultura, storia religiosa e automobili d'epoca.\n\nL'idea nasce da una curiosa coincidenza. Il 4 luglio è la data della nascita dell'Ordine dei Cappuccini ed è anche la data di nascita della Fiat 500, uscita dagli stabilimenti nel 1957. Da questo legame è nato un progetto che si sposta in città diverse. Dopo Loreto e Fermo, ora arriva a Offida. Nei prossimi anni continuerà il suo viaggio fino al gran finale del 2028 a Camerino, la città dove l'Ordine è nato cinque secoli fa.\n\nL'evento è organizzato dal Club Fiat 500 di Ascoli Piceno con il sostegno del Club Fiat 500 nazionale. Offida è stata scelta anche per il Beato Bernardo da Offida, un frate cappuccino ancora molto presente nella memoria degli abitanti.\n\nIl programma inizierà sabato 11 luglio. Dalle ore 15 arriveranno in Piazza del Popolo i primi 30 equipaggi. I partecipanti potranno visitare i principali monumenti del paese e poi cenare all'Enoteca regionale.",
+    "L1_ITEMS": "**1. La manifestazione “500 in Cinquecento”**\n\nA) dura per tutto il mese di luglio.\n\nB) si svolge per la prima volta.\n\nC) è alla sua terza edizione.\n\n**2. Gli oltre 90 equipaggi che arriveranno a Offida**\n\nA) vengono da diverse parti d'Italia.\n\nB) appartengono tutti al club nazionale.\n\nC) partono insieme dalla città di Camerino.\n\n**3. Prima di arrivare a Offida, il progetto**\n\nA) ha concluso il suo viaggio a Camerino.\n\nB) ha fatto tappa a Loreto e Fermo.\n\nC) è rimasto sempre ad Ascoli Piceno.\n\n**4. Sabato 11 luglio, dopo l'arrivo, i partecipanti**\n\nA) partiranno subito per la città di Camerino.\n\nB) resteranno tutto il giorno in Piazza del Popolo.\n\nC) potranno visitare i monumenti del paese."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | C | Il testo dice «la terza edizione di “500 in Cinquecento”». 中文：注意“terza edizione”排除首次举办。 |\n| L1.2 | A | Arriveranno «oltre 90 equipaggi da tutta Italia». 中文：“da tutta Italia”表示来自意大利各地。 |\n| L1.3 | B | Il progetto arriva a Offida «dopo Loreto e Fermo». 中文：Camerino是2028年的终点，不是之前的站点。 |\n| L1.4 | C | «I partecipanti potranno visitare i principali monumenti del paese». 中文：参观发生在到达之后、晚餐之前。 |"
+  },
+  "key": {
+    "L1.1": "C",
+    "L1.2": "A",
+    "L1.3": "B",
+    "L1.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "equipaggi",
+      "categoria": "nome maschile plurale",
+      "zh": "车组；参赛车辆与人员",
+      "en": "crews",
+      "esempio": "Nel paese arriveranno oltre 90 equipaggi da tutta Italia."
+    },
+    {
+      "parola": "automobili d'epoca",
+      "categoria": "espressione nominale",
+      "zh": "老爷车；古董汽车",
+      "en": "vintage cars",
+      "esempio": "Il centro storico diventerà così un luogo d'incontro tra cultura, storia religiosa e automobili d'epoca."
+    },
+    {
+      "parola": "coincidenza",
+      "categoria": "nome femminile",
+      "zh": "巧合",
+      "en": "coincidence",
+      "esempio": "L'idea nasce da una curiosa coincidenza."
+    },
+    {
+      "parola": "stabilimenti",
+      "categoria": "nome maschile plurale",
+      "zh": "工厂；生产厂",
+      "en": "factories",
+      "esempio": "Il 4 luglio è la data della nascita dell'Ordine dei Cappuccini ed è anche la data di nascita della Fiat 500, uscita dagli stabilimenti nel 1957."
+    },
+    {
+      "parola": "monumenti",
+      "categoria": "nome maschile plurale",
+      "zh": "历史建筑；纪念性建筑",
+      "en": "monuments",
+      "esempio": "I partecipanti potranno visitare i principali monumenti del paese e poi cenare all'Enoteca regionale."
+    }
+  ]
+}

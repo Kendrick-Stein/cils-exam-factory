@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "IL RITORNO DI HANA",
+    "T3_PART_A": "Dopo molti anni vissuti in Italia, Hana tornò a Bratislava, la città in cui era nata. Una radio italiana l'aveva inviata a seguire le elezioni; lei voleva approfittarne anche per votare e rivedere la famiglia.",
+    "T3_PART_B": "Per trovare il ragazzo appena scomparso, Hana ripensò ai luoghi delle vacanze d'infanzia. Quel ricordo preciso la guidò verso l'amata casetta di montagna del padre, un paesaggio familiare che doveva ora riscoprire.",
+    "T3_PART_C": "Quel segreto riguardava suo fratello Martin: era diventato un attivista populista, filorusso e contrario all'Europa e ai migranti. Su YouTube, con lo pseudonimo «Tomas l'incredulo», diffondeva anche proclami contro gli immigrati e i vaccini.",
+    "T3_PART_D": "Al loro primo incontro, Levan temette quella donna sconosciuta e ne diffidò, soprattutto quando rientrò in casa senza sapere che lei fosse arrivata. Hana, a sua volta, cercò di capire perché l'uomo vivesse nel rifugio paterno.",
+    "T3_PART_E": "Mentre quei ricordi collegavano passato e presente, giunse la notizia decisiva: Tomas, il figlio di Martin, era scomparso con una compagna di classe. Hana iniziò allora a cercare il nipote, chiedendosi dove potesse essersi nascosto.",
+    "T3_PART_F": "Appena rientrata in quella città, però, Hana capì che il ritorno sarebbe stato quasi un nuovo inserimento. La crisi economica, i giovani rimasti all'estero e un'intolleranza crescente accompagnavano un segreto familiare che nessuno voleva rivelarle.",
+    "T3_PART_G": "Compresi quei rischi e riconosciuta in Levan una fatica simile alla sua, Hana decise di aiutarlo. Chiese quindi la collaborazione dell'amica Dusa e si trovò a portare illegalmente l'uomo oltre il confine con l'Austria.",
+    "T3_PART_H": "Solo dopo quella diffidenza iniziale Hana comprese la situazione di Levan e i pericoli che correva in Slovacchia, resi più gravi dalla vittoria elettorale dei nazionalisti. La sua storia le ricordò allora la propria esperienza di immigrata.",
+    "T3_PART_I": "Con quel passaggio verso l'Austria, destinato a proseguire fino all'Italia, i tre piani della vicenda si unirono: il ritorno di Hana, il passato dell'emigrazione e il presente di Levan ruotavano tutti intorno alla ricerca del nipote.",
+    "T3_PART_J": "Proprio la propaganda anti-immigrati di Martin riportò Hana alle difficoltà del proprio arrivo in Italia. Per inserirsi aveva fatto molti mestieri e sacrificato la giovinezza, senza raccontare a nessuno la cancellazione della memoria e la fatica di andare avanti.",
+    "T3_PART_K": "Giunta nella casetta indicata da quel ricordo, Hana scoprì che vi abitava Levan, un georgiano entrato clandestinamente nel paese. Prima di morire, suo padre lo aveva già aiutato e nascosto lì, in attesa che potesse partire."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | «Hana tornò a Bratislava» introduce il ritorno, la missione e la famiglia: è l'inizio dato. 中文：先交代返乡背景。 |\n| 2 | F | «Appena rientrata in quella città» riprende soltanto Bratislava e il ritorno annunciati in A. 中文：“那座城市”和“刚回来”锁定承接。 |\n| 3 | C | «Quel segreto» riprende alla lettera «un segreto familiare» posto alla fine di F. 中文：同一名词短语形成唯一回指。 |\n| 4 | J | «la propaganda anti-immigrati di Martin» riprende i proclami contro gli immigrati descritti in C. 中文：先说明宣传内容，后触发回忆。 |\n| 5 | E | «quei ricordi» rinvia alle difficoltà migratorie ricordate in J; «passato e presente» ne esplicita il legame. 中文：“那些回忆”只能指上一段。 |\n| 6 | B | «il ragazzo appena scomparso» riprende Tomas, il nipote scomparso in E, e avvia concretamente la ricerca. 中文：身份与时间双重锚定。 |\n| 7 | K | «la casetta indicata da quel ricordo» riprende la casetta e il ricordo delle vacanze introdotti in B. 中文：地点和回忆必须先出现。 |\n| 8 | D | «Al loro primo incontro» può seguire solo la scoperta di Levan nella casetta narrata in K. 中文：先发现 Levan，才有首次相遇。 |\n| 9 | H | «Solo dopo quella diffidenza iniziale» riprende direttamente il timore e la diffidenza di Levan in D. 中文：先戒备，后理解处境。 |\n| 10 | G | «Compresi quei rischi» riprende i pericoli in Slovacchia spiegati in H e motiva la decisione di aiutarlo. 中文：风险信息是决定的直接前提。 |\n| 11 | I | «Con quel passaggio verso l'Austria» riprende il trasferimento oltre confine compiuto in G e chiude i tre piani narrativi. 中文：行动完成后才作总结。 |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–E–B–K–D–H–G–I"
+  },
+  "key": {
+    "L3": "A-F-C-J-E-B-K-D-H-G-I"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "intolleranza crescente",
+      "categoria": "locuzione nominale",
+      "zh": "日益加剧的不宽容",
+      "en": "growing intolerance",
+      "esempio": "La crisi economica, i giovani rimasti all'estero e un'intolleranza crescente accompagnavano un segreto familiare che nessuno voleva rivelarle."
+    },
+    {
+      "parola": "pseudonimo",
+      "categoria": "sostantivo maschile",
+      "zh": "笔名；化名",
+      "en": "pseudonym",
+      "esempio": "Su YouTube, con lo pseudonimo «Tomas l'incredulo», diffondeva anche proclami contro gli immigrati e i vaccini."
+    },
+    {
+      "parola": "cancellazione della memoria",
+      "categoria": "locuzione nominale",
+      "zh": "记忆的抹除",
+      "en": "erasure of memory",
+      "esempio": "Per inserirsi aveva fatto molti mestieri e sacrificato la giovinezza, senza raccontare a nessuno la cancellazione della memoria e la fatica di andare avanti."
+    },
+    {
+      "parola": "rifugio paterno",
+      "categoria": "locuzione nominale",
+      "zh": "父亲的藏身处",
+      "en": "father's refuge",
+      "esempio": "Hana, a sua volta, cercò di capire perché l'uomo vivesse nel rifugio paterno."
+    },
+    {
+      "parola": "oltre il confine",
+      "categoria": "locuzione avverbiale",
+      "zh": "越过边境",
+      "en": "across the border",
+      "esempio": "Chiese quindi la collaborazione dell'amica Dusa e si trovò a portare illegalmente l'uomo oltre il confine con l'Austria."
+    }
+  ]
+}

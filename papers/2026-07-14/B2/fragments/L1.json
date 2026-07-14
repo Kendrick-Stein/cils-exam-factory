@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Il mistero del \"buco\" sotto la bottiglia di vino: ecco perché il punt sta scomparendo",
+    "T1_TEXT": "Se prendete una bottiglia di champagne o un grande rosso da invecchiamento, noterete una profonda cavità alla base. Questo elemento tecnico, chiamato \"punt\" o fondo rientrante, non è un vezzo estetico (e nemmeno un trucco per ingannare sulla quantità di liquido, che per legge deve essere ovviamente indicata sull'etichetta!). Le sue origini fondono insieme l'antica arte del soffio del vetro e le leggi della fisica.\n\n**La stabilità strutturale e la pressione**\n\nStoricamente, quando le bottiglie venivano soffiate a bocca, era quasi impossibile ottenere un fondo perfettamente piatto. Così, per evitare che il fondo imperfetto facesse sì che la bottiglia oscillasse o cadesse, gli artigiani imprimevano una rientranza sul fondo della bottiglia stessa, affinché si creasse un anello di appoggio stabile.\n\nInoltre, per i vini mossi, la forma \"a cupola\" è una necessità ingegneristica: così infatti si distribuisce la pressione interna (fino a 6 atmosfere) in modo uniforme, impedendo al fondo di esplodere.\n\n**La gestione dei sedimenti**\n\nNei vini che affrontano lunghi affinamenti, i sedimenti naturali tendono a precipitare. E secondo il parere di molti esperti, la forma dell'incavo permetterebbe a queste particelle di depositarsi nell'anello circolare alla base. In questo modo, durante la mescita, i depositi restano intrappolati nel \"solco\" e non finiscono nel bicchiere del consumatore.\n\n**Ma allora perché oggi le bottiglie sono sempre più \"piatte\"?**\n\nSe avete notato che molte bottiglie moderne, specialmente per i vini pronti al consumo, hanno fondi piatti o appena accennati, non vi sbagliate. È in atto una piccola rivoluzione silenziosa nel \"packaging enologico\", guidata da tre fattori principali.\n\n**La spinta della sostenibilità (e del risparmio)**\n\nIl motivo principale è ecologico. Una bottiglia con un incavo profondo richiede infatti più vetro e, di conseguenza, pesa di più. Le moderne \"bottiglie leggere\" riducono innanzitutto il consumo di materie prime per produrle e, soprattutto, i consumi di carburante necessari per trasportarle. Meno materie prime e meno carburante consumati significano una minore impronta di carbonio.\n\nSecondo l'organizzazione britannica WRAP (Waste & Resources Action Programme), la riduzione del peso delle bottiglie di vetro è una delle strategie più efficaci per abbattere le emissioni di CO2 nel settore beverage.\n\n**Tecnologia industriale avanzata**\n\nInoltre vale la pena tenere conto del fatto che, grazie alle moderne tecniche di produzione meccanizzata, oggi è possibile produrre bottiglie di vetro con fondi piatti estremamente resistenti. La necessità di una \"cupola\" per dare stabilità strutturale è venuta meno per tutti i vini fermi, rendendo l'incavo un retaggio del passato o un elemento puramente distintivo per il marketing.\n\n**Marketing vs scienza: l'illusione ottica**\n\nPer decenni, un incavo profondo è stato associato dal consumatore a un \"vino pregiato\". Molti produttori hanno mantenuto questa forma per dare un'idea di importanza e prestigio al prodotto. Tuttavia la tendenza attuale si sta spostando verso la trasparenza: una bottiglia dal fondo piatto oggi si presenta come più sensibile ai temi ecologici, \"onesta\", trasmettendo un approccio più moderno e meno legato ai vecchi formalismi.\n\n**Il parere degli esperti**\n\nCome riportato in diversi studi di settore pubblicati su portali come The Drinks Business, il passaggio a bottiglie più leggere e piatte è ormai un imperativo etico oltre che economico.",
+    "L1_ITEMS": "**1. La cavità alla base della bottiglia**\n\nA) è nata per far sembrare maggiore la quantità di vino.\nB) deriva dalla lavorazione del vetro e da esigenze fisiche.\nC) serve soprattutto a rendere la bottiglia più elegante.\nD) è stata introdotta per indicare il contenuto sull'etichetta.\n\n**2. In passato gli artigiani realizzavano la rientranza per**\n\nA) creare una base d'appoggio che non facesse oscillare la bottiglia.\nB) rendere perfettamente piatto il fondo soffiato a bocca.\nC) aumentare la pressione all'interno dei vini mossi.\nD) impedire che il vino entrasse in contatto con il fondo.\n\n**3. Nei vini mossi, la forma a cupola permette di**\n\nA) ridurre la pressione interna fino a eliminarla.\nB) concentrare la pressione nell'anello alla base.\nC) distribuire la pressione e proteggere il fondo.\nD) conservare più a lungo le bollicine del vino.\n\n**4. Secondo molti esperti, durante la mescita l'incavo**\n\nA) rimette in circolo i sedimenti precipitati.\nB) raccoglie i depositi evitando che arrivino nel bicchiere.\nC) separa i vini mossi da quelli sottoposti ad affinamento.\nD) rende visibili le particelle nell'anello della bottiglia.\n\n**5. Le bottiglie leggere riducono l'impatto ambientale perché**\n\nA) richiedono meno materie prime e meno carburante nel trasporto.\nB) richiedono più vetro, ma consumano meno carburante nel trasporto.\nC) riducono il carburante senza diminuire le materie prime impiegate.\nD) hanno un fondo piatto che trattiene meglio i sedimenti naturali.\n\n**6. Le moderne tecniche di produzione hanno fatto sì che**\n\nA) l'incavo conservi la sua funzione strutturale nei vini fermi.\nB) i fondi piatti siano resistenti senza bisogno della cupola.\nC) il vetro soffiato a bocca diventi più facile da modellare.\nD) la stabilità dipenda più dal peso che dalla forma del fondo.\n\n**7. Il cambiamento descritto nel testo mostra che oggi**\n\nA) l'incavo profondo garantisce scientificamente la qualità del vino.\nB) il marketing non attribuisce più significati alla forma della bottiglia.\nC) il fondo piatto può comunicare modernità e attenzione ecologica.\nD) il prestigio del prodotto dipende soprattutto dal suo peso."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il punt nasce dall'\"antica arte del soffio del vetro\" e dalle \"leggi della fisica\". 中文：题目问起源，不是后来形成的审美联想。 |\n| L1.2 | A | La rientranza creava \"un anello di appoggio stabile\" ed evitava che la bottiglia \"oscillasse o cadesse\". 中文：工匠没有把瓶底做平，而是用凹槽解决不平的问题。 |\n| L1.3 | C | La cupola \"distribuisce la pressione interna [...] in modo uniforme\", impedendo al fondo di esplodere. 中文：它分散压力，并非消除压力。 |\n| L1.4 | B | Durante la mescita, i depositi \"restano intrappolati nel 'solco' e non finiscono nel bicchiere\". 中文：关键是沉淀被留在凹槽中。 |\n| L1.5 | A | Le bottiglie leggere riducono \"il consumo di materie prime\" e i \"consumi di carburante necessari per trasportarle\". 中文：环保优势同时来自生产和运输。 |\n| L1.6 | B | Oggi si producono \"fondi piatti estremamente resistenti\" e la cupola non è più necessaria per i vini fermi. 中文：技术进步取消的是静态葡萄酒对凹底的结构需求。 |\n| L1.7 | C | Il fondo piatto appare più sensibile ai temi ecologici e comunica \"un approccio più moderno\". 中文：瓶底形状的象征意义已从传统声望转向环保与现代感。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B",
+    "L1.5": "A",
+    "L1.6": "B",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fondo rientrante",
+      "categoria": "locuzione nominale",
+      "zh": "凹底",
+      "en": "indented base",
+      "esempio": "Questo elemento tecnico, chiamato \"punt\" o fondo rientrante, non è un vezzo estetico (e nemmeno un trucco per ingannare sulla quantità di liquido, che per legge deve essere ovviamente indicata sull'etichetta!)."
+    },
+    {
+      "parola": "anello di appoggio",
+      "categoria": "locuzione nominale",
+      "zh": "支撑环",
+      "en": "support ring",
+      "esempio": "Così, per evitare che il fondo imperfetto facesse sì che la bottiglia oscillasse o cadesse, gli artigiani imprimevano una rientranza sul fondo della bottiglia stessa, affinché si creasse un anello di appoggio stabile."
+    },
+    {
+      "parola": "sedimenti naturali",
+      "categoria": "locuzione nominale",
+      "zh": "天然沉淀物",
+      "en": "natural sediments",
+      "esempio": "Nei vini che affrontano lunghi affinamenti, i sedimenti naturali tendono a precipitare."
+    },
+    {
+      "parola": "impronta di carbonio",
+      "categoria": "locuzione nominale",
+      "zh": "碳足迹",
+      "en": "carbon footprint",
+      "esempio": "Meno materie prime e meno carburante consumati significano una minore impronta di carbonio."
+    },
+    {
+      "parola": "retaggio del passato",
+      "categoria": "locuzione nominale",
+      "zh": "过去的遗留物",
+      "en": "legacy of the past",
+      "esempio": "La necessità di una \"cupola\" per dare stabilità strutturale è venuta meno per tutti i vini fermi, rendendo l'incavo un retaggio del passato o un elemento puramente distintivo per il marketing."
+    }
+  ]
+}

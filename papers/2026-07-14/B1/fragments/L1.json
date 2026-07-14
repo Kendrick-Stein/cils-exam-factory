@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "ALLA SCOPERTA DELL'ITALIA MENO CONOSCIUTA",
+    "T1_TEXT": "Se l'anno scorso è stato un esperimento, la seconda stagione di *L'Italia più bella che c'è!*, su La7.it con due speciali su La7, è una piacevole conferma.\n\nCucina, cultura e territorio sono protagonisti delle nove nuove puntate in programma da domani, 12 luglio alle 14.30 su La7.it, più due speciali appuntamenti da 50 minuti su La7, il 9 e 16 agosto, in seconda serata, con il best of delle nove tappe. Alla guida del nuovo viaggio nei territori meno conosciuti del nostro Paese il pubblico ritrova Stefano Bini, autore, conduttore e giornalista televisivo.\n\nBini, che oltre a essere il conduttore è anche ideatore del programma, porta lo spettatore attraverso territori e borghi, alla scoperta di scorci inediti, ricette della tradizione, curiosità per assaporare di quei luoghi qualcosa di più.\n\n«L'offerta anche in tv è tanta e l'importante è diversificare e differenziarsi», spiega Bini, che da 7 anni è anche su Isoradio. «Io, a differenza degli altri che in una stessa puntata fanno vedere 4 o 5 realtà diverse, mi concentro su un unico focus. Se racconto Lucca, racconto Lucca e non altre sedici località dei dintorni, altrimenti si fa un mappazzone orribile. Svisceriamo ogni singola località in racconti monotematici. E per farlo impieghiamo sette mesi di lavorazione».\n\nÈ così, spiega, che si riescono a trovare «chicche importanti». Due in particolare le destinazioni di cui va fiero per questa edizione: «I sentieri riscoperti dagli archeologi sul Gran Sasso — e mai raccontati in tv — e i porti di Roma tra Fiumicino, Civitavecchia e Gaeta con tanta storia alle spalle e uno sguardo al futuro: sapete che a breve dal porto di Gaeta partiranno crociere di lusso?».\n\nPerché l'obiettivo non è tanto quello di raccontare quello che è già conosciuto, ma le storie nascoste. «A Lucca raccontiamo il Comics, ma non la settimana della manifestazione, ma il prima e il dopo. E questo serve anche a contrastare l'overtourism, di cui tanto si parla. Bisogna spostare i turisti in tutto ciò che di bello c'è davvero. E l'Italia ne è piena».\n\nCon una narrazione confidenziale e pop, Stefano Bini mette in campo la passione e l'amore per la ristorazione, ereditata dalla famiglia («siamo ristoratori da sei generazioni»), corroborata dalla curiosità giornalistica. Un invito al viaggio attraverso profumi, colori e angoli nascosti di un Paese ricco di meraviglie ma che ha ancora tanto da scoprire.\n\nDomani si parte con Grosseto, città natale del conduttore e simbolo dell'Italia più bella che c'è: «A 10 km dal mare, a 40 dalla montagna, in mezzo alle colline, capitale della Maremma; ma il mio posto del cuore è Siena, dove ho studiato, giocato a pallavolo, avuto amori importanti, dove ho passato anni meravigliosi: quella è la mia Italia più bella che c'è!». Poi sarà la volta di Castiglione della Pescaia. «Cosa si devono aspettare i telespettatori? Tanta cucina, cultura e territorio».",
+    "L1_ITEMS": "**1. Per Stefano Bini, la seconda stagione del programma**\n\nA) è ancora soltanto un esperimento televisivo.\n\nB) conferma il buon risultato dell'anno precedente.\n\nC) sostituisce il progetto realizzato l'anno precedente.\n\nD) viene trasmessa esclusivamente alla radio.\n\n**2. Nella seconda stagione del programma il pubblico può vedere**\n\nA) nove puntate online e due speciali televisivi.\n\nB) nove speciali televisivi e due puntate online.\n\nC) due puntate dedicate alle nove città più conosciute.\n\nD) due puntate radiofoniche e nove servizi televisivi.\n\n**3. Per distinguere il suo programma dagli altri, Stefano Bini**\n\nA) presenta molte località diverse in ogni puntata.\n\nB) cambia argomento più volte nella stessa puntata.\n\nC) dedica ogni puntata a una sola località.\n\nD) conclude la preparazione di ogni puntata in una settimana.\n\n**4. Tra le scoperte presentate nella nuova edizione ci sono**\n\nA) i sentieri del Gran Sasso e i porti di Roma.\n\nB) le crociere sul Gran Sasso e i sentieri di Gaeta.\n\nC) i porti di Lucca e le località intorno a Roma.\n\nD) le montagne di Fiumicino e gli archeologi di Civitavecchia.\n\n**5. Il programma racconta il Comics di Lucca prima e dopo la manifestazione per**\n\nA) seguire soltanto gli aspetti già noti della città.\n\nB) invitare i turisti a visitare anche luoghi meno conosciuti.\n\nC) concentrare tutti i visitatori nella settimana dell'evento.\n\nD) sostituire le storie nascoste con gli eventi più famosi.\n\n**6. La passione di Bini per la ristorazione nasce**\n\nA) da un corso seguito durante il programma.\n\nB) dagli incontri con i cuochi delle nove tappe.\n\nC) dal lavoro svolto per sette anni alla radio.\n\nD) dalla tradizione professionale della sua famiglia.\n\n**7. Bini considera Siena il suo posto del cuore perché lì**\n\nA) ha scoperto i sentieri degli archeologi.\n\nB) ha lavorato alle puntate per sette mesi.\n\nC) ha vissuto esperienze personali importanti.\n\nD) ha iniziato l'attività di ristoratore di famiglia."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | «Se l'anno scorso è stato un esperimento, la seconda stagione [...] è una piacevole conferma». 中文：第二季被评价为对首年成果的积极确认。 |\n| L1.2 | A | «nove nuove puntate [...] su La7.it, più due speciali appuntamenti [...] su La7». 中文：区分九期网络节目与两期电视特别节目。 |\n| L1.3 | C | «mi concentro su un unico focus» e «ogni singola località in racconti monotematici». 中文：每期只深入一个地方，而非罗列多个地点。 |\n| L1.4 | A | «I sentieri [...] sul Gran Sasso» e «i porti di Roma». 中文：两个发现必须同时对应原文。 |\n| L1.5 | B | L'esempio di Lucca «serve anche a contrastare l'overtourism» e a «spostare i turisti in tutto ciò che di bello c'è davvero». 中文：目的在于引导游客发现较少人知的地方。 |\n| L1.6 | D | La passione per la ristorazione è «ereditata dalla famiglia» e Bini precisa: «siamo ristoratori da sei generazioni». 中文：来源是家族职业传统。 |\n| L1.7 | C | A Siena Bini ha «studiato, giocato a pallavolo, avuto amori importanti» e «passato anni meravigliosi». 中文：多个个人经历共同解释“心中挚爱之地”。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "A",
+    "L1.5": "B",
+    "L1.6": "D",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "scorci inediti",
+      "categoria": "locuzione nominale",
+      "zh": "鲜为人知的景致",
+      "en": "unseen views",
+      "esempio": "Bini, che oltre a essere il conduttore è anche ideatore del programma, porta lo spettatore attraverso territori e borghi, alla scoperta di scorci inediti, ricette della tradizione, curiosità per assaporare di quei luoghi qualcosa di più."
+    },
+    {
+      "parola": "località dei dintorni",
+      "categoria": "locuzione nominale",
+      "zh": "周边地区",
+      "en": "nearby places",
+      "esempio": "Se racconto Lucca, racconto Lucca e non altre sedici località dei dintorni, altrimenti si fa un mappazzone orribile."
+    },
+    {
+      "parola": "chicche importanti",
+      "categoria": "locuzione nominale",
+      "zh": "重要而少为人知的亮点",
+      "en": "notable hidden gems",
+      "esempio": "È così, spiega, che si riescono a trovare «chicche importanti»."
+    },
+    {
+      "parola": "storie nascoste",
+      "categoria": "locuzione nominale",
+      "zh": "不为人知的故事",
+      "en": "hidden stories",
+      "esempio": "Perché l'obiettivo non è tanto quello di raccontare quello che è già conosciuto, ma le storie nascoste."
+    },
+    {
+      "parola": "posto del cuore",
+      "categoria": "locuzione nominale",
+      "zh": "心中挚爱之地",
+      "en": "place close to one's heart",
+      "esempio": "A 10 km dal mare, a 40 dalla montagna, in mezzo alle colline, capitale della Maremma; ma il mio posto del cuore è Siena, dove ho studiato, giocato a pallavolo, avuto amori importanti, dove ho passato anni meravigliosi: quella è la mia Italia più bella che c'è!"
+    }
+  ]
+}

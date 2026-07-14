@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "MUSEO DELLE MURA: ORARI E REGOLE",
+    "T2_TEXT": "Il Museo delle Mura si trova in Via di Porta San Sebastiano 18, a Roma. È aperto dal martedì alla domenica, dalle 10.00 alle 16.00. L’ultimo ingresso è un’ora prima della chiusura. Il 1° gennaio 2026 il museo è aperto dalle 11.00 alle 16.00. È chiuso il lunedì, il 1° maggio e il 25 dicembre. Anche il camminamento ha gli stessi orari del museo. Nel museo possono entrare al massimo 20 visitatori nello stesso momento. In ogni sala possono restare al massimo 5 persone. La visita può durare al massimo 50 minuti. La terrazza della torre è chiusa ai visitatori. Sul camminamento esterno bisogna restare nel percorso: è vietato superare i muretti e le ringhiere.",
+    "L2_ITEMS": "**1.** Il Museo delle Mura si trova a Roma, in Via di Porta San Sebastiano. Vero ○ Falso ○\n\n**2.** Il museo è aperto dal lunedì al sabato. Vero ○ Falso ○\n\n**3.** L’ultimo ingresso è alle 15.00. Vero ○ Falso ○\n\n**4.** Il 1° gennaio 2026 il museo apre alle 11.00. Vero ○ Falso ○\n\n**5.** Il museo è chiuso il 1° maggio e il 25 dicembre. Vero ○ Falso ○\n\n**6.** Nello stesso momento possono entrare al massimo 25 visitatori. Vero ○ Falso ○\n\n**7.** In ogni sala possono restare al massimo 5 persone. Vero ○ Falso ○\n\n**8.** I visitatori possono andare sulla terrazza della torre. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | «si trova in Via di Porta San Sebastiano 18, a Roma». 中文：地点与地址完全一致。 |\n| L2.2 | F | «È aperto dal martedì alla domenica»; il lunedì è chiuso. 中文：开放日从周二开始，不是周一。 |\n| L2.3 | V | Chiude alle 16.00 e «L’ultimo ingresso è un’ora prima della chiusura», quindi alle 15.00. 中文：需用关门时间减一小时。 |\n| L2.4 | V | «Il 1° gennaio 2026 il museo è aperto dalle 11.00». 中文：元旦采用特别开放时间。 |\n| L2.5 | V | «È chiuso [...] il 1° maggio e il 25 dicembre». 中文：两个日期都明确列为闭馆日。 |\n| L2.6 | F | «possono entrare al massimo 20 visitatori», non 25. 中文：考查人数上限。 |\n| L2.7 | V | «In ogni sala possono restare al massimo 5 persone». 中文：限制适用于每个展厅。 |\n| L2.8 | F | «La terrazza della torre è chiusa ai visitatori». 中文：塔楼露台不对游客开放。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ultimo ingresso",
+      "categoria": "locuzione nominale",
+      "zh": "最后入场时间",
+      "en": "last admission",
+      "esempio": "L’ultimo ingresso è un’ora prima della chiusura."
+    },
+    {
+      "parola": "chiusura",
+      "categoria": "sostantivo",
+      "zh": "关闭；闭馆",
+      "en": "closing",
+      "esempio": "L’ultimo ingresso è un’ora prima della chiusura."
+    },
+    {
+      "parola": "camminamento esterno",
+      "categoria": "locuzione nominale",
+      "zh": "外部步道",
+      "en": "external walkway",
+      "esempio": "Sul camminamento esterno bisogna restare nel percorso: è vietato superare i muretti e le ringhiere."
+    },
+    {
+      "parola": "terrazza",
+      "categoria": "sostantivo",
+      "zh": "露台",
+      "en": "terrace",
+      "esempio": "La terrazza della torre è chiusa ai visitatori."
+    },
+    {
+      "parola": "ringhiere",
+      "categoria": "sostantivo plurale",
+      "zh": "栏杆",
+      "en": "railings",
+      "esempio": "Sul camminamento esterno bisogna restare nel percorso: è vietato superare i muretti e le ringhiere."
+    }
+  ]
+}

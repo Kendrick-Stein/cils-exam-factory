@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua giornata: scrivi a che ora ti alzi, cosa fai la mattina e cosa fai la sera.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una piscina. Chiedi gli orari del sabato e il prezzo del biglietto.",
+    "MODEL_W1": "Ogni giorno mi alzo alle sette. Faccio colazione e vado a scuola in autobus. Nel pomeriggio studio e gioco con i miei amici. La sera ceno con la mia famiglia e leggo un libro.\n\n*(34 parole — dentro la fascia 20–40)*",
+    "MODEL_W1_PHRASES": "«Ogni giorno…» (每天……) · «Mi alzo alle…» (我……点起床) · «Vado a scuola in…» (我乘……去学校) · «Nel pomeriggio…» (下午……) · «La sera…» (晚上……).",
+    "MODEL_W2": "Buongiorno, voglio venire in piscina sabato. A che ora aprite? Quanto costa il biglietto? Grazie. Mei\n\n*(16 parole — dentro la fascia 15–30)*",
+    "MODEL_W2_PHRASES": "«Buongiorno» (您好) · «Voglio venire…» (我想来……) · «A che ora aprite?» (你们几点开门？) · «Quanto costa il biglietto?» (门票多少钱？) · «Grazie» (谢谢)."
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "Faccio colazione",
+      "categoria": "espressione verbale",
+      "zh": "吃早餐",
+      "en": "to have breakfast",
+      "esempio": "Faccio colazione e vado a scuola in autobus."
+    },
+    {
+      "parola": "in autobus",
+      "categoria": "espressione avverbiale",
+      "zh": "乘公共汽车",
+      "en": "by bus",
+      "esempio": "Faccio colazione e vado a scuola in autobus."
+    },
+    {
+      "parola": "Nel pomeriggio",
+      "categoria": "espressione avverbiale",
+      "zh": "下午",
+      "en": "in the afternoon",
+      "esempio": "Nel pomeriggio studio e gioco con i miei amici."
+    },
+    {
+      "parola": "piscina",
+      "categoria": "nome femminile",
+      "zh": "游泳池",
+      "en": "swimming pool",
+      "esempio": "Buongiorno, voglio venire in piscina sabato."
+    },
+    {
+      "parola": "biglietto",
+      "categoria": "nome maschile",
+      "zh": "票；门票",
+      "en": "ticket",
+      "esempio": "Quanto costa il biglietto?"
+    }
+  ]
+}

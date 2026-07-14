@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "RESPIRA, CAMMINA, VIVI",
+    "S3_TEXT_WITH_GAPS": "L’__(0)__ propone un ciclo di quattro eventi __(1)__ di prossimità __(2)__ a scuole, giovani, centri estivi e famiglie, con l’obiettivo di __(3)__ il benessere, l’inclusione sociale e la cittadinanza attiva __(4)__ lo sport e attività all’aria aperta. Il progetto nasce per __(5)__ il disagio periferico e la carenza di opportunità aggregative, __(6)__ esperienze sportive __(7)__ a tutti e momenti di __(8)__ nei quartieri della città.\n\nDurante ogni appuntamento sarà possibile __(9)__ discipline __(10)__ come Pickleball, Nordic Walking e Karate, partecipare a laboratori creativi e prendere parte a sessioni di Plogging, l’attività che __(11)__ movimento e __(12)__ dei rifiuti, promuovendo il __(13)__ dell’ambiente e la cura degli spazi pubblici.\n\nOrario di tutte le attività: dalle __(14)__ 14.30 alle ore 17.00.\n\nUn’occasione per vivere i parchi cittadini attraverso sport, creatività, sostenibilità ambientale e inclusione sociale, __(15)__ i legami di comunità e promuovendo stili di vita sani e attivi.",
+    "S3_OPT0_A": "iniziativa",
+    "S3_OPT0_B": "edificio",
+    "S3_OPT0_C": "autobus",
+    "S3_OPT0_D": "indirizzo",
+    "S3_OPTION_ROWS": "| 1. | costosi | notturni | gratuiti | riservati |\n| 2. | spediti | rivolti | venduti | tradotti |\n| 3. | controllare | nascondere | interrompere | promuovere |\n| 4. | senza | attraverso | contro | dopo |\n| 5. | aumentare | conservare | contrastare | descrivere |\n| 6. | togliendo | offrendo | negando | riducendo |\n| 7. | accessibili | vietate | riservate | sconosciute |\n| 8. | isolamento | chiusura | condivisione | separazione |\n| 9. | evitare | sperimentare | vendere | dimenticare |\n| 10. | pericolose | segrete | costose | inclusive |\n| 11. | separa | limita | unisce | esclude |\n| 12. | vendita | raccolta | perdita | consegna |\n| 13. | danno | prezzo | rispetto | rumore |\n| 14. | pagine | settimane | ore | fermate |\n| 15. | rafforzando | spezzando | nascondendo | dimenticando |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | «eventi gratuiti» descrive un’iniziativa che offre attività alla comunità. 中文：gratuiti 与收费或受限的干扰项形成明确对比。 |\n| S3.2 | B | «rivolti a scuole, giovani, centri estivi e famiglie» indica i destinatari dell’iniziativa. 中文：a 后列出的是活动对象。 |\n| S3.3 | D | L’obiettivo è «promuovere il benessere, l’inclusione sociale e la cittadinanza attiva». 中文：目标是促进这些积极价值。 |\n| S3.4 | B | La promozione avviene «attraverso lo sport e attività all’aria aperta». 中文：这里表达实现目标的途径。 |\n| S3.5 | C | Il progetto vuole «contrastare il disagio periferico e la carenza di opportunità». 中文：disagio 和 carenza 是要对抗的问题。 |\n| S3.6 | B | Il progetto interviene «offrendo esperienze sportive» e occasioni comuni. 中文：动名词说明项目通过“提供”活动来行动。 |\n| S3.7 | A | Le esperienze sono «accessibili a tutti», in accordo con l’obiettivo dell’«inclusione sociale». 中文：面向所有人的包容目标锁定 accessibili。 |\n| S3.8 | C | Il testo parla di «momenti di condivisione» e, alla fine, di «legami di comunità». 中文：社区联结对应共同分享，而非隔离。 |\n| S3.9 | B | Durante gli appuntamenti si possono «sperimentare discipline» come Pickleball, Nordic Walking e Karate. 中文：列出的运动项目是供参与者体验的。 |\n| S3.10 | D | Le discipline sono «inclusive», in linea con l’obiettivo dell’«inclusione sociale». 中文：前后两处 inclusione 形成明确照应。 |\n| S3.11 | C | Il Plogging è definito come «l’attività che unisce movimento e raccolta dei rifiuti». 中文：定义强调把两种行动结合起来。 |\n| S3.12 | B | La definizione completa è «movimento e raccolta dei rifiuti». 中文：环保活动处理垃圾的动作是 raccolta。 |\n| S3.13 | C | La raccolta dei rifiuti promuove «il rispetto dell’ambiente e la cura degli spazi pubblici». 中文：与 cura 并列的是对环境的尊重。 |\n| S3.14 | C | L’orario è espresso «dalle ore 14.30 alle ore 17.00». 中文：14.30 和 17.00 都是钟点。 |\n| S3.15 | A | L’iniziativa mira a «rafforzare i legami di comunità» tramite attività condivise. 中文：共同活动使社区纽带更牢固。 |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "C",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "C",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "opportunità aggregative",
+      "categoria": "locuzione nominale",
+      "zh": "促进聚会与社交的机会",
+      "en": "opportunities for social gathering",
+      "esempio": "la carenza di opportunità aggregative"
+    },
+    {
+      "parola": "Plogging",
+      "categoria": "sostantivo",
+      "zh": "跑步捡垃圾的环保运动",
+      "en": "plogging",
+      "esempio": "prendere parte a sessioni di Plogging"
+    },
+    {
+      "parola": "spazi pubblici",
+      "categoria": "locuzione nominale",
+      "zh": "公共空间",
+      "en": "public spaces",
+      "esempio": "la cura degli spazi pubblici"
+    },
+    {
+      "parola": "legami di comunità",
+      "categoria": "locuzione nominale",
+      "zh": "社区纽带",
+      "en": "community ties",
+      "esempio": "rafforzando i legami di comunità"
+    },
+    {
+      "parola": "stili di vita",
+      "categoria": "locuzione nominale",
+      "zh": "生活方式",
+      "en": "lifestyles",
+      "esempio": "promuovendo stili di vita sani e attivi"
+    }
+  ]
+}

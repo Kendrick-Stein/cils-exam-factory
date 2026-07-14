@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "IL POLPO NON HA UN TENTACOLO PREFERITO",
+    "S1_TEXT_WITH_GAPS": "Gli uomini hanno una predisposizione genetica *(a)* __all' (0)__ uso della mano destra o *(di)* __(1)__ quella sinistra, ma *(per)* __(2)__ i polpi non funziona così. Non solo non hanno una mano dominante, ma, dotati *(di)* __(3)__ ben otto braccia, tendono a svolgere alcuni compiti più spesso con gli arti anteriori e altri *(con)* __(4)__ quelli posteriori.\n\nGli arti *(di)* __(5)__ questi animali non sono specializzati come quelli *(di)* __(6)__ molti mammiferi. Tuttavia, una recente ricerca dimostra che questi animali preferiscono utilizzare tutti e quattro __(7)__ arti anteriori *(per)* __(8)__ esplorare lo spazio. *(In)* __(9)__ particolare, quelli posteriori vengono usati soprattutto per muoversi *(in)* __(10)__ avanti.\n\nI polpi hanno otto tentacoli, ma non sono tutte zampe. La scienza distingue i tentacoli *(in)* __(11)__ base *(a)* __(12)__ ciò che fanno. __(13)__ due tentacoli posteriori servono *(per)* __(14)__ muoversi sul fondale marino. Tutti e sei __(15)__ tentacoli restanti sono usati *(per)* __(16)__ afferrare il cibo, manipolare oggetti ed esplorare l'ambiente.\n\nI ricercatori della Florida Atlantic University hanno analizzato 25 video di un minuto, girati tra __(17)__ 2007 e il 2015 *(in)* __(18)__ Oceano Atlantico e *(in)* __(19)__ Mar dei Caraibi, in cui i polpi si muovevano liberamente.\n\nCome i primati, i roditori e i pesci, i cefalopodi preferiscono usare un arto piuttosto che un altro *(in)* __(20)__ base ai compiti."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | di | S1.11 | in |\n| S1.2 | per | S1.12 | a |\n| S1.3 | di | S1.13 | i |\n| S1.4 | con | S1.14 | per |\n| S1.5 | di | S1.15 | i |\n| S1.6 | di | S1.16 | per |\n| S1.7 | gli | S1.17 | il |\n| S1.8 | per | S1.18 | nell' |\n| S1.9 | in | S1.19 | nel |\n| S1.10 | in | S1.20 | in |",
+    "ANS_S1_NOTES": "**Note sulle scelte insidiose.**\n\n- **S1.4/S1.5 — con/di:** davanti ai pronomi «quelli» e «questi» non si aggiunge un articolo: «con quelli posteriori», «di questi animali». 中文：指示代词和指示限定词已经承担限定作用。\n- **S1.7 — gli:** la sequenza è «tutti e quattro gli arti anteriori»; *arti* richiede l'articolo plurale *gli*. 中文：*tutti e quattro* 后仍需定冠词，元音开头复数用 *gli*。\n- **S1.12 — a:** l'espressione è «in base a ciò che fanno»; davanti a *ciò* non compare l'articolo. 中文：*ciò* 是代词，因此只能用简单介词 *a*。\n- **S1.15 — i:** la frase dice «tutti e sei i tentacoli restanti»; davanti a *tentacoli* si usa *i*. 中文：数量结构 *tutti e sei* 后接定冠词 *i*。\n- **S1.17/S1.18/S1.19 — il/nell'/nel:** le espressioni decisive sono «tra il 2007 e il 2015», «nell'Oceano Atlantico» e «nel Mar dei Caraibi». 中文：年份要求 *il*；两个唯一地名分别触发 *in + l'* 与 *in + il*。"
+  },
+  "key": {
+    "S1.1": "di",
+    "S1.2": "per",
+    "S1.3": "di",
+    "S1.4": "con",
+    "S1.5": "di",
+    "S1.6": "di",
+    "S1.7": "gli",
+    "S1.8": "per",
+    "S1.9": "in",
+    "S1.10": "in",
+    "S1.11": "in",
+    "S1.12": "a",
+    "S1.13": "i",
+    "S1.14": "per",
+    "S1.15": "i",
+    "S1.16": "per",
+    "S1.17": "il",
+    "S1.18": "nell'",
+    "S1.19": "nel",
+    "S1.20": "in"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "predisposizione genetica",
+      "categoria": "espressione nominale",
+      "zh": "遗传倾向",
+      "en": "genetic predisposition",
+      "esempio": "Gli uomini hanno una predisposizione genetica all'uso della mano destra o di quella sinistra, ma per i polpi non funziona così."
+    },
+    {
+      "parola": "arti anteriori",
+      "categoria": "espressione nominale",
+      "zh": "前肢",
+      "en": "front limbs",
+      "esempio": "Tuttavia, una recente ricerca dimostra che questi animali preferiscono utilizzare tutti e quattro gli arti anteriori per esplorare lo spazio."
+    },
+    {
+      "parola": "fondale marino",
+      "categoria": "espressione nominale",
+      "zh": "海床",
+      "en": "seabed",
+      "esempio": "I due tentacoli posteriori servono per muoversi sul fondale marino."
+    },
+    {
+      "parola": "ambiente naturale",
+      "categoria": "espressione nominale",
+      "zh": "自然环境",
+      "en": "natural environment",
+      "esempio": "A differenza delle precedenti ricerche sul comportamento di questi animali in laboratorio, il nuovo lavoro ha dimostrato che non esiste una preferenza nell'uso dei tentacoli nel loro ambiente naturale."
+    },
+    {
+      "parola": "cefalopodi",
+      "categoria": "nome maschile plurale",
+      "zh": "头足类动物",
+      "en": "cephalopods",
+      "esempio": "Invece, come i primati, i roditori e i pesci, i cefalopodi preferiscono usare un arto piuttosto che un altro in base ai compiti."
+    }
+  ]
+}

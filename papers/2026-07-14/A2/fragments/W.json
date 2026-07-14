@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un luogo vicino a casa tua dove ti piace andare nel tempo libero. Scrivi dove si trova, con chi ci vai, che cosa fai lì e perché ti piace.",
+    "W2_PROMPT": "Un amico ti invita a una gita domenica. Scrivi un messaggio per ringraziarlo e chiedere l’ora e il luogo dell’incontro e che cosa devi portare.",
+    "MODEL_W1": "Il mio luogo preferito è il parco vicino a casa. Ci vado spesso con mia sorella, soprattutto nel fine settimana. Camminiamo tra gli alberi, facciamo fotografie e poi mangiamo un gelato. Mi piace perché è tranquillo, pulito e pieno di fiori. Lì posso riposarmi e parlare con calma.",
+    "MODEL_W1_PHRASES": "**Il mio luogo preferito è…**（我最喜欢的地方是……）；**Ci vado spesso con…**（我经常和……去那里）；**Mi piace perché…**（我喜欢它，因为……）；**Lì posso…**（在那里我可以……）",
+    "MODEL_W2": "Ciao Luca, grazie per l’invito alla gita di domenica! A che ora partiamo e dove ci incontriamo? Devo portare il pranzo o possiamo comprarlo lì? Aspetto la tua risposta. A presto, Sara",
+    "MODEL_W2_PHRASES": "**Grazie per l’invito.**（谢谢你的邀请）；**A che ora…?**（几点……？）；**Dove ci incontriamo?**（我们在哪里见面？）；**Devo portare…?**（我需要带……吗？）；**Aspetto la tua risposta.**（等你的回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "tempo libero",
+      "categoria": "locuzione nominale",
+      "zh": "空闲时间",
+      "en": "free time",
+      "esempio": "un luogo vicino a casa tua dove ti piace andare nel tempo libero"
+    },
+    {
+      "parola": "fine settimana",
+      "categoria": "locuzione nominale",
+      "zh": "周末",
+      "en": "weekend",
+      "esempio": "Ci vado spesso con mia sorella, soprattutto nel fine settimana."
+    },
+    {
+      "parola": "gita",
+      "categoria": "nome femminile",
+      "zh": "短途旅行",
+      "en": "trip",
+      "esempio": "Un amico ti invita a una gita domenica."
+    },
+    {
+      "parola": "incontro",
+      "categoria": "nome maschile",
+      "zh": "会面",
+      "en": "meeting",
+      "esempio": "chiedere l’ora e il luogo dell’incontro"
+    },
+    {
+      "parola": "portare",
+      "categoria": "verbo",
+      "zh": "携带",
+      "en": "to bring",
+      "esempio": "Devo portare il pranzo o possiamo comprarlo lì?"
+    }
+  ]
+}

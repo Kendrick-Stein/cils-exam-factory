@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "FONDO DI COMUNITÀ RADICALMENTE ADOLESCENTI",
+    "T2_TEXT": "Chi ha tra gli 11 e i 20 anni può partecipare, fino al 2 marzo 2026, alla seconda edizione del Fondo di Comunità Radicalmente Adolescenti. L'iniziativa è finanziata e realizzata dalla Fondazione IU Rusconi Ghigi in collaborazione con il Comune di Bologna. Il progetto offre risorse economiche e progettuali per trasformare le proposte dei ragazzi e delle ragazze in azioni concrete nei sei quartieri di Bologna.\n\nOgni gruppo può candidare una sola idea progettuale, da realizzare tra maggio e novembre 2026. Il Fondo ha un budget annuale di 30.000 euro e ciascun gruppo può ottenere un contributo massimo di 2.500 euro.\n\nSi possono proporre idee di diversa natura: concerti, spettacoli, tornei, proiezioni, esibizioni, festival, viaggi, mostre, podcast e cortometraggi. Sono ammesse anche ricerche e studi su temi di interesse, incontri con esperti, attività all'aperto e progetti per migliorare gli spazi. Le proposte possono inoltre riguardare l'acquisto di arredi e strumenti, percorsi formativi, eventi culturali, comunicazione digitale, redazioni giornalistiche e laboratori creativi. Ogni idea può indicare un luogo preciso del Comune di Bologna o del quartiere di riferimento.\n\nLa candidatura deve essere presentata tramite l'apposito form online, inviato esclusivamente da una persona maggiorenne. Per un gruppo informale, il form deve essere inviato da una singola persona fisica, che sarà il mentor del gruppo. Per una scuola, un ente del terzo settore o un'altra realtà del territorio, deve inviarlo il rappresentante legale. Quest'ultimo può essere il mentor oppure delegare un'altra persona maggiorenne. Il mentor sostiene il gruppo durante l'intero sviluppo e la gestione dell'iniziativa.\n\nLa scadenza per inviare la proposta è il 2 marzo 2026 alle ore 12. La selezione delle idee sarà comunicata nel mese di marzo 2026.\n\nPer i gruppi selezionati seguirà una formazione intitolata «Da idea a progetto». Sono previsti due incontri pomeridiani in ciascun quartiere. La formazione aiuterà i partecipanti a trasformare le idee in progetti concreti, con indicazioni sulla gestione pratica delle risorse disponibili, compreso il contributo economico, e sugli aspetti operativi necessari per realizzare l'idea.",
+    "L2_ITEMS": "**1.** Possono partecipare al progetto persone dagli 11 ai 20 anni. Vero ○ Falso ○\n\n**2.** Il Comune di Bologna collabora alla realizzazione dell'iniziativa. Vero ○ Falso ○\n\n**3.** Le proposte devono diventare azioni concrete fuori da Bologna. Vero ○ Falso ○\n\n**4.** Ogni gruppo può presentare una sola idea progettuale. Vero ○ Falso ○\n\n**5.** Ciascun gruppo può ricevere tutto il budget annuale di 30.000 euro. Vero ○ Falso ○\n\n**6.** Tra le proposte ammesse ci sono anche ricerche e studi su temi di interesse. Vero ○ Falso ○\n\n**7.** Ogni idea deve obbligatoriamente indicare un luogo preciso di Bologna. Vero ○ Falso ○\n\n**8.** Il form online può essere inviato anche da una persona minorenne. Vero ○ Falso ○\n\n**9.** Nei gruppi informali, la persona che invia il form diventa il mentor. Vero ○ Falso ○\n\n**10.** Per una scuola, il form deve essere inviato dal rappresentante legale. Vero ○ Falso ○\n\n**11.** Il rappresentante legale deve sempre svolgere personalmente il ruolo di mentor. Vero ○ Falso ○\n\n**12.** Le proposte possono essere inviate fino alla sera del 2 marzo 2026. Vero ○ Falso ○\n\n**13.** I risultati della selezione saranno comunicati a marzo 2026. Vero ○ Falso ○\n\n**14.** La formazione prevede un solo incontro pomeridiano in ciascun quartiere. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | «Chi ha tra gli 11 e i 20 anni può partecipare». |\n| L2.2 | V | L'iniziativa è realizzata «in collaborazione con il Comune di Bologna». |\n| L2.3 | F | Le proposte diventano «azioni concrete nei sei quartieri di Bologna», non fuori città. |\n| L2.4 | V | «Ogni gruppo può candidare una sola idea progettuale». |\n| L2.5 | F | Il budget totale è 30.000 euro, ma «ciascun gruppo può ottenere un contributo massimo di 2.500 euro». 中文：区分基金总预算和单组上限。 |\n| L2.6 | V | Sono ammesse «ricerche e studi su temi di interesse». |\n| L2.7 | F | «Ogni idea può indicare un luogo preciso»: è una possibilità, non un obbligo. 中文：注意 può 与 deve 的区别。 |\n| L2.8 | F | Il form deve essere inviato «esclusivamente da una persona maggiorenne». |\n| L2.9 | V | Per un gruppo informale, la persona che invia il form «sarà il mentor del gruppo». |\n| L2.10 | V | Per una scuola o un altro ente, «deve inviarlo il rappresentante legale». |\n| L2.11 | F | Il rappresentante legale può «delegare un'altra persona maggiorenne» come mentor. |\n| L2.12 | F | La scadenza è «il 2 marzo 2026 alle ore 12», non la sera. 中文：关键是截止时刻中午12点。 |\n| L2.13 | V | «La selezione delle idee sarà comunicata nel mese di marzo 2026». |\n| L2.14 | F | «Sono previsti due incontri pomeridiani in ciascun quartiere», non uno solo. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "idea progettuale",
+      "categoria": "locuzione nominale",
+      "zh": "项目构想",
+      "en": "project idea",
+      "esempio": "Ogni gruppo può candidare una sola idea progettuale, da realizzare tra maggio e novembre 2026."
+    },
+    {
+      "parola": "gruppo informale",
+      "categoria": "locuzione nominale",
+      "zh": "非正式团体",
+      "en": "informal group",
+      "esempio": "Per un gruppo informale, il form deve essere inviato da una singola persona fisica, che sarà il mentor del gruppo."
+    },
+    {
+      "parola": "rappresentante legale",
+      "categoria": "locuzione nominale",
+      "zh": "法定代表人",
+      "en": "legal representative",
+      "esempio": "Per una scuola, un ente del terzo settore o un'altra realtà del territorio, deve inviarlo il rappresentante legale."
+    },
+    {
+      "parola": "scadenza",
+      "categoria": "nome femminile",
+      "zh": "截止期限",
+      "en": "deadline",
+      "esempio": "La scadenza per inviare la proposta è il 2 marzo 2026 alle ore 12."
+    },
+    {
+      "parola": "aspetti operativi",
+      "categoria": "locuzione nominale",
+      "zh": "实施层面的事项",
+      "en": "operational aspects",
+      "esempio": "La formazione aiuterà i partecipanti a trasformare le idee in progetti concreti, con indicazioni sulla gestione pratica delle risorse disponibili, compreso il contributo economico, e sugli aspetti operativi necessari per realizzare l'idea."
+    }
+  ]
+}

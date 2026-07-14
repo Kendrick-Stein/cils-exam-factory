@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ 1. **Sedie a rotelle e deambulatori**\n\n   Le persone con ridotta mobilità possono noleggiare sedie a rotelle e deambulatori, fino a esaurimento. Per utilizzare gratuitamente questi strumenti...\n\n○ 2. **Audioguida gratuita**\n\n   L’audioguida propone il percorso “Capolavori” e il percorso “Famiglie”, con un racconto pensato per bambini e ragazzi. Durante la visita, si può seguirla...\n\n○ 3. **AndiAMO al Museo da grandi**\n\n   Alle Terme di Diocleziano ci sono visite guidate sabato 13 e domenica 14, alle 10.30 e alle 16.30. Per partecipare...\n\n○ 4. **Visite al giardino di Palazzo Soranzo Cappello**\n\n   Per prenotare una visita al giardino bisogna compilare il modulo richiesto e inviarlo. Dopo avere completato questi passaggi di prenotazione...\n\n○ 5. **Museo Casa di Goethe**\n\n   Il Museo Casa di Goethe, in via del Corso, partecipa a un’apertura serale con ingresso gratuito. Per questa occasione speciale...\n\n○ 6. **Felicittà**\n\n   Felicittà propone visite, spettacoli, laboratori e aperture straordinarie gratuite, con particolare attenzione alle comunità e al patrimonio della città di Roma. L’appuntamento...",
+    "L3_OPTIONS": "A. la prenotazione si fa sul posto fino a esaurimento, con un massimo di 25 partecipanti per visita.\n\nB. è il 2 luglio, dalle 18 alle 24, per scoprire il patrimonio di Roma Capitale.\n\nC. non occorre prenotare e non bisogna versare denaro come cauzione prima della visita al museo.\n\nD. il pubblico può entrare dalle 20.00 all’una di notte, con ultimo ingresso alle 00.30.\n\nE. in modo gratuito, scegliendo italiano, inglese, francese o tedesco, oppure usando la lingua dei segni.\n\nF. non serve ricevere un’altra conferma; per il percorso è anche consigliabile indossare scarpe comode.\n\nG. è obbligatorio prenotare prima e lasciare una cauzione al personale che consegna gli strumenti ai visitatori.\n\nH. il pubblico può entrare soltanto nel pomeriggio e il museo chiude alle 20.00, prima della notte."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | C | «ridotta mobilità», «sedie a rotelle e deambulatori» e «questi strumenti» si completano con «non occorre prenotare» e «non bisogna versare ... cauzione». 中文：免费租用不需预约或押金。 |\n| L3.2 | E | «L’audioguida» e i percorsi «Capolavori» e «Famiglie» si completano con le lingue disponibili, compresa la «lingua dei segni». 中文：选项补充导览的语言。 |\n| L3.3 | A | Le «visite guidate» alle «Terme di Diocleziano» richiedono la prenotazione «sul posto» e prevedono «un massimo di 25 partecipanti». 中文：日期、地点与现场预约相对应。 |\n| L3.4 | F | Dopo aver «compilato il modulo» e averlo inviato, «non serve ricevere un’altra conferma»; il riferimento al «percorso» introduce le «scarpe comode». 中文：提交表格后无需再等确认。 |\n| L3.5 | D | L’«apertura serale» con «ingresso gratuito» è precisata dagli orari «dalle 20.00 all’una di notte» e «00.30». 中文：夜间开放时段唯一匹配。 |\n| L3.6 | B | «Felicittà», le attività gratuite e il «patrimonio della città di Roma» corrispondono al «2 luglio» e a «Roma Capitale». 中文：活动名、城市遗产与日期相互锁定。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "C",
+    "L3.2": "E",
+    "L3.3": "A",
+    "L3.4": "F",
+    "L3.5": "D",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ridotta mobilità",
+      "categoria": "espressione nominale",
+      "zh": "行动不便",
+      "en": "reduced mobility",
+      "esempio": "Le persone con ridotta mobilità possono noleggiare sedie a rotelle e deambulatori, fino a esaurimento."
+    },
+    {
+      "parola": "noleggiare",
+      "categoria": "verbo",
+      "zh": "租用",
+      "en": "to rent",
+      "esempio": "Le persone con ridotta mobilità possono noleggiare sedie a rotelle e deambulatori, fino a esaurimento."
+    },
+    {
+      "parola": "fino a esaurimento",
+      "categoria": "locuzione",
+      "zh": "直到用完为止；数量有限",
+      "en": "while supplies last",
+      "esempio": "la prenotazione si fa sul posto fino a esaurimento, con un massimo di 25 partecipanti per visita."
+    },
+    {
+      "parola": "lingua dei segni",
+      "categoria": "espressione nominale",
+      "zh": "手语",
+      "en": "sign language",
+      "esempio": "in modo gratuito, scegliendo italiano, inglese, francese o tedesco, oppure usando la lingua dei segni."
+    },
+    {
+      "parola": "aperture straordinarie",
+      "categoria": "espressione nominale",
+      "zh": "特别开放",
+      "en": "special openings",
+      "esempio": "Felicittà propone visite, spettacoli, laboratori e aperture straordinarie gratuite, con particolare attenzione alle comunità e al patrimonio della città di Roma."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Servizio estivo 0-6 anni**\n\n   Dal 14 maggio 2026 sono aperte le iscrizioni al servizio estivo educativo del Comune di Genova. Il servizio è per bambini da zero a sei anni.\n\n2. **LookAp nel sottobosco**\n\n   Ci sono escursioni nel sottobosco, laboratori artistici con collage e colori e film d'animazione. Tutti gli eventi sono gratuiti, ma è obbligatorio prenotare.\n\n3. **Serata giochi**\n\n   Venerdì 17 luglio, alle ore 21, alla Cascina Roccafranca, ci sono quiz a squadre, giochi e sfide divertenti. L'ingresso alla serata è libero e gratuito.\n\n4. **Domenica gratuita nei musei**\n\n   Domenica 5 luglio, prima domenica del mese, i Musei di Roma Capitale e le aree archeologiche della città sono aperti. L'ingresso è gratuito per tutti.",
+    "L3_OPTIONS": "A. Per le attività nel sottobosco non si paga, ma bisogna prenotare.\n\nB. Si può passare una serata gratuita con quiz e giochi di squadra.\n\nC. Le iscrizioni sono per un servizio estivo dedicato ai bambini da zero a sei anni.\n\nD. Il 5 luglio tutti possono entrare gratis nei musei e nelle aree archeologiche.\n\nE. Per le attività nel sottobosco non si paga e non bisogna prenotare.\n\nF. Il 5 luglio l'ingresso ai musei è gratuito solo per i bambini."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | C | «servizio estivo» e «per bambini da zero a sei anni». 中文：服务类型和年龄范围同时对应。 |\n| L3.2 | A | «eventi sono gratuiti, ma è obbligatorio prenotare». 中文：免费不等于不需要预约。 |\n| L3.3 | B | «quiz a squadre, giochi» e «libero e gratuito». 中文：活动内容与免费入场同时对应。 |\n| L3.4 | D | «5 luglio», «aree archeologiche» e «gratuito per tutti». 中文：关键是所有人免费，不只是儿童。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "C",
+    "L3.2": "A",
+    "L3.3": "B",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "iscrizioni",
+      "categoria": "nome femminile plurale",
+      "zh": "报名",
+      "en": "registrations",
+      "esempio": "Dal 14 maggio 2026 sono aperte le iscrizioni al servizio estivo educativo del Comune di Genova."
+    },
+    {
+      "parola": "sottobosco",
+      "categoria": "nome maschile",
+      "zh": "林下植被；灌木丛",
+      "en": "undergrowth",
+      "esempio": "Ci sono escursioni nel sottobosco, laboratori artistici con collage e colori e film d'animazione."
+    },
+    {
+      "parola": "prenotare",
+      "categoria": "verbo",
+      "zh": "预约",
+      "en": "to book",
+      "esempio": "Tutti gli eventi sono gratuiti, ma è obbligatorio prenotare."
+    },
+    {
+      "parola": "quiz a squadre",
+      "categoria": "espressione nominale",
+      "zh": "团队问答游戏",
+      "en": "team quiz",
+      "esempio": "Venerdì 17 luglio, alle ore 21, alla Cascina Roccafranca, ci sono quiz a squadre, giochi e sfide divertenti."
+    },
+    {
+      "parola": "aree archeologiche",
+      "categoria": "espressione nominale",
+      "zh": "考古遗址区",
+      "en": "archaeological areas",
+      "esempio": "Domenica 5 luglio, prima domenica del mese, i Musei di Roma Capitale e le aree archeologiche della città sono aperti."
+    }
+  ]
+}

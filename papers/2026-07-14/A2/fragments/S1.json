@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "BAGAGLIO FACILE",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ collaborazione tra Trenitalia e Zyppy offre Bagaglio Facile, un servizio per viaggiare senza valigie. Puoi spedire __(1)__ tuoi bagagli prima __(2)__ partire e riceverli direttamente __(3)__ casa, __(4)__ hotel oppure all'indirizzo che preferisci.\n\nCon gli sconti dedicati, il primo bagaglio costa 25 euro invece __(5)__ 45 euro. Dal secondo in poi, paghi 23 euro a bagaglio.\n\nPrenota __(6)__ servizio online: scegli __(7)__ tuo ritiro e __(8)__ tua consegna. Puoi ricevere __(9)__ tuo bagaglio all'indirizzo indicato. I prezzi promozionali partono da 25 euro se inserisci il PNR del viaggio; inoltre accumuli punti CartaFreccia se metti il tuo codice __(10)__ fase di prenotazione."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | i | S1.6 | il |\n| S1.2 | di | S1.7 | il |\n| S1.3 | a | S1.8 | la |\n| S1.4 | in | S1.9 | il |\n| S1.5 | di | S1.10 | in |",
+    "ANS_S1_NOTES": "**Note.** S1.1 «i tuoi bagagli»; S1.2 «prima di partire»; S1.3 «a casa»; S1.4 «in hotel»; S1.5 «invece di 45 euro»; S1.6 «il servizio» riprende il servizio già presentato; S1.7–S1.9 «il tuo ritiro», «la tua consegna», «il tuo bagaglio»; S1.10 «in fase di prenotazione». 中文提示：单数物主词 *tuo/tua* 前必须有定冠词；固定搭配和名词的阴阳性使每个空只有一个答案。"
+  },
+  "key": {
+    "S1.1": "i",
+    "S1.2": "di",
+    "S1.3": "a",
+    "S1.4": "in",
+    "S1.5": "di",
+    "S1.6": "il",
+    "S1.7": "il",
+    "S1.8": "la",
+    "S1.9": "il",
+    "S1.10": "in"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "viaggiare senza valigie",
+      "categoria": "espressione verbale",
+      "zh": "不带行李箱旅行",
+      "en": "to travel without suitcases",
+      "esempio": "La collaborazione tra Trenitalia e Zyppy offre Bagaglio Facile, un servizio per viaggiare senza valigie."
+    },
+    {
+      "parola": "sconti dedicati",
+      "categoria": "espressione nominale",
+      "zh": "专属折扣",
+      "en": "special discounts",
+      "esempio": "Con gli sconti dedicati, il primo bagaglio costa 25 euro invece di 45 euro."
+    },
+    {
+      "parola": "ritiro",
+      "categoria": "nome maschile",
+      "zh": "取件",
+      "en": "collection",
+      "esempio": "Prenota il servizio online: scegli il tuo ritiro e la tua consegna."
+    },
+    {
+      "parola": "prezzi promozionali",
+      "categoria": "espressione nominale",
+      "zh": "促销价格",
+      "en": "promotional prices",
+      "esempio": "I prezzi promozionali partono da 25 euro se inserisci il PNR del viaggio; inoltre accumuli punti CartaFreccia se metti il tuo codice in fase di prenotazione."
+    },
+    {
+      "parola": "in fase di prenotazione",
+      "categoria": "espressione preposizionale",
+      "zh": "在预订阶段",
+      "en": "during booking",
+      "esempio": "I prezzi promozionali partono da 25 euro se inserisci il PNR del viaggio; inoltre accumuli punti CartaFreccia se metti il tuo codice in fase di prenotazione."
+    }
+  ]
+}
