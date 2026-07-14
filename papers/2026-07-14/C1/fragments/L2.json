@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "BANDO PER LE MIGLIORIE NEI MERCATI COMUNALI",
+    "T2_TEXT": "**Art. 2 Termini di presentazione delle domande**\n\nLe istanze possono essere presentate dal 15 maggio al 15 giugno 2026 ai sensi dell’art. 17 c. 2 del vigente Regolamento mercati e fiere.\n\n**Art. 3 Soggetti ammessi alla presentazione delle domande**\n\nSono ammessi a presentare domanda gli operatori titolari di concessione di posteggio nei mercati del Comune di Bologna ricompresi nell’elenco dell’articolo 1 del presente bando, nel rispetto dei vincoli di destinazione merceologica. Le istanze devono essere distinte per singolo mercato.\n\n**Art. 4 Modalità di presentazione della domanda**\n\nLe domande dovranno pervenire al Settore Economia del Comune di Bologna attraverso la piattaforma informatica ACCESSO UNITARIO, pena l’esclusione dalla selezione. L’intervento di riferimento da selezionare è “Richiesta di spostamento di posteggio (miglioria) nell’ambito di fiera/mercato”. La domanda dovrà pervenire tassativamente dal 15 maggio al 15 giugno 2026, quelle inviate prima o oltre tali termini non produrranno alcun effetto e saranno considerate irricevibili.\n\nContestualmente all’invio della domanda è richiesto agli operatori di autodichiarare l’anzianità di attività dell’azienda su area pubblica documentata dall’autorizzazione amministrativa riferita all’azienda o al dante causa. Tale autodichiarazione deve essere inserita nel campo delle note aggiuntive alla pratica durante la compilazione della stessa.\n\nIl mercato cittadino diffuso B si distingue in base alla giornata di svolgimento dell’attività; ad es. il titolare di un posteggio con attività al lunedì può fare domanda di spostamento per un posteggio attivo al lunedì.\n\n**Art. 5 Cause di irricevibilità della domanda**\n\nLa domanda s’intende irricevibile e non dà diritto alla collocazione in graduatoria qualora:\n\n- sia presentata prima o dopo i termini temporali previsti dal presente bando;\n- venga omesso e/o non sia identificabile uno degli elementi identificativi del richiedente;\n- non sia stata presentata utilizzando l'apposita piattaforma informatica Accesso Unitario;\n- manchi la sottoscrizione della procura speciale tramite firma digitale o autografa con allegato documento di riconoscimento;\n- la domanda sia sprovvista del codice identificativo della marca da bollo di € 16,00;\n- la domanda sia carente degli allegati previsti;\n- manchi l’indicazione del posteggio su cui si chiede lo spostamento.\n\n**Art. 6 Graduatoria**\n\nLe domande di miglioria saranno esaminate per la formulazione della graduatoria per singolo mercato nel rispetto dei seguenti criteri:\n\n- maggiore anzianità di attività maturata dalla data di assegnazione del posteggio di cui trattasi;\n- in subordine, a parità di anzianità, la maggiore anzianità di attività dell’azienda su area pubblica documentata dall’autorizzazione amministrativa riferita all’azienda o al dante causa, con le modalità dell’autocertificazione presentata dall’operatore interessato;\n- a parità delle precedenti condizioni, si terrà conto dell’ordine cronologico di presentazione della domanda, riferito alla data di protocollazione.\n\nIl Comune provvederà a redigere, per ciascun mercato, la graduatoria provvisoria delle domande di miglioria pervenute entro il termine sopra indicato, dandone pubblicazione per eventuale richiesta di riesame.\n\nTrascorsi 15 giorni dalla pubblicazione della graduatoria, per ciascun mercato, verrà ratificata, resa definitiva e pubblicata. Successivamente il Comune provvederà ad invitare gli operatori presenti nella graduatoria definitiva, per la scelta dei posteggi, nel rispetto dell’ordine della graduatoria.\n\n**Art. 7 Scelta e assegnazione del posteggio**\n\nGli operatori interessati verranno convocati via PEC presso gli uffici del Settore Economia in Piazza Liber Paradisus 10 – Torre A e si procederà alle operazioni di scelta dei posteggi disponibili mediante scorrimento della graduatoria, tenuto conto anche dei posteggi che si rendono liberi in seguito alla miglioria.",
+    "L2_ITEMS": "1. Può presentare domanda soltanto chi è titolare di una concessione di posteggio in uno dei mercati indicati dal bando. Vero ○ Falso ○\n\n2. Un operatore interessato a più mercati può comprenderli tutti in un’unica istanza. Vero ○ Falso ○\n\n3. Una domanda trasmessa con modalità diverse dalla piattaforma Accesso Unitario può essere regolarizzata dopo la scadenza. Vero ○ Falso ○\n\n4. Le istanze inviate prima del 15 maggio o dopo il 15 giugno 2026 sono prive di effetto. Vero ○ Falso ○\n\n5. L’anzianità dell’azienda su area pubblica deve essere autodichiarata nelle note aggiuntive durante la compilazione della pratica. Vero ○ Falso ○\n\n6. Nel mercato cittadino diffuso B, chi lavora il lunedì può chiedere lo spostamento a un posteggio attivo in qualunque giorno della settimana. Vero ○ Falso ○\n\n7. L’omissione di un elemento identificativo del richiedente impedisce la collocazione della domanda in graduatoria. Vero ○ Falso ○\n\n8. La mancanza del codice identificativo della marca da bollo rende irricevibile la domanda. Vero ○ Falso ○\n\n9. La graduatoria considera in primo luogo l’anzianità complessiva dell’azienda nell’attività su area pubblica. Vero ○ Falso ○\n\n10. Se persistono condizioni di parità dopo l’applicazione dei criteri di anzianità, conta la data di protocollazione. Vero ○ Falso ○\n\n11. Il Comune redige un’unica graduatoria provvisoria valida per tutti i mercati. Vero ○ Falso ○\n\n12. La prima pubblicazione della graduatoria provvisoria la rende immediatamente definitiva. Vero ○ Falso ○\n\n13. Gli operatori presenti nella graduatoria definitiva scelgono i posteggi secondo l’ordine della graduatoria. Vero ○ Falso ○\n\n14. Nella scelta finale non si considerano i posteggi liberati da altri operatori a seguito della procedura di miglioria. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Sono ammessi «gli operatori titolari di concessione di posteggio» nei mercati ricompresi nell’elenco del bando. 中文：资格与特定市场的摊位许可绑定。 |\n| L2.2 | F | Il testo prescrive che «le istanze devono essere distinte per singolo mercato». 中文：不能用一份申请覆盖多个市场。 |\n| L2.3 | F | L’uso di Accesso Unitario è imposto «pena l’esclusione dalla selezione» e la modalità irregolare è causa di irricevibilità. 中文：原文没有事后补正机制。 |\n| L2.4 | V | Le domande inviate fuori dal periodo indicato «non produrranno alcun effetto e saranno considerate irricevibili». 中文：提前提交也无效。 |\n| L2.5 | V | L’autodichiarazione «deve essere inserita nel campo delle note aggiuntive alla pratica durante la compilazione». 中文：填写位置和时间均由原文明确。 |\n| L2.6 | F | L’esempio precisa che chi opera il lunedì può chiedere un posteggio «attivo al lunedì». 中文：市场按营业日区分，不能任意跨日。 |\n| L2.7 | V | Se viene omesso o non è identificabile un elemento del richiedente, la domanda «s’intende irricevibile e non dà diritto alla collocazione in graduatoria». 中文：缺少身份要素直接阻断入榜。 |\n| L2.8 | V | Tra le cause di irricevibilità figura la domanda «sprovvista del codice identificativo della marca da bollo di € 16,00». 中文：要求的是印花税标识码。 |\n| L2.9 | F | Il primo criterio è l’anzianità «maturata dalla data di assegnazione del posteggio»; l’anzianità generale dell’azienda interviene solo «in subordine». 中文：两个年资标准有先后层级。 |\n| L2.10 | V | «A parità delle precedenti condizioni» vale l’ordine cronologico riferito «alla data di protocollazione». 中文：协议登记日期是最后的平局判据。 |\n| L2.11 | F | Il Comune redige «per ciascun mercato» la rispettiva graduatoria provvisoria. 中文：不是所有市场共用一份榜单。 |\n| L2.12 | F | La ratifica e la pubblicazione definitiva avvengono «trascorsi 15 giorni dalla pubblicazione della graduatoria». 中文：首次公布后保留复审期，并非立即生效。 |\n| L2.13 | V | Gli operatori sono invitati alla scelta «nel rispetto dell’ordine della graduatoria». 中文：最终榜单顺序决定选择次序。 |\n| L2.14 | F | Lo scorrimento tiene conto «anche dei posteggi che si rendono liberi in seguito alla miglioria». 中文：后续释放的摊位明确包含在内。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "irricevibile",
+      "categoria": "aggettivo",
+      "zh": "不予受理的",
+      "en": "inadmissible",
+      "esempio": "La domanda s’intende irricevibile e non dà diritto alla collocazione in graduatoria qualora:"
+    },
+    {
+      "parola": "dante causa",
+      "categoria": "locuzione nominale",
+      "zh": "权利前手；权利来源人",
+      "en": "predecessor in title",
+      "esempio": "Contestualmente all’invio della domanda è richiesto agli operatori di autodichiarare l’anzianità di attività dell’azienda su area pubblica documentata dall’autorizzazione amministrativa riferita all’azienda o al dante causa."
+    },
+    {
+      "parola": "protocollazione",
+      "categoria": "sostantivo femminile",
+      "zh": "登记入档",
+      "en": "official registration",
+      "esempio": "a parità delle precedenti condizioni, si terrà conto dell’ordine cronologico di presentazione della domanda, riferito alla data di protocollazione."
+    },
+    {
+      "parola": "in subordine",
+      "categoria": "locuzione avverbiale",
+      "zh": "其次；作为次级条件",
+      "en": "subsidiarily",
+      "esempio": "in subordine, a parità di anzianità, la maggiore anzianità di attività dell’azienda su area pubblica documentata dall’autorizzazione amministrativa riferita all’azienda o al dante causa, con le modalità dell’autocertificazione presentata dall’operatore interessato;"
+    },
+    {
+      "parola": "scorrimento della graduatoria",
+      "categoria": "locuzione nominale",
+      "zh": "按排名顺序递补",
+      "en": "ranking-list progression",
+      "esempio": "Gli operatori interessati verranno convocati via PEC presso gli uffici del Settore Economia in Piazza Liber Paradisus 10 – Torre A e si procederà alle operazioni di scelta dei posteggi disponibili mediante scorrimento della graduatoria, tenuto conto anche dei posteggi che si rendono liberi in seguito alla miglioria."
+    }
+  ]
+}

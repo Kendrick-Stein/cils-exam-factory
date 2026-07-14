@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "L'AMORE, UN CONTINENTE IGNOTO",
+    "S1_TEXT_WITH_GAPS": "__Non solo (0)__ l’amore sfugge alle categorie, ma impedisce anche di costruire un sapere stabile. Il suo «strano ritardo cognitivo» si manifesta nella misura in __(1)__ la tradizione diventa possibile. Il problema riguarda __(2)__ il modo in cui amiamo, sia ciò che tentiamo di impararne. Prima ancora __(3)__ trasformare l’esperienza in una scienza, vorremmo ordinarla; essa sfugge, però, da una parte alle categorie, dall’__(4)__ alle classificazioni, a tal punto __(5)__ non diventa un sapere trasmissibile e replicabile. L’enigma resta intatto proprio in __(6)__ non possiamo fissarlo.\n\nDal «tormento» facciamo un «tormentone» per il fatto __(7)__ il materiale semplice e ritmico del canto esprime un’avventura ricorrente. Ci si può domandare __(8)__ le canzoni d’amore siano frequenti per caso oppure no; la risposta negativa dipende dal fatto __(9)__ solo il canto offre forma a quell’esperienza. È in grado __(10)__ esprimerla.\n\nNel momento in __(11)__ amiamo, siamo nella stessa condizione in __(12)__ altri si sono trovati. Ciò vale __(13)__ per chi ha amato in passato, sia per chi ama ora. Eppure siamo incapaci __(14)__ imparare: non apprendiamo né dagli altri __(15)__ dai nostri errori. L’esperienza resta assoluta a prescindere __(16)__ quante volte altri abbiano vissuto un amore simile. Si tratta __(17)__ una dimensione non standardizzabile, radicalmente situata nel momento stesso in __(18)__ la si attraversa.\n\nÈ per questa ragione __(19)__ l’amore appare come la smisurata terra non mappata di un «continente ignoto»: rimane __(20)__ una terra senza mappe sia un campo senza esperti."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | cui | S1.11 | cui |\n| S1.2 | sia | S1.12 | cui |\n| S1.3 | di | S1.13 | sia |\n| S1.4 | altra | S1.14 | di |\n| S1.5 | che | S1.15 | né |\n| S1.6 | quanto | S1.16 | da |\n| S1.7 | che | S1.17 | di |\n| S1.8 | se | S1.18 | cui |\n| S1.9 | che | S1.19 | che |\n| S1.10 | di | S1.20 | sia |",
+    "ANS_S1_NOTES": "**Note sui connettivi insidiosi.**\n\n- **S1.1–S1.3 — cui; sia; di:** le cornici complete sono «nella misura in cui», «sia… sia…» e «prima ancora di + infinito». 中文：固定结构与不定式共同锁定答案。\n- **S1.4–S1.6 — altra; che; quanto:** «da una parte… dall’altra», «a tal punto che + verbo finito» e «proprio in quanto» sono locuzioni chiuse. 中文：要同时观察空格前后的固定标记。\n- **S1.7–S1.10 — che; se; che; di:** «per il fatto che» e «dipende dal fatto che» sono locuzioni fisse; «domandarsi se… oppure no» impone l’interrogativa indiretta; «in grado di» regge l’infinito. 中文：*oppure no* 排除陈述性 *che*。\n- **S1.11–S1.18 — cui; cui; sia; di; né; da; di; cui:** le sequenze decisive sono «in cui», «sia… sia», «né… né», «a prescindere da», «si tratta di» e «nel momento stesso in cui». 中文：关系词、关联词和动词支配一起限定形式。\n- **S1.19/S1.20 — che; sia:** «È per questa ragione che» introduce la conseguenza; il secondo «sia» già stampato chiude la correlazione «sia… sia…». 中文：第二空由完整关联结构锁定，不再依赖被省略名词的性别。"
+  },
+  "key": {
+    "S1.1": "cui",
+    "S1.2": "sia",
+    "S1.3": "di",
+    "S1.4": "altra",
+    "S1.5": "che",
+    "S1.6": "quanto",
+    "S1.7": "che",
+    "S1.8": "se",
+    "S1.9": "che",
+    "S1.10": "di",
+    "S1.11": "cui",
+    "S1.12": "cui",
+    "S1.13": "sia",
+    "S1.14": "di",
+    "S1.15": "né",
+    "S1.16": "da",
+    "S1.17": "di",
+    "S1.18": "cui",
+    "S1.19": "che",
+    "S1.20": "sia"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ritardo cognitivo",
+      "categoria": "espressione nominale",
+      "zh": "认知滞后",
+      "en": "cognitive delay",
+      "esempio": "Il suo «strano ritardo cognitivo» si manifesta nella misura in cui la tradizione diventa possibile soltanto quando l’esperienza è già consumata."
+    },
+    {
+      "parola": "sapere stabile",
+      "categoria": "espressione nominale",
+      "zh": "稳定的知识体系",
+      "en": "stable body of knowledge",
+      "esempio": "l’amore sfugge alle categorie, ma impedisce anche di costruire un sapere stabile"
+    },
+    {
+      "parola": "non standardizzabile",
+      "categoria": "aggettivo",
+      "zh": "无法标准化的",
+      "en": "not standardisable",
+      "esempio": "Si tratta di una dimensione non standardizzabile, radicalmente situata nel momento stesso in cui la si attraversa."
+    },
+    {
+      "parola": "radicalmente situata",
+      "categoria": "espressione aggettivale",
+      "zh": "彻底根植于特定情境的",
+      "en": "radically situated",
+      "esempio": "Si tratta di una dimensione non standardizzabile, radicalmente situata nel momento stesso in cui la si attraversa."
+    },
+    {
+      "parola": "terra non mappata",
+      "categoria": "espressione nominale",
+      "zh": "未被绘制的疆域",
+      "en": "uncharted land",
+      "esempio": "l’amore appare come la smisurata terra non mappata di un «continente ignoto»"
+    }
+  ]
+}

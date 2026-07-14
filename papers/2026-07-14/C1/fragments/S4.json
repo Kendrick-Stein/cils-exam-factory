@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "Modalità e termini di presentazione delle domande",
+    "T7_TEXT": "Per presentare la richiesta di contributo è obbligatorio usare esclusivamente i modelli allegati al documento, del quale costituiscono parte integrante. La domanda deve essere trasmessa, pena l'esclusione, tramite PEC all'indirizzo del Municipio 4, indicando nell'oggetto «AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4». L'invio deve avvenire entro le ore 23:59 di lunedì 27 luglio 2026 e il termine indicato è tassativo. Il recapito della documentazione resta a esclusivo rischio dei partecipanti. L'Amministrazione può richiedere ai concorrenti chiarimenti o integrazioni in merito alla documentazione fornita. La domanda va corredata di una marca da bollo da 16 euro, salvo i casi di esenzione; la marca deve essere applicata sulla domanda e annullata. Infine, la domanda deve essere compilata in ogni sua parte e firmata digitalmente o a mano dal legale rappresentante; deve inoltre riportare il timbro del richiedente, tranne quando la firma è digitale.",
+    "S4_SOURCE_0": "Per presentare la richiesta di contributo è obbligatorio usare esclusivamente i modelli allegati al documento, del quale costituiscono parte integrante.",
+    "S4_REWRITE_0": "LA RICHIESTA DI CONTRIBUTO DEVE ESSERE PRESENTATA ESCLUSIVAMENTE UTILIZZANDO I MODELLI ALLEGATI AL DOCUMENTO, DI CUI COSTITUISCONO PARTE INTEGRANTE.",
+    "S4_ITEMS": "**1. La domanda deve essere trasmessa, pena l'esclusione, tramite PEC all'indirizzo del Municipio 4, indicando nell'oggetto «AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4».**\n\n→ LA TRASMISSIONE DELLA DOMANDA DEVE AVVENIRE, PENA L'ESCLUSIONE, TRAMITE PEC ALL'INDIRIZZO DEL MUNICIPIO 4, RIPORTANDO NELL'OGGETTO …………………………………\n\n**2. L'invio deve avvenire entro le ore 23:59 di lunedì 27 luglio 2026 e il termine indicato è tassativo.**\n\n→ LA SCADENZA TASSATIVA PER L'INVIO È FISSATA ALLE ORE 23:59 DI …………………………………\n\n**3. Il recapito della documentazione resta a esclusivo rischio dei partecipanti.**\n\n→ I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO …………………………………\n\n**4. L'Amministrazione può richiedere ai concorrenti chiarimenti o integrazioni in merito alla documentazione fornita.**\n\n→ È FACOLTÀ DELL'AMMINISTRAZIONE RICHIEDERE AI CONCORRENTI, IN MERITO ALLA DOCUMENTAZIONE FORNITA, CHIARIMENTI O …………………………………\n\n**5. La domanda va corredata di una marca da bollo da 16 euro, salvo i casi di esenzione; la marca deve essere applicata sulla domanda e annullata.**\n\n→ A ECCEZIONE DEI CASI DI ESENZIONE, SULLA DOMANDA OCCORRE APPLICARE UNA MARCA DA BOLLO DA 16 EURO, CHE DEVE ESSERE …………………………………\n\n**6. Infine, la domanda deve essere compilata in ogni sua parte e firmata digitalmente o a mano dal legale rappresentante; deve inoltre riportare il timbro del richiedente, tranne quando la firma è digitale.**\n\n→ LA DOMANDA DEVE ESSERE COMPILATA IN OGNI SUA PARTE E FIRMATA DIGITALMENTE O A MANO DAL LEGALE RAPPRESENTANTE; IL TIMBRO DEL RICHIEDENTE PUÒ MANCARE SOLO QUALORA LA FIRMA …………………………………"
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | LA TRASMISSIONE DELLA DOMANDA DEVE AVVENIRE, PENA L'ESCLUSIONE, TRAMITE PEC ALL'INDIRIZZO DEL MUNICIPIO 4, RIPORTANDO NELL'OGGETTO «AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4». |\n| S4.2 | LA SCADENZA TASSATIVA PER L'INVIO È FISSATA ALLE ORE 23:59 DI LUNEDÌ 27 LUGLIO 2026. |\n| S4.3 | I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO DEL RECAPITO DELLA DOCUMENTAZIONE. |\n| S4.4 | È FACOLTÀ DELL'AMMINISTRAZIONE RICHIEDERE AI CONCORRENTI, IN MERITO ALLA DOCUMENTAZIONE FORNITA, CHIARIMENTI O INTEGRAZIONI. |\n| S4.5 | A ECCEZIONE DEI CASI DI ESENZIONE, SULLA DOMANDA OCCORRE APPLICARE UNA MARCA DA BOLLO DA 16 EURO, CHE DEVE ESSERE ANNULLATA. |\n| S4.6 | LA DOMANDA DEVE ESSERE COMPILATA IN OGNI SUA PARTE E FIRMATA DIGITALMENTE O A MANO DAL LEGALE RAPPRESENTANTE; IL TIMBRO DEL RICHIEDENTE PUÒ MANCARE SOLO QUALORA LA FIRMA SIA DIGITALE. |",
+    "ANS_S4_NOTES": "**Note sulle varianti e sugli errori tipici**\n\n- **S4.1–S4.2:** vanno conservati sia «pena l'esclusione» sia il carattere «tassativo» del termine; ometterli modifica il significato. 中文注：处罚后果和截止期限的强制性都不能丢失。\n- **S4.3–S4.4:** per S4.3 sono accettati «del», «connesso al», «relativo al», «legato al» e «inerente al»; in S4.4 «è facoltà» conserva il valore di possibilità, non di obbligo. 中文注：第三题列明自然关系表达；第四题不能把“可以要求”改成“必须要求”。\n- **S4.5–S4.6:** l'esenzione riguarda la marca da bollo; «qualora» richiede il congiuntivo e limita l'assenza del timbro al caso della firma digitale. 中文注：只有数字签名时可以不盖章；«qualora» 后用虚拟式。"
+  },
+  "key": {
+    "S4.1": "LA TRASMISSIONE DELLA DOMANDA DEVE AVVENIRE, PENA L'ESCLUSIONE, TRAMITE PEC ALL'INDIRIZZO DEL MUNICIPIO 4, RIPORTANDO NELL'OGGETTO «AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4». || LA TRASMISSIONE DELLA DOMANDA DEVE AVVENIRE, PENA L'ESCLUSIONE, TRAMITE PEC ALL'INDIRIZZO DEL MUNICIPIO 4, RIPORTANDO NELL'OGGETTO «AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4» || LA TRASMISSIONE DELLA DOMANDA DEVE AVVENIRE, PENA L'ESCLUSIONE, TRAMITE PEC ALL'INDIRIZZO DEL MUNICIPIO 4, RIPORTANDO NELL'OGGETTO AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4. || LA TRASMISSIONE DELLA DOMANDA DEVE AVVENIRE, PENA L'ESCLUSIONE, TRAMITE PEC ALL'INDIRIZZO DEL MUNICIPIO 4, RIPORTANDO NELL'OGGETTO AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4",
+    "S4.2": "LA SCADENZA TASSATIVA PER L'INVIO È FISSATA ALLE ORE 23:59 DI LUNEDÌ 27 LUGLIO 2026. || LA SCADENZA TASSATIVA PER L'INVIO È FISSATA ALLE ORE 23:59 DI LUNEDÌ 27 LUGLIO 2026",
+    "S4.3": "I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO DEL RECAPITO DELLA DOCUMENTAZIONE. || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO DEL RECAPITO DELLA DOCUMENTAZIONE || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO CONNESSO AL RECAPITO DELLA DOCUMENTAZIONE. || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO CONNESSO AL RECAPITO DELLA DOCUMENTAZIONE || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO RELATIVO AL RECAPITO DELLA DOCUMENTAZIONE. || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO RELATIVO AL RECAPITO DELLA DOCUMENTAZIONE || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO LEGATO AL RECAPITO DELLA DOCUMENTAZIONE. || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO LEGATO AL RECAPITO DELLA DOCUMENTAZIONE || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO INERENTE AL RECAPITO DELLA DOCUMENTAZIONE. || I PARTECIPANTI SI ASSUMONO IN VIA ESCLUSIVA IL RISCHIO INERENTE AL RECAPITO DELLA DOCUMENTAZIONE",
+    "S4.4": "È FACOLTÀ DELL'AMMINISTRAZIONE RICHIEDERE AI CONCORRENTI, IN MERITO ALLA DOCUMENTAZIONE FORNITA, CHIARIMENTI O INTEGRAZIONI. || È FACOLTÀ DELL'AMMINISTRAZIONE RICHIEDERE AI CONCORRENTI, IN MERITO ALLA DOCUMENTAZIONE FORNITA, CHIARIMENTI O INTEGRAZIONI",
+    "S4.5": "A ECCEZIONE DEI CASI DI ESENZIONE, SULLA DOMANDA OCCORRE APPLICARE UNA MARCA DA BOLLO DA 16 EURO, CHE DEVE ESSERE ANNULLATA. || A ECCEZIONE DEI CASI DI ESENZIONE, SULLA DOMANDA OCCORRE APPLICARE UNA MARCA DA BOLLO DA 16 EURO, CHE DEVE ESSERE ANNULLATA",
+    "S4.6": "LA DOMANDA DEVE ESSERE COMPILATA IN OGNI SUA PARTE E FIRMATA DIGITALMENTE O A MANO DAL LEGALE RAPPRESENTANTE; IL TIMBRO DEL RICHIEDENTE PUÒ MANCARE SOLO QUALORA LA FIRMA SIA DIGITALE. || LA DOMANDA DEVE ESSERE COMPILATA IN OGNI SUA PARTE E FIRMATA DIGITALMENTE O A MANO DAL LEGALE RAPPRESENTANTE; IL TIMBRO DEL RICHIEDENTE PUÒ MANCARE SOLO QUALORA LA FIRMA SIA DIGITALE"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "pena l'esclusione",
+      "categoria": "locuzione",
+      "zh": "否则取消资格",
+      "en": "under penalty of exclusion",
+      "esempio": "La domanda deve essere trasmessa, pena l'esclusione, tramite PEC all'indirizzo del Municipio 4, indicando nell'oggetto «AVVISO PUBBLICO PREMIO MILANO DONNA 2026 MUNICIPIO 4»."
+    },
+    {
+      "parola": "il termine indicato è tassativo",
+      "categoria": "locuzione amministrativa",
+      "zh": "所示期限为强制性期限",
+      "en": "the stated deadline is mandatory",
+      "esempio": "L'invio deve avvenire entro le ore 23:59 di lunedì 27 luglio 2026 e il termine indicato è tassativo."
+    },
+    {
+      "parola": "a esclusivo rischio",
+      "categoria": "locuzione",
+      "zh": "风险完全由……承担",
+      "en": "at the sole risk",
+      "esempio": "Il recapito della documentazione resta a esclusivo rischio dei partecipanti."
+    },
+    {
+      "parola": "marca da bollo",
+      "categoria": "locuzione nominale",
+      "zh": "印花税票",
+      "en": "revenue stamp",
+      "esempio": "La domanda va corredata di una marca da bollo da 16 euro, salvo i casi di esenzione; la marca deve essere applicata sulla domanda e annullata."
+    },
+    {
+      "parola": "legale rappresentante",
+      "categoria": "locuzione nominale",
+      "zh": "法定代表人",
+      "en": "legal representative",
+      "esempio": "Infine, la domanda deve essere compilata in ogni sua parte e firmata digitalmente o a mano dal legale rappresentante; deve inoltre riportare il timbro del richiedente, tranne quando la firma è digitale."
+    }
+  ]
+}
