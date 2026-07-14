@@ -1,0 +1,56 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«La digitalizzazione dei servizi pubblici semplifica la vita dei cittadini, ma rischia di escludere chi possiede meno competenze tecnologiche». Esprimi il tuo parere in merito, soffermandoti sui vantaggi, sui rischi e sulle possibili soluzioni.",
+    "W1B_PROMPT": "Una rivista online dedica un numero al rapporto tra qualità della vita e spazi silenziosi nelle città. Scrivi un articolo in cui analizzi perché tali spazi sono importanti, quali ostacoli ne limitano la presenza e come potrebbero essere valorizzati.",
+    "W2A_PROMPT": "Hai prenotato per il 9 luglio una sala in uno spazio di coworking per un colloquio di lavoro online. Al tuo arrivo la sala era occupata; quella sostitutiva era rumorosa e priva della connessione via cavo promessa. Scrivi un'e-mail al responsabile: descrivi l'accaduto e le conseguenze, chiedi un rimborso parziale e indica entro quale data desideri ricevere una risposta.",
+    "W2B_PROMPT": "Sei responsabile di un laboratorio pubblico previsto per il 22 luglio presso il Centro culturale Aurora. Hai saputo che la sala resterà chiusa per lavori urgenti. Scrivi un'e-mail alla coordinatrice: proponi una nuova data, chiedi che i partecipanti siano avvisati e domanda conferma della disponibilità del proiettore e di trenta sedie.",
+    "MODEL_W1A": "La digitalizzazione dei servizi pubblici rappresenta un progresso difficilmente reversibile. Prenotare una visita o richiedere un certificato da casa riduce le attese, limita gli spostamenti e può rendere l'amministrazione più trasparente. Tuttavia, considerare l'accesso a Internet come una competenza universale significa ignorare anziani, persone con disabilità e cittadini che non dispongono di dispositivi adeguati. Il problema, dunque, non è la tecnologia in sé, bensì l'idea che essa debba sostituire ogni altro canale.\n\nA mio avviso, i servizi digitali dovrebbero affiancare, non eliminare, gli sportelli fisici. Nei comuni più piccoli si potrebbero creare punti di assistenza, dove personale formato aiuti gli utenti senza compiere le scelte al loro posto. Sarebbero inoltre utili procedure semplici, istruzioni in più lingue e verifiche periodiche sull'accessibilità delle piattaforme.\n\nL'innovazione è davvero efficace quando amplia le possibilità dei cittadini. Se, per risparmiare tempo e risorse, si trasferisce sugli utenti tutta la responsabilità, l'efficienza apparente produce nuove disuguaglianze. Una pubblica amministrazione moderna dovrebbe quindi misurare il proprio successo non soltanto dal numero di pratiche online, ma dalla capacità di non lasciare indietro nessuno.",
+    "MODEL_W1A_PHRASES": "«rappresenta un progresso difficilmente reversibile»（代表一种难以逆转的进步）; «Il problema non è…, bensì…»（问题不在于……，而在于……）; «A mio avviso»（依我之见）; «dovrebbero affiancare, non eliminare»（应当补充，而非取代）; «non lasciare indietro nessuno»（不让任何人掉队）",
+    "MODEL_W1B": "Nelle città contemporanee il silenzio non è un lusso, ma una risorsa collettiva. Parchi, biblioteche e cortili protetti offrono una pausa dal traffico e dalla continua richiesta di attenzione. In questi luoghi si può leggere, conversare senza alzare la voce o semplicemente recuperare concentrazione: attività ordinarie che incidono sul benessere più di quanto immaginiamo.\n\nEppure gli spazi tranquilli sono spesso frammentati, poco accessibili o sacrificati a funzioni considerate più redditizie. Anche quando esistono, una manutenzione insufficiente e l'assenza di indicazioni chiare possono renderli inutilizzabili. Per valorizzarli non basta vietare il rumore. Occorre progettare barriere verdi, ridurre il traffico nelle strade adiacenti e distribuire queste aree in tutti i quartieri, evitando che diventino un privilegio del centro.\n\nI cittadini potrebbero inoltre partecipare alla loro cura, segnalando criticità e proponendo orari compatibili con esigenze diverse. Una mappa pubblica dei luoghi quieti aiuterebbe a conoscerli e a proteggerli. Difendere il silenzio urbano, in conclusione, non significa opporsi alla vitalità della città, ma riconoscere che una comunità equilibrata ha bisogno sia di incontro sia di raccoglimento.",
+    "MODEL_W1B_PHRASES": "«non è un lusso, ma una risorsa collettiva»（不是奢侈品，而是公共资源）; «incidono sul benessere»（影响福祉）; «non basta… Occorre…»（仅仅……还不够，需要……）; «evitando che diventino un privilegio»（避免其成为少数人的特权）; «sia… sia…»（既……又……）",
+    "MODEL_W2A": "Gentile Responsabile,\n\nLe scrivo in merito alla sala prenotata per il 9 luglio, dalle 14 alle 16. Al mio arrivo, lo spazio risultava occupato e mi è stata assegnata una postazione sostitutiva accanto all'area comune. Il rumore e l'assenza della connessione via cavo, espressamente inclusa nella prenotazione, hanno interrotto più volte il colloquio online e compromesso la qualità dell'incontro.\n\nPoiché il servizio fornito non corrispondeva a quello acquistato, chiedo il rimborso del 50% della tariffa. La invito inoltre a verificare il sistema di assegnazione delle sale, affinché l'inconveniente non si ripeta. Gradirei ricevere un riscontro entro il 18 luglio.\n\nCordiali saluti,\nElena Conti",
+    "MODEL_W2A_PHRASES": "«Le scrivo in merito a…»（我就……事宜致函）; «non corrispondeva a quello acquistato»（与所购买的服务不符）; «chiedo il rimborso del…»（我要求退还……）; «affinché l'inconveniente non si ripeta»（以免问题再次发生）; «Gradirei ricevere un riscontro entro…»（希望在……前收到回复）",
+    "MODEL_W2B": "Gentile Dottoressa Ferri,\n\nho appreso che la sala del Centro culturale Aurora, riservata per il laboratorio del 22 luglio, non sarà accessibile a causa di lavori urgenti. Per evitare di annullare l'incontro, propongo di rinviarlo al 29 luglio, mantenendo l'orario previsto, dalle 17 alle 19.\n\nLe chiedo cortesemente di informare quanto prima i partecipanti già iscritti, specificando che il programma resterà invariato. Potrebbe inoltre confermarmi che nella nuova data saranno disponibili un proiettore funzionante e trenta sedie? Avrei bisogno della conferma entro il 18 luglio, così da predisporre i materiali e comunicare tempestivamente eventuali ulteriori modifiche.\n\nLa ringrazio per la collaborazione e resto a disposizione.\n\nCordiali saluti,\nPaolo Neri",
+    "MODEL_W2B_PHRASES": "«ho appreso che…»（我得知……）; «Per evitare di…»（为避免……）; «Le chiedo cortesemente di…»（谨请您……）; «Potrebbe confermarmi che…?»（您能否向我确认……？）; «resto a disposizione»（如有需要，我随时配合）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "competenze tecnologiche",
+      "categoria": "locuzione nominale",
+      "zh": "技术能力",
+      "en": "digital skills",
+      "esempio": "«La digitalizzazione dei servizi pubblici semplifica la vita dei cittadini, ma rischia di escludere chi possiede meno competenze tecnologiche»."
+    },
+    {
+      "parola": "accessibilità",
+      "categoria": "nome femminile",
+      "zh": "无障碍性；可及性",
+      "en": "accessibility",
+      "esempio": "Sarebbero inoltre utili procedure semplici, istruzioni in più lingue e verifiche periodiche sull'accessibilità delle piattaforme."
+    },
+    {
+      "parola": "raccoglimento",
+      "categoria": "nome maschile",
+      "zh": "静思；专注",
+      "en": "contemplation",
+      "esempio": "Difendere il silenzio urbano, in conclusione, non significa opporsi alla vitalità della città, ma riconoscere che una comunità equilibrata ha bisogno sia di incontro sia di raccoglimento."
+    },
+    {
+      "parola": "compromesso la qualità",
+      "categoria": "locuzione verbale",
+      "zh": "损害了质量",
+      "en": "compromised the quality",
+      "esempio": "Il rumore e l'assenza della connessione via cavo, espressamente inclusa nella prenotazione, hanno interrotto più volte il colloquio online e compromesso la qualità dell'incontro."
+    },
+    {
+      "parola": "predisporre i materiali",
+      "categoria": "locuzione verbale",
+      "zh": "准备材料",
+      "en": "prepare the materials",
+      "esempio": "Avrei bisogno della conferma entro il 18 luglio, così da predisporre i materiali e comunicare tempestivamente eventuali ulteriori modifiche."
+    }
+  ]
+}

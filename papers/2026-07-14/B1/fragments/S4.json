@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Buongiorno, la chiamiamo dalla biblioteca civica. Il libro che aveva prenotato è arrivato e resterà disponibile al banco prestiti fino a venerdì. Può ritirarlo negli orari di apertura presentando la tessera. Grazie.»**\nA) È un sollecito a restituire un libro in ritardo.\nB) È l'avviso che un libro prenotato è pronto per il ritiro.\nC) È la conferma dell'iscrizione a un corso in biblioteca.\nD) È la richiesta di mostrare un documento per entrare.\n\n**2. «Ciao Paolo, il corriere passerà domani tra le dieci e mezzogiorno, ma io sarò al lavoro. Potresti ritirare il pacco per me? Ti mando subito il codice di consegna. Grazie davvero!»**\nA) È la conferma che un pacco è già stato consegnato.\nB) È un invito a fare acquisti insieme domani.\nC) È la richiesta a un amico di ricevere una consegna.\nD) È un reclamo per il ritardo di un corriere.\n\n**3. «Si informa la gentile clientela che, per un intervento urgente all'impianto, la piscina resterà chiusa martedì mattina. I corsi riprenderanno regolarmente dalle ore 15. Gli abbonamenti saranno prolungati di un giorno.»**\nA) È l'avviso di una chiusura temporanea della piscina.\nB) È l'annuncio di nuovi corsi di nuoto pomeridiani.\nC) È la comunicazione di un aumento del prezzo degli abbonamenti.\nD) È la richiesta di partecipare a lavori di manutenzione.\n\n**4. «Gentile servizio clienti, ieri ho ricevuto le cuffie ordinate sul vostro sito, ma quella sinistra non funziona. Allego una foto del prodotto e chiedo la sostituzione senza costi. Attendo indicazioni per la restituzione.»**\nA) È una domanda sulle caratteristiche di un prodotto.\nB) È la conferma della consegna di un ordine completo.\nC) È la richiesta di annullare un acquisto non ancora spedito.\nD) È un reclamo per un prodotto difettoso con richiesta di sostituzione.\n\n**5. «Sono aperte le iscrizioni al laboratorio gratuito di ceramica per adulti, in programma ogni giovedì sera al centro civico. I posti sono quindici: per partecipare, compilate il modulo online entro il 20 settembre.»**\nA) È la vendita di oggetti realizzati in ceramica.\nB) È la ricerca di un insegnante per un centro civico.\nC) È l'annuncio delle iscrizioni a un laboratorio gratuito.\nD) È l'avviso dello spostamento di un corso già iniziato.\n\n**6. «Salve, sono la segretaria del dottor Ferri. Purtroppo il medico domani non sarà in ambulatorio, quindi dobbiamo rinviare la sua visita. La prego di richiamarci per concordare una nuova data. Ci scusiamo.»**\nA) È un promemoria per una visita confermata domani.\nB) È la comunicazione del rinvio di una visita medica.\nC) È la richiesta di inviare i risultati di alcuni esami.\nD) È l'annuncio del trasferimento di un ambulatorio.\n\n**7. «Da lunedì i contenitori per carta, plastica e vetro non saranno più nel cortile interno, ma accanto all'ingresso di via Verdi. Si invitano i residenti a usare i nuovi punti di raccolta e a non lasciare sacchi a terra.»**\nA) È un divieto di raccogliere i rifiuti nel quartiere.\nB) È la richiesta di acquistare nuovi contenitori condominiali.\nC) È l'annuncio di una giornata dedicata alla pulizia del cortile.\nD) È l'avviso sullo spostamento dei contenitori per la raccolta differenziata.\n\n**8. «Gentile signora Conti, abbiamo ricevuto la sua richiesta di cancellazione della camera per il 18 agosto. La prenotazione è stata annullata e il rimborso sarà accreditato sulla sua carta entro cinque giorni lavorativi.»**\nA) È la conferma della cancellazione di una camera e del rimborso.\nB) È la proposta di cambiare le date di un soggiorno.\nC) È un'offerta speciale per prenotare una camera in agosto.\nD) È un sollecito a pagare una prenotazione alberghiera.\n\n**9. «Ciao Elena, grazie per l'invito alla tua festa di sabato, ma quella sera sarò fuori città e non potrò venire. Mi dispiace! Se vuoi, possiamo festeggiare insieme con un aperitivo lunedì.»**\nA) È la conferma della partecipazione a una festa.\nB) È il rifiuto di un invito con una proposta alternativa.\nC) È la richiesta di spostare una festa a lunedì.\nD) È un invito a trascorrere il fine settimana fuori città.\n\n**10. «Buonasera, la contattiamo dall'ufficio oggetti smarriti della stazione. Abbiamo trovato uno zaino che corrisponde alla sua descrizione. Può venire a riconoscerlo da domani, portando la denuncia e un documento d'identità.»**\nA) È la denuncia della scomparsa di uno zaino.\nB) È la richiesta di consegnare un bagaglio alla stazione.\nC) È l'avviso che un documento d'identità è scaduto.\nD) È la comunicazione del ritrovamento di un oggetto smarrito."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «Il libro che aveva prenotato è arrivato» e «Può ritirarlo» indicano che il volume è disponibile. 中文：不是催还，而是通知领取预约书。 |\n| S4.2 | C | «Potresti ritirare il pacco per me?» è una richiesta esplicita di ricevere la consegna al posto del mittente. 中文：包裹尚未送达，重点是请朋友代收。 |\n| S4.3 | A | «la piscina resterà chiusa martedì mattina» segnala una chiusura limitata nel tempo. 中文：下午恢复课程，排除长期停业或新开课程。 |\n| S4.4 | D | Le cuffie hanno un difetto («quella sinistra non funziona») e la cliente «chiede la sostituzione». 中文：已收货但产品故障，因此是投诉并要求换货。 |\n| S4.5 | C | «Sono aperte le iscrizioni» e «laboratorio gratuito di ceramica» definiscono lo scopo dell'annuncio. 中文：通知的是免费工作坊报名，不是售卖作品。 |\n| S4.6 | B | Poiché «il medico domani non sarà in ambulatorio», la segreteria dice «dobbiamo rinviare la sua visita». 中文：原预约不能进行，需要另定日期。 |\n| S4.7 | D | I contenitori «non saranno più nel cortile interno, ma accanto all'ingresso»; cambia quindi il punto di raccolta. 中文：核心是垃圾分类容器换了位置。 |\n| S4.8 | A | «La prenotazione è stata annullata» e «il rimborso sarà accreditato» confermano entrambe le operazioni. 中文：取消和退款都已经确认。 |\n| S4.9 | B | «non potrò venire» rifiuta l'invito, mentre «possiamo festeggiare insieme ... lunedì» offre un'alternativa. 中文：不是改动整场派对，而是另约见面。 |\n| S4.10 | D | «Abbiamo trovato uno zaino che corrisponde alla sua descrizione» comunica il ritrovamento e invita al riconoscimento. 中文：失物招领处已经找到相符物品。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "C",
+    "S4.3": "A",
+    "S4.4": "D",
+    "S4.5": "C",
+    "S4.6": "B",
+    "S4.7": "D",
+    "S4.8": "A",
+    "S4.9": "B",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "banco prestiti",
+      "categoria": "locuzione nominale",
+      "zh": "借阅服务台",
+      "en": "library loan desk",
+      "esempio": "resterà disponibile al banco prestiti fino a venerdì"
+    },
+    {
+      "parola": "impianto",
+      "categoria": "sostantivo",
+      "zh": "设施；设备系统",
+      "en": "facility; system",
+      "esempio": "per un intervento urgente all'impianto"
+    },
+    {
+      "parola": "senza costi",
+      "categoria": "locuzione avverbiale",
+      "zh": "免费地；无需费用",
+      "en": "free of charge",
+      "esempio": "chiedo la sostituzione senza costi"
+    },
+    {
+      "parola": "raccolta differenziata",
+      "categoria": "locuzione nominale",
+      "zh": "垃圾分类回收",
+      "en": "separate waste collection",
+      "esempio": "contenitori per la raccolta differenziata"
+    },
+    {
+      "parola": "oggetti smarriti",
+      "categoria": "locuzione nominale",
+      "zh": "失物",
+      "en": "lost property",
+      "esempio": "dall'ufficio oggetti smarriti della stazione"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "UN WEEKEND A NAPOLI",
+    "S2_TEXT_WITH_GAPS": "Oggi *(volere)* __voglio (0)__ ricordare Napoli: io *(avere)* __(1)__ molti ricordi. Domenica scorsa la famiglia *(partire)* __(2)__ da Treviso, *(viaggiare)* __(3)__ in aereo e *(arrivare)* __(4)__ a Napoli. Quel giorno *(usare)* __(5)__ un taxi: il taxi *(portare)* __(6)__ la famiglia in centro. Quel giorno noi *(optare)* __(7)__ per un b&b: il b&b *(rivelarsi)* __(8)__ ottimo. Quel giorno noi *(pagare)* __(9)__ 103 euro. Oggi io *(potere)* __(10)__ raccontare il viaggio."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ho | presente | S2.6 | ha portato | passato prossimo |\n| S2.2 | è partita | passato prossimo | S2.7 | abbiamo optato | passato prossimo |\n| S2.3 | ha viaggiato | passato prossimo | S2.8 | si è rivelato | passato prossimo |\n| S2.4 | è arrivata | passato prossimo | S2.9 | abbiamo pagato | passato prossimo |\n| S2.5 | ha usato | passato prossimo | S2.10 | posso | presente |",
+    "ANS_S2_NOTES": "- **S2.1:** «Oggi» impone il presente: *io ho molti ricordi*. 中文：明确的现在时标记排除过去时。\n- **S2.2:** «Domenica scorsa» impone il passato prossimo: *la famiglia è partita*. 中文：已结束的时间标记锁定完成动作，阴性单数主语锁定分词形式。\n- **S2.3:** Lo stesso «Domenica scorsa» regge la coordinata: *la famiglia ha viaggiato in aereo*. 中文：同一句中的过去时间标记覆盖并列动作。\n- **S2.4:** Lo stesso «Domenica scorsa» regge la coordinata: *la famiglia è arrivata a Napoli*. 中文：到达是该次旅程中的完成动作，阴性单数主语锁定分词形式。\n- **S2.5:** «Quel giorno» riprende la domenica già conclusa: *la famiglia ha usato un taxi*. 中文：回指明确的过去日期，排除现在时。\n- **S2.6:** Nella stessa frase «Quel giorno» fissa anche l'azione del taxi: *il taxi ha portato la famiglia in centro*. 中文：明确的过去日期覆盖冒号后的结果动作。\n- **S2.7:** «Quel giorno» impone il passato prossimo: *noi abbiamo optato per un b&b*. 中文：选择发生在明确且结束的那一天。\n- **S2.8:** Nella stessa frase «Quel giorno» fissa il risultato: *il b&b si è rivelato ottimo*. 中文：结果性动词与过去日期共同锁定完成动作；阳性单数主语锁定分词形式。\n- **S2.9:** «Quel giorno» impone il passato prossimo: *noi abbiamo pagato 103 euro*. 中文：付款是明确过去日期中的一次完成动作。\n- **S2.10:** «Oggi» impone il presente: *io posso raccontare il viaggio*. 中文：现在时标记和主语 *io* 锁定第一人称单数。"
+  },
+  "key": {
+    "S2.1": "ho",
+    "S2.2": "è partita",
+    "S2.3": "ha viaggiato",
+    "S2.4": "è arrivata",
+    "S2.5": "ha usato",
+    "S2.6": "ha portato",
+    "S2.7": "abbiamo optato",
+    "S2.8": "si è rivelato",
+    "S2.9": "abbiamo pagato",
+    "S2.10": "posso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ricordi",
+      "categoria": "nome maschile plurale",
+      "zh": "回忆",
+      "en": "memories",
+      "esempio": "Oggi io ho molti ricordi."
+    },
+    {
+      "parola": "aereo",
+      "categoria": "nome maschile",
+      "zh": "飞机",
+      "en": "plane",
+      "esempio": "La famiglia ha viaggiato in aereo."
+    },
+    {
+      "parola": "taxi",
+      "categoria": "nome maschile invariabile",
+      "zh": "出租车",
+      "en": "taxi",
+      "esempio": "La famiglia ha usato un taxi."
+    },
+    {
+      "parola": "centro",
+      "categoria": "nome maschile",
+      "zh": "市中心",
+      "en": "city centre",
+      "esempio": "Il taxi ha portato la famiglia in centro."
+    },
+    {
+      "parola": "viaggio",
+      "categoria": "nome maschile",
+      "zh": "旅行",
+      "en": "trip",
+      "esempio": "Oggi io posso raccontare il viaggio."
+    }
+  ]
+}

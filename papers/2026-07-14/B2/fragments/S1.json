@@ -1,0 +1,63 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "PERCHÉ IL CERVELLO RICORDA MEGLIO LE SORPRESE",
+    "S1_TEXT_WITH_GAPS": "__Il nostro (0)__ cervello ricorda le sorprese: quando è sorpreso, raccoglie informazioni dall'ambiente, dal __(1)__ esse provengono. Le conserva nella memoria, grazie alla __(2)__ si prepara a situazioni simili. Lo conferma un esperimento di Sydney, dal __(3)__ sono emersi risultati pubblicati su JNeurosci.\n\nLo studio riguarda l'«efficienza adattiva», cioè il modo in __(4)__ il cervello usa energia per affrontare le pressioni esterne, alle __(5)__ deve rispondere.\n\nI ricercatori hanno coinvolto 40 volontari, ai __(6)__ hanno mostrato lampi luminosi, ciascuno dei __(7)__ occupava una posizione. Alcuni apparivano prevedibilmente; gli __(8)__ arrivavano a sorpresa. Durante il test è stato usato un elettroencefalogramma, tramite il __(9)__ è stata misurata l'attività cerebrale. Nei volontari era monitorata anche la reazione delle __(10)__ pupille.\n\nI partecipanti rispondevano più rapidamente ai lampi attesi. Ogni lampo atteso aveva una posizione: la __(11)__ era ricordata con precisione inferiore a __(12)__ dei lampi inattesi. È un contrasto dal __(13)__ emerge che la rapidità non garantisce un ricordo preciso.\n\nIl cervello reagisce agli eventi familiari in due fasi. La __(14)__ prevede ciò __(15)__ sta per accadere e prepara il corpo. Nella __(16)__ avviene il riconoscimento dell'evento atteso, dopo il __(17)__ risparmia energia. Questa scelta, con la __(18)__ evita di elaborare accuratamente le informazioni esterne, spiega il motivo per il __(19)__ la posizione degli eventi previsti viene ricordata meno precisamente di __(20)__ degli eventi inattesi."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | quale | S1.11 | sua |\n| S1.2 | quale | S1.12 | quella |\n| S1.3 | quale | S1.13 | quale |\n| S1.4 | cui | S1.14 | prima |\n| S1.5 | quali | S1.15 | che |\n| S1.6 | quali | S1.16 | seconda |\n| S1.7 | quali | S1.17 | quale |\n| S1.8 | altri | S1.18 | quale |\n| S1.9 | quale | S1.19 | quale |\n| S1.10 | loro | S1.20 | quella |",
+    "ANS_S1_NOTES": "**Note sulle scelte insidiose.**\n\n- **S1.1/S1.2/S1.3/S1.5/S1.6/S1.7/S1.9/S1.13/S1.17/S1.18/S1.19 — quale/quali:** articoli e preposizioni sono già stampati in «dal quale», «alla quale», «alle quali», «ai quali», «ciascuno dei quali», «tramite il quale», «dopo il quale», «con la quale» e «per il quale». 中文：介词和冠词都在空格外，只填 *quale/quali*。\n- **S1.4 — cui:** «il modo in cui» completa la relativa senza articolo. 中文：*in* 已印在空格外，不能再填 *nel quale*。\n- **S1.8 — altri:** la coppia «Alcuni… gli altri» oppone i lampi prevedibili a quelli inattesi. 中文：固定对应结构锁定 *altri*。\n- **S1.10/S1.11 — loro/sua:** «Nei volontari» rende obbligatorio «le loro pupille»; dopo «Ogni lampo atteso», «la sua» riprende la posizione del singolo lampo. 中文：显式复数对象和单数先行词分别锁定 *loro* 与 *sua*。\n- **S1.12/S1.14/S1.15/S1.16/S1.20 — quella/prima/che/seconda/quella:** «inferiore a quella», «la prima… nella seconda», «ciò che» e «di quella degli eventi inattesi» impongono le forme indicate. 中文：比较结构、阶段顺序和固定关系结构共同排除其他形式。"
+  },
+  "key": {
+    "S1.1": "quale",
+    "S1.2": "quale",
+    "S1.3": "quale",
+    "S1.4": "cui",
+    "S1.5": "quali",
+    "S1.6": "quali",
+    "S1.7": "quali",
+    "S1.8": "altri",
+    "S1.9": "quale",
+    "S1.10": "loro",
+    "S1.11": "sua",
+    "S1.12": "quella",
+    "S1.13": "quale",
+    "S1.14": "prima",
+    "S1.15": "che",
+    "S1.16": "seconda",
+    "S1.17": "quale",
+    "S1.18": "quale",
+    "S1.19": "quale",
+    "S1.20": "quella"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "efficienza adattiva",
+      "categoria": "espressione nominale",
+      "zh": "适应效率",
+      "en": "adaptive efficiency",
+      "esempio": "Lo studio riguarda l'«efficienza adattiva», cioè il modo in cui il cervello usa energia contro le pressioni esterne, alle quali deve rispondere."
+    },
+    {
+      "parola": "elettroencefalogramma",
+      "categoria": "nome maschile",
+      "zh": "脑电图",
+      "en": "electroencephalogram",
+      "esempio": "Durante il test è stato usato un elettroencefalogramma, tramite il quale è stata misurata l'attività cerebrale."
+    },
+    {
+      "parola": "attività cerebrale",
+      "categoria": "espressione nominale",
+      "zh": "脑部活动",
+      "en": "brain activity",
+      "esempio": "Durante il test è stato usato un elettroencefalogramma, tramite il quale è stata misurata l'attività cerebrale."
+    },
+    {
+      "parola": "eventi familiari",
+      "categoria": "espressione nominale",
+      "zh": "熟悉的事件",
+      "en": "familiar events",
+      "esempio": "Il cervello reagisce agli eventi familiari in due fasi."
+    }
+  ]
+}

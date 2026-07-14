@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "DOMANDA DI ISCRIZIONE FUORI BANDO",
+    "S3_TEXT_WITH_GAPS": "Dalle ore 9.00 del 25 maggio, gli utenti residenti e non __(1)__ potranno inviare nuove domande di iscrizione per i posti ancora __(2)__.\n\nLa domanda di iscrizione può essere presentata sia online sia __(3)__ il gestore del centro __(0)__ di interesse. Può essere più di una __(4)__ ogni bambina, bambino, ragazza o ragazzo. La domanda prevede un'unica __(5)__ di centro estivo per ogni turno __(6)__ e non darà più la __(7)__ di richiedere l'intervento educativo a sostegno del progetto di inclusione per bambini con disabilità certificata.\n\nI posti e i turni disponibili saranno __(8)__ ogni settimana, a partire dal 22 maggio, sulla pagina dedicata ai centri estivi del Comune di Bologna.",
+    "S3_OPT0_A": "estivo",
+    "S3_OPT0_B": "sportivo",
+    "S3_OPT0_C": "vicino",
+    "S3_OPTION_ROWS": "| 1. | iscritti | residenti | presenti |\n| 2. | aperti | occupati | disponibili |\n| 3. | contro | presso | oltre |\n| 4. | per | dopo | tra |\n| 5. | visita | frequenza | preferenza |\n| 6. | ricevuto | richiesto | preparato |\n| 7. | necessità | possibilità | voglia |\n| 8. | pubblicati | consegnati | prenotati |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «utenti residenti e non residenti»: la ripetizione forma la coppia oppositiva. 中文：non 后重复 residenti，表示“居民和非居民”。 |\n| S3.2 | C | «posti ancora disponibili» è confermato più avanti da «I posti e i turni disponibili». 中文：后文原词复现，排除 aperti 和 occupati。 |\n| S3.3 | B | La domanda può essere presentata «presso il gestore»: presso indica il luogo o l'ente a cui ci si rivolge. 中文：此处表示“到管理方处”提交。 |\n| S3.4 | A | «più di una per ogni bambina, bambino, ragazza o ragazzo» distribuisce le domande per ciascun minore. 中文：per ogni 是固定搭配。 |\n| S3.5 | C | «un'unica preferenza di centro estivo» indica che si può scegliere un solo centro per turno. 中文：un'unica 与选择中心搭配，答案是 preferenza。 |\n| S3.6 | B | «per ogni turno richiesto» si riferisce al turno indicato nella domanda. 中文：报名者提出所需时段，因此用 richiesto。 |\n| S3.7 | B | «non darà più la possibilità di richiedere» esprime che questa richiesta non sarà consentita. 中文：la possibilità di 是固定搭配。 |\n| S3.8 | A | «saranno pubblicati ogni settimana ... sulla pagina» descrive la diffusione online di posti e turni. 中文：信息在网页上发布，只能用 pubblicati。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "B",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "posti ancora disponibili",
+      "categoria": "locuzione nominale",
+      "zh": "可用名额",
+      "en": "available places",
+      "esempio": "I posti e i turni disponibili saranno pubblicati ogni settimana, a partire dal 22 maggio, sulla pagina dedicata ai centri estivi del Comune di Bologna."
+    },
+    {
+      "parola": "gestore",
+      "categoria": "nome maschile",
+      "zh": "管理方；运营者",
+      "en": "operator; manager",
+      "esempio": "La domanda di iscrizione può essere presentata sia online sia presso il gestore del centro estivo di interesse."
+    },
+    {
+      "parola": "turno richiesto",
+      "categoria": "locuzione nominale",
+      "zh": "所申请的时段",
+      "en": "requested session",
+      "esempio": "La domanda prevede un'unica preferenza di centro estivo per ogni turno richiesto e non darà più la possibilità di richiedere l'intervento educativo a sostegno del progetto di inclusione per bambini con disabilità certificata."
+    },
+    {
+      "parola": "a sostegno",
+      "categoria": "locuzione preposizionale",
+      "zh": "为支持；用于帮助",
+      "en": "in support of",
+      "esempio": "La domanda prevede un'unica preferenza di centro estivo per ogni turno richiesto e non darà più la possibilità di richiedere l'intervento educativo a sostegno del progetto di inclusione per bambini con disabilità certificata."
+    },
+    {
+      "parola": "disabilità certificata",
+      "categoria": "locuzione nominale",
+      "zh": "经认证的残障",
+      "en": "certified disability",
+      "esempio": "La domanda prevede un'unica preferenza di centro estivo per ogni turno richiesto e non darà più la possibilità di richiedere l'intervento educativo a sostegno del progetto di inclusione per bambini con disabilità certificata."
+    }
+  ]
+}

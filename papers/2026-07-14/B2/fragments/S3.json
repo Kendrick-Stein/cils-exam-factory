@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "ALL'IS, DOVE LA SCIENZA NON È IMMAGINAZIONE",
+    "S3_TEXT_WITH_GAPS": "Cosa succede quando il cellulare __(0)__ il segnale? E come la fisica protegge un aereo colpito da un fulmine? Le risposte a queste __(1)__ si possono __(2)__ con mano all'Immaginario Scientifico di Trieste.\n\nNel Magazzino 26 è stata __(3)__ una postazione interattiva nata dalla __(4)__ tra l'IS e Telit Cinterion, pioniere e __(5)__ dell'Internet of Things: la __(6)__ di oggetti fisici __(7)__ a Internet, capaci di __(8)__ dati, comunicarli e reagire.\n\nSerena Mizzan, presidente dell'Immaginario Scientifico, afferma: «Possiamo __(9)__ exhibit che __(10)__ le attività degli enti di ricerca e una sezione in cui le imprese del __(11)__ mostrano quanto la ricerca sia importante per lo __(12)__ di strumenti innovativi».\n\nL'obiettivo è mostrare come le onde elettromagnetiche e le telecomunicazioni wireless __(13)__ ogni istante della vita quotidiana.\n\nDue le esperienze pratiche: la prima permette di osservare in tempo __(14)__ come il corpo umano o gli ostacoli alterino un segnale radio; la seconda conduce i visitatori nella Gabbia di Faraday, struttura metallica capace di schermare i campi __(15)__.",
+    "S3_OPT0_A": "perde",
+    "S3_OPT0_B": "mantiene",
+    "S3_OPT0_C": "trova",
+    "S3_OPT0_D": "aumenta",
+    "S3_OPTION_ROWS": "| 1. | notizie | domande | attività | strutture |\n| 2. | calcolare | contare | toccare | misurare |\n| 3. | trasferita | chiusa | rimossa | inaugurata |\n| 4. | collaborazione | separazione | competizione | distanza |\n| 5. | utente | cliente | leader | visitatore |\n| 6. | fila | rete | categoria | raccolta |\n| 7. | esposti | abituati | contrari | connessi |\n| 8. | raccogliere | perdere | nascondere | cancellare |\n| 9. | rifiutare | ospitare | nascondere | vendere |\n| 10. | inventano | cancellano | illustrano | impediscono |\n| 11. | territorio | calendario | segnale | volo |\n| 12. | consumo | rifiuto | abbandono | sviluppo |\n| 13. | interrompano | pervadano | evitino | riducano |\n| 14. | concreto | attuale | reale | immediato |\n| 15. | elettromagnetici | archeologici | commerciali | linguistici |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Le due frasi iniziali sono domande; «Le risposte a queste domande» le riprende entrambe. 中文：开头连续两个问句，queste 指回 domande。 |\n| S3.2 | C | «si possono toccare con mano» indica che i fenomeni diventano direttamente sperimentabili. 中文：toccare con mano 是“亲身验证”的固定表达。 |\n| S3.3 | D | «è stata inaugurata una postazione» annuncia l'apertura dell'installazione. 中文：下文介绍新展项，只有 inaugurata 符合启用语境。 |\n| S3.4 | A | La postazione è «nata dalla collaborazione tra l'IS e Telit Cinterion». 中文：展项由两个机构共同建立，排除分离、竞争和距离。 |\n| S3.5 | C | «pioniere e leader dell'Internet of Things» presenta Telit Cinterion come soggetto di riferimento nel settore. 中文：pioniere 与 leader 构成并列身份，其他选项只表示使用者或来访者。 |\n| S3.6 | B | L'Internet of Things è spiegato come «rete di oggetti fisici connessi a Internet». 中文：相互联网的物体构成 rete。 |\n| S3.7 | D | Gli oggetti sono «connessi a Internet» e possono scambiarsi dati. 中文：介词 a Internet 与物联网定义共同锁定 connessi。 |\n| S3.8 | A | Gli oggetti sono capaci di «raccogliere dati, comunicarli e reagire». 中文：后面的代词 li 指代先收集到的数据。 |\n| S3.9 | B | «Possiamo ospitare exhibit»: un museo accoglie gli exhibit per mostrarli al pubblico. 中文：展品被博物馆接纳展示，不是拒绝、隐藏或出售。 |\n| S3.10 | C | Gli exhibit «illustrano le attività degli enti di ricerca», cioè le rendono comprensibili al pubblico. 中文：展品用于展示研究活动。 |\n| S3.11 | A | «le imprese del territorio» sono le aziende locali coinvolte nella sezione. 中文：del territorio 表示“本地的”，其余名词与 imprese 不构成文意。 |\n| S3.12 | D | La ricerca è importante «per lo sviluppo di strumenti innovativi». 中文：innovativi 表明工具处于开发发展过程。 |\n| S3.13 | B | Le onde e le telecomunicazioni «pervadano ogni istante della vita quotidiana», quindi sono presenti diffusamente. 中文：ogni istante 强调“遍及”，锁定 pervadano。 |\n| S3.14 | C | «osservare in tempo reale» significa vedere subito l'effetto prodotto sul segnale. 中文：in tempo reale 是固定搭配。 |\n| S3.15 | A | La struttura è capace di «schermare i campi elettromagnetici»; lo stesso tipo di onde è nominato nella frase precedente. 中文：前文原词复现 elettromagnetiche，且只有该类“场”与屏蔽相关。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "B",
+    "S3.14": "C",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "toccare con mano",
+      "categoria": "locuzione verbale",
+      "zh": "亲身体验；切实验证",
+      "en": "to experience firsthand",
+      "esempio": "Le risposte a queste domande si possono toccare con mano all'Immaginario Scientifico di Trieste."
+    },
+    {
+      "parola": "Internet of Things",
+      "categoria": "locuzione nominale",
+      "zh": "物联网",
+      "en": "Internet of Things",
+      "esempio": "Telit Cinterion, pioniere e leader dell'Internet of Things"
+    },
+    {
+      "parola": "enti di ricerca",
+      "categoria": "locuzione nominale",
+      "zh": "研究机构",
+      "en": "research institutions",
+      "esempio": "exhibit che illustrano le attività degli enti di ricerca"
+    },
+    {
+      "parola": "pervadano",
+      "categoria": "verbo",
+      "zh": "遍及；渗透",
+      "en": "pervade",
+      "esempio": "le onde elettromagnetiche e le telecomunicazioni wireless pervadano ogni istante della vita quotidiana."
+    },
+    {
+      "parola": "schermare",
+      "categoria": "verbo",
+      "zh": "屏蔽",
+      "en": "to shield",
+      "esempio": "una struttura metallica capace di schermare i campi elettromagnetici"
+    }
+  ]
+}

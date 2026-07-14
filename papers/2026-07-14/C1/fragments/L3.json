@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "Una giornata",
+    "T3_PART_A": "Con infinito sgomento m’accorgo di non aver piú idea d’essermi messo in viaggio su un treno. Non ricordo piú affatto né da dove sia partito, né dove diretto; resta il dubbio di avere portato con me qualche cosa.",
+    "T3_PART_B": "Quella città ignota, sotto i primi squallidi barlumi dell’alba, sembra deserta. Nella vasta piazza livida davanti alla stazione distinguo soltanto un fanale ancora acceso.",
+    "T3_PART_C": "A provocare quel terrore è il ricordo dello spettrale lanternino cieco, che s’è subito ritirato senza fare alcun caso della mia espulsione dal treno.",
+    "T3_PART_D": "Per sottrarmi a quell’eco, abbasso lo sguardo sulle mani; me le osservo per un verso e per l’altro, poi le chiudo e le riapro, come per verificarne la realtà.",
+    "T3_PART_E": "Proprio perché gli altri trattano quelle cose come le piú naturali e solite, mi sento trascinare con loro, senza avvertire che mi si faccia violenza, e quasi trattenere da ogni parte. È questa naturalezza a confondermi.",
+    "T3_PART_F": "A quel dubbio su ciò che avevo con me, la risposta che mi viene è: nulla. Nel vuoto di questa orribile incertezza, subitamente mi prende un terrore.",
+    "T3_PART_G": "A una sicurezza cosí naturale temo di opporre il mio stupore: se ridessi per il loro aspetto o per un loro gesto, attirerei maraviglia, riprensione, fors’anche indignazione.",
+    "T3_PART_H": "Per rispondere a quella domanda sulla stazione, provo a discernerne il nome nel bujo; non ci riesco. Una sola cosa mi appare certa: la città mi è ignota.",
+    "T3_PART_I": "Con quelle stesse mani mi tasto, mi cerco addosso, anche per sentire come son fatto: non posso piú esser certo nemmeno di questo, ch’io realmente esista e che tutto sia vero.",
+    "T3_PART_J": "Per evitare proprio quell’indignazione, cerco di scoprire qualcosa senza farmene accorgere e mi sforzo di fare come gli altri. Eppure non so ancora che via prendere né che cosa mettermi a fare.",
+    "T3_PART_K": "Di fronte a quella naturalezza, considero allora che, se non so come, né di dove, né perché sia venuto, debbo aver torto io; finisco cosí per dare ragione a tutti gli altri.",
+    "T3_PART_L": "Solo dopo essermi cosí cercato addosso, poco piú tardi m’inoltro fin nel centro della città. Lì vedo cose che a ogni passo mi farebbero restare dallo stupore.",
+    "T3_PART_M": "Proprio perché il lanternino si è ritirato con tanta indifferenza, mi domando se sia dunque la cosa piú normale scendere cosí a questa stazione. Questa domanda sulla stazione resta senza risposta.",
+    "T3_PART_N": "Verso quell’unico fanale ancora acceso mi appresso e mi fermo. Non oso alzare gli occhi: l’eco che i miei passi hanno fatto nel silenzio mi ha atterrito.",
+    "T3_PART_O": "Quegli altri, ai quali ho appena dato ragione, non solo paiono sapere ciò che io ignoro, ma sanno anche tutto quello che fanno: sono sicuri di non sbagliare e agiscono senza la minima incertezza. Questa è la loro sicurezza.",
+    "T3_PART_P": "Eppure, a impedirmi di fermarmi davanti alle cose viste a ogni passo, sopraggiunge uno stupore piú forte: vedo tutti gli altri, pur simili a me, muoversi fra quelle cose senza badarci."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data: «Con infinito sgomento» apre il racconto; il dubbio finale prepara la risposta successiva. |\n| 2 | F | «A quel dubbio» riprende soltanto il dubbio con cui termina A; la risposta «nulla» conduce all’«incertezza» e al «terrore». 中文注：连续回指“dubbio→terrore”。 |\n| 3 | C | «A provocare quel terrore» riprende il terrore appena nominato in F e lo collega allo «spettrale lanternino cieco». 中文注：“quel terrore”只能回指 F。 |\n| 4 | M | «il lanternino» riprende l’unico lanternino, introdotto in C; il segmento termina con una «domanda sulla stazione». 中文注：先有灯笼，后问车站。 |\n| 5 | H | «quella domanda sulla stazione» riprende parola per parola la chiusa di M; il tentativo di leggerne il nome porta alla «città ignota». 中文注：完整词组回指锁定 M。 |\n| 6 | B | «Quella città ignota» riprende parola per parola la conclusione di H e introduce il «fanale ancora acceso». 中文注：“quella città ignota”是唯一承接。 |\n| 7 | N | «Verso quell’unico fanale ancora acceso» rimanda unicamente al fanale di B; i passi del narratore producono l’«eco» finale. 中文注：fanale→走近→脚步回声。 |\n| 8 | D | «a quell’eco» riprende l’eco di N; abbassando lo sguardo il narratore comincia a osservare e muovere «le mani». 中文注：“quell’eco”只在 N 出现。 |\n| 9 | I | parte data: «quelle stesse mani» completa l’esame iniziato in D e sfocia nel dubbio sulla propria esistenza. |\n| 10 | L | «dopo essermi cosí cercato addosso» riprende l’azione di I; «poco piú tardi» fa avanzare l’azione verso il centro e introduce le cose viste «a ogni passo». 中文注：自检结束后才进入市中心。 |\n| 11 | P | «le cose viste a ogni passo» riprende la chiusa di L; uno stupore piú forte nasce vedendo gli altri fra «quelle cose». 中文注：完整场景回指避免与后文的 stupore 混淆。 |\n| 12 | E | «gli altri» e «quelle cose» riprendono insieme i due referenti di P; il segmento termina nominando «questa naturalezza». 中文注：双重回指排除其他位置。 |\n| 13 | K | «Di fronte a quella naturalezza» riprende parola per parola la chiusa di E; il narratore finisce per «dare ragione» agli altri. 中文注：naturalezza→自我归咎。 |\n| 14 | O | «ai quali ho appena dato ragione» riprende esplicitamente la chiusa di K e termina nominando la loro «sicurezza». 中文注：“刚刚认定他们有理”锁定前段。 |\n| 15 | G | «A una sicurezza cosí naturale» riprende la sicurezza nominata in O; il narratore teme che il proprio stupore provochi «indignazione». 中文注：sicurezza→害怕冒犯。 |\n| 16 | J | «quell’indignazione» riprende l’ultima conseguenza di G; il tentativo di evitarla conduce alla decisione di imitare gli altri e alla chiusa sul disorientamento. 中文注：明确回指后收束全文。 |",
+    "ANS_L3_SEQUENCE": "A–F–C–M–H–B–N–D–I–L–P–E–K–O–G–J"
+  },
+  "key": {
+    "L3": "A-F-C-M-H-B-N-D-I-L-P-E-K-O-G-J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sgomento",
+      "categoria": "sostantivo maschile",
+      "zh": "惊恐，惶惑",
+      "en": "dismay",
+      "esempio": "Con infinito sgomento m’accorgo di non aver piú idea d’essermi messo in viaggio su un treno."
+    },
+    {
+      "parola": "lanternino cieco",
+      "categoria": "locuzione nominale",
+      "zh": "昏暗的小提灯",
+      "en": "dim little lantern",
+      "esempio": "il ricordo dello spettrale lanternino cieco"
+    },
+    {
+      "parola": "barlumi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "微光",
+      "en": "glimmers",
+      "esempio": "Quella città ignota, sotto i primi squallidi barlumi dell’alba, sembra deserta."
+    },
+    {
+      "parola": "discernerne",
+      "categoria": "verbo con pronome enclitico",
+      "zh": "辨认出它的",
+      "en": "to make out its",
+      "esempio": "provo a discernerne il nome nel bujo"
+    },
+    {
+      "parola": "maraviglia",
+      "categoria": "sostantivo femminile",
+      "zh": "惊异",
+      "en": "astonishment",
+      "esempio": "attirerei maraviglia, riprensione, fors’anche indignazione"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un corso o un laboratorio al quale hai partecipato o a cui ti piacerebbe partecipare. Racconta che cosa si fa, quali persone si incontrano e perché questa esperienza è stata o sarebbe importante per te.",
+    "W2_PROMPT": "Un tuo amico viene a visitare la tua città per una giornata. Scrivigli un'email per organizzare il tempo insieme.",
+    "W2_REQ_1": "indicare il luogo e l'ora dell'incontro;",
+    "W2_REQ_2": "proporre due attività da fare insieme;",
+    "W2_REQ_3": "consigliare che cosa portare e spiegare il motivo.",
+    "MODEL_W1": "Lo scorso maggio ho partecipato a un laboratorio di fotografia organizzato dalla biblioteca del mio quartiere. L'attività è durata due fine settimana e il gruppo era formato da dodici persone di età diverse. Il primo giorno ero un po' nervoso, perché non conoscevo nessuno e usavo la macchina fotografica solo con il programma automatico. L'insegnante, però, ci ha spiegato tutto con pazienza e ci ha dato piccoli esercizi da fare in strada. Ho imparato a osservare la luce e a scegliere dettagli interessanti. Alla fine abbiamo preparato una mostra aperta agli abitanti del quartiere. Ero orgoglioso delle mie foto e soprattutto felice di aver conosciuto persone con la mia stessa passione.",
+    "MODEL_W1_PHRASES": "«Ho partecipato a…»（我参加了……）; «Il primo giorno…»（第一天……）; «Ho imparato a…»（我学会了……）; «Alla fine…»（最后……）; «Ero orgoglioso/a di…»（我为……感到自豪）",
+    "MODEL_W2": "Ciao Giulia,\n\nsono felice che tu venga a trovarmi sabato! Possiamo incontrarci alle dieci davanti alla stazione. Ti propongo di visitare il mercato del centro e poi pranzare nel piccolo ristorante vicino al fiume. Porta scarpe comode e una giacca leggera, perché nel pomeriggio potrebbe piovere. Fammi sapere se preferisci tornare presto oppure restare anche per il concerto serale.\n\nA presto,\nMarco",
+    "MODEL_W2_PHRASES": "«Possiamo incontrarci…»（我们可以见面……）; «Ti propongo di…»（我建议你……）; «Porta… perché…»（带上……因为……）; «Fammi sapere se…»（请告诉我是否……）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "laboratorio di fotografia",
+      "categoria": "locuzione nominale",
+      "zh": "摄影工作坊",
+      "en": "photography workshop",
+      "esempio": "Lo scorso maggio ho partecipato a un laboratorio di fotografia organizzato dalla biblioteca del mio quartiere."
+    },
+    {
+      "parola": "programma automatico",
+      "categoria": "locuzione nominale",
+      "zh": "自动模式",
+      "en": "automatic mode",
+      "esempio": "Il primo giorno ero un po' nervoso, perché non conoscevo nessuno e usavo la macchina fotografica solo con il programma automatico."
+    },
+    {
+      "parola": "mostra",
+      "categoria": "nome femminile",
+      "zh": "展览",
+      "en": "exhibition",
+      "esempio": "Alla fine abbiamo preparato una mostra aperta agli abitanti del quartiere."
+    },
+    {
+      "parola": "scarpe comode",
+      "categoria": "locuzione nominale",
+      "zh": "舒适的鞋子",
+      "en": "comfortable shoes",
+      "esempio": "Porta scarpe comode e una giacca leggera, perché nel pomeriggio potrebbe piovere."
+    },
+    {
+      "parola": "concerto serale",
+      "categoria": "locuzione nominale",
+      "zh": "晚间音乐会",
+      "en": "evening concert",
+      "esempio": "Fammi sapere se preferisci tornare presto oppure restare anche per il concerto serale."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+exam: cils
+level: B2
+session: '2026-07-14'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.focus.it/cultura/curiosita/il-mistero-del-buco-sotto-la-bottiglia-di-vino-ecco-perche-il-punt-sta-scomparendo
+  title: 'Il mistero del "buco" sotto la bottiglia di vino: ecco perché il punt sta
+    scomparendo'
+  publisher: Focus.it
+  published: '2026-05-08'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 515
+- id: T2
+  url: https://agenziagioventu.gov.it/faq-avviso-pubblico-polis/
+  title: FAQ Avviso Pubblico "POLIS
+  publisher: Agenzia Italiana per la Gioventù
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 494
+- id: T3
+  url: https://www.ansa.it/sito/notizie/cultura/unlibroalgiorno/2026/06/28/karsaiova-racconta-il-recupero-delle-proprie-radici_eadb90b8-c63d-4047-b748-0e8a1929d3f4.html
+  title: Karsaiova racconta il recupero delle proprie radici
+  publisher: ANSA
+  published: '2026-06-28'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 390
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/06/24/perche-ii-cervello-ricorda-meglio-le-sorprese-_e70026c0-616b-4391-b6fb-d76e5185e820.html
+  title: Perché il cervello ricorda meglio le sorprese
+  publisher: ANSA
+  published: '2026-06-25'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 255
+- id: T5
+  url: https://www.fanpage.it/sport/calcio/maurizio-ganz-non-ho-mai-scelto-per-soldi-rimpiango-quel-minuto-ma-sacchi-non-mi-face-entrare/
+  title: 'Maurizio Ganz: «Non ho mai scelto per soldi. Rimpiango quel minuto, ma Sacchi
+    non mi fece entrare»'
+  publisher: Fanpage.it
+  published: '2025-10-18'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 254
+- id: T6
+  url: https://www.rainews.it/tgr/fvg/articoli/2026/06/allis-dove-la-scienza-non-e-immaginazione-2485abca-6a5c-45f1-9f35-5dddfd2a4a99.html
+  title: All'IS, dove la scienza non è immaginazione
+  publisher: RaiNews TGR Friuli Venezia Giulia
+  published: '2026-06-23'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 198
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-14'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, 6 source texts accepted
+  - stage: authoring
+    at: '2026-07-14'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: fragments assembled; format+quality pre-audit pass; 1 length-repair round
+      on structure texts
+  - stage: blind_validation
+    at: '2026-07-14T09:46:03+00:00'
+    agreement: 84/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-14T09:56:49+00:00'
+    agreement: 87/87
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-14T10:07:18+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-14'
+    executor: fresh codex item-writer per prova + partial re-blind (codex exec low)
+    round: 1
+    fixed_items:
+    - S1.10
+    - S2.16
+    - S2.19
+    - S2.1
+    - S2.13
+    repaired_prove:
+    - S1
+    - S2
+  - stage: reconcile
+    at: '2026-07-14'
+    executor: fresh codex item-writer per prova + partial re-blind (codex exec low)
+    round: 2
+    fixed_items:
+    - S1.4
+    - S2.1
+    - S2.2
+    repaired_prove:
+    - S1
+    - S2
+  - stage: format_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: fail
+    issues: 1
+  - stage: blind_validation
+    at: '2026-07-14T10:26:56+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-14T10:27:25+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:27:25+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_repair
+    at: '2026-07-14'
+    result: 'quality length repair: S1 re-cut to band + fresh partial re-blind (87/87,
+      0 flags)'
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

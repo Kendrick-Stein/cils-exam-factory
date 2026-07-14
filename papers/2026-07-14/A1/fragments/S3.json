@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "La LucioTeca — orari e servizi",
+    "S3_TEXT_WITH_GAPS": "La LucioTeca è __aperta (0)__ al pubblico. Qui puoi __(1)__ e __(2)__ libri in ogni orario. I servizi sono __(3)__ dalle 14.30 alle 19.30. Ci sono 26 __(4)__ per studiare o leggere. Non si paga: Internet è __(5)__ con il wi-fi. Il catalogo segue i __(6)__ di adolescenti e giovani adulti. La collezione __(7)__ narrativa, fumetti, manga e albi illustrati: libri per chi ama __(8)__.",
+    "S3_OPT0_A": "aperta",
+    "S3_OPT0_B": "chiusa",
+    "S3_OPT0_C": "lontana",
+    "S3_OPTION_ROWS": "| 1. | comprare | prendere | vendere |\n| 2. | scrivere | comprare | restituire |\n| 3. | attivi | giovani | vuoti |\n| 4. | giorni | gruppi | posti |\n| 5. | veloce | gratuito | nuovo |\n| 6. | nomi | gusti | prezzi |\n| 7. | chiude | restituisce | comprende |\n| 8. | leggere | cucinare | viaggiare |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | La coppia di azioni riguarda i libri: «prendere e restituire». 中文：借书和还书构成固定语义搭配。 |\n| S3.2 | C | La coppia corretta è «prendere e restituire i libri». 中文：两个动作相对，排除“买”和“写”。 |\n| S3.3 | A | I servizi hanno un orario preciso, «dalle 14.30 alle 19.30», quindi sono *attivi*. 中文：时间段说明服务开放。 |\n| S3.4 | C | I 26 elementi servono «per studiare o leggere»: sono *posti*. 中文：数字加用途锁定“座位”。 |\n| S3.5 | B | «Non si paga» significa che Internet è *gratuito*. 中文：前句直接给出“不付费”。 |\n| S3.6 | B | Il catalogo segue i *gusti* «di adolescenti e giovani adulti». 中文：这里指读者的阅读喜好。 |\n| S3.7 | C | Dopo il vuoto c'è un elenco: «narrativa, fumetti, manga e albi illustrati»; la collezione li *comprende*. 中文：后面的书类清单表示“包含”。 |\n| S3.8 | A | I «libri» sono destinati a chi ama *leggere*. 中文：名词“书”提供唯一语义线索。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "pubblico",
+      "categoria": "sostantivo",
+      "zh": "公众",
+      "en": "public",
+      "esempio": "al pubblico"
+    },
+    {
+      "parola": "orario",
+      "categoria": "sostantivo",
+      "zh": "时间；开放时间",
+      "en": "hours; schedule",
+      "esempio": "in ogni orario"
+    },
+    {
+      "parola": "servizi",
+      "categoria": "sostantivo",
+      "zh": "服务",
+      "en": "services",
+      "esempio": "I servizi sono"
+    },
+    {
+      "parola": "adolescenti",
+      "categoria": "sostantivo plurale",
+      "zh": "青少年",
+      "en": "teenagers",
+      "esempio": "di adolescenti e giovani adulti"
+    },
+    {
+      "parola": "collezione",
+      "categoria": "sostantivo",
+      "zh": "馆藏；收藏",
+      "en": "collection",
+      "esempio": "La collezione"
+    }
+  ]
+}

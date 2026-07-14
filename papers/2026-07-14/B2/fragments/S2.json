@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "MAURIZIO GANZ, DAL GOL ALLA PANCHINA",
+    "S2_TEXT_WITH_GAPS": "Oggi Maurizio Ganz *(allenare)* __allena (0)__ il Magenta, in Eccellenza. Nell'intervista spiega: «Adesso *(guidare)* __(1)__ questa squadra». In questi anni Ganz *(lavorare)* __(2)__ quattro anni in Svizzera e cinque nel calcio femminile. Adesso la sfida lo *(entusiasmare)* __(3)__, benché il campionato *(essere)* __(4)__ tosto. Oggi la società *(essere)* __(5)__ seria; se non lo fosse, Ganz non *(essere)* __(6)__ entusiasta.\n\nDa calciatore, ogni volta che scendeva in campo *(inseguire)* __(7)__ il gol. Allora, a ogni partita, i suoi colpi *(accendere)* __(8)__ sempre lo stadio. Fino a oggi *(scrivere)* __(9)__ un libro, edito da Baldini+Castoldi. Quando cominciò l'intervista, il volume *(pubblicare)* __(10)__ già da mesi.\n\nFu al Milan femminile che Ganz *(riscoprire)* __(11)__ la passione pura. Allora, ogni giorno, le ragazze *(avere)* __(12)__ voglia di emergere. Giorno dopo giorno, mentre viveva quello spogliatoio, l'ambiente lo *(arricchire)* __(13)__ continuamente come uomo. Ganz dice oggi di *(arricchirsi)* __(14)__ umanamente durante quei cinque anni. Prima che *(tornare)* __(15)__ nel calcio maschile italiano, erano trascorsi nove anni. Quando aveva vent'anni, ogni giorno tutto *(farsi)* __(16)__ per amore del gioco. Oggi, sebbene la carriera da giocatore *(concludersi)* __(17)__ da anni, fino a oggi la sua vita sportiva *(segnare)* __(18)__ dalla passione. Fino a oggi Ganz non *(scegliere)* __(19)__ per soldi neppure una volta. Se il denaro fosse stato decisivo, in passato *(scegliere)* __(20)__ diversamente."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | guido | presente indicativo | S2.11 | riscoprì | passato remoto |\n| S2.2 | ha lavorato | passato prossimo | S2.12 | avevano | imperfetto |\n| S2.3 | entusiasma | presente indicativo | S2.13 | arricchiva | imperfetto |\n| S2.4 | sia | congiuntivo presente | S2.14 | essersi arricchito | infinito passato |\n| S2.5 | è | presente indicativo | S2.15 | tornasse | congiuntivo imperfetto |\n| S2.6 | sarebbe | condizionale presente | S2.16 | si faceva | imperfetto |\n| S2.7 | inseguiva | imperfetto | S2.17 | si sia conclusa | congiuntivo passato |\n| S2.8 | accendevano | imperfetto | S2.18 | è stata segnata | passato prossimo passivo |\n| S2.9 | ha scritto | passato prossimo | S2.19 | ha scelto | passato prossimo |\n| S2.10 | era stato pubblicato | trapassato prossimo passivo | S2.20 | avrebbe scelto | condizionale passato |",
+    "ANS_S2_NOTES": "- **S2.1 — guido:** nel discorso diretto «Adesso» e il soggetto sottinteso *io* impongono il presente indicativo. 中文：直接引语中的“现在”与第一人称锁定 guido。\n- **S2.2 — ha lavorato:** «In questi anni» collega l'esperienza al presente e impone il passato prossimo. 中文：明确的延续至今时间框架排除愈过去时。\n- **S2.3 — entusiasma:** «Adesso» impone il presente. 中文：明确的现在时标记。\n- **S2.4 — sia:** «benché» richiede il congiuntivo; «Adesso» fissa il presente. 中文：让步连词与当前时间共同锁定现在虚拟式。\n- **S2.5 — è:** «Oggi» presenta un fatto certo nel presente. 中文：陈述确定事实，用现在陈述式。\n- **S2.6 — sarebbe:** la protasi «se non lo fosse» impone il condizionale presente nella conseguenza. 中文：现在非真实条件句锁定条件式。\n- **S2.7 — inseguiva:** «ogni volta che scendeva» indica un'azione abituale nel passato. 中文：反复发生的过去动作锁定未完成过去时。\n- **S2.8 — accendevano:** «Allora, a ogni partita» e «sempre» descrivono un'abitudine passata. 中文：逐场反复发生，锁定未完成过去时。\n- **S2.9 — ha scritto:** «Fino a oggi» impone il passato prossimo. 中文：截至目前锁定近过去时。\n- **S2.10 — era stato pubblicato:** «Quando cominciò l'intervista», «già» e «da mesi» collocano la pubblicazione prima di quel momento; la forma è passiva. 中文：过去基准点前已经完成且持续数月的被动结果。\n- **S2.11 — riscoprì:** la costruzione «Fu ... che» forza il passato remoto. 中文：强调句是明确的远过去时线索。\n- **S2.12 — avevano:** «Allora, ogni giorno» indica una condizione abituale nel passato. 中文：过去的持续状态锁定未完成过去时。\n- **S2.13 — arricchiva:** «Giorno dopo giorno», «mentre» e «continuamente» presentano un processo durativo. 中文：多重持续标记排除完成性解读。\n- **S2.14 — essersi arricchito:** «dice oggi» e «durante quei cinque anni» rendono l'arricchimento anteriore. 中文：反身代词、助动词与分词全部在空格内。\n- **S2.15 — tornasse:** «Prima che» richiede il congiuntivo; il riferimento è passato. 中文：过去参照下用未完成虚拟式。\n- **S2.16 — si faceva:** l'infinito dato è «farsi» e «ogni giorno» indica un'abitudine passata. 中文：括号内的代词动词强制空格包含 si。\n- **S2.17 — si sia conclusa:** «sebbene», «Oggi» e «da anni» collegano al presente un evento già compiuto; *carriera* fissa il femminile. 中文：完成结果延续至今，且主语性别明确。\n- **S2.18 — è stata segnata:** «fino a oggi» impone il passato prossimo; «dalla passione» forza la passiva. 中文：施事补语锁定完成时被动语态。\n- **S2.19 — ha scelto:** «Fino a oggi» impone il passato prossimo; «neppure una volta» rende naturale la negazione. 中文：截至目前一次也没有，锁定近过去时。\n- **S2.20 — avrebbe scelto:** la protasi «se il denaro fosse stato decisivo» e «in passato» impongono il condizionale passato. 中文：过去反事实条件句。"
+  },
+  "key": {
+    "S2.1": "guido",
+    "S2.2": "ha lavorato",
+    "S2.3": "entusiasma",
+    "S2.4": "sia",
+    "S2.5": "è",
+    "S2.6": "sarebbe",
+    "S2.7": "inseguiva",
+    "S2.8": "accendevano",
+    "S2.9": "ha scritto",
+    "S2.10": "era stato pubblicato",
+    "S2.11": "riscoprì",
+    "S2.12": "avevano",
+    "S2.13": "arricchiva",
+    "S2.14": "essersi arricchito",
+    "S2.15": "tornasse",
+    "S2.16": "si faceva",
+    "S2.17": "si sia conclusa",
+    "S2.18": "è stata segnata",
+    "S2.19": "ha scelto",
+    "S2.20": "avrebbe scelto"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Eccellenza",
+      "categoria": "nome proprio, campionato",
+      "zh": "意大利卓越联赛",
+      "en": "Italian Eccellenza league",
+      "esempio": "il Magenta, in Eccellenza"
+    },
+    {
+      "parola": "calcio femminile",
+      "categoria": "locuzione nominale",
+      "zh": "女子足球",
+      "en": "women's football",
+      "esempio": "cinque nel calcio femminile"
+    },
+    {
+      "parola": "spogliatoio",
+      "categoria": "nome maschile",
+      "zh": "更衣室；球队内部环境",
+      "en": "dressing room; team environment",
+      "esempio": "mentre viveva quello spogliatoio"
+    },
+    {
+      "parola": "voglia di emergere",
+      "categoria": "locuzione nominale",
+      "zh": "渴望脱颖而出",
+      "en": "desire to succeed",
+      "esempio": "voglia di emergere"
+    },
+    {
+      "parola": "passione pura",
+      "categoria": "locuzione nominale",
+      "zh": "纯粹的热情",
+      "en": "pure passion",
+      "esempio": "la passione pura"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "L1.1": "B", "L1.2": "A", "L1.3": "C", "L1.4": "D", "L1.5": "B", "L1.6": "C", "L1.7": "D",
+  "L2.1": "V || Vero", "L2.2": "F || Falso", "L2.3": "F || Falso", "L2.4": "V || Vero", "L2.5": "F || Falso", "L2.6": "F || Falso", "L2.7": "V || Vero", "L2.8": "F || Falso", "L2.9": "V || Vero", "L2.10": "V || Vero", "L2.11": "F || Falso", "L2.12": "F || Falso", "L2.13": "F || Falso", "L2.14": "V || Vero",
+  "L3": "A-D-G-J-B-H-E-K-C-I-F",
+  "S1.1": "la cui", "S1.2": "le cui", "S1.3": "i cui", "S1.4": "suo || proprio", "S1.5": "lo", "S1.6": "quella", "S1.7": "i cui", "S1.8": "questo", "S1.9": "lo", "S1.10": "che", "S1.11": "quelle", "S1.12": "tutti", "S1.13": "le cui", "S1.14": "la cui", "S1.15": "lo", "S1.16": "questa", "S1.17": "il cui", "S1.18": "la cui", "S1.19": "che", "S1.20": "altro",
+  "S2.1": "ha", "S2.2": "lavorava", "S2.3": "si occupava", "S2.4": "sapeva", "S2.5": "viaggiava", "S2.6": "decise", "S2.7": "aiutavo", "S2.8": "piaceva", "S2.9": "è stato premiato", "S2.10": "compariva", "S2.11": "credevano", "S2.12": "fosse scomparso", "S2.13": "è tornato", "S2.14": "ho imparato", "S2.15": "ho venduto", "S2.16": "sarà", "S2.17": "accontenterei", "S2.18": "seguo", "S2.19": "rischia", "S2.20": "vince",
+  "S3.1": "A", "S3.2": "A", "S3.3": "B", "S3.4": "A", "S3.5": "A", "S3.6": "B", "S3.7": "A", "S3.8": "A", "S3.9": "A", "S3.10": "B", "S3.11": "B", "S3.12": "A", "S3.13": "A", "S3.14": "A", "S3.15": "B",
+  "S4.1": "B", "S4.2": "A", "S4.3": "B", "S4.4": "A", "S4.5": "B", "S4.6": "B", "S4.7": "A", "S4.8": "A", "S4.9": "A", "S4.10": "B"
+}

@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "FAQ AVVISO PUBBLICO \"POLIS\"",
+    "T2_TEXT": "**Il progetto può prevedere attività in più Comuni?**\n\nAi sensi dell'art. 6.1 dell'Avviso, sono ammissibili esclusivamente le proposte progettuali che prevedano la realizzazione delle attività in un luogo fisico chiaramente definito, a disposizione del soggetto proponente, ubicato in un unico Comune.\n\nPertanto, ai fini dell'ammissibilità, il progetto deve individuare un unico Comune quale territorio di riferimento per la realizzazione delle attività progettuali e per l'insediamento del presidio territoriale della Comunità Giovanile.\n\nResta ferma la possibilità di valorizzare, nell'ambito della rete territoriale di supporto, collaborazioni, esperienze e relazioni con soggetti operanti in territori limitrofi, purché ciò non comporti la realizzazione delle attività progettuali in Comuni diversi da quello individuato nella candidatura quale sede di attuazione del progetto.\n\n**La durata progettuale compresa tra 6 e 8 mesi si riferisce solo alle attività rivolte direttamente ai destinatari oppure all'intero progetto, comprese le attività preliminari?**\n\nCome previsto dall'art. 4 dell'Avviso, relativo all'“Avvio e durata dei progetti”, il progetto deve realizzarsi nell'arco temporale complessivo compreso tra un minimo di 6 e un massimo di 8 mesi.\n\nPertanto, tale durata deve intendersi riferita all'intero progetto e comprende anche le eventuali attività preliminari e propedeutiche alla realizzazione delle azioni rivolte ai destinatari, quali, a titolo meramente esemplificativo e non esaustivo, le attività di organizzazione, allestimento degli spazi, promozione dell'iniziativa e coinvolgimento dei partecipanti.\n\n**Come devono essere interpretati il termine di avvio entro il 1° ottobre 2026, la durata massima di 8 mesi e il termine finale del 30 giugno 2027?**\n\nCome previsto dall'art. 4 dell'Avviso, le attività progettuali dovranno essere avviate entro e non oltre il 1° ottobre 2026. Inoltre, ai fini dell'ammissibilità della proposta progettuale, il progetto deve avere una durata complessiva compresa tra un minimo di 6 e un massimo di 8 mesi.\n\nIl termine del 30 giugno 2027 deve intendersi quale termine massimo finale entro il quale le attività dovranno in ogni caso concludersi, anche in considerazione di eventuali proroghe che potranno essere richieste e accordate solo successivamente, al verificarsi di circostanze impreviste e non prevedibili, secondo le modalità previste dall'Avviso e dalla relativa Convenzione.\n\n**Le lettere di collaborazione alla rete territoriale (Modello E) possono essere sottoscritte con firma autografa anziché con firma digitale?**\n\nSì. Le lettere di collaborazione alla rete territoriale (Modello E) possono essere sottoscritte anche con firma autografa del legale rappresentante del soggetto aderente alla rete. In tal caso, dovrà essere allegata copia di un documento di identità in corso di validità del sottoscrittore, come riportato nell'art. 13 dell'Avviso.\n\n**Il progetto può prevedere lo svolgimento di attività anche in spazi diversi dalla sede principale, purché ubicati nello stesso Comune?**\n\nSì. Ferma restando la necessità di individuare un luogo fisico principale, chiaramente definito e nella disponibilità del soggetto proponente, quale sede di riferimento della Comunità giovanile, il progetto può prevedere lo svolgimento di specifiche attività anche presso altri spazi ubicati all'interno dello stesso Comune, purché tali attività risultino coerenti con la proposta progettuale e non alterino il requisito dell'unicità del territorio comunale previsto dall'Avviso.",
+    "L2_ITEMS": "**1.** Per essere ammesso, il progetto deve indicare un solo Comune come territorio di riferimento. Vero ○ Falso ○\n\n**2.** La sede principale del progetto può trovarsi in qualunque Comune scelto dai partner della rete territoriale. Vero ○ Falso ○\n\n**3.** È possibile collaborare con soggetti di territori vicini senza trasferirvi le attività progettuali. Vero ○ Falso ○\n\n**4.** Il periodo da sei a otto mesi comprende anche la preparazione delle attività rivolte ai destinatari. Vero ○ Falso ○\n\n**5.** La promozione dell'iniziativa può essere svolta prima dell'inizio ufficiale del progetto, senza essere conteggiata nella sua durata. Vero ○ Falso ○\n\n**6.** Un progetto della durata complessiva di cinque mesi rispetta i requisiti dell'Avviso. Vero ○ Falso ○\n\n**7.** Le attività possono cominciare dopo il 1° ottobre 2026, purché durino meno di otto mesi. Vero ○ Falso ○\n\n**8.** Anche in presenza di una proroga, le attività devono concludersi entro il 30 giugno 2027. Vero ○ Falso ○\n\n**9.** Le proroghe devono essere inserite già nel cronoprogramma presentato con la candidatura. Vero ○ Falso ○\n\n**10.** Una proroga può essere concessa successivamente se si verificano circostanze che non si potevano prevedere. Vero ○ Falso ○\n\n**11.** Per il Modello E è accettata anche la firma autografa del legale rappresentante del soggetto aderente. Vero ○ Falso ○\n\n**12.** Quando il Modello E è firmato a mano, non occorre allegare un documento del firmatario. Vero ○ Falso ○\n\n**13.** La sede principale deve essere uno spazio di cui il soggetto proponente dispone. Vero ○ Falso ○\n\n**14.** Alcune attività possono svolgersi fuori dalla sede principale, ma soltanto nello stesso Comune e se sono coerenti con il progetto. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Il progetto deve individuare «un unico Comune quale territorio di riferimento». 中文：考查项目地域范围的唯一性。 |\n| L2.2 | F | Il luogo fisico deve essere «ubicato in un unico Comune» e la candidatura lo individua come sede di attuazione; i partner non possono cambiarlo. 中文：合作网络不决定或改变项目所在地。 |\n| L2.3 | V | Sono ammesse relazioni con «soggetti operanti in territori limitrofi», purché non comportino attività in altri Comuni. 中文：可以跨地区合作，但不能跨市开展活动。 |\n| L2.4 | V | La durata comprende «anche le eventuali attività preliminari e propedeutiche». 中文：准备阶段也计入总周期。 |\n| L2.5 | F | Tra le attività comprese nella durata figura la «promozione dell'iniziativa». 中文：宣传不能放在项目周期之外。 |\n| L2.6 | F | La durata deve essere «compresa tra un minimo di 6 e un massimo di 8 mesi». 中文：五个月低于最低期限。 |\n| L2.7 | F | Le attività devono essere avviate «entro e non oltre il 1° ottobre 2026». 中文：期限限制启动日期，与总时长是两个并行条件。 |\n| L2.8 | V | Il 30 giugno 2027 è il termine entro cui le attività devono «in ogni caso concludersi», anche considerando eventuali proroghe. 中文：即使延期也不能越过最终截止日。 |\n| L2.9 | F | Le proroghe «potranno essere richieste e accordate solo successivamente», non già previste nella candidatura. 中文：延期只能事后申请。 |\n| L2.10 | V | Le proroghe sono legate al «verificarsi di circostanze impreviste e non prevedibili». 中文：需满足不可预见情形这一条件。 |\n| L2.11 | V | Il Modello E può essere sottoscritto «anche con firma autografa del legale rappresentante». 中文：手写签名和数字签名都可接受。 |\n| L2.12 | F | Con la firma autografa «dovrà essere allegata copia di un documento di identità in corso di validità». 中文：手写签名必须附有效身份证件副本。 |\n| L2.13 | V | La sede principale deve essere «nella disponibilità del soggetto proponente». 中文：意为申请主体必须能够使用该场所。 |\n| L2.14 | V | Sono ammessi altri spazi «all'interno dello stesso Comune», purché le attività siano coerenti e rispettino l'unicità territoriale. 中文：允许多个场所，但不能跨市且须符合项目内容。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ai fini dell'ammissibilità",
+      "categoria": "locuzione preposizionale",
+      "zh": "为符合准入条件",
+      "en": "for eligibility purposes",
+      "esempio": "Pertanto, ai fini dell'ammissibilità, il progetto deve individuare un unico Comune quale territorio di riferimento per la realizzazione delle attività progettuali e per l'insediamento del presidio territoriale della Comunità Giovanile."
+    },
+    {
+      "parola": "rete territoriale di supporto",
+      "categoria": "locuzione nominale",
+      "zh": "地方支持网络",
+      "en": "local support network",
+      "esempio": "Resta ferma la possibilità di valorizzare, nell'ambito della rete territoriale di supporto, collaborazioni, esperienze e relazioni con soggetti operanti in territori limitrofi, purché ciò non comporti la realizzazione delle attività progettuali in Comuni diversi da quello individuato nella candidatura quale sede di attuazione del progetto."
+    },
+    {
+      "parola": "attività preliminari e propedeutiche",
+      "categoria": "locuzione nominale",
+      "zh": "前期和准备性活动",
+      "en": "preliminary and preparatory activities",
+      "esempio": "Pertanto, tale durata deve intendersi riferita all'intero progetto e comprende anche le eventuali attività preliminari e propedeutiche alla realizzazione delle azioni rivolte ai destinatari, quali, a titolo meramente esemplificativo e non esaustivo, le attività di organizzazione, allestimento degli spazi, promozione dell'iniziativa e coinvolgimento dei partecipanti."
+    },
+    {
+      "parola": "firma autografa",
+      "categoria": "locuzione nominale",
+      "zh": "手写签名",
+      "en": "handwritten signature",
+      "esempio": "Le lettere di collaborazione alla rete territoriale (Modello E) possono essere sottoscritte anche con firma autografa del legale rappresentante del soggetto aderente alla rete."
+    },
+    {
+      "parola": "in corso di validità",
+      "categoria": "locuzione aggettivale",
+      "zh": "在有效期内的",
+      "en": "currently valid",
+      "esempio": "In tal caso, dovrà essere allegata copia di un documento di identità in corso di validità del sottoscrittore, come riportato nell'art. 13 dell'Avviso."
+    }
+  ]
+}

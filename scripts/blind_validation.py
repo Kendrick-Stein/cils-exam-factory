@@ -25,6 +25,26 @@ class ValidationError(Exception):
 
 SAFE_SESSION = re.compile(r"^\d{4}-\d{2}-\d{2}(?:-r[1-9]\d*)?$")
 SAFE_LEVEL = re.compile(r"^[A-Za-z0-9_-]+$")
+PROVA_ID_RE = re.compile(r"^([LS])(\d+)$")
+PROVA_HEADING_TEMPLATES = {
+    "L": r"^##\s+Comprensione della lettura\s+[—-]\s+Prova n\.\s+{n}\s*$",
+    "S": r"^##\s+Analisi delle strutture di comunicazione\s+[—-]\s+Prova n\.\s+{n}\s*$",
+}
+NEXT_HEADING_RE = re.compile(r"^#{1,2}\s+", re.MULTILINE)
+
+
+def extract_prova_block(paper_text: str, prova_id: str) -> str:
+    match = PROVA_ID_RE.fullmatch(prova_id.strip())
+    if not match:
+        raise ValidationError(f"invalid prova id {prova_id!r}: use L<n> or S<n>")
+    section, number = match.group(1), int(match.group(2))
+    heading_re = re.compile(PROVA_HEADING_TEMPLATES[section].format(n=number), re.MULTILINE)
+    start = heading_re.search(paper_text)
+    if not start:
+        raise ValidationError(f"prova {prova_id} heading not found in paper.md")
+    following = NEXT_HEADING_RE.search(paper_text, start.end())
+    end = following.start() if following else len(paper_text)
+    return paper_text[start.start():end].rstrip() + "\n"
 ANSWER_ID_ALIASES = (
     (re.compile(r"^lettura_p(\d+)_(\d+)$", re.IGNORECASE), "L"),
     (re.compile(r"^lettura_prova_(\d+)_(\d+)$", re.IGNORECASE), "L"),
@@ -295,15 +315,37 @@ def command_prepare(args: argparse.Namespace) -> int:
     if not resolved_isolated_dir.is_relative_to(tmp_root):
         raise ValidationError(f"unsafe blind directory outside tmp root: {isolated_dir}")
 
+    prova_ids: list[str] = []
+    if getattr(args, "prova", None):
+        prova_ids = [pid.strip() for pid in args.prova.split(",") if pid.strip()]
+        for pid in prova_ids:
+            if not PROVA_ID_RE.fullmatch(pid):
+                raise ValidationError(f"invalid prova id {pid!r}: use L<n> or S<n>")
+        suffix = "-" + "-".join(pid.lower() for pid in prova_ids)
+        isolated_dir = args.tmp_root / f"cils-blind-{session}-{level}{suffix}"
+        resolved_isolated_dir = isolated_dir.resolve()
+        if not resolved_isolated_dir.is_relative_to(tmp_root):
+            raise ValidationError(f"unsafe blind directory outside tmp root: {isolated_dir}")
+
     if isolated_dir.exists():
         shutil.rmtree(isolated_dir)
     isolated_dir.mkdir(parents=True)
     isolated_paper = isolated_dir / "paper.md"
-    shutil.copy2(paper_path, isolated_paper)
+    if prova_ids:
+        paper_text = paper_path.read_text(encoding="utf-8")
+        blocks = [extract_prova_block(paper_text, pid) for pid in prova_ids]
+        isolated_paper.write_text("\n\n---\n\n".join(blocks), encoding="utf-8")
+    else:
+        shutil.copy2(paper_path, isolated_paper)
 
+    scope_note = (
+        " The file contains only selected prove extracted from the paper; solve every item in it."
+        if prova_ids
+        else ""
+    )
     prompt = (
         "You are a candidate taking a CILS exam. Solve the paper at "
-        f"{isolated_paper} using ONLY that file. Return: (1) ANSWERS as JSON "
+        f"{isolated_paper} using ONLY that file.{scope_note} Return: (1) ANSWERS as JSON "
         'object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, '
         "(2) FLAGS as JSON array for ambiguous or unanswerable items, "
         "(3) WRITING checks. Use item IDs by section: L<prova>.<n> for "
@@ -318,6 +360,70 @@ def command_prepare(args: argparse.Namespace) -> int:
                 "isolated_paper": str(isolated_paper),
                 "prompt": prompt,
                 "codex_args": ["codex", "exec", "--sandbox", "read-only", prompt],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    return 0
+
+
+def item_prefix(item_id: str) -> str:
+    return item_id.split(".", 1)[0]
+
+
+def format_blind_output(answers: dict[str, str], flags: list[dict[str, str]]) -> str:
+    return (
+        "ANSWERS\n"
+        + json.dumps(answers, ensure_ascii=False, indent=2)
+        + "\nFLAGS\n"
+        + json.dumps(
+            [{"item": flag["item_id"], "reason": flag["reason"]} for flag in flags],
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n"
+    )
+
+
+def command_merge_output(args: argparse.Namespace) -> int:
+    """Overlay a partial (per-prova) blind output onto a previous full one.
+
+    Scope = the prova prefixes present in the patch; scoped answers/flags in the
+    base are replaced wholesale, everything else is kept. The merged file then
+    goes through the normal full `reconcile`, so per-prova re-validation needs
+    no changes to reconcile semantics.
+    """
+    base_answers, base_flags = parse_blind_output(args.base)
+    patch_answers, patch_flags = parse_blind_output(args.patch)
+    patch_answers = {
+        normalized: answer
+        for item_id, answer in patch_answers.items()
+        if (normalized := normalize_item_id(item_id)) is not None
+    }
+    scope = {item_prefix(item_id) for item_id in patch_answers}
+    scope |= {item_prefix(flag["item_id"]) for flag in patch_flags}
+    if not scope:
+        raise ValidationError("patch blind output contains no answers or flags")
+
+    merged_answers = {
+        item_id: answer
+        for item_id, answer in base_answers.items()
+        if item_prefix(normalize_item_id(item_id) or item_id) not in scope
+    }
+    merged_answers.update(patch_answers)
+    merged_flags = [flag for flag in base_flags if item_prefix(flag["item_id"]) not in scope]
+    merged_flags.extend(patch_flags)
+
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(format_blind_output(merged_answers, merged_flags), encoding="utf-8")
+    print(
+        json.dumps(
+            {
+                "scope": sorted(scope),
+                "answers": len(merged_answers),
+                "flags": len(merged_flags),
+                "out": str(args.out),
             },
             ensure_ascii=False,
             indent=2,
@@ -385,7 +491,19 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     prepare = subparsers.add_parser("prepare", help="copy paper.md into an isolated blind directory")
     prepare.add_argument("--paper-dir", type=Path, required=True, help="papers/<date>/<LEVEL> directory")
     prepare.add_argument("--tmp-root", type=Path, default=Path("/tmp"), help="root for isolated blind dir")
+    prepare.add_argument(
+        "--prova",
+        help="comma-separated prova ids (e.g. L3,S2) to extract instead of copying the whole paper",
+    )
     prepare.set_defaults(func=command_prepare)
+
+    merge = subparsers.add_parser(
+        "merge-output", help="overlay a partial per-prova blind output onto a previous full one"
+    )
+    merge.add_argument("--base", type=Path, required=True, help="previous full blind-output file")
+    merge.add_argument("--patch", type=Path, required=True, help="partial blind-output for re-validated prove")
+    merge.add_argument("--out", type=Path, required=True, help="merged blind-output path")
+    merge.set_defaults(func=command_merge_output)
 
     reconcile = subparsers.add_parser("reconcile", help="compare blind-solver output with key.json")
     reconcile.add_argument("--paper-dir", type=Path, required=True, help="papers/<date>/<LEVEL> directory")

@@ -1,0 +1,149 @@
+exam: cils
+level: A2
+session: '2026-07-14'
+title: CILS A2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/marche/notizie/2026/07/07/a-offida-arriva-500-in-cinquecento-tra-fiat-500-e-storia-dei-frati_48151b16-10a5-49b0-8d2e-d8d405c4450a.html
+  title: A Offida arriva “500 in Cinquecento”, tra Fiat 500 e storia dei frati Cappuccini
+  publisher: ANSA
+  published: '2026-07-07'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 213
+- id: T2
+  url: https://ricette.giallozafferano.it/Insalata-estiva-con-frutta-e-mozzarelline.html
+  title: Insalata estiva con frutta e mozzarelline
+  publisher: GialloZafferano
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 152
+- id: T3a
+  url: https://shop.uffizi.it/info-biglietteria/
+  title: Sedie a rotelle e deambulatori
+  publisher: Le Gallerie degli Uffizi Shop
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 26
+- id: T3b
+  url: https://www.mantovaducale.beniculturali.it/it/informazioni/biglietti-abbonamenti-e-riduzioni
+  title: Audioguida gratuita
+  publisher: Palazzo Ducale Mantova
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 27
+- id: T3c
+  url: https://museonazionaleromano.it/attivita-educative/andiamo-al-museo/
+  title: AndiAMO al Museo da grandi
+  publisher: Museo Nazionale Romano
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 28
+- id: T3d
+  url: https://www.soprintendenzapdve.beniculturali.it/visite-guidate-al-giardino-di-palazzo-soranzo-cappello-a-venezia-nel-mese-di-giugno/
+  title: Visite guidate al giardino di Palazzo Soranzo Cappello
+  publisher: Soprintendenza ABAP Padova, Treviso e Belluno
+  published: '2026-05-26'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 28
+- id: T3e
+  url: https://www.museiincomuneroma.it/sites/default/files/f_file/1.%20CS_LA%20NOTTE%20DEI%20MUSEI%202026%20%20.pdf
+  title: Museo Casa di Goethe
+  publisher: Musei in Comune Roma
+  published: '2026-05-20'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 26
+- id: T3f
+  url: https://www.ansa.it/amp/sito/notizie/cultura/teatro/2026/06/30/felicitta-a-roma-il-2-luglio-per-scoprire-il-patrimonio-della-capitale_ad35bc73-eb32-4baa-8bb9-9a4c002361eb.html
+  title: Felicittà
+  publisher: ANSA
+  published: '2026-06-30'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 25
+- id: T4
+  url: https://www.trenitalia.com/it/servizi/bagaglio-facile.html
+  title: Bagaglio Facile
+  publisher: Trenitalia
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 124
+- id: T5
+  url: https://www.rainews.it/tgr/bolzano/articoli/2026/03/anna-trocker-si-racconta-tra-mondiali-juniores-scuola-primi-passi-sugli-sci-6e7428c9-09c4-4f6a-934b-05adc85e818b.html
+  title: 'Anna Trocker si racconta: tra mondiali juniores, scuola, primi passi sugli
+    sci'
+  publisher: RaiNews TGR Bolzano
+  published: '2026-03-22'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 129
+- id: T6
+  url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=69d7588634a5a6009a5a0c6a
+  title: Iscrizione ai Centri estivi 2026 — domanda fuori bando
+  publisher: Comune di Bologna
+  published: '2026-04-09'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 130
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-14'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, 11 source texts accepted
+  - stage: authoring
+    at: '2026-07-14'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: fragments assembled; format+quality pre-audit pass; 1 length-repair round
+      on structure texts
+  - stage: blind_validation
+    at: '2026-07-14T09:46:03+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-14T10:27:25+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:27:25+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass

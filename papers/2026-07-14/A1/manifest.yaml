@@ -1,0 +1,156 @@
+exam: cils
+level: A1
+session: '2026-07-14'
+title: CILS A1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.comune.torino.it/vivere-comune/luoghi/casa-della-cultura
+  title: Casa della Cultura
+  publisher: 'Città di Torino (whitelist: comuni)'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 100
+- id: T2
+  url: https://www.museiincomuneroma.it/it/informazioni_pratiche/orari_e_indirizzi
+  title: Informazioni pratiche — Museo delle Mura
+  publisher: 'Musei in Comune Roma (whitelist: siti di musei)'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 121
+- id: T3a
+  url: https://www.comune.genova.it/novita/avvisi/manifestazioni-di-interesse-servizio-estivo-0-6-anni-2026
+  title: Manifestazioni di interesse per Servizio estivo 0-6 anni 2026
+  publisher: 'Comune di Genova (whitelist: comuni)'
+  published: '2026-05-13'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 32
+- id: T3b
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/bologna-estate-consiglia-8-0
+  title: 'Bologna Estate consiglia #8 — LookAp nel sottobosco'
+  publisher: 'Comune di Bologna (whitelist: comuni)'
+  published: '2026-07-09'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 27
+- id: T3c
+  url: https://decentramento.comune.torino.it/circoscrizione2/vivere-circoscrizione/eventi/serata-giochi-quiz-giochi-squadre-risate
+  title: Serata giochi — Quiz, giochi a squadre & risate
+  publisher: 'Circoscrizione 2, Città di Torino (whitelist: comuni)'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 28
+- id: T3d
+  url: https://www.museiincomuneroma.it/it/notizie/domenica-5-luglio-ingresso-gratuito-nei-musei-civici-e-nei-siti-archeologici-di-roma
+  title: Il 5 luglio ingresso gratuito nei musei civici e siti archeologici
+  publisher: 'Musei in Comune Roma (whitelist: siti di musei)'
+  published: '2026-07-01'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 30
+- id: T4
+  url: https://blog.giallozafferano.it/mammaluisa/pasta-allarrabbiata/
+  title: Pasta all’arrabbiata
+  publisher: 'Le ricette di mamma Lù / GialloZafferano (whitelist: practical_realia)'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 85
+- id: T5
+  url: https://www.bimbieviaggi.it/weekend-a-napoli-con-bambini
+  title: 'Weekend a Napoli con bambini: viaggio e alloggio'
+  publisher: 'Bimbi e Viaggi (off-whitelist: blog di viaggio italiano autentico, gratuito
+    e direttamente accessibile; scelto per il raro racconto in prima persona con passato
+    prossimo)'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 100
+- id: T6
+  url: https://www.comune.bologna.it/novita/comunicati-stampa/nasce-la-lucioteca-punto-biblioteca-e-spazio-la-lettura-la-narrazione-e-la-produzione-culturale
+  title: Nasce la LucioTeca — orari e servizi
+  publisher: 'Comune di Bologna (whitelist: comuni; pagina di servizio culturale)'
+  published: '2026-03-03'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 85
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-14'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, 9 source texts accepted
+  - stage: authoring
+    at: '2026-07-14'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: fragments assembled; format+quality pre-audit pass; 1 length-repair round
+      on structure texts
+  - stage: blind_validation
+    at: '2026-07-14T09:46:02+00:00'
+    agreement: 42/44
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-14T09:56:48+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-14'
+    executor: fresh codex item-writer per prova + partial re-blind (codex exec low)
+    round: 1
+    fixed_items:
+    - S2.3
+    - S2.7
+    repaired_prove:
+    - S2
+  - stage: format_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: fail
+    issues: 1
+  - stage: blind_validation
+    at: '2026-07-14T10:26:56+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-14T10:27:25+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:27:25+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_repair
+    at: '2026-07-14'
+    result: 'quality length repair: S2 re-cut to band + fresh partial re-blind (44/44,
+      0 flags)'
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

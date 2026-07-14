@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1.** «Informiamo i visitatori che, per consentire l'allestimento della nuova mostra, mercoledì le sale del secondo piano apriranno alle 14. I biglietti già acquistati restano validi per l'intera giornata; gli altri spazi del museo seguiranno l'orario abituale.»  \nA) È un invito ad acquistare in anticipo i biglietti. B) È l'annuncio della chiusura definitiva di alcune sale. C) È un avviso su una variazione temporanea dell'orario. D) È la conferma del rinvio della nuova mostra.\n\n**2.** «Gentile cliente, abbiamo disposto il rimborso di 36 euro relativo all'ordine annullato. L'importo sarà accreditato sullo stesso metodo di pagamento entro cinque giorni lavorativi. Non è necessario inviare altra documentazione.»  \nA) È la conferma che un rimborso è stato avviato. B) È la richiesta di scegliere un diverso metodo di pagamento. C) È il rifiuto di rimborsare un ordine annullato. D) È la domanda di ulteriori documenti al cliente.\n\n**3.** «Ciao Paolo, domani il corriere consegnerà un pacco che richiede la firma, ma sarò al lavoro fino a tardi. Se ti lascio la delega stasera, potresti ritirarlo tu e tenerlo fino al mio rientro? Grazie!»  \nA) È l'offerta di custodire un pacco per un vicino. B) È la richiesta di spostare una consegna a un altro giorno. C) È la protesta per un pacco consegnato in ritardo. D) È la richiesta a un conoscente di ritirare una consegna.\n\n**4.** «Tra poco riapriremo le linee: telefonateci per raccontare quale abitudine avete cambiato per ridurre gli sprechi domestici. Le testimonianze più interessanti saranno commentate in diretta dalla nostra esperta. Restate sintonizzati dopo il notiziario.»  \nA) È la promozione di un prodotto contro gli sprechi. B) È la presentazione di un notiziario appena concluso. C) È un invito agli ascoltatori a partecipare a una trasmissione. D) È l'annuncio di un corso tenuto da un'esperta.\n\n**5.** «Benvenuti al laboratorio di fotografia urbana. Prima di entrare, ritirate alla reception il cartellino con il vostro nome; poi raggiungete l'aula 3 al primo piano. Il materiale necessario è già disponibile sui tavoli.»  \nA) È un messaggio di accoglienza con indicazioni organizzative. B) È la richiesta di portare da casa il materiale fotografico. C) È l'avviso dello spostamento del laboratorio in un'altra sede. D) È la pubblicità di un corso aperto a nuove iscrizioni.\n\n**6.** «Scambio scrivania in legno, in buone condizioni, con libreria stretta di altezza simile. Non vendo e non spedisco: valuto soltanto proposte in zona, così possiamo controllare insieme i mobili prima dello scambio. Foto disponibili in privato.»  \nA) È la vendita di due mobili con consegna a domicilio. B) È la ricerca di un mobile da ricevere in cambio di un altro. C) È l'offerta di riparare mobili usati in zona. D) È la richiesta di fotografie per valutare una scrivania.\n\n**7.** «Ricordiamo ai residenti che il permesso annuale per il parcheggio scade il 31 luglio. Per evitare la sospensione, occorre rinnovarlo online entro tale data, allegando copia della patente e del documento del veicolo.»  \nA) È l'annuncio dell'apertura di un nuovo parcheggio. B) È la comunicazione che tutti i permessi sono già sospesi. C) È un sollecito a rinnovare un'autorizzazione entro una scadenza. D) È la richiesta di ritirare di persona un documento del veicolo.\n\n**8.** «I posti in sala per l'incontro con l'autrice sono esauriti e non sarà possibile entrare senza prenotazione. Chi non ha ricevuto la conferma potrà comunque seguire l'evento in diretta sul canale video della biblioteca.»  \nA) È la cancellazione di un incontro per mancanza di pubblico. B) È l'avviso che l'accesso in presenza è completo, con un'alternativa online. C) È l'invito a confermare nuovamente una prenotazione. D) È la comunicazione che la biblioteca resterà chiusa durante l'evento.\n\n**9.** «Buongiorno, la contattiamo dalla farmacia per comunicarle che il prodotto ordinato è arrivato. Lo terremo da parte fino a sabato sera; dopo quella data, se non avremo sue notizie, non potremo più garantirne la disponibilità.»  \nA) È la conferma che un prodotto è disponibile per un ritiro entro un termine. B) È la proposta di sostituire un prodotto non più disponibile. C) È il promemoria di una visita fissata per sabato sera. D) È il rifiuto di accettare un ordine telefonico.\n\n**10.** «Ci dispiace per il doppio addebito che ci ha segnalato. Per verificare entrambe le operazioni, la preghiamo di rispondere allegando la pagina dell'estratto conto su cui compaiono, oscurando saldo e altri movimenti. La ricontatteremo dopo il controllo.»  \nA) È la conferma che il doppio addebito è già stato rimborsato. B) È un avviso generale sui rischi dei pagamenti online. C) È la richiesta di ripetere due operazioni non riuscite. D) È la richiesta di una prova documentale per esaminare una segnalazione."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «mercoledì le sale del secondo piano apriranno alle 14» segnala una variazione limitata a un giorno; 中文：不是永久关闭。 |\n| S4.2 | A | «abbiamo disposto il rimborso» conferma che la procedura è stata avviata; 中文：款项尚需到账，但退款已办理。 |\n| S4.3 | D | «potresti ritirarlo tu» è una richiesta rivolta a Paolo; 中文：说话人请熟人代收，不是在主动提供帮助。 |\n| S4.4 | C | «telefonateci per raccontare» invita il pubblico a intervenire in diretta; 中文：重点是参与节目，不是报名课程。 |\n| S4.5 | A | «Benvenuti» e le istruzioni su reception e aula accolgono partecipanti già presenti; 中文：不是招生广告。 |\n| S4.6 | B | «Scambio scrivania… con libreria» e «Non vendo» indicano un baratto; 中文：明确排除出售。 |\n| S4.7 | C | «occorre rinnovarlo online entro tale data» è un sollecito con scadenza; 中文：许可尚未全部暂停。 |\n| S4.8 | B | «i posti in sala… sono esauriti» ma si può «seguire l'evento in diretta»; 中文：活动未取消，只是现场满额。 |\n| S4.9 | A | «il prodotto ordinato è arrivato» e sarà tenuto «fino a sabato sera»; 中文：已到货，但须限期领取。 |\n| S4.10 | D | «allegando la pagina dell'estratto conto» serve a «verificare entrambe le operazioni»; 中文：仍在核查，尚未确认退款。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "C",
+    "S4.5": "A",
+    "S4.6": "B",
+    "S4.7": "C",
+    "S4.8": "B",
+    "S4.9": "A",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "allestimento",
+      "categoria": "nome maschile",
+      "zh": "布置；筹备",
+      "en": "setup; preparation",
+      "esempio": "per consentire l'allestimento della nuova mostra"
+    },
+    {
+      "parola": "metodo di pagamento",
+      "categoria": "espressione nominale",
+      "zh": "支付方式",
+      "en": "payment method",
+      "esempio": "sullo stesso metodo di pagamento"
+    },
+    {
+      "parola": "delega",
+      "categoria": "nome femminile",
+      "zh": "委托书；授权",
+      "en": "authorization; proxy",
+      "esempio": "Se ti lascio la delega stasera"
+    },
+    {
+      "parola": "Restate sintonizzati",
+      "categoria": "espressione verbale",
+      "zh": "请继续收听",
+      "en": "stay tuned",
+      "esempio": "Restate sintonizzati dopo il notiziario"
+    },
+    {
+      "parola": "estratto conto",
+      "categoria": "espressione nominale",
+      "zh": "账户对账单",
+      "en": "account statement",
+      "esempio": "la pagina dell'estratto conto"
+    }
+  ]
+}

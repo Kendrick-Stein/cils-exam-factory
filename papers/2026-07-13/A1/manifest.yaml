@@ -1,0 +1,125 @@
+exam: cils
+level: A1
+session: '2026-07-13'
+title: CILS A1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.comune.bareggio.mi.it/vivere-il-comune/luoghi/parco-arcadia/
+  title: Parco Arcadia
+  publisher: Comune di Bareggio
+  accessed: '2026-07-13'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 110
+- id: T2
+  url: https://www.musei.re.it/chi-siamo/orari-di-apertura/
+  title: Orari di apertura — Musei Civici di Reggio Emilia (Palazzo dei Musei)
+  publisher: Musei Civici di Reggio Emilia
+  accessed: '2026-07-13'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 114
+- id: T3a
+  url: https://cultura.comune.fi.it/dalle-redazioni/leggere-come-mi-piace-luglio-2026
+  title: Leggere... come mi piace! — Luglio 2026 (Biblioteca delle Oblate)
+  publisher: Comune di Firenze — Cultura
+  published: '2026-07-01'
+  accessed: '2026-07-13'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 27
+- id: T3b
+  url: https://liberta.it/event/sagra-della-rana-e-del-pesce/662
+  title: Sagra della rana e del pesce (Soarza, Villanova sull'Arda)
+  publisher: Libertà (quotidiano di Piacenza)
+  published: '2025-05-23'
+  accessed: '2026-07-13'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 29
+  note: pagina evento di testata locale autentica e gratuita (off-whitelist, giustificato)
+- id: T3c
+  url: https://www.turismovaltaro.it/comune-di-bardi/
+  title: Comune di Bardi (Fortezza-Castello di Bardi)
+  publisher: Turismo Valtaro
+  accessed: '2026-07-13'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 28
+  note: presentazione turistica autentica e gratuita di un borgo/castello (off-whitelist,
+    giustificato)
+- id: T3d
+  url: https://piscinacomunalemondovi.it/nuoto-libero/
+  title: Nuoto Libero — Piscina Comunale di Mondovì
+  publisher: Piscina Comunale di Mondovì
+  accessed: '2026-07-13'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 21
+  note: pagina di servizio pubblico municipale, autentica e gratuita (off-whitelist,
+    giustificato)
+- id: T4
+  url: https://blog.giallozafferano.it/valeriaciccotti/minestrone-di-verdure/
+  title: Minestrone di verdure — ricetta minestra di verdure facile
+  publisher: Valeria Ciccotti — blog GialloZafferano
+  accessed: '2026-07-13'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 74
+- id: T5
+  url: https://www.viaggiapiccoli.com/giro-del-lago-di-garda-in-battello-con-i-bambini/
+  title: Il giro del lago di Garda in battello con i bambini
+  publisher: Viaggiapiccoli
+  published: '2023-05-15'
+  accessed: '2026-07-13'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 78
+  note: racconto di viaggio atemporale; deroga recency (>12 mesi) giustificata come
+    per realia/narrativa
+- id: T6
+  url: https://www.viaggiapiccoli.com/il-parco-urbano-di-forli/
+  title: Il Parco Urbano di Forlì
+  publisher: Viaggiapiccoli
+  published: '2024-04-25'
+  accessed: '2026-07-13'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 76
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: authoring
+    at: '2026-07-13'
+    executor: claude item-writer subagent
+    result: paper.md/answers.md/key.json scritti; conteggi per prova = exam.yaml;
+      lunghezze testi dentro le fasce (tokenizzatore audit verificato)
+  - stage: blind_validation
+    at: '2026-07-13T03:20:18+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

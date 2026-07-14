@@ -1,0 +1,109 @@
+exam: cils
+level: C1
+session: '2026-07-13'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2026/06/06/archivio-articoli-giornale-online-chiude/
+  title: Che fine fanno gli articoli online quando un giornale chiude
+  publisher: Il Post
+  published: '2026-06-06'
+  accessed: '2026-07-13'
+  used_in:
+  - lettura P1
+  adapted: true
+  words_used: 606
+- id: T2
+  url: https://www.biblioteca-spinea.it/biblioteca/regolamenti/regolamento-biblioteca-comunale/
+  title: Regolamento della Biblioteca Comunale di Spinea — Titolo 3, I servizi al
+    pubblico
+  publisher: Comune di Spinea (VE)
+  published: '2019-11-11'
+  accessed: '2026-07-13'
+  used_in:
+  - lettura P2
+  adapted: true
+  words_used: 574
+- id: T3
+  url: https://it.wikisource.org/wiki/Racconti_sardi/Di_Notte/I
+  title: Grazia Deledda, «Di Notte», in Racconti sardi, sezione I
+  publisher: it.wikisource.org
+  published: '1894'
+  accessed: '2026-07-13'
+  used_in:
+  - lettura P3
+  adapted: true
+  words_used: 466
+- id: T4
+  url: https://www.ilpost.it/ok-boomer/la-lotta-di-classe-climatica/
+  title: La lotta di classe climatica (rubrica Ok Boomer), Michele Serra
+  publisher: Il Post
+  published: '2026-06-30'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture P1
+  adapted: true
+  words_used: 262
+- id: T5
+  url: https://it.wikisource.org/wiki/Racconti_sardi/Il_Mago
+  title: Grazia Deledda, «Il Mago», in Racconti sardi
+  publisher: it.wikisource.org
+  published: '1894'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture P2
+  adapted: true
+  words_used: 233
+- id: T6
+  url: https://www.ansa.it/sito/notizie/cultura/arte/2026/07/09/scavi-ercolano-dopo-30-anni-riapre-la-casa-del-mobilio-carbonizzato_91df8e91-8fa4-4d8d-bd23-04fbd1257a2c.html
+  title: Scavi Ercolano, dopo 30 anni riapre la Casa del mobilio carbonizzato
+  publisher: ANSA
+  published: '2026-07-09'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture P3
+  adapted: true
+  words_used: 205
+- id: T7
+  url: https://amministrazionetrasparente.comune.firenze.it/system/files/2025-09/Istr%20amm%20bando%20definitivo_signed.pdf
+  title: Concorso pubblico a n. 55 posti di Istruttore Amministrativo — premessa,
+    Art. 1 e Art. 2
+  publisher: Comune di Firenze, Direzione Risorse Umane
+  published: '2025-09-22'
+  accessed: '2026-07-13'
+  used_in:
+  - strutture P4
+  adapted: true
+  words_used: 148
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: claude-opus-4-8 (item-writer subagent)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: blind_validation
+    at: '2026-07-13T10:19:00+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-13T10:25:44+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "IL MISTERO DI GAMMA-CAS",
+    "S3_TEXT_WITH_GAPS": "Un mistero stellare che per oltre cinquant'anni ha __(0)__ gli astronomi è stato finalmente risolto. A venirne a __(1)__ è stata Xrism, __(2)__ con Nasa e Agenzia Spaziale Europea e lanciata nel 2023. La sonda ha individuato accanto a gamma-Cas una compagna poco luminosa da risultare __(3)__, che le sottrae materia: in altre parole, la __(4)__. Da questo processo scaturiscono raggi X, la cui __(5)__, ossia la provenienza, era rimasta finora inspiegata.\n\nLa scoperta permetterà di fare __(6)__ anche su sistemi stellari simili. Gamma-Cas occupa una posizione centrale nella costellazione di Cassiopea: si trova al suo __(7)__.\n\nNel 1866 Angelo Secchi notò che qualcosa non __(8)__ nella firma luminosa di gamma-Cas. La sua __(9)__ digitale relativa all'idrogeno risultava brillante, in netto __(10)__ con quella di stelle come il Sole, che appare scura.\n\nA metà degli anni Settanta, al primo mistero se ne __(11)__ un altro: l'astro emetteva raggi X insoliti, dunque tutt'altro che __(12)__, prodotti da un plasma capace di __(13)__ i 150 milioni di gradi, con una luminosità 40 volte __(14)__ al normale. Le ipotesi erano due: i campi magnetici della stella esercitavano un'azione reciproca con quelli del disco, cioè __(15)__ con essi, oppure la piccola compagna risucchiava materiale dal disco.",
+    "S3_OPT0_A": "incuriosito",
+    "S3_OPT0_B": "placato",
+    "S3_OPT0_C": "confortato",
+    "S3_OPT0_D": "persuaso",
+    "S3_OPTION_ROWS": "| 1. | capo | termine | confine | riparo |\n| 2. | rinvenuta | pilotata | equipaggiata | realizzata |\n| 3. | remota | invisibile | immobile | isolata |\n| 4. | respinge | risparmia | cede | divora |\n| 5. | origine | intensità | durata | frequenza |\n| 6. | forza | luce | pressione | ricorso |\n| 7. | fianco | margine | centro | limite |\n| 8. | scorreva | ruotava | quadrava | pesava |\n| 9. | sagoma | impronta | cornice | figura |\n| 10. | accordo | rapporto | contrasto | contatto |\n| 11. | adeguò | oppose | sottrasse | aggiunse |\n| 12. | ordinari | visibili | continui | innocui |\n| 13. | ridurre | raggiungere | ritirare | abbassare |\n| 14. | estranea | equivalente | inferiore | superiore |\n| 15. | coincidevano | interagivano | si identificavano | si confondevano |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | La locuzione decisiva è «venire a capo» di un mistero. 中文：固定搭配，表示“弄清、解决”。 |\n| S3.2 | D | «Con la collaborazione della Nasa e dell'Agenzia Spaziale Europea» indica che la sonda è stata «realizzata» insieme ai partner. 中文：不是驾驶、装备或偶然发现。 |\n| S3.3 | B | La compagna è «tanto poco luminosa da risultare invisibile». 中文：结果结构直接锁定“不可见”。 |\n| S3.4 | D | «Sottrae materia alla stella: in altre parole, la divora» rende esplicita la metafora. 中文：后三项与“夺取物质”相反。 |\n| S3.5 | A | L'inciso «ossia la provenienza» definisce direttamente l'«origine» dei raggi X. 中文：同位解释排除强度、时长和频率。 |\n| S3.6 | B | La collocazione è «fare luce su» altri sistemi stellari. 中文：固定搭配，意为“阐明”。 |\n| S3.7 | C | «Occupa una posizione centrale» viene ripreso da «si trova al suo centro». 中文：前后同义照应。 |\n| S3.8 | C | Secchi rileva un'anomalia: «qualcosa non quadrava». 中文：习语“不对劲”。 |\n| S3.9 | B | «Impronta digitale» è la collocazione che chiarisce metaforicamente la firma luminosa. 中文：固定名词搭配。 |\n| S3.10 | C | «Brillante» si oppone a «scura»: si tratta di un «netto contrasto». 中文：明暗对立直接排除其他关系。 |\n| S3.11 | D | «Al primo mistero» se ne unisce «un altro»: quindi «se ne aggiunse» uno nuovo. 中文：前后照应锁定“新增”。 |\n| S3.12 | A | «Raggi X insoliti» è riformulato da «tutt'altro che ordinari». 中文：dunque 引出反义改述。 |\n| S3.13 | B | Il plasma è «capace di raggiungere i 150 milioni di gradi». 中文：达到某一温度用 raggiungere。 |\n| S3.14 | D | Una luminosità «40 volte» maggiore del normale è «superiore al normale». 中文：倍数与比较对象锁定 superiore。 |\n| S3.15 | B | «Esercitavano un'azione reciproca» è spiegato da «interagivano con essi». 中文：cioè 引出同义释义。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "D",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "scaturiscono",
+      "categoria": "verbo (scaturire)",
+      "zh": "产生；源自",
+      "en": "arise; stem",
+      "esempio": "Da questo processo scaturiscono raggi X, la cui origine, ossia la provenienza, era rimasta finora inspiegata."
+    },
+    {
+      "parola": "inspiegata",
+      "categoria": "aggettivo",
+      "zh": "无法解释的",
+      "en": "unexplained",
+      "esempio": "Da questo processo scaturiscono raggi X, la cui origine, ossia la provenienza, era rimasta finora inspiegata."
+    },
+    {
+      "parola": "firma luminosa",
+      "categoria": "locuzione nominale",
+      "zh": "光谱特征",
+      "en": "light signature",
+      "esempio": "Nel 1866 Angelo Secchi notò che qualcosa non quadrava nella firma luminosa di gamma-Cas."
+    },
+    {
+      "parola": "plasma",
+      "categoria": "nome maschile",
+      "zh": "等离子体",
+      "en": "plasma",
+      "esempio": "A metà degli anni Settanta, al primo mistero se ne aggiunse un altro: l'astro emetteva raggi X insoliti, dunque tutt'altro che ordinari, prodotti da un plasma capace di raggiungere i 150 milioni di gradi, con una luminosità 40 volte superiore al normale."
+    },
+    {
+      "parola": "risucchiava",
+      "categoria": "verbo (risucchiare)",
+      "zh": "吸走；吞噬",
+      "en": "to suck in",
+      "esempio": "la piccola compagna risucchiava materiale dal disco."
+    }
+  ]
+}

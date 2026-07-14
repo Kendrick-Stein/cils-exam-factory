@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Fai parte di un gruppo che promuove iniziative sostenibili nel tuo quartiere. Per il blog del gruppo, scrivi un articolo su un servizio di condivisione o di riuso che hai provato. Descrivi l’esperienza, valuta aspetti positivi e difficoltà e proponi un miglioramento.",
+    "W2_PROMPT": "Ti sei iscritto a un corso organizzato dal Comune, ma il primo incontro è stato annullato e non hai ricevuto altre informazioni. Scrivi un’email formale all’Ufficio Formazione.",
+    "W2_REQ_1": "spiegare a quale corso ti sei iscritto e che cosa è successo;",
+    "W2_REQ_2": "chiedere la nuova data e il luogo del primo incontro;",
+    "W2_REQ_3": "domandare se i materiali sono inclusi e come saranno comunicati gli aggiornamenti.",
+    "MODEL_W1": "Nel mio quartiere è nata da poco una biblioteca degli oggetti, dove si possono prendere in prestito trapani, tende da campeggio e piccoli elettrodomestici. Ho provato il servizio quando mi serviva una macchina da cucire per riparare uno zaino. La prenotazione online è stata semplice e, al ritiro, una volontaria mi ha mostrato come usare l’apparecchio in sicurezza. L’iniziativa mi sembra utile per due motivi: evita acquisti destinati a restare inutilizzati e permette di conoscere vicini con competenze diverse. Qualche aspetto, però, può migliorare. Gli orari di apertura sono limitati e il catalogo non indica sempre lo stato degli oggetti. Suggerirei quindi un’apertura serale e brevi recensioni degli utenti. Nel complesso, consiglio il servizio: condivide risorse, riduce gli sprechi e rende il quartiere più collaborativo.",
+    "MODEL_W1_PHRASES": "«Ho provato il servizio quando…»（我在……时体验了这项服务）; «L’iniziativa mi sembra utile per due motivi»（我认为这项举措有两个用处）; «Qualche aspetto, però, può migliorare»（不过，有些方面可以改进）; «Suggerirei quindi…»（因此我建议……）; «Nel complesso, consiglio…»（总的来说，我推荐……）",
+    "MODEL_W2": "Gentile Ufficio Formazione,\n\nmi sono iscritta al corso di orticoltura urbana del sabato e ho ricevuto la conferma. Avevo organizzato i miei impegni in base al calendario pubblicato. Tuttavia, il primo incontro del 18 luglio è stato annullato e non mi sono arrivate ulteriori comunicazioni. Potreste indicarmi la nuova data e il luogo dell’incontro? Vorrei inoltre sapere se gli attrezzi e i materiali sono compresi nella quota e se gli aggiornamenti saranno inviati via email.\n\nRingrazio anticipatamente per la risposta.\n\nCordiali saluti,\nElena Bianchi",
+    "MODEL_W2_PHRASES": "«Tuttavia…»（然而……）; «Potreste indicarmi…?»（您能否告知我……？）; «Vorrei inoltre sapere se…»（我还想知道是否……）; «Ringrazio anticipatamente per la risposta»（预先感谢您的回复）; «Cordiali saluti»（谨致问候）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "prendere in prestito",
+      "categoria": "locuzione verbale",
+      "zh": "借用",
+      "en": "to borrow",
+      "esempio": "Nel mio quartiere è nata da poco una biblioteca degli oggetti, dove si possono prendere in prestito trapani, tende da campeggio e piccoli elettrodomestici."
+    },
+    {
+      "parola": "restare inutilizzati",
+      "categoria": "locuzione verbale",
+      "zh": "闲置不用",
+      "en": "to remain unused",
+      "esempio": "L’iniziativa mi sembra utile per due motivi: evita acquisti destinati a restare inutilizzati e permette di conoscere vicini con competenze diverse."
+    },
+    {
+      "parola": "riduce gli sprechi",
+      "categoria": "locuzione verbale",
+      "zh": "减少浪费",
+      "en": "reduces waste",
+      "esempio": "Nel complesso, consiglio il servizio: condivide risorse, riduce gli sprechi e rende il quartiere più collaborativo."
+    },
+    {
+      "parola": "ulteriori comunicazioni",
+      "categoria": "locuzione nominale",
+      "zh": "后续通知",
+      "en": "further communications",
+      "esempio": "Tuttavia, il primo incontro del 18 luglio è stato annullato e non mi sono arrivate ulteriori comunicazioni."
+    },
+    {
+      "parola": "compresi nella quota",
+      "categoria": "locuzione aggettivale",
+      "zh": "包含在费用中",
+      "en": "included in the fee",
+      "esempio": "Vorrei inoltre sapere se gli attrezzi e i materiali sono compresi nella quota e se gli aggiornamenti saranno inviati via email."
+    }
+  ]
+}

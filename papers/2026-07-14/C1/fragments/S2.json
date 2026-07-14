@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "IL NOME DELLA ROSA BIANCA",
+    "S2_TEXT_WITH_GAPS": "**Perché questo nome?**\n\nOggi Ghezzi *(considerare)* __considera (0)__ la scelta fortemente evocativa. Benché oggi ne sappiamo quasi tutto, quel nome continua a *(rimanere)* __(1)__ un mistero. Oggi possiamo *(ricostruire)* __(2)__ dettagli, ma nessuno è finora riuscito a *(trovare)* __(3)__ una spiegazione definitiva.\n\nFu durante l'interrogatorio della Gestapo che Hans Scholl *(dare)* __(4)__ una risposta vaga; fu allora che *(affermare)* __(5)__ di essere stato influenzato dai romanzi spagnoli. Ghezzi prosegue *(citare)* __(6)__ Brentano e un personaggio dal nome simile. Fu la vaghezza della risposta che *(rendere)* __(7)__ la spiegazione poco convincente. Fino a oggi parecchie ipotesi *(avanzare)* __(8)__, ma nessuna oggi può *(dirsi)* __(9)__ soddisfacente.\n\nAncora oggi Ghezzi *(propendere)* __(10)__ per l'idea che si sia trattato di un'intuizione comunicativa. Ghezzi lo spiega affinché il lettore *(cogliere)* __(11)__ il valore politico. La familiarità di Scholl con i gruppi giovanili può *(spiegare)* __(12)__ la scelta dell'emblema, che ancora oggi *(ritrovarsi)* __(13)__ sia in Lutero sia in quei gruppi. Una volta *(concepire)* __(14)__ grazie a tale familiarità, l'intuizione serviva a *(unire)* __(15)__ la purezza degli ideali alle spine della rosa.\n\nFu nel 1943 che gli ultimi due volantini *(abbandonare)* __(16)__ quella titolazione. I primi quattro, una volta *(pubblicare)* __(17)__ l'anno precedente, portavano quel nome. Una volta *(confrontare)* __(18)__ con i simboli, l'idea di resistenza risultava prioritaria. Il nucleo è descritto come *(comporre)* __(19)__ da cinque studenti universitari e dal professore Kurt Huber. Il dato sull'età serve a *(completare)* __(20)__ il quadro: quarantanove anni."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | rimanere | infinito presente | 11 | colga | congiuntivo presente |\n| 2 | ricostruire | infinito presente | 12 | spiegare | infinito presente |\n| 3 | trovare | infinito presente | 13 | si ritrova | indicativo presente |\n| 4 | diede | passato remoto | 14 | concepita | participio passato |\n| 5 | affermò | passato remoto | 15 | unire | infinito presente |\n| 6 | citando | gerundio presente | 16 | abbandonarono | passato remoto |\n| 7 | rese | passato remoto | 17 | pubblicati | participio passato |\n| 8 | sono state avanzate | indicativo passato prossimo passivo | 18 | confrontata | participio passato |\n| 9 | dirsi | infinito presente pronominale | 19 | composto | participio passato |\n| 10 | propende | indicativo presente | 20 | completare | infinito presente |",
+    "ANS_S2_NOTES": "- **S2.1–S2.3:** «continua a», «possiamo» e «è ... riuscito a» reggono direttamente l'infinito. 中文：三个固定支配结构排除了时态竞争。\n- **S2.4–S2.7:** le cleft «Fu ... che» impongono *diede*, *affermò* e *rese* al passato remoto; «prosegue» seleziona il gerundio *citando*. 中文：强调句锁定远过去时，prosegue + gerundio 锁定同时进行的方式。\n- **S2.8–S2.11:** «Fino a oggi» impone il passato prossimo passivo *sono state avanzate*; «può» regge *dirsi*; «Ancora oggi» impone *propende* e «affinché» richiede *colga*. 中文：截至今天、情态动词和目的连词分别锁定形式。\n- **S2.12–S2.15:** «può» e «serviva a» reggono gli infiniti; «ancora oggi» con soggetto singolare impone *si ritrova*; «Una volta» e l'accordo con «l'intuizione» impongono *concepita*. 中文：第14空由固定框架和阴性单数一致关系双重限定。\n- **S2.16–S2.20:** «Fu nel 1943 che» impone *abbandonarono*; «una volta» forza *pubblicati* e *confrontata* con accordi espliciti; «descritto come» forza *composto*; «serve ... a» regge *completare*. 中文：后三个非限定形式不依赖体貌或先后关系判断。"
+  },
+  "key": {
+    "S2.1": "rimanere",
+    "S2.2": "ricostruire",
+    "S2.3": "trovare",
+    "S2.4": "diede",
+    "S2.5": "affermò",
+    "S2.6": "citando",
+    "S2.7": "rese",
+    "S2.8": "sono state avanzate",
+    "S2.9": "dirsi",
+    "S2.10": "propende",
+    "S2.11": "colga",
+    "S2.12": "spiegare",
+    "S2.13": "si ritrova",
+    "S2.14": "concepita",
+    "S2.15": "unire",
+    "S2.16": "abbandonarono",
+    "S2.17": "pubblicati",
+    "S2.18": "confrontata",
+    "S2.19": "composto",
+    "S2.20": "completare"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fortemente evocativa",
+      "categoria": "locuzione aggettivale",
+      "zh": "极具唤起力的",
+      "en": "highly evocative",
+      "esempio": "Oggi Ghezzi considera la scelta fortemente evocativa."
+    },
+    {
+      "parola": "spiegazione definitiva",
+      "categoria": "locuzione nominale",
+      "zh": "定论；最终解释",
+      "en": "definitive explanation",
+      "esempio": "Nessuno è finora riuscito a trovare una spiegazione definitiva."
+    },
+    {
+      "parola": "intuizione comunicativa",
+      "categoria": "locuzione nominale",
+      "zh": "传播上的巧思",
+      "en": "communicative insight",
+      "esempio": "Ancora oggi Ghezzi propende per l'idea che si sia trattato di un'intuizione comunicativa."
+    },
+    {
+      "parola": "familiarità",
+      "categoria": "nome femminile",
+      "zh": "熟悉；熟知",
+      "en": "familiarity",
+      "esempio": "Una volta concepita grazie a tale familiarità, l'intuizione univa la purezza degli ideali alle spine della rosa."
+    },
+    {
+      "parola": "nucleo centrale",
+      "categoria": "locuzione nominale",
+      "zh": "核心成员；核心部分",
+      "en": "core group",
+      "esempio": "Il nucleo è descritto come composto da cinque studenti universitari e dal professore Kurt Huber."
+    }
+  ]
+}

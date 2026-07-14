@@ -1,0 +1,183 @@
+exam: cils
+level: C1
+session: '2026-07-14'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.wired.it/article/corsa-quantistica-italia-inciampa-prima-di-partire-quantum-strategia-nazionale/
+  title: La corsa quantistica dell’Italia inciampa prima di partire. Quantum manca
+    alla strategia nazionale per competere davvero
+  publisher: Wired Italia
+  published: '2026-05-04'
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 606
+- id: T2
+  url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=6a02eaa558e8490097e0637d
+  title: Bando migliorie MAG.-GIU 2026
+  publisher: Comune di Bologna
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 558
+- id: T3
+  url: https://it.wikisource.org/wiki/Una_giornata
+  title: Una giornata
+  publisher: Wikisource (testo di Luigi Pirandello, 1935)
+  accessed: '2026-07-14'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 473
+- id: T4
+  url: https://www.doppiozero.com/emanuele-coccia-e-lamore-moderno
+  title: Emanuele Coccia e l’amore moderno
+  publisher: doppiozero
+  published: '2026-05-21'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 277
+- id: T5
+  url: https://www.rainews.it/articoli/2023/04/la-rosa-bianca-non-vi-dara-pace-intervista-a-paolo-ghezzi--088e6580-dfec-49d6-a04c-ec97080c9c2c.html
+  title: “La Rosa Bianca non vi darà pace”. Intervista a Paolo Ghezzi
+  publisher: RaiNews
+  published: '2023-04-22'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 280
+- id: T6
+  url: https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/03/24/risolto-grazie-un-mistero-stellare-vecchio-di-50-anni-_4f9a1834-ea1d-4843-acfc-888daf520b2d.html
+  title: Risolto un mistero stellare vecchio di 50 anni
+  publisher: ANSA
+  published: '2026-03-24'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 237
+- id: T7
+  url: https://servizi.comune.milano.it/documents/20121/363121948/AVVISO_PUBBLICO_premio_Milano_Donna_2026_timbrato.pdf/affcdaeb-eb68-baac-c8ec-dd63b5c9b129?t=1782413091284
+  title: Avviso pubblico Premio Milano Donna 2026
+  publisher: Comune di Milano, Municipio 4
+  published: '2026-06-25'
+  accessed: '2026-07-14'
+  used_in: Analisi delle strutture, Prova n. 4
+  adapted: true
+  words_used: 143
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-14'
+    executor: codex background task (corpus-hunter)
+    result: 7 slots covered, 7 source texts accepted
+  - stage: authoring
+    at: '2026-07-14'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: fragments assembled; format+quality pre-audit pass; 1 length-repair round
+      on structure texts, T7_TEXT added
+  - stage: blind_validation
+    at: '2026-07-14T09:46:03+00:00'
+    agreement: 72/83
+    flags: 5
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-14T09:56:49+00:00'
+    agreement: 81/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-14T10:07:18+00:00'
+    agreement: 83/83
+    flags: 3
+    result: fail
+  - stage: reconcile
+    at: '2026-07-14'
+    executor: fresh codex item-writer per prova + partial re-blind (codex exec low)
+    round: 1
+    fixed_items:
+    - L3
+    - S1.1
+    - S1.2
+    - S1.4
+    - S1.5
+    - S1.8
+    - S1.13
+    - S2.6
+    - S2.11
+    - S2.14
+    - S2.17
+    - S4.3
+    - S4.6
+    repaired_prove:
+    - L3
+    - S1
+    - S2
+    - S4
+  - stage: reconcile
+    at: '2026-07-14'
+    executor: fresh codex item-writer per prova + partial re-blind (codex exec low)
+    round: 2
+    fixed_items:
+    - S1.20
+    - S2.17
+    - S2.11
+    repaired_prove:
+    - S1
+    - S2
+  - stage: reconcile
+    at: '2026-07-14'
+    result: S2 flags persist after 2 repair rounds (S2.6, S2.11, S2.19 marginal tense/congiuntivo
+      contrasts); level stays draft
+  - stage: format_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:08:44+00:00'
+    result: fail
+    issues: 1
+  - stage: blind_validation
+    at: '2026-07-14T10:50:06+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-14'
+    round: 3
+    executor: fresh codex item-writer (high) + partial re-blind (codex exec low)
+    fixed_items:
+    - S2.6
+    - S2.11
+    - S2.19
+    result: 'user-directed extra round: flaggable tense/congiuntivo contrasts removed
+      as gap targets; 83/83, 0 flags'
+  - stage: quality_repair
+    at: '2026-07-14'
+    result: S1 surgical trim to band (gap sentences untouched, keys frozen); S1+S2
+      re-blinded together
+  - stage: format_audit
+    at: '2026-07-14T10:50:26+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-14T10:50:26+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

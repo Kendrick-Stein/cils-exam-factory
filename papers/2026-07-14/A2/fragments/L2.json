@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "INSALATA ESTIVA CON FRUTTA E MOZZARELLINE",
+    "T2_TEXT": "L'insalata estiva con frutta e mozzarelline ha colori e sapori tipici della stagione calda. Le albicocche, morbide e leggermente acidule, si uniscono ai fichi zuccherini e agli acini d'uva succosi. La rucola riduce la dolcezza con il suo gusto piccante, mentre le mozzarelline aggiungono un tocco fresco e saporito. Una citronette profumata avvolge tutti gli ingredienti. Potete variare gli ingredienti per creare nuove combinazioni per le vostre insalate estive.\n\nPer preparare l'insalata, prima lavate la frutta e la verdura. Tagliate a spicchi i fichi. Dividete a metà le albicocche ed eliminate il nocciolo. Poi riducete a spicchi anche le albicocche. Fate lo stesso con i pomodori e gli acini d'uva.\n\nRaccogliete tutta la frutta in una ciotola capiente; unite anche la rucola e le mozzarelline. Ora preparate la citronette: in un'altra ciotola unite il succo di limone. Salate, pepate e versate anche l'olio di oliva. Infine mescolate bene per emulsionare la citronette.",
+    "L2_ITEMS": "1. L'insalata contiene frutta e mozzarelline.  \n   Vero ○ Falso ○\n\n2. La rucola ha un gusto dolce.  \n   Vero ○ Falso ○\n\n3. Le mozzarelline danno all'insalata un tocco fresco.  \n   Vero ○ Falso ○\n\n4. La ricetta consiglia di usare sempre gli stessi ingredienti.  \n   Vero ○ Falso ○\n\n5. Prima bisogna tagliare la frutta e poi lavarla.  \n   Vero ○ Falso ○\n\n6. È necessario togliere il nocciolo dalle albicocche.  \n   Vero ○ Falso ○\n\n7. Nella ciotola capiente si mette soltanto la frutta.  \n   Vero ○ Falso ○\n\n8. Per la citronette si usano succo di limone e olio di oliva.  \n   Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo presenta «l'insalata estiva con frutta e mozzarelline». 中文：两类食材都明确出现。 |\n| L2.2 | Falso | La rucola ha «il suo gusto piccante», non dolce. 中文：不要把沙拉整体的甜味和芝麻菜的味道混淆。 |\n| L2.3 | Vero | Le mozzarelline «aggiungono un tocco fresco e saporito». 中文：fresco 直接对应题干。 |\n| L2.4 | Falso | Il testo invita: «Potete variare gli ingredienti». 中文：不是始终使用相同食材。 |\n| L2.5 | Falso | L'ordine è «prima lavate» e poi «Tagliate». 中文：题干把操作顺序颠倒了。 |\n| L2.6 | Vero | Per le albicocche bisogna «eliminate il nocciolo». 中文：nocciolo 指果核。 |\n| L2.7 | Falso | Alla frutta si uniscono «anche la rucola e le mozzarelline». 中文：soltanto 与原文矛盾。 |\n| L2.8 | Vero | Per la citronette si uniscono «il succo di limone» e «l'olio di oliva». 中文：两种材料都在步骤中明确列出。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "leggermente acidule",
+      "categoria": "espressione aggettivale",
+      "zh": "微酸的",
+      "en": "slightly tart",
+      "esempio": "Le albicocche, morbide e leggermente acidule, si uniscono ai fichi zuccherini e agli acini d'uva succosi."
+    },
+    {
+      "parola": "spicchi",
+      "categoria": "nome maschile plurale",
+      "zh": "瓣；楔形小块",
+      "en": "wedges",
+      "esempio": "Tagliate a spicchi i fichi."
+    },
+    {
+      "parola": "nocciolo",
+      "categoria": "nome maschile",
+      "zh": "果核",
+      "en": "stone",
+      "esempio": "Dividete a metà le albicocche ed eliminate il nocciolo."
+    },
+    {
+      "parola": "ciotola capiente",
+      "categoria": "espressione nominale",
+      "zh": "大容量的碗",
+      "en": "large bowl",
+      "esempio": "Raccogliete tutta la frutta in una ciotola capiente; unite anche la rucola e le mozzarelline."
+    },
+    {
+      "parola": "emulsionare",
+      "categoria": "verbo",
+      "zh": "乳化；搅拌均匀",
+      "en": "to emulsify",
+      "esempio": "Infine mescolate bene per emulsionare la citronette."
+    }
+  ]
+}

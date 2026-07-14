@@ -1,0 +1,63 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi Claudio Baglioni *(raccontare)* __racconta (0)__ il suo legame con Torino.\n\n**Perché Torino è importante per lei?**\n\n«Finora *(fare)* __(1)__ molti debutti a Torino, a partire dalla Rai nel 1972. Finora la città *(ospitare)* __(2)__ molti debutti. Nel prossimo Grand Tour questo *(essere)* __(3)__ l'ultimo giro. Alla fine *(chiudere)* __(4)__ qui».\n\n**E questo legame?**\n\n«Oggi *(sentire)* __(5)__ l'affetto. Nei concerti di allora, ogni volta che salivo sul palco, *(percepire)* __(6)__ emozioni. In quegli anni, mentre vivevo qui, *(passare)* __(7)__ molto tempo a Torino e allora *(trovarsi)* __(8)__ sempre bene. Finora *(avere)* __(9)__ avventure meno fortunate; adesso il legame mi *(portare)* __(10)__ al finale».\n\n**Se dovesse descriverla, cosa *(dire)* __(11)__?**\n\n«Oggi Torino *(essere)* __(12)__ unica e *(avere)* __(13)__ racconti dentro».\n\n**E il prossimo spettacolo?**\n\n«Nel prossimo spettacolo *(succedere)* __(14)__ una novità: per la prima volta *(cantare)* __(15)__ tutti i brani di *La vita adesso*. Oggi questo *(essere)* __(16)__ un album record: fino a oggi *(vendere)* __(17)__ quattro milioni e mezzo di copie in Italia».\n\n**E il primo palco?**\n\n«Sessant'anni fa, mentre aspettavo di esibirmi a Roma, *(essere)* __(18)__ convinto che non sarebbe successo niente. Invece, da quel giorno fino a oggi, tutto *(succedere)* __(19)__. Oggi Torino *(restare)* __(20)__ speciale».",
+    "T5_TITLE": "CLAUDIO BAGLIONI: TORINO, CITTÀ DEGLI INIZI E DEL GRAN FINALE"
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | ho fatto | pass. prossimo | 11 | direbbe | condizionale |\n| 2 | ha ospitato | pass. prossimo | 12 | è | presente |\n| 3 | sarà | futuro | 13 | ha | presente |\n| 4 | chiuderò | futuro | 14 | succederà | futuro |\n| 5 | sento | presente | 15 | canterò | futuro |\n| 6 | percepivo | imperfetto | 16 | è | presente |\n| 7 | passavo | imperfetto | 17 | ha venduto | pass. prossimo |\n| 8 | mi trovavo | imperfetto | 18 | ero | imperfetto |\n| 9 | ho avuto | pass. prossimo | 19 | è successo | pass. prossimo |\n| 10 | porta | presente | 20 | resta | presente |",
+    "ANS_S2_NOTES": "**Note (中文):**\n- (1) *ho fatto*: «Fino a oggi» collega direttamente i debutti al presente; (2) *ha ospitato*: «Finora» lo collega al presente. “截至今日/至今”直接锁定近过去时，1972 只是其中一次经历的时间。\n- (3) *sarà* e (4) *chiuderò*: «Nel prossimo Grand Tour» e «Alla fine» indicano il futuro. 下一次巡演及其结束时间锁定将来时。\n- (5) *sento*: «Oggi» impone il presente. “今天”锁定现在时。\n- (6) *percepivo*: «nei concerti di allora, ogni volta che» segnala una ripetizione; (7) *passavo*: «In quegli anni, mentre» segnala un'abitudine; (8) *mi trovavo*: «allora... sempre» indica uno stato ripetuto e il clitico è dentro la forma. 过去反复行为锁定未完成过去时，反身代词完整写入答案。\n- (9) *ho avuto*: «Finora» impone il passato prossimo; (10) *porta*: «adesso» impone il presente. “至今/现在”区分近过去时与现在时。\n- (11) *direbbe*: «Se dovesse descriverla» forza il condizionale. 假设条件锁定条件式。\n- (12) *è* e (13) *ha*: «Oggi Torino» presenta caratteristiche attuali. “今天”锁定现在时。\n- (14) *succederà* e (15) *canterò*: «Nel prossimo spettacolo» impone il futuro. “下一场演出”锁定将来时。\n- (16) *è*: «Oggi questo» indica lo stato attuale; (17) *ha venduto*: «fino a oggi» impone il passato prossimo. 当前状态与截至今日的累计结果区分清楚。\n- (18) *ero*: «Sessant'anni fa, mentre aspettavo» indica uno stato in corso; (19) *è successo*: «da quel giorno fino a oggi» lo collega al presente; (20) *resta*: «Oggi» impone il presente. “当时正在/从那天至今/今天”分别锁定未完成过去时、近过去时和现在时。"
+  },
+  "key": {
+    "S2.1": "ho fatto",
+    "S2.2": "ha ospitato",
+    "S2.3": "sarà",
+    "S2.4": "chiuderò",
+    "S2.5": "sento",
+    "S2.6": "percepivo",
+    "S2.7": "passavo",
+    "S2.8": "mi trovavo",
+    "S2.9": "ho avuto",
+    "S2.10": "porta",
+    "S2.11": "direbbe",
+    "S2.12": "è",
+    "S2.13": "ha",
+    "S2.14": "succederà",
+    "S2.15": "canterò",
+    "S2.16": "è",
+    "S2.17": "ha venduto",
+    "S2.18": "ero",
+    "S2.19": "è successo",
+    "S2.20": "resta"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "debutti",
+      "categoria": "nome maschile plurale",
+      "zh": "首次登台；初次亮相",
+      "en": "debuts",
+      "esempio": "Finora la città ha ospitato molti debutti."
+    },
+    {
+      "parola": "palco",
+      "categoria": "nome maschile",
+      "zh": "舞台",
+      "en": "stage",
+      "esempio": "Ogni volta che salivo sul palco, percepivo emozioni."
+    },
+    {
+      "parola": "legame",
+      "categoria": "nome maschile",
+      "zh": "联系；情感纽带",
+      "en": "bond",
+      "esempio": "Adesso il legame mi porta al finale."
+    },
+    {
+      "parola": "brani",
+      "categoria": "nome maschile plurale",
+      "zh": "曲目；作品片段",
+      "en": "songs; pieces",
+      "esempio": "Per la prima volta canterò tutti i brani di La vita adesso."
+    }
+  ]
+}

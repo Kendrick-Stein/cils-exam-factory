@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "PASTA ALL'ARRABBIATA",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ pasta all'arrabbiata è una preparazione della cucina italiana. __(1)__ piatto è semplice e veloce. Ognuno cambia __(2)__ grado di piccantezza secondo __(3)__ gusti. __(4)__ sugo si prepara mentre __(5)__ pasta cuoce. Mettete sul fuoco una pentola con tre litri d'acqua e portatela a bollore. __(6)__ sugo e __(7)__ pasta cuociono insieme. Ognuno prepara __(8)__ ricetta e adegua __(9)__ piccantezza secondo __(10)__ gusti."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | il | S1.6 | il |\n| S1.2 | il | S1.7 | la |\n| S1.3 | i | S1.8 | la |\n| S1.4 | il | S1.9 | la |\n| S1.5 | la | S1.10 | i |",
+    "ANS_S1_NOTES": "**Note.** Le forme dipendono dal genere e dal numero dei nomi: «il piatto», «il grado», «i propri gusti», «il sugo», «la pasta», «la ricetta», «la piccantezza», «i gusti personali». 中文提示：每个空格后的名词都明确标示阴阳性与单复数，因此定冠词形式唯一。"
+  },
+  "key": {
+    "S1.1": "il",
+    "S1.2": "il",
+    "S1.3": "i",
+    "S1.4": "il",
+    "S1.5": "la",
+    "S1.6": "il",
+    "S1.7": "la",
+    "S1.8": "la",
+    "S1.9": "la",
+    "S1.10": "i"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "piccantezza",
+      "categoria": "nome femminile",
+      "zh": "辣度",
+      "en": "spiciness",
+      "esempio": "Ognuno cambia il grado di piccantezza secondo i gusti."
+    },
+    {
+      "parola": "pentola",
+      "categoria": "espressione nominale",
+      "zh": "锅",
+      "en": "pot",
+      "esempio": "Mettete sul fuoco una pentola con tre litri d'acqua e portatela a bollore."
+    },
+    {
+      "parola": "a bollore",
+      "categoria": "espressione",
+      "zh": "至沸腾",
+      "en": "to the boil",
+      "esempio": "Mettete sul fuoco una pentola con tre litri d'acqua e portatela a bollore."
+    },
+    {
+      "parola": "sugo",
+      "categoria": "nome maschile",
+      "zh": "酱汁",
+      "en": "sauce",
+      "esempio": "Il sugo si prepara mentre la pasta cuoce."
+    },
+    {
+      "parola": "cuociono insieme",
+      "categoria": "espressione avverbiale",
+      "zh": "一起煮",
+      "en": "cook together",
+      "esempio": "Il sugo e la pasta cuociono insieme."
+    }
+  ]
+}

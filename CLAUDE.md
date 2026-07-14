@@ -13,10 +13,11 @@ Codex users can invoke the same factory as `Make Paper` / `genpapers`; that entr
 
 User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, builds and publishes; heavy stages run on Codex** when cost or Claude subagent limits matter.
 
-- Stage task (S1/S2/S4/S5): `node "$(ls -d ~/.claude/plugins/cache/openai-codex/codex/*/scripts/codex-companion.mjs | tail -1)" task --background --write "<stage prompt>"` → poll `status <job-id>`, fetch `result <job-id>`.
-- S3 blind validation: fresh `codex exec --sandbox read-only` on an isolated `/tmp/cils-blind-<session>-<level>/paper.md` copy (independent model AND context).
-- Authoring tasks must also emit `key.json` (machine-readable answer key) so reconcile is a local JSON diff, not an LLM pass.
-- Claude subagents (`.claude/agents/*`) remain an alternative executor when the user explicitly asks for them.
+- **Unit of work = one prova** (user directive 2026-07-13): authoring/repair tasks each cover a single prova (input: one text + prova spec → output: one fragment JSON); `scripts/assemble_paper.py` assembles fragments into `paper.md`/`answers.md`/`key.json` locally — no LLM ever emits template skeleton text.
+- **Executor tiering** (same directive — don't send everything to the strongest executor): local scripts for assembly/audits/reconcile; cheap models (Codex low / Sonnet) for blind solving and corpus; strong models (Codex high / Opus) only for hard B2/C1 prove and 2nd-round repairs. Matrix in `.claude/skills/genpapers/SKILL.md`.
+- Stage task dispatch to Codex: `node "$(ls -d ~/.claude/plugins/cache/openai-codex/codex/*/scripts/codex-companion.mjs | tail -1)" task --background --write "<prova prompt>"` → poll `status <job-id>`, fetch `result <job-id>`.
+- S3 blind validation: fresh `codex exec --sandbox read-only` (or a fresh Sonnet blind-solver) on an isolated `/tmp/cils-blind-…/paper.md` copy — whole paper or `--prova` extract; repairs re-validate only the affected prove via `blind_validation.py merge-output`.
+- Repairs always use a FRESH agent per prova — never resume the original authoring agent (transcript replay dominates cost).
 
 ## Map
 
@@ -29,6 +30,7 @@ User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, bu
 | `factory/exams/cils/style-guide.md` | Layout & wording conventions from the real papers |
 | `factory/corpus/sources.yaml`, `cefr-criteria.md` | Where texts come from; how CEFR level is graded |
 | `factory/validation/checklist.md` | Quality gates |
+| `scripts/assemble_paper.py` | Merges per-prova `fragments/*.json` into `paper.md` + `answers.md` + `key.json` (no LLM) |
 | `scripts/format_audit.py` | Deterministic paper-format, section-order, leakage and key-file audit |
 | `scripts/paper_quality_audit.py` | Deterministic official-style, difficulty, length and cross-level reuse audit |
 | `scripts/build_site.py` | `papers/` → `docs/` (HTML + PDF + index); `docs/` is the GitHub Pages root |
