@@ -30,6 +30,18 @@ LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1"]
 MARKDOWN_EXTENSIONS = ["tables", "attr_list", "md_in_html", "sane_lists"]
 SAFE_LEVEL_RE = re.compile(r"^[A-Za-z0-9_-]+$")
 SESSION_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})(?:-r([1-9]\d*))?$")
+# answers.md ends with a pointer to the manifest; the rendered page replaces it
+# with the actual source list, so the pointer paragraph is dropped.
+FONTI_POINTER_RE = re.compile(r"<p><em>Fonti dei testi:[^<]*</em></p>\s*")
+ISO_DATE_RE = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
+# Manifests annotate publishers with internal corpus-selection notes
+# ("(whitelist: …)", "— off-whitelist: …", "; fonte whitelisted"); those are
+# pipeline provenance, not attribution, and stay out of the published credits.
+PUBLISHER_NOTE_RES = [
+    re.compile(r"\s*\([^()]*whitelist[^()]*\)", re.IGNORECASE),
+    re.compile(r"\s*[—–-]\s*off-whitelist:.*$", re.IGNORECASE),
+    re.compile(r"[;,]\s*fonte whitelisted\s*$", re.IGNORECASE),
+]
 
 
 class BuildError(Exception):
@@ -62,9 +74,13 @@ class PdfPrinter:
         self.force = force
         self._warned_missing = False
 
-    def render(self, html_path: Path, pdf_path: Path, source_md: Path) -> None:
+    def render(self, html_path: Path, pdf_path: Path, source_paths: list[Path]) -> None:
         if pdf_path.exists() and not self.force:
-            if pdf_path.stat().st_mtime >= source_md.stat().st_mtime:
+            newest = max(
+                (path.stat().st_mtime for path in source_paths if path.exists()),
+                default=0.0,
+            )
+            if pdf_path.stat().st_mtime >= newest:
                 return
 
         if not CHROME.exists():
@@ -257,6 +273,84 @@ def render_markdown(path: Path) -> tuple[dict[str, Any], str]:
     return front_matter, rendered
 
 
+def format_date_it(value: str) -> str:
+    match = ISO_DATE_RE.fullmatch(value.strip())
+    if not match:
+        return value.strip()
+    year, month, day = match.groups()
+    return f"{day}/{month}/{year}"
+
+
+def normalize_used_in(value: str) -> str:
+    """Map the manifest's heterogeneous used_in values (labels, slugs like
+    'lettura.prova1', shorthands like 'L3.2' or 'S1') to the official label."""
+    text = value.strip()
+    lowered = text.lower()
+    if lowered.startswith(("comprensione", "lettura")) or re.match(r"l\d", lowered):
+        section = "Comprensione della lettura"
+    elif lowered.startswith(("analisi", "strutture")) or re.match(r"s\d", lowered):
+        section = "Analisi delle strutture"
+    else:
+        return text
+    match = re.search(r"\d+", text)
+    if not match:
+        return text
+    return f"{section}, Prova n. {match.group(0)}"
+
+
+def clean_credit(value: str) -> str:
+    text = value
+    for pattern in PUBLISHER_NOTE_RES:
+        text = pattern.sub("", text)
+    text = re.sub(r"\*([^*]+)\*", r"\1", text)
+    return re.sub(r"\s{2,}", " ", text).strip(" ,;")
+
+
+def used_in_labels(raw: Any) -> list[str]:
+    values = raw if isinstance(raw, list) else [raw]
+    labels: list[str] = []
+    for value in values:
+        if value is None:
+            continue
+        label = normalize_used_in(str(value))
+        if label and label not in labels:
+            labels.append(label)
+    return labels
+
+
+def render_fonti(paper: Paper) -> str:
+    sources = paper.manifest.get("sources")
+    if not isinstance(sources, list):
+        return ""
+
+    items: list[str] = []
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        detail_parts = [clean_credit(str(source.get(key) or "")) for key in ("title", "publisher")]
+        detail = html.escape(", ".join(part for part in detail_parts if part))
+        url = str(source.get("url") or "").strip()
+        if url:
+            detail += f', <a href="{html.escape(url, quote=True)}" rel="noopener">{html.escape(url)}</a>'
+        accessed = format_date_it(str(source.get("accessed") or ""))
+        if accessed:
+            detail += f", consultato il {html.escape(accessed)}"
+        labels = "; ".join(used_in_labels(source.get("used_in")))
+        prova = f"<strong>{html.escape(labels)}</strong> — " if labels else ""
+        items.append(f"  <li>{prova}Testo adattato da: {detail}</li>")
+
+    if not items:
+        return ""
+    joined = "\n".join(items)
+    return f"""<section class="fonti">
+<h2>Fonti dei testi</h2>
+<p>Ogni testo del fascicolo è l'adattamento di un testo italiano autentico e pubblicato. Tagli e semplificazioni sono documentati nel manifest della sessione; i diritti sui testi originali restano ai rispettivi autori.</p>
+<ol>
+{joined}
+</ol>
+</section>"""
+
+
 def render_page(path: Path, paper: Paper, kind: str) -> str:
     front_matter, content = render_markdown(path)
     level = str(front_matter.get("level") or paper.level)
@@ -276,6 +370,12 @@ def render_page(path: Path, paper: Paper, kind: str) -> str:
             marker = content.find("<h1>", 1)
         if marker != -1:
             content = f'<section class="cover">\n{content[:marker]}</section>\n{content[marker:]}'
+
+    if kind == "answers":
+        fonti = render_fonti(paper)
+        if fonti:
+            content = FONTI_POINTER_RE.sub("", content)
+            content = f"{content}\n{fonti}"
 
     return f"""<!doctype html>
 <html lang="it">
@@ -337,7 +437,7 @@ def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | 
         # next to the PDF so relative asset links resolve) and md stays in papers/.
         html_target.write_text(render_page(md_source, paper, kind), encoding="utf-8")
         if pdf_printer is not None:
-            pdf_printer.render(html_target, pdf_target, md_source)
+            pdf_printer.render(html_target, pdf_target, [md_source, paper.root / "manifest.yaml"])
         html_target.unlink(missing_ok=True)
         (out_dir / f"{kind}.md").unlink(missing_ok=True)
 
