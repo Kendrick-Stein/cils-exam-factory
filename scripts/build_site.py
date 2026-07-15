@@ -267,6 +267,16 @@ def render_page(path: Path, paper: Paper, kind: str) -> str:
     counterpart_label = "Apri chiavi" if kind == "paper" else "Apri fascicolo"
     counterpart_href = "answers.html" if kind == "paper" else "paper.html"
 
+    if kind == "paper":
+        # Wrap the booklet cover (everything before the answer-sheet example,
+        # or before the first test for pre-2026-07-08-r2 papers without one)
+        # so print styles can render it as a full standalone cover page.
+        marker = content.find("<h2>ESEMPIO DI FOGLIO")
+        if marker == -1:
+            marker = content.find("<h1>", 1)
+        if marker != -1:
+            content = f'<section class="cover">\n{content[:marker]}</section>\n{content[marker:]}'
+
     return f"""<!doctype html>
 <html lang="it">
 <head>
@@ -275,7 +285,7 @@ def render_page(path: Path, paper: Paper, kind: str) -> str:
   <title>{html.escape(title)}</title>
   <link rel="stylesheet" href="../../../assets/paper.css">
 </head>
-<body>
+<body class="kind-{html.escape(kind, quote=True)}">
   <header class="paper-header">
     <div class="paper-header-inner">
       <div>

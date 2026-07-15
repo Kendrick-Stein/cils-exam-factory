@@ -12,7 +12,20 @@
 
 @page {
   size: A4;
-  margin: 1.6cm 1.7cm;
+  margin: 1.7cm 1.8cm 2cm;
+
+  @bottom-center {
+    content: "— " counter(page) " —";
+    color: #444444;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 9pt;
+  }
+}
+
+@page :first {
+  @bottom-center {
+    content: none;
+  }
 }
 
 * {
@@ -292,46 +305,33 @@ em {
   }
 
   body {
-    font-size: 10.8pt;
-    line-height: 1.42;
+    color: #000000;
+    font-size: 10.5pt;
+    line-height: 1.4;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
 
-  .paper-header,
+  /* The web chrome disappears entirely: the booklet cover carries the metadata. */
+  .paper-header {
+    display: none;
+  }
+
   .paper-footer,
   .paper {
     width: auto;
     max-width: none;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
     border: 0;
     box-shadow: none;
   }
 
-  .paper-header {
-    padding-top: 0;
-    border-bottom: 1.5pt solid #000;
-  }
-
-  .paper-header-inner {
-    padding: 0 0 0.35rem;
-    border: 0;
-    border-radius: 0;
-  }
-
-  .paper-actions {
-    display: none;
-  }
-
-  .paper {
-    padding-top: 0.75rem;
-    padding-bottom: 0;
-  }
-
   .paper-footer {
-    padding-top: 0.6rem;
-    padding-bottom: 0;
+    margin-top: 0.9rem;
+    padding-top: 0.5rem;
+    border-top: 0.6pt solid #000;
+    color: #333333;
+    font-size: 8pt;
   }
 
   a {
@@ -339,13 +339,137 @@ em {
     text-decoration: none;
   }
 
-  h1 {
-    break-before: page;
-    margin-top: 1.3rem;
+  /* ---- Cover page (fascicolo): formal, centered, fills page 1 ---- */
+  .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 24.6cm;
+    break-after: page;
+    text-align: center;
   }
 
-  .paper > h1:first-child {
+  .cover h1 {
+    margin: 0;
+    padding: 0.9rem 0;
+    border-top: 2.5pt double #000;
+    border-bottom: 2.5pt double #000;
     break-before: auto;
+    font-size: 17pt;
+    font-weight: 900;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+
+  .cover h2 {
+    margin: 2.2rem 0 0;
+    padding: 0;
+    border: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14pt;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+  }
+
+  .cover h3 {
+    margin: 2.6rem 0 0;
+    color: #000000;
+    font-size: 12.5pt;
+    font-weight: 850;
+  }
+
+  .cover blockquote {
+    margin: auto 1.4cm 0;
+    padding: 0.6rem 0.8rem;
+    border: 0.75pt solid #000;
+    border-radius: 0;
+    background: none;
+    font-size: 9pt;
+    text-align: left;
+  }
+
+  .cover hr {
+    display: none;
+  }
+
+  /* First section heading flows on (page 2 after the cover / top of the
+     chiavi document) instead of forcing a nearly blank page. */
+  .paper > h1:first-of-type {
+    margin-top: 0;
+    break-before: auto;
+  }
+
+  /* ---- Official black & white content styling ---- */
+  h1 {
+    break-before: page;
+    margin-top: 0;
+    padding: 0.4rem 0;
+    border-top: 2pt solid #000;
+    border-bottom: 0.75pt solid #000;
+    font-size: 13.5pt;
+  }
+
+  h2 {
+    border-bottom: 0.75pt solid #000;
+    font-size: 11.5pt;
+  }
+
+  h3 {
+    color: #000000;
+    font-size: 11pt;
+  }
+
+  /* Reading/structure text titles are centred like official quaderni. */
+  .kind-paper .paper h3 {
+    margin: 1.1rem 0 0.5rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .kind-paper .paper .cover h3 {
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  blockquote {
+    padding: 0.5rem 0.7rem;
+    border: 0.75pt solid #000;
+    border-radius: 0;
+    background: none;
+    font-size: 9.5pt;
+  }
+
+  p {
+    margin: 0.34rem 0;
+  }
+
+  li {
+    margin: 0.3rem 0;
+  }
+
+  hr {
+    margin: 0.9rem 0;
+    border-top: 0.6pt solid #666666;
+  }
+
+  table {
+    font-size: 9.5pt;
+  }
+
+  th,
+  td {
+    padding: 0.3rem 0.42rem;
+    border: 0.6pt solid #000;
+  }
+
+  th {
+    background: #efefef;
+  }
+
+  em {
+    color: inherit;
   }
 
   h1,
@@ -355,9 +479,13 @@ em {
     break-after: avoid;
   }
 
-  li,
-  tr,
+  /* Long key tables may split across pages; individual rows stay intact. */
   table {
+    break-inside: auto;
+  }
+
+  li,
+  tr {
     break-inside: avoid;
   }
 }
