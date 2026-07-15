@@ -329,42 +329,24 @@ def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | 
 
     for kind in ("paper", "answers"):
         md_source = paper.root / f"{kind}.md"
-        md_target = out_dir / f"{kind}.md"
         html_target = out_dir / f"{kind}.html"
         pdf_target = out_dir / f"{kind}.pdf"
 
-        shutil.copy2(md_source, md_target)
+        # The site publishes PDFs only; HTML is a render intermediate (written
+        # next to the PDF so relative asset links resolve) and md stays in papers/.
         html_target.write_text(render_page(md_source, paper, kind), encoding="utf-8")
-
         if pdf_printer is not None:
             pdf_printer.render(html_target, pdf_target, md_source)
+        html_target.unlink(missing_ok=True)
+        (out_dir / f"{kind}.md").unlink(missing_ok=True)
 
 
-def artifact_link(out_root: Path, href: str, label: str, primary: bool = False) -> str:
-    if (out_root / href).exists():
-        classes = "download-button download-button-primary" if primary else "download-button"
-        return f'<a class="{classes}" href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
-    return ""
-
-
-def link_group(out_root: Path, base: str, stem: str, label: str) -> str:
-    candidates = [
-        (f"{base}/{stem}.pdf", "PDF"),
-        (f"{base}/{stem}.html", "HTML"),
-        (f"{base}/{stem}.md", "MD"),
-    ]
-    available = [(href, text) for href, text in candidates if (out_root / href).exists()]
-    links = [
-        artifact_link(out_root, href, text, primary=index == 0)
-        for index, (href, text) in enumerate(available)
-    ]
-    rendered_links = " ".join(link for link in links if link)
-    return (
-        f'<div class="download-group">'
-        f'<div class="download-label">{html.escape(label)}</div>'
-        f'<div class="download-links">{rendered_links}</div>'
-        "</div>"
-    )
+def pdf_button(out_root: Path, base: str, stem: str, label: str, primary: bool = False) -> str:
+    href = f"{base}/{stem}.pdf"
+    if not (out_root / href).exists():
+        return ""
+    classes = "action-button action-button-primary" if primary else "action-button"
+    return f'<a class="{classes}" href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
 
 
 def render_index(papers: list[Paper], out_root: Path) -> str:
@@ -401,9 +383,9 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
             <p>{paper.source_count} testi autentici verificati</p>
           </div>
         </div>
-        <div class="level-row-downloads">
-          {link_group(out_root, base, "paper", "Fascicolo")}
-          {link_group(out_root, base, "answers", "Chiavi e commenti")}
+        <div class="level-row-actions">
+          {pdf_button(out_root, base, "paper", "Fascicolo", primary=True)}
+          {pdf_button(out_root, base, "answers", "Chiavi e commenti")}
         </div>
       </article>"""
             )
