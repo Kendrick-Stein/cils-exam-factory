@@ -65,7 +65,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - **Manifest:** append `{stage: quality_audit, result, issues}`; keep `quality.audit_result: pass`. Only after blind validation, format audit and quality audit all pass may the orchestrator set `status: published`.
 
 ### S6 — Build (deterministic)
-- `python3 scripts/build_site.py` (add `--no-pdf` only for previews). The builder enforces the publish gate for `status: published` manifests: validation pass, 100% blind agreement, zero flags, zero mismatches, latest `quality_audit` result pass, and latest `format_audit` result pass. Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains paper/answers in html+pdf+md for every published level.
+- `python3 scripts/build_site.py` (add `--no-pdf` only for previews). The builder enforces the publish gate for `status: published` manifests: validation pass, 100% blind agreement, zero flags, zero mismatches, latest `quality_audit` result pass, and latest `format_audit` result pass. Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains `paper.pdf` and `answers.pdf` for every published level (the site publishes PDFs only; md sources stay in `papers/`).
 - Optional status audit before publish: `python3 scripts/paper_status.py --session <date> --levels A1,A2,B1,B2,C1` reports publishable levels and the next missing stage for drafts.
 
 ### S7 — Publish

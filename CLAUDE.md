@@ -33,7 +33,7 @@ User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, bu
 | `scripts/assemble_paper.py` | Merges per-prova `fragments/*.json` into `paper.md` + `answers.md` + `key.json` (no LLM) |
 | `scripts/format_audit.py` | Deterministic paper-format, section-order, leakage and key-file audit |
 | `scripts/paper_quality_audit.py` | Deterministic official-style, difficulty, length and cross-level reuse audit |
-| `scripts/build_site.py` | `papers/` → `docs/` (HTML + PDF + index); `docs/` is the GitHub Pages root |
+| `scripts/build_site.py` | `papers/` → `docs/` (PDF only + index; HTML is a render intermediate); `docs/` is the GitHub Pages root |
 | `papers/<date>/<LEVEL>/` | Generated output + `manifest.yaml` (provenance) |
 | `reference/` | LOCAL copies of official papers — gitignored, **never commit or republish** |
 | `notes/` | Design specs & implementation plans |
