@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "ROMA, TOCCATA E FUGA!",
+    "S2_TEXT_WITH_GAPS": "Oggi io *(volere)* __voglio (0)__ ricordare Roma. Venerdì scorso il nostro gruppo *(partire)* __(1)__ nel pomeriggio e poi *(arrivare)* __(2)__ a Roma in serata. Prima noi *(visitare)* __(3)__ la Basilica di San Pietro. Dopo *(completare)* __(4)__ il tour, *(scattare)* __(5)__ alcune foto e *(guardare)* __(6)__ in alto. Poi noi *(mangiare)* __(7)__ piatti romani in un'osteria. In seguito *(attraversare)* __(8)__ ponte Sant'Angelo e *(continuare)* __(9)__ verso Piazza Navona. Oggi io *(potere)* __(10)__ raccontare questo breve viaggio."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | è partito | passato prossimo | S2.6 | abbiamo guardato | passato prossimo |\n| S2.2 | è arrivato | passato prossimo | S2.7 | abbiamo mangiato | passato prossimo |\n| S2.3 | abbiamo visitato | passato prossimo | S2.8 | abbiamo attraversato | passato prossimo |\n| S2.4 | abbiamo completato | passato prossimo | S2.9 | abbiamo continuato | passato prossimo |\n| S2.5 | abbiamo scattato | passato prossimo | S2.10 | posso | presente |",
+    "ANS_S2_NOTES": "- **S2.1:** «Venerdì scorso» impone il passato prossimo: *il nostro gruppo è partito*. 中文：明确的过去时间标记锁定完成动作；阳性单数主语锁定分词形式。\n- **S2.2:** Lo stesso «Venerdì scorso» regge la coordinata: *il nostro gruppo è arrivato a Roma*. 中文：并列动作属于同一次已结束的旅行；阳性单数主语锁定分词形式。\n- **S2.3:** «Venerdì scorso» fissa la visita conclusa: *noi abbiamo visitato la Basilica di San Pietro*. 中文：过去时间标记覆盖后续叙述。\n- **S2.4:** «Dopo» indica l'azione successiva nello stesso viaggio concluso: *abbiamo completato il tour*. 中文：动作顺序仍在明确的过去时间框架内。\n- **S2.5:** La coordinazione dopo «Venerdì scorso» mantiene il passato prossimo: *abbiamo scattato alcune foto*. 中文：拍照是这次旅行中已完成的动作。\n- **S2.6:** La stessa coordinazione fissa *abbiamo guardato in alto*. 中文：该动作与拍照并列，时态保持一致。\n- **S2.7:** «Poi» continua il racconto di «Venerdì scorso»: *noi abbiamo mangiato piatti romani*. 中文：时间连接词把动作放在同一段过去叙述中。\n- **S2.8:** «In seguito» segnala un'altra azione conclusa: *abbiamo attraversato ponte Sant'Angelo*. 中文：随后发生的是已完成动作。\n- **S2.9:** La coordinata mantiene il passato prossimo: *abbiamo continuato verso Piazza Navona*. 中文：与前一动作共享明确的过去时间框架。\n- **S2.10:** «Oggi» impone il presente: *io posso raccontare questo breve viaggio*. 中文：现在时间标记和主语 *io* 锁定第一人称单数。"
+  },
+  "key": {
+    "S2.1": "è partito",
+    "S2.2": "è arrivato",
+    "S2.3": "abbiamo visitato",
+    "S2.4": "abbiamo completato",
+    "S2.5": "abbiamo scattato",
+    "S2.6": "abbiamo guardato",
+    "S2.7": "abbiamo mangiato",
+    "S2.8": "abbiamo attraversato",
+    "S2.9": "abbiamo continuato",
+    "S2.10": "posso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in serata",
+      "categoria": "locuzione avverbiale",
+      "zh": "在晚上",
+      "en": "in the evening",
+      "esempio": "Il nostro gruppo è arrivato a Roma in serata."
+    },
+    {
+      "parola": "Basilica di San Pietro",
+      "categoria": "nome proprio",
+      "zh": "圣彼得大教堂",
+      "en": "St Peter's Basilica",
+      "esempio": "Noi abbiamo visitato la Basilica di San Pietro."
+    },
+    {
+      "parola": "tour",
+      "categoria": "nome maschile invariabile",
+      "zh": "游览",
+      "en": "tour",
+      "esempio": "Abbiamo completato il tour."
+    },
+    {
+      "parola": "osteria",
+      "categoria": "nome femminile",
+      "zh": "小餐馆",
+      "en": "traditional restaurant",
+      "esempio": "Noi abbiamo mangiato piatti romani in un'osteria."
+    },
+    {
+      "parola": "breve viaggio",
+      "categoria": "locuzione nominale",
+      "zh": "短途旅行",
+      "en": "short trip",
+      "esempio": "Oggi io posso raccontare questo breve viaggio."
+    }
+  ]
+}

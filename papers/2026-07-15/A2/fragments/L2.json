@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "VERDURE AL FORNO FACILI",
+    "T2_TEXT": "Per preparare le verdure al forno facili, come prima cosa lavatele tutte. Spuntate quindi le zucchine, tagliatele a metà per la lunghezza e poi a fettine, spesse circa 1,5 cm. Passate ai peperoni, eliminate la calotta superiore e togliete la parte con i semi. Tagliateli in quattro ed eliminate anche i filamenti bianchi.\n\nRicavate delle strisce lunghe. Intanto trasferite in una teglia abbastanza larga sia le zucchine che i peperoni. Passate ora alle cipolle, sbucciatele e tagliatele a fette spesse 1 cm.\n\nPassate ora alle melanzane. Tagliatele prima a fette e poi a tocchetti. Trasferite nella teglia con le altre verdure anche le cipolle e le melanzane.\n\nCondite con olio, sale e pepe. Aggiungete un pizzico di origano e due spicchi d'aglio in camicia. Mescolate molto bene, in modo da condire tutte le verdure. Cuocete in forno statico preriscaldato a 190° per circa 40-45 minuti o fino a che le verdure non risulteranno ben cotte e colorite. Sfornate e servite.",
+    "L2_ITEMS": "**1.** Prima di tagliare le verdure, bisogna lavarle tutte. Vero ○ Falso ○\n\n**2.** Le zucchine devono essere tagliate soltanto a metà, senza fare fettine. Vero ○ Falso ○\n\n**3.** Dai peperoni bisogna togliere i semi e i filamenti bianchi. Vero ○ Falso ○\n\n**4.** Prima di preparare le cipolle, nella teglia ci sono già le zucchine e i peperoni. Vero ○ Falso ○\n\n**5.** Le cipolle devono essere tagliate a fette spesse circa 1,5 cm. Vero ○ Falso ○\n\n**6.** Le melanzane si tagliano prima a fette e poi a tocchetti. Vero ○ Falso ○\n\n**7.** Prima di mescolare le verdure, bisogna aggiungere tre spicchi d'aglio. Vero ○ Falso ○\n\n**8.** Le verdure devono cuocere in forno a 190° per circa 20-25 minuti. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | «come prima cosa lavatele tutte»; solo dopo iniziano i tagli. 中文：先清洗，再切菜。 |\n| L2.2 | F | Le zucchine vanno tagliate «a metà per la lunghezza e poi a fettine». 中文：切半后还要继续切片。 |\n| L2.3 | V | Per i peperoni il testo dice di togliere «la parte con i semi» e «i filamenti bianchi». 中文：两部分都要去掉。 |\n| L2.4 | V | Prima delle cipolle bisogna trasferire nella teglia «sia le zucchine che i peperoni». 中文：考查步骤顺序。 |\n| L2.5 | F | Le cipolle vanno tagliate «a fette spesse 1 cm», non 1,5 cm. 中文：1.5厘米指西葫芦片，不是洋葱片。 |\n| L2.6 | V | Il testo dice: «Tagliatele prima a fette e poi a tocchetti». 中文：先切片，再切块。 |\n| L2.7 | F | Bisogna aggiungere «due spicchi d'aglio in camicia», non tre. 中文：考查蒜瓣数量。 |\n| L2.8 | F | La cottura indicata è «a 190° per circa 40-45 minuti», non 20-25 minuti. 中文：温度相同，但时间不同。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "spuntate",
+      "categoria": "verbo",
+      "zh": "去掉两端",
+      "en": "trim the ends",
+      "esempio": "Spuntate quindi le zucchine, tagliatele a metà per la lunghezza e poi a fettine, spesse circa 1,5 cm."
+    },
+    {
+      "parola": "calotta superiore",
+      "categoria": "locuzione nominale",
+      "zh": "顶部",
+      "en": "top part",
+      "esempio": "Passate ai peperoni, eliminate la calotta superiore e togliete la parte con i semi."
+    },
+    {
+      "parola": "filamenti bianchi",
+      "categoria": "locuzione nominale",
+      "zh": "白色筋膜",
+      "en": "white membranes",
+      "esempio": "Tagliateli in quattro ed eliminate anche i filamenti bianchi."
+    },
+    {
+      "parola": "in camicia",
+      "categoria": "locuzione avverbiale",
+      "zh": "带皮的",
+      "en": "unpeeled",
+      "esempio": "Aggiungete un pizzico di origano e due spicchi d'aglio in camicia."
+    },
+    {
+      "parola": "forno statico preriscaldato",
+      "categoria": "locuzione nominale",
+      "zh": "预热好的上下火烤箱",
+      "en": "preheated conventional oven",
+      "esempio": "Cuocete in forno statico preriscaldato a 190° per circa 40-45 minuti o fino a che le verdure non risulteranno ben cotte e colorite."
+    }
+  ]
+}

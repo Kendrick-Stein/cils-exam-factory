@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Il caffè a ultrasuoni che si prepara senza bisogno di acqua calda",
+    "T1_TEXT": "Che cosa serve per preparare un buon espresso? Caffè macinato, naturalmente, una macchina in grado di generare pressione e acqua calda, preferibilmente a una temperatura compresa tra 90 e 96 °C. Ma siamo sicuri che quest’ultimo elemento sia davvero necessario?\n\nUn gruppo di ricerca dell’Università del Nuovo Galles del Sud, in Australia, guidato dallo scienziato colombiano Francisco Trujillo sostiene di avere inventato un “espresso a ultrasuoni”. Come ha spiegato Trujillo, si tratta di “un metodo di preparazione a temperatura ambiente che utilizza onde sonore ad alta frequenza per estrarre il sapore, gli oli, l’aroma e la caffeina dal caffè macinato”.\n\nIl sistema è più lento di quello tradizionale (impiega tre minuti invece di trenta secondi) ma consuma il 75% di energia in meno. Un risparmio importante per bar e ristoranti e soprattutto per le aziende che producono caffè su scala industriale, come nel caso dei prodotti pronti al consumo.\n\n**Come funziona il caffè a ultrasuoni**\n\nIl sistema sperimentale trasmette onde ultrasoniche direttamente al filtro che contiene il caffè macinato. Anziché ricorrere al calore, sfrutta un fenomeno noto come cavitazione acustica, in cui si formano e collassano minuscole bolle, generando microcorrenti che favoriscono l’estrazione dei composti solubili del caffè.\n\nPer ottenere questo effetto, i ricercatori hanno riprogettato il dispositivo in modo che le vibrazioni ultrasoniche raggiungessero tutto il cestello del portafiltro, trasformandolo in una sorta di reattore acustico. Le onde possono così propagarsi contemporaneamente da più punti, mettendo più rapidamente in movimento il liquido intorno alle particelle di caffè. “In altre parole, gli ultrasuoni ci permettono di sostituire il calore con l’energia meccanica”, ha spiegato Trujillo.\n\nIl processo, descritto più nel dettaglio nel numero di giugno del Journal of Food Engineering, punta a ottenere un caffè dalla concentrazione paragonabile a quella di un espresso. Per raggiungere l'obiettivo, i ricercatori hanno variato il grado di macinatura, la potenza degli ultrasuoni e il tempo di preparazione.\n\nCon una macinatura fine e una potenza di 100 watt, hanno ottenuto bevande in cui la concentrazione di solidi disciolti e la resa estrattiva erano in linea con i valori ideali fissati dalla Specialty Coffee Association.\n\nRipetendo gli esperimenti nelle stesse condizioni ma senza gli ultrasuoni, i ricercatori non sono riusciti a produrre gli stessi valori. Con il sistema acustico, invece, sono bastati pochi minuti e acqua a temperatura ambiente per ottenere un caffè dall’intensità simile a quella di un espresso. “Abbiamo scoperto che il risultato migliore si otteneva tra i due minuti e mezzo e i tre minuti”.\n\nIl gruppo ha esaminato anche diversi parametri chimici. Le concentrazioni di caffeina e acido clorogenico erano simili a quelle rilevate nel caffè preparato con metodi tradizionali. Non sono emerse differenze significative neppure nel ph o nella composizione complessiva dei composti volatili responsabili dell’aroma.\n\n**I consumatori noterebbero la differenza?**\n\nI ricercatori hanno organizzato test sensoriali, chiedendo a 100 persone di confrontare l’espresso a ultrasuoni con quello tradizionale. Tra i partecipanti non è emersa una netta preferenza e i punteggi assegnati ad aroma, sapore, amarezza e gradimento complessivo sono risultati pressoché identici.\n\nOltre a riprodurre le caratteristiche sensoriali dell’espresso, la nuova tecnica potrebbe avere anche vantaggi ambientali. Secondo le misurazioni dei ricercatori, per ottenere un caffè della stessa intensità il sistema a ultrasuoni ha consumato appena il 24% dell’energia necessaria a una comune macchina per espresso.",
+    "L1_ITEMS": "**1. Il metodo ideato dal gruppo di ricerca australiano**\n\nA) elimina la pressione dalla preparazione del caffè.\n\nB) usa onde sonore per estrarre le sostanze del caffè a temperatura ambiente.\n\nC) raffredda rapidamente l’acqua dopo l’estrazione.\n\nD) combina acqua molto calda e suoni ad alta frequenza.\n\n**2. Rispetto a una macchina tradizionale, il sistema sperimentale**\n\nA) richiede più tempo, ma riduce nettamente il consumo di energia.\n\nB) prepara il caffè più velocemente, ma è adatto solo alle aziende.\n\nC) impiega lo stesso tempo e offre vantaggi soprattutto ai bar.\n\nD) consuma meno energia perché produce solo bevande pronte al consumo.\n\n**3. Durante la cavitazione acustica, l’estrazione è favorita da**\n\nA) un aumento della temperatura prodotto dalle bolle.\n\nB) la pressione esercitata dal filtro sul caffè macinato.\n\nC) microcorrenti generate dalla formazione e dal collasso di piccole bolle.\n\nD) composti solubili che mettono in movimento il liquido.\n\n**4. La riprogettazione del dispositivo serve a**\n\nA) concentrare le vibrazioni in un solo punto del filtro.\n\nB) far arrivare le vibrazioni in tutto il cestello da più punti.\n\nC) separare il liquido dalle particelle durante l’estrazione.\n\nD) trasformare il calore prodotto in onde ultrasoniche.\n\n**5. Per trovare le condizioni capaci di produrre una concentrazione simile all’espresso, i ricercatori hanno**\n\nA) confrontato diversi tipi di caffè pronti al consumo.\n\nB) modificato macinatura, potenza degli ultrasuoni e durata.\n\nC) seguito senza variazioni i valori indicati dall’associazione di settore.\n\nD) aumentato progressivamente la temperatura e la pressione dell’acqua.\n\n**6. Il confronto tra le prove con e senza ultrasuoni indica che**\n\nA) l’acqua a temperatura ambiente basta da sola a estrarre il caffè.\n\nB) gli ultrasuoni consentono di raggiungere valori non ottenuti nelle stesse condizioni senza di essi.\n\nC) la durata ideale dipende soprattutto dalla presenza di acido clorogenico.\n\nD) i metodi tradizionali producono concentrazioni inferiori di caffeina.\n\n**7. Dai test finali emerge che il caffè a ultrasuoni**\n\nA) è preferito per il sapore, nonostante richieda più energia.\n\nB) ha un aroma diverso, ma lo stesso grado di amarezza.\n\nC) riceve valutazioni sensoriali simili e richiede molta meno energia.\n\nD) è apprezzato soprattutto da chi beve caffè meno intenso."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il metodo «a temperatura ambiente» usa «onde sonore ad alta frequenza per estrarre» sapore, oli, aroma e caffeina. 中文：关键是用声波替代热水，并非取消压力。 |\n| L1.2 | A | Il sistema «impiega tre minuti invece di trenta secondi» ma «consuma il 75% di energia in meno». 中文：速度更慢与节能同时成立。 |\n| L1.3 | C | Nella cavitazione «si formano e collassano minuscole bolle», che generano microcorrenti favorevoli all’estrazione. 中文：微流是气泡形成和坍塌的结果。 |\n| L1.4 | B | Le vibrazioni devono raggiungere «tutto il cestello» e le onde propagarsi «contemporaneamente da più punti». 中文：改造目的是扩大并分散振动覆盖。 |\n| L1.5 | B | Per raggiungere l’obiettivo hanno variato «il grado di macinatura, la potenza degli ultrasuoni e il tempo di preparazione». 中文：三项实验变量缺一不可。 |\n| L1.6 | B | «Nelle stesse condizioni ma senza gli ultrasuoni» non sono stati prodotti gli stessi valori. 中文：对照实验显示超声波是决定性变量。 |\n| L1.7 | C | I punteggi sensoriali sono «pressoché identici» e il sistema usa «appena il 24% dell’energia» della macchina comune. 中文：口感评价相近，同时显著节能。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B",
+    "L1.5": "B",
+    "L1.6": "B",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cavitazione acustica",
+      "categoria": "locuzione nominale",
+      "zh": "声空化",
+      "en": "acoustic cavitation",
+      "esempio": "sfrutta un fenomeno noto come cavitazione acustica"
+    },
+    {
+      "parola": "composti solubili",
+      "categoria": "locuzione nominale",
+      "zh": "可溶性化合物",
+      "en": "soluble compounds",
+      "esempio": "favoriscono l’estrazione dei composti solubili del caffè"
+    },
+    {
+      "parola": "resa estrattiva",
+      "categoria": "locuzione nominale",
+      "zh": "萃取率",
+      "en": "extraction yield",
+      "esempio": "la concentrazione di solidi disciolti e la resa estrattiva erano in linea con i valori ideali"
+    },
+    {
+      "parola": "composti volatili",
+      "categoria": "locuzione nominale",
+      "zh": "挥发性化合物",
+      "en": "volatile compounds",
+      "esempio": "i composti volatili responsabili dell’aroma"
+    },
+    {
+      "parola": "pressoché identici",
+      "categoria": "locuzione aggettivale",
+      "zh": "几乎相同",
+      "en": "almost identical",
+      "esempio": "sono risultati pressoché identici"
+    }
+  ]
+}

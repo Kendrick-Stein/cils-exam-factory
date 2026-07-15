@@ -1,0 +1,61 @@
+{
+ "prova": "L3",
+ "slots": {
+  "T3_TITLE": "SICILIA OCCIDENTALE CON I BAMBINI: IL NOSTRO VIAGGIO",
+  "T3_PART_A": "Lasciata Palermo, il nostro viaggio in Sicilia occidentale con i bambini è iniziato molto presto a Monreale, dove abbiamo dato una veloce occhiata al Duomo prima di continuare il percorso.",
+  "T3_PART_B": "Dopo la gita nella laguna, per approfondire la storia delle saline si visita il Museo del Sale nel grande Mulino: un video, attrezzi, fotografie e cristalli raccontano quel mondo. Dalla terrazza si vede il tramonto.",
+  "T3_PART_C": "Quella visita, però, è stata più breve del previsto: essendo domenica, non siamo riusciti a vedere con calma la chiesa né ad accedere al chiostro e alle terrazze. Conviene dunque organizzarsi meglio.",
+  "T3_PART_D": "Proprio a Mazara, infatti, hanno convissuto fenici, cartaginesi, romani, saraceni e normanni, e la struttura urbana riflette quel passato. Abbiamo ammirato la kasbah con le maioliche colorate e il Museo del Satiro.",
+  "T3_PART_E": "La tappa seguente è stata Sciacca, cittadina di pescatori e ceramiche. Ci siamo fermati per un pomeriggio di mare: l'acqua era freddissima, ma i colori spettacolari e la sabbia finissima.",
+  "T3_PART_F": "Durante quella sosta a Piana abbiamo provato anche i celebri cannoli all'Extrabar: erano ottimi. Soltanto dopo questa pausa gastronomica abbiamo ripreso la strada verso la tappa seguente.",
+  "T3_PART_G": "Terminato quel pomeriggio sulla spiaggia, da Sciacca siamo arrivati a Mazara del Vallo. Abbiamo iniziato la visita passeggiando tra i vicoli bianchi di una città segnata da una storia multietnica.",
+  "T3_PART_H": "Conclusa la visita di Mazara, ci siamo diretti nella zona tra Marsala e Trapani per vedere le saline. Potevamo scegliere quelle di Trapani e Paceco oppure le Saline Ettore e Infersa.",
+  "T3_PART_I": "Subito dopo Monreale, proseguendo verso la costa meridionale, abbiamo attraversato colline coltivate e vigne, fermandoci a Piana degli Albanesi. Qui da oltre seicento anni si parla un albanese pre-ottomano e le insegne sono bilingui.",
+  "T3_PART_J": "Fra le due possibilità appena nominate, abbiamo scelto le seconde. Da lì è possibile anche una gita in barca nella Riserva Naturale delle Isole dello Stagnone, per ammirare la laguna, Mothia e la fauna dell'area protetta.",
+  "T3_PART_K": "Infine, facendo base a Paceco, abbiamo raggiunto la Grotta Mangiapane, a Custonaci. Abitata fin dal Neolitico, fino agli anni Cinquanta ospitava la famiglia omonima; oggi botteghe, stalle e abitazioni ricostruite raccontano agricoltura e pastorizia."
+ },
+ "answer_slots": {
+  "ANS_L3_ROWS": "| 1 | A | Apertura autonoma: «Lasciata Palermo» avvia il viaggio e non richiede antecedenti. 中文：唯一可独立开篇。 |\n| 2 | C | «Quella visita» riprende la veloce visita al Duomo di Monreale. 中文：指向上一段的参观。 |\n| 3 | I | «Subito dopo Monreale» colloca senza alternative la partenza successiva. 中文：明确承接蒙雷阿莱。 |\n| 4 | F | «Durante quella sosta a Piana» riprende la fermata a Piana degli Albanesi. 中文：指向皮亚纳停留。 |\n| 5 | E | «La tappa seguente» riprende l'annuncio della «tappa seguente» alla fine di F. 中文：重复线索锁定顺序。 |\n| 6 | G | «Terminato quel pomeriggio sulla spiaggia» riprende il pomeriggio di mare a Sciacca. 中文：承接海滩下午。 |\n| 7 | D | «Proprio a Mazara» sviluppa la città appena raggiunta nella parte G. 中文：地点照应明确。 |\n| 8 | H | «Conclusa la visita di Mazara» chiude quella tappa e introduce le saline. 中文：结束马扎拉后转场。 |\n| 9 | J | «Fra le due possibilità appena nominate» riprende le due alternative indicate in H; «le seconde» sono Ettore e Infersa. 中文：两组选项中的后者。 |\n| 10 | B | «Dopo la gita nella laguna» riprende la barca nello Stagnone e passa al Museo del Sale. 中文：游船之后参观博物馆。 |\n| 11 | K | «Infine» segnala l'ultima tappa; «facendo base a Paceco» riprende la zona già raggiunta. 中文：结尾标记加地点衔接。 |",
+  "ANS_L3_SEQUENCE": "A-C-I-F-E-G-D-H-J-B-K"
+ },
+ "key": {
+  "L3": "A-C-I-F-E-G-D-H-J-B-K"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "storia multietnica",
+   "categoria": "locuzione nominale",
+   "zh": "多民族历史",
+   "en": "multiethnic history",
+   "esempio": "Abbiamo iniziato la visita passeggiando tra i vicoli bianchi di una città segnata da una storia multietnica."
+  },
+  {
+   "parola": "maioliche colorate",
+   "categoria": "locuzione nominale",
+   "zh": "彩色釉面陶砖",
+   "en": "colourful majolica tiles",
+   "esempio": "Abbiamo ammirato la kasbah con le maioliche colorate e il Museo del Satiro."
+  },
+  {
+   "parola": "area protetta",
+   "categoria": "locuzione nominale",
+   "zh": "保护区",
+   "en": "protected area",
+   "esempio": "Da lì è possibile anche una gita in barca nella Riserva Naturale delle Isole dello Stagnone, per ammirare la laguna, Mothia e la fauna dell'area protetta."
+  },
+  {
+   "parola": "approfondire",
+   "categoria": "verbo",
+   "zh": "深入了解",
+   "en": "to explore in greater depth",
+   "esempio": "Dopo la gita nella laguna, per approfondire la storia delle saline si visita il Museo del Sale nel grande Mulino: un video, attrezzi, fotografie e cristalli raccontano quel mondo."
+  },
+  {
+   "parola": "pastorizia",
+   "categoria": "nome femminile",
+   "zh": "畜牧业",
+   "en": "pastoral farming",
+   "esempio": "Abitata fin dal Neolitico, fino agli anni Cinquanta ospitava la famiglia omonima; oggi botteghe, stalle e abitazioni ricostruite raccontano agricoltura e pastorizia."
+  }
+ ]
+}

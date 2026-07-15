@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "UN BUCO NERO IN FIBRA OTTICA",
+    "S3_TEXT_WITH_GAPS": "Al posto della gravità, i ricercatori impiegano un __potente (0)__ impulso laser, chiamato pompa, sparato in una fibra ottica. La potenza del laser __(1)__ le proprietà del vetro e ne cambia l’indice di rifrazione, creando una zona mobile in cui la luce __(2)__. Lungo la fibra viene inviato un secondo laser, meno intenso, chiamato sonda. Quando raggiunge la zona alterata, la sonda vi resta bloccata e non riesce a __(3)__.\n\nSi forma così un vero e proprio orizzonte degli eventi ottico. La pompa __(4)__ il buco nero, mentre la sonda funge da perturbazione iniziale e __(5)__ le fluttuazioni quantistiche.\n\nL’impatto con l’orizzonte genera una __(6)__ di onde: una, a frequenza positiva e spostata verso l’infrarosso, riesce a __(7)__; l’altra, a frequenza negativa e spostata verso l’ultravioletto, cade entro l’orizzonte e agisce da “partner di Hawking”.\n\nIl __(8)__ della ricerca è la prima misurazione sperimentale della perdita di energia, definita retroazione. Gli studiosi sono riusciti a __(9)__ e hanno osservato che avviene in modo __(10)__, anziché attraverso complessi processi a __(11)__.\n\nSe la semplicità __(12)__ in laboratorio valesse anche nello spaziotempo reale, potremmo __(13)__ alla formulazione di una teoria quantistica della gravità e contribuire a __(14)__ gli interrogativi ancora __(15)__ sui buchi neri.",
+    "S3_OPT0_A": "potente",
+    "S3_OPT0_B": "tenue",
+    "S3_OPT0_C": "intermittente",
+    "S3_OPT0_D": "remoto",
+    "S3_OPTION_ROWS": "| 1. | conserva | descrive | altera | misura |\n| 2. | oscilla | rallenta | accelera | devia |\n| 3. | aggirarla | amplificarla | stabilizzarla | oltrepassarla |\n| 4. | rappresenta | circonda | attraversa | assorbe |\n| 5. | annulla | frena | riproduce | misura |\n| 6. | massa | coppia | rete | sequenza |\n| 7. | dissolversi | precipitare | arrestarsi | sfuggire |\n| 8. | cuore | margine | limite | avanzo |\n| 9. | compensarla | diffonderla | isolarla | anticiparla |\n| 10. | provvisorio | diretto | graduale | casuale |\n| 11. | rotazione | intervallo | scatto | cascata |\n| 12. | scoperta | trascurata | prevista | nascosta |\n| 13. | opporci | sottrarci | avvicinarci | limitarci |\n| 14. | aggirare | risolvere | rinviare | ripetere |\n| 15. | superati | marginali | definitivi | aperti |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | «La potenza del laser altera le proprietà del vetro»: il successivo cambiamento dell’indice chiarisce il valore trasformativo. 中文：后文的“cambia”排除保持或描述。 |\n| S3.2 | B | La zona è quella «in cui la luce rallenta» e subito dopo la sonda resta bloccata. 中文：语义链是减速直至受阻。 |\n| S3.3 | D | «La sonda vi resta bloccata» implica che non riesce a oltrepassare la zona alterata. 中文：“被阻挡”唯一对应“无法越过该区域”。 |\n| S3.4 | A | «La pompa rappresenta il buco nero»: il dispositivo riproduce per analogia il fenomeno astrofisico. 中文：这里是“代表/模拟”，不是吸收或穿过。 |\n| S3.5 | C | La sonda «riproduce le fluttuazioni quantistiche», cioè ne imita il ruolo nel modello. 中文：与“perturbazione iniziale”形成模拟关系。 |\n| S3.6 | B | L’impatto genera «una coppia di onde», poi descritte separatamente come «una» e «l’altra». 中文：成对照应唯一锁定“coppia”。 |\n| S3.7 | D | L’onda positiva «riesce a sfuggire», in contrasto con quella negativa che «cade entro l’orizzonte». 中文：与后一句“cade”构成明确对比。 |\n| S3.8 | A | «Il cuore della ricerca» introduce il risultato centrale, ossia la prima misurazione sperimentale. 中文：惯用表达指研究的核心。 |\n| S3.9 | C | Gli studiosi sono riusciti a «isolarla», dove il pronome riprende la perdita di energia da misurare. 中文：代词指向“perdita di energia”。 |\n| S3.10 | B | La retroazione «avviene in modo diretto», contrapposto ai processi complessi menzionati subito dopo. 中文：“anziché”建立直接与复杂过程的对立。 |\n| S3.11 | D | «Processi a cascata» è la collocazione che designa una successione complessa di fenomeni. 中文：固定科技表达“级联过程”。 |\n| S3.12 | A | «La semplicità scoperta in laboratorio» riprende il risultato sperimentale appena descritto. 中文：已经观察到的实验结果，因此不是“prevista”。 |\n| S3.13 | C | «Potremmo avvicinarci alla formulazione» esprime il progresso verso una teoria quantistica della gravità. 中文：搭配为“avvicinarsi a”。 |\n| S3.14 | B | Il progresso potrebbe contribuire a «risolvere gli interrogativi» sui buchi neri. 中文：目标是解决问题，不是回避或推迟。 |\n| S3.15 | D | «Interrogativi ancora aperti» indica questioni che non hanno ancora una soluzione. 中文：固定搭配“尚未解决的问题”。 |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "indice di rifrazione",
+      "categoria": "locuzione nominale",
+      "zh": "折射率",
+      "en": "refractive index",
+      "esempio": "La potenza del laser altera le proprietà del vetro e ne cambia l’indice di rifrazione."
+    },
+    {
+      "parola": "orizzonte degli eventi",
+      "categoria": "locuzione nominale",
+      "zh": "事件视界",
+      "en": "event horizon",
+      "esempio": "Si forma così un vero e proprio orizzonte degli eventi ottico."
+    },
+    {
+      "parola": "perturbazione",
+      "categoria": "nome femminile",
+      "zh": "扰动",
+      "en": "perturbation",
+      "esempio": "La pompa rappresenta il buco nero, mentre la sonda funge da perturbazione iniziale e riproduce le fluttuazioni quantistiche."
+    },
+    {
+      "parola": "retroazione",
+      "categoria": "nome femminile",
+      "zh": "反馈作用",
+      "en": "backreaction",
+      "esempio": "Il cuore della ricerca è la prima misurazione sperimentale della perdita di energia, definita retroazione."
+    },
+    {
+      "parola": "a cascata",
+      "categoria": "locuzione avverbiale",
+      "zh": "级联式地",
+      "en": "in a cascade",
+      "esempio": "Gli studiosi sono riusciti a isolarla e hanno osservato che avviene in modo diretto, anziché attraverso complessi processi a cascata."
+    }
+  ]
+}

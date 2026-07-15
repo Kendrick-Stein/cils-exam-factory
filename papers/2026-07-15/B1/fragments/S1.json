@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "IL GIFFONI FILM FESTIVAL RACCONTA LE COSE IMPOSSIBILI",
+    "S1_TEXT_WITH_GAPS": "Quest'anno __(1)__ Giffoni Film Festival ha scelto di raccontare __(2)__ nostra società che cambia, partendo da un tema: \"Le cose impossibili\". L'attenzione va *(a)* __al (0)__ mondo degli adolescenti, ai loro dubbi e ai rapporti tra genitori e figli.\n\n*(Da)* __(3)__ 17 *(a)* __(4)__ 25 luglio, tutto __(5)__ programma si svolgerà a Giffoni Valle Piana, comune *(di)* __(6)__ entroterra salernitano. È prevista una carovana di giovani giurati. __(7)__ carovana sarà composta da 5.000 partecipanti, provenienti *(da)* __(8)__ 35 nazioni e da 500 borghi e città *(di)* __(9)__ Italia.\n\n*(Da)* __(10)__ oltre cinque decenni, il Festival dei ragazzi ama sfidare l'impossibile. Lo fa attraverso tutti __(11)__ ospiti e tutti __(12)__ film in concorso. Tutte __(13)__ anteprime fanno parte *(di)* __(14)__ programma. L'evento riceve il sostegno *(da)* __(15)__ Regione Campania, *(da)* __(16)__ ministero della Cultura e da altri soggetti. Inoltre viene organizzato in collaborazione con il Comune di Giffoni Valle Piana.\n\nSecondo __(17)__ direttore Jacopo Gubitosi, __(18)__ edizione 2026 nasce *(da)* __(19)__ ascolto dei ragazzi. Durante la conferenza stampa di presentazione, il direttore ha spiegato che le loro domande, inquietudini e sogni hanno indicato *(a)* __(20)__ organizzatori la strada. Parlare di cose impossibili significa credere che ciò che oggi sembra irraggiungibile possa diventare il motore del cambiamento.\n\nIl programma unisce cinema, musica, innovazione, cultura, spettacolo e protagonisti nazionali e internazionali."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | il | S1.11 | gli |\n| S1.2 | la | S1.12 | i |\n| S1.3 | dal | S1.13 | le |\n| S1.4 | al | S1.14 | del |\n| S1.5 | il | S1.15 | dalla |\n| S1.6 | dell' | S1.16 | dal |\n| S1.7 | la | S1.17 | il |\n| S1.8 | da | S1.18 | l' |\n| S1.9 | d' | S1.19 | dall' |\n| S1.10 | da | S1.20 | agli |",
+    "ANS_S1_NOTES": "- **S1.3–S1.4:** «dal 17 al 25 luglio» indica l'inizio e la fine del periodo. 中文：日期范围固定搭配是 *dal... al...*。\n- **S1.6:** «dell'entroterra salernitano» richiede *di + l'* davanti a vocale. 中文：元音前发生省音。\n- **S1.7:** «È prevista una carovana» introduce il referente; subito dopo «la carovana» lo riprende. 中文：同一名词已在前句引入，因此必须用定冠词 *la*。\n- **S1.15–S1.16:** «dalla Regione... dal ministero» esprime la provenienza del sostegno e concorda con i nomi. 中文：介词 *da* 与定冠词合并。\n- **S1.19–S1.20:** «dall'ascolto» indica l'origine, mentre «agli organizzatori» indica i destinatari. 中文：前者是 *da + l'*, 后者是 *a + gli*。"
+  },
+  "key": {
+    "S1.1": "il",
+    "S1.2": "la",
+    "S1.3": "dal",
+    "S1.4": "al",
+    "S1.5": "il",
+    "S1.6": "dell'",
+    "S1.7": "la",
+    "S1.8": "da",
+    "S1.9": "d'",
+    "S1.10": "da",
+    "S1.11": "gli",
+    "S1.12": "i",
+    "S1.13": "le",
+    "S1.14": "del",
+    "S1.15": "dalla",
+    "S1.16": "dal",
+    "S1.17": "il",
+    "S1.18": "l'",
+    "S1.19": "dall'",
+    "S1.20": "agli"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Giffoni Valle Piana",
+      "categoria": "nome proprio",
+      "zh": "吉福尼瓦莱皮亚纳",
+      "en": "Giffoni Valle Piana",
+      "esempio": "Giffoni Valle Piana"
+    },
+    {
+      "parola": "in concorso",
+      "categoria": "locuzione",
+      "zh": "参赛的",
+      "en": "in competition",
+      "esempio": "film in concorso"
+    },
+    {
+      "parola": "inquietudini",
+      "categoria": "nome femminile plurale",
+      "zh": "忧虑；不安",
+      "en": "worries; anxieties",
+      "esempio": "le loro domande, inquietudini e sogni"
+    },
+    {
+      "parola": "irraggiungibile",
+      "categoria": "aggettivo",
+      "zh": "难以实现的；无法达到的",
+      "en": "unreachable; unattainable",
+      "esempio": "ciò che oggi sembra irraggiungibile"
+    },
+    {
+      "parola": "motore del cambiamento",
+      "categoria": "locuzione nominale",
+      "zh": "变革的动力",
+      "en": "driver of change",
+      "esempio": "il motore del cambiamento"
+    }
+  ]
+}

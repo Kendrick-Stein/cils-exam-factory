@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "HUB IN POLIS: IDEE DEI GIOVANI PER I GIOVANI",
+    "S3_TEXT_WITH_GAPS": "Hub in Polis è un __(0)__ per gli under 35. Si trova alla Polisportiva San Faustino, in via Wiligelmo 72, in uno spazio aperto e __(1)__. Qui persone con esperienze diverse trovano un’occasione di __(2)__ e crescita.\n\nL’iniziativa nasce dalla __(3)__ fra Comune di Modena, Arci Modena e Polisportiva San Faustino. Risponde alla richiesta di luoghi di __(4)__ e segue la partecipazione diretta: le attività nascono e si __(5)__ insieme a chi frequenta lo spazio.\n\nIl bando mette a __(6)__ 45mila euro per __(7)__ progetti di giovani dai 18 ai 35 anni. Partecipano gruppi __(8)__ o associazioni. Ogni proposta riceve un contributo __(9)__ di 5mila euro.\n\nI progetti sono __(10)__ a ragazzi dai 14 ai 29 anni. Le iniziative riguardano sostenibilità, benessere fisico e __(11)__, cultura e arte. Possono sviluppare __(12)__, favorire l’ingresso nel mondo del __(13)__ e l’__(14)__, cioè creare un’attività propria. L’obiettivo è trasformare le loro __(15)__ in progetti.",
+    "S3_OPT0_A": "progetto",
+    "S3_OPT0_B": "indirizzo",
+    "S3_OPT0_C": "contributo",
+    "S3_OPT0_D": "edificio",
+    "S3_OPTION_ROWS": "| 1. | isolato | accessibile | riservato | lontano |\n| 2. | partenza | rinuncia | confronto | chiusura |\n| 3. | collaborazione | competizione | distanza | separazione |\n| 4. | abitazione | produzione | circolazione | aggregazione |\n| 5. | fermano | sviluppano | perdono | chiudono |\n| 6. | rischio | confronto | disposizione | prova |\n| 7. | finanziare | vietare | copiare | sostituire |\n| 8. | pubblici | anziani | esterni | informali |\n| 9. | finale | massimo | comune | iniziale |\n| 10. | vietati | nascosti | rivolti | estranei |\n| 11. | psicologico | economico | scolastico | musicale |\n| 12. | distanze | malattie | vacanze | competenze |\n| 13. | turismo | lavoro | gioco | traffico |\n| 14. | autoimprenditorialità | autobiografia | autocritica | autosufficienza |\n| 15. | paure | spese | idee | regole |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «uno spazio aperto e accessibile» riprende la funzione del luogo come punto di incontro. 中文：开放的青年空间应当便于进入，其他选项与上下文冲突。 |\n| S3.2 | C | Persone con esperienze diverse trovano «un’occasione di confronto e crescita». 中文：不同经历的人在这里交流并共同成长。 |\n| S3.3 | A | L’iniziativa «nasce dalla collaborazione fra Comune di Modena, Arci Modena e Polisportiva San Faustino». 中文：三个机构共同创建项目，因此是合作。 |\n| S3.4 | D | Il progetto risponde alla richiesta di «luoghi di aggregazione». 中文：这里指青年聚会和建立联系的场所。 |\n| S3.5 | B | Con la partecipazione diretta «le attività nascono e si sviluppano insieme» a chi frequenta lo spazio. 中文：活动从产生到发展都由参与者共同推动。 |\n| S3.6 | C | La locuzione corretta è «mette a disposizione 45mila euro»: il denaro è reso disponibile dal bando. 中文：固定搭配 mettere a disposizione 表示提供资金。 |\n| S3.7 | A | I 45mila euro servono a «finanziare progetti di giovani». 中文：资金的用途是资助青年项目。 |\n| S3.8 | D | Il contrasto è tra «gruppi informali» e «associazioni». 中文：informali 与正式协会形成明确对比。 |\n| S3.9 | B | Ogni proposta riceve «un contributo massimo di 5mila euro». 中文：5千欧元是每个项目可获得的上限。 |\n| S3.10 | C | «I progetti sono rivolti a ragazzi dai 14 ai 29 anni»: la preposizione a introduce i destinatari. 中文：rivolti a 表示项目面向的对象。 |\n| S3.11 | A | Il testo associa «benessere fisico e psicologico». 中文：fisico 与 psicologico 构成身心健康的固定对应。 |\n| S3.12 | D | Tra gli obiettivi c’è «sviluppare competenze». 中文：sviluppare competenze 表示培养能力。 |\n| S3.13 | B | Le iniziative favoriscono «l’ingresso nel mondo del lavoro». 中文：固定表达 mondo del lavoro 指就业领域。 |\n| S3.14 | A | «L’autoimprenditorialità» è spiegata come «creare un’attività propria». 中文：后面的定义唯一锁定“自主创业”。 |\n| S3.15 | C | L’obiettivo è «trasformare le loro idee in progetti». 中文：青年提出想法，再把想法落实为项目。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "B",
+    "S3.14": "A",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "spazio aperto e accessibile",
+      "categoria": "locuzione nominale",
+      "zh": "开放且便利进入的空间",
+      "en": "open and accessible space",
+      "esempio": "uno spazio aperto e accessibile"
+    },
+    {
+      "parola": "occasione di confronto",
+      "categoria": "locuzione nominale",
+      "zh": "交流讨论的机会",
+      "en": "opportunity for exchange",
+      "esempio": "trovano un’occasione di confronto e crescita"
+    },
+    {
+      "parola": "luoghi di aggregazione",
+      "categoria": "locuzione nominale",
+      "zh": "社交聚会场所",
+      "en": "social gathering places",
+      "esempio": "avere luoghi di aggregazione"
+    },
+    {
+      "parola": "avviso pubblico",
+      "categoria": "locuzione nominale",
+      "zh": "公共公告；公开征集",
+      "en": "public notice",
+      "esempio": "L’avviso pubblico mette a disposizione 45mila euro"
+    },
+    {
+      "parola": "mette a disposizione",
+      "categoria": "locuzione verbale",
+      "zh": "提供；使可供使用",
+      "en": "makes available",
+      "esempio": "mette a disposizione 45mila euro"
+    }
+  ]
+}

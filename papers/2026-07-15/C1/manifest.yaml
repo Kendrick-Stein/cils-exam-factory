@@ -1,0 +1,154 @@
+exam: cils
+level: C1
+session: '2026-07-15'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://it.wikisource.org/wiki/Racconti_sardi/La_dama_bianca
+  title: La dama bianca (estratto)
+  publisher: Wikisource — testo di Grazia Deledda, *Racconti sardi* (1894), pubblico
+    dominio; fonte whitelisted
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 684
+- id: T2
+  url: https://creativitacontemporanea.cultura.gov.it/wp-content/uploads/2026/06/Decreto-rep.286-Cultura-piccoli-comuni.pdf
+  title: Avviso “Cultura nei piccoli comuni” — finalità, risorse, proponenti e partenariato
+    (estratto)
+  publisher: 'Direzione Generale Creatività Contemporanea, Ministero della Cultura
+    — off-whitelist: bando nazionale ufficiale, autentico, gratuito e direttamente
+    adatto al genere regolativo C1'
+  published: '2026-06-22'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 603
+- id: T3
+  url: https://it.wikisource.org/wiki/Fior_di_passione_%28Serao%29/Novella_Greca
+  title: Novella Greca (estratto)
+  publisher: Wikisource — testo di Matilde Serao, *Fior di passione* (1888), pubblico
+    dominio; fonte whitelisted
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 474
+- id: T4
+  url: https://it.wikisource.org/wiki/Operette_morali/Dialogo_di_Tristano_e_di_un_amico
+  title: Dialogo di Tristano e di un amico (estratto argomentativo)
+  publisher: Wikisource — testo di Giacomo Leopardi, *Operette morali* (1827), pubblico
+    dominio; fonte whitelisted
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 262
+- id: T5
+  url: https://it.wikisource.org/wiki/Il_Ventaglino
+  title: Il Ventaglino (estratto)
+  publisher: Wikisource — testo di Luigi Pirandello (1903), pubblico dominio; fonte
+    whitelisted
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 215
+- id: T6
+  url: https://www.media.inaf.it/2026/07/06/analogo-ottico-buco-nero/
+  title: Buco nero in fibra ottica (estratto)
+  publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist:
+    comunicazione scientifica primaria di ente pubblico, libera e con licenza di riutilizzo
+    esplicitamente indicata'
+  published: '2026-07-06'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 191
+- id: T7
+  url: https://www.lavoro.gov.it/documenti-e-norme/normativa/circolare-7-del-01072026
+  title: Circolare n. 7 del 1° luglio 2026 — premessa su SFeRA (estratto)
+  publisher: 'Ministero del Lavoro e delle Politiche Sociali — off-whitelist: circolare
+    ministeriale ufficiale, autentica e gratuita, esattamente corrispondente al genere
+    istituzionale richiesto'
+  published: '2026-07-01'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 4
+  adapted: true
+  words_used: 130
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-15'
+    executor: codex background task (corpus-hunter)
+    result: 7 slots covered, 7 source texts accepted
+  - stage: authoring
+    at: '2026-07-15'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: 43 fragments assembled; format pre-audit pass; L3 sequences relabeled
+      vs 2026-07-14
+  - stage: blind_validation
+    at: '2026-07-15T03:25:15+00:00'
+    agreement: 77/83
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:36:53+00:00'
+    agreement: 68/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:38:23+00:00'
+    agreement: 83/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:38:42+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-15'
+    executor: fresh codex item-writer per prova (high effort round 2) + partial re-blind
+      (codex exec low)
+    round: 1
+    fixed_items:
+    - S1.5
+    - S1.10
+    - S1.11
+    - S1.15
+    - S2.19
+    - S3.3
+    - L3-flag
+    repaired_prove:
+    - L3
+    - S1
+    - S2
+    - S3
+  - stage: reconcile_note
+    at: '2026-07-15'
+    note: S3 blind answers returned as option words; normalized to letters via the
+      printed option table (all 15 matched the key). Out-of-scope extract flags (W/L
+      sections absent from per-prova extracts) stripped before merge.
+  - stage: format_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

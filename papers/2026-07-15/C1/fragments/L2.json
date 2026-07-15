@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "AVVISO «CULTURA NEI PICCOLI COMUNI»",
+    "T2_TEXT": "**Finalità e obiettivi dell’intervento**\n\nL’iniziativa mira a sostenere e valorizzare la vitalità culturale dei piccoli comuni italiani, favorendo la coesione sociale, la partecipazione civica e la tutela dell’identità dei territori. Si intende inoltre contrastare la marginalizzazione delle aree interne e promuovere un accesso più equo alla cultura su tutto il territorio nazionale.\n\nIl programma persegue i seguenti obiettivi strategici: valorizzare il patrimonio materiale e immateriale dei territori, rafforzando le reti locali e incentivando forme innovative di produzione e fruizione culturale in una prospettiva di sviluppo sostenibile e inclusivo; promuovere la valorizzazione delle risorse culturali e ambientali dei piccoli comuni quali fattori di sviluppo locale e di incremento delle opportunità occupazionali nel medio e lungo periodo; favorire il miglioramento delle condizioni sociali ed economiche dei territori attraverso il sostegno alla nascita e al consolidamento di imprese culturali e creative, con particolare attenzione ai modelli di innovazione sociale e di comunità; incentivare forme di collaborazione stabile tra cittadini, enti pubblici, soggetti privati, istituzioni formative e di ricerca, organizzazioni della società civile, artisti e professionisti di ambiti disciplinari differenti, promuovendo partenariati pubblico-privati e reti territoriali durature; rafforzare e integrare l’offerta culturale locale, migliorandone qualità, accessibilità e fruizione, anche attraverso l’impiego dei servizi digitali e delle nuove tecnologie.\n\nLe proposte progettuali dovranno garantire un effettivo coinvolgimento delle comunità locali e del pubblico, in coerenza con le specifiche caratteristiche e potenzialità del territorio di riferimento.\n\n**Risorse disponibili e importo massimo del contributo**\n\nLa dotazione finanziaria destinata al presente Avviso, al netto degli oneri connessi alle attività di gestione della misura, è pari a euro 2.890.200,00, suddivisa in due distinte azioni annuali, estiva e invernale, ciascuna dotata di autonome risorse finanziarie pari a euro 1.445.100,00.\n\nIl contributo concedibile massimo per ciascun progetto è pari a euro 130.000,00, IVA inclusa, e comunque non può essere superiore all’80% dei costi ammissibili indicati nel quadro economico di progetto. I soggetti beneficiari assicurano il cofinanziamento della restante quota, pari ad almeno il 20% del costo complessivo del progetto mediante risorse proprie o altre fonti di finanziamento pubbliche o private, nel rispetto del divieto di doppio finanziamento.\n\nLa quota di cofinanziamento proveniente da soggetti diversi dal proponente deve essere garantita esclusivamente tramite apporti finanziari in denaro, restando escluso qualsiasi contributo sotto forma di beni o servizi.\n\n**Soggetti proponenti e partner**\n\nSono ammessi a partecipare esclusivamente i comuni italiani con popolazione residente al di sotto dei 25.000 abitanti, sulla base dei dati ISTAT riferiti al 1° gennaio 2025. Il Comune può presentare la candidatura come proponente singolo oppure in forma associata come rete di comuni, costituita o costituenda, individuando un Comune capofila. In caso di partecipazione associata, il Comune capofila è l’unico beneficiario del contributo e l’unico responsabile della candidatura, dell’attuazione del progetto e dei rapporti con l’Amministrazione.\n\nIl Comune proponente deve presentare una proposta che preveda il coinvolgimento di almeno un partner di progetto, costituito o costituendo, che rientri in una delle seguenti tipologie di soggetti non profit: amministrazioni pubbliche e enti pubblici istituiti ai sensi della normativa vigente; enti del Terzo Settore iscritti o in corso di iscrizione al RUNTS; associazioni o comitati costituiti ai sensi del Codice civile, dotati di atto costitutivo registrato presso l’Agenzia delle Entrate e di codice fiscale. Il partenariato può essere già formalmente costituito mediante apposito accordo sottoscritto oppure costituirsi anche successivamente alla presentazione della candidatura mediante lettere di intenti. In caso di concessione del finanziamento, il partenariato deve comunque essere formalizzato prima dell’accettazione formale del contributo, con indicazione di ruoli, attività e modalità di coordinamento.",
+    "L2_ITEMS": "**1.** Il programma considera la cultura anche uno strumento per migliorare le condizioni sociali ed economiche dei territori. Vero ○ Falso ○\n\n**2.** La collaborazione prevista dall’Avviso è limitata ai rapporti tra enti pubblici e imprese culturali. Vero ○ Falso ○\n\n**3.** I servizi digitali e le nuove tecnologie possono contribuire a rendere più accessibile l’offerta culturale locale. Vero ○ Falso ○\n\n**4.** Una proposta coerente con il territorio può prescindere dal coinvolgimento concreto delle comunità locali e del pubblico. Vero ○ Falso ○\n\n**5.** Le azioni estiva e invernale dispongono dello stesso importo, ma di risorse finanziarie autonome. Vero ○ Falso ○\n\n**6.** Un progetto con 100.000 euro di costi ammissibili può ottenere l’intera somma, perché resta sotto il limite assoluto di 130.000 euro. Vero ○ Falso ○\n\n**7.** La quota a carico dei beneficiari può provenire anche da finanziamenti pubblici, purché sia rispettato il divieto di doppio finanziamento. Vero ○ Falso ○\n\n**8.** Un soggetto diverso dal proponente può coprire parte del cofinanziamento fornendo gratuitamente beni o servizi. Vero ○ Falso ○\n\n**9.** In base alla soglia demografica indicata, un Comune con esattamente 25.000 residenti può partecipare. Vero ○ Falso ○\n\n**10.** Se più Comuni partecipano in rete, il capofila assume da solo sia la qualità di beneficiario sia la responsabilità dei rapporti con l’Amministrazione. Vero ○ Falso ○\n\n**11.** La candidatura presentata da un Comune come proponente singolo non deve prevedere alcun partner. Vero ○ Falso ○\n\n**12.** Un ente del Terzo Settore che ha avviato, ma non concluso, l’iscrizione al RUNTS può rientrare tra i partner. Vero ○ Falso ○\n\n**13.** Al momento della candidatura, il partenariato deve essere già formalizzato mediante un accordo sottoscritto. Vero ○ Falso ○\n\n**14.** Se il finanziamento è concesso, la formalizzazione del partenariato deve precisare anche come saranno coordinate le attività prima che il contributo venga formalmente accettato. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Tra gli obiettivi figura il «miglioramento delle condizioni sociali ed economiche dei territori» mediante imprese culturali e creative. 中文：文化不仅是目的，也被设定为地方发展的手段。 |\n| L2.2 | F | La collaborazione coinvolge anche «cittadini», «soggetti privati», istituzioni formative, società civile, artisti e professionisti. 中文：参与主体远不止公共机构和文化企业。 |\n| L2.3 | V | L’offerta locale va migliorata in qualità, accessibilità e fruizione «anche attraverso l’impiego dei servizi digitali e delle nuove tecnologie». 中文：数字技术是改善可及性的手段之一。 |\n| L2.4 | F | Le proposte «dovranno garantire un effettivo coinvolgimento delle comunità locali e del pubblico». 中文：符合地域特点不能替代实际参与这一硬性要求。 |\n| L2.5 | V | Le due azioni sono «ciascuna dotata di autonome risorse finanziarie pari a euro 1.445.100,00». 中文：金额相等，但预算彼此独立。 |\n| L2.6 | F | Il contributo «non può essere superiore all’80% dei costi ammissibili»: su 100.000 euro il massimo è 80.000. 中文：必须同时满足绝对上限和80%的比例上限。 |\n| L2.7 | V | La quota restante può derivare da «altre fonti di finanziamento pubbliche o private», nel rispetto del divieto di doppio finanziamento. 中文：公共资金可用，但不得重复资助同一成本。 |\n| L2.8 | F | Gli apporti di terzi devono essere «esclusivamente» in denaro ed è escluso ogni contributo «sotto forma di beni o servizi». 中文：第三方实物或服务不能计入配套资金。 |\n| L2.9 | F | Sono ammessi soltanto i Comuni con popolazione «al di sotto dei 25.000 abitanti». 中文：严格低于，不包括恰好25,000人。 |\n| L2.10 | V | Nella rete il capofila è «l’unico beneficiario» e «l’unico responsabile» anche dei rapporti con l’Amministrazione. 中文：联合申请不分散受益人和行政责任。 |\n| L2.11 | F | «Il Comune proponente» deve prevedere «il coinvolgimento di almeno un partner»; la regola non esenta il proponente singolo. 中文：单独申报是指不组成市镇网络，并不意味着无需项目伙伴。 |\n| L2.12 | V | Sono ammessi enti del Terzo Settore «iscritti o in corso di iscrizione al RUNTS». 中文：正在办理登记也符合伙伴类型要求。 |\n| L2.13 | F | Il partenariato può costituirsi «anche successivamente alla presentazione della candidatura mediante lettere di intenti». 中文：申报时可先提交意向书，无须已有正式协议。 |\n| L2.14 | V | Prima dell’«accettazione formale del contributo» l’accordo deve indicare «ruoli, attività e modalità di coordinamento». 中文：获批后仍有一个明确的正式化期限和内容要求。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "al netto degli oneri",
+      "categoria": "locuzione preposizionale",
+      "zh": "扣除相关费用后",
+      "en": "net of charges",
+      "esempio": "La dotazione finanziaria destinata al presente Avviso, al netto degli oneri connessi alle attività di gestione della misura, è pari a euro 2.890.200,00, suddivisa in due distinte azioni annuali, estiva e invernale, ciascuna dotata di autonome risorse finanziarie pari a euro 1.445.100,00."
+    },
+    {
+      "parola": "contributo concedibile",
+      "categoria": "locuzione nominale",
+      "zh": "可授予的资助",
+      "en": "grant that may be awarded",
+      "esempio": "Il contributo concedibile massimo per ciascun progetto è pari a euro 130.000,00, IVA inclusa, e comunque non può essere superiore all’80% dei costi ammissibili indicati nel quadro economico di progetto."
+    },
+    {
+      "parola": "divieto di doppio finanziamento",
+      "categoria": "locuzione nominale",
+      "zh": "禁止重复资助",
+      "en": "ban on double funding",
+      "esempio": "I soggetti beneficiari assicurano il cofinanziamento della restante quota, pari ad almeno il 20% del costo complessivo del progetto mediante risorse proprie o altre fonti di finanziamento pubbliche o private, nel rispetto del divieto di doppio finanziamento."
+    },
+    {
+      "parola": "rete di comuni",
+      "categoria": "locuzione nominale",
+      "zh": "市镇联合网络",
+      "en": "network of municipalities",
+      "esempio": "Il Comune può presentare la candidatura come proponente singolo oppure in forma associata come rete di comuni, costituita o costituenda, individuando un Comune capofila."
+    },
+    {
+      "parola": "lettere di intenti",
+      "categoria": "locuzione nominale",
+      "zh": "意向书",
+      "en": "letters of intent",
+      "esempio": "Il partenariato può essere già formalmente costituito mediante apposito accordo sottoscritto oppure costituirsi anche successivamente alla presentazione della candidatura mediante lettere di intenti."
+    }
+  ]
+}

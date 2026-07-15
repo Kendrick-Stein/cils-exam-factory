@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1.** «A causa dei lavori in piazza Verdi, da lunedì e fino al 22 luglio la linea 6 non fermerà davanti al teatro. Per raggiungere il centro utilizzate la fermata provvisoria di via Manzoni, a circa duecento metri.»  \nA) È l'annuncio della soppressione definitiva di una linea. B) È un avviso su una modifica temporanea del percorso. C) È un invito a visitare il teatro durante i lavori. D) È la comunicazione della riapertura di una piazza.\n\n**2.** «Gentile utente, non possiamo prolungare il prestito perché il romanzo è già stato prenotato da un'altra persona. La invitiamo a restituirlo entro venerdì; appena rientrato, potrà richiederlo di nuovo attraverso il catalogo online.»  \nA) È la conferma del rinnovo automatico di un prestito. B) È la richiesta di prenotare un romanzo appena acquistato. C) È il rifiuto motivato di prorogare un prestito. D) È l'avviso che il catalogo online non è disponibile.\n\n**3.** «Ciao Marta, sabato dovrei occuparmi dell'apertura del negozio, ma ho una visita medica che non posso spostare. Potresti prendere tu il mio turno dalle otto alle dodici? In cambio, la prossima settimana sostituisco volentieri te.»  \nA) È la richiesta a una collega di scambiare un turno. B) È la comunicazione della chiusura mattutina di un negozio. C) È il rinvio di una visita medica già fissata. D) È l'offerta di lavorare ogni sabato mattina.\n\n**4.** «Fra pochi minuti parleremo di vacanze sostenibili. Inviateci un messaggio vocale raccontando una scelta ecologica fatta durante un viaggio: ne ascolteremo alcuni in diretta e il nostro ospite risponderà alle vostre domande dopo le notizie.»  \nA) È la pubblicità di un'agenzia specializzata in viaggi. B) È il resoconto di una vacanza appena conclusa. C) È l'annuncio di un concorso per giornalisti. D) È un invito agli ascoltatori a contribuire a un programma.\n\n**5.** «Ieri sera, dopo lo spettacolo delle 21, è stato trovato un mazzo di chiavi con un portachiavi rosso nella fila G. Il proprietario può ritirarlo alla biglietteria descrivendo gli altri oggetti attaccati all'anello.»  \nA) È la denuncia del furto di alcuni oggetti in teatro. B) È un avviso per restituire un oggetto smarrito al proprietario. C) È la richiesta di consegnare le chiavi della biglietteria. D) È la conferma della prenotazione di un posto in fila G.\n\n**6.** «Benvenuti al corso online di grafica. Prima della lezione inaugurale riceverete via email le credenziali per entrare nella piattaforma. Vi consigliamo di collegarvi dieci minuti prima, così potrete controllare audio e videocamera con il tutor.»  \nA) È un messaggio di accoglienza con istruzioni per il primo accesso. B) È la richiesta di acquistare una videocamera per il tutor. C) È l'annuncio del trasferimento del corso in un'aula fisica. D) È la comunicazione dei risultati finali di un corso.\n\n**7.** «Le iscrizioni alla visita notturna sono complete. Se desiderate essere contattati in caso di rinuncia, compilate comunque il modulo indicando un recapito telefonico: seguiremo l'ordine di arrivo delle richieste e non è previsto alcun pagamento anticipato.»  \nA) È la cancellazione di una visita per insufficienza di iscritti. B) È la richiesta di pagare in anticipo una visita notturna. C) È la proposta di iscriversi a una lista d'attesa. D) È la conferma di un posto già assegnato a tutti i richiedenti.\n\n**8.** «Ci scusiamo perché il tecnico non ha risolto il guasto al primo intervento. Possiamo fissare gratuitamente una nuova visita martedì pomeriggio oppure, se preferisce, chiudere la segnalazione e rimborsarle il costo dell'uscita precedente.»  \nA) È il rifiuto di intervenire nuovamente senza pagamento. B) È un sollecito a pagare la visita di un tecnico. C) È la conferma che il guasto è stato risolto. D) È la proposta di due soluzioni dopo un intervento inefficace.\n\n**9.** «Le ricordiamo l'appuntamento di giovedì alle 10.30 presso l'Ufficio anagrafe. Porti una fotografia recente e il documento in scadenza. Se non può presentarsi, annulli la prenotazione entro mercoledì usando il collegamento ricevuto via email.»  \nA) È un promemoria con le istruzioni per un appuntamento. B) È l'avviso della chiusura dell'Ufficio anagrafe. C) È la richiesta di inviare una fotografia esclusivamente via email. D) È la conferma che una prenotazione è stata annullata.\n\n**10.** «Cerco una persona con cui dividere l'affitto di una sala prove già attrezzata, disponibile il martedì e il giovedì sera. Suono il basso e preferirei condividere lo spazio con chi fa musica acustica. Scrivetemi indicando giorni ed esigenze.»  \nA) È la vendita di strumenti per la musica acustica. B) È l'offerta di lezioni individuali di basso. C) È la ricerca di qualcuno con cui condividere uno spazio musicale. D) È la richiesta di suonare in un locale ogni sera."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «da lunedì e fino al 22 luglio» e «fermata provvisoria» indicano una deviazione limitata nel tempo; 中文：线路未永久取消。 |\n| S4.2 | C | «non possiamo prolungare il prestito perché il romanzo è già stato prenotato» esprime un rifiuto e la sua causa; 中文：不是续借确认。 |\n| S4.3 | A | «Potresti prendere tu il mio turno» e l'offerta di ricambiare definiscono uno scambio tra colleghe; 中文：请求的是换班。 |\n| S4.4 | D | «Inviateci un messaggio vocale» e «ne ascolteremo alcuni in diretta» invitano il pubblico a intervenire; 中文：是节目互动，不是旅行广告。 |\n| S4.5 | B | «è stato trovato un mazzo di chiavi» e «Il proprietario può ritirarlo» mirano alla restituzione; 中文：不是失窃报案。 |\n| S4.6 | A | «Benvenuti» introduce le istruzioni su credenziali, collegamento e controllo tecnico prima della prima lezione; 中文：面向已报名学员。 |\n| S4.7 | C | «in caso di rinuncia» e «ordine di arrivo delle richieste» descrivono una lista d'attesa; 中文：当前名额已满，并非活动取消。 |\n| S4.8 | D | Dopo il guasto non risolto, il servizio offre «una nuova visita» oppure il rimborso; 中文：提供两种补救方案。 |\n| S4.9 | A | «Le ricordiamo l'appuntamento» è seguito dai documenti necessari e dalle modalità di annullamento; 中文：预约仍有效。 |\n| S4.10 | C | «dividere l'affitto di una sala prove» esplicita la ricerca di una persona con cui condividere lo spazio; 中文：不是卖乐器或授课。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "C",
+    "S4.3": "A",
+    "S4.4": "D",
+    "S4.5": "B",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "D",
+    "S4.9": "A",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fermata provvisoria",
+      "categoria": "espressione nominale",
+      "zh": "临时站点",
+      "en": "temporary stop",
+      "esempio": "utilizzate la fermata provvisoria di via Manzoni"
+    },
+    {
+      "parola": "prolungare il prestito",
+      "categoria": "espressione verbale",
+      "zh": "延长借阅期",
+      "en": "extend a loan",
+      "esempio": "non possiamo prolungare il prestito"
+    },
+    {
+      "parola": "in caso di rinuncia",
+      "categoria": "locuzione",
+      "zh": "如有人退出",
+      "en": "in case of cancellation",
+      "esempio": "essere contattati in caso di rinuncia"
+    },
+    {
+      "parola": "chiudere la segnalazione",
+      "categoria": "espressione verbale",
+      "zh": "结案；关闭报修记录",
+      "en": "close the service ticket",
+      "esempio": "chiudere la segnalazione e rimborsarle il costo"
+    },
+    {
+      "parola": "sala prove",
+      "categoria": "espressione nominale",
+      "zh": "排练室",
+      "en": "rehearsal room",
+      "esempio": "dividere l'affitto di una sala prove già attrezzata"
+    }
+  ]
+}

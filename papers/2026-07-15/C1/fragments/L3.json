@@ -1,0 +1,66 @@
+{
+ "prova": "L3",
+ "slots": {
+  "T3_TITLE": "NOVELLA GRECA",
+  "T3_PART_A": "Una volta erano soli. Da una settimana Dionisio Catargì era partito per la raccolta della passolina, che si faceva in luglio, e Paolo leggeva a Calliope un romanzo francese d'amore.",
+  "T3_PART_B": "Fra le idee incandescenti, scettiche e sprezzanti, Paolo si contraddiceva e se ne accorgeva; mentre il paradosso sfoggiava colori iridescenti, tutto ciò che aveva compresso nell'anima scoppiava come un torrente.",
+  "T3_PART_C": "Durante la festa per la partenza in Inghilterra, qualcuna sospirava dietro lo straniero che se ne andava felice, senza curarsi di ciò che lasciava. Lui ballava con tutte; anche Calliope aveva molto ballato.",
+  "T3_PART_D": "Poiché Calliope non aveva compreso quelle immagini, Paolo taceva, disgustato e annoiato, con la bocca amara. Anche quel discorso sull'antica Grecia finì così nel silenzio.",
+  "T3_PART_E": "Mentre leggeva quel romanzo, Paolo si arrestò e la guardò. Ella era pallida, con gli occhi chiusi. Preso dall'orgoglio, si chinò per baciarla audacemente sulle labbra.",
+  "T3_PART_F": "Dopo che quello sguardo lo respinse, provò a parlarle d'arte. Dinanzi allo Ionio azzurro, ricostruì con eloquenza templi dalle linee pure, città luminose e portici consacrati all'ideale.",
+  "T3_PART_G": "Dopo gli Dei dell'Olimpo, aggiunse le nozze fra cielo e terra, l'immensità della passione, il mormorio dei baci e l'olezzo dell'amore. Calliope, tuttavia, non comprendeva.",
+  "T3_PART_H": "Rotto quel silenzio, proprio il soggetto dell'amore lo eccitava e lo esaltava. Le idee sgorgavano ora incandescenti come lava, ora scettiche, ora sprezzanti, seguendo la natura mobile di Paolo.",
+  "T3_PART_I": "Fino a quella sera, infatti, il volto del poeta diventava duro come il marmo ogni volta che il discorso cadeva sull'amore. Poi un impeto ruppe quel silenzio.",
+  "T3_PART_J": "Ma mentre Paolo si chinava, i grandi occhi verdi si aprirono e lo fissarono con uno sguardo così glaciale che egli s'arretrò, chiuse il libro e partì senza parlare.",
+  "T3_PART_K": "Dopo tutti quei balli, nella quadriglia Calliope danzava con Paolo. Il suo ossuto innamorato, contento per l'ottima raccolta della passolina, le aveva regalato orecchini di brillanti; lei e Paolo parlavano con indifferenza.",
+  "T3_PART_L": "Solo dopo il silenzio che chiuse il discorso sulla Grecia, nel colmo dell'estate, Paolo le parlò per la prima volta d'amore. Non ne aveva mai parlato con nessuno.",
+  "T3_PART_M": "Proseguendo quel racconto di templi e città, passò alla natura, in cui tutto gli pareva divino: alberi, fiori, fiumi e i cinquemila Dei che popolavano l'Olimpo.",
+  "T3_PART_N": "Dopo quella voce e quel gesto, Paolo infine dichiarò che esiste una sola via alla vita, alla felicità e alla morte: l'amore. Poi tacque; Calliope ascoltava ancora.",
+  "T3_PART_O": "Dopo quel silenzio finale, molti mesi più tardi, in dicembre, in casa Stavro si ballava per la partenza di Paolo de Joanna verso l'Inghilterra; erano riunite le belle donne dell'isola.",
+  "T3_PART_P": "A quel torrente di parole si accompagnavano una voce ora tremula, ora sonora, gli occhi vaganti e il gesto largo. La fanciulla, intanto, continuava ad ascoltare."
+ },
+ "answer_slots": {
+  "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | E | «Mentre leggeva quel romanzo» riprende l'azione e l'oggetto nominati soltanto in A. 中文：动作与物件双重承接。 |\n| 3 | J | «mentre Paolo si chinava» riprende esattamente il tentativo di bacio che chiude E. 中文：动作同步锁定前项。 |\n| 4 | F | «quello sguardo lo respinse» rinvia allo sguardo glaciale di J e introduce il nuovo tentativo sull'arte. 中文：失败后换策略。 |\n| 5 | M | «quel racconto di templi e città» riprende i due elementi evocati soltanto in F. 中文：双重词汇复现。 |\n| 6 | G | «Dopo gli Dei dell'Olimpo» riprende la chiusa di M prima di aggiungere cielo, terra e amore. 中文：精确承接上一句结尾。 |\n| 7 | D | «Calliope non aveva compreso quelle immagini» riprende senza alternative l'incomprensione dichiarata in G. 中文：因果与人物承接唯一。 |\n| 8 | L | «dopo il silenzio che chiuse il discorso sulla Grecia» riprende la conclusione di D; «nel colmo dell'estate» apre il nuovo episodio. 中文：旧话题结束后才转入爱情。 |\n| 9 | I | parte data |\n| 10 | H | «Rotto quel silenzio» riprende l'impeto che in I interrompe il silenzio; «il soggetto dell'amore» identifica il tema. 中文：动作与主题双重锁定。 |\n| 11 | B | «le idee incandescenti, scettiche e sprezzanti» ripete la serie che chiude H. 中文：三项词汇链唯一。 |\n| 12 | P | «A quel torrente di parole» richiama la similitudine che chiude B. 中文：精确回指上一句。 |\n| 13 | N | «quella voce e quel gesto» riprende i dettagli descritti soltanto in P; «infine» conclude il discorso. 中文：细节回指后明确收束。 |\n| 14 | O | «Dopo quel silenzio finale» riprende «Poi tacque» di N; «molti mesi più tardi, in dicembre» cambia scena. 中文：沉默与时间推进双重连接。 |\n| 15 | C | «la festa per la partenza in Inghilterra» riprende entrambi i dati di O. 中文：事件与目的地双重复现。 |\n| 16 | K | «Dopo tutti quei balli» riprende Paolo che ballava con tutte e Calliope che aveva molto ballato in C. 中文：双方动作共同收尾。 |",
+  "ANS_L3_SEQUENCE": "A-E-J-F-M-G-D-L-I-H-B-P-N-O-C-K"
+ },
+ "key": {
+  "L3": "A-E-J-F-M-G-D-L-I-H-B-P-N-O-C-K"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "sguardo così glaciale",
+   "categoria": "locuzione nominale",
+   "zh": "冰冷的目光",
+   "en": "icy stare",
+   "esempio": "i grandi occhi verdi si aprirono e lo fissarono con uno sguardo così glaciale"
+  },
+  {
+   "parola": "olezzo",
+   "categoria": "nome",
+   "zh": "香气",
+   "en": "fragrance",
+   "esempio": "il mormorio dei baci e l'olezzo dell'amore"
+  },
+  {
+   "parola": "sgorgavano",
+   "categoria": "verbo",
+   "zh": "涌出",
+   "en": "were pouring forth",
+   "esempio": "Le idee sgorgavano ora incandescenti come lava"
+  },
+  {
+   "parola": "iridescenti",
+   "categoria": "aggettivo",
+   "zh": "虹彩斑斓的",
+   "en": "iridescent",
+   "esempio": "il paradosso sfoggiava colori iridescenti"
+  },
+  {
+   "parola": "quadriglia",
+   "categoria": "nome",
+   "zh": "四对方舞",
+   "en": "quadrille",
+   "esempio": "nella quadriglia Calliope danzava con Paolo."
+  }
+ ]
+}

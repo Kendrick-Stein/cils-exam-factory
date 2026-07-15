@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "ISCRIZIONI AI SERVIZI EDUCATIVI PER L'INFANZIA 2026/2027",
+    "T2_TEXT": "Possono presentare domanda per i servizi educativi le famiglie residenti nel Comune di Parma e anche quelle non residenti. Le domande dei non residenti, però, saranno considerate dopo quelle delle famiglie residenti. Possono fare domanda anche le mamme in gravidanza, se la data presunta del parto è entro il 30 aprile 2026.\n\nPer iscrivere una bambina o un bambino a un nido d'infanzia comunale, sono ammesse le domande per i nati negli anni 2024, 2025 e 2026. È possibile presentare la richiesta anche prima della nascita, quando il parto è previsto entro il 30 aprile 2026. In questo caso bisogna allegare un certificato di gravidanza.\n\nDopo la scadenza del bando, le famiglie con bambini nati o con data presunta del parto tra il 1° maggio e il 30 giugno 2026 possono presentare una domanda fuori termine. Questa domanda può essere considerata come presentata nei termini soltanto a due condizioni: la nascita deve avvenire entro il 30 aprile e deve essere comunicata agli uffici entro 15 giorni.\n\nPer le scuole dell'infanzia possono fare domanda le famiglie di bambine e bambini nati nel 2021, 2022 e 2023. La domanda è possibile anche per i bambini che compiono tre anni entro il 30 aprile 2027. Questi ultimi possono essere ammessi solo se restano posti disponibili dopo l'esaurimento delle liste d'attesa.\n\nSe cambiano i requisiti o le condizioni della famiglia, è possibile annullare la domanda e presentarne una nuova, ma sempre entro la scadenza del bando. Questi elementi determinano il punteggio per la graduatoria e devono essere già presenti alla data della domanda.\n\nSe viene assegnato un posto diverso dalla prima scelta, la famiglia può conservare quel posto e, nello stesso tempo, rimanere nella lista d'attesa per la prima preferenza. Questa possibilità dura fino a 20 giorni dall'approvazione della graduatoria. Dopo il ventesimo giorno, il posto già assegnato diventa definitivo.",
+    "L2_ITEMS": "**1.** Possono presentare domanda sia le famiglie residenti a Parma sia quelle non residenti. Vero ○ Falso ○\n\n**2.** Le domande delle famiglie non residenti sono esaminate prima di quelle dei residenti. Vero ○ Falso ○\n\n**3.** Per i nidi comunali sono ammesse domande per bambini nati nel 2024, 2025 o 2026. Vero ○ Falso ○\n\n**4.** Prima della nascita, la domanda per il nido può essere presentata senza un certificato di gravidanza. Vero ○ Falso ○\n\n**5.** Dopo la scadenza, alcune famiglie con un parto previsto tra maggio e giugno 2026 possono presentare una domanda fuori termine. Vero ○ Falso ○\n\n**6.** Una domanda fuori termine viene considerata nei termini ogni volta che la nascita è comunicata agli uffici entro 15 giorni. Vero ○ Falso ○\n\n**7.** Per le scuole dell'infanzia sono ammesse soltanto le domande per bambini nati nel 2022 e nel 2023. Vero ○ Falso ○\n\n**8.** I bambini che compiono tre anni entro il 30 aprile 2027 sono ammessi automaticamente alla scuola dell'infanzia. Vero ○ Falso ○\n\n**9.** L'ammissione dei bambini che compiono tre anni entro il 30 aprile 2027 dipende dai posti rimasti dopo l'esaurimento delle liste d'attesa. Vero ○ Falso ○\n\n**10.** Se cambiano le condizioni della famiglia, la domanda può essere annullata e ripresentata anche dopo la scadenza del bando. Vero ○ Falso ○\n\n**11.** I requisiti che determinano il punteggio devono essere presenti alla data della domanda. Vero ○ Falso ○\n\n**12.** Chi riceve un posto diverso dalla prima scelta deve rinunciare a quel posto per restare in lista d'attesa. Vero ○ Falso ○\n\n**13.** La famiglia può attendere la prima preferenza fino a 20 giorni dall'approvazione della graduatoria. Vero ○ Falso ○\n\n**14.** Dopo il ventesimo giorno, il posto già assegnato diventa definitivo. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice che possono fare domanda «le famiglie residenti nel Comune di Parma e anche quelle non residenti». 中文：两类家庭都可以申请。 |\n| L2.2 | Falso | Le domande dei non residenti saranno considerate «dopo quelle delle famiglie residenti». 中文：题干颠倒了审核顺序。 |\n| L2.3 | Vero | Per i nidi sono ammessi «i nati negli anni 2024, 2025 e 2026». 中文：三个出生年份完全对应。 |\n| L2.4 | Falso | Prima della nascita «bisogna allegare un certificato di gravidanza». 中文：证明材料是必须的。 |\n| L2.5 | Vero | Per il periodo «tra il 1° maggio e il 30 giugno 2026» è prevista «una domanda fuori termine». 中文：截止后仍有特定情形可申请。 |\n| L2.6 | Falso | Non basta la comunicazione entro 15 giorni: «la nascita deve avvenire entro il 30 aprile» e deve anche essere comunicata in tempo. 中文：两个条件必须同时满足。 |\n| L2.7 | Falso | Sono ammessi i nati «nel 2021, 2022 e 2023», quindi anche quelli del 2021. 中文：题干漏掉了一个年份。 |\n| L2.8 | Falso | Questi bambini «possono essere ammessi solo se restano posti disponibili»; l'ammissione non è automatica. 中文：可以申请不等于自动录取。 |\n| L2.9 | Vero | L'ammissione avviene solo con posti disponibili «dopo l'esaurimento delle liste d'attesa». 中文：录取取决于候补名单处理后的余位。 |\n| L2.10 | Falso | Si può presentare una nuova domanda «sempre entro la scadenza del bando». 中文：变更申请不能超过截止时间。 |\n| L2.11 | Vero | Gli elementi del punteggio «devono essere già presenti alla data della domanda». 中文：条件以提交申请当天为准。 |\n| L2.12 | Falso | La famiglia può «conservare quel posto» mentre rimane nella lista d'attesa. 中文：保留已分配名额与等待第一志愿可同时进行。 |\n| L2.13 | Vero | La possibilità dura «fino a 20 giorni dall'approvazione della graduatoria». 中文：二十天从名单批准之日开始计算。 |\n| L2.14 | Vero | Il testo stabilisce: «Dopo il ventesimo giorno, il posto già assegnato diventa definitivo». 中文：超过期限后名额最终确定。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "data presunta del parto",
+      "categoria": "locuzione nominale",
+      "zh": "预产期",
+      "en": "expected date of birth",
+      "esempio": "Possono fare domanda anche le mamme in gravidanza, se la data presunta del parto è entro il 30 aprile 2026."
+    },
+    {
+      "parola": "fuori termine",
+      "categoria": "locuzione avverbiale",
+      "zh": "逾期",
+      "en": "after the deadline",
+      "esempio": "Dopo la scadenza del bando, le famiglie con bambini nati o con data presunta del parto tra il 1° maggio e il 30 giugno 2026 possono presentare una domanda fuori termine."
+    },
+    {
+      "parola": "liste d'attesa",
+      "categoria": "locuzione nominale",
+      "zh": "候补名单",
+      "en": "waiting lists",
+      "esempio": "Questi ultimi possono essere ammessi solo se restano posti disponibili dopo l'esaurimento delle liste d'attesa."
+    },
+    {
+      "parola": "graduatoria",
+      "categoria": "nome femminile",
+      "zh": "排名名单",
+      "en": "ranking list",
+      "esempio": "Questi elementi determinano il punteggio per la graduatoria e devono essere già presenti alla data della domanda."
+    },
+    {
+      "parola": "prima scelta",
+      "categoria": "locuzione nominale",
+      "zh": "第一志愿",
+      "en": "first choice",
+      "esempio": "Se viene assegnato un posto diverso dalla prima scelta, la famiglia può conservare quel posto e, nello stesso tempo, rimanere nella lista d'attesa per la prima preferenza."
+    }
+  ]
+}

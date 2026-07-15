@@ -1,0 +1,56 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«La possibilità di lavorare da qualunque luogo aumenta l'autonomia individuale, ma può indebolire il legame con i colleghi e con il territorio». Esprimi il tuo parere in merito, considerando benefici, rischi e condizioni necessarie per un equilibrio sostenibile.",
+    "W1B_PROMPT": "Una rivista online dedica un numero alla cultura della riparazione degli oggetti come alternativa al consumo rapido. Scrivi un articolo in cui analizzi i vantaggi ambientali e sociali di questa pratica, gli ostacoli che ne limitano la diffusione e le iniziative che potrebbero favorirla.",
+    "W2A_PROMPT": "Hai acquistato una visita guidata in italiano per il 12 luglio presso un museo. All'arrivo hai scoperto che la visita era stata cancellata senza preavviso; ti è stato offerto soltanto un opuscolo in un'altra lingua. Scrivi un'e-mail alla direzione: descrivi l'accaduto e le conseguenze, chiedi il rimborso del servizio e proponi una misura per evitare casi simili.",
+    "W2B_PROMPT": "La biblioteca comunale ti ha concesso una sala per una presentazione prevista il 25 luglio. Durante un sopralluogo hai constatato che l'ascensore è fuori servizio e che mancano i microfoni promessi. Scrivi una lettera alla responsabile: segnala i problemi, spiega perché compromettono l'evento, chiedi soluzioni concrete e indica entro quando attendi una risposta.",
+    "MODEL_W1A": "Lavorare da luoghi diversi può migliorare sensibilmente la qualità della vita. Chi evita spostamenti quotidiani dispone di più tempo, può organizzare meglio gli impegni familiari e, in alcuni casi, scegliere di vivere lontano dai grandi centri. Questa libertà, tuttavia, non coincide automaticamente con un'autentica autonomia: se la reperibilità diventa continua, il confine tra lavoro e vita privata finisce per scomparire.\n\nEsiste inoltre una dimensione collettiva da non trascurare. Le conversazioni informali tra colleghi facilitano lo scambio di idee e permettono di riconoscere difficoltà che, attraverso uno schermo, restano invisibili. Anche il territorio risente dell'assenza prolungata dei lavoratori dagli uffici, soprattutto nei quartieri che dipendono dalle attività circostanti.\n\nA mio avviso, la soluzione più equilibrata è un modello flessibile, concordato anziché imposto. Alcune giornate in presenza possono essere dedicate alla collaborazione, mentre quelle a distanza favoriscono la concentrazione. Servono inoltre orari di disconnessione chiari, strumenti accessibili e luoghi di lavoro condivisi anche nelle zone periferiche. La flessibilità produce benefici duraturi soltanto quando amplia le scelte senza trasformare l'isolamento in una conseguenza inevitabile.",
+    "MODEL_W1A_PHRASES": "«non coincide automaticamente con…»（并不自动等同于……）; «una dimensione collettiva da non trascurare»（不可忽视的集体层面）; «A mio avviso»（依我之见）; «concordato anziché imposto»（通过协商而非强制）; «produce benefici duraturi soltanto quando…»（只有在……时才会产生持久益处）",
+    "MODEL_W1B": "Riparare un oggetto significa prolungarne la vita, ma anche modificare il nostro rapporto con il consumo. Un elettrodomestico aggiustato non diventa immediatamente un rifiuto e richiede meno materie prime rispetto a un prodotto nuovo. Inoltre, laboratori artigiani e centri di riparazione condivisi possono creare occupazione locale, trasmettere competenze e rafforzare le relazioni tra generazioni.\n\nEppure scegliere la riparazione non è sempre facile. I ricambi possono essere costosi o introvabili, alcuni apparecchi sono progettati per non essere aperti e spesso il prezzo dell'intervento supera quello della sostituzione. A ciò si aggiunge l'idea, alimentata dalla pubblicità, che possedere l'ultimo modello sia preferibile a conservare ciò che funziona ancora.\n\nPer invertire questa tendenza occorrono garanzie più lunghe, manuali accessibili e prodotti costruiti con componenti sostituibili. I comuni potrebbero sostenere officine di quartiere e organizzare incontri in cui tecnici e cittadini riparino insieme oggetti. Anche la scuola dovrebbe insegnare abilità pratiche, senza presentarle come competenze del passato. Una vera cultura della riparazione nasce infatti quando aggiustare torna a essere conveniente, possibile e socialmente riconosciuto: non un rimedio occasionale, ma una scelta responsabile e quotidiana.",
+    "MODEL_W1B_PHRASES": "«prolungarne la vita»（延长其使用寿命）; «rafforzare le relazioni tra generazioni»（加强代际关系）; «A ciò si aggiunge…»（除此之外还有……）; «Per invertire questa tendenza»（为扭转这一趋势）; «non un rimedio occasionale, ma…»（不是临时补救，而是……）",
+    "MODEL_W2A": "Gentile Direzione,\n\nLe scrivo in merito alla visita guidata in italiano acquistata per il 12 luglio alle ore 15. Solo al mio arrivo al museo ho appreso che l'attività era stata cancellata, senza che mi fosse inviato alcun avviso. L'opuscolo proposto in sostituzione, peraltro redatto in una lingua che non conosco, non mi ha consentito di seguire il percorso previsto.\n\nChiedo pertanto il rimborso integrale del servizio non erogato. Suggerisco inoltre di introdurre una comunicazione automatica via e-mail o messaggio per informare tempestivamente i visitatori di eventuali cancellazioni. Gradirei ricevere conferma del rimborso entro dieci giorni.\n\nCordiali saluti,\nLaura Bianchi",
+    "MODEL_W2A_PHRASES": "«Le scrivo in merito a…»（我就……事宜致函）; «senza che mi fosse inviato alcun avviso»（未向我发送任何通知）; «Chiedo pertanto il rimborso integrale»（因此我要求全额退款）; «informare tempestivamente»（及时通知）; «Gradirei ricevere conferma entro…»（希望在……前收到确认）",
+    "MODEL_W2B": "Gentile Dottoressa Serra,\n\nnel corso del sopralluogo effettuato ieri nella sala riservata per la presentazione del 25 luglio, ho constatato che l'ascensore è fuori servizio e che non sono disponibili i due microfoni concordati. L'assenza dell'ascensore impedirebbe ad alcuni ospiti con mobilità ridotta di partecipare; senza amplificazione, inoltre, gli interventi risulterebbero difficilmente comprensibili.\n\nLe chiedo quindi di far ripristinare l'ascensore oppure di assegnarci una sala accessibile al piano terra. La prego anche di confermare la disponibilità dei microfoni o di indicare un'attrezzatura equivalente. Avrei bisogno di un riscontro entro il 19 luglio, per poter comunicare in tempo eventuali cambiamenti ai partecipanti.\n\nCordiali saluti,\nMarco Rinaldi",
+    "MODEL_W2B_PHRASES": "«nel corso del sopralluogo»（在现场检查期间）; «ho constatato che…»（我发现……）; «Le chiedo quindi di…»（因此我请求您……）; «un'attrezzatura equivalente»（同等设备）; «Avrei bisogno di un riscontro entro…»（我需要在……前收到回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "reperibilità",
+      "categoria": "nome femminile",
+      "zh": "随时可联系状态；待命状态",
+      "en": "availability; on-call status",
+      "esempio": "Se la reperibilità diventa continua, il confine tra lavoro e vita privata finisce per scomparire."
+    },
+    {
+      "parola": "orari di disconnessione",
+      "categoria": "locuzione nominale",
+      "zh": "断联时段；非工作联系时段",
+      "en": "right-to-disconnect hours",
+      "esempio": "Servono inoltre orari di disconnessione chiari, strumenti accessibili e luoghi di lavoro condivisi anche nelle zone periferiche."
+    },
+    {
+      "parola": "ricambi",
+      "categoria": "nome maschile plurale",
+      "zh": "备件；替换零件",
+      "en": "spare parts",
+      "esempio": "I ricambi possono essere costosi o introvabili."
+    },
+    {
+      "parola": "servizio non erogato",
+      "categoria": "locuzione nominale",
+      "zh": "未提供的服务",
+      "en": "service not provided",
+      "esempio": "Chiedo pertanto il rimborso integrale del servizio non erogato."
+    },
+    {
+      "parola": "mobilità ridotta",
+      "categoria": "locuzione nominale",
+      "zh": "行动不便",
+      "en": "reduced mobility",
+      "esempio": "L'assenza dell'ascensore impedirebbe ad alcuni ospiti con mobilità ridotta di partecipare."
+    }
+  ]
+}

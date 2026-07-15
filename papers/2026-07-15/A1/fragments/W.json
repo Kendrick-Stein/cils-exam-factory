@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua casa e la tua camera: scrivi con chi abiti, quali mobili ci sono e perché ti piace.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una scuola di italiano. Chiedi in quali giorni ci sono le lezioni e quanto costa un mese.",
+    "MODEL_W1": "Abito in un piccolo appartamento con mia madre e mio fratello. La mia camera è luminosa: ha un letto, una scrivania e una finestra. Mi piace perché posso studiare e ascoltare musica.",
+    "MODEL_W1_PHRASES": "«Abito con…»（我和……住在一起） · «La mia camera è…»（我的房间是……） · «Ha un letto e…»（里面有一张床和……） · «Mi piace perché…»（我喜欢它，因为……）",
+    "MODEL_W2": "Buongiorno, voglio fare un corso di italiano. In quali giorni ci sono le lezioni? Quanto costa un mese? Grazie per la risposta. Lin",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Voglio fare un corso di…»（我想参加一个……课程） · «In quali giorni…?»（星期几……？） · «Quanto costa…?»（……多少钱？） · «Grazie per la risposta»（感谢您的回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "piccolo appartamento",
+      "categoria": "locuzione nominale",
+      "zh": "小公寓",
+      "en": "small apartment",
+      "esempio": "Abito in un piccolo appartamento con mia madre e mio fratello."
+    },
+    {
+      "parola": "camera",
+      "categoria": "nome femminile",
+      "zh": "房间",
+      "en": "room",
+      "esempio": "La mia camera è luminosa: ha un letto, una scrivania e una finestra."
+    },
+    {
+      "parola": "scrivania",
+      "categoria": "nome femminile",
+      "zh": "书桌",
+      "en": "desk",
+      "esempio": "La mia camera è luminosa: ha un letto, una scrivania e una finestra."
+    },
+    {
+      "parola": "corso di italiano",
+      "categoria": "locuzione nominale",
+      "zh": "意大利语课程",
+      "en": "Italian course",
+      "esempio": "Buongiorno, voglio fare un corso di italiano."
+    },
+    {
+      "parola": "lezioni",
+      "categoria": "nome femminile plurale",
+      "zh": "课程",
+      "en": "lessons",
+      "esempio": "In quali giorni ci sono le lezioni?"
+    }
+  ]
+}

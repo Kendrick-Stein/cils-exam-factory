@@ -1,0 +1,127 @@
+exam: cils
+level: A1
+session: '2026-07-15'
+title: CILS A1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.comune.cagliari.it/portale/page/it/mem__mediateca_del_mediterraneo?contentId=LGO12204
+  title: Mem - Mediateca del Mediterraneo
+  publisher: 'Comune di Cagliari (whitelist: altri comuni / practical realia)'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 109
+- id: T2
+  url: https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=22&id=272&tp=68
+  title: Biblioteca Comunale Villa Trabia
+  publisher: 'Comune di Palermo — Palermo Welcome (whitelist: altri comuni / practical
+    realia)'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 105
+- id: T3a
+  url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=91518
+  title: Visite guidate per adulti in Biblioteca Civica
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 29
+- id: T3b
+  url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=98223
+  title: Un mondo di parole - Letture bilingui ad alta voce
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 27
+- id: T3c
+  url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=91107
+  title: Sabato agli Audio. Appuntamenti nei mesi di marzo e aprile
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 30
+- id: T3d
+  url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=98296
+  title: Missione scienza, laboratori per bambini
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 33
+- id: T4
+  url: https://cagliariturismo.comune.cagliari.it/it/vivicagliari/biblioteca-comunale-pirri
+  title: Biblioteca Comunale Pirri
+  publisher: 'Cagliari Turismo — Comune di Cagliari (whitelist: altri comuni / practical
+    realia)'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 71
+- id: T5
+  url: https://www.ilmiodiariodiviaggio.it/303-roma-toccata-fuga.htm
+  title: Roma, toccata e fuga!
+  publisher: 'Il mio diario di viaggio / Travel365 (off-whitelist: diario personale
+    italiano autentico, libero e direttamente accessibile; scelto perché fornisce
+    prima persona e passato prossimo richiesti dallo slot)'
+  published: '2017-08-22'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 64
+- id: T6
+  url: https://www.comune.parma.it/it/vivere-parma/eventi/notte-europea-dei-musei-2026
+  title: Notte europea dei Musei 2026
+  publisher: 'Comune di Parma (whitelist: altri comuni / practical realia)'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 86
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-15'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, 9 source texts accepted
+  - stage: authoring
+    at: '2026-07-15'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: 43 fragments assembled; format pre-audit pass; L3 sequences relabeled
+      vs 2026-07-14
+  - stage: blind_validation
+    at: '2026-07-15T03:27:55+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

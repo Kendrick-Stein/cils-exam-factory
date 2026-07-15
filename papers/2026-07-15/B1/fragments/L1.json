@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Marco Briano: una vita in musica",
+    "T1_TEXT": "**Il tuo amore per la musica parte da lontano. Com’è nato?**\n\nTutto merito dei miei genitori, in casa giravano continuamente De André, Guccini, De Gregori, Vecchioni. Ascoltavo molto anche I Nomadi, il mio primo concerto è stato il loro, a Rapallo, quando avevo solo quattro anni. Poco dopo cominciai a studiare violino e pianoforte, rispetto ai miei amici ero un po’ una “mosca bianca”. Loro seguivano quello che passava in radio, io restavo sui cantautori.\n\n**Quando hai capito di avere l’orecchio assoluto?**\n\nLa prima volta fu a 14 anni. Durante un saggio musicale, mi accorsi che stavano suonando un brano intero un tono sopra senza strumenti accordati. Ma questa dote fu chiara anche qualche tempo dopo, quando partecipando a un seminario scrissi uno spartito completo di una canzone che non conoscevo. I miei insegnanti non riuscivano a crederci.\n\n**Immagino che non ti serva usare Shazam, nella vita quotidiana.**\n\nPoco, molto poco. Di solito cerco di riconoscere i brani da solo, affidandomi solo al mio orecchio. Solo se non riesco, dopo diversi tentativi, mi affido all’app. I miei amici mi usano come una sorta di “Shazam umano”, si rivolgono spesso a me per sapere il titolo di una canzone.\n\n**Non hai mai pensato di partecipare a un talent show?**\n\nNo, mai. L’unico concorso a cui ho preso parte è stato il Festival di Castrocaro, nel 2014, nella categoria delle voci bianche. Sono arrivato fino alle semifinali e per me è stata un’esperienza bellissima.\n\n**Alla Tv non avevi mai pensato, quindi?**\n\nNo, perché a un certo punto ho interrotto gli studi ma, anche se avessi continuato, non so se mi sarei sentito pronto. Ho sempre avuto un po’ di timore nel cimentarmi in un percorso del genere, pur seguendoli con ammirazione e, lo ammetto, con un pizzico di sana invidia per chi riesce a farcela.\n\n**Qual è il tuo programma preferito?**\n\nX Factor, di cui sono fan da un paio d’anni. Durante il Covid ho ripreso a guardare anche Amici, che da piccolo seguivo quando si chiamava ancora Saranno Famosi. Con Sarabanda, ad ogni modo, ho avuto l’occasione di mettere alla prova le mie competenze musicali anche senza cantare o suonare, non ho rimpianti.\n\n**Cosa farai con i 126mila euro vinti?**\n\nVorrei investirli in una casa, magari per viverci in futuro o da destinare all'affitto. La vittoria è arrivata all’improvviso, ma non è stata un caso, la considero il frutto del mio talento e dell'impegno che ci ho messo.",
+    "L1_ITEMS": "**1. Da bambino Marco...**\n\nA) ascoltava soltanto la musica trasmessa alla radio.\n\nB) si distingueva dagli amici per le sue scelte musicali.\n\nC) aveva iniziato a studiare musica prima del primo concerto.\n\nD) preferiva cantare invece di suonare uno strumento.\n\n**2. A quattordici anni Marco si rese conto...**\n\nA) di saper scrivere lo spartito di ogni canzone.\n\nB) di non conoscere il brano eseguito al seminario.\n\nC) di avere insegnanti molto difficili da convincere.\n\nD) che un brano veniva eseguito un tono più in alto.\n\n**3. Marco usa l’app per riconoscere una canzone...**\n\nA) quando i suoi tentativi personali non hanno successo.\n\nB) quando un amico gli chiede di trovare il titolo.\n\nC) mentre partecipa a un seminario di musica.\n\nD) appena ascolta un brano che non conosce.\n\n**4. Al Festival di Castrocaro Marco...**\n\nA) ha vinto nella categoria delle voci bianche.\n\nB) ha partecipato per la prima volta a un programma televisivo.\n\nC) è arrivato in semifinale e ha apprezzato l’esperienza.\n\nD) ha deciso di interrompere definitivamente gli studi musicali.\n\n**5. Prima di partecipare a Sarabanda, Marco...**\n\nA) considerava inutili i programmi televisivi musicali.\n\nB) temeva di non essere pronto per un percorso in televisione.\n\nC) provava invidia per chi aveva abbandonato gli studi musicali.\n\nD) voleva apparire in un programma senza cantare né suonare.\n\n**6. Sarabanda ha dato a Marco l’occasione...**\n\nA) di tornare a seguire il programma Amici.\n\nB) di riprendere gli studi musicali interrotti.\n\nC) di diventare un concorrente di X Factor.\n\nD) di dimostrare le sue capacità senza esibirsi come musicista.\n\n**7. Con il denaro della vittoria Marco vorrebbe...**\n\nA) comprare una casa da usare personalmente o da affittare.\n\nB) completare gli studi di violino e pianoforte.\n\nC) organizzare un nuovo concerto nella città di Rapallo.\n\nD) partecipare a un altro concorso per giovani cantanti."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | «rispetto ai miei amici ero un po’ una “mosca bianca”» e loro ascoltavano la radio mentre lui restava «sui cantautori». 中文：区别在音乐选择，不在是否学习乐器。 |\n| L1.2 | D | A 14 anni si accorse che «stavano suonando un brano intero un tono sopra». 中文：写完整乐谱发生在之后的一次研讨会。 |\n| L1.3 | A | Dice: «Solo se non riesco, dopo diversi tentativi, mi affido all’app». 中文：先自己尝试多次，失败后才用应用。 |\n| L1.4 | C | Al Festival «Sono arrivato fino alle semifinali» e fu «un’esperienza bellissima». 中文：没有获胜，只进入半决赛。 |\n| L1.5 | B | Marco non sapeva «se mi sarei sentito pronto» e aveva «un po’ di timore nel cimentarmi in un percorso del genere». 中文：他欣赏电视选手，但担心自己没准备好。 |\n| L1.6 | D | Con Sarabanda ha potuto «mettere alla prova le mie competenze musicali anche senza cantare o suonare». 中文：展示的是音乐能力，不需要演唱或演奏。 |\n| L1.7 | A | Vorrebbe investire il premio «in una casa, magari per viverci in futuro o da destinare all'affitto». 中文：房子可以自住，也可以出租。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "D",
+    "L1.3": "A",
+    "L1.4": "C",
+    "L1.5": "B",
+    "L1.6": "D",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mosca bianca",
+      "categoria": "locuzione nominale",
+      "zh": "与众不同的人",
+      "en": "an unusual person; a rarity",
+      "esempio": "rispetto ai miei amici ero un po’ una “mosca bianca”"
+    },
+    {
+      "parola": "orecchio assoluto",
+      "categoria": "locuzione nominale",
+      "zh": "绝对音感",
+      "en": "absolute pitch",
+      "esempio": "Quando hai capito di avere l’orecchio assoluto?"
+    },
+    {
+      "parola": "spartito",
+      "categoria": "sostantivo maschile",
+      "zh": "乐谱",
+      "en": "musical score",
+      "esempio": "scrissi uno spartito completo di una canzone che non conoscevo"
+    },
+    {
+      "parola": "cimentarmi",
+      "categoria": "verbo pronominale",
+      "zh": "尝试；投身于",
+      "en": "to try my hand at",
+      "esempio": "Ho sempre avuto un po’ di timore nel cimentarmi in un percorso del genere"
+    },
+    {
+      "parola": "rimpianti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "遗憾；后悔",
+      "en": "regrets",
+      "esempio": "non ho rimpianti"
+    }
+  ]
+}

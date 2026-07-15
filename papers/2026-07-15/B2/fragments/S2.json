@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "LA TERZA STELLA E UN NUOVO MODO DI CUCINARE",
+    "S2_TEXT_WITH_GAPS": "**Chi è?**\n\nOggi mi *(chiamare)* __chiamo (0)__ Michelangelo Mammoliti.\n\n**Se l'aspettava?**\n\nFinora la terza stella *(assegnare)* __(1)__ una sola volta al ristorante; ogni giorno prima della premiazione non *(aspettarsi)* __(2)__. Ogni volta che ci invitavano, noi non *(sapere)* __(3)__ il motivo. Ci dicevano che il giorno dopo *(scoprire)* __(4)__ se era un premio o un invito di cortesia. Direi una bugia se non lo *(ammettere)* __(5)__: ci speravo.\n\n**La fiducia?**\n\nFinora io *(lavorare)* __(6)__ con rigore. Da quando *(arrivare)* __(7)__ a La Rei Natura, oggi ogni mese *(riassaggiare)* __(8)__ i piatti e *(continuare)* __(9)__ a cercare l'equilibrio perfetto. Finora *(allenare)* __(10)__ il team affinché, durante gli allenamenti di allora, tutti *(assaggiare)* __(11)__ i piatti. Dicevo sempre ai ragazzi che *(dovere)* __(12)__ assaggiare tutto.\n\n**Cosa la preoccupava?**\n\nOgni giorno, allora, non *(pensare)* __(13)__ che io *(avere)* __(14)__ il controllo totale dell'esperienza.\n\n**Perché cambiò ristorante?**\n\nFu due anni fa che *(decidere)* __(15)__ di trasferirmi. In quel periodo, ogni giorno *(sentire)* __(16)__ che, negli anni successivi, quel posto non mi *(permettere)* __(17)__ di avanzare nel lavoro che *(volere)* __(18)__ fare. Cercavo l'eccellenza nella cucina, nel servizio e nell'esperienza d'insieme.\n\n**Cosa è cambiato?**\n\nDa allora fino a oggi *(cambiare)* __(19)__ io: ho iniziato a cucinare per i clienti, non per raggiungere un obiettivo. Ripensando oggi a tutti questi anni, *(divertirsi)* __(20)__ di più."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | è stata assegnata | indicativo, passato prossimo passivo | S2.11 | assaggiassero | congiuntivo imperfetto |\n| S2.2 | me l'aspettavo | indicativo imperfetto | S2.12 | dovevano | indicativo imperfetto |\n| S2.3 | sapevamo | indicativo imperfetto | S2.13 | pensavo | indicativo imperfetto |\n| S2.4 | avremmo scoperto | condizionale passato | S2.14 | avessi | congiuntivo imperfetto |\n| S2.5 | ammettessi | congiuntivo imperfetto | S2.15 | decisi | indicativo passato remoto |\n| S2.6 | ho lavorato | indicativo passato prossimo | S2.16 | sentivo | indicativo imperfetto |\n| S2.7 | sono arrivato | indicativo passato prossimo | S2.17 | avrebbe permesso | condizionale passato |\n| S2.8 | riassaggio | indicativo presente | S2.18 | volevo | indicativo imperfetto |\n| S2.9 | continuo | indicativo presente | S2.19 | sono cambiato | indicativo passato prossimo |\n| S2.10 | ho allenato | indicativo passato prossimo | S2.20 | mi sono divertito | indicativo passato prossimo |",
+    "ANS_S2_NOTES": "- **S2.1–S2.5:** «Finora», «ogni giorno», «Ogni volta» e «Ci dicevano che il giorno dopo» fissano passivo compiuto, imperfetto e futuro nel passato; «Direi… se» richiede il congiuntivo imperfetto. 中文：时间标记和过去视角排除其他时态。\n- **S2.6–S2.10:** «Finora io», «Da quando», «oggi ogni mese» e «Finora» distinguono passato prossimo e presente abituale; la congiunzione «e» coordina «riassaggio» e «continuo». 中文：持续到现在的动作与当下习惯要分开。\n- **S2.11–S2.14:** «durante gli allenamenti di allora» colloca lo scopo nel passato; «Dicevo sempre» e «Ogni giorno, allora, non pensavo che» fissano imperfetto e congiuntivo imperfetto. 中文：明确的过去标记排除现在时虚拟式。\n- **S2.15–S2.18:** la frase scissa «Fu due anni fa che» forza il passato remoto; «ogni giorno» fissa l'imperfetto e «negli anni successivi» colloca nel futuro del passato il risultato atteso. 中文：强调句锁定远过去时，过去视角下的后续结果用过去条件式。\n- **S2.19–S2.20:** «Da allora fino a oggi» fissa il cambiamento compiuto; «Ripensando oggi a tutti questi anni» impone una lettura retrospettiva del divertimento. 中文：回顾完整时期时使用近过去时，反身代词和助动词都写入空格。"
+  },
+  "key": {
+    "S2.1": "è stata assegnata",
+    "S2.2": "me l'aspettavo",
+    "S2.3": "sapevamo",
+    "S2.4": "avremmo scoperto",
+    "S2.5": "ammettessi",
+    "S2.6": "ho lavorato",
+    "S2.7": "sono arrivato",
+    "S2.8": "riassaggio",
+    "S2.9": "continuo",
+    "S2.10": "ho allenato",
+    "S2.11": "assaggiassero",
+    "S2.12": "dovevano",
+    "S2.13": "pensavo",
+    "S2.14": "avessi",
+    "S2.15": "decisi",
+    "S2.16": "sentivo",
+    "S2.17": "avrebbe permesso",
+    "S2.18": "volevo",
+    "S2.19": "sono cambiato",
+    "S2.20": "mi sono divertito"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "invito di cortesia",
+      "categoria": "locuzione nominale",
+      "zh": "礼节性邀请",
+      "en": "courtesy invitation",
+      "esempio": "Ci dicevano che il giorno dopo avremmo scoperto se era un premio o un invito di cortesia."
+    },
+    {
+      "parola": "rigore",
+      "categoria": "nome maschile",
+      "zh": "严谨",
+      "en": "rigour",
+      "esempio": "Finora io ho lavorato con rigore."
+    },
+    {
+      "parola": "equilibrio perfetto",
+      "categoria": "locuzione nominale",
+      "zh": "完美平衡",
+      "en": "perfect balance",
+      "esempio": "Da quando sono arrivato a La Rei Natura, oggi ogni mese riassaggio i piatti e continuo a cercare l'equilibrio perfetto."
+    },
+    {
+      "parola": "esperienza d'insieme",
+      "categoria": "locuzione nominale",
+      "zh": "整体体验",
+      "en": "overall experience",
+      "esempio": "Cercavo l'eccellenza nella cucina, nel servizio e nell'esperienza d'insieme."
+    },
+    {
+      "parola": "raggiungere un obiettivo",
+      "categoria": "locuzione verbale",
+      "zh": "达成目标",
+      "en": "achieve a goal",
+      "esempio": "Da allora fino a oggi sono cambiato io: ho iniziato a cucinare per i clienti, non per raggiungere un obiettivo. Ripensando oggi a tutti questi anni, mi sono divertito di più."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Riapre la strada del Colle dell'Assietta",
+    "T1_TEXT": "Dopo i lavori di manutenzione sulla strada sterrata, mercoledì 1° luglio riapre per l'estate la Strada Provinciale 173 del Colle dell'Assietta, nel tratto di alta montagna. La strada resterà aperta fino al 31 ottobre. Poi chiuderà per l'inverno dal 1° novembre 2026 al 30 giugno 2027. Queste date possono cambiare se le condizioni della strada richiedono altri lavori per rendere sicura la circolazione.\n\nAnche durante l'estate, la strada può chiudere in caso di emergenze, maltempo o neve in anticipo. La strada non è asfaltata, quindi i veicoli possono viaggiare al massimo a 30 chilometri orari. Non possono superare altri veicoli e possono fermarsi solo nei parcheggi segnalati. Inoltre, non possono passare i veicoli con un peso superiore a 3,5 tonnellate o con una larghezza superiore a 2 metri.\n\nNei mesi di luglio e agosto, ogni mercoledì e sabato la strada è completamente chiusa ai veicoli a motore dalle 9 alle 17. C'è però un'eccezione per la Festa del Piemonte del 2026, in programma sabato 18 e domenica 19 luglio. In quei due giorni la regola della chiusura non vale. La riapertura estiva riguarda quindi una strada con orari e limiti precisi, che possono cambiare anche in base al tempo e alle condizioni del percorso.",
+    "L1_ITEMS": "**1. La Strada Provinciale 173 riapre per l'estate**\n\nA) mercoledì 1° luglio.\nB) domenica 19 luglio.\nC) domenica 1° novembre.\n\n**2. Secondo il programma, la strada resta aperta**\n\nA) fino al 30 giugno.\nB) fino al 31 ottobre.\nC) per tutto l'inverno.\n\n**3. Sulla strada i veicoli devono**\n\nA) viaggiare al massimo a 30 chilometri orari.\nB) fermarsi fuori dai parcheggi segnalati.\nC) superare gli altri veicoli con attenzione.\n\n**4. Nei mesi di luglio e agosto la strada è normalmente chiusa ai veicoli a motore**\n\nA) il lunedì e il venerdì dalle 9 alle 17.\nB) il mercoledì e il sabato dalle 17 alle 21.\nC) il mercoledì e il sabato dalle 9 alle 17."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice: «mercoledì 1° luglio riapre per l'estate». 中文：注意区分重新开放日期和节庆日期。 |\n| L1.2 | B | Il testo dice: «resterà aperta fino al 31 ottobre». 中文：冬季关闭从11月1日开始。 |\n| L1.3 | A | Il testo stabilisce: «al massimo a 30 chilometri orari». 中文：另外两项与禁止停车、禁止超车相反。 |\n| L1.4 | C | Il testo indica: «ogni mercoledì e sabato [...] dalle 9 alle 17». 中文：题目问通常规则，不是节庆例外。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "A",
+    "L1.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "strada sterrata",
+      "categoria": "locuzione nominale",
+      "zh": "未铺设柏油的道路",
+      "en": "unpaved road",
+      "esempio": "Dopo i lavori di manutenzione sulla strada sterrata"
+    },
+    {
+      "parola": "manutenzione",
+      "categoria": "nome femminile",
+      "zh": "维护，保养",
+      "en": "maintenance",
+      "esempio": "Dopo i lavori di manutenzione sulla strada sterrata"
+    },
+    {
+      "parola": "circolazione",
+      "categoria": "nome femminile",
+      "zh": "交通，通行",
+      "en": "traffic",
+      "esempio": "per rendere sicura la circolazione"
+    },
+    {
+      "parola": "parcheggi segnalati",
+      "categoria": "locuzione nominale",
+      "zh": "有标识的停车区",
+      "en": "marked parking areas",
+      "esempio": "possono fermarsi solo nei parcheggi segnalati"
+    },
+    {
+      "parola": "eccezione",
+      "categoria": "nome femminile",
+      "zh": "例外",
+      "en": "exception",
+      "esempio": "C'è però un'eccezione per la Festa del Piemonte del 2026"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un'attività di volontariato che hai svolto o che ti piacerebbe svolgere. Racconta dove si svolge, che cosa fanno i volontari, chi hai incontrato o potresti incontrare e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Hai promesso a un'amica di aiutarla a preparare una festa di compleanno. Scrivile un'email per organizzarti.",
+    "W2_REQ_1": "dire in quale giorno e a quale ora puoi arrivare;",
+    "W2_REQ_2": "chiedere quali lavori devi fare;",
+    "W2_REQ_3": "proporre qualcosa da portare per la festa.",
+    "MODEL_W1": "Lo scorso autunno ho fatto volontariato per tre sabati in un rifugio per animali vicino a casa mia. Il mio compito principale era pulire gli spazi dei cani e preparare il loro cibo. All'inizio avevo paura di sbagliare, ma una volontaria esperta mi ha mostrato ogni attività con calma. Ho conosciuto persone di età diverse, tutte unite dall'amore per gli animali. Il momento più bello è stato accompagnare un cane anziano a passeggio nel parco: era timido, però dopo pochi minuti ha cominciato a fidarsi di me. Questa esperienza mi ha insegnato a essere più paziente e responsabile. Vorrei tornare al rifugio, perché aiutare concretamente mi fa sentire utile.",
+    "MODEL_W1_PHRASES": "«Il mio compito principale era…»（我的主要任务是……）; «All'inizio avevo paura di…»（起初我害怕……）; «Il momento più bello è stato…»（最美好的时刻是……）; «Questa esperienza mi ha insegnato a…»（这段经历教会我……）; «Mi fa sentire utile»（让我觉得自己有用）",
+    "MODEL_W2": "Ciao Laura,\n\nper la festa posso venire venerdì alle quattro, subito dopo il corso. Quali lavori devo fare? Posso sistemare le sedie, preparare le decorazioni oppure andare a comprare qualcosa. Pensavo anche di portare una torta al cioccolato fatta da me. Dimmi se va bene o se preferisci che porti delle bibite.\n\nA presto,\nSara",
+    "MODEL_W2_PHRASES": "«Posso venire…»（我可以来……）; «Quali lavori devo fare?»（我需要做哪些工作？）; «Pensavo di portare…»（我想带……）; «Dimmi se va bene»（告诉我这样是否合适）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "rifugio per animali",
+      "categoria": "locuzione nominale",
+      "zh": "动物收容所",
+      "en": "animal shelter",
+      "esempio": "Lo scorso autunno ho fatto volontariato per tre sabati in un rifugio per animali vicino a casa mia."
+    },
+    {
+      "parola": "fidarsi di",
+      "categoria": "verbo pronominale",
+      "zh": "信任",
+      "en": "to trust",
+      "esempio": "Era timido, però dopo pochi minuti ha cominciato a fidarsi di me."
+    },
+    {
+      "parola": "responsabile",
+      "categoria": "aggettivo",
+      "zh": "有责任心的",
+      "en": "responsible",
+      "esempio": "Questa esperienza mi ha insegnato a essere più paziente e responsabile."
+    },
+    {
+      "parola": "sistemare le sedie",
+      "categoria": "locuzione verbale",
+      "zh": "摆放椅子",
+      "en": "to arrange the chairs",
+      "esempio": "Posso sistemare le sedie, preparare le decorazioni oppure andare a comprare qualcosa."
+    },
+    {
+      "parola": "bibite",
+      "categoria": "nome femminile plurale",
+      "zh": "饮料",
+      "en": "soft drinks",
+      "esempio": "Dimmi se va bene o se preferisci che porti delle bibite."
+    }
+  ]
+}

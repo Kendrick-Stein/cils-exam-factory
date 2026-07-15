@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Visite guidate per adulti**\n\n   Biblioteca Civica: visite guidate ogni primo sabato del mese, dalle 15.00 alle 17.00. La biblioteca è in Via Cappello 43, a Verona.\n\n2. **Un mondo di parole**\n\n   Ultimo appuntamento lunedì 25 maggio 2026 alle ore 16.30, con letture in cinese per tutte le età. Il progetto è aperto a tutti.\n\n3. **Sabato agli Audio**\n\n   Dopo la visione c’è un laboratorio creativo. Ogni sabato alle 10.00. I minori devono essere accompagnati. Ingresso libero fino ad esaurimento posti.\n\n4. **Missione scienza**\n\n   Laboratori gratuiti per bambini lunedì 8 giugno, dalle 16.30 alle 18.00. Devi iscriverti. I bambini devono essere accompagnati e seguiti sempre da un adulto.",
+    "L3_OPTIONS": "A. Laboratori gratuiti per bambini, con iscrizione.\n\nB. Letture in cinese per ogni età.\n\nC. Visione e laboratorio il sabato mattina.\n\nD. Visite per adulti il primo sabato pomeriggio.\n\nE. Visite per bambini ogni lunedì.\n\nF. Laboratori gratuiti senza iscrizione."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | D | «primo sabato del mese» e «dalle 15 alle 17». 中文：是每月第一个周六下午的成人导览。 |\n| L3.2 | B | «letture in cinese per tutte le età». 中文：语言和对象与选项完全对应。 |\n| L3.3 | C | «Ogni sabato alle 10» e «visione e laboratorio creativo». 中文：时间是周六上午，活动有观看和创意工作坊。 |\n| L3.4 | A | «Laboratori gratuiti per bambini» e «Devi iscriverti». 中文：活动免费，但必须报名。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "D",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "visite guidate",
+      "categoria": "espressione nominale",
+      "zh": "导览参观",
+      "en": "guided tours",
+      "esempio": "Visite guidate per adulti"
+    },
+    {
+      "parola": "letture in cinese",
+      "categoria": "espressione nominale",
+      "zh": "中文朗读活动",
+      "en": "readings in Chinese",
+      "esempio": "Lunedì 25 maggio, alle 16.30: letture in cinese per tutte le età."
+    },
+    {
+      "parola": "laboratorio creativo",
+      "categoria": "espressione nominale",
+      "zh": "创意工作坊",
+      "en": "creative workshop",
+      "esempio": "Ogni sabato alle 10: visione e laboratorio creativo."
+    },
+    {
+      "parola": "essere accompagnati",
+      "categoria": "espressione verbale",
+      "zh": "由成人陪同",
+      "en": "to be accompanied",
+      "esempio": "I minori devono essere accompagnati."
+    },
+    {
+      "parola": "devi iscriverti",
+      "categoria": "espressione verbale",
+      "zh": "必须报名",
+      "en": "you must register",
+      "esempio": "Devi iscriverti; serve un adulto."
+    }
+  ]
+}

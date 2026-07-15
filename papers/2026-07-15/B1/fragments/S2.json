@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "IL CORAGGIO DI DENUNCIARE E RICOMINCIARE",
+    "S2_TEXT_WITH_GAPS": "Oggi la protagonista *(raccontare)* __racconta (0)__ la sua esperienza.\n\n**Oggi, quando *(ripensare)* __(1)__ al matrimonio, che cosa *(ricordare)* __(2)__?**\n\n«Per anni, ogni notte, mio marito *(tornare)* __(3)__ alle tre e *(cominciare)* __(4)__ sempre a urlare e minacciare. In quel periodo io *(sentirsi)* __(5)__ una nullità».\n\n**Che cosa è successo prima della denuncia?**\n\n«La notte prima della denuncia *(capire)* __(6)__ che potevo morire e *(dire)* __(7)__: “Domani mattina chissà se sarò viva”. In quel momento non sapevo se il giorno dopo *(essere)* __(8)__ ancora viva».\n\n**La mattina dopo che cosa *(fare)* __(9)__?**\n\n«La mattina dopo, appena il sole *(uscire)* __(10)__, *(prendere)* __(11)__ mio figlio e *(correre)* __(12)__ dai carabinieri. Quel giorno loro *(ascoltare)* __(13)__ il mio racconto e *(offrire)* __(14)__ aiuto. “Non sei sola, ci siamo noi”».\n\n**Che cosa è cambiato dopo la denuncia?**\n\n«Subito dopo la denuncia *(cominciare)* __(15)__ a sorridere. Fino a oggi *(trovare)* __(16)__ più tempo per stare con mio figlio».\n\n**Oggi come *(essere)* __(17)__ la sua vita?**\n\n«Adesso *(sorridere)* __(18)__».\n\n**Se incontrasse una donna così, che cosa le *(dire)* __(19)__?**\n\n«All'inizio sarà come salire su una collina, ma una volta arrivata in cima tutto *(essere)* __(20)__ spettacolare»."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ripensa | presente indicativo | S2.11 | ho preso | passato prossimo |\n| S2.2 | ricorda | presente indicativo | S2.12 | sono corsa | passato prossimo |\n| S2.3 | tornava | imperfetto indicativo | S2.13 | hanno ascoltato | passato prossimo |\n| S2.4 | cominciava | imperfetto indicativo | S2.14 | hanno offerto | passato prossimo |\n| S2.5 | mi sentivo | imperfetto indicativo | S2.15 | ho cominciato | passato prossimo |\n| S2.6 | ho capito | passato prossimo | S2.16 | ho trovato | passato prossimo |\n| S2.7 | ho detto | passato prossimo | S2.17 | è | presente indicativo |\n| S2.8 | sarei stata | condizionale passato | S2.18 | sorrido | presente indicativo |\n| S2.9 | ha fatto | passato prossimo | S2.19 | direbbe | condizionale presente |\n| S2.10 | è uscito | passato prossimo | S2.20 | sarà | futuro semplice |",
+    "ANS_S2_NOTES": "- **S2.1–S2.2 — ripensa, ricorda:** la domanda si apre con «Oggi», che impone il presente. 中文：明确的“今天”锁定现在时。\n- **S2.3–S2.5 — tornava, cominciava, mi sentivo:** «Per anni, ogni notte», «sempre» e «In quel periodo» descrivono abitudini e stati passati. 中文：持续与反复标记锁定未完成过去时，反身代词须写在空格内。\n- **S2.6–S2.7 e S2.9–S2.14 — forme al passato prossimo:** «la notte prima della denuncia», «La mattina dopo» e «Quel giorno» delimitano azioni concluse; «io» è la donna intervistata, quindi «sono corsa» è femminile. In S2.13–S2.14 i complementi seguono il participio e non ne determinano l'accordo. 中文：明确的过去事件链锁定近过去时；后置宾语不引起过去分词配合。\n- **S2.8 — sarei stata:** «In quel momento non sapevo se il giorno dopo» presenta un futuro rispetto a un momento passato e forza il condizionale passato; la protagonista è una donna. 中文：过去视角中的将来锁定过去条件式，阴性主语决定 stata。\n- **S2.15–S2.18 — ho cominciato, ho trovato, è, sorrido:** «Subito dopo» indica l'inizio compiuto, «fino a oggi» collega il risultato al presente, mentre «Oggi» e «Adesso» impongono il presente. 中文：完成动作、延续至今的结果与当前状态由时间标记区分。\n- **S2.19–S2.20 — direbbe, sarà:** «Se incontrasse» forza il condizionale; «All'inizio» presenta ciò che avverrà dopo il primo passo e richiede il futuro. 中文：假设条件锁定条件式，后续阶段锁定将来时。"
+  },
+  "key": {
+    "S2.1": "ripensa",
+    "S2.2": "ricorda",
+    "S2.3": "tornava",
+    "S2.4": "cominciava",
+    "S2.5": "mi sentivo",
+    "S2.6": "ho capito",
+    "S2.7": "ho detto",
+    "S2.8": "sarei stata",
+    "S2.9": "ha fatto",
+    "S2.10": "è uscito",
+    "S2.11": "ho preso",
+    "S2.12": "sono corsa",
+    "S2.13": "hanno ascoltato",
+    "S2.14": "hanno offerto",
+    "S2.15": "ho cominciato",
+    "S2.16": "ho trovato",
+    "S2.17": "è",
+    "S2.18": "sorrido",
+    "S2.19": "direbbe",
+    "S2.20": "sarà"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "una nullità",
+      "categoria": "locuzione nominale",
+      "zh": "一无是处的人",
+      "en": "a nobody; a worthless person",
+      "esempio": "In quel periodo io mi sentivo una nullità."
+    },
+    {
+      "parola": "denuncia",
+      "categoria": "nome femminile",
+      "zh": "报案；举报",
+      "en": "police report; complaint",
+      "esempio": "Che cosa è successo la notte prima della denuncia?"
+    },
+    {
+      "parola": "carabiniere",
+      "categoria": "nome maschile",
+      "zh": "宪兵；意大利国家宪兵成员",
+      "en": "Carabinieri officer",
+      "esempio": "Ricordo ancora la frase di un carabiniere."
+    },
+    {
+      "parola": "stare con mio figlio",
+      "categoria": "locuzione verbale",
+      "zh": "和儿子待在一起",
+      "en": "to spend time with my son",
+      "esempio": "Fino a oggi ho trovato più tempo per stare con mio figlio."
+    },
+    {
+      "parola": "arrivata in cima",
+      "categoria": "locuzione verbale",
+      "zh": "到达顶峰",
+      "en": "having reached the top",
+      "esempio": "Una volta arrivata in cima tutto sarà spettacolare."
+    }
+  ]
+}

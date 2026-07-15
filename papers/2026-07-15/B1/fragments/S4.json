@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Ciao Marta, ho saputo che domenica parteciperai alla corsa cittadina. Anch'io sarò in centro: se vuoi, posso aspettarti all'arrivo e poi possiamo pranzare insieme. Fammi sapere entro sabato!»**\nA) È la richiesta di iscrivere Marta a una corsa.\nB) È il rifiuto di partecipare a un pranzo domenicale.\nC) È la proposta di incontrarsi dopo una gara.\nD) È l'avviso dello spostamento di una manifestazione.\n\n**2. «Gentile cliente, durante il controllo della sua bicicletta abbiamo notato che anche la catena deve essere sostituita. Il costo totale sarà quindi di 68 euro. Prima di continuare il lavoro, attendiamo la sua autorizzazione.»**\nA) È la richiesta di approvare una riparazione più costosa del previsto.\nB) È la conferma che una bicicletta riparata è pronta.\nC) È un'offerta per acquistare una bicicletta nuova.\nD) È un reclamo per un lavoro eseguito male.\n\n**3. «Attenzione: il treno regionale 2245 per Parma, previsto alle ore 17.20, partirà eccezionalmente dal binario 7 invece che dal binario 4. I viaggiatori sono pregati di raggiungere subito il nuovo binario.»**\nA) È l'annuncio della cancellazione di un treno regionale.\nB) È la comunicazione di un ritardo nella partenza.\nC) È l'invito ad acquistare un altro biglietto.\nD) È l'avviso di un cambiamento del binario di partenza.\n\n**4. «Buongiorno, sono Laura dell'associazione Mani Aperte. Sabato prepareremo i pacchi alimentari per le famiglie del quartiere e cerchiamo ancora due persone disponibili dalle 9 alle 12. Può darci una mano?»**\nA) È la comunicazione degli orari di distribuzione dei pacchi.\nB) È la richiesta di collaborare a un'attività di volontariato.\nC) È l'offerta di un lavoro pagato per il sabato.\nD) È l'invito a ricevere un pacco alimentare gratuito.\n\n**5. «Ci scusiamo: a causa di un errore nel nostro magazzino, il suo ordine non partirà oggi come previsto, ma lunedì. Le invieremo un messaggio appena il pacco sarà affidato al corriere.»**\nA) È una comunicazione di ritardo nella spedizione di un ordine.\nB) È la conferma che un pacco è stato consegnato.\nC) È la richiesta di correggere l'indirizzo di consegna.\nD) È un avviso sulla chiusura definitiva di un magazzino.\n\n**6. «Avviso ai residenti: mercoledì dalle 8 alle 11 sarà interrotta l'acqua nel palazzo per sostituire una tubatura. Prima dell'inizio dei lavori, vi consigliamo di riempire alcune bottiglie per le necessità della mattina.»**\nA) È un invito a controllare il consumo mensile dell'acqua.\nB) È la segnalazione di una perdita in un appartamento.\nC) È l'avviso di una sospensione temporanea dell'acqua.\nD) È la richiesta di pagare dei lavori condominiali.\n\n**7. «Gentile signor Bassi, si è liberato un posto nel corso serale di fotografia. Se desidera ancora partecipare, confermi l'iscrizione entro domani alle 18; in caso contrario contatteremo la persona successiva in lista.»**\nA) È l'annuncio dell'apertura di un nuovo corso di fotografia.\nB) È la proposta di assegnare un posto diventato disponibile.\nC) È il sollecito a pagare la quota di un corso già iniziato.\nD) È la comunicazione dello spostamento di una lezione serale.\n\n**8. «La informiamo che la carta di credito da lei segnalata come smarrita è stata bloccata. Non potrà più essere utilizzata. La nuova carta sarà spedita al suo indirizzo entro sette giorni lavorativi.»**\nA) È la richiesta di confermare un pagamento con la carta.\nB) È l'avviso che una carta nuova deve essere ritirata in banca.\nC) È il rifiuto di concedere una carta di credito.\nD) È la conferma del blocco e della sostituzione di una carta smarrita.\n\n**9. «Cara Giulia, purtroppo venerdì non posso accompagnarti all'aeroporto perché devo lavorare fino a tardi. Ho però chiesto a mio fratello e lui è disponibile: può passare a prenderti alle sei, se per te va bene.»**\nA) È la richiesta di cambiare l'orario di un volo.\nB) È l'offerta di prestare un'automobile a un'amica.\nC) È il rifiuto di accompagnare un'amica con una soluzione alternativa.\nD) È l'invito a incontrare un familiare all'aeroporto.\n\n**10. «A causa delle forti piogge, lo spettacolo previsto questa sera nel cortile del museo è annullato. Chi ha acquistato il biglietto online riceverà automaticamente il rimborso sulla stessa carta entro cinque giorni.»**\nA) È l'annuncio della cancellazione di uno spettacolo e del rimborso.\nB) È l'avviso dello spostamento di uno spettacolo in uno spazio coperto.\nC) È la proposta di usare un biglietto per un'altra data.\nD) È la richiesta di comprare i biglietti esclusivamente online."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «posso aspettarti all'arrivo» e «possiamo pranzare insieme» esprimono una proposta d'incontro dopo la corsa. 中文：不是邀请参赛，而是约在比赛结束后见面。 |\n| S4.2 | A | La catena richiede un lavoro aggiuntivo e l'officina dice «attendiamo la sua autorizzazione» prima di procedere. 中文：费用变为68欧元，需要客户先同意。 |\n| S4.3 | D | Il treno «partirà eccezionalmente dal binario 7 invece che dal binario 4»: cambia il binario, non l'orario. 中文：发车时间未变，只有站台改变。 |\n| S4.4 | B | L'associazione «cerca ancora due persone disponibili» e domanda «Può darci una mano?». 中文：这是招募志愿者帮忙准备食品包。 |\n| S4.5 | A | L'ordine «non partirà oggi come previsto, ma lunedì», quindi la spedizione subisce un ritardo. 中文：包裹尚未交给快递，不是已经送达。 |\n| S4.6 | C | «sarà interrotta l'acqua ... per sostituire una tubatura» annuncia una sospensione limitata a tre ore. 中文：是临时停水通知，不是漏水报告。 |\n| S4.7 | B | «si è liberato un posto» e la richiesta di confermare entro domani offrono al destinatario un posto disponibile. 中文：收件人原本在候补名单，现在可以获得名额。 |\n| S4.8 | D | La carta smarrita «è stata bloccata» e «La nuova carta sarà spedita», perciò il messaggio conferma blocco e sostituzione. 中文：旧卡停用，新卡将在七个工作日内寄出。 |\n| S4.9 | C | «non posso accompagnarti» rifiuta la richiesta, ma il fratello «è disponibile» come soluzione alternativa. 中文：拒绝亲自送机，同时安排了其他人。 |\n| S4.10 | A | «lo spettacolo ... è annullato» e chi ha pagato online «riceverà automaticamente il rimborso». 中文：活动取消，票款将自动退回。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "A",
+    "S4.6": "C",
+    "S4.7": "B",
+    "S4.8": "D",
+    "S4.9": "C",
+    "S4.10": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "catena",
+      "categoria": "sostantivo",
+      "zh": "链条",
+      "en": "chain",
+      "esempio": "anche la catena deve essere sostituita"
+    },
+    {
+      "parola": "dare una mano",
+      "categoria": "locuzione verbale",
+      "zh": "帮忙",
+      "en": "to lend a hand",
+      "esempio": "Può darci una mano?"
+    },
+    {
+      "parola": "tubatura",
+      "categoria": "sostantivo",
+      "zh": "管道",
+      "en": "pipe",
+      "esempio": "per sostituire una tubatura"
+    },
+    {
+      "parola": "si è liberato un posto",
+      "categoria": "espressione",
+      "zh": "空出了一个名额",
+      "en": "a place has become available",
+      "esempio": "si è liberato un posto nel corso serale di fotografia"
+    },
+    {
+      "parola": "forti piogge",
+      "categoria": "locuzione nominale",
+      "zh": "强降雨",
+      "en": "heavy rain",
+      "esempio": "A causa delle forti piogge"
+    }
+  ]
+}

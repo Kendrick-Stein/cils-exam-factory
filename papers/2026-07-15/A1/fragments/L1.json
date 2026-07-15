@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "MEM - Mediateca del Mediterraneo",
+    "T1_TEXT": "La MEM è un polo culturale che offre servizi informativi gratuiti ai cittadini. È aperta al pubblico dal 2011 e si trova nell’edificio di un vecchio mercato civico. Ha spazi per lo studio e per la ricerca di libri. Ospita l’archivio storico, la biblioteca generale e la biblioteca di studi sardi. Ci sono anche aree per esposizioni, mostre, convegni e proiezioni. Alla MEM è possibile collegarsi gratuitamente a internet, leggere riviste e quotidiani e prendere in prestito libri e materiali multimediali. È possibile partecipare a laboratori per giovani, ragazzi e bambini. Ci sono anche progetti di formazione e corsi di lingua. L’ingresso è libero e gratuito.",
+    "L1_ITEMS": "1. **La MEM offre ai cittadini...**\n   A) servizi informativi gratuiti.\n   B) materiali multimediali da comprare.\n   C) biglietti per le esposizioni.\n\n2. **La MEM è aperta al pubblico...**\n   A) dal 2001.\n   B) dal 2011.\n   C) dal 2021.\n\n3. **La MEM ospita...**\n   A) una scuola per bambini.\n   B) un negozio di riviste.\n   C) una biblioteca di studi sardi.\n\n4. **L’ingresso alla MEM...**\n   A) è libero e gratuito.\n   B) richiede un biglietto a pagamento.\n   C) richiede l’iscrizione a un corso."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice «offre servizi informativi gratuiti ai cittadini»; 注意：“gratuiti” riguarda i servizi. |\n| L1.2 | B | La MEM è «aperta al pubblico dal 2011»; 注意：这是开放年份，不是活动时间。 |\n| L1.3 | C | Il testo nomina «la biblioteca di studi sardi»; 另外两个地点文中没有。 |\n| L1.4 | A | La frase decisiva è «L’ingresso è libero e gratuito»; 注意：参加课程不是入场条件。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "polo culturale",
+      "categoria": "nome maschile",
+      "zh": "文化中心",
+      "en": "cultural centre",
+      "esempio": "La MEM è un polo culturale"
+    },
+    {
+      "parola": "archivio storico",
+      "categoria": "nome maschile",
+      "zh": "历史档案馆",
+      "en": "historical archive",
+      "esempio": "Ospita l’archivio storico"
+    },
+    {
+      "parola": "prendere in prestito",
+      "categoria": "espressione verbale",
+      "zh": "借用",
+      "en": "to borrow",
+      "esempio": "prendere in prestito libri e materiali multimediali"
+    },
+    {
+      "parola": "laboratori",
+      "categoria": "nome plurale",
+      "zh": "工作坊",
+      "en": "workshops",
+      "esempio": "laboratori per giovani, ragazzi e bambini"
+    },
+    {
+      "parola": "libero e gratuito",
+      "categoria": "espressione",
+      "zh": "自由且免费",
+      "en": "free of charge",
+      "esempio": "L’ingresso è libero e gratuito."
+    }
+  ]
+}

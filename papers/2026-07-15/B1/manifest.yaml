@@ -1,0 +1,127 @@
+exam: cils
+level: B1
+session: '2026-07-15'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.fanpage.it/spettacolo/interviste/marco-briano-vincitore-di-sarabanda-cosa-faro-coi-126mila-euro-disgustato-dal-comportamento-di-un-concorrente/
+  title: 'Marco Briano, vincitore di Sarabanda: “Cosa farò coi 126mila euro, disgustato
+    dal comportamento di un concorrente'
+  publisher: Fanpage.it
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 415
+- id: T2
+  url: https://www.comune.parma.it/it/novita/notizie/servizi-educativi-per-linfanzia-apertura-delle-iscrizioni-online-per-lanno-educativo-2026-2027
+  title: 'Servizi Educativi per l''Infanzia: apertura delle iscrizioni online per
+    l’anno educativo 2026/2027'
+  publisher: Comune di Parma
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 306
+- id: T3
+  url: https://morninggaro.wordpress.com/2025/06/28/provenza-moto-itinerario-7-giorni/
+  title: 'Provenza in moto: curve, silenzi e meraviglia condivisa'
+  publisher: Good Morning Garo
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 272
+- id: T4
+  url: https://www.ansa.it/campania/notizie/giffoni_55/2026/07/06/torna-il-giffoni-film-festival-con-il-racconto-delle-cose-impossibili_07f48226-9188-4ff3-9f7d-2c535b2d3082.html
+  title: Torna il Giffoni Film Festival con il racconto delle 'cose impossibili'
+  publisher: ANSA
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 197
+- id: T5
+  url: https://www.rainews.it/tgr/campania/video/2026/03/grazie-a-mio-figlio-ho-trovato-il-coraggio-di-denunciare-e-sono-rinata-storia-violenza-donne-8-marzo-c426f18c-ab8d-492f-a651-399cd4dc06fc.html
+  title: Grazie a mio figlio ho trovato il coraggio di denunciare. E sono rinata
+  publisher: RaiNews TGR Campania
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 178
+- id: T6
+  url: https://www.comune.modena.it/novita/comunicati/2026/giugno/hub-in-polis-si-rinnova-il-bando-rivolto-ai-giovani-tra-idee-e-progetti
+  title: Hub in Polis, si rinnova il bando rivolto ai giovani tra idee e progetti
+  publisher: Comune di Modena
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 181
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-15'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, 6 source texts accepted
+  - stage: authoring
+    at: '2026-07-15'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: 43 fragments assembled; format pre-audit pass; L3 sequences relabeled
+      vs 2026-07-14
+  - stage: blind_validation
+    at: '2026-07-15T03:25:15+00:00'
+    agreement: 86/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:36:53+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:43:01+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-15'
+    executor: fresh codex item-writer per prova (high effort round 2) + partial re-blind
+      (codex exec low)
+    round: 1
+    fixed_items:
+    - S1.7
+    - S2.13
+    - S2.14
+    repaired_prove:
+    - S1
+    - S2
+  - stage: reconcile
+    at: '2026-07-15'
+    executor: fresh codex item-writer per prova (high effort round 2) + partial re-blind
+      (codex exec low)
+    round: 2
+    fixed_items:
+    - S2.8
+    repaired_prove:
+    - S2
+  - stage: format_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
