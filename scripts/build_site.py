@@ -383,15 +383,15 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
         for paper in sorted(papers_by_date[session], key=level_sort_key):
             base = f"papers/{paper.date}/{paper.level}"
             cards.append(
-                f"""      <article class="level-card">
-        <div class="level-card-header">
+                f"""      <article class="level-row">
+        <div class="level-row-info">
           {badge(paper.level)}
           <div>
             <h3>{html.escape(paper.title)}</h3>
             <p>{paper.source_count} testi autentici verificati</p>
           </div>
         </div>
-        <div class="level-card-downloads">
+        <div class="level-row-downloads">
           {link_group(out_root, base, "paper", "Fascicolo")}
           {link_group(out_root, base, "answers", "Chiavi e commenti")}
         </div>
@@ -408,7 +408,7 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
         <h2>{html.escape(session)}</h2>
       </div>{latest_badge}
     </div>
-    <div class="level-grid">
+    <div class="level-list">
 {level_cards}
     </div>
   </section>"""
