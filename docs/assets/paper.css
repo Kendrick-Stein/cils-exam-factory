@@ -239,6 +239,30 @@ em {
   color: #343a37;
 }
 
+.fonti {
+  margin-top: 2rem;
+  padding-top: 0.4rem;
+  border-top: 3px solid var(--strong-line);
+}
+
+.fonti h2 {
+  margin-top: 0.6rem;
+}
+
+.fonti p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.fonti li {
+  margin: 0.55rem 0;
+  font-size: 0.9rem;
+}
+
+.fonti a {
+  word-break: break-all;
+}
+
 .badge {
   display: inline-block;
   min-width: 2.3rem;
@@ -487,5 +511,32 @@ em {
   li,
   tr {
     break-inside: avoid;
+  }
+
+  /* Source credits close the chiavi booklet on their own page. */
+  .fonti {
+    break-before: page;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .fonti h2 {
+    margin-top: 0;
+    padding: 0.4rem 0;
+    border-top: 2pt solid #000;
+    border-bottom: 0.75pt solid #000;
+    font-size: 13.5pt;
+    text-transform: uppercase;
+  }
+
+  .fonti p,
+  .fonti li {
+    color: #000000;
+    font-size: 9.5pt;
+  }
+
+  .fonti a {
+    word-break: break-all;
   }
 }
