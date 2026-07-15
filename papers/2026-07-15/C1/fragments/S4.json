@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "Premessa all'istituzione del sistema SFeRA",
+    "T7_TEXT": "Nelle more della definizione del provvedimento istitutivo di SFeRA, è necessario anticipare ai soggetti titolari delegati gli elementi informativi e tecnico-amministrativi. Tali elementi consentiranno l'avvio delle attività di analisi, progettazione e adeguamento dei rispettivi sistemi informativi. In tale quadro, gli articoli 13, 14, 15 e 16 del decreto legislativo 14 settembre 2015, n. 150 prevedono l'istituzione del sistema. SFeRA raccoglierà e rilascerà, nell'ambito del Fascicolo elettronico del lavoratore, le informazioni relative ai percorsi formativi e di apprendimento degli individui. L'architettura del costituendo sistema valorizza la cooperazione applicativa e l'integrazione delle basi informative già esistenti. Il principio adottato prevede la raccolta unica del dato e il suo riutilizzo per molteplici finalità istituzionali. Questa impostazione mira a ridurre progressivamente le duplicazioni informative e gli adempimenti amministrativi a carico dei soggetti conferenti.",
+    "S4_SOURCE_0": "Nelle more della definizione del provvedimento istitutivo di SFeRA, è necessario anticipare ai soggetti titolari delegati gli elementi informativi e tecnico-amministrativi.",
+    "S4_REWRITE_0": "L'ANTICIPAZIONE AI SOGGETTI TITOLARI DELEGATI DEGLI ELEMENTI INFORMATIVI E TECNICO-AMMINISTRATIVI È NECESSARIA NELLE MORE DELLA DEFINIZIONE DEL PROVVEDIMENTO ISTITUTIVO DI SFERA.",
+    "S4_ITEMS": "**1. Tali elementi consentiranno l'avvio delle attività di analisi, progettazione e adeguamento dei rispettivi sistemi informativi.**\n\n→ L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI …………………………………\n\n**2. In tale quadro, gli articoli 13, 14, 15 e 16 del decreto legislativo 14 settembre 2015, n. 150 prevedono l'istituzione del sistema.**\n\n→ L'ISTITUZIONE DEL SISTEMA, IN TALE QUADRO, È PREVISTA DAGLI ARTICOLI …………………………………\n\n**3. SFeRA raccoglierà e rilascerà, nell'ambito del Fascicolo elettronico del lavoratore, le informazioni relative ai percorsi formativi e di apprendimento degli individui.**\n\n→ LE INFORMAZIONI RELATIVE AI PERCORSI FORMATIVI E DI APPRENDIMENTO DEGLI INDIVIDUI SARANNO RACCOLTE E RILASCIATE …………………………………\n\n**4. L'architettura del costituendo sistema valorizza la cooperazione applicativa e l'integrazione delle basi informative già esistenti.**\n\n→ LA COOPERAZIONE APPLICATIVA E L'INTEGRAZIONE DELLE BASI INFORMATIVE GIÀ ESISTENTI SONO VALORIZZATE …………………………………\n\n**5. Il principio adottato prevede la raccolta unica del dato e il suo riutilizzo per molteplici finalità istituzionali.**\n\n→ LA RACCOLTA UNICA DEL DATO E IL SUO RIUTILIZZO PER MOLTEPLICI FINALITÀ ISTITUZIONALI SONO PREVISTI …………………………………\n\n**6. Questa impostazione mira a ridurre progressivamente le duplicazioni informative e gli adempimenti amministrativi a carico dei soggetti conferenti.**\n\n→ LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI …………………………………"
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI SARÀ CONSENTITO DA TALI ELEMENTI. |\n| S4.2 | L'ISTITUZIONE DEL SISTEMA, IN TALE QUADRO, È PREVISTA DAGLI ARTICOLI 13, 14, 15 E 16 DEL DECRETO LEGISLATIVO 14 SETTEMBRE 2015, N. 150. |\n| S4.3 | LE INFORMAZIONI RELATIVE AI PERCORSI FORMATIVI E DI APPRENDIMENTO DEGLI INDIVIDUI SARANNO RACCOLTE E RILASCIATE DA SFERA NELL'AMBITO DEL FASCICOLO ELETTRONICO DEL LAVORATORE. |\n| S4.4 | LA COOPERAZIONE APPLICATIVA E L'INTEGRAZIONE DELLE BASI INFORMATIVE GIÀ ESISTENTI SONO VALORIZZATE DALL'ARCHITETTURA DEL COSTITUENDO SISTEMA. |\n| S4.5 | LA RACCOLTA UNICA DEL DATO E IL SUO RIUTILIZZO PER MOLTEPLICI FINALITÀ ISTITUZIONALI SONO PREVISTI DAL PRINCIPIO ADOTTATO. |\n| S4.6 | LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI È L'OBIETTIVO DI QUESTA IMPOSTAZIONE. |",
+    "ANS_S4_NOTES": "**Note sulle varianti e sugli errori tipici**\n\n- **S4.1–S4.2:** in S4.1 sono equivalenti «sarà consentito» e «sarà reso possibile»; in S4.2 devono essere conservati tutti i riferimenti normativi. 中文注：第一题两种被动表达均可；第二题不得遗漏法规编号或日期。\n- **S4.3–S4.4:** il passivo deve mantenere SFeRA come agente della raccolta e del rilascio e l'architettura del sistema come agente della valorizzazione. 中文注：变为被动句后，两个动作的施事都不能改变。\n- **S4.5–S4.6:** in S4.5 «previsti» concorda al maschile plurale con due nomi di genere diverso; in S4.6 «mira a» esprime un obiettivo, non un risultato già conseguito. 中文注：第五题混合性别的并列主语用阳性复数；第六题不能写成已经实现的结果。"
+  },
+  "key": {
+    "S4.1": "L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI SARÀ CONSENTITO DA TALI ELEMENTI. || L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI SARÀ CONSENTITO DA TALI ELEMENTI || L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI SARÀ RESO POSSIBILE DA TALI ELEMENTI. || L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI SARÀ RESO POSSIBILE DA TALI ELEMENTI || L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI VERRÀ CONSENTITO DA TALI ELEMENTI. || L'AVVIO DELLE ATTIVITÀ DI ANALISI, PROGETTAZIONE E ADEGUAMENTO DEI RISPETTIVI SISTEMI INFORMATIVI VERRÀ CONSENTITO DA TALI ELEMENTI",
+    "S4.2": "L'ISTITUZIONE DEL SISTEMA, IN TALE QUADRO, È PREVISTA DAGLI ARTICOLI 13, 14, 15 E 16 DEL DECRETO LEGISLATIVO 14 SETTEMBRE 2015, N. 150. || L'ISTITUZIONE DEL SISTEMA, IN TALE QUADRO, È PREVISTA DAGLI ARTICOLI 13, 14, 15 E 16 DEL DECRETO LEGISLATIVO 14 SETTEMBRE 2015, N. 150",
+    "S4.3": "LE INFORMAZIONI RELATIVE AI PERCORSI FORMATIVI E DI APPRENDIMENTO DEGLI INDIVIDUI SARANNO RACCOLTE E RILASCIATE DA SFERA NELL'AMBITO DEL FASCICOLO ELETTRONICO DEL LAVORATORE. || LE INFORMAZIONI RELATIVE AI PERCORSI FORMATIVI E DI APPRENDIMENTO DEGLI INDIVIDUI SARANNO RACCOLTE E RILASCIATE DA SFERA NELL'AMBITO DEL FASCICOLO ELETTRONICO DEL LAVORATORE || LE INFORMAZIONI RELATIVE AI PERCORSI FORMATIVI E DI APPRENDIMENTO DEGLI INDIVIDUI SARANNO RACCOLTE E RILASCIATE NELL'AMBITO DEL FASCICOLO ELETTRONICO DEL LAVORATORE DA SFERA. || LE INFORMAZIONI RELATIVE AI PERCORSI FORMATIVI E DI APPRENDIMENTO DEGLI INDIVIDUI SARANNO RACCOLTE E RILASCIATE NELL'AMBITO DEL FASCICOLO ELETTRONICO DEL LAVORATORE DA SFERA",
+    "S4.4": "LA COOPERAZIONE APPLICATIVA E L'INTEGRAZIONE DELLE BASI INFORMATIVE GIÀ ESISTENTI SONO VALORIZZATE DALL'ARCHITETTURA DEL COSTITUENDO SISTEMA. || LA COOPERAZIONE APPLICATIVA E L'INTEGRAZIONE DELLE BASI INFORMATIVE GIÀ ESISTENTI SONO VALORIZZATE DALL'ARCHITETTURA DEL COSTITUENDO SISTEMA",
+    "S4.5": "LA RACCOLTA UNICA DEL DATO E IL SUO RIUTILIZZO PER MOLTEPLICI FINALITÀ ISTITUZIONALI SONO PREVISTI DAL PRINCIPIO ADOTTATO. || LA RACCOLTA UNICA DEL DATO E IL SUO RIUTILIZZO PER MOLTEPLICI FINALITÀ ISTITUZIONALI SONO PREVISTI DAL PRINCIPIO ADOTTATO",
+    "S4.6": "LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI È L'OBIETTIVO DI QUESTA IMPOSTAZIONE. || LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI È L'OBIETTIVO DI QUESTA IMPOSTAZIONE || LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI COSTITUISCE L'OBIETTIVO DI QUESTA IMPOSTAZIONE. || LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI COSTITUISCE L'OBIETTIVO DI QUESTA IMPOSTAZIONE || LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI RAPPRESENTA L'OBIETTIVO DI QUESTA IMPOSTAZIONE. || LA RIDUZIONE PROGRESSIVA DELLE DUPLICAZIONI INFORMATIVE E DEGLI ADEMPIMENTI AMMINISTRATIVI A CARICO DEI SOGGETTI CONFERENTI RAPPRESENTA L'OBIETTIVO DI QUESTA IMPOSTAZIONE"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Nelle more",
+      "categoria": "locuzione prepositiva",
+      "zh": "在等待……期间",
+      "en": "pending",
+      "esempio": "Nelle more della definizione del provvedimento istitutivo di SFeRA, è necessario anticipare ai soggetti titolari delegati gli elementi informativi e tecnico-amministrativi."
+    },
+    {
+      "parola": "provvedimento istitutivo",
+      "categoria": "locuzione nominale",
+      "zh": "设立性法令",
+      "en": "establishing measure",
+      "esempio": "Nelle more della definizione del provvedimento istitutivo di SFeRA, è necessario anticipare ai soggetti titolari delegati gli elementi informativi e tecnico-amministrativi."
+    },
+    {
+      "parola": "cooperazione applicativa",
+      "categoria": "locuzione nominale",
+      "zh": "应用系统协作",
+      "en": "application interoperability",
+      "esempio": "L'architettura del costituendo sistema valorizza la cooperazione applicativa e l'integrazione delle basi informative già esistenti."
+    },
+    {
+      "parola": "raccolta unica del dato",
+      "categoria": "locuzione amministrativa",
+      "zh": "数据一次采集",
+      "en": "single collection of data",
+      "esempio": "Il principio adottato prevede la raccolta unica del dato e il suo riutilizzo per molteplici finalità istituzionali."
+    },
+    {
+      "parola": "soggetti conferenti",
+      "categoria": "locuzione nominale",
+      "zh": "数据提供主体",
+      "en": "contributing entities",
+      "esempio": "Questa impostazione mira a ridurre progressivamente le duplicazioni informative e gli adempimenti amministrativi a carico dei soggetti conferenti."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "ESTATE SICURA CONTRO IL CALDO",
+    "S3_TEXT_WITH_GAPS": "Estate sicura aiuta durante il caldo __(0)__. Resta __(1)__ fino al 15 settembre. Dal lunedì al venerdì si può __(2)__ il numero verde dalle 8.30 alle 13; il lunedì e giovedì anche nel __(3)__, dalle 14.30 alle 18. Dopo l'orario si può lasciare un __(4)__ per essere ricontattati. In emergenza bisogna chiamare il 112. Lo Sportello ascolta gli anziani che si sentono __(5)__. Mette le persone in __(6)__ con i servizi sociali o sanitari e informa quando sono __(7)__ farmacie e servizi comunali. Se necessario, attiva un servizio che può __(8)__ subito.",
+    "S3_OPT0_A": "estivo",
+    "S3_OPT0_B": "invernale",
+    "S3_OPT0_C": "notturno",
+    "S3_OPTION_ROWS": "| 1. | attivo | sospeso | chiuso |\n| 2. | leggere | chiamare | chiudere |\n| 3. | mattino | pomeriggio | sera |\n| 4. | ombrello | pranzo | messaggio |\n| 5. | soli | accompagnati | vicini |\n| 6. | ordine | contatto | pericolo |\n| 7. | caldi | soli | aperti |\n| 8. | riposare | intervenire | aspettare |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «Resta attivo fino al 15 settembre»: attivo indica che il servizio funziona. 中文：后文列出电话和服务时间，排除 sospeso 和 chiuso。 |\n| S3.2 | B | «si può chiamare il numero verde»: con un numero telefonico si usa chiamare. 中文：固定搭配 chiamare un numero。 |\n| S3.3 | B | «dalle 14.30 alle 18» indica il pomeriggio. 中文：时间范围直接排除 mattino 和 sera。 |\n| S3.4 | C | «lasciare un messaggio per essere ricontattati»: il messaggio permette allo Sportello di richiamare. 中文：留言后等待回电。 |\n| S3.5 | A | «gli anziani che si sentono soli»: soli descrive la difficoltà per cui lo Sportello offre ascolto. 中文：语境是面向需要倾听的老人。 |\n| S3.6 | B | «Mette le persone in contatto con i servizi» è la locuzione corretta. 中文：in contatto con 是固定搭配。 |\n| S3.7 | C | «informa quando sono aperti farmacie e servizi comunali» riguarda gli orari. 中文：quando 提示营业时间，因此选 aperti。 |\n| S3.8 | B | «attiva un servizio che può intervenire subito» riprende l'idea del pronto intervento. 中文：subito 与 servizio 表明需要迅速介入。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "B",
+    "S3.4": "C",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "numero verde",
+      "categoria": "locuzione nominale",
+      "zh": "免费服务热线",
+      "en": "toll-free number",
+      "esempio": "Dal lunedì al venerdì si può chiamare il numero verde dalle 8.30 alle 13."
+    },
+    {
+      "parola": "essere ricontattati",
+      "categoria": "locuzione verbale",
+      "zh": "被再次联系",
+      "en": "to be contacted again",
+      "esempio": "Dopo l'orario si può lasciare un messaggio per essere ricontattati."
+    },
+    {
+      "parola": "In emergenza",
+      "categoria": "locuzione",
+      "zh": "在紧急情况下",
+      "en": "in case of emergency",
+      "esempio": "In emergenza bisogna chiamare il 112."
+    },
+    {
+      "parola": "gli anziani",
+      "categoria": "locuzione nominale",
+      "zh": "老年人",
+      "en": "older people",
+      "esempio": "Lo Sportello ascolta gli anziani che si sentono soli."
+    },
+    {
+      "parola": "Mette le persone in contatto",
+      "categoria": "locuzione verbale",
+      "zh": "让人们取得联系",
+      "en": "to put people in touch",
+      "esempio": "Mette le persone in contatto con i servizi sociali o sanitari e informa quando sono aperti farmacie e servizi comunali."
+    }
+  ]
+}

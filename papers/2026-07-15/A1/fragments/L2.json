@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Biblioteca Comunale Villa Trabia",
+    "T2_TEXT": "La Biblioteca Comunale Villa Trabia si trova al piano terra della Casena di Villa Trabia alle Terre Rosse. È dentro un grande parco di circa 60.000 metri quadri. I materiali sono su scaffali aperti. Gli utenti possono accedere facilmente ai materiali. La biblioteca ha anche una raccolta importante di musica e video. Gli spazi e il bagno sono accessibili alle persone con disabilità. L'indirizzo è via Salinas 3, a Palermo. La biblioteca è aperta dal lunedì al venerdì, dalle 8.30 alle 18.00. Il sabato e la domenica è chiusa. Per controllare gli orari, è meglio visitare il sito ufficiale. L'ingresso è libero.",
+    "L2_ITEMS": "1. La biblioteca è al primo piano.\n   Vero ○ Falso ○\n\n2. La biblioteca è dentro un parco di circa 60.000 metri quadri.\n   Vero ○ Falso ○\n\n3. Per gli utenti è difficile accedere ai materiali.\n   Vero ○ Falso ○\n\n4. La biblioteca ha una raccolta di musica e video.\n   Vero ○ Falso ○\n\n5. Il bagno è accessibile alle persone con disabilità.\n   Vero ○ Falso ○\n\n6. La biblioteca è in via Salinas 5.\n   Vero ○ Falso ○\n\n7. La biblioteca è aperta il sabato e la domenica.\n   Vero ○ Falso ○\n\n8. Per entrare non bisogna pagare.\n   Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Falso | «si trova al piano terra»; 中文：题目把底层改成了第一层。 |\n| L2.2 | Vero | «un grande parco di circa 60.000 metri quadri»; 中文：地点和面积都与原文一致。 |\n| L2.3 | Falso | «possono accedere facilmente ai materiali»; 中文：题目把“容易”改成了“困难”。 |\n| L2.4 | Vero | «una raccolta importante di musica e video»; 中文：两种资料都在原文中明确出现。 |\n| L2.5 | Vero | «Gli spazi e il bagno sono accessibili alle persone con disabilità»; 中文：原文明确信息无障碍。 |\n| L2.6 | Falso | «via Salinas 3»; 中文：题目把门牌号3改成了5。 |\n| L2.7 | Falso | «Il sabato e la domenica è chiusa»; 中文：周末闭馆，不是开放。 |\n| L2.8 | Vero | «L'ingresso è libero»; 中文：免费进入，不需要付费。 |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "piano terra",
+      "categoria": "locuzione nominale",
+      "zh": "底层；一楼",
+      "en": "ground floor",
+      "esempio": "si trova al piano terra"
+    },
+    {
+      "parola": "scaffali aperti",
+      "categoria": "locuzione nominale",
+      "zh": "开放式书架",
+      "en": "open shelves",
+      "esempio": "I materiali sono su scaffali aperti."
+    },
+    {
+      "parola": "accessibili",
+      "categoria": "aggettivo",
+      "zh": "无障碍的；可进入的",
+      "en": "accessible",
+      "esempio": "Gli spazi e il bagno sono accessibili alle persone con disabilità."
+    },
+    {
+      "parola": "orari",
+      "categoria": "nome maschile plurale",
+      "zh": "开放时间；时刻表",
+      "en": "opening hours; schedules",
+      "esempio": "Per controllare gli orari, è meglio visitare il sito ufficiale."
+    },
+    {
+      "parola": "ingresso libero",
+      "categoria": "locuzione nominale",
+      "zh": "免费入场",
+      "en": "free admission",
+      "esempio": "L'ingresso è libero."
+    }
+  ]
+}

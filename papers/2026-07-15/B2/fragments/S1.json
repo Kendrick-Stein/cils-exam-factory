@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "I PROCIONI RISOLVONO ENIGMI ANCHE SENZA PREMI",
+    "S1_TEXT_WITH_GAPS": "__Questi (0)__ animali formano poche popolazioni sparse, alcune delle __(1)__ vivono tra Lombardia e Toscana. La ragione per la __(2)__, diversamente da __(3)__ vive negli Stati Uniti, non siamo abituati ai __(4)__ scherzetti è la scarsa presenza. La curiosità per la __(5)__ sono famosi emerge dalla passione per i bidoni della spazzatura.\n\nUno studio descrive la loro curiosità, dalla __(6)__ nasce una spinta più impellente di __(7)__ legata al cibo. Gli autori, i __(8)__ hanno studiato i procioni, dimostrano che si divertono a risolvere enigmi. Anche senza cibo, __(9)__ ricavano la soddisfazione di trovare la soluzione. Puzzle al __(10)__ posto; premio al secondo.\n\nIl team ha condotto lo studio, nel __(11)__ ha messo alla prova dei procioni, ai __(12)__ ha proposto un puzzle box. Era una scatola nella __(13)__ si trovava un marshmallow, del __(14)__ questi animali vanno ghiotti. La scatola aveva nove ingressi, ciascuno dei __(15)__ era sbarrato da un enigma. Alcuni meccanismi erano semplici; gli __(16)__ erano più complessi e prevedevano leve e porte scorrevoli. Le categorie erano tre: la __(17)__ era «facile», la seconda «media» e la terza «difficile».\n\nTutti i presenti si aspettavano che i procioni risolvessero i puzzle, perciò __(18)__ rimase sorpreso dal risultato. I ricercatori, però, osservarono un comportamento che __(19)__ stupì: recuperato il marshmallow, gli animali continuarono a cimentarsi negli enigmi. Alcuni esemplari risolsero addirittura tutti e nove i puzzle, benché avessero già ottenuto il premio. Il box non __(20)__ conteneva altri."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | quali | S1.11 | quale |\n| S1.2 | quale | S1.12 | quali |\n| S1.3 | chi | S1.13 | quale |\n| S1.4 | loro | S1.14 | quale |\n| S1.5 | quale | S1.15 | quali |\n| S1.6 | quale | S1.16 | altri |\n| S1.7 | quella | S1.17 | prima |\n| S1.8 | quali | S1.18 | nessuno |\n| S1.9 | ne | S1.19 | li |\n| S1.10 | primo | S1.20 | ne |",
+    "ANS_S1_NOTES": "**Note sulle scelte insidiose.**\n\n- **S1.1/S1.2/S1.5/S1.6/S1.8/S1.11–S1.15 — quale/quali:** articoli e preposizioni sono già stampati in «delle quali», «per la quale», «dalla quale», «i quali», «nel quale», «ai quali», «nella quale», «del quale» e «ciascuno dei quali». 中文：介词和冠词已在空格外，只填 *quale/quali*。\n- **S1.3/S1.4 — chi/loro:** «chi vive» non ha un antecedente espresso; «i loro scherzetti» appartengono ai procioni, non a «noi italiani». 中文：无先行词关系代词和物主对象分别锁定答案。\n- **S1.7/S1.9/S1.10 — quella/ne/primo:** «più impellente di quella» evita di ripetere *spinta*; «ne ricavano» riprende il risolvere enigmi; fra due elementi, il premio è esplicitamente «il secondo», quindi il puzzle occupa «il primo posto». 中文：比较、省略回指和明确排名共同排除其他形式。\n- **S1.16/S1.17/S1.18 — altri/prima/nessuno:** «Alcuni… gli altri», «la prima… la seconda… la terza» e «Tutti… perciò nessuno» sono correlazioni esplicite. 中文：成对结构、序数顺序和全称前提使答案唯一。\n- **S1.19/S1.20 — li/ne:** *Li* riprende «i ricercatori» come oggetto di *stupì*; «non ne conteneva altri» sostituisce *premi* dopo che il testo ha indicato l'unica ricompensa. 中文：直接宾语和部分代词分别由先行词及数量信息锁定。"
+  },
+  "key": {
+    "S1.1": "quali",
+    "S1.2": "quale",
+    "S1.3": "chi",
+    "S1.4": "loro",
+    "S1.5": "quale",
+    "S1.6": "quale",
+    "S1.7": "quella",
+    "S1.8": "quali",
+    "S1.9": "ne",
+    "S1.10": "primo",
+    "S1.11": "quale",
+    "S1.12": "quali",
+    "S1.13": "quale",
+    "S1.14": "quale",
+    "S1.15": "quali",
+    "S1.16": "altri",
+    "S1.17": "prima",
+    "S1.18": "nessuno",
+    "S1.19": "li",
+    "S1.20": "ne"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "popolazioni sparse",
+      "categoria": "locuzione nominale",
+      "zh": "分散的种群",
+      "en": "scattered populations",
+      "esempio": "Questi animali formano poche popolazioni sparse."
+    },
+    {
+      "parola": "impellente",
+      "categoria": "aggettivo",
+      "zh": "迫切的；强烈的",
+      "en": "compelling",
+      "esempio": "Uno studio descrive la loro curiosità, dalla quale nasce una spinta più impellente di quella legata al cibo."
+    },
+    {
+      "parola": "vanno ghiotti",
+      "categoria": "locuzione verbale",
+      "zh": "非常爱吃",
+      "en": "are very fond of",
+      "esempio": "Era una scatola nella quale si trovava un marshmallow, del quale questi animali vanno ghiotti."
+    },
+    {
+      "parola": "sbarrato",
+      "categoria": "aggettivo",
+      "zh": "被挡住的；被封住的",
+      "en": "blocked",
+      "esempio": "La scatola aveva nove diversi ingressi, ciascuno dei quali era sbarrato da un enigma."
+    },
+    {
+      "parola": "cimentarsi",
+      "categoria": "verbo pronominale",
+      "zh": "尝试应对；挑战",
+      "en": "to try one's hand at",
+      "esempio": "Recuperato il marshmallow, gli animali continuarono a cimentarsi negli enigmi."
+    }
+  ]
+}

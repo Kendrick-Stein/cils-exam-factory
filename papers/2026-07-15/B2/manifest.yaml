@@ -1,0 +1,150 @@
+exam: cils
+level: B2
+session: '2026-07-15'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.wired.it/article/caffe-a-ultrasuoni-che-si-prepara-senza-acqua-calda/
+  title: Il caffè a ultrasuoni che si prepara senza bisogno di acqua calda
+  publisher: Wired Italia
+  published: '2026-06-22'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 556
+- id: T2
+  url: https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0baac5e82b284205a9cd1b6b004b89ef
+  title: Concorso per esami per la copertura di n. 4 posti di agente di polizia locale
+  publisher: inPA — Portale del Reclutamento, Dipartimento della Funzione Pubblica
+  published: '2026-07-10'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 491
+- id: T3
+  url: https://www.viaggiapiccoli.com/vacanza-in-sicilia-occidentale-con-i-bambini/
+  title: 'Sicilia occidentale con i bambini: il nostro viaggio, tappa dopo tappa'
+  publisher: Viaggiapiccoli
+  published: '2026-01-24'
+  accessed: '2026-07-15'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 352
+- id: T4
+  url: https://www.focus.it/ambiente/animali/ai-procioni-piace-risolvere-gli-enigmi
+  title: Ai procioni piace risolvere gli enigmi per il gusto di trovare la soluzione
+  publisher: Focus.it
+  published: '2026-04-06'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 218
+- id: T5
+  url: https://www.dissapore.com/chef/michelangelo-mammoliti-da-quando-sono-cambiato-io-mi-sono-divertito-di-piu-intervista-al-nuovo-tre-stelle-michelin/
+  title: 'Michelangelo Mammoliti, nuovo tre stelle Michelin: la nostra intervista'
+  publisher: Dissapore
+  published: '2025-11-20'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 198
+- id: T6
+  url: https://www.comune.firenze.it/novita/area-stampa/comunicati-stampa/protezione-civile-piano-straordinario-di-assistenza-ai
+  title: Protezione civile, piano straordinario di assistenza ai viaggiatori per la
+    chiusura di Ponte al Pino
+  publisher: Città di Firenze
+  published: '2026-07-03'
+  accessed: '2026-07-15'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 201
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-15'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, 6 source texts accepted
+  - stage: authoring
+    at: '2026-07-15'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: 43 fragments assembled; format pre-audit pass; L3 sequences relabeled
+      vs 2026-07-14
+  - stage: blind_validation
+    at: '2026-07-15T03:25:15+00:00'
+    agreement: 84/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:36:53+00:00'
+    agreement: 85/87
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:38:23+00:00'
+    agreement: 85/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:43:01+00:00'
+    agreement: 87/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-15T03:43:33+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-15'
+    executor: fresh codex item-writer per prova (high effort round 2) + partial re-blind
+      (codex exec low)
+    round: 1
+    fixed_items:
+    - S1.2
+    - S2.8
+    - S2.11
+    - S2.20
+    repaired_prove:
+    - S1
+    - S2
+  - stage: reconcile
+    at: '2026-07-15'
+    executor: fresh codex item-writer per prova (high effort round 2) + partial re-blind
+      (codex exec low)
+    round: 2
+    fixed_items:
+    - S1.10
+    - S2.6
+    - S2.4
+    repaired_prove:
+    - S1
+    - S2
+  - stage: reconcile_note
+    at: '2026-07-15'
+    note: Out-of-scope extract flags (W/L sections absent from per-prova extracts)
+      stripped before merge.
+  - stage: format_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-15T03:44:03+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

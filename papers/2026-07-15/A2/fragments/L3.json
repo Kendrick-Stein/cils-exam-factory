@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ 1. **Biglietti agli amici**\n\n   Dal 23 al 25 giugno 2026, in Piazza sull’Acqua vicino al Ponte di Tiberio, si possono ascoltare racconti, suoni e voci. L’evento...\n\n○ 2. **Un aiuto per andare al mare**\n\n   Il servizio è rivolto a persone con grave malattia neurodegenerativa, ventilazione meccanica assistita o bisogno di sostegno intensivo. Inoltre...\n\n○ 3. **Servizio civile regionale**\n\n   Il co-progetto per giovani dai 18 ai 29 anni dura otto mesi e richiede cento ore mensili flessibili. In pratica, l’impegno...\n\n○ 4. **Riaprono i campi sportivi**\n\n   Da sabato 4 luglio, nella zona sportiva Rio Vallarsa di Laives, ci sarà una doppia apertura. La riapertura...\n\n○ 5. **Ascensori con orari ridotti**\n\n   Dal 1° luglio 2026 alcuni ascensori pubblici di Cagliari avranno chiusure parziali per il caldo. In particolare...\n\n○ 6. **Contributi per i centri estivi**\n\n   Per sostenere le spese di iscrizione e frequenza nell’estate 2026, sono stati pubblicati gli avvisi per chiedere un contributo. La domanda...",
+    "L3_OPTIONS": "A. riguarda i campi da beach volley e il percorso Kneipp, che saranno di nuovo in funzione.\n\nB. deve essere presentata entro il 30 giugno per ottenere un aiuto economico sulle spese estive.\n\nC. è gratuito e comincia alle 20.00, nelle tre serate da martedì 23 a giovedì 25 giugno.\n\nD. il servizio dura otto mesi e accoglie soltanto persone accompagnate dal proprio caregiver per andare in spiaggia.\n\nE. l’ascensore delle Scalette Santa Chiara resterà fermo ogni giorno dalle 14.30 alle 20.30.\n\nF. l’attività è gratuita e ciascuna persona deve essere accompagnata in spiaggia dal proprio caregiver.\n\nG. la zona sportiva resterà chiusa ogni giorno dalle 14.30 alle 20.30 a causa del caldo.\n\nH. è di circa 25 ore distribuite su cinque giorni alla settimana, con orari flessibili per i partecipanti."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | C | «Dal 23 al 25 giugno», «Piazza sull’Acqua» e «racconti, suoni e voci» corrispondono all’evento gratuito che «comincia alle 20.00». 中文：地点、日期和晚间开始时间唯一对应。 |\n| L3.2 | F | Il servizio per persone con «malattia neurodegenerativa» o «sostegno intensivo» è gratuito e richiede l’accompagnamento del «proprio caregiver». 中文：服务对象与陪护要求相匹配。 |\n| L3.3 | H | Le «cento ore mensili flessibili» del co-progetto equivalgono a «circa 25 ore» su «cinque giorni alla settimana». 中文：月度投入由每周安排进一步说明。 |\n| L3.4 | A | La «doppia apertura» nella zona sportiva riguarda «i campi da beach volley e il percorso Kneipp». 中文：两项重新开放的设施唯一匹配。 |\n| L3.5 | E | Le «chiusure parziali per il caldo» sono precisate dall’orario dell’ascensore delle Scalette Santa Chiara, fermo «dalle 14.30 alle 20.30». 中文：高温限时停运与具体电梯时段相对应。 |\n| L3.6 | B | Gli avvisi per il «contributo» alle spese estive indicano che la domanda va presentata «entro il 30 giugno». 中文：资助申请与截止日期唯一匹配。 |",
+    "ANS_L3_UNUSED": "D, G"
+  },
+  "key": {
+    "L3.1": "C",
+    "L3.2": "F",
+    "L3.3": "H",
+    "L3.4": "A",
+    "L3.5": "E",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sostegno intensivo",
+      "categoria": "espressione nominale",
+      "zh": "高强度照护",
+      "en": "intensive support",
+      "esempio": "Il servizio è rivolto a persone con grave malattia neurodegenerativa, ventilazione meccanica assistita o bisogno di sostegno intensivo."
+    },
+    {
+      "parola": "caregiver",
+      "categoria": "sostantivo",
+      "zh": "照护者",
+      "en": "caregiver",
+      "esempio": "L’attività è gratuita e ciascuna persona deve essere accompagnata in spiaggia dal proprio caregiver."
+    },
+    {
+      "parola": "impegno",
+      "categoria": "sostantivo",
+      "zh": "投入时间；任务量",
+      "en": "commitment",
+      "esempio": "In pratica, l’impegno è di circa 25 ore distribuite su cinque giorni alla settimana."
+    },
+    {
+      "parola": "chiusure parziali",
+      "categoria": "espressione nominale",
+      "zh": "部分时段关闭",
+      "en": "partial closures",
+      "esempio": "Dal 1° luglio 2026 alcuni ascensori pubblici di Cagliari avranno chiusure parziali per il caldo."
+    },
+    {
+      "parola": "contributo",
+      "categoria": "sostantivo",
+      "zh": "补助金",
+      "en": "financial contribution",
+      "esempio": "Sono stati pubblicati gli avvisi per chiedere un contributo."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una giornata piacevole che hai passato con la tua famiglia. Scrivi dove eri, con chi, che cosa avete fatto e perché ricordi volentieri questa esperienza.",
+    "W2_PROMPT": "Scrivi un messaggio alla piscina comunale per chiedere informazioni su un corso di nuoto. Chiedi in quali giorni ci sono le lezioni, quanto costa il corso e che cosa devi portare.",
+    "MODEL_W1": "Sabato scorso ho passato una bella giornata a casa dei miei nonni. La mattina ho aiutato mio nonno nell'orto e ho raccolto i pomodori. Poi abbiamo preparato il pranzo insieme. Nel pomeriggio abbiamo giocato a carte. Ero felice perché tutta la famiglia era riunita e abbiamo riso molto.",
+    "MODEL_W1_PHRASES": "«Sabato scorso ho…»（上周六我……） · «La mattina…»（早上……） · «Poi abbiamo…»（然后我们……） · «Ero felice perché…»（我很开心，因为……）",
+    "MODEL_W2": "Buongiorno, vorrei frequentare il corso di nuoto per adulti. In quali giorni ci sono le lezioni e quanto costa il corso? Devo portare un certificato medico? Grazie per le informazioni. Mei",
+    "MODEL_W2_PHRASES": "«Vorrei frequentare…»（我想参加……） · «In quali giorni…?»（星期几……？） · «Quanto costa…?»（……多少钱？） · «Devo portare…?»（我需要带……吗？） · «Grazie per le informazioni.»（感谢您提供信息）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "orto",
+      "categoria": "nome maschile",
+      "zh": "菜园",
+      "en": "vegetable garden",
+      "esempio": "La mattina ho aiutato mio nonno nell'orto e ho raccolto i pomodori."
+    },
+    {
+      "parola": "giocato a carte",
+      "categoria": "locuzione verbale al passato prossimo",
+      "zh": "玩纸牌",
+      "en": "to play cards",
+      "esempio": "Nel pomeriggio abbiamo giocato a carte."
+    },
+    {
+      "parola": "riunita",
+      "categoria": "aggettivo femminile",
+      "zh": "团聚的",
+      "en": "gathered together",
+      "esempio": "Ero felice perché tutta la famiglia era riunita e abbiamo riso molto."
+    },
+    {
+      "parola": "corso di nuoto",
+      "categoria": "locuzione nominale",
+      "zh": "游泳课程",
+      "en": "swimming course",
+      "esempio": "Vorrei frequentare il corso di nuoto per adulti."
+    },
+    {
+      "parola": "certificato medico",
+      "categoria": "locuzione nominale",
+      "zh": "医疗证明",
+      "en": "medical certificate",
+      "esempio": "Devo portare un certificato medico?"
+    }
+  ]
+}

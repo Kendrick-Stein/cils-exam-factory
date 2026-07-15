@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Panzanella dolce",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ panzanella è __(1)__ ricetta toscana tra le più antiche e amate. Secondo una leggenda, è nata sui pescherecci, dove __(2)__ marinai condivano __(3)__ pane raffermo con cipolle e lo rendevano morbido __(4)__ acqua di mare. Questa versione cambia __(5)__ tradizionale ricetta che tutti conoscono: la trasforma in __(6)__ dolce estivo molto colorato. È un dessert __(7)__ gustare durante l’estate, alla fine del pasto, insieme __(8)__ una pallina di gelato o __(9)__ la panna acida. Si può mangiare anche __(10)__ colazione, con lo yogurt. Così un piatto povero e semplice diventa adatto per diversi momenti della giornata."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | una | S1.6 | un |\n| S1.2 | i | S1.7 | da |\n| S1.3 | il | S1.8 | a |\n| S1.4 | con | S1.9 | con |\n| S1.5 | la | S1.10 | a |",
+    "ANS_S1_NOTES": "1. «una ricetta toscana tra le più antiche»: indica un elemento del gruppo. 中文：tra le più richiede qui l’articolo indeterminativo.\n2. «dove i marinai»: sono i marinai presenti sui pescherecci già nominati. 中文：指前文渔船上的水手。\n3. «condivano il pane raffermo»: si parla del pane usato nella preparazione. 中文：这里指这道食物中所用的陈面包。\n4. «morbido con acqua di mare»: con indica il mezzo usato. 中文：con 表示所用的方式或材料。\n5. «la tradizionale ricetta che tutti conoscono»: la relativa identifica una ricetta precisa. 中文：定语从句限定了具体的传统食谱。\n6. «la trasforma in un dolce»: un introduce il nuovo tipo di preparazione. 中文：首次引入一种甜点。\n7. «un dessert da gustare»: da + infinito esprime ciò che si può fare. 中文：da 加不定式表示“可供品尝”。\n8. «insieme a una pallina»: insieme regge la preposizione a. 中文：固定搭配 insieme a。\n9. «o con la panna acida»: con introduce l’accompagnamento. 中文：con 表示搭配的食物。\n10. «a colazione»: è la preposizione della locuzione temporale. 中文：固定时间表达 a colazione。"
+  },
+  "key": {
+    "S1.1": "una",
+    "S1.2": "i",
+    "S1.3": "il",
+    "S1.4": "con",
+    "S1.5": "la",
+    "S1.6": "un",
+    "S1.7": "da",
+    "S1.8": "a",
+    "S1.9": "con",
+    "S1.10": "a"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "pane raffermo",
+      "categoria": "nome",
+      "zh": "陈面包",
+      "en": "stale bread",
+      "esempio": "I marinai condivano il pane raffermo con cipolle."
+    },
+    {
+      "parola": "pescherecci",
+      "categoria": "nome plurale",
+      "zh": "渔船",
+      "en": "fishing boats",
+      "esempio": "Secondo una leggenda, è nata sui pescherecci."
+    },
+    {
+      "parola": "panna acida",
+      "categoria": "nome",
+      "zh": "酸奶油",
+      "en": "sour cream",
+      "esempio": "È un dessert da gustare con la panna acida."
+    },
+    {
+      "parola": "pallina di gelato",
+      "categoria": "nome",
+      "zh": "一球冰淇淋",
+      "en": "scoop of ice cream",
+      "esempio": "Si può gustare insieme a una pallina di gelato."
+    },
+    {
+      "parola": "alla fine del pasto",
+      "categoria": "locuzione",
+      "zh": "餐后",
+      "en": "at the end of the meal",
+      "esempio": "È un dessert da gustare alla fine del pasto."
+    }
+  ]
+}

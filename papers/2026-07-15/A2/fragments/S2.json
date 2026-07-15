@@ -1,0 +1,53 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "PER 51 VOLTE CAMPIONE ITALIANO DI NUOTO PARALIMPICO",
+    "S2_TEXT_WITH_GAPS": "Oggi D'Aniello *(essere)* __è (0)__ un campione di nuoto paralimpico. Da bambino, invece, ogni giorno *(subire)* __(1)__ le prese in giro di alcuni compagni. In quel periodo, ogni giorno lui *(sentirsi)* __(2)__ solo e *(volere)* __(3)__ morire. In questi anni, *(vedere)* __(4)__ il film «Come un delfino» e *(capire)* __(5)__ che voleva fare nuoto. Da allora fino a oggi, l'acqua *(essere)* __(6)__ un aiuto importante: *(portare)* __(7)__ a diventare 51 volte campione italiano e lui *(raggiungere)* __(8)__ 130 podi. Oggi racconta: «Ogni volta che *(tuffarsi)* __(9)__ in acqua, tutte le ansie e i problemi *(scomparire)* __(10)__. È come sentire la carezza della mia mamma»."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | subiva | imperfetto | 6 | è stata | passato prossimo |\n| 2 | si sentiva | imperfetto | 7 | lo ha portato / l'ha portato | passato prossimo |\n| 3 | voleva | imperfetto | 8 | ha raggiunto | passato prossimo |\n| 4 | ha visto | passato prossimo | 9 | mi tuffo | presente |\n| 5 | ha capito | passato prossimo | 10 | scompaiono | presente |",
+    "ANS_S2_NOTES": "- **S2.1:** «Da bambino» e «ogni giorno» indicano una situazione abituale nel passato. 中文：过去反复发生的情况用未完成过去时。\n- **S2.2:** «In quel periodo, ogni giorno» rende obbligatorio l'imperfetto riflessivo. 中文：`ogni giorno` 明确表示过去反复发生。\n- **S2.3:** «In quel periodo» presenta uno stato continuato nel passato. 中文：持续的过去状态用未完成过去时。\n- **S2.4:** «In questi anni» collega la visione del film al periodo che arriva al presente. 中文：时间范围延续到现在，排除远过去时。\n- **S2.5:** Lo stesso indicatore «In questi anni» comprende anche il verbo coordinato «capire». 中文：同一时间标记也限定并列动词，使用近过去时。\n- **S2.6:** «Da allora fino a oggi» collega il passato al presente. 中文：延续到今天，使用近过去时。\n- **S2.7:** Lo stesso indicatore «da allora fino a oggi» richiede il passato prossimo; sono corrette sia la forma piena «lo ha» sia l'elisione «l'ha». 中文：宾语代词在空格内，两种写法都接受。\n- **S2.8:** «Fino a oggi» e il risultato numerico «130 podi» indicano un bilancio attuale. 中文：截至今天的成果用近过去时。\n- **S2.9:** «Oggi racconta» e «ogni volta che» descrivono ciò che accade regolarmente nel presente. 中文：现在反复发生，用现在时。\n- **S2.10:** Nella stessa frase, «ogni volta» e il soggetto plurale «tutte le ansie e i problemi» impongono il presente plurale. 中文：复数主语决定 `scompaiono`。"
+  },
+  "key": {
+    "S2.1": "subiva",
+    "S2.2": "si sentiva",
+    "S2.3": "voleva",
+    "S2.4": "ha visto",
+    "S2.5": "ha capito",
+    "S2.6": "è stata",
+    "S2.7": "lo ha portato || l'ha portato",
+    "S2.8": "ha raggiunto",
+    "S2.9": "mi tuffo",
+    "S2.10": "scompaiono"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "nuoto paralimpico",
+      "categoria": "nome",
+      "zh": "残疾人游泳",
+      "en": "para swimming",
+      "esempio": "Oggi D'Aniello è un campione di nuoto paralimpico."
+    },
+    {
+      "parola": "podi",
+      "categoria": "nome plurale",
+      "zh": "领奖台；获奖名次",
+      "en": "podiums",
+      "esempio": "Lui ha raggiunto 130 podi."
+    },
+    {
+      "parola": "ansie",
+      "categoria": "nome plurale",
+      "zh": "焦虑",
+      "en": "anxieties",
+      "esempio": "Tutte le ansie e i problemi scompaiono."
+    },
+    {
+      "parola": "carezza",
+      "categoria": "nome",
+      "zh": "爱抚；轻抚",
+      "en": "caress",
+      "esempio": "È come sentire la carezza della mia mamma."
+    }
+  ]
+}

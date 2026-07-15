@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "LA BIBLIOTECA COMUNALE DI PIRRI",
+        "S1_TEXT_WITH_GAPS": "__La (0)__ biblioteca comunale di Pirri ha una nuova sede in via Santa Maria Goretti. __(1)__ arredi e __(2)__ attrezzature sono completamente rinnovati. __(3)__ sala principale ha molti libri per il prestito o per __(4)__ lettura nella sala. __(5)__ computer permettono di vedere __(6)__ cataloghi online. Dopo __(7)__ registrazione, __(8)__ servizio permette di usare la rete con __(9)__ proprio portatile o __(10)__ telefono cellulare."
+  },
+  "answer_slots": {
+        "ANS_S1_ROWS": "| S1.1 | gli | S1.6 | i |\n| S1.2 | le | S1.7 | la |\n| S1.3 | la | S1.8 | il |\n| S1.4 | la | S1.9 | il |\n| S1.5 | i | S1.10 | il |",
+        "ANS_S1_NOTES": "**Note.** S1.1–S1.2: «arredi» è maschile plurale con vocale iniziale, mentre «attrezzature» è femminile plurale. S1.3–S1.4: «sala» e «lettura» sono femminili singolari. S1.5–S1.6: «computer» e «cataloghi» sono maschili plurali. S1.7–S1.10: «registrazione», «servizio», «portatile» e «telefono» indicano chiaramente genere e numero. 中文提示：根据空格后名词的阴阳性、单复数和词首音选择唯一的定冠词；元音开头的复数 «arredi» 用 «gli»。"
+  },
+  "key": {
+    "S1.1": "gli",
+    "S1.2": "le",
+    "S1.3": "la",
+    "S1.4": "la",
+    "S1.5": "i",
+    "S1.6": "i",
+        "S1.7": "la",
+        "S1.8": "il",
+    "S1.9": "il",
+    "S1.10": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "arredi",
+      "categoria": "nome maschile plurale",
+      "zh": "家具；陈设",
+      "en": "furnishings",
+      "esempio": "Gli arredi e le attrezzature sono completamente rinnovati."
+    },
+    {
+      "parola": "attrezzature",
+      "categoria": "nome femminile plurale",
+      "zh": "设备",
+      "en": "equipment",
+      "esempio": "Gli arredi e le attrezzature sono completamente rinnovati."
+    },
+    {
+      "parola": "prestito",
+      "categoria": "nome maschile",
+      "zh": "借阅",
+      "en": "loan",
+            "esempio": "La sala principale ha molti libri per il prestito o per la lettura nella sala."
+    },
+    {
+      "parola": "rete",
+      "categoria": "nome femminile",
+      "zh": "网络",
+      "en": "network",
+      "esempio": "Il sistema wireless dà accesso gratuito alla rete."
+    },
+    {
+      "parola": "registrazione",
+      "categoria": "nome femminile",
+      "zh": "注册",
+      "en": "registration",
+            "esempio": "Dopo la registrazione, il servizio permette di usare la rete con il proprio portatile o il telefono cellulare."
+    }
+  ]
+}

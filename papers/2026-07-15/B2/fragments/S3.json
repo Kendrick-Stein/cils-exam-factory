@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "PIANO STRAORDINARIO DI ASSISTENZA AI VIAGGIATORI",
+    "S3_TEXT_WITH_GAPS": "Il Comune di Firenze __(1)__ un piano __straordinario (0)__ di assistenza ai viaggiatori per la __(2)__ di Ponte al Pino e le modifiche alla circolazione ferroviaria dal 6 al 9 luglio. Coordinato dalla Protezione civile con il supporto delle associazioni di volontariato convenzionate, il servizio sarà __(3)__ ai passeggeri nelle stazioni di Santa Maria Novella e Campo di Marte.\n\nPersonale e volontari __(4)__ i viaggiatori nelle operazioni di salita e discesa dai treni e __(5)__ indicazioni per __(6)__ i binari, le navette __(7)__ da Ferrovie dello Stato, le aree di sosta dei taxi e il trasporto pubblico, rendendo più __(8)__ gli spostamenti.\n\nConsiderato il periodo __(9)__ e le possibili __(10)__ temperature, il piano prevede la __(11)__ di bottiglie d'acqua ai passeggeri che ne avranno necessità, con particolare __(12)__ alle persone più fragili.\n\nIl servizio avrà due turni __(13)__, dalle 8 alle 14 e dalle 14 alle 20. Saranno __(14)__ fino a otto postazioni nei principali punti di accesso, uscita e interscambio: quattro in ciascuna stazione, due attivabili all'occorrenza in base alle __(15)__ operative.",
+    "S3_OPT0_A": "straordinario",
+    "S3_OPT0_B": "consueto",
+    "S3_OPT0_C": "limitato",
+    "S3_OPT0_D": "occasionale",
+    "S3_OPTION_ROWS": "| 1. | ridurrà | sospenderà | attiverà | annullerà |\n| 2. | apertura | inaugurazione | riapertura | chiusura |\n| 3. | dedicato | contrario | vietato | estraneo |\n| 4. | fermeranno | respingeranno | accompagneranno | abbandoneranno |\n| 5. | nasconderanno | forniranno | cancelleranno | rifiuteranno |\n| 6. | raggiungere | evitare | sorvegliare | chiudere |\n| 7. | rifiutate | annullate | ignorate | predisposte |\n| 8. | inutili | rischiosi | agevoli | difficili |\n| 9. | estivo | invernale | autunnale | primaverile |\n| 10. | ridotte | moderate | basse | elevate |\n| 11. | vendita | distribuzione | raccolta | rimozione |\n| 12. | ostilità | diffidenza | attenzione | indifferenza |\n| 13. | giornalieri | mensili | annuali | settimanali |\n| 14. | eliminate | attivate | ridotte | spostate |\n| 15. | opinioni | abitudini | preferenze | esigenze |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | «Il Comune di Firenze attiverà un piano» annuncia l'avvio del servizio descritto in seguito. 中文：后文说明服务的具体安排，因此是“启动”而非暂停或取消。 |\n| S3.2 | D | Il piano nasce «per la chiusura di Ponte al Pino», evento che causa le modifiche alla circolazione. 中文：交通调整由桥梁关闭引起，其他选项表示开放。 |\n| S3.3 | A | Il servizio «sarà dedicato ai passeggeri» perché tutte le attività elencate rispondono alle loro necessità. 中文：服务对象是乘客，dedicato a 表示“面向”。 |\n| S3.4 | C | Personale e volontari «accompagneranno i viaggiatori nelle operazioni di salita e discesa». 中文：这里强调志愿者在上下车过程中陪同旅客。 |\n| S3.5 | B | «Forniranno indicazioni» esprime il servizio informativo offerto ai passeggeri. 中文：indicazioni 与 fornire 构成自然搭配。 |\n| S3.6 | A | Le indicazioni servono «per raggiungere i binari», cioè per arrivare al luogo di partenza dei treni. 中文：路线指引的目的就是到达站台。 |\n| S3.7 | D | Le navette sono «predisposte da Ferrovie dello Stato», quindi organizzate per affrontare le modifiche. 中文：predisporre 表示为特定需要预先安排。 |\n| S3.8 | C | L'assistenza rende «più agevoli gli spostamenti», facilitandoli nei giorni delle modifiche. 中文：服务的作用是让出行更便利。 |\n| S3.9 | A | Le date dal 6 al 9 luglio confermano il «periodo estivo», collegato alle alte temperature. 中文：七月和高温共同锁定 estivo。 |\n| S3.10 | D | La distribuzione d'acqua è motivata dalle «possibili elevate temperature». 中文：需要发水的原因是可能出现高温。 |\n| S3.11 | B | Il piano prevede «la distribuzione di bottiglie d'acqua» ai passeggeri che ne hanno bisogno. 中文：援助计划免费发放饮用水，并非出售或收回。 |\n| S3.12 | C | L'espressione «con particolare attenzione alle persone più fragili» segnala i destinatari prioritari. 中文：对脆弱人群给予特别关注。 |\n| S3.13 | A | I due intervalli, 8–14 e 14–20, sono «due turni giornalieri» nello stesso giorno. 中文：两个时间段都是每天的班次。 |\n| S3.14 | B | «Saranno attivate fino a otto postazioni» indica l'apertura dei punti di assistenza. 中文：后文列出岗位的位置和数量，因此是启用。 |\n| S3.15 | D | Le postazioni aggiuntive sono attivabili «in base alle esigenze operative», cioè secondo le necessità concrete del servizio. 中文：in base alle esigenze 是固定搭配，表示按实际需要。 |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "D",
+    "S3.8": "C",
+    "S3.9": "A",
+    "S3.10": "D",
+    "S3.11": "B",
+    "S3.12": "C",
+    "S3.13": "A",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "modifiche alla circolazione",
+      "categoria": "locuzione nominale",
+      "zh": "交通运行调整",
+      "en": "traffic changes",
+      "esempio": "modifiche alla circolazione ferroviaria dal 6 al 9 luglio"
+    },
+    {
+      "parola": "associazioni di volontariato convenzionate",
+      "categoria": "locuzione nominale",
+      "zh": "签约志愿者协会",
+      "en": "affiliated volunteer associations",
+      "esempio": "con il supporto delle associazioni di volontariato convenzionate"
+    },
+    {
+      "parola": "aree di sosta",
+      "categoria": "locuzione nominale",
+      "zh": "停靠区",
+      "en": "waiting areas",
+      "esempio": "le aree di sosta dei taxi"
+    },
+    {
+      "parola": "interscambio",
+      "categoria": "sostantivo",
+      "zh": "换乘；交通接驳",
+      "en": "interchange",
+      "esempio": "nei principali punti di accesso, uscita e interscambio"
+    },
+    {
+      "parola": "all'occorrenza",
+      "categoria": "locuzione avverbiale",
+      "zh": "必要时",
+      "en": "if necessary",
+      "esempio": "due attivabili all'occorrenza"
+    }
+  ]
+}

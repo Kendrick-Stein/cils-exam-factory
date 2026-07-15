@@ -1,0 +1,61 @@
+{
+ "prova": "L3",
+ "slots": {
+  "T3_TITLE": "IL PRIMO GIORNO IN MOTO VERSO LA PROVENZA",
+  "T3_PART_A": "Sette giorni, duemila chilometri e un’anima più leggera: così immaginavamo il nostro viaggio in moto verso la Provenza, tra curve, lavanda e silenzi pieni.",
+  "T3_PART_B": "Nonostante quella tensione iniziale, la strada era stata pianificata nei dettagli, con lo spazio necessario per eventuali inconvenienti. Eppure i dubbi non erano ancora scomparsi.",
+  "T3_PART_C": "Dopo quell’arrivo tra il mare e i fiori, abbiamo scattato alcune fotografie davanti all’Ariston e fatto una passeggiata al tramonto sul lungomare Italo Calvino.",
+  "T3_PART_D": "Infine, conclusa la passeggiata, abbiamo cenato in un ristorante sulla spiaggia e siamo tornati presto in albergo: il giorno seguente ci attendevano ancora molti chilometri.",
+  "T3_PART_E": "Finite le curve della CISA, abbiamo attraversato tutta la Liguria. Intanto la temperatura era scesa e Sanremo diventava finalmente sempre più vicina.",
+  "T3_PART_F": "Proprio quei dubbi ancora presenti ci spingevano a farci domande: avevamo preso tutto? Saremmo riusciti a completare il nostro primo lungo giro in moto?",
+  "T3_PART_G": "Il primo giorno, domenica 15 giugno, dovevamo percorrere circa trecentottanta chilometri da Correggio a Sanremo. Siamo partiti con il caldo soffocante e molti dubbi.",
+  "T3_PART_H": "Avevamo scelto proprio quell’autostrada perché, dopo Borgotaro, il caldo cominciava a diminuire. L’alternativa era la A21, ma il richiamo delle curve della CISA era irresistibile.",
+  "T3_PART_I": "Appena partiti, i primi chilometri sono stati accompagnati dalla tensione e dal silenzio. Inoltre, nella bassa reggiana la temperatura raggiungeva i trentacinque gradi.",
+  "T3_PART_J": "Solo dopo Parma, però, siamo entrati davvero nello spirito del viaggio: allo svincolo per La Spezia ci aspettava l’autostrada della CISA, con le sue curve.",
+  "T3_PART_K": "Al termine dell’attraversamento della Liguria, siamo arrivati a Sanremo verso le diciannove. La città dei fiori ci ha accolti con il rumore del mare."
+ },
+ "answer_slots": {
+  "ANS_L3_ROWS": "| 1 | A | «Sette giorni, duemila chilometri» presenta l’intero viaggio: è l’inizio dato. 中文：先概括整段旅程。 |\n| 2 | G | «Il primo giorno» avvia il racconto cronologico e introduce partenza, caldo e dubbi. 中文：总述之后进入第一天。 |\n| 3 | I | «Appena partiti» riprende direttamente «Siamo partiti» di G; i trentacinque gradi precisano il caldo soffocante. 中文：出发动作与高温形成双重衔接。 |\n| 4 | B | «quella tensione iniziale» riprende la tensione dei primi chilometri in I e la contrappone alla pianificazione. 中文：“最初的紧张”只能回指前段。 |\n| 5 | F | «quei dubbi ancora presenti» riprende i dubbi non ancora scomparsi alla fine di B; poi li trasforma in domande precise. 中文：“仍在的疑问”直接承接前段结尾。 |\n| 6 | J | «Solo dopo Parma» segna il superamento della fase dei dubbi e introduce per la prima volta la CISA. 中文：“直到帕尔马之后”推动旅程进入下一阶段。 |\n| 7 | H | «quell’autostrada» e «proprio» riprendono unicamente l’autostrada della CISA appena introdotta in J e spiegano la scelta. 中文：指示词只指向前段的高速公路。 |\n| 8 | E | «Finite le curve della CISA» presuppone il percorso scelto in H; poi l’attraversamento della Liguria avvicina Sanremo. 中文：先走完 CISA 弯道，再穿过利古里亚。 |\n| 9 | K | «Al termine dell’attraversamento della Liguria» riprende alla lettera l’azione di E e conduce all’arrivo a Sanremo. 中文：穿越结束后才到达。 |\n| 10 | C | «Dopo quell’arrivo» riprende soltanto l’arrivo a Sanremo di K; quindi cominciano fotografie e passeggiata. 中文：到达后才游览拍照。 |\n| 11 | D | «conclusa la passeggiata» riprende la passeggiata di C; «Infine» introduce cena, rientro e chiusura della giornata. 中文：散步结束后进入最后两项活动。 |",
+  "ANS_L3_SEQUENCE": "A-G-I-B-F-J-H-E-K-C-D"
+ },
+ "key": {
+  "L3": "A-G-I-B-F-J-H-E-K-C-D"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "caldo soffocante",
+   "categoria": "locuzione nominale",
+   "zh": "闷热；令人窒息的炎热",
+   "en": "oppressive heat",
+   "esempio": "Siamo partiti con il caldo soffocante e molti dubbi."
+  },
+  {
+   "parola": "svincolo",
+   "categoria": "sostantivo maschile",
+   "zh": "高速公路出口；立交道口",
+   "en": "motorway junction",
+   "esempio": "Solo dopo Parma, però, siamo entrati davvero nello spirito del viaggio: allo svincolo per La Spezia ci aspettava l’autostrada della CISA, con le sue curve."
+  },
+  {
+   "parola": "eventuali inconvenienti",
+   "categoria": "locuzione nominale",
+   "zh": "可能发生的意外情况",
+   "en": "possible setbacks",
+   "esempio": "Nonostante quella tensione iniziale, la strada era stata pianificata nei dettagli, con lo spazio necessario per eventuali inconvenienti."
+  },
+  {
+   "parola": "il richiamo delle curve",
+   "categoria": "locuzione nominale",
+   "zh": "弯道的吸引力",
+   "en": "the lure of the bends",
+   "esempio": "L’alternativa era la A21, ma il richiamo delle curve della CISA era irresistibile."
+  },
+  {
+   "parola": "lungomare",
+   "categoria": "sostantivo maschile",
+   "zh": "滨海大道",
+   "en": "seafront promenade",
+   "esempio": "Dopo quell’arrivo tra il mare e i fiori, abbiamo scattato alcune fotografie davanti all’Ariston e fatto una passeggiata al tramonto sul lungomare Italo Calvino."
+  }
+ ]
+}

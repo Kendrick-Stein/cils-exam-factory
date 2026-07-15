@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "CIÒ CHE GLI UOMINI VOGLIONO CREDERE",
+    "S1_TEXT_WITH_GAPS": "Il dialogo riguarda le idee necessarie a vivere, __ovvero (0)__ ciò che gli uomini credono.\n\nI mariti, a condizione __(1)__ vogliano vivere tranquilli, devono credere fedeli le mogli, anche nel caso in __(2)__ la metà del mondo sappia il contrario. Così __(3)__ il marito si affida a questa convinzione, chi vive in un paese lo considera tra i migliori. Non si tratta tanto di riconoscere il vero __(4)__ di accogliere ciò che rende possibile l'esistenza. Questo vale non solo per il matrimonio, __(5)__ per il paese.\n\nIn sostanza, gli uomini scelgono le idee nel modo in __(6)__ risultano più adatte ai loro bisogni. Il genere umano non crederà mai né di non sapere nulla, __(7)__ di non essere nulla, __(8)__ di non avere nulla da sperare.\n\nNessun filosofo che insegnasse queste cose avrebbe fortuna, per il fatto __(9)__ simili idee ostacolano il vivere. Oltre __(10)__ risultare poco convenienti, sono difficili da accettare. Le prime due non soltanto offendono la superbia, __(11)__ esigono anche coraggio. Da un lato gli uomini sono deboli e d'animo angusto; dall'__(12)__ sono tanto pronti a sperare bene __(13)__ inclini a consolarsi.\n\nPer __(14)__ la sorte sia iniqua, cambiano idea del bene nella misura __(15)__ la necessità governa la loro vita. Ogni volta __(16)__ subiscono una sventura, cercano un compenso. Nel momento in __(17)__ qualcosa è negato o perduto, preferiscono adattarsi invece __(18)__ resistere. A prescindere __(19)__ tale durezza, si accomodano a tal punto __(20)__ finiscono per accettarla."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | che | S1.11 | ma |\n| S1.2 | cui | S1.12 | altro |\n| S1.3 | come | S1.13 | quanto |\n| S1.4 | quanto | S1.14 | quanto |\n| S1.5 | ma anche | S1.15 | in cui |\n| S1.6 | cui | S1.16 | che |\n| S1.7 | né | S1.17 | cui |\n| S1.8 | né | S1.18 | di |\n| S1.9 | che | S1.19 | da |\n| S1.10 | a | S1.20 | che |",
+    "ANS_S1_NOTES": "**Note sui connettivi.**\n\n- **S1.1–S1.3 — che; cui; come:** le cornici complete sono «a condizione che», «nel caso in cui» e «così come». 中文：固定连接结构锁定答案。\n- **S1.4–S1.6 — quanto; ma anche; cui:** «non tanto… quanto», «non solo… ma anche» e «nel modo in cui» impongono il completamento parallelo o relativo. 中文：前后呼应的关联词排除其他形式。\n- **S1.7–S1.11 — né; né; che; a; ma:** la serie «né… né… né» resta negativa; seguono «per il fatto che», «oltre a + infinito» e «non soltanto… ma… anche». 中文：否定并列和关联结构使答案唯一。\n- **S1.12–S1.15 — altro; quanto; quanto; in cui:** «da un lato… dall'altro», «tanto… quanto», «per quanto + congiuntivo» e «nella misura in cui» sono strutture chiuse. 中文：让步和范围关系由固定短语锁定。\n- **S1.16–S1.20 — che; cui; di; da; che:** le sequenze decisive sono «ogni volta che», «nel momento in cui», «invece di», «a prescindere da» e «a tal punto che». 中文：空格两侧共同构成固定连接短语。"
+  },
+  "key": {
+    "S1.1": "che",
+    "S1.2": "cui",
+    "S1.3": "come",
+    "S1.4": "quanto",
+    "S1.5": "ma anche",
+    "S1.6": "cui",
+    "S1.7": "né",
+    "S1.8": "né",
+    "S1.9": "che",
+    "S1.10": "a",
+    "S1.11": "ma",
+    "S1.12": "altro",
+    "S1.13": "quanto",
+    "S1.14": "quanto",
+    "S1.15": "in cui",
+    "S1.16": "che",
+    "S1.17": "cui",
+    "S1.18": "di",
+    "S1.19": "da",
+    "S1.20": "che"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "compenso",
+      "categoria": "nome maschile",
+      "zh": "补偿；补救",
+      "en": "compensation; consolation",
+      "esempio": "Ogni volta che subiscono una sventura, cercano un compenso."
+    },
+    {
+      "parola": "superbia",
+      "categoria": "nome femminile",
+      "zh": "傲慢；自负",
+      "en": "pride; arrogance",
+      "esempio": "Oltre che ferire la superbia, le prime due esigono coraggio."
+    },
+    {
+      "parola": "d'animo angusto",
+      "categoria": "espressione aggettivale",
+      "zh": "心胸狭窄的",
+      "en": "narrow-minded",
+      "esempio": "Da un lato gli uomini sono deboli e d'animo angusto; dall'altro sono tanto pronti a sperare bene quanto inclini a consolarsi."
+    },
+    {
+      "parola": "iniqua",
+      "categoria": "aggettivo",
+      "zh": "不公正的",
+      "en": "unjust; unfair",
+      "esempio": "Per quanto la sorte sia iniqua, cambiano idea del bene nella misura in cui la necessità governa la loro vita."
+    },
+    {
+      "parola": "A prescindere da",
+      "categoria": "locuzione preposizionale",
+      "zh": "不论；不考虑",
+      "en": "regardless of",
+      "esempio": "A prescindere da tale durezza, si accomodano a tal punto che finiscono per accettarla."
+    }
+  ]
+}

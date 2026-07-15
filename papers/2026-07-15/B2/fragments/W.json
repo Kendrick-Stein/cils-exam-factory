@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un centro culturale. Scrivi una recensione di un’attività organizzata nel tuo quartiere alla quale hai partecipato. Racconta che cosa hai fatto, valuta gli aspetti positivi e quelli da migliorare e spiega se consiglieresti l’esperienza.",
+    "W2_PROMPT": "La tua associazione ha prenotato una sala comunale per un incontro pubblico, ma la conferma ricevuta è incompleta. Scrivi un’email formale all’Ufficio Spazi Civici.",
+    "W2_REQ_1": "presentare l’associazione e indicare la data, l’orario e lo scopo dell’incontro;",
+    "W2_REQ_2": "chiedere come si accede alla sala e se l’ingresso è adatto alle persone con disabilità;",
+    "W2_REQ_3": "domandare se è possibile usare il proiettore e quando deve essere pagato il saldo.",
+    "MODEL_W1": "Da alcuni mesi collaboro con il blog del centro culturale del quartiere e sabato ho partecipato a una passeggiata fotografica dedicata ai luoghi meno conosciuti della zona. La guida, una giovane fotografa, ci ha invitati a osservare cortili, insegne storiche e dettagli architettonici che di solito ignoriamo. Ho apprezzato soprattutto il clima del gruppo: anche chi usava soltanto il telefono poteva fare domande e confrontare le proprie immagini. L’attività è stata interessante e ben organizzata, ma la sosta finale per commentare le fotografie è durata troppo poco. Inoltre, il percorso non era facilmente accessibile a una persona con difficoltà motorie. Per le prossime edizioni proporrei un itinerario più breve, privo di barriere, e un incontro successivo online per discutere gli scatti. È un’esperienza che consiglio, perché insegna a guardare con occhi nuovi spazi apparentemente familiari.",
+    "MODEL_W1_PHRASES": "«Ho partecipato a…»（我参加了……）; «Ho apprezzato soprattutto…»（我尤其欣赏……）; «Per le prossime edizioni proporrei…»（对于今后的活动，我建议……）; «È un’esperienza che consiglio, perché…»（这是我推荐的体验，因为……）",
+    "MODEL_W2": "Gentile Ufficio Spazi Civici,\n\nscrivo a nome dell’associazione Orizzonte. Abbiamo prenotato la sala comunale di via Verdi per un incontro pubblico previsto il 22 luglio dalle 18 alle 20, ma la conferma ricevuta non contiene tutte le informazioni necessarie. Potreste indicarmi dove ritirare la chiave e se l’ingresso è accessibile alle persone con disabilità? Vorrei inoltre sapere se possiamo utilizzare il proiettore della sala e quando deve essere versato il saldo.\n\nRingrazio per l’attenzione e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nMarco Riva",
+    "MODEL_W2_PHRASES": "«Scrivo a nome di…»（我代表……写信）; «Potreste indicarmi…?»（您能否告知我……？）; «Vorrei inoltre sapere se…»（我还想知道是否……）; «Resto in attesa di un vostro riscontro»（静候贵方回复）; «Cordiali saluti»（谨致问候）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "dettagli architettonici",
+      "categoria": "locuzione nominale",
+      "zh": "建筑细节",
+      "en": "architectural details",
+      "esempio": "La guida, una giovane fotografa, ci ha invitati a osservare cortili, insegne storiche e dettagli architettonici che di solito ignoriamo."
+    },
+    {
+      "parola": "difficoltà motorie",
+      "categoria": "locuzione nominale",
+      "zh": "行动困难",
+      "en": "mobility difficulties",
+      "esempio": "Inoltre, il percorso non era facilmente accessibile a una persona con difficoltà motorie."
+    },
+    {
+      "parola": "privo di barriere",
+      "categoria": "locuzione aggettivale",
+      "zh": "无障碍的",
+      "en": "barrier-free",
+      "esempio": "Per le prossime edizioni proporrei un itinerario più breve, privo di barriere, e un incontro successivo online per discutere gli scatti."
+    },
+    {
+      "parola": "scrivo a nome dell’associazione",
+      "categoria": "locuzione verbale",
+      "zh": "我代表协会写信",
+      "en": "I am writing on behalf of the association",
+      "esempio": "Scrivo a nome dell’associazione Orizzonte."
+    },
+    {
+      "parola": "versato il saldo",
+      "categoria": "locuzione verbale",
+      "zh": "支付余款",
+      "en": "the balance paid",
+      "esempio": "Vorrei inoltre sapere se possiamo utilizzare il proiettore della sala e quando deve essere versato il saldo."
+    }
+  ]
+}

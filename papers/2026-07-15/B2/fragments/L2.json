@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Concorso per esami per la copertura di n. 4 posti di agente di polizia locale",
+    "T2_TEXT": "È indetto un concorso per esami per la copertura di quattro posti a tempo pieno e indeterminato di agente di polizia locale, area degli istruttori, presso il settore Polizia locale e sicurezza. La scadenza per la presentazione della domanda è il 9 agosto 2026.\n\n**Art. 4 – Requisiti per l’ammissione alla selezione pubblica**\n\nI candidati devono avere la cittadinanza italiana secondo quanto disposto dall’art. 2 del D.P.C.M. 174/1994 e un’età non inferiore a 18 anni compiuti e non superiore a 35 anni non compiuti alla data di scadenza di presentazione delle domande. Il limite massimo di età si considera superato con il compimento del 35° anno.\n\nÈ richiesto il godimento dei diritti civili e politici, anche negli Stati di appartenenza o di provenienza. I candidati non devono aver subito condanne o avere procedimenti penali in corso che impediscano, ai sensi delle disposizioni vigenti, la costituzione del rapporto di impiego con la Pubblica Amministrazione. Non devono inoltre essere stati dispensati o destituiti dall’impiego presso una Pubblica Amministrazione.\n\nDevono essere in posizione regolare nei riguardi degli obblighi di leva e delle disposizioni sul reclutamento e non essere stati espulsi dalle Forze Armate o da Corpi e Amministrazioni militarmente organizzati.\n\nÈ necessario possedere l’idoneità psico-fisica piena e incondizionata all’impiego e alle mansioni proprie del profilo professionale. L’Amministrazione sottoporrà a visita medica di controllo il vincitore della selezione pubblica o i candidati risultati idonei. La visita sarà effettuata dall’organo competente alla sorveglianza sanitaria per accertare l’idoneità necessaria a esercitare le funzioni inerenti al posto. In caso di esito negativo dell’accertamento sanitario non si darà luogo al perfezionamento della nomina, senza rimborso o indennizzi. La mancata presentazione alla visita medica, senza giustificato motivo, comporta la rinuncia al posto.\n\nÈ richiesto un diploma di Scuola Secondaria di II Grado, maturità quinquennale, rilasciato da un istituto riconosciuto dall’ordinamento scolastico italiano. Per i candidati con titolo di studio conseguito all’estero, l’assunzione sarà subordinata al rilascio, da parte delle autorità competenti, del provvedimento di equivalenza. I titoli devono essere accompagnati, a pena di non ammissione, da una traduzione in lingua italiana effettuata da un traduttore pubblico abilitato. I candidati possono partecipare con riserva e richiedere il riconoscimento dopo le procedure concorsuali, entro 15 giorni dalla pubblicazione della graduatoria finale.\n\nOccorre inoltre possedere una patente di guida non inferiore alla categoria B senza limitazioni, i requisiti di legge necessari per conseguire il decreto di agente di pubblica sicurezza per il porto dell’arma di ordinanza e non avere motivi ostativi al servizio armato. Sono infine richieste la conoscenza della lingua inglese e dell’uso delle apparecchiature e delle applicazioni informatiche di office automation e dei sistemi operativi più diffusi.\n\nL’area geografica di riferimento è la Lombardia. La selezione avviene per esami; le candidature sono aperte dal 10 luglio al 9 agosto 2026. L’ente di riferimento è il Comune di San Giuliano Milanese.",
+    "L2_ITEMS": "**1. Il concorso offre quattro posti di agente di polizia locale con contratto a tempo pieno e indeterminato.**\n\nVero ○ Falso ○\n\n**2. Le domande devono essere presentate entro il 10 luglio 2026.**\n\nVero ○ Falso ○\n\n**3. Alla scadenza delle domande, chi ha già compiuto 35 anni ha superato il limite massimo di età.**\n\nVero ○ Falso ○\n\n**4. I candidati devono godere dei diritti civili e politici anche nello Stato da cui provengono.**\n\nVero ○ Falso ○\n\n**5. Chi è stato destituito da un impiego presso una Pubblica Amministrazione può comunque partecipare alla selezione.**\n\nVero ○ Falso ○\n\n**6. Tra le condizioni richieste, i candidati non devono essere stati espulsi dalle Forze Armate.**\n\nVero ○ Falso ○\n\n**7. L’Amministrazione può sottoporre a visita medica sia il vincitore sia i candidati risultati idonei.**\n\nVero ○ Falso ○\n\n**8. L’esito negativo della visita medica non impedisce la nomina, ma esclude il diritto a un rimborso.**\n\nVero ○ Falso ○\n\n**9. Per partecipare è sufficiente un diploma triennale di Scuola Secondaria di II Grado.**\n\nVero ○ Falso ○\n\n**10. Un titolo di studio conseguito all’estero può essere presentato senza una traduzione in italiano.**\n\nVero ○ Falso ○\n\n**11. Il riconoscimento del titolo estero può essere richiesto entro 15 giorni dalla pubblicazione della graduatoria finale.**\n\nVero ○ Falso ○\n\n**12. È ammessa una patente di categoria B anche se presenta limitazioni.**\n\nVero ○ Falso ○\n\n**13. Sono richieste conoscenze di inglese e degli strumenti informatici più diffusi.**\n\nVero ○ Falso ○\n\n**14. La selezione prevede una valutazione dei titoli seguita dagli esami.**\n\nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V — Vero | Il bando indica «quattro posti a tempo pieno e indeterminato». 中文：数量和合同类型都一致。 |\n| L2.2 | F — Falso | La scadenza è «il 9 agosto 2026», non il 10 luglio. 中文：10 luglio是开放日期。 |\n| L2.3 | V — Vero | «Il limite massimo di età si considera superato con il compimento del 35° anno». 中文：满35岁即超过上限。 |\n| L2.4 | V — Vero | È richiesto il godimento dei diritti «anche negli Stati di appartenenza o di provenienza». 中文：要求也涉及所属国或来源国。 |\n| L2.5 | F — Falso | I candidati «non devono inoltre essere stati dispensati o destituiti» da una Pubblica Amministrazione. 中文：被免职者不符合条件。 |\n| L2.6 | V — Vero | I candidati non devono «essere stati espulsi dalle Forze Armate». 中文：这是明确的排除条件。 |\n| L2.7 | V — Vero | La visita riguarda «il vincitore della selezione pubblica o i candidati risultati idonei». 中文：两类人都可能接受体检。 |\n| L2.8 | F — Falso | Con esito negativo «non si darà luogo al perfezionamento della nomina». 中文：不仅没有补偿，任命也不会完成。 |\n| L2.9 | F — Falso | È richiesta la «maturità quinquennale», non un diploma triennale. 中文：学制年限是关键。 |\n| L2.10 | F — Falso | I titoli esteri devono essere accompagnati «a pena di non ammissione, da una traduzione in lingua italiana». 中文：缺少意大利语翻译会导致不予录取。 |\n| L2.11 | V — Vero | Il riconoscimento può essere richiesto «entro 15 giorni dalla pubblicazione della graduatoria finale». 中文：可先保留资格参加。 |\n| L2.12 | F — Falso | Occorre una patente «non inferiore alla categoria B senza limitazioni». 中文：B类驾照也必须没有限制。 |\n| L2.13 | V — Vero | Sono richieste «la conoscenza della lingua inglese» e delle applicazioni informatiche e dei sistemi operativi più diffusi. 中文：两方面都要求。 |\n| L2.14 | F — Falso | Il testo precisa: «La selezione avviene per esami». 中文：没有写先评审材料。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "F || Falso",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "a tempo pieno e indeterminato",
+      "categoria": "locuzione aggettivale",
+      "zh": "全职且无固定期限的",
+      "en": "full-time and permanent",
+      "esempio": "quattro posti a tempo pieno e indeterminato di agente di polizia locale"
+    },
+    {
+      "parola": "godimento dei diritti civili e politici",
+      "categoria": "locuzione nominale",
+      "zh": "享有公民权利和政治权利",
+      "en": "enjoyment of civil and political rights",
+      "esempio": "È richiesto il godimento dei diritti civili e politici"
+    },
+    {
+      "parola": "idoneità psico-fisica",
+      "categoria": "locuzione nominale",
+      "zh": "身心适任性",
+      "en": "physical and psychological fitness",
+      "esempio": "È necessario possedere l’idoneità psico-fisica piena e incondizionata all’impiego"
+    },
+    {
+      "parola": "a pena di non ammissione",
+      "categoria": "locuzione preposizionale",
+      "zh": "否则不予录取",
+      "en": "under penalty of non-admission",
+      "esempio": "I titoli devono essere accompagnati, a pena di non ammissione, da una traduzione in lingua italiana"
+    },
+    {
+      "parola": "motivi ostativi",
+      "categoria": "locuzione nominale",
+      "zh": "妨碍性事由",
+      "en": "disqualifying grounds",
+      "esempio": "non avere motivi ostativi al servizio armato"
+    }
+  ]
+}

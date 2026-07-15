@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Notte europea dei Musei 2026",
+    "S3_TEXT_WITH_GAPS": "Sabato 23 maggio i Musei Civici di Parma sono __aperti (0)__ dalle 18 alle 22 per la Notte europea dei Musei. Il programma offre __(1)__ guidate. La Camera di San Paolo e la Casa del Suono sono aperte al __(2)__. Nella casa natale ogni __(3)__ racconta la __(4)__ e il lavoro di Toscanini, con __(5)__ e documenti donati dalla sua __(6)__. L’__(7)__ costa un euro. Alcune persone non pagano, come prevede la __(8)__.",
+    "S3_OPT0_A": "aperti",
+    "S3_OPT0_B": "chiusi",
+    "S3_OPT0_C": "lontani",
+    "S3_OPTION_ROWS": "| 1. | visite | stanze | famiglie |\n| 2. | prezzo | lavoro | pubblico |\n| 3. | visita | notte | stanza |\n| 4. | vita | casa | camera |\n| 5. | musei | oggetti | libri |\n| 6. | visita | stanza | famiglia |\n| 7. | oggetto | ingresso | orario |\n| 8. | notte | legge | camera |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Il programma offre «visite guidate». 中文：只有“参观”能与 *guidate* 构成活动名称。 |\n| S3.2 | C | La Camera di San Paolo e la Casa del Suono sono «aperte al pubblico». 中文：*aperto al pubblico* 表示“向公众开放”。 |\n| S3.3 | C | «ogni stanza» della casa racconta qualcosa di Toscanini. 中文：*ogni* 后接单数名词，且房间能展示人物经历。 |\n| S3.4 | A | Ogni stanza racconta «la vita e il lavoro di Toscanini». 中文：生活与工作形成语义连贯的并列。 |\n| S3.5 | B | La storia è raccontata «con oggetti e documenti». 中文：物品和文件是同类的展示材料。 |\n| S3.6 | C | Gli oggetti e i documenti sono «donati dalla sua famiglia». 中文：家人可以捐赠这些材料。 |\n| S3.7 | B | «L’ingresso costa un euro»: il nome indica il prezzo per entrare. 中文：一欧元对应入场费用。 |\n| S3.8 | B | Alcune persone non pagano «come prevede la legge». 中文：法律规定某些人免费。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "programma",
+      "categoria": "sostantivo",
+      "zh": "活动安排；节目单",
+      "en": "programme",
+      "esempio": "Il programma offre"
+    },
+    {
+      "parola": "Notte europea dei Musei",
+      "categoria": "nome di evento",
+      "zh": "欧洲博物馆之夜",
+      "en": "European Night of Museums",
+      "esempio": "per la Notte europea dei Musei"
+    },
+    {
+      "parola": "casa natale",
+      "categoria": "sostantivo",
+      "zh": "故居；出生地",
+      "en": "birthplace",
+      "esempio": "La casa natale di Arturo Toscanini"
+    },
+    {
+      "parola": "documenti",
+      "categoria": "sostantivo plurale",
+      "zh": "文件；资料",
+      "en": "documents",
+      "esempio": "oggetti e documenti"
+    },
+    {
+      "parola": "lavoro",
+      "categoria": "sostantivo",
+      "zh": "工作",
+      "en": "work",
+      "esempio": "il lavoro di Toscanini"
+    }
+  ]
+}

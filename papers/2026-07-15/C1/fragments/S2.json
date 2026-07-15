@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "IL PANE CONTESO",
+    "S2_TEXT_WITH_GAPS": "Oggi il passo *(intitolarsi)* __si intitola (0)__ «Il Ventaglino». Chi oggi *(leggere)* __(1)__ nota la tensione. È possibile che il dialetto *(potere)* __(2)__ rallentare. Benché il testo, fino a oggi, *(conservare)* __(3)__ forza, la scena rimane aspra.\n\nQuel pomeriggio, mentre il ragazzo *(tenere)* __(4)__ lo sguardo su Tuta, lei, sebbene lui non *(volere)* __(5)__ cedere alla madre, gli propose di vedere il bambino. Fu allora che Tuta *(chiamare)* __(6)__ il ragazzo a sé. Il ragazzo, *(spingere)* __(7)__ dalla madre, si accostò. Fu il ragazzo che *(strappare)* __(8)__ il tozzo di pane dalla mano del bambino. Fu quel gesto che *(fare)* __(9)__ strillare il bambino. Il piccolo restò lì, *(piangere)* __(10)__, mentre Tuta chiedeva di restituirgli un pezzo.\n\nQuando alzò gli occhi, Tuta si accorse che la madre *(allontanarsi)* __(11)__ dal sedile e ora parlava concitatamente con un omaccione barbuto. Mentre il bambino *(continuare)* __(12)__ a strillare, Tuta stava per togliere un pezzo al ragazzo, ma fu allora che lui *(mettersi)* __(13)__ a gridare.\n\nSenza quel grido, la madre non *(accorrere)* __(14)__. Tuta le spiegò che il pane *(togliere)* __(15)__ al bambino e raccontò ciò che *(accadere)* __(16)__. Benché la madre *(esortare)* __(17)__ il figlio a cederlo, il ragazzo stringeva il tozzo al petto. La signora desiderò che il figlio *(mangiare)* __(18)__ davvero il tozzo e pregò Tuta di *(lasciare)* __(19)__ il pane al ragazzo. Il ragazzo, però, corse alla vasca e fu lì che *(buttare)* __(20)__ il pane."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | legge | indicativo presente | S2.11 | si era allontanata | indicativo trapassato prossimo |\n| S2.2 | possa | congiuntivo presente | S2.12 | continuava | indicativo imperfetto |\n| S2.3 | abbia conservato | congiuntivo passato | S2.13 | si mise | indicativo passato remoto |\n| S2.4 | teneva | indicativo imperfetto | S2.14 | sarebbe accorsa | condizionale passato |\n| S2.5 | volesse | congiuntivo imperfetto | S2.15 | era stato tolto | indicativo trapassato prossimo, passivo |\n| S2.6 | chiamò | indicativo passato remoto | S2.16 | era accaduto | indicativo trapassato prossimo |\n| S2.7 | spinto | participio passato | S2.17 | esortasse | congiuntivo imperfetto |\n| S2.8 | strappò | indicativo passato remoto | S2.18 | mangiasse | congiuntivo imperfetto |\n| S2.9 | fece | indicativo passato remoto | S2.19 | lasciare | infinito presente |\n| S2.10 | piangendo | gerundio presente | S2.20 | buttò | indicativo passato remoto |",
+    "ANS_S2_NOTES": "- **S2.3 — abbia conservato:** «benché» richiede il congiuntivo e «fino a oggi» impone l'anteriorità; 中文：让步从句加持续至今，使用虚拟式过去时。\n- **S2.5 — volesse:** «sebbene» dipende da una reggente al passato; 中文：让步从句与过去叙事一致，用未完成虚拟式。\n- **S2.7 — spinto:** l'inciso descrive il ragazzo già sottoposto all'azione della madre; 中文：过去分词与阳性单数主语一致。\n- **S2.14 — sarebbe accorsa:** «senza quel grido» introduce una condizione irreale nel passato; 中文：与过去事实相反，使用过去条件式。\n- **S2.15 — era stato tolto:** il furto del pane precede la spiegazione di Tuta ed è espresso al passivo; 中文：先于另一个过去动作，且面包是受事。\n- **S2.19 — lasciare:** «pregò Tuta di» regge l'infinito presente; «il tozzo al ragazzo» è ora espresso, quindi non sono ammessi pronomi concorrenti; 中文：宾语和受词已明示，只能填写不定式。"
+  },
+  "key": {
+    "S2.1": "legge",
+    "S2.2": "possa",
+    "S2.3": "abbia conservato",
+    "S2.4": "teneva",
+    "S2.5": "volesse",
+    "S2.6": "chiamò",
+    "S2.7": "spinto",
+    "S2.8": "strappò",
+    "S2.9": "fece",
+    "S2.10": "piangendo",
+    "S2.11": "si era allontanata",
+    "S2.12": "continuava",
+    "S2.13": "si mise",
+    "S2.14": "sarebbe accorsa",
+    "S2.15": "era stato tolto",
+    "S2.16": "era accaduto",
+    "S2.17": "esortasse",
+    "S2.18": "mangiasse",
+    "S2.19": "lasciare",
+    "S2.20": "buttò"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "scena aspra",
+      "categoria": "locuzione nominale",
+      "zh": "尖锐而令人不适的场景",
+      "en": "harsh scene",
+      "esempio": "la scena rimane aspra"
+    },
+    {
+      "parola": "occhi fissi",
+      "categoria": "locuzione nominale",
+      "zh": "凝视的双眼",
+      "en": "fixed gaze",
+      "esempio": "teneva gli occhi fissi su Tuta"
+    },
+    {
+      "parola": "tozzo di pane",
+      "categoria": "locuzione nominale",
+      "zh": "一块粗面包",
+      "en": "chunk of bread",
+      "esempio": "gli strappò il tozzo di pane"
+    },
+    {
+      "parola": "concitatamente",
+      "categoria": "avverbio",
+      "zh": "激动地；急促地",
+      "en": "agitatedly",
+      "esempio": "parlava concitatamente con un omaccione barbuto"
+    },
+    {
+      "parola": "accorrere",
+      "categoria": "verbo",
+      "zh": "赶来；跑来",
+      "en": "to rush over",
+      "esempio": "Fu quel grido che la madre fece accorrere"
+    }
+  ]
+}
