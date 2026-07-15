@@ -319,8 +319,9 @@ def copy_assets(out_root: Path) -> None:
     source_dir = Path(__file__).resolve().parent / "assets"
     target_dir = out_root / "assets"
     target_dir.mkdir(parents=True, exist_ok=True)
-    for css_file in sorted(source_dir.glob("*.css")):
-        shutil.copy2(css_file, target_dir / css_file.name)
+    for pattern in ("*.css", "*.js", "*.svg", "*.png"):
+        for asset in sorted(source_dir.glob(pattern)):
+            shutil.copy2(asset, target_dir / asset.name)
 
 
 def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | None) -> None:
@@ -341,12 +342,297 @@ def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | 
         (out_dir / f"{kind}.md").unlink(missing_ok=True)
 
 
-def pdf_button(out_root: Path, base: str, stem: str, label: str, primary: bool = False) -> str:
+SITE_URL = "https://kendrick-stein.github.io/cils-exam-factory/"
+GITHUB_URL = "https://github.com/Kendrick-Stein/cils-exam-factory"
+
+LEVEL_META = {
+    "A1": ("CILS A1", "Primi passi in italiano: messaggi brevi, avvisi pubblici e descrizioni essenziali."),
+    "A2": ("CILS A2", "Vita quotidiana: annunci, istruzioni, ricette e brevi articoli di servizio."),
+    "B1": ("CILS UNO", "Verso l'autonomia: cronaca, testi regolativi, racconti e interviste."),
+    "B2": ("CILS DUE", "Padronanza operativa: articoli di approfondimento, divulgazione e opinione."),
+    "C1": ("CILS TRE", "Competenza avanzata: saggistica, letteratura e testi istituzionali."),
+}
+
+METODO_STEPS = [
+    ("Raccolta delle fonti",
+     "Testi italiani autentici e pubblicati — agenzie di stampa, enti pubblici, letteratura di pubblico dominio — selezionati per genere, livello e banda di parole. Nessuna frase è inventata."),
+    ("Adattamento al formato CILS",
+     "Ogni testo viene ridotto alla banda del livello e montato sui template dei quaderni d'esame, con consegne e punteggi nel formato ufficiale."),
+    ("Generazione degli esercizi",
+     "Gli item nascono una prova alla volta: comprensione della lettura, analisi delle strutture, produzione scritta con tracce e testi modello."),
+    ("Risoluzione e verifica alla cieca",
+     "Un risolutore indipendente riceve soltanto il fascicolo, senza chiavi né fonti: si pubblica solo con il 100% di accordo sugli item oggettivi e zero ambiguità."),
+    ("Audit e pubblicazione",
+     "Controlli deterministici su struttura, lunghezze, riuso e attribuzioni. Poi il fascicolo entra nell'archivio e non cambia più: le correzioni diventano nuove sessioni."),
+]
+
+
+def pdf_link(out_root: Path, base: str, stem: str, label: str, classes: str) -> str:
     href = f"{base}/{stem}.pdf"
     if not (out_root / href).exists():
         return ""
-    classes = "action-button action-button-primary" if primary else "action-button"
     return f'<a class="{classes}" href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
+
+
+def level_chip(level: str) -> str:
+    safe = html.escape(level, quote=True)
+    return f'<span class="chip chip-{safe}">{safe}</span>'
+
+
+def render_topbar() -> str:
+    return f"""  <a class="skip-link" href="#contenuto">Salta al contenuto</a>
+  <header class="topbar" id="top">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="CILS Exam Factory — torna all'inizio">
+        <span class="brand-mark" aria-hidden="true">CF</span>
+        <span class="brand-name">CILS <em>Exam Factory</em></span>
+      </a>
+      <nav class="topnav" id="topnav" aria-label="Sezioni della pagina">
+        <a href="#livelli">Livelli</a>
+        <a href="#sessione">Ultima sessione</a>
+        <a href="#archivio">Archivio</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#informazioni">Informazioni</a>
+        <a class="topnav-github" href="{GITHUB_URL}" rel="noopener">GitHub</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="topnav">Menu</button>
+    </div>
+  </header>"""
+
+
+def render_hero(total_papers: int, total_sessions: int, total_sources: int, latest_session: str) -> str:
+    return f"""    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="kicker">Archivio di esercitazioni · A1–C1 · non ufficiale</p>
+          <h1>Esercitazioni CILS costruite da testi italiani autentici.</h1>
+          <p class="hero-sub">Practice papers from A1 to C1, with verified sources, solutions and editorial notes.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#livelli">Trova il tuo livello</a>
+            <a class="btn btn-ghost" href="#archivio">Esplora le sessioni</a>
+          </div>
+          <div class="hero-stats" role="group" aria-label="Statistiche del progetto">
+            <div><p class="stat-num" data-count="{total_papers}">{total_papers}</p><p class="stat-label">fascicoli</p></div>
+            <div><p class="stat-num" data-count="{total_sessions}">{total_sessions}</p><p class="stat-label">sessioni</p></div>
+            <div><p class="stat-num" data-count="{total_sources}">{total_sources}</p><p class="stat-label">fonti autentiche</p></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="sheet-stack" id="sheet-stack">
+            <div class="sheet sheet-chiavi" data-depth="0.4">
+              <span class="sheet-tag">Chiavi e commenti</span>
+              <span class="sheet-grid"></span>
+            </div>
+            <div class="sheet sheet-fonte" data-depth="0.7">
+              <span class="sheet-tag sheet-tag-red">Fonte verificata</span>
+              <span class="sheet-lines"></span>
+            </div>
+            <div class="sheet sheet-fascicolo" data-depth="1">
+              <span class="cover-rule"></span>
+              <span class="cover-title">CILS — Certificazione di Italiano come Lingua Straniera</span>
+              <span class="cover-rule"></span>
+              <span class="cover-sub">Quaderno di esame</span>
+              <span class="cover-level">Livello UNO — B1</span>
+              <span class="cover-session">Sessione {html.escape(latest_session)}</span>
+              <span class="cover-note">Esercitazione non ufficiale<br>da testi autentici</span>
+            </div>
+            <div class="stamp" data-depth="1.25"><span>Verificato<br>alla cieca<br>·100%·</span></div>
+          </div>
+        </div>
+      </div>
+    </section>"""
+
+
+def render_livelli(level_counts: dict[str, int]) -> str:
+    cards: list[str] = []
+    for level in LEVEL_ORDER:
+        cils_name, desc = LEVEL_META[level]
+        count = level_counts.get(level, 0)
+        plural = "fascicoli" if count != 1 else "fascicolo"
+        cards.append(f"""        <article class="level-card reveal">
+          <p class="level-code">{html.escape(level)}</p>
+          <p class="level-cils">{html.escape(cils_name)}</p>
+          <p class="level-desc">{html.escape(desc)}</p>
+          <p class="level-count"><span class="num">{count}</span> {plural} disponibili</p>
+          <a class="btn btn-small btn-ghost" href="?level={html.escape(level, quote=True)}#archivio" data-level-link="{html.escape(level, quote=True)}">Inizia<span class="visually-hidden"> con il livello {html.escape(level)}</span></a>
+        </article>""")
+    joined = "\n".join(cards)
+    return f"""    <section class="section" id="livelli">
+      <header class="section-head reveal">
+        <p class="kicker">Livelli</p>
+        <h2>Scegli il tuo livello</h2>
+        <p class="section-sub">Cinque livelli del Quadro comune europeo, ognuno sul modello del quaderno d'esame CILS corrispondente.</p>
+      </header>
+      <div class="level-grid">
+{joined}
+      </div>
+    </section>"""
+
+
+def render_ultima(session: str, papers: list[Paper], out_root: Path) -> str:
+    cards: list[str] = []
+    for paper in sorted(papers, key=level_sort_key):
+        base = f"papers/{paper.date}/{paper.level}"
+        cils_name, _ = LEVEL_META.get(paper.level, (paper.level, ""))
+        plural = "testi autentici" if paper.source_count != 1 else "testo autentico"
+        fascicolo = pdf_link(out_root, base, "paper", "Apri il fascicolo", "btn btn-primary")
+        chiavi = pdf_link(out_root, base, "answers", "Chiavi e commenti", "link-quiet")
+        cards.append(f"""        <article class="paper-card reveal">
+          <p class="paper-card-head">{level_chip(paper.level)}<span class="paper-card-name">{html.escape(cils_name)}</span></p>
+          <p class="paper-card-sources"><span class="num">{paper.source_count}</span> {plural}</p>
+          <p class="paper-card-actions">{fascicolo}</p>
+          <p class="paper-card-secondary">{chiavi}</p>
+        </article>""")
+    joined = "\n".join(cards)
+    return f"""    <section class="section section-alt" id="sessione">
+      <header class="section-head reveal">
+        <p class="kicker">Ultima sessione</p>
+        <h2><span class="num">{html.escape(session)}</span></h2>
+        <p class="section-sub">Cinque fascicoli pubblicati dopo verifica alla cieca e audit editoriale. Le sessioni precedenti sono nell'<a href="#archivio">archivio</a>.</p>
+      </header>
+      <div class="session-grid">
+{joined}
+      </div>
+    </section>"""
+
+
+def render_metodo() -> str:
+    steps: list[str] = []
+    for index, (title, body) in enumerate(METODO_STEPS, start=1):
+        steps.append(f"""          <li class="metodo-step reveal">
+            <p class="step-no" aria-hidden="true">{index:02d}</p>
+            <div><h3>{html.escape(title)}</h3>
+            <p>{html.escape(body)}</p></div>
+          </li>""")
+    joined = "\n".join(steps)
+    return f"""    <section class="section" id="metodo">
+      <div class="metodo-grid">
+        <header class="metodo-head reveal">
+          <p class="kicker">Metodo</p>
+          <h2>Come nasce un fascicolo</h2>
+          <p class="section-sub">Una filiera editoriale in cinque passaggi, dal testo autentico al PDF pubblicato. Tutto il processo è documentato nel repository.</p>
+        </header>
+        <ol class="metodo-steps">
+{joined}
+        </ol>
+      </div>
+    </section>"""
+
+
+def render_archivio(
+    sessions: list[str],
+    papers_by_date: dict[str, list[Paper]],
+    out_root: Path,
+    latest_session: str,
+    years: list[str],
+) -> str:
+    level_buttons = ['<button class="filter-btn" type="button" data-level-filter="tutti" aria-pressed="true">Tutti</button>']
+    for level in LEVEL_ORDER:
+        safe = html.escape(level, quote=True)
+        level_buttons.append(
+            f'<button class="filter-btn" type="button" data-level-filter="{safe}" aria-pressed="false">{safe}</button>'
+        )
+    year_options = ['<option value="tutti">Tutti gli anni</option>'] + [
+        f'<option value="{html.escape(year, quote=True)}">{html.escape(year)}</option>' for year in years
+    ]
+
+    blocks: list[str] = []
+    for session in sessions:
+        papers = sorted(papers_by_date[session], key=level_sort_key)
+        levels = " ".join(paper.level for paper in papers)
+        year = session[:4]
+        chips = "".join(level_chip(paper.level) for paper in papers)
+        latest_tag = '<span class="arch-tag">ultima</span>' if session == latest_session else ""
+        plural = "fascicoli" if len(papers) != 1 else "fascicolo"
+        rows: list[str] = []
+        for paper in papers:
+            base = f"papers/{paper.date}/{paper.level}"
+            cils_name, _ = LEVEL_META.get(paper.level, (paper.level, ""))
+            fascicolo = pdf_link(out_root, base, "paper", "Fascicolo", "btn btn-primary btn-small")
+            chiavi = pdf_link(out_root, base, "answers", "Chiavi e commenti", "link-quiet")
+            rows.append(f"""            <li class="arch-row" data-level="{html.escape(paper.level, quote=True)}">
+              {level_chip(paper.level)}
+              <span class="arch-row-name">{html.escape(cils_name)}<span class="arch-row-sub"><span class="num">{paper.source_count}</span> testi autentici</span></span>
+              <span class="arch-row-actions">{fascicolo}{chiavi}</span>
+            </li>""")
+        rows_joined = "\n".join(rows)
+        blocks.append(f"""        <details class="arch-session" id="sessione-{html.escape(slug(session), quote=True)}" data-session="{html.escape(session, quote=True)}" data-year="{html.escape(year, quote=True)}" data-levels="{html.escape(levels, quote=True)}">
+          <summary>
+            <span class="arch-no">N. <span class="num">{html.escape(session)}</span></span>
+            <span class="arch-chips">{chips}{latest_tag}</span>
+            <span class="arch-count">{len(papers)} {plural}</span>
+            <span class="arch-chev" aria-hidden="true"></span>
+          </summary>
+          <ul class="arch-rows">
+{rows_joined}
+          </ul>
+        </details>""")
+    blocks_joined = "\n".join(blocks)
+    return f"""    <section class="section section-alt" id="archivio">
+      <header class="section-head reveal">
+        <p class="kicker">Archivio</p>
+        <h2>Tutte le sessioni</h2>
+        <p class="section-sub">Ogni sessione è una data di pubblicazione. I fascicoli pubblicati non cambiano mai: le correzioni diventano nuove sessioni.</p>
+      </header>
+      <div class="archive-controls reveal">
+        <div class="filter-group" role="group" aria-label="Filtra per livello">
+          {' '.join(level_buttons)}
+        </div>
+        <div class="filter-side">
+          <label class="filter-select">Anno
+            <select id="year-filter">{''.join(year_options)}</select>
+          </label>
+          <button class="filter-btn" type="button" id="sort-toggle" data-sort="recenti">Più recenti prima</button>
+        </div>
+      </div>
+      <div class="archive-list" id="archive-list">
+{blocks_joined}
+      </div>
+      <p class="archive-empty" id="archive-empty" hidden>Nessuna sessione corrisponde ai filtri selezionati.</p>
+    </section>"""
+
+
+def render_informazioni() -> str:
+    return f"""    <section class="section" id="informazioni">
+      <header class="section-head reveal">
+        <p class="kicker">Informazioni</p>
+        <h2>Un progetto indipendente</h2>
+      </header>
+      <div class="info-grid">
+        <article class="info-card reveal">
+          <p class="info-no" aria-hidden="true">§ 01</p>
+          <h3>Non ufficiale, dichiaratamente</h3>
+          <p>Questo è materiale di esercitazione non ufficiale. Il progetto non è affiliato all'Università per Stranieri di Siena né all'esame CILS, il cui marchio appartiene ai rispettivi titolari. Per la preparazione conviene consultare anche i materiali ufficiali.</p>
+        </article>
+        <article class="info-card reveal">
+          <p class="info-no" aria-hidden="true">§ 02</p>
+          <h3>Fonti e adattamento</h3>
+          <p>Ogni testo proviene da una fonte italiana reale e pubblicata: stampa, enti pubblici, siti di servizio, letteratura di pubblico dominio. I testi sono adattati alla banda del livello — tagli e semplificazioni, mai fatti inventati — e ogni fonte è accreditata nei manifest del repository.</p>
+        </article>
+        <article class="info-card reveal">
+          <p class="info-no" aria-hidden="true">§ 03</p>
+          <h3>Soluzioni e verifica</h3>
+          <p>Le chiavi sono verificate da una risoluzione indipendente alla cieca: il fascicolo si pubblica solo con il 100% di accordo sugli item oggettivi e zero segnalazioni di ambiguità, dopo audit deterministici di formato e qualità. Ogni chiave è accompagnata da spiegazioni e note di studio.</p>
+        </article>
+        <article class="info-card reveal">
+          <p class="info-no" aria-hidden="true">§ 04</p>
+          <h3>Codice, uso e citazione</h3>
+          <p>La filiera di generazione è open source. I PDF sono liberi per lo studio personale e l'uso in classe; i testi originali restano dei rispettivi autori — citare la fonte quando si riusa. Errori e proposte si segnalano nel repository.</p>
+          <p><a class="btn btn-ghost btn-small" href="{GITHUB_URL}" rel="noopener">Apri il repository</a></p>
+        </article>
+      </div>
+    </section>"""
+
+
+def render_footer(total_papers: int) -> str:
+    return f"""  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">CILS <em>Exam Factory</em></p>
+      <p class="footer-tricolore" aria-hidden="true"><span></span><span></span><span></span></p>
+      <p class="footer-note">{html.escape(DISCLAIMER)}</p>
+      <p class="footer-meta"><span class="num">{total_papers}</span> fascicoli pubblicati · <a href="{GITHUB_URL}" rel="noopener">Codice su GitHub</a></p>
+    </div>
+  </footer>"""
 
 
 def render_index(papers: list[Paper], out_root: Path) -> str:
@@ -358,97 +644,60 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
     latest_session = sessions[0] if sessions else ""
     total_papers = len(papers)
     total_sources = sum(paper.source_count for paper in papers)
-    session_nav = ""
+    level_counts: dict[str, int] = {}
+    for paper in papers:
+        level_counts[paper.level] = level_counts.get(paper.level, 0) + 1
+    years = sorted({session[:4] for session in sessions}, reverse=True)
+
+    description = (
+        "Fascicoli di esercitazione CILS non ufficiali (A1–C1) generati da testi italiani autentici: "
+        "lettura, strutture e produzione scritta con chiavi commentate, fonti verificate e audit editoriale."
+    )
+
     if sessions:
-        session_links = "\n".join(
-            f'        <a href="#session-{html.escape(slug(session), quote=True)}">{html.escape(session)}</a>'
-            for session in sessions
-        )
-        session_nav = f"""    <nav class="session-nav" aria-label="Sessioni pubblicate">
-      <span>Sessioni</span>
-{session_links}
-    </nav>"""
+        ultima = render_ultima(latest_session, papers_by_date[latest_session], out_root)
+        archivio = render_archivio(sessions, papers_by_date, out_root, latest_session, years)
+    else:
+        ultima = '    <section class="section" id="sessione"><p class="archive-empty">Nessun fascicolo pubblicato.</p></section>'
+        archivio = '    <section class="section" id="archivio"></section>'
 
-    session_cards: list[str] = []
-    for session in sessions:
-        cards: list[str] = []
-        for paper in sorted(papers_by_date[session], key=level_sort_key):
-            base = f"papers/{paper.date}/{paper.level}"
-            cards.append(
-                f"""      <article class="level-row">
-        <div class="level-row-info">
-          {badge(paper.level)}
-          <div>
-            <h3>{html.escape(paper.title)}</h3>
-            <p>{paper.source_count} testi autentici verificati</p>
-          </div>
-        </div>
-        <div class="level-row-actions">
-          {pdf_button(out_root, base, "paper", "Fascicolo", primary=True)}
-          {pdf_button(out_root, base, "answers", "Chiavi e commenti")}
-        </div>
-      </article>"""
-            )
-
-        level_cards = "\n".join(cards)
-        latest_badge = '\n      <span class="session-label">Ultima sessione</span>' if session == latest_session else ""
-        session_cards.append(
-            f"""  <section class="session-card" id="session-{html.escape(slug(session), quote=True)}">
-    <div class="session-heading">
-      <div>
-        <p class="session-kicker">Sessione</p>
-        <h2>{html.escape(session)}</h2>
-      </div>{latest_badge}
-    </div>
-    <div class="level-list">
-{level_cards}
-    </div>
-  </section>"""
-        )
-
-    if not session_cards:
-        session_cards.append('  <section class="empty-state">Nessun fascicolo pubblicato.</section>')
-
-    cards_html = "\n".join(session_cards)
     return f"""<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CILS Exam Factory</title>
+  <title>CILS Exam Factory · Esercitazioni CILS da testi autentici (A1–C1)</title>
+  <meta name="description" content="{html.escape(description, quote=True)}">
+  <link rel="canonical" href="{SITE_URL}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:site_name" content="CILS Exam Factory">
+  <meta property="og:title" content="CILS Exam Factory · Esercitazioni CILS da testi autentici">
+  <meta property="og:description" content="{html.escape(description, quote=True)}">
+  <meta property="og:url" content="{SITE_URL}">
+  <meta property="og:image" content="{SITE_URL}assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f6f2e8">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="assets/site.css">
+  <script defer src="assets/site.js"></script>
 </head>
 <body>
-  <main class="site">
-    <header class="hero">
-      <p class="eyebrow">Esercitazioni CILS non ufficiali</p>
-      <h1>CILS Exam Factory</h1>
-      <p class="tagline">Materiali di pratica in italiano, con chiavi commentate. Practice papers for Italian learners, with answer keys and notes.</p>
-      <p class="intro">Cos'è: una raccolta statica di fascicoli CILS simulati, generati da testi autentici adattati, controllati con risoluzione alla cieca e pubblicati solo dopo audit di formato.</p>
-      <div class="hero-stats" aria-label="Statistiche pubblicazione">
-        <div><strong>{total_papers}</strong><span>fascicoli pubblicati</span></div>
-        <div><strong>{len(sessions)}</strong><span>sessioni</span></div>
-        <div><strong>{total_sources}</strong><span>fonti autentiche</span></div>
-      </div>
-    </header>
-{session_nav}
-
-{cards_html}
-
-    <section class="methodology">
-      <h2>Metodologia</h2>
-      <ul>
-        <li>Selezione di testi autentici adatti al livello.</li>
-        <li>Generazione su template ufficiale del formato CILS.</li>
-        <li>Risoluzione alla cieca indipendente degli item oggettivi.</li>
-        <li>Audit di formato su conteggi, sezioni, consegne e attribuzioni.</li>
-        <li>Pubblicazione statica di HTML, Markdown e PDF.</li>
-      </ul>
-    </section>
+{render_topbar()}
+  <main id="contenuto">
+{render_hero(total_papers, len(sessions), total_sources, latest_session)}
+{render_livelli(level_counts)}
+{ultima}
+{render_metodo()}
+{archivio}
+{render_informazioni()}
   </main>
-  <footer class="site-footer">
-    <p>{html.escape(DISCLAIMER)}</p>
-  </footer>
+{render_footer(total_papers)}
 </body>
 </html>
 """
