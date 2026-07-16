@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "IL PRIMO BUS ELETTRICO DI SALINA",
+    "S3_TEXT_WITH_GAPS": "L'isola di Salina continua a puntare sulla mobilità sostenibile e inclusiva, proseguendo un percorso __(1)__ già da alcuni anni. È in funzione il primo bus elettrico del __Comune (0)__ di Malfa, che accompagna cittadini e turisti verso i principali punti di __(2)__ dell'isola.\n\nIl servizio è completamente gratuito e permette di __(3)__ agevolmente la spiaggia, il porto, le piazze, le attività commerciali e le fermate del trasporto pubblico __(4)__ fra i comuni dell'isola. Il mezzo è specificamente __(5)__ per il trasporto delle persone a mobilità __(6)__, rendendo il servizio più __(7)__ e accessibile a tutti.\n\nL'iniziativa rappresenta un importante __(8)__ nella mobilità sostenibile. Il veicolo, elettrico al cento per cento, è alimentato __(9)__ con energia prodotta dall'impianto fotovoltaico __(10)__ nel Palazzo Municipale di Malfa. I tre sindaci dell'isola hanno partecipato all'inaugurazione, svolta alla loro __(11)__.\n\nIl servizio resterà in via __(12)__ fino al 6 settembre. L'energia generata viene __(13)__ attraverso un sistema di batterie e utilizzata per la __(14)__ del mezzo: nasce così un modello di mobilità a impatto ambientale praticamente nullo. Lungo il percorso ci sono fermate intelligenti con un display che __(15)__ i tempi di percorrenza.",
+    "S3_OPT0_A": "Comune",
+    "S3_OPT0_B": "porto",
+    "S3_OPT0_C": "palazzo",
+    "S3_OPT0_D": "servizio",
+    "S3_OPTION_ROWS": "| 1. | evitato | intrapreso | trascurato | abbandonato |\n| 2. | interesse | contrasto | ritardo | confine |\n| 3. | lasciare | superare | evitare | raggiungere |\n| 4. | scolastico | privato | intercomunale | aziendale |\n| 5. | attrezzato | decorato | pubblicizzato | noleggiato |\n| 6. | lenta | ridotta | incerta | debole |\n| 7. | costoso | affollato | esclusivo | inclusivo |\n| 8. | ostacolo | spreco | investimento | rischio |\n| 9. | parzialmente | raramente | esclusivamente | occasionalmente |\n| 10. | spento | installato | guasto | smontato |\n| 11. | residenza | partenza | presenza | riunione |\n| 12. | definitiva | sperimentale | ordinaria | permanente |\n| 13. | dispersa | importata | accumulata | acquistata |\n| 14. | custodia | pulizia | manutenzione | ricarica |\n| 15. | modifica | prolunga | indica | ritarda |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «proseguendo un percorso intrapreso già da alcuni anni» indica la continuazione di un cammino avviato in precedenza. 中文：proseguire 与 intraprendere 构成前后呼应。 |\n| S3.2 | A | Il bus conduce «verso i principali punti di interesse dell'isola», cioè i luoghi utili per cittadini e turisti. 中文：punti di interesse 是固定搭配。 |\n| S3.3 | D | Il servizio permette di «raggiungere agevolmente la spiaggia, il porto, le piazze», tutte destinazioni del percorso. 中文：列举的是要到达的地点。 |\n| S3.4 | C | L'espressione «trasporto pubblico intercomunale fra i comuni dell'isola» indica collegamenti tra comuni diversi. 中文：intercomunale 意为“市镇之间的”。 |\n| S3.5 | A | Il mezzo è «specificamente attrezzato per il trasporto» di persone con esigenze particolari. 中文：attrezzato per 表示配备为某种用途。 |\n| S3.6 | B | «Persone a mobilità ridotta» è la locuzione che definisce chi ha difficoltà negli spostamenti. 中文：mobilità ridotta 是固定表达。 |\n| S3.7 | D | L'attrezzatura rende «il servizio più inclusivo e accessibile a tutti». 中文：accessibile a tutti 锁定 inclusivo。 |\n| S3.8 | C | «Un importante investimento nella mobilità sostenibile» descrive l'impiego di risorse per il nuovo servizio. 中文：investimento nella mobilità 是自然搭配。 |\n| S3.9 | C | Il veicolo è alimentato «esclusivamente con energia» fotovoltaica, dunque senza altre fonti indicate. 中文：原文强调能源来源完全单一。 |\n| S3.10 | B | L'energia è prodotta dall'«impianto fotovoltaico installato nel Palazzo Municipale». 中文：能发电的光伏设备已安装在市政大楼。 |\n| S3.11 | C | «I tre sindaci hanno partecipato all'inaugurazione», quindi questa si è svolta «alla loro presenza». 中文：前半句明确三位市长在场。 |\n| S3.12 | B | Il limite «fino al 6 settembre» conferma che il servizio è «in via sperimentale», non definitivo. 中文：明确截止日期排除永久或常规状态。 |\n| S3.13 | C | L'energia «viene accumulata attraverso un sistema di batterie» prima di essere utilizzata. 中文：电池系统用于储存能源。 |\n| S3.14 | D | L'energia conservata è «utilizzata per la ricarica del mezzo» elettrico. 中文：电能用于给车辆充电。 |\n| S3.15 | C | Il display «indica i tempi di percorrenza», cioè comunica la durata del tragitto. 中文：显示屏提供行程时间信息。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "D",
+    "S3.4": "C",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "C",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "C",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "D",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mobilità sostenibile",
+      "categoria": "locuzione nominale",
+      "zh": "可持续交通",
+      "en": "sustainable mobility",
+      "esempio": "continua a puntare sulla mobilità sostenibile"
+    },
+    {
+      "parola": "impianto fotovoltaico",
+      "categoria": "locuzione nominale",
+      "zh": "光伏设备",
+      "en": "photovoltaic system",
+      "esempio": "energia prodotta dall'impianto fotovoltaico"
+    },
+    {
+      "parola": "Palazzo Municipale",
+      "categoria": "locuzione nominale",
+      "zh": "市政大楼",
+      "en": "municipal building",
+      "esempio": "nel Palazzo Municipale di Malfa"
+    },
+    {
+      "parola": "sistema di batterie",
+      "categoria": "locuzione nominale",
+      "zh": "电池系统",
+      "en": "battery system",
+      "esempio": "attraverso un sistema di batterie"
+    },
+    {
+      "parola": "tempi di percorrenza",
+      "categoria": "locuzione nominale",
+      "zh": "行程用时",
+      "en": "travel times",
+      "esempio": "i tempi di percorrenza"
+    }
+  ]
+}

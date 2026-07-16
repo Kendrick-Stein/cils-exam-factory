@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "PERCHÉ I GATTI INTERROMPONO IL PASTO?",
+    "S1_TEXT_WITH_GAPS": "__Questo (0)__ studio, nel __(1)__ è descritto un esperimento con dodici gatti, spiega perché i felini interrompono il pasto.\n\nI cani, la __(2)__ storia evolutiva è legata alla caccia in gruppo, dividono con il branco le __(3)__ prede. Il branco è infatti il gruppo con il __(4)__ condividono il cibo.\n\nI gatti, invece, sono predatori solitari, la __(5)__ abitudine era cacciare piccole prede. Questa storia spiega il __(6)__ modo di mangiare: a puntate. Ne lasciano una parte nella ciotola, alla __(7)__ possono tornare più tardi. L'appetito era l'ipotesi alla __(8)__ si pensava per prima.\n\nUn team giapponese ha verificato questa ipotesi in una serie di prove, ciascuna delle __(9)__ terminava con del cibo. __(10)__ dei dodici gatti finiva la porzione in una sola sessione. Anche dopo un digiuno di sedici ore, ogni animale seguiva il __(11)__ ritmo. Che la fame non fosse la causa, il gruppo __(12)__ rese conto osservando i dati. Il risultato è la ragione per la __(13)__ i ricercatori hanno escluso l'appetito.\n\nL'odore era l'elemento sul __(14)__ si sono concentrati. Il cibo, il __(15)__ odore non cambiava, era sempre __(16)__. Il team lasciava passare dieci minuti tra una porzione e l'__(17)__. Le pause, la __(18)__ durata non cambiava, erano intervalli regolari durante i __(19)__ i gatti non ricevevano cibo. Il risultato al __(20)__ sono arrivati era chiaro."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | quale | S1.11 | proprio || suo |\n| S1.2 | cui | S1.12 | se ne |\n| S1.3 | proprie || loro | S1.13 | quale |\n| S1.4 | quale | S1.14 | quale |\n| S1.5 | cui | S1.15 | cui |\n| S1.6 | loro | S1.16 | lo stesso |\n| S1.7 | quale | S1.17 | altra |\n| S1.8 | quale | S1.18 | cui |\n| S1.9 | quali | S1.19 | quali |\n| S1.10 | nessuno | S1.20 | quale |",
+    "ANS_S1_NOTES": "**Note sulle scelte insidiose.**\n\n- **S1.1, S1.4, S1.7–S1.8 — quale:** le cornici già stampate «nel», «con il», «alla» rendono necessario il relativo concordato: «nel quale», «con il quale», «alla quale». 中文：介词和冠词在空格外，性数也由先行词锁定。\n- **S1.2, S1.5, S1.15, S1.18 — cui:** in «la cui storia», «la cui abitudine», «il cui odore» e «la cui durata», *cui* esprime possesso e resta invariabile. 中文：冠词与后面的名词搭配，空格只能填不变形的 *cui*。\n- **S1.3, S1.6, S1.11 — proprie || loro; loro; proprio || suo:** con «i cani» e «ogni animale» sono corrette entrambe le forme possessive indicate; in «Questa storia spiega il loro modo», invece, *loro* è imposto dal referente plurale «i gatti». 中文：确有两种正确物主形式时已全部列入答案；第6空的复数指代只允许 *loro*。\n- **S1.9–S1.10, S1.12 — quali; nessuno; se ne:** «ciascuna delle quali» riprende «prove»; il cibo lasciato in ogni prova esclude che un gatto finisse la porzione; «se ne rese conto» riprende l'intera proposizione sulla fame. 中文：第12空是由反身代词和命题回指组成的组合形式。\n- **S1.13–S1.14, S1.16–S1.20 — quale; quale; lo stesso; altra; cui; quali; quale:** le preposizioni e gli articoli stampati fissano i relativi; «lo stesso» riprende il cibo invariato e «tra una porzione e l'altra» forma una coppia correlativa. 中文：这些空均由局部句法框架锁定，不需要猜数字或事实词。"
+  },
+  "key": {
+    "S1.1": "quale",
+    "S1.2": "cui",
+    "S1.3": "proprie || loro",
+    "S1.4": "quale",
+    "S1.5": "cui",
+    "S1.6": "loro",
+    "S1.7": "quale",
+    "S1.8": "quale",
+    "S1.9": "quali",
+    "S1.10": "nessuno",
+    "S1.11": "proprio || suo",
+    "S1.12": "se ne",
+    "S1.13": "quale",
+    "S1.14": "quale",
+    "S1.15": "cui",
+    "S1.16": "lo stesso",
+    "S1.17": "altra",
+    "S1.18": "cui",
+    "S1.19": "quali",
+    "S1.20": "quale"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "storia evolutiva",
+      "categoria": "locuzione nominale",
+      "zh": "进化史",
+      "en": "evolutionary history",
+      "esempio": "I cani, la cui storia evolutiva è legata alla caccia in gruppo, dividono con il branco le proprie prede."
+    },
+    {
+      "parola": "predatori solitari",
+      "categoria": "locuzione nominale",
+      "zh": "独居捕食者",
+      "en": "solitary predators",
+      "esempio": "I gatti, invece, sono predatori solitari, la cui abitudine era cacciare piccole prede."
+    },
+    {
+      "parola": "a puntate",
+      "categoria": "locuzione avverbiale",
+      "zh": "分多次地",
+      "en": "in instalments",
+      "esempio": "Questa storia spiega il loro modo di mangiare: a puntate."
+    },
+    {
+      "parola": "digiuno",
+      "categoria": "nome maschile",
+      "zh": "禁食；空腹",
+      "en": "fasting",
+      "esempio": "Anche dopo un digiuno di sedici ore, ogni animale seguiva il proprio ritmo."
+    },
+    {
+      "parola": "intervalli regolari",
+      "categoria": "locuzione nominale",
+      "zh": "固定间隔",
+      "en": "regular intervals",
+      "esempio": "Le pause, la cui durata non cambiava, erano intervalli regolari durante i quali i gatti non ricevevano cibo."
+    }
+  ]
+}

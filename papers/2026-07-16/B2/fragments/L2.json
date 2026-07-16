@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Bando per 65.964 operatori volontari del Servizio civile universale",
+    "T2_TEXT": "È stato pubblicato il bando per la selezione di 65.964 operatori volontari da impiegare in progetti del Servizio civile universale, da realizzare in Italia e all’estero. Quelli italiani coprono tutto il territorio nazionale.\n\n**Progetti e condizioni di servizio**\n\nFino alle ore 14.00 dell’8 aprile 2026 è possibile presentare domanda di partecipazione a uno dei progetti previsti tra il 2026 e il 2027. In particolare, 64.479 operatori volontari saranno avviati in 2.635 progetti, appartenenti a 548 programmi di intervento da realizzare in Italia; altri 1.485 volontari saranno avviati in 204 progetti, appartenenti a 54 programmi da realizzare all’estero.\n\nI progetti durano da 8 a 12 mesi. L’orario di servizio può essere di 25 ore settimanali oppure può prevedere un monte ore annuo proporzionato alla durata: 1.145 ore per i progetti di 12 mesi, 1.049 per quelli di 11 mesi, 954 per quelli di 10 mesi, 859 per quelli di 9 mesi e 765 per quelli di 8 mesi. Il servizio è articolato su cinque o sei giorni alla settimana.\n\nGli operatori selezionati sottoscrivono con il Dipartimento un contratto che stabilisce, tra l’altro, un assegno mensile di 519,47 euro. L’importo può aumentare in base alla variazione accertata dall’ISTAT.\n\n**Come scegliere il progetto**\n\nPrima di partecipare alla selezione bisogna individuare il progetto nel quale si desidera essere impegnati. Nella pagina dedicata al bando sono disponibili due motori di ricerca: “Scegli il tuo progetto in Italia” e “Scegli il tuo progetto all’estero”. Se si preme il tasto CERCA senza selezionare alcun valore negli altri campi, si ottiene l’elenco completo di tutti i progetti. Per una ricerca mirata, invece, è possibile scegliere i valori delle voci che interessano.\n\nLa pagina di dettaglio di ogni progetto mostra anche il numero delle domande già pervenute per quella sede. Il dato non è aggiornato in tempo reale, ma si riferisce al giorno precedente la consultazione. Dopo aver scelto il progetto, è opportuno visitare la home page dell’ente titolare, dove si trova la scheda che ne presenta gli elementi essenziali.\n\n**Presentazione della domanda**\n\nLa domanda deve essere indirizzata direttamente all’ente titolare del progetto scelto e va presentata esclusivamente attraverso la piattaforma DOL, accessibile da computer, tablet e smartphone. Non sono ammesse domande oltre le ore 14.00 dell’8 aprile 2026.\n\nPer compilare e presentare la domanda sulla piattaforma, il candidato deve essere riconosciuto dal sistema. I cittadini italiani residenti in Italia o all’estero possono accedere tramite Carta di Identità Elettronica (CIE); è consentito anche l’accesso con il Sistema Pubblico di Identità Digitale (SPID).",
+    "L2_ITEMS": "**1. Il bando riguarda progetti da svolgere sia in Italia sia all’estero.**\n\nVero ○ Falso ○\n\n**2. Tutti i 65.964 operatori volontari saranno impiegati in progetti realizzati in Italia.**\n\nVero ○ Falso ○\n\n**3. I progetti all’estero appartengono a 54 programmi di intervento.**\n\nVero ○ Falso ○\n\n**4. Ogni progetto ha una durata obbligatoria di dodici mesi.**\n\nVero ○ Falso ○\n\n**5. Il monte ore annuo diminuisce quando diminuisce la durata del progetto.**\n\nVero ○ Falso ○\n\n**6. Il servizio deve essere distribuito su sette giorni alla settimana.**\n\nVero ○ Falso ○\n\n**7. Il contratto prevede un assegno mensile che può essere adeguato in base a una variazione accertata dall’ISTAT.**\n\nVero ○ Falso ○\n\n**8. Per partecipare si può presentare la domanda prima di avere scelto un progetto.**\n\nVero ○ Falso ○\n\n**9. Premendo CERCA senza impostare altri campi si visualizzano tutti i progetti.**\n\nVero ○ Falso ○\n\n**10. Il numero delle domande mostrato nella pagina di un progetto è aggiornato al momento della consultazione.**\n\nVero ○ Falso ○\n\n**11. La scheda con gli elementi essenziali del progetto è pubblicata sul sito dell’ente titolare.**\n\nVero ○ Falso ○\n\n**12. La domanda va inviata al Dipartimento tramite posta elettronica.**\n\nVero ○ Falso ○\n\n**13. La piattaforma DOL è utilizzabile anche da tablet e smartphone.**\n\nVero ○ Falso ○\n\n**14. Per accedere alla piattaforma, i cittadini italiani possono usare sia la CIE sia lo SPID.**\n\nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V — Vero | Il bando riguarda progetti «da realizzare in Italia e all’estero». 中文：两个地点都包括。 |\n| L2.2 | F — Falso | In Italia saranno avviati «64.479 operatori»; altri 1.485 lavoreranno all’estero. 中文：总人数并非全部在意大利。 |\n| L2.3 | V — Vero | I progetti esteri appartengono a «54 programmi da realizzare all’estero». 中文：54指项目计划数。 |\n| L2.4 | F — Falso | «I progetti durano da 8 a 12 mesi», quindi la durata non è sempre di dodici mesi. 中文：这是区间而非固定期限。 |\n| L2.5 | V — Vero | Il testo indica 1.145 ore per 12 mesi e poi valori progressivamente inferiori, fino a «765 per quelli di 8 mesi». 中文：期限越短，年总工时越少。 |\n| L2.6 | F — Falso | Il servizio è articolato «su cinque o sei giorni alla settimana», non sette. 中文：每周不是七天。 |\n| L2.7 | V — Vero | L’assegno è di «519,47 euro» e «può aumentare in base alla variazione accertata dall’ISTAT». 中文：金额允许按ISTAT数据上调。 |\n| L2.8 | F — Falso | «Prima di partecipare alla selezione bisogna individuare il progetto». 中文：选项目是申请前置步骤。 |\n| L2.9 | V — Vero | Premendo CERCA senza altri valori «si ottiene l’elenco completo di tutti i progetti». 中文：不设筛选即可查看全部。 |\n| L2.10 | F — Falso | Il dato «non è aggiornato in tempo reale» e si riferisce al giorno precedente. 中文：显示的是前一天的数据。 |\n| L2.11 | V — Vero | Sulla home page dell’ente titolare «si trova la scheda che ne presenta gli elementi essenziali». 中文：项目摘要在负责机构网站。 |\n| L2.12 | F — Falso | La domanda è diretta all’ente titolare e va presentata «esclusivamente attraverso la piattaforma DOL». 中文：收件方不是部门，也不是电邮提交。 |\n| L2.13 | V — Vero | La piattaforma è «accessibile da computer, tablet e smartphone». 中文：平板和手机都可使用。 |\n| L2.14 | V — Vero | È previsto l’accesso tramite CIE ed «è consentito anche l’accesso con» SPID. 中文：两种电子身份均可。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "monte ore annuo",
+      "categoria": "locuzione nominale",
+      "zh": "年度总工时",
+      "en": "annual total hours",
+      "esempio": "può prevedere un monte ore annuo proporzionato alla durata"
+    },
+    {
+      "parola": "assegno mensile",
+      "categoria": "locuzione nominale",
+      "zh": "每月补贴",
+      "en": "monthly allowance",
+      "esempio": "un assegno mensile di 519,47 euro"
+    },
+    {
+      "parola": "ricerca mirata",
+      "categoria": "locuzione nominale",
+      "zh": "定向搜索",
+      "en": "targeted search",
+      "esempio": "Per una ricerca mirata, invece, è possibile scegliere i valori"
+    },
+    {
+      "parola": "domande già pervenute",
+      "categoria": "locuzione nominale",
+      "zh": "已收到的申请",
+      "en": "applications already received",
+      "esempio": "il numero delle domande già pervenute per quella sede"
+    },
+    {
+      "parola": "ente titolare",
+      "categoria": "locuzione nominale",
+      "zh": "项目主管机构",
+      "en": "responsible organization",
+      "esempio": "la home page dell’ente titolare"
+    }
+  ]
+}

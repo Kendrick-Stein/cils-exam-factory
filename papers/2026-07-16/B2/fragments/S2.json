@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "IMPREVISTO DIETRO LE QUINTE A SANREMO",
+    "S2_TEXT_WITH_GAPS": "**Come si lavora?**\n\nOggi Pippo Balistreri *(raccontare)* __racconta (0)__ come funziona il gobbo elettronico. Prima dell'esibizione, gli addetti *(chiedere)* __(1)__ al cantante se vuole usarlo. È necessario che l'artista *(dire)* __(2)__ se ne ha bisogno. Il gobbo, *(spegnere)* __(3)__ dagli addetti, non appare nelle inquadrature. Poi può succedere che nessuno lo *(riaccendere)* __(4)__. Per *(evitare)* __(5)__ distrazioni, lavorano *(seguire)* __(6)__ sempre le telecamere.\n\n**Quale incidente ricorda meglio?**\n\nQuella sera il pianoforte, *(collegare)* __(7)__ dai tecnici al computer, doveva fornire suoni. Serviva a *(ottenere)* __(8)__ l'effetto richiesto. Era necessario che lo strumento *(produrre)* __(9)__ quei suoni; i tecnici temevano che il collegamento *(staccarsi)* __(10)__ in diretta. Alle prove ha funzionato; in onda il collegamento si è staccato. Dopo *(accorgersi)* __(11)__ del problema, i tecnici hanno mandato la pubblicità. Mentre stavano *(controllare)* __(12)__ la ciabatta, hanno scoperto che forniva corrente a fasi alternate. Per poter *(tornare)* __(13)__ in onda, hanno ripetuto la prova. La ciabatta, *(riaccendere)* __(14)__ dalla squadra, ha rialimentato il pianoforte. Se il guasto fosse continuato, Alicia Keys *(dovere)* __(15)__ fermarsi: il brano *(interrompere)* __(16)__ dal guasto.\n\n**Che lezione ne trae?**\n\nOggi Balistreri *(ritenere)* __(17)__ utile la tecnologia. Benché essa *(aiutare)* __(18)__ gli artisti, è essenziale che la squadra *(rimanere)* __(19)__ attenta. Se potesse tornare indietro, *(controllare)* __(20)__ prima la ciabatta."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | chiedono | indicativo presente | S2.11 | essersi accorti | infinito passato |\n| S2.2 | dica | congiuntivo presente | S2.12 | controllando | gerundio presente |\n| S2.3 | spento | participio passato, costruzione passiva | S2.13 | tornare | infinito presente |\n| S2.4 | riaccenda | congiuntivo presente | S2.14 | riaccesa | participio passato, costruzione passiva |\n| S2.5 | evitare | infinito presente | S2.15 | avrebbe dovuto | condizionale passato |\n| S2.6 | seguendo | gerundio presente | S2.16 | sarebbe stato interrotto | condizionale passato, forma passiva |\n| S2.7 | collegato | participio passato, costruzione passiva | S2.17 | ritiene | indicativo presente |\n| S2.8 | ottenere | infinito presente | S2.18 | aiuti | congiuntivo presente |\n| S2.9 | producesse | congiuntivo imperfetto | S2.19 | rimanga | congiuntivo presente |\n| S2.10 | si staccasse | congiuntivo imperfetto | S2.20 | controllerebbe | condizionale presente |",
+    "ANS_S2_NOTES": "- **S2.1–S2.6:** «Oggi» mantiene il presente; «è necessario che» e «può succedere che» impongono il congiuntivo; «dagli addetti», «per» e «lavorano ... sempre» fissano rispettivamente participio passivo, infinito e gerundio. 中文：现在框架与显式支配词锁定六个形式。\n- **S2.7–S2.10:** «dai tecnici» forza il participio passivo; «serviva a» richiede l'infinito; «era necessario che» e «temevano che» impongono il congiuntivo imperfetto. 中文：被动施事、介词和两个过去支配语分别消除形式歧义。\n- **S2.11–S2.16:** il soggetto maschile plurale «i tecnici» fissa «essersi accorti»; «stavano» regge il gerundio; «poter» regge l'infinito; «dalla squadra» forza il participio passivo; il periodo ipotetico dell'irrealtà nel passato impone due condizionali passati, il secondo passivo per «dal guasto». 中文：明确主语、固定结构和过去非现实条件锁定答案。\n- **S2.17–S2.20:** il nuovo «Oggi» riapre il presente; «benché» ed «è essenziale che» impongono il congiuntivo; «se potesse tornare indietro» richiede il condizionale presente. 中文：回到采访当下后，虚拟式与条件式均由印出的支配结构强制。"
+  },
+  "key": {
+    "S2.1": "chiedono",
+    "S2.2": "dica",
+    "S2.3": "spento",
+    "S2.4": "riaccenda",
+    "S2.5": "evitare",
+    "S2.6": "seguendo",
+    "S2.7": "collegato",
+    "S2.8": "ottenere",
+    "S2.9": "producesse",
+    "S2.10": "si staccasse",
+    "S2.11": "essersi accorti",
+    "S2.12": "controllando",
+    "S2.13": "tornare",
+    "S2.14": "riaccesa",
+    "S2.15": "avrebbe dovuto",
+    "S2.16": "sarebbe stato interrotto",
+    "S2.17": "ritiene",
+    "S2.18": "aiuti",
+    "S2.19": "rimanga",
+    "S2.20": "controllerebbe"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "dietro le quinte",
+      "categoria": "locuzione avverbiale",
+      "zh": "在幕后",
+      "en": "behind the scenes",
+      "esempio": "DIETRO LE QUINTE"
+    },
+    {
+      "parola": "gobbo elettronico",
+      "categoria": "locuzione nominale",
+      "zh": "电子提词器",
+      "en": "electronic teleprompter",
+      "esempio": "come funziona il gobbo elettronico."
+    },
+    {
+      "parola": "inquadrature",
+      "categoria": "nome femminile plurale",
+      "zh": "镜头画面",
+      "en": "camera shots",
+      "esempio": "nelle inquadrature"
+    },
+    {
+      "parola": "in onda",
+      "categoria": "locuzione avverbiale",
+      "zh": "播出中",
+      "en": "on air",
+      "esempio": "in onda il collegamento si è staccato."
+    },
+    {
+      "parola": "corrente a fasi alternate",
+      "categoria": "locuzione nominale",
+      "zh": "间歇供电",
+      "en": "intermittent power",
+      "esempio": "corrente a fasi alternate"
+    }
+  ]
+}

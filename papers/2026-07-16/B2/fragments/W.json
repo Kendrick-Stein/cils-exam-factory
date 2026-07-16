@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di una biblioteca. Scrivi una recensione di un laboratorio dedicato alle storie del quartiere al quale hai partecipato. Racconta come si è svolta l'attività, valuta gli aspetti più interessanti e quelli da migliorare e spiega se la consiglieresti.",
+    "W2_PROMPT": "Hai utilizzato una bicicletta del servizio comunale e l'hai riconsegnata correttamente, ma l'applicazione considera ancora aperto il noleggio e ti ha addebitato una penale. Scrivi un'e-mail formale al Servizio Clienti.",
+    "W2_REQ_1": "indicare quando e dove hai riconsegnato la bicicletta e quale conferma hai ricevuto;",
+    "W2_REQ_2": "chiedere la chiusura del noleggio, l'annullamento della penale e la riattivazione del tuo account;",
+    "W2_REQ_3": "domandare entro quando sarà risolto il problema e come evitare che si ripeta.",
+    "MODEL_W1": "Sabato la biblioteca del mio quartiere ha organizzato un laboratorio per raccogliere i ricordi degli abitanti più anziani. Dopo una breve introduzione, ci siamo divisi in coppie e abbiamo intervistato alcuni residenti, registrando racconti su negozi scomparsi, feste di strada e luoghi trasformati nel tempo. Ho apprezzato soprattutto l'atmosfera aperta: ogni partecipante poteva fare domande e collegare le testimonianze alla propria esperienza. Inoltre, le registrazioni formeranno un archivio sonoro accessibile a tutti. L'attività, però, è iniziata con mezz'ora di ritardo e mancavano cuffie sufficienti per ascoltare bene le interviste. Per una prossima edizione proporrei gruppi più piccoli e attrezzature prenotate in anticipo. Consiglierei comunque il laboratorio, perché non si limita a conservare il passato: crea un dialogo tra generazioni e aiuta a comprendere meglio il luogo in cui viviamo.",
+    "MODEL_W1_PHRASES": "«Ho apprezzato soprattutto…»（我尤其欣赏……）; «L'attività, però,…»（不过，这项活动……）; «Per una prossima edizione proporrei…»（对于下一次活动，我建议……）; «Consiglierei comunque…»（尽管如此，我仍会推荐……）; «non si limita a…»（不局限于……）",
+    "MODEL_W2": "Gentile Servizio Clienti,\n\nieri, alle 18.20, ho riconsegnato la bicicletta 247 alla stazione di piazza Dante. La spia verde e il segnale acustico hanno confermato il blocco, ma l'applicazione mostra ancora il noleggio attivo e mi ha addebitato una penale. Chiedo di chiudere la corsa, annullare l'addebito e riattivare il mio account. Potreste indicarmi entro quando risolverete il problema e come verificare correttamente le prossime riconsegne?\n\nResto a disposizione per inviare una fotografia della stazione e ulteriori dettagli.\n\nCordiali saluti,\nGiulia Conti",
+    "MODEL_W2_PHRASES": "«ha confermato il blocco»（已确认锁车）; «Chiedo di…»（我请求……）; «Potreste indicarmi entro quando…?»（您能否告知我何时……？）; «Resto a disposizione per…»（如有需要，我愿意……）; «Cordiali saluti»（谨致问候）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "archivio sonoro",
+      "categoria": "locuzione nominale",
+      "zh": "声音档案；音频资料库",
+      "en": "audio archive",
+      "esempio": "le registrazioni formeranno un archivio sonoro accessibile a tutti."
+    },
+    {
+      "parola": "in anticipo",
+      "categoria": "locuzione avverbiale",
+      "zh": "提前",
+      "en": "in advance",
+      "esempio": "Per una prossima edizione proporrei gruppi più piccoli e attrezzature prenotate in anticipo."
+    },
+    {
+      "parola": "dialogo tra generazioni",
+      "categoria": "locuzione nominale",
+      "zh": "代际对话",
+      "en": "intergenerational dialogue",
+      "esempio": "crea un dialogo tra generazioni e aiuta a comprendere meglio il luogo in cui viviamo."
+    },
+    {
+      "parola": "addebitato una penale",
+      "categoria": "locuzione verbale",
+      "zh": "收取了一笔罚款",
+      "en": "charged a penalty",
+      "esempio": "l'applicazione mostra ancora il noleggio attivo e mi ha addebitato una penale."
+    },
+    {
+      "parola": "riattivare il mio account",
+      "categoria": "locuzione verbale",
+      "zh": "重新启用我的账户",
+      "en": "reactivate my account",
+      "esempio": "Chiedo di chiudere la corsa, annullare l'addebito e riattivare il mio account."
+    }
+  ]
+}
