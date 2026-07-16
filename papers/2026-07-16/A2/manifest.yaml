@@ -1,0 +1,163 @@
+exam: cils
+level: A2
+session: '2026-07-16'
+title: CILS A2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/basilicata/notizie/2026/07/13/a-potenza-un-nuovo-parco-giochi-sara-inaugurato-nel-quartiere-bucaletto_479c1759-6009-4dfe-a8d9-bb895473c0fc.html
+  title: 'A Potenza un nuovo parco giochi: sarà inaugurato nel quartiere Bucaletto'
+  publisher: 'ANSA (whitelist: `news_general`)'
+  published: '13/07/2026 · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 195
+- id: T2
+  url: https://educazione.comune.fi.it/dalle-redazioni/centri-estivi-2026
+  title: Centri estivi 2026
+  publisher: 'Comune di Firenze — Educazione (whitelist: `practical_realia`, altri
+    comuni)'
+  published: '27/03/2026 · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 170
+- id: T3a
+  url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  published: 'n.d. (pagina commerciale corrente) · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 20
+- id: T3b
+  url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  published: 'n.d. (pagina commerciale corrente) · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 23
+- id: T3c
+  url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  published: 'n.d. (pagina commerciale corrente) · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 25
+- id: T3d
+  url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  published: 'n.d. (pagina commerciale corrente) · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 22
+- id: T3e
+  url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  published: 'n.d. (pagina commerciale corrente) · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 30
+- id: T3f
+  url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  published: 'n.d. (pagina commerciale corrente) · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 22
+- id: T4
+  url: https://www.comune.parma.it/it/argomenti/mobilita-sostenibile/ciclabilita
+  title: Ciclabilità
+  publisher: 'Comune di Parma (whitelist: `practical_realia`, altri comuni)'
+  published: 'ultimo aggiornamento 06/03/2025 · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 96
+- id: T5
+  url: https://www.rainews.it/articoli/2026/04/tennis-sinner-racconta-la-sua-svolta-dalle-piste-di-sci-ai-campi-da-tennis-dd7990a9-b012-4f41-8d4c-96a0c8ef1621.html
+  title: 'Sinner racconta la sua svolta: dalle piste di sci ai campi da tennis'
+  publisher: 'RaiNews (whitelist: `news_general`)'
+  published: '04/04/2026 · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 127
+- id: T6
+  url: https://tgposte.poste.it/2026/04/28/poste-anche-a-rovereto-liniziativa-spazi-per-litalia/
+  title: 'Poste: anche a Rovereto l’iniziativa “Spazi per l’Italia”'
+  publisher: 'TG Poste / Poste Italiane (OFF-WHITELIST — giustificazione: pagina ufficiale
+    e gratuita dell''azienda che annuncia un nuovo servizio reale di coworking, perfettamente
+    aderente al genere informativo richiesto)'
+  published: '28/04/2026 · accessed: 16/07/2026'
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 130
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-16'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, all candidate 1 accepted
+  - stage: authoring
+    at: '2026-07-16'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-16T05:59:40+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-16T06:29:02+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:29:12+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:33:20+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-16T06:35:09+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-16T06:36:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:36:44+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass

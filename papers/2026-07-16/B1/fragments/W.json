@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una gita o un'escursione che hai fatto o che ti piacerebbe fare. Racconta dove sei andato o vorresti andare, con chi, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Un tuo amico ti ha invitato a passare un fine settimana nella sua casa in montagna. Scrivigli un'email per organizzare il viaggio.",
+    "W2_REQ_1": "ringraziarlo e dire quando puoi partire;",
+    "W2_REQ_2": "chiedere come raggiungere la casa;",
+    "W2_REQ_3": "domandare che cosa devi portare.",
+    "MODEL_W1": "La primavera scorsa ho fatto un'escursione al lago con due amici dell'università. Siamo partiti presto in autobus e poi abbiamo camminato per quasi tre ore lungo un sentiero nel bosco. All'inizio il cielo era sereno, ma improvvisamente è cominciato a piovere. Per fortuna avevamo portato delle giacche impermeabili e abbiamo continuato senza problemi. Arrivati al lago, abbiamo mangiato i panini seduti su una grande roccia e abbiamo scattato molte fotografie. Il paesaggio era così tranquillo che nessuno aveva voglia di tornare a casa. Questa gita mi è piaciuta perché ho scoperto un luogo bellissimo e ho passato una giornata diversa, lontano dal traffico e dagli impegni quotidiani.",
+    "MODEL_W1_PHRASES": "«La primavera scorsa…»（去年春天……）; «All'inizio… ma improvvisamente…»（起初……但突然……）; «Per fortuna…»（幸好……）; «Questa gita mi è piaciuta perché…»（我喜欢这次旅行，因为……）; «Lontano da…»（远离……）",
+    "MODEL_W2": "Ciao Paolo,\n\ngrazie mille per l'invito! Posso partire sabato mattina verso le nove e rimanere fino a domenica sera. Come posso raggiungere casa tua dalla stazione? C'è un autobus oppure puoi venire a prendermi? Inoltre, che cosa devo portare? Ho già scarpe comode e una giacca pesante, ma non so se serve anche un sacco a pelo.\n\nA presto,\nLuca",
+    "MODEL_W2_PHRASES": "«Grazie mille per l'invito!»（非常感谢你的邀请！）; «Come posso raggiungere…?»（我怎样到达……？）; «Puoi venire a prendermi?»（你能来接我吗？）; «Che cosa devo portare?»（我需要带什么？）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "sentiero",
+      "categoria": "nome maschile",
+      "zh": "小路；步道",
+      "en": "path; trail",
+      "esempio": "Siamo partiti presto in autobus e poi abbiamo camminato per quasi tre ore lungo un sentiero nel bosco."
+    },
+    {
+      "parola": "giacche impermeabili",
+      "categoria": "locuzione nominale",
+      "zh": "防水外套",
+      "en": "waterproof jackets",
+      "esempio": "Per fortuna avevamo portato delle giacche impermeabili e abbiamo continuato senza problemi."
+    },
+    {
+      "parola": "impegni quotidiani",
+      "categoria": "locuzione nominale",
+      "zh": "日常事务",
+      "en": "daily commitments",
+      "esempio": "Questa gita mi è piaciuta perché ho scoperto un luogo bellissimo e ho passato una giornata diversa, lontano dal traffico e dagli impegni quotidiani."
+    },
+    {
+      "parola": "venire a prendermi",
+      "categoria": "locuzione verbale",
+      "zh": "来接我",
+      "en": "to come and pick me up",
+      "esempio": "C'è un autobus oppure puoi venire a prendermi?"
+    },
+    {
+      "parola": "sacco a pelo",
+      "categoria": "locuzione nominale",
+      "zh": "睡袋",
+      "en": "sleeping bag",
+      "esempio": "Ho già scarpe comode e una giacca pesante, ma non so se serve anche un sacco a pelo."
+    }
+  ]
+}

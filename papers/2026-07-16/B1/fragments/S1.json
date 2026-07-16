@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "VINTAGE E COLLEZIONISMO, CACCIA AL PEZZO RARO",
+    "S1_TEXT_WITH_GAPS": "Da Notting Hill *(a)* __(1)__ Camden Town, passando *(per)* __(2)__ il mercato delle pulci di Parigi, il viaggio nel vintage arriva fino *(a)* __al (0)__ mercato di Napoli, all'interno *(di)* __(3)__ Ippodromo di Agnano. Qui, *(da)* __(4)__ oltre 25 anni, ogni domenica va in scena __(5)__ stesso rito: la caccia *(a)* __(6)__ tesoro.\n\n*(A)* __(7)__ alba, *(tra)* __(8)__ il sonno e il primo caffè, collezionisti, curiosi e giovani designer entrano *(per)* __(9)__ i cancelli dell'ippodromo *(con)* __(10)__ un obiettivo: arrivare prima *(di)* __(11)__ tutti gli altri. Si alzano presto *(per)* __(12)__ accaparrarsi un oggetto raro che racconta un'epoca.\n\nChi visita il mercato per __(13)__ prima volta trova, tra i viali, un mondo *(di)* __(14)__ oggetti: mobili, vinili, ceramiche *(di)* __(15)__ autore, manifesti *(di)* __(16)__ passato, abiti vintage e piccoli oggetti di design. Ogni venditore è pronto *(a)* __(17)__ spiegare la provenienza di una lampada degli anni '50 o di una poltrona che resiste *(da)* __(18)__ molti anni.\n\nIl mercato di Agnano è un luogo di scambio e un osservatorio culturale. Qui il passato dialoga *(con)* __(19)__ il presente e influenza la creatività. Vi passeggiano senza fretta architetti, scenografi, studenti d'arte e persone che scelgono gli oggetti *(per)* __(20)__ istinto."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | a | S1.11 | di |\n| S1.2 | per | S1.12 | per |\n| S1.3 | dell' | S1.13 | la |\n| S1.4 | da | S1.14 | di |\n| S1.5 | lo | S1.15 | d' |\n| S1.6 | al | S1.16 | del |\n| S1.7 | all' | S1.17 | a |\n| S1.8 | tra | S1.18 | da |\n| S1.9 | per | S1.19 | con |\n| S1.10 | con | S1.20 | per |",
+    "ANS_S1_NOTES": "- **S1.2 — per:** «passando per il mercato delle pulci» usa la preposizione semplice davanti all'articolo già stampato. 中文：空格只填写基础介词。\n- **S1.5 — lo:** «lo stesso rito» usa *lo* davanti a *stesso*. 中文：s + 辅音前用 *lo*。\n- **S1.7 — all':** «all'alba» unisce *a* e *l'* davanti a una parola che inizia per vocale. 中文：注意介词与省音冠词的合并。\n- **S1.11 — di:** «prima di tutti gli altri» richiede la preposizione semplice davanti a *tutti*. 中文：冠词已在 *tutti gli altri* 中显示。\n- **S1.13 — la:** l'espressione fissa «per la prima volta» richiede l'articolo determinativo femminile. 中文：空格只需填冠词 *la*。"
+  },
+  "key": {
+    "S1.1": "a",
+    "S1.2": "per",
+    "S1.3": "dell'",
+    "S1.4": "da",
+    "S1.5": "lo",
+    "S1.6": "al",
+    "S1.7": "all'",
+    "S1.8": "tra",
+    "S1.9": "per",
+    "S1.10": "con",
+    "S1.11": "di",
+    "S1.12": "per",
+    "S1.13": "la",
+    "S1.14": "di",
+    "S1.15": "d'",
+    "S1.16": "del",
+    "S1.17": "a",
+    "S1.18": "da",
+    "S1.19": "con",
+    "S1.20": "per"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "caccia al tesoro",
+      "categoria": "locuzione nominale",
+      "zh": "寻宝",
+      "en": "treasure hunt",
+      "esempio": "la caccia al tesoro"
+    },
+    {
+      "parola": "accaparrarsi",
+      "categoria": "verbo pronominale",
+      "zh": "抢先得到",
+      "en": "to secure for oneself",
+      "esempio": "accaparrarsi un oggetto raro"
+    },
+    {
+      "parola": "provenienza",
+      "categoria": "sostantivo femminile",
+      "zh": "来源",
+      "en": "origin",
+      "esempio": "spiegare la provenienza di una lampada"
+    },
+    {
+      "parola": "luogo di scambio",
+      "categoria": "locuzione nominale",
+      "zh": "交易场所",
+      "en": "place of exchange",
+      "esempio": "è un luogo di scambio"
+    },
+    {
+      "parola": "senza fretta",
+      "categoria": "locuzione avverbiale",
+      "zh": "不慌不忙地",
+      "en": "unhurriedly",
+      "esempio": "passeggiano senza fretta"
+    }
+  ]
+}

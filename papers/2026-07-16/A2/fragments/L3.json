@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ 1. **Giovani — FrecciaYOUNG**\n\n   I soci CartaFreccia con meno di 30 anni possono scegliere un'offerta dedicata per viaggiare sulle Frecce. Il prezzo...\n\n○ 2. **Famiglie — FrecciaFAMILY**\n\n   L'offerta è per gruppi da due a cinque persone che desiderano viaggiare insieme con il comfort dell'Alta Velocità. In questo caso...\n\n○ 3. **Amici — FrecciaFRIENDS**\n\n   Chi viaggia su Frecciarossa o Frecciargento in un gruppo formato da tre a cinque persone trova un vantaggio speciale: paga metà prezzo. L'offerta...\n\n○ 4. **Per tutti — FrecciaDAYS**\n\n   Chi vuole viaggiare con le Frecce può acquistare subito il biglietto e approfittare di un'offerta aperta a tutti. FrecciaDAYS...\n\n○ 5. **Per tutti — Andata e ritorno in giornata**\n\n   L'offerta è aperta a tutti: chi parte e torna nello stesso giorno può viaggiare sulle Frecce e godersi il comfort dell'Alta Velocità. L'offerta...\n\n○ 6. **Bagagli — Stow Your Bags**\n\n   I viaggiatori possono muoversi in libertà e lasciare i bagagli in un deposito Stow Your Bags. Il servizio...",
+    "L3_OPTIONS": "A. vale per un viaggio di andata e ritorno nella stessa giornata, con sconti fino al 50%.\n\nB. riduce del 50% il prezzo per gruppi composti da tre, quattro o cinque persone che viaggiano insieme.\n\nC. offre lo sconto del 20% ai gruppi da tre a cinque persone che viaggiano su Frecciargento.\n\nD. parte da 19 euro, così i giovani soci possono risparmiare sul costo del loro viaggio.\n\nE. vale soltanto per i soci CartaFreccia con meno di 30 anni che tornano nella stessa giornata.\n\nF. dà il 20% di sconto sul deposito e un punto CartaFreccia ogni due euro spesi.\n\nG. offre ai ragazzi il viaggio gratuito e agli adulti uno sconto del 50% sul biglietto.\n\nH. permette a tutti di risparmiare fino al 60% quando viaggiano in treno con le Frecce."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | D | «meno di 30 anni» e «Il prezzo» si completano con «parte da 19 euro». 中文：青年优惠由年龄和起价共同锁定。 |\n| L3.2 | G | «gruppi da due a cinque persone» e FrecciaFAMILY corrispondono a «ragazzi ... gratuito» e «adulti ... 50%». 中文：家庭成员享受两种不同优惠。 |\n| L3.3 | B | «tre a cinque persone» e «paga metà prezzo» corrispondono alla riduzione «del 50%». 中文：半价明确排除错误的八折选项。 |\n| L3.4 | H | L'offerta «aperta a tutti» permette di «risparmiare fino al 60%» sulle Frecce. 中文：这是面向所有人的最高六折优惠。 |\n| L3.5 | A | «aperta a tutti» e «parte e torna nello stesso giorno» corrispondono all'«andata e ritorno nella stessa giornata». 中文：面向所有人且必须当天往返。 |\n| L3.6 | F | «lasciare i bagagli in un deposito» si completa con «20% di sconto sul deposito» e il punto CartaFreccia. 中文：寄存服务对应折扣和积分。 |",
+    "ANS_L3_UNUSED": "C, E"
+  },
+  "key": {
+    "L3.1": "D",
+    "L3.2": "G",
+    "L3.3": "B",
+    "L3.4": "H",
+    "L3.5": "A",
+    "L3.6": "F"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "soci CartaFreccia",
+      "categoria": "espressione nominale",
+      "zh": "CartaFreccia会员",
+      "en": "CartaFreccia members",
+      "esempio": "I soci CartaFreccia con meno di 30 anni possono scegliere un'offerta dedicata per viaggiare sulle Frecce."
+    },
+    {
+      "parola": "Alta Velocità",
+      "categoria": "espressione nominale",
+      "zh": "高速铁路",
+      "en": "high-speed rail",
+      "esempio": "L'offerta è per gruppi da due a cinque persone che desiderano viaggiare insieme con il comfort dell'Alta Velocità."
+    },
+    {
+      "parola": "approfittare di",
+      "categoria": "verbo con preposizione",
+      "zh": "利用；享受",
+      "en": "to take advantage of",
+      "esempio": "Chi vuole viaggiare con le Frecce può acquistare subito il biglietto e approfittare di un'offerta aperta a tutti."
+    },
+    {
+      "parola": "andata e ritorno",
+      "categoria": "espressione nominale",
+      "zh": "往返",
+      "en": "round trip",
+      "esempio": "vale per un viaggio di andata e ritorno nella stessa giornata, con sconti fino al 50%."
+    },
+    {
+      "parola": "deposito",
+      "categoria": "sostantivo",
+      "zh": "寄存处",
+      "en": "storage facility",
+      "esempio": "I viaggiatori possono muoversi in libertà e lasciare i bagagli in un deposito Stow Your Bags."
+    }
+  ]
+}

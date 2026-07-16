@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Regolamento dell’invito a presentare candidature DiscoverEU",
+    "T2_TEXT": "DiscoverEU è un’azione del programma Erasmus+ (2021-2027). Il suo scopo è offrire ai giovani di 18 anni un’esperienza di viaggio capace di promuovere il loro senso di appartenenza all’Unione europea, consentendo loro di esplorare la diversità dell’Europa, il suo patrimonio culturale e la sua storia, entrare in contatto con persone provenienti da tutto il continente e, in definitiva, scoprire se stessi.\n\nNella primavera 2026 la Commissione europea e l’Agenzia esecutiva europea per l’istruzione e la cultura (EACEA) prevedono di assegnare un pass di viaggio e carte di sconto per esplorare l’Europa a circa 40 000 giovani.\n\nIl periodo di presentazione delle candidature previsto sarà aperto dall’8 aprile 2026 alle ore 12:00 al 22 aprile 2026, ore 12:00. I candidati vincitori riceveranno un pass di viaggio per esplorare l’Europa tra il 1º luglio 2026 e il 30 settembre 2027. Entro queste date potranno utilizzare il pass per viaggiare in treno per 7 giorni in un periodo di 30 giorni scelto da loro. A partire dal momento in cui prenotano e ricevono il pass di viaggio, i candidati vincitori sono considerati «partecipanti».\n\nPer essere ammessi i candidati devono aver compiuto o compiere 18 anni tra il 1° luglio 2025 e il 30 giugno 2026, vale a dire essere nati tra il 1° luglio 2007 incluso e il 30 giugno 2008 incluso; essere cittadini o residenti di uno dei 27 Stati membri dell’Unione europea oppure di uno dei paesi terzi associati al programma Erasmus+; inserire nel modulo di domanda online il numero della carta d’identità o del passaporto o il numero di residente; accettare la dichiarazione sull’onore del modulo di domanda.\n\nI partecipanti possono viaggiare solo se hanno intenzione di viaggiare almeno 1 giorno e al massimo un mese e di visitare almeno un paese straniero ammissibile per DiscoverEU. I candidati che non soddisfano i criteri di ammissibilità non saranno presi in considerazione nel processo di assegnazione.\n\nÈ possibile candidarsi compilando un apposito modulo di domanda online sul Portale europeo per i giovani. Non sarà possibile inviare domande al di fuori dell’apposito periodo di candidatura indicato al punto 1.\n\nI candidati dovranno innanzitutto superare un controllo di ammissibilità, il che significa che dovranno indicare la data di nascita, la residenza e la cittadinanza. Se i dati non sono conformi alle norme in materia di ammissibilità di cui al punto 2 «Candidati ammissibili», non potranno passare alla fase successiva. Inoltre, dovranno accettare la dichiarazione sull’onore, il regolamento dell’invito a presentare candidature DiscoverEU, accettare che i loro dati personali siano conservati e trattati ai fini dell’invito a presentare candidature e accettare di essere contattati in relazione a DiscoverEU. Chi si candida dovrà accettare di diventare ambasciatore DiscoverEU.\n\nI candidati dovranno indicare se desiderano viaggiare da soli oppure in un gruppo di 5 persone al massimo. Dovranno fornire un indirizzo e-mail valido. Quindi riceveranno un’e-mail dal Portale europeo per i giovani per verificare se l’indirizzo e-mail è valido. La verifica è necessaria dato che la comunicazione con i candidati selezionati avverrà tramite posta elettronica.\n\nUna volta completati i dati personali, i candidati devono rispondere a un quiz che comprende 5 domande a risposta multipla riguardanti l’Unione europea in generale e altre iniziative dell’Unione europea rivolte ai giovani. Infine, devono rispondere a una domanda di spareggio. I candidati riceveranno pass fino a esaurimento del bilancio disponibile e saranno classificati in base alla correttezza delle risposte fornite. In caso di parità e come ultima risorsa, la Commissione europea/EACEA determinerà la graduatoria sulla base del principio «primo arrivato, primo servito».",
+    "L2_ITEMS": "**1.** L’obiettivo principale di DiscoverEU è finanziare esclusivamente vacanze turistiche prive di finalità culturali.  \nVero ○ Falso ○\n\n**2.** Nella primavera 2026 si prevede di assegnare pass di viaggio e carte di sconto a circa 40 000 giovani.  \nVero ○ Falso ○\n\n**3.** Le candidature restano aperte fino alla mezzanotte del 22 aprile 2026.  \nVero ○ Falso ○\n\n**4.** Il pass consente di viaggiare in treno per sette giorni nell’arco di un periodo di trenta giorni scelto dal vincitore.  \nVero ○ Falso ○\n\n**5.** Un vincitore assume la qualifica di partecipante soltanto quando inizia il primo viaggio.  \nVero ○ Falso ○\n\n**6.** Sono ammessi, quanto all’età, i nati dal 1° luglio 2007 al 30 giugno 2008, estremi compresi.  \nVero ○ Falso ○\n\n**7.** La candidatura è riservata ai soli cittadini dei 27 Stati membri dell’Unione europea.  \nVero ○ Falso ○\n\n**8.** Nel modulo online occorre inserire un numero di documento o di residente e accettare una dichiarazione sull’onore.  \nVero ○ Falso ○\n\n**9.** Il viaggio deve durare almeno un giorno e non più di un mese e comprendere almeno un paese straniero ammissibile.  \nVero ○ Falso ○\n\n**10.** In casi motivati è consentito presentare la domanda dopo la chiusura del periodo indicato.  \nVero ○ Falso ○\n\n**11.** Chi fornisce dati non conformi ai requisiti può comunque accedere alla fase successiva della selezione.  \nVero ○ Falso ○\n\n**12.** Tra gli impegni richiesti figurano il consenso al trattamento dei dati e la disponibilità a diventare ambasciatore DiscoverEU.  \nVero ○ Falso ○\n\n**13.** Si può viaggiare da soli o in un gruppo di non più di cinque persone, e l’indirizzo e-mail deve essere verificato.  \nVero ○ Falso ○\n\n**14.** In ogni circostanza la graduatoria è determinata anzitutto dall’ordine di arrivo delle candidature.  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | F | Il testo indica finalità più ampie: «promuovere il loro senso di appartenenza» ed «esplorare la diversità dell’Europa». 中文：陷阱是把多重文化目标缩成单纯旅游。 |\n| L2.2 | V | Sono previsti «un pass di viaggio e carte di sconto» per «circa 40 000 giovani». 中文：两项权益和人数都与原文一致。 |\n| L2.3 | F | La chiusura è fissata al «22 aprile 2026, ore 12:00», non a mezzanotte. 中文：注意截止时刻是中午12点。 |\n| L2.4 | V | Il pass permette di «viaggiare in treno per 7 giorni in un periodo di 30 giorni». 中文：7天是30天窗口内的乘车日。 |\n| L2.5 | F | Si è partecipanti «a partire dal momento in cui prenotano e ricevono il pass», non dall’inizio del viaggio. 中文：身份起算点是预订并收到通票。 |\n| L2.6 | V | Il requisito comprende i nati «tra il 1° luglio 2007 incluso e il 30 giugno 2008 incluso». 中文：两个边界日期均包含。 |\n| L2.7 | F | Sono ammessi anche i «residenti» e chi appartiene a «uno dei paesi terzi associati al programma Erasmus+». 中文：并非仅限欧盟成员国公民。 |\n| L2.8 | V | Occorre inserire «il numero della carta d’identità o del passaporto o il numero di residente» e «accettare la dichiarazione sull’onore». 中文：证件信息与诚信声明缺一不可。 |\n| L2.9 | V | Bisogna viaggiare «almeno 1 giorno e al massimo un mese» e visitare «almeno un paese straniero ammissibile». 中文：时长和跨境条件同时成立。 |\n| L2.10 | F | Il regolamento afferma: «Non sarà possibile inviare domande al di fuori dell’apposito periodo». 中文：原文没有例外条款。 |\n| L2.11 | F | Se i dati non sono conformi, i candidati «non potranno passare alla fase successiva». 中文：不符合资格即无法进入下一阶段。 |\n| L2.12 | V | Si deve accettare che i dati siano «conservati e trattati» e «diventare ambasciatore DiscoverEU». 中文：两项承诺均明确写出。 |\n| L2.13 | V | È ammesso «un gruppo di 5 persone al massimo» e «La verifica è necessaria» per l’e-mail. 中文：五人上限包含申请者，邮箱验证为必需。 |\n| L2.14 | F | Prima conta «la correttezza delle risposte»; il principio «primo arrivato, primo servito» vale solo «in caso di parità e come ultima risorsa». 中文：先到先得只是最终平局规则。 |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "dichiarazione sull’onore",
+      "categoria": "locuzione nominale",
+      "zh": "诚信声明",
+      "en": "declaration on honour",
+      "esempio": "accettare la dichiarazione sull’onore del modulo di domanda"
+    },
+    {
+      "parola": "ammissibilità",
+      "categoria": "nome femminile",
+      "zh": "资格；可受理性",
+      "en": "eligibility",
+      "esempio": "I candidati dovranno innanzitutto superare un controllo di ammissibilità"
+    },
+    {
+      "parola": "domanda di spareggio",
+      "categoria": "locuzione nominale",
+      "zh": "决胜题",
+      "en": "tie-breaker question",
+      "esempio": "devono rispondere a una domanda di spareggio"
+    },
+    {
+      "parola": "fino a esaurimento",
+      "categoria": "locuzione preposizionale",
+      "zh": "直至用尽",
+      "en": "until exhausted",
+      "esempio": "fino a esaurimento del bilancio disponibile"
+    },
+    {
+      "parola": "graduatoria",
+      "categoria": "nome femminile",
+      "zh": "排名名单",
+      "en": "ranking list",
+      "esempio": "determinerà la graduatoria sulla base del principio"
+    }
+  ]
+}

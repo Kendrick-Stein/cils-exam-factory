@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una persona della tua famiglia: scrivi chi è, quanti anni ha, com'è e cosa fate insieme.",
+    "W2_PROMPT": "Scrivi una breve e-mail alla biblioteca. Chiedi quali documenti servono per fare la tessera e quanto costa il servizio.",
+    "MODEL_W1": "Mia sorella Anna ha diciotto anni. È alta, simpatica e allegra. Studia a scuola e ama la musica. Nel pomeriggio facciamo una passeggiata e la sera guardiamo la televisione insieme.",
+    "MODEL_W1_PHRASES": "«Mia sorella ha… anni»（我姐姐/妹妹……岁） · «È alta e simpatica»（她个子高，而且很友善） · «Ama la musica»（她喜欢音乐） · «Facciamo una passeggiata»（我们散步） · «… insieme»（一起……）",
+    "MODEL_W2": "Buongiorno, voglio fare la tessera della biblioteca. Quali documenti devo portare? Quanto costa il servizio? Grazie per la risposta. Li",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Voglio fare la tessera»（我想办卡） · «Quali documenti devo portare?»（我需要带哪些材料？） · «Quanto costa il servizio?»（这项服务多少钱？） · «Grazie per la risposta»（感谢您的回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "diciotto anni",
+      "categoria": "espressione nominale",
+      "zh": "十八岁",
+      "en": "eighteen years old",
+      "esempio": "Mia sorella Anna ha diciotto anni."
+    },
+    {
+      "parola": "facciamo una passeggiata",
+      "categoria": "espressione verbale",
+      "zh": "散步",
+      "en": "to take a walk",
+      "esempio": "Nel pomeriggio facciamo una passeggiata e la sera guardiamo la televisione insieme."
+    },
+    {
+      "parola": "tessera della biblioteca",
+      "categoria": "locuzione nominale",
+      "zh": "借书证",
+      "en": "library card",
+      "esempio": "Buongiorno, voglio fare la tessera della biblioteca."
+    },
+    {
+      "parola": "documenti",
+      "categoria": "nome maschile plurale",
+      "zh": "证件；材料",
+      "en": "documents",
+      "esempio": "Quali documenti devo portare?"
+    },
+    {
+      "parola": "servizio",
+      "categoria": "nome maschile",
+      "zh": "服务",
+      "en": "service",
+      "esempio": "Quanto costa il servizio?"
+    }
+  ]
+}

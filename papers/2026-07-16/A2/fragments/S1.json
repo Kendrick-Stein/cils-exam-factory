@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Parma in bicicletta",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ città di Parma è pianeggiante. Nel centro storico è facile spostarsi __(1)__ bicicletta. Per questo Parma è __(2)__ delle città ideali __(3)__ chi vuole scegliere mezzi di trasporto alternativi. Oggi promuove l'uso della bicicletta, __(4)__ trasporto pubblico e i servizi condivisi. La rete cittadina ha circa 150 chilometri __(5)__ piste ciclabili. __(6)__ rete continua a crescere e i cittadini possono vederla in una pagina web dedicata. Nel 2008 Parma ha sviluppato __(7)__ piano __(8)__ la mobilità in bicicletta. Lo scopo del piano è aumentare __(9)__ uso della bicicletta e migliorare __(10)__ rete delle piste ciclabili."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | in | S1.6 | la |\n| S1.2 | una | S1.7 | un |\n| S1.3 | per | S1.8 | per |\n| S1.4 | il | S1.9 | l' |\n| S1.5 | di | S1.10 | la |",
+    "ANS_S1_NOTES": "1. «spostarsi in bicicletta»: la locuzione richiede la preposizione in. 中文：固定搭配 in bicicletta。\n2. «una delle città ideali»: davanti a delle serve il singolare una. 中文：una delle 表示“其中一座”。\n3. «ideali per chi vuole»: per introduce le persone a cui la città è adatta. 中文：per 表示适合的对象。\n4. «la bicicletta, il trasporto pubblico e i servizi»: il completa l'elenco con nomi determinati. 中文：并列成分都使用定冠词。\n5. «150 chilometri di piste ciclabili»: dopo una misura si usa di. 中文：数量单位后用 di。\n6. «La rete continua a crescere»: la riprende la rete cittadina già nominata. 中文：定冠词指回前文的自行车道网络。\n7. «ha sviluppato un piano»: un introduce il piano per la prima volta. 中文：首次提到该计划。\n8. «piano per la mobilità»: per indica lo scopo del piano. 中文：per 表示计划的用途。\n9. «aumentare l'uso»: davanti a uso l'articolo determinativo si elide. 中文：uso 以元音开头，冠词写作 l'。\n10. «migliorare la rete delle piste ciclabili»: la rete è quella già descritta. 中文：这里特指前文的自行车道网络。"
+  },
+  "key": {
+    "S1.1": "in",
+    "S1.2": "una",
+    "S1.3": "per",
+    "S1.4": "il",
+    "S1.5": "di",
+    "S1.6": "la",
+    "S1.7": "un",
+    "S1.8": "per",
+    "S1.9": "l'",
+    "S1.10": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "centro storico",
+      "categoria": "nome",
+      "zh": "历史中心城区",
+      "en": "historic city centre",
+      "esempio": "Nel centro storico"
+    },
+    {
+      "parola": "mezzi di trasporto alternativi",
+      "categoria": "locuzione nominale",
+      "zh": "替代交通工具",
+      "en": "alternative means of transport",
+      "esempio": "mezzi di trasporto alternativi"
+    },
+    {
+      "parola": "servizi condivisi",
+      "categoria": "locuzione nominale",
+      "zh": "共享服务",
+      "en": "shared services",
+      "esempio": "i servizi condivisi"
+    },
+    {
+      "parola": "piste ciclabili",
+      "categoria": "nome plurale",
+      "zh": "自行车道",
+      "en": "cycle paths",
+      "esempio": "piste ciclabili"
+    },
+    {
+      "parola": "pagina web dedicata",
+      "categoria": "locuzione nominale",
+      "zh": "专门网页",
+      "en": "dedicated web page",
+      "esempio": "una pagina web dedicata"
+    }
+  ]
+}

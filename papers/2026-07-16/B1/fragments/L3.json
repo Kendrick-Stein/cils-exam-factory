@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "UGANDA, ALLA RICERCA DEI RINOCERONTI",
+    "T3_PART_A": "Il 28 dicembre 2025 riparto dall'Italia con i miei compagni: l'Africa chiama ancora e questa volta la rotta punta verso l'Uganda, la Perla d'Africa.",
+    "T3_PART_B": "Ricaricate così le energie, alle dieci ci troviamo con le guide e partiamo: finalmente la nostra avventura nella Perla d'Africa può avere inizio.",
+    "T3_PART_C": "Davanti a quei rinoceronti, nel mezzo del silenzio, camminiamo lentamente con loro per quasi un'ora, mantenendo sempre una distanza di circa venti metri.",
+    "T3_PART_D": "In quel silenzio atterriamo sul suolo ugandese, consapevoli di stare per entrare in qualcosa di unico e profondo, come accade nelle grandi partenze.",
+    "T3_PART_E": "Dopo quella piccola carica capiamo che non c'è nulla di aggressivo: è solo un avvertimento, che ci dice di lasciarli per conto loro.",
+    "T3_PART_F": "Dopo quella partenza, nel pomeriggio raggiungiamo la Riserva di Ziwa e, al suo interno, lo Ziwa Rhino Sanctuary, dedicato alla protezione dei rinoceronti bianchi.",
+    "T3_PART_G": "Ricevuto quell'avvertimento, torniamo ai mezzi con il sorriso, ci spostiamo verso Masindi e arriviamo in serata. Dopo l'hotel e la doccia, finalmente riposiamo: il viaggio è appena cominciato.",
+    "T3_PART_H": "Il giorno seguente, 29 dicembre, l'Uganda ci dà il benvenuto: sono appena le cinque del mattino, l'aria è fresca e tutto ancora tace.",
+    "T3_PART_I": "Durante quella camminata il cuore batte forte: questi giganti potenti sono incredibilmente vulnerabili. Poi, a un certo punto, uno di loro accenna una piccola carica.",
+    "T3_PART_J": "Proprio in questo rifugio, che offre agli animali minacciati dal bracconaggio la possibilità di tornare un giorno in natura, a un tratto li incontriamo.",
+    "T3_PART_K": "Subito dopo quell'atterraggio ci sistemiamo in hotel, per rubare qualche ora al jet lag e ricaricare le energie prima dell'incontro con le guide."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 (ancora) | A | «Il 28 dicembre 2025» presenta la partenza dall'Italia: è l'inizio dato. 中文：先交代出发日期和目的地。 |\n| L3.1 · posizione 2 | H | «Il giorno seguente, 29 dicembre» può seguire soltanto il 28 dicembre di A e introduce il risveglio in Uganda. 中文：日期连续，唯一承接首段。 |\n| L3.2 · posizione 3 | D | «In quel silenzio» riprende «tutto ancora tace» di H; subito dopo avviene l'atterraggio. 中文：同一寂静场景锁定落地段。 |\n| L3.3 · posizione 4 | K | «Subito dopo quell'atterraggio» rinvia esattamente all'atterraggio di D; l'hotel permette di ricaricare le energie. 中文：落地后才去酒店休息。 |\n| L3.4 · posizione 5 | B | «Ricaricate così le energie» riprende la finalità dichiarata in K; poi avviene l'incontro con le guide. 中文：恢复体力后才与向导会合。 |\n| L3.5 · posizione 6 | F | «Dopo quella partenza» riprende «partiamo» di B; «nel pomeriggio» sposta il racconto alla Riserva di Ziwa. 中文：十点出发后，下午抵达保护区。 |\n| L3.6 · posizione 7 | J | «Proprio in questo rifugio» riprende lo Ziwa Rhino Sanctuary di F e spiega dove avviene l'incontro. 中文：指示词只能指上一段的保护区。 |\n| L3.7 · posizione 8 | C | «Davanti a quei rinoceronti» identifica gli animali appena incontrati in J; quindi comincia la camminata di quasi un'ora. 中文：先遇见犀牛，随后与它们同行。 |\n| L3.8 · posizione 9 | I | «Durante quella camminata» riprende la camminata di C e conduce alla «piccola carica». 中文：行走过程中才发生小冲撞。 |\n| L3.9 · posizione 10 | E | «Dopo quella piccola carica» ripete la chiusa di I e la interpreta come «un avvertimento». 中文：精确复现上一段结尾。 |\n| L3.10 · posizione 11 | G | «Ricevuto quell'avvertimento» riprende l'avvertimento di E; il ritorno ai mezzi, Masindi e il riposo chiudono la giornata. 中文：收到警告后离开，形成结尾。 |",
+    "ANS_L3_SEQUENCE": "A-H-D-K-B-F-J-C-I-E-G"
+  },
+  "key": {
+    "L3": "A-H-D-K-B-F-J-C-I-E-G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "la rotta punta verso",
+      "categoria": "locuzione verbale",
+      "zh": "路线朝向",
+      "en": "the route heads towards",
+      "esempio": "la rotta punta verso l'Uganda"
+    },
+    {
+      "parola": "rubare qualche ora al jet lag",
+      "categoria": "locuzione verbale",
+      "zh": "挤出几小时缓解时差",
+      "en": "to steal a few hours from jet lag",
+      "esempio": "rubare qualche ora al jet lag"
+    },
+    {
+      "parola": "bracconaggio",
+      "categoria": "sostantivo maschile",
+      "zh": "偷猎",
+      "en": "poaching",
+      "esempio": "animali minacciati dal bracconaggio"
+    },
+    {
+      "parola": "accenna una piccola carica",
+      "categoria": "locuzione verbale",
+      "zh": "做出一次轻微冲撞的姿态",
+      "en": "makes a small mock charge",
+      "esempio": "uno di loro accenna una piccola carica"
+    },
+    {
+      "parola": "per conto loro",
+      "categoria": "locuzione avverbiale",
+      "zh": "让它们独处",
+      "en": "on their own",
+      "esempio": "lasciarli per conto loro"
+    }
+  ]
+}

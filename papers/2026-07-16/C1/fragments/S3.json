@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Giocando a nascondino con Beta Pictoris d",
+    "S3_TEXT_WITH_GAPS": "Il pianeta appena scoperto, come gli altri due del sistema, è un gigante __gassoso (0)__ come Giove o Saturno. Tuttavia, Beta Pictoris d ha un’orbita molto più __(1)__ rispetto ai pianeti b e c. Inoltre, mentre i primi due hanno ciascuno una __(2)__ circa dieci volte superiore a quella di Giove, il nuovo pianeta è solo 2,4 volte più __(3)__ di Giove, il che lo rende uno fra i più __(4)__ mai fotografati dalla Terra.\n\nLa __(5)__ di un’immagine diretta, in cui la luce di un oggetto viene catturata come in una fotografia, funziona solo per pianeti __(6)__ luminosi da essere visibili anche accanto alla propria stella madre, molto più __(7)__. Ottenere l’immagine diretta di un pianeta __(8)__ come Beta Pictoris d rappresenta quindi un risultato molto __(9)__.\n\nLa prima __(10)__ osservazione di Beta Pictoris d, che si trova a 63 anni luce da noi, è stata __(11)__ con lo strumento Eris, __(12)__ sul Very Large Telescope, da Ben Sutlieff, Markus Bonse e il loro gruppo. Un team __(13)__, __(14)__ da Aidan Gibbs dell’Università della California, ha scoperto lo stesso pianeta __(15)__ il telescopio spaziale James Webb.",
+    "S3_OPT0_A": "gassoso",
+    "S3_OPT0_B": "roccioso",
+    "S3_OPT0_C": "terrestre",
+    "S3_OPT0_D": "metallico",
+    "S3_OPTION_ROWS": "| 1. | folta | ampia | copiosa | spaziosa |\n| 2. | statura | portata | massa | capienza |\n| 3. | massiccio | assiduo | fitto | intenso |\n| 4. | antichi | nitidi | remoti | leggeri |\n| 5. | dispersione | produzione | demolizione | compressione |\n| 6. | accidentalmente | reciprocamente | sufficientemente | provvisoriamente |\n| 7. | brillante | remota | massiccia | giovane |\n| 8. | vicino | solido | enorme | debole |\n| 9. | controverso | significativo | ordinario | casuale |\n| 10. | teorica | vaga | chiara | cieca |\n| 11. | effettuata | smarrita | esclusa | rinviata |\n| 12. | assunto | iscritto | invitato | installato |\n| 13. | occasionale | indipendente | subordinato | improvvisato |\n| 14. | visitato | raggiunto | guidato | seguito |\n| 15. | respingendo | utilizzando | smontando | evitando |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «un’orbita molto più ampia»: “ampia” è la collocazione naturale per indicarne l’estensione. 中文：不能用形容数量或空间容量的词。 |\n| S3.2 | C | «una massa circa dieci volte superiore» anticipa «più massiccio di Giove». 中文：比较的是质量，不是体积或承载量。 |\n| S3.3 | A | «2,4 volte più massiccio di Giove» esprime il rapporto di massa tra i pianeti. 中文：“massiccio”在这里指质量更大。 |\n| S3.4 | D | «solo 2,4 volte più massiccio» spiega perché è «uno fra i più leggeri». 中文：与前文十倍质量形成对比。 |\n| S3.5 | B | «La produzione di un’immagine diretta» indica l’ottenimento dell’immagine, ripreso subito da «Ottenere». 中文：这里是生成直接图像。 |\n| S3.6 | C | «sufficientemente luminosi da essere visibili» completa la costruzione consecutiva “sufficientemente … da”. 中文：亮度必须足以达到可见结果。 |\n| S3.7 | A | La «stella madre, molto più brillante» rende difficile vedere il pianeta. 中文：语境围绕光亮度对比。 |\n| S3.8 | D | «un pianeta debole» si oppone alla stella «molto più brillante». 中文：“debole”指光信号微弱。 |\n| S3.9 | B | «rappresenta quindi un risultato molto significativo» conclude la spiegazione della difficoltà osservativa. 中文：“quindi”引出发现的重要意义。 |\n| S3.10 | C | «La prima chiara osservazione» segnala che l’oggetto è stato rilevato in modo inequivocabile. 中文：“chiara”修饰可确认的观测。 |\n| S3.11 | A | L’osservazione «è stata effettuata con lo strumento Eris»: “con” introduce il mezzo impiegato. 中文：观测是借助仪器完成的。 |\n| S3.12 | D | «lo strumento Eris, installato sul Very Large Telescope» precisa dove è collocato lo strumento. 中文：仪器安装在望远镜上。 |\n| S3.13 | B | «Un team indipendente» ha scoperto «lo stesso pianeta» con un altro telescopio. 中文：第二团队独立确认了同一行星。 |\n| S3.14 | C | «team … guidato da Aidan Gibbs» identifica chi dirige il gruppo. 中文：“guidato da”表示由某人领导。 |\n| S3.15 | B | «ha scoperto lo stesso pianeta utilizzando il telescopio» indica il mezzo impiegato. 中文：这里表示借助望远镜完成发现。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "B",
+    "S3.14": "C",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "telescopio spaziale",
+      "categoria": "locuzione nominale",
+      "zh": "空间望远镜",
+      "en": "space telescope",
+      "esempio": "il telescopio spaziale James Webb"
+    },
+    {
+      "parola": "immagine diretta",
+      "categoria": "locuzione nominale",
+      "zh": "直接成像",
+      "en": "direct image",
+      "esempio": "un’immagine diretta, in cui la luce di un oggetto viene catturata"
+    },
+    {
+      "parola": "stella madre",
+      "categoria": "locuzione nominale",
+      "zh": "母星",
+      "en": "host star",
+      "esempio": "accanto alla propria stella madre"
+    },
+    {
+      "parola": "anni luce",
+      "categoria": "locuzione nominale",
+      "zh": "光年",
+      "en": "light-years",
+      "esempio": "si trova a 63 anni luce da noi"
+    },
+    {
+      "parola": "fotografati dalla Terra",
+      "categoria": "locuzione verbale",
+      "zh": "从地球拍摄到的",
+      "en": "photographed from Earth",
+      "esempio": "fotografati dalla Terra"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "PROCESSI E PRESCRIZIONE",
+    "S1_TEXT_WITH_GAPS": "Il tema riguarda l'esame delle prove, __ovvero (0)__ la loro valutazione, e la prescrizione.\n\nConosciute le prove e calcolata la certezza del delitto, è necessario concedere al reo __(1)__ il tempo sia i mezzi opportuni per giustificarsi; il tempo, tuttavia, deve essere tanto breve __(2)__ non pregiudicare la prontezza della pena, che abbiamo visto contribuire __(3)__ frenare i delitti.\n\nDa un lato, i delitti atroci, dei __(4)__ resta a lungo la memoria, una __(5)__ provati, non ammettono prescrizione __(6)__ il reo fuggito; dall'altro lato, i delitti minori e oscuri la richiedono, in modo __(7)__ togliere l'incertezza sulla sorte del cittadino. L'oscurità in __(8)__ sono rimasti a lungo quei delitti __(9)__ solo toglie l'esempio dell'impunità, ma lascia anche al reo la possibilità di migliorare.\n\nMi basta accennare questi principi: un limite preciso può essere fissato soltanto in rapporto __(10)__ a una legislazione sia alle circostanze sociali. Mi limiterò __(11)__ formulare una precisazione: provata l'utilità delle pene moderate, le leggi devono agire __(12)__ sul tempo della prescrizione o su quello delle prove, riducendolo o accrescendolo in proporzione ai delitti.\n\nQuesti tempi non cresceranno nella stessa misura in __(13)__ cresce l'atrocità dei delitti, per il fatto __(14)__ la probabilità diminuisce a mano a mano __(15)__ aumenta l'atrocità. Dovrà dunque ridursi il tempo dell'esame, invece __(16)__ crescere, e aumentare quello della prescrizione. Questa conclusione parrebbe entrare __(17)__ contraddizione con la tesi in base alla __(18)__ possono darsi pene uguali a delitti disuguali, nel caso in __(19)__ il tempo della carcerazione o della prescrizione sia valutato come pena prima __(20)__ venga pronunciata la sentenza."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | sia | S1.11 | a |\n| S1.2 | da | S1.12 | o |\n| S1.3 | a | S1.13 | cui |\n| S1.4 | quali | S1.14 | che |\n| S1.5 | volta | S1.15 | che |\n| S1.6 | per | S1.16 | di |\n| S1.7 | da | S1.17 | in |\n| S1.8 | cui | S1.18 | quale |\n| S1.9 | non | S1.19 | cui |\n| S1.10 | sia | S1.20 | che |",
+    "ANS_S1_NOTES": "**Note sui connettivi.**\n\n- **S1.1–S1.3 — sia; da; a:** le cornici decisive sono «sia il tempo sia i mezzi», «tanto breve da non pregiudicare» e la reggenza «contribuire a frenare». 中文：关联结构和动词支配关系把答案锁定。\n- **S1.4–S1.7 — quali; volta; per; da:** il testo impone «dei quali», «una volta provati», «prescrizione per il reo» e «in modo da togliere». 中文：介词或固定结构已给出，不能改用别的关系词。\n- **S1.8–S1.12 — cui; non; sia; a; o:** i richiami sono «in cui», «non solo… ma… anche», «sia… sia», «limitarsi a» e «o… o». 中文：关系结构、否定关联和并列结构前后呼应。\n- **S1.13–S1.16 — cui; che; che; di:** sono richieste le sequenze «nella stessa misura in cui», «per il fatto che», «a mano a mano che» e «invece di crescere». 中文：固定连接结构排除 che/cui/non/se 等竞争项。\n- **S1.17–S1.20 — in; quale; cui; che:** le parole circostanti formano «entrare in contraddizione», «in base alla quale», «nel caso in cui» e «prima che venga pronunciata». 中文：固定搭配、性数和介词框架共同限定唯一形式。"
+  },
+  "key": {
+    "S1.1": "sia",
+    "S1.2": "da",
+    "S1.3": "a",
+    "S1.4": "quali",
+    "S1.5": "volta",
+    "S1.6": "per",
+    "S1.7": "da",
+    "S1.8": "cui",
+    "S1.9": "non",
+    "S1.10": "sia",
+    "S1.11": "a",
+    "S1.12": "o",
+    "S1.13": "cui",
+    "S1.14": "che",
+    "S1.15": "che",
+    "S1.16": "di",
+    "S1.17": "in",
+    "S1.18": "quale",
+    "S1.19": "cui",
+    "S1.20": "che"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prontezza della pena",
+      "categoria": "locuzione nominale",
+      "zh": "刑罚执行的及时性",
+      "en": "promptness of punishment",
+      "esempio": "non pregiudicare la prontezza della pena"
+    },
+    {
+      "parola": "reo fuggito",
+      "categoria": "locuzione nominale",
+      "zh": "潜逃的罪犯",
+      "en": "fugitive offender",
+      "esempio": "non ammettono prescrizione per il reo fuggito"
+    },
+    {
+      "parola": "impunità",
+      "categoria": "nome femminile",
+      "zh": "不受惩罚；免罚",
+      "en": "impunity",
+      "esempio": "toglie l'esempio dell'impunità"
+    },
+    {
+      "parola": "pene moderate",
+      "categoria": "locuzione nominale",
+      "zh": "适度的刑罚",
+      "en": "moderate punishments",
+      "esempio": "provata l'utilità delle pene moderate"
+    },
+    {
+      "parola": "delitti disuguali",
+      "categoria": "locuzione nominale",
+      "zh": "性质或程度不同的罪行",
+      "en": "unequal offences",
+      "esempio": "possono darsi pene uguali a delitti disuguali"
+    }
+  ]
+}

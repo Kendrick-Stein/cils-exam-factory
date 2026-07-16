@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "FACCIAMO LARGO: APERTE LE ISCRIZIONI",
+    "S3_TEXT_WITH_GAPS": "Dopo la presentazione __(0)__ di mercoledì 24 giugno, «Facciamo Largo» è un percorso di partecipazione che accompagnerà il __(1)__ di Sant'Agostino. Ora il progetto entra nel __(2)__. Da oggi sono __(3)__ le iscrizioni agli appuntamenti in __(4)__, che da luglio si terranno al Palazzo dei Musei.\n\nI posti sono __(5)__. Se le iscrizioni __(6)__ la disponibilità, i partecipanti verranno scelti con un metodo casuale: il __(7)__. La scelta terrà conto di età, genere e zona di residenza, per garantire al tavolo voci __(8)__. Può partecipare online: può __(9)__ i risultati dei tavoli e rispondere ai sondaggi.\n\nSi __(10)__ giovedì 9 luglio con «Verde, trasformazioni e piazze europee». Il primo __(11)__ presenterà esperienze di trasformazione __(12)__, per allargare l'__(13)__ di ciò che è possibile fare anche a Modena. Giovedì 16 luglio sarà invece la volta di «La piazza nella __(14)__». L'Archivio storico racconterà la piazza attraverso mappe, fotografie e documenti d'epoca, per scoprire insieme cosa è stata Sant'Agostino e immaginare meglio il suo __(15)__.",
+    "S3_OPT0_A": "pubblica",
+    "S3_OPT0_B": "segreta",
+    "S3_OPT0_C": "privata",
+    "S3_OPT0_D": "personale",
+    "S3_OPTION_ROWS": "| 1. | abbandono | ritardo | ridisegno | rifiuto |\n| 2. | basso | lento | chiuso | vivo |\n| 3. | sospese | annullate | aperte | chiuse |\n| 4. | presenza | anticipo | silenzio | ordine |\n| 5. | gratuiti | limitati | numerati | riservati |\n| 6. | eviteranno | seguiranno | supereranno | ridurranno |\n| 7. | pagamento | sorteggio | invito | colloquio |\n| 8. | silenziose | identiche | uniche | diverse |\n| 9. | cancellare | commentare | ignorare | nascondere |\n| 10. | rinuncia | parte | finisce | resta |\n| 11. | sorteggio | documento | incontro | percorso |\n| 12. | personale | digitale | urbana | scolastica |\n| 13. | archivio | indirizzo | programma | orizzonte |\n| 14. | notte | storia | rete | scuola |\n| 15. | passato | futuro | prezzo | confine |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | Il percorso accompagnerà «il ridisegno di Sant'Agostino». 中文：项目关注圣阿戈斯蒂诺广场的重新设计。 |\n| S3.2 | D | La frase «entra nel vivo» indica che il progetto comincia la sua fase attiva. 中文：entrare nel vivo 是“进入核心实施阶段”的固定表达。 |\n| S3.3 | C | «Da oggi sono aperte ... le iscrizioni» annuncia che è possibile iscriversi. 中文：标题和时间标记都说明报名已经开放。 |\n| S3.4 | A | Gli appuntamenti sono «in presenza» e «si terranno al Palazzo dei Musei», quindi non sono soltanto online. 中文：具体地点锁定线下参加。 |\n| S3.5 | B | Subito dopo si legge che le iscrizioni possono superare «la disponibilità»: i posti sono quindi «limitati». 中文：名额不足才需要后续抽签。 |\n| S3.6 | C | La condizione è «Se le iscrizioni supereranno la disponibilità». 中文：报名数超过可用名额时才启动选择。 |\n| S3.7 | B | Il testo definisce il sistema come «un metodo casuale: il sorteggio». 中文：casuale 直接锁定抽签，而不是邀请或面试。 |\n| S3.8 | D | Età, genere e residenza servono a garantire «voci diverse» e non soltanto quelle dei primi iscritti. 中文：多个代表性标准对应多样声音。 |\n| S3.9 | B | Online si può «commentare i risultati dei tavoli» e rispondere ai sondaggi. 中文：commentare 与线上参与、表达意见相符。 |\n| S3.10 | B | «Si parte giovedì 9 luglio» introduce il primo appuntamento, prima di quello del 16 luglio. 中文：先后两个日期使 parte 表示活动从9日开始。 |\n| S3.11 | C | «Il primo incontro» è l'appuntamento del 9 luglio e ne viene descritto il contenuto. 中文：primo 与后面的第二个日期共同锁定 incontro。 |\n| S3.12 | C | Le «piazze europee» e ciò che si può fare «anche a Modena» indicano una trasformazione urbana. 中文：广场和城市语境锁定 urbana。 |\n| S3.13 | D | La locuzione è «allargare l'orizzonte» di ciò che è possibile fare. 中文：固定搭配表示拓宽思路和可能性。 |\n| S3.14 | B | «L'Archivio storico», le mappe e i «documenti d'epoca» spiegano il titolo «La piazza nella storia». 中文：历史档案材料唯一对应 storia。 |\n| S3.15 | B | Il contrasto è fra «cosa è stata Sant'Agostino» e «immaginare meglio il suo futuro». 中文：先回顾过去，再设想未来。 |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "D",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "B",
+    "S3.11": "C",
+    "S3.12": "C",
+    "S3.13": "D",
+    "S3.14": "B",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "entra nel vivo",
+      "categoria": "locuzione verbale",
+      "zh": "进入实质阶段",
+      "en": "gets into full swing",
+      "esempio": "Ora il progetto entra nel vivo"
+    },
+    {
+      "parola": "i posti sono limitati",
+      "categoria": "locuzione nominale",
+      "zh": "名额有限",
+      "en": "limited places",
+      "esempio": "i posti sono limitati"
+    },
+    {
+      "parola": "sorteggio",
+      "categoria": "sostantivo",
+      "zh": "抽签",
+      "en": "drawing of lots",
+      "esempio": "il sorteggio"
+    },
+    {
+      "parola": "zona di residenza",
+      "categoria": "locuzione nominale",
+      "zh": "居住区域",
+      "en": "area of residence",
+      "esempio": "età, genere e zona di residenza"
+    },
+    {
+      "parola": "documenti d'epoca",
+      "categoria": "locuzione nominale",
+      "zh": "历史时期文献",
+      "en": "historical documents",
+      "esempio": "mappe, fotografie e documenti d'epoca"
+    }
+  ]
+}

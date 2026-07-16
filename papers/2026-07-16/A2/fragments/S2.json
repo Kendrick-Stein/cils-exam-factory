@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "LA SCELTA DI JANNIK SINNER",
+    "S2_TEXT_WITH_GAPS": "Oggi Jannik Sinner *(essere)* __è (0)__ un tennista. Da ragazzino, mentre era sulla neve, sugli sci *(vincere)* __(1)__. A quel tempo, mentre praticava lo sci, vincere *(essere)* __(2)__ facile per lui. Sul campo da tennis, invece, mentre si allenava, *(fare)* __(3)__ fatica e, mentre giocava, *(perdere)* __(4)__. Finora, nella sua vita, *(vivere)* __(5)__ un momento decisivo. In questi anni *(scegliere)* __(6)__ il tennis e *(avere)* __(7)__ il coraggio di continuare dove trovava errori e sconfitte. Da allora fino a oggi *(costruire)* __(8)__ la sua carriera in questo sport. Oggi questa scelta *(fare)* __(9)__ capire il suo coraggio e *(raccontare)* __(10)__ molto più di una carriera sportiva."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | vinceva | imperfetto | S2.6 | ha scelto | passato prossimo |\n| S2.2 | era | imperfetto | S2.7 | ha avuto | passato prossimo |\n| S2.3 | faceva | imperfetto | S2.8 | ha costruito | passato prossimo |\n| S2.4 | perdeva | imperfetto | S2.9 | fa | presente |\n| S2.5 | ha vissuto | passato prossimo | S2.10 | racconta | presente |",
+    "ANS_S2_NOTES": "S2.1–S2.4: «Da ragazzino», «mentre» e «A quel tempo» collocano azioni abituali o sullo sfondo. 中文：这些标记锁定未完成过去时。\n\nS2.5–S2.8: «Finora», «In questi anni» e «Da allora fino a oggi» richiedono il passato prossimo. 中文：时间延续到现在，排除远过去时。\n\nS2.9–S2.10: il nuovo pivot «Oggi» impone il presente. 中文：时间转折后使用现在时。"
+  },
+  "key": {
+    "S2.1": "vinceva",
+    "S2.2": "era",
+    "S2.3": "faceva",
+    "S2.4": "perdeva",
+    "S2.5": "ha vissuto",
+    "S2.6": "ha scelto",
+    "S2.7": "ha avuto",
+    "S2.8": "ha costruito",
+    "S2.9": "fa",
+    "S2.10": "racconta"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ragazzino",
+      "categoria": "nome",
+      "zh": "少年；小男孩",
+      "en": "young boy",
+      "esempio": "Da ragazzino"
+    },
+    {
+      "parola": "neve",
+      "categoria": "nome",
+      "zh": "雪",
+      "en": "snow",
+      "esempio": "sulla neve"
+    },
+    {
+      "parola": "sconfitte",
+      "categoria": "nome",
+      "zh": "失败；失利",
+      "en": "defeats",
+      "esempio": "errori e sconfitte"
+    },
+    {
+      "parola": "coraggio",
+      "categoria": "nome",
+      "zh": "勇气",
+      "en": "courage",
+      "esempio": "il coraggio di continuare"
+    },
+    {
+      "parola": "carriera sportiva",
+      "categoria": "espressione",
+      "zh": "体育生涯",
+      "en": "sports career",
+      "esempio": "una carriera sportiva"
+    }
+  ]
+}

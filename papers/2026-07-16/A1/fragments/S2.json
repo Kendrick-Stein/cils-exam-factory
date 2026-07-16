@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "TRE GIORNI A VENEZIA",
+    "S2_TEXT_WITH_GAPS": "Questo *(essere)* __è (0)__ il viaggio. Nel viaggio concluso, noi, due adulti, un bambino e una bambina, *(partire)* __(1)__. A Mestre *(soggiornare)* __(2)__. In quei tre giorni *(potere)* __(3)__ usare i mezzi pubblici. Il primo giorno *(trascorrere)* __(4)__ il tempo e *(visitare)* __(5)__ la città. Poi *(ammirare)* __(6)__ il ponte e *(camminare)* __(7)__. Oggi il ponte di Rialto *(attraversare)* __(8)__ il Canal Grande; noi *(essere)* __(9)__ due adulti e il bambino *(avere)* __(10)__ nove anni."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | siamo partiti | passato prossimo | S2.6 | abbiamo ammirato | passato prossimo |\n| S2.2 | abbiamo soggiornato | passato prossimo | S2.7 | abbiamo camminato | passato prossimo |\n| S2.3 | abbiamo potuto | passato prossimo | S2.8 | attraversa | presente |\n| S2.4 | abbiamo trascorso | passato prossimo | S2.9 | siamo | presente |\n| S2.5 | abbiamo visitato | passato prossimo | S2.10 | ha | presente |",
+    "ANS_S2_NOTES": "- **S2.1:** «Nel viaggio di tre giorni, già concluso» impone *siamo partiti in aereo da Napoli*. 中文：已结束的行程锁定完成动作；明确的混合复数主语锁定 *partiti*。\n- **S2.2:** Lo stesso viaggio «già concluso» impone *abbiamo soggiornato in un appartamento*. 中文：住宿属于明确结束的三日行程。\n- **S2.3:** «In quei tre giorni» riprende il viaggio concluso: *abbiamo potuto usare liberamente i mezzi pubblici*. 中文：三日区间已经结束，情态动词用近过去时。\n- **S2.4:** «Il primo giorno» del viaggio già concluso impone *abbiamo trascorso il tempo*. 中文：首日是已结束行程中的明确时段。\n- **S2.5:** La coordinazione con «Il primo giorno» mantiene il passato prossimo: *abbiamo visitato la città*. 中文：并列动作共享同一个明确过去时间锚点。\n- **S2.6:** «Poi» continua la sequenza del viaggio concluso: *abbiamo ammirato il ponte di Rialto*. 中文：随后发生的也是该行程中已完成的动作。\n- **S2.7:** La coordinazione dopo «Poi» impone *abbiamo camminato verso Piazza San Marco*. 中文：与前一动作共享已结束的叙事时间。\n- **S2.8:** «Oggi» impone il presente: *il ponte di Rialto attraversa il Canal Grande*. 中文：现在时标记和单数主语共同锁定 *attraversa*。\n- **S2.9:** «Oggi» impone il presente: *noi siamo due adulti*. 中文：明确的现在时标记排除近过去时。\n- **S2.10:** La frase resta nel quadro di «Oggi»: *il bambino ha nove anni*. 中文：当前年龄信息和单数主语锁定 *ha*。"
+  },
+  "key": {
+    "S2.1": "siamo partiti",
+    "S2.2": "abbiamo soggiornato",
+    "S2.3": "abbiamo potuto",
+    "S2.4": "abbiamo trascorso",
+    "S2.5": "abbiamo visitato",
+    "S2.6": "abbiamo ammirato",
+    "S2.7": "abbiamo camminato",
+    "S2.8": "attraversa",
+    "S2.9": "siamo",
+    "S2.10": "ha"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "appartamento",
+      "categoria": "nome maschile",
+      "zh": "公寓",
+      "en": "apartment",
+      "esempio": "A Mestre abbiamo soggiornato in un appartamento, a 15 minuti di tram da Venezia."
+    },
+    {
+      "parola": "tram",
+      "categoria": "nome maschile invariabile",
+      "zh": "有轨电车",
+      "en": "tram",
+      "esempio": "A Mestre abbiamo soggiornato in un appartamento, a 15 minuti di tram da Venezia."
+    },
+    {
+      "parola": "mezzi pubblici",
+      "categoria": "locuzione nominale",
+      "zh": "公共交通工具",
+      "en": "public transport",
+      "esempio": "In quei tre giorni abbiamo potuto usare liberamente i mezzi pubblici."
+    },
+    {
+      "parola": "ponte",
+      "categoria": "nome maschile",
+      "zh": "桥",
+      "en": "bridge",
+      "esempio": "Poi abbiamo ammirato il ponte di Rialto e abbiamo camminato verso Piazza San Marco."
+    },
+    {
+      "parola": "verso",
+      "categoria": "preposizione",
+      "zh": "朝，向",
+      "en": "towards",
+      "esempio": "Poi abbiamo ammirato il ponte di Rialto e abbiamo camminato verso Piazza San Marco."
+    }
+  ]
+}

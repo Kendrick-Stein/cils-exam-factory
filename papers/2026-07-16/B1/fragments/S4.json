@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Buongiorno, la chiamiamo dalla biblioteca comunale. Il prestito del romanzo scade domani, ma può prolungarlo per altri quindici giorni entrando nel suo profilo online. In questo modo eviterà la multa per il ritardo.»**\nA) È l'invito a rinnovare un prestito prima della scadenza.\nB) È la conferma dell'acquisto di un romanzo online.\nC) È il sollecito a pagare una multa già ricevuta.\nD) È l'annuncio della chiusura temporanea della biblioteca.\n\n**2. «Avvisiamo gli iscritti che la lezione di nuoto di martedì alle 19 è spostata a giovedì alla stessa ora per un problema tecnico alla piscina. Chi non può partecipare può recuperarla sabato mattina.»**\nA) È la richiesta di iscriversi a una lezione aggiuntiva.\nB) È la comunicazione del cambiamento di giorno di una lezione.\nC) È l'annuncio della chiusura definitiva di una piscina.\nD) È il consiglio di frequentare il corso del sabato.\n\n**3. «Ciao Paolo, da venerdì a domenica sarò fuori città. Potresti passare a casa mia sabato pomeriggio per dare da mangiare al gatto e controllare che abbia acqua? Ti lascio le chiavi stasera, se sei disponibile.»**\nA) È l'offerta di ospitare il gatto di un amico.\nB) È l'invito a trascorrere il fine settimana fuori città.\nC) È la richiesta di occuparsi brevemente di un animale.\nD) È l'avviso che le chiavi di casa sono state perse.\n\n**4. «Gentile signora Neri, abbiamo ricevuto la sua prenotazione per quattro persone domenica alle 13. Poiché ci ha segnalato un'allergia, la preghiamo di indicarci entro venerdì quali ingredienti deve evitare, così prepareremo un menù adatto.»**\nA) È la richiesta di scegliere in anticipo tutti i piatti.\nB) È il rifiuto di accogliere una cliente con un'allergia.\nC) È la proposta di cambiare il numero dei partecipanti.\nD) È la richiesta di precisare gli ingredienti da escludere.\n\n**5. «La informiamo che lo zaino blu segnalato ieri è stato ritrovato sull'autobus 12. Può ritirarlo da domani presso l'ufficio oggetti smarriti della stazione, presentando un documento e descrivendo il contenuto.»**\nA) È la conferma del ritrovamento e l'indicazione per il ritiro.\nB) È la richiesta di consegnare uno zaino trovato sull'autobus.\nC) È l'avviso che un ufficio cambierà sede domani.\nD) È il consiglio di non portare documenti sui mezzi pubblici.\n\n**6. «Attenzione: lunedì dalle 7 alle 14 il cortile sarà occupato dai tecnici che controlleranno l'impianto elettrico. I residenti devono spostare auto e biciclette entro domenica sera, per lasciare libero l'accesso ai mezzi di servizio.»**\nA) È l'offerta di un controllo gratuito per auto e biciclette.\nB) È la segnalazione di un guasto già riparato nel cortile.\nC) È l'ordine di liberare uno spazio prima di lavori tecnici.\nD) È il divieto permanente di parcheggiare nel cortile.\n\n**7. «Buonasera, lo studio dentistico deve annullare la sua visita di domani perché la dottoressa è malata. Possiamo riceverla venerdì alle 16. Ci richiami entro questa sera per confermare il nuovo appuntamento o scegliere un'altra data.»**\nA) È il promemoria di una visita già confermata per venerdì.\nB) È la proposta di sostituire un appuntamento annullato.\nC) È il consiglio di rivolgersi subito a un altro dentista.\nD) È la richiesta di comunicare l'assenza della dottoressa.\n\n**8. «Regalo scrivania in legno in buone condizioni perché sto cambiando casa. È necessario venire a prenderla entro sabato e portare un mezzo adatto: la scrivania è pesante e non posso occuparmi del trasporto.»**\nA) È l'annuncio di una scrivania in vendita a prezzo ridotto.\nB) È la ricerca di qualcuno che ripari un mobile pesante.\nC) È l'offerta di trasportare gratuitamente una scrivania.\nD) È l'offerta gratuita di un mobile da ritirare personalmente.\n\n**9. «Si ricorda alle famiglie che per partecipare alla gita del 28 maggio occorre consegnare l'autorizzazione firmata entro lunedì. Senza il modulo gli studenti resteranno a scuola, anche se la quota è già stata pagata.»**\nA) È il promemoria di consegnare un permesso necessario per una gita.\nB) È la richiesta di pagare nuovamente la quota della gita.\nC) È l'annuncio del rinvio di una gita scolastica.\nD) È l'invito ai genitori ad accompagnare gli studenti.\n\n**10. «Gentile cliente, non possiamo cambiare le cuffie acquistate due mesi fa: il termine di trenta giorni indicato sullo scontrino è scaduto. Possiamo però inviarle al centro assistenza, se il problema è un difetto tecnico.»**\nA) È la conferma del rimborso per un prodotto difettoso.\nB) È l'offerta di sostituire subito delle cuffie senza scontrino.\nC) È il rifiuto di un cambio con la proposta di assistenza tecnica.\nD) È l'avviso che un centro assistenza ha chiuso."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | A | «Il prestito ... scade domani» e «può prolungarlo» invitano a rinnovarlo prima della multa. 中文：罚款尚未产生，重点是提前续借。 |\n| S4.2 | B | «la lezione ... è spostata a giovedì» comunica un cambio di giorno, con recupero possibile sabato. 中文：不是泳池永久关闭，也不是新增课程。 |\n| S4.3 | C | «Potresti passare a casa mia ... per dare da mangiare al gatto» è una richiesta di aiuto limitata al sabato. 中文：是临时照料，不是寄养动物。 |\n| S4.4 | D | Il ristorante chiede di «indicarci ... quali ingredienti deve evitare» per preparare un menù adatto. 中文：已确认预订，问题是明确过敏食材。 |\n| S4.5 | A | Lo zaino «è stato ritrovato» e il messaggio spiega dove e come «ritirarlo». 中文：失物已经找到，不是在征集失物线索。 |\n| S4.6 | C | «devono spostare auto e biciclette» serve a «lasciare libero l'accesso» prima del controllo tecnico. 中文：限制只针对施工时段，不是永久禁停。 |\n| S4.7 | B | Lo studio «deve annullare» la visita di domani e propone «venerdì alle 16» come sostituzione. 中文：周五只是新提议，尚需确认。 |\n| S4.8 | D | «Regalo scrivania» indica gratuità, mentre «venire a prenderla» assegna il trasporto a chi la riceve. 中文：家具免费，但领取者须自提。 |\n| S4.9 | A | «occorre consegnare l'autorizzazione firmata entro lunedì» è il requisito per partecipare alla gita. 中文：即使已付款，也必须交许可表。 |\n| S4.10 | C | «non possiamo cambiare le cuffie» rifiuta il cambio, ma «possiamo ... inviarle al centro assistenza» offre un'alternativa. 中文：退换期已过，只能提供技术检修。 |"
+  },
+  "key": {
+    "S4.1": "A",
+    "S4.2": "B",
+    "S4.3": "C",
+    "S4.4": "D",
+    "S4.5": "A",
+    "S4.6": "C",
+    "S4.7": "B",
+    "S4.8": "D",
+    "S4.9": "A",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prolungarlo",
+      "categoria": "verbo",
+      "zh": "延长它（借阅期）",
+      "en": "to extend it",
+      "esempio": "può prolungarlo per altri quindici giorni"
+    },
+    {
+      "parola": "oggetti smarriti",
+      "categoria": "locuzione nominale",
+      "zh": "失物",
+      "en": "lost property",
+      "esempio": "presso l'ufficio oggetti smarriti della stazione"
+    },
+    {
+      "parola": "impianto elettrico",
+      "categoria": "locuzione nominale",
+      "zh": "电气系统",
+      "en": "electrical system",
+      "esempio": "controlleranno l'impianto elettrico"
+    },
+    {
+      "parola": "autorizzazione firmata",
+      "categoria": "locuzione nominale",
+      "zh": "签字许可书",
+      "en": "signed permission form",
+      "esempio": "consegnare l'autorizzazione firmata entro lunedì"
+    },
+    {
+      "parola": "termine",
+      "categoria": "sostantivo",
+      "zh": "期限",
+      "en": "deadline",
+      "esempio": "il termine di trenta giorni indicato sullo scontrino è scaduto"
+    }
+  ]
+}

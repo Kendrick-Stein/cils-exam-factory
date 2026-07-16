@@ -1,0 +1,56 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«In una società che premia l'efficienza, anche il tempo libero rischia di trasformarsi in una serie di attività da programmare e valutare». Esprimi il tuo parere in merito, considerando le conseguenze individuali e sociali di questa tendenza e le possibili alternative.",
+    "W1B_PROMPT": "Una rivista online apre un dibattito sulla riduzione dell'illuminazione notturna nelle città. Scrivi un articolo in cui analizzi i benefici ambientali e culturali di questa scelta, le preoccupazioni dei cittadini e le misure necessarie per conciliare risparmio energetico, sicurezza e qualità della vita.",
+    "W2A_PROMPT": "Hai prenotato e pagato una sala silenziosa in uno spazio di coworking per sostenere un colloquio online il 18 luglio. Al tuo arrivo la sala era occupata da lavori rumorosi e ti è stata offerta soltanto una postazione nell'atrio. Scrivi un'e-mail alla direzione: descrivi l'accaduto e le conseguenze, chiedi il rimborso e indica quale soluzione ti aspetti per una futura prenotazione.",
+    "W2B_PROMPT": "La tua associazione ha chiesto al Comune l'autorizzazione per una rassegna cinematografica gratuita prevista nel parco dal 2 agosto, ma a dieci giorni dall'inizio non ha ancora ricevuto risposta. Scrivi una lettera all'ufficio competente: riepiloga la richiesta, spiega perché il ritardo mette a rischio l'iniziativa, domanda una decisione entro una data precisa e proponi un contatto rapido.",
+    "MODEL_W1A": "L'efficienza è utile quando libera tempo, ma diventa problematica se pretende di attribuire un risultato misurabile a ogni momento della giornata. Oggi persino una passeggiata può essere registrata, confrontata e trasformata in una prestazione. Così il riposo non rappresenta più una sospensione dagli obblighi: diventa un altro compito da svolgere bene.\n\nSul piano individuale, questa mentalità alimenta il senso di colpa verso le ore apparentemente improduttive. Eppure proprio la noia, l'attesa e le attività prive di uno scopo immediato favoriscono l'immaginazione e permettono di riconoscere desideri che la routine nasconde. Sul piano sociale, inoltre, un tempo libero organizzato privilegia chi dispone di denaro, servizi e orari prevedibili, ampliando disuguaglianze esistenti.\n\nNon si tratta di rifiutare qualsiasi progetto personale, bensì di sottrarre alcune esperienze alla logica della prestazione. Scuole e luoghi di lavoro potrebbero tutelare pause reali, senza riempirle di iniziative obbligatorie. Anche noi possiamo lasciare spazi vuoti nell'agenda e accettare che non tutto produca un beneficio immediatamente visibile. A mio avviso, recuperare un tempo non valutato significa difendere una forma essenziale di libertà: quella di cambiare ritmo senza doverlo giustificare.",
+    "MODEL_W1A_PHRASES": "«attribuire un risultato misurabile a…»（为……赋予可衡量的结果）; «Sul piano individuale»（在个人层面）; «Non si tratta di…, bensì di…»（问题不在于……，而在于……）; «sottrarre… alla logica della prestazione»（使……摆脱绩效逻辑）; «A mio avviso»（依我之见）",
+    "MODEL_W1B": "Ridurre l'illuminazione notturna non significa necessariamente lasciare le città al buio. Significa piuttosto interrogarsi su dove, quando e quanto sia davvero necessario illuminare. Lampade eccessive o orientate verso il cielo consumano energia, disturbano specie animali e cancellano l'osservazione delle stelle, impoverendo un patrimonio naturale accessibile a tutti.\n\nLe preoccupazioni per la sicurezza, tuttavia, non possono essere liquidate come irrazionali. Strade, fermate e attraversamenti devono restare visibili per pedoni e ciclisti. Una riduzione uniforme rischierebbe di penalizzare i quartieri poco serviti. Per questo ogni intervento dovrebbe partire da una mappatura dei percorsi e dall'ascolto di chi li usa nelle diverse ore.\n\nLa soluzione più efficace consiste nell'adottare luci schermate, di intensità moderata e regolabili mediante sensori. Si potrebbero spegnere le insegne dopo la chiusura delle attività, mantenendo invece un'illuminazione continua nei punti critici. Sarebbe utile anche verificare gli effetti delle modifiche attraverso sperimentazioni temporanee e dati pubblici. Una città ben illuminata non è quella che elimina ogni ombra, ma quella che usa la luce con precisione. Conciliare tutela ambientale e sicurezza è possibile, purché il risparmio non diventi un taglio indiscriminato.",
+    "MODEL_W1B_PHRASES": "«non significa necessariamente…»（并不一定意味着……）; «non possono essere liquidate come irrazionali»（不能被当作不理性而轻率否定）; «Per questo ogni intervento dovrebbe…»（因此每项干预都应……）; «La soluzione più efficace consiste nel…»（最有效的方案在于……）; «purché…»（只要……；条件是……）",
+    "MODEL_W2A": "Gentile Direzione,\n\nLe scrivo in merito alla sala silenziosa prenotata e pagata per il 18 luglio, dalle 10 alle 11. Al mio arrivo erano in corso lavori particolarmente rumorosi; la postazione offertami nell'atrio non garantiva né silenzio né riservatezza. Ho dovuto pertanto rinviare il colloquio online, con un evidente danno professionale.\n\nChiedo il rimborso integrale del servizio non usufruito. Per una futura prenotazione, gradirei inoltre un'ora gratuita in una sala effettivamente isolata e la conferma preventiva dell'assenza di lavori. Vi invito infine a segnalare tempestivamente eventuali disagi agli utenti interessati.\n\nIn attesa di un cortese riscontro entro sette giorni, porgo cordiali saluti.\n\nElena Moretti",
+    "MODEL_W2A_PHRASES": "«Le scrivo in merito a…»（我就……事宜致函）; «non garantiva né… né…»（既无法保证……也无法保证……）; «Ho dovuto pertanto…»（因此我不得不……）; «Chiedo il rimborso integrale»（我要求全额退款）; «In attesa di un cortese riscontro»（静候您的回复）",
+    "MODEL_W2B": "Spett.le Ufficio Manifestazioni,\n\nla nostra associazione ha presentato il 20 giugno la domanda di autorizzazione per una rassegna cinematografica gratuita nel Parco Aurora, prevista dal 2 al 4 agosto. A dieci giorni dall'inizio non abbiamo ancora ricevuto alcuna comunicazione. Il ritardo ci impedisce di confermare il noleggio delle attrezzature e di informare pubblico e volontari, mettendo a rischio l'intera iniziativa.\n\nChiediamo pertanto una decisione entro il 25 luglio. Qualora mancasse qualche documento, siamo disponibili a trasmetterlo immediatamente. Per accelerare il confronto, proponiamo un colloquio telefonico domani pomeriggio al numero indicato nella domanda.\n\nRingraziando per l'attenzione, restiamo in attesa di un sollecito riscontro.\n\nDistinti saluti,\nAssociazione Schermi Aperti",
+    "MODEL_W2B_PHRASES": "«A dieci giorni dall'inizio»（距开始还有十天）; «mettendo a rischio…»（使……面临风险）; «Chiediamo pertanto una decisione entro…»（因此我们要求在……前作出决定）; «Qualora mancasse…»（如若缺少……）; «restiamo in attesa di un sollecito riscontro»（静候尽快回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "ore apparentemente improduttive",
+      "categoria": "locuzione nominale",
+      "zh": "看似无产出的时间",
+      "en": "seemingly unproductive hours",
+      "esempio": "questa mentalità alimenta il senso di colpa verso le ore apparentemente improduttive"
+    },
+    {
+      "parola": "taglio indiscriminato",
+      "categoria": "locuzione nominale",
+      "zh": "不加区分的削减",
+      "en": "indiscriminate cut",
+      "esempio": "purché il risparmio non diventi un taglio indiscriminato"
+    },
+    {
+      "parola": "riservatezza",
+      "categoria": "nome femminile",
+      "zh": "私密性；保密性",
+      "en": "privacy; confidentiality",
+      "esempio": "la postazione offertami nell'atrio non garantiva né silenzio né riservatezza"
+    },
+    {
+      "parola": "servizio non usufruito",
+      "categoria": "locuzione nominale",
+      "zh": "未享用的服务",
+      "en": "unused service",
+      "esempio": "Chiedo il rimborso integrale del servizio non usufruito."
+    },
+    {
+      "parola": "sollecito riscontro",
+      "categoria": "locuzione nominale",
+      "zh": "尽快回复",
+      "en": "prompt reply",
+      "esempio": "restiamo in attesa di un sollecito riscontro"
+    }
+  ]
+}

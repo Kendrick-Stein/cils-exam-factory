@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "NUOVI SPAZI DI LAVORO A ROVERETO",
+    "S3_TEXT_WITH_GAPS": "A Rovereto Poste Italiane offre __un (0)__ nuovo spazio di lavoro condiviso. Il servizio è __(1)__ alle aziende e ai liberi professionisti. Si trova nel Palazzo delle Poste, in Largo Posta 7; l'edificio è stato __(2)__ e offre uffici moderni con postazioni attrezzate. Gli uffici non sono aperti a tutti, ma __(3)__: cinque per quattro persone, tre per sei e due per due. Per gli incontri è disponibile una sala per __(4)__, con dodici posti. L'open space ha sei __(5)__ attrezzate per lavorare. Per riposare, c'è anche un'area per fare una __(6)__. Le diverse soluzioni permettono di scegliere lo spazio più __(7)__ alle proprie necessità, con flessibilità e __(8)__, cioè in modo comodo.",
+    "S3_OPT0_A": "un",
+    "S3_OPT0_B": "una",
+    "S3_OPT0_C": "uno",
+    "S3_OPTION_ROWS": "| 1. | destinato | nascosto | vietato |\n| 2. | prenotato | ristrutturato | trasferito |\n| 3. | pubblici | esterni | privati |\n| 4. | lezioni | riunioni | feste |\n| 5. | riunioni | prenotazioni | postazioni |\n| 6. | riunione | telefonata | pausa |\n| 7. | contrario | adatto | estraneo |\n| 8. | comfort | traffico | rumore |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «alle aziende e ai liberi professionisti» indica a chi è destinato il servizio. 中文：destinato a 表示“面向、供……使用”。 |\n| S3.2 | B | Gli «uffici moderni» richiamano un edificio ristrutturato. 中文：这里说的是建筑翻新，不是预订或搬迁。 |\n| S3.3 | C | «non sono aperti a tutti, ma» crea il contrasto che richiede privati. 中文：ma 后面必须与“并非人人可用”对应。 |\n| S3.4 | B | «Per gli incontri» rende corretta l'espressione sala per riunioni. 中文：incontri 是决定性语义线索。 |\n| S3.5 | C | Nell'«open space» ci sono elementi «attrezzati per lavorare»: le postazioni. 中文：能配备并用于工作的应是工位。 |\n| S3.6 | C | «Per riposare» indica che nell'area si può fare una pausa. 中文：riposare 排除会议和打电话。 |\n| S3.7 | B | La costruzione «adatto alle proprie necessità» esprime la scelta in base ai bisogni. 中文：固定搭配是 adatto a。 |\n| S3.8 | A | «cioè in modo comodo» spiega direttamente la parola comfort. 中文：cioè 后面的释义锁定答案。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "lavoro condiviso",
+      "categoria": "locuzione nominale",
+      "zh": "共享办公",
+      "en": "coworking",
+      "esempio": "nuovo spazio di lavoro condiviso"
+    },
+    {
+      "parola": "liberi professionisti",
+      "categoria": "locuzione nominale",
+      "zh": "自由职业者",
+      "en": "freelancers",
+      "esempio": "alle aziende e ai liberi professionisti"
+    },
+    {
+      "parola": "postazioni attrezzate",
+      "categoria": "locuzione nominale",
+      "zh": "配备完善的工位",
+      "en": "equipped workstations",
+      "esempio": "uffici moderni con postazioni attrezzate"
+    },
+    {
+      "parola": "open space",
+      "categoria": "locuzione nominale",
+      "zh": "开放式办公区",
+      "en": "open-plan area",
+      "esempio": "L'open space ha sei"
+    },
+    {
+      "parola": "proprie necessità",
+      "categoria": "locuzione nominale",
+      "zh": "自身需求",
+      "en": "one's own needs",
+      "esempio": "alle proprie necessità"
+    }
+  ]
+}

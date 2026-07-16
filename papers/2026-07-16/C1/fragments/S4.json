@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "Sviluppo competenze",
+    "T7_TEXT": "Sviluppo Competenze è un regime di aiuto destinato alle PMI localizzate nelle regioni Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia. Il regime consente alle PMI l'acquisizione, anche in un'ottica di rafforzamento delle filiere di appartenenza, di servizi finalizzati allo sviluppo e all'accrescimento delle competenze del relativo personale dipendente. L'obiettivo è consentire loro di affrontare le sfide e cogliere le opportunità connesse all'innovazione tecnologica e alla transizione verde e digitale. La dotazione finanziaria complessiva dello strumento è di 50 milioni di euro. Tale dotazione è a valere sull'Azione 1.4.1 «Sviluppo di una forza lavoro qualificata che sia in grado di cogliere le opportunità derivanti dalla duplice transizione verde e digitale all'interno delle imprese», prevista nell'ambito dell'Obiettivo Specifico 1.4 del Programma Nazionale Ricerca, Innovazione e Competitività per la transizione verde e digitale 2021-2027. Le agevolazioni sono concesse sulla base di una procedura valutativa a graduatoria. Una quota pari al 40% delle risorse è destinata al sostegno delle imprese operanti nella filiera automotive e nella filiera della moda, del tessile e dell'arredamento.",
+    "S4_SOURCE_0": "Sviluppo Competenze è un regime di aiuto destinato alle PMI localizzate nelle regioni Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia.",
+    "S4_REWRITE_0": "ALLE PMI LOCALIZZATE NELLE REGIONI BASILICATA, CALABRIA, CAMPANIA, MOLISE, PUGLIA, SARDEGNA E SICILIA È DESTINATO IL REGIME DI AIUTO SVILUPPO COMPETENZE.",
+    "S4_ITEMS": "**1. Il regime consente alle PMI l'acquisizione, anche in un'ottica di rafforzamento delle filiere di appartenenza, di servizi finalizzati allo sviluppo e all'accrescimento delle competenze del relativo personale dipendente.**\n\n→ L'ACQUISIZIONE, DA PARTE DELLE PMI, DI SERVIZI FINALIZZATI ALLO SVILUPPO E ALL'ACCRESCIMENTO DELLE COMPETENZE DEL RELATIVO PERSONALE DIPENDENTE È CONSENTITA …………………………………\n\n**2. L'obiettivo è consentire loro di affrontare le sfide e cogliere le opportunità connesse all'innovazione tecnologica e alla transizione verde e digitale.**\n\n→ IL REGIME SI PROPONE DI CONSENTIRE ALLE PMI DI AFFRONTARE LE SFIDE E COGLIERE LE OPPORTUNITÀ CONNESSE …………………………………\n\n**3. La dotazione finanziaria complessiva dello strumento è di 50 milioni di euro.**\n\n→ LA DOTAZIONE FINANZIARIA COMPLESSIVA DELLO STRUMENTO AMMONTA …………………………………\n\n**4. Tale dotazione è a valere sull'Azione 1.4.1 «Sviluppo di una forza lavoro qualificata che sia in grado di cogliere le opportunità derivanti dalla duplice transizione verde e digitale all'interno delle imprese», prevista nell'ambito dell'Obiettivo Specifico 1.4 del Programma Nazionale Ricerca, Innovazione e Competitività per la transizione verde e digitale 2021-2027.**\n\n→ LA FONTE DELLA DOTAZIONE È L'AZIONE 1.4.1 …………………………………\n\n**5. Le agevolazioni sono concesse sulla base di una procedura valutativa a graduatoria.**\n\n→ LA CONCESSIONE DELLE AGEVOLAZIONI AVVIENE SULLA BASE …………………………………\n\n**6. Una quota pari al 40% delle risorse è destinata al sostegno delle imprese operanti nella filiera automotive e nella filiera della moda, del tessile e dell'arredamento.**\n\n→ È AL SOSTEGNO DELLE IMPRESE OPERANTI NELLA FILIERA AUTOMOTIVE E NELLA FILIERA DELLA MODA, DEL TESSILE E DELL'ARREDAMENTO CHE VIENE DESTINATA …………………………………"
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | L'ACQUISIZIONE, DA PARTE DELLE PMI, DI SERVIZI FINALIZZATI ALLO SVILUPPO E ALL'ACCRESCIMENTO DELLE COMPETENZE DEL RELATIVO PERSONALE DIPENDENTE È CONSENTITA DAL REGIME, ANCHE IN UN'OTTICA DI RAFFORZAMENTO DELLE FILIERE DI APPARTENENZA. |\n| S4.2 | IL REGIME SI PROPONE DI CONSENTIRE ALLE PMI DI AFFRONTARE LE SFIDE E COGLIERE LE OPPORTUNITÀ CONNESSE ALL'INNOVAZIONE TECNOLOGICA E ALLA TRANSIZIONE VERDE E DIGITALE. |\n| S4.3 | LA DOTAZIONE FINANZIARIA COMPLESSIVA DELLO STRUMENTO AMMONTA A 50 MILIONI DI EURO. |\n| S4.4 | LA FONTE DELLA DOTAZIONE È L'AZIONE 1.4.1 «SVILUPPO DI UNA FORZA LAVORO QUALIFICATA CHE SIA IN GRADO DI COGLIERE LE OPPORTUNITÀ DERIVANTI DALLA DUPLICE TRANSIZIONE VERDE E DIGITALE ALL'INTERNO DELLE IMPRESE», PREVISTA NELL'AMBITO DELL'OBIETTIVO SPECIFICO 1.4 DEL PROGRAMMA NAZIONALE RICERCA, INNOVAZIONE E COMPETITIVITÀ PER LA TRANSIZIONE VERDE E DIGITALE 2021-2027. |\n| S4.5 | LA CONCESSIONE DELLE AGEVOLAZIONI AVVIENE SULLA BASE DI UNA PROCEDURA VALUTATIVA A GRADUATORIA. |\n| S4.6 | È AL SOSTEGNO DELLE IMPRESE OPERANTI NELLA FILIERA AUTOMOTIVE E NELLA FILIERA DELLA MODA, DEL TESSILE E DELL'ARREDAMENTO CHE VIENE DESTINATA UNA QUOTA PARI AL 40% DELLE RISORSE. |",
+    "ANS_S4_NOTES": "**Note sulle varianti e sugli errori tipici**\n\n- **S4.1–S4.2:** «Il regime consente» diventa un passivo, mentre «L'obiettivo è consentire loro» diventa «il regime si propone»; l'obiettivo non va presentato come già raggiunto e «loro» rinvia alle PMI. 中文注：第二题仍表示目标，不能写成已经实现的结果。\n- **S4.3–S4.4:** vanno conservati «50 milioni di euro» e il rapporto espresso da «a valere sull'Azione 1.4.1»; l'Azione è la fonte della dotazione, non il suo obiettivo. 中文注：第四题考查资金来源，不能改写成项目目标。\n- **S4.5–S4.6:** «sono concesse sulla base» richiede la nominalizzazione della concessione; «una quota pari al 40%» indica solo una parte delle risorse e resta il soggetto della frase scissa. 中文注：第六题不能把40%的专项份额扩大为全部资金。"
+  },
+  "key": {
+    "S4.1": "L'ACQUISIZIONE, DA PARTE DELLE PMI, DI SERVIZI FINALIZZATI ALLO SVILUPPO E ALL'ACCRESCIMENTO DELLE COMPETENZE DEL RELATIVO PERSONALE DIPENDENTE È CONSENTITA DAL REGIME, ANCHE IN UN'OTTICA DI RAFFORZAMENTO DELLE FILIERE DI APPARTENENZA. || L'ACQUISIZIONE, DA PARTE DELLE PMI, DI SERVIZI FINALIZZATI ALLO SVILUPPO E ALL'ACCRESCIMENTO DELLE COMPETENZE DEL RELATIVO PERSONALE DIPENDENTE È CONSENTITA DAL REGIME, ANCHE IN UN'OTTICA DI RAFFORZAMENTO DELLE FILIERE DI APPARTENENZA",
+    "S4.2": "IL REGIME SI PROPONE DI CONSENTIRE ALLE PMI DI AFFRONTARE LE SFIDE E COGLIERE LE OPPORTUNITÀ CONNESSE ALL'INNOVAZIONE TECNOLOGICA E ALLA TRANSIZIONE VERDE E DIGITALE. || IL REGIME SI PROPONE DI CONSENTIRE ALLE PMI DI AFFRONTARE LE SFIDE E COGLIERE LE OPPORTUNITÀ CONNESSE ALL'INNOVAZIONE TECNOLOGICA E ALLA TRANSIZIONE VERDE E DIGITALE",
+    "S4.3": "LA DOTAZIONE FINANZIARIA COMPLESSIVA DELLO STRUMENTO AMMONTA A 50 MILIONI DI EURO. || LA DOTAZIONE FINANZIARIA COMPLESSIVA DELLO STRUMENTO AMMONTA A 50 MILIONI DI EURO || LA DOTAZIONE FINANZIARIA COMPLESSIVA DELLO STRUMENTO AMMONTA A CINQUANTA MILIONI DI EURO. || LA DOTAZIONE FINANZIARIA COMPLESSIVA DELLO STRUMENTO AMMONTA A CINQUANTA MILIONI DI EURO",
+    "S4.4": "LA FONTE DELLA DOTAZIONE È L'AZIONE 1.4.1 «SVILUPPO DI UNA FORZA LAVORO QUALIFICATA CHE SIA IN GRADO DI COGLIERE LE OPPORTUNITÀ DERIVANTI DALLA DUPLICE TRANSIZIONE VERDE E DIGITALE ALL'INTERNO DELLE IMPRESE», PREVISTA NELL'AMBITO DELL'OBIETTIVO SPECIFICO 1.4 DEL PROGRAMMA NAZIONALE RICERCA, INNOVAZIONE E COMPETITIVITÀ PER LA TRANSIZIONE VERDE E DIGITALE 2021-2027. || LA FONTE DELLA DOTAZIONE È L'AZIONE 1.4.1 «SVILUPPO DI UNA FORZA LAVORO QUALIFICATA CHE SIA IN GRADO DI COGLIERE LE OPPORTUNITÀ DERIVANTI DALLA DUPLICE TRANSIZIONE VERDE E DIGITALE ALL'INTERNO DELLE IMPRESE», PREVISTA NELL'AMBITO DELL'OBIETTIVO SPECIFICO 1.4 DEL PROGRAMMA NAZIONALE RICERCA, INNOVAZIONE E COMPETITIVITÀ PER LA TRANSIZIONE VERDE E DIGITALE 2021-2027",
+    "S4.5": "LA CONCESSIONE DELLE AGEVOLAZIONI AVVIENE SULLA BASE DI UNA PROCEDURA VALUTATIVA A GRADUATORIA. || LA CONCESSIONE DELLE AGEVOLAZIONI AVVIENE SULLA BASE DI UNA PROCEDURA VALUTATIVA A GRADUATORIA",
+    "S4.6": "È AL SOSTEGNO DELLE IMPRESE OPERANTI NELLA FILIERA AUTOMOTIVE E NELLA FILIERA DELLA MODA, DEL TESSILE E DELL'ARREDAMENTO CHE VIENE DESTINATA UNA QUOTA PARI AL 40% DELLE RISORSE. || È AL SOSTEGNO DELLE IMPRESE OPERANTI NELLA FILIERA AUTOMOTIVE E NELLA FILIERA DELLA MODA, DEL TESSILE E DELL'ARREDAMENTO CHE VIENE DESTINATA UNA QUOTA PARI AL 40% DELLE RISORSE"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "regime di aiuto",
+      "categoria": "locuzione nominale",
+      "zh": "援助机制",
+      "en": "aid scheme",
+      "esempio": "Sviluppo Competenze è un regime di aiuto destinato alle PMI localizzate nelle regioni Basilicata, Calabria, Campania, Molise, Puglia, Sardegna e Sicilia."
+    },
+    {
+      "parola": "filiere di appartenenza",
+      "categoria": "locuzione nominale",
+      "zh": "所属产业链",
+      "en": "relevant supply chains",
+      "esempio": "Il regime consente alle PMI l'acquisizione, anche in un'ottica di rafforzamento delle filiere di appartenenza, di servizi finalizzati allo sviluppo e all'accrescimento delle competenze del relativo personale dipendente."
+    },
+    {
+      "parola": "dotazione finanziaria complessiva",
+      "categoria": "locuzione amministrativa",
+      "zh": "资金总额",
+      "en": "total financial allocation",
+      "esempio": "La dotazione finanziaria complessiva dello strumento è di 50 milioni di euro."
+    },
+    {
+      "parola": "a valere sull'Azione 1.4.1",
+      "categoria": "locuzione amministrativa",
+      "zh": "由第1.4.1项行动资金承担",
+      "en": "charged to Action 1.4.1",
+      "esempio": "Tale dotazione è a valere sull'Azione 1.4.1 «Sviluppo di una forza lavoro qualificata che sia in grado di cogliere le opportunità derivanti dalla duplice transizione verde e digitale all'interno delle imprese», prevista nell'ambito dell'Obiettivo Specifico 1.4 del Programma Nazionale Ricerca, Innovazione e Competitività per la transizione verde e digitale 2021-2027."
+    },
+    {
+      "parola": "procedura valutativa a graduatoria",
+      "categoria": "locuzione amministrativa",
+      "zh": "评审排名程序",
+      "en": "ranking-based evaluation procedure",
+      "esempio": "Le agevolazioni sono concesse sulla base di una procedura valutativa a graduatoria."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "A Potenza apre il Parco Rodari",
+    "T1_TEXT": "Domani sera la città di Potenza inaugura il Parco Rodari, un grande spazio verde pubblico nel quartiere di Bucaletto. Il parco nasce grazie a un programma pubblico che ha coinvolto sia la vecchia sia la nuova amministrazione comunale. È un luogo moderno, aperto a tutti e sicuro, pensato per incontrarsi e stare insieme. Il progetto vuole migliorare la vita nel quartiere.\n\nNel parco ci saranno grandi aree verdi e percorsi per camminare. I bambini potranno giocare in spazi con un pavimento speciale, che li protegge quando cadono, e usare giochi adatti a persone con diverse necessità. Ci saranno anche zone di riposo con panchine dedicate al valore della lettura. Una “Rosa dei Venti” offrirà un altro punto d'incontro. Inoltre, il Corpo Serra diventerà uno spazio per attività educative, culturali e sociali.\n\nIl sindaco di Potenza, Vincenzo Telesca, spiega che il nuovo parco è molto più di un'area verde: è un luogo dove i cittadini possono incontrarsi, crescere e vivere come comunità. Secondo il sindaco, Bucaletto continua a cambiare grazie a interventi concreti che migliorano la vita e gli spazi pubblici. Il parco è un investimento per le famiglie, i bambini e il futuro del quartiere.",
+    "L1_ITEMS": "**1. Il Parco Rodari**\n\nA) è uno spazio privato fuori dal quartiere di Bucaletto.\nB) apre domani sera nel quartiere di Bucaletto.\nC) nasce da un progetto della sola nuova amministrazione.\n\n**2. Negli spazi per i bambini**\n\nA) le panchine proteggono le persone quando cadono.\nB) i percorsi sono riservati alle attività culturali.\nC) il pavimento speciale protegge chi cade.\n\n**3. Il Corpo Serra**\n\nA) diventerà uno spazio per diverse attività.\nB) sarà una zona di riposo con panchine.\nC) offrirà soltanto percorsi per camminare.\n\n**4. Secondo il sindaco, Bucaletto cambia grazie**\n\nA) alle panchine dedicate alla lettura.\nB) a interventi concreti che migliorano la vita e gli spazi pubblici.\nC) alle attività organizzate nel Corpo Serra."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice: «Domani sera la città di Potenza inaugura il Parco Rodari» nel «quartiere di Bucaletto». 中文：注意开放时间和地点。 |\n| L1.2 | C | Il testo parla di «un pavimento speciale, che li protegge quando cadono». 中文：保护作用来自地面，不是长椅。 |\n| L1.3 | A | Il Corpo Serra «diventerà uno spazio per attività educative, culturali e sociali». 中文：这里概括了三类不同活动。 |\n| L1.4 | B | Bucaletto cambia «grazie a interventi concreti che migliorano la vita e gli spazi pubblici». 中文：原因是整体的具体建设，不只是某一设施。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "quartiere",
+      "categoria": "nome maschile",
+      "zh": "街区，城区",
+      "en": "neighborhood",
+      "esempio": "Il progetto vuole migliorare la vita nel quartiere."
+    },
+    {
+      "parola": "percorsi",
+      "categoria": "nome maschile plurale",
+      "zh": "步道，路线",
+      "en": "paths",
+      "esempio": "Nel parco ci saranno grandi aree verdi e percorsi per camminare."
+    },
+    {
+      "parola": "pavimento speciale",
+      "categoria": "locuzione nominale",
+      "zh": "特殊地面",
+      "en": "special flooring",
+      "esempio": "un pavimento speciale, che li protegge quando cadono"
+    },
+    {
+      "parola": "panchine",
+      "categoria": "nome femminile plurale",
+      "zh": "长椅",
+      "en": "benches",
+      "esempio": "Ci saranno anche zone di riposo con panchine dedicate al valore della lettura."
+    },
+    {
+      "parola": "comunità",
+      "categoria": "nome femminile invariabile",
+      "zh": "社区，共同体",
+      "en": "community",
+      "esempio": "i cittadini possono incontrarsi, crescere e vivere come comunità"
+    }
+  ]
+}
