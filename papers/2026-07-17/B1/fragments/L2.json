@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "BANDO PER CURATORE 2027",
+    "T2_TEXT": "Per partecipare alla selezione, le persone interessate devono possedere tutti i requisiti alla data di scadenza dell’avviso. La mancanza anche di un solo requisito comporta l’esclusione dalla procedura e la perdita dell’incarico.\n\nIl candidato deve avere una laurea del vecchio ordinamento, una laurea specialistica o magistrale in discipline umanistiche, oppure un diploma di un’Accademia di Belle Arti. Chi ha conseguito il titolo di studio all’estero deve presentare il riconoscimento di equipollenza. È richiesta anche un’esperienza professionale documentata di almeno tre anni nella formazione, nella didattica o nell’organizzazione di eventi per promuovere l’arte contemporanea e gli artisti emergenti.\n\nInoltre, il candidato deve avere la partita Iva e godere dei diritti civili e politici. Non deve aver ricevuto condanne penali né essere sottoposto a procedimenti penali. Non può avere contenziosi che creino un conflitto di interesse con il Comune di Venezia, né trovarsi in altre situazioni di incompatibilità previste dalle norme.\n\nPer partecipare bisogna preparare alcuni documenti in formato pdf. Il Modulo A allegato al bando deve essere compilato e firmato. Occorre aggiungere la fotocopia di un documento di identità valido, una lettera motivazionale con una proposta di percorso formativo e il curriculum vitae con data e firma. Nel curriculum bisogna evidenziare i titoli di studio e chiarire la tipologia e la classe.\n\nNella lettera motivazionale, il candidato deve spiegare perché è interessato alla residenza e quale contributo specifico pensa di offrire agli artisti e al programma formativo. La lettera può contenere al massimo 2000 caratteri, contando anche gli spazi.\n\nLa domanda deve arrivare entro le ore 12.00 dell’11 settembre 2026. Si può inviare per posta elettronica a bevilacqualamasa@comune.venezia.it oppure tramite PEC a cultura@pec.comune.venezia.it. Nell’oggetto della mail bisogna scrivere “Domanda di partecipazione al bando di curatore 2026”. Una domanda inviata dopo la scadenza viene esclusa.",
+    "L2_ITEMS": "1. I requisiti devono essere posseduti alla data di scadenza dell’avviso.  \n   Vero ○ Falso ○\n\n2. Per partecipare è obbligatorio avere una laurea in discipline scientifiche.  \n   Vero ○ Falso ○\n\n3. Un titolo di studio ottenuto all’estero richiede il riconoscimento di equipollenza.  \n   Vero ○ Falso ○\n\n4. Sono richiesti almeno cinque anni di esperienza professionale documentata.  \n   Vero ○ Falso ○\n\n5. L’esperienza può riguardare l’organizzazione di eventi dedicati all’arte contemporanea.  \n   Vero ○ Falso ○\n\n6. Il candidato può partecipare senza avere la partita Iva.  \n   Vero ○ Falso ○\n\n7. Chi è sottoposto a un procedimento penale non possiede uno dei requisiti.  \n   Vero ○ Falso ○\n\n8. La mancanza di un requisito comporta soltanto una richiesta di integrazione.  \n   Vero ○ Falso ○\n\n9. Tutti i documenti richiesti devono essere preparati in formato pdf.  \n   Vero ○ Falso ○\n\n10. Il Modulo A deve essere compilato, ma non firmato.  \n   Vero ○ Falso ○\n\n11. Il curriculum deve indicare con chiarezza la tipologia e la classe dei titoli.  \n   Vero ○ Falso ○\n\n12. La lettera motivazionale può superare i 2000 caratteri se si contano gli spazi.  \n   Vero ○ Falso ○\n\n13. La domanda può essere inviata per posta elettronica oppure tramite PEC.  \n   Vero ○ Falso ○\n\n14. La domanda deve arrivare entro la mezzanotte dell’11 settembre 2026.  \n   Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Il testo dice che i requisiti devono essere posseduti «alla data di scadenza dell’avviso». |\n| L2.2 | F | Sono ammesse lauree «in discipline umanistiche» o un diploma di un’Accademia di Belle Arti, non una laurea scientifica obbligatoria. 中文：专业领域被替换。 |\n| L2.3 | V | Chi ha studiato all’estero «deve presentare il riconoscimento di equipollenza». |\n| L2.4 | F | È richiesta un’esperienza «di almeno tre anni», non cinque. 中文：年限被替换。 |\n| L2.5 | V | L’esperienza può essere nell’«organizzazione di eventi per promuovere l’arte contemporanea». |\n| L2.6 | F | Il testo afferma che il candidato «deve avere la partita Iva». |\n| L2.7 | V | Il candidato non deve «essere sottoposto a procedimenti penali». |\n| L2.8 | F | La mancanza di un requisito «comporta l’esclusione dalla procedura», non una semplice integrazione. 中文：后果被替换。 |\n| L2.9 | V | I documenti devono essere preparati «in formato pdf». |\n| L2.10 | F | Il Modulo A deve essere «compilato e firmato». 中文：缺少签字会改变要求。 |\n| L2.11 | V | Nel curriculum bisogna «chiarire la tipologia e la classe». |\n| L2.12 | F | Il limite è di 2000 caratteri «contando anche gli spazi». |\n| L2.13 | V | La domanda si può inviare «per posta elettronica» oppure «tramite PEC». |\n| L2.14 | F | La domanda deve arrivare «entro le ore 12.00», non entro mezzanotte. 中文：截止时刻被替换。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "equipollenza",
+      "categoria": "sostantivo femminile",
+      "zh": "同等学历认证",
+      "en": "equivalence recognition",
+      "esempio": "Chi ha conseguito il titolo di studio all’estero deve presentare il riconoscimento di equipollenza."
+    },
+    {
+      "parola": "contenziosi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "争议；诉讼纠纷",
+      "en": "disputes; litigation",
+      "esempio": "Non può avere contenziosi che creino un conflitto di interesse con il Comune di Venezia, né trovarsi in altre situazioni di incompatibilità previste dalle norme."
+    },
+    {
+      "parola": "lettera motivazionale",
+      "categoria": "locuzione nominale femminile",
+      "zh": "动机信",
+      "en": "motivation letter",
+      "esempio": "Occorre aggiungere la fotocopia di un documento di identità valido, una lettera motivazionale con una proposta di percorso formativo e il curriculum vitae con data e firma."
+    },
+    {
+      "parola": "scadenza",
+      "categoria": "sostantivo femminile",
+      "zh": "截止期限",
+      "en": "deadline",
+      "esempio": "Una domanda inviata dopo la scadenza viene esclusa."
+    },
+    {
+      "parola": "percorso formativo",
+      "categoria": "locuzione nominale maschile",
+      "zh": "培训计划；学习路径",
+      "en": "training programme",
+      "esempio": "Nella lettera motivazionale, il candidato deve spiegare perché è interessato alla residenza e quale contributo specifico pensa di offrire agli artisti e al programma formativo."
+    }
+  ]
+}

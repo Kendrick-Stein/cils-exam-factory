@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "GREEN TOUR: SOSTEGNO AGLI INVESTIMENTI TURISTICI",
+    "T2_TEXT": "Il Fondo Green Tour sostiene lo sviluppo dell’offerta turistica in Italia. Il Fondo è disciplinato dal Decreto del Ministero del Turismo del 16 marzo 2026 e dal decreto direttoriale numero 96263 del 18 giugno 2026. La misura non punta soltanto ad ampliare i servizi offerti: vuole anche favorire la destagionalizzazione dei flussi, cioè una distribuzione più equilibrata dei visitatori durante l’anno, e la digitalizzazione dell’ecosistema turistico. Tra gli obiettivi rientrano inoltre il rafforzamento delle filiere turistiche, il turismo sostenibile e gli investimenti che rispettano criteri ambientali, sociali e di buona gestione, indicati con la sigla ESG. Nel loro insieme, queste finalità collegano la crescita del turismo alla capacità delle imprese di innovare e di operare in modo sostenibile. In questo modo, il sostegno collega lo sviluppo dell’offerta alla qualità ambientale e sociale dei progetti. La dotazione complessiva è di 109 milioni di euro: 59 milioni sono destinati a contributi a fondo perduto e 50 milioni a finanziamenti agevolati. Il 60% delle risorse è riservato alle piccole e medie imprese; almeno il 25% di questa quota riguarda piccole imprese e microimprese.\n\n**Chi può partecipare**\n\nLa misura è aperta alle imprese turistiche di ogni dimensione, con sede in qualsiasi parte del territorio nazionale e attive nei settori previsti. Possono partecipare anche imprese di altri settori, purché siano attive da almeno tre anni e abbiano ottenuto più del 50% del fatturato da attività turistiche. Tra i destinatari rientrano anche i proprietari delle strutture interessate dal piano di investimento. Per accedere alla misura, tuttavia, questi proprietari devono essere costituiti in forma di impresa. Possono avvalersi dei requisiti posseduti dai gestori delle strutture. Nel valutare la loro ammissione, si considerano quindi anche i requisiti dei gestori. Le imprese estere devono avere una sede in Italia al momento della domanda e possedere un codice fiscale o una partita IVA italiana.\n\n**Investimenti ammessi**\n\nIl programma deve prevedere spese comprese tra un milione e 15 milioni di euro e deve iniziare dopo la presentazione della domanda. Gli interventi principali, chiamati “trainanti”, devono riguardare soprattutto l’efficienza energetica delle strutture turistiche o la produzione di energia da fonti rinnovabili. Devono rappresentare almeno il 51% del valore degli investimenti ammessi, ma possono essere accompagnati da altri interventi, detti “trainati”.\n\nOgni impresa può presentare una sola domanda. Il piano deve essere unitario e organico, ma può comprendere uno o più progetti da realizzare in una o più strutture o unità locali. Gli investimenti devono terminare entro 18 mesi dalla concessione delle agevolazioni e comunque non oltre il 30 settembre 2028.\n\n**Presentazione della domanda**\n\nLa domanda, completa degli allegati, deve essere inviata a Invitalia tramite la piattaforma informatica indicata sul suo sito. La piattaforma accetta le richieste dalle ore 12.00 del 15 luglio 2026 alle ore 17.00 del 15 settembre 2026.",
+    "L2_ITEMS": "1. Il Fondo Green Tour dispone di 109 milioni di euro.  \n   Vero ○ Falso ○\n\n2. Dei 109 milioni, 59 finanziano prestiti agevolati e 50 contributi a fondo perduto.  \n   Vero ○ Falso ○\n\n3. Tutte le risorse sono riservate alle microimprese.  \n   Vero ○ Falso ○\n\n4. Possono partecipare imprese turistiche di ogni dimensione in tutta Italia.  \n   Vero ○ Falso ○\n\n5. Un’impresa di un altro settore deve operare da almeno tre anni e ricavare dal turismo oltre metà fatturato.  \n   Vero ○ Falso ○\n\n6. Un’impresa estera può aprire la propria sede italiana dopo aver presentato la domanda.  \n   Vero ○ Falso ○\n\n7. Le spese di un programma possono variare da uno a 15 milioni di euro.  \n   Vero ○ Falso ○\n\n8. Sono ammessi anche i programmi di investimento iniziati prima della domanda.  \n   Vero ○ Falso ○\n\n9. Gli interventi trainanti possono valere meno della metà dell’investimento.  \n   Vero ○ Falso ○\n\n10. Gli interventi trainanti non possono accompagnarsi a interventi trainati.  \n    Vero ○ Falso ○\n\n11. Un’impresa può presentare una domanda per ogni struttura coinvolta.  \n    Vero ○ Falso ○\n\n12. Un unico piano può includere più progetti e più strutture.  \n    Vero ○ Falso ○\n\n13. Gli investimenti devono finire entro 18 mesi e comunque non oltre il 30 settembre 2028.  \n    Vero ○ Falso ○\n\n14. La piattaforma chiude alle ore 17.00 del 15 settembre 2026.  \n    Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V — Vero | Il fondo ha una «dotazione complessiva [...] di 109 milioni di euro». 中文：总额一致。 |\n| L2.2 | F — Falso | Sono previsti «59 milioni [...] a contributi a fondo perduto e 50 milioni a finanziamenti agevolati». 中文：两项金额被对调。 |\n| L2.3 | F — Falso | Solo «il 60% delle risorse» è riservato alle PMI e almeno il 25% di tale quota riguarda piccole imprese e microimprese. 中文：并非全部只给微型企业。 |\n| L2.4 | V — Vero | La misura è aperta alle imprese turistiche «di ogni dimensione» e «in qualsiasi parte del territorio nazionale». 中文：规模和地区都不限。 |\n| L2.5 | V — Vero | Le imprese di altri settori devono essere «attive da almeno tre anni» e avere «più del 50% del fatturato da attività turistiche». 中文：两个条件缺一不可。 |\n| L2.6 | F — Falso | Le imprese estere devono avere una sede in Italia «al momento della domanda». 中文：不能申请后再设立。 |\n| L2.7 | V — Vero | Il programma deve prevedere spese «comprese tra un milione e 15 milioni di euro». 中文：上下限一致。 |\n| L2.8 | F — Falso | Il programma «deve iniziare dopo la presentazione della domanda». 中文：申请前启动的不符合条件。 |\n| L2.9 | F — Falso | Gli interventi trainanti devono rappresentare «almeno il 51%» degli investimenti ammessi. 中文：必须超过一半。 |\n| L2.10 | F — Falso | Gli interventi trainanti «possono essere accompagnati» da interventi trainati. 中文：允许两类措施组合。 |\n| L2.11 | F — Falso | «Ogni impresa può presentare una sola domanda», anche se il piano coinvolge più strutture. 中文：申请数量按企业计算。 |\n| L2.12 | V — Vero | Il piano «può comprendere uno o più progetti» in «una o più strutture o unità locali». 中文：单一计划可覆盖多个项目和地点。 |\n| L2.13 | V — Vero | Gli investimenti devono terminare «entro 18 mesi» e «non oltre il 30 settembre 2028». 中文：两个截止条件同时适用。 |\n| L2.14 | V — Vero | La piattaforma accetta richieste fino «alle ore 17.00 del 15 settembre 2026». 中文：截止时间一致。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "F || Falso",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "V || Vero",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "contributi a fondo perduto",
+      "categoria": "locuzione nominale",
+      "zh": "无需偿还的补助",
+      "en": "non-repayable grants",
+      "esempio": "59 milioni sono destinati a contributi a fondo perduto"
+    },
+    {
+      "parola": "finanziamenti agevolati",
+      "categoria": "locuzione nominale",
+      "zh": "优惠贷款",
+      "en": "subsidised loans",
+      "esempio": "50 milioni a finanziamenti agevolati"
+    },
+    {
+      "parola": "fatturato",
+      "categoria": "sostantivo",
+      "zh": "营业额",
+      "en": "turnover",
+      "esempio": "più del 50% del fatturato da attività turistiche"
+    },
+    {
+      "parola": "efficienza energetica",
+      "categoria": "locuzione nominale",
+      "zh": "能源效率",
+      "en": "energy efficiency",
+      "esempio": "l’efficienza energetica delle strutture turistiche"
+    },
+    {
+      "parola": "agevolazioni",
+      "categoria": "sostantivo plurale",
+      "zh": "优惠措施；资助",
+      "en": "incentives",
+      "esempio": "dalla concessione delle agevolazioni"
+    }
+  ]
+}

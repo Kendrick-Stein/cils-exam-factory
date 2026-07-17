@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "CIÀULA SCOPRE LA LUNA",
+    "T3_PART_A": "A mano a mano che zi’ Scarda caricava Ciàula, egli sentiva piegarsi le gambe. Una cominciò a tremargli così forte che, temendo di non reggere il peso, gridò: «Basta! Basta!»",
+    "T3_PART_B": "Quell'ipotesi durò poco: la chiarìa crebbe, come se fosse rispuntato il sole già visto tramontare. Appena sbucato all'aperto, Ciàula restò sbalordito e il carico gli cadde dalle spalle.",
+    "T3_PART_C": "Nonostante lo sfinimento, si mosse sotto il carico enorme, che imponeva anche uno sforzo d'equilibrio. Finché procedeva in piano poteva avanzare; ma si domandava come avrebbe sollevato quel peso all'inizio della salita.",
+    "T3_PART_D": "Ma proprio quel sapere senza importanza si trasformò solo allora in una vera scoperta: sbucato di notte dal ventre della terra, Ciàula scopriva davvero la Luna, che fino a quel momento aveva trascurato.",
+    "T3_PART_E": "Di quella buca si accorse solo agli ultimi scalini: lassù si apriva come un occhio chiaro, pieno di una deliziosa chiarità d'argento. Dapprima credette che fossero gli estremi barlumi del giorno.",
+    "T3_PART_F": "A quel grido zi’ Scarda rispose chiamandolo «carogna». Per un momento la paura del buio notturno cedette alla costernazione: così caricato e stanco, Ciàula temeva di non poter salire fin lassù.",
+    "T3_PART_G": "Di quella Luna appena apparsa davanti a lui, Ciàula sapeva già che cosa fosse; ma la conosceva come tante cose a cui non si dà importanza. Che poteva importargli che essa fosse in cielo?",
+    "T3_PART_H": "Prima di raggiungere quella salita, nelle gallerie non gli era uscito il consueto verso della cornacchia, bensì un gemito raschiato e protratto. Quel suono lo aveva accompagnato verso la scala.",
+    "T3_PART_I": "In quella posizione, quasi con la fronte sullo scalino superiore, la lumierina vacillante rifletteva un fioco lume sanguigno. Dal ventre della montagna egli saliva, pauroso della liberazione prossima, senza ancora scorgere la buca.",
+    "T3_PART_J": "Infine Ciàula si mise a piangere senza saperlo né volerlo, per il conforto e la dolcezza dell'averla scoperta. Mentre la Luna saliva, egli non aveva più paura né si sentiva più stanco.",
+    "T3_PART_K": "Subito dopo quella vera scoperta, estatico, cadde a sedere sul suo carico davanti alla buca. La guardava pieno di stupore: «Eccola, eccola là, la Luna! C'era la Luna!»",
+    "T3_PART_L": "Sulla scala, allora, anche quel gemito gli venne meno, arrestato dallo sgomento del silenzio nero che lo attendeva nell'impalpabile vacuità di fuori. Intanto continuava a salire, curvo sotto il carico.",
+    "T3_PART_M": "Quella costernazione nasceva dalla fatica: aveva lavorato senza pietà tutto il giorno. Non aveva mai pensato che il suo corpo meritasse pietà, né ci pensava ora; sentiva di non poterne più.",
+    "T3_PART_N": "All'ultima svoltata, la scala era tanto erta che Ciàula, con la testa protesa e schiacciata sotto il peso, non riusciva a vedere la buca aperta in alto, per quanto spingesse lo sguardo.",
+    "T3_PART_O": "Caduto il carico, sollevò un poco le braccia e aprì le mani nere nella chiarità d'argento. Davanti a lui stava la Luna, grande e placida come un fresco, luminoso oceano di silenzio.",
+    "T3_PART_P": "Quando poi la salita cominciò, Ciàula fu ripreso dalla paura del buio della notte, al quale fra poco si sarebbe affacciato. Quel terrore finì per sovrastare perfino la stanchezza e il peso."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | F | «A quel grido» riprende il «gridò» conclusivo di A. 中文：声音动作直接承接。 |\n| 3 | M | «Quella costernazione» ripete il sentimento nominato soltanto in F e ne spiega la causa. 中文：指示语与因果关系锁定。 |\n| 4 | C | «Nonostante lo sfinimento» riprende la fatica e il «non poterne più» di M. 中文：让步关系唯一。 |\n| 5 | H | «Prima di raggiungere quella salita» richiama la salita ancora da affrontare in C e introduce il passaggio precedente nelle gallerie. 中文：明确回溯到上坡前。 |\n| 6 | P | «Quando poi la salita cominciò» chiude l'attesa aperta da H e riprende la paura notturna già annunciata. 中文：时间推进与恐惧复现。 |\n| 7 | L | «Sulla scala, allora, anche quel gemito» riprende insieme la salita di P e il gemito di H. 中文：地点和声音双重衔接。 |\n| 8 | N | «All'ultima svoltata» prosegue l'ascesa sulla scala descritta in L e introduce la buca non visibile. 中文：空间推进唯一。 |\n| 9 | I | parte data |\n| 10 | E | «Di quella buca» riprende la buca non ancora scorta in I; «solo agli ultimi scalini» completa la salita. 中文：指示语与位置共同锁定。 |\n| 11 | B | «Quell'ipotesi» rinvia esclusivamente ai barlumi del giorno immaginati in E. 中文：假设回指唯一。 |\n| 12 | O | «Caduto il carico» riprende il carico caduto dalle spalle alla fine di B. 中文：完成状态承接前项动作。 |\n| 13 | G | «Di quella Luna appena apparsa davanti a lui» riprende la Luna che in O «stava davanti a lui»; «già» apre il contrasto tra vedere e sapere. 中文：逐字回指 O 的月亮初现，并开启“知道但未发现”的认知链。 |\n| 14 | D | «Ma proprio quel sapere senza importanza» riprende esclusivamente il sapere trascurato di G; «vera scoperta» ne formula il mutamento. 中文：开头精确回扣 G 的“无关紧要的认知”，不能提前。 |\n| 15 | K | «Subito dopo quella vera scoperta» riprende l'espressione introdotta solo in D e ne mostra l'effetto estatico. 中文：时间标记和原词回指把 K 锁定在 D 之后。 |\n| 16 | J | «Infine» chiude il racconto; il pianto di conforto segue l'estasi di K e risolve paura e stanchezza. 中文：情绪结果与结尾标记。 |",
+    "ANS_L3_SEQUENCE": "A-F-M-C-H-P-L-N-I-E-B-O-G-D-K-J"
+  },
+  "key": {
+    "L3": "A-F-M-C-H-P-L-N-I-E-B-O-G-D-K-J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sfinimento",
+      "categoria": "sostantivo",
+      "zh": "精疲力竭",
+      "en": "exhaustion",
+      "esempio": "Nonostante lo sfinimento"
+    },
+    {
+      "parola": "costernazione",
+      "categoria": "sostantivo",
+      "zh": "惊惶；沮丧",
+      "en": "dismay",
+      "esempio": "Quella costernazione nasceva dalla fatica"
+    },
+    {
+      "parola": "impalpabile",
+      "categoria": "aggettivo",
+      "zh": "难以触摸的；无形的",
+      "en": "intangible",
+      "esempio": "nell'impalpabile vacuità di fuori"
+    },
+    {
+      "parola": "chiarità d'argento",
+      "categoria": "locuzione nominale",
+      "zh": "银色的光辉",
+      "en": "silvery brightness",
+      "esempio": "una deliziosa chiarità d'argento"
+    },
+    {
+      "parola": "estatico",
+      "categoria": "aggettivo",
+      "zh": "出神的；欣喜若狂的",
+      "en": "ecstatic",
+      "esempio": "A quella scoperta, estatico"
+    }
+  ]
+}

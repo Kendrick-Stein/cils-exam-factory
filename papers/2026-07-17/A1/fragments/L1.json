@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "PARCO TRAPEZIO SANTA GIULIA",
+    "T1_TEXT": "Il Parco Trapezio Santa Giulia è nel Municipio 4. L'ingresso è in via del Futurismo. Da gennaio a marzo apre dalle 6:30 alle 22:00; da aprile a ottobre chiude alle 23:00. A novembre e dicembre chiude alle 22:00. La superficie è di 42.825 metri quadrati e il parco è del 2013. Il parco ha sette aree gioco. Si può passeggiare, correre, andare in bicicletta e riposare. C'è anche un'area per pattini e bicicletta. È un giardino di quartiere con alberi ancora giovani. Qui i bambini possono giocare e le persone possono sedersi sulle panchine per la sosta e il relax. Nel giardino si possono vedere ciliegi selvatici, meli, rose e vite americana.",
+    "L1_ITEMS": "1. **L'ingresso del parco è...**\n   A) in via del Futurismo.\n   B) nel Municipio 4.\n   C) nelle sette aree gioco.\n\n2. **Da aprile a ottobre il parco chiude...**\n   A) alle 22:00.\n   B) alle 23:00.\n   C) alle 6:30.\n\n3. **Nel parco ci sono...**\n   A) quattro aree gioco.\n   B) sette aree gioco.\n   C) ventitré aree gioco.\n\n4. **Gli alberi sono...**\n   A) ancora giovani.\n   B) molto antichi.\n   C) tutti alti."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice «L'ingresso è in via del Futurismo»; 注意：Municipio 4 是公园所在区域，不是入口地址。 |\n| L1.2 | B | Il testo dice «da aprile a ottobre chiude alle 23:00»; 注意：22:00 是其他月份的关门时间，6:30 是开门时间。 |\n| L1.3 | B | Il testo dice «Il parco ha sette aree gioco»; 注意：4 指的是市政区编号，23 来自时间 23:00。 |\n| L1.4 | A | Il testo descrive «alberi ancora giovani»; 注意：文中没有说树木古老或全部很高。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "B",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ingresso",
+      "categoria": "nome maschile",
+      "zh": "入口",
+      "en": "entrance",
+      "esempio": "L'ingresso è in via del Futurismo."
+    },
+    {
+      "parola": "chiude",
+      "categoria": "verbo",
+      "zh": "关闭；关门",
+      "en": "closes",
+      "esempio": "A novembre e dicembre chiude alle 22:00."
+    },
+    {
+      "parola": "aree gioco",
+      "categoria": "nome plurale",
+      "zh": "游乐区",
+      "en": "play areas",
+      "esempio": "Il parco ha sette aree gioco."
+    },
+    {
+      "parola": "andare in bicicletta",
+      "categoria": "espressione verbale",
+      "zh": "骑自行车",
+      "en": "to ride a bicycle",
+      "esempio": "Si può passeggiare, correre, andare in bicicletta e riposare."
+    },
+    {
+      "parola": "giardino di quartiere",
+      "categoria": "espressione nominale",
+      "zh": "社区花园",
+      "en": "neighborhood garden",
+      "esempio": "È un giardino di quartiere con alberi ancora giovani."
+    }
+  ]
+}

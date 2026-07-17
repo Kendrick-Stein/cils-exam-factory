@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. La biblioteca comunale informa che oggi la sala studio del secondo piano chiude dalle 16 alle 18 per lavori all’impianto elettrico. Le altre sale restano aperte. Vi chiediamo di lasciare la sala entro le 15.45.**\n\nA. È un annuncio che presenta una nuova sala della biblioteca.\nB. È un avviso che comunica una chiusura temporanea e chiede agli utenti di uscire.\nC. È un messaggio che invita gli utenti a prenotare un posto in biblioteca.\nD. È una comunicazione che annuncia un prolungamento dell’orario di apertura.\n\n**2. Ciao Luca, sono sul treno per Firenze, ma abbiamo venti minuti di ritardo. Non aspettarmi davanti al cinema: entra pure e lascia il mio biglietto in cassa. Ti raggiungo appena arrivo.**\n\nA. È un messaggio che propone di cambiare cinema prima dell’inizio del film.\nB. È un messaggio che chiede a Luca di comprare un altro biglietto.\nC. È un messaggio che annulla l’appuntamento perché il treno non parte.\nD. È un messaggio che avvisa di un ritardo e suggerisce all’amico di entrare.\n\n**3. Gentili condomini, domani l’acqua sarà sospesa dalle 9 alle 11 per riparare una perdita al piano terra. Prima dell’intervento ricordatevi di chiudere i rubinetti e di non usare la lavatrice.**\n\nA. È un avviso che informa di un’interruzione dell’acqua e indica alcune precauzioni.\nB. È una richiesta di segnalare una perdita presente dentro gli appartamenti.\nC. È un invito a controllare il lavoro svolto dagli operai al piano terra.\nD. È una comunicazione che vieta definitivamente l’uso delle lavatrici nel palazzo.\n\n**4. Buongiorno, siamo dello studio dentistico Bianchi. La visita di martedì alle 15 non è possibile perché la dottoressa sarà a un congresso. Possiamo spostarla a mercoledì alle 10.30 oppure a venerdì alle 16. Ci richiami entro oggi.**\n\nA. È un promemoria che conferma la visita già fissata per martedì.\nB. È un invito a partecipare a un congresso insieme alla dottoressa.\nC. È una richiesta di scegliere e confermare un nuovo orario per la visita.\nD. È una comunicazione che annuncia la chiusura definitiva dello studio dentistico.\n\n**5. Per inventario, il reparto calzature sarà accessibile soltanto dalle 14. Nel frattempo potete provare e acquistare i modelli esposti al piano terra. Ci scusiamo per il disagio e vi ringraziamo per la collaborazione.**\n\nA. È un avviso che informa che il negozio resterà chiuso per tutta la giornata.\nB. È un avviso che limita temporaneamente l’accesso a un reparto e indica un’alternativa.\nC. È un annuncio che offre uno sconto sui modelli esposti al piano terra.\nD. È una richiesta ai clienti di aiutare il personale durante l’inventario.\n\n**6. Marta, ho letto la bozza della relazione: i dati sono chiari, ma manca la tabella delle spese di giugno. Puoi aggiungerla e rimandarmi il file entro mezzogiorno? Così consegniamo tutto al direttore oggi.**\n\nA. È una richiesta di completare un documento e restituirlo entro una scadenza.\nB. È un giudizio negativo che propone di riscrivere tutti i dati della relazione.\nC. È un messaggio che rinvia al mese successivo la consegna al direttore.\nD. È un invito a presentare la relazione oralmente durante una riunione.\n\n**7. A causa della corsa cittadina di domenica, l’autobus numero 5 non passerà per piazza Verdi dalle 8 alle 13. Le fermate saranno spostate in via Roma: per raggiungerle, seguite i cartelli gialli.**\n\nA. È una pubblicità che invita i passeggeri a partecipare a una corsa cittadina.\nB. È un annuncio che comunica la cancellazione completa dell’autobus numero 5.\nC. È un avviso che modifica temporaneamente il percorso e indica le fermate alternative.\nD. È una richiesta di usare l’autobus per raggiungere piazza Verdi prima delle 8.\n\n**8. La informiamo che il tavolo per sei persone di sabato alle 20.30 è confermato. Se il numero degli ospiti cambia, ci avvisi entro venerdì; dopo tale termine potrebbe non essere possibile modificare la disposizione dei posti.**\n\nA. È una richiesta di pagare in anticipo la cena per sei persone.\nB. È un avviso che sposta la prenotazione da sabato a venerdì sera.\nC. È un invito a scegliere subito i posti esatti di tutti gli ospiti.\nD. È una conferma della prenotazione con un termine per comunicare eventuali cambiamenti.\n\n**9. Lo spogliatoio femminile della palestra è fuori servizio fino alle 17 per una pulizia straordinaria. Utilizzate quello vicino alla piscina, mostrando la tessera al personale. Le docce della palestra restano disponibili.**\n\nA. È un avviso che segnala un servizio temporaneamente chiuso e propone uno spazio sostitutivo.\nB. È una comunicazione che informa della chiusura completa della palestra fino alle 17.\nC. È un invito a iscriversi ai corsi di nuoto mostrando la propria tessera.\nD. È un divieto di usare tutte le docce durante la pulizia degli spogliatoi.\n\n**10. La farmacia Centrale avvisa che il farmaco ordinato è arrivato e sarà tenuto da parte fino a lunedì sera. Per il ritiro porti la tessera sanitaria e la ricevuta. Dopo lunedì il prodotto tornerà disponibile per altri clienti.**\n\nA. È un messaggio che informa che il farmaco non può più essere ordinato.\nB. È un avviso che invita a ritirare un prodotto entro un termine con i documenti richiesti.\nC. È una richiesta di consegnare la tessera sanitaria a un altro cliente.\nD. È una comunicazione che propone di sostituire il farmaco con un altro prodotto."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «chiude dalle 16 alle 18» e «lasciare la sala»: chiusura temporanea con richiesta di uscire. 中文：不是整座图书馆闭馆。 |\n| S4.2 | D | «venti minuti di ritardo» e «entra pure»: avvisa del ritardo e dà un’indicazione all’amico. 中文：约会没有取消。 |\n| S4.3 | A | «l’acqua sarà sospesa» e «chiudere i rubinetti»: interruzione con precauzioni. 中文：禁用洗衣机仅限维修时段。 |\n| S4.4 | C | «Possiamo spostarla» e «Ci richiami entro oggi»: bisogna scegliere e confermare un nuovo orario. 中文：原定周二的预约无法进行。 |\n| S4.5 | B | «accessibile soltanto dalle 14» e «modelli esposti al piano terra»: limite temporaneo con alternativa. 中文：商店并非全天关闭。 |\n| S4.6 | A | «manca la tabella» e «entro mezzogiorno»: chiede di completare e restituire il file entro una scadenza. 中文：不是要求重写整份报告。 |\n| S4.7 | C | «non passerà per piazza Verdi» e «fermate saranno spostate»: deviazione temporanea con fermate alternative. 中文：5路公交没有完全取消。 |\n| S4.8 | D | «è confermato» e «ci avvisi entro venerdì»: conferma con termine per eventuali modifiche. 中文：周五是更改人数的截止时间。 |\n| S4.9 | A | «fuori servizio fino alle 17» e «Utilizzate quello vicino alla piscina»: chiusura temporanea con spazio sostitutivo. 中文：健身房和淋浴仍开放。 |\n| S4.10 | B | «tenuto da parte fino a lunedì sera» e «porti la tessera sanitaria e la ricevuta»: ritiro entro un termine con documenti. 中文：药品已经到货。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "D",
+    "S4.3": "A",
+    "S4.4": "C",
+    "S4.5": "B",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "D",
+    "S4.9": "A",
+    "S4.10": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "impianto elettrico",
+      "categoria": "locuzione nominale",
+      "zh": "电气系统",
+      "en": "electrical system",
+      "esempio": "per lavori all’impianto elettrico"
+    },
+    {
+      "parola": "rubinetti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "水龙头",
+      "en": "taps",
+      "esempio": "ricordatevi di chiudere i rubinetti"
+    },
+    {
+      "parola": "inventario",
+      "categoria": "sostantivo maschile",
+      "zh": "盘点",
+      "en": "inventory",
+      "esempio": "Per inventario, il reparto calzature sarà accessibile soltanto dalle 14."
+    },
+    {
+      "parola": "bozza",
+      "categoria": "sostantivo femminile",
+      "zh": "草稿",
+      "en": "draft",
+      "esempio": "ho letto la bozza della relazione"
+    },
+    {
+      "parola": "fuori servizio",
+      "categoria": "locuzione aggettivale",
+      "zh": "暂停使用",
+      "en": "out of service",
+      "esempio": "Lo spogliatoio femminile della palestra è fuori servizio fino alle 17"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un'attività organizzata nel tuo quartiere o nella tua città alla quale hai partecipato o ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa fai e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Nel tuo quartiere è organizzato un laboratorio gratuito per riparare piccoli oggetti. Vuoi partecipare con un amico. Scrivigli un'email per organizzarti.",
+    "W2_REQ_1": "invitarlo e spiegare perché vuoi partecipare;",
+    "W2_REQ_2": "proporre un orario e un luogo d'incontro;",
+    "W2_REQ_3": "chiedere se ha un oggetto da portare al laboratorio.",
+    "MODEL_W1": "Sabato scorso ho partecipato a una giornata di scambio di libri organizzata nella biblioteca del mio quartiere. Sono andata con mia sorella e abbiamo portato alcuni romanzi che non leggevamo più. All'inizio temevo che ci fossero poche persone, invece la sala era piena di famiglie, studenti e anziani. Io ho aiutato i volontari a sistemare i libri sui tavoli e a preparare una piccola bancarella per i bambini. Nel pomeriggio ho trovato un giallo interessante e ho conosciuto una ragazza con i miei stessi gusti. Ci siamo date appuntamento per parlare del libro dopo averlo letto. È stata un'esperienza importante perché ho dato una mano, ho incontrato nuove persone e ho riscoperto il piacere di leggere insieme.",
+    "MODEL_W1_PHRASES": "«Sabato scorso ho partecipato a…»（上周六我参加了……）; «All'inizio temevo che…»（起初我担心……）; «Nel pomeriggio…»（下午……）; «È stata un'esperienza importante perché…»（这是一次重要的经历，因为……）; «Ho dato una mano»（我帮了忙）",
+    "MODEL_W2": "Ciao Marco,\n\nsabato pomeriggio nel centro del quartiere c'è un laboratorio gratuito per imparare a riparare piccoli oggetti. Ti va di venire con me? Vorrei partecipare perché ho una lampada che non funziona e penso che sia un'attività utile. Possiamo incontrarci alle 14.30 davanti alla biblioteca e andare insieme. Tu hai qualcosa da riparare? Se sì, portalo con te!\n\nA presto,\nGiulia",
+    "MODEL_W2_PHRASES": "«Ti va di venire con me?»（你想和我一起来吗？）; «Vorrei partecipare perché…»（我想参加，因为……）; «Possiamo incontrarci alle…»（我们可以在……见面）; «Hai qualcosa da…?»（你有……的东西吗？）; «A presto»（回头见）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "scambio di libri",
+      "categoria": "locuzione nominale",
+      "zh": "图书交换",
+      "en": "book exchange",
+      "esempio": "Sabato scorso ho partecipato a una giornata di scambio di libri organizzata nella biblioteca del mio quartiere."
+    },
+    {
+      "parola": "bancarella",
+      "categoria": "nome femminile",
+      "zh": "小摊位",
+      "en": "stall",
+      "esempio": "Io ho aiutato i volontari a sistemare i libri sui tavoli e a preparare una piccola bancarella per i bambini."
+    },
+    {
+      "parola": "dato una mano",
+      "categoria": "locuzione verbale",
+      "zh": "帮忙",
+      "en": "to lend a hand",
+      "esempio": "È stata un'esperienza importante perché ho dato una mano, ho incontrato nuove persone e ho riscoperto il piacere di leggere insieme."
+    },
+    {
+      "parola": "riparare",
+      "categoria": "verbo",
+      "zh": "修理",
+      "en": "to repair",
+      "esempio": "sabato pomeriggio nel centro del quartiere c'è un laboratorio gratuito per imparare a riparare piccoli oggetti."
+    },
+    {
+      "parola": "andare insieme",
+      "categoria": "locuzione verbale",
+      "zh": "一起去",
+      "en": "to go together",
+      "esempio": "Possiamo incontrarci alle 14.30 davanti alla biblioteca e andare insieme."
+    }
+  ]
+}

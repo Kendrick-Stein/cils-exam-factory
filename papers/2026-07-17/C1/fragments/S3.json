@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "ISOLE DI CALORE URBANE, FINO A 4°C IN MENO CON RIFORESTAZIONE E DEPAVIMENTAZIONI",
+    "S3_TEXT_WITH_GAPS": "Ridurre le temperature delle città fino a 4 gradi è __possibile (0)__. Lo __(1)__ le simulazioni del progetto Mirificus nelle aree di Roma e Firenze, dove l’__(2)__ di pavimentazioni che non trattengono calore, la __(3)__ di nuovi spazi verdi e la piantumazione di nuovi alberi __(4)__ un calo __(5)__ delle temperature nelle ore più calde della giornata.\n\nSu base giornaliera, la riduzione si mantiene stabile intorno ai 2–2,2 °C, mostrando che l’effetto non è momentaneo ma __(6)__.\n\nSono questi i principali __(7)__ del progetto Mirificus, Monitoraggio degli interventi di riforestazione per l’isola di calore urbana tramite i satelliti, che vede __(8)__ l’Istituto superiore per la protezione e la ricerca ambientale e l’Istituto per la bioeconomia del Consiglio nazionale delle ricerche di Sesto Fiorentino in __(9)__ di coordinatore, con il __(10)__ dell’Agenzia spaziale italiana.\n\nIl progetto mostra che __(11)__ le isole di calore non sia solo una necessità ambientale, ma un’__(12)__ concreta per rendere le città più fresche e più vivibili attraverso soluzioni __(13)__: più alberi, più suoli naturali, superfici che non si __(14)__ e una pianificazione urbana che __(15)__ conto dei dati.",
+    "S3_OPT0_A": "possibile",
+    "S3_OPT0_B": "improbabile",
+    "S3_OPT0_C": "inattuabile",
+    "S3_OPT0_D": "escluso",
+    "S3_OPTION_ROWS": "| 1. | dimostrano | smentiscono | trascurano | precedono |\n| 2. | erosione | rimozione | introduzione | dispersione |\n| 3. | demolizione | realizzazione | riduzione | occupazione |\n| 4. | precedono | escludono | limitano | producono |\n| 5. | presunto | netto | casuale | marginale |\n| 6. | continuo | crescente | trascurabile | irregolare |\n| 7. | strumenti | intenti | presupposti | risultati |\n| 8. | esclusi | coinvolti | separati | contrapposti |\n| 9. | assenza | attesa | qualità | vece |\n| 10. | sostegno | veto | silenzio | ritardo |\n| 11. | ignorare | alimentare | assecondare | contrastare |\n| 12. | emergenza | opportunità | rinuncia | incognita |\n| 13. | costose | provvisorie | semplici | invasive |\n| 14. | deteriorano | deformano | sporcano | scaldano |\n| 15. | tenga | perda | chieda | renda |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «Lo dimostrano le simulazioni»: i risultati quantitativi presentati subito dopo costituiscono la prova. 中文：后文给出模拟结果，因此是“证明”。 |\n| S3.2 | C | L’«introduzione di pavimentazioni» è elencata insieme alla realizzazione di spazi verdi e alla piantumazione. 中文：这里列举的是新增的降温措施。 |\n| S3.3 | B | La «realizzazione di nuovi spazi verdi» indica la creazione concreta di aree verdi. 中文：搭配指“建设新的绿地”。 |\n| S3.4 | D | I tre interventi «producono un calo» delle temperature, come confermano i valori del paragrafo seguente. 中文：三项措施带来降温结果。 |\n| S3.5 | B | Il calo è «netto» perché arriva fino a 4 gradi nelle ore più calde. 中文：最高 4°C 支撑“明显的下降”。 |\n| S3.6 | A | «Non è momentaneo ma continuo» è confermato dalla riduzione stabile su base giornaliera; «crescente» e «irregolare» contraddicono la stabilità, mentre «trascurabile» contrasta con il calo misurato. 中文：每日稳定且降温幅度明确，只能选“持续的”。 |\n| S3.7 | D | I dati appena esposti sono i principali «risultati» del progetto, non i suoi intenti o strumenti. 中文：前文报告的是项目结果。 |\n| S3.8 | B | Il progetto «vede coinvolti» i due istituti, che partecipano alle attività descritte. 中文：固定表达表示机构参与项目。 |\n| S3.9 | C | «In qualità di coordinatore» è la locuzione che specifica il ruolo assunto dall’Istituto. 中文：固定搭配 in qualità di 表示“以……身份”。 |\n| S3.10 | A | «Con il sostegno dell’Agenzia» attribuisce all’ente una funzione di supporto, distinta dal coordinamento. 中文：前面已说明协调者，此处是支持机构。 |\n| S3.11 | D | «Contrastare le isole di calore» è coerente con l’obiettivo di ridurre le temperature urbane. 中文：全文目标是对抗城市热岛。 |\n| S3.12 | B | La struttura «non solo una necessità, ma un’opportunità concreta» presenta il secondo termine come vantaggio. 中文：non solo...ma 构成“必要性—机遇”的递进。 |\n| S3.13 | C | Le soluzioni sono «semplici», come chiarisce l’elenco di alberi, suoli naturali e superfici che non si scaldano. 中文：冒号后的常规措施解释“简单”。 |\n| S3.14 | D | Le superfici che «non si scaldano» contribuiscono direttamente a ridurre il calore urbano. 中文：全文语境是避免城市表面升温。 |\n| S3.15 | A | La collocazione corretta è «tenere conto dei dati», cioè considerarli nella pianificazione. 中文：固定搭配 tenere conto di。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "D",
+    "S3.8": "B",
+    "S3.9": "C",
+    "S3.10": "A",
+    "S3.11": "D",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "D",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "isole di calore",
+      "categoria": "locuzione nominale",
+      "zh": "城市热岛",
+      "en": "urban heat islands",
+      "esempio": "le isole di calore"
+    },
+    {
+      "parola": "piantumazione",
+      "categoria": "nome femminile",
+      "zh": "栽植",
+      "en": "tree planting",
+      "esempio": "la piantumazione di nuovi alberi"
+    },
+    {
+      "parola": "Su base giornaliera",
+      "categoria": "locuzione avverbiale",
+      "zh": "按日计算",
+      "en": "on a daily basis",
+      "esempio": "Su base giornaliera"
+    },
+    {
+      "parola": "riforestazione",
+      "categoria": "nome femminile",
+      "zh": "重新造林",
+      "en": "reforestation",
+      "esempio": "interventi di riforestazione"
+    },
+    {
+      "parola": "bioeconomia",
+      "categoria": "nome femminile",
+      "zh": "生物经济",
+      "en": "bioeconomy",
+      "esempio": "l’Istituto per la bioeconomia"
+    }
+  ]
+}

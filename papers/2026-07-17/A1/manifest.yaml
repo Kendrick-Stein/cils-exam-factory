@@ -1,0 +1,140 @@
+exam: cils
+level: A1
+session: '2026-07-17'
+title: CILS A1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-trapezio-santa-giulia
+  title: Parco Trapezio Santa Giulia
+  publisher: Comune di Milano
+  published: 31 ottobre 2025 (ultimo aggiornamento visibile)
+  accessed: 18 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 117
+- id: T2
+  url: https://www2.comune.milano.it/web/museo-archeologico-milano/-/campus-2026-un-estate...mitica?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_viewSingleAsset=true&redirect=%2Fweb%2Fmuseo-archeologico-milano%2Fmostre_eventi%2Fdettaglio-evento%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_cur%3D1%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_delta%3D20%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_assetEntryId%3D343916709
+  title: Campus 2026 | un’estate... mitica!
+  publisher: Civico Museo Archeologico di Milano / Comune di Milano
+  published: non indicata
+  accessed: 18 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 120
+- id: T3a
+  url: https://eventi.comune.torino.it/estate-2026/
+  title: AMMIRA SENIOR – Tai Chi nel parco
+  publisher: Eventi a Torino / Città di Torino
+  published: 25 giugno 2026 (pagina aggiornata)
+  accessed: 18 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 5
+- id: T3b
+  url: https://eventi.comune.torino.it/estate-2026/
+  title: Yoga al tramonto
+  publisher: Eventi a Torino / Città di Torino
+  published: 25 giugno 2026 (pagina aggiornata)
+  accessed: 18 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 10
+- id: T3c
+  url: https://eventi.comune.torino.it/estate-2026/
+  title: Swap Party
+  publisher: Eventi a Torino / Città di Torino
+  published: 25 giugno 2026 (pagina aggiornata)
+  accessed: 18 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 7
+- id: T3d
+  url: https://eventi.comune.torino.it/estate-2026/
+  title: Michael
+  publisher: Eventi a Torino / Città di Torino
+  published: 25 giugno 2026 (pagina aggiornata)
+  accessed: 18 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 5
+- id: T4
+  url: https://www.visittrentino.info/it/dove-dormire/cerca-prenota/AGRITUR-CIASTEL-agriturismo-Sanzeno_ad-37239732
+  title: Agritur Ciastel
+  publisher: Visit Trentino / Trentino Marketing
+  published: non indicata
+  accessed: 18 luglio 2026
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 64
+- id: T5
+  url: https://www.viaggiapiccoli.com/chinatown-milano-con-i-bambini/
+  title: Una giornata nella Chinatown di Milano con i bambini
+  publisher: Viaggiapiccoli
+  published: 10 ottobre 2025
+  accessed: 18 luglio 2026
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 68
+- id: T6
+  url: https://www.comune.torino.it/servizi/servizio-aiuto-anziani
+  title: Servizio aiuto anziani
+  publisher: Città di Torino
+  published: 17 giugno 2026 (ultima modifica visibile)
+  accessed: 18 luglio 2026
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 62
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-17'
+    executor: codex background task (corpus-hunter)
+    result: 9 source entries, all slots covered
+  - stage: authoring
+    at: '2026-07-17'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-17T16:35:20+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: fail
+    issues: 2
+  - stage: blind_validation
+    at: '2026-07-17T16:53:35+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

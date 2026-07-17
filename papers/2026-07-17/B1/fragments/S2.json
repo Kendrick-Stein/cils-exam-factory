@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "L'ATTRICE LAZZARINI: IL TEATRO È CASA MIA",
+    "S2_TEXT_WITH_GAPS": "**Com'è festeggiare 92 anni in scena?**\n\nOggi *(essere)* __è (0)__ bellissimo. Oggi io *(essere)* __(1)__ a disposizione del pubblico.\n\n**Com'era Milano dopo la guerra?**\n\nDurante la guerra io *(essere)* __(2)__ piccola. Ogni giorno la guerra *(fare)* __(3)__ paura: io *(correre)* __(4)__ nei rifugi, dove *(esserci)* __(5)__ miseria e fame. Da bambina, mentre abitavo in via Pacini, ebbi modo di *(vedere)* __(6)__ girare *Miracolo a Milano*. Fino a oggi quella paura *(rimanere)* __(7)__.\n\n**Com'è il ruolo?**\n\nOggi praticamente *(esistere)* __(8)__ solo lo spirito.\n\n**Ha interpretato altri spiriti?**\n\nSì, finora *(interpretare)* __(9)__ Ariele e *(avere)* __(10)__ vertigini. Oggi, quando recito, *(trovare)* __(11)__ coraggio, *(affrontare)* __(12)__ il rischio e io *(sapere)* __(13)__ disfarmi del mio involucro. Anche in futuro lo *(correre)* __(14)__ sempre.\n\n**Un consiglio per i giovani?**\n\nSe me lo chiedessero, *(rispondere)* __(15)__: dovrebbero essere i giovani a *(dare)* __(16)__ un consiglio a noi adulti.\n\n**Il Piccolo che cos'è per lei?**\n\nOggi *(essere)* __(17)__ tutto. In questi anni io *(rientrare)* __(18)__ come se non fossi mai uscita. Il teatro è casa mia, la mia idea di convivenza con il prossimo.\n\n**Che cosa ha imparato?**\n\nFinora *(imparare)* __(19)__ che non amo le battaglie inutili; oggi, se c'è battaglia, io *(esserci)* __(20)__."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | sono | presente indicativo | S2.11 | trovo | presente indicativo |\n| S2.2 | ero | imperfetto indicativo | S2.12 | affronto | presente indicativo |\n| S2.3 | faceva | imperfetto indicativo | S2.13 | so | presente indicativo |\n| S2.4 | correvo | imperfetto indicativo | S2.14 | correrò | futuro semplice |\n| S2.5 | c'erano | imperfetto indicativo | S2.15 | risponderei | condizionale presente |\n| S2.6 | vedere | infinito presente | S2.16 | dare | infinito presente |\n| S2.7 | è rimasta | passato prossimo | S2.17 | è | presente indicativo |\n| S2.8 | esiste | presente indicativo | S2.18 | sono rientrata | passato prossimo |\n| S2.9 | ho interpretato | passato prossimo | S2.19 | ho imparato | passato prossimo |\n| S2.10 | ho avuto | passato prossimo | S2.20 | ci sono | presente indicativo |",
+    "ANS_S2_NOTES": "- **S2.3–S2.5:** «Durante la guerra» e «ogni giorno» fissano la descrizione abituale all'imperfetto（背景与反复动作）.\n- **S2.6:** la locuzione stampata «ebbi modo di» regge l'infinito presente «vedere», senza concorrenza tra tempi narrativi（介词 di 后用不定式）.\n- **S2.13 e S2.16:** in S2.13 il soggetto esplicito «io» impone «so»; in S2.16 «i giovani» è il soggetto esplicito e la costruzione «essere ... a» impone «dare»（人称与施事明确）.\n- **S2.14–S2.15:** «Anche in futuro» richiede il futuro semplice; «Se me lo chiedessero» fissa il condizionale presente（将来与假设结果）.\n- **S2.18:** il soggetto femminile «io», riferito all'attrice, determina anche la forma del participio «rientrata»."
+  },
+  "key": {
+    "S2.1": "sono",
+    "S2.2": "ero",
+    "S2.3": "faceva",
+    "S2.4": "correvo",
+    "S2.5": "c'erano",
+    "S2.6": "vedere",
+    "S2.7": "è rimasta",
+    "S2.8": "esiste",
+    "S2.9": "ho interpretato",
+    "S2.10": "ho avuto",
+    "S2.11": "trovo",
+    "S2.12": "affronto",
+    "S2.13": "so",
+    "S2.14": "correrò",
+    "S2.15": "risponderei",
+    "S2.16": "dare",
+    "S2.17": "è",
+    "S2.18": "sono rientrata",
+    "S2.19": "ho imparato",
+    "S2.20": "ci sono"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rifugi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "避难所",
+      "en": "shelters",
+      "esempio": "io *(correre)* __(4)__ nei rifugi"
+    },
+    {
+      "parola": "miseria",
+      "categoria": "sostantivo femminile",
+      "zh": "贫困",
+      "en": "poverty",
+      "esempio": "dove *(esserci)* __(5)__ miseria e fame"
+    },
+    {
+      "parola": "involucro",
+      "categoria": "sostantivo maschile",
+      "zh": "外壳；躯壳",
+      "en": "shell",
+      "esempio": "*(sapere)* __(13)__ disfarmi del mio involucro."
+    },
+    {
+      "parola": "rischio",
+      "categoria": "sostantivo maschile",
+      "zh": "风险",
+      "en": "risk",
+      "esempio": "*(affrontare)* __(12)__ il rischio"
+    },
+    {
+      "parola": "convivenza",
+      "categoria": "sostantivo femminile",
+      "zh": "共处；共同生活",
+      "en": "coexistence",
+      "esempio": "Il teatro è casa mia, la mia idea di convivenza con il prossimo."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+exam: cils
+level: B1
+session: '2026-07-17'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.fanpage.it/spettacolo/interviste/michael-di-liberto-dei-tre-di-denari-licenziato-dopo-reazione-a-catena-per-un-anno-mi-sono-goduto-i-miei-figli/
+  title: 'Michael Di Liberto dei Tre di Denari: “Licenziato dopo Reazione a Catena,
+    per un anno mi sono goduto i miei figli”'
+  publisher: Fanpage.it
+  published: 10/06/2026
+  accessed: '2026-07-17'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 452
+- id: T2
+  url: https://www.comune.venezia.it/it/node/75115
+  title: Avviso pubblico – curatore 2027
+  publisher: Comune di Venezia — Istituzione Fondazione Bevilacqua La Masa
+  published: non indicata; ultimo aggiornamento visibile 06/07/2026
+  accessed: '2026-07-17'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 311
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/abbiamo-scelto-il-camper-per-visitare-la-toscana-e-in-5-giorni-ci-e-sembrato-di-vivere-un-viaggio-che-dura-una-vita-intera.html
+  title: 'Fiume, pietra e cielo aperto: il SentierElsa'
+  publisher: Turisti per Caso
+  published: 'non indicata nella pagina; risultato di ricerca: 2–3 giorni prima dell''accesso'
+  accessed: '2026-07-17'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 262
+- id: T4
+  url: https://www.focus.it/ambiente/animali/gli-scorpioni-usano-armi-di-metallo
+  title: 'Pungiglioni corazzati: gli scorpioni sono predatori “heavy metal”'
+  publisher: Focus.it
+  published: 03/05/2026
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 193
+- id: T5
+  url: https://www.rainews.it/tgr/lombardia/video/2026/03/lattrice-lazzarini-92-anni-il-piccolo-e-il-teatro-come-dovrebbe-essere-78c7181c-633d-49e6-b65c-126cefd0704b.html
+  title: 'L''attrice Lazzarini, 92 anni: “Il Piccolo è il teatro come dovrebbe essere”'
+  publisher: RaiNews — TGR Lombardia
+  published: 28/03/2026
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 178
+- id: T6
+  url: https://www.ansa.it/marche/notizie/2026/05/18/torna-il-gulliver-rock-festival-evento-gratuito-sabato-23-maggio-in-piazza-roma_e090ef8e-d2c1-4aed-abd2-e2e46c2d8729.html
+  title: Torna il Gulliver Rock Festival, evento gratuito sabato 23 maggio in piazza
+    Roma
+  publisher: ANSA — Marche
+  published: 18/05/2026
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 146
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-17'
+    executor: codex background task (corpus-hunter)
+    result: 6 source entries, all slots covered
+  - stage: authoring
+    at: '2026-07-17'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-17T16:35:20+00:00'
+    agreement: 85/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-17T16:45:20+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-17'
+    round: 1
+    fixed_items: S2 re-cut (S2.6 remoto contrast, S2.13 person, S2.16 unnatural clitic
+      sentence + rescan)
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: fail
+    issues: 1
+  - stage: blind_validation
+    at: '2026-07-17T16:53:35+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

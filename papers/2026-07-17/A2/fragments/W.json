@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una serata piacevole che hai passato a un festival o a una festa all'aperto. Scrivi dove eri, con chi, che cosa hai fatto e perché ti è piaciuta.",
+    "W2_PROMPT": "Scrivi un messaggio a un servizio di deposito bagagli per chiedere informazioni. Chiedi l'orario di apertura, il prezzo per alcune ore e se devi prenotare.",
+    "MODEL_W1": "Sabato scorso sono andata a un festival nel parco della mia città con due amici. C'erano musica, luci colorate e tanti piccoli stand. Abbiamo ascoltato un concerto, mangiato un panino e fatto molte foto. Mi è piaciuta soprattutto l'atmosfera allegra, perché tutti cantavano e ballavano insieme.",
+    "MODEL_W1_PHRASES": "«Sabato scorso sono andata a…»（上周六我去了……） · «C'erano…»（那里有……） · «Abbiamo ascoltato…»（我们听了……） · «Mi è piaciuta soprattutto…»（我尤其喜欢……）",
+    "MODEL_W2": "Buongiorno, sabato visiterò la città e vorrei lasciare la valigia nel vostro deposito. A che ora aprite? Quanto costa il servizio per quattro ore? Devo prenotare prima? Grazie per le informazioni. Lin",
+    "MODEL_W2_PHRASES": "«Vorrei lasciare la valigia…»（我想寄存行李……） · «A che ora aprite?»（你们几点开门？） · «Quanto costa il servizio?»（这项服务多少钱？） · «Devo prenotare prima?»（我需要提前预订吗？） · «Grazie per le informazioni.»（感谢提供信息）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "all'aperto",
+      "categoria": "locuzione avverbiale",
+      "zh": "在户外",
+      "en": "outdoors",
+      "esempio": "una festa all'aperto"
+    },
+    {
+      "parola": "luci colorate",
+      "categoria": "locuzione nominale",
+      "zh": "彩灯",
+      "en": "colored lights",
+      "esempio": "C'erano musica, luci colorate e tanti piccoli stand."
+    },
+    {
+      "parola": "atmosfera allegra",
+      "categoria": "locuzione nominale",
+      "zh": "欢乐的气氛",
+      "en": "cheerful atmosphere",
+      "esempio": "Mi è piaciuta soprattutto l'atmosfera allegra, perché tutti cantavano e ballavano insieme."
+    },
+    {
+      "parola": "deposito bagagli",
+      "categoria": "locuzione nominale",
+      "zh": "行李寄存处",
+      "en": "luggage storage",
+      "esempio": "un servizio di deposito bagagli"
+    },
+    {
+      "parola": "prenotare",
+      "categoria": "verbo",
+      "zh": "预订",
+      "en": "to book",
+      "esempio": "Devo prenotare prima?"
+    }
+  ]
+}

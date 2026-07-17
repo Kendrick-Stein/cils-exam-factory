@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "PREMIO NAZIONALE PER LE COMPETENZE DIGITALI",
+    "S3_TEXT_WITH_GAPS": "Sono ufficialmente __aperte (0)__ le candidature all'edizione 2026 del Premio Nazionale per le Competenze Digitali. Il contest, lanciato da Repubblica Digitale con il __(1)__ di Invitalia, mira a promuovere i migliori progetti di __(2)__ delle competenze digitali a favore dei cittadini.\n\nLe domande possono essere presentate dal 19 giugno mediante l'apposito __(3)__ online da compilare. La scadenza, fissata inizialmente al 19 luglio, è stata __(4)__ fino alle 23:59 del 23 luglio 2026. La __(5)__ dei vincitori si terrà a Roma il 22 ottobre durante l'Assemblea Nazionale di Repubblica Digitale.\n\nIl Premio vuole dare __(6)__ alle migliori iniziative rivolte ai cittadini o alle scuole. Vengono valorizzati i progetti realizzati da amministrazioni pubbliche, enti del terzo settore e imprese che si __(7)__ per innovatività, originalità e __(8)__. Conta anche il forte __(9)__ sul territorio.\n\nL'iniziativa si propone inoltre di __(10)__ la cultura digitale per arrivare al __(11)__ dell'analfabetismo digitale e del digital divide. Punta anche a condividere buone __(12)__ nell'ottica della loro __(13)__ a contesti diversi da quello in cui sono state realizzate. Infine, valorizza i __(14)__ educativi open source per favorirne il __(15)__.",
+    "S3_OPT0_A": "aperte",
+    "S3_OPT0_B": "sospese",
+    "S3_OPT0_C": "chiuse",
+    "S3_OPT0_D": "escluse",
+    "S3_OPTION_ROWS": "| 1. | contrasto | supporto | ritiro | divieto |\n| 2. | controllo | arresto | sviluppo | isolamento |\n| 3. | avviso | calendario | modulo | indirizzo |\n| 4. | anticipata | confermata | cancellata | prorogata |\n| 5. | candidatura | premiazione | iscrizione | pubblicazione |\n| 6. | visibilità | fragilità | distanza | resistenza |\n| 7. | riuniscono | distinguono | oppongono | trasferiscono |\n| 8. | temporaneità | riservatezza | replicabilità | fragilità |\n| 9. | confine | ritardo | impatto | passaggio |\n| 10. | nascondere | diffondere | limitare | sostituire |\n| 11. | mantenimento | aumento | ritorno | superamento |\n| 12. | pratiche | regole | teorie | notizie |\n| 13. | estraneità | chiusura | trasferibilità | opposizione |\n| 14. | conflitti | contenuti | ritardi | limiti |\n| 15. | rifiuto | controllo | abbandono | riuso |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Lanciato da Repubblica Digitale con il supporto di Invitalia» indica che Invitalia sostiene il contest. 中文：supporto 表示对项目的支持，其他选项与合作关系冲突。 |\n| S3.2 | C | I progetti mirano allo «sviluppo delle competenze digitali», cioè al loro miglioramento. 中文：项目目标是提升数字能力，不是控制、停止或孤立它们。 |\n| S3.3 | C | L'espressione «modulo online da compilare» identifica lo strumento necessario per presentare la domanda. 中文：da compilare 与 modulo 构成明确搭配。 |\n| S3.4 | D | La nuova data del 23 luglio è successiva a quella iniziale del 19 luglio: la scadenza è stata «prorogata». 中文：日期后移锁定 prorogata。 |\n| S3.5 | B | L'evento riguarda i vincitori e «si terrà a Roma il 22 ottobre»: è quindi la loro premiazione. 中文：vincitori 与活动日期共同锁定“颁奖”。 |\n| S3.6 | A | Il Premio vuole «dare visibilità alle migliori iniziative», ossia farle conoscere e valorizzarle. 中文：dare visibilità 是固定搭配。 |\n| S3.7 | B | I progetti «si distinguono per innovatività, originalità e replicabilità»: sono queste le qualità che li caratterizzano. 中文：distinguersi per 表示“以某特点脱颖而出”。 |\n| S3.8 | C | «Innovatività, originalità e replicabilità» sono tre qualità positive e coerenti dei progetti. 中文：replicabilità 指项目可在别处复制实施。 |\n| S3.9 | C | La locuzione «forte impatto sul territorio» descrive gli effetti concreti delle iniziative nell'area interessata. 中文：impatto sul territorio 是自然搭配。 |\n| S3.10 | B | Per contrastare l'analfabetismo digitale occorre «diffondere la cultura digitale», non nasconderla o limitarla. 中文：后面的积极目标排除其余动词。 |\n| S3.11 | D | L'obiettivo positivo è il «superamento dell'analfabetismo digitale», cioè la sua eliminazione progressiva. 中文：superamento 表示克服问题。 |\n| S3.12 | A | Il testo parla di esperienze da condividere e trasferire: l'espressione corretta è «buone pratiche». 中文：buone pratiche 是项目经验交流中的固定表达。 |\n| S3.13 | C | Le pratiche devono passare «a contesti diversi da quello in cui sono state realizzate»: si tratta della loro trasferibilità. 中文：a contesti diversi 明确指可迁移性。 |\n| S3.14 | B | «Contenuti educativi open source» è l'unica combinazione coerente con materiali destinati al riuso. 中文：open source 修饰可开放再利用的教育内容。 |\n| S3.15 | D | I materiali open source vengono valorizzati «per favorirne il riuso», cioè un nuovo utilizzo. 中文：开放内容的目的直接锁定 riuso。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "C",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "B",
+    "S3.8": "C",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "competenze digitali",
+      "categoria": "locuzione nominale",
+      "zh": "数字技能",
+      "en": "digital skills",
+      "esempio": "delle competenze digitali a favore dei cittadini"
+    },
+    {
+      "parola": "enti del terzo settore",
+      "categoria": "locuzione nominale",
+      "zh": "第三部门机构",
+      "en": "third-sector organizations",
+      "esempio": "enti del terzo settore e imprese"
+    },
+    {
+      "parola": "analfabetismo digitale",
+      "categoria": "locuzione nominale",
+      "zh": "数字文盲现象",
+      "en": "digital illiteracy",
+      "esempio": "dell'analfabetismo digitale e del digital divide"
+    },
+    {
+      "parola": "digital divide",
+      "categoria": "locuzione nominale",
+      "zh": "数字鸿沟",
+      "en": "digital divide",
+      "esempio": "digitale e del digital divide"
+    },
+    {
+      "parola": "open source",
+      "categoria": "locuzione aggettivale invariabile",
+      "zh": "开源的",
+      "en": "open-source",
+      "esempio": "educativi open source per favorirne"
+    }
+  ]
+}

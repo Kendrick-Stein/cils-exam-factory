@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "IL PRIMO GIORNO A REYKJAVIK",
+    "T3_PART_A": "Verso fine mattinata ci dirigiamo in auto all'aeroporto di Milano Malpensa. Lasciamo la macchina in un garage già conosciuto, raggiungiamo il vicino aeroporto e, verso le 15, decolliamo con un volo diretto verso l'Islanda.",
+    "T3_PART_B": "Superata Keflavik sotto un cielo coperto, ma senza pioggia, giungiamo nei sobborghi di Reykjavik e al capolinea del bus. Da lì prendiamo un taxi per il nostro alberghetto, dove resteremo una sola notte.",
+    "T3_PART_C": "Durante quel primo viaggio, alla medesima ora, per cena non avevamo trovato quasi nulla, salvo un fast food. Questa volta, invece, vediamo diversi locali aperti e ci fermiamo in un discreto ristorantino vietnamita.",
+    "T3_PART_D": "Quattro ore dopo aver visto quelle Alpi, atterriamo alle cinque del pomeriggio locali. Il fuso orario è di due ore indietro rispetto al nostro; usciamo dall'aeroporto e troviamo subito il bus per il centro.",
+    "T3_PART_E": "Solo verso le due o le tre di notte, dopo quelle ore ancora luminose, il cielo diventerà meno chiaro; non ci sarà però una notte vera e propria. La spiegazione sta nella latitudine elevata, superiore a 64 gradi.",
+    "T3_PART_F": "Subito dopo esserci sistemati in camera, usciamo: l'albergo è in pieno centro e le strade pedonali sono vicine. Passeggiando, constatiamo che Reykjavik è molto cambiata rispetto al nostro primo viaggio di venticinque anni fa.",
+    "T3_PART_G": "Infatti, a quella latitudine e nei giorni più lunghi dell'anno, la luce dura quasi tutta la notte. Infine, concluse le passeggiate, ritorniamo al nostro alberghetto per la nottata.",
+    "T3_PART_H": "Mezz'ora dopo quel decollo sorvoliamo le Alpi, ancora ricche di neve. Il nostro programma prevede un giorno a Reykjavik, poi nove giorni di crociera, con tre destinazioni islandesi e due in Groenlandia.",
+    "T3_PART_I": "Appena terminata quella cena vietnamita, continuiamo a passeggiare nelle vie centrali e laterali. Sono ormai passate le 22, ma è sempre giorno: quella luce resterà per quasi tutte le ore seguenti.",
+    "T3_PART_J": "Arrivati in quell'alberghetto, troviamo la reception già chiusa e nessuno ad attenderci. Tuttavia, grazie ai codici ricevuti via email poco prima, apriamo gli ingressi, entriamo nella camera e ci sistemiamo rapidamente.",
+    "T3_PART_K": "Durante il tragitto su quel bus, osserviamo dai finestrini le grandi colate di lava solidificata della zona. Dopo alcuni minuti scorgiamo gli edifici di Keflavik, cittadina di circa quindicimila abitanti che dà il nome all'aeroporto."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Apertura autonoma: «Verso fine mattinata» avvia il viaggio e il decollo prepara il primo rinvio temporale. 中文：唯一可独立开篇。 |\n| 2 | H | «Mezz'ora dopo quel decollo» riprende esclusivamente il decollo di A; il sorvolo delle Alpi prepara il legame seguente. 中文：起飞后的半小时锁定第二段。 |\n| 3 | D | «Quattro ore dopo aver visto quelle Alpi» richiama l'immagine introdotta in H e conduce all'atterraggio. 中文：阿尔卑斯山与四小时后的降落构成唯一衔接。 |\n| 4 | K | «Durante il tragitto su quel bus» riprende il bus per il centro trovato alla fine di D. 中文：只有前段已引入这辆巴士。 |\n| 5 | B | «Superata Keflavik» può seguire soltanto l'avvistamento degli edifici di Keflavik in K; poi introduce l'alberghetto. 中文：先看见凯夫拉维克，随后才经过它。 |\n| 6 | J | «Arrivati in quell'alberghetto» riprende la destinazione raggiunta in taxi alla fine di B; i codici consentono l'ingresso. 中文：旅馆是唯一明确前项。 |\n| 7 | F | «Subito dopo esserci sistemati in camera» riprende l'ultima azione di J e avvia la passeggiata in centro. 中文：安顿好后才能出门。 |\n| 8 | C | «Durante quel primo viaggio» rinvia ai «venticinque anni fa» di F e crea il contrasto con la cena attuale. 中文：二十五年前的首次旅行锁定回忆段。 |\n| 9 | I | «Appena terminata quella cena vietnamita» riprende senza alternative il ristorante scelto in C; poi introduce la luce dopo le 22. 中文：越南餐之后继续散步。 |\n| 10 | E | «Dopo quelle ore ancora luminose» riprende la luce annunciata in I e precisa che solo verso le due o le tre il cielo sarà meno chiaro. 中文：22点后的持续天光锁定时间推进。 |\n| 11 | G | «Infatti, a quella latitudine» riprende la spiegazione geografica di E; «Infine» e il ritorno in albergo chiudono il racconto. 中文：纬度解释与结尾标记共同锁定末段。 |",
+    "ANS_L3_SEQUENCE": "A-H-D-K-B-J-F-C-I-E-G"
+  },
+  "key": {
+    "L3": "A-H-D-K-B-J-F-C-I-E-G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fuso orario",
+      "categoria": "locuzione nominale",
+      "zh": "时差；时区差",
+      "en": "time difference; time zone",
+      "esempio": "Il fuso orario è di due ore indietro rispetto al nostro"
+    },
+    {
+      "parola": "colate di lava solidificata",
+      "categoria": "locuzione nominale",
+      "zh": "凝固的熔岩流",
+      "en": "solidified lava flows",
+      "esempio": "le grandi colate di lava solidificata della zona"
+    },
+    {
+      "parola": "sobborghi",
+      "categoria": "nome maschile plurale",
+      "zh": "郊区",
+      "en": "suburbs",
+      "esempio": "giungiamo nei sobborghi di Reykjavik"
+    },
+    {
+      "parola": "capolinea",
+      "categoria": "nome maschile invariabile",
+      "zh": "终点站",
+      "en": "terminus",
+      "esempio": "al capolinea del bus"
+    },
+    {
+      "parola": "latitudine elevata",
+      "categoria": "locuzione nominale",
+      "zh": "高纬度",
+      "en": "high latitude",
+      "esempio": "La spiegazione sta nella latitudine elevata"
+    }
+  ]
+}

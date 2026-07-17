@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "SCORPIONI CON ARMI DI METALLO",
+    "S1_TEXT_WITH_GAPS": "Prima domanda: soffrite di aracnofobia? Qui si parla di scorpioni, aracnidi che hanno trasformato la caccia in un'arte.\n\nL'uso dei metalli nel corpo di un animale non è particolare. Anche __(1)__ nostro organismo, per esempio, usa il ferro *(in)* __nel (0)__ sangue per trasportare l'ossigeno. *(Per)* __(2)__ gli scorpioni, però, questi materiali hanno uno scopo diverso, che ha a che fare *(con)* __(3)__ la caccia. Sono predatori eccezionali: usano __(4)__ loro tenaglie e __(5)__ loro pungiglione *(per)* __(6)__ immobilizzare, colpire o avvelenare __(7)__ loro preda. Alcune specie ricoprono __(8)__ due armi *(di)* __(9)__ una patina di metallo.\n\nUno studio recente ha esaminato meglio questo fenomeno. __(10)__ studio è stato condotto *(da)* __(11)__ un team australiano, che ha analizzato tutte __(12)__ armi e tutto __(13)__ esoscheletro di 18 diverse specie, scelte *(per)* __(14)__ lo studio. I ricercatori hanno usato tecniche di micro-analisi, tra cui __(15)__ microscopia e i raggi X.\n\nDa queste analisi è emersa soprattutto una sostanza: __(16)__ zinco. È __(17)__ metallo più usato nelle tenaglie e negli artigli. Si concentra *(su)* __(18)__ punta, dove l'arma deve penetrare la pelle o la corazza della preda. Nel caso *(di)* __(19)__ loro tenaglie, lo zinco è spesso accompagnato dal ferro. Il resto di queste strutture, invece, è rinforzato con un altro metallo: __(20)__ manganese."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | il | S1.11 | da |\n| S1.2 | per | S1.12 | le |\n| S1.3 | con | S1.13 | l' |\n| S1.4 | le | S1.14 | per |\n| S1.5 | il | S1.15 | la |\n| S1.6 | per | S1.16 | lo |\n| S1.7 | la | S1.17 | il |\n| S1.8 | le | S1.18 | sulla |\n| S1.9 | di | S1.19 | delle |\n| S1.10 | lo | S1.20 | il |",
+    "ANS_S1_NOTES": "- **S1.1, S1.4–S1.5 e S1.7:** con il possessivo sono necessari gli articoli: «il nostro organismo», «le loro tenaglie», «il loro pungiglione», «la loro preda». 中文：物主形容词前的冠词须与名词的性数一致。\n- **S1.8:** «le due armi» riprende le tenaglie e il pungiglione appena citati. 中文：这里回指前面两种武器，因此用定冠词。\n- **S1.10:** dopo «uno studio recente», la ripresa è «lo studio». 中文：名词已被引入，再次提及时用定冠词。\n- **S1.13:** «tutto l'esoscheletro» richiede l'elisione davanti a vocale. 中文：元音前冠词省音为 *l'*.\n- **S1.18–S1.19:** «sulla punta» e «delle loro tenaglie» uniscono la preposizione data all'articolo richiesto. 中文：分别是 *su + la* 和 *di + le*。"
+  },
+  "key": {
+    "S1.1": "il",
+    "S1.2": "per",
+    "S1.3": "con",
+    "S1.4": "le",
+    "S1.5": "il",
+    "S1.6": "per",
+    "S1.7": "la",
+    "S1.8": "le",
+    "S1.9": "di",
+    "S1.10": "lo",
+    "S1.11": "da",
+    "S1.12": "le",
+    "S1.13": "l'",
+    "S1.14": "per",
+    "S1.15": "la",
+    "S1.16": "lo",
+    "S1.17": "il",
+    "S1.18": "sulla",
+    "S1.19": "delle",
+    "S1.20": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "aracnofobia",
+      "categoria": "nome femminile",
+      "zh": "蜘蛛恐惧症",
+      "en": "arachnophobia",
+      "esempio": "soffrite di aracnofobia"
+    },
+    {
+      "parola": "tenaglie",
+      "categoria": "nome femminile plurale",
+      "zh": "螯；钳",
+      "en": "pincers",
+      "esempio": "loro tenaglie"
+    },
+    {
+      "parola": "pungiglione",
+      "categoria": "nome maschile",
+      "zh": "毒刺",
+      "en": "stinger",
+      "esempio": "loro pungiglione"
+    },
+    {
+      "parola": "esoscheletro",
+      "categoria": "nome maschile",
+      "zh": "外骨骼",
+      "en": "exoskeleton",
+      "esempio": "esoscheletro"
+    },
+    {
+      "parola": "corazza",
+      "categoria": "nome femminile",
+      "zh": "甲壳；护甲",
+      "en": "armour; shell",
+      "esempio": "la corazza della preda"
+    }
+  ]
+}

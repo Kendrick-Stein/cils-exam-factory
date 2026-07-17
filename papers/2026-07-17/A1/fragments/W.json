@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi il parco vicino a casa tua: scrivi dove si trova, con chi ci vai e cosa fai lì.",
+    "W2_PROMPT": "Scrivi una breve e-mail a un centro per bambini. Chiedi in quali giorni è aperto e quanto costa un laboratorio.",
+    "MODEL_W1": "Vicino a casa mia c'è un piccolo parco. La domenica ci vado con mio fratello. Andiamo in bicicletta, giochiamo e poi ci sediamo su una panchina. Mi piace perché è tranquillo.",
+    "MODEL_W1_PHRASES": "«Vicino a casa mia c'è…»（我家附近有……） · «La domenica…»（星期日……） · «Ci vado con…»（我和……去那里） · «Mi piace perché…»（我喜欢它，因为……）",
+    "MODEL_W2": "Buongiorno, voglio informazioni sul laboratorio per bambini. In quali giorni è aperto? Quanto costa? Grazie per la risposta. Chen",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Voglio informazioni su…»（我想了解关于……的信息） · «In quali giorni è aperto?»（哪几天开放？） · «Quanto costa?»（多少钱？） · «Grazie per la risposta»（感谢您的回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "Vicino a casa mia",
+      "categoria": "espressione avverbiale",
+      "zh": "在我家附近",
+      "en": "near my home",
+      "esempio": "Vicino a casa mia c'è un piccolo parco."
+    },
+    {
+      "parola": "in bicicletta",
+      "categoria": "espressione avverbiale",
+      "zh": "骑自行车",
+      "en": "by bicycle",
+      "esempio": "Andiamo in bicicletta, giochiamo e poi ci sediamo su una panchina."
+    },
+    {
+      "parola": "panchina",
+      "categoria": "nome femminile",
+      "zh": "长椅",
+      "en": "bench",
+      "esempio": "Andiamo in bicicletta, giochiamo e poi ci sediamo su una panchina."
+    },
+    {
+      "parola": "laboratorio per bambini",
+      "categoria": "locuzione nominale",
+      "zh": "儿童工作坊",
+      "en": "workshop for children",
+      "esempio": "Buongiorno, voglio informazioni sul laboratorio per bambini."
+    },
+    {
+      "parola": "Grazie per la risposta",
+      "categoria": "formula di cortesia",
+      "zh": "感谢您的回复",
+      "en": "Thank you for your reply",
+      "esempio": "Grazie per la risposta."
+    }
+  ]
+}

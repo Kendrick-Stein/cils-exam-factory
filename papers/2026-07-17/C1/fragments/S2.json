@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "Segnali da regioni CPT-simmetriche?",
+    "S2_TEXT_WITH_GAPS": "Finora Anita *(registrare)* __ha registrato (0)__ due raggi cosmici anomali. Nel quadro attuale, i segnali *(apparire)* __(1)__ insoliti e *(provenire)* __(2)__ «da sotto», come se avessero attraversato la Terra o fossero un riflesso. Benché queste spiegazioni *(sembrare)* __(3)__ plausibili nella descrizione attuale, le caratteristiche dei raggi le *(rendere)* __(4)__ incompatibili.\n\nBisogna che nell’universo *(esistere)* __(5)__ regioni CPT-simmetriche, popolate da antimateria e orientate nel tempo in senso opposto. È possibile che finora Anita *(rilevare)* __(6)__ particelle provenienti da quelle zone. Se l’ipotesi fosse corretta, noi *(potere)* __(7)__ riceverle sulla Terra: esse *(giungere)* __(8)__ dal nostro futuro, pur *(provenire)* __(9)__ dal loro passato e prima di *(percepire)* __(10)__ da noi in una sequenza temporalmente invertita.\n\nAdesso noi *(esplorare)* __(11)__ lo spazio-tempo nell’unica direzione concessa e *(percepire)* __(12)__ gli eventi al contrario. Le particelle *(acquisire)* __(13)__ le caratteristiche delle antiparticelle. Oggi il modello descrive ogni evento: il raggio cosmico *(impattare)* __(14)__ con l’atmosfera e *(produrre)* __(15)__ una cascata di particelle secondarie. Le particelle *(produrre)* __(16)__ dall’urto emettono onde radio. Finora l’emissione *(rilevare)* __(17)__ da Anita.\n\nNel film già proiettato alla rovescia, mentre il raggio *(sembrare)* __(18)__ provenire da sotto, gli impulsi risultarono diretti verso l’alto. Fu il confronto con i dati di altri osservatori che *(escludere)* __(19)__ tale provenienza. Fu allora che l’inversione temporale *(apparire)* __(20)__ l’unica soluzione, secondo la fisica conosciuta fino a oggi."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | appaiono | indicativo presente | S2.11 | esploriamo | indicativo presente |\n| S2.2 | provengono | indicativo presente | S2.12 | percepiamo | indicativo presente |\n| S2.3 | sembrino | congiuntivo presente | S2.13 | acquisiscono | indicativo presente |\n| S2.4 | rendono | indicativo presente | S2.14 | impatta | indicativo presente |\n| S2.5 | esistano | congiuntivo presente | S2.15 | produce | indicativo presente |\n| S2.6 | abbia rilevato | congiuntivo passato | S2.16 | prodotte | participio passato |\n| S2.7 | potremmo | condizionale presente | S2.17 | è stata rilevata | indicativo passato prossimo, passivo |\n| S2.8 | giungerebbero | condizionale presente | S2.18 | sembrava | indicativo imperfetto |\n| S2.9 | provenendo | gerundio presente | S2.19 | escluse | indicativo passato remoto |\n| S2.10 | essere percepite | infinito presente, passivo | S2.20 | apparve | indicativo passato remoto |",
+    "ANS_S2_NOTES": "- **S2.6:** «È possibile che» impone il congiuntivo; «finora» seleziona il passato: **abbia rilevato**. 中文：情态支配加时间标记共同限定过去虚拟式。\n- **S2.7–S2.8:** la protasi stampata «Se l’ipotesi fosse corretta» impone il condizionale **potremmo / giungerebbero**. 中文：条件从句已给出未完成虚拟式，主句只能用条件式。\n- **S2.10:** «prima di» richiede l’infinito e «da noi» forza il passivo **essere percepite**; il femminile plurale concorda con «esse». 中文：施事短语和一致关系排除主动形式。\n- **S2.17:** «Finora» esclude il passato remoto; «da Anita» forza il passivo completo **è stata rilevata**. 中文：时间锚与施事短语共同锁定现在完成时被动。\n- **S2.19–S2.20:** le costruzioni scisse «Fu ... che» e «Fu allora che» impongono il passato remoto **escluse / apparve**. 中文：分裂句中的明确过去锚锁定远过去时。"
+  },
+  "key": {
+    "S2.1": "appaiono",
+    "S2.2": "provengono",
+    "S2.3": "sembrino",
+    "S2.4": "rendono",
+    "S2.5": "esistano",
+    "S2.6": "abbia rilevato",
+    "S2.7": "potremmo",
+    "S2.8": "giungerebbero",
+    "S2.9": "provenendo",
+    "S2.10": "essere percepite",
+    "S2.11": "esploriamo",
+    "S2.12": "percepiamo",
+    "S2.13": "acquisiscono",
+    "S2.14": "impatta",
+    "S2.15": "produce",
+    "S2.16": "prodotte",
+    "S2.17": "è stata rilevata",
+    "S2.18": "sembrava",
+    "S2.19": "escluse",
+    "S2.20": "apparve"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "raggi cosmici",
+      "categoria": "locuzione nominale",
+      "zh": "宇宙射线",
+      "en": "cosmic rays",
+      "esempio": "due raggi cosmici anomali"
+    },
+    {
+      "parola": "antimateria",
+      "categoria": "nome",
+      "zh": "反物质",
+      "en": "antimatter",
+      "esempio": "popolate da antimateria"
+    },
+    {
+      "parola": "spazio-tempo",
+      "categoria": "nome",
+      "zh": "时空",
+      "en": "spacetime",
+      "esempio": "lo spazio-tempo nell’unica direzione concessa"
+    },
+    {
+      "parola": "antiparticelle",
+      "categoria": "nome plurale",
+      "zh": "反粒子",
+      "en": "antiparticles",
+      "esempio": "le caratteristiche delle antiparticelle"
+    },
+    {
+      "parola": "alla rovescia",
+      "categoria": "locuzione avverbiale",
+      "zh": "倒过来地",
+      "en": "backwards",
+      "esempio": "Nel film già proiettato alla rovescia"
+    }
+  ]
+}

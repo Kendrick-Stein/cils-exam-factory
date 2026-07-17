@@ -1,0 +1,126 @@
+exam: cils
+level: B2
+session: '2026-07-17'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.wired.it/article/le-grandi-scimmie-ridono-come-noi-da-quindici-milioni-di-anni/
+  title: Le grandi scimmie ridono come noi da quindici milioni di anni
+  publisher: Wired Italia
+  published: 26 giugno 2026
+  accessed: 17 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 511
+- id: T2
+  url: https://www.ministeroturismo.gov.it/green-tour-scheda-tecnica/
+  title: Green Tour
+  publisher: Ministero del Turismo
+  published: 18 giugno 2026
+  accessed: 17 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 465
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/la-crociera-piu-fredda-al-mondo-ecco-come-abbiamo-passato-11-giorni-tra-iceberg-ghiacciai-e-fiordi.html
+  title: 'La crociera più fredda al mondo: ecco come abbiamo passato 11 giorni tra
+    iceberg, ghiacciai e fiordi'
+  publisher: Turisti per Caso
+  published: maggio 2026 (data esatta non visibile nel fetch)
+  accessed: 17 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 363
+- id: T4
+  url: https://www.focus.it/ambiente/animali/perche-le-mucche-ruttano-metano
+  title: Perché le mucche emettono così tanto metano? Dipende dai “rutti”
+  publisher: Focus.it
+  published: 7 maggio 2026
+  accessed: 17 luglio 2026
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 206
+- id: T5
+  url: https://www.fanpage.it/spettacolo/interviste/valeria-rossi-con-tre-parole-comprai-casa-ai-miei-genitori-quel-brano-simbolo-dellultima-estate-felice/
+  title: 'Valeria Rossi: “Con Tre Parole comprai casa ai miei genitori. Quel brano
+    simbolo dell’ultima estate felice”'
+  publisher: Fanpage.it
+  published: 12 luglio 2026
+  accessed: 17 luglio 2026
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 196
+- id: T6
+  url: https://repubblicadigitale.gov.it/portale/-/premio-nazionale-competenze-digitali-lancio-terza-edizione
+  title: 'Premio Nazionale per le Competenze Digitali: al via le candidature per la
+    terza edizione'
+  publisher: Repubblica Digitale — Dipartimento per la trasformazione digitale
+  published: 19 giugno 2026
+  accessed: 17 luglio 2026
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 168
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-17'
+    executor: codex background task (corpus-hunter)
+    result: 6 source entries, all slots covered
+  - stage: authoring
+    at: '2026-07-17'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-17T16:35:20+00:00'
+    agreement: 85/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-17T16:45:20+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-17'
+    round: 1
+    fixed_items: S1.10 antecedent made explicit; S1.3 keyed ciò||quello locally
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: fail
+    issues: 2
+  - stage: blind_validation
+    at: '2026-07-17T16:53:35+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

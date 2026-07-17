@@ -1,0 +1,144 @@
+exam: cils
+level: C1
+session: '2026-07-17'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://it.wikisource.org/wiki/La_patente_%28novella%29
+  title: La patente
+  publisher: Wikisource (testo di Luigi Pirandello)
+  published: '1911'
+  accessed: '2026-07-17'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 687
+- id: T2
+  url: https://www.unipd.it/sites/unipd.it/files/2026/All%201%201_5%20Bando%20Mob%20Doc_2026%20IT%20prot%26pubb.pdf
+  title: Bando mobilità docenti — Accordi bilaterali, anno 2026
+  publisher: Università degli Studi di Padova
+  published: 2026 (data esatta non visibile nel PDF)
+  accessed: '2026-07-17'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 559
+- id: T3
+  url: https://it.wikisource.org/wiki/Ci%C3%A0ula_scopre_la_Luna
+  title: Ciàula scopre la Luna
+  publisher: Wikisource (testo di Luigi Pirandello)
+  published: '1912'
+  accessed: '2026-07-17'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 499
+- id: T4
+  url: https://www.europarl.europa.eu/news/it/press-room/20260323IPR38829/intelligenza-artificiale-rinvio-semplificazione-e-divieto-di-nudificazione
+  title: 'Intelligenza artificiale: rinvio, semplificazione e divieto di “nudificazione”'
+  publisher: Parlamento europeo
+  published: '2026-03-26'
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 230
+- id: T5
+  url: https://www.media.inaf.it/2026/04/20/cpt-gravity/
+  title: Segnali da (o verso) una regione CPT-simmetrica?
+  publisher: MEDIA INAF
+  published: '2026-04-20'
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 213
+- id: T6
+  url: https://www.cnr.it/it/comunicato-stampa/14486
+  title: Isole di calore urbane, fino a 4°C in meno con riforestazione e depavimentazioni,
+    Roma e Firenze lo dimostrano
+  publisher: Consiglio Nazionale delle Ricerche
+  published: '2026-07-06'
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 176
+- id: T7
+  url: https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=593f1559a3bc405cbec0dac918486254
+  title: Concorso pubblico per un posto di Funzionario Amministrativo da destinare
+    all’Ufficio Personale
+  publisher: inPA — Portale del Reclutamento, Dipartimento della Funzione Pubblica
+  published: '2026-05-19'
+  accessed: '2026-07-17'
+  used_in: Analisi delle strutture, Prova n. 4
+  adapted: true
+  words_used: 155
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-17'
+    executor: codex background task (corpus-hunter)
+    result: 7 source entries, all slots covered
+  - stage: authoring
+    at: '2026-07-17'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-17T16:35:20+00:00'
+    agreement: 78/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-17T16:45:20+00:00'
+    agreement: 68/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-17T16:45:49+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-17'
+    round: 1
+    fixed_items: L3 parts G/D/K re-anchored; S3.6 distractors rebuilt; S4.2/4/5/6
+      key variants + typographic normalization (no repair)
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: fail
+    issues: 2
+  - stage: blind_validation
+    at: '2026-07-17T16:53:35+00:00'
+    agreement: 82/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-17T16:54:15+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

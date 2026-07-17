@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Tai Chi nel parco**\n\n   17 luglio, dalle 10:00 alle 12:30. Un laboratorio all'aperto, gratuito e senza prenotazione.\n\n2. **Yoga al tramonto**\n\n   17 luglio. Lezioni nel parco Colonnetti per tutti, anche per chi non ha mai fatto yoga.\n\n3. **Festa del baratto**\n\n   18 luglio. Evento gratuito per dare nuova vita a vestiti, libri e oggetti che non usi più.\n\n4. **Michael**\n\n   18 luglio, dalle 21:30 alle 23:30, al Parco Rignon. Cinema all'aperto. Ingresso a pagamento, senza prenotazione.",
+    "L3_OPTIONS": "A. Gratuito e senza prenotazione.\n\nB. Yoga anche per chi non ha mai fatto yoga.\n\nC. Per dare nuova vita agli oggetti.\n\nD. Film: ingresso a pagamento.\n\nE. Attività del 19 luglio.\n\nF. Film con ingresso gratuito."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | «Un laboratorio all'aperto, gratuito e senza prenotazione». 中文：免费且无需预约，两点同时对应 A。 |\n| L3.2 | B | «anche per chi non ha mai fatto yoga». 中文：没有练过瑜伽的人也可以参加。 |\n| L3.3 | C | «dare nuova vita a vestiti, libri e oggetti». 中文：给闲置物品新生命，对应物品交换活动。 |\n| L3.4 | D | «Cinema all'aperto» e «Ingresso a pagamento». 中文：这是需要付费入场的露天电影；F 与付费信息相反。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "all'aperto",
+      "categoria": "locuzione avverbiale",
+      "zh": "在户外",
+      "en": "outdoors",
+      "esempio": "Un laboratorio all'aperto"
+    },
+    {
+      "parola": "senza prenotazione",
+      "categoria": "locuzione preposizionale",
+      "zh": "无需预约",
+      "en": "without reservation",
+      "esempio": "gratuito e senza prenotazione"
+    },
+    {
+      "parola": "tramonto",
+      "categoria": "nome",
+      "zh": "日落",
+      "en": "sunset",
+      "esempio": "Yoga al tramonto"
+    },
+    {
+      "parola": "dare nuova vita",
+      "categoria": "espressione verbale",
+      "zh": "赋予新生命",
+      "en": "give new life",
+      "esempio": "dare nuova vita a vestiti, libri e oggetti"
+    },
+    {
+      "parola": "ingresso a pagamento",
+      "categoria": "espressione nominale",
+      "zh": "付费入场",
+      "en": "paid admission",
+      "esempio": "Ingresso a pagamento"
+    }
+  ]
+}

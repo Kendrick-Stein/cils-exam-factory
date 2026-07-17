@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Insalata di bulgur vegana",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ nostra insalata di bulgur è un piatto vegano perfetto __(1)__ l'estate. È __(2)__ piatto unico completo e facile __(3)__ preparare. Il bulgur è __(4)__ cereale integrale con chicchi dorati e gustosi. __(5)__ preparare l'insalata, prima mariniamo e poi grigliamo il tofu. Aggiungiamo anche melanzane grigliate, peperoncino e qualche foglia __(6)__ basilico. Questi ingredienti danno alla ricetta __(7)__ tocco di freschezza. È perfetta __(8)__ un pranzo leggero e si può gustare __(9)__ casa, in ufficio o durante una gita. La ricetta è adatta anche __(10)__ chi segue una dieta senza proteine animali."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | per | S1.6 | di |\n| S1.2 | un | S1.7 | un |\n| S1.3 | da | S1.8 | per |\n| S1.4 | un | S1.9 | a |\n| S1.5 | Per | S1.10 | a |",
+    "ANS_S1_NOTES": "- **S1.1 per**: la costruzione è «perfetto per l'estate».\n- **S1.2 un**: «un piatto unico» presenta il tipo di piatto.\n- **S1.3 da**: la costruzione è «facile da preparare».\n- **S1.4 un**: «un cereale integrale» classifica il bulgur.\n- **S1.5 Per**: «Per preparare» introduce lo scopo; la maiuscola è richiesta a inizio frase.\n- **S1.6 di**: la locuzione è «foglia di basilico».\n- **S1.7 un**: la locuzione è «un tocco di freschezza».\n- **S1.8 per**: la costruzione è «perfetta per un pranzo».\n- **S1.9 a**: la locuzione è «a casa».\n- **S1.10 a**: la costruzione è «adatta a chi».\n\n中文提示：注意固定搭配 *facile da*, *perfetto per* 和 *adatto a*。"
+  },
+  "key": {
+    "S1.1": "per",
+    "S1.2": "un",
+    "S1.3": "da",
+    "S1.4": "un",
+    "S1.5": "Per",
+    "S1.6": "di",
+    "S1.7": "un",
+    "S1.8": "per",
+    "S1.9": "a",
+    "S1.10": "a"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "piatto unico",
+      "categoria": "locuzione nominale",
+      "zh": "单盘完整餐；一餐式主菜",
+      "en": "complete one-dish meal",
+      "esempio": "piatto unico completo"
+    },
+    {
+      "parola": "chicchi",
+      "categoria": "nome maschile plurale",
+      "zh": "谷粒",
+      "en": "grains",
+      "esempio": "chicchi dorati e gustosi"
+    },
+    {
+      "parola": "mariniamo",
+      "categoria": "verbo",
+      "zh": "我们腌制",
+      "en": "we marinate",
+      "esempio": "prima mariniamo e poi grigliamo il tofu"
+    },
+    {
+      "parola": "foglia",
+      "categoria": "nome femminile",
+      "zh": "叶子",
+      "en": "leaf",
+      "esempio": "qualche foglia"
+    },
+    {
+      "parola": "gita",
+      "categoria": "nome femminile",
+      "zh": "短途旅行；郊游",
+      "en": "day trip",
+      "esempio": "durante una gita"
+    }
+  ]
+}

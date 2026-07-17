@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "CHINATOWN",
+    "S2_TEXT_WITH_GAPS": "Questa *(essere)* __è (0)__ la storia. La giornata è finita. Quel giorno noi *(passare)* __(1)__ una giornata a Chinatown con i bambini. Noi *(apprezzare)* __(2)__ tutto e *(potere)* __(3)__ sentirci in Cina senza uscire da Milano. Noi *(assaggiare)* __(4)__ noodles e *(assaggiare)* __(5)__ ravioli, *(comprare)* __(6)__ souvenir e *(terminare)* __(7)__ la giornata con un laboratorio. Il primo negozio che noi *(visitare)* __(8)__ è stato Miniso. Lì *(comprare)* __(9)__ guanti a forma di gatto e *(comprare)* __(10)__ tre penne."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | abbiamo passato | passato prossimo | S2.6 | abbiamo comprato | passato prossimo |\n| S2.2 | abbiamo apprezzato | passato prossimo | S2.7 | abbiamo terminato | passato prossimo |\n| S2.3 | abbiamo potuto | passato prossimo | S2.8 | abbiamo visitato | passato prossimo |\n| S2.4 | abbiamo assaggiato | passato prossimo | S2.9 | abbiamo comprato | passato prossimo |\n| S2.5 | abbiamo assaggiato | passato prossimo | S2.10 | abbiamo comprato | passato prossimo |",
+    "ANS_S2_NOTES": "- **S2.1:** «La giornata è finita. Quel giorno» e il soggetto «noi» impongono *abbiamo passato*. 中文：已结束的那一天锁定近过去时。\n- **S2.2:** Il racconto continua nello stesso giorno concluso e il soggetto espresso è «noi»: *abbiamo apprezzato*. 中文：主语和完成时间框架都很明确。\n- **S2.3:** Nello stesso quadro concluso, il modale *potere* forma *abbiamo potuto*. 中文：情态动词与近过去时助动词一起填入空格。\n- **S2.4:** «La giornata è finita. Quel giorno» resta l'ancora temporale di *abbiamo assaggiato*. 中文：品尝食物是已完成的动作。\n- **S2.5:** La coordinazione con S2.4 mantiene soggetto e tempo: *abbiamo assaggiato*. 中文：并列动作共用“我们”和近过去时。\n- **S2.6:** La serie di azioni della giornata finita impone *abbiamo comprato*. 中文：购物属于已结束的当日行程。\n- **S2.7:** La coordinazione finale della stessa serie impone *abbiamo terminato*. 中文：“结束一天”是明确的完成动作。\n- **S2.8:** «Il primo negozio» appartiene a quel giorno finito e «noi» impone *abbiamo visitato*. 中文：首家商店是已完成参观顺序中的一环。\n- **S2.9:** «Lì» riprende Miniso nello stesso racconto concluso: *abbiamo comprato*. 中文：地点承接前句，时间框架不变。\n- **S2.10:** «e» coordina il secondo acquisto con S2.9: *abbiamo comprato*. 中文：两次购买共用同一主语和时态。"
+  },
+  "key": {
+    "S2.1": "abbiamo passato",
+    "S2.2": "abbiamo apprezzato",
+    "S2.3": "abbiamo potuto",
+    "S2.4": "abbiamo assaggiato",
+    "S2.5": "abbiamo assaggiato",
+    "S2.6": "abbiamo comprato",
+    "S2.7": "abbiamo terminato",
+    "S2.8": "abbiamo visitato",
+    "S2.9": "abbiamo comprato",
+    "S2.10": "abbiamo comprato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Chinatown",
+      "categoria": "nome proprio",
+      "zh": "唐人街",
+      "en": "Chinatown",
+      "esempio": "una giornata a Chinatown con i bambini"
+    },
+    {
+      "parola": "ravioli",
+      "categoria": "nome maschile plurale",
+      "zh": "饺子；意式馄饨",
+      "en": "dumplings; ravioli",
+      "esempio": "*(assaggiare)* __(5)__ ravioli"
+    },
+    {
+      "parola": "souvenir",
+      "categoria": "nome maschile invariabile",
+      "zh": "纪念品",
+      "en": "souvenir",
+      "esempio": "*(comprare)* __(6)__ souvenir"
+    },
+    {
+      "parola": "laboratorio",
+      "categoria": "nome maschile",
+      "zh": "手工活动；工作坊",
+      "en": "workshop",
+      "esempio": "la giornata con un laboratorio"
+    },
+    {
+      "parola": "guanti a forma di gatto",
+      "categoria": "locuzione nominale",
+      "zh": "猫形手套",
+      "en": "cat-shaped gloves",
+      "esempio": "guanti a forma di gatto"
+    }
+  ]
+}
