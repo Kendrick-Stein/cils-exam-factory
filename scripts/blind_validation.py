@@ -226,9 +226,14 @@ def answer_variants(expected: str) -> list[str]:
     return [variant for variant in variants if variant]
 
 
+TYPOGRAPHIC_MAP = str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"', "–": "-", "—": "-"})
+
+
 def single_answer_matches(expected: str, actual: str | None) -> bool:
     if actual is None:
         return False
+    expected = expected.translate(TYPOGRAPHIC_MAP)
+    actual = actual.translate(TYPOGRAPHIC_MAP)
     if actual.casefold() == expected.casefold():
         return True
     if " ".join(actual.split()).casefold() == " ".join(expected.split()).casefold():
