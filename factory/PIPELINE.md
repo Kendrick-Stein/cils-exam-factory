@@ -17,7 +17,7 @@ Levels are independent: run S1–S5 for different levels in parallel where the h
 
 ## Item ID convention
 
-Paper shows plain per-prova numbering (fidelity with real papers). Internally, every objective item has a qualified ID: `L<prova>.<n>` (comprensione della lettura), `S<prova>.<n>` (analisi delle strutture di comunicazione), `W<n>` (produzione scritta task n). Example: `S2.5` = strutture, prova 2, item 5. `answers.md`, blind-solver output and manifests use qualified IDs.
+Paper shows plain per-prova numbering (fidelity with real papers). Internally, every objective item has a qualified ID: `L<prova>.<n>` (comprensione della lettura), `S<prova>.<n>` (analisi delle strutture di comunicazione), `W<n>` (produzione scritta task n), `O<prova>` (produzione orale prova n — no objective items, checks only). Example: `S2.5` = strutture, prova 2, item 5. `answers.md`, blind-solver output and manifests use qualified IDs.
 
 ## Stages
 
@@ -34,7 +34,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - **Manifest:** append `{stage: corpus, at}` and the accepted entries under `sources:` (with `used_in`, `adapted: true`, `words_used` filled at S2).
 
 ### S2 — Authoring (item-writer, **one task per prova**) + deterministic assembly
-- **Granularity:** one authoring task per prova — input is ONE source text (its slot section of `sources.md`) + that prova's spec from `exam.yaml` + checklist §A + the list of `{{SLOT}}` names to fill; output is ONE fragment `papers/<date>/<LEVEL>/fragments/<ID>.json` (`{"prova", "slots", "answer_slots", "key", "glossario_candidates"}`). Writing tasks (`W.json`) and the Glossario (`GLOSSARIO.json`, built from the per-prova candidates) are small fragments of their own. The LLM never emits covers, consegne, durations, answer sheets or section skeletons — those are immutable template text.
+- **Granularity:** one authoring task per prova — input is ONE source text (its slot section of `sources.md`) + that prova's spec from `exam.yaml` + checklist §A + the list of `{{SLOT}}` names to fill; output is ONE fragment `papers/<date>/<LEVEL>/fragments/<ID>.json` (`{"prova", "slots", "answer_slots", "key", "glossario_candidates"}`). Writing tasks (`W.json`), the produzione orale block (`O.json`: argomenti/domande for both prove + a memorizable model answer for EVERY argomento in the MODEL slots; no source text, no key entries) and the Glossario (`GLOSSARIO.json`, built from the per-prova candidates) are small fragments of their own. The LLM never emits covers, consegne, durations, answer sheets or section skeletons — those are immutable template text.
 - **Assembly (no LLM):** `python3 scripts/assemble_paper.py --paper-dir papers/<date>/<LEVEL>` merges the fragments into `paper.md` + `answers.md` + `key.json`, strips template comments, and fails listing every unfilled slot / duplicate key ID.
 - **Answers content per fragment:** chiavi rows with qualified IDs + spiegazione 1–3 lines (short 中文 note on the tricky point); the writing fragment carries one 范文 per task inside the printed word range + 3–5 espressioni utili; glossario 15–25 rows.
 - **Gate (orchestrator, mechanical):** assembler exit 0; counts/points/section order via `format_audit.py`; manifest source entries complete (`words_used` from the writers' replies, `quality` block); source credit only in `manifest.yaml`.
@@ -42,7 +42,7 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 
 ### S3 — Blind validation (blind-solver, isolation is the point)
 - **Input:** `paper.md` ONLY. No `answers.md`, no `sources.md`, no web access, no other repo files. Mechanics: run `python3 scripts/blind_validation.py prepare --paper-dir papers/<date>/<LEVEL>` to copy `paper.md` alone into an isolated dir outside the repo (`/tmp/cils-blind-<session>-<level>/`) and hand the solver only that path — or paste the paper text into the prompt. For per-prova re-validation add `--prova L3,S2`: only those self-contained prova blocks are extracted into their own isolated dir.
-- **Work:** solve every objective item → JSON `{"L1.1": "B", ...}` with per-item confidence (`hi|med|lo`); flag list `{item_id, reason}` for anything ambiguous, unanswerable from the text alone, with overlapping options, or with more than one defensible answer. For writing tasks: verify the consegna is self-contained and the word range is printed (do not write essays).
+- **Work:** solve every objective item → JSON `{"L1.1": "B", ...}` with per-item confidence (`hi|med|lo`); flag list `{item_id, reason}` for anything ambiguous, unanswerable from the text alone, with overlapping options, or with more than one defensible answer. For writing tasks: verify the consegna is self-contained and the word range is printed (do not write essays). For produzione orale prove: verify the argomenti/domande are self-contained, text-only and doable at level, and the duration is printed (do not write speeches); report as `O<prova>: ok / issue` in the WRITING section, never in ANSWERS.
 - **Output:** returned to orchestrator (stored under `papers/<date>/<LEVEL>/` only if debugging; not required).
 
 ### S4 — Reconcile (orchestrator + item-writer, **per prova**)

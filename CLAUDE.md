@@ -1,6 +1,6 @@
 # CILS Exam Factory
 
-Generates CILS-style Italian practice papers (A1–C1, **no listening/oral**) from authentic web texts, validates them with independent blind-solving, and publishes them to GitHub Pages.
+Generates CILS-style Italian practice papers (A1–C1, **no listening**; produzione orale is included as a self-study section with memorizable model answers in the chiavi — user directive 2026-07-18) from authentic web texts, validates them with independent blind-solving, and publishes them to GitHub Pages.
 
 ## The one command
 

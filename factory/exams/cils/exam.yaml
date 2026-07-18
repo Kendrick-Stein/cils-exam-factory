@@ -6,7 +6,7 @@
 
 exam: cils
 name: "CILS — Certificazione di Italiano come Lingua Straniera (Università per Stranieri di Siena)"
-excluded_sections_note: "Il modulo standard CILS valuta 5 abilità; alcune varianti ufficiali hanno struttura diversa. Questo factory genera solo lettura, analisi delle strutture e produzione scritta. Ascolto e produzione orale sono esclusi per progetto."
+excluded_sections_note: "Il modulo standard CILS valuta 5 abilità; alcune varianti ufficiali hanno struttura diversa. Questo factory genera lettura, analisi delle strutture, produzione scritta e produzione orale (quest'ultima come esercitazione individuale: argomenti nel quaderno, testi modello da memorizzare nelle chiavi). Solo il test di ascolto è escluso per progetto."
 
 variant_profiles:
   cils-2024-standard:
@@ -17,7 +17,8 @@ variant_profiles:
     source_attribution: manifest-only
     writing_prompt_location: practice_inline
     answer_sheet_style: optical_2024_simplified
-    note: "Default practice profile for standard adult papers; B1/B2/C1 follows dic-2024 structure where available."
+    oral_practice: inline_text_only
+    note: "Default practice profile for standard adult papers; B1/B2/C1 follows dic-2024 structure where available. Produzione orale inclusa come esercitazione: argomenti solo testuali (le tracce-immagine del monologo B1/B2 dic-2024 sono sostituite da tracce testuali) e modelli di risposta per OGNI argomento nelle chiavi."
   cils-2024-a2-integrazione:
     module: a2_integrazione
     levels: [A2]
@@ -49,7 +50,6 @@ levels:
     scoring: {per_section_max: 12, per_section_pass: 7, exam_total: 60, exam_pass: 35}
     excluded:
       - {id: ascolto, nome: "Test di ascolto", prove: 2, durata: "~30 minuti", punti: 12}
-      - {id: orale, nome: "Test di produzione orale", prove: 2, durata: "~10 minuti", punti: 12}
     sections:
       - id: lettura
         nome: "Test di comprensione della lettura"
@@ -81,6 +81,14 @@ levels:
         prove:
           - {n: 1, tipo: tema, genere: "breve descrizione (persone, casa, abitudini)", parole: [20, 40], punti: 6}
           - {n: 2, tipo: testo_funzionale, genere: "breve e-mail di richiesta di informazioni o servizi", parole: [15, 30], punti: 6}
+      - id: orale
+        nome: "Test di produzione orale"
+        durata: "~10 minuti"
+        punti: 12
+        punti_nota: "linee guida: 12 punti, soglia 7 per l'abilità; ripartizione 6 + 6 fra le due prove inferita sul modello della produzione scritta"
+        prove:
+          - {n: 1, tipo: dialogo, focus: "dialogo con l'esaminatore, dominio personale", genere: "6 domande stampate su temi personali (famiglia, casa, abitudini, tempo libero)", domande: 6, durata_prova: "2-3 minuti circa", punti: 6}
+          - {n: 2, tipo: monologo, focus: "monologo breve", genere: "1 tema quotidiano a scelta fra 2", scelta: 2, durata_prova: "2 minuti circa", punti: 6}
 
   A2:
     level_name: "CILS A2 (adulti)"
@@ -88,7 +96,6 @@ levels:
     scoring: {per_section_max: 12, per_section_pass: 7, exam_total: 60, exam_pass: 35}
     excluded:
       - {id: ascolto, nome: "Test di ascolto", prove: 2, durata: "~20 minuti", punti: 12}
-      - {id: orale, nome: "Test di produzione orale", prove: 2, durata: "~10 minuti", punti: 12}
     sections:
       - id: lettura
         nome: "Test di comprensione della lettura"
@@ -120,6 +127,14 @@ levels:
         prove:
           - {n: 1, tipo: tema, genere: "descrizione di esperienze o luoghi familiari", parole: [40, 60], punti: 6}
           - {n: 2, tipo: testo_funzionale, genere: "lettera/messaggio informale o richiesta di informazioni", parole: [25, 40], punti: 6}
+      - id: orale
+        nome: "Test di produzione orale"
+        durata: "~10 minuti"
+        punti: 12
+        punti_nota: "modulo standard adulti: 12 punti, soglia 7 (linee guida); ripartizione 6 + 6 inferita; il campione dic-2024 è del modulo Integrazione (18 punti, struttura diversa)"
+        prove:
+          - {n: 1, tipo: dialogo, focus: "dialogo con l'esaminatore, vita quotidiana", genere: "6 domande stampate su vita quotidiana (lavoro/studio, spesa, orari, spostamenti, vacanze)", domande: 6, durata_prova: "2-3 minuti circa", punti: 6}
+          - {n: 2, tipo: monologo, focus: "monologo breve", genere: "1 tema familiare a scelta fra 2 (esperienze passate o abitudini)", scelta: 2, durata_prova: "1 minuto e mezzo circa", punti: 6}
 
   B1:
     level_name: "CILS UNO — B1"
@@ -127,7 +142,6 @@ levels:
     scoring: {per_section_max: 20, per_section_pass: 11, exam_total: 100, exam_pass: 55}
     excluded:
       - {id: ascolto, nome: "Test di ascolto", prove: 3, durata: "audio-guidato (~30 minuti)", punti: 20}
-      - {id: orale, nome: "Test di produzione orale", prove: 2, durata: "2-3 min + 1,5 min", punti: 20}
     sections:
       - id: lettura
         nome: "Test di comprensione della lettura"
@@ -164,6 +178,15 @@ levels:
              criteri: "efficacia comunicativa 4; correttezza morfosintattica 3,5; adeguatezza e ricchezza lessicale 1,5; ortografia e punteggiatura 1"}
           - {n: 2, tipo: testo_funzionale, genere: "e-mail informale con 3 richieste di contenuto", parole: [50, 80], punti: 10,
              criteri: "efficacia comunicativa 3; adeguatezza stilistica 1; correttezza morfosintattica 3,5; adeguatezza e ricchezza lessicale 1,5; ortografia e punteggiatura 1"}
+      - id: orale
+        nome: "Test di produzione orale"
+        durata: "~10 minuti complessivi"
+        punti: 20
+        prove:
+          - {n: 1, tipo: dialogo, focus: "interazione faccia a faccia", genere: "conversazione su 1 argomento a scelta fra 4 (vita quotidiana, esperienze, opinioni semplici)", scelta: 4, durata_prova: "2-3 minuti circa", punti: 10,
+             criteri: "efficacia comunicativa 4; correttezza morfosintattica 3; adeguatezza e ricchezza lessicale 2; pronuncia e intonazione 1"}
+          - {n: 2, tipo: monologo, focus: "parlato faccia a faccia monodirezionale", genere: "1 argomento a scelta fra 4 (nel quaderno dic-2024 due argomenti sono immagini; nell'esercitazione tutte le tracce sono testuali)", scelta: 4, durata_prova: "1 minuto e mezzo circa", punti: 10,
+             criteri: "efficacia comunicativa 4; correttezza morfosintattica 3; adeguatezza e ricchezza lessicale 2; pronuncia e intonazione 1"}
 
   B2:
     level_name: "CILS DUE — B2"
@@ -171,7 +194,6 @@ levels:
     scoring: {per_section_max: 20, per_section_pass: 11, exam_total: 100, exam_pass: 55}
     excluded:
       - {id: ascolto, nome: "Test di ascolto", prove: 3, durata: "audio-guidato (~30 minuti)", punti: 20}
-      - {id: orale, nome: "Test di produzione orale", prove: 2, durata: "2-3 min + ~1,5 min", punti: 20}
     sections:
       - id: lettura
         nome: "Test di comprensione della lettura"
@@ -208,6 +230,15 @@ levels:
              criteri: "come B1 prova 1 (efficacia 4; morfosintassi 3,5; lessico 1,5; ortografia 1) — non stampati nel quaderno dic-2024"}
           - {n: 2, tipo: testo_funzionale, genere: "e-mail/lettera formale con 3 richieste di contenuto", parole: [80, 100], punti: 10,
              criteri: "come B1 prova 2 (efficacia 3; stile 1; morfosintassi 3,5; lessico 1,5; ortografia 1) — non stampati nel quaderno dic-2024"}
+      - id: orale
+        nome: "Test di produzione orale"
+        durata: "~10 minuti complessivi"
+        punti: 20
+        prove:
+          - {n: 1, tipo: dialogo, focus: "dialogo faccia a faccia", genere: "conversazione su 1 argomento a scelta fra 4 (esperienze, opinioni, attualità leggera)", scelta: 4, durata_prova: "2-3 minuti circa", punti: 10,
+             criteri: "come B1 (efficacia 4; morfosintassi 3; lessico 2; pronuncia e intonazione 1) — non stampati nel quaderno dic-2024"}
+          - {n: 2, tipo: monologo, focus: "monologo", genere: "1 argomento a scelta fra 4 (nel quaderno dic-2024 due argomenti sono immagini; nell'esercitazione tutte le tracce sono testuali)", scelta: 4, durata_prova: "1 minuto e mezzo circa", punti: 10,
+             criteri: "come B1 (efficacia 4; morfosintassi 3; lessico 2; pronuncia e intonazione 1) — non stampati nel quaderno dic-2024"}
 
   C1:
     level_name: "CILS TRE — C1"
@@ -215,7 +246,6 @@ levels:
     scoring: {per_section_max: 20, per_section_pass: 11, exam_total: 100, exam_pass: 55}
     excluded:
       - {id: ascolto, nome: "Test di ascolto", prove: 3, durata: "audio-guidato (~40 minuti)", punti: 20}
-      - {id: orale, nome: "Test di produzione orale", prove: 2, durata: "3-4 min + 2-3 min", punti: 20}
     sections:
       - id: lettura
         nome: "Test di comprensione della lettura"
@@ -252,3 +282,12 @@ levels:
              criteri: "indicatori ufficiali; a C1 l'efficacia comunicativa esprime coerenza e coesione del testo"}
           - {n: 2, tipo: testo_funzionale, genere: "lettera/e-mail formale (scelta fra 2 tracce)", scelta: 2, parole: [100, 120], punti: 10,
              criteri: "indicatori ufficiali + adeguatezza stilistica al registro formale"}
+      - id: orale
+        nome: "Test di produzione orale"
+        durata: "~15 minuti complessivi (linee guida)"
+        punti: 20
+        prove:
+          - {n: 1, tipo: dialogo, focus: "conversazione faccia a faccia (role-play)", genere: "1 situazione a scelta fra 4 (scenari di interazione: reclami, richieste formali, confronti di opinione)", scelta: 4, preparazione: "2-3 minuti", durata_prova: "3-4 minuti circa", punti: 10,
+             criteri: "come B1 (efficacia 4; morfosintassi 3; lessico 2; pronuncia e intonazione 1) — non stampati nel quaderno dic-2024"}
+          - {n: 2, tipo: monologo, focus: "parlato faccia a faccia monodirezionale", genere: "1 tema a scelta fra 4 (argomenti astratti/di attualità)", scelta: 4, preparazione: "3 minuti", durata_prova: "2-3 minuti circa", punti: 10,
+             criteri: "come B1 (efficacia 4; morfosintassi 3; lessico 2; pronuncia e intonazione 1) — non stampati nel quaderno dic-2024"}

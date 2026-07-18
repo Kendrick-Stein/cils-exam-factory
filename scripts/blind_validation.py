@@ -25,10 +25,11 @@ class ValidationError(Exception):
 
 SAFE_SESSION = re.compile(r"^\d{4}-\d{2}-\d{2}(?:-r[1-9]\d*)?$")
 SAFE_LEVEL = re.compile(r"^[A-Za-z0-9_-]+$")
-PROVA_ID_RE = re.compile(r"^([LS])(\d+)$")
+PROVA_ID_RE = re.compile(r"^([LSO])(\d+)$")
 PROVA_HEADING_TEMPLATES = {
     "L": r"^##\s+Comprensione della lettura\s+[—-]\s+Prova n\.\s+{n}\s*$",
     "S": r"^##\s+Analisi delle strutture di comunicazione\s+[—-]\s+Prova n\.\s+{n}\s*$",
+    "O": r"^##\s+Produzione orale\s+[—-]\s+Prova n\.\s+{n}\s*$",
 }
 NEXT_HEADING_RE = re.compile(r"^#{1,2}\s+", re.MULTILINE)
 
@@ -36,7 +37,7 @@ NEXT_HEADING_RE = re.compile(r"^#{1,2}\s+", re.MULTILINE)
 def extract_prova_block(paper_text: str, prova_id: str) -> str:
     match = PROVA_ID_RE.fullmatch(prova_id.strip())
     if not match:
-        raise ValidationError(f"invalid prova id {prova_id!r}: use L<n> or S<n>")
+        raise ValidationError(f"invalid prova id {prova_id!r}: use L<n>, S<n> or O<n>")
     section, number = match.group(1), int(match.group(2))
     heading_re = re.compile(PROVA_HEADING_TEMPLATES[section].format(n=number), re.MULTILINE)
     start = heading_re.search(paper_text)
@@ -53,7 +54,7 @@ ANSWER_ID_ALIASES = (
     (re.compile(r"^strutture_prova_(\d+)_(\d+)$", re.IGNORECASE), "S"),
     (re.compile(r"^analisi_p(\d+)_(\d+)$", re.IGNORECASE), "S"),
 )
-WRITING_ID = re.compile(r"^(?:scrittura|writing)_p?\d+$|^W\d+$", re.IGNORECASE)
+WRITING_ID = re.compile(r"^(?:scrittura|writing|orale|oral)_p?\d+$|^[WO]\d+(?:\.\d+)?$", re.IGNORECASE)
 
 
 def load_yaml(path: Path) -> dict[str, Any]:
@@ -325,7 +326,7 @@ def command_prepare(args: argparse.Namespace) -> int:
         prova_ids = [pid.strip() for pid in args.prova.split(",") if pid.strip()]
         for pid in prova_ids:
             if not PROVA_ID_RE.fullmatch(pid):
-                raise ValidationError(f"invalid prova id {pid!r}: use L<n> or S<n>")
+                raise ValidationError(f"invalid prova id {pid!r}: use L<n>, S<n> or O<n>")
         suffix = "-" + "-".join(pid.lower() for pid in prova_ids)
         isolated_dir = args.tmp_root / f"cils-blind-{session}-{level}{suffix}"
         resolved_isolated_dir = isolated_dir.resolve()
@@ -355,7 +356,10 @@ def command_prepare(args: argparse.Namespace) -> int:
         "(2) FLAGS as JSON array for ambiguous or unanswerable items, "
         "(3) WRITING checks. Use item IDs by section: L<prova>.<n> for "
         "Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, "
-        "and W<prova> only for writing checks. For reading reconstruction, either "
+        "and W<prova>/O<prova> only for writing and produzione orale checks "
+        "(never inside ANSWERS: writing and oral tasks have no objective key; "
+        "verify instead that each consegna/argomento is self-contained and, for "
+        "writing, that the word range is printed). For reading reconstruction, either "
         "return the whole sequence as L3 or each slot as L3.<n>. Do not open any "
         "other file or the web."
     )

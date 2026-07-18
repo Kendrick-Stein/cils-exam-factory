@@ -6,8 +6,8 @@
 
 Each practice session includes, per level (A1, A2, B1, B2, C1):
 
-- **Fascicolo** — reading comprehension, structures of communication (grammar & vocabulary), and written production, following the structure, instructions and scoring of recent official CILS papers. *(No listening/oral sections.)*
-- **Chiavi e commenti** — full answer key with short explanations (with 中文 notes), a model essay (范文) for every writing task, and a **Glossario da ricordare**: the words and phrases worth memorizing from that paper.
+- **Fascicolo** — reading comprehension, structures of communication (grammar & vocabulary), written production, and oral production (text-only prompts for self-study practice), following the structure, instructions and scoring of recent official CILS papers. *(No listening section.)*
+- **Chiavi e commenti** — full answer key with short explanations (with 中文 notes), a model essay (范文) for every writing task, memorizable model answers for **every** oral prompt, and a **Glossario da ricordare**: the words and phrases worth memorizing from that paper.
 
 ## How papers are made
 

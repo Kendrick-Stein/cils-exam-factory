@@ -459,7 +459,7 @@ METODO_STEPS = [
     ("Adattamento al formato CILS",
      "Ogni testo viene ridotto alla banda del livello e montato sui template dei quaderni d'esame, con consegne e punteggi nel formato ufficiale."),
     ("Generazione degli esercizi",
-     "Gli item nascono una prova alla volta: comprensione della lettura, analisi delle strutture, produzione scritta con tracce e testi modello."),
+     "Gli item nascono una prova alla volta: comprensione della lettura, analisi delle strutture, produzione scritta e produzione orale, con tracce e testi modello da memorizzare."),
     ("Risoluzione e verifica alla cieca",
      "Un risolutore indipendente riceve soltanto il fascicolo, senza chiavi né fonti: si pubblica solo con il 100% di accordo sugli item oggettivi e zero ambiguità."),
     ("Audit e pubblicazione",
