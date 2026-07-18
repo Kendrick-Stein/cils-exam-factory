@@ -50,7 +50,7 @@ Core workflow:
    python3 scripts/build_site.py
    ```
 
-7. For S7, publish only after checking manifests: each staged level must be `status: published`, with 100% blind agreement, zero flags, quality PASS, and format PASS. Stage those publishable paper directories plus `docs/`, then commit and push. Skip this step when `--no-publish` is present.
+7. For S7, publish only after checking manifests: each staged level must be `status: published`, with 100% blind agreement, zero flags, quality PASS, and format PASS. Stage those publishable paper directories plus `docs/`, then commit and push, then merge the working branch into `main` and push `main` — GitHub Pages deploys from `main`'s `docs/`, so the site only updates when `main` moves. Publishing is automatic once the gates pass (user directive 2026-07-18); do not wait for confirmation. Skip this step only when `--no-publish` is present.
 
 Useful status check before build/publish:
 

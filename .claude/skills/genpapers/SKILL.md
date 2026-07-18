@@ -67,11 +67,15 @@ Alternative (only when the user explicitly allows Claude subagents):
 
 ## Build & publish
 
+Publish is automatic once all gates pass (user directive 2026-07-18) — do not ask for confirmation; only `--no-publish` stops S7.
+
 ```bash
 python3 scripts/build_site.py          # S6 — verify exit 0 and per-level outputs
 git add papers/<date>/<published-levels> docs
 git commit -m "feat(papers): <date> <levels>"   # S7 (skip with --no-publish; draft levels excluded)
 git push
+# Deploy: Pages serves docs/ from main. If on a working branch, also merge into main and push it.
+# If local main is checked out in another worktree: git -C <worktree> merge <branch> && git -C <worktree> push origin main
 ```
 
 ## Final report to the user (always)
