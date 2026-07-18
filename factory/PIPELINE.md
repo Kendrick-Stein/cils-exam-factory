@@ -68,8 +68,10 @@ Paper shows plain per-prova numbering (fidelity with real papers). Internally, e
 - `python3 scripts/build_site.py` (add `--no-pdf` only for previews). The builder enforces the publish gate for `status: published` manifests: validation pass, 100% blind agreement, zero flags, zero mismatches, latest `quality_audit` result pass, and latest `format_audit` result pass. Verify exit 0 and that `docs/papers/<date>/<LEVEL>/` contains `paper.pdf` and `answers.pdf` for every published level (the site publishes PDFs only; md sources stay in `papers/`).
 - Optional status audit before publish: `python3 scripts/paper_status.py --session <date> --levels A1,A2,B1,B2,C1` reports publishable levels and the next missing stage for drafts.
 
-### S7 — Publish
-- Stage only publishable levels plus docs: `git add papers/<date>/<published-levels> docs && git commit -m "feat(papers): <date> <levels>" && git push`. Skipped with `--no-publish`. Draft levels are excluded by the build and must not be staged as a completed session; report them explicitly to the user. Never force-push; published sessions are immutable (corrections = new session).
+### S7 — Publish (automatic — user directive 2026-07-18)
+- Once blind validation, format audit and quality audit all pass, publish immediately without asking the user; only `--no-publish` skips S7.
+- Stage only publishable levels plus docs: `git add papers/<date>/<published-levels> docs && git commit -m "feat(papers): <date> <levels>" && git push`. Draft levels are excluded by the build and must not be staged as a completed session; report them explicitly to the user. Never force-push; published sessions are immutable (corrections = new session).
+- **Deploy to Pages:** GitHub Pages serves `docs/` from `main`, so pushing a working branch alone does not update the live site. After pushing the working branch, merge it into `main` and push `main`. If local `main` is checked out in another worktree, run the merge there: `git -C <worktree> merge <branch> && git -C <worktree> push origin main`. If already on `main`, the first push is the deploy.
 
 ## Failure summary
 
