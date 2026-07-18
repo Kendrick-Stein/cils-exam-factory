@@ -1,0 +1,155 @@
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "D", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "C", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "D", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Vero", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A, F, K, B, N, E, P, H, I, D, O, G, M, C, J, L", "confidence": "hi"},
+
+  "S1.1": {"answer": "di", "confidence": "hi"},
+  "S1.2": {"answer": "tra", "confidence": "hi"},
+  "S1.3": {"answer": "in", "confidence": "hi"},
+  "S1.4": {"answer": "al", "confidence": "hi"},
+  "S1.5": {"answer": "tra", "confidence": "hi"},
+  "S1.6": {"answer": "e", "confidence": "hi"},
+  "S1.7": {"answer": "Tra", "confidence": "hi"},
+  "S1.8": {"answer": "di", "confidence": "hi"},
+  "S1.9": {"answer": "di", "confidence": "hi"},
+  "S1.10": {"answer": "tra", "confidence": "hi"},
+  "S1.11": {"answer": "e", "confidence": "hi"},
+  "S1.12": {"answer": "e", "confidence": "hi"},
+  "S1.13": {"answer": "tra", "confidence": "hi"},
+  "S1.14": {"answer": "e", "confidence": "hi"},
+  "S1.15": {"answer": "perché", "confidence": "hi"},
+  "S1.16": {"answer": "di", "confidence": "hi"},
+  "S1.17": {"answer": "da", "confidence": "hi"},
+  "S1.18": {"answer": "di", "confidence": "hi"},
+  "S1.19": {"answer": "con", "confidence": "hi"},
+  "S1.20": {"answer": "dei", "confidence": "hi"},
+
+  "S2.1": {"answer": "racconta", "confidence": "hi"},
+  "S2.2": {"answer": "formulò", "confidence": "hi"},
+  "S2.3": {"answer": "ha portato", "confidence": "hi"},
+  "S2.4": {"answer": "ha venduto", "confidence": "hi"},
+  "S2.5": {"answer": "si riduca", "confidence": "hi"},
+  "S2.6": {"answer": "racconta", "confidence": "hi"},
+  "S2.7": {"answer": "trovano", "confidence": "hi"},
+  "S2.8": {"answer": "mancavano", "confidence": "hi"},
+  "S2.9": {"answer": "aspettavano", "confidence": "hi"},
+  "S2.10": {"answer": "sarebbe iniziato", "confidence": "hi"},
+  "S2.11": {"answer": "avesse sorpreso", "confidence": "med"},
+  "S2.12": {"answer": "rispose", "confidence": "hi"},
+  "S2.13": {"answer": "chiedersi", "confidence": "hi"},
+  "S2.14": {"answer": "erano stati venduti", "confidence": "hi"},
+  "S2.15": {"answer": "abbia", "confidence": "hi"},
+  "S2.16": {"answer": "abbiano comprato", "confidence": "hi"},
+  "S2.17": {"answer": "fosse", "confidence": "hi"},
+  "S2.18": {"answer": "si accamperebbero", "confidence": "hi"},
+  "S2.19": {"answer": "distinguendo", "confidence": "hi"},
+  "S2.20": {"answer": "accampate", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "A", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "D", "confidence": "hi"},
+  "S3.8": {"answer": "A", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "B", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "D", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "A", "confidence": "hi"},
+  "S3.15": {"answer": "B", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "L’esito negativo delle procedure previste dagli articoli 34 e 34-bis del decreto legislativo n. 165 del 2001 costituisce la condizione alla quale è subordinato il numero dei posti messi a bando.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "I candidati devono presentare la domanda di partecipazione esclusivamente per via telematica dal 10 luglio 2026 ed entro le ore 12 del 7 settembre 2026.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "L’autenticazione con SPID, CIE, CNS o eIDAS e la compilazione del modulo disponibile sul portale inPA devono essere effettuate dal candidato.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Chi intende partecipare al concorso deve versare entro il termine di scadenza del bando la tassa di dieci euro tramite la piattaforma PagoPA.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "Il portale inPA contiene le indicazioni per il pagamento, che sono illustrate nell’apposita sezione del modulo di partecipazione.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "Chi richiede assistenza informatica per la procedura di iscrizione online deve utilizzare l’apposito modulo presente sul portale inPA.",
+    "confidence": "hi"
+  }
+}
+```
+
+## FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.11",
+    "reason": "Sono plausibili sia «avesse sorpreso», con anteriorità rispetto al momento dell’intervista, sia «sorprendesse», se la sorpresa è presentata come contemporanea o abituale."
+  }
+]
+```
+
+## WRITING / ORAL CHECKS
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "all_options_self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "all_options_self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "preparation_time_printed": true,
+    "duration_printed": true
+  },
+  "O2": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "preparation_time_printed": true,
+    "duration_printed": true
+  }
+}
+```

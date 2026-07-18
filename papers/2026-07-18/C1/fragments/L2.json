@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "ARTICOLO 3 — AUTORIZZAZIONE ALLA MISSIONE E ALLA MOBILITÀ INTRA ATENEO",
+    "T2_TEXT": "Il personale con rapporto di lavoro subordinato a tempo indeterminato o determinato, per poter svolgere la missione o la mobilità intra ateneo, deve essere preventivamente autorizzato utilizzando il modulo digitale presente nell’applicativo per le missioni U-Web Missioni.\n\nL’autorizzazione alla missione o alla mobilità intra ateneo è concessa, previa verifica della copertura della spesa, a domanda dell’interessato e deve risultare da apposito provvedimento. L’autorizzazione compete al responsabile di unità organizzative, genericamente intese e come individuate nello Statuto e nel regolamento di organizzazione, per il personale che afferisce alla struttura.\n\nLa missione o mobilità intra ateneo compiuta da Rettore, Direttore Generale, Direttori di dipartimenti e centri non è soggetta ad autorizzazione. Rimane confermato l’obbligo di compilare il modulo digitale presente nell’applicativo per le missioni U-Web Missioni, anche per la verifica della copertura finanziaria.\n\nIl provvedimento di autorizzazione deve contenere gli elementi necessari per individuare soggetto, sede di servizio, oggetto, durata, luogo, mezzi di trasporto, ammontare presunto di spesa e fondi su cui deve gravare il rimborso, nonché gli elementi utili per attivare le coperture assicurative. Nel caso in cui le spese gravino su fondi finalizzati, l’autorizzazione deve essere firmata anche dal responsabile dei fondi stessi.\n\nIl personale dipendente che deve svolgere la sua attività presso una struttura diversa dal proprio ufficio, dipartimento o laboratorio dell’Ateneo e deve recarsi presso uffici di altra amministrazione o altra struttura dell’Ateneo, oppure partecipare a convegni o eventi, anche online per i quali sostiene il costo d’iscrizione, deve essere preventivamente autorizzato.\n\nIl dipendente chiede, attraverso l’applicativo U-Web Missioni, l’autorizzazione allo svolgimento della missione o mobilità intra ateneo, accedendo con le proprie credenziali. Per assicurare un congruo tempo a chi deve autorizzare è necessario fare la richiesta con un ragionevole anticipo rispetto alla data di inizio della missione o mobilità intra ateneo.\n\nIl responsabile della struttura, verificati i requisiti, autorizza lo svolgimento dell’attività istituzionale in un luogo diverso dalla sede di servizio. L’autorizzazione serve a giustificare l’assenza dalla propria sede e a garantire la copertura assicurativa contro gli infortuni sul lavoro. Per questi motivi deve essere sempre anticipata rispetto alla partenza.\n\nL’autorizzazione attesta anche che il lavoro che si svolge in missione o mobilità intra ateneo è pertinente col ruolo, l’attività di ricerca e didattica, le competenze e i doveri istituzionali.\n\nIl responsabile della struttura, se coincide col responsabile dei fondi sui quali gravano le spese di missione o mobilità intra ateneo, autorizza contestualmente anche l’utilizzo delle risorse; è quindi necessario che l’operatore contabile verifichi, con tempestività, che esse siano disponibili e sufficienti.\n\nPer il richiedente, il provvedimento di autorizzazione è efficace dal momento in cui riceve la comunicazione via e-mail dell’approvazione da parte del responsabile della struttura e da quello dei fondi, qualora diverso. L’intero processo autorizzativo si perfeziona dopo la registrazione contabile delle spese inserite a preventivo dal richiedente.\n\nTutte le autorizzazioni implicano valutazioni di merito e pertanto solo determinate figure hanno titolo per poterle accordare. L’autorizzazione alla missione o mobilità intra ateneo compete, di norma, al responsabile dell’unità organizzativa e viene accordata mediante l’utilizzo dell’applicativo U-Web Missioni.\n\nChi ricopre le cariche di Magnifico Rettore, Direttore Generale, Direttore di Dipartimento o di Centro interdipartimentale non deve attendere l’autorizzazione di altre figure. Tuttavia, anche chi ricopre queste cariche è tenuto a completare la procedura prevista dall’applicativo.",
+    "L2_ITEMS": "**1.** Il personale subordinato, sia a tempo indeterminato sia a tempo determinato, deve ottenere l’autorizzazione prima di svolgere una missione. Vero ○ Falso ○\n\n**2.** L’autorizzazione può essere concessa prima che sia verificata la copertura della spesa. Vero ○ Falso ○\n\n**3.** I direttori di dipartimenti e centri, pur essendo esenti dall’autorizzazione, devono compilare il modulo digitale. Vero ○ Falso ○\n\n**4.** Il provvedimento di autorizzazione può omettere le informazioni necessarie ad attivare le coperture assicurative. Vero ○ Falso ○\n\n**5.** Se le spese ricadono su fondi finalizzati, è richiesta anche la firma del responsabile di quei fondi. Vero ○ Falso ○\n\n**6.** La partecipazione a un evento online a pagamento non richiede un’autorizzazione preventiva. Vero ○ Falso ○\n\n**7.** Il dipendente deve presentare la richiesta con un anticipo che lasci un tempo adeguato a chi deve autorizzarla. Vero ○ Falso ○\n\n**8.** L’autorizzazione può essere rilasciata dopo la partenza, purché serva a giustificare l’assenza dalla sede. Vero ○ Falso ○\n\n**9.** L’autorizzazione certifica anche la pertinenza dell’attività svolta con il ruolo e i doveri istituzionali del dipendente. Vero ○ Falso ○\n\n**10.** Quando il responsabile della struttura gestisce anche i fondi interessati, autorizza nello stesso momento l’impiego delle risorse. Vero ○ Falso ○\n\n**11.** L’operatore contabile deve controllare soltanto la disponibilità delle risorse, senza valutarne la sufficienza. Vero ○ Falso ○\n\n**12.** Per il richiedente, il provvedimento diventa efficace soltanto dopo la registrazione contabile delle spese preventivate. Vero ○ Falso ○\n\n**13.** Di norma, l’autorizzazione compete al responsabile dell’unità organizzativa ed è accordata tramite U-Web Missioni. Vero ○ Falso ○\n\n**14.** Le figure apicali esentate dall’attesa di un’autorizzazione possono anche evitare di completare la procedura nell’applicativo. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Il testo include il personale «a tempo indeterminato o determinato» e stabilisce che «deve essere preventivamente autorizzato». 中文：两类雇佣期限都适用事前授权。 |\n| L2.2 | F | L’autorizzazione è concessa «previa verifica della copertura della spesa». 中文：经费覆盖核验是前置条件。 |\n| L2.3 | V | Per queste cariche la missione «non è soggetta ad autorizzazione», ma «rimane confermato l’obbligo di compilare il modulo digitale». 中文：免授权不等于免流程。 |\n| L2.4 | F | Il provvedimento deve contenere «gli elementi utili per attivare le coperture assicurative». 中文：保险信息属于必备内容。 |\n| L2.5 | V | Se le spese «gravino su fondi finalizzati», il documento deve essere firmato «anche dal responsabile dei fondi stessi». 中文：专项资金触发额外签字。 |\n| L2.6 | F | Anche chi partecipa a eventi online «per i quali sostiene il costo d’iscrizione» deve essere preventivamente autorizzato. 中文：线上但需付报名费时仍须授权。 |\n| L2.7 | V | La richiesta va fatta «con un ragionevole anticipo» per assicurare «un congruo tempo a chi deve autorizzare». 中文：提前量服务于审批时间。 |\n| L2.8 | F | L’autorizzazione «deve essere sempre anticipata rispetto alla partenza». 中文：不能事后补办来追认出发。 |\n| L2.9 | V | Essa attesta che il lavoro è pertinente «col ruolo» e con «i doveri istituzionali». 中文：授权也核实任务与岗位职责的相关性。 |\n| L2.10 | V | Se i due responsabili coincidono, quello della struttura «autorizza contestualmente anche l’utilizzo delle risorse». 中文：同一负责人可同步批准任务和资金。 |\n| L2.11 | F | L’operatore verifica che le risorse siano «disponibili e sufficienti». 中文：既查有无，也查是否足够。 |\n| L2.12 | F | Per il richiedente il provvedimento è efficace quando riceve «la comunicazione via e-mail dell’approvazione»; la registrazione contabile perfeziona invece «l’intero processo autorizzativo». 中文：个人层面的生效与全流程完成是两个时点。 |\n| L2.13 | V | L’autorizzazione compete «di norma, al responsabile dell’unità organizzativa» ed è accordata mediante U-Web Missioni. 中文：题目准确保留了通常权限与办理渠道。 |\n| L2.14 | F | Anche le figure che non attendono altre autorizzazioni sono «tenute a completare la procedura prevista dall’applicativo». 中文：高层仅免等待，仍须走完系统程序。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "previa verifica",
+      "categoria": "locuzione preposizionale",
+      "zh": "经核验后；以核验为前提",
+      "en": "subject to prior verification",
+      "esempio": "previa verifica della copertura della spesa"
+    },
+    {
+      "parola": "gravino su fondi finalizzati",
+      "categoria": "locuzione verbale",
+      "zh": "由专项资金承担",
+      "en": "be charged to earmarked funds",
+      "esempio": "le spese gravino su fondi finalizzati"
+    },
+    {
+      "parola": "congruo tempo",
+      "categoria": "locuzione nominale",
+      "zh": "充足且适当的时间",
+      "en": "adequate time",
+      "esempio": "Per assicurare un congruo tempo a chi deve autorizzare"
+    },
+    {
+      "parola": "copertura assicurativa",
+      "categoria": "locuzione nominale",
+      "zh": "保险保障",
+      "en": "insurance coverage",
+      "esempio": "garantire la copertura assicurativa contro gli infortuni sul lavoro"
+    },
+    {
+      "parola": "si perfeziona",
+      "categoria": "verbo pronominale",
+      "zh": "完成并正式生效",
+      "en": "is completed",
+      "esempio": "L’intero processo autorizzativo si perfeziona dopo la registrazione contabile"
+    }
+  ]
+}

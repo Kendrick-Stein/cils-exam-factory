@@ -1,0 +1,42 @@
+ANSWERS
+```json
+{
+  "S4.1": {
+    "answer": "La consistenza numerica dei posti messi a bando dipende dal fatto che abbiano esito negativo le procedure previste dagli articoli 34 e 34-bis del decreto legislativo n. 165 del 2001.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "Esclusivamente per via telematica, i candidati sono tenuti a presentare la domanda di partecipazione dal 10 luglio 2026 ed entro le ore 12 del 7 settembre 2026.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "Il candidato è tenuto sia ad autenticarsi con SPID, CIE, CNS o eIDAS, sia a compilare il modulo disponibile sul portale inPA.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Tramite la piattaforma PagoPA, i candidati sono tenuti a versare la tassa di dieci euro entro il termine di scadenza del bando per partecipare al concorso.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "L’apposita sezione del modulo di partecipazione illustra le indicazioni per il pagamento contenute nel portale inPA.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "Per l’assistenza informatica relativa all’iscrizione online occorre utilizzare l’apposito modulo presente sul portale inPA.",
+    "confidence": "hi"
+  }
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "tasks_present": false,
+  "checks": []
+}
+```

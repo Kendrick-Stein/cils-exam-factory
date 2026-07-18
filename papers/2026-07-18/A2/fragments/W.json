@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una mattina piacevole che hai passato al mercato del tuo quartiere. Scrivi con chi eri, che cosa hai visto e fatto e perché ti piace questo luogo.",
+    "W2_PROMPT": "Scrivi un messaggio a un vicino per chiedergli di dare acqua alle tue piante mentre sei fuori città. Indica il giorno, spiega dove sono le chiavi e chiedi una risposta.",
+    "MODEL_W1": "Domenica mattina sono andato al mercato del mio quartiere con mia madre. Le bancarelle erano colorate e piene di frutta fresca. Abbiamo comprato mele, pane e formaggio, poi abbiamo bevuto un succo al bar. Mi piace quel mercato perché i venditori sono gentili e l'ambiente è vivace.",
+    "MODEL_W1_PHRASES": "«Domenica mattina sono andato a…»（星期天早上我去了……） · «Le bancarelle erano…»（摊位是……的） · «Abbiamo comprato…»（我们买了……） · «Mi piace quel mercato perché…»（我喜欢那个市场，因为……）",
+    "MODEL_W2": "Ciao Paolo, da venerdì a domenica sarò fuori città. Puoi dare acqua alle piante sul mio balcone sabato? Le chiavi sono dalla signora Anna. Per favore, fammi sapere se sei libero. Grazie! Luca",
+    "MODEL_W2_PHRASES": "«Sarò fuori città.»（我将不在城里） · «Puoi dare acqua alle piante?»（你能给植物浇水吗？） · «Le chiavi sono da…»（钥匙在……那里） · «Fammi sapere se sei libero.»（请告诉我你是否有空）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "bancarelle",
+      "categoria": "nome femminile plurale",
+      "zh": "摊位",
+      "en": "market stalls",
+      "esempio": "Le bancarelle erano colorate e piene di frutta fresca."
+    },
+    {
+      "parola": "frutta fresca",
+      "categoria": "locuzione nominale",
+      "zh": "新鲜水果",
+      "en": "fresh fruit",
+      "esempio": "Le bancarelle erano colorate e piene di frutta fresca."
+    },
+    {
+      "parola": "vivace",
+      "categoria": "aggettivo",
+      "zh": "有活力的",
+      "en": "lively",
+      "esempio": "Mi piace quel mercato perché i venditori sono gentili e l'ambiente è vivace."
+    },
+    {
+      "parola": "dare acqua alle piante",
+      "categoria": "locuzione verbale",
+      "zh": "给植物浇水",
+      "en": "to water the plants",
+      "esempio": "Puoi dare acqua alle piante sul mio balcone sabato?"
+    },
+    {
+      "parola": "fammi sapere",
+      "categoria": "locuzione verbale",
+      "zh": "请告诉我",
+      "en": "let me know",
+      "esempio": "Per favore, fammi sapere se sei libero."
+    }
+  ]
+}

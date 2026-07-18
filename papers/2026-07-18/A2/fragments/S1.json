@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ raccolta propone ricette semplici per tutti __(1)__ giorni della settimana. Tra il lavoro e molte cose __(2)__ fare, passare ore __(3)__ cucina è difficile. Tutte __(4)__ ricette aiutano a organizzare il pranzo senza rinunciare __(5)__ mangiare con gusto.\n\nLe idee sono pratiche e adatte a tutte __(6)__ persone che hanno poco tempo: piatti leggeri e soluzioni da preparare all'ultimo minuto. Ci sono ciotole di riso, insalate che non hanno bisogno __(7)__ cottura, primi cremosi insieme __(8)__ secondi gustosi. Ogni ricetta è scelta __(9)__ la sua semplicità ed è adatta alla vita __(10)__ tutti i giorni.",
+    "T4_TITLE": "RICETTE FACILI PER OGNI GIORNO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — i.** La forma è obbligatoria dopo «tutti»: «tutti i giorni». 中文：tutti 后接定冠词 i。\n- **S1.2 — da.** La costruzione fissa è «cose da fare». 中文：表示待办事项。\n- **S1.3 — in.** Il luogo è espresso da «ore in cucina». 中文：表示在厨房里。\n- **S1.4 — le.** La forma è obbligatoria dopo «tutte»: «tutte le ricette». 中文：tutte 后接定冠词 le。\n- **S1.5 — a.** Il verbo richiede «rinunciare a»: «senza rinunciare a mangiare con gusto». 中文：rinunciare regge a。\n- **S1.6 — le.** La forma è obbligatoria dopo «tutte»: «adatte a tutte le persone». 中文：tutte 后接定冠词 le。\n- **S1.7 — di.** La costruzione fissa è «avere bisogno di»: «non hanno bisogno di cottura». 中文：avere bisogno regge di。\n- **S1.8 — a.** La locuzione fissa è «insieme a»: «primi cremosi insieme a secondi gustosi». 中文：insieme regge a。\n- **S1.9 — per.** «Scelta per la sua semplicità» indica il motivo della scelta. 中文：表示被选择的原因。\n- **S1.10 — di.** L'espressione fissa è «di tutti i giorni». 中文：表示日常的。",
+    "ANS_S1_ROWS": "| S1.1 | i | S1.6 | le |\n| S1.2 | da | S1.7 | di |\n| S1.3 | in | S1.8 | a |\n| S1.4 | le | S1.9 | per |\n| S1.5 | a | S1.10 | di |"
+  },
+  "key": {
+    "S1.1": "i",
+    "S1.2": "da",
+    "S1.3": "in",
+    "S1.4": "le",
+    "S1.5": "a",
+    "S1.6": "le",
+    "S1.7": "di",
+    "S1.8": "a",
+    "S1.9": "per",
+    "S1.10": "di"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "organizzare",
+      "categoria": "verbo",
+      "zh": "安排；组织",
+      "en": "to organize",
+      "esempio": "organizzare il pranzo"
+    },
+    {
+      "parola": "semplicità",
+      "categoria": "sostantivo femminile singolare",
+      "zh": "简单；简便",
+      "en": "simplicity",
+      "esempio": "la sua semplicità"
+    },
+    {
+      "parola": "rinunciare",
+      "categoria": "verbo",
+      "zh": "放弃",
+      "en": "to give up",
+      "esempio": "senza rinunciare"
+    },
+    {
+      "parola": "cottura",
+      "categoria": "sostantivo femminile singolare",
+      "zh": "烹饪",
+      "en": "cooking",
+      "esempio": "cottura"
+    },
+    {
+      "parola": "gustosi",
+      "categoria": "aggettivo maschile plurale",
+      "zh": "美味的",
+      "en": "tasty",
+      "esempio": "secondi gustosi"
+    }
+  ]
+}

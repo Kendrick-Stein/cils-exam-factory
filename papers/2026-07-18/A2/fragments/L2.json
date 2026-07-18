@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "ISCRIZIONE AL SERVIZIO DI REFEZIONE SCOLASTICA 2026/2027",
+    "T2_TEXT": "Il servizio di refezione scolastica è rivolto agli alunni delle scuole dell’infanzia statali, primarie statali a tempo pieno e secondarie di primo grado con rientri pomeridiani.\n\nPer usare il servizio, tutte le famiglie devono presentare una domanda. Devono indicare se chiedono una quota ridotta, chiamata quota agevolata, oppure accettano la quota massima. Devono anche comunicare se serve una dieta speciale.\n\nLa domanda si presenta solo online, nella pagina del servizio del Comune di Pisa. Per entrare nel sistema si può usare SPID, la Carta d’identità elettronica o la Carta nazionale dei servizi. Se una famiglia invia più domande per lo stesso bambino, il Comune considera l’ultima completata e registrata.\n\nLa domanda deve essere presentata ogni anno scolastico. La persona che la presenta deve pagare il servizio.\n\nLe iscrizioni sono aperte dalle ore 12.00 di venerdì 3 aprile 2026 alle ore 24.00 di venerdì 11 settembre 2026. Se la domanda arriva dopo il termine, il Comune assegna la quota massima e conferma come persona incaricata del pagamento chi pagava il servizio nell’anno scolastico precedente.",
+    "L2_ITEMS": "1. Gli alunni delle scuole primarie possono usare il servizio se frequentano a tempo pieno.  \n   Vero ○ Falso ○\n\n2. Nella domanda la famiglia deve comunicare se serve una dieta speciale.  \n   Vero ○ Falso ○\n\n3. Le famiglie possono presentare la domanda anche negli uffici del Comune.  \n   Vero ○ Falso ○\n\n4. Per entrare nel sistema, SPID è l’unica possibilità.  \n   Vero ○ Falso ○\n\n5. Se arrivano più domande per lo stesso bambino, il Comune considera la prima.  \n   Vero ○ Falso ○\n\n6. La domanda deve essere presentata di nuovo ogni anno scolastico.  \n   Vero ○ Falso ○\n\n7. La persona che presenta la domanda non deve pagare il servizio.  \n   Vero ○ Falso ○\n\n8. Se la domanda arriva dopo il termine, il Comune assegna la quota massima.  \n   Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V || Vero | Il servizio è rivolto agli alunni delle «primarie statali a tempo pieno». 中文：小学对象限于全日制学生。 |\n| L2.2 | V || Vero | Le famiglie devono «comunicare se serve una dieta speciale». 中文：申请中要说明特殊饮食需求。 |\n| L2.3 | F || Falso | «La domanda si presenta solo online», non negli uffici. 中文：只能在线提交。 |\n| L2.4 | F || Falso | Oltre a SPID, si possono usare la «Carta d’identità elettronica» o la «Carta nazionale dei servizi». 中文：登录方式不止一种。 |\n| L2.5 | F || Falso | Il Comune considera «l’ultima completata e registrata», non la prima. 中文：以最后完成并登记的申请为准。 |\n| L2.6 | V || Vero | «La domanda deve essere presentata ogni anno scolastico». 中文：每学年都要重新申请。 |\n| L2.7 | F || Falso | «La persona che la presenta deve pagare il servizio». 中文：提交申请的人负责付款。 |\n| L2.8 | V || Vero | Dopo il termine, «il Comune assegna la quota massima». 中文：逾期按最高费用计算。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "F || Falso",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "refezione scolastica",
+      "categoria": "locuzione nominale",
+      "zh": "学校供餐",
+      "en": "school meal service",
+      "esempio": "Il servizio di refezione scolastica è rivolto agli alunni delle scuole dell’infanzia statali, primarie statali a tempo pieno e secondarie di primo grado con rientri pomeridiani."
+    },
+    {
+      "parola": "rientri pomeridiani",
+      "categoria": "locuzione nominale",
+      "zh": "下午返校上课",
+      "en": "afternoon classes",
+      "esempio": "Il servizio di refezione scolastica è rivolto agli alunni delle scuole dell’infanzia statali, primarie statali a tempo pieno e secondarie di primo grado con rientri pomeridiani."
+    },
+    {
+      "parola": "quota agevolata",
+      "categoria": "locuzione nominale",
+      "zh": "优惠费用",
+      "en": "reduced fee",
+      "esempio": "Devono indicare se chiedono una quota ridotta, chiamata quota agevolata, oppure accettano la quota massima."
+    },
+    {
+      "parola": "dieta speciale",
+      "categoria": "locuzione nominale",
+      "zh": "特殊饮食",
+      "en": "special diet",
+      "esempio": "Devono anche comunicare se serve una dieta speciale."
+    },
+    {
+      "parola": "incaricata del pagamento",
+      "categoria": "locuzione aggettivale",
+      "zh": "负责付款的",
+      "en": "responsible for payment",
+      "esempio": "Se la domanda arriva dopo il termine, il Comune assegna la quota massima e conferma come persona incaricata del pagamento chi pagava il servizio nell’anno scolastico precedente."
+    }
+  ]
+}

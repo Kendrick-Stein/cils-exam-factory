@@ -1,0 +1,133 @@
+exam: cils
+level: A2
+session: '2026-07-18'
+title: CILS A2 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/sicilia/notizie/2026/06/04/iart-ustica-il-festival-darte-e-linaugurazione-del-museo-sulla-storia-dellisola_07162a55-82f1-45c3-9a58-c01f2ebedc9d.html
+  title: iArt Ustica, il festival d'arte e l'inaugurazione del museo sulla storia
+    dell'isola
+  publisher: 'ANSA (whitelist: `news_general`)'
+  published: 04/06/2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 190
+- id: T2
+  url: https://www.comune.pisa.it/content/download/28602/673081/file/Avviso%20refezione%202026-2027.pdf
+  title: Iscrizione al servizio di refezione scolastica A.S. 2026/2027
+  publisher: 'Comune di Pisa (whitelist: `practical_realia`, altri comuni)'
+  published: 03/04/2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 179
+- id: T3
+  url: https://www.comune.venezia.it/es/node/71532
+  title: Mosse di mezzanotte in VEZ 2026
+  publisher: 'Comune di Venezia, Rete Biblioteche Venezia (whitelist: `practical_realia`,
+    altri comuni); sei pagine collegate dal calendario/listing “Rete Biblioteche Venezia:
+    il programma dal 17 al 24 luglio”'
+  published: pagine aggiornate tra 18/05/2026 e 08/07/2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 177
+- id: T4
+  url: https://blog.giallozafferano.it/lydiaincucina/ricette-veloci-pranzo/
+  title: 'Ricette facili e veloci per pranzi di tutti i giorni: 15 idee pratiche e
+    gustose'
+  publisher: 'Lydia in Cucina / GialloZafferano Blog (whitelist: `giallozafferano.it`,
+    `practical_realia`)'
+  published: 21/04/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 113
+- id: T5
+  url: https://www.rainews.it/tgr/emiliaromagna/articoli/2026/06/infermiera-fuori-servizio-salva-bambino-di-tre-anni-dallannegamento-d5c378ff-5393-4c28-bb4d-c07e40db0e80.html
+  title: Infermiera fuori servizio salva bambino dall'annegamento
+  publisher: 'RaiNews TGR Emilia-Romagna (whitelist: `news_general`)'
+  published: 22/06/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 115
+- id: T6
+  url: https://www.uffizi.it/news/r-estate-con-larte-visite-e-attivita-estive-per-giovani-e-famiglie
+  title: R-Estate con l'arte! Visite e attività estive per giovani e famiglie
+  publisher: 'Gallerie degli Uffizi (whitelist: `practical_realia`, siti di musei)'
+  published: 25/06/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 120
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-18T08:10:36+00:00'
+  - stage: authoring
+    at: '2026-07-18T08:10:36+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+  - stage: blind_validation
+    at: '2026-07-18T08:16:44+00:00'
+    agreement: 46/46
+    flags: 7
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:34:37+00:00'
+    agreement: 46/46
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:47:59+00:00'
+    agreement: 45/46
+    flags: 4
+    result: fail
+  - stage: format_audit
+    at: '2026-07-18T08:50:46+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T08:50:47+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-18T09:13:56+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-18T09:15:05+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T09:15:06+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass

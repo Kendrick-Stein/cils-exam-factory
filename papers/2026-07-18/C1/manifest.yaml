@@ -1,0 +1,145 @@
+exam: cils
+level: C1
+session: '2026-07-18'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.doppiozero.com/le-macchine-hanno-ancora-bisogno-di-fiumi
+  title: Le macchine hanno ancora bisogno di fiumi
+  publisher: doppiozero
+  published: 15/07/2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 620
+- id: T2
+  url: https://centri.unibo.it/arces/en/center/missioni-trasferte-mobilita/lineeguidamissioni.pdf/%40%40download/file/LineeGuidaMissioniMobilitaIntraAteneoTrasferte_2026.pdf
+  title: Linee Guida al Regolamento missioni, mobilità intra-ateneo e trasferte —
+    Articolo 3
+  publisher: Alma Mater Studiorum — Università di Bologna
+  published: marzo 2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 571
+- id: T3
+  url: https://it.wikisource.org/wiki/La_novella_del_buon_vecchio_e_della_bella_fanciulla_ed_altri_scritti/Una_burla_riuscita/IV
+  title: Una burla riuscita — IV
+  publisher: Wikisource (testo di Italo Svevo, edizione 1929)
+  published: 1929; edizione digitale riletta e controllata
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 501
+- id: T4
+  url: https://www.cnr.it/it/news/14412/scuola-e-ricerca-a-ischia-il-cnr-alla-prima-conferenza-nazionale-sul-public-engagement
+  title: 'Scuola e Ricerca a Ischia: il CNR alla prima conferenza nazionale sul public
+    engagement'
+  publisher: Consiglio Nazionale delle Ricerche
+  published: 25/05/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 260
+- id: T5
+  url: https://www.fanpage.it/cultura/mattia-marzi-ultimo-non-ha-una-fanbase-ma-una-tribu-il-successo-racconta-paure-e-frustrazioni-come-nessuno/
+  title: 'Mattia Marzi: «Ultimo non ha una fanbase ma una tribù»'
+  publisher: Fanpage.it
+  published: 29/06/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 274
+- id: T6
+  url: https://www.media.inaf.it/2026/07/15/stima-rischio-tempeste-solari/
+  title: 'Tempeste solari: stiamo sottostimando i rischi?'
+  publisher: MEDIA INAF
+  published: 15/07/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 222
+- id: T7
+  url: https://servizi.comune.milano.it/en/dettaglio-contenuto/-/asset_publisher/pqxq/content/apl-c-2026-8-posti
+  title: APL C. 2026 — selezione pubblica per 8 posti di Agente di Polizia Locale
+  publisher: Comune di Milano
+  published: 10/07/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: true
+  words_used: 180
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-18T08:10:36+00:00'
+  - stage: authoring
+    at: '2026-07-18T08:10:36+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-18T08:16:45+00:00'
+    agreement: 75/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:34:37+00:00'
+    agreement: 81/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:47:59+00:00'
+    agreement: 77/83
+    flags: 0
+    result: fail
+  - stage: format_audit
+    at: '2026-07-18T08:50:46+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T08:50:47+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-18T09:13:56+00:00'
+    agreement: 81/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T09:14:50+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-18T09:15:05+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T09:15:06+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

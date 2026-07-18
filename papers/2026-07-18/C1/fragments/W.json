@@ -1,0 +1,56 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«I sistemi digitali che consigliano libri, film e musica facilitano le scelte, ma rischiano di limitare la curiosità e di rendere più uniformi i gusti». Esprimi il tuo parere in merito, considerando vantaggi, rischi e possibili strategie per conservare un rapporto autonomo con la cultura.",
+    "W1B_PROMPT": "Una rivista online dedica un numero agli spazi pubblici silenziosi nelle città, come biblioteche, giardini e sale di studio. Scrivi un articolo in cui analizzi la loro utilità sociale, i conflitti che possono nascere tra usi diversi e le iniziative necessarie per renderli accessibili a tutti.",
+    "W2A_PROMPT": "Ti sei iscritto a un corso intensivo di fotografia in presenza, previsto dal 3 al 7 agosto presso un centro culturale. Dopo aver pagato la quota, hai saputo che il corso si terrà soltanto online; inoltre, il materiale tecnico promesso non verrà fornito. Scrivi un'e-mail alla direzione: descrivi i cambiamenti, spiegane le conseguenze, chiedi una soluzione concreta e indica entro quando desideri una risposta.",
+    "W2B_PROMPT": "Hai affittato un appartamento per tre mesi in un edificio nel quale, dal 20 luglio, si svolgono lavori rumorosi dalle 7 del mattino. Prima della firma non avevi ricevuto alcuna comunicazione e non puoi lavorare da casa. Scrivi una lettera all'agenzia: segnala il problema, descrivi il disagio, proponi due possibili rimedi e chiedi una risposta entro una data precisa.",
+    "MODEL_W1A": "Gli strumenti che suggeriscono contenuti culturali rispondono a un'esigenza reale: di fronte a cataloghi immensi, orientarsi richiede tempo. Una raccomandazione pertinente può farci conoscere un autore ignorato o ricordarci un interesse trascurato. Inoltre, per le opere meno visibili, comparire tra i suggerimenti rappresenta un'occasione preziosa.\n\nIl problema nasce quando la comodità si trasforma in dipendenza. Gli algoritmi apprendono dalle scelte precedenti e tendono quindi a riproporre ciò che appare familiare. In questo modo, un gusto momentaneo rischia di diventare un confine stabile, mentre opere difficili da classificare restano escluse. Anche l'esperienza condivisa si impoverisce se ciascuno riceve un'offerta interamente personalizzata.\n\nA mio avviso, non occorre rinunciare a questi strumenti, bensì usarli con consapevolezza. Le piattaforme dovrebbero spiegare perché propongono un contenuto e consentire di disattivare la personalizzazione. Da parte nostra, possiamo alternare i consigli automatici alle indicazioni di bibliotecari, amici e riviste, cercando deliberatamente generi sconosciuti. La curiosità non consiste nel rifiutare ogni guida, ma nel moltiplicare le guide e nel conservare la libertà di contraddirle.",
+    "MODEL_W1A_PHRASES": "«rispondono a un'esigenza reale»（回应一种真实需求）; «si trasforma in dipendenza»（转变为依赖）; «A mio avviso»（依我之见）; «usare con consapevolezza»（有意识地使用）; «non consiste nel…, ma nel…»（不在于……，而在于……）",
+    "MODEL_W1B": "Nelle città dense, il silenzio non è un lusso, ma una risorsa collettiva. Biblioteche, giardini appartati e sale di studio permettono di concentrarsi, leggere o semplicemente recuperare energie senza dover consumare qualcosa. Sono particolarmente importanti per chi vive in abitazioni affollate e non dispone di un ambiente tranquillo.\n\nTuttavia, proteggere il silenzio non significa escludere ogni attività. Un giardino ospita bambini, anziani, studenti e lavoratori, i cui bisogni possono entrare in conflitto. Regole eccessivamente rigide finirebbero per privilegiare alcuni utenti; l'assenza di regole, al contrario, renderebbe impossibile la quiete cercata da altri. Anche gli orari limitati e le barriere architettoniche riducono l'accessibilità di molti spazi.\n\nLe amministrazioni dovrebbero quindi progettare zone differenziate, separando le aree di conversazione da quelle dedicate alla concentrazione, e ampliare gli orari delle biblioteche. Servono inoltre indicazioni chiare, arredi confortevoli e personale capace di mediare i conflitti senza atteggiamenti punitivi. Infine, consultare gli abitanti consentirebbe di individuare esigenze specifiche. Difendere luoghi tranquilli significa riconoscere che, accanto al diritto di incontrarsi, esiste anche quello di fermarsi e restare in silenzio.",
+    "MODEL_W1B_PHRASES": "«non è un lusso, ma una risorsa collettiva»（不是奢侈，而是一种公共资源）; «possono entrare in conflitto»（可能发生冲突）; «al contrario»（相反）; «senza atteggiamenti punitivi»（不采取惩罚性态度）; «accanto al diritto di…»（除了……的权利之外）",
+    "MODEL_W2A": "Gentile Direzione,\n\nLe scrivo in merito al corso intensivo di fotografia previsto dal 3 al 7 agosto, al quale mi sono iscritto versando l'intera quota. Al momento dell'iscrizione era indicata la modalità in presenza, con attrezzatura fornita dal centro. Ho invece appreso che le lezioni si terranno esclusivamente online e che ogni partecipante dovrà procurarsi il materiale tecnico. Non possedendo una macchina fotografica adeguata, non potrei seguire le esercitazioni.\n\nVi chiedo pertanto di garantirmi l'attrezzatura promessa e alcune attività in presenza oppure, qualora ciò non fosse possibile, di rimborsarmi integralmente. Gradirei ricevere una risposta entro il 27 luglio, così da potermi organizzare.\n\nIn attesa di un vostro cortese riscontro, porgo cordiali saluti.\n\nGiulia Ferri",
+    "MODEL_W2A_PHRASES": "«Le scrivo in merito a…»（我就……事宜致函）; «Al momento dell'iscrizione»（报名时）; «Vi chiedo pertanto di…»（因此我请求贵方……）; «qualora ciò non fosse possibile»（若此事无法实现）; «In attesa di un vostro cortese riscontro»（静候贵方回复）",
+    "MODEL_W2B": "Spett.le Agenzia,\n\ncon la presente segnalo che, dal 20 luglio, nell'edificio dell'appartamento da me affittato sono in corso lavori rumorosi a partire dalle ore 7. Prima della firma del contratto non mi era stata comunicata né la presenza del cantiere né la sua durata. Poiché lavoro da casa, il rumore mattutino mi impedisce di svolgere regolarmente le mie attività.\n\nChiedo quindi una riduzione proporzionata del canone per il periodo interessato. In alternativa, vi invito a propormi senza costi aggiuntivi un alloggio equivalente in una zona tranquilla. Attendo una vostra risposta entro il 26 luglio; in mancanza di riscontro, valuterò le ulteriori iniziative previste dal contratto.\n\nDistinti saluti,\n\nLuca Moretti",
+    "MODEL_W2B_PHRASES": "«con la presente segnalo che…»（现特此反映……）; «Prima della firma del contratto»（合同签署前）; «una riduzione proporzionata del canone»（按比例减免租金）; «senza costi aggiuntivi»（不增加费用）; «in mancanza di riscontro»（如未收到回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "un confine stabile",
+      "categoria": "locuzione nominale",
+      "zh": "固定的界限",
+      "en": "a fixed boundary",
+      "esempio": "In questo modo, un gusto momentaneo rischia di diventare un confine stabile, mentre opere difficili da classificare restano escluse."
+    },
+    {
+      "parola": "cercando deliberatamente",
+      "categoria": "locuzione verbale",
+      "zh": "有意识地主动寻找",
+      "en": "deliberately seeking",
+      "esempio": "Da parte nostra, possiamo alternare i consigli automatici alle indicazioni di bibliotecari, amici e riviste, cercando deliberatamente generi sconosciuti."
+    },
+    {
+      "parola": "abitazioni affollate",
+      "categoria": "locuzione nominale",
+      "zh": "拥挤的住所",
+      "en": "crowded homes",
+      "esempio": "Sono particolarmente importanti per chi vive in abitazioni affollate e non dispone di un ambiente tranquillo."
+    },
+    {
+      "parola": "zone differenziate",
+      "categoria": "locuzione nominale",
+      "zh": "按功能划分的区域",
+      "en": "designated zones",
+      "esempio": "Le amministrazioni dovrebbero quindi progettare zone differenziate, separando le aree di conversazione da quelle dedicate alla concentrazione, e ampliare gli orari delle biblioteche."
+    },
+    {
+      "parola": "riduzione proporzionata del canone",
+      "categoria": "locuzione nominale",
+      "zh": "按比例减免租金",
+      "en": "proportionate rent reduction",
+      "esempio": "Chiedo quindi una riduzione proporzionata del canone per il periodo interessato."
+    }
+  ]
+}

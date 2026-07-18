@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Fino a oggi Mattia Marzi *(scrivere)* __ha scritto (0)__ un libro su Ultimo. Oggi il volume *(raccontare)* __(1)__ il rapporto tra Ultimo e i fan. Fu lì che Marzi *(formulare)* __(2)__ la domanda: come si costruisce un fenomeno che finora *(portare)* __(3)__ 250 mila persone a Tor Vergata? In questi anni Ultimo *(vendere)* __(4)__ milioni di biglietti negli stadi. Oggi Marzi ritiene che il successo non *(ridursi)* __(5)__ a una moda: adesso Ultimo *(raccontare)* __(6)__ paure, sogni e frustrazioni. Adesso i fan vi *(trovare)* __(7)__ un rifugio.\n\n**A Tor Vergata?**\n\nMentre al concerto *(mancare)* __(8)__ dieci giorni, ogni giorno alcune persone *(aspettare)* __(9)__ già fuori. Salvo imprevisti, sapevano che di lì a dieci giorni l'evento *(iniziare)* __(10)__. L'intervistatore non credeva che, proprio allora, la scena *(sorprendere)* __(11)__ ancora Marzi. Fu allora che Marzi *(rispondere)* __(12)__: «No».\n\n**La domanda di partenza?**\n\nIl libro partiva dal *(chiedersi)* __(13)__ perché Ultimo avesse ottenuto quel risultato. Marzi constatò che già nei mesi precedenti i 250 mila biglietti per Tor Vergata *(vendere)* __(14)__ da Ultimo. Oggi, benché Ultimo non *(avere)* __(15)__ nulla di speciale, Marzi esclude che, fino a oggi, i fan *(comprare)* __(16)__ biglietti soltanto per la FOMO. Marzi osserva: «Se la settimana scorsa la ragione *(essere)* __(17)__ soltanto la FOMO, quelle persone non *(accamparsi)* __(18)__ lì per giorni». Marzi conclude *(distinguere)* __(19)__ questo caso: le persone *(accampare)* __(20)__ mostrano un'adesione totale e un rapporto quasi elettivo: una tribù a tutti gli effetti.",
+    "T5_TITLE": "ULTIMO: NON UNA FANBASE, MA UNA TRIBÙ"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.2:** «Fu lì che» impone il passato remoto: **formulò**. 中文：分裂句明确锁定远过去时。\n- **S2.10:** «sapevano», «salvo imprevisti» e «di lì a dieci giorni» impongono **sarebbe iniziato**. 中文：过去视角与条件限制锁定过去将来时。\n- **S2.11:** «proprio allora» presenta la sorpresa come contemporanea: **sorprendesse**. 中文：同时性标记排除先过去时。\n- **S2.14:** «constatò che già nei mesi precedenti» impone l'anteriorità passiva: **erano stati venduti**. 中文：过去参照点之前的被动动作。\n- **S2.16:** «fino a oggi» e «esclude che» impongono il congiuntivo passato: **abbiano comprato**. 中文：完成性标记与虚拟式触发同时出现。\n- **S2.17–S2.18:** «la settimana scorsa» e il riferimento alle persone accampate impongono il periodo ipotetico irreale del passato: **fosse stata / si sarebbero accampate**. 中文：明确的过去反事实条件句。",
+    "ANS_S2_ROWS": "| S2.1 | racconta | indicativo presente | S2.11 | sorprendesse | congiuntivo imperfetto |\n| S2.2 | formulò | passato remoto | S2.12 | rispose | passato remoto |\n| S2.3 | ha portato | passato prossimo | S2.13 | chiedersi | infinito presente |\n| S2.4 | ha venduto | passato prossimo | S2.14 | erano stati venduti | trapassato prossimo passivo |\n| S2.5 | si riduca | congiuntivo presente | S2.15 | abbia | congiuntivo presente |\n| S2.6 | racconta | indicativo presente | S2.16 | abbiano comprato | congiuntivo passato |\n| S2.7 | trovano | indicativo presente | S2.17 | fosse stata | congiuntivo trapassato |\n| S2.8 | mancavano | indicativo imperfetto | S2.18 | si sarebbero accampate | condizionale passato |\n| S2.9 | aspettavano | indicativo imperfetto | S2.19 | distinguendo | gerundio presente |\n| S2.10 | sarebbe iniziato | condizionale passato (futuro nel passato) | S2.20 | accampate | participio passato |"
+  },
+  "key": {
+    "S2.1": "racconta",
+    "S2.2": "formulò",
+    "S2.3": "ha portato",
+    "S2.4": "ha venduto",
+    "S2.5": "si riduca",
+    "S2.6": "racconta",
+    "S2.7": "trovano",
+    "S2.8": "mancavano",
+    "S2.9": "aspettavano",
+    "S2.10": "sarebbe iniziato",
+    "S2.11": "sorprendesse",
+    "S2.12": "rispose",
+    "S2.13": "chiedersi",
+    "S2.14": "erano stati venduti",
+    "S2.15": "abbia",
+    "S2.16": "abbiano comprato",
+    "S2.17": "fosse stata",
+    "S2.18": "si sarebbero accampate",
+    "S2.19": "distinguendo",
+    "S2.20": "accampate"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rifugio",
+      "categoria": "sostantivo maschile",
+      "zh": "避风港；精神寄托",
+      "en": "refuge",
+      "esempio": "un rifugio"
+    },
+    {
+      "parola": "frustrazioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "挫折感；沮丧",
+      "en": "frustrations",
+      "esempio": "paure, sogni e frustrazioni"
+    },
+    {
+      "parola": "adesione totale",
+      "categoria": "locuzione nominale",
+      "zh": "完全认同；全身心投入",
+      "en": "total commitment",
+      "esempio": "un'adesione totale"
+    },
+    {
+      "parola": "rapporto quasi elettivo",
+      "categoria": "locuzione nominale",
+      "zh": "近乎选择性亲缘的关系",
+      "en": "almost elective bond",
+      "esempio": "un rapporto quasi elettivo"
+    },
+    {
+      "parola": "a tutti gli effetti",
+      "categoria": "locuzione avverbiale",
+      "zh": "名副其实地；完全意义上",
+      "en": "in every respect",
+      "esempio": "una tribù a tutti gli effetti"
+    }
+  ]
+}

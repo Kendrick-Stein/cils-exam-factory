@@ -1,0 +1,43 @@
+ANSWERS
+```json
+{
+  "S4.1": {
+    "answer": "dipende il numero dei posti messi a bando.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "settembre 2026.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "inPA.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "euro.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "partecipazione.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "inPA.",
+    "confidence": "hi"
+  }
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "writing_tasks_present": false,
+  "oral_tasks_present": false,
+  "checks": []
+}
+```
