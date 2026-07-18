@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "CAMPUS ESTIVO AL MUSEO",
+    "T2_TEXT": "Il Campus del Civico Museo Archeologico è per bambini da 6 a 12 anni. Ci sono visite guidate, laboratori, giochi e percorsi in città. Le attività sono dal lunedì al venerdì, dalle 8.30 alle 17.00 circa. La prima settimana va dal 9 al 12 giugno, da martedì a venerdì. Il ritrovo è ai giardinetti Aristide Calderini. Le attività seguono il tema scelto per la settimana. Il calendario completo è diviso in quattro settimane tra giugno, agosto e settembre. Il calendario comprende anche altre tre settimane. La seconda settimana va dal 22 al 26 giugno. Un'altra settimana va dal 31 agosto al 4 settembre. L'ultima settimana va dal 7 all'11 settembre. Il programma comprende laboratori pratici e molto altro.",
+    "L2_ITEMS": "1. Il Campus è per bambini da 6 a 12 anni.  Vero ○ Falso ○\n\n2. Il programma offre visite guidate.  Vero ○ Falso ○\n\n3. Tutte le attività sono nel museo.  Vero ○ Falso ○\n\n4. Il Campus è aperto anche sabato.  Vero ○ Falso ○\n\n5. Le attività iniziano alle 8.30.  Vero ○ Falso ○\n\n6. Le attività finiscono alle 17.00 circa.  Vero ○ Falso ○\n\n7. La prima settimana inizia lunedì.  Vero ○ Falso ○\n\n8. Il ritrovo è ai giardinetti Aristide Calderini.  Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | «per bambini da 6 a 12 anni»：年龄范围完全一致。 |\n| L2.2 | Vero | «Ci sono visite guidate»：活动包括导览。 |\n| L2.3 | Falso | «percorsi in città»：并非所有活动都在博物馆内。 |\n| L2.4 | Falso | «dal lunedì al venerdì»：不包括星期六。 |\n| L2.5 | Vero | «dalle 8.30»：活动从 8:30 开始。 |\n| L2.6 | Vero | «alle 17.00 circa»：结束时间约为 17:00。 |\n| L2.7 | Falso | «da martedì a venerdì»：第一周从星期二开始，不是星期一。 |\n| L2.8 | Vero | «Il ritrovo è ai giardinetti Aristide Calderini»：集合地点一致。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "visite guidate",
+      "categoria": "locuzione nominale",
+      "zh": "导览参观",
+      "en": "guided tours",
+      "esempio": "Ci sono visite guidate, laboratori, giochi e percorsi in città."
+    },
+    {
+      "parola": "laboratori",
+      "categoria": "sostantivo plurale",
+      "zh": "工作坊",
+      "en": "workshops",
+      "esempio": "Ci sono visite guidate, laboratori, giochi e percorsi in città."
+    },
+    {
+      "parola": "percorsi in città",
+      "categoria": "locuzione nominale",
+      "zh": "城市路线活动",
+      "en": "city routes",
+      "esempio": "Ci sono visite guidate, laboratori, giochi e percorsi in città."
+    },
+    {
+      "parola": "prima settimana",
+      "categoria": "locuzione nominale",
+      "zh": "第一周",
+      "en": "first week",
+      "esempio": "La prima settimana va dal 9 al 12 giugno, da martedì a venerdì."
+    },
+    {
+      "parola": "ritrovo",
+      "categoria": "sostantivo",
+      "zh": "集合地点",
+      "en": "meeting point",
+      "esempio": "Il ritrovo è ai giardinetti Aristide Calderini."
+    }
+  ]
+}

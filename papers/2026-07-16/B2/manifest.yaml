@@ -1,0 +1,168 @@
+exam: cils
+level: B2
+session: '2026-07-16'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.nationalgeographic.it/il-misterioso-segnale-radio-che-da-mezzo-secolo-alimenta-il-dibattito-sugli-alieni
+  title: Il misterioso segnale radio che da mezzo secolo alimenta il dibattito sugli
+    alieni
+  publisher: National Geographic Italia
+  published: non visibile nella pagina fetched
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 491
+- id: T2
+  url: https://www.politichegiovanili.gov.it/comunicazione/news/2026/2/bando-ordinario-2026/
+  title: Bando per la selezione di 65.964 operatori volontari da impiegare in progetti
+    di Servizio civile universale — Scadenza 8 aprile 2026
+  publisher: Dipartimento per le Politiche Giovanili e il Servizio Civile Universale
+  published: non visibile nella pagina fetched
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 436
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/sant-antioco-2.html
+  title: Sant’Antioco, solo verde e blu
+  publisher: Turisti per Caso
+  published: non visibile nella pagina fetched
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 361
+- id: T4
+  url: https://www.focus.it/ambiente/animali/perche-i-gatti-smettono-di-mangiare-a-meta-pasto
+  title: 'Perché i gatti smettono di mangiare a metà pasto? Spoiler: non è per sazietà'
+  publisher: Focus.it
+  published: non visibile nella pagina fetched (indicizzata nel 2026)
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 205
+- id: T5
+  url: https://www.fanpage.it/spettacolo/interviste/pippo-balistreri-storico-direttore-di-palco-di-sanremo-lascio-con-de-martino-e-tempo-di-dare-spazio-ai-giovani/
+  title: 'Pippo Balistreri, storico direttore di palco: “Lascio Sanremo, con De Martino
+    è tempo di dare spazio ai giovani”'
+  publisher: Fanpage.it
+  published: '2026-03-14'
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 174
+- id: T6
+  url: https://www.ansa.it/sicilia/notizie/2026/07/07/a-malfa-in-funzione-il-primo-bus-elettrico-dellisola-di-salina_c49e07c8-71b6-4f0c-987d-ccb5910de7dc.html
+  title: A Malfa in funzione il primo bus elettrico dell’isola di Salina
+  publisher: ANSA
+  published: '2026-07-07'
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 219
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-16'
+    executor: codex background task (corpus-hunter)
+    result: 6 slots covered, all candidate 1 accepted
+  - stage: authoring
+    at: '2026-07-16'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-16T05:59:40+00:00'
+    agreement: 82/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-16T06:15:10+00:00'
+    agreement: 80/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-16T06:27:02+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: reconcile
+    at: '2026-07-16'
+    round: 1
+    fixed_items: L3 order cues; S1.2,S1.14; S2.3,S2.19,S2.20
+    result: fail — S1 repair introduced new defects
+  - stage: reconcile
+    at: '2026-07-16'
+    round: 2
+    fixed_items: S1 gap plan redone; S2.2
+    result: fail — S2.2 mismatch (passo'/passava) + coherence flag S2.7-S2.9; max
+      rounds reached
+  - stage: blind_validation
+    at: '2026-07-16T06:53:35+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-16'
+    round: 3
+    fixed_items: 'S2 re-authored from source (user-directed round 3): coherent single
+      narrative, gaps re-cut onto congiuntivo/condizionale/passiva/infinito targets,
+      no remoto/trapassato contrasts'
+    result: pass (87/87, 0 flags)
+  - stage: format_audit
+    at: '2026-07-16T06:54:02+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:54:02+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-16T06:57:27+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-16T06:57:27+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-16T06:58:05+00:00'
+    agreement: 87/87
+    flags: 1
+    result: fail
+  - stage: quality_audit
+    at: '2026-07-16T06:59:06+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-16T06:59:39+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-16T06:59:58+00:00'
+    result: pass
+    issues: 0
+  - stage: reconcile
+    at: '2026-07-16'
+    round: length-trim
+    fixed_items: S1 text trimmed into quality-audit band; opening sentence re-stitched
+      with a main clause restating the title (no new facts); prova re-blind-validated
+      (pass)
+    result: pass (87/87, 0 flags)
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

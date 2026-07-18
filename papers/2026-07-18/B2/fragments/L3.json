@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "UN WEEKEND IN PUGLIA FUORI STAGIONE",
+    "T3_PART_A": "Volo low cost da Bologna, due giorni di ferie per allungare il weekend e la Puglia è servita: un piccolo assaggio di Brindisi, Salento e Valle d’Itria",
+    "T3_PART_B": "e ho colto questa occasione per visitare località più o meno famose che mi sono goduta nella tranquillità che caratterizza questi mesi ancora poco o per nulla affollati.",
+    "T3_PART_C": "Se il lavoro consente di prendersi qualche assenza fuori stagione, cosa c’è di meglio che trovare un voletto low cost e andare a esplorare piccoli grandi angoli della nostra bella Italia?",
+    "T3_PART_D": "e ho scelto come destinazione Brindisi non solo perché era uno dei voli più economici ma anche perché gli orari di viaggio erano ottimi. Sono infatti partita all’alba del venerdì mattina,",
+    "T3_PART_E": "Peccato che Ryanair non faccia la raccolta miglia perché ne avrei già raccolte parecchie! Nonostante le lamentele che leggo spesso in giro, per me Ryanair resta una delle compagnie migliori sul corto raggio.",
+    "T3_PART_F": "fuori stagione, tra visite a città, centri storici, chiese barocche, mostre e palazzi, passeggiate nella natura tra ulivi e trulli, un mare cristallino e ovviamente buon cibo!",
+    "T3_PART_G": "Tutte le informazioni sono chiaramente riportate sia sul sito sia sulla app, i costi sono esplicitati in ogni fase dell’acquisto e non mancano mai indicazioni su ciò che è incluso e ciò che è da acquistare extra.",
+    "T3_PART_H": "Per organizzare il weekend ho deciso di lasciarmi guidare dal destino. Dopo aver scelto le giornate in cui partire, da venerdì 11 a lunedì 14 aprile 2025, ho guardato i voli low cost in partenza da Bologna",
+    "T3_PART_I": "Non solo perché mi consente di fare molti più viaggi di quanti potrei permettermi con compagnie non low cost, ma soprattutto perché c’è sempre la massima trasparenza in fase di ricerca voli, prenotazione e check in.",
+    "T3_PART_J": "A fine marzo sono andata a Olbia e dintorni e ho vissuto esperienze bellissime e inattese di cui ho parlato in un altro articolo. Durante il weekend di metà aprile è stata la volta di Brindisi! Conosco poco la Puglia",
+    "T3_PART_K": "sì, decisamente troppo presto per i miei gusti, ma alle otto ero già in città a Brindisi pronta a esplorarla a piedi, e sono rientrata la notte tra lunedì e martedì."
+  },
+  "answer_slots": {
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–D–K–E–I–G",
+    "ANS_L3_ROWS": "| 1 | A | L’apertura presenta in sintesi il viaggio e le sue destinazioni. |\n| 2 | F | «fuori stagione» completa direttamente «Valle d’Itria» e introduce l’elenco delle esperienze. |\n| 3 | C | «Se il lavoro consente» trasforma l’esempio iniziale in una riflessione generale sui viaggi fuori stagione. |\n| 4 | J | «A fine marzo» introduce un’esperienza precedente; «Durante il weekend di metà aprile» porta poi alla tappa di Brindisi. |\n| 5 | B | «e ho colto questa occasione» continua la frase «Conosco poco la Puglia»; «questa occasione» rimanda al weekend appena citato. |\n| 6 | H | «Per organizzare il weekend» apre la fase pratica; «Dopo aver scelto le giornate» indica la prima decisione. |\n| 7 | D | «e ho scelto» coordina la scelta della destinazione con la ricerca dei voli appena descritta. |\n| 8 | K | «sì, decisamente troppo presto» riprende l’inciso sull’alba e conclude il viaggio con il rientro. |\n| 9 | E | «Peccato» introduce un commento sulla compagnia usata; «Nonostante» prepara una valutazione positiva. |\n| 10 | I | «Non solo perché» spiega perché la compagnia è considerata tra le migliori e si lega a «ma soprattutto perché». |\n| 11 | G | «Tutte le informazioni» precisa la trasparenza appena menzionata con esempi concreti. |"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–D–K–E–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fuori stagione",
+      "categoria": "locuzione avverbiale",
+      "zh": "淡季",
+      "en": "off-season",
+      "esempio": "qualche assenza fuori stagione"
+    },
+    {
+      "parola": "angoli",
+      "categoria": "nome maschile plurale",
+      "zh": "角落；地方",
+      "en": "corners; places",
+      "esempio": "piccoli grandi angoli della nostra bella Italia"
+    },
+    {
+      "parola": "lasciarmi guidare dal destino",
+      "categoria": "locuzione verbale",
+      "zh": "让命运指引我",
+      "en": "let fate guide me",
+      "esempio": "ho deciso di lasciarmi guidare dal destino"
+    },
+    {
+      "parola": "corto raggio",
+      "categoria": "locuzione nominale",
+      "zh": "短途",
+      "en": "short-haul",
+      "esempio": "compagnie migliori sul corto raggio"
+    },
+    {
+      "parola": "esplicitati",
+      "categoria": "participio passato",
+      "zh": "明确列出的",
+      "en": "stated explicitly",
+      "esempio": "i costi sono esplicitati in ogni fase dell’acquisto"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Studi o lavori? Racconta che cosa fai.\n\n**2.** A che ora comincia e finisce la tua giornata?\n\n**3.** Dove fai di solito la spesa e che cosa compri?\n\n**4.** Come ti sposti ogni giorno in città?\n\n**5.** Racconta una vacanza che hai fatto.\n\n**6.** Dove vorresti andare per le prossime vacanze e perché?",
+    "O2_ARGOMENTI": "**1.** Racconta un viaggio o una gita che ricordi con piacere.\n\n**2.** Descrivi che cosa fai di solito nel fine settimana."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Studi o lavori? Racconta che cosa fai.**\n\n*Esaminatore:* Studi o lavori?\n\n*Candidato:* Studio italiano in una scuola vicino a casa. Frequento le lezioni tre mattine alla settimana e nel pomeriggio faccio gli esercizi.\n\n**2. A che ora comincia e finisce la tua giornata?**\n\n*Esaminatore:* A che ora comincia e finisce la tua giornata?\n\n*Candidato:* Di solito mi alzo alle sette e faccio colazione. La mia giornata finisce verso le undici di sera, quando vado a letto.\n\n**3. Dove fai di solito la spesa e che cosa compri?**\n\n*Esaminatore:* Dove fai di solito la spesa?\n\n*Candidato:* Faccio la spesa al supermercato del quartiere. Compro soprattutto frutta, verdura, pane e latte, ma il sabato vado anche al mercato.\n\n**4. Come ti sposti ogni giorno in città?**\n\n*Esaminatore:* Come ti sposti ogni giorno in città?\n\n*Candidato:* Di solito prendo l'autobus perché la fermata è vicino a casa. Quando il tempo è bello, invece, vado a piedi.\n\n**5. Racconta una vacanza che hai fatto.**\n\n*Esaminatore:* Dove sei andato durante l'ultima vacanza?\n\n*Candidato:* L'estate scorsa sono andato al mare con due amici. Abbiamo nuotato, visitato un piccolo paese e mangiato pesce in un ristorante sul porto.\n\n**6. Dove vorresti andare per le prossime vacanze e perché?**\n\n*Esaminatore:* Dove vorresti andare per le prossime vacanze?\n\n*Candidato:* Vorrei andare in montagna perché amo camminare nella natura. Spero di partire a settembre, quando non fa troppo caldo.",
+    "MODEL_O1_PHRASES": "*Di solito…*（通常……）; *L'estate scorsa…*（去年夏天……）; *Vorrei… perché…*（我想……因为……）; *Quando il tempo è bello…*（天气好的时候……）",
+    "MODEL_O2": "**Argomento n. 1 — Un viaggio o una gita che ricordo con piacere**\n\nLa primavera scorsa sono andato a Bologna con mia sorella. Siamo partiti presto in treno e il viaggio è durato circa un'ora. La mattina abbiamo passeggiato in centro e abbiamo visitato una piazza molto bella. A pranzo abbiamo mangiato un piatto tipico in una piccola trattoria. Nel pomeriggio pioveva, così siamo entrati in un museo. Ero stanco quando sono tornato a casa, ma ero anche molto contento perché abbiamo passato una giornata speciale insieme.\n\n**Argomento n. 2 — Le mie abitudini nel fine settimana**\n\nNel fine settimana mi alzo più tardi perché non devo lavorare. Il sabato mattina faccio la spesa e poi preparo il pranzo. Nel pomeriggio incontro spesso i miei amici: prendiamo un caffè o facciamo una passeggiata al parco. La sera guardo un film a casa. La domenica vado a trovare i miei genitori e mangiamo insieme. Prima di dormire preparo i vestiti e la borsa per lunedì. Queste abitudini mi aiutano a riposare e a cominciare bene la settimana.",
+    "MODEL_O2_PHRASES": "*La primavera scorsa…*（去年春天……）; *Nel pomeriggio…*（下午……）; *Di solito mi alzo…*（我通常……起床）; *Prima di dormire…*（睡觉前……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "la spesa",
+      "categoria": "locuzione nominale",
+      "zh": "买东西；采购食品",
+      "en": "to do the shopping",
+      "esempio": "Faccio la spesa al supermercato del quartiere."
+    },
+    {
+      "parola": "fermata",
+      "categoria": "nome femminile",
+      "zh": "车站；停靠站",
+      "en": "stop",
+      "esempio": "Di solito prendo l'autobus perché la fermata è vicino a casa."
+    },
+    {
+      "parola": "trattoria",
+      "categoria": "nome femminile",
+      "zh": "意式小餐馆",
+      "en": "traditional restaurant",
+      "esempio": "A pranzo abbiamo mangiato un piatto tipico in una piccola trattoria."
+    },
+    {
+      "parola": "fine settimana",
+      "categoria": "locuzione nominale",
+      "zh": "周末",
+      "en": "weekend",
+      "esempio": "Nel fine settimana mi alzo più tardi perché non devo lavorare."
+    },
+    {
+      "parola": "vado a trovare",
+      "categoria": "locuzione verbale",
+      "zh": "去看望",
+      "en": "to go and visit",
+      "esempio": "La domenica vado a trovare i miei genitori e mangiamo insieme."
+    }
+  ]
+}

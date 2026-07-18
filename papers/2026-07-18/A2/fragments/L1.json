@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "IART USTICA: ARTE, MUSICA E STORIA DELL'ISOLA",
+    "T1_TEXT": "Dal 5 al 7 giugno arriva iArt Ustica, un festival d'arte dedicato al mare e alla cultura dell'isola. Il programma dura tre serate e offre musica sotto le stelle, arte e attività nelle quali le persone diventano parte dello spettacolo. Secondo gli organizzatori, lo scopo è far conoscere meglio la natura e la cultura di Ustica attraverso diverse forme d'arte.\n\nIl direttore artistico Lucenzo Tambuzzo descrive il festival come un'esperienza che unisce arte, territorio e comunità. Per lui, l'isola è un luogo d'incontro tra modi diversi di creare e le tradizioni locali.\n\nTra gli artisti ci sono Antonio Dimartino, Roy Paci & Aretuska e Pau, cantante dei Negrita. Il pubblico può partecipare a laboratori, concerti e cammini artistici. Tambuzzo spiega che queste attività danno nuova vita ai luoghi e rendono più forti i rapporti tra le persone. Il festival vuole anche valorizzare il patrimonio naturale e umano dell'isola in modo moderno.\n\nUn altro momento importante è l'apertura di un museo multimediale dedicato alla storia di Ustica. Grazie a tecnologie avanzate, la visita diventa un viaggio nel tempo per conoscere di nuovo le radici dell'isola. Tutti gli spettacoli del festival sono gratuiti.",
+    "L1_ITEMS": "**1. Il programma del festival**\n\nA) dura una sola giornata.\n\nB) dura tre serate.\n\nC) continua per una settimana.\n\n**2. Secondo gli organizzatori, il festival vuole**\n\nA) far conoscere la natura e la cultura dell'isola attraverso l'arte.\n\nB) portare gli abitanti di Ustica in altre città.\n\nC) insegnare nuove tecnologie agli artisti.\n\n**3. Durante il festival il pubblico può**\n\nA) partecipare soltanto agli spettacoli musicali.\n\nB) lavorare nel museo multimediale.\n\nC) scegliere tra laboratori, concerti e cammini artistici.\n\n**4. Il museo multimediale**\n\nA) è dedicato alla storia di Ustica.\n\nB) presenta solo i concerti del festival.\n\nC) organizza i cammini artistici sull'isola."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice che il programma «dura tre serate». 中文：注意活动持续时间。 |\n| L1.2 | A | Lo scopo è «far conoscere meglio la natura e la cultura di Ustica attraverso diverse forme d'arte». 中文：考查节日的目的。 |\n| L1.3 | C | Il pubblico può partecipare a «laboratori, concerti e cammini artistici». 中文：不是只有音乐活动。 |\n| L1.4 | A | Il museo è «dedicato alla storia di Ustica». 中文：博物馆主题是岛屿历史。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sotto le stelle",
+      "categoria": "locuzione",
+      "zh": "在星空下",
+      "en": "under the stars",
+      "esempio": "Il programma dura tre serate e offre musica sotto le stelle, arte e attività nelle quali le persone diventano parte dello spettacolo."
+    },
+    {
+      "parola": "luogo d'incontro",
+      "categoria": "locuzione nominale",
+      "zh": "相聚之地",
+      "en": "meeting place",
+      "esempio": "Per lui, l'isola è un luogo d'incontro tra modi diversi di creare e le tradizioni locali."
+    },
+    {
+      "parola": "cammini artistici",
+      "categoria": "nome plurale",
+      "zh": "艺术路线",
+      "en": "artistic trails",
+      "esempio": "Il pubblico può partecipare a laboratori, concerti e cammini artistici."
+    },
+    {
+      "parola": "multimediale",
+      "categoria": "aggettivo",
+      "zh": "多媒体的",
+      "en": "multimedia",
+      "esempio": "Un altro momento importante è l'apertura di un museo multimediale dedicato alla storia di Ustica."
+    },
+    {
+      "parola": "radici",
+      "categoria": "nome femminile plurale",
+      "zh": "根源；根脉",
+      "en": "roots",
+      "esempio": "Grazie a tecnologie avanzate, la visita diventa un viaggio nel tempo per conoscere di nuovo le radici dell'isola."
+    }
+  ]
+}

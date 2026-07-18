@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Ieri *(partecipare)* __(1)__ al provino online. Ieri, in dieci minuti, *(preparare)* __(2)__ una ricetta. Ieri, poi, *(parlare)* __(3)__ dei canestrelli per un minuto. Ieri Roby *(usare)* __(4)__ il cellulare una volta e, entro le dieci, *(finire)* __(5)__ il video. Ieri, alla fine, *(dimenticare)* __(6)__ l'ultimo passaggio e subito *(cominciare)* __(7)__ a ridere. Oggi tutto *(essere)* __è (0)__ un ricordo. Adesso *(raccontare)* __(8)__ l'esperienza: Fight eat club *(essere)* __(9)__ un talent del web e io *(avere)* __(10)__ ancora un ricordo.",
+    "T5_TITLE": "IL MIO PRIMO PROVINO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** «Ieri» fissa l'azione recente e conclusa: *ho partecipato*. 中文：昨天锁定近过去时。\n- **S2.2:** «Ieri» e «in dieci minuti» indicano una preparazione recente e completata: *ho preparato*. 中文：昨天加限定完成时长，排除未完成动作。\n- **S2.3:** «Ieri», «poi» e «per un minuto» presentano un'azione recente, successiva e delimitata: *ho parlato*. 中文：昨天、随后且持续一分钟，锁定完成动作。\n- **S2.4:** «Ieri» e «una volta» fissano l'uso concluso del cellulare: *ha usato*. 中文：昨天的一次使用锁定近过去时。\n- **S2.5:** «Entro le dieci» indica il completamento entro un limite preciso: *ha finito*. 中文：明确截止时间锁定已完成动作。\n- **S2.6:** «Ieri, alla fine» e «l'ultimo passaggio» indicano un unico fatto concluso: *ho dimenticato*. 中文：昨天结束时的单次遗漏锁定近过去时。\n- **S2.7:** «Subito» segnala l'inizio puntuale della risata nello stesso episodio di ieri: *ho cominciato*. 中文：昨天同一事件中紧接着发生，锁定完成动作。\n- **S2.8:** «Adesso» porta esplicitamente il racconto al presente: *racconto*. 中文：现在这一标记锁定现在时。\n- **S2.9:** La cornice «Adesso» e il soggetto singolare «Fight eat club» richiedono *è*. 中文：现在语境和单数主语锁定答案。\n- **S2.10:** Nella stessa cornice presente, «ancora» indica uno stato attuale: *ho*. 中文：现在仍然拥有这段回忆，锁定现在时。",
+    "ANS_S2_ROWS": "| S2.1 | ho partecipato | passato prossimo | S2.6 | ho dimenticato | passato prossimo |\n| S2.2 | ho preparato | passato prossimo | S2.7 | ho cominciato | passato prossimo |\n| S2.3 | ho parlato | passato prossimo | S2.8 | racconto | presente indicativo |\n| S2.4 | ha usato | passato prossimo | S2.9 | è | presente indicativo |\n| S2.5 | ha finito | passato prossimo | S2.10 | ho | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "ho partecipato",
+    "S2.2": "ho preparato",
+    "S2.3": "ho parlato",
+    "S2.4": "ha usato",
+    "S2.5": "ha finito",
+    "S2.6": "ho dimenticato",
+    "S2.7": "ho cominciato",
+    "S2.8": "racconto",
+    "S2.9": "è",
+    "S2.10": "ho"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "provino online",
+      "categoria": "locuzione nominale",
+      "zh": "第一次线上试镜",
+      "en": "online audition",
+      "esempio": "al provino online"
+    },
+    {
+      "parola": "ricetta",
+      "categoria": "nome femminile",
+      "zh": "食谱",
+      "en": "recipe",
+      "esempio": "una ricetta"
+    },
+    {
+      "parola": "canestrelli",
+      "categoria": "nome maschile plurale",
+      "zh": "卡内斯特雷利花形饼干",
+      "en": "canestrelli biscuits",
+      "esempio": "dei canestrelli"
+    },
+    {
+      "parola": "cellulare",
+      "categoria": "nome maschile",
+      "zh": "手机",
+      "en": "mobile phone",
+      "esempio": "il cellulare"
+    },
+    {
+      "parola": "talent del web",
+      "categoria": "locuzione nominale",
+      "zh": "网络选秀节目",
+      "en": "web talent show",
+      "esempio": "un talent del web"
+    }
+  ]
+}

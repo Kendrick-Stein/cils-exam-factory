@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "CARTA D'IDENTITÀ ELETTRONICA: COME FARE",
+    "T2_TEXT": "Se hai ancora la carta d'identità cartacea, devi sostituirla con la Carta d'identità elettronica (CIE) entro il 3 agosto 2026.\n\nPer fare il cambio, devi rivolgerti a uno degli uffici comunali di prossimità.\n\nPuoi prenotare il rinnovo online sul sito del Comune di Bologna oppure telefonare al numero 051 2193400. Da gennaio ci sono anche aperture straordinarie senza prenotazione, ad accesso libero, dedicate al cambio della carta d'identità, in Piazza Liber Paradisus: dal 7 gennaio, martedì e giovedì dalle 13 alle 18, sabato dalle 8 alle 13.\n\nPer la fototessera, puoi usare lo stesso tipo di foto utilizzato per il passaporto. Devi portare una fototessera non più vecchia di sei mesi, la tessera sanitaria o il codice fiscale e la vecchia carta.\n\nRicorda di portare anche la carta d'identità cartacea che hai ancora in tuo possesso.\n\nIn caso di smarrimento o furto di una carta d'identità ancora in corso di validità servono anche la denuncia e un documento di riconoscimento.\n\nLa nuova carta costa 22 euro. Puoi pagare in contanti o con il bancomat.",
+    "L2_ITEMS": "**1. La carta cartacea va sostituita entro il 3 agosto 2026.**\n\nVero ○ Falso ○\n\n**2. Il rinnovo si può prenotare online o per telefono.**\n\nVero ○ Falso ○\n\n**3. Le aperture straordinarie sono solo il sabato.**\n\nVero ○ Falso ○\n\n**4. Il martedì gli uffici sono aperti dalle 13 alle 18.**\n\nVero ○ Falso ○\n\n**5. La fototessera può avere un anno.**\n\nVero ○ Falso ○\n\n**6. In caso di furto bisogna portare la denuncia.**\n\nVero ○ Falso ○\n\n**7. La nuova carta costa 22 euro.**\n\nVero ○ Falso ○\n\n**8. È possibile pagare solo in contanti.**\n\nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice «entro il 3 agosto 2026». 中文：这是更换纸质身份证的截止日期。 |\n| L2.2 | Vero | Si può «prenotare il rinnovo online oppure telefonare». 中文：有线上和电话两种方式。 |\n| L2.3 | Falso | Le aperture sono previste «martedì e giovedì» e anche «sabato», non solo il sabato. 中文：开放日不止星期六。 |\n| L2.4 | Vero | Il martedì l'orario indicato è «dalle 13 alle 18». 中文：星期二为下午开放。 |\n| L2.5 | Falso | La fototessera deve essere «non più vecchia di sei mesi». 中文：不能是一年前的照片。 |\n| L2.6 | Vero | In caso di furto serve «anche la denuncia». 中文：被盗时须携带报案证明。 |\n| L2.7 | Vero | Il testo precisa: «La nuova carta costa 22 euro». 中文：费用是22欧元。 |\n| L2.8 | Falso | Si può pagare «in contanti o con il bancomat», quindi non solo in contanti. 中文：也可以使用借记卡。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "carta d'identità cartacea",
+      "categoria": "locuzione nominale",
+      "zh": "纸质身份证",
+      "en": "paper identity card",
+      "esempio": "Se hai ancora la carta d'identità cartacea"
+    },
+    {
+      "parola": "rinnovo",
+      "categoria": "nome",
+      "zh": "换发；更新",
+      "en": "renewal",
+      "esempio": "Puoi prenotare il rinnovo online"
+    },
+    {
+      "parola": "aperture straordinarie",
+      "categoria": "locuzione nominale",
+      "zh": "临时特别开放时段",
+      "en": "special opening hours",
+      "esempio": "Da gennaio ci sono anche aperture straordinarie senza prenotazione"
+    },
+    {
+      "parola": "fototessera",
+      "categoria": "nome",
+      "zh": "证件照",
+      "en": "passport photo",
+      "esempio": "Devi portare una fototessera non più vecchia di sei mesi"
+    },
+    {
+      "parola": "smarrimento",
+      "categoria": "nome",
+      "zh": "遗失",
+      "en": "loss",
+      "esempio": "In caso di smarrimento o furto"
+    }
+  ]
+}

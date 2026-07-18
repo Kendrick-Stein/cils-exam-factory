@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Lo spettacolo previsto per venerdì 24 luglio è stato rinviato a domenica 26 a causa del maltempo. I biglietti già acquistati restano validi; chi non può partecipare può chiedere il rimborso entro giovedì compilando il modulo online.**\n\nA) È la conferma che lo spettacolo si terrà nella data iniziale.\nB) È un avviso sul rinvio di un evento e sulle possibilità per chi ha il biglietto.\nC) È la pubblicità di una nuova modalità per acquistare biglietti.\nD) È una richiesta agli spettatori di scegliere il programma dello spettacolo.\n\n**2. Gentile cliente, abbiamo ricevuto le fotografie del tavolo danneggiato. Entro due giorni lavorativi il nostro tecnico valuterà il caso; poi le comunicheremo se sostituiremo il prodotto o se le proporremo una riduzione del prezzo. Non occorre rispedire nulla adesso.**\n\nA) È la risposta a un reclamo che spiega i prossimi passaggi della verifica.\nB) È la conferma che il cliente riceverà immediatamente un rimborso completo.\nC) È un invito a comprare un tavolo a prezzo ridotto.\nD) È una richiesta di spedire subito il prodotto danneggiato al tecnico.\n\n**3. Tra poco parleremo dei piccoli negozi che danno nuova vita ai quartieri. Telefonateci per raccontare quale attività ha aperto recentemente nella vostra zona e che cosa è cambiato. Le testimonianze più interessanti saranno commentate in diretta dalla nostra ospite.**\n\nA) È un servizio telefonico per aprire una nuova attività commerciale.\nB) È la presentazione di un'indagine riservata ai proprietari dei negozi.\nC) È un invito agli ascoltatori a intervenire durante una trasmissione.\nD) È l'annuncio della chiusura di alcuni esercizi di quartiere.\n\n**4. Affitto per tre mesi una stanza luminosa in appartamento condiviso, vicino alla facoltà di ingegneria. La cucina è in comune e le spese sono comprese, tranne internet. Cerco una persona non fumatrice; è richiesto un deposito cauzionale pari a una mensilità.**\n\nA) È un annuncio per trovare un coinquilino per un periodo limitato.\nB) È una proposta di acquisto di un appartamento vicino all'università.\nC) È un'offerta di lavoro per studenti della facoltà di ingegneria.\nD) È una richiesta di arredare una stanza in un alloggio condiviso.\n\n**5. Ciao Paolo, ho preso le chiavi della palestra che avevi lasciato in segreteria. Dopo l'allenamento le consegnerò al custode, come mi hai chiesto. Se domani ti servono prima delle otto, avvisami stasera e le lascio nella cassetta della posta.**\n\nA) È un rimprovero a un amico che ha perso le chiavi della palestra.\nB) È una richiesta alla segreteria di aprire la palestra in anticipo.\nC) È la conferma di aver ritirato delle chiavi con un'eventuale alternativa per riconsegnarle.\nD) È un invito a partecipare a un allenamento previsto per domani.\n\n**6. Benvenuti nella Casa dello Studente. All'arrivo ritirate il badge presso la portineria e controllate il numero della vostra camera. La biancheria viene cambiata ogni lunedì; per segnalare un guasto, usate l'apposito modulo disponibile nell'area riservata.**\n\nA) È una comunicazione di accoglienza con indicazioni pratiche per i nuovi ospiti.\nB) È un reclamo sulle condizioni delle camere di una residenza.\nC) È un annuncio per assumere personale addetto alla portineria.\nD) È una richiesta agli studenti di lasciare definitivamente l'alloggio.\n\n**7. Si informa il pubblico che, per un controllo tecnico, martedì mattina l'ascensore della biblioteca resterà fuori servizio. Le sale dei piani superiori saranno comunque raggiungibili dalla scala interna; gli utenti con difficoltà motorie possono rivolgersi al personale all'ingresso.**\n\nA) È un avviso che annuncia la chiusura completa della biblioteca.\nB) È una comunicazione su un guasto permanente alle scale interne.\nC) È un invito a partecipare al controllo tecnico dell'edificio.\nD) È un avviso sull'indisponibilità temporanea dell'ascensore e sull'assistenza prevista.\n\n**8. Si è liberato un posto nel laboratorio di ceramica del sabato e il suo nome è il primo nella lista d'attesa. Se desidera partecipare, confermi entro domani alle 12 e paghi la quota. In assenza di risposta contatteremo la persona successiva.**\n\nA) È la conferma automatica dell'iscrizione senza altre azioni richieste.\nB) È l'offerta di un posto a chi era in attesa, valida fino a una scadenza.\nC) È la cancellazione definitiva di un laboratorio per mancanza di partecipanti.\nD) È la richiesta di rinunciare a un corso già frequentato.\n\n**9. Sul treno regionale arrivato da Siena alle 18.10 è stato trovato uno zaino blu contenente quaderni e un paio di occhiali. Il proprietario può rivolgersi all'ufficio oggetti smarriti della stazione, indicando anche un altro particolare utile al riconoscimento.**\n\nA) È la denuncia di un furto avvenuto durante un viaggio in treno.\nB) È una richiesta di consegnare alcuni quaderni alla stazione.\nC) È un avviso per permettere al proprietario di recuperare un oggetto ritrovato.\nD) È la pubblicità di un nuovo servizio per trasportare bagagli.\n\n**10. Non abbiamo potuto consegnare il suo ordine perché all'indirizzo indicato non era presente nessuno. Da domani il pacco sarà disponibile per cinque giorni nello sportello automatico di via Roma. Per aprirlo, inserisca il codice ricevuto tramite SMS.**\n\nA) È la conferma che un ordine è stato consegnato al destinatario.\nB) È la richiesta di comunicare al corriere un nuovo indirizzo.\nC) È un avviso sulla cancellazione di un ordine non pagato.\nD) È una comunicazione sul ritiro di un pacco dopo una consegna non riuscita."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «è stato rinviato» comunica il cambio di data; validità dei biglietti e rimborso indicano le alternative disponibili. 中文：活动延期，票可继续使用或申请退款。 |\n| S4.2 | A | «valuterà il caso» e «poi le comunicheremo» descrivono una verifica ancora in corso, non un rimborso già deciso. 中文：客服说明后续流程。 |\n| S4.3 | C | «Telefonateci per raccontare» e «commentate in diretta» invitano il pubblico a contribuire alla trasmissione. 中文：这是广播互动邀请。 |\n| S4.4 | A | «Affitto per tre mesi una stanza» e «Cerco una persona» definiscono un'offerta abitativa temporanea in condivisione. 中文：不是出售房屋。 |\n| S4.5 | C | «ho preso le chiavi» conferma il ritiro; custode e cassetta della posta sono due possibili modalità di riconsegna. 中文：重点是取钥匙及归还安排。 |\n| S4.6 | A | «Benvenuti» introduce istruzioni su badge, camera, biancheria e guasti destinate ai nuovi ospiti. 中文：是入住欢迎信息。 |\n| S4.7 | D | «martedì mattina» limita il disservizio e il testo indica scala interna e assistenza per chi ha difficoltà motorie. 中文：电梯只是暂时停用。 |\n| S4.8 | B | «il primo nella lista d'attesa» e «confermi entro domani» mostrano che il posto è offerto con una scadenza. 中文：候补者须限时确认并付款。 |\n| S4.9 | C | «è stato trovato uno zaino» e le istruzioni per rivolgersi all'ufficio mirano alla restituzione al proprietario. 中文：是失物招领，不是失窃报案。 |\n| S4.10 | D | «Non abbiamo potuto consegnare» spiega il tentativo fallito; luogo, durata e codice descrivono il ritiro successivo. 中文：包裹改为自助柜领取。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "A",
+    "S4.3": "C",
+    "S4.4": "A",
+    "S4.5": "C",
+    "S4.6": "A",
+    "S4.7": "D",
+    "S4.8": "B",
+    "S4.9": "C",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rinviato",
+      "categoria": "aggettivo / participio passato",
+      "zh": "延期的",
+      "en": "postponed",
+      "esempio": "Lo spettacolo previsto per venerdì 24 luglio è stato rinviato a domenica 26 a causa del maltempo."
+    },
+    {
+      "parola": "deposito cauzionale",
+      "categoria": "locuzione nominale",
+      "zh": "押金",
+      "en": "security deposit",
+      "esempio": "è richiesto un deposito cauzionale pari a una mensilità."
+    },
+    {
+      "parola": "fuori servizio",
+      "categoria": "locuzione aggettivale",
+      "zh": "暂停使用的",
+      "en": "out of service",
+      "esempio": "martedì mattina l'ascensore della biblioteca resterà fuori servizio."
+    },
+    {
+      "parola": "lista d'attesa",
+      "categoria": "locuzione nominale",
+      "zh": "候补名单",
+      "en": "waiting list",
+      "esempio": "il suo nome è il primo nella lista d'attesa."
+    },
+    {
+      "parola": "oggetti smarriti",
+      "categoria": "locuzione nominale",
+      "zh": "失物",
+      "en": "lost property",
+      "esempio": "Il proprietario può rivolgersi all'ufficio oggetti smarriti della stazione"
+    }
+  ]
+}

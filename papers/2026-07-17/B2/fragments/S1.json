@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "IL METANO PRODOTTO DAI RUMINANTI",
+    "S1_TEXT_WITH_GAPS": "Mucche, pecore e capre: __questi (0)__ animali sono ruminanti. Le flatulenze, alle __(1)__ si deve circa il 30% delle emissioni globali di metano, dipendono dai microrganismi del rumine. Il modo in __(2)__ partecipano alla digestione danneggia l'ambiente.\n\nUno studio su Science chiarisce tutto __(3)__ che accade nello stomaco delle mucche. Ha identificato una struttura cellulare chiamata hydrogenobody e __(4)__ ha attribuito un ruolo decisivo nella produzione del metano. Gli scienziati studiano il __(5)__ ruolo. Un bovino __(6)__ può produrre fino a 100 chilogrammi l'anno. L'effetto serra del metano è 28 volte più potente di __(7)__ della CO2. Questo dato preoccupa i ricercatori e __(8)__ spinge a cercare metodi per ridurre le emissioni. I ricercatori __(9)__ vogliono limitare con soluzioni diverse. Si va dall'uso delle alghe a __(10)__ della cacca di canguro; alcuni Paesi tassano i peti delle mucche.\n\nDi questi microrganismi non __(11)__ sappiamo abbastanza. Gli studiosi considerano i ciliati e __(12)__ ritengono centrali nella produzione del gas. Questo DNA è difficile da isolare da __(13)__ degli altri microrganismi: separare l'uno dall'__(14)__ è complicato. Lo studio chiarisce ciò __(15)__ avviene nel rumine e affronta ciò di __(16)__ sappiamo meno. Quanto ai ciliati, il __(17)__ DNA resta difficile da analizzare; gli studiosi __(18)__ occupano poco perché è difficile identificarli. Per analizzare il DNA, gli studiosi __(19)__ isolano e poi __(20)__ confrontano con quello degli altri organismi."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | quali | S1.11 | ne |\n| S1.2 | cui | S1.12 | li |\n| S1.3 | ciò | S1.13 | quello |\n| S1.4 | le | S1.14 | altro |\n| S1.5 | suo | S1.15 | che |\n| S1.6 | ne | S1.16 | cui |\n| S1.7 | quello | S1.17 | loro |\n| S1.8 | li | S1.18 | se ne |\n| S1.9 | le | S1.19 | lo |\n| S1.10 | quello | S1.20 | lo |",
+    "ANS_S1_NOTES": "- **S1.1 — quali:** «alle» è già stampato e rinvia a «flatulenze», femminile plurale; 中文：冠词介词和先行词共同限定为 *quali*。\n- **S1.2 — cui:** la preposizione «in» è già stampata; 中文：不能再写 *nel quale*。\n- **S1.4 — le:** il pronome rinvia alla struttura cellulare, femminile singolare, e introduce il complemento di termine; 中文：这里是间接宾语。\n- **S1.6 — ne:** riprende «metano» davanti a una quantità precisa («fino a 100 chilogrammi»); 中文：数量结构必须用 *ne*。\n- **S1.10 — quello:** il nome «uso», espresso subito prima, impone il dimostrativo maschile singolare; 中文：明确先行词是阳性单数 *uso*，不能填 *quelle*。\n- **S1.16 — cui:** nella sequenza fissa «ciò di cui», *del quale* non può sostituire il pronome; 中文：介词 *di* 已经给出。\n- **S1.18 — se ne:** il verbo pronominale è «occuparsi di»; 中文：两个代词必须整体填写。\n- **S1.19/S1.20 — lo:** il soggetto «gli studiosi» è espresso; entrambi i clitici riprendono «il DNA». 中文：主语已明示，两个空都只能是阳性单数宾语代词。"
+  },
+  "key": {
+    "S1.1": "quali",
+    "S1.2": "cui",
+    "S1.3": "ciò || quello",
+    "S1.4": "le",
+    "S1.5": "suo",
+    "S1.6": "ne",
+    "S1.7": "quello",
+    "S1.8": "li",
+    "S1.9": "le",
+    "S1.10": "quello",
+    "S1.11": "ne",
+    "S1.12": "li",
+    "S1.13": "quello",
+    "S1.14": "altro",
+    "S1.15": "che",
+    "S1.16": "cui",
+    "S1.17": "loro",
+    "S1.18": "se ne",
+    "S1.19": "lo",
+    "S1.20": "lo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ruminanti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "反刍动物",
+      "en": "ruminants",
+      "esempio": "animali sono ruminanti"
+    },
+    {
+      "parola": "rumine",
+      "categoria": "sostantivo maschile",
+      "zh": "瘤胃",
+      "en": "rumen",
+      "esempio": "microrganismi del rumine"
+    },
+    {
+      "parola": "effetto serra",
+      "categoria": "locuzione nominale",
+      "zh": "温室效应",
+      "en": "greenhouse effect",
+      "esempio": "L'effetto serra del metano è 28 volte più potente"
+    },
+    {
+      "parola": "ciliati",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "纤毛虫",
+      "en": "ciliates",
+      "esempio": "Gli studiosi considerano i ciliati"
+    },
+    {
+      "parola": "isolare",
+      "categoria": "verbo transitivo",
+      "zh": "分离，提取",
+      "en": "to isolate",
+      "esempio": "Questo DNA è difficile da isolare"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "AGRITUR CIASTEL",
+    "S1_TEXT_WITH_GAPS": "__L' (0)__ Agritur Ciastel è parte di un antico castello ed è perfetto per una vacanza tranquilla, lontano dal caos cittadino. __(1)__ castello ha un giardino interno alle mura. __(2)__ giardino è __(3)__ posto perfetto per riposare dopo una lunga giornata nella Val di Non. Tra __(4)__ servizi ci sono __(5)__ parcheggio gratuito, __(6)__ informazioni sui dintorni, __(7)__ uso gratuito di internet, __(8)__ doccia calda, __(9)__ prodotti tipici e __(10)__ deposito per le bici."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | il | S1.6 | le |\n| S1.2 | il | S1.7 | l' |\n| S1.3 | il | S1.8 | la |\n| S1.4 | i | S1.9 | i |\n| S1.5 | il | S1.10 | il |",
+    "ANS_S1_NOTES": "**Note.** S1.1–S1.5: «castello», «giardino», «posto» e «parcheggio» sono maschili singolari; «servizi» è maschile plurale. S1.6–S1.10: «informazioni» è femminile plurale, «uso» maschile singolare con vocale iniziale, «doccia» femminile singolare, «prodotti» maschile plurale e «deposito» maschile singolare. 中文提示：根据名词的阴阳性、单复数和词首音选择定冠词；元音开头的阳性单数 «uso» 用 «l'»。"
+  },
+  "key": {
+    "S1.1": "il",
+    "S1.2": "il",
+    "S1.3": "il",
+    "S1.4": "i",
+    "S1.5": "il",
+    "S1.6": "le",
+    "S1.7": "l'",
+    "S1.8": "la",
+    "S1.9": "i",
+    "S1.10": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "antico castello",
+      "categoria": "espressione nominale",
+      "zh": "古老的城堡",
+      "en": "ancient castle",
+      "esempio": "parte di un antico castello"
+    },
+    {
+      "parola": "vacanza tranquilla",
+      "categoria": "espressione nominale",
+      "zh": "宁静的假期",
+      "en": "peaceful holiday",
+      "esempio": "perfetto per una vacanza tranquilla"
+    },
+    {
+      "parola": "caos cittadino",
+      "categoria": "espressione nominale",
+      "zh": "城市喧嚣",
+      "en": "city bustle",
+      "esempio": "lontano dal caos cittadino"
+    },
+    {
+      "parola": "mura",
+      "categoria": "nome femminile plurale",
+      "zh": "城墙",
+      "en": "walls",
+      "esempio": "interno alle mura"
+    },
+    {
+      "parola": "prodotti tipici",
+      "categoria": "espressione nominale",
+      "zh": "特色产品",
+      "en": "local products",
+      "esempio": "prodotti tipici"
+    }
+  ]
+}

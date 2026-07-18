@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "TRE PAROLE",
+    "S2_TEXT_WITH_GAPS": "Nel 2001 Rossi arrivò a Sanremo, a giochi quasi fatti, ma il brano finì per *(essere scartato)* __essere scartato (0)__. Oggi *(riconoscere)* __(1)__ di non avere rimpianti: bisogna che le difficoltà non *(diventare)* __(2)__ personali e che un’artista le *(accettare)* __(3)__.\n\nNon era pronta ad *(affrontare)* __(4)__ quel meccanismo. Se potesse tornare indietro, non *(prendere)* __(5)__ la bocciatura sul personale.\n\nRiuscì a *(vincere)* __(6)__ il premio come rivelazione dell’anno, ma non entrò nella compilation: l’etichetta preferì *(stampare)* __(7)__ i successi. Bastarono poche settimane per *(far schizzare)* __(8)__ il brano in vetta. Finì per *(restare)* __(9)__ prima per sette settimane e riuscì a *(conquistare)* __(10)__ tre dischi d’oro.\n\nIl successo non deve *(essere confuso)* __(11)__ con i veri valori. Benché oggi i dischi d’oro *(sembrare)* __(12)__ comuni, allora erano un traguardo. Non vuole che gli episodi *(determinare)* __(13)__ il suo giudizio. Oggi *(attribuire)* __(14)__ valore alla crescita e *(descrivere)* __(15)__ la propria impermanenza.\n\nSe l’11 settembre non fosse avvenuto, nulla *(spazzare via)* __(16)__ quell’estate e quell’evento non *(creare)* __(17)__ lo spartiacque. Nel 2015 scrisse «Tre parole dopo» per *(spiegare)* __(18)__ tutto. Volle che quell’estate *(essere ricordata)* __(19)__ come l’ultima estate serena. Se dovesse riassumerla, la *(definire)* __(20)__ l’ultima estate prima delle Torri Gemelle e dell’Euro."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | riconosce | indicativo presente | S2.11 | essere confuso | infinito presente, forma passiva |\n| S2.2 | diventino | congiuntivo presente | S2.12 | sembrino | congiuntivo presente |\n| S2.3 | accetti | congiuntivo presente | S2.13 | determinino | congiuntivo presente |\n| S2.4 | affrontare | infinito presente | S2.14 | attribuisce | indicativo presente |\n| S2.5 | prenderebbe | condizionale presente | S2.15 | descrive | indicativo presente |\n| S2.6 | vincere | infinito presente | S2.16 | avrebbe spazzato via | condizionale passato |\n| S2.7 | stampare | infinito presente | S2.17 | avrebbe creato | condizionale passato |\n| S2.8 | far schizzare | infinito presente | S2.18 | spiegare | infinito presente |\n| S2.9 | restare | infinito presente | S2.19 | fosse ricordata | congiuntivo imperfetto, forma passiva |\n| S2.10 | conquistare | infinito presente | S2.20 | definirebbe | condizionale presente |",
+    "ANS_S2_NOTES": "- **S2.2–S2.3:** «bisogna che» regge entrambi i congiuntivi presenti. 中文：同一个明确的支配结构锁定两个虚拟式。\n- **S2.5:** «Se potesse tornare indietro» impone il condizionale presente «prenderebbe». 中文：非现实条件句排除直陈式。\n- **S2.11:** il modale «deve» richiede l’infinito; il verbo dato «essere confuso» impone l’intera forma passiva. 中文：情态动词和被动态提示共同锁定答案。\n- **S2.16–S2.17:** «Se l’11 settembre non fosse avvenuto» apre un periodo ipotetico controfattuale e impone due condizionali passati. 中文：过去非现实条件锁定过去条件式。\n- **S2.19:** «volle che» richiede l’imperfetto congiuntivo; «essere ricordata» e il soggetto femminile impongono «fosse ricordata». 中文：主句过去时和阴性主语共同锁定形式。"
+  },
+  "key": {
+    "S2.1": "riconosce",
+    "S2.2": "diventino",
+    "S2.3": "accetti",
+    "S2.4": "affrontare",
+    "S2.5": "prenderebbe",
+    "S2.6": "vincere",
+    "S2.7": "stampare",
+    "S2.8": "far schizzare",
+    "S2.9": "restare",
+    "S2.10": "conquistare",
+    "S2.11": "essere confuso",
+    "S2.12": "sembrino",
+    "S2.13": "determinino",
+    "S2.14": "attribuisce",
+    "S2.15": "descrive",
+    "S2.16": "avrebbe spazzato via",
+    "S2.17": "avrebbe creato",
+    "S2.18": "spiegare",
+    "S2.19": "fosse ricordata",
+    "S2.20": "definirebbe"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "a giochi quasi fatti",
+      "categoria": "locuzione",
+      "zh": "在事情几乎已成定局时",
+      "en": "when things were almost settled",
+      "esempio": "a giochi quasi fatti"
+    },
+    {
+      "parola": "bocciatura",
+      "categoria": "sostantivo",
+      "zh": "淘汰；否决",
+      "en": "rejection",
+      "esempio": "la bocciatura sul personale."
+    },
+    {
+      "parola": "rivelazione dell’anno",
+      "categoria": "locuzione nominale",
+      "zh": "年度新秀",
+      "en": "breakthrough act of the year",
+      "esempio": "il premio come rivelazione dell’anno"
+    },
+    {
+      "parola": "impermanenza",
+      "categoria": "sostantivo",
+      "zh": "无常",
+      "en": "impermanence",
+      "esempio": "la propria impermanenza."
+    },
+    {
+      "parola": "spartiacque",
+      "categoria": "sostantivo",
+      "zh": "分水岭；转折点",
+      "en": "watershed",
+      "esempio": "lo spartiacque."
+    }
+  ]
+}

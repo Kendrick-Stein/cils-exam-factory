@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "GIARDINO DELLE SCUDERIE REALI: REGOLE",
+    "T2_TEXT": "È vietato danneggiare le piante e gli oggetti del giardino. Per spostarsi, bisogna usare i sentieri e rispettare i prati.\n\nÈ vietato accendere fuochi e lasciare sigarette accese. Non si può fare molto rumore o usare casse ad alto volume.\n\nCarte, lattine e bottiglie devono andare nei cestini. Con vento forte o temporali, è vietato stare sotto gli alberi.\n\nI cani devono avere il guinzaglio. È obbligatorio raccogliere gli escrementi degli animali e metterli nei contenitori.\n\nBiciclette, skateboard e monopattini devono essere portati a mano.\n\nIl giardino è aperto dalle 7.00 alle 20.00 da maggio a settembre e dalle 7.00 alle 19.00 da ottobre ad aprile. L’ingresso è libero da Piazzale di Porta Romana, 1.",
+    "L2_ITEMS": "**1. Per spostarsi nel giardino, bisogna usare i sentieri.**  \nVero ○ Falso ○\n\n**2. Nel giardino è permesso accendere fuochi.**  \nVero ○ Falso ○\n\n**3. Le casse si possono usare ad alto volume.**  \nVero ○ Falso ○\n\n**4. Carte, lattine e bottiglie devono andare nei cestini.**  \nVero ○ Falso ○\n\n**5. Durante un temporale si può stare sotto gli alberi.**  \nVero ○ Falso ○\n\n**6. I cani devono avere il guinzaglio.**  \nVero ○ Falso ○\n\n**7. Nel giardino bisogna portare le biciclette a mano.**  \nVero ○ Falso ○\n\n**8. Da ottobre ad aprile il giardino chiude alle 20.00.**  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice: «bisogna usare i sentieri». |\n| L2.2 | Falso | Il testo dice: «È vietato accendere fuochi». 禁止，不是允许。 |\n| L2.3 | Falso | Il testo vieta di «usare casse ad alto volume». |\n| L2.4 | Vero | Il testo dice che carte, lattine e bottiglie «devono andare nei cestini». |\n| L2.5 | Falso | Con i temporali «è vietato stare sotto gli alberi». |\n| L2.6 | Vero | Il testo dice: «I cani devono avere il guinzaglio». |\n| L2.7 | Vero | Biciclette, skateboard e monopattini «devono essere portati a mano». |\n| L2.8 | Falso | Da ottobre ad aprile il giardino è aperto «dalle 7.00 alle 19.00». 注意季节不同。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sentieri",
+      "categoria": "nome maschile plurale",
+      "zh": "小路",
+      "en": "paths",
+      "esempio": "Per spostarsi, bisogna usare i sentieri e rispettare i prati."
+    },
+    {
+      "parola": "cestini",
+      "categoria": "nome maschile plurale",
+      "zh": "垃圾桶",
+      "en": "waste bins",
+      "esempio": "Carte, lattine e bottiglie devono andare nei cestini."
+    },
+    {
+      "parola": "temporali",
+      "categoria": "nome maschile plurale",
+      "zh": "雷暴",
+      "en": "thunderstorms",
+      "esempio": "Con vento forte o temporali, è vietato stare sotto gli alberi."
+    },
+    {
+      "parola": "guinzaglio",
+      "categoria": "nome maschile",
+      "zh": "牵引绳",
+      "en": "leash",
+      "esempio": "I cani devono avere il guinzaglio."
+    },
+    {
+      "parola": "ingresso",
+      "categoria": "nome maschile",
+      "zh": "入口；入场",
+      "en": "entrance; admission",
+      "esempio": "L’ingresso è libero da Piazzale di Porta Romana, 1."
+    }
+  ]
+}

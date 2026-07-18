@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "FIUME, PIETRA E CIELO APERTO: IL SENTIERELSA",
+    "T3_PART_A": "La mattina ci accoglie con una luce chiara, quasi tagliente, tipica della campagna toscana. Raggiungiamo Colle di Val d’Elsa e ci avviciniamo al sentiero.",
+    "T3_PART_B": "Sopra quei riflessi, il colore cambia continuamente: turchese intenso, verde latteo, trasparenze quasi irreali, come se il fiume respirasse luce.",
+    "T3_PART_C": "Fin dai primi passi capiamo che non è un semplice percorso, ma un attraversamento. A dominarlo è il suono dell’acqua.",
+    "T3_PART_D": "Lungo il sentiero dentro quel bosco, i nostri passi alternano terra, pietra e legno; spesso, però, è l’acqua a diventare il vero percorso.",
+    "T3_PART_E": "Durante quegli attraversamenti, i cani si muovono con noi come nel loro habitat naturale: entrano nel fiume, si scuotono tra gli alberi e corrono tra le pozze.",
+    "T3_PART_F": "Arrivati vicino all’inizio, parcheggiamo dove l’aria sembra già diversa: più umida, più verde, più viva. Poi iniziamo il SentierElsa.",
+    "T3_PART_G": "Infine, fra respiri, passi e riflessi, il tempo perde consistenza. Quando usciamo dal sentiero, sentiamo addosso l’umidità e la sensazione di aver camminato dentro qualcosa di vivo.",
+    "T3_PART_H": "Intorno a quelle trasparenze, il bosco è fitto, fresco, pieno di ombre morbide e odore di terra bagnata.",
+    "T3_PART_I": "Dopo quelle corse, i cani si fermano ad ascoltare suoni che possiamo solo immaginare. Piccole cascate rompono il silenzio, mentre il bosco si apre alla luce verde dorata.",
+    "T3_PART_J": "Dentro quell’attraversamento, l’acqua scorre veloce, si infrange sulle rocce e si raccoglie in pozze calme, dove il cielo si riflette come vetro liquido.",
+    "T3_PART_K": "Quando l’acqua diventa il percorso, in alcuni tratti la attraversiamo direttamente: arriva alle caviglie, fredda e viva, sopra rocce lisce e consumate dal tempo."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 (ancora) | A | «La mattina» apre il racconto e «ci avviciniamo al sentiero»: è l’inizio dato. 中文：先交代清晨抵达步道。 |\n| L3.1 · posizione 2 | F | «Arrivati vicino all’inizio» riprende l’avvicinamento di A; parcheggio e inizio del SentierElsa seguono l’arrivo. 中文：抵达入口后停车并开始行走。 |\n| L3.2 · posizione 3 | C | «Fin dai primi passi» può seguire soltanto «iniziamo il SentierElsa» di F e definisce il percorso come attraversamento. 中文：开始步行后才有“最初几步”。 |\n| L3.3 · posizione 4 | J | «Dentro quell’attraversamento» riprende esattamente l’«attraversamento» introdotto in C e descrive il movimento dell’acqua. 中文：指示词锁定上一段的新定义。 |\n| L3.4 · posizione 5 | B | «Sopra quei riflessi» rinvia al cielo che «si riflette» nelle pozze alla fine di J; quindi ne descrive i colori. 中文：先出现倒影，再描写颜色。 |\n| L3.5 · posizione 6 | H | «Intorno a quelle trasparenze» riprende le «trasparenze quasi irreali» di B e introduce il bosco circostante. 中文：透明水色之后转向周围树林。 |\n| L3.6 · posizione 7 | D | «Lungo il sentiero dentro quel bosco» riprende insieme il sentiero e il bosco di H; poi l’acqua diventa il percorso. 中文：树林中的步道路面逐渐转入水中。 |\n| L3.7 · posizione 8 | K | «Quando l’acqua diventa il percorso» ripete la conclusione di D e precisa che i viaggiatori la attraversano fino alle caviglie. 中文：承接“水成为道路”并具体说明涉水。 |\n| L3.8 · posizione 9 | E | «Durante quegli attraversamenti» rinvia ai tratti attraversati direttamente in K; i cani entrano allora nel fiume e corrono. 中文：涉水过程中狗也进入河里。 |\n| L3.9 · posizione 10 | I | «Dopo quelle corse» riprende i cani che «corrono tra le pozze» in E; quando si fermano, ascoltano cascate e silenzio. 中文：奔跑结束后才停下聆听。 |\n| L3.10 · posizione 11 | G | «Infine» e «Quando usciamo dal sentiero» chiudono l’esperienza dopo suoni, luce e cammino, ripresi da «respiri, passi e riflessi». 中文：离开步道构成唯一结尾。 |",
+    "ANS_L3_SEQUENCE": "A-F-C-J-B-H-D-K-E-I-G"
+  },
+  "key": {
+    "L3": "A-F-C-J-B-H-D-K-E-I-G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "vetro liquido",
+      "categoria": "locuzione nominale",
+      "zh": "液态玻璃；像玻璃般的水面",
+      "en": "liquid glass",
+      "esempio": "il cielo si riflette come vetro liquido"
+    },
+    {
+      "parola": "terra bagnata",
+      "categoria": "locuzione nominale",
+      "zh": "湿润的泥土",
+      "en": "wet earth",
+      "esempio": "odore di terra bagnata"
+    },
+    {
+      "parola": "caviglie",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "脚踝",
+      "en": "ankles",
+      "esempio": "arriva alle caviglie"
+    },
+    {
+      "parola": "consumate dal tempo",
+      "categoria": "locuzione aggettivale",
+      "zh": "被岁月磨损的",
+      "en": "worn by time",
+      "esempio": "rocce lisce e consumate dal tempo"
+    },
+    {
+      "parola": "perde consistenza",
+      "categoria": "locuzione verbale",
+      "zh": "失去实感",
+      "en": "loses substance",
+      "esempio": "il tempo perde consistenza"
+    }
+  ]
+}

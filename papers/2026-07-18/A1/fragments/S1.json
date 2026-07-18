@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "IL BORGO DI ORTE",
+    "S1_TEXT_WITH_GAPS": "__Il (0)__ borgo di Orte è nella Tuscia, nel Lazio. __(1)__ comune sorge su una collina di tufo alta circa 132 metri. Davanti c'è __(2)__ Tevere. Tra __(3)__ campi coltivati e __(4)__ dolci colline spicca __(5)__ borgo. __(6)__ antiche strade e __(7)__ case formano un compatto intreccio sulla sua altura. __(8)__ bellezza di Orte non è solo __(9)__ superficie del monte. __(10)__ storia di Orte risale all'età del bronzo."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | il | S1.6 | le |\n| S1.2 | il | S1.7 | le |\n| S1.3 | i | S1.8 | la |\n| S1.4 | le | S1.9 | la |\n| S1.5 | il | S1.10 | la |",
+    "ANS_S1_NOTES": "**Note.** S1.1–S1.5: «comune», «Tevere» e «borgo» sono maschili singolari; «campi» è maschile plurale e «colline» femminile plurale. S1.6–S1.10: «strade» e «case» sono femminili plurali; «bellezza», «superficie» e «storia» sono femminili singolari. 中文提示：根据空格后名词的阴阳性和单复数选择唯一的定冠词。"
+  },
+  "key": {
+    "S1.1": "il",
+    "S1.2": "il",
+    "S1.3": "i",
+    "S1.4": "le",
+    "S1.5": "il",
+    "S1.6": "le",
+    "S1.7": "le",
+    "S1.8": "la",
+    "S1.9": "la",
+    "S1.10": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "borgo",
+      "categoria": "nome maschile",
+      "zh": "小镇；古镇",
+      "en": "village; historic town",
+      "esempio": "Il borgo di Orte è nella Tuscia, nel Lazio."
+    },
+    {
+      "parola": "intreccio",
+      "categoria": "nome maschile",
+      "zh": "交织；交错结构",
+      "en": "interweaving; network",
+      "esempio": "Le antiche strade e le case formano un compatto intreccio sulla sua altura."
+    },
+    {
+      "parola": "collina",
+      "categoria": "nome femminile",
+      "zh": "山丘",
+      "en": "hill",
+      "esempio": "Il comune sorge su una collina di tufo alta circa 132 metri."
+    },
+    {
+      "parola": "tufo",
+      "categoria": "nome maschile",
+      "zh": "凝灰岩",
+      "en": "tuff",
+      "esempio": "La collina è alta e di tufo."
+    },
+    {
+      "parola": "altura",
+      "categoria": "nome femminile",
+      "zh": "高地",
+      "en": "high ground",
+      "esempio": "Le antiche strade e le case formano un compatto intreccio sulla sua altura."
+    }
+  ]
+}

@@ -29,7 +29,7 @@ User directives: (2026-07-08) Claude orchestrates, heavy execution is dispatched
 | Assembly, audits, reconcile/merge, build, git | local Python / shell | zero tokens |
 | S3 blind solving (full paper or `--prova` extract) | `codex exec --sandbox read-only` (low effort) or Claude subagent with `model: sonnet` | cheap **and** model-diverse from the writer |
 | S1 corpus | Codex task (needs network) or Sonnet subagent | fetch-heavy, not reasoning-heavy |
-| S2 fragments: all A1–B1 prove, all W/GLOSSARIO fragments | Codex (medium effort) or Sonnet subagent | sufficient quality |
+| S2 fragments: all A1–B1 prove, all W/O/GLOSSARIO fragments | Codex (medium effort) or Sonnet subagent | sufficient quality |
 | S2 fragments: B2/C1 ricostruzione, C1 trasformazioni & literary adaptation; any prova failing its 2nd repair round | Codex (high effort) or Opus subagent | genuinely hard |
 | Orchestration, gates, manifests | main context | by design |
 
@@ -47,7 +47,7 @@ Alternative (only when the user explicitly allows Claude subagents):
 | Stage | subagent_type | model | run_in_background |
 |---|---|---|---|
 | S1 corpus | `corpus-hunter` | sonnet | yes — all levels in parallel |
-| S2 fragments | `item-writer` | sonnet (A1–B1, W, glossario) / opus (hard B2–C1 prove) | yes — parallel per prova once S1 gate passed |
+| S2 fragments | `item-writer` | sonnet (A1–B1, W, O, glossario) / opus (hard B2–C1 prove) | yes — parallel per prova once S1 gate passed |
 | S3 blind validation | `blind-solver` | sonnet | per level (or per prova) after assembly |
 | S4 repairs | `item-writer` (**fresh**, per prova) | as S2; opus after a 2nd failure | as needed, ≤2 rounds |
 | S5 format audit | deterministic script | — | — |

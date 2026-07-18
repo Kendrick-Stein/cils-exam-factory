@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "UNA BURLA RIUSCITA",
+    "T3_PART_A": "Il 3 novembre 1918, la giornata storica di Trieste, sarebbe stato veramente poco adatto alla burla. Alle otto di sera, pregato dal fratello che dal letto anelava ad altre notizie, Mario si recò al caffè.",
+    "T3_PART_B": "A cinquantacinque anni, infatti, i suoi capelli bianchi avevano un candore che rifletteva la luce come se fosse metallico, mentre i mustacchi, ancora bruni, gli coprivano le labbra sottili.",
+    "T3_PART_C": "Dopo una lieve esitazione, aggiunse: «Bisognerebbe avere una penna d'oro con cui vergare le parole su una pergamena alluminata». A Trieste, però, mancavano allora tanto le penne d'oro quanto le pergamene alluminate.",
+    "T3_PART_D": "Prima dell'arrivo degli italiani, però, quel patriottismo non era stato grande. Gaia sapeva gonfiare tutto, essendo sempre pronto ad accalorarsi per qualunque cosa piacesse a coloro che potevano diventare suoi clienti: il suo entusiasmo aveva dunque un carattere opportunistico.",
+    "T3_PART_E": "Con quel corpo curvo e sproporzionato, i piccoli occhi neri ardevano di una malizia allegra e di presunzione. Gaia aveva inoltre la voce roca del beone, che talvolta trasformava in un urlo.",
+    "T3_PART_F": "Per esaudire quella richiesta, Mario doveva prendere quell'intruglio raddolcito dalla saccarina che i Triestini s'erano abituati a considerare caffè. Nel locale, dei suoi conoscenti trovò il solo Gaia.",
+    "T3_PART_G": "Per assolvere quel dovere, specie non avendo agito, Mario tentò di affinarsi per essere all'altezza della situazione e, com'è naturale, ricordò di essere un letterato. La parte più fine della sua natura si destò.",
+    "T3_PART_H": "A differenza di quel Mefistotele zoppicante, Mario, più vecchio di Gaia, appariva evidentemente biondo su tutta la faccia rosea, serena e riposata, nonostante una canizie estesa a tutto il suo pelo.",
+    "T3_PART_I": "Quanto al Gaia, invece, si eccitava parlando dei vari episodi cui aveva assistito nel pomeriggio. Faceva della retorica, perché era venuto il momento di gonfiare il suo patriottismo.",
+    "T3_PART_J": "Per tale mancanza, la frase era una rinunzia. Al Gaia, tuttavia, parve tutt'altro e s'arrabbiò come sanno arrabbiarsi i beoni, convinto che le parole di Mario significassero ben più di una rinuncia.",
+    "T3_PART_K": "Quel conoscente riposava su un sofà, stanco d'essere stato in piedi un paio d'ore. Bisogna confessare che Gaia aveva realmente l'aspetto dello spirito del male; perciò non era mica brutto.",
+    "T3_PART_L": "Secondo quell'interpretazione, era cosa enorme che Mario osasse anche solo menzionare la propria penna al cospetto di un avvenimento d'importanza storica. Fu proprio questo pensiero ad alimentare la rabbia del beone.",
+    "T3_PART_M": "Protesa così verso la storia, quella parte della sua natura gli fece dire letteralmente: «Vorrei saper descrivere quello che oggi sento». Poi Mario ebbe una lieve esitazione.",
+    "T3_PART_N": "Quanto al corpo, era magro, non grande, un po' curvo e gravato dalla prominenza di una pancetta sproporzionata, simile a quelle che i tedeschi attribuiscono all'effetto della birra.",
+    "T3_PART_O": "Riconosciuto quell'opportunismo, anche le parole che disse Mario potrebbero ora essere tacciate di retorica. Ma bisogna ricordare che quel giorno la parola aveva il dovere di essere forte ed eroica.",
+    "T3_PART_P": "Quell'urlo nasceva dalla sua massima: bisognava parlare un po' più forte del proprio interlocutore. Zoppicava come Mefistotele, ma non sempre della stessa gamba, perché il reuma lo afferrava ora a destra, ora a sinistra."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | F | «quella richiesta» riprende il bisogno di notizie del fratello; il caffè resta il luogo dell'azione. 中文：请求与地点双重承接。 |\n| 3 | K | «Quel conoscente» identifica il solo Gaia appena trovato da Mario. 中文：唯一人物回指。 |\n| 4 | B | «A cinquantacinque anni» e i possessivi sviluppano il ritratto di Gaia introdotto in K. 中文：年龄与外貌继续展开。 |\n| 5 | N | «Quanto al corpo» sposta ordinatamente il ritratto dai capelli e dai mustacchi alla corporatura. 中文：从面部转到体态。 |\n| 6 | E | «Con quel corpo curvo e sproporzionato» riprende precisamente la corporatura descritta in N, poi aggiunge occhi e voce. 中文：体态线索精确承接。 |\n| 7 | P | «Quell'urlo» riprende l'urlo nominato soltanto in E e ne spiega la causa. 中文：精确照应并解释原因。 |\n| 8 | H | «quel Mefistotele zoppicante» richiama la similitudine e la zoppia di P, poi introduce il contrasto con Mario. 中文：两处线索锁定承接。 |\n| 9 | I | parte data |\n| 10 | D | «quel patriottismo» riprende il patriottismo appena gonfiato da Gaia e ne precisa l'opportunismo. 中文：关键词回指。 |\n| 11 | O | «quell'opportunismo» riprende il giudizio che chiude D e prepara il confronto con la retorica di Mario. 中文：评价词精确承接并转向。 |\n| 12 | G | «quel dovere» riprende il dovere della parola di essere forte ed eroica, dichiarato in O. 中文：抽象名词精确承接。 |\n| 13 | M | «quella parte della sua natura» riprende la parte più fine destatasi in G; «così» ne indica lo slancio verso la storia. 中文：主语与方向双重照应。 |\n| 14 | C | «Dopo una lieve esitazione» riprende l'ultima azione di M e introduce la seconda battuta di Mario. 中文：时间动作直接相连。 |\n| 15 | J | «Per tale mancanza» richiama l'assenza di penne e pergamene dichiarata in C e spiega la rinunzia. 中文：因果链唯一。 |\n| 16 | L | «quell'interpretazione» riprende il fraintendimento di Gaia in J e ne esplicita il giudizio conclusivo. 中文：误读导致愤怒并收束。 |",
+    "ANS_L3_SEQUENCE": "A-F-K-B-N-E-P-H-I-D-O-G-M-C-J-L"
+  },
+  "key": {
+    "L3": "A-F-K-B-N-E-P-H-I-D-O-G-M-C-J-L"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "anelava ad altre notizie",
+      "categoria": "locuzione verbale",
+      "zh": "渴望得到更多消息",
+      "en": "longed for more news",
+      "esempio": "dal letto anelava ad altre notizie"
+    },
+    {
+      "parola": "intruglio raddolcito",
+      "categoria": "locuzione nominale",
+      "zh": "加甜的混合饮料",
+      "en": "sweetened concoction",
+      "esempio": "quell'intruglio raddolcito dalla saccarina"
+    },
+    {
+      "parola": "malizia allegra",
+      "categoria": "locuzione nominale",
+      "zh": "带着快意的狡黠",
+      "en": "merry mischief",
+      "esempio": "i piccoli occhi neri ardevano di una malizia allegra"
+    },
+    {
+      "parola": "canizie",
+      "categoria": "nome",
+      "zh": "白发",
+      "en": "grey hair",
+      "esempio": "una canizie estesa a tutto il suo pelo"
+    },
+    {
+      "parola": "pergamena alluminata",
+      "categoria": "locuzione nominale",
+      "zh": "饰有彩绘的羊皮纸",
+      "en": "illuminated parchment",
+      "esempio": "su una pergamena alluminata"
+    }
+  ]
+}

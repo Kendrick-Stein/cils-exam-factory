@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "1. Wikimedia Italia organizza il concorso Wiki Loves Monuments Italia 2025.  \nVero ○ Falso ○\n\n2. Il concorso invita le persone a documentare e proteggere il patrimonio culturale.  \nVero ○ Falso ○\n\n3. Il concorso italiano si svolge soltanto a livello nazionale.  \nVero ○ Falso ○\n\n4. I concorsi regionali e locali sono organizzati da volontari delegati da Wikimedia Italia.  \nVero ○ Falso ○\n\n5. La partecipazione è riservata ai cittadini italiani.  \nVero ○ Falso ○\n\n6. Per partecipare è necessario registrarsi sul sito Wikimedia Commons.  \nVero ○ Falso ○\n\n7. I dipendenti di Wikimedia Italia possono ricevere i premi del concorso.  \nVero ○ Falso ○\n\n8. Per concorrere al premio bisogna indicare un indirizzo e-mail valido.  \nVero ○ Falso ○\n\n9. Chi partecipa al concorso ha privilegi speciali per entrare nei monumenti.  \nVero ○ Falso ○\n\n10. Se un museo richiede un biglietto d’ingresso, il partecipante deve acquistarlo.  \nVero ○ Falso ○\n\n11. Una persona diversa dal fotografo può caricare le fotografie per lui.  \nVero ○ Falso ○\n\n12. Le fotografie devono essere caricate su Wikimedia Commons nel mese di settembre.  \nVero ○ Falso ○\n\n13. È possibile usare fotografie scattate prima del concorso, se non sono già state pubblicate.  \nVero ○ Falso ○\n\n14. Le fotografie possono mostrare anche beni culturali assenti dalle liste della webapp del concorso.  \nVero ○ Falso ○",
+    "T2_TEXT": "Wikimedia Italia organizza il concorso Wiki Loves Monuments Italia 2025.\n\n#### Art. 1 – Definizione del concorso\n\nWiki Loves Monuments è un concorso fotografico che potenzia la visibilità dei monumenti e invita ciascuno a essere protagonista nel documentare, valorizzare e tutelare il patrimonio culturale.\n\nIl concorso italiano è strutturato in due livelli: il concorso nazionale e i concorsi regionali e locali, organizzati da volontari delegati da Wikimedia Italia.\n\n#### Art. 2 – Requisiti e modalità di partecipazione\n\nLa partecipazione al concorso è gratuita e aperta a tutti, italiani o stranieri, previa registrazione sul sito Wikimedia Commons. Sono esclusi dall’assegnazione di premi i membri degli organi statutari di Wikimedia Italia, i dipendenti, i collaboratori retribuiti e i soggetti chiamati a formare le giurie.\n\nI partecipanti, all’atto della registrazione su Wikimedia Commons, dovranno specificare un proprio indirizzo e-mail valido, in modo da poter essere contattati privatamente da Wikimedia Italia. La mancata indicazione di un indirizzo e-mail valido comporta l’impossibilità di concorrere al premio.\n\nTutti i partecipanti sono chiamati a rispettare le regole di comportamento vigenti presso i luoghi dove ha sede ogni singolo bene o monumento. Partecipare al concorso non implica possedere particolari privilegi nell’accesso alle sedi dei monumenti. Se vige il divieto di utilizzare il cavalletto o il flash, tale divieto va rispettato; se è richiesto il pagamento di un biglietto d’ingresso a un museo, sarà necessario acquistarlo.\n\n#### Art. 3 – Requisiti delle fotografie\n\nLe fotografie devono essere realizzate e caricate esclusivamente dal fotografo che partecipa al concorso. Devono essere caricate su Wikimedia Commons durante il mese di settembre con licenza Creative Commons Attribuzione Condividi allo stesso modo. Possono essere state scattate precedentemente, ma non devono essere già state pubblicate su Wikimedia Commons, su altri siti web, sui social network o su pubblicazioni cartacee prima dell’inizio del concorso.\n\nLe fotografie devono avere come soggetto un bene culturale o una vista di insieme scelti tra quelli presenti nelle liste pubblicate sulla webapp del concorso.",
+    "T2_TITLE": "WIKI LOVES MONUMENTS ITALIA 2025 – REGOLAMENTO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice: \"Wikimedia Italia organizza il concorso\". |\n| L2.2 | Vero | Il concorso invita a \"documentare, valorizzare e tutelare il patrimonio culturale\". |\n| L2.3 | Falso | Il concorso italiano è organizzato in \"due livelli\", non soltanto a livello nazionale. 中文：注意 due livelli。 |\n| L2.4 | Vero | I concorsi regionali e locali sono \"organizzati da volontari delegati da Wikimedia Italia\". |\n| L2.5 | Falso | La partecipazione è aperta \"a tutti, italiani o stranieri\". |\n| L2.6 | Vero | Per partecipare è richiesta la \"registrazione sul sito Wikimedia Commons\". |\n| L2.7 | Falso | I dipendenti di Wikimedia Italia sono \"esclusi dall’assegnazione di premi\". |\n| L2.8 | Vero | Senza un indirizzo e-mail valido è impossibile \"concorrere al premio\". |\n| L2.9 | Falso | Partecipare \"non implica possedere particolari privilegi nell’accesso\" ai monumenti. |\n| L2.10 | Vero | Se il museo richiede un biglietto, \"sarà necessario acquistarlo\". |\n| L2.11 | Falso | Le fotografie devono essere caricate \"esclusivamente dal fotografo che partecipa\". |\n| L2.12 | Vero | Le fotografie devono essere caricate su Wikimedia Commons \"durante il mese di settembre\". |\n| L2.13 | Vero | Possono essere state \"scattate precedentemente\", purché non siano già state pubblicate. 中文：拍摄时间和上传时间不同。 |\n| L2.14 | Falso | Il soggetto deve essere scelto tra quelli \"presenti nelle liste pubblicate sulla webapp del concorso\". |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "organi statutari",
+      "categoria": "locuzione nominale",
+      "zh": "章程规定的机构",
+      "en": "statutory bodies",
+      "esempio": "Sono esclusi dall’assegnazione di premi i membri degli organi statutari di Wikimedia Italia, i dipendenti, i collaboratori retribuiti e i soggetti chiamati a formare le giurie."
+    },
+    {
+      "parola": "collaboratori retribuiti",
+      "categoria": "locuzione nominale",
+      "zh": "有薪合作者",
+      "en": "paid collaborators",
+      "esempio": "Sono esclusi dall’assegnazione di premi i membri degli organi statutari di Wikimedia Italia, i dipendenti, i collaboratori retribuiti e i soggetti chiamati a formare le giurie."
+    },
+    {
+      "parola": "concorrere al premio",
+      "categoria": "locuzione verbale",
+      "zh": "角逐奖项",
+      "en": "to compete for the prize",
+      "esempio": "La mancata indicazione di un indirizzo e-mail valido comporta l’impossibilità di concorrere al premio."
+    },
+    {
+      "parola": "cavalletto",
+      "categoria": "nome maschile",
+      "zh": "三脚架",
+      "en": "tripod",
+      "esempio": "Se vige il divieto di utilizzare il cavalletto o il flash, tale divieto va rispettato; se è richiesto il pagamento di un biglietto d’ingresso a un museo, sarà necessario acquistarlo."
+    },
+    {
+      "parola": "vista di insieme",
+      "categoria": "locuzione nominale",
+      "zh": "整体景观",
+      "en": "overall view",
+      "esempio": "Le fotografie devono avere come soggetto un bene culturale o una vista di insieme scelti tra quelli presenti nelle liste pubblicate sulla webapp del concorso."
+    }
+  ]
+}

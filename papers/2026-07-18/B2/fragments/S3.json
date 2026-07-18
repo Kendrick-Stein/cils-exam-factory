@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "storico",
+    "S3_OPT0_B": "antico",
+    "S3_OPT0_C": "centrale",
+    "S3_OPT0_D": "urbano",
+    "S3_OPTION_ROWS": "| 1. | rappresentanti | clienti | pazienti | visitatori |\n| 2. | ritirare | presentare | sospendere | evitare |\n| 3. | trasporto | controllo | supporto | isolamento |\n| 4. | acceso | attuale | sveglio | attivo |\n| 5. | ritmo | regime | turno | livello |\n| 6. | cambierà | terminerà | proseguirà | mancherà |\n| 7. | obiettivo | vantaggio | carattere | risultato |\n| 8. | abbandonare | chiudere | evitare | presidiare |\n| 9. | densità | affluenza | frequenza | distanza |\n| 10. | estreme | distanti | immediate | eventuali |\n| 11. | coordinate | separate | escluse | sostituite |\n| 12. | passaggio | controllo | ostacolo | riferimento |\n| 13. | privi | dotati | bisognosi | lontani |\n| 14. | strumenti | materiali | parametri | interventi |\n| 15. | collegamento | contrasto | isolamento | confronto |",
+    "S3_TEXT_WITH_GAPS": "Incontro istituzionale presso il Giardino dell'Arengo tra il sindaco Marco Fioravanti, il vicesindaco e assessore ai Servizi Sociali Massimiliano Brugni e i __(1)__ della Croce Rossa Italiana della sezione di Ascoli Piceno per __(2)__ il servizio “Bici in CRI”, progetto di primo soccorso e __(3)__ sociale in bicicletta, che sarà __(4)__ anche quest'anno.\n\nIl servizio entrerà effettivamente a __(5)__ da mercoledì 15 luglio e __(6)__ quotidianamente fino al 20 agosto, con l'__(7)__ prioritario di __(8)__ le aree a maggiore __(9)__ del centro __storico (0)__ durante la stagione estiva e alcuni luoghi più frequentati nelle __(10)__ vicinanze. Squadre di volontari della Croce Rossa, __(11)__ dalla Centrale Operativa, saranno operative offrendo un punto di __(12)__ immediato e accessibile sia per i residenti sia per i numerosi turisti.\n\nCiascun equipaggio sarà composto da volontari qualificati __(13)__ di strumentazione sanitaria per il primo intervento, misurazione dei __(14)__ vitali, completa di DAE, qualora necessario in stretto __(15)__ con la Centrale Operativa 118.\n\nIl servizio sul territorio sarà attivo dalle ore 10 alle ore 12 e dalle ore 16:30 alle ore 18:30.",
+    "T6_TITLE": "AD ASCOLI PICENO TORNA IL SERVIZIO «BICI IN CRI», PRIMO SOCCORSO IN BICICLETTA"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | La notizia parla dei \"rappresentanti della Croce Rossa Italiana\": sono le persone che partecipano all'incontro a nome dell'organizzazione.（指机构代表） |\n| S3.2 | B | L'incontro serve \"per presentare il servizio\", cioè per farlo conoscere pubblicamente.（介绍服务） |\n| S3.3 | C | Il progetto unisce \"primo soccorso e supporto sociale\": *supporto* indica l'aiuto offerto alle persone.（社会支持） |\n| S3.4 | D | Il servizio \"sarà attivo anche quest'anno\": *attivo* significa in funzione.（投入运行） |\n| S3.5 | B | La locuzione fissa \"entrare a regime\" indica che il servizio comincia a funzionare pienamente.（全面运行） |\n| S3.6 | C | \"Proseguirà quotidianamente fino al 20 agosto\" esprime la continuazione giornaliera del servizio.（持续到某日） |\n| S3.7 | A | La costruzione \"con l'obiettivo prioritario di\" introduce lo scopo principale dell'iniziativa.（首要目标） |\n| S3.8 | D | Le squadre devono \"presidiare le aree\", cioè garantire lì una presenza operativa.（驻守区域） |\n| S3.9 | B | \"Aree a maggiore affluenza\" sono i luoghi in cui arriva o passa più gente.（人流量） |\n| S3.10 | C | La locuzione \"nelle immediate vicinanze\" significa nei luoghi molto prossimi.（紧邻地区） |\n| S3.11 | A | Le squadre sono \"coordinate dalla Centrale Operativa\", che ne organizza l'attività.（由中心协调） |\n| S3.12 | D | \"Un punto di riferimento\" è un servizio riconoscibile al quale rivolgersi.（求助参照点） |\n| S3.13 | B | I volontari sono \"dotati di strumentazione sanitaria\", quindi dispongono delle attrezzature necessarie.（配备医疗器材） |\n| S3.14 | C | La strumentazione serve alla \"misurazione dei parametri vitali\", cioè dei valori essenziali dell'organismo.（测量生命体征） |\n| S3.15 | A | La locuzione \"in stretto collegamento con la Centrale Operativa 118\" indica una collaborazione diretta.（保持紧密联络） |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "B",
+    "S3.14": "C",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "entrare a regime",
+      "categoria": "locuzione verbale",
+      "zh": "全面投入运行",
+      "en": "to become fully operational",
+      "esempio": "entrerà effettivamente a regime da mercoledì 15 luglio"
+    },
+    {
+      "parola": "affluenza",
+      "categoria": "sostantivo femminile",
+      "zh": "人流量",
+      "en": "attendance; influx",
+      "esempio": "le aree a maggiore affluenza del centro storico"
+    },
+    {
+      "parola": "vicinanze",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "附近地区",
+      "en": "surroundings; vicinity",
+      "esempio": "alcuni luoghi più frequentati nelle immediate vicinanze"
+    },
+    {
+      "parola": "strumentazione sanitaria",
+      "categoria": "locuzione nominale",
+      "zh": "医疗器材",
+      "en": "medical equipment",
+      "esempio": "volontari qualificati dotati di strumentazione sanitaria"
+    },
+    {
+      "parola": "parametri vitali",
+      "categoria": "locuzione nominale",
+      "zh": "生命体征",
+      "en": "vital signs",
+      "esempio": "misurazione dei parametri vitali"
+    }
+  ]
+}

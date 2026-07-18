@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "UN SUCCESSO INASPETTATO",
+    "S2_TEXT_WITH_GAPS": "Oggi Leonardo De Andreis *(essere)* __è (0)__ il primo personaggio musicale del 2026. Il 19 dicembre scorso *(ripubblicare)* __(1)__ «Soltero». Per dieci giorni ha continuato a *(ottenere)* __(2)__ quattro milioni di visualizzazioni al giorno. Prima di *(raggiungere)* __(3)__ il successo, Leonardo aveva una vita difficile. Oggi a RaiNews Leonardo *(raccontare)* __(4)__ questa storia e *(dire)* __(5)__ che la musica continua a *(essere)* __(6)__ la sua grande passione. Finora «Soltero» *(registrare)* __(7)__ oltre 40 milioni di visualizzazioni. Cantanti, sportivi e influencer hanno iniziato a *(replicare)* __(8)__ e a *(ballare)* __(9)__ la canzone. Adesso Leonardo può *(vedere)* __(10)__ crescere la sua canzone e la sua vita."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ha ripubblicato | passato prossimo | S2.6 | essere | infinito |\n| S2.2 | ottenere | infinito | S2.7 | ha registrato | passato prossimo |\n| S2.3 | raggiungere | infinito | S2.8 | replicare | infinito |\n| S2.4 | racconta | presente | S2.9 | ballare | infinito |\n| S2.5 | dice | presente | S2.10 | vedere | infinito |",
+    "ANS_S2_NOTES": "Le reggenze rendono univoche le forme: «ha continuato a», «prima di», «continua a» e «hanno iniziato a» richiedono l’infinito; dopo il modale «può» si usa ugualmente l’infinito. «Il 19 dicembre scorso» e «Finora» fissano il passato prossimo; «Oggi» introduce il presente. 中文提示：介词 a/di 和情态动词 «può» 后的动词用不定式，因此不存在两种时态都可辩护的问题。"
+  },
+  "key": {
+    "S2.1": "ha ripubblicato",
+    "S2.2": "ottenere",
+    "S2.3": "raggiungere",
+    "S2.4": "racconta",
+    "S2.5": "dice",
+    "S2.6": "essere",
+    "S2.7": "ha registrato",
+    "S2.8": "replicare",
+    "S2.9": "ballare",
+    "S2.10": "vedere"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "successo",
+      "categoria": "nome maschile",
+      "zh": "成功",
+      "en": "success",
+      "esempio": "il successo, Leonardo aveva una vita difficile"
+    },
+    {
+      "parola": "visualizzazioni",
+      "categoria": "nome femminile plurale",
+      "zh": "观看次数",
+      "en": "views",
+      "esempio": "oltre 40 milioni di visualizzazioni"
+    },
+    {
+      "parola": "passione",
+      "categoria": "nome femminile",
+      "zh": "热爱",
+      "en": "passion",
+      "esempio": "la sua grande passione"
+    },
+    {
+      "parola": "cantanti",
+      "categoria": "nome plurale",
+      "zh": "歌手们",
+      "en": "singers",
+      "esempio": "Cantanti, sportivi e influencer hanno iniziato"
+    },
+    {
+      "parola": "crescere",
+      "categoria": "verbo",
+      "zh": "成长；增长",
+      "en": "to grow",
+      "esempio": "crescere la sua canzone e la sua vita"
+    }
+  ]
+}

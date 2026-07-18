@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "CENTRI ESTIVI 2026",
+    "T2_TEXT": "Per partecipare ai centri estivi dell’estate 2026, le famiglie possono presentare la domanda solo online. Il servizio apre alle ore 9:00 del 30 marzo e chiude alle ore 12:00 del 10 aprile. Per entrare nel servizio online è possibile usare SPID oppure la Carta di Identità Elettronica (CIE).\n\nI centri accolgono bambini e ragazzi dai 3 ai 14 anni. I bambini di 3 anni devono già frequentare la scuola dell’infanzia. Possono partecipare i bambini e i ragazzi residenti a Firenze. Possono fare domanda anche i bambini e i ragazzi che non abitano a Firenze, se frequentano una scuola nel Comune.\n\nLe attività per la fascia dai 3 ai 6 anni si svolgono nelle scuole dell’infanzia. Per la fascia dai 6 ai 14 anni, invece, le sedi sono scuole primarie o scuole secondarie di primo grado.\n\nLa pagina dedicata al servizio offre altre informazioni. Qui le famiglie possono trovare il bando con le regole per partecipare, l’elenco delle sedi, i turni disponibili e le tariffe.",
+    "L2_ITEMS": "**1. Le famiglie devono presentare la domanda online.**\n\nVero ○ Falso ○\n\n**2. Il servizio online apre alle ore 12:00 del 30 marzo.**\n\nVero ○ Falso ○\n\n**3. Per entrare nel servizio online è necessario usare SPID.**\n\nVero ○ Falso ○\n\n**4. I centri estivi sono aperti a bambini e ragazzi dai 3 ai 14 anni.**\n\nVero ○ Falso ○\n\n**5. Un bambino di 3 anni può partecipare anche se non frequenta ancora la scuola dell’infanzia.**\n\nVero ○ Falso ○\n\n**6. I bambini e i ragazzi che non abitano a Firenze possono fare domanda se frequentano una scuola nel Comune.**\n\nVero ○ Falso ○\n\n**7. Le attività per i bambini dai 3 ai 6 anni si svolgono nelle scuole primarie.**\n\nVero ○ Falso ○\n\n**8. Sulla pagina del servizio si trovano informazioni sui turni e sulle tariffe.**\n\nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice \"presentare la domanda solo online\". 中文：申请方式只有线上。 |\n| L2.2 | Falso | Il servizio \"apre alle ore 9:00 del 30 marzo\", non alle 12:00. 中文：12点是截止日的时间。 |\n| L2.3 | Falso | È possibile usare \"SPID oppure la Carta di Identità Elettronica\". 中文：SPID不是唯一方式。 |\n| L2.4 | Vero | I centri accolgono partecipanti \"dai 3 ai 14 anni\". 中文：年龄范围包含两端。 |\n| L2.5 | Falso | I bambini di 3 anni \"devono già frequentare la scuola dell’infanzia\". 中文：必须已经入园。 |\n| L2.6 | Vero | Chi non abita a Firenze può fare domanda \"se frequenta una scuola nel Comune\". 中文：非居民有入学条件。 |\n| L2.7 | Falso | La fascia 3–6 anni svolge le attività \"nelle scuole dell’infanzia\", non nelle primarie. 中文：两类场地不要混淆。 |\n| L2.8 | Vero | La pagina contiene \"i turni disponibili e le tariffe\". 中文：两项信息都有。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "presentare la domanda",
+      "categoria": "locuzione verbale",
+      "zh": "提交申请",
+      "en": "submit an application",
+      "esempio": "le famiglie possono presentare la domanda solo online"
+    },
+    {
+      "parola": "scuola dell’infanzia",
+      "categoria": "nome",
+      "zh": "幼儿园",
+      "en": "preschool",
+      "esempio": "I bambini di 3 anni devono già frequentare la scuola dell’infanzia."
+    },
+    {
+      "parola": "fascia",
+      "categoria": "nome",
+      "zh": "年龄段",
+      "en": "age group",
+      "esempio": "Le attività per la fascia dai 3 ai 6 anni si svolgono nelle scuole dell’infanzia."
+    },
+    {
+      "parola": "bando",
+      "categoria": "nome",
+      "zh": "公告；申请章程",
+      "en": "public notice",
+      "esempio": "il bando con le regole per partecipare"
+    },
+    {
+      "parola": "tariffe",
+      "categoria": "nome plurale",
+      "zh": "收费标准",
+      "en": "fees",
+      "esempio": "i turni disponibili e le tariffe"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Bando 2026 per la mobilità internazionale dei docenti",
+    "T2_TEXT": "**Art. 1 — Obiettivi**\n\nIl presente Bando offre ai docenti l’opportunità di svolgere un periodo di insegnamento, formazione e/o ricerca all’estero presso istituzioni di Paesi prevalentemente non comunitari con le quali sono stati stipulati Accordi bilaterali di Ateneo che prevedono la mobilità del personale. L’elenco completo delle sedi disponibili è riportato nell’Allegato 1.\n\n**Art. 2 — Destinatari**\n\nIl Bando è rivolto al personale docente dell’Ateneo inclusi i ricercatori; sono esclusi i docenti in sabbatico, i docenti a contratto e quelli cessati dal servizio.\n\n**Art. 3 — Durata**\n\nLa durata minima e massima dell’attività varia in base a quanto previsto nell’accordo per ogni sede ed è dettagliata nell’Allegato 1. In generale, il periodo minimo di attività è di 4 giorni consecutivi mentre il periodo massimo eleggibile non può superare i 30 giorni, escluso il viaggio. Tuttavia, nell’ambito del presente Bando potranno essere finanziati fino ad un massimo di 14 giorni per le richieste verso istituzioni in cui l’accordo preveda massimo 30 giorni di mobilità e fino ad un massimo di 8 giorni per le richieste verso istituzioni in cui l’accordo preveda massimo 15 giorni di mobilità o periodi inferiori. Se l’accordo prevede la copertura del costo dell’alloggio a carico della sede ospitante, il contributo sarà riconosciuto solo per il viaggio.\n\n**Art. 4 — Periodo di svolgimento**\n\nLe mobilità possono essere svolte dal 1 luglio 2026 al 30 giugno 2027, durante il periodo di effettiva apertura dell’Università ospitante. Il docente dovrà inoltre appurare scadenze e chiusure del calendario accademico presso l’Ateneo ospitante.\n\n**Art. 5 — Contributi finanziari**\n\nIl budget totale a disposizione per il presente Bando è di 60.000 euro. Le mobilità saranno finanziate fino ad esaurimento del budget disponibile. Il valore della quota parte di contributo per il viaggio è stato calcolato sulla base dei costi unitari per fasce di distanza chilometrica, in analogia a quanto viene fatto nell’ambito del Programma Erasmus+.\n\nI costi di mobilità vanno documentati e saranno rimborsati in base alle regole previste dal Regolamento Missioni dell’Ateneo. Nel caso in cui la spesa effettiva finale risulti superiore al contributo erogato sarà possibile far ricorso a fondi della struttura di appartenenza del docente a titolo di cofinanziamento.\n\nL’Area Relazioni Internazionali metterà il finanziamento a disposizione della struttura di riferimento del docente, in un’unica tranche prima dell’inizio della mobilità. La Struttura si farà carico della gestione amministrativa e contabile connessa; in presenza di residui il Dipartimento procederà d’ufficio in autonomia con la restituzione seguendo le istruzioni contabili riportate nel Manuale delle Assegnazioni di Ateneo predisposto dall’Ufficio Ragioneria.\n\nAl rientro, il docente farà pervenire al Projects & Mobility Office la dichiarazione di visita compilata e firmata dall’Università estera ospitante e una breve relazione sulla visita, evidenziando proposte di collaborazione negli ambiti della formazione e della ricerca. La mancata trasmissione della relazione finale entro 30 giorni dalla conclusione delle attività comporterà la restituzione dell’intero finanziamento messo a disposizione dall’Area Relazioni Internazionali.\n\n**Art. 8 — Esito e sicurezza**\n\nL’esito della selezione verrà pubblicato nella pagina web dedicata agli accordi bilaterali per docenti. L’effettivo svolgimento della mobilità sarà sempre subordinato a una valutazione delle condizioni di sicurezza nei Paesi di destinazione, sulla base delle indicazioni del Ministero degli Affari Esteri e della Cooperazione Internazionale e di altre disposizioni locali o nazionali.",
+    "L2_ITEMS": "**1.** Il Bando riguarda attività di insegnamento, formazione o ricerca presso istituzioni estere convenzionate.  \nVero ○ Falso ○\n\n**2.** I docenti a contratto possono concorrere alle stesse condizioni dei ricercatori.  \nVero ○ Falso ○\n\n**3.** La durata ordinaria minima dell’attività è di quattro giorni consecutivi.  \nVero ○ Falso ○\n\n**4.** Se un accordo consente trenta giorni di mobilità, il Bando può finanziarli tutti.  \nVero ○ Falso ○\n\n**5.** Per gli accordi che prevedono quindici giorni o meno, il finanziamento copre al massimo otto giorni.  \nVero ○ Falso ○\n\n**6.** Quando la sede ospitante paga l’alloggio, il contributo è limitato al viaggio.  \nVero ○ Falso ○\n\n**7.** La mobilità può svolgersi anche mentre l’Università ospitante è chiusa.  \nVero ○ Falso ○\n\n**8.** La quota destinata al viaggio dipende dalle fasce di distanza chilometrica.  \nVero ○ Falso ○\n\n**9.** Le spese sono rimborsate senza necessità di documentazione.  \nVero ○ Falso ○\n\n**10.** Se il contributo non basta, la struttura del docente può cofinanziare la spesa.  \nVero ○ Falso ○\n\n**11.** Il finanziamento viene trasferito in più rate dopo la conclusione della mobilità.  \nVero ○ Falso ○\n\n**12.** Gli eventuali residui sono restituiti d’ufficio dal Dipartimento.  \nVero ○ Falso ○\n\n**13.** La mancata relazione entro trenta giorni comporta la restituzione dell’intero finanziamento.  \nVero ○ Falso ○\n\n**14.** La pubblicazione dell’esito rende automatica la partenza, indipendentemente dalle condizioni di sicurezza.  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Il Bando riguarda «insegnamento, formazione e/o ricerca all’estero» presso istituzioni legate da accordi bilaterali. 中文：活动类型和合作机构条件均与原文一致。 |\n| L2.2 | F | Tra gli esclusi figurano «quelli a contratto», mentre i ricercatori possono partecipare. 中文：合同教师与研究人员的资格相反。 |\n| L2.3 | V | L’attività deve durare «almeno 4 giorni consecutivi». 中文：最低期限为连续四天。 |\n| L2.4 | F | Se l’accordo arriva a 30 giorni, il Bando ne finanzia «al massimo 14», non tutti e trenta. 中文：协议允许期限不等于资助期限。 |\n| L2.5 | V | Per una mobilità prevista di «15 giorni o meno», il limite finanziato è di «8 giorni». 中文：原文中的两个数字条件完全对应。 |\n| L2.6 | V | Se la sede copre l’alloggio, «il contributo riguarda soltanto il viaggio». 中文：住宿由接收方承担时只补助旅费。 |\n| L2.7 | F | Le mobilità devono avvenire «durante l’effettiva apertura dell’Università ospitante». 中文：学校关闭期间不符合条件。 |\n| L2.8 | V | La quota viaggio è calcolata secondo «fasce di distanza chilometrica». 中文：计算依据是距离区间。 |\n| L2.9 | F | Il testo impone che «Le spese devono essere documentate». 中文：报销必须提供凭证。 |\n| L2.10 | V | Se la spesa supera il contributo, la struttura di appartenenza «può cofinanziarla». 中文：所属机构可用自有资金共同承担。 |\n| L2.11 | F | L’Area trasferisce il finanziamento «prima della mobilità» e «in un’unica tranche». 中文：时间和拨款次数都被题干反转。 |\n| L2.12 | V | «Il Dipartimento restituisce d’ufficio eventuali residui». 中文：退款主体是院系且自动办理。 |\n| L2.13 | V | Il ritardo oltre «30 giorni» comporta la restituzione «dell’intero finanziamento». 中文：逾期后果是全额退还。 |\n| L2.14 | F | Lo svolgimento «resta subordinato alla valutazione delle condizioni di sicurezza». 中文：公布结果不代表无条件成行。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cessati dal servizio",
+      "categoria": "locuzione aggettivale",
+      "zh": "已离职的",
+      "en": "no longer in service",
+      "esempio": "quelli cessati dal servizio"
+    },
+    {
+      "parola": "fasce di distanza chilometrica",
+      "categoria": "locuzione nominale",
+      "zh": "公里距离区间",
+      "en": "distance bands in kilometres",
+      "esempio": "in base a fasce di distanza chilometrica"
+    },
+    {
+      "parola": "cofinanziarla",
+      "categoria": "verbo",
+      "zh": "共同资助它",
+      "en": "to co-finance it",
+      "esempio": "la struttura di appartenenza può cofinanziarla"
+    },
+    {
+      "parola": "in un’unica tranche",
+      "categoria": "locuzione avverbiale",
+      "zh": "一次性拨付",
+      "en": "in a single instalment",
+      "esempio": "in un’unica tranche"
+    },
+    {
+      "parola": "subordinato",
+      "categoria": "aggettivo",
+      "zh": "取决于……的；以……为前提的",
+      "en": "subject to",
+      "esempio": "resta subordinato alla valutazione delle condizioni di sicurezza"
+    }
+  ]
+}

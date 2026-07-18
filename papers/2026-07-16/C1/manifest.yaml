@@ -1,0 +1,161 @@
+exam: cils
+level: C1
+session: '2026-07-16'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/07/14/radiografie-nello-spazio/
+  title: Radiografie nello spazio, ora si può
+  publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist
+    justification: fonte scientifica primaria di ente pubblico, accesso libero e testo
+    rilasciato con licenza CC BY-NC-SA 3.0 Italia'
+  published: 14/07/2026
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 676
+- id: T2
+  url: https://youth.europa.eu/discovereu/rules_it
+  title: Regolamento dell’invito a presentare candidature DiscoverEU
+  publisher: 'Portale europeo per i giovani, Commissione europea / EACEA — off-whitelist
+    justification: regolamento istituzionale autentico, gratuito e direttamente adatto
+    al genere regolativo C1'
+  published: primavera 2026 (tornata di candidature 8–22/04/2026)
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 608
+- id: T3
+  url: https://it.wikisource.org/wiki/Un_vampiro/Un_vampiro
+  title: Un vampiro
+  publisher: Wikisource — testo di Luigi Capuana (1906), pubblico dominio; fonte whitelisted
+  published: 1906 (trascrizione Wikisource completa, SAL 75%)
+  accessed: '2026-07-16'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 465
+- id: T4
+  url: https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XXX
+  title: Processi e prescrizione (Dei delitti e delle pene, capitolo XXX)
+  publisher: Wikisource — testo di Cesare Beccaria (1764), pubblico dominio; fonte
+    whitelisted per testo culturale/saggistico
+  published: 1764 (trascrizione Wikisource completa, SAL 75%)
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 300
+- id: T5
+  url: https://it.wikisource.org/wiki/Racconti_fantastici_(Tarchetti)/Un_osso_di_morto
+  title: Un osso di morto
+  publisher: Wikisource — testo di Iginio Ugo Tarchetti (1869), pubblico dominio;
+    fonte whitelisted
+  published: 1869 (trascrizione Wikisource riletta e controllata, SAL 100%)
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 278
+- id: T6
+  url: https://www.media.inaf.it/2026/07/15/eris-beta-pictoris-d/
+  title: Giocando a nascondino con Beta Pictoris d
+  publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist
+    justification: fonte scientifica primaria di ente pubblico, gratuita e con licenza
+    CC BY-NC-SA 3.0 Italia'
+  published: 15/07/2026
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 191
+- id: T7
+  url: https://www.mimit.gov.it/it/incentivi/sviluppo-competenze
+  title: Sviluppo competenze
+  publisher: 'Ministero delle Imprese e del Made in Italy — off-whitelist justification:
+    pagina istituzionale nazionale autentica e gratuita, adatta al registro amministrativo
+    richiesto'
+  published: ultima modifica 25/06/2026
+  accessed: '2026-07-16'
+  used_in: Analisi delle strutture, Prova n. 4
+  adapted: true
+  words_used: 174
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-16'
+    executor: codex background task (corpus-hunter)
+    result: 7 slots covered, all candidate 1 accepted
+  - stage: authoring
+    at: '2026-07-16'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-16T05:59:40+00:00'
+    agreement: 80/83
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-16T06:15:10+00:00'
+    agreement: 80/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-16T06:27:02+00:00'
+    agreement: 81/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-16T06:28:34+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-16'
+    round: 1
+    fixed_items: S1.17; S2.15; L3 key en-dash normalized to hyphen (mechanical, no
+      content change)
+    result: fail — S2.1 congiuntivo unforced; S2.4/S2.9 adverb span
+  - stage: reconcile
+    at: '2026-07-16'
+    round: 2
+    fixed_items: S2.1; S2.4/S2.9 printed 'gia' moved out of gap + key alternatives
+      'X || X gia Y' (same verb form, span-only difference)
+    result: pass (83/83, 0 flags)
+  - stage: format_audit
+    at: '2026-07-16T06:29:02+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:29:12+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:33:20+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-16T06:35:09+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-16T06:36:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-16T06:36:44+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

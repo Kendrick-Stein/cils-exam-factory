@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Gentile utente, il prestito del volume *Storia delle città italiane* scade venerdì. Se desidera trattenerlo altri quindici giorni, effettui il rinnovo dall’area personale entro giovedì; in caso contrario, lo restituisca al banco senza attendere un nuovo avviso.**\n\nA. È un invito a prenotare un libro appena acquistato.\nB. È un sollecito a rinnovare o restituire un libro in scadenza.\nC. È una conferma dell’avvenuta restituzione di un volume.\nD. È una comunicazione sulla chiusura temporanea della biblioteca.\n\n**2. Attenzione, il regionale 1847 per Pisa delle ore 17.42 partirà eccezionalmente dal binario 6 anziché dal binario 2. I viaggiatori sono pregati di raggiungere il nuovo binario utilizzando il sottopassaggio e di non attraversare i binari.**\n\nA. È un annuncio che comunica la soppressione definitiva di un treno.\nB. È un avviso che invita a comprare un altro biglietto.\nC. È un annuncio che segnala un cambio di binario e indica come raggiungerlo.\nD. È un messaggio che autorizza i passeggeri ad attraversare i binari.\n\n**3. Buongiorno, abbiamo verificato la sua segnalazione: poiché la tariffa acquistata non è rimborsabile, non possiamo restituire l’importo. Possiamo però emettere un buono dello stesso valore, valido dodici mesi su tutte le nostre tratte. Ci confermi se desidera riceverlo.**\n\nA. È una risposta che nega il rimborso ma propone una soluzione alternativa.\nB. È una richiesta di pagare una seconda volta la stessa prenotazione.\nC. È una conferma che il rimborso è già stato accreditato.\nD. È un’offerta commerciale senza rapporto con un reclamo precedente.\n\n**4. Ciao a tutti! Per organizzare la cena di fine corso devo comunicare al ristorante il numero definitivo dei partecipanti. Rispondete entro martedì indicando se venite e segnalando eventuali allergie o esigenze alimentari. Senza conferma, non potrò riservarvi il posto.**\n\nA. È un messaggio che annulla una cena già prenotata.\nB. È un invito a scegliere liberamente un ristorante diverso.\nC. È un reclamo per il servizio ricevuto durante una cena.\nD. È una richiesta di confermare la partecipazione e comunicare esigenze alimentari.\n\n**5. Si avvisano i residenti che mercoledì, dalle 9.00 alle 13.00, l’acqua sarà sospesa per lavori urgenti all’impianto condominiale. Prima dell’intervento chiudete i rubinetti e non azionate lavatrici o lavastoviglie. Il servizio sarà ripristinato appena conclusi i lavori.**\n\nA. È un avviso che vieta definitivamente l’uso degli elettrodomestici.\nB. È una richiesta di segnalare una perdita d’acqua all’amministratore.\nC. È una comunicazione su un’interruzione temporanea con istruzioni preventive.\nD. È un’offerta per sostituire l’impianto idraulico degli appartamenti.\n\n**6. Traffico molto intenso sulla tangenziale nord per un veicolo fermo all’altezza dell’uscita 8. Si consigliano il percorso urbano e l’ingresso successivo; i tempi di percorrenza superano i quaranta minuti. Nuovo aggiornamento nel notiziario delle 18.**\n\nA. È un bollettino che segnala un rallentamento e suggerisce un percorso alternativo.\nB. È una pubblicità per un servizio privato di trasporto urbano.\nC. È un appello per trovare il proprietario di un veicolo rubato.\nD. È una previsione meteorologica destinata agli automobilisti.\n\n**7. Vendo bicicletta da città con cambio a sette marce, luci nuove e cestino anteriore. Usata poco, sempre custodita al coperto; prezzo 180 euro, non trattabile. È possibile provarla a Bologna, zona Murri, nel fine settimana. Non spedisco.**\n\nA. È un’offerta di noleggio giornaliero di una bicicletta.\nB. È un annuncio per vendere un oggetto usato con condizioni precise.\nC. È una richiesta di riparazione per una bicicletta danneggiata.\nD. È un invito a partecipare a una gita ciclistica nel fine settimana.\n\n**8. Benvenuta nel nostro spazio di lavoro. Alla reception troverai il badge personale, necessario per entrare anche dopo le 18. La cucina comune è al secondo piano; per assistenza tecnica scrivi in chat, mentre in caso di emergenza segui le indicazioni verdi verso l’uscita.**\n\nA. È un messaggio che comunica il trasferimento della sede di lavoro.\nB. È un regolamento che proibisce l’accesso dopo le 18.\nC. È una richiesta di restituire immediatamente un badge scaduto.\nD. È un messaggio di benvenuto con informazioni pratiche sull’accesso e sui servizi.\n\n**9. Sabato alle 16 il Museo del Tessuto propone una visita guidata gratuita ai laboratori di restauro, seguita da una dimostrazione aperta al pubblico. I posti sono limitati: la prenotazione online è obbligatoria e sarà possibile fino a esaurimento delle disponibilità.**\n\nA. È l’annuncio di un evento gratuito che richiede la prenotazione.\nB. È una comunicazione che informa della chiusura dei laboratori al pubblico.\nC. È un’offerta di lavoro riservata a restauratori con esperienza.\nD. È una richiesta di donare tessuti antichi al museo.\n\n**10. La informiamo che il medicinale ordinato è disponibile in farmacia e resterà riservato fino a lunedì sera. Per il ritiro porti la tessera sanitaria; se viene un’altra persona, dovrà presentare anche la delega firmata e una copia del suo documento.**\n\nA. È un promemoria per prenotare una visita medica entro lunedì.\nB. È una richiesta di inviare la ricetta originale tramite posta.\nC. È un avviso sulla disponibilità di un farmaco e sui documenti necessari al ritiro.\nD. È una comunicazione che annuncia l’esaurimento di un medicinale."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «scade venerdì», «rinnovo» e «in caso contrario, lo restituisca» indicano un sollecito con due azioni alternative. 中文：不是预约新书，而是处理即将到期的借阅。 |\n| S4.2 | C | «partirà eccezionalmente dal binario 6 anziché dal binario 2» comunica il cambio; «utilizzando il sottopassaggio» spiega come raggiungerlo. |\n| S4.3 | A | «non possiamo restituire l’importo» nega il rimborso, mentre «possiamo però emettere un buono» offre l’alternativa. 中文：代金券是补救方案，不是已到账的退款。 |\n| S4.4 | D | «Rispondete entro martedì indicando se venite» richiede la conferma; «segnalando eventuali allergie» chiede le esigenze alimentari. |\n| S4.5 | C | «l’acqua sarà sospesa» definisce l’interruzione temporanea e «chiudete i rubinetti» fornisce una precauzione. |\n| S4.6 | A | «Traffico molto intenso» segnala il problema e «Si consigliano il percorso urbano e l’ingresso successivo» propone l’alternativa. |\n| S4.7 | B | «Vendo bicicletta», il prezzo e «Non spedisco» identificano una vendita dell’usato con condizioni esplicite. |\n| S4.8 | D | «Benvenuta» introduce l’accoglienza; badge, cucina, assistenza e uscita sono informazioni pratiche per usare lo spazio. |\n| S4.9 | A | «visita guidata gratuita» presenta l’evento e «la prenotazione online è obbligatoria» ne indica la condizione di accesso. |\n| S4.10 | C | «il medicinale ordinato è disponibile» avvisa che il farmaco è pronto; tessera, delega e documento sono richiesti per il ritiro. 中文：重点是到货通知及领取条件。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "C",
+    "S4.3": "A",
+    "S4.4": "D",
+    "S4.5": "C",
+    "S4.6": "A",
+    "S4.7": "B",
+    "S4.8": "D",
+    "S4.9": "A",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prestito",
+      "categoria": "sostantivo",
+      "zh": "借阅；贷款",
+      "en": "loan",
+      "esempio": "senza attendere un nuovo avviso"
+    },
+    {
+      "parola": "sottopassaggio",
+      "categoria": "sostantivo",
+      "zh": "地下通道",
+      "en": "underpass",
+      "esempio": "utilizzando il sottopassaggio"
+    },
+    {
+      "parola": "rimborsabile",
+      "categoria": "aggettivo",
+      "zh": "不可退款的",
+      "en": "non-refundable",
+      "esempio": "la tariffa acquistata non è rimborsabile"
+    },
+    {
+      "parola": "ripristinato",
+      "categoria": "participio passato/aggettivo",
+      "zh": "恢复的",
+      "en": "restored",
+      "esempio": "Il servizio sarà ripristinato appena conclusi i lavori"
+    },
+    {
+      "parola": "delega firmata",
+      "categoria": "locuzione nominale",
+      "zh": "签署的授权书",
+      "en": "signed authorization",
+      "esempio": "la delega firmata"
+    }
+  ]
+}

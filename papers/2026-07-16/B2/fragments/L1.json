@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Il misterioso segnale radio che da mezzo secolo alimenta il dibattito sugli alieni",
+    "T1_TEXT": "Nel 1977 i radioastronomi del telescopio Big Ear dell’Ohio State University, situato nell’Ohio occidentale, captarono un segnale radio straordinariamente intenso proveniente dallo spazio profondo. Il segnale proveniva da qualcosa di eccezionalmente luminoso e ricadeva in una banda di frequenza che gli scienziati ritenevano potesse essere utilizzata da forme di vita aliene intelligenti per inviare trasmissioni radio nell’universo.\n\nQualche giorno dopo, mentre esaminava una stampa dei dati provenienti dall’osservatorio, Jerry Ehman, responsabile scientifico del progetto Big Ear, rimase talmente stupito dal segnale che lo cerchiò e vi scrisse accanto una sola parola con inchiostro rosso: “Wow!”. Oggi è noto come il segnale “Wow!”.\n\nQuel singolo sussurro proveniente dal cosmo non è mai più stato udito, ma è rimasto uno dei misteri più persistenti nella storia dell’astronomia. Ancora oggi non ha una spiegazione definitiva. Ora, un gruppo di ricerca che sta esaminando quel segnale insolito — e altri simili — sta elaborando una spiegazione più naturale e meno extraterrestre.\n\nNel 1963 fu costruito l’Osservatorio Big Ear per setacciare i cieli alla ricerca di segnali radio provenienti da forme di vita intelligenti su altri pianeti. L’indagine rientrava in una categoria di progetti astronomici denominata SETI, ovvero Search for Extraterrestrial Intelligence (Ricerca di intelligenza extraterrestre). Il “Big Ear”, il grande orecchio, aveva all’incirca le dimensioni di tre campi da calcio e si concentrava su una ristretta gamma di onde radio che copriva solo poche frequenze. Gli scienziati ritenevano che tali segnali a “banda stretta” avessero maggiori probabilità di provenire da extraterrestri piuttosto che da stelle o altri fenomeni che emettono radiazioni su ampie gamme di frequenze.\n\nIn un fatidico giorno d’estate dell’agosto del 1977 il telescopio rilevò un impulso in arrivo dallo spazio che durò 72 secondi e che proveniva da qualche parte nelle vicinanze della costellazione del Sagittario. Era 30 volte più potente di tutto il rumore di fondo rilevato nelle vicinanze e, cosa ancora più importante, si trattava di un segnale a banda stretta a 1.420 megahertz. Questa frequenza corrispondeva quasi esattamente a quella degli atomi di idrogeno neutro, nota come “linea dell’idrogeno”. Poiché l’idrogeno è l’elemento più abbondante nell’universo ed è facilmente distinguibile dal rumore di fondo naturale, si ipotizza che sia una frequenza di riferimento probabile per gli alieni che volessero trasmettere segnali interstellari.\n\nDopo 22 anni trascorsi alla ricerca di messaggi inviati dagli alieni, il Big Ear è stato smantellato nel 1998. È stato il progetto SETI più longevo della storia. Tuttavia, il suo segnale più famoso è stato osservato una sola volta e gli astronomi non possono affermare con certezza se si tratti o meno di un messaggio proveniente da un altro mondo.\n\nGli astronomi hanno discusso a lungo sull’origine del segnale. Le teorie spaziano da comete in transito, a interferenze radio di origine umana provenienti dai satelliti, ad artefatti strumentali o legati all’elaborazione dei dati, o ancora a qualche processo astrofisico finora sconosciuto.",
+    "L1_ITEMS": "**1. Perché il segnale del 1977 sembrò compatibile con l’ipotesi di una trasmissione intelligente?**\n\nA) Perché proveniva da una stella già studiata dal progetto SETI.\n\nB) Perché conteneva un messaggio che gli astronomi riuscirono a interpretare.\n\nC) Perché era eccezionalmente intenso e si trovava in una frequenza ritenuta adatta a comunicazioni aliene.\n\nD) Perché continuò a essere captato nei giorni successivi.\n\n**2. Il nome “Wow!” deriva**\n\nA) dalla parola ripetuta nel segnale radio.\n\nB) dalla reazione scritta da Jerry Ehman mentre controllava i dati.\n\nC) dal nome scelto dal gruppo che costruì il telescopio.\n\nD) da un codice usato per classificare gli impulsi più potenti.\n\n**3. Dal lavoro del nuovo gruppo di ricerca si deduce che**\n\nA) l’origine extraterrestre del segnale è ormai dimostrata.\n\nB) tutti i segnali simili hanno già ricevuto una spiegazione definitiva.\n\nC) il caso è stato abbandonato perché il segnale non si è ripetuto.\n\nD) il mistero resta aperto, ma vengono considerate spiegazioni meno straordinarie.\n\n**4. Qual era la funzione della scelta di poche frequenze nel progetto Big Ear?**\n\nA) Individuare segnali che, essendo a banda stretta, potevano distinguersi dalle emissioni naturali più ampie.\n\nB) Ridurre le dimensioni del telescopio fino a quelle di tre campi da calcio.\n\nC) Ricevere contemporaneamente tutte le radiazioni prodotte dalle stelle.\n\nD) Misurare soltanto i segnali provenienti dalla costellazione del Sagittario.\n\n**5. Perché la frequenza di 1.420 megahertz rafforzò l’interesse per il segnale?**\n\nA) Perché era la frequenza più comune dei satelliti costruiti dall’uomo.\n\nB) Perché eliminava completamente ogni rumore di fondo naturale.\n\nC) Perché coincideva con la linea di un elemento molto diffuso e riconoscibile nell’universo.\n\nD) Perché permetteva al telescopio di stabilire l’esatta origine dell’impulso.\n\n**6. Secondo il testo, che cosa impedisce soprattutto agli astronomi di stabilire l’origine del segnale?**\n\nA) La distruzione dei dati raccolti dal Big Ear.\n\nB) L’impossibilità di osservare nuovamente lo stesso fenomeno.\n\nC) La breve durata complessiva del progetto SETI.\n\nD) La mancanza di ipotesi alternative a quella extraterrestre.\n\n**7. Con quale scopo il testo elenca comete, satelliti, strumenti e processi astrofisici?**\n\nA) Per dimostrare che ogni teoria conduce alla stessa conclusione.\n\nB) Per escludere che il segnale possa avere un’origine naturale.\n\nC) Per indicare in ordine cronologico le spiegazioni già confermate.\n\nD) Per mostrare la varietà delle cause ancora discusse per un fenomeno irrisolto."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | C | Il segnale era «straordinariamente intenso» e ricadeva in «una banda di frequenza» ritenuta utilizzabile da forme di vita intelligenti. 中文：关键是强度与频段两个线索共同成立。 |\n| L1.2 | B | Ehman «rimase talmente stupito» che sulla stampa dei dati scrisse «Wow!». 中文：这是研究者的批注，不是信号携带的词。 |\n| L1.3 | D | Il segnale «non ha una spiegazione definitiva», mentre il gruppo elabora una spiegazione «più naturale e meno extraterrestre». 中文：未解不等于外星假说已获证实。 |\n| L1.4 | A | I segnali a «banda stretta» erano ritenuti più probabilmente artificiali dei fenomeni che emettono su «ampie gamme di frequenze». 中文：窄频带用于区分潜在人工信号与宽频自然辐射。 |\n| L1.5 | C | La frequenza coincideva con la «linea dell’idrogeno» e l’idrogeno è «l’elemento più abbondante» nonché distinguibile dal rumore naturale. 中文：重点是普遍性与可辨识性。 |\n| L1.6 | B | Il segnale «è stato osservato una sola volta», perciò non se ne può affermare con certezza l’origine. 中文：无法重复观测是判断受限的核心。 |\n| L1.7 | D | Le teorie «spaziano» da comete e interferenze ad artefatti e processi sconosciuti. 中文：列举用于展示多种尚未证实的解释。 |"
+  },
+  "key": {
+    "L1.1": "C",
+    "L1.2": "B",
+    "L1.3": "D",
+    "L1.4": "A",
+    "L1.5": "C",
+    "L1.6": "B",
+    "L1.7": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "setacciare",
+      "categoria": "verbo",
+      "zh": "搜寻；仔细筛查",
+      "en": "to scan; to search thoroughly",
+      "esempio": "setacciare i cieli alla ricerca di segnali radio"
+    },
+    {
+      "parola": "banda stretta",
+      "categoria": "locuzione nominale",
+      "zh": "窄频带",
+      "en": "narrow band",
+      "esempio": "si trattava di un segnale a banda stretta a 1.420 megahertz"
+    },
+    {
+      "parola": "rumore di fondo",
+      "categoria": "locuzione nominale",
+      "zh": "背景噪声",
+      "en": "background noise",
+      "esempio": "Era 30 volte più potente di tutto il rumore di fondo rilevato nelle vicinanze"
+    },
+    {
+      "parola": "smantellato",
+      "categoria": "participio passato",
+      "zh": "被拆除的",
+      "en": "dismantled",
+      "esempio": "il Big Ear è stato smantellato nel 1998"
+    },
+    {
+      "parola": "artefatti strumentali",
+      "categoria": "locuzione nominale",
+      "zh": "仪器伪影",
+      "en": "instrumental artifacts",
+      "esempio": "ad artefatti strumentali o legati all’elaborazione dei dati"
+    }
+  ]
+}

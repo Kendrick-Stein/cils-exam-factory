@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Festa di Apollinare**\n\n   Mercoledì 22 luglio 2026 le spiagge di Ravenna si illuminano per la festa di Apollinare. Lo spettacolo si vede su tutta la costa ravennate.\n\n2. **Una mostra sul mare**\n\n   Dal 9 luglio al 3 agosto 2026, Via Zirardini ospita una mostra fotografica. La mostra è all'aperto in questa via.\n\n3. **Letture per i più piccoli**\n\n   A luglio e agosto, il Centro di Lettura L'Albero dei Libri propone letture e laboratori per bambini da 6 mesi a 6 anni.\n\n4. **Festa della cozza**\n\n   Dal 10 al 19 luglio 2026, Marina di Ravenna festeggia la cozza selvaggia per sei giorni. L'evento è dedicato all'ambiente e al cibo di mare.",
+    "L3_OPTIONS": "A. I bambini devono essere accompagnati da un genitore.\n\nB. Puoi vedere fotografie sul mare esposte in una via.\n\nC. Durante la festa trovi cibo di mare.\n\nD. Sulla costa puoi vedere un grande spettacolo di fuochi.\n\nE. La mostra è aperta solo nel mese di agosto.\n\nF. Le attività sono per bambini da 6 a 10 anni."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | D | «le spiagge di Ravenna si illuminano» e «lungo tutta la costa». 中文：海岸和灯光指向烟花表演。 |\n| L3.2 | B | «mostra fotografica» e «esposte all'aperto in questa via». 中文：照片、露天和街道三个信息完全对应。 |\n| L3.3 | A | «bambini da 6 mesi a 6 anni» al Centro di Lettura. 中文：只有这项儿童活动需要家长陪同；F 的年龄不对。 |\n| L3.4 | C | «Festa della cozza» e «cibo di mare». 中文：贻贝节与海鲜食品直接对应。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "D",
+    "L3.2": "B",
+    "L3.3": "A",
+    "L3.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "si illuminano",
+      "categoria": "verbo",
+      "zh": "亮起来",
+      "en": "light up",
+      "esempio": "le spiagge di Ravenna si illuminano"
+    },
+    {
+      "parola": "mostra fotografica",
+      "categoria": "espressione nominale",
+      "zh": "摄影展",
+      "en": "photo exhibition",
+      "esempio": "Via Zirardini ospita una mostra fotografica"
+    },
+    {
+      "parola": "all'aperto",
+      "categoria": "locuzione avverbiale",
+      "zh": "在户外",
+      "en": "outdoors",
+      "esempio": "La mostra è all'aperto"
+    },
+    {
+      "parola": "laboratori",
+      "categoria": "nome plurale",
+      "zh": "工作坊",
+      "en": "workshops",
+      "esempio": "propone letture e laboratori per bambini"
+    },
+    {
+      "parola": "cozza selvaggia",
+      "categoria": "espressione nominale",
+      "zh": "野生贻贝",
+      "en": "wild mussel",
+      "esempio": "Marina di Ravenna festeggia la cozza selvaggia"
+    }
+  ]
+}

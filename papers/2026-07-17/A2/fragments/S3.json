@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "UN SERVIZIO PER I BAGAGLI",
+    "S3_TEXT_WITH_GAPS": "Stow Your Bags, partner di Trenitalia, offre un __servizio (0)__ di deposito bagagli sicuro. Puoi prenotare uno o più __(1)__ di diverse dimensioni. Poi scegli la __(2)__: da un'ora fino a più giorni. Paghi soltanto il tempo che ti __(3)__. Puoi __(4)__ questi armadietti anche in alcune città europee. Se hai CartaFreccia, __(5)__ il 20% in meno e ricevi un punto premio ogni due euro spesi. Durante la __(6)__ devi inserire il codice del biglietto o quello della carta. La prima volta che __(7)__ il servizio per lasciare i bagagli, ricevi altri 3 euro di sconto, ma devi fare una __(8)__ minima di 6 euro.",
+    "S3_OPT0_A": "servizio",
+    "S3_OPT0_B": "viaggio",
+    "S3_OPT0_C": "premio",
+    "S3_OPTION_ROWS": "| 1. | armadietti | biglietti | posti |\n| 2. | distanza | durata | fermata |\n| 3. | manca | piace | serve |\n| 4. | trovare | comprare | spedire |\n| 5. | porti | paghi | lasci |\n| 6. | partenza | consegna | prenotazione |\n| 7. | usi | vendi | chiudi |\n| 8. | spesa | ricarica | donazione |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «deposito bagagli» e «di diverse dimensioni» indicano gli armadietti da prenotare. 中文：后文再次出现 questi armadietti，直接锁定答案。 |\n| S3.2 | B | L'intervallo «da un'ora fino a più giorni» indica la durata. 中文：从一小时到数天描述的是使用时长。 |\n| S3.3 | C | «Paghi soltanto il tempo» richiede il tempo che ti serve. 中文：这里只支付实际需要的时间。 |\n| S3.4 | A | «anche in alcune città europee» indica dove puoi trovare gli armadietti. 中文：语境是在不同城市找到寄存柜，不是购买或寄送它们。 |\n| S3.5 | B | «il 20% in meno» significa che paghi meno. 中文：百分之二十的优惠直接作用于付款金额。 |\n| S3.6 | C | Il codice del biglietto o della carta si inserisce durante la prenotazione. 中文：输入票码或会员卡号是预订步骤。 |\n| S3.7 | A | «La prima volta» e «il servizio per lasciare i bagagli» indicano il primo utilizzo: usi. 中文：首次使用服务可获得额外优惠。 |\n| S3.8 | A | La locuzione «fare una spesa minima di 6 euro» esprime la condizione dello sconto. 中文：固定搭配表示最低消费六欧元。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "deposito bagagli",
+      "categoria": "locuzione nominale",
+      "zh": "行李寄存",
+      "en": "luggage storage",
+      "esempio": "di deposito bagagli sicuro"
+    },
+    {
+      "parola": "diverse dimensioni",
+      "categoria": "locuzione nominale",
+      "zh": "不同尺寸",
+      "en": "different sizes",
+      "esempio": "di diverse dimensioni"
+    },
+    {
+      "parola": "città europee",
+      "categoria": "locuzione nominale",
+      "zh": "欧洲城市",
+      "en": "European cities",
+      "esempio": "in alcune città europee"
+    },
+    {
+      "parola": "punto premio",
+      "categoria": "locuzione nominale",
+      "zh": "奖励积分",
+      "en": "reward point",
+      "esempio": "ricevi un punto premio ogni due euro spesi"
+    },
+    {
+      "parola": "codice del biglietto",
+      "categoria": "locuzione nominale",
+      "zh": "车票代码",
+      "en": "ticket code",
+      "esempio": "inserire il codice del biglietto"
+    }
+  ]
+}

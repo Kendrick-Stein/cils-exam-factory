@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione che promuove la riduzione dei rifiuti. Hai partecipato a un laboratorio di riparazione di piccoli oggetti. Scrivi un articolo in cui racconti l'esperienza, valuti gli aspetti positivi e le difficoltà e proponi un miglioramento per le prossime edizioni.",
+    "W2_PROMPT": "Ti sei iscritto alla visita guidata «Il museo nascosto» del museo civico e hai già acquistato il biglietto online. L'e-mail di conferma indica sabato 25 luglio alle 15, con ritrovo all'ingresso di piazza Roma; un messaggio ricevuto ieri indica invece domenica 26 luglio alle 10, con ritrovo all'ingresso laterale di via Verdi. Scrivi un'e-mail formale all'ufficio prenotazioni.",
+    "W2_REQ_1": "indicare la visita scelta e segnalare le informazioni discordanti ricevute;",
+    "W2_REQ_2": "chiedere conferma della data, dell'orario e del punto di ritrovo;",
+    "W2_REQ_3": "domandare se il biglietto già acquistato resta valido e se la visita è accessibile alle persone con difficoltà motorie."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Domenica ho partecipato a un laboratorio di riparazione organizzato dall'associazione del quartiere. Avevo portato una lampada che non funzionava più e pensavo di doverla buttare. Un volontario mi ha mostrato come controllare il cavo e sostituire una piccola parte danneggiata. Nel frattempo, altre persone riparavano tostapane, giocattoli e vestiti, scambiandosi consigli e strumenti. Ho apprezzato soprattutto l'atmosfera collaborativa e la possibilità di imparare abilità utili, invece di comprare subito un oggetto nuovo. L'unica difficoltà è stata la lunga attesa: i volontari erano pochi rispetto ai partecipanti. Per la prossima edizione proporrei un sistema di prenotazione con fasce orarie e un elenco degli oggetti accettati. Consiglio questa esperienza perché riduce i rifiuti, fa risparmiare e dimostra che molte cose possono avere una seconda vita.",
+    "MODEL_W1_PHRASES": "pensavo di doverla buttare（我原以为必须把它扔掉）; Ho apprezzato soprattutto…（我尤其欣赏……）; L'unica difficoltà è stata…（唯一的困难是……）; Per la prossima edizione proporrei…（对于下一次活动，我建议……）; avere una seconda vita（获得第二次生命）",
+    "MODEL_W2": "Gentile Ufficio Prenotazioni,\n\nmi sono iscritta alla visita «Il museo nascosto» e ho acquistato il biglietto online. L'e-mail di conferma indica sabato 25 luglio alle 15, con ritrovo in piazza Roma; il messaggio ricevuto ieri indica invece domenica 26 alle 10, in via Verdi. Potreste confermarmi la data, l'orario e il punto di ritrovo corretti? Vorrei inoltre sapere se il biglietto resterà valido e se l'intero percorso è accessibile a una persona con difficoltà motorie.\n\nRingrazio anticipatamente e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nLaura Neri",
+    "MODEL_W2_PHRASES": "mi sono iscritta a…（我报名参加了……）; Potreste confermarmi…?（您能否向我确认……？）; Vorrei inoltre sapere se…（我还想知道是否……）; Ringrazio anticipatamente per…（预先感谢……）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "piccola parte danneggiata",
+      "categoria": "locuzione nominale",
+      "zh": "损坏的小部件",
+      "en": "small damaged part",
+      "esempio": "Un volontario mi ha mostrato come controllare il cavo e sostituire una piccola parte danneggiata."
+    },
+    {
+      "parola": "atmosfera collaborativa",
+      "categoria": "locuzione nominale",
+      "zh": "协作氛围",
+      "en": "collaborative atmosphere",
+      "esempio": "Ho apprezzato soprattutto l'atmosfera collaborativa e la possibilità di imparare abilità utili, invece di comprare subito un oggetto nuovo."
+    },
+    {
+      "parola": "fasce orarie",
+      "categoria": "locuzione nominale",
+      "zh": "分时段",
+      "en": "time slots",
+      "esempio": "Per la prossima edizione proporrei un sistema di prenotazione con fasce orarie e un elenco degli oggetti accettati."
+    },
+    {
+      "parola": "punto di ritrovo",
+      "categoria": "locuzione nominale",
+      "zh": "集合地点",
+      "en": "meeting point",
+      "esempio": "Potreste confermarmi la data, l'orario e il punto di ritrovo corretti?"
+    },
+    {
+      "parola": "resto in attesa di un vostro riscontro",
+      "categoria": "formula epistolare",
+      "zh": "静候贵方回复",
+      "en": "I look forward to your reply",
+      "esempio": "Ringrazio anticipatamente per il chiarimento e resto in attesa di un vostro riscontro."
+    }
+  ]
+}

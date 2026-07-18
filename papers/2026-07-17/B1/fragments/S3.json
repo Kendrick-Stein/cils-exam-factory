@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "IL GULLIVER ROCK FESTIVAL TORNA IN PIAZZA ROMA",
+    "S3_TEXT_WITH_GAPS": "Il Gulliver Rock Festival torna in piazza __(0)__ alla sua trentatreesima __(1)__. L'evento è in programma sabato 23 maggio, dalle 20, ed è organizzato dall'Associazione Gulliver Aps con il __(2)__ dell'Università Politecnica delle Marche.\n\nLa __(3)__ della serata sarà Ele A, una delle voci più originali della nuova __(4)__ rap italiana. Prima di lei si esibiranno due band universitarie, __(5)__ attraverso il \u201cBando Gruppi Spalla\u201d. L'iniziativa è nata per __(6)__ i progetti musicali __(7)__ del territorio e della comunità studentesca. Infine, un dj set __(8)__ il festival.\n\nL'__(9)__ sarà completamente gratuito. Così l'associazione vuole rendere musica, cultura e momenti di __(10)__ accessibili alla comunità studentesca e alla cittadinanza. Creare occasioni gratuite di __(11)__ è importante oggi, perché gli spazi per giovani e studenti sono sempre più __(12)__.\n\nIl festival rappresenta un'__(13)__ concreta per __(14)__ la città, condividere cultura e ascoltare musica dal vivo. Portare l'evento nel cuore di Ancona significa infine __(15)__ che la cultura deve essere accessibile e partecipata.",
+    "S3_OPT0_A": "Roma",
+    "S3_OPT0_B": "Dante",
+    "S3_OPT0_C": "Verdi",
+    "S3_OPT0_D": "Leopardi",
+    "S3_OPTION_ROWS": "| 1. | stagione | giornata | edizione | serata |\n| 2. | rifiuto | sostegno | distacco | silenzio |\n| 3. | responsabile | presentatrice | spettatrice | protagonista |\n| 4. | scena | cultura | tradizione | moda |\n| 5. | formate | conosciute | selezionate | invitate |\n| 6. | nascondere | valorizzare | cancellare | sostituire |\n| 7. | famosi | stranieri | storici | emergenti |\n| 8. | chiuderà | interromperà | eviterà | precederà |\n| 9. | alloggio | aperitivo | ingresso | abbonamento |\n| 10. | competizione | aggregazione | isolamento | lezione |\n| 11. | lavoro | vendita | protesta | socialità |\n| 12. | limitati | occupati | rumorosi | costosi |\n| 13. | imposizione | abitudine | occasione | istruzione |\n| 14. | evitare | vivere | lasciare | dimenticare |\n| 15. | negare | scoprire | dimenticare | ribadire |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | \u201cAlla sua trentatreesima...\u201d indica il numero dell'**edizione**; 中文：指活动举办的届次。 |\n| S3.2 | B | L'evento è organizzato \u201ccon il... dell'Università\u201d: il rapporto indicato è di **sostegno**; 中文：大学提供支持。 |\n| S3.3 | D | Ele A è la figura centrale della serata, quindi la **protagonista**; 中文：不是组织者或观众。 |\n| S3.4 | A | \u201cNuova... rap italiana\u201d riprende l'ambiente artistico, cioè la **scena**; 中文：指新兴说唱圈。 |\n| S3.5 | C | Le band passano \u201cattraverso il Bando Gruppi Spalla\u201d e sono quindi **selezionate**; 中文：通过征集选出。 |\n| S3.6 | B | L'iniziativa sostiene i progetti del territorio: serve a **valorizzare**; 中文：意为提升其价值与可见度。 |\n| S3.7 | D | I progetti sostenuti dal bando sono musicali **emergenti**; 中文：指新兴项目。 |\n| S3.8 | A | \u201cInfine, un dj set...\u201d segnala l'ultimo momento e quindi **chiuderà** il festival; 中文：infine 锁定收尾。 |\n| S3.9 | C | La gratuità riguarda l'**ingresso** al festival; 中文：免费的是入场。 |\n| S3.10 | B | Musica e cultura creano \u201cmomenti di...\u201d incontro collettivo, cioè di **aggregazione**; 中文：指群体相聚。 |\n| S3.11 | D | Le \u201coccasioni gratuite\u201d permettono alle persone di stare insieme: **socialità**; 中文：指社交与共同活动。 |\n| S3.12 | A | Il testo presenta come problema gli spazi \u201csempre più...\u201d scarsi: **limitati**; 中文：表示空间越来越有限。 |\n| S3.13 | C | Il festival offre un modo concreto di vivere la città: un'**occasione**; 中文：指具体机会。 |\n| S3.14 | B | L'espressione \u201cper... la città\u201d richiede qui **vivere**, cioè partecipare alla vita urbana; 中文：指亲身体验城市。 |\n| S3.15 | D | Portare l'evento in centro conferma di nuovo un principio: **ribadire**; 中文：表示再次强调。 |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in programma",
+      "categoria": "locuzione",
+      "zh": "列入日程；计划举行",
+      "en": "scheduled",
+      "esempio": "L'evento è in programma sabato 23 maggio"
+    },
+    {
+      "parola": "band universitarie",
+      "categoria": "locuzione nominale",
+      "zh": "大学生乐队",
+      "en": "university bands",
+      "esempio": "due band universitarie"
+    },
+    {
+      "parola": "comunità studentesca",
+      "categoria": "locuzione nominale",
+      "zh": "学生群体",
+      "en": "student community",
+      "esempio": "della comunità studentesca"
+    },
+    {
+      "parola": "cittadinanza",
+      "categoria": "nome femminile",
+      "zh": "市民群体",
+      "en": "local community",
+      "esempio": "alla cittadinanza"
+    },
+    {
+      "parola": "nel cuore di",
+      "categoria": "locuzione preposizionale",
+      "zh": "在……的中心",
+      "en": "in the heart of",
+      "esempio": "nel cuore di Ancona"
+    }
+  ]
+}

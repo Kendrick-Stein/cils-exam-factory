@@ -1,0 +1,128 @@
+exam: cils
+level: B2
+session: '2026-07-18'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.wired.it/article/un-nuovo-modello-matematico-ipotizza-che-la-popolazione-mondiale-potrebbe-dimezzarsi-nel-2064/
+  title: Un nuovo modello matematico ipotizza che la popolazione mondiale potrebbe
+    dimezzarsi nel 2064
+  publisher: Wired Italia
+  published: 26/05/2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 494
+- id: T2
+  url: https://bandi.comune.torino.it/avviso/pn-metro-plus-progetto-to1131a-aiuti-alleconomia-prossimita-bando-lassegnazione-contributi
+  title: 'Aiuti all''economia di prossimità: contributi a fondo perduto alle micro
+    e piccole imprese'
+  publisher: Città di Torino — Notiziario degli appalti
+  published: 03/07/2026
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 472
+- id: T3
+  url: https://www.bimbieviaggi.it/weekend-in-puglia-salento-in-primavera/
+  title: 'Weekend on the road in Puglia: Salento in primavera… e non solo!'
+  publisher: Bimbi e Viaggi
+  published: 11/07/2025
+  accessed: 18/07/2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 363
+- id: T4
+  url: https://www.focus.it/tecnologia/innovazione/i-chatbot-formulano-diagnosi-mediche-affidabili
+  title: 'IA contro medici: i chatbot sanno davvero fare diagnosi corrette?'
+  publisher: Focus.it
+  published: 01/05/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 261
+- id: T5
+  url: https://www.fanpage.it/cultura/rovazzi-arisa-e-nino-dangelo-per-la-costiera-amalfitana-panico-in-moto-dacqua-ma-in-studio-e-nata-la-magia/
+  title: 'Rovazzi, Arisa e Nino D''Angelo per La Costiera Amalfitana: «Panico in moto
+    d''acqua, ma in studio è nata la magia»'
+  publisher: Fanpage.it
+  published: 10/07/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 251
+- id: T6
+  url: https://www.ansa.it/marche/notizie/2026/07/13/ad-ascoli-piceno-torna-il-servizio-bici-in-cri-primo-soccorso-in-bicicletta_1713fcba-9e57-499a-b6be-f67a8f4f1e6f.html
+  title: Ad Ascoli Piceno torna il servizio «Bici in CRI», primo soccorso in bicicletta
+  publisher: ANSA
+  published: 13/07/2026
+  accessed: 18/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 209
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-18T08:10:36+00:00'
+  - stage: authoring
+    at: '2026-07-18T08:10:36+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-18T08:16:44+00:00'
+    agreement: 83/87
+    flags: 6
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:34:37+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:47:59+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:50:29+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-18T08:50:46+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T08:50:47+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T09:15:06+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

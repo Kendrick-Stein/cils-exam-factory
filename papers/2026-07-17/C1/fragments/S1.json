@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "INTELLIGENZA ARTIFICIALE: REGOLE E TUTELE",
+    "S1_TEXT_WITH_GAPS": "Il Parlamento europeo ha adottato una posizione su una proposta di semplificazione, __ovvero (0)__ una modifica della legge sull'IA. La Commissione intende non tanto cancellare norme __(1)__ rinviarne l'applicazione per i sistemi ad alto rischio.\n\nIl rinvio serve non solo a posticipare norme, __(2)__ anche a preparare strumenti necessari. Occorre fare in modo __(3)__ siano pronti sia linee guida __(4)__ standard utili alle imprese al momento dell'attuazione.\n\nIl divieto riguarderebbe non soltanto sistemi che creano immagini, __(5)__ anche sistemi che le manipolano. Le immagini, tanto esplicite __(6)__ intime, riguardano soggetti identificabili. Il divieto scatterebbe a condizione __(7)__ manchi il loro consenso. Da un lato si vietano questi contenuti; dall'__(8)__, sono esclusi i sistemi, a condizione __(9)__ abbiano misure così efficaci __(10)__ impedirne la creazione.\n\nI fornitori potrebbero trattare dati personali sia per individuare distorsioni __(11)__ per correggerle. Le garanzie dovrebbero essere tali __(12)__ limitare il trattamento ai casi in __(13)__ sia necessario.\n\nIl sostegno dovrebbe andare __(14)__ la soglia delle piccole e medie imprese. Le misure sarebbero destinate non soltanto alle PMI, __(15)__ anche alle imprese cresciute oltre tale soglia.\n\nIl Parlamento considera sia la legge sull'IA __(16)__ le norme europee sulla sicurezza dei prodotti. Gli obblighi potrebbero essere meno stringenti nella misura in __(17)__ i prodotti siano già regolamentati. Rientrano tra questi, ad __(18)__, dispositivi medici, apparecchiature radio e sicurezza dei giocattoli.\n\nOltre __(19)__ questo testo, il Parlamento lavora su proposte del pacchetto relative sia all'uso e alla protezione dei dati __(20)__ ai portafogli europei per le imprese."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | quanto | S1.11 | sia |\n| S1.2 | ma | S1.12 | da |\n| S1.3 | che | S1.13 | cui |\n| S1.4 | sia | S1.14 | oltre |\n| S1.5 | ma | S1.15 | ma |\n| S1.6 | quanto | S1.16 | sia |\n| S1.7 | che | S1.17 | cui |\n| S1.8 | altro | S1.18 | esempio |\n| S1.9 | che | S1.19 | a |\n| S1.10 | da | S1.20 | sia |",
+    "ANS_S1_NOTES": "**Note sui connettivi.**\n\n- **S1.1–S1.4 — quanto; ma; che; sia:** le cornici «non tanto… quanto», «non solo… ma anche», «fare in modo che» e «sia… sia» impongono ciascun completamento. 中文：关联结构的前后项锁定唯一答案。\n- **S1.5–S1.7 — ma; quanto; che:** sono decisive le sequenze «non soltanto… ma anche», «tanto… quanto» e «a condizione che». 中文：并列、比较与条件结构都由固定搭配限定。\n- **S1.8–S1.10 — altro; che; da:** «da un lato… dall'altro», «a condizione che» e «così efficaci da impedire» chiudono ogni possibile alternativa. 中文：空格两侧共同构成固定框架。\n- **S1.11–S1.13 — sia; da; cui:** il parallelismo «sia per… sia per», la costruzione consecutiva «tali da» e il relativo «casi in cui» rendono univoche le risposte. 中文：平行结构、结果结构和关系结构均无自由变体。\n- **S1.14–S1.20 — oltre; ma; sia; cui; esempio; a; sia:** le espressioni complete sono «andare oltre», «non soltanto… ma anche», «sia… sia», «nella misura in cui», «ad esempio» e «oltre a». 中文：动词搭配与成套连接语共同排除其他形式。"
+  },
+  "key": {
+    "S1.1": "quanto",
+    "S1.2": "ma",
+    "S1.3": "che",
+    "S1.4": "sia",
+    "S1.5": "ma",
+    "S1.6": "quanto",
+    "S1.7": "che",
+    "S1.8": "altro",
+    "S1.9": "che",
+    "S1.10": "da",
+    "S1.11": "sia",
+    "S1.12": "da",
+    "S1.13": "cui",
+    "S1.14": "oltre",
+    "S1.15": "ma",
+    "S1.16": "sia",
+    "S1.17": "cui",
+    "S1.18": "esempio",
+    "S1.19": "a",
+    "S1.20": "sia"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "semplificazione",
+      "categoria": "nome femminile",
+      "zh": "简化",
+      "en": "simplification",
+      "esempio": "una proposta di semplificazione"
+    },
+    {
+      "parola": "attuazione",
+      "categoria": "nome femminile",
+      "zh": "实施；执行",
+      "en": "implementation",
+      "esempio": "al momento dell'attuazione"
+    },
+    {
+      "parola": "distorsioni",
+      "categoria": "nome femminile plurale",
+      "zh": "偏差；扭曲",
+      "en": "biases; distortions",
+      "esempio": "individuare distorsioni"
+    },
+    {
+      "parola": "stringenti",
+      "categoria": "aggettivo plurale",
+      "zh": "严格的；约束性强的",
+      "en": "strict; stringent",
+      "esempio": "Gli obblighi potrebbero essere meno stringenti"
+    },
+    {
+      "parola": "portafogli europei",
+      "categoria": "locuzione nominale",
+      "zh": "欧洲数字钱包",
+      "en": "European wallets",
+      "esempio": "ai portafogli europei per le imprese"
+    }
+  ]
+}

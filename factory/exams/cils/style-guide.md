@@ -5,7 +5,7 @@ Distilled from the dic-2024 official papers (`analysis/*.md`). Templates already
 ## 1. Naming & headers
 
 - Level names: "CILS A1", "CILS A2", "CILS UNO — B1", "CILS DUE — B2", "CILS TRE — C1".
-- Section = **test**: "Test di comprensione della lettura", "Test di analisi delle strutture di comunicazione", "Test di produzione scritta". Section header line carries: "Tempo a disposizione: **NN minuti**" + "Numero delle prove **N**" + total points.
+- Section = **test**: "Test di comprensione della lettura", "Test di analisi delle strutture di comunicazione", "Test di produzione scritta", "Test di produzione orale". Section header line carries: "Tempo a disposizione: **NN minuti**" + "Numero delle prove **N**" + total points (orale has no tempo a disposizione: durations are per prova, printed in the consegna).
 - Prova running head: `<Sezione> — Prova n. N` (e.g. "Comprensione della lettura — Prova n. 2").
 - Cover block: "Certificazione di Italiano come Lingua Straniera" / "Quaderno di esame" / "Livello: X" / month-year. Our papers add "Prova di esercitazione" + the non-affiliation notice.
 
@@ -23,6 +23,7 @@ Always bold-italic in the real papers; in markdown they live in blockquotes. Can
 - Cloze lessicale MC: «Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE…»
 - Situazioni comunicative: «Scegli per ogni espressione una delle quattro situazioni di comunicazione. DEVI SCRIVERE…»
 - Writing word count: «Devi scrivere da X a Y parole.» — always its own line.
+- Oral durations (from the official quaderni): «Durata della conversazione: 2-3 minuti circa.» / «Durata dell'esposizione: 1 minuto e mezzo circa.» — italic, own line after the consegna. Argomenti in bold numbered list, one per line; C1 role-play situations are short bold-numbered paragraphs.
 - Points statement: when present in official materials, keep it on criteria/scoring pages, not inside B2/C1 prova bodies. The official 2024 B2/C1 quaderni do not print per-prova scoring lines in the student item pages.
 
 ## 3. Items & examples
@@ -51,6 +52,7 @@ Always bold-italic in the real papers; in markdown they live in blockquotes. Can
 
 - Chiavi as tables with qualified IDs (`L1.1`, `S2.7`, `W1`); spiegazioni quote the decisive words of the text; add a one-line 中文 note where the trap is subtle.
 - Writing: print the official criteri (from `exam.yaml`), then one 范文 per task **inside the word range**, then 3–5 «Espressioni utili» with 中文 glosses.
+- Oral («Produzione orale — criteri e testi modello»): print the criteri, then a complete memorizable model for **every** argomento/domanda — dialogues as `Esaminatore:`/`Candidato:` (C1: `Interlocutore:`) turns, monologues within the spoken-length range noted in the template comment — plus 3–5 «Espressioni utili» per prova. The student paper prints only argomenti/domande and durations; all models stay in `answers.md`.
 - Close with **Glossario da ricordare**: 15–25 entries from the paper's own texts (Parola/Espressione | Categoria | 中文 | EN | Esempio dal testo).
 
 ## 7. Language policy

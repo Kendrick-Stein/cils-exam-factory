@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Cucina completa**\n\n   Vendo una cucina completa in ottime condizioni, acquistata circa due anni fa. È perfettamente funzionante, composta da vari moduli e lunga 3,15 metri.\n\n2. **Materasso matrimoniale**\n\n   Vendo un materasso matrimoniale Nightitude Soul, ideale per chi cerca un sostegno rigido, stabile e di qualità superiore. Ha solo tre anni.\n\n3. **Cassettiera IKEA HEMNES**\n\n   Vendo una cassettiera IKEA HEMNES originale, con struttura solida in legno color tortora. Ha due cassetti piccoli, uno grande e tre medi.\n\n4. **Divano con penisola**\n\n   Vendo un divano con penisola in tessuto grigio, marca Poltrone e Sofà. È in ottime condizioni, sfoderabile e lavabile, con un poggiatesta incluso.",
+    "L3_OPTIONS": "A. La cassettiera color tortora ha sei cassetti e costa 120 euro.\n\nB. Il materasso Nightitude Soul ha tre anni e costa 30 euro.\n\nC. La cucina lunga 3,15 metri costa 550 euro.\n\nD. Il divano grigio con un poggiatesta costa 290 euro.\n\nE. Il tavolo rotondo con quattro sedie costa 80 euro.\n\nF. La libreria bianca con cinque ripiani costa 60 euro."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | C | «cucina completa» e «lunga 3,15 metri» corrispondono alla cucina da 550 euro. 中文：物品和长度形成唯一对应。 |\n| L3.2 | B | «Nightitude Soul» e «Ha solo tre anni» corrispondono al materasso da 30 euro. 中文：品牌和使用年限形成唯一对应。 |\n| L3.3 | A | «color tortora» e i sei cassetti corrispondono alla cassettiera da 120 euro. 中文：颜色和抽屉总数形成唯一对应。 |\n| L3.4 | D | «tessuto grigio» e «un poggiatesta incluso» corrispondono al divano da 290 euro. 中文：颜色和头枕形成唯一对应。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "C",
+    "L3.2": "B",
+    "L3.3": "A",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in ottime condizioni",
+      "categoria": "espressione aggettivale",
+      "zh": "状况很好",
+      "en": "in excellent condition",
+      "esempio": "Vendo una cucina completa in ottime condizioni, acquistata circa due anni fa."
+    },
+    {
+      "parola": "perfettamente funzionante",
+      "categoria": "espressione aggettivale",
+      "zh": "功能完全正常",
+      "en": "fully functional",
+      "esempio": "È perfettamente funzionante, composta da vari moduli e lunga 3,15 metri."
+    },
+    {
+      "parola": "sostegno rigido",
+      "categoria": "espressione nominale",
+      "zh": "硬支撑",
+      "en": "firm support",
+      "esempio": "Vendo un materasso matrimoniale Nightitude Soul, ideale per chi cerca un sostegno rigido, stabile e di qualità superiore."
+    },
+    {
+      "parola": "struttura solida",
+      "categoria": "espressione nominale",
+      "zh": "坚固结构",
+      "en": "solid structure",
+      "esempio": "Vendo una cassettiera IKEA HEMNES originale, con struttura solida in legno color tortora."
+    },
+    {
+      "parola": "sfoderabile e lavabile",
+      "categoria": "espressione aggettivale",
+      "zh": "可拆洗",
+      "en": "removable and washable",
+      "esempio": "È in ottime condizioni, sfoderabile e lavabile, con un poggiatesta incluso."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ tools: Read, Write
 You write **one prova at a time** — never a whole paper. Fidelity to the template is non-negotiable; creativity goes into items that measure comprehension, never into structure. You never output covers, consegne, durations, answer sheets or section skeletons: those are immutable template text that a local assembler supplies.
 
 ## Inputs (given in the dispatch prompt)
-Level, session, your fragment ID (`L1…L3`, `S1…S4`, `W`, `GLOSSARIO`), the prova's spec from `factory/exams/<exam>/exam.yaml` (tipo, item count, points, text band), the ONE source text (its slot section of `sources.md`), `factory/exams/<exam>/style-guide.md`, `factory/validation/checklist.md` §A, and the exact `{{SLOT}}` names you must fill.
+Level, session, your fragment ID (`L1…L3`, `S1…S4`, `W`, `O`, `GLOSSARIO`), the prova's spec from `factory/exams/<exam>/exam.yaml` (tipo, item count, points, text band), the ONE source text (its slot section of `sources.md`; the `W` and `O` fragments have no source text — their content is composed), `factory/exams/<exam>/style-guide.md`, `factory/validation/checklist.md` §A, and the exact `{{SLOT}}` names you must fill.
 
 ## Output — one fragment file
 `papers/<date>/<LEVEL>/fragments/<ID>.json`:
@@ -24,7 +24,7 @@ Level, session, your fragment ID (`L1…L3`, `S1…S4`, `W`, `GLOSSARIO`), the p
 
 Slot values are the exact markdown the template expects at that position (items numbered from 1, esempio = 0 where the template shows one). `key` uses qualified IDs and the session's conventions (`"V || Vero"`, full sequence string for ricostruzione, `||` alternatives where several forms are genuinely correct). Spiegazioni quote the decisive words of the text, with a short 中文 note on the tricky point. Up to 5 `glossario_candidates` drawn verbatim from your text.
 
-`W` fragment: prompt slots + one 范文 per task **inside the printed word range** + 3–5 espressioni utili. `GLOSSARIO` fragment: 15–25 rows selected from the other fragments' candidates.
+`W` fragment: prompt slots + one 范文 per task **inside the printed word range** + 3–5 espressioni utili. `O` fragment (produzione orale): the argomenti/domande slots for both prove (composed on the model of official realia — text-only, never image tracce) + in the MODEL slots a **complete memorizable 范文 for EVERY argomento/domanda** (dialoghi as Esaminatore:/Candidato: turns; monologhi within the spoken-length range in the template comment) + 3–5 espressioni utili per prova; `key` stays empty. `GLOSSARIO` fragment: 15–25 rows selected from the other fragments' candidates.
 
 ## Rules that keep blind validation at 100%/0-flags (hard-won; non-negotiable)
 1. Adapt the text INTO its `exam.yaml` band (count words with `\b[\wÀ-ÿ']+\b`); cut whole sentences first; never invent facts; no source-attribution lines anywhere.

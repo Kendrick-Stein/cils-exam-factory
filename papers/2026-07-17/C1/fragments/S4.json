@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "Concorso pubblico per un posto di Funzionario Amministrativo",
+    "T7_TEXT": "È stato indetto un concorso pubblico. L'indizione del concorso avviene in esecuzione della Determina del Direttore Generale n. 76/26 del 14 maggio 2026. La selezione riguarda un posto di Funzionario Amministrativo. Il posto è previsto a tempo pieno e indeterminato e sarà destinato all'Ufficio Personale, nell'Area Funzionari del CCNL Funzioni Locali. L'avviso dispone: «Presentate la domanda esclusivamente tramite InPA». Il relativo modulo online deve essere compilato sulla piattaforma per l'ammissione. I candidati devono possedere una laurea tra quelle indicate. Tra i titoli ammessi figurano le lauree triennali delle classi indicate e, in alternativa, lauree magistrali, specialistiche o del vecchio ordinamento negli ambiti specificati. Per i titoli esteri è necessaria la dichiarazione di equivalenza. È inoltre richiesta un'esperienza lavorativa di almeno ventiquattro mesi. L'esperienza deve consistere in servizio effettivo prestato nei settori del personale e delle risorse umane presso una pubblica amministrazione. I requisiti devono sussistere alla scadenza del termine e alla firma del contratto.",
+    "S4_SOURCE_0": "È stato indetto un concorso pubblico.",
+    "S4_REWRITE_0": "SI È PROCEDUTO ALL'INDIZIONE DI UN CONCORSO PUBBLICO.",
+    "S4_ITEMS": "**1. La selezione riguarda un posto di Funzionario Amministrativo.**\n\n→ UN POSTO DI FUNZIONARIO AMMINISTRATIVO …………………………………\n\n**2. L'avviso dispone: «Presentate la domanda esclusivamente tramite InPA».**\n\n→ L'AVVISO DISPONE CHE …………………………………\n\n**3. I candidati devono possedere una laurea tra quelle indicate.**\n\n→ IL POSSESSO DI UNA LAUREA TRA QUELLE INDICATE …………………………………\n\n**4. Per i titoli esteri è necessaria la dichiarazione di equivalenza.**\n\n→ CHI HA CONSEGUITO UN TITOLO ALL'ESTERO …………………………………\n\n**5. È inoltre richiesta un'esperienza lavorativa di almeno ventiquattro mesi.**\n\n→ L'AVVISO RICHIEDE INOLTRE …………………………………\n\n**6. I requisiti devono sussistere alla scadenza del termine e alla firma del contratto.**\n\n→ IL POSSESSO DEI REQUISITI …………………………………"
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | UN POSTO DI FUNZIONARIO AMMINISTRATIVO È OGGETTO DELLA SELEZIONE. |\n| S4.2 | L'AVVISO DISPONE CHE I CANDIDATI PRESENTINO LA DOMANDA ESCLUSIVAMENTE TRAMITE INPA. |\n| S4.3 | IL POSSESSO DI UNA LAUREA TRA QUELLE INDICATE È OBBLIGATORIO PER I CANDIDATI. |\n| S4.4 | CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE ESSERE IN POSSESSO DELLA DICHIARAZIONE DI EQUIVALENZA. |\n| S4.5 | L'AVVISO RICHIEDE INOLTRE UN'ESPERIENZA LAVORATIVA DI ALMENO VENTIQUATTRO MESI. |\n| S4.6 | IL POSSESSO DEI REQUISITI È NECESSARIO ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO. |",
+    "ANS_S4_NOTES": "**Note sulle varianti e sugli errori tipici**\n\n- **S4.1–S4.2:** nella prima frase il tema diventa «un posto»; nella seconda il discorso diretto passa al discorso indiretto e richiede il congiuntivo. 中文注：第二题必须把直接引语改为间接引语，不能保留命令式。\n- **S4.3–S4.4:** «devono possedere» diventa una nominalizzazione; la costruzione impersonale sui titoli esteri lascia il posto a un soggetto umano esplicito. 中文注：第四题不能省略“国外取得学历”这一条件。\n- **S4.5–S4.6:** il passivo diventa attivo e «i requisiti devono sussistere» diventa «il possesso dei requisiti è necessario»; vanno conservati la durata e i due momenti indicati. 中文注：第五题必须保留至少二十四个月，第六题必须保留两个时间点。"
+  },
+  "key": {
+    "S4.1": "UN POSTO DI FUNZIONARIO AMMINISTRATIVO È OGGETTO DELLA SELEZIONE. || UN POSTO DI FUNZIONARIO AMMINISTRATIVO È OGGETTO DELLA SELEZIONE || UN POSTO DI FUNZIONARIO AMMINISTRATIVO COSTITUISCE L'OGGETTO DELLA SELEZIONE. || UN POSTO DI FUNZIONARIO AMMINISTRATIVO COSTITUISCE L'OGGETTO DELLA SELEZIONE",
+    "S4.2": "L'AVVISO DISPONE CHE I CANDIDATI PRESENTINO LA DOMANDA ESCLUSIVAMENTE TRAMITE INPA. || L'AVVISO DISPONE CHE I CANDIDATI PRESENTINO LA DOMANDA ESCLUSIVAMENTE TRAMITE INPA || L'AVVISO DISPONE CHE LA DOMANDA SIA PRESENTATA ESCLUSIVAMENTE TRAMITE INPA. || L'AVVISO DISPONE CHE LA DOMANDA SIA PRESENTATA ESCLUSIVAMENTE TRAMITE INPA",
+    "S4.3": "IL POSSESSO DI UNA LAUREA TRA QUELLE INDICATE È OBBLIGATORIO PER I CANDIDATI. || IL POSSESSO DI UNA LAUREA TRA QUELLE INDICATE È OBBLIGATORIO PER I CANDIDATI || IL POSSESSO DI UNA LAUREA TRA QUELLE INDICATE È RICHIESTO AI CANDIDATI. || IL POSSESSO DI UNA LAUREA TRA QUELLE INDICATE È RICHIESTO AI CANDIDATI",
+    "S4.4": "CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE ESSERE IN POSSESSO DELLA DICHIARAZIONE DI EQUIVALENZA. || CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE ESSERE IN POSSESSO DELLA DICHIARAZIONE DI EQUIVALENZA || CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE POSSEDERE LA DICHIARAZIONE DI EQUIVALENZA. || CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE POSSEDERE LA DICHIARAZIONE DI EQUIVALENZA || CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE PRESENTARE LA DICHIARAZIONE DI EQUIVALENZA. || CHI HA CONSEGUITO UN TITOLO ALL'ESTERO DEVE PRESENTARE LA DICHIARAZIONE DI EQUIVALENZA",
+    "S4.5": "L'AVVISO RICHIEDE INOLTRE UN'ESPERIENZA LAVORATIVA DI ALMENO VENTIQUATTRO MESI. || L'AVVISO RICHIEDE INOLTRE UN'ESPERIENZA LAVORATIVA DI ALMENO VENTIQUATTRO MESI || L'AVVISO RICHIEDE INOLTRE ALMENO VENTIQUATTRO MESI DI ESPERIENZA LAVORATIVA. || L'AVVISO RICHIEDE INOLTRE ALMENO VENTIQUATTRO MESI DI ESPERIENZA LAVORATIVA",
+    "S4.6": "IL POSSESSO DEI REQUISITI È NECESSARIO ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO. || IL POSSESSO DEI REQUISITI È NECESSARIO ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO || IL POSSESSO DEI REQUISITI È RICHIESTO ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO. || IL POSSESSO DEI REQUISITI È RICHIESTO ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO || IL POSSESSO DEI REQUISITI È NECESSARIO SIA ALLA SCADENZA DEL TERMINE SIA ALLA FIRMA DEL CONTRATTO. || IL POSSESSO DEI REQUISITI È NECESSARIO SIA ALLA SCADENZA DEL TERMINE SIA ALLA FIRMA DEL CONTRATTO || IL POSSESSO DEI REQUISITI È RICHIESTO SIA ALLA SCADENZA DEL TERMINE SIA ALLA FIRMA DEL CONTRATTO. || IL POSSESSO DEI REQUISITI È RICHIESTO SIA ALLA SCADENZA DEL TERMINE SIA ALLA FIRMA DEL CONTRATTO || IL POSSESSO DEI REQUISITI DEVE SUSSISTERE ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO. || IL POSSESSO DEI REQUISITI DEVE SUSSISTERE ALLA SCADENZA DEL TERMINE E ALLA FIRMA DEL CONTRATTO || IL POSSESSO DEI REQUISITI DEVE SUSSISTERE SIA ALLA SCADENZA DEL TERMINE SIA ALLA FIRMA DEL CONTRATTO. || IL POSSESSO DEI REQUISITI DEVE SUSSISTERE SIA ALLA SCADENZA DEL TERMINE SIA ALLA FIRMA DEL CONTRATTO"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "concorso pubblico",
+      "categoria": "locuzione nominale",
+      "zh": "公开招考",
+      "en": "public competition",
+      "esempio": "È stato indetto un concorso pubblico."
+    },
+    {
+      "parola": "Funzionario Amministrativo",
+      "categoria": "locuzione nominale",
+      "zh": "行政主管",
+      "en": "administrative officer",
+      "esempio": "La selezione riguarda un posto di Funzionario Amministrativo."
+    },
+    {
+      "parola": "dichiarazione di equivalenza",
+      "categoria": "locuzione amministrativa",
+      "zh": "学历等同声明",
+      "en": "declaration of equivalence",
+      "esempio": "Per i titoli esteri è necessaria la dichiarazione di equivalenza."
+    },
+    {
+      "parola": "esperienza lavorativa",
+      "categoria": "locuzione nominale",
+      "zh": "工作经验",
+      "en": "work experience",
+      "esempio": "È inoltre richiesta un'esperienza lavorativa di almeno ventiquattro mesi."
+    },
+    {
+      "parola": "firma del contratto",
+      "categoria": "locuzione nominale",
+      "zh": "合同签署",
+      "en": "contract signing",
+      "esempio": "I requisiti devono sussistere alla scadenza del termine e alla firma del contratto."
+    }
+  ]
+}

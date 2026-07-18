@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Tempeste solari: stiamo sottostimando i rischi?",
+    "S3_TEXT_WITH_GAPS": "Secondo un nuovo studio statistico pubblicato su *Nature*, stiamo __(1)__ le possibili conseguenze di forti tempeste geomagnetiche sulla __Terra (0)__.\n\nIl meteo spaziale, causato dalle variazioni dei campi elettrici nel campo magnetico terrestre e nell’alta atmosfera in __(2)__ all’attività solare, può influenzare in diversi modi le tecnologie presenti sulla Terra e nello spazio __(3)__. Il fenomeno __(4)__ è il vento solare, un __(5)__ continuo di particelle e plasma __(6)__ dal Sole, che può __(7)__ durante le eruzioni solari, causando sulla Terra fenomeni intensi come le tempeste geomagnetiche.\n\nLe osservazioni hanno finora __(8)__ che, con l’__(9)__ dell’intensità del vento solare, anche le correnti elettriche nell’alta atmosfera terrestre, quelle che influenzano satelliti, comunicazioni e sistemi di navigazione, __(10)__. Il processo, però, sembrerebbe non essere __(11)__, o almeno non completamente: la crescita, in media, continua fino a un certo punto, per poi __(12)__.\n\nQuesto ha indotto gli scienziati a pensare che esistesse un limite massimo alla risposta della Terra alle tempeste solari, una sorta di livello di __(13)__. Negli anni sono state __(14)__ decine di teorie fisiche per spiegare le osservazioni, ma nessuna ha __(15)__ il consenso degli esperti.",
+    "S3_OPT0_A": "Terra",
+    "S3_OPT0_B": "Luna",
+    "S3_OPT0_C": "Venere",
+    "S3_OPT0_D": "Marte",
+    "S3_OPTION_ROWS": "| 1. | analizzando | sottovalutando | prevedendo | descrivendo |\n| 2. | risposta | confronto | opposizione | aggiunta |\n| 3. | remoto | profondo | interstellare | circostante |\n| 4. | scatenante | conseguente | secondario | terminale |\n| 5. | deposito | accumulo | flusso | ammasso |\n| 6. | assorbito | emesso | trattenuto | deviato |\n| 7. | attenuarsi | arrestarsi | esaurirsi | intensificarsi |\n| 8. | indicato | escluso | negato | ignorato |\n| 9. | oscillare | diminuire | aumentare | stabilizzarsi |\n| 10. | calano | crescono | oscillano | cessano |\n| 11. | lineare | casuale | reversibile | uniforme |\n| 12. | accelerare | riprendere | divergere | stabilizzarsi |\n| 13. | tolleranza | allarme | saturazione | sicurezza |\n| 14. | formulate | confutate | applicate | archiviate |\n| 15. | richiesto | ottenuto | negato | imposto |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «stiamo sottovalutando le possibili conseguenze» riprende la domanda del titolo sui rischi stimati per difetto. 中文：研究认为风险被低估。 |\n| S3.2 | A | Le variazioni avvengono «in risposta all’attività solare»: l’attività del Sole ne costituisce la causa. 中文：固定搭配表示“响应”。 |\n| S3.3 | D | «Lo spazio circostante» indica l’ambiente vicino alla Terra, dove si trovano le tecnologie menzionate. 中文：指地球周边空间。 |\n| S3.4 | A | «Il fenomeno scatenante è il vento solare» identifica ciò che dà origine agli effetti descritti. 中文：scatenante 表示触发因素。 |\n| S3.5 | C | Il vento solare è definito «un flusso continuo di particelle e plasma». 中文：科学语境中的连续粒子流。 |\n| S3.6 | B | Particelle e plasma sono «emessi dal Sole», cioè hanno nel Sole la loro origine. 中文：由太阳释放。 |\n| S3.7 | D | Il vento solare «può intensificarsi durante le eruzioni solari», producendo fenomeni più forti sulla Terra. 中文：耀斑期间增强。 |\n| S3.8 | A | Le osservazioni hanno «indicato che» le correnti crescono insieme all’intensità del vento solare. 中文：观测结果表明后述关系。 |\n| S3.9 | C | «Con l’aumentare dell’intensità» introduce una crescita alla quale corrisponde quella delle correnti. 中文：两种强度同步上升。 |\n| S3.10 | B | Le correnti elettriche «crescono» quando aumenta l’intensità del vento solare. 中文：与前面的 aumentare 呼应。 |\n| S3.11 | A | Il processo «sembrerebbe non essere lineare» perché la crescita a un certo punto si stabilizza. 中文：增长并非线性持续。 |\n| S3.12 | D | La crescita continua fino a un limite «per poi stabilizzarsi», anziché proseguire allo stesso ritmo. 中文：达到一定点后趋于稳定。 |\n| S3.13 | C | Il presunto limite massimo è definito «una sorta di livello di saturazione». 中文：指响应达到饱和水平。 |\n| S3.14 | A | Le teorie sono state «formulate» allo scopo di spiegare le osservazioni. 中文：提出理论来解释现象。 |\n| S3.15 | B | «Nessuna ha ottenuto il consenso degli esperti» segnala che nessuna teoria è stata condivisa dalla comunità scientifica. 中文：没有一种理论获得专家共识。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "C",
+    "S3.14": "A",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tempeste geomagnetiche",
+      "categoria": "locuzione nominale",
+      "zh": "地磁暴",
+      "en": "geomagnetic storms",
+      "esempio": "forti tempeste geomagnetiche"
+    },
+    {
+      "parola": "meteo spaziale",
+      "categoria": "locuzione nominale",
+      "zh": "空间天气",
+      "en": "space weather",
+      "esempio": "Il meteo spaziale"
+    },
+    {
+      "parola": "alta atmosfera",
+      "categoria": "locuzione nominale",
+      "zh": "高层大气",
+      "en": "upper atmosphere",
+      "esempio": "nell’alta atmosfera"
+    },
+    {
+      "parola": "correnti elettriche",
+      "categoria": "locuzione nominale",
+      "zh": "电流",
+      "en": "electric currents",
+      "esempio": "le correnti elettriche nell’alta atmosfera terrestre"
+    },
+    {
+      "parola": "vento solare",
+      "categoria": "locuzione nominale",
+      "zh": "太阳风",
+      "en": "solar wind",
+      "esempio": "dell’intensità del vento solare"
+    }
+  ]
+}

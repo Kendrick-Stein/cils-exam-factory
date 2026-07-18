@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Di fuoco e seta: il Risorgimento raccontato ai ragazzi",
+    "T1_TEXT": "Manlio Castagna è uno scrittore legato alla Holden. Lo scrittore ambienta una storia d'amore durante la battaglia di Solferino tra franco-piemontesi e austriaci. Il suo romanzo, \"Di fuoco e seta\", ha vinto il Premio Acqui Storia nella sezione dedicata ai ragazzi.\n\nSulla cima del colle più alto di Solferino, nel mantovano, c'è un ossario che ricorda gli oltre settemila morti del 24 giugno 1859. Fu una delle battaglie più sanguinose della storia d'Italia e anticipò il processo che portò all'unificazione del Paese. Proprio da questo luogo è nata l'ispirazione per il libro di Castagna, pubblicato da Mondadori. Il romanzo presenta il Risorgimento attraverso gli occhi di tre giovanissimi: così una storia di crescita personale diventa anche memoria collettiva.\n\n«È come se avessi intuito che la storia potesse essere nelle ossa. Per la prima volta il Risorgimento mi è apparso per quello che è: una storia di giovani che con il loro sangue e la loro passione hanno combattuto», spiega Castagna. Per prepararsi, lo scrittore ha letto molti libri, ma prima di tutto ha cercato i diari e le lettere dei ragazzi che parteciparono a quegli eventi.\n\nI protagonisti sono Visio, un ragazzo povero e ribelle, Altea, una giovane allevatrice di bachi da seta, e suo fratello Sante, un patriota pieno di ideali. Quando scoppia la guerra contro gli austriaci, Sante decide di unirsi ai combattenti. I tre giovani vivono esperienze di morte e rinascita mentre nasce una nuova Italia.\n\nIl titolo del romanzo richiama due elementi opposti. Da una parte c'è il fuoco della passione, dei fucili e della battaglia. Dall'altra c'è la seta, che rappresenta la gentilezza e la cura, ma anche i bachi allevati da Altea. Per l'autore, questo contrasto è una metafora del cambiamento: secondo lui, infatti, ogni storia per ragazzi deve raccontare una trasformazione.\n\nLe tracce di quel cambiamento attraversano i secoli. Nel presente aiutano Lianna, una ragazza di quattordici anni, a riannodare i fili della propria storia familiare. Alla fine Asè, il misterioso anziano che custodisce l'ossario di Solferino, le dice: «Chi non ricorda, muore due volte».\n\nQuando incontra gli studenti nelle scuole, Castagna domanda se hanno visto il film \"Coco\" della Pixar. Spiega che le persone muoiono davvero quando nessuno le ricorda più e quando sulle loro tombe non resta neppure una fotografia o un fiore. La memoria, conclude, è l'unico modo che abbiamo per tenere in vita ciò che non c'è più.",
+    "L1_ITEMS": "**1. Il luogo di Solferino ha dato a Castagna l'idea per un romanzo che...**\n\nA) racconta la costruzione di un ossario nel mantovano.\n\nB) presenta il Risorgimento dal punto di vista di tre giovani.\n\nC) ricostruisce la storia dell'unificazione attraverso documenti ufficiali.\n\nD) descrive soltanto la battaglia combattuta il 24 giugno 1859.\n\n**2. Per preparare il romanzo, Castagna ha cominciato...**\n\nA) intervistando gli studenti incontrati nelle scuole.\n\nB) visitando le tombe dei soldati a Solferino.\n\nC) leggendo i diari e le lettere dei giovani dell'epoca.\n\nD) guardando un film dedicato alla memoria familiare.\n\n**3. Quando inizia la guerra contro gli austriaci, Sante...**\n\nA) sceglie di andare a combattere.\n\nB) decide di allevare bachi da seta.\n\nC) lascia Altea per cercare la propria famiglia.\n\nD) accompagna Visio sulla cima del colle.\n\n**4. Nel titolo del romanzo, il fuoco e la seta indicano...**\n\nA) due attività svolte dai protagonisti durante la guerra.\n\nB) due prodotti importanti per la nuova Italia.\n\nC) due ricordi conservati nell'ossario di Solferino.\n\nD) due aspetti opposti, la battaglia e la cura.\n\n**5. Secondo Castagna, una storia rivolta ai ragazzi deve...**\n\nA) spiegare nei dettagli un periodo storico.\n\nB) raccontare un processo di cambiamento.\n\nC) avere come protagonista una persona realmente esistita.\n\nD) mostrare sempre le conseguenze di una battaglia.\n\n**6. Nel presente, Lianna riesce...**\n\nA) a scoprire perché Asè ha costruito l'ossario.\n\nB) a incontrare i tre giovani protagonisti del passato.\n\nC) a ricostruire i legami della propria famiglia.\n\nD) a trovare i diari letti dallo scrittore.\n\n**7. Per Castagna, la memoria permette...**\n\nA) di mantenere vivo il ricordo di chi non c'è più.\n\nB) di conoscere tutti i fatti della storia d'Italia.\n\nC) di conservare lettere e fotografie nelle scuole.\n\nD) di trasformare ogni ricordo in un romanzo."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il romanzo presenta «il Risorgimento attraverso gli occhi di tre giovanissimi». 中文：地点带来灵感，作品重点是三位年轻人的视角。 |\n| L1.2 | C | «prima di tutto ha cercato i diari e le lettere dei ragazzi» che vissero quegli eventi. 中文：最先使用的是年轻人的日记和书信，不是正式文件。 |\n| L1.3 | A | Quando scoppia la guerra, Sante «decide di unirsi ai combattenti». 中文：他选择参战，养蚕的是 Altea。 |\n| L1.4 | D | Il fuoco richiama «dei fucili e della battaglia», la seta «la gentilezza e la cura». 中文：标题表达的是战争与关怀的对照。 |\n| L1.5 | B | Per l'autore, «ogni storia per ragazzi deve raccontare una trasformazione». 中文：核心要求是变化，而不是必须讲历史。 |\n| L1.6 | C | Le tracce del passato aiutano Lianna «a riannodare i fili della propria storia familiare». 中文：这里的比喻表示重建家族联系。 |\n| L1.7 | A | La memoria è «l'unico modo che abbiamo per tenere in vita ciò che non c'è più». 中文：记忆让逝者继续活在人们心中。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "C",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ossario",
+      "categoria": "sostantivo maschile",
+      "zh": "藏骨堂；纳骨堂",
+      "en": "ossuary",
+      "esempio": "c'è un ossario che ricorda gli oltre settemila morti"
+    },
+    {
+      "parola": "allevatrice",
+      "categoria": "sostantivo femminile",
+      "zh": "养殖者",
+      "en": "breeder; farmer",
+      "esempio": "Altea, una giovane allevatrice di bachi da seta"
+    },
+    {
+      "parola": "scoppia",
+      "categoria": "verbo",
+      "zh": "爆发",
+      "en": "breaks out",
+      "esempio": "Quando scoppia la guerra contro gli austriaci"
+    },
+    {
+      "parola": "riannodare i fili",
+      "categoria": "locuzione verbale",
+      "zh": "重新串联线索；重建联系",
+      "en": "to reconnect the threads",
+      "esempio": "a riannodare i fili della propria storia familiare"
+    },
+    {
+      "parola": "custodisce",
+      "categoria": "verbo",
+      "zh": "守护；看管",
+      "en": "guards; looks after",
+      "esempio": "il misterioso anziano che custodisce l'ossario di Solferino"
+    }
+  ]
+}

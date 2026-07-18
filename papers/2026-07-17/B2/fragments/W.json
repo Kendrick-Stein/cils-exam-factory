@@ -1,0 +1,53 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Fai parte del gruppo che cura il blog del tuo quartiere. Hai partecipato a un laboratorio gratuito per aiutare i cittadini a usare i servizi digitali. Scrivi un articolo in cui descrivi l'iniziativa, racconti un episodio significativo, esprimi la tua valutazione e proponi un possibile miglioramento.",
+    "W2_PROMPT": "La biblioteca comunale organizza un laboratorio sui servizi digitali per i cittadini. Scrivi un'e-mail formale alla persona responsabile per chiedere di partecipare.",
+    "W2_REQ_1": "presentarti e spiegare perché vuoi partecipare;",
+    "W2_REQ_2": "indicare i giorni e gli orari in cui sei disponibile;",
+    "W2_REQ_3": "chiedere informazioni sull'iscrizione, sui costi e sugli strumenti necessari.",
+    "MODEL_W1": "### Quando la tecnologia avvicina il quartiere\n\nSabato scorso ho partecipato al laboratorio digitale organizzato dalla biblioteca comunale. L'iniziativa voleva aiutare i residenti a usare con maggiore sicurezza i servizi online, dalla prenotazione di una visita medica al pagamento di una bolletta. All'inizio l'atmosfera era un po' tesa: alcuni partecipanti temevano di sbagliare. Poi una volontaria ha proposto di lavorare a coppie. Io ho aiutato il signor Paolo a creare un'identità digitale, mentre lui mi ha raccontato quanto fosse difficile chiedere assistenza a distanza. Alla fine è riuscito a entrare nel portale senza aiuto e tutti hanno applaudito. Il corso è stato utile perché ha unito competenze pratiche e solidarietà. Per migliorarlo, aggiungerei un secondo incontro dedicato alla sicurezza delle password e una breve guida stampata, così ciascuno potrebbe esercitarsi anche a casa.",
+    "MODEL_W1_PHRASES": "con maggiore sicurezza（更安全地）; temere di sbagliare（害怕出错）; lavorare a coppie（两人一组合作）; Per migliorarlo, aggiungerei…（为了改进它，我会增加……）",
+    "MODEL_W2": "Gentile Responsabile,\n\nmi chiamo Elena Bassi e vorrei partecipare al laboratorio «Servizi digitali senza paura», perché devo imparare a usare con sicurezza i portali pubblici. Sono disponibile il martedì e il giovedì dopo le 17; in alternativa, potrei frequentare il sabato mattina. Potrebbe indicarmi entro quale data bisogna iscriversi e se occorre portare un computer personale? Vorrei inoltre sapere se il corso è gratuito e se al termine viene rilasciato un attestato.\n\nLa ringrazio per l'attenzione e resto in attesa di una risposta.\n\nCordiali saluti,\nElena Bassi",
+    "MODEL_W2_PHRASES": "vorrei partecipare a…（我想参加……）; Sono disponibile…（我有空的时间是……）; Potrebbe indicarmi…?（您能否告知我……？）; resto in attesa di una risposta（静候回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "servizi online",
+      "categoria": "locuzione nominale",
+      "zh": "在线服务",
+      "en": "online services",
+      "esempio": "L'iniziativa voleva aiutare i residenti a usare con maggiore sicurezza i servizi online, dalla prenotazione di una visita medica al pagamento di una bolletta."
+    },
+    {
+      "parola": "lavorare a coppie",
+      "categoria": "locuzione verbale",
+      "zh": "两人一组合作",
+      "en": "to work in pairs",
+      "esempio": "Poi una volontaria ha proposto di lavorare a coppie."
+    },
+    {
+      "parola": "identità digitale",
+      "categoria": "locuzione nominale",
+      "zh": "数字身份",
+      "en": "digital identity",
+      "esempio": "Io ho aiutato il signor Paolo a creare un'identità digitale, mentre lui mi ha raccontato quanto fosse difficile chiedere assistenza a distanza."
+    },
+    {
+      "parola": "portali pubblici",
+      "categoria": "locuzione nominale",
+      "zh": "公共服务门户网站",
+      "en": "public-service portals",
+      "esempio": "Mi chiamo Elena Bassi e vorrei partecipare al laboratorio «Servizi digitali senza paura», perché devo imparare a usare con sicurezza i portali pubblici."
+    },
+    {
+      "parola": "rilasciato un attestato",
+      "categoria": "locuzione verbale",
+      "zh": "颁发证书",
+      "en": "a certificate is issued",
+      "esempio": "Vorrei inoltre sapere se il corso è gratuito e se al termine viene rilasciato un attestato."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "HOTEL CAMPAGNOLA",
+    "S1_TEXT_WITH_GAPS": "__L' (0)__ Hotel Campagnola è completamente ristrutturato. __(1)__ cucina ha cura della qualità e della tradizione dei piatti locali, nazionali e internazionali. __(2)__ ristorante è aperto tutti __(3)__ giorni, a pranzo e a cena. __(4)__ centro benessere ha una vasca, un bagno turco, una sauna e __(5)__ zona relax. Vicino all'hotel c'è anche __(6)__ parco giochi per __(7)__ bambini. __(8)__ superficie del parco è di 5.000 metri quadrati. Nell'hotel __(9)__ animali domestici sono __(10)__ benvenuti."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | la | S1.6 | il |\n| S1.2 | il | S1.7 | i |\n| S1.3 | i | S1.8 | la |\n| S1.4 | il | S1.9 | gli |\n| S1.5 | la | S1.10 | i |",
+    "ANS_S1_NOTES": "**Note.** S1.1–S1.5: «cucina» e «zona» sono femminili singolari; «ristorante» e «centro» maschili singolari; «giorni» maschile plurale.\nS1.6–S1.10: «parco» è maschile singolare, «bambini» e «benvenuti» maschili plurali, «superficie» femminile singolare; davanti ad «animali» serve «gli». 中文提示：注意元音开头的阳性复数 «animali» 用 «gli»；其余根据名词或名词化形容词的性数选择。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "il",
+    "S1.3": "i",
+    "S1.4": "il",
+    "S1.5": "la",
+    "S1.6": "il",
+    "S1.7": "i",
+    "S1.8": "la",
+    "S1.9": "gli",
+    "S1.10": "i"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ristrutturato",
+      "categoria": "aggettivo",
+      "zh": "翻修过的",
+      "en": "renovated",
+      "esempio": "Hotel Campagnola è completamente ristrutturato."
+    },
+    {
+      "parola": "tradizione",
+      "categoria": "nome femminile",
+      "zh": "传统",
+      "en": "tradition",
+      "esempio": "ha cura della qualità e della tradizione dei piatti locali, nazionali e internazionali."
+    },
+    {
+      "parola": "centro benessere",
+      "categoria": "espressione nominale",
+      "zh": "康体中心",
+      "en": "wellness centre",
+      "esempio": "centro benessere ha una vasca, un bagno turco, una sauna"
+    },
+    {
+      "parola": "parco giochi",
+      "categoria": "espressione nominale",
+      "zh": "游乐场",
+      "en": "playground",
+      "esempio": "parco giochi per"
+    },
+    {
+      "parola": "animali domestici",
+      "categoria": "espressione nominale",
+      "zh": "宠物",
+      "en": "pets",
+      "esempio": "animali domestici sono"
+    }
+  ]
+}

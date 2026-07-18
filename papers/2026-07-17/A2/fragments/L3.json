@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ 1. **Freccia 2X1**\n\n   Approfitta dell'offerta Freccia 2X1 per viaggiare insieme. Fino al 15 settembre 2026, due persone acquistano due biglietti con lo sconto del 50%...\n\n○ 2. **Apriti Cinema 2026**\n\n   L'evento si svolge in Piazza de' Pitti, a Firenze. Dal 15 giugno al 26 luglio, le proiezioni a Firenze iniziano alle 21.45...\n\n○ 3. **Domenica al museo**\n\n   L'appuntamento #domenicalmuseo riguarda tutti i musei e i parchi archeologici. Domenica 5 luglio torna l'iniziativa nei luoghi della cultura statali...\n\n○ 4. **Museo di Caorle**\n\n   L'attività si svolge al Museo nazionale di archeologia del Mare di Caorle. Il 12, 19 e 26 luglio, alle 16, il personale propone una visita accompagnata...\n\n○ 5. **Festa del Prosciutto**\n\n   Nel 2026 torna la Festa del Prosciutto di Sauris. A Sauris quattro giornate sono dedicate ai sapori e alle tradizioni...\n\n○ 6. **Accesso civico semplice**\n\n   Il servizio è rivolto a tutti i cittadini e si usa online. Questo servizio non ha limiti di residenza, cittadinanza o età...",
+    "L3_OPTIONS": "A. e l'ingresso è libero fino all'esaurimento dei posti.\n\nB. Tutti i cittadini possono entrare nel portale cliccando su «Accedi al servizio».\n\nC. inclusa nel biglietto, in italiano e a cura del personale del museo.\n\nD. ma soltanto i residenti maggiorenni possono usare il servizio online.\n\nE. nelle date 11, 12, 18 e 19 luglio 2026.\n\nF. per viaggiare sui treni Frecciarossa e Frecciargento.\n\nG. ma l'offerta termina il 26 luglio 2026.\n\nH. con ingresso gratuito in musei e parchi archeologici."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | F | L'offerta «fino al 15 settembre 2026» completa il viaggio sui treni «Frecciarossa e Frecciargento». 中文：明确的九月截止日期排除七月选项。 |\n| L3.2 | A | Le «proiezioni» delle 21.45 hanno «ingresso libero fino all'esaurimento dei posti». 中文：时间和免费入场共同锁定电影院活动。 |\n| L3.3 | H | L'iniziativa del 5 luglio offre «ingresso gratuito in musei e parchi archeologici». 中文：国家文化场所对应免费开放。 |\n| L3.4 | C | La «visita accompagnata» è «inclusa nel biglietto», in italiano e curata dal personale. 中文：日期、时间和导览条件一致。 |\n| L3.5 | E | Le «quattro giornate» sono precisamente l'11, 12, 18 e 19 luglio. 中文：四个日期与节庆天数完全对应。 |\n| L3.6 | B | «non ha limiti di residenza, cittadinanza o età» corrisponde a «Tutti i cittadini» e all'accesso online. 中文：该服务面向所有公民。 |",
+    "ANS_L3_UNUSED": "D, G"
+  },
+  "key": {
+    "L3.1": "F",
+    "L3.2": "A",
+    "L3.3": "H",
+    "L3.4": "C",
+    "L3.5": "E",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "proiezioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "电影放映",
+      "en": "screenings",
+      "esempio": "Dal 15 giugno al 26 luglio, le proiezioni a Firenze iniziano alle 21.45..."
+    },
+    {
+      "parola": "luoghi della cultura statali",
+      "categoria": "espressione nominale",
+      "zh": "国家文化场所",
+      "en": "state cultural sites",
+      "esempio": "Domenica 5 luglio torna l'iniziativa nei luoghi della cultura statali..."
+    },
+    {
+      "parola": "visita accompagnata",
+      "categoria": "espressione nominale",
+      "zh": "导览参观",
+      "en": "guided visit",
+      "esempio": "Il 12, 19 e 26 luglio, alle 16, il personale propone una visita accompagnata..."
+    },
+    {
+      "parola": "esaurimento dei posti",
+      "categoria": "espressione nominale",
+      "zh": "座位满额",
+      "en": "no seats remaining",
+      "esempio": "e l'ingresso è libero fino all'esaurimento dei posti."
+    },
+    {
+      "parola": "residenza",
+      "categoria": "sostantivo femminile",
+      "zh": "居住地",
+      "en": "residence",
+      "esempio": "Questo servizio non ha limiti di residenza, cittadinanza o età..."
+    }
+  ]
+}

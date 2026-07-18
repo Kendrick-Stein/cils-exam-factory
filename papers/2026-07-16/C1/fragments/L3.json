@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "Un vampiro",
+    "T3_PART_A": "«Già sai per quali tristi circostanze dovetti andarmene a cercar fortuna in America. I parenti di Luisa erano contrari alla nostra unione; come tutti i parenti",
+    "T3_PART_B": "Basta. Suol dirsi che c’è un Dio per gli ubriachi e pei bambini. Bisognerebbe aggiungere: E talvolta anche pei poeti, giacché devo passare per poeta».",
+    "T3_PART_C": "Il giorno dopo egli si presentò a casa mia. Compresi subito l’enormità del mio atto e mi proposi di esser calmo. Era calmo anche lui.",
+    "T3_PART_D": "Non avevano fiducia nel mio ingegno; diffidavano anzi della mia pretesa qualità di poeta. Quel volumetto di versi giovanili pubblicato allora, è stato la mia maggiore disgrazia.",
+    "T3_PART_E": "Ed io l’amavo più di prima!... La povera creatura aveva dovuto cedere alle insistenti pressioni dei suoi. Ci mancò poco, te lo giuro, che non commettessi una pazzia.",
+    "T3_PART_F": "Le dico intanto, senza spavalderia, che son risoluto a difendere a ogni costo la mia felicità domestica”. Era impallidito parlando e gli tremava la voce.",
+    "T3_PART_G": "Mi hanno assicurato che lei è un gentiluomo. Rispetto il suo dolore; ma spero che lei non vorrà turbare inutilmente la pace di una famiglia.",
+    "T3_PART_H": "«Durante la mia dimora di tre anni a Buenos Aires, non aveva più avuto nessuna notizia di Luisa. Piovutami dal cielo quell’eredità di uno zio",
+    "T3_PART_I": "Questi particolari, vedrai, non sono superflui... Commisi però la sciocchezza di scriverle una focosissima lettera di rimproveri, e di spedirglierla per posta. Non avevo previsto che potesse capitare in mano del marito.",
+    "T3_PART_J": "Mi stese la mano; gliela strinsi. E mantenni la parola. Sei mesi dopo, ricevevo un telegramma di Luisa: “Sono vedova. T’amo sempre. E tu?”. Suo marito era morto da due mesi».",
+    "T3_PART_K": "“Chiedo perdono dell’imprudenza” risposi. “E, per meglio rassicurarla, le dico che domani partirò per Parigi”. Dovevo essere più pallido di lui; le parole mi uscivano a stento di bocca.",
+    "T3_PART_L": "– e non dico che avessero torto – anch’essi badavano, più che ad altro, alla situazione economica di colui che doveva essere il marito della loro figliuola.",
+    "T3_PART_M": "“Vengo a restituirle questa lettera” mi disse. “Ho aperto sbadatamente, non per indiscrezione, la busta che la conteneva; ed è stato bene che sia accaduto così.",
+    "T3_PART_N": "che non s’era mai fatto vivo con me, tornai in Europa, corsi a Londra... e con dugentomila lire di cartelle della Banca d’Inghilterra volai qui... dove mi attendeva il più doloroso disinganno. Luisa era sposa da sei mesi!",
+    "T3_PART_O": "Se può fare lo sforzo di riflettere, si convincerà che nessuno ha voluto arrecarle del male volontariamente. Certe fatalità della vita non si sfuggono. Lei intende qual è ormai il suo dovere.",
+    "T3_PART_P": "Non che pubblicati, non ne ho scritti più da quell’anno in poi; ma anche tu, poco fa, mi hai chiamato caro poeta! L’etichetta mi è rimasta appiccata addosso, quasi fosse stata scritta con inchiostro indelebile."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | parte data |\n| L3.2 | L | «come tutti i parenti – e non dico… anch’essi»: il tratto incidentale e «anch’essi» completano direttamente la parte A. 中文：代词回指上一段的亲属。 |\n| L3.3 | D | «Non avevano fiducia» riprende come soggetto i parenti e introduce la «qualità di poeta». 中文：主语承接亲属，话题转向诗人身份。 |\n| L3.4 | P | «Non che pubblicati, non ne ho scritti più» riprende il «volumetto di versi» appena nominato. 中文：ne 指代诗作，只能接在诗集之后。 |\n| L3.5 | B | «Basta» chiude la digressione sull’«etichetta» di poeta; «anche pei poeti» ne sigilla il tema. 中文：Basta 标志插叙结束。 |\n| L3.6 | H | «Durante la mia dimora di tre anni» apre la cronologia dopo la chiusura della premessa in B. 中文：明确的时间标记启动主体故事。 |\n| L3.7 | N | H termina con «uno zio» e N si apre con «che non s’era mai fatto vivo», relativa che completa quell’unico antecedente. 中文：关系从句锁定前项 zio。 |\n| L3.8 | E | Dopo «Luisa era sposa da sei mesi», «Ed io l’amavo più di prima» esprime la reazione immediata del narratore. 中文：Ed io 与 Luisa 的婚讯形成唯一承接。 |\n| L3.9 | I | parte data |\n| L3.10 | C | I prevede che la lettera cada «in mano del marito»; «Il giorno dopo egli» identifica proprio quel marito. 中文：egli 的唯一先行词是丈夫。 |\n| L3.11 | M | Dopo «si presentò a casa mia» e «Era calmo», l’uomo espone lo scopo: «Vengo a restituirle questa lettera». 中文：来访动作后立即进入来意。 |\n| L3.12 | G | M lascia aperto il discorso del marito; «Mi hanno assicurato» prosegue la stessa allocuzione formale con «lei». 中文：引语未闭合且称谓一致。 |\n| L3.13 | O | Alla speranza che il narratore non turbi la famiglia segue la condizione «Se può fare lo sforzo di riflettere». 中文：Se 引出对前一请求的论证。 |\n| L3.14 | F | Dopo «Lei intende qual è ormai il suo dovere», «Le dico intanto» formula la conclusione e chiude il discorso del marito. 中文：intanto 承接劝告并收束发言。 |\n| L3.15 | K | «Era impallidito… e gli tremava la voce» precede la replica esplicita «Chiedo perdono… risposi». 中文：risposi 只能接在对方发言结束后。 |\n| L3.16 | J | Alla promessa «domani partirò per Parigi» seguono «Mi stese la mano» ed «E mantenni la parola», poi «Sei mesi dopo». 中文：握手、履约和半年后构成不可拆的结尾链。 |",
+    "ANS_L3_SEQUENCE": "A-L-D-P-B-H-N-E-I-C-M-G-O-F-K-J"
+  },
+  "key": {
+    "L3": "A-L-D-P-B-H-N-E-I-C-M-G-O-F-K-J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "indelebile",
+      "categoria": "aggettivo",
+      "zh": "不可磨灭的",
+      "en": "indelible",
+      "esempio": "L’etichetta mi è rimasta appiccata addosso, quasi fosse stata scritta con inchiostro indelebile."
+    },
+    {
+      "parola": "disinganno",
+      "categoria": "nome",
+      "zh": "幻灭；失望",
+      "en": "disillusionment",
+      "esempio": "dove mi attendeva il più doloroso disinganno."
+    },
+    {
+      "parola": "focosissima",
+      "categoria": "aggettivo",
+      "zh": "极其热烈的；激昂的",
+      "en": "impassioned",
+      "esempio": "Commisi però la sciocchezza di scriverle una focosissima lettera di rimproveri, e di spedirglierla per posta."
+    },
+    {
+      "parola": "sbadatamente",
+      "categoria": "avverbio",
+      "zh": "不小心地",
+      "en": "inadvertently",
+      "esempio": "Ho aperto sbadatamente, non per indiscrezione, la busta che la conteneva; ed è stato bene che sia accaduto così."
+    },
+    {
+      "parola": "spavalderia",
+      "categoria": "nome",
+      "zh": "逞强；虚张声势",
+      "en": "bravado",
+      "esempio": "Le dico intanto, senza spavalderia, che son risoluto a difendere a ogni costo la mia felicità domestica”."
+    }
+  ]
+}

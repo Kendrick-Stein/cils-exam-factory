@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "SPIAGGE DI RIMINI: ORARI E REGOLE",
+    "T2_TEXT": "La stagione balneare 2026 va da sabato 16 maggio a domenica 20 settembre. Il servizio di sicurezza è attivo ogni giorno dalle 9.30 alle 18.30. Nelle aree sportive e nei parchi giochi per bambini è vietato fumare. Chi non rispetta questa regola paga una multa da 25 a 500 euro. I cani possono fare il bagno dalle 6.00 alle 8.30 e dalle 18.40 alle 21.00. I gestori devono permettere ai clienti di restare in spiaggia e usare i servizi almeno fino alle 22.00. Tuttavia, non è possibile entrare in spiaggia tra l'1.00 e le 5.00 del mattino. Sono vietati anche i bicchieri di plastica monouso e le cannucce di plastica.",
+    "L2_ITEMS": "**1.** La stagione balneare finisce domenica 20 settembre. Vero ○ Falso ○\n\n**2.** Il servizio di sicurezza termina alle 20.30. Vero ○ Falso ○\n\n**3.** Nei parchi giochi per bambini è vietato fumare. Vero ○ Falso ○\n\n**4.** La multa va da 500 a 1.000 euro. Vero ○ Falso ○\n\n**5.** I cani possono fare il bagno dalle 6.00 alle 8.30. Vero ○ Falso ○\n\n**6.** I clienti possono usare i servizi almeno fino alle 22.00. Vero ○ Falso ○\n\n**7.** È possibile entrare in spiaggia alle 2.00 del mattino. Vero ○ Falso ○\n\n**8.** Le cannucce di plastica sono vietate. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | «da sabato 16 maggio a domenica 20 settembre». 中文：题目中的结束日期与原文一致。 |\n| L2.2 | F | «dalle 9.30 alle 18.30», non fino alle 20.30. 中文：考查安全服务的结束时间。 |\n| L2.3 | V | «nei parchi giochi per bambini è vietato fumare». 中文：儿童游乐区明确禁止吸烟。 |\n| L2.4 | F | «una multa da 25 a 500 euro», non da 500 a 1.000 euro. 中文：题目改动了罚款的上下限。 |\n| L2.5 | V | «I cani possono fare il bagno dalle 6.00 alle 8.30». 中文：清晨时段与原文完全一致。 |\n| L2.6 | V | «usare i servizi almeno fino alle 22.00». 中文：至少可使用到22点。 |\n| L2.7 | F | «non è possibile entrare in spiaggia tra l'1.00 e le 5.00»; le 2.00 sono dentro questa fascia. 中文：2点属于禁止进入的时段。 |\n| L2.8 | V | «le cannucce di plastica» sono tra gli oggetti vietati. 中文：塑料吸管明确列在禁用品中。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "servizio di sicurezza",
+      "categoria": "locuzione nominale",
+      "zh": "安全服务",
+      "en": "safety service",
+      "esempio": "Il servizio di sicurezza è attivo ogni giorno dalle 9.30 alle 18.30."
+    },
+    {
+      "parola": "multa",
+      "categoria": "sostantivo femminile",
+      "zh": "罚款",
+      "en": "fine",
+      "esempio": "Chi non rispetta questa regola paga una multa da 25 a 500 euro."
+    },
+    {
+      "parola": "fare il bagno",
+      "categoria": "locuzione verbale",
+      "zh": "下水游泳；洗澡",
+      "en": "to swim; to bathe",
+      "esempio": "I cani possono fare il bagno dalle 6.00 alle 8.30 e dalle 18.40 alle 21.00."
+    },
+    {
+      "parola": "gestori",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "经营者；管理者",
+      "en": "operators; managers",
+      "esempio": "I gestori devono permettere ai clienti di restare in spiaggia e usare i servizi almeno fino alle 22.00."
+    },
+    {
+      "parola": "cannucce di plastica",
+      "categoria": "locuzione nominale",
+      "zh": "塑料吸管",
+      "en": "plastic straws",
+      "esempio": "Sono vietati anche i bicchieri di plastica monouso e le cannucce di plastica."
+    }
+  ]
+}

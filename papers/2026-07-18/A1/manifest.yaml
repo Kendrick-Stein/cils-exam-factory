@@ -1,0 +1,141 @@
+exam: cils
+level: A1
+session: '2026-07-18'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.viaggiapiccoli.com/chi-siamo/
+  title: Chi siamo
+  publisher: Viaggiapiccoli
+  published: non visibile
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 112
+- id: T2
+  url: https://www.uffizi.it/avvisi/giardino-delle-scuderie-reali-regole-di-comportamento
+  title: Giardino delle Scuderie Reali. Regole di comportamento
+  publisher: Le Gallerie degli Uffizi
+  published: non visibile
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 120
+- id: T3a
+  url: https://www.subito.it/arredamento-casalinghi/cucina-completa-roma-639013400.htm
+  title: Cucina completa
+  publisher: Subito.it
+  published: date dei singoli annunci non visibili nei fetch
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 33
+- id: T3b
+  url: https://www.subito.it/arredamento-casalinghi/materasso-matrimoniale-nightitude-soul-160x190cm-brescia-636437317.htm
+  title: Materasso matrimoniale NIGHTITUDE “Soul” 160x190 cm
+  publisher: Subito.it
+  published: date dei singoli annunci non visibili nei fetch
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 28
+- id: T3c
+  url: https://www.subito.it/arredamento-casalinghi/cassettiera-ikea-hemnes-colore-tortora-ottime-treviso-633454409.htm
+  title: Cassettiera IKEA HEMNES – colore tortora – ottime condizioni
+  publisher: Subito.it
+  published: date dei singoli annunci non visibili nei fetch
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 27
+- id: T3d
+  url: https://www.subito.it/arredamento-casalinghi/divano-con-penisola-poltrone-e-sofa-ottime-condi-firenze-631554992.htm
+  title: Divano con penisola Poltrone e Sofà – ottime condizioni
+  publisher: Subito.it
+  published: date dei singoli annunci non visibili nei fetch
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 26
+- id: T4
+  url: https://www.italia.it/it/lazio/cosa-fare/borgo-di-orte
+  title: Il borgo di Orte affacciato sul Tevere
+  publisher: Italia.it
+  published: non visibile
+  accessed: '2026-07-18'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 90
+- id: T5
+  url: https://blog.giallozafferano.it/acasadigery/sfida-di-cucina_fight-eat-club-15-02-19/
+  title: Sfida di cucina — Fight eat club, 15.02.19
+  publisher: acasadigery / GialloZafferano Blog
+  published: data indicata nel titolo, 2019-02-15
+  accessed: '2026-07-18'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 98
+- id: T6
+  url: https://www.trenitalia.com/it/informazioni/assistenza-online.html
+  title: Assistenza digitale
+  publisher: Trenitalia
+  published: non visibile
+  accessed: '2026-07-18'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 96
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-18T08:10:36+00:00'
+  - stage: authoring
+    at: '2026-07-18T08:10:36+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+  - stage: blind_validation
+    at: '2026-07-18T08:16:44+00:00'
+    agreement: 42/44
+    flags: 8
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-18T08:34:37+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-18T08:50:46+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T08:50:47+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-18T09:15:06+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

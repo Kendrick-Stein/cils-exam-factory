@@ -1,0 +1,132 @@
+### ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+
+  "L3.1": {"answer": "D", "confidence": "hi"},
+  "L3.2": {"answer": "F", "confidence": "hi"},
+  "L3.3": {"answer": "A", "confidence": "hi"},
+  "L3.4": {"answer": "C", "confidence": "hi"},
+  "L3.5": {"answer": "E", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+
+  "S1.1": {"answer": "i", "confidence": "hi"},
+  "S1.2": {"answer": "da", "confidence": "hi"},
+  "S1.3": {"answer": "in", "confidence": "hi"},
+  "S1.4": {"answer": "le", "confidence": "hi"},
+  "S1.5": {"answer": "a", "confidence": "hi"},
+  "S1.6": {"answer": "a", "confidence": "med"},
+  "S1.7": {"answer": "di", "confidence": "hi"},
+  "S1.8": {"answer": "a", "confidence": "hi"},
+  "S1.9": {"answer": "per", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+
+  "S2.1": {"answer": "lavora", "confidence": "hi"},
+  "S2.2": {"answer": "si riposava", "confidence": "hi"},
+  "S2.3": {"answer": "ha sentito", "confidence": "med"},
+  "S2.4": {"answer": "chiamava", "confidence": "med"},
+  "S2.5": {"answer": "si è precipitata", "confidence": "med"},
+  "S2.6": {"answer": "ha capito", "confidence": "med"},
+  "S2.7": {"answer": "ho iniziato", "confidence": "med"},
+  "S2.8": {"answer": "ho notato", "confidence": "med"},
+  "S2.9": {"answer": "racconta", "confidence": "hi"},
+  "S2.10": {"answer": "è", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"}
+}
+```
+
+### FLAGS
+
+```json
+[
+  {
+    "item_id": "S1.6",
+    "reason": "«Adatte a ogni momento» è la soluzione scelta, ma «adatte per ogni momento» è anch’essa grammaticalmente e semanticamente possibile."
+  },
+  {
+    "item_id": "S2.3",
+    "reason": "«Ha sentito» è naturale nel registro proposto, ma anche «sentì» è grammaticalmente possibile."
+  },
+  {
+    "item_id": "S2.4",
+    "reason": "«Chiamava» è la soluzione più semplice, ma «stava chiamando» è possibile nello stesso contesto."
+  },
+  {
+    "item_id": "S2.5",
+    "reason": "«Si è precipitata» è naturale, ma il passato remoto «si precipitò» è grammaticalmente possibile."
+  },
+  {
+    "item_id": "S2.6",
+    "reason": "«Ha capito» è naturale, ma anche «capì» completa correttamente il periodo."
+  },
+  {
+    "item_id": "S2.7",
+    "reason": "Nel discorso diretto sono possibili sia «ho iniziato» sia «iniziai», secondo il tempo narrativo adottato."
+  },
+  {
+    "item_id": "S2.8",
+    "reason": "Nel discorso diretto sono possibili sia «ho notato» sia «notai», secondo il tempo narrativo adottato."
+  }
+]
+```
+
+### WRITING_CHECKS
+
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole",
+    "result": "PASS"
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole",
+    "result": "PASS"
+  }
+]
+```
+
+### ORAL_CHECKS
+
+```json
+[
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "duration_printed": "2-3 minuti circa",
+    "result": "PASS"
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa",
+    "result": "PASS"
+  }
+]
+```

@@ -1,0 +1,56 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«Digitalizzare libri, documenti e opere d'arte rende il patrimonio culturale più accessibile, ma l'esperienza online non può sostituire del tutto il contatto diretto con gli originali». Esprimi il tuo parere in merito, considerando opportunità, limiti e possibili forme di integrazione tra accesso digitale e visita in presenza.",
+    "W1B_PROMPT": "Una rivista online dedica un numero al coinvolgimento dei cittadini nella raccolta di dati su ambiente, quartieri e servizi pubblici. Scrivi un articolo in cui analizzi i benefici di questa partecipazione, i rischi legati all'affidabilità dei dati e le condizioni necessarie perché cittadini ed esperti collaborino efficacemente.",
+    "W2A_PROMPT": "Ti sei iscritto a un laboratorio di consultazione di documenti storici organizzato dall'archivio comunale per il 22 luglio. Il giorno prima hai ricevuto un messaggio che spostava l'attività al 5 agosto, data in cui non puoi partecipare, senza indicazioni sul rimborso. Scrivi un'e-mail alla direzione: ricostruisci l'accaduto, spiega il problema, chiedi una soluzione concreta e indica entro quando desideri una risposta.",
+    "W2B_PROMPT": "Hai prenotato per il 30 luglio una sala del centro civico per presentare un progetto ambientale. Durante il sopralluogo hai scoperto che i lavori di manutenzione riducono i posti disponibili da 60 a 25 e che il collegamento internet non funziona. Scrivi una lettera alla responsabile: segnala i problemi, spiegane le conseguenze, proponi due alternative e chiedi una conferma entro una data precisa.",
+    "MODEL_W1A": "La digitalizzazione ha modificato profondamente il modo in cui incontriamo il patrimonio culturale. Una biblioteca online permette a chi vive lontano, ha difficoltà motorie o dispone di poco tempo di consultare materiali altrimenti irraggiungibili. Inoltre, immagini ad alta definizione e cataloghi collegati possono rivelare dettagli e relazioni che, durante una visita breve, sfuggirebbero.\n\nTuttavia, ridurre un'opera alla sua riproduzione significa perdere dimensioni essenziali: la consistenza di un manoscritto, le proporzioni di una scultura e perfino il silenzio di un archivio contribuiscono alla comprensione. Esiste poi il rischio che le istituzioni considerino l'accesso digitale un pretesto per trascurare sedi, personale e attività educative.\n\nA mio avviso, le due esperienze non sono concorrenti. Le piattaforme dovrebbero preparare la visita, offrendo percorsi personalizzati e strumenti accessibili, e successivamente consentire di approfondire ciò che si è osservato. Parallelamente, musei e biblioteche devono continuare a garantire spazi accoglienti e mediazione competente. Il digitale amplia davvero l'accesso quando crea un ponte verso gli originali, non quando diventa una copia impoverita destinata a sostituirli.",
+    "MODEL_W1A_PHRASES": "«ha modificato profondamente il modo in cui…»（深刻改变了……的方式）; «ridurre … a … significa perdere…»（把……简化为……意味着失去……）; «A mio avviso»（依我之见）; «non sono concorrenti»（并非相互竞争）; «crea un ponte verso…»（搭建通往……的桥梁）",
+    "MODEL_W1B": "Quando i cittadini osservano la qualità dell'aria, segnalano barriere architettoniche o registrano i cambiamenti di un parco, producono informazioni che le istituzioni difficilmente potrebbero raccogliere con la stessa continuità. Questa partecipazione rende visibili problemi locali, rafforza il senso di responsabilità e avvicina la ricerca alla vita quotidiana.\n\nLa quantità dei dati, però, non ne garantisce automaticamente l'affidabilità. Strumenti diversi, istruzioni poco chiare o partecipanti concentrati soltanto in alcune zone possono generare risultati incompleti. Inoltre, senza regole trasparenti, informazioni sulla posizione o sulle abitudini delle persone rischiano di essere utilizzate impropriamente.\n\nPerché la collaborazione funzioni, gli esperti devono definire procedure semplici, spiegare i margini di errore e verificare i contributi ricevuti. I cittadini, dal canto loro, dovrebbero poter conoscere l'esito del progetto e capire quali decisioni siano state prese grazie alle loro osservazioni. Servono infine tutele rigorose per i dati personali e occasioni di formazione accessibili. Coinvolgere il pubblico non significa delegare la ricerca a volontari, bensì costruire un processo in cui competenze scientifiche ed esperienza del territorio si correggano e si arricchiscano reciprocamente.",
+    "MODEL_W1B_PHRASES": "«non ne garantisce automaticamente…»（并不自动保证……）; «senza regole trasparenti»（缺乏透明规则时）; «dal canto loro»（就他们而言）; «grazie alle loro osservazioni»（得益于他们的观察）; «si arricchiscano reciprocamente»（相互丰富）",
+    "MODEL_W2A": "Gentile Direzione,\n\nLe scrivo in merito al laboratorio sui documenti storici previsto per il 22 luglio, al quale mi ero regolarmente iscritto versando la quota richiesta. Soltanto ieri ho ricevuto la comunicazione dello spostamento al 5 agosto. In quella data sarò fuori città per motivi di lavoro e, nel messaggio, non erano indicate modalità di rimborso.\n\nVi chiedo pertanto di offrirmi un posto in un'edizione successiva compatibile con i miei impegni oppure di restituirmi integralmente la quota versata. Gradirei conoscere la soluzione proposta entro il 25 luglio, così da poter organizzare per tempo le mie attività.\n\nIn attesa di un vostro cortese riscontro, porgo cordiali saluti.\n\nElena Conti",
+    "MODEL_W2A_PHRASES": "«Le scrivo in merito a…»（我就……事宜致函）; «mi ero regolarmente iscritto»（我已按规定报名）; «Vi chiedo pertanto di…»（因此我请求贵方……）; «Gradirei conoscere la soluzione proposta»（希望获知所提解决方案）; «In attesa di un vostro cortese riscontro»（静候贵方回复）",
+    "MODEL_W2B": "Gentile Responsabile,\n\nnel sopralluogo di oggi ho constatato che i lavori in corso riducono da 60 a 25 i posti della sala prenotata per il 30 luglio. Inoltre, il collegamento internet non è disponibile, mentre la presentazione del progetto ambientale prevede interventi a distanza. Queste condizioni ci costringerebbero a escludere numerosi partecipanti e a modificare il programma.\n\nLe propongo quindi di assegnarci, senza costi aggiuntivi, una sala più capiente e connessa. In alternativa, chiediamo di rinviare la prenotazione a una data concordata, mantenendo la quota già versata. La prego di confermare una delle due soluzioni entro il 23 luglio, affinché possiamo avvisare tempestivamente gli invitati.\n\nCordiali saluti,\n\nPaolo Neri",
+    "MODEL_W2B_PHRASES": "«ho constatato che…»（我发现……）; «Queste condizioni ci costringerebbero a…»（这些条件将迫使我们……）; «senza costi aggiuntivi»（不增加费用）; «In alternativa»（或者）; «affinché possiamo avvisare tempestivamente…»（以便我们及时通知……）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "materiali altrimenti irraggiungibili",
+      "categoria": "locuzione nominale",
+      "zh": "原本难以获取的材料",
+      "en": "otherwise inaccessible materials",
+      "esempio": "Una biblioteca online permette a chi vive lontano, ha difficoltà motorie o dispone di poco tempo di consultare materiali altrimenti irraggiungibili."
+    },
+    {
+      "parola": "mediazione competente",
+      "categoria": "locuzione nominale",
+      "zh": "专业的讲解与引导",
+      "en": "expert mediation",
+      "esempio": "Parallelamente, musei e biblioteche devono continuare a garantire spazi accoglienti e mediazione competente."
+    },
+    {
+      "parola": "barriere architettoniche",
+      "categoria": "locuzione nominale",
+      "zh": "建筑无障碍障碍",
+      "en": "architectural barriers",
+      "esempio": "Quando i cittadini osservano la qualità dell'aria, segnalano barriere architettoniche o registrano i cambiamenti di un parco, producono informazioni che le istituzioni difficilmente potrebbero raccogliere con la stessa continuità."
+    },
+    {
+      "parola": "margini di errore",
+      "categoria": "locuzione nominale",
+      "zh": "误差范围",
+      "en": "margins of error",
+      "esempio": "Perché la collaborazione funzioni, gli esperti devono definire procedure semplici, spiegare i margini di errore e verificare i contributi ricevuti."
+    },
+    {
+      "parola": "quota già versata",
+      "categoria": "locuzione nominale",
+      "zh": "已支付的费用",
+      "en": "fee already paid",
+      "esempio": "In alternativa, chiediamo di rinviare la prenotazione a una data concordata, mantenendo la quota già versata."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Cambiare la consegna di un pacco",
+    "S3_TEXT_WITH_GAPS": "Il servizio Scegli Tu è __attivato (0)__ da chi manda il pacco. Ricevi un __(1)__ per e-mail o SMS. Nel messaggio trovi un __(2)__: lo apri e vai sul sito. Qui puoi cambiare la __(3)__ del pacco. Puoi entrare come __(4)__ oppure usare il tuo nome e la tua __(5)__. Non è necessario fare una registrazione. Puoi cambiare la consegna una sola __(6)__ per ogni pacco e scegliere una sola __(7)__ tra quelle disponibili. Non devi pagare: il servizio è __(8)__.",
+    "S3_OPT0_A": "attivato",
+    "S3_OPT0_B": "spedito",
+    "S3_OPT0_C": "ricevuto",
+    "S3_OPTION_ROWS": "| 1. | pacco | messaggio | sito |\n| 2. | link | nome | servizio |\n| 3. | password | consegna | registrazione |\n| 4. | venditore | postino | ospite |\n| 5. | password | consegna | opzione |\n| 6. | consegna | volta | opzione |\n| 7. | password | registrazione | opzione |\n| 8. | obbligatorio | privato | gratuito |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Ricevi un «messaggio» per e-mail o SMS; subito dopo si legge «Nel messaggio». 中文：后一句重复该词，指代唯一。 |\n| S3.2 | A | Nel messaggio trovi un «link»: «lo apri e vai sul sito». 中文：能打开并进入网站的是链接。 |\n| S3.3 | B | Sul sito puoi «cambiare la consegna del pacco». 中文：此服务修改的是包裹的投递方式。 |\n| S3.4 | C | Puoi «entrare come ospite» oppure usare nome e password. 中文：*oppure* 表示访客访问与账号登录二选一。 |\n| S3.5 | A | Per accedere puoi usare «il tuo nome e la tua password». 中文：姓名与密码构成登录信息。 |\n| S3.6 | B | Puoi cambiare la consegna «una sola volta per ogni pacco». 中文：*volta* 表示次数。 |\n| S3.7 | C | Puoi «scegliere una sola opzione tra quelle disponibili». 中文：*quelle disponibili* 指可选项目。 |\n| S3.8 | C | «Non devi pagare»: il servizio è «gratuito». 中文：不需付费直接确定“免费”。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "B",
+    "S3.4": "C",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "servizio",
+      "categoria": "sostantivo",
+      "zh": "服务",
+      "en": "service",
+      "esempio": "Il servizio Scegli Tu"
+    },
+    {
+      "parola": "pacco",
+      "categoria": "sostantivo",
+      "zh": "包裹",
+      "en": "parcel",
+      "esempio": "chi manda il pacco"
+    },
+    {
+      "parola": "messaggio",
+      "categoria": "sostantivo",
+      "zh": "消息",
+      "en": "message",
+      "esempio": "Nel messaggio trovi"
+    },
+    {
+      "parola": "sito",
+      "categoria": "sostantivo",
+      "zh": "网站",
+      "en": "website",
+      "esempio": "vai sul sito"
+    },
+    {
+      "parola": "registrazione",
+      "categoria": "sostantivo",
+      "zh": "注册",
+      "en": "registration",
+      "esempio": "Non è necessario fare una registrazione"
+    }
+  ]
+}

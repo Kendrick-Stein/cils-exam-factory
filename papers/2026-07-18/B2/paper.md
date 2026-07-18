@@ -1,0 +1,463 @@
+---
+exam: CILS
+level: B2
+level_name: "CILS DUE — B2"
+session: "2026-07-18"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello DUE-B2 — Prova di esercitazione · 18 luglio 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello dei quaderni d'esame CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Le chiavi, i criteri di punteggio e il glossario sono nel fascicolo delle risposte.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 50 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 20**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### UN MODELLO MATEMATICO PER LA POPOLAZIONE MONDIALE
+
+Pensato per la fisica teorica, ha mostrato cosa potrebbe accadere in termini demografici se la crisi ambientale si intensificasse.
+
+Se la crisi ambientale si intensificherà, la popolazione mondiale potrebbe subire un crollo entro il 2064. A prevederlo è un nuovo modello matematico appena proposto da Alessio Zaccone, fisico teorico dell'Università degli studi di Milano, insieme al collega Kostya Trachenko, della Queen Mary University of London.
+
+Nel loro studio, pubblicato sulla rivista Chaos, Solitons & Fractals, infatti, i due esperti hanno proposto un'equazione differenziale non lineare, chiamata equazione di Trachenko-Zaccone, per modellare la crescita della popolazione mondiale dal Neolitico ad oggi, riuscendo inoltre a prevedere ipotetici scenari di collasso demografico globale qualora si arrivi all'esaurimento delle risorse del pianeta.
+
+Originariamente elaborato in un contesto diverso, ossia la fisica dei sistemi disordinati, il nuovo modello matematico è riuscito da solo a spiegare 12 mila anni di dinamiche demografiche globali, includendo e unificando i principali modelli di crescita della popolazione globale chiamati in gergo tecnico esponenziale, logistica, dilatata e compressa.
+
+“Propongo un'equazione matematica non lineare sorprendentemente semplice che unisce 12 mila anni di crescita della popolazione umana e indica scenari futuri drammatici qualora le crisi ambientali globali si intensificassero”, ha raccontato Zaccone su Science X Dialog, una piattaforma in cui i ricercatori possono condividere i risultati delle loro ricerche.
+
+In particolare, il modello matematico include le principali teorie demografiche formulate negli ultimi secoli, ossia il modello di crescita esponenziale di Malthus, che descrive l'evoluzione di una popolazione isolata in un ambiente con risorse illimitate, e il modello di Verhulst (o equazione logistica) che descrive la crescita di una popolazione quando le risorse sono limitate (capacità portante). E, infine, la crescita iperbolica di von Foerster.
+
+“Il modello matematico riprende anche una delle previsioni più famose della demografia: lo scenario apocalittico proposto nel 1960 da Heinz von Foerster e colleghi, i quali estrapolarono matematicamente che la popolazione mondiale sarebbe deviata verso l'infinito intorno al 2026”, ha aggiunto l'esperto.
+
+Per verificare la teoria, i due esperti hanno applicato il loro modello matematico con i dati sulla popolazione relativi a diverse epoche storiche, scoprendo che questo riproduceva con successo sia le fasi di crescita "esponenziale", come la rapida espansione dell'era industriale, sia il regime più lento di crescita "esponenziale dilatata" che ha caratterizzato la crescita della popolazione globale a partire dal 1970 circa.
+
+“La parte più provocatoria del nostro articolo esplora scenari futuri ipotetici”, ha commentato l'esperto. Con il loro nuovo modello matematico, infatti, hanno simulato cosa potrebbe accadere se gravi crisi ambientali imponessero improvvisamente severi limiti alla capacità di carico della Terra, attraverso il collasso climatico, pandemie, conflitti o scarsità di risorse.
+
+Il modello, nel caso peggiore, “prevede un rapido declino della popolazione mondiale, con un potenziale dimezzamento dell'umanità entro il 2064 circa”, ha spiegato Zaccone, sottolineando tuttavia che non si tratta di una previsione, bensì di uno scenario matematico illustrativo, “volto a mostrare quanto le dinamiche demografiche possano essere sensibili a bruschi cambiamenti ambientali o sociali”, ha concluso l'esperto.
+
+> *Completa le frasi. Scegli una delle quattro proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. Secondo il nuovo modello, un crollo della popolazione mondiale entro il 2064 potrebbe avvenire se**
+
+A) la crescita industriale tornasse ai livelli del passato.
+B) la crisi ambientale diventasse più grave.
+C) le risorse del pianeta aumentassero rapidamente.
+D) i modelli demografici tradizionali fossero abbandonati.
+
+**2. L'equazione di Trachenko-Zaccone è stata proposta per**
+
+A) calcolare le risorse disponibili in ogni paese.
+B) confrontare le università che studiano la demografia.
+C) ricostruire soltanto la crescita dell'era industriale.
+D) descrivere la crescita demografica e ipotizzare possibili collassi.
+
+**3. Prima di essere applicato alla demografia, il nuovo modello era stato elaborato nell'ambito**
+
+A) della fisica dei sistemi disordinati.
+B) della storia delle società neolitiche.
+C) dell'economia delle risorse naturali.
+D) della medicina delle popolazioni.
+
+**4. Science X Dialog è una piattaforma che permette ai ricercatori di**
+
+A) raccogliere dati demografici di epoche diverse.
+B) verificare le equazioni elaborate dai colleghi.
+C) condividere i risultati delle proprie ricerche.
+D) prevedere le conseguenze delle crisi ambientali.
+
+**5. La differenza tra i modelli di Malthus e di Verhulst riguarda soprattutto**
+
+A) il periodo storico preso in considerazione.
+B) la rapidità della crescita industriale.
+C) il numero di popolazioni osservate.
+D) la disponibilità delle risorse nell'ambiente.
+
+**6. Applicato ai dati di diverse epoche, il modello ha riprodotto**
+
+A) soltanto le fasi di crescita più rapida.
+B) sia l'espansione industriale sia il rallentamento successivo.
+C) esclusivamente la crescita registrata dopo il 1970.
+D) una diminuzione costante dall'era industriale a oggi.
+
+**7. Il possibile dimezzamento dell'umanità entro il 2064 viene presentato come**
+
+A) una previsione certa basata sui dati attuali.
+B) una conseguenza inevitabile della scarsità di risorse.
+C) uno scenario illustrativo legato a cambiamenti improvvisi.
+D) un risultato già osservato in precedenti crisi globali.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### AIUTI ALL'ECONOMIA DI PROSSIMITÀ: CONTRIBUTI A FONDO PERDUTO ALLE MICRO E PICCOLE IMPRESE
+
+**Finalità**
+
+Attraverso una procedura valutativa a sportello, che considera le domande in ordine di arrivo, e fino a esaurimento delle risorse disponibili, la Città intende erogare contributi a fondo perduto a favore delle micro e piccole imprese, anche di nuova costituzione, che svolgano attività di commercio al dettaglio e somministrazione di alimenti operanti nei quartieri Barriera di Milano e Aurora, al fine di realizzare investimenti che producano ricadute positive sulla qualità urbana e sulla rivitalizzazione del tessuto economico dell'area, incrementando e potenziando l'offerta commerciale.
+
+In particolare, il Bando “Aiuti all'economia di prossimità” intende finanziare progetti volti al risparmio energetico e alla mitigazione dell'impatto ambientale, all'innovazione gestionale e digitale.
+
+È prevista una premialità nella valutazione dei progetti per azioni volte al miglioramento dell'offerta commerciale attraverso la realizzazione di attività e interventi di innovazione sociale e inclusione delle persone con disabilità e la parità di genere.
+
+**A chi è rivolto**
+
+I beneficiari del presente bando saranno le micro e piccole imprese commerciali, in sede fissa, aventi unità locale, locale commerciale o pubblico esercizio, situata nei quartieri Barriera di Milano e Aurora, che svolgono attività di commercio al dettaglio di beni o attività di somministrazione di alimenti e bevande.
+
+Potranno altresì partecipare le piccole e micro imprese attive, iscritte nel Registro delle Imprese, che si impegnino ad avviare l'unità locale nel territorio sopra individuato alla data di presentazione della rendicontazione.
+
+Possono partecipare i soggetti iscritti con annotazione di impresa artigiana e titolari di autorizzazione alla vendita che svolgano, anche in via non prevalente, l'attività di vendita diretta al dettaglio di beni.
+
+**Soggetti esclusi**
+
+Sono esclusi dal presente bando i soggetti che siano già stati destinatari di provvedimento di concessione di contributo a valere sul primo Bando “Aiuti all'economia di prossimità”; le farmacie; i soggetti che nei due anni precedenti la pubblicazione del presente Bando siano stati destinatari di contributo DUC da parte della Città di Torino.
+
+**Tempi e modalità della presentazione della domanda**
+
+La domanda di contributo dovrà essere presentata, completa della documentazione richiesta dal presente Bando, entro le ore 13:00 del 30 settembre 2026, salvo proroga, unicamente all'indirizzo PEC indicato nel bando.
+
+Per la presentazione dell'istanza, le imprese dovranno utilizzare esclusivamente la modulistica allegata e scaricabile dal sito. In particolare, ciascun soggetto proponente dovrà compilare e firmare digitalmente, ove previsto, a pena di esclusione, i documenti richiesti: istanza di partecipazione e dichiarazione di titolarità effettiva, scheda progetto, scheda del soggetto proponente, dichiarazione de minimis, budget di spesa prevista e dichiarazione antimafia.
+
+La posta certificata dovrà essere trasmessa solo con estensione .pdf e/o .pdf/p7m: tutte le altre estensioni, per esempio .zip, non sono accettate dal sistema di protocollazione.
+
+Le informazioni riportate dagli operatori economici attraverso la compilazione della modulistica saranno rese nella forma di dichiarazione sostitutiva di certificazione o atto di notorietà, soggetta alla responsabilità, anche penale, in caso di dichiarazioni mendaci.
+
+> *Leggi le informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+1. Le domande sono esaminate secondo l'ordine in cui arrivano, finché ci sono risorse disponibili. Vero ○ Falso ○
+
+2. Le imprese beneficiarie devono restituire alla Città il contributo ricevuto. Vero ○ Falso ○
+
+3. Possono ottenere il contributo anche imprese costituite da poco. Vero ○ Falso ○
+
+4. Il bando finanzia esclusivamente interventi per ridurre il consumo di energia. Vero ○ Falso ○
+
+5. I progetti che favoriscono l'inclusione delle persone con disabilità ricevono una valutazione più favorevole. Vero ○ Falso ○
+
+6. Possono partecipare imprese commerciali con una sede fissa in qualsiasi quartiere di Torino. Vero ○ Falso ○
+
+7. Alcune imprese possono aprire l'unità locale nei quartieri indicati entro la presentazione della rendicontazione. Vero ○ Falso ○
+
+8. Un'impresa artigiana può partecipare anche se la vendita diretta al dettaglio non è la sua attività principale. Vero ○ Falso ○
+
+9. Chi ha già ricevuto un contributo con il primo bando “Aiuti all'economia di prossimità” è escluso. Vero ○ Falso ○
+
+10. Le farmacie rientrano tra le attività ammesse al contributo. Vero ○ Falso ○
+
+11. Il contributo DUC impedisce di partecipare solo se è stato ricevuto nell'anno precedente. Vero ○ Falso ○
+
+12. Salvo proroga, la domanda deve arrivare via PEC entro le ore 13:00 del 30 settembre 2026. Vero ○ Falso ○
+
+13. Il sistema di protocollazione accetta anche documenti raccolti in un file .zip. Vero ○ Falso ○
+
+14. Le dichiarazioni non veritiere non comportano responsabilità penale per chi presenta la domanda. Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi il testo. Il testo è diviso in 11 parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d'ordine accanto a ciascuna parte. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### UN WEEKEND IN PUGLIA FUORI STAGIONE
+
+| Ordine | Parte |
+|---|---|
+| **1** | **A.** Volo low cost da Bologna, due giorni di ferie per allungare il weekend e la Puglia è servita: un piccolo assaggio di Brindisi, Salento e Valle d’Itria |
+| ☐ | **B.** e ho colto questa occasione per visitare località più o meno famose che mi sono goduta nella tranquillità che caratterizza questi mesi ancora poco o per nulla affollati. |
+| ☐ | **C.** Se il lavoro consente di prendersi qualche assenza fuori stagione, cosa c’è di meglio che trovare un voletto low cost e andare a esplorare piccoli grandi angoli della nostra bella Italia? |
+| ☐ | **D.** e ho scelto come destinazione Brindisi non solo perché era uno dei voli più economici ma anche perché gli orari di viaggio erano ottimi. Sono infatti partita all’alba del venerdì mattina, |
+| ☐ | **E.** Peccato che Ryanair non faccia la raccolta miglia perché ne avrei già raccolte parecchie! Nonostante le lamentele che leggo spesso in giro, per me Ryanair resta una delle compagnie migliori sul corto raggio. |
+| ☐ | **F.** fuori stagione, tra visite a città, centri storici, chiese barocche, mostre e palazzi, passeggiate nella natura tra ulivi e trulli, un mare cristallino e ovviamente buon cibo! |
+| ☐ | **G.** Tutte le informazioni sono chiaramente riportate sia sul sito sia sulla app, i costi sono esplicitati in ogni fase dell’acquisto e non mancano mai indicazioni su ciò che è incluso e ciò che è da acquistare extra. |
+| ☐ | **H.** Per organizzare il weekend ho deciso di lasciarmi guidare dal destino. Dopo aver scelto le giornate in cui partire, da venerdì 11 a lunedì 14 aprile 2025, ho guardato i voli low cost in partenza da Bologna |
+| ☐ | **I.** Non solo perché mi consente di fare molti più viaggi di quanti potrei permettermi con compagnie non low cost, ma soprattutto perché c’è sempre la massima trasparenza in fase di ricerca voli, prenotazione e check in. |
+| ☐ | **J.** A fine marzo sono andata a Olbia e dintorni e ho vissuto esperienze bellissime e inattese di cui ho parlato in un altro articolo. Durante il weekend di metà aprile è stata la volta di Brindisi! Conosco poco la Puglia |
+| ☐ | **K.** sì, decisamente troppo presto per i miei gusti, ma alle otto ero già in città a Brindisi pronta a esplorarla a piedi, e sono rientrata la notte tra lunedì e martedì. |
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 1 ora** · Numero delle prove: **4** · Punteggio totale: **punti 20**
+*(punteggio massimo grezzo 24, riportato a 20 mediante la proporzione 20 : 24 = x : punteggio ottenuto)*
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli aggettivi e i pronomi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### IA CONTRO MEDICI: I CHATBOT SANNO DAVVERO FARE DIAGNOSI CORRETTE?
+
+__Molti (0)__ sono i ruoli nei __(1)__ l'intelligenza artificiale può sostituire professionisti in carne e ossa. Fra questi c'è anche __(2)__ del medico. Ma __(3)__ possiamo fidare delle diagnosi formulate dai chatbot, oppure è meglio rivolgersi ai dottori, la __(4)__ intelligenza è umana?
+
+Uno studio, i __(5)__ risultati sono rassicuranti, ha confrontato modelli linguistici. L'intelligenza artificiale se __(6)__ cava bene quando dispone di tutti i dati di __(7)__ ha bisogno, ma non è affidabile nella fase in __(8)__ deve decidere quali informazioni cercare. Con pochi elementi iniziali deve individuare la malattia dalla __(9)__ potrebbe essere affetto il paziente e scegliere gli esami con i __(10)__ verificarla.
+
+I ricercatori __(11)__ hanno messi alla prova 21. __(12)__ hanno invitati a fingersi medici in 29 scenari clinici, per ciascuno dei __(13)__ era necessario formulare una diagnosi.
+
+Con tutti i dati corretti, i ricercatori __(14)__ vedevano arrivare alla diagnosi giusta in oltre il 90% dei casi. Se da un lato i chatbot __(15)__ rivelavano medici validi con tutte le informazioni di __(16)__ avevano bisogno, dall'__(17)__ faticavano nelle fasi preliminari. Le fasi preliminari sono __(18)__ nelle quali occorre preparare una lista di diagnosi differenziali da verificare. In oltre l'80% dei casi non __(19)__ hanno formulate di corrette. I modelli non sono pronti per un impiego clinico autonomo: questi strumenti, in medicina, __(20)__ si deve usare con supervisione.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme giuste dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### UN DUETTO NATO COME UNA FESTA
+
+Oggi Fabio e Nino *(considerare)* __considerano (0)__ il loro duetto un incontro speciale.
+
+**Com'è stato collaborare per voi?**
+
+**Nino D'Angelo:** Oggi continuo a *(preferire)* __(1)__ ascoltare un cantante da solo, ma penso che sia necessario che un duetto *(nascere)* __(2)__ in un momento speciale. Se non *(essere)* __(3)__ così, i duetti *(sembrare)* __(4)__ tutti uguali. Se, per ipotesi, io *(andare)* __(5)__ a vedere un cantante, *(volere)* __(6)__ sentire soltanto lui. Adesso, per me, un duetto *(essere)* __(7)__ una festa, un evento raro come un compleanno.
+
+Finora Arisa e Fabio *(accogliere)* __(8)__ ogni mia esitazione iniziale. All'inizio di questa collaborazione, mentre *(leggere)* __(9)__ nei loro occhi il dispiacere, io *(essere)* __(10)__ ancora titubante. Ieri *(ricredersi)* __(11)__: in questi mesi *(conoscere)* __(12)__ due persone magnifiche. In passato, ogni estate, mi *(mancare)* __(13)__ il tormentone estivo.
+
+**Fabio Rovazzi:** Finora Nino *(spendere)* __(14)__ parole incredibili e *(disarmare)* __(15)__ proprio me. Adesso io *(essere)* __(16)__ contento. Quando i tre artisti si sono riuniti in studio, il ritornello *(scrivere)* __(17)__ da me già cinque anni prima. Desideravo infatti collaborare con Arisa da cinque anni.
+
+Quando iniziò questa intervista, io *(sentire)* __(18)__ già Arisa cantare il ritornello il giorno precedente. Fu proprio al terzo ritornello che quel coro *(diventare)* __(19)__ un segnale fortissimo. Oggi avere Arisa e Nino a bordo *(essere)* __(20)__ un sogno.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento che ti diamo. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### AD ASCOLI PICENO TORNA IL SERVIZIO «BICI IN CRI», PRIMO SOCCORSO IN BICICLETTA
+
+Incontro istituzionale presso il Giardino dell'Arengo tra il sindaco Marco Fioravanti, il vicesindaco e assessore ai Servizi Sociali Massimiliano Brugni e i __(1)__ della Croce Rossa Italiana della sezione di Ascoli Piceno per __(2)__ il servizio “Bici in CRI”, progetto di primo soccorso e __(3)__ sociale in bicicletta, che sarà __(4)__ anche quest'anno.
+
+Il servizio entrerà effettivamente a __(5)__ da mercoledì 15 luglio e __(6)__ quotidianamente fino al 20 agosto, con l'__(7)__ prioritario di __(8)__ le aree a maggiore __(9)__ del centro __storico (0)__ durante la stagione estiva e alcuni luoghi più frequentati nelle __(10)__ vicinanze. Squadre di volontari della Croce Rossa, __(11)__ dalla Centrale Operativa, saranno operative offrendo un punto di __(12)__ immediato e accessibile sia per i residenti sia per i numerosi turisti.
+
+Ciascun equipaggio sarà composto da volontari qualificati __(13)__ di strumentazione sanitaria per il primo intervento, misurazione dei __(14)__ vitali, completa di DAE, qualora necessario in stretto __(15)__ con la Centrale Operativa 118.
+
+Il servizio sul territorio sarà attivo dalle ore 10 alle ore 12 e dalle ore 16:30 alle ore 18:30.
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 0. | ~~storico~~ | antico | centrale | urbano |
+| 1. | rappresentanti | clienti | pazienti | visitatori |
+| 2. | ritirare | presentare | sospendere | evitare |
+| 3. | trasporto | controllo | supporto | isolamento |
+| 4. | acceso | attuale | sveglio | attivo |
+| 5. | ritmo | regime | turno | livello |
+| 6. | cambierà | terminerà | proseguirà | mancherà |
+| 7. | obiettivo | vantaggio | carattere | risultato |
+| 8. | abbandonare | chiudere | evitare | presidiare |
+| 9. | densità | affluenza | frequenza | distanza |
+| 10. | estreme | distanti | immediate | eventuali |
+| 11. | coordinate | separate | escluse | sostituite |
+| 12. | passaggio | controllo | ostacolo | riferimento |
+| 13. | privi | dotati | bisognosi | lontani |
+| 14. | strumenti | materiali | parametri | interventi |
+| 15. | collegamento | contrasto | isolamento | confronto |
+
+## Analisi delle strutture di comunicazione — Prova n. 4
+
+> *Scegli per ogni espressione una delle quattro situazioni di comunicazione che ti diamo. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. Lo spettacolo previsto per venerdì 24 luglio è stato rinviato a domenica 26 a causa del maltempo. I biglietti già acquistati restano validi; chi non può partecipare può chiedere il rimborso entro giovedì compilando il modulo online.**
+
+A) È la conferma che lo spettacolo si terrà nella data iniziale.
+B) È un avviso sul rinvio di un evento e sulle possibilità per chi ha il biglietto.
+C) È la pubblicità di una nuova modalità per acquistare biglietti.
+D) È una richiesta agli spettatori di scegliere il programma dello spettacolo.
+
+**2. Gentile cliente, abbiamo ricevuto le fotografie del tavolo danneggiato. Entro due giorni lavorativi il nostro tecnico valuterà il caso; poi le comunicheremo se sostituiremo il prodotto o se le proporremo una riduzione del prezzo. Non occorre rispedire nulla adesso.**
+
+A) È la risposta a un reclamo che spiega i prossimi passaggi della verifica.
+B) È la conferma che il cliente riceverà immediatamente un rimborso completo.
+C) È un invito a comprare un tavolo a prezzo ridotto.
+D) È una richiesta di spedire subito il prodotto danneggiato al tecnico.
+
+**3. Tra poco parleremo dei piccoli negozi che danno nuova vita ai quartieri. Telefonateci per raccontare quale attività ha aperto recentemente nella vostra zona e che cosa è cambiato. Le testimonianze più interessanti saranno commentate in diretta dalla nostra ospite.**
+
+A) È un servizio telefonico per aprire una nuova attività commerciale.
+B) È la presentazione di un'indagine riservata ai proprietari dei negozi.
+C) È un invito agli ascoltatori a intervenire durante una trasmissione.
+D) È l'annuncio della chiusura di alcuni esercizi di quartiere.
+
+**4. Affitto per tre mesi una stanza luminosa in appartamento condiviso, vicino alla facoltà di ingegneria. La cucina è in comune e le spese sono comprese, tranne internet. Cerco una persona non fumatrice; è richiesto un deposito cauzionale pari a una mensilità.**
+
+A) È un annuncio per trovare un coinquilino per un periodo limitato.
+B) È una proposta di acquisto di un appartamento vicino all'università.
+C) È un'offerta di lavoro per studenti della facoltà di ingegneria.
+D) È una richiesta di arredare una stanza in un alloggio condiviso.
+
+**5. Ciao Paolo, ho preso le chiavi della palestra che avevi lasciato in segreteria. Dopo l'allenamento le consegnerò al custode, come mi hai chiesto. Se domani ti servono prima delle otto, avvisami stasera e le lascio nella cassetta della posta.**
+
+A) È un rimprovero a un amico che ha perso le chiavi della palestra.
+B) È una richiesta alla segreteria di aprire la palestra in anticipo.
+C) È la conferma di aver ritirato delle chiavi con un'eventuale alternativa per riconsegnarle.
+D) È un invito a partecipare a un allenamento previsto per domani.
+
+**6. Benvenuti nella Casa dello Studente. All'arrivo ritirate il badge presso la portineria e controllate il numero della vostra camera. La biancheria viene cambiata ogni lunedì; per segnalare un guasto, usate l'apposito modulo disponibile nell'area riservata.**
+
+A) È una comunicazione di accoglienza con indicazioni pratiche per i nuovi ospiti.
+B) È un reclamo sulle condizioni delle camere di una residenza.
+C) È un annuncio per assumere personale addetto alla portineria.
+D) È una richiesta agli studenti di lasciare definitivamente l'alloggio.
+
+**7. Si informa il pubblico che, per un controllo tecnico, martedì mattina l'ascensore della biblioteca resterà fuori servizio. Le sale dei piani superiori saranno comunque raggiungibili dalla scala interna; gli utenti con difficoltà motorie possono rivolgersi al personale all'ingresso.**
+
+A) È un avviso che annuncia la chiusura completa della biblioteca.
+B) È una comunicazione su un guasto permanente alle scale interne.
+C) È un invito a partecipare al controllo tecnico dell'edificio.
+D) È un avviso sull'indisponibilità temporanea dell'ascensore e sull'assistenza prevista.
+
+**8. Si è liberato un posto nel laboratorio di ceramica del sabato e il suo nome è il primo nella lista d'attesa. Se desidera partecipare, confermi entro domani alle 12 e paghi la quota. In assenza di risposta contatteremo la persona successiva.**
+
+A) È la conferma automatica dell'iscrizione senza altre azioni richieste.
+B) È l'offerta di un posto a chi era in attesa, valida fino a una scadenza.
+C) È la cancellazione definitiva di un laboratorio per mancanza di partecipanti.
+D) È la richiesta di rinunciare a un corso già frequentato.
+
+**9. Sul treno regionale arrivato da Siena alle 18.10 è stato trovato uno zaino blu contenente quaderni e un paio di occhiali. Il proprietario può rivolgersi all'ufficio oggetti smarriti della stazione, indicando anche un altro particolare utile al riconoscimento.**
+
+A) È la denuncia di un furto avvenuto durante un viaggio in treno.
+B) È una richiesta di consegnare alcuni quaderni alla stazione.
+C) È un avviso per permettere al proprietario di recuperare un oggetto ritrovato.
+D) È la pubblicità di un nuovo servizio per trasportare bagagli.
+
+**10. Non abbiamo potuto consegnare il suo ordine perché all'indirizzo indicato non era presente nessuno. Da domani il pacco sarà disponibile per cinque giorni nello sportello automatico di via Roma. Per aprirlo, inserisca il codice ricevuto tramite SMS.**
+
+A) È la conferma che un ordine è stato consegnato al destinatario.
+B) È la richiesta di comunicare al corriere un nuovo indirizzo.
+C) È un avviso sulla cancellazione di un ordine non pagato.
+D) È una comunicazione sul ritiro di un pacco dopo una consegna non riuscita.
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 1 ora e 10 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 20**
+
+## Produzione scritta — Prova n. 1
+
+> *Collabori con il blog di un'associazione che promuove la riduzione dei rifiuti. Hai partecipato a un laboratorio di riparazione di piccoli oggetti. Scrivi un articolo in cui racconti l'esperienza, valuti gli aspetti positivi e le difficoltà e proponi un miglioramento per le prossime edizioni.*
+> *Devi scrivere da 120 a 140 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Ti sei iscritto alla visita guidata «Il museo nascosto» del museo civico e hai già acquistato il biglietto online. L'e-mail di conferma indica sabato 25 luglio alle 15, con ritrovo all'ingresso di piazza Roma; un messaggio ricevuto ieri indica invece domenica 26 luglio alle 10, con ritrovo all'ingresso laterale di via Verdi. Scrivi un'e-mail formale all'ufficio prenotazioni.*
+> *Nell'email devi:*
+> *- indicare la visita scelta e segnalare le informazioni discordanti ricevute;*
+> *- chiedere conferma della data, dell'orario e del punto di ritrovo;*
+> *- domandare se il biglietto già acquistato resta valido e se la visita è accessibile alle persone con difficoltà motorie.*
+> *Devi scrivere da 80 a 100 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 20**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: scegli un argomento, prepara la risposta e parla ad alta voce rispettando la durata indicata, poi confrontati con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Dialogo faccia a faccia. Conversa con l'esaminatore su uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Racconta un corso o un'attività pratica che ti ha insegnato qualcosa di utile fuori dalla scuola.
+
+**2.** Esprimi la tua opinione sui vantaggi e sulle difficoltà di studiare o lavorare da casa.
+
+**3.** Racconta un evento culturale, sportivo o musicale a cui hai partecipato nella tua città.
+
+**4.** Spiega se cerchi di usare meno il telefono nel tempo libero e quali strategie adotti.
+
+## Produzione orale — Prova n. 2
+
+> *Monologo. Esponi uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Una giornata senza automobili nel tuo quartiere: descrivi come potrebbe cambiare la vita delle persone e presenta la tua opinione.
+
+**2.** Racconta una decisione che ha migliorato una tua abitudine e spiega quali difficoltà hai incontrato.
+
+**3.** Descrivi la biblioteca pubblica ideale per giovani e adulti: spazi, servizi e attività.
+
+**4.** Le recensioni online influenzano molte scelte quotidiane: spiega come le usi e quali rischi possono avere.
+
+---
+
+# Foglio delle risposte
+
+**Comprensione della lettura — Prova n. 1** *(annerisci una lettera per riga)*
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 1 | ○ | ○ | ○ | ○ |
+| 2 | ○ | ○ | ○ | ○ |
+| 3 | ○ | ○ | ○ | ○ |
+| 4 | ○ | ○ | ○ | ○ |
+| 5 | ○ | ○ | ○ | ○ |
+| 6 | ○ | ○ | ○ | ○ |
+| 7 | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 2** *(V = vero, F = falso)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| V | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| F | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 3** *(scrivi la lettera della parte per ogni posizione)*
+
+| Posizione | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Parte | A |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 1 e Prova n. 2** *(scrivi la risposta in STAMPATELLO)*
+
+| n. | Prova 1 | Prova 2 | n. | Prova 1 | Prova 2 |
+|---|---|---|---|---|---|
+| 1 |  |  | 11 |  |  |
+| 2 |  |  | 12 |  |  |
+| 3 |  |  | 13 |  |  |
+| 4 |  |  | 14 |  |  |
+| 5 |  |  | 15 |  |  |
+| 6 |  |  | 16 |  |  |
+| 7 |  |  | 17 |  |  |
+| 8 |  |  | 18 |  |  |
+| 9 |  |  | 19 |  |  |
+| 10 |  |  | 20 |  |  |
+
+**Analisi delle strutture — Prova n. 3** *(annerisci una lettera per riga)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 4**
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*

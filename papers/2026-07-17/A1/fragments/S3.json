@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Servizio aiuto anziani",
+    "S3_TEXT_WITH_GAPS": "Il Servizio Aiuto Anziani è un punto di riferimento __telefonico (0)__ della Città di Torino. Puoi chiamare per trovare __(1)__, ricevere __(2)__ e conoscere i servizi disponibili. Il servizio risponde sette __(3)__ su sette, dalle 8:30 alle 16. Nei weekend e nei giorni __(4)__ risponde la Polizia Municipale. Puoi contattare il servizio per __(5)__ o via __(6)__. È disponibile in tutta la __(7)__ e tutti i servizi sono __(8)__.",
+    "S3_OPT0_A": "telefonico",
+    "S3_OPT0_B": "notturno",
+    "S3_OPT0_C": "estivo",
+    "S3_OPTION_ROWS": "| 1. | ascolto | rumore | traffico |\n| 2. | telefonate | pacchi | informazioni |\n| 3. | ore | giorni | mesi |\n| 4. | estivi | festivi | feriali |\n| 5. | posta | telefono | messaggio |\n| 6. | chat | SMS | e-mail |\n| 7. | regione | città | nazione |\n| 8. | privati | gratuiti | notturni |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Puoi chiamare per trovare «ascolto». 中文：该服务提供倾听和帮助。 |\n| S3.2 | C | Puoi chiamare per «ricevere informazioni». 中文：电话服务提供信息，不寄送包裹。 |\n| S3.3 | B | Il servizio risponde «sette giorni su sette». 中文：这里说明每周每天都可联系。 |\n| S3.4 | B | «Nei weekend e nei giorni festivi» risponde la Polizia Municipale. 中文：*festivi* 与周末并列，指节假日。 |\n| S3.5 | B | Puoi contattare il servizio «per telefono». 中文：*per telefono* 是文中明确的联系方式。 |\n| S3.6 | C | Puoi contattare il servizio «via e-mail». 中文：*via e-mail* 是另一种明确的联系方式。 |\n| S3.7 | B | Il servizio «è disponibile in tutta la città». 中文：服务范围是全市。 |\n| S3.8 | B | «Tutti i servizi sono gratuiti». 中文：所有提供的服务都不收费。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "B",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "punto di riferimento",
+      "categoria": "locuzione nominale",
+      "zh": "联络点；参考点",
+      "en": "point of reference",
+      "esempio": "un punto di riferimento"
+    },
+    {
+      "parola": "servizi disponibili",
+      "categoria": "locuzione nominale",
+      "zh": "可用的服务",
+      "en": "available services",
+      "esempio": "conoscere i servizi disponibili"
+    },
+    {
+      "parola": "weekend",
+      "categoria": "sostantivo invariabile",
+      "zh": "周末",
+      "en": "weekend",
+      "esempio": "Nei weekend"
+    },
+    {
+      "parola": "Polizia Municipale",
+      "categoria": "nome proprio",
+      "zh": "市政警察",
+      "en": "municipal police",
+      "esempio": "risponde la Polizia Municipale"
+    },
+    {
+      "parola": "contattare",
+      "categoria": "verbo",
+      "zh": "联系",
+      "en": "to contact",
+      "esempio": "Puoi contattare il servizio"
+    }
+  ]
+}

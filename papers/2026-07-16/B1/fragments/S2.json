@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "GABRIELE VAGNATO: I PROGETTI RIMASTI NEL CASSETTO E IL SUO MAESTRO",
+    "S2_TEXT_WITH_GAPS": "**Oggi Gabriele *(raccontare)* __racconta (0)__ degli episodi rimasti nel cassetto?**\n\nOggi questa storia mi *(fare)* __(1)__ sorridere. Finora l'unica ospite che mi *(dire)* __(2)__ di sì è Elettra Lamborghini. Quel giorno, mentre lei *(stare)* __(3)__ poco bene, io *(essere)* __(4)__ già all'incontro a Roma. Mentre aspettavamo, noi *(avere)* __(5)__ tutto organizzato; fino a oggi non *(riuscire)* __(6)__ a registrare la puntata.\n\n**E Elettra?**\n\nAdesso credo che Elettra mostri una parte di sé, ma l'altra parte *(fare)* __(7)__ fatica a emergere. Se lei accettasse, mi *(piacere)* __(8)__ realizzare un episodio. Oggi io *(essere)* __(9)__ molto timido: adesso non *(avere)* __(10)__ il coraggio di andare da lei. Se la incontrassi, le *(dire)* __(11)__: «Cara Elettra, rifacciamolo». Se trovasse l'intervista, forse lei *(leggere)* __(12)__ queste parole.\n\n**E Fiorello?**\n\nAdesso Fiore *(essere)* __(13)__ il mio unico maestro. In questi anni Fiore mi *(dare)* __(14)__ tantissimo. Ancora oggi mi insegna senza ricevere vantaggi. Anche in futuro, per questa generosità, io gli *(essere)* __(15)__ sempre grato. Adesso io lo *(vedere)* __(16)__ come un papà artistico. Ancora oggi Fiore *(riuscire)* __(17)__ sempre a leggere il periodo storico in cui lui *(vivere)* __(18)__. Adesso questa capacità *(essere)* __(19)__ speciale; ancora oggi soltanto lui la *(possedere)* __(20)__."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | fa | presente indicativo | S2.11 | direi | condizionale presente |\n| S2.2 | ha detto | passato prossimo | S2.12 | leggerebbe | condizionale presente |\n| S2.3 | stava | imperfetto | S2.13 | è | presente indicativo |\n| S2.4 | ero | imperfetto | S2.14 | ha dato | passato prossimo |\n| S2.5 | avevamo | imperfetto | S2.15 | sarò | futuro semplice |\n| S2.6 | siamo riusciti | passato prossimo | S2.16 | vedo | presente indicativo |\n| S2.7 | fa | presente indicativo | S2.17 | riesce | presente indicativo |\n| S2.8 | piacerebbe | condizionale presente | S2.18 | vive | presente indicativo |\n| S2.9 | sono | presente indicativo | S2.19 | è | presente indicativo |\n| S2.10 | ho | presente indicativo | S2.20 | possiede | presente indicativo |",
+    "ANS_S2_NOTES": "- **S2.1 / S2.2 / S2.8 / S2.11 / S2.14–S2.16 / S2.20 — confine del gap:** i pronomi «mi», «le», «gli», «lo» e «la» sono già stampati; nel gap entra soltanto la forma verbale. 中文：代词已印在空格外，只填写动词。\n- **S2.2 / S2.6 / S2.14 — passato prossimo:** «Finora», «fino a oggi» e «In questi anni» collegano esplicitamente i fatti al presente. 中文：这些时间标记锁定近过去时。\n- **S2.3–S2.5 — imperfetto:** «mentre» presenta azioni e situazioni in corso nello stesso momento passato. 中文：mentre 明确要求未完成过去时。\n- **S2.8 / S2.11 / S2.12 — condizionale:** «Se lei accettasse», «Se la incontrassi» e «Se trovasse l'intervista» introducono condizioni ipotetiche. 中文：se + 虚拟式明确锁定条件式主句。\n- **S2.15 — futuro:** «Anche in futuro» colloca esplicitamente la gratitudine dopo il presente. 中文：未来时间标记锁定简单将来时。\n- **S2.9 / S2.14–S2.18 — soggetti espressi:** «io», «Fiore» e «lui» fissano la persona di ogni forma; in S2.18 «lui» impone «vive». 中文：明确主语锁定人称，S2.18 只能填 vive。\n- **S2.19 / S2.20 — presente:** «Adesso» e «ancora oggi» collocano i giudizi nel presente. 中文：现在时间标记锁定直陈式现在时。"
+  },
+  "key": {
+    "S2.1": "fa",
+    "S2.2": "ha detto",
+    "S2.3": "stava",
+    "S2.4": "ero",
+    "S2.5": "avevamo",
+    "S2.6": "siamo riusciti",
+    "S2.7": "fa",
+    "S2.8": "piacerebbe",
+    "S2.9": "sono",
+    "S2.10": "ho",
+    "S2.11": "direi",
+    "S2.12": "leggerebbe",
+    "S2.13": "è",
+    "S2.14": "ha dato",
+    "S2.15": "sarò",
+    "S2.16": "vedo",
+    "S2.17": "riesce",
+    "S2.18": "vive",
+    "S2.19": "è",
+    "S2.20": "possiede"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rimasti nel cassetto",
+      "categoria": "espressione",
+      "zh": "被搁置的；未发表的",
+      "en": "left on the shelf",
+      "esempio": "episodi rimasti nel cassetto"
+    },
+    {
+      "parola": "puntata",
+      "categoria": "nome femminile",
+      "zh": "（节目）一期",
+      "en": "episode",
+      "esempio": "registrare la puntata"
+    },
+    {
+      "parola": "emergere",
+      "categoria": "verbo",
+      "zh": "显露；浮现",
+      "en": "to emerge",
+      "esempio": "fatica a emergere"
+    },
+    {
+      "parola": "maestro",
+      "categoria": "nome maschile",
+      "zh": "导师；老师",
+      "en": "mentor; teacher",
+      "esempio": "il mio unico maestro"
+    },
+    {
+      "parola": "papà artistico",
+      "categoria": "espressione",
+      "zh": "艺术道路上的父亲般导师",
+      "en": "artistic father figure",
+      "esempio": "come un papà artistico"
+    }
+  ]
+}

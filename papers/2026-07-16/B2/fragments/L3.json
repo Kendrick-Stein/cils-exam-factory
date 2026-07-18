@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "SANT'ANTIOCO, SOLO VERDE E BLU",
+    "T3_PART_A": "È il giorno di Carloforte: prendiamo il traghetto delle 10.20 e facciamo i biglietti al parcheggio. Fa caldo; il bel paese ricorda la Liguria. Comunque, negozi, vicoli e colpi d'occhio meritano la nostra passeggiata.",
+    "T3_PART_B": "Soltanto dopo aver ascoltato quel sardo tendente al ligure, ci concediamo un ottimo gelato davanti al porto di partenza. Intanto la nostra auto, pronta per il rientro, è già in postazione.",
+    "T3_PART_C": "Appena scesi da quelle rocce nell'acqua della riserva, incontriamo una medusa tutt'altro che pacifica. Usciamo con una strisciata sul braccio e cerchiamo subito un modo per consolarci.",
+    "T3_PART_D": "Arrivati nella piazzetta alberata appena cercata, vediamo piante enormi circondate da panchine. Seduti lì intorno, gli abitanti del luogo parlano con un sardo che tende al ligure.",
+    "T3_PART_E": "Solo la mattina seguente, dopo quella cena e la successiva colazione, ci attira la Costa Verde. Attraversiamo Carbonia e Iglesias, poi percorriamo la SS126 per un'ora di curve, finché appare l'indicazione tanto attesa: «Scivu».",
+    "T3_PART_F": "Terminata proprio la passeggiata tra quei negozi e vicoli, ci allontaniamo dal centro verso Cala Fico, oasi della Lipu e riserva naturale. Una strada sterrata vietata alle auto conduce alle rocce, dalle quali si può scendere nell'acqua.",
+    "T3_PART_G": "Raggiunta così la spiaggia scelta per l'intera giornata, ammiriamo l'acqua pulita, la sabbia caraibica e le rocce rossicce incastonate nel verde. Dopo pranzo facciamo bagni, tuffi e passeggiate; restiamo fino al tramonto, poi ceniamo sul terrazzo nell'aria fresca.",
+    "T3_PART_H": "Lasciato il faro soltanto dopo aver gustato quella vista a 360 gradi, non ci attirano altre spiagge, neppure la tonnara. Cerchiamo invece il centro del paese, caratterizzato da una piazzetta alberata.",
+    "T3_PART_I": "Proprio da quell'indicazione per Scivu riparte una bella strada nel verde intenso, diretta alla spiaggia. Arrivati al parcheggio, scegliamo di restare per tutta la giornata, perché il luogo ci sembra meraviglioso.",
+    "T3_PART_J": "Per consolarci proprio della strisciata lasciata dalla medusa, raggiungiamo il faro che domina il paese, vicino al cui piazzale possiamo parcheggiare. Da lassù si apre una vista a 360 gradi e ci fermiamo a osservarla.",
+    "T3_PART_K": "Con l'auto ormai in postazione al porto, ripartiamo passando da Calasetta e troviamo una strada più veloce. Al rientro ci aspettano una doccia gelata e la solita cena squisita, con cibo a chilometro zero."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Apertura autonoma: «È il giorno di Carloforte» avvia il viaggio; «negozi e vicoli» preparano il richiamo successivo. 中文：唯一可独立开篇。 |\n| 2 | F | «Terminata proprio la passeggiata tra quei negozi e vicoli» riprende soltanto la passeggiata annunciata in A; poi introduce rocce e acqua a Cala Fico. 中文：商店与小巷的精确回指锁定第二段。 |\n| 3 | C | «Appena scesi da quelle rocce nell'acqua della riserva» riprende insieme le rocce, l'acqua e l'oasi della Lipu di F. 中文：三个线索共同锁定下水顺序。 |\n| 4 | J | «La strisciata lasciata dalla medusa» riprende senza alternative la ferita e la medusa di C; da lì si raggiunge il faro. 中文：水母蜇痕是唯一前项。 |\n| 5 | H | «Lasciato il faro» e «quella vista a 360 gradi» richiamano entrambi J; solo allora si cerca il centro. 中文：灯塔与全景双重回指。 |\n| 6 | D | «Nella piazzetta alberata appena cercata» riprende la meta introdotta alla fine di H e presenta il modo di parlare degli abitanti. 中文：寻找广场后才能到达。 |\n| 7 | B | «Quel sardo tendente al ligure» ripete la descrizione linguistica di D; il porto e l'auto preparano il rientro. 中文：方言表述精确衔接。 |\n| 8 | K | «Con l'auto ormai in postazione al porto» riprende due dettagli esclusivi di B; il rientro termina con la cena. 中文：车和港口双重回指。 |\n| 9 | E | «Solo la mattina seguente, dopo quella cena e la successiva colazione» può seguire soltanto la cena di K e apre la seconda giornata. 中文：晚餐后进入次日。 |\n| 10 | I | «Quell'indicazione per Scivu» rinvia unicamente al cartello apparso alla fine di E e conduce alla spiaggia. 中文：Scivu 路牌精确回指。 |\n| 11 | G | «La spiaggia scelta per l'intera giornata» riprende la decisione presa in I; tramonto e cena chiudono la giornata. 中文：全天停留的决定锁定末段。 |",
+    "ANS_L3_SEQUENCE": "A-F-C-J-H-D-B-K-E-I-G"
+  },
+  "key": {
+    "L3": "A-F-C-J-H-D-B-K-E-I-G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "strada sterrata",
+      "categoria": "locuzione nominale",
+      "zh": "土路；未铺装道路",
+      "en": "dirt road",
+      "esempio": "Una strada sterrata vietata alle auto conduce alle rocce"
+    },
+    {
+      "parola": "riserva naturale",
+      "categoria": "locuzione nominale",
+      "zh": "自然保护区",
+      "en": "nature reserve",
+      "esempio": "Cala Fico, oasi della Lipu e riserva naturale"
+    },
+    {
+      "parola": "tonnara",
+      "categoria": "nome femminile",
+      "zh": "金枪鱼捕捞场",
+      "en": "tuna fishery",
+      "esempio": "non ci attirano altre spiagge, neppure la tonnara"
+    },
+    {
+      "parola": "a chilometro zero",
+      "categoria": "locuzione aggettivale",
+      "zh": "本地产的；零公里的",
+      "en": "locally sourced",
+      "esempio": "la solita cena squisita, con cibo a chilometro zero"
+    },
+    {
+      "parola": "incastonate",
+      "categoria": "aggettivo, femminile plurale",
+      "zh": "镶嵌其中的",
+      "en": "set within",
+      "esempio": "le rocce rossicce incastonate nel verde"
+    }
+  ]
+}

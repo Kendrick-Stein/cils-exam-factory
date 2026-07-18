@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "IL GIARDINO DEI CINQUE SENSI",
+    "T1_TEXT": "Il Giardino dei Cinque Sensi è a Licenza, un piccolo paese a est di Roma, nei Monti Lucretili. È un parco da visitare con tutti i sensi, non solo con gli occhi. Il percorso passa in un orto e tra piante profumate. Qui ogni persona può odorare, vedere, toccare, ascoltare e gustare quello che ha intorno. Vicino al giardino c’è il torrente Maricella. Il suono dell’acqua accompagna le persone durante la visita. Il percorso è aperto anche a chi ha difficoltà a camminare. Ci sono strumenti dedicati e bagni adatti a queste persone. Il giardino accoglie tutti: gruppi di studenti, famiglie e persone anziane.",
+    "L1_ITEMS": "1. **Il Giardino dei Cinque Sensi si trova...**\n   A) a est di Roma.\n   B) al centro di Roma.\n   C) a ovest di Roma.\n\n2. **Il giardino è un parco da visitare...**\n   A) con tutti i sensi.\n   B) senza toccare le piante.\n   C) lontano dal torrente.\n\n3. **Durante la visita le persone sentono...**\n   A) il suono dell’acqua.\n   B) il rumore delle auto.\n   C) la musica degli studenti.\n\n4. **Per chi ha difficoltà a camminare ci sono...**\n   A) un percorso chiuso e bagni normali.\n   B) strumenti dedicati e bagni adatti.\n   C) studenti e famiglie."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice «a est di Roma»; 注意：题目问的是公园的位置。 |\n| L1.2 | A | Il testo presenta «un parco da visitare con tutti i sensi»; 注意：其他选项与触摸植物和溪流的信息相反。 |\n| L1.3 | A | La frase decisiva è «Il suono dell’acqua accompagna le persone»; 注意：声音来自溪流。 |\n| L1.4 | B | Il testo dice «Ci sono strumenti dedicati e bagni adatti»; 注意：这些设施对应行走困难的访客。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "A",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "piante profumate",
+      "categoria": "nome plurale",
+      "zh": "芳香植物",
+      "en": "fragrant plants",
+      "esempio": "Il percorso passa in un orto e tra piante profumate."
+    },
+    {
+      "parola": "torrente",
+      "categoria": "nome maschile",
+      "zh": "溪流",
+      "en": "stream",
+      "esempio": "Vicino al giardino c’è il torrente Maricella."
+    },
+    {
+      "parola": "suono dell’acqua",
+      "categoria": "espressione nominale",
+      "zh": "水声",
+      "en": "sound of the water",
+      "esempio": "Il suono dell’acqua accompagna le persone durante la visita."
+    },
+    {
+      "parola": "difficoltà a camminare",
+      "categoria": "espressione nominale",
+      "zh": "行走困难",
+      "en": "difficulty walking",
+      "esempio": "Il percorso è aperto anche a chi ha difficoltà a camminare."
+    },
+    {
+      "parola": "accoglie",
+      "categoria": "verbo",
+      "zh": "接待；欢迎",
+      "en": "welcomes",
+      "esempio": "Il giardino accoglie tutti"
+    }
+  ]
+}

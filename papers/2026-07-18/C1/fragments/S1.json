@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "SCUOLA E RICERCA A ISCHIA",
+    "S1_TEXT_WITH_GAPS": "Il convegno nasce __a (0)__ valle __(1)__ un primo incontro __(2)__ i quattro Enti svoltosi nel 2025 e rappresenta la prima conferenza a livello nazionale dedicata __(3)__ modo organico __(4)__ rapporto __(5)__ ricerca __(6)__ scuola, con il sostegno del Ministero dell’Università e della Ricerca e del Ministero dell’Istruzione e del Merito.\n\n__(7)__ gli obiettivi dichiarati figura la stesura __(8)__ una proposta condivisa per la definizione __(9)__ un protocollo nazionale scuola-ricerca, che possa dare cornice stabile alle collaborazioni __(10)__ Enti di ricerca __(11)__ sistema scolastico.\n\nCome ha sottolineato il coordinatore del comitato organizzatore Pierluigi Paolucci nell’intervista pubblicata da EduINAF, «qualunque sia il suo campo, il ricercatore è un vero __(12)__ proprio mediatore culturale __(13)__ la scienza __(14)__ la società per le future generazioni, e noi dobbiamo costruire le regole e gli strumenti __(15)__ questo funzioni davvero».\n\nIl CNR è stato presente a Ischia con più __(16)__ trenta colleghi e colleghe provenienti __(17)__ una ventina __(18)__ Istituti distribuiti su tutto il territorio nazionale. Una partecipazione spontanea, ampia, coerente __(19)__ la natura diffusa e multidisciplinare dell’Ente.\n\nNella sessione di relazioni su invito del mercoledì pomeriggio, Manuel Gentile dell’Istituto per le Tecnologie Didattiche ha proposto una riflessione sull’intelligenza artificiale come sfida epistemica e culturale per l’educazione, uno __(20)__ temi emersi come prioritari dai docenti partecipanti."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | di / d' | S1.11 | e |\n| S1.2 | tra / fra | S1.12 | e |\n| S1.3 | in | S1.13 | tra / fra |\n| S1.4 | al | S1.14 | e |\n| S1.5 | tra / fra | S1.15 | perché / affinché |\n| S1.6 | e | S1.16 | di |\n| S1.7 | Tra / Fra | S1.17 | da |\n| S1.8 | di / d' | S1.18 | di / d' |\n| S1.9 | di / d' | S1.19 | con |\n| S1.10 | tra / fra | S1.20 | dei |",
+    "ANS_S1_NOTES": "- **S1.2, S1.5, S1.7, S1.10, S1.13:** sono accettate sia *tra* sia *fra*, equivalenti in questi contesti. 中文：两种形式都正确。\n- **S1.1, S1.8, S1.9, S1.18:** oltre a *di* è ammessa l’elisione *d'*, possibile davanti a vocale. 中文：省音形式也接受。\n- **S1.6, S1.11, S1.14:** nella correlazione *tra/fra … e …* la congiunzione *e* completa il rapporto tra i due elementi. 中文：固定关联结构。\n- **S1.3, S1.4:** la risposta è imposta dalle strutture fisse *in modo* e *dedicato al rapporto*.\n- **S1.15:** *perché* e *affinché* introducono entrambe la finalità; le due forme sono accettate. 中文：两者都表示目的。"
+  },
+  "key": {
+    "S1.1": "di || d'",
+    "S1.2": "tra || fra",
+    "S1.3": "in",
+    "S1.4": "al",
+    "S1.5": "tra || fra",
+    "S1.6": "e",
+    "S1.7": "Tra || Fra",
+    "S1.8": "di || d'",
+    "S1.9": "di || d'",
+    "S1.10": "tra || fra",
+    "S1.11": "e",
+    "S1.12": "e",
+    "S1.13": "tra || fra",
+    "S1.14": "e",
+    "S1.15": "perché || affinché",
+    "S1.16": "di",
+    "S1.17": "da",
+    "S1.18": "di || d'",
+    "S1.19": "con",
+    "S1.20": "dei"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mediatore culturale",
+      "categoria": "locuzione nominale",
+      "zh": "文化传播者",
+      "en": "cultural mediator",
+      "esempio": "mediatore culturale"
+    },
+    {
+      "parola": "cornice stabile",
+      "categoria": "locuzione nominale",
+      "zh": "稳定框架",
+      "en": "stable framework",
+      "esempio": "che possa dare cornice stabile alle collaborazioni"
+    },
+    {
+      "parola": "sistema scolastico",
+      "categoria": "locuzione nominale",
+      "zh": "学校教育体系",
+      "en": "school system",
+      "esempio": "sistema scolastico"
+    },
+    {
+      "parola": "natura diffusa e multidisciplinare",
+      "categoria": "locuzione nominale",
+      "zh": "分布广泛且多学科的性质",
+      "en": "distributed and multidisciplinary nature",
+      "esempio": "la natura diffusa e multidisciplinare"
+    },
+    {
+      "parola": "territorio nazionale",
+      "categoria": "locuzione nominale",
+      "zh": "全国范围",
+      "en": "national territory",
+      "esempio": "distribuiti su tutto il territorio nazionale"
+    }
+  ]
+}

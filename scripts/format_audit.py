@@ -34,6 +34,10 @@ WRITING_HEADING_RE = re.compile(
     r"^##\s+Produzione scritta\s+[—-]\s+Prova n\.\s+(\d+)\s*$",
     re.MULTILINE,
 )
+ORAL_HEADING_RE = re.compile(
+    r"^##\s+Produzione orale\s+[—-]\s+Prova n\.\s+(\d+)\s*$",
+    re.MULTILINE,
+)
 ATTRIBUTION_RE = re.compile(r"\*Testo adattato da:", re.IGNORECASE)
 SOURCE_FOOTER_RE = re.compile(r"Fonti citate sotto ogni testo", re.IGNORECASE)
 STUDY_AID_MARKERS = (
@@ -51,6 +55,7 @@ ORDERED_MARKERS = (
     ("reading_section", "# Test di comprensione della lettura"),
     ("structure_section", "# Test di analisi delle strutture di comunicazione"),
     ("writing_section", "# Test di produzione scritta"),
+    ("oral_section", "# Test di produzione orale"),
     ("answer_sheet_final", "# Foglio delle risposte"),
 )
 
@@ -168,17 +173,22 @@ def audit_front_matter(
     return issues
 
 
-def audit_marker_order(level: str, paper_path: Path, paper_text: str) -> list[dict[str, str]]:
+def audit_marker_order(level: str, paper_path: Path, paper_text: str, spec: dict[str, Any]) -> list[dict[str, str]]:
     issues: list[dict[str, str]] = []
     positions: list[int] = []
-    for marker_id, marker in ORDERED_MARKERS:
+    markers = [
+        (marker_id, marker)
+        for marker_id, marker in ORDERED_MARKERS
+        if marker_id != "oral_section" or expected_prove(spec, "orale")
+    ]
+    for marker_id, marker in markers:
         position = paper_text.find(marker)
         if position < 0:
             issues.append(issue(level, f"format.missing_{marker_id}", f"missing marker: {marker}", paper_path))
         else:
             positions.append(position)
-    if len(positions) == len(ORDERED_MARKERS) and positions != sorted(positions):
-        issues.append(issue(level, "format.section_order", "answer-sheet example, tests, writing, and final answer sheet are out of order", paper_path))
+    if len(positions) == len(markers) and positions != sorted(positions):
+        issues.append(issue(level, "format.section_order", "answer-sheet example, tests, writing, oral, and final answer sheet are out of order", paper_path))
     return issues
 
 
@@ -188,6 +198,7 @@ def audit_prova_counts(level: str, paper_path: Path, paper_text: str, spec: dict
         ("reading", "lettura", READING_HEADING_RE),
         ("structure", "strutture", STRUCTURE_HEADING_RE),
         ("writing", "scritta", WRITING_HEADING_RE),
+        ("oral", "orale", ORAL_HEADING_RE),
     )
     for label, section_id, pattern in checks:
         expected = expected_prove(spec, section_id)
@@ -285,7 +296,7 @@ def audit(args: argparse.Namespace) -> dict[str, Any]:
         manifests[level] = manifest
         manifest_paths[level] = manifest_path
         issues.extend(audit_front_matter(level, args.session, manifest_path, manifest, paper_path, paper_text))
-        issues.extend(audit_marker_order(level, paper_path, paper_text))
+        issues.extend(audit_marker_order(level, paper_path, paper_text, spec))
         issues.extend(audit_prova_counts(level, paper_path, paper_text, spec))
         issues.extend(audit_paper_style(level, paper_path, paper_text))
         issues.extend(audit_key_json(level, key_path))

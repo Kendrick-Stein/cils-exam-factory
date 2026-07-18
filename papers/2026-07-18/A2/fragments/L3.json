@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Mosse di mezzanotte in VEZ 2026**\n\nContinuano le sessioni di gioco da tavolo per persone dai 15 anni in su, ogni giovedì dalle 20.30 alle 22.30.\n\n○ **2. TECHQUEST: laboratori per inventori in erba**\n\nIl laboratorio accoglie bambini da 5 a 7 anni mercoledì 22 luglio e bambini da 8 a 13 anni venerdì 24 luglio, sempre alle 17.00.\n\n○ **3. Booktopia al Lido**\n\nÈ un laboratorio creativo dedicato allo scrapbook per ragazzi da 7 a 13 anni: carta, creatività e personalizzazione servono per creare un diario unico.\n\n○ **4. Che storie! SummerEdition Burano**\n\nL’evento è in programma mercoledì 22 luglio 2026 alle 11.00 ed è rivolto a bambini e bambine da 6 a 10 anni.\n\n○ **5. Bibliociurma all’arrembaggio**\n\nSono previsti cinque appuntamenti di letture animate per bambini dai 4 agli 8 anni, dal 4 giugno al 3 settembre, sempre alle 17.\n\n○ **6. Dungeons & Dragons 22 luglio**\n\nLa biblioteca ospita un’avventura di gioco di ruolo per ragazze e ragazzi tra i 16 e i 30 anni. L’attività inizia alle 14.00.",
+    "L3_OPTIONS": "A. Durante questo laboratorio, i partecipanti usano carta e creatività per personalizzare e creare un diario unico.\n\nB. Per prendere parte a questa avventura, la partecipazione è gratuita, ma bisogna prenotare obbligatoriamente un posto.\n\nC. Per questo evento del 22 luglio, la partecipazione è gratuita fino a esaurimento dei posti disponibili.\n\nD. Per partecipare a queste sessioni del giovedì sera, l’attività è gratuita, ma è prevista la prenotazione obbligatoria.\n\nE. Al termine di questi appuntamenti, è disponibile il prestito di libri; la partecipazione è libera e gratuita.\n\nF. In entrambe le date, l’accesso al laboratorio è gratuito, ma è necessario prenotare prima di partecipare.\n\nG. Quella sera, invece, l’incontro inizia alle 17 ed è rivolto a ragazzi tra i 16 e i 30 anni.\n\nH. Il venerdì, invece, questa attività accoglie bambini da 6 a 10 anni e comincia alle 11.00."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | D | «sessioni di gioco da tavolo» «ogni giovedì»: D riprende le sessioni e aggiunge le condizioni «prenotazione obbligatoria» e «gratuita». 中文：周四晚的桌游活动。 |\n| L3.2 | F | Le due fasce d’età hanno date diverse ma l’ora è la stessa; F conferma che «in entrambe le date» l’accesso è gratuito con prenotazione. 中文：两个日期条件相同。 |\n| L3.3 | A | Il testo parla di «scrapbook» e di un «diario unico»; A completa lo scopo creativo con carta e personalizzazione. 中文：手工日记实验室。 |\n| L3.4 | C | Data, ora ed età identificano l’evento; C aggiunge la condizione «fino a esaurimento dei posti disponibili». 中文：免费，但座位有限。 |\n| L3.5 | E | Solo questo testo presenta «cinque appuntamenti di letture animate»; E riprende gli appuntamenti e indica il prestito finale. 中文：阅读后可借书。 |\n| L3.6 | B | «avventura di gioco di ruolo» seleziona B, che riprende l’avventura e specifica gratuità e prenotazione obbligatoria. 中文：角色扮演活动需预约。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "D",
+    "L3.2": "F",
+    "L3.3": "A",
+    "L3.4": "C",
+    "L3.5": "E",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "gioco da tavolo",
+      "categoria": "locuzione nominale",
+      "zh": "桌面游戏",
+      "en": "board game",
+      "esempio": "Continuano le sessioni di gioco da tavolo per persone dai 15 anni in su, ogni giovedì dalle 20.30 alle 22.30."
+    },
+    {
+      "parola": "prenotazione obbligatoria",
+      "categoria": "locuzione nominale",
+      "zh": "必须预约",
+      "en": "mandatory booking",
+      "esempio": "Per partecipare a queste sessioni del giovedì sera, l’attività è gratuita, ma è prevista la prenotazione obbligatoria."
+    },
+    {
+      "parola": "laboratorio creativo",
+      "categoria": "locuzione nominale",
+      "zh": "创意工作坊",
+      "en": "creative workshop",
+      "esempio": "È un laboratorio creativo dedicato allo scrapbook per ragazzi da 7 a 13 anni: carta, creatività e personalizzazione servono per creare un diario unico."
+    },
+    {
+      "parola": "esaurimento dei posti",
+      "categoria": "locuzione nominale",
+      "zh": "名额满员",
+      "en": "all places filled",
+      "esempio": "Per questo evento del 22 luglio, la partecipazione è gratuita fino a esaurimento dei posti disponibili."
+    },
+    {
+      "parola": "prestito di libri",
+      "categoria": "locuzione nominale",
+      "zh": "图书借阅",
+      "en": "book lending",
+      "esempio": "Al termine di questi appuntamenti, è disponibile il prestito di libri; la partecipazione è libera e gratuita."
+    }
+  ]
+}

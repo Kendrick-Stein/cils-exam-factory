@@ -1,0 +1,844 @@
+Reading additional input from stdin...
+OpenAI Codex v0.144.2
+--------
+workdir: /Users/kendrickstein/Code/CILS_Exam_AUTOGEN
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019f7448-7a33-7063-9c5a-ce3c29573e29
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-07-18-B1/paper.md using ONLY that file. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. Do not open any other file or the web.
+codex
+我会严格只读取指定的 `paper.md`，独立作答；写作与口试只做题面完整性检查，不放入客观答案。
+exec
+/bin/zsh -lc "sed -n '1,260p' /tmp/cils-blind-2026-07-18-B1/paper.md" in /tmp/cils-blind-2026-07-18-B1
+ succeeded in 0ms:
+---
+exam: CILS
+level: B1
+level_name: "CILS UNO — B1"
+session: "2026-07-18"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello UNO-B1 — Prova di esercitazione · 18 luglio 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello dei quaderni d'esame CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Punteggio massimo: 80 su 100 dell'esame completo (20 + 20 + 20 + 20). Soglia di sufficienza per abilità: 11/20.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 50 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 20**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### Valentina Bivona, Marta de *I Cesaroni*
+
+A 6 anni Valentina Bivona ha capito di voler fare l'attrice e da allora non ha più abbandonato il suo sogno: il primo ruolo a 8 anni, poi lo studio della recitazione portato avanti insieme alla scuola, sempre con il sostegno della famiglia. Una carriera cresciuta rapidamente che l'ha portata oggi, diciannovenne, a recitare nel cast de *I Cesaroni - Il Ritorno*, dove interpreta il personaggio di Marta Cesaroni, figlia di Eva e Marco.
+
+Ha raccontato la sua esperienza nella serie, la somiglianza con il personaggio e la sua vita fuori dal set: «Mi hanno sempre trattata come fossi parte della famiglia. A differenza di Marta, non sono stata un'adolescente combina guai».
+
+**Come sono arrivati I Cesaroni nella tua vita?**
+
+A casa mia guardare *I Cesaroni* la sera era una tradizione, la serie ha per me un grande bagaglio emotivo. Il provino per il ruolo di Marta è stato una catastrofe, sono arrivata con 45 minuti di ritardo perché ero nel posto sbagliato. È stato proprio un provino in pieno stile Cesaroni.
+
+**Hai sentito la responsabilità di questo ruolo, immaginato per anni dai fan di Eva e Marco?**
+
+Per preparare Marta ho riguardato le vecchie stagioni e ho cercato di fare un mix tra mamma Eva e papà Marco, tra la sua famiglia americana e i Cesaroni. Ho sentito una grande responsabilità per questo ruolo e ho avuto un po' di tensione, ma sul set c'è un'atmosfera veramente serena con cui si riesce a lavorare al meglio.
+
+**Te lo immaginavi così?**
+
+Immaginavo che si volessero bene proprio come appare in tv, però non pensavo così tanto. Mi hanno sorpreso in modo positivo. Non mi sono mai sentita «quella nuova» e tutti mi hanno sempre trattata come se fossi da sempre parte della famiglia.
+
+**Ti ci rivedi in Marta?**
+
+Ci assomigliamo molto dal punto di vista della gestione dei sentimenti, anche se lei è più piccola di me e questo mi ha permesso di tornare ad alcune «prime volte» che ho vissuto. Siamo invece molto diverse dal punto di vista del combinare guai, io sono stata un'adolescente più tranquilla perché avevo fatto un patto con la mia famiglia.
+
+**Cioè?**
+
+Dovevo andare bene a scuola così potevo continuare a studiare recitazione. Fin da piccolissima mi sono innamorata di questo mondo e ho anche avuto la fortuna di iniziare a lavorare. Ho sempre studiato recitazione continuando ad andare a scuola, che veniva prima di tutto. Sono figlia unica e i miei genitori sono separati, vivono entrambi nelle Marche. Siamo una famiglia allargata a modo nostro.
+
+> *Completa le seguenti frasi. Scegli una delle quattro proposte di completamento che ti diamo per ogni frase. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 7 — punti 1 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. Valentina ha ottenuto il suo primo ruolo all'età di**
+
+A) sei anni.  
+B) sette anni.  
+C) otto anni.  
+D) diciannove anni.
+
+**2. Valentina considera il provino per il ruolo di Marta una catastrofe perché**
+
+A) non conosceva bene la serie.  
+B) era arrivata nel posto sbagliato.  
+C) aveva dimenticato l'orario.  
+D) non aveva preparato il personaggio.
+
+**3. Per prepararsi a interpretare Marta, Valentina**
+
+A) ha parlato con i fan di Eva e Marco.  
+B) ha studiato la vita delle famiglie americane.  
+C) ha chiesto consigli ai propri genitori.  
+D) ha rivisto le stagioni precedenti della serie.
+
+**4. Quando ha iniziato a lavorare sul set, Valentina**
+
+A) si è sentita subito accolta dal gruppo.  
+B) ha trovato un'atmosfera piena di tensione.  
+C) si è sentita a lungo «quella nuova».  
+D) ha preferito lavorare senza gli altri attori.
+
+**5. Valentina dice di essere simile a Marta soprattutto nel modo di**
+
+A) vivere con la propria famiglia.  
+B) affrontare gli impegni scolastici.  
+C) gestire i propri sentimenti.  
+D) combinare guai con gli amici.
+
+**6. Rispetto a Marta, durante l'adolescenza Valentina era**
+
+A) più giovane.  
+B) più tranquilla.  
+C) più indipendente.  
+D) più distratta.
+
+**7. Il patto di Valentina con la famiglia prevedeva che lei**
+
+A) iniziasse a lavorare prima di studiare recitazione.  
+B) lasciasse la scuola dopo aver ottenuto un ruolo.  
+C) studiasse recitazione soltanto durante le vacanze.  
+D) andasse bene a scuola per continuare a studiare recitazione.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### WIKI LOVES MONUMENTS ITALIA 2025 – REGOLAMENTO
+
+Wikimedia Italia organizza il concorso Wiki Loves Monuments Italia 2025.
+
+#### Art. 1 – Definizione del concorso
+
+Wiki Loves Monuments è un concorso fotografico che potenzia la visibilità dei monumenti e invita ciascuno a essere protagonista nel documentare, valorizzare e tutelare il patrimonio culturale.
+
+Il concorso italiano è strutturato in due livelli: il concorso nazionale e i concorsi regionali e locali, organizzati da volontari delegati da Wikimedia Italia.
+
+#### Art. 2 – Requisiti e modalità di partecipazione
+
+La partecipazione al concorso è gratuita e aperta a tutti, italiani o stranieri, previa registrazione sul sito Wikimedia Commons. Sono esclusi dall’assegnazione di premi i membri degli organi statutari di Wikimedia Italia, i dipendenti, i collaboratori retribuiti e i soggetti chiamati a formare le giurie.
+
+I partecipanti, all’atto della registrazione su Wikimedia Commons, dovranno specificare un proprio indirizzo e-mail valido, in modo da poter essere contattati privatamente da Wikimedia Italia. La mancata indicazione di un indirizzo e-mail valido comporta l’impossibilità di concorrere al premio.
+
+Tutti i partecipanti sono chiamati a rispettare le regole di comportamento vigenti presso i luoghi dove ha sede ogni singolo bene o monumento. Partecipare al concorso non implica possedere particolari privilegi nell’accesso alle sedi dei monumenti. Se vige il divieto di utilizzare il cavalletto o il flash, tale divieto va rispettato; se è richiesto il pagamento di un biglietto d’ingresso a un museo, sarà necessario acquistarlo.
+
+#### Art. 3 – Requisiti delle fotografie
+
+Le fotografie devono essere realizzate e caricate esclusivamente dal fotografo che partecipa al concorso. Devono essere caricate su Wikimedia Commons durante il mese di settembre con licenza Creative Commons Attribuzione Condividi allo stesso modo. Possono essere state scattate precedentemente, ma non devono essere già state pubblicate su Wikimedia Commons, su altri siti web, sui social network o su pubblicazioni cartacee prima dell’inizio del concorso.
+
+Le fotografie devono avere come soggetto un bene culturale o una vista di insieme scelti tra quelli presenti nelle liste pubblicate sulla webapp del concorso.
+
+> *Leggi le seguenti informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 7 — punti 0,5 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+1. Wikimedia Italia organizza il concorso Wiki Loves Monuments Italia 2025.  
+Vero ○ Falso ○
+
+2. Il concorso invita le persone a documentare e proteggere il patrimonio culturale.  
+Vero ○ Falso ○
+
+3. Il concorso italiano si svolge soltanto a livello nazionale.  
+Vero ○ Falso ○
+
+4. I concorsi regionali e locali sono organizzati da volontari delegati da Wikimedia Italia.  
+Vero ○ Falso ○
+
+5. La partecipazione è riservata ai cittadini italiani.  
+Vero ○ Falso ○
+
+6. Per partecipare è necessario registrarsi sul sito Wikimedia Commons.  
+Vero ○ Falso ○
+
+7. I dipendenti di Wikimedia Italia possono ricevere i premi del concorso.  
+Vero ○ Falso ○
+
+8. Per concorrere al premio bisogna indicare un indirizzo e-mail valido.  
+Vero ○ Falso ○
+
+9. Chi partecipa al concorso ha privilegi speciali per entrare nei monumenti.  
+Vero ○ Falso ○
+
+10. Se un museo richiede un biglietto d’ingresso, il partecipante deve acquistarlo.  
+Vero ○ Falso ○
+
+11. Una persona diversa dal fotografo può caricare le fotografie per lui.  
+Vero ○ Falso ○
+
+12. Le fotografie devono essere caricate su Wikimedia Commons nel mese di settembre.  
+Vero ○ Falso ○
+
+13. È possibile usare fotografie scattate prima del concorso, se non sono già state pubblicate.  
+Vero ○ Falso ○
+
+14. Le fotografie possono mostrare anche beni culturali assenti dalle liste della webapp del concorso.  
+Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi il testo. Il testo è diviso in 11 parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d'ordine accanto a ciascuna parte. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,6 per ogni legame ricostruito in modo consequenziale; punti 0 per ogni legame ricostruito in modo non consequenziale o omesso.*
+
+### Pisa in un giorno: il mio viaggio tra storia e sorprese
+
+| Ordine | Parte |
+|---|---|
+| **1** | **A.** Visitare Pisa è come aprire un libro di storia che profuma di mare, arte e leggenda. |
+| ☐ | **B.** Quel giorno il tempo a disposizione era poco, ma con una buona dose di curiosità e scarpe comode sono riuscita a scoprire tante meraviglie. |
+| ☐ | **C.** Oggi voglio raccontarti il mio viaggio a Pisa, vissuto in una sola giornata ma ricco di emozioni, scoperte e qualche sorpresa. |
+| ☐ | **D.** Fra questi quattro monumenti, la Torre Pendente è il simbolo indiscusso di Pisa: alta quasi 57 metri, pende di circa 5 gradi, una «imperfezione perfetta» famosa in tutto il mondo. |
+| ☐ | **E.** Come prima tappa, non si può iniziare un viaggio a Pisa senza passare dalla sua anima più famosa: la Piazza dei Miracoli. |
+| ☐ | **F.** Questa città toscana, conosciuta in tutto il mondo per la sua Torre Pendente, racchiude molto di più: scorci romantici lungo l’Arno e piazze maestose. |
+| ☐ | **G.** Invece io ho preferito ammirare la Torre dal basso, ma ti assicuro che è altrettanto emozionante. |
+| ☐ | **H.** Perciò, ecco il mio itinerario di un giorno a Pisa, perfetto se vuoi vivere la città a piedi, tra arte, cultura e sapori toscani. |
+| ☐ | **I.** Poi i miei cugini sono saliti fino in cima e mi hanno raccontato che la vista, da lassù, abbraccia tutta la città e arriva fino al mare. |
+| ☐ | **J.** A giugno ci sono stata durante un weekend in Toscana con i miei cugini e, naturalmente, non potevo non fare una deviazione verso la città della Torre Pendente. |
+| ☐ | **K.** Proprio questa piazza, Patrimonio UNESCO dal 1987, è un capolavoro di armonia e luce. Camminando sull’erba verdissima, ti ritrovi circondato da quattro monumenti. |
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 1 ora** · Numero delle prove: **4** · Punteggio totale: **punti 20**
+*(punteggio massimo grezzo 24, riportato a 20 mediante la proporzione 20 : 24 = x : punteggio ottenuto)*
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici e articolate: utilizza le preposizioni fra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,3 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### È VERO CHE LA LUNA CI INFLUENZA?
+
+A differenza *(di)* __di (0)__ alcuni organismi marini, che ne sono certamente influenzati, sembrerebbe non esistere alcun nesso tra __(1)__ Luna e __(2)__ nostro normale comportamento, nonostante quello che dicono __(3)__ astrologi.
+
+#### Luna e sonno
+
+Lo studio è stato fatto *(a)* __(4)__ Università di Basilea, *(in)* __(5)__ Svizzera, tenendo sotto controllo, in __(6)__ gruppo di volontari appisolati in __(7)__ stanza senza finestre, __(8)__ collegamenti delle cellule cerebrali, __(9)__ movimento *(di)* __(10)__ occhi e __(11)__ livello di ormoni prodotti.
+
+Risultato: in tempo di luna piena hanno dormito circa 20 minuti in meno *(di)* __(12)__ media, impiegandone 5 in più *(per)* __(13)__ addormentarsi; inoltre, la loro fase di sonno profondo è diminuita del 30% ed è calata anche la secrezione di melatonina, ormone che regola __(14)__ sonno e la veglia.
+
+Il motivo? Gli scienziati non hanno ancora una risposta, ma alcuni ipotizzano che potrebbe trattarsi di un’eredità dei nostri antenati: *(in)* __(15)__ notti di luna piena dovevano rimanere ben vigili, perché era più facile essere avvistati dai predatori.
+
+#### Le maree
+
+L’azione gravitazionale *(di)* __(16)__ Luna sulla Terra, combinata con la forza centrifuga dovuta *(a)* __(17)__ moto di rotazione *(di)* __(18)__ Terra intorno *(a)* __(19)__ centro di massa *(di)* __(20)__ sistema Terra-Luna, provoca il fenomeno delle maree.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,3 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### INTERVISTA A RAFFAELE ALAJMO
+
+Oggi Raffaele Alajmo *(raccontare)* __racconta (0)__ la sua visita al Noma.
+
+**Ha visto l’inchiesta?**
+
+Sì. Mentre *(leggere)* __(1)__ l’inchiesta, *(pensare)* __(2)__ che non fosse possibile. Oggi io *(conoscere)* __(3)__ René e *(stimare)* __(4)__ René tantissimo.
+
+**Conosce il Noma?**
+
+Finora sono stato al Noma una volta, ad agosto scorso. Mentre *(essere)* __(5)__ lì, René e io *(salutarsi)* __(6)__ all’inizio; a fine servizio io *(rimanere)* __(7)__ con il team. Mentre restavo, l’atmosfera *(essere)* __(8)__ serena e io *(vedere)* __(9)__ persone orgogliose. Mentre le osservavo, tutti *(lavorare)* __(10)__ con piacere.
+
+**Che cosa pensa degli abusi?**
+
+Finora René *(ammettere)* __(11)__ gli episodi e *(scusarsi)* __(12)__. Forse erano cose del passato. Fino a oggi, in quell’occasione, io non *(percepire)* __(13)__ tensioni.
+
+**Perché se ne parla adesso?**
+
+exec
+/bin/zsh -lc "sed -n '261,620p' /tmp/cils-blind-2026-07-18-B1/paper.md" in /tmp/cils-blind-2026-07-18-B1
+ succeeded in 0ms:
+
+Adesso tutti *(parlare)* __(14)__. Senza una denuncia, parlarne tanto non *(avere)* __(15)__ senso. Oggi queste storie *(contenere)* __(16)__ verità, ma io *(credere)* __(17)__ che ci siano esagerazioni.
+
+**Che cosa rappresenta il Noma?**
+
+In questi anni il Noma *(rappresentare)* __(18)__ un modello in armonia con l’ambiente. In questi anni, per me, il Noma *(essere)* __(19)__ un’opportunità per la Danimarca. In futuro *(rimanere)* __(20)__ un modello importante.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### RAINBOW LAKE – COLOR RUN 2026
+
+Domenica 19 luglio, all’interno del __(0)__ del Lake Sound Festival, arriva la prima __(1)__ di Rainbow Lake: una color run __(2)__ a tutti tra i magnifici __(3)__ dei Laghi Curiel.
+
+Il ritrovo dei partecipanti è alle ore 17:00 __(4)__ i Laghi Curiel, Casa Berselli, a Campogalliano. La partenza della Color Run è __(5)__ alle ore 18:30. Il __(6)__ è di circa 3,5 chilometri e __(7)__ tre punti colore lungo il __(8)__, con arrivo e festa finale al Lake Sound Festival.
+
+I partecipanti __(9)__ un percorso immerso nella natura, lancio di polveri colorate, musica e animazione, foto e video ricordo, __(10)__ all’area festival e un’atmosfera tra lago, tramonto e divertimento.
+
+La partecipazione è __(11)__. L’__(12)__ è obbligatoria per __(13)__ il proprio codice personale. Si consiglia di partecipare con una maglietta bianca per vivere al __(14)__ l’esperienza dei colori. L’evento è realizzato con il __(15)__ di AVIS.
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 0. | ~~fine settimana~~ | giorno festivo | mese estivo | periodo serale |
+| 1. | edizione | lezione | stagione | occasione |
+| 2. | riservata | aperta | vietata | chiusa |
+| 3. | orari | servizi | rumori | scenari |
+| 4. | presso | contro | senza | oltre |
+| 5. | vietata | nascosta | prevista | perduta |
+| 6. | concorso | percorso | spettacolo | incontro |
+| 7. | evita | controlla | abbandona | comprende |
+| 8. | parcheggio | festival | tragitto | palco |
+| 9. | troveranno | chiuderanno | perderanno | eviteranno |
+| 10. | ritorno | accesso | saluto | viaggio |
+| 11. | rumorosa | privata | breve | gratuita |
+| 12. | partenza | animazione | iscrizione | maglietta |
+| 13. | ricevere | perdere | cambiare | nascondere |
+| 14. | minimo | massimo | centro | limite |
+| 15. | rifiuto | dubbio | ritardo | supporto |
+
+## Analisi delle strutture di comunicazione — Prova n. 4
+
+> *Scegli per ogni espressione una delle quattro situazioni di comunicazione. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,6 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. Buongiorno, la contattiamo dal cinema Aurora. Dopo lo spettacolo di ieri abbiamo trovato un ombrello rosso vicino al suo posto. Può ritirarlo alla biglietteria entro venerdì, mostrando il biglietto della serata.**
+
+A. È un invito ad acquistare un biglietto per un nuovo spettacolo.
+B. È la conferma del ritrovamento di un oggetto con le istruzioni per recuperarlo.
+C. È una richiesta di descrivere un ombrello perso davanti al cinema.
+D. È l'avviso della chiusura della biglietteria fino a venerdì.
+
+**2. Gentile signora, nella domanda per il contributo manca la copia del documento d'identità. Per completare la pratica, la invii entro martedì tramite il sito del Comune; non è necessario presentarsi di persona.**
+
+A. È la comunicazione che una domanda è stata rifiutata definitivamente.
+B. È l'invito a ritirare un documento d'identità in Comune.
+C. È la richiesta di pagare online un contributo comunale.
+D. È la richiesta di aggiungere online un documento mancante a una pratica.
+
+**3. Ciao Serena, sabato dovrei lavorare dalle 14 alle 20, ma ho una visita medica. Potresti fare il mio turno? In cambio posso sostituirti lunedì mattina. Fammi sapere stasera, così avviso il responsabile.**
+
+A. È la richiesta a una collega di scambiare un turno di lavoro.
+B. È la comunicazione dell'annullamento di una visita medica.
+C. È l'offerta di accompagnare una collega dal medico.
+D. È il promemoria di una riunione con il responsabile.
+
+**4. Il laboratorio di ceramica di aprile non partirà perché non abbiamo raggiunto il numero minimo di iscritti. Può scegliere il corso di maggio oppure ricevere il rimborso completo. Ci comunichi la sua decisione entro domenica.**
+
+A. È l'annuncio di nuovi posti disponibili nel corso di aprile.
+B. È la richiesta di pagare la quota del laboratorio entro domenica.
+C. È la cancellazione di un corso con due soluzioni offerte agli iscritti.
+D. È la proposta di frequentare due corsi pagando una sola quota.
+
+**5. Avviso ai residenti: per un guasto, l'ascensore resterà fermo fino a domani pomeriggio. Chi aspetta consegne pesanti può lasciarle temporaneamente nel locale accanto all'ingresso, chiedendo la chiave al portiere.**
+
+A. È la segnalazione di un ascensore guasto con una soluzione temporanea per le consegne.
+B. È il divieto di lasciare pacchi nell'ingresso del palazzo.
+C. È la richiesta di aiutare il portiere a trasportare oggetti pesanti.
+D. È l'annuncio dell'installazione di un nuovo ascensore domani.
+
+**6. Salve, la torta ordinata per domani è pronta. Poiché il negozio chiuderà eccezionalmente alle 17, le chiediamo di passare entro quell'ora. Se non riesce, ci telefoni per concordare il ritiro sabato mattina.**
+
+A. È la richiesta di scegliere un altro tipo di torta.
+B. È la conferma di un ordine pronto con un cambiamento nell'orario di ritiro.
+C. È l'avviso che il negozio resterà chiuso anche sabato.
+D. È la proposta di consegnare gratuitamente una torta a domicilio.
+
+**7. Ricordiamo ai soci che il certificato medico di Marco scade il 30 giugno. Senza un nuovo certificato non potrà entrare in palestra da luglio. Il documento può essere caricato nell'area personale o consegnato in segreteria.**
+
+A. È l'annuncio della chiusura estiva della palestra a luglio.
+B. È la conferma dell'iscrizione di Marco a un corso sportivo.
+C. È il consiglio di prenotare una visita medica in segreteria.
+D. È il promemoria di rinnovare un documento necessario per accedere alla palestra.
+
+**8. Gentile ospite, una perdita d'acqua rende indisponibile la camera che aveva prenotato. Le proponiamo, senza costi aggiuntivi, una camera più grande nello stesso albergo. Risponda a questa e-mail entro le 18 per confermare.**
+
+A. È la richiesta di pagare un supplemento per una camera più grande.
+B. È la cancellazione di una prenotazione senza possibilità di sostituzione.
+C. È la proposta gratuita di una sistemazione alternativa a causa di un problema.
+D. È un reclamo per un danno provocato da un ospite.
+
+**9. A causa del caldo, questa settimana annaffieremo l'orto condiviso alle 7 invece che alle 10. I volontari del turno mattutino sono pregati di arrivare quindici minuti prima per preparare gli attrezzi.**
+
+A. È l'avviso di un anticipo dell'attività e dell'orario di arrivo dei volontari.
+B. È l'invito a coltivare nuovi ortaggi durante l'estate.
+C. È la cancellazione dei turni mattutini per il troppo caldo.
+D. È la richiesta di acquistare nuovi attrezzi per l'orto.
+
+**10. Grazie per avermi invitato alla festa di venerdì. Purtroppo quella sera sarò fuori città e non potrò venire. Mi farebbe però piacere offrirti un caffè domenica pomeriggio per festeggiare insieme.**
+
+A. È l'accettazione di un invito con la richiesta di cambiare luogo.
+B. È l'annuncio che una festa è stata spostata a domenica.
+C. È la richiesta di organizzare una festa fuori città.
+D. È il rifiuto di un invito accompagnato da una proposta per un altro giorno.
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 1 ora e 10 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 20**
+
+## Produzione scritta — Prova n. 1
+
+> *Descrivi uno spettacolo o un concerto al quale hai assistito o a cui ti piacerebbe assistere. Racconta dove si svolge, con chi vai, che cosa ti ha colpito o potrebbe colpirti e perché questa esperienza è importante per te.*
+> *Devi scrivere da 100 a 120 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Dovevi andare al cinema con un amico venerdì, ma non puoi più. Scrivigli un'email.*
+> *Nell'email devi:*
+> *- scusarti e spiegare perché non puoi andare;*
+> *- proporre un altro giorno e un orario;*
+> *- chiedere quale film preferisce vedere.*
+> *Devi scrivere da 50 a 80 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 20**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: scegli un argomento, prepara la risposta e parla ad alta voce rispettando la durata indicata, poi confrontati con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Interazione faccia a faccia. Conversa con l'esaminatore su uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Il mezzo di trasporto che usi più spesso: descrivi il tuo percorso abituale e spiega che cosa ti piace o non ti piace.
+
+**2.** Un'attività pratica che hai imparato di recente: racconta come hai cominciato, chi ti ha aiutato e quali difficoltà hai incontrato.
+
+**3.** Una giornata libera da organizzare con alcuni amici: proponi un programma, confronta diverse idee e spiega le tue preferenze.
+
+**4.** Fare acquisti nei negozi del quartiere oppure online: esprimi la tua opinione e parla dei vantaggi e degli svantaggi delle due possibilità.
+
+## Produzione orale — Prova n. 2
+
+> *Parlato faccia a faccia monodirezionale. Esponi uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Una persona che ti ha insegnato qualcosa di importante: descrivila e racconta che cosa hai imparato da lei.
+
+**2.** Una giornata senza telefono: spiega come la organizzeresti, quali attività faresti e quali difficoltà potresti avere.
+
+**3.** Un luogo della tua città o del tuo paese che consiglieresti a un visitatore: descrivilo e spiega perché vale la pena andarci.
+
+**4.** Una piccola decisione che ha migliorato una tua abitudine quotidiana: racconta perché l'hai presa e quali risultati hai ottenuto.
+
+---
+
+# Foglio delle risposte
+
+**Comprensione della lettura — Prova n. 1** *(annerisci una lettera per riga)*
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 1 | ○ | ○ | ○ | ○ |
+| 2 | ○ | ○ | ○ | ○ |
+| 3 | ○ | ○ | ○ | ○ |
+| 4 | ○ | ○ | ○ | ○ |
+| 5 | ○ | ○ | ○ | ○ |
+| 6 | ○ | ○ | ○ | ○ |
+| 7 | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 2** *(V = vero, F = falso)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| V | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| F | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 3** *(scrivi la lettera della parte per ogni posizione)*
+
+| Posizione | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Parte | A |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 1 e Prova n. 2** *(scrivi la risposta in STAMPATELLO)*
+
+| n. | Prova 1 | Prova 2 | n. | Prova 1 | Prova 2 |
+|---|---|---|---|---|---|
+| 1 |  |  | 11 |  |  |
+| 2 |  |  | 12 |  |  |
+| 3 |  |  | 13 |  |  |
+| 4 |  |  | 14 |  |  |
+| 5 |  |  | 15 |  |  |
+| 6 |  |  | 16 |  |  |
+| 7 |  |  | 17 |  |  |
+| 8 |  |  | 18 |  |  |
+| 9 |  |  | 19 |  |  |
+| 10 |  |  | 20 |  |  |
+
+**Analisi delle strutture — Prova n. 3** *(annerisci una lettera per riga)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 4**
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*
+
+codex
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "C", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "D", "confidence": "hi"},
+  "L1.4": {"answer": "A", "confidence": "hi"},
+  "L1.5": {"answer": "C", "confidence": "hi"},
+  "L1.6": {"answer": "B", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Vero", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-C-J-B-H-E-K-D-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "la", "confidence": "hi"},
+  "S1.2": {"answer": "il", "confidence": "hi"},
+  "S1.3": {"answer": "gli", "confidence": "hi"},
+  "S1.4": {"answer": "all'", "confidence": "hi"},
+  "S1.5": {"answer": "in", "confidence": "hi"},
+  "S1.6": {"answer": "un", "confidence": "hi"},
+  "S1.7": {"answer": "una", "confidence": "hi"},
+  "S1.8": {"answer": "i", "confidence": "hi"},
+  "S1.9": {"answer": "il", "confidence": "hi"},
+  "S1.10": {"answer": "degli", "confidence": "hi"},
+  "S1.11": {"answer": "il", "confidence": "hi"},
+  "S1.12": {"answer": "della", "confidence": "hi"},
+  "S1.13": {"answer": "per", "confidence": "hi"},
+  "S1.14": {"answer": "il", "confidence": "hi"},
+  "S1.15": {"answer": "nelle", "confidence": "hi"},
+  "S1.16": {"answer": "della", "confidence": "hi"},
+  "S1.17": {"answer": "al", "confidence": "hi"},
+  "S1.18": {"answer": "della", "confidence": "hi"},
+  "S1.19": {"answer": "al", "confidence": "hi"},
+  "S1.20": {"answer": "del", "confidence": "hi"},
+
+  "S2.1": {"answer": "leggevo", "confidence": "hi"},
+  "S2.2": {"answer": "pensavo", "confidence": "med"},
+  "S2.3": {"answer": "conosco", "confidence": "hi"},
+  "S2.4": {"answer": "stimo", "confidence": "hi"},
+  "S2.5": {"answer": "ero", "confidence": "hi"},
+  "S2.6": {"answer": "ci siamo salutati", "confidence": "hi"},
+  "S2.7": {"answer": "sono rimasto", "confidence": "hi"},
+  "S2.8": {"answer": "era", "confidence": "hi"},
+  "S2.9": {"answer": "vedevo", "confidence": "med"},
+  "S2.10": {"answer": "lavoravano", "confidence": "hi"},
+  "S2.11": {"answer": "ha ammesso", "confidence": "hi"},
+  "S2.12": {"answer": "si è scusato", "confidence": "hi"},
+  "S2.13": {"answer": "ho percepito", "confidence": "lo"},
+  "S2.14": {"answer": "parlano", "confidence": "hi"},
+  "S2.15": {"answer": "ha", "confidence": "med"},
+  "S2.16": {"answer": "contengono", "confidence": "hi"},
+  "S2.17": {"answer": "credo", "confidence": "hi"},
+  "S2.18": {"answer": "ha rappresentato", "confidence": "med"},
+  "S2.19": {"answer": "è stato", "confidence": "med"},
+  "S2.20": {"answer": "rimarrà", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "D", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"},
+  "S3.9": {"answer": "A", "confidence": "hi"},
+  "S3.10": {"answer": "B", "confidence": "hi"},
+  "S3.11": {"answer": "D", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "A", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "D", "confidence": "hi"},
+  "S4.3": {"answer": "A", "confidence": "hi"},
+  "S4.4": {"answer": "C", "confidence": "hi"},
+  "S4.5": {"answer": "A", "confidence": "hi"},
+  "S4.6": {"answer": "B", "confidence": "hi"},
+  "S4.7": {"answer": "D", "confidence": "hi"},
+  "S4.8": {"answer": "C", "confidence": "hi"},
+  "S4.9": {"answer": "A", "confidence": "hi"},
+  "S4.10": {"answer": "D", "confidence": "hi"}
+}
+```
+
+## FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.2",
+    "reason": "Sono grammaticali sia «pensavo» sia «ho pensato», secondo che il pensiero sia presentato come durativo o puntuale."
+  },
+  {
+    "item_id": "S2.9",
+    "reason": "Nel contesto sono possibili sia l'imperfetto «vedevo» sia il passato prossimo «ho visto»."
+  },
+  {
+    "item_id": "S2.13",
+    "reason": "«Fino a oggi» suggerisce «ho percepito», mentre «in quell'occasione» permette anche «percepivo»; inoltre i due riferimenti temporali risultano poco coerenti."
+  },
+  {
+    "item_id": "S2.15",
+    "reason": "Sono naturali sia «non ha senso» sia il condizionale «non avrebbe senso»."
+  },
+  {
+    "item_id": "S2.18",
+    "reason": "«In questi anni» consente sia «ha rappresentato» sia il presente «rappresenta» se la situazione continua."
+  },
+  {
+    "item_id": "S2.19",
+    "reason": "Sono semanticamente possibili sia «è stato» sia «è» se l'opportunità continua nel presente."
+  }
+]
+```
+
+## WRITING_CHECKS
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```
+tokens used
+18,988
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "C", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "D", "confidence": "hi"},
+  "L1.4": {"answer": "A", "confidence": "hi"},
+  "L1.5": {"answer": "C", "confidence": "hi"},
+  "L1.6": {"answer": "B", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Vero", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-C-J-B-H-E-K-D-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "la", "confidence": "hi"},
+  "S1.2": {"answer": "il", "confidence": "hi"},
+  "S1.3": {"answer": "gli", "confidence": "hi"},
+  "S1.4": {"answer": "all'", "confidence": "hi"},
+  "S1.5": {"answer": "in", "confidence": "hi"},
+  "S1.6": {"answer": "un", "confidence": "hi"},
+  "S1.7": {"answer": "una", "confidence": "hi"},
+  "S1.8": {"answer": "i", "confidence": "hi"},
+  "S1.9": {"answer": "il", "confidence": "hi"},
+  "S1.10": {"answer": "degli", "confidence": "hi"},
+  "S1.11": {"answer": "il", "confidence": "hi"},
+  "S1.12": {"answer": "della", "confidence": "hi"},
+  "S1.13": {"answer": "per", "confidence": "hi"},
+  "S1.14": {"answer": "il", "confidence": "hi"},
+  "S1.15": {"answer": "nelle", "confidence": "hi"},
+  "S1.16": {"answer": "della", "confidence": "hi"},
+  "S1.17": {"answer": "al", "confidence": "hi"},
+  "S1.18": {"answer": "della", "confidence": "hi"},
+  "S1.19": {"answer": "al", "confidence": "hi"},
+  "S1.20": {"answer": "del", "confidence": "hi"},
+
+  "S2.1": {"answer": "leggevo", "confidence": "hi"},
+  "S2.2": {"answer": "pensavo", "confidence": "med"},
+  "S2.3": {"answer": "conosco", "confidence": "hi"},
+  "S2.4": {"answer": "stimo", "confidence": "hi"},
+  "S2.5": {"answer": "ero", "confidence": "hi"},
+  "S2.6": {"answer": "ci siamo salutati", "confidence": "hi"},
+  "S2.7": {"answer": "sono rimasto", "confidence": "hi"},
+  "S2.8": {"answer": "era", "confidence": "hi"},
+  "S2.9": {"answer": "vedevo", "confidence": "med"},
+  "S2.10": {"answer": "lavoravano", "confidence": "hi"},
+  "S2.11": {"answer": "ha ammesso", "confidence": "hi"},
+  "S2.12": {"answer": "si è scusato", "confidence": "hi"},
+  "S2.13": {"answer": "ho percepito", "confidence": "lo"},
+  "S2.14": {"answer": "parlano", "confidence": "hi"},
+  "S2.15": {"answer": "ha", "confidence": "med"},
+  "S2.16": {"answer": "contengono", "confidence": "hi"},
+  "S2.17": {"answer": "credo", "confidence": "hi"},
+  "S2.18": {"answer": "ha rappresentato", "confidence": "med"},
+  "S2.19": {"answer": "è stato", "confidence": "med"},
+  "S2.20": {"answer": "rimarrà", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "D", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"},
+  "S3.9": {"answer": "A", "confidence": "hi"},
+  "S3.10": {"answer": "B", "confidence": "hi"},
+  "S3.11": {"answer": "D", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "A", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "D", "confidence": "hi"},
+  "S4.3": {"answer": "A", "confidence": "hi"},
+  "S4.4": {"answer": "C", "confidence": "hi"},
+  "S4.5": {"answer": "A", "confidence": "hi"},
+  "S4.6": {"answer": "B", "confidence": "hi"},
+  "S4.7": {"answer": "D", "confidence": "hi"},
+  "S4.8": {"answer": "C", "confidence": "hi"},
+  "S4.9": {"answer": "A", "confidence": "hi"},
+  "S4.10": {"answer": "D", "confidence": "hi"}
+}
+```
+
+## FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.2",
+    "reason": "Sono grammaticali sia «pensavo» sia «ho pensato», secondo che il pensiero sia presentato come durativo o puntuale."
+  },
+  {
+    "item_id": "S2.9",
+    "reason": "Nel contesto sono possibili sia l'imperfetto «vedevo» sia il passato prossimo «ho visto»."
+  },
+  {
+    "item_id": "S2.13",
+    "reason": "«Fino a oggi» suggerisce «ho percepito», mentre «in quell'occasione» permette anche «percepivo»; inoltre i due riferimenti temporali risultano poco coerenti."
+  },
+  {
+    "item_id": "S2.15",
+    "reason": "Sono naturali sia «non ha senso» sia il condizionale «non avrebbe senso»."
+  },
+  {
+    "item_id": "S2.18",
+    "reason": "«In questi anni» consente sia «ha rappresentato» sia il presente «rappresenta» se la situazione continua."
+  },
+  {
+    "item_id": "S2.19",
+    "reason": "Sono semanticamente possibili sia «è stato» sia «è» se l'opportunità continua nel presente."
+  }
+]
+```
+
+## WRITING_CHECKS
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```

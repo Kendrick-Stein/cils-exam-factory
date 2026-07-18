@@ -1,0 +1,132 @@
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "C", "confidence": "med"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "A", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "med"},
+
+  "S1.1": {"answer": "Il", "confidence": "hi"},
+  "S1.2": {"answer": "il", "confidence": "hi"},
+  "S1.3": {"answer": "i", "confidence": "hi"},
+  "S1.4": {"answer": "le", "confidence": "hi"},
+  "S1.5": {"answer": "il", "confidence": "hi"},
+  "S1.6": {"answer": "le", "confidence": "hi"},
+  "S1.7": {"answer": "le", "confidence": "hi"},
+  "S1.8": {"answer": "La", "confidence": "hi"},
+  "S1.9": {"answer": "la", "confidence": "hi"},
+  "S1.10": {"answer": "La", "confidence": "hi"},
+
+  "S2.1": {"answer": "ho partecipato", "confidence": "med"},
+  "S2.2": {"answer": "dovevo", "confidence": "med"},
+  "S2.3": {"answer": "parlare", "confidence": "hi"},
+  "S2.4": {"answer": "ha usato", "confidence": "med"},
+  "S2.5": {"answer": "ha registrato", "confidence": "med"},
+  "S2.6": {"answer": "ho dimenticato", "confidence": "med"},
+  "S2.7": {"answer": "ho cominciato", "confidence": "med"},
+  "S2.8": {"answer": "racconto", "confidence": "hi"},
+  "S2.9": {"answer": "è", "confidence": "hi"},
+  "S2.10": {"answer": "ho", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"}
+}
+```
+
+## FLAGS
+
+```json
+[
+  {
+    "item_id": "L3.1",
+    "reason": "Both C and E explicitly refer to the kitchen and give a grammatically possible price; the supplied text does not determine which price is correct."
+  },
+  {
+    "item_id": "L3.4",
+    "reason": "Both D and F explicitly refer to the sofa and give a grammatically possible price; the supplied text does not determine which price is correct."
+  },
+  {
+    "item_id": "S2.1",
+    "reason": "The prompt does not specify the required past tense; 'ho partecipato' and 'partecipai' are both grammatical."
+  },
+  {
+    "item_id": "S2.2",
+    "reason": "Both 'dovevo' and 'ho dovuto' are natural, with different but contextually possible aspectual meanings."
+  },
+  {
+    "item_id": "S2.4",
+    "reason": "The prompt does not exclude the grammatical alternative 'usò'."
+  },
+  {
+    "item_id": "S2.5",
+    "reason": "The prompt does not exclude the grammatical alternative 'registrò'."
+  },
+  {
+    "item_id": "S2.6",
+    "reason": "The prompt does not exclude the grammatical alternative 'dimenticai'."
+  },
+  {
+    "item_id": "S2.7",
+    "reason": "The prompt does not exclude the grammatical alternative 'cominciai'."
+  }
+]
+```
+
+## WRITING CHECKS
+
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "20-40"
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "15-30"
+  }
+]
+```
+
+## ORAL CHECKS
+
+```json
+[
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa"
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2 minuti circa"
+  }
+]
+```

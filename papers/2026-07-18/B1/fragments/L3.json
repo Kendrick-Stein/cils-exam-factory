@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Visitare Pisa è come aprire un libro di storia che profuma di mare, arte e leggenda.",
+    "T3_PART_B": "Quel giorno il tempo a disposizione era poco, ma con una buona dose di curiosità e scarpe comode sono riuscita a scoprire tante meraviglie.",
+    "T3_PART_C": "Oggi voglio raccontarti il mio viaggio a Pisa, vissuto in una sola giornata ma ricco di emozioni, scoperte e qualche sorpresa.",
+    "T3_PART_D": "Fra questi quattro monumenti, la Torre Pendente è il simbolo indiscusso di Pisa: alta quasi 57 metri, pende di circa 5 gradi, una «imperfezione perfetta» famosa in tutto il mondo.",
+    "T3_PART_E": "Come prima tappa, non si può iniziare un viaggio a Pisa senza passare dalla sua anima più famosa: la Piazza dei Miracoli.",
+    "T3_PART_F": "Questa città toscana, conosciuta in tutto il mondo per la sua Torre Pendente, racchiude molto di più: scorci romantici lungo l’Arno e piazze maestose.",
+    "T3_PART_G": "Invece io ho preferito ammirare la Torre dal basso, ma ti assicuro che è altrettanto emozionante.",
+    "T3_PART_H": "Perciò, ecco il mio itinerario di un giorno a Pisa, perfetto se vuoi vivere la città a piedi, tra arte, cultura e sapori toscani.",
+    "T3_PART_I": "Poi i miei cugini sono saliti fino in cima e mi hanno raccontato che la vista, da lassù, abbraccia tutta la città e arriva fino al mare.",
+    "T3_PART_J": "A giugno ci sono stata durante un weekend in Toscana con i miei cugini e, naturalmente, non potevo non fare una deviazione verso la città della Torre Pendente.",
+    "T3_PART_K": "Proprio questa piazza, Patrimonio UNESCO dal 1987, è un capolavoro di armonia e luce. Camminando sull’erba verdissima, ti ritrovi circondato da quattro monumenti.",
+    "T3_TITLE": "Pisa in un giorno: il mio viaggio tra storia e sorprese"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Inizio dato: introduce Pisa come meta del racconto. |\n| 2 | F | «Questa città toscana» riprende direttamente Pisa. |\n| 3 | C | «Oggi voglio raccontarti» annuncia il diario dopo la presentazione della città. |\n| 4 | J | «A giugno» precisa quando è avvenuto il viaggio appena annunciato. |\n| 5 | B | «Quel giorno» riprende la giornata del viaggio e ne indica il limite di tempo. |\n| 6 | H | «Perciò» collega il poco tempo alla scelta di un itinerario di un giorno. |\n| 7 | E | «Come prima tappa» apre la visita descritta nell’itinerario. |\n| 8 | K | «Proprio questa piazza» riprende unicamente la Piazza dei Miracoli. |\n| 9 | D | «Fra questi quattro monumenti» rimanda ai quattro monumenti appena nominati. |\n| 10 | I | «Poi» introduce ciò che fanno i cugini dopo aver visto la Torre. |\n| 11 | G | «Invece io» contrappone la scelta della narratrice a quella dei cugini. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "scorci romantici",
+      "categoria": "locuzione nominale",
+      "zh": "浪漫景色",
+      "en": "romantic views",
+      "esempio": "scorci romantici lungo l’Arno"
+    },
+    {
+      "parola": "deviazione",
+      "categoria": "nome femminile",
+      "zh": "绕行；顺道改变路线",
+      "en": "detour",
+      "esempio": "fare una deviazione verso la città della Torre Pendente"
+    },
+    {
+      "parola": "tappa",
+      "categoria": "nome femminile",
+      "zh": "行程中的一站",
+      "en": "stop",
+      "esempio": "Come prima tappa"
+    },
+    {
+      "parola": "capolavoro",
+      "categoria": "nome maschile",
+      "zh": "杰作",
+      "en": "masterpiece",
+      "esempio": "è un capolavoro di armonia e luce"
+    },
+    {
+      "parola": "fino in cima",
+      "categoria": "locuzione avverbiale",
+      "zh": "一直到顶端",
+      "en": "all the way to the top",
+      "esempio": "sono saliti fino in cima"
+    }
+  ]
+}

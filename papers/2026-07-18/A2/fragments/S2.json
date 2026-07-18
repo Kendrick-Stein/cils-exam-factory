@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "UN'INFERMIERA SALVA UN BAMBINO",
+    "S2_TEXT_WITH_GAPS": "Serena Opipari *(essere)* __è (0)__ infermiera al Sant’Orsola di Bologna. «Nel mio lavoro, ogni giorno *(aiutare)* __(1)__ persone in difficoltà. Ieri sera, mentre *(riposarsi)* __(2)__ sulla spiaggia, *(sentire)* __(3)__ qualcuno che da alcuni minuti *(chiedere)* __(4)__ aiuto vicino all’acqua. Sempre ieri sera *(precipitarsi)* __(5)__ subito verso il bambino e *(capire)* __(6)__ che la situazione era grave. Poco dopo, ancora ieri sera, *(iniziare)* __(7)__ le manovre di rianimazione; mentre le *(fare)* __(8)__, il bambino ha ripreso a respirare». Il bambino di quattro anni ora *(essere)* __(9)__ in osservazione al Sant’Orsola. «Sono sicura che domani *(stare)* __(10)__ meglio», dice Serena."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | aiuto | presente | 6 | ho capito | passato prossimo |\n| 2 | mi riposavo | imperfetto | 7 | ho iniziato | passato prossimo |\n| 3 | ho sentito | passato prossimo | 8 | facevo | imperfetto |\n| 4 | chiedeva | imperfetto | 9 | è | presente |\n| 5 | mi sono precipitata | passato prossimo | 10 | starà | futuro semplice |",
+    "ANS_S2_NOTES": "*Nota:* «Nel mio lavoro, ogni giorno» descrive un’abitudine professionale attuale; «ieri sera», ripetuto nelle tre fasi del soccorso, fissa il passato prossimo; «mentre» e «da alcuni minuti» presentano azioni in corso e richiedono l’imperfetto; «ora» descrive lo stato attuale del bambino e «domani», con «sono sicura», introduce una previsione futura. 中文提示：第2、5题的反身代词和第3、5、6、7题的助动词都必须写在空格里。"
+  },
+  "key": {
+    "S2.1": "aiuto",
+    "S2.2": "mi riposavo",
+    "S2.3": "ho sentito",
+    "S2.4": "chiedeva",
+    "S2.5": "mi sono precipitata",
+    "S2.6": "ho capito",
+    "S2.7": "ho iniziato",
+    "S2.8": "facevo",
+    "S2.9": "è",
+    "S2.10": "starà"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in difficoltà",
+      "categoria": "locuzione avverbiale",
+      "zh": "处于困难中",
+      "en": "in difficulty",
+      "esempio": "Nel mio lavoro, ogni giorno aiuto persone in difficoltà."
+    },
+    {
+      "parola": "vicino all’acqua",
+      "categoria": "locuzione avverbiale",
+      "zh": "靠近水边",
+      "en": "near the water",
+      "esempio": "Ieri sera, mentre mi riposavo sulla spiaggia, ho sentito qualcuno che da alcuni minuti chiedeva aiuto vicino all’acqua."
+    },
+    {
+      "parola": "precipitarsi",
+      "categoria": "verbo pronominale",
+      "zh": "急忙赶去",
+      "en": "to rush",
+      "esempio": "Sempre ieri sera mi sono precipitata subito verso il bambino e ho capito che la situazione era grave."
+    },
+    {
+      "parola": "rianimazione",
+      "categoria": "nome femminile",
+      "zh": "复苏；急救",
+      "en": "resuscitation",
+      "esempio": "Poco dopo, ancora ieri sera, ho iniziato le manovre di rianimazione; mentre le facevo, il bambino ha ripreso a respirare."
+    },
+    {
+      "parola": "in osservazione",
+      "categoria": "locuzione avverbiale",
+      "zh": "留院观察",
+      "en": "under observation",
+      "esempio": "Il bambino di quattro anni ora è in osservazione al Sant’Orsola."
+    }
+  ]
+}

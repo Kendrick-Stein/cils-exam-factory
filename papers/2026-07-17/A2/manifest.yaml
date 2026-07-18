@@ -1,0 +1,169 @@
+exam: cils
+level: A2
+session: '2026-07-17'
+title: CILS A2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/umbria/notizie/2026/07/14/pop-music-festival-perugia-dal-21-al-23-luglio_e9f8486f-6155-4d2c-bfe9-90e195a67738.html
+  title: Pop Music Festival Perugia dal 21 al 23 luglio
+  publisher: ANSA
+  published: 14/07/2026
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 215
+- id: T2
+  url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=694513521c18a7009c4fd8db
+  title: Scadenza carta d’identità cartacea
+  publisher: Comune di Bologna
+  published: n.d. (avviso con scadenza 03/08/2026)
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 174
+- id: T3a
+  url: https://www.trenitalia.com/it/offerte/freccia-2x1.html
+  title: 'Freccia 2X1: viaggi in 2 al prezzo di 1'
+  publisher: Trenitalia
+  published: n.d. (offerta valida fino al 15/09/2026)
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 9
+- id: T3b
+  url: https://www.uffizi.it/eventi/apriti-cinema-2026
+  title: Apriti Cinema 2026
+  publisher: Gallerie degli Uffizi
+  published: n.d. (evento dal 15/06/2026 al 26/07/2026)
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 13
+- id: T3c
+  url: https://direzionemuseiroma.cultura.gov.it/domenicalmuseo-5-luglio/
+  title: '#domenicalmuseo – 5 luglio'
+  publisher: Direzione Musei nazionali della città di Roma
+  published: 02/07/2026
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 13
+- id: T3d
+  url: https://cultura.gov.it/evento/luglio-2026-al-museo-nazionale-archeologia-del-mare-di-caorle
+  title: Luglio 2026 al Museo nazionale di archeologia del Mare di Caorle
+  publisher: Ministero della Cultura
+  published: 07/07/2026
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 11
+- id: T3e
+  url: https://www.italia.it/it/friuli-venezia-giulia/udine/cosa-fare/evento-sauriis-in-festa
+  title: Sauris in festa 2026 – Festa del prosciutto
+  publisher: Italia.it
+  published: n.d. (evento dall'11/07/2026 al 19/07/2026)
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 10
+- id: T3f
+  url: https://www.comune.firenze.it/servizi/anagrafe-e-stato-civile/accesso-civico-semplice
+  title: Accesso civico semplice
+  publisher: Città di Firenze
+  published: 18/06/2025 (ultimo aggiornamento)
+  accessed: '2026-07-18'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 8
+- id: T4
+  url: https://ricette.giallozafferano.it/Insalata-di-bulgur-vegana.html
+  title: Insalata di bulgur vegana
+  publisher: GialloZafferano
+  published: n.d.
+  accessed: '2026-07-18'
+  used_in: Analisi delle strutture, Prova n. 1
+  adapted: true
+  words_used: 83
+- id: T5
+  url: https://www.rainews.it/video/2026/01/briani-soltero-musica-leonardo-de-andreis-rainews-tormentone-40-milioni-visualizzazioni-web-social-genz--179cf372-4070-490b-ade6-73b43999ccaf.html
+  title: 'Fenomeno inconsapevole, chi è Leonardo de Andreis: la sua hit “Soltero”
+    è virale'
+  publisher: RaiNews.it
+  published: 07/01/2026
+  accessed: '2026-07-18'
+  used_in: Analisi delle strutture, Prova n. 2
+  adapted: true
+  words_used: 94
+- id: T6
+  url: https://www.trenitalia.com/it/servizi/stow-your-bags.html
+  title: Stow Your Bags
+  publisher: Trenitalia
+  published: n.d.
+  accessed: '2026-07-18'
+  used_in: Analisi delle strutture, Prova n. 3
+  adapted: true
+  words_used: 97
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-17'
+    executor: codex background task (corpus-hunter)
+    result: 11 source entries, all slots covered
+  - stage: authoring
+    at: '2026-07-17'
+    executor: codex background tasks, one per prova (tiered effort) + local assemble_paper.py
+    result: all fragments assembled; format pre-audit pass
+  - stage: blind_validation
+    at: '2026-07-17T16:35:20+00:00'
+    agreement: 45/46
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-17T16:45:20+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-17'
+    round: 1
+    fixed_items: S2 re-cut onto tense-unique targets (S2.2 + rescan)
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:46:06+00:00'
+    result: fail
+    issues: 3
+  - stage: blind_validation
+    at: '2026-07-17T16:53:35+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-17T16:54:23+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

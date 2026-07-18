@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "UN ANNO PER LA FAMIGLIA DOPO LA TELEVISIONE",
+    "T1_TEXT": "Michael Di Liberto, campione del programma televisivo Reazione a Catena, oggi è sposato con Daniela e ha tre figli. Nel corso di un'intervista, ha ripercorso gli anni trascorsi lontano dal piccolo schermo e i cambiamenti avvenuti nella sua vita dopo le prime apparizioni televisive. Il figlio maggiore, Giovanni, ha undici anni; Nicole ne ha otto, mentre Giada, la più piccola, è nata un anno fa. Dopo aver perso il lavoro a causa della sua partecipazione al programma, si è concesso un anno sabbatico da dedicare alla famiglia. In seguito ha trovato una nuova occupazione e ora gestisce il reparto riparazioni di un'azienda di antenne a Monza. Non ha avuto difficoltà a trovare questa nuova occupazione, e il suo attuale responsabile è orgoglioso sia del suo lavoro sia delle precedenti esperienze in televisione.\n\nMichael torna a Reazione a Catena insieme a Marco Burato e Francesco Nonnis, i suoi compagni dei Tre di Denari. La squadra partecipa a un torneo che assegna il titolo di «Campioni fra i campioni». La nuova puntata va in onda mercoledì 10 giugno e il programma è condotto da Pino Insegno. Per Michael è anche l'occasione di rientrare in uno studio televisivo dal quale mancava da molti anni.\n\nLe prime partecipazioni, nel 2016 e nel 2017, hanno cambiato la sua vita. Quell'esperienza rappresentò un vero punto di svolta per tutti e tre i concorrenti. Allora i tre uomini lavoravano nella stessa azienda. Il datore di lavoro li aveva avvertiti: se fossero andati in televisione, li avrebbe licenziati. Dopo aver riflettuto a lungo, decisero comunque di partecipare. Vinsero 420 mila euro e Michael usò una parte del premio per sposarsi e comprare una piccola casa al mare.\n\nUna volta rimasto senza lavoro, Michael scelse di non cercarne subito un altro. Poteva contare sui risparmi messi da parte e preferì trascorrere un anno con la moglie e i figli, perché per lui essere presente nella loro vita è fondamentale. Michael ha spiegato che la scelta fu possibile grazie a un piccolo gruzzolo che aveva accumulato prima del licenziamento. Solo dopo quel periodo trovò l'impiego che svolge oggi.\n\nMichael conserva anche due sogni: riaprire un giorno la sua scuola di ballo e partecipare a Pechino Express con Marco e Francesco. In realtà la chiamata era arrivata a Francesco, che informò gli amici della possibilità di un torneo per celebrare i vent'anni del programma. Quando Francesco gli ha comunicato la possibilità di tornare a Reazione a Catena per il torneo dei vent'anni, Michael si è sentito entusiasta. Michael non vedeva l'ora di rientrare dopo una così lunga assenza e attese con impazienza che il progetto diventasse concreto. Pensava che prima o poi li avrebbero richiamati, perché in quello studio avevano vinto diversi tornei.",
+    "L1_ITEMS": "**1. Dopo il licenziamento, per un anno Michael**\n\nA) cercò subito un altro impiego.\nB) rimase con la sua famiglia.\nC) riaprì la scuola di ballo.\nD) lavorò con la moglie.\n\n**2. Michael torna in televisione per**\n\nA) presentare un nuovo programma.\nB) descrivere la sua azienda.\nC) partecipare a un torneo.\nD) festeggiare un compagno.\n\n**3. Il datore di lavoro dei tre concorrenti**\n\nA) promise loro un premio.\nB) li accompagnò in televisione.\nC) concesse loro una vacanza.\nD) minacciò di licenziarli.\n\n**4. Nonostante l'avvertimento, i tre**\n\nA) accettarono il rischio.\nB) ottennero il permesso.\nC) lasciarono prima l'azienda.\nD) cercarono un lavoro televisivo.\n\n**5. Con il denaro vinto, Michael poté**\n\nA) aprire un'azienda di antenne.\nB) trasferirsi con la famiglia.\nC) sposarsi e comprare una casa.\nD) finanziare il nuovo torneo.\n\n**6. Michael rimandò la ricerca di lavoro perché**\n\nA) preparava un altro torneo.\nB) aveva risparmi e voleva stare con i figli.\nC) aspettava il vecchio capo.\nD) doveva riparare la casa.\n\n**7. Michael prevedeva il ritorno della squadra perché**\n\nA) Francesco lavorava nel programma.\nB) il torneo era nella loro città.\nC) il capo aveva chiamato lo studio.\nD) avevano già vinto vari tornei."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice che «si è concesso un anno sabbatico da dedicare alla famiglia». 中文：先陪伴家人，之后才找到新工作。 |\n| L1.2 | C | La squadra «partecipa a un torneo che assegna il titolo di “Campioni fra i campioni”». |\n| L1.3 | D | Il datore di lavoro «li aveva avvertiti: se fossero andati in televisione, li avrebbe licenziati». |\n| L1.4 | A | «Dopo aver riflettuto a lungo, decisero comunque di partecipare»: accettarono consapevolmente il rischio. 中文：“comunque”表明他们并未获得老板许可。 |\n| L1.5 | C | Michael «usò una parte del premio per sposarsi e comprare una piccola casa al mare». |\n| L1.6 | B | «Poteva contare sui risparmi messi da parte» e preferì trascorrere un anno con la famiglia. 中文：储蓄使他可以暂缓找工作。 |\n| L1.7 | D | Pensava che li avrebbero richiamati «perché in quello studio avevano vinto diversi tornei». |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "D",
+    "L1.4": "A",
+    "L1.5": "C",
+    "L1.6": "B",
+    "L1.7": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "anno sabbatico",
+      "categoria": "locuzione nominale",
+      "zh": "休假年",
+      "en": "sabbatical year",
+      "esempio": "si è concesso un anno sabbatico da dedicare alla famiglia"
+    },
+    {
+      "parola": "reparto riparazioni",
+      "categoria": "locuzione nominale",
+      "zh": "维修部门",
+      "en": "repairs department",
+      "esempio": "gestisce il reparto riparazioni di un'azienda di antenne a Monza"
+    },
+    {
+      "parola": "datore di lavoro",
+      "categoria": "locuzione nominale",
+      "zh": "雇主",
+      "en": "employer",
+      "esempio": "Il datore di lavoro li aveva avvertiti"
+    },
+    {
+      "parola": "messi da parte",
+      "categoria": "locuzione verbale",
+      "zh": "积攒下来的",
+      "en": "saved up",
+      "esempio": "Poteva contare sui risparmi messi da parte"
+    },
+    {
+      "parola": "prima o poi",
+      "categoria": "locuzione avverbiale",
+      "zh": "迟早",
+      "en": "sooner or later",
+      "esempio": "prima o poi li avrebbero richiamati"
+    }
+  ]
+}

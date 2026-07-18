@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Secondo il nuovo modello, un crollo della popolazione mondiale entro il 2064 potrebbe avvenire se**\n\nA) la crescita industriale tornasse ai livelli del passato.\nB) la crisi ambientale diventasse più grave.\nC) le risorse del pianeta aumentassero rapidamente.\nD) i modelli demografici tradizionali fossero abbandonati.\n\n**2. L'equazione di Trachenko-Zaccone è stata proposta per**\n\nA) calcolare le risorse disponibili in ogni paese.\nB) confrontare le università che studiano la demografia.\nC) ricostruire soltanto la crescita dell'era industriale.\nD) descrivere la crescita demografica e ipotizzare possibili collassi.\n\n**3. Prima di essere applicato alla demografia, il nuovo modello era stato elaborato nell'ambito**\n\nA) della fisica dei sistemi disordinati.\nB) della storia delle società neolitiche.\nC) dell'economia delle risorse naturali.\nD) della medicina delle popolazioni.\n\n**4. Science X Dialog è una piattaforma che permette ai ricercatori di**\n\nA) raccogliere dati demografici di epoche diverse.\nB) verificare le equazioni elaborate dai colleghi.\nC) condividere i risultati delle proprie ricerche.\nD) prevedere le conseguenze delle crisi ambientali.\n\n**5. La differenza tra i modelli di Malthus e di Verhulst riguarda soprattutto**\n\nA) il periodo storico preso in considerazione.\nB) la rapidità della crescita industriale.\nC) il numero di popolazioni osservate.\nD) la disponibilità delle risorse nell'ambiente.\n\n**6. Applicato ai dati di diverse epoche, il modello ha riprodotto**\n\nA) soltanto le fasi di crescita più rapida.\nB) sia l'espansione industriale sia il rallentamento successivo.\nC) esclusivamente la crescita registrata dopo il 1970.\nD) una diminuzione costante dall'era industriale a oggi.\n\n**7. Il possibile dimezzamento dell'umanità entro il 2064 viene presentato come**\n\nA) una previsione certa basata sui dati attuali.\nB) una conseguenza inevitabile della scarsità di risorse.\nC) uno scenario illustrativo legato a cambiamenti improvvisi.\nD) un risultato già osservato in precedenti crisi globali.",
+    "T1_TEXT": "Pensato per la fisica teorica, ha mostrato cosa potrebbe accadere in termini demografici se la crisi ambientale si intensificasse.\n\nSe la crisi ambientale si intensificherà, la popolazione mondiale potrebbe subire un crollo entro il 2064. A prevederlo è un nuovo modello matematico appena proposto da Alessio Zaccone, fisico teorico dell'Università degli studi di Milano, insieme al collega Kostya Trachenko, della Queen Mary University of London.\n\nNel loro studio, pubblicato sulla rivista Chaos, Solitons & Fractals, infatti, i due esperti hanno proposto un'equazione differenziale non lineare, chiamata equazione di Trachenko-Zaccone, per modellare la crescita della popolazione mondiale dal Neolitico ad oggi, riuscendo inoltre a prevedere ipotetici scenari di collasso demografico globale qualora si arrivi all'esaurimento delle risorse del pianeta.\n\nOriginariamente elaborato in un contesto diverso, ossia la fisica dei sistemi disordinati, il nuovo modello matematico è riuscito da solo a spiegare 12 mila anni di dinamiche demografiche globali, includendo e unificando i principali modelli di crescita della popolazione globale chiamati in gergo tecnico esponenziale, logistica, dilatata e compressa.\n\n“Propongo un'equazione matematica non lineare sorprendentemente semplice che unisce 12 mila anni di crescita della popolazione umana e indica scenari futuri drammatici qualora le crisi ambientali globali si intensificassero”, ha raccontato Zaccone su Science X Dialog, una piattaforma in cui i ricercatori possono condividere i risultati delle loro ricerche.\n\nIn particolare, il modello matematico include le principali teorie demografiche formulate negli ultimi secoli, ossia il modello di crescita esponenziale di Malthus, che descrive l'evoluzione di una popolazione isolata in un ambiente con risorse illimitate, e il modello di Verhulst (o equazione logistica) che descrive la crescita di una popolazione quando le risorse sono limitate (capacità portante). E, infine, la crescita iperbolica di von Foerster.\n\n“Il modello matematico riprende anche una delle previsioni più famose della demografia: lo scenario apocalittico proposto nel 1960 da Heinz von Foerster e colleghi, i quali estrapolarono matematicamente che la popolazione mondiale sarebbe deviata verso l'infinito intorno al 2026”, ha aggiunto l'esperto.\n\nPer verificare la teoria, i due esperti hanno applicato il loro modello matematico con i dati sulla popolazione relativi a diverse epoche storiche, scoprendo che questo riproduceva con successo sia le fasi di crescita \"esponenziale\", come la rapida espansione dell'era industriale, sia il regime più lento di crescita \"esponenziale dilatata\" che ha caratterizzato la crescita della popolazione globale a partire dal 1970 circa.\n\n“La parte più provocatoria del nostro articolo esplora scenari futuri ipotetici”, ha commentato l'esperto. Con il loro nuovo modello matematico, infatti, hanno simulato cosa potrebbe accadere se gravi crisi ambientali imponessero improvvisamente severi limiti alla capacità di carico della Terra, attraverso il collasso climatico, pandemie, conflitti o scarsità di risorse.\n\nIl modello, nel caso peggiore, “prevede un rapido declino della popolazione mondiale, con un potenziale dimezzamento dell'umanità entro il 2064 circa”, ha spiegato Zaccone, sottolineando tuttavia che non si tratta di una previsione, bensì di uno scenario matematico illustrativo, “volto a mostrare quanto le dinamiche demografiche possano essere sensibili a bruschi cambiamenti ambientali o sociali”, ha concluso l'esperto.",
+    "T1_TITLE": "UN MODELLO MATEMATICO PER LA POPOLAZIONE MONDIALE"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo afferma che il crollo potrebbe verificarsi \"se la crisi ambientale si intensificherà\". 中文：这是条件情景，不是无条件预测。 |\n| L1.2 | D | L'equazione serve a \"modellare la crescita della popolazione mondiale dal Neolitico ad oggi\" e a esplorare scenari ipotetici. |\n| L1.3 | A | Il modello, nato nella \"fisica dei sistemi disordinati\", ha unificato i principali modelli di crescita demografica. |\n| L1.4 | C | Science X Dialog è definita \"una piattaforma in cui i ricercatori possono condividere i risultati delle loro ricerche\". |\n| L1.5 | D | Malthus considera \"risorse illimitate\", mentre Verhulst descrive la crescita quando \"le risorse sono limitate\". 中文：两种模型的关键区别是资源条件。 |\n| L1.6 | B | Con i dati storici il modello ha riprodotto sia la rapida espansione industriale sia il regime più lento iniziato \"a partire dal 1970 circa\". |\n| L1.7 | C | Zaccone precisa che il dimezzamento non è una previsione, ma \"uno scenario matematico illustrativo\" sulla sensibilità ai cambiamenti. 中文：结论是示范性情景，不是确定预言。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "D",
+    "L1.3": "A",
+    "L1.4": "C",
+    "L1.5": "D",
+    "L1.6": "B",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "collasso demografico globale",
+      "categoria": "locuzione nominale",
+      "zh": "全球人口崩塌",
+      "en": "global demographic collapse",
+      "esempio": "ipotetici scenari di collasso demografico globale"
+    },
+    {
+      "parola": "sistemi disordinati",
+      "categoria": "locuzione nominale",
+      "zh": "无序系统",
+      "en": "disordered systems",
+      "esempio": "la fisica dei sistemi disordinati"
+    },
+    {
+      "parola": "capacità portante",
+      "categoria": "locuzione nominale",
+      "zh": "环境承载力",
+      "en": "carrying capacity",
+      "esempio": "le risorse sono limitate (capacità portante)"
+    },
+    {
+      "parola": "regime più lento",
+      "categoria": "locuzione nominale",
+      "zh": "较缓慢的阶段",
+      "en": "slower regime",
+      "esempio": "il regime più lento di crescita"
+    },
+    {
+      "parola": "scarsità di risorse",
+      "categoria": "locuzione nominale",
+      "zh": "资源匮乏",
+      "en": "resource scarcity",
+      "esempio": "conflitti o scarsità di risorse"
+    }
+  ]
+}

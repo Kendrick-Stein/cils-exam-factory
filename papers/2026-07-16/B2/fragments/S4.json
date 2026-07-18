@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Gentile utente, a causa di un intervento all’impianto elettrico, la sala studio che aveva prenotato domani non sarà accessibile. La sua prenotazione è stata trasferita alla sala Manzoni, allo stesso orario. Non occorre confermare.**\n\nA) È un avviso della biblioteca sul cambio della sala prenotata.\nB) È un invito a partecipare all’inaugurazione di una sala studio.\nC) È un reclamo di un lettore per la chiusura della biblioteca.\nD) È una richiesta di conferma per annullare una prenotazione.\n\n**2. Sono le 17.30. Sulla provinciale 46, tra Borgonuovo e il bivio per Montelago, la circolazione è interrotta per la caduta di un albero. Chi viaggia verso nord deve seguire la deviazione indicata. Riapertura prevista alle 19.**\n\nA) È la pubblicità radiofonica di una nuova strada panoramica.\nB) È un aggiornamento radiofonico sulla viabilità locale.\nC) È il resoconto di un incidente avvenuto il giorno precedente.\nD) È un comunicato ferroviario relativo a un ritardo serale.\n\n**3. Abbiamo verificato la sua segnalazione: il pacco è ancora fermo nel centro di smistamento. La consegna avverrà entro venerdì. Per scusarci del ritardo, rimborseremo automaticamente le spese di spedizione sul metodo di pagamento utilizzato.**\n\nA) È la conferma che un cliente ha restituito un acquisto.\nB) È una richiesta al cliente di scegliere un nuovo corriere.\nC) È la risposta dell’assistenza su una consegna in ritardo.\nD) È l’annuncio dell’apertura di un centro di smistamento.\n\n**4. Ciao Marta, il corriere ha lasciato da me il tuo pacco perché non eri in casa. Passa pure dopo le sei, ma prima delle nove: poi esco. Se arrivi e il portone è chiuso, citofona al 7.**\n\nA) È una comunicazione del corriere sull’orario di consegna.\nB) È la richiesta di una cliente per cambiare un indirizzo.\nC) È un avviso condominiale sull’uso del citofono.\nD) È un messaggio di una vicina che ha ritirato un pacco.\n\n**5. Sabato 25 luglio il Museo del Mare apre eccezionalmente fino a mezzanotte. Ogni ora partirà una visita guidata alle collezioni normalmente chiuse al pubblico. I posti sono limitati: prenotazione gratuita obbligatoria entro giovedì sul sito del museo.**\n\nA) È la recensione di una mostra visitata durante la notte.\nB) È l’annuncio di un’apertura serale con visite su prenotazione.\nC) È una richiesta di volontari per catalogare una collezione.\nD) È un avviso sulla chiusura temporanea di alcune sale.\n\n**6. Vendo bicicletta pieghevole da città, acquistata due anni fa e usata poche volte. Ha sei marce, luci nuove e portapacchi; si chiude facilmente e sta nel bagagliaio. Prezzo 180 euro, non trattabile. Ritiro esclusivamente in zona stazione.**\n\nA) È un piccolo annuncio per vendere una bicicletta usata.\nB) È la descrizione di un servizio comunale di biciclette condivise.\nC) È una richiesta di riparazione rivolta a un negozio.\nD) È la pubblicità di una gara ciclistica vicino alla stazione.\n\n**7. Benvenuti al Residence Aurora. Il vostro appartamento è il 12, al secondo piano. La colazione viene servita dalle 7 alle 10 nella sala accanto alla reception. Per collegarvi alla rete Wi-Fi usate la password scritta sulla tessera della camera.**\n\nA) È una recensione degli ospiti dopo un soggiorno in residence.\nB) È una telefonata per prenotare una camera con colazione.\nC) È una comunicazione di benvenuto con informazioni sul soggiorno.\nD) È un regolamento per i dipendenti addetti alla reception.\n\n**8. Per lavori urgenti alla rete idrica, mercoledì dalle 8 alle 14 sarà sospesa l’erogazione dell’acqua nelle vie Verdi, Bellini e Rossini. Al ripristino, lasciate scorrere l’acqua per alcuni minuti. Ci scusiamo per il disagio.**\n\nA) È una campagna comunale contro lo spreco d’acqua.\nB) È una fattura che segnala consumi domestici troppo elevati.\nC) È un invito a partecipare ai lavori della rete idrica.\nD) È un avviso pubblico su un’interruzione temporanea dell’acqua.\n\n**9. Buongiorno, siamo dello studio dentistico Riva. La dottoressa domani sarà assente, quindi dobbiamo spostare la visita fissata alle 15. Possiamo riceverla venerdì alle 11 oppure lunedì alle 16. Ci richiami per comunicarci quale orario preferisce.**\n\nA) È il promemoria automatico di una visita già confermata.\nB) È un messaggio dello studio medico per concordare un nuovo appuntamento.\nC) È la richiesta di un paziente per anticipare una visita urgente.\nD) È un’offerta promozionale relativa a un trattamento dentistico.\n\n**10. La informiamo che la sua domanda per il corso di fotografia è stata accettata. Per completare l’iscrizione, versi la quota entro il 30 luglio e invii la ricevuta alla segreteria. In mancanza del pagamento, il posto sarà assegnato a un altro candidato.**\n\nA) È una comunicazione di ammissione con le istruzioni per iscriversi.\nB) È una richiesta di rimborso per un corso cancellato.\nC) È un sollecito a consegnare le fotografie per un concorso.\nD) È il rifiuto di una domanda presentata dopo la scadenza."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | A | «prenotazione è stata trasferita alla sala Manzoni»: cambia la sala, non l’orario. 中文：重点是场地变更，无需确认。 |\n| S4.2 | B | «circolazione è interrotta» e «seguire la deviazione»: è un bollettino sulla viabilità. 中文：不是事后事故报道。 |\n| S4.3 | C | «il pacco è ancora fermo» e «rimborseremo [...] le spese»: l’assistenza risponde a un ritardo. 中文：退款对象仅为运费。 |\n| S4.4 | D | «il corriere ha lasciato da me il tuo pacco»: una vicina avvisa di averlo ritirato. 中文：发信人不是快递员。 |\n| S4.5 | B | «apre eccezionalmente fino a mezzanotte» e «prenotazione [...] obbligatoria»: annuncia visite serali prenotabili. 中文：不是闭馆通知。 |\n| S4.6 | A | «Vendo bicicletta» con prezzo e modalità di ritiro: è un annuncio di vendita dell’usato. 中文：价格和自取信息锁定交易功能。 |\n| S4.7 | C | «Benvenuti» seguito da appartamento, colazione e Wi-Fi: sono informazioni per gli ospiti. 中文：是入住欢迎说明，不是评价。 |\n| S4.8 | D | «sarà sospesa l’erogazione dell’acqua» in vie e orari precisi: è un avviso d’interruzione. 中文：不是节水宣传。 |\n| S4.9 | B | «dobbiamo spostare la visita» e due nuovi orari: lo studio chiede di riprogrammare l’appuntamento. 中文：原预约不能照常进行。 |\n| S4.10 | A | «domanda [...] accettata» e «completare l’iscrizione»: comunica l’ammissione e il pagamento richiesto. 中文：录取已确认，但须缴费保留名额。 |"
+  },
+  "key": {
+    "S4.1": "A",
+    "S4.2": "B",
+    "S4.3": "C",
+    "S4.4": "D",
+    "S4.5": "B",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "D",
+    "S4.9": "B",
+    "S4.10": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "centro di smistamento",
+      "categoria": "locuzione nominale",
+      "zh": "分拣中心",
+      "en": "sorting centre",
+      "esempio": "il pacco è ancora fermo nel centro di smistamento"
+    },
+    {
+      "parola": "portapacchi",
+      "categoria": "nome maschile invariabile",
+      "zh": "自行车后货架",
+      "en": "bicycle rack",
+      "esempio": "Ha sei marce, luci nuove e portapacchi"
+    },
+    {
+      "parola": "rete idrica",
+      "categoria": "locuzione nominale",
+      "zh": "供水管网",
+      "en": "water supply network",
+      "esempio": "Per lavori urgenti alla rete idrica"
+    },
+    {
+      "parola": "ripristino",
+      "categoria": "nome maschile",
+      "zh": "恢复",
+      "en": "restoration",
+      "esempio": "Al ripristino, lasciate scorrere l’acqua per alcuni minuti"
+    },
+    {
+      "parola": "In mancanza del pagamento",
+      "categoria": "locuzione preposizionale",
+      "zh": "如未付款",
+      "en": "failing payment",
+      "esempio": "In mancanza del pagamento, il posto sarà assegnato a un altro candidato"
+    }
+  ]
+}

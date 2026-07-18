@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "POP MUSIC FESTIVAL PERUGIA DAL 21 AL 23 LUGLIO",
+    "T1_TEXT": "Dal 21 al 23 luglio Perugia ospita tre appuntamenti del Pop Music Festival nel cuore della città, in piazza IV Novembre. Il festival celebra la musica pop e vuole coinvolgere cittadini e turisti.\n\nMartedì 21 luglio apre Alan Sorrenti, con un viaggio in oltre cinquant'anni di carriera. Nella stessa serata si esibiscono anche Dj Faust-T & The Beat'n'Brass Collective.\n\nMercoledì 22 luglio arriva Kenny Carpenter, musicista della house e della disco internazionale. Kenny Carpenter ha lavorato nello Studio 54 di New York ed è conosciuto nella cultura dei club in tutto il mondo. Sul palco ci sono anche il dj umbro Marco Cucchia e il cantante Birikino. Marco Cucchia è un importante artista della musica elettronica italiana. La serata è dedicata alla musica house, disco e dance.\n\nGiovedì 23 luglio il festival finisce con DJ Jad & Wlady. DJ Jad ha fondato il gruppo Articolo 31 insieme a J-Ax ed è uno dei primi artisti dell'hip hop italiano. Il loro spettacolo unisce l'hip hop italiano e la musica dance contemporanea, con remix e grandi successi. Durante lo show il pubblico ascolta anche scratch e remix esclusivi e guarda le performance di danza. Partecipano anche DJ Fritz, Chiara Tobia e la Basement Art Lab Company. Tutti gli spettacoli cominciano alle 20 e terminano intorno alle 24.",
+    "L1_ITEMS": "**1. Il festival si svolge**\n\nA) dal 21 al 23 luglio.\n\nB) soltanto martedì 21 luglio.\n\nC) soltanto giovedì 23 luglio.\n\n**2. Martedì 21 luglio si esibisce**\n\nA) Alan Sorrenti.\n\nB) Kenny Carpenter.\n\nC) DJ Jad & Wlady.\n\n**3. La serata di mercoledì è dedicata alla musica**\n\nA) pop e hip hop.\n\nB) house, disco e dance.\n\nC) dance e hip hop italiano.\n\n**4. Tutti gli spettacoli**\n\nA) iniziano alle 20.\n\nB) terminano alle 20.\n\nC) cominciano alle 24."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice «Dal 21 al 23 luglio»; 中文：三天都有活动，不是只有一天。 |\n| L1.2 | A | Il testo dice «Martedì 21 luglio apre Alan Sorrenti»; 中文：另外两组选项在之后的日期演出。 |\n| L1.3 | B | Il testo dice «La serata è dedicata alla musica house, disco e dance»; 中文：三个音乐类型必须完整对应。 |\n| L1.4 | A | Il testo dice «Tutti gli spettacoli cominciano alle 20»; 中文：24点是结束时间，不是开始时间。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "A",
+    "L1.3": "B",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "appuntamenti",
+      "categoria": "sostantivo plurale",
+      "zh": "活动；约会",
+      "en": "events; appointments",
+      "esempio": "Perugia ospita tre appuntamenti del Pop Music Festival"
+    },
+    {
+      "parola": "coinvolgere",
+      "categoria": "verbo",
+      "zh": "让……参与",
+      "en": "to involve",
+      "esempio": "vuole coinvolgere cittadini e turisti"
+    },
+    {
+      "parola": "carriera",
+      "categoria": "sostantivo femminile",
+      "zh": "职业生涯",
+      "en": "career",
+      "esempio": "un viaggio in oltre cinquant'anni di carriera"
+    },
+    {
+      "parola": "si esibiscono",
+      "categoria": "verbo pronominale",
+      "zh": "登台表演",
+      "en": "perform",
+      "esempio": "Nella stessa serata si esibiscono anche Dj Faust-T & The Beat'n'Brass Collective"
+    },
+    {
+      "parola": "intorno alle",
+      "categoria": "locuzione preposizionale",
+      "zh": "大约在……点",
+      "en": "around (a time)",
+      "esempio": "terminano intorno alle 24"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "UN OSSO DI MORTO",
+    "S2_TEXT_WITH_GAPS": "*(lasciare)* __lascio (0)__ al lettore l'apprezzamento di quanto sto per raccontare: è necessario che *(leggere)* __(1)__ queste righe.\n\nFu nel 1855 che *(trasferirsi)* __(2)__ a Pavia, dove ogni giorno *(frequentare)* __(3)__ una scuola di disegno. Dopo alcuni mesi conobbi Federico M., professore di patologia. Quando morì di apoplessia fulminante, io *(stringere)* __(4)__ già relazione con lui; fu infatti pochi mesi dopo il nostro incontro che Federico *(morire)* __(5)__.\n\nOggi, nonostante Federico *(scomparire)* __(6)__ da tempo, ne ricordo lo scetticismo. Non potei mai indurlo alle mie credenze, per quanto allora ogni giorno *(adoperarsi)* __(7)__. Non vi fu argomento che *(potere)* __(8)__ convincerlo.\n\nQuando morì, Federico *(consigliare)* __(9)__ già di assistere alle lezioni di anatomia, sostenendo che in seguito da esse io *(ricavare)* __(10)__ conoscenze utili. Fu allora che, benché riluttante, *(acconsentire)* __(11)__. Gli chiesi alcune ossa *(volere)* __(12)__ apparire meno pauroso, benché in realtà *(essere)* __(13)__ pauroso; egli me le diede.\n\nFu dopo la sua morte che *(cessare)* __(14)__ di frequentare il corso. Una volta *(collocare)* __(15)__ da me sul caminetto mentre Federico era ancora vivo, le ossa vi rimasero quando più tardi smisi il disegno. Da me *(conservare)* __(16)__ per molti anni, le ossa erano familiari: ogni giorno l'abitudine di vederle *(rendere)* __(17)__ quelle ossa quasi indifferenti ai miei occhi. Fu pochi mesi fa che paure improvvise *(assalire)* __(18)__ il mio animo. Fu allora che *(risolversi)* __(19)__ a seppellirle, senza *(trattenere)* __(20)__ altro che una semplice rotella di ginocchio."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | legga | congiuntivo presente | S2.11 | acconsentii | indicativo passato remoto |\n| S2.2 | mi trasferii | indicativo passato remoto | S2.12 | volendo | gerundio presente |\n| S2.3 | frequentavo | indicativo imperfetto | S2.13 | fossi | congiuntivo imperfetto |\n| S2.4 | avevo stretto | indicativo trapassato prossimo | S2.14 | cessai | indicativo passato remoto |\n| S2.5 | morì | indicativo passato remoto | S2.15 | collocate | participio passato, valore passivo |\n| S2.6 | sia scomparso | congiuntivo passato | S2.16 | conservate | participio passato |\n| S2.7 | mi adoperassi | congiuntivo imperfetto | S2.17 | rendeva | indicativo imperfetto |\n| S2.8 | potesse | congiuntivo imperfetto | S2.18 | assalirono | indicativo passato remoto |\n| S2.9 | mi aveva consigliato | indicativo trapassato prossimo | S2.19 | mi risolsi | indicativo passato remoto |\n| S2.10 | avrei ricavato | condizionale passato | S2.20 | trattenere | infinito presente |",
+    "ANS_S2_NOTES": "- **S2.1 — legga:** la matrice stampata «è necessario che» impone il congiuntivo presente; 中文：题面明确给出 è necessario che，强制使用现在虚拟式。\n- **S2.2 — mi trasferii:** «Fu nel 1855 che» fissa l'evento puntuale nel passato remoto; 中文：分裂句和明确年份锁定远过去时，反身代词也在空格内。\n- **S2.3 — frequentavo:** «ogni giorno» segnala un'azione abituale nel passato; 中文：过去习惯性动作使用未完成过去时。\n- **S2.4 — avevo stretto:** «Quando morì» è il riferimento successivo e l'avverbio «già», stampato dopo il gap, marca l'anteriorità; 中文：关系建立先于死亡；già 已印在空格外，答案只含助动词和过去分词。\n- **S2.5 — morì:** «fu infatti ... che» e «pochi mesi dopo» isolano l'evento nel passato remoto; 中文：明确的叙事链和分裂句锁定远过去时。\n- **S2.6 — sia scomparso:** «Oggi» regge il presente, mentre «da tempo» colloca la scomparsa prima del ricordo; 中文：现在视角下的已完成动作，使用过去虚拟式。\n- **S2.7 — mi adoperassi:** «per quanto» richiede il congiuntivo e «allora ogni giorno» indica durata passata; 中文：让步结构加过去反复语境，使用未完成虚拟式。\n- **S2.8 — potesse:** «Non vi fu argomento che» richiede il congiuntivo riferito a una situazione passata; 中文：过去叙事中的否定存在关系从句使用未完成虚拟式。\n- **S2.9 — mi aveva consigliato:** «Quando morì» fornisce il punto posteriore e l'avverbio «già», stampato dopo il gap, impone il trapassato; 中文：建议先于死亡；già 在空格外，空格只含代词、助动词和过去分词。\n- **S2.10 — avrei ricavato:** «sostenendo» introduce un discorso dal passato e «in seguito» rende il risultato allora futuro; 中文：过去话语视角中的后续结果锁定过去条件式。\n- **S2.11 — acconsentii:** «Fu allora che» fissa una reazione puntuale nella catena narrativa; 中文：分裂句锁定远过去时。\n- **S2.12 — volendo:** la forma segue senza congiunzione la reggente «Gli chiesi» ed esprime una motivazione contemporanea; 中文：空格无法形成新的限定句，只能用现在分词式表同时动机。\n- **S2.13 — fossi:** «benché» impone il congiuntivo e la paura è contemporanea alla richiesta nel passato; 中文：让步连词加过去同时状态锁定未完成虚拟式。\n- **S2.14 — cessai:** «Fu dopo la sua morte che» delimita l'azione nel passato remoto; 中文：明确的分裂句锁定远过去时。\n- **S2.15 — collocate:** «Una volta» introduce un costrutto participiale; «le ossa» e «da me» fissano accordo femminile plurale e valore passivo; 中文：“una volta + 过去分词”结构、阴性复数一致和施事补语共同排除时态及主被动歧义。\n- **S2.16 — conservate:** «Da me ... per molti anni, le ossa» è un inciso participiale e il plurale femminile fissa l'accordo; 中文：过去分词与阴性复数名词一致。\n- **S2.17 — rendeva:** «ogni giorno» segnala un effetto abituale nel passato; 中文：过去反复发生的状态变化使用未完成过去时。\n- **S2.18 — assalirono:** «Fu pochi mesi fa che» fissa l'evento puntuale; «paure improvvise» è il soggetto plurale; 中文：明确近期过去锚点和复数主语锁定远过去时。\n- **S2.19 — mi risolsi:** «Fu allora che» indica la decisione puntuale successiva alle paure; 中文：叙事链中的瞬时决定使用远过去时，反身代词在空格内。\n- **S2.20 — trattenere:** «senza» seguito direttamente dal verbo impone l'infinito presente; 中文：介词 senza 后直接接现在不定式。"
+  },
+  "key": {
+    "S2.1": "legga",
+    "S2.2": "mi trasferii",
+    "S2.3": "frequentavo",
+    "S2.4": "avevo stretto || avevo già stretto",
+    "S2.5": "morì",
+    "S2.6": "sia scomparso",
+    "S2.7": "mi adoperassi",
+    "S2.8": "potesse",
+    "S2.9": "mi aveva consigliato || mi aveva già consigliato",
+    "S2.10": "avrei ricavato",
+    "S2.11": "acconsentii",
+    "S2.12": "volendo",
+    "S2.13": "fossi",
+    "S2.14": "cessai",
+    "S2.15": "collocate",
+    "S2.16": "conservate",
+    "S2.17": "rendeva",
+    "S2.18": "assalirono",
+    "S2.19": "mi risolsi",
+    "S2.20": "trattenere"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "apprezzamento",
+      "categoria": "sostantivo maschile",
+      "zh": "评判；评价",
+      "en": "assessment; judgment",
+      "esempio": "l'apprezzamento di quanto sto per raccontare"
+    },
+    {
+      "parola": "apoplessia fulminante",
+      "categoria": "locuzione nominale",
+      "zh": "突发性中风",
+      "en": "sudden stroke",
+      "esempio": "morì di apoplessia fulminante"
+    },
+    {
+      "parola": "riluttante",
+      "categoria": "aggettivo",
+      "zh": "不情愿的",
+      "en": "reluctant",
+      "esempio": "benché riluttante"
+    },
+    {
+      "parola": "caminetto",
+      "categoria": "sostantivo maschile",
+      "zh": "壁炉",
+      "en": "fireplace",
+      "esempio": "sul caminetto"
+    },
+    {
+      "parola": "rotella di ginocchio",
+      "categoria": "locuzione nominale",
+      "zh": "膝盖骨；髌骨",
+      "en": "kneecap",
+      "esempio": "una semplice rotella di ginocchio"
+    }
+  ]
+}

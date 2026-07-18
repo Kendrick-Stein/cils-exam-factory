@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Con chi vivi?\n\n**2.** Com'è la tua casa?\n\n**3.** Che cosa fai di solito la mattina?\n\n**4.** A che ora ceni e con chi?\n\n**5.** Che cosa fai nel tempo libero?\n\n**6.** Che cosa hai fatto domenica scorsa?",
+    "O2_ARGOMENTI": "**1.** Descrivi la tua giornata normale: che cosa fai la mattina, il pomeriggio e la sera.\n\n**2.** Parla del tuo tempo libero: che cosa ti piace fare, quando e con chi."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Con chi vivi?**\n\n*Esaminatore:* Con chi vivi?\n\n*Candidato:* Vivo con mia madre, mio padre e mia sorella. La sera ceniamo insieme.\n\n**2. Com'è la tua casa?**\n\n*Esaminatore:* Com'è la tua casa?\n\n*Candidato:* Abito in un appartamento piccolo ma luminoso. Ci sono due camere, una cucina e un soggiorno.\n\n**3. Che cosa fai di solito la mattina?**\n\n*Esaminatore:* Che cosa fai di solito la mattina?\n\n*Candidato:* Mi alzo alle sette, faccio colazione con latte e pane e poi vado a scuola a piedi.\n\n**4. A che ora ceni e con chi?**\n\n*Esaminatore:* A che ora ceni e con chi?\n\n*Candidato:* Ceno alle otto con la mia famiglia. Di solito mangiamo pasta o verdure.\n\n**5. Che cosa fai nel tempo libero?**\n\n*Esaminatore:* Che cosa fai nel tempo libero?\n\n*Candidato:* Nel tempo libero ascolto musica e gioco a pallavolo con gli amici. Il sabato vado anche al parco.\n\n**6. Che cosa hai fatto domenica scorsa?**\n\n*Esaminatore:* Che cosa hai fatto domenica scorsa?\n\n*Candidato:* Domenica scorsa ho visitato mia nonna. Abbiamo pranzato insieme e poi abbiamo fatto una passeggiata.",
+    "MODEL_O1_PHRASES": "Vivo con…（我和……一起住） · Di solito…（通常……） · Nel tempo libero…（空闲时……） · Domenica scorsa…（上周日……）",
+    "MODEL_O2": "**Argomento n. 1 — La mia giornata normale**\n\nDi solito mi alzo alle sette. Faccio colazione con latte e biscotti, poi vado a scuola a piedi. A mezzogiorno torno a casa e pranzo con la mia famiglia. Nel pomeriggio studio e aiuto mia madre. La sera ceniamo insieme. Dopo cena guardo un po' la televisione, preparo lo zaino e vado a letto alle dieci.\n\n**Argomento n. 2 — Il mio tempo libero**\n\nNel tempo libero mi piace ascoltare musica e giocare a pallavolo. Il martedì gioco in palestra con i miei amici. Il sabato pomeriggio, se c'è il sole, andiamo al parco in bicicletta. A volte resto a casa e leggo un libro facile. Queste attività mi piacciono perché sono divertenti e posso stare con le persone che conosco.",
+    "MODEL_O2_PHRASES": "La mattina…（早上……） · Nel pomeriggio…（下午……） · Dopo cena…（晚饭后……） · Mi piace…（我喜欢……） · A volte…（有时候……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "Faccio colazione",
+      "categoria": "locuzione verbale",
+      "zh": "吃早餐",
+      "en": "to have breakfast",
+      "esempio": "Faccio colazione con latte e biscotti"
+    },
+    {
+      "parola": "a piedi",
+      "categoria": "locuzione avverbiale",
+      "zh": "步行",
+      "en": "on foot",
+      "esempio": "vado a scuola a piedi"
+    },
+    {
+      "parola": "tempo libero",
+      "categoria": "locuzione nominale",
+      "zh": "空闲时间",
+      "en": "free time",
+      "esempio": "Nel tempo libero mi piace ascoltare musica"
+    },
+    {
+      "parola": "fatto una passeggiata",
+      "categoria": "locuzione verbale",
+      "zh": "散步",
+      "en": "to take a walk",
+      "esempio": "abbiamo fatto una passeggiata"
+    },
+    {
+      "parola": "vado a letto",
+      "categoria": "locuzione verbale",
+      "zh": "上床睡觉",
+      "en": "to go to bed",
+      "esempio": "vado a letto alle dieci"
+    }
+  ]
+}

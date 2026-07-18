@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "IA CONTRO MEDICI: I CHATBOT SANNO DAVVERO FARE DIAGNOSI CORRETTE?",
+    "S1_TEXT_WITH_GAPS": "__Molti (0)__ sono i ruoli nei __(1)__ l'intelligenza artificiale può sostituire professionisti in carne e ossa. Fra questi c'è anche __(2)__ del medico. Ma __(3)__ possiamo fidare delle diagnosi formulate dai chatbot, oppure è meglio rivolgersi ai dottori, la __(4)__ intelligenza è umana?\n\nUno studio, i __(5)__ risultati sono rassicuranti, ha confrontato modelli linguistici. L'intelligenza artificiale se __(6)__ cava bene quando dispone di tutti i dati di __(7)__ ha bisogno, ma non è affidabile nella fase in __(8)__ deve decidere quali informazioni cercare. Con pochi elementi iniziali deve individuare la malattia dalla __(9)__ potrebbe essere affetto il paziente e scegliere gli esami con i __(10)__ verificarla.\n\nI ricercatori __(11)__ hanno messi alla prova 21. __(12)__ hanno invitati a fingersi medici in 29 scenari clinici, per ciascuno dei __(13)__ era necessario formulare una diagnosi.\n\nCon tutti i dati corretti, i ricercatori __(14)__ vedevano arrivare alla diagnosi giusta in oltre il 90% dei casi. Se da un lato i chatbot __(15)__ rivelavano medici validi con tutte le informazioni di __(16)__ avevano bisogno, dall'__(17)__ faticavano nelle fasi preliminari. Le fasi preliminari sono __(18)__ nelle quali occorre preparare una lista di diagnosi differenziali da verificare. In oltre l'80% dei casi non __(19)__ hanno formulate di corrette. I modelli non sono pronti per un impiego clinico autonomo: questi strumenti, in medicina, __(20)__ si deve usare con supervisione."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | quali | S1.11 | ne |\n| S1.2 | quello | S1.12 | Li |\n| S1.3 | Ci | S1.13 | quali |\n| S1.4 | cui | S1.14 | li |\n| S1.5 | cui | S1.15 | si |\n| S1.6 | la | S1.16 | cui |\n| S1.7 | cui | S1.17 | altro |\n| S1.8 | cui | S1.18 | quelle |\n| S1.9 | quale | S1.19 | ne |\n| S1.10 | quali | S1.20 | li |",
+    "ANS_S1_NOTES": "- **S1.3 — Ci:** il pronome fa parte del verbo pronominale «fidarsi»; 中文：这里不能用直接宾语代词。\n- **S1.4 — cui:** l'articolo «la» è già stampato e introduce il relativo possessivo «la cui intelligenza»; 中文：表示所属关系。\n- **S1.11 — ne:** riprende partitamente i modelli linguistici davanti al numero «21»; 中文：数字前用部分代词。\n- **S1.19 — ne:** è obbligatorio davanti a «di corrette» e riprende le diagnosi differenziali; 中文：与后面的部分结构呼应。\n- **S1.20 — li:** riprende l'oggetto maschile plurale esplicito «questi strumenti» nella costruzione impersonale; 中文：明确回指阳性复数宾语。"
+  },
+  "key": {
+    "S1.1": "quali",
+    "S1.2": "quello",
+    "S1.3": "Ci",
+    "S1.4": "cui",
+    "S1.5": "cui",
+    "S1.6": "la",
+    "S1.7": "cui",
+    "S1.8": "cui",
+    "S1.9": "quale",
+    "S1.10": "quali",
+    "S1.11": "ne",
+    "S1.12": "Li",
+    "S1.13": "quali",
+    "S1.14": "li",
+    "S1.15": "si",
+    "S1.16": "cui",
+    "S1.17": "altro",
+    "S1.18": "quelle",
+    "S1.19": "ne",
+    "S1.20": "li"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in carne e ossa",
+      "categoria": "locuzione aggettivale",
+      "zh": "现实中的；真人的",
+      "en": "real-life; flesh-and-blood",
+      "esempio": "professionisti in carne e ossa"
+    },
+    {
+      "parola": "modelli linguistici",
+      "categoria": "locuzione nominale",
+      "zh": "语言模型",
+      "en": "language models",
+      "esempio": "ha confrontato modelli linguistici"
+    },
+    {
+      "parola": "fasi preliminari",
+      "categoria": "locuzione nominale",
+      "zh": "初步阶段",
+      "en": "preliminary stages",
+      "esempio": "faticavano nelle fasi preliminari"
+    },
+    {
+      "parola": "diagnosi differenziali",
+      "categoria": "locuzione nominale",
+      "zh": "鉴别诊断",
+      "en": "differential diagnoses",
+      "esempio": "una lista di diagnosi differenziali da verificare"
+    },
+    {
+      "parola": "impiego clinico autonomo",
+      "categoria": "locuzione nominale",
+      "zh": "自主临床应用",
+      "en": "autonomous clinical use",
+      "esempio": "non sono pronti per un impiego clinico autonomo"
+    }
+  ]
+}

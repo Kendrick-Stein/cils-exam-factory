@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un luogo del tuo quartiere dove vai volentieri. Scrivi com'è, quando ci vai, con chi e che cosa fai lì. Spiega perché ti piace.",
+    "W2_PROMPT": "Scrivi un messaggio a un'amica per invitarla alla tua festa di compleanno. Indica il luogo e l'ora, chiedile di portare qualcosa e di risponderti.",
+    "MODEL_W1": "Vicino a casa mia c'è un piccolo parco con molti alberi e un campo da basket. Ci vado spesso il sabato pomeriggio con due amici. Giochiamo, passeggiamo e qualche volta facciamo merenda su una panchina. Mi piace questo luogo perché è tranquillo, pulito e posso stare all'aperto senza andare lontano.",
+    "MODEL_W1_PHRASES": "«Vicino a casa mia c'è…»（我家附近有……） · «Ci vado spesso…»（我经常去那里……） · «Qualche volta facciamo…»（有时我们会……） · «Mi piace questo luogo perché…»（我喜欢这个地方，因为……）",
+    "MODEL_W2": "Ciao Sara, sabato pomeriggio faccio una festa a casa mia per il mio compleanno. Vuoi venire? La festa comincia alle quattro. Se puoi, porta un gioco da tavolo. Fammi sapere presto! Un abbraccio, Lina",
+    "MODEL_W2_PHRASES": "«Faccio una festa…»（我要举办一个聚会……） · «Vuoi venire?»（你想来吗？） · «La festa comincia alle…»（聚会在……点开始） · «Se puoi, porta…»（如果可以，请带……） · «Fammi sapere presto!»（请尽快告诉我！）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "campo da basket",
+      "categoria": "locuzione nominale",
+      "zh": "篮球场",
+      "en": "basketball court",
+      "esempio": "Vicino a casa mia c'è un piccolo parco con molti alberi e un campo da basket."
+    },
+    {
+      "parola": "facciamo merenda",
+      "categoria": "locuzione verbale",
+      "zh": "我们吃点心",
+      "en": "we have a snack",
+      "esempio": "Giochiamo, passeggiamo e qualche volta facciamo merenda su una panchina."
+    },
+    {
+      "parola": "panchina",
+      "categoria": "nome femminile",
+      "zh": "长椅",
+      "en": "bench",
+      "esempio": "Giochiamo, passeggiamo e qualche volta facciamo merenda su una panchina."
+    },
+    {
+      "parola": "stare all'aperto",
+      "categoria": "locuzione verbale",
+      "zh": "待在户外",
+      "en": "to stay outdoors",
+      "esempio": "Mi piace questo luogo perché è tranquillo, pulito e posso stare all'aperto senza andare lontano."
+    },
+    {
+      "parola": "gioco da tavolo",
+      "categoria": "locuzione nominale",
+      "zh": "桌游",
+      "en": "board game",
+      "esempio": "Se puoi, porta un gioco da tavolo."
+    }
+  ]
+}

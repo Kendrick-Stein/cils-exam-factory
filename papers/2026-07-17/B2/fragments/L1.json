@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "La risata racconta l'evoluzione del linguaggio",
+    "T1_TEXT": "Una risata potrebbe essere molto più che semplice divertimento: potrebbe custodire indizi sull'evoluzione del linguaggio. Secondo un team dell'Università di Warwick, le grandi scimmie riderebbero con un ritmo simile al nostro da almeno 15 milioni di anni, quando esseri umani e grandi scimmie condividevano un antenato comune. Lo studio suggerisce quindi che il linguaggio non sia comparso improvvisamente, ma derivi da un percorso evolutivo durante il quale il controllo sulle vocalizzazioni si è progressivamente affinato. Quando pensiamo a una risata, la consideriamo un comportamento tipicamente umano; eppure ridono anche tutte le grandi scimmie, come scimpanzé, bonobo, gorilla e oranghi. Prima del nuovo studio, tuttavia, non era chiaro come la risata umana si fosse evoluta nel corso di milioni di anni e quale relazione potesse avere con l'evoluzione del linguaggio.\n\nPer capire il rapporto tra risata e linguaggio, i ricercatori hanno confrontato le risate di grandi scimmie ed esseri umani. Per ottenere dati confrontabili, il gruppo ha analizzato 140 sequenze di risate registrate da quattro oranghi, due gorilla, tre bonobo, quattro scimpanzé e quattro esseri umani. Il campione ha permesso di osservare non un singolo animale, ma rappresentanti di tutte le specie di grandi scimmie comprese nella ricerca. Le analisi hanno rivelato lo stesso schema: tutte le specie producono risate con intervalli ritmici regolari tra un suono e l'altro. Il dato decisivo non riguarda soltanto la presenza del riso, ma l'organizzazione temporale dei suoni prodotti durante ogni sequenza.\n\nI ricercatori ipotizzano che questo schema fosse già presente nell'antenato comune vissuto circa 15 milioni di anni fa e si sia conservato fino a oggi. Il linguaggio non lascia tracce fossili e le lingue complesse esistono soltanto nella nostra specie; la risata, invece, è condivisa da tutte le grandi scimmie viventi. Confrontando il modo in cui ridono specie diverse, gli studiosi possono dunque osservare indirettamente una struttura ritmica molto antica. Questa continuità offre agli studiosi un indizio proprio dove le prove dirette mancano: non è possibile, infatti, ricostruire la voce degli antenati attraverso i fossili.\n\nSebbene il ritmo di base sia rimasto costante, la risata umana è diventata più veloce, variabile e controllabile. Soltanto gli esseri umani riescono a decidere quando e come ridere secondo il contesto: una risata provocata dal solletico è diversa da una risata contenuta durante una riunione o nervosa dopo uno sbaglio. Lo stesso ritmo viene quindi modellato per comunicare emozioni e intenzioni differenti. Negli esseri umani il meccanismo antico non è quindi scomparso: si è trasformato in uno strumento più flessibile, che può essere regolato in base alla situazione sociale. Il controllo permette di trattenere, modificare o lasciare esplodere la risata, pur mantenendo l'organizzazione ritmica comune alle altre specie.\n\nNel corso dell'evoluzione, il maggiore controllo sui tempi delle vocalizzazioni, sviluppato gradualmente dai nostri antenati, avrebbe gettato le basi del linguaggio. La conclusione non sostiene che la risata sia già linguaggio, ma che il controllo necessario a modularla rappresenti una tappa importante verso capacità vocali più complesse. Proprio perché è più antica e ancora condivisa, la risata offre una rara finestra sulle trasformazioni vocali che hanno accompagnato l'evoluzione degli ominidi.",
+    "L1_ITEMS": "**1. Quale idea generale sostiene lo studio presentato nel testo?**\n\nA) Il linguaggio è nato all'improvviso.\n\nB) Il linguaggio deriva da un'evoluzione graduale.\n\nC) La risata ha sostituito il linguaggio.\n\nD) La risata è comparsa recentemente.\n\n**2. Perché i ricercatori hanno confrontato risate di specie diverse?**\n\nA) Per misurarne soltanto la durata.\n\nB) Per distinguere quattro nuove specie.\n\nC) Per ricostruirne il legame col linguaggio.\n\nD) Per insegnare alle scimmie a parlare.\n\n**3. Che cosa fa pensare a un'origine molto antica del ritmo?**\n\nA) La sua presenza regolare nelle specie studiate.\n\nB) La sua assenza nelle risate umane.\n\nC) La sua recente comparsa negli oranghi.\n\nD) La sua dipendenza dalle lingue complesse.\n\n**4. Perché la risata costituisce un indizio utile per gli studiosi?**\n\nA) Lascia numerose tracce fossili.\n\nB) Esiste soltanto nella specie umana.\n\nC) Permette di tradurre lingue antiche.\n\nD) Conserva una caratteristica condivisa osservabile.\n\n**5. In che cosa la risata umana si distingue soprattutto?**\n\nA) Nel ritmo di base completamente diverso.\n\nB) Nella maggiore possibilità di controllarla.\n\nC) Nell'incapacità di esprimere intenzioni.\n\nD) Nell'assenza di variazioni secondo il contesto.\n\n**6. A che cosa servono gli esempi del solletico, della riunione e dello sbaglio?**\n\nA) A classificare tre specie di scimmie.\n\nB) A mostrare tre cause della paura.\n\nC) A illustrare l'adattamento della risata al contesto.\n\nD) A negare il controllo umano sulle emozioni.\n\n**7. Quale rapporto causale propone la conclusione?**\n\nA) Il controllo vocale avrebbe favorito il linguaggio.\n\nB) Il linguaggio avrebbe eliminato il ritmo.\n\nC) Le lingue complesse avrebbero creato il solletico.\n\nD) Le vocalizzazioni avrebbero impedito l'evoluzione."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il linguaggio «non sia comparso improvvisamente», ma derivi da «un percorso evolutivo». 中文：核心对比是突然出现与逐步演化。 |\n| L1.2 | C | Il confronto serve a «capire il rapporto tra risata e linguaggio». 中文：研究目的不是单纯测量笑声。 |\n| L1.3 | A | «Tutte le specie producono risate con intervalli ritmici regolari». 中文：跨物种共有的规律支持共同祖先假说。 |\n| L1.4 | D | La risata «è condivisa da tutte le grandi scimmie viventi» e rende osservabile indirettamente una struttura antica. 中文：语言无化石，笑声提供间接证据。 |\n| L1.5 | B | Quella umana è «più veloce, variabile e controllabile» e solo gli esseri umani decidono quando e come ridere. 中文：基础节奏相同，主要差别在控制力。 |\n| L1.6 | C | Gli esempi mostrano che «lo stesso ritmo viene quindi modellato» secondo situazioni ed emozioni differenti. 中文：三个场景用于说明语境调节。 |\n| L1.7 | A | Il «maggiore controllo sui tempi delle vocalizzazioni» avrebbe «gettato le basi del linguaggio». 中文：结论提出的是控制能力促进语言发展的因果关系。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "C",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "custodire indizi",
+      "categoria": "locuzione verbale",
+      "zh": "保存线索；蕴含线索",
+      "en": "to preserve clues",
+      "esempio": "potrebbe custodire indizi sull'evoluzione del linguaggio"
+    },
+    {
+      "parola": "vocalizzazioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "发声；声音表达",
+      "en": "vocalizations",
+      "esempio": "il controllo sulle vocalizzazioni si è progressivamente affinato"
+    },
+    {
+      "parola": "tracce fossili",
+      "categoria": "locuzione nominale",
+      "zh": "化石痕迹",
+      "en": "fossil traces",
+      "esempio": "Il linguaggio non lascia tracce fossili"
+    },
+    {
+      "parola": "ritmo di base",
+      "categoria": "locuzione nominale",
+      "zh": "基础节奏",
+      "en": "basic rhythm",
+      "esempio": "Sebbene il ritmo di base sia rimasto costante"
+    },
+    {
+      "parola": "gettato le basi",
+      "categoria": "locuzione verbale",
+      "zh": "奠定基础",
+      "en": "laid the foundations",
+      "esempio": "avrebbe gettato le basi del linguaggio"
+    }
+  ]
+}
