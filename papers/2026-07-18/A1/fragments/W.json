@@ -1,0 +1,50 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua casa: scrivi dove si trova, quante stanze ha, qual è la tua stanza preferita e cosa fai lì.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una piscina. Chiedi quando comincia il corso di nuoto e quanto costa.",
+    "MODEL_W1": "La mia casa è in centro e ha quattro stanze. La mia stanza preferita è la cucina, perché è grande e luminosa. La sera mangio lì con la mia famiglia e parliamo della giornata.",
+    "MODEL_W1_PHRASES": "«La mia casa è…»（我的家是……） · «Ha quattro stanze»（有四个房间） · «La mia stanza preferita è…»（我最喜欢的房间是……） · «La sera…»（晚上……） · «Con la mia famiglia»（和我的家人一起）",
+    "MODEL_W2": "Buongiorno, voglio informazioni sul corso di nuoto. Quando comincia? Quanto costa al mese? Grazie per la risposta. Mei",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Voglio informazioni su…»（我想了解关于……的信息） · «Quando comincia?»（什么时候开始？） · «Quanto costa al mese?»（每月多少钱？） · «Grazie per la risposta»（感谢您的回复）"
+  },
+  "answer_slots": {},
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "in centro",
+      "categoria": "espressione avverbiale",
+      "zh": "在市中心",
+      "en": "in the city centre",
+      "esempio": "La mia casa è in centro e ha quattro stanze."
+    },
+    {
+      "parola": "stanza preferita",
+      "categoria": "locuzione nominale",
+      "zh": "最喜欢的房间",
+      "en": "favourite room",
+      "esempio": "La mia stanza preferita è la cucina, perché è grande e luminosa."
+    },
+    {
+      "parola": "luminosa",
+      "categoria": "aggettivo",
+      "zh": "明亮的",
+      "en": "bright",
+      "esempio": "La mia stanza preferita è la cucina, perché è grande e luminosa."
+    },
+    {
+      "parola": "corso di nuoto",
+      "categoria": "locuzione nominale",
+      "zh": "游泳课程",
+      "en": "swimming course",
+      "esempio": "Buongiorno, voglio informazioni sul corso di nuoto."
+    },
+    {
+      "parola": "al mese",
+      "categoria": "espressione avverbiale",
+      "zh": "每月",
+      "en": "per month",
+      "esempio": "Quanto costa al mese?"
+    }
+  ]
+}

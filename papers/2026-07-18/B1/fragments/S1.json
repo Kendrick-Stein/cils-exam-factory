@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "È VERO CHE LA LUNA CI INFLUENZA?",
+    "S1_TEXT_WITH_GAPS": "A differenza *(di)* __di (0)__ alcuni organismi marini, che ne sono certamente influenzati, sembrerebbe non esistere alcun nesso tra __(1)__ Luna e __(2)__ nostro normale comportamento, nonostante quello che dicono __(3)__ astrologi.\n\n#### Luna e sonno\n\nLo studio è stato fatto *(a)* __(4)__ Università di Basilea, *(in)* __(5)__ Svizzera, tenendo sotto controllo, in __(6)__ gruppo di volontari appisolati in __(7)__ stanza senza finestre, __(8)__ collegamenti delle cellule cerebrali, __(9)__ movimento *(di)* __(10)__ occhi e __(11)__ livello di ormoni prodotti.\n\nRisultato: in tempo di luna piena hanno dormito circa 20 minuti in meno *(di)* __(12)__ media, impiegandone 5 in più *(per)* __(13)__ addormentarsi; inoltre, la loro fase di sonno profondo è diminuita del 30% ed è calata anche la secrezione di melatonina, ormone che regola __(14)__ sonno e la veglia.\n\nIl motivo? Gli scienziati non hanno ancora una risposta, ma alcuni ipotizzano che potrebbe trattarsi di un’eredità dei nostri antenati: *(in)* __(15)__ notti di luna piena dovevano rimanere ben vigili, perché era più facile essere avvistati dai predatori.\n\n#### Le maree\n\nL’azione gravitazionale *(di)* __(16)__ Luna sulla Terra, combinata con la forza centrifuga dovuta *(a)* __(17)__ moto di rotazione *(di)* __(18)__ Terra intorno *(a)* __(19)__ centro di massa *(di)* __(20)__ sistema Terra-Luna, provoca il fenomeno delle maree."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | la | S1.11 | il |\n| S1.2 | il | S1.12 | della |\n| S1.3 | gli | S1.13 | per |\n| S1.4 | all’ | S1.14 | il |\n| S1.5 | in | S1.15 | nelle |\n| S1.6 | un | S1.16 | della |\n| S1.7 | una | S1.17 | al |\n| S1.8 | i | S1.18 | della |\n| S1.9 | il | S1.19 | al |\n| S1.10 | degli | S1.20 | del |",
+    "ANS_S1_NOTES": "- **S1.4 — all’:** davanti a «Università», *a* si unisce all’articolo eliso. 中文：介词与省音冠词合并。\n- **S1.10 — degli:** *di* si unisce a *gli* davanti a «occhi». 中文：复数阳性元音前用 *degli*。\n- **S1.15 — nelle:** *in* si unisce a *le* davanti a «notti». 中文：介词与复数阴性冠词合并。\n- **S1.16 — della:** il nome del satellite richiede l’articolo: «della Luna». 中文：月球名称前保留定冠词。\n- **S1.20 — del:** *di* si unisce a *il* davanti a «sistema». 中文：介词与阳性单数冠词合并。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "il",
+    "S1.3": "gli",
+    "S1.4": "all’ || all'",
+    "S1.5": "in",
+    "S1.6": "un",
+    "S1.7": "una",
+    "S1.8": "i",
+    "S1.9": "il",
+    "S1.10": "degli",
+    "S1.11": "il",
+    "S1.12": "della",
+    "S1.13": "per",
+    "S1.14": "il",
+    "S1.15": "nelle",
+    "S1.16": "della",
+    "S1.17": "al",
+    "S1.18": "della",
+    "S1.19": "al",
+    "S1.20": "del"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sonno profondo",
+      "categoria": "locuzione nominale",
+      "zh": "深度睡眠",
+      "en": "deep sleep",
+      "esempio": "la loro fase di sonno profondo è diminuita del 30%"
+    },
+    {
+      "parola": "melatonina",
+      "categoria": "nome femminile",
+      "zh": "褪黑素",
+      "en": "melatonin",
+      "esempio": "la secrezione di melatonina"
+    },
+    {
+      "parola": "predatori",
+      "categoria": "nome maschile plurale",
+      "zh": "捕食者",
+      "en": "predators",
+      "esempio": "era più facile essere avvistati dai predatori"
+    },
+    {
+      "parola": "forza centrifuga",
+      "categoria": "locuzione nominale",
+      "zh": "离心力",
+      "en": "centrifugal force",
+      "esempio": "combinata con la forza centrifuga"
+    },
+    {
+      "parola": "maree",
+      "categoria": "nome femminile plurale",
+      "zh": "潮汐",
+      "en": "tides",
+      "esempio": "provoca il fenomeno delle maree"
+    }
+  ]
+}

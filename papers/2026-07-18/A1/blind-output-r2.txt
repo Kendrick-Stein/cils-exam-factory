@@ -1,0 +1,32 @@
+ANSWERS
+```json
+{
+  "L3.1": {"answer": "C", "confidence": "hi"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "A", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+  "S2.1": {"answer": "ho partecipato", "confidence": "hi"},
+  "S2.2": {"answer": "ho preparato", "confidence": "hi"},
+  "S2.3": {"answer": "ho parlato", "confidence": "hi"},
+  "S2.4": {"answer": "ha usato", "confidence": "hi"},
+  "S2.5": {"answer": "ha finito", "confidence": "hi"},
+  "S2.6": {"answer": "ho dimenticato", "confidence": "hi"},
+  "S2.7": {"answer": "ho cominciato", "confidence": "hi"},
+  "S2.8": {"answer": "racconto", "confidence": "hi"},
+  "S2.9": {"answer": "è", "confidence": "hi"},
+  "S2.10": {"answer": "ho", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "tasks_present": false,
+  "checks": []
+}
+```

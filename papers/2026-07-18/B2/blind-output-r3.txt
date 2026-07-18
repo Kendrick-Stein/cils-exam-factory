@@ -1,0 +1,40 @@
+### ANSWERS
+
+```json
+{
+  "S2.1": {"answer": "preferire", "confidence": "hi"},
+  "S2.2": {"answer": "nasca", "confidence": "hi"},
+  "S2.3": {"answer": "fosse", "confidence": "hi"},
+  "S2.4": {"answer": "sembrerebbero", "confidence": "hi"},
+  "S2.5": {"answer": "andassi", "confidence": "hi"},
+  "S2.6": {"answer": "vorrei", "confidence": "hi"},
+  "S2.7": {"answer": "è", "confidence": "hi"},
+  "S2.8": {"answer": "hanno accolto", "confidence": "hi"},
+  "S2.9": {"answer": "leggevo", "confidence": "hi"},
+  "S2.10": {"answer": "ero", "confidence": "hi"},
+  "S2.11": {"answer": "mi sono ricreduto", "confidence": "hi"},
+  "S2.12": {"answer": "ho conosciuto", "confidence": "hi"},
+  "S2.13": {"answer": "mancava", "confidence": "hi"},
+  "S2.14": {"answer": "ha speso", "confidence": "hi"},
+  "S2.15": {"answer": "ha disarmato", "confidence": "hi"},
+  "S2.16": {"answer": "sono", "confidence": "hi"},
+  "S2.17": {"answer": "era stato scritto", "confidence": "hi"},
+  "S2.18": {"answer": "avevo già sentito", "confidence": "hi"},
+  "S2.19": {"answer": "diventò", "confidence": "hi"},
+  "S2.20": {"answer": "è", "confidence": "hi"}
+}
+```
+
+### FLAGS
+
+```json
+[]
+```
+
+### WRITING checks
+
+```json
+[]
+```
+
+No writing or oral tasks were included in the selected extract.

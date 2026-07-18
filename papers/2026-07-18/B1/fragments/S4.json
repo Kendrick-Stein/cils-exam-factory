@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Buongiorno, la contattiamo dal cinema Aurora. Dopo lo spettacolo di ieri abbiamo trovato un ombrello rosso vicino al suo posto. Può ritirarlo alla biglietteria entro venerdì, mostrando il biglietto della serata.**\n\nA. È un invito ad acquistare un biglietto per un nuovo spettacolo.\nB. È la conferma del ritrovamento di un oggetto con le istruzioni per recuperarlo.\nC. È una richiesta di descrivere un ombrello perso davanti al cinema.\nD. È l'avviso della chiusura della biglietteria fino a venerdì.\n\n**2. Gentile signora, nella domanda per il contributo manca la copia del documento d'identità. Per completare la pratica, la invii entro martedì tramite il sito del Comune; non è necessario presentarsi di persona.**\n\nA. È la comunicazione che una domanda è stata rifiutata definitivamente.\nB. È l'invito a ritirare un documento d'identità in Comune.\nC. È la richiesta di pagare online un contributo comunale.\nD. È la richiesta di aggiungere online un documento mancante a una pratica.\n\n**3. Ciao Serena, sabato dovrei lavorare dalle 14 alle 20, ma ho una visita medica. Potresti fare il mio turno? In cambio posso sostituirti lunedì mattina. Fammi sapere stasera, così avviso il responsabile.**\n\nA. È la richiesta a una collega di scambiare un turno di lavoro.\nB. È la comunicazione dell'annullamento di una visita medica.\nC. È l'offerta di accompagnare una collega dal medico.\nD. È il promemoria di una riunione con il responsabile.\n\n**4. Il laboratorio di ceramica di aprile non partirà perché non abbiamo raggiunto il numero minimo di iscritti. Può scegliere il corso di maggio oppure ricevere il rimborso completo. Ci comunichi la sua decisione entro domenica.**\n\nA. È l'annuncio di nuovi posti disponibili nel corso di aprile.\nB. È la richiesta di pagare la quota del laboratorio entro domenica.\nC. È la cancellazione di un corso con due soluzioni offerte agli iscritti.\nD. È la proposta di frequentare due corsi pagando una sola quota.\n\n**5. Avviso ai residenti: per un guasto, l'ascensore resterà fermo fino a domani pomeriggio. Chi aspetta consegne pesanti può lasciarle temporaneamente nel locale accanto all'ingresso, chiedendo la chiave al portiere.**\n\nA. È la segnalazione di un ascensore guasto con una soluzione temporanea per le consegne.\nB. È il divieto di lasciare pacchi nell'ingresso del palazzo.\nC. È la richiesta di aiutare il portiere a trasportare oggetti pesanti.\nD. È l'annuncio dell'installazione di un nuovo ascensore domani.\n\n**6. Salve, la torta ordinata per domani è pronta. Poiché il negozio chiuderà eccezionalmente alle 17, le chiediamo di passare entro quell'ora. Se non riesce, ci telefoni per concordare il ritiro sabato mattina.**\n\nA. È la richiesta di scegliere un altro tipo di torta.\nB. È la conferma di un ordine pronto con un cambiamento nell'orario di ritiro.\nC. È l'avviso che il negozio resterà chiuso anche sabato.\nD. È la proposta di consegnare gratuitamente una torta a domicilio.\n\n**7. Ricordiamo ai soci che il certificato medico di Marco scade il 30 giugno. Senza un nuovo certificato non potrà entrare in palestra da luglio. Il documento può essere caricato nell'area personale o consegnato in segreteria.**\n\nA. È l'annuncio della chiusura estiva della palestra a luglio.\nB. È la conferma dell'iscrizione di Marco a un corso sportivo.\nC. È il consiglio di prenotare una visita medica in segreteria.\nD. È il promemoria di rinnovare un documento necessario per accedere alla palestra.\n\n**8. Gentile ospite, una perdita d'acqua rende indisponibile la camera che aveva prenotato. Le proponiamo, senza costi aggiuntivi, una camera più grande nello stesso albergo. Risponda a questa e-mail entro le 18 per confermare.**\n\nA. È la richiesta di pagare un supplemento per una camera più grande.\nB. È la cancellazione di una prenotazione senza possibilità di sostituzione.\nC. È la proposta gratuita di una sistemazione alternativa a causa di un problema.\nD. È un reclamo per un danno provocato da un ospite.\n\n**9. A causa del caldo, questa settimana annaffieremo l'orto condiviso alle 7 invece che alle 10. I volontari del turno mattutino sono pregati di arrivare quindici minuti prima per preparare gli attrezzi.**\n\nA. È l'avviso di un anticipo dell'attività e dell'orario di arrivo dei volontari.\nB. È l'invito a coltivare nuovi ortaggi durante l'estate.\nC. È la cancellazione dei turni mattutini per il troppo caldo.\nD. È la richiesta di acquistare nuovi attrezzi per l'orto.\n\n**10. Grazie per avermi invitato alla festa di venerdì. Purtroppo quella sera sarò fuori città e non potrò venire. Mi farebbe però piacere offrirti un caffè domenica pomeriggio per festeggiare insieme.**\n\nA. È l'accettazione di un invito con la richiesta di cambiare luogo.\nB. È l'annuncio che una festa è stata spostata a domenica.\nC. È la richiesta di organizzare una festa fuori città.\nD. È il rifiuto di un invito accompagnato da una proposta per un altro giorno."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «abbiamo trovato un ombrello rosso» e «Può ritirarlo» confermano il ritrovamento e spiegano come recuperarlo. 中文：物品已找到，不是在征集描述。 |\n| S4.2 | D | «manca la copia del documento d'identità» e «la invii ... tramite il sito» chiedono di completare online la pratica. 中文：申请尚未被拒绝。 |\n| S4.3 | A | «Potresti fare il mio turno?» e l'offerta di sostituire Serena lunedì esprimono una richiesta di scambio. 中文：是换班请求，不是取消看病。 |\n| S4.4 | C | Il laboratorio «non partirà» e gli iscritti possono scegliere il corso di maggio oppure il rimborso. 中文：四月课程取消，并提供两种解决方案。 |\n| S4.5 | A | «l'ascensore resterà fermo» segnala il guasto, mentre il locale all'ingresso offre una soluzione per le consegne pesanti. 中文：不是禁止收包裹。 |\n| S4.6 | B | «la torta ... è pronta» ma il negozio «chiuderà ... alle 17», quindi cambia l'orario previsto per il ritiro. 中文：订单没有取消。 |\n| S4.7 | D | Il certificato «scade il 30 giugno» e senza rinnovo Marco non potrà accedere alla palestra da luglio. 中文：需更新的是入场所必需的体检证明。 |\n| S4.8 | C | La camera prenotata è indisponibile, ma l'albergo propone «senza costi aggiuntivi» una camera più grande. 中文：替代房型不收额外费用。 |\n| S4.9 | A | «alle 7 invece che alle 10» anticipa l'attività e «arrivare quindici minuti prima» modifica anche l'arrivo dei volontari. 中文：晨间班次没有取消。 |\n| S4.10 | D | «non potrò venire» rifiuta la festa di venerdì, mentre il caffè di domenica è una proposta alternativa. 中文：拒绝原邀请但另约时间庆祝。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "D",
+    "S4.3": "A",
+    "S4.4": "C",
+    "S4.5": "A",
+    "S4.6": "B",
+    "S4.7": "D",
+    "S4.8": "C",
+    "S4.9": "A",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ritirarlo",
+      "categoria": "verbo",
+      "zh": "领取它",
+      "en": "to collect it",
+      "esempio": "Può ritirarlo alla biglietteria entro venerdì"
+    },
+    {
+      "parola": "completare la pratica",
+      "categoria": "locuzione verbale",
+      "zh": "补全手续",
+      "en": "to complete the application",
+      "esempio": "Per completare la pratica, la invii entro martedì"
+    },
+    {
+      "parola": "numero minimo di iscritti",
+      "categoria": "locuzione nominale",
+      "zh": "最低报名人数",
+      "en": "minimum number of participants",
+      "esempio": "non abbiamo raggiunto il numero minimo di iscritti"
+    },
+    {
+      "parola": "costi aggiuntivi",
+      "categoria": "locuzione nominale",
+      "zh": "额外费用",
+      "en": "additional costs",
+      "esempio": "senza costi aggiuntivi"
+    },
+    {
+      "parola": "orto condiviso",
+      "categoria": "locuzione nominale",
+      "zh": "共享菜园",
+      "en": "community garden",
+      "esempio": "questa settimana annaffieremo l'orto condiviso alle 7"
+    }
+  ]
+}

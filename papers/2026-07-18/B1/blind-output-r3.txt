@@ -1,0 +1,38 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "leggevo", "confidence": "hi"},
+  "S2.2": {"answer": "è", "confidence": "hi"},
+  "S2.3": {"answer": "conosco", "confidence": "hi"},
+  "S2.4": {"answer": "stimo", "confidence": "hi"},
+  "S2.5": {"answer": "ero", "confidence": "hi"},
+  "S2.6": {"answer": "ci siamo salutati", "confidence": "hi"},
+  "S2.7": {"answer": "sono rimasto", "confidence": "hi"},
+  "S2.8": {"answer": "era", "confidence": "hi"},
+  "S2.9": {"answer": "vedevo", "confidence": "hi"},
+  "S2.10": {"answer": "lavoravano", "confidence": "hi"},
+  "S2.11": {"answer": "ha ammesso", "confidence": "hi"},
+  "S2.12": {"answer": "si è scusato", "confidence": "hi"},
+  "S2.13": {"answer": "ho percepito", "confidence": "hi"},
+  "S2.14": {"answer": "parlano", "confidence": "hi"},
+  "S2.15": {"answer": "avrebbe", "confidence": "hi"},
+  "S2.16": {"answer": "contengono", "confidence": "hi"},
+  "S2.17": {"answer": "credo", "confidence": "hi"},
+  "S2.18": {"answer": "rappresenta", "confidence": "hi"},
+  "S2.19": {"answer": "ho visto", "confidence": "hi"},
+  "S2.20": {"answer": "rimarrà", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING
+```json
+{
+  "checks": [],
+  "note": "Il file non contiene prove di produzione scritta."
+}
+```

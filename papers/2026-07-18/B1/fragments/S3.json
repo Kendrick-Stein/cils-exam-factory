@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "RAINBOW LAKE – COLOR RUN 2026",
+    "S3_TEXT_WITH_GAPS": "Domenica 19 luglio, all’interno del __(0)__ del Lake Sound Festival, arriva la prima __(1)__ di Rainbow Lake: una color run __(2)__ a tutti tra i magnifici __(3)__ dei Laghi Curiel.\n\nIl ritrovo dei partecipanti è alle ore 17:00 __(4)__ i Laghi Curiel, Casa Berselli, a Campogalliano. La partenza della Color Run è __(5)__ alle ore 18:30. Il __(6)__ è di circa 3,5 chilometri e __(7)__ tre punti colore lungo il __(8)__, con arrivo e festa finale al Lake Sound Festival.\n\nI partecipanti __(9)__ un percorso immerso nella natura, lancio di polveri colorate, musica e animazione, foto e video ricordo, __(10)__ all’area festival e un’atmosfera tra lago, tramonto e divertimento.\n\nLa partecipazione è __(11)__. L’__(12)__ è obbligatoria per __(13)__ il proprio codice personale. Si consiglia di partecipare con una maglietta bianca per vivere al __(14)__ l’esperienza dei colori. L’evento è realizzato con il __(15)__ di AVIS.",
+    "S3_OPT0_A": "fine settimana",
+    "S3_OPT0_B": "giorno festivo",
+    "S3_OPT0_C": "mese estivo",
+    "S3_OPT0_D": "periodo serale",
+    "S3_OPTION_ROWS": "| 1. | edizione | lezione | stagione | occasione |\n| 2. | riservata | aperta | vietata | chiusa |\n| 3. | orari | servizi | rumori | scenari |\n| 4. | presso | contro | senza | oltre |\n| 5. | vietata | nascosta | prevista | perduta |\n| 6. | concorso | percorso | spettacolo | incontro |\n| 7. | evita | controlla | abbandona | comprende |\n| 8. | parcheggio | festival | tragitto | palco |\n| 9. | troveranno | chiuderanno | perderanno | eviteranno |\n| 10. | ritorno | accesso | saluto | viaggio |\n| 11. | rumorosa | privata | breve | gratuita |\n| 12. | partenza | animazione | iscrizione | maglietta |\n| 13. | ricevere | perdere | cambiare | nascondere |\n| 14. | minimo | massimo | centro | limite |\n| 15. | rifiuto | dubbio | ritardo | supporto |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «la prima edizione di Rainbow Lake» indica il primo svolgimento dell’iniziativa. 中文：首届活动。 |\n| S3.2 | B | «una color run ... a tutti»: *aperta* indica che può partecipare chiunque. 中文：面向所有人。 |\n| S3.3 | D | «i magnifici scenari dei Laghi Curiel» descrive i paesaggi in cui si svolge la corsa. 中文：湖区景色。 |\n| S3.4 | A | «presso i Laghi Curiel, Casa Berselli» introduce il luogo preciso del ritrovo. 中文：在指定地点。 |\n| S3.5 | C | «La partenza ... alle ore 18:30» richiede *prevista*, cioè programmata. 中文：预计出发时间。 |\n| S3.6 | B | Solo il percorso può avere una lunghezza «di circa 3,5 chilometri». 中文：路线长度。 |\n| S3.7 | D | Il percorso «comprende tre punti colore», cioè li include. 中文：包括三个彩色点。 |\n| S3.8 | C | I punti colore si trovano «lungo il tragitto», cioè lungo il percorso. 中文：沿途。 |\n| S3.9 | A | La lista presenta ciò che «I partecipanti troveranno» durante l’evento. 中文：参与者将会看到。 |\n| S3.10 | B | «accesso all’area festival» indica la possibilità di entrare nell’area. 中文：可进入节庆区域。 |\n| S3.11 | D | La frase comunica che per la partecipazione non si paga: è «gratuita». 中文：免费参加。 |\n| S3.12 | C | Ci si deve registrare per ottenere il codice: «L’iscrizione è obbligatoria». 中文：必须报名。 |\n| S3.13 | A | Il fine dell’iscrizione è «ricevere il proprio codice personale». 中文：领取个人代码。 |\n| S3.14 | B | L’espressione fissa «vivere al massimo l’esperienza» significa viverla pienamente. 中文：充分享受体验。 |\n| S3.15 | D | «con il supporto di AVIS» indica l’organizzazione che sostiene l’evento. 中文：在 AVIS 支持下。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "C",
+    "S3.9": "A",
+    "S3.10": "B",
+    "S3.11": "D",
+    "S3.12": "C",
+    "S3.13": "A",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ritrovo",
+      "categoria": "nome maschile",
+      "zh": "集合地点",
+      "en": "meeting point",
+      "esempio": "Il ritrovo dei partecipanti"
+    },
+    {
+      "parola": "maglietta bianca",
+      "categoria": "locuzione nominale",
+      "zh": "白色上衣",
+      "en": "white T-shirt",
+      "esempio": "partecipare con una maglietta bianca"
+    },
+    {
+      "parola": "punti colore",
+      "categoria": "locuzione nominale",
+      "zh": "彩色粉末站点",
+      "en": "color stations",
+      "esempio": "tre punti colore"
+    },
+    {
+      "parola": "polveri colorate",
+      "categoria": "locuzione nominale",
+      "zh": "彩色粉末",
+      "en": "colored powders",
+      "esempio": "lancio di polveri colorate"
+    },
+    {
+      "parola": "codice personale",
+      "categoria": "locuzione nominale",
+      "zh": "个人代码",
+      "en": "personal code",
+      "esempio": "il proprio codice personale"
+    }
+  ]
+}

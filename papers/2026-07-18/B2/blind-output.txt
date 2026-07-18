@@ -1,0 +1,165 @@
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "D", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "C", "confidence": "hi"},
+  "L1.5": {"answer": "D", "confidence": "hi"},
+  "L1.6": {"answer": "B", "confidence": "hi"},
+  "L1.7": {"answer": "C", "confidence": "hi"},
+
+  "L2.1": {"answer": "V", "confidence": "hi"},
+  "L2.2": {"answer": "F", "confidence": "hi"},
+  "L2.3": {"answer": "V", "confidence": "hi"},
+  "L2.4": {"answer": "F", "confidence": "hi"},
+  "L2.5": {"answer": "V", "confidence": "hi"},
+  "L2.6": {"answer": "F", "confidence": "hi"},
+  "L2.7": {"answer": "V", "confidence": "hi"},
+  "L2.8": {"answer": "V", "confidence": "hi"},
+  "L2.9": {"answer": "V", "confidence": "hi"},
+  "L2.10": {"answer": "F", "confidence": "hi"},
+  "L2.11": {"answer": "F", "confidence": "hi"},
+  "L2.12": {"answer": "V", "confidence": "hi"},
+  "L2.13": {"answer": "F", "confidence": "hi"},
+  "L2.14": {"answer": "F", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-C-J-B-H-D-K-E-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "quali", "confidence": "hi"},
+  "S1.2": {"answer": "quello", "confidence": "hi"},
+  "S1.3": {"answer": "ci", "confidence": "hi"},
+  "S1.4": {"answer": "cui", "confidence": "hi"},
+  "S1.5": {"answer": "cui", "confidence": "hi"},
+  "S1.6": {"answer": "la", "confidence": "hi"},
+  "S1.7": {"answer": "cui", "confidence": "hi"},
+  "S1.8": {"answer": "cui", "confidence": "hi"},
+  "S1.9": {"answer": "quale", "confidence": "hi"},
+  "S1.10": {"answer": "quali", "confidence": "hi"},
+  "S1.11": {"answer": "ne", "confidence": "hi"},
+  "S1.12": {"answer": "li", "confidence": "hi"},
+  "S1.13": {"answer": "quali", "confidence": "hi"},
+  "S1.14": {"answer": "li", "confidence": "hi"},
+  "S1.15": {"answer": "si", "confidence": "hi"},
+  "S1.16": {"answer": "cui", "confidence": "hi"},
+  "S1.17": {"answer": "altro", "confidence": "hi"},
+  "S1.18": {"answer": "quelle", "confidence": "hi"},
+  "S1.19": {"answer": "ne", "confidence": "hi"},
+  "S1.20": {"answer": "li", "confidence": "med"},
+
+  "S2.1": {"answer": "ho preferito", "confidence": "hi"},
+  "S2.2": {"answer": "nascesse", "confidence": "hi"},
+  "S2.3": {"answer": "fosse", "confidence": "hi"},
+  "S2.4": {"answer": "sembrerebbero", "confidence": "hi"},
+  "S2.5": {"answer": "vado", "confidence": "med"},
+  "S2.6": {"answer": "voglio", "confidence": "med"},
+  "S2.7": {"answer": "è", "confidence": "hi"},
+  "S2.8": {"answer": "hanno accolto", "confidence": "hi"},
+  "S2.9": {"answer": "leggevo", "confidence": "hi"},
+  "S2.10": {"answer": "ero", "confidence": "hi"},
+  "S2.11": {"answer": "mi sono ricreduto", "confidence": "hi"},
+  "S2.12": {"answer": "ho conosciuto", "confidence": "hi"},
+  "S2.13": {"answer": "è mancato", "confidence": "med"},
+  "S2.14": {"answer": "ha speso", "confidence": "hi"},
+  "S2.15": {"answer": "mi ha disarmato", "confidence": "med"},
+  "S2.16": {"answer": "sono", "confidence": "hi"},
+  "S2.17": {"answer": "era stato scritto", "confidence": "hi"},
+  "S2.18": {"answer": "averlo sentito", "confidence": "hi"},
+  "S2.19": {"answer": "diventò", "confidence": "hi"},
+  "S2.20": {"answer": "è", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "D", "confidence": "hi"},
+  "S3.9": {"answer": "B", "confidence": "hi"},
+  "S3.10": {"answer": "C", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "D", "confidence": "hi"},
+  "S3.13": {"answer": "B", "confidence": "hi"},
+  "S3.14": {"answer": "C", "confidence": "hi"},
+  "S3.15": {"answer": "A", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "A", "confidence": "hi"},
+  "S4.3": {"answer": "C", "confidence": "hi"},
+  "S4.4": {"answer": "A", "confidence": "hi"},
+  "S4.5": {"answer": "C", "confidence": "hi"},
+  "S4.6": {"answer": "A", "confidence": "hi"},
+  "S4.7": {"answer": "D", "confidence": "hi"},
+  "S4.8": {"answer": "B", "confidence": "hi"},
+  "S4.9": {"answer": "C", "confidence": "hi"},
+  "S4.10": {"answer": "D", "confidence": "hi"}
+}
+```
+
+## FLAGS
+
+```json
+[
+  {
+    "item_id": "S1.20",
+    "reason": "Sono plausibili sia «li si deve usare», riferito ai modelli, sia «la si deve usare», riferito all'intelligenza artificiale."
+  },
+  {
+    "item_id": "S2.5",
+    "reason": "Sono grammaticalmente possibili sia «se vado» sia l'ipotesi «se andassi», in coppia con S2.6."
+  },
+  {
+    "item_id": "S2.6",
+    "reason": "Può essere «voglio» con «se vado» oppure «vorrei» con «se andassi»."
+  },
+  {
+    "item_id": "S2.13",
+    "reason": "Il contesto ammette sia «mi è mancato» sia l'imperfetto abituale «mi mancava»."
+  },
+  {
+    "item_id": "S2.15",
+    "reason": "Il pronome oggetto non è determinato in modo univoco: «mi ha disarmato» e «ci ha disarmati» sono entrambi plausibili."
+  },
+  {
+    "item_id": "W2",
+    "reason": "Le due comunicazioni e i relativi dati discordanti non sono riportati; il candidato deve inventare visita e informazioni."
+  }
+]
+```
+
+## WRITING CHECKS
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "120-140"
+  },
+  "W2": {
+    "self_contained": false,
+    "word_range_printed": true,
+    "word_range": "80-100",
+    "note": "Mancano il contenuto delle due comunicazioni e i dati concreti da confrontare."
+  }
+}
+```
+
+## ORAL CHECKS
+
+```json
+{
+  "O1": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "all_topics_self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```

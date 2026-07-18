@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "rapido",
+    "S3_OPT0_B": "lento",
+    "S3_OPT0_C": "debole",
+    "S3_OPTION_ROWS": "| 1. | acquisto | accesso | ascolto |\n| 2. | lavoro | pranzo | viaggio |\n| 3. | totale | reale | finale |\n| 4. | prenotazione | domanda | risposta |\n| 5. | prezzo | rimborso | pagamento |\n| 6. | bagagli | pagamenti | binari |\n| 7. | giorni | mesi | anni |\n| 8. | stazione | pagina | biglietteria |",
+    "S3_TEXT_WITH_GAPS": "L’assistenza digitale Trenitalia offre aiuto __(0)__ e immediato con chat e FAQ.\n\nQuando compri, la chat aiuta durante l’__(1)__ e nella gestione del __(2)__. Dà informazioni in tempo __(3)__. Puoi modificare una __(4)__ per cambiare viaggio, richiedere un __(5)__ per riavere soldi e ricevere aiuto sui __(6)__ se non puoi pagare.\n\nDal lunedì alla domenica, il servizio funziona tutti i __(7)__ dalle 8.00 alle 20.00. Per accedere, clicca sull’icona in fondo alla __(8)__.",
+    "T6_TITLE": "ASSISTENZA DIGITALE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «Quando compri» indica l’acquisto. 中文：compri 是明确线索。 |\n| S3.2 | C | La «gestione» riguarda il viaggio. 中文：Trenitalia 与 viaggio 对应。 |\n| S3.3 | B | L’espressione corretta è «informazioni in tempo reale». 中文：固定搭配。 |\n| S3.4 | A | Per «cambiare viaggio» si modifica una prenotazione. 中文：语义唯一。 |\n| S3.5 | B | «Riavere soldi» significa richiedere un rimborso. 中文：riavere soldi 是线索。 |\n| S3.6 | B | «Se non puoi pagare» indica i pagamenti. 中文：pagare 与 pagamenti 对应。 |\n| S3.7 | A | «Dal lunedì alla domenica» significa tutti i giorni. 中文：一周每天。 |\n| S3.8 | B | Il verbo «clicca» indica la pagina, non un luogo fisico. 中文：clicca 是明确线索。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "B",
+    "S3.7": "A",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "assistenza digitale",
+      "categoria": "locuzione nominale",
+      "zh": "数字客服",
+      "en": "digital assistance",
+      "esempio": "L’assistenza digitale Trenitalia offre aiuto __(0)__ e immediato con chat e FAQ."
+    },
+    {
+      "parola": "chat",
+      "categoria": "locuzione nominale",
+      "zh": "在线聊天",
+      "en": "chat",
+      "esempio": "L’assistenza digitale Trenitalia offre aiuto __(0)__ e immediato con chat e FAQ."
+    },
+    {
+      "parola": "FAQ",
+      "categoria": "sostantivo femminile invariabile",
+      "zh": "常见问题",
+      "en": "frequently asked questions",
+      "esempio": "L’assistenza digitale Trenitalia offre aiuto __(0)__ e immediato con chat e FAQ."
+    },
+    {
+      "parola": "icona",
+      "categoria": "sostantivo femminile",
+      "zh": "图标",
+      "en": "icon",
+      "esempio": "Per accedere, clicca sull’icona in fondo alla __(8)__."
+    },
+    {
+      "parola": "in fondo",
+      "categoria": "locuzione avverbiale",
+      "zh": "在底部",
+      "en": "at the bottom",
+      "esempio": "Per accedere, clicca sull’icona in fondo alla __(8)__."
+    }
+  ]
+}

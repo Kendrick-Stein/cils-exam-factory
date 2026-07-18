@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Viaggiapiccoli è fondato e curato da**\n\nA) Giulia Gardini ed Elena Marcon.\nB) Cristina Zagaria e Francesco De Rosa.\nC) Claudia Tirasso e Viviana Hutter.\n\n**2. Cristina Zagaria è specializzata in**\n\nA) letteratura per l’infanzia e turismo familiare.\nB) narrazione territoriale e fotografia.\nC) comunicazione e pedagogia creativa.\n\n**3. Da cinque anni Francesco De Rosa**\n\nA) lavora come illustratore.\nB) scrive libri per ragazzi.\nC) coordina gruppi in vacanze studio.\n\n**4. Nel 2022 Viaggiapiccoli diventa**\n\nA) una testata giornalistica.\nB) una casa editrice indipendente.\nC) un gruppo per vacanze studio.",
+    "T1_TEXT": "Viaggiapiccoli è fondato e curato dai giornalisti Cristina Zagaria e Francesco De Rosa.\n\nCristina Zagaria è giornalista e scrittrice per ragazzi, specializzata in letteratura per l’infanzia e turismo familiare.\n\nFrancesco De Rosa è giornalista, viaggiatore e fotografo, appassionato di narrazione territoriale. Da cinque anni coordina gruppi di ragazzi in vacanze studio, portando la sua esperienza di educatore nel progetto editoriale.\n\nDal 2021 Viaggiapiccoli è testata giornalistica. Dal 2022 è anche casa editrice indipendente.\n\nAccanto ai fondatori, una redazione strutturata con collaboratrici fisse specializzate.\n\nGiulia Gardini, giornalista. Elena Marcon, giornalista. Claudia Tirasso, esperta in comunicazione. Viviana Hutter, educatrice ed esperta di pedagogia creativa. Shape of Autism, genitori e viaggiatori. Elena Valli, illustratrice.",
+    "T1_TITLE": "CHI SIAMO"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice: \"fondato e curato dai giornalisti Cristina Zagaria e Francesco De Rosa\". 中文：创办人是 Cristina 和 Francesco。 |\n| L1.2 | A | Cristina è \"specializzata in letteratura per l’infanzia e turismo familiare\". 中文：她的专长是儿童文学和家庭旅游。 |\n| L1.3 | C | Francesco \"Da cinque anni coordina gruppi di ragazzi in vacanze studio\". 中文：他组织参加游学假期的青少年团体。 |\n| L1.4 | B | Il testo dice: \"Dal 2022 è anche casa editrice indipendente\". 中文：从 2022 年起，它也是一家独立出版社。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "scrittrice",
+      "categoria": "nome",
+      "zh": "女作家",
+      "en": "female writer",
+      "esempio": "Cristina Zagaria è giornalista e scrittrice per ragazzi, specializzata in letteratura per l’infanzia e turismo familiare."
+    },
+    {
+      "parola": "fotografo",
+      "categoria": "nome",
+      "zh": "摄影师",
+      "en": "photographer",
+      "esempio": "Francesco De Rosa è giornalista, viaggiatore e fotografo, appassionato di narrazione territoriale."
+    },
+    {
+      "parola": "vacanze studio",
+      "categoria": "locuzione nominale",
+      "zh": "游学假期",
+      "en": "study holidays",
+      "esempio": "Da cinque anni coordina gruppi di ragazzi in vacanze studio, portando la sua esperienza di educatore nel progetto editoriale."
+    },
+    {
+      "parola": "casa editrice",
+      "categoria": "locuzione nominale",
+      "zh": "出版社",
+      "en": "publishing house",
+      "esempio": "Dal 2022 è anche casa editrice indipendente."
+    },
+    {
+      "parola": "illustratrice",
+      "categoria": "nome",
+      "zh": "女插画家",
+      "en": "female illustrator",
+      "esempio": "Elena Valli, illustratrice."
+    }
+  ]
+}

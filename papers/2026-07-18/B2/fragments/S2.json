@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi Fabio e Nino *(considerare)* __considerano (0)__ il loro duetto un incontro speciale.\n\n**Com'è stato collaborare per voi?**\n\n**Nino D'Angelo:** Oggi continuo a *(preferire)* __(1)__ ascoltare un cantante da solo, ma penso che sia necessario che un duetto *(nascere)* __(2)__ in un momento speciale. Se non *(essere)* __(3)__ così, i duetti *(sembrare)* __(4)__ tutti uguali. Se, per ipotesi, io *(andare)* __(5)__ a vedere un cantante, *(volere)* __(6)__ sentire soltanto lui. Adesso, per me, un duetto *(essere)* __(7)__ una festa, un evento raro come un compleanno.\n\nFinora Arisa e Fabio *(accogliere)* __(8)__ ogni mia esitazione iniziale. All'inizio di questa collaborazione, mentre *(leggere)* __(9)__ nei loro occhi il dispiacere, io *(essere)* __(10)__ ancora titubante. Ieri *(ricredersi)* __(11)__: in questi mesi *(conoscere)* __(12)__ due persone magnifiche. In passato, ogni estate, mi *(mancare)* __(13)__ il tormentone estivo.\n\n**Fabio Rovazzi:** Finora Nino *(spendere)* __(14)__ parole incredibili e *(disarmare)* __(15)__ proprio me. Adesso io *(essere)* __(16)__ contento. Quando i tre artisti si sono riuniti in studio, il ritornello *(scrivere)* __(17)__ da me già cinque anni prima. Desideravo infatti collaborare con Arisa da cinque anni.\n\nQuando iniziò questa intervista, io *(sentire)* __(18)__ già Arisa cantare il ritornello il giorno precedente. Fu proprio al terzo ritornello che quel coro *(diventare)* __(19)__ un segnale fortissimo. Oggi avere Arisa e Nino a bordo *(essere)* __(20)__ un sogno.",
+    "T5_TITLE": "UN DUETTO NATO COME UNA FESTA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1–S2.2:** «continuo a» regge l'infinito, mentre «è necessario che» richiede il congiuntivo presente（结构明确限定动词形式）。\n- **S2.3–S2.6:** «Se non fosse» e «per ipotesi» rendono espliciti i due periodi ipotetici（明确的假设语境排除直陈式）。\n- **S2.8, S2.11–S2.12, S2.14–S2.15:** «finora», «ieri» e «in questi mesi» richiedono il passato prossimo; «proprio me» fissa l'oggetto di «ha disarmato»（时间标记和宾语均明确）。\n- **S2.13:** «in passato, ogni estate» indica un'abitudine e impone l'imperfetto «mancava»; il pronome «mi» è già nel testo（习惯性过去锁定未完成过去时，代词已给出）。\n- **S2.17–S2.19:** «cinque anni prima» forza il trapassato passivo; per S2.18 «quando iniziò» e «il giorno precedente» impongono l'anteriorità; «Fu proprio… che» segnala il passato remoto（先后关系均有明示标记）。",
+    "ANS_S2_ROWS": "| S2.1 | preferire | infinito presente | S2.11 | mi sono ricreduto | indicativo passato prossimo |\n| S2.2 | nasca | congiuntivo presente | S2.12 | ho conosciuto | indicativo passato prossimo |\n| S2.3 | fosse | congiuntivo imperfetto | S2.13 | mancava | indicativo imperfetto |\n| S2.4 | sembrerebbero | condizionale presente | S2.14 | ha speso | indicativo passato prossimo |\n| S2.5 | andassi | congiuntivo imperfetto | S2.15 | ha disarmato | indicativo passato prossimo |\n| S2.6 | vorrei | condizionale presente | S2.16 | sono | indicativo presente |\n| S2.7 | è | indicativo presente | S2.17 | era stato scritto | indicativo trapassato prossimo, passivo |\n| S2.8 | hanno accolto | indicativo passato prossimo | S2.18 | avevo sentito | indicativo trapassato prossimo |\n| S2.9 | leggevo | indicativo imperfetto | S2.19 | diventò | indicativo passato remoto |\n| S2.10 | ero | indicativo imperfetto | S2.20 | è | indicativo presente |"
+  },
+  "key": {
+    "S2.1": "preferire",
+    "S2.2": "nasca",
+    "S2.3": "fosse",
+    "S2.4": "sembrerebbero",
+    "S2.5": "andassi",
+    "S2.6": "vorrei",
+    "S2.7": "è",
+    "S2.8": "hanno accolto",
+    "S2.9": "leggevo",
+    "S2.10": "ero",
+    "S2.11": "mi sono ricreduto",
+    "S2.12": "ho conosciuto",
+    "S2.13": "mancava",
+    "S2.14": "ha speso",
+    "S2.15": "ha disarmato",
+    "S2.16": "sono",
+    "S2.17": "era stato scritto",
+    "S2.18": "avevo sentito || avevo già sentito",
+    "S2.19": "diventò",
+    "S2.20": "è"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "esitazione",
+      "categoria": "sostantivo",
+      "zh": "犹豫",
+      "en": "hesitation",
+      "esempio": "ogni mia esitazione iniziale"
+    },
+    {
+      "parola": "titubante",
+      "categoria": "aggettivo",
+      "zh": "犹豫不决的",
+      "en": "hesitant",
+      "esempio": "ancora titubante"
+    },
+    {
+      "parola": "tormentone estivo",
+      "categoria": "locuzione nominale",
+      "zh": "夏季热门歌曲",
+      "en": "summer hit",
+      "esempio": "il tormentone estivo"
+    },
+    {
+      "parola": "dispiacere",
+      "categoria": "sostantivo",
+      "zh": "遗憾；难过",
+      "en": "regret",
+      "esempio": "nei loro occhi il dispiacere"
+    },
+    {
+      "parola": "ritornello",
+      "categoria": "sostantivo",
+      "zh": "副歌",
+      "en": "chorus",
+      "esempio": "Fu proprio al terzo ritornello"
+    }
+  ]
+}

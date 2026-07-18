@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi uno spettacolo o un concerto al quale hai assistito o a cui ti piacerebbe assistere. Racconta dove si svolge, con chi vai, che cosa ti ha colpito o potrebbe colpirti e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Dovevi andare al cinema con un amico venerdì, ma non puoi più. Scrivigli un'email.",
+    "W2_REQ_1": "scusarti e spiegare perché non puoi andare;",
+    "W2_REQ_2": "proporre un altro giorno e un orario;",
+    "W2_REQ_3": "chiedere quale film preferisce vedere."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Lo scorso dicembre ho assistito a uno spettacolo teatrale organizzato dagli studenti della mia scuola di italiano. Sono andato con due compagni e ci siamo seduti vicino al palco. All'inizio ero curioso ma anche un po' preoccupato, perché pensavo di non capire tutte le battute. Invece gli attori parlavano chiaramente e la storia, divertente e semplice, raccontava la vita di una famiglia italiana. Mi ha colpito soprattutto la musica dal vivo, suonata da tre ragazzi durante i cambi di scena. Alla fine abbiamo incontrato gli attori e fatto alcune fotografie insieme. Questa serata è stata importante per me: ho usato l'italiano fuori dall'aula e ho scoperto che posso seguire uno spettacolo senza tradurre ogni parola.",
+    "MODEL_W1_PHRASES": "«Ho assistito a…»（我观看了……）; «All'inizio ero…»（起初我感到……）; «Mi ha colpito soprattutto…»（最令我印象深刻的是……）; «Alla fine…»（最后……）; «È stata importante per me perché…»（这对我很重要，因为……）",
+    "MODEL_W2": "Ciao Andrea,\n\nmi dispiace, ma venerdì non posso venire al cinema perché devo accompagnare mia sorella dal medico. Possiamo andarci sabato alle otto? Per me va bene anche domenica pomeriggio. Quale film preferisci vedere? A me piacerebbe una commedia, ma scegli pure tu. Scrivimi appena puoi, così compro i biglietti online.\n\nA presto,\nLuca",
+    "MODEL_W2_PHRASES": "«Mi dispiace, ma…»（很抱歉，但是……）; «Possiamo andarci…?»（我们可以……去吗？）; «Per me va bene anche…»（对我来说……也可以）; «Quale film preferisci vedere?»（你更想看哪部电影？）; «Scrivimi appena puoi»（你方便时尽快给我回信）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "spettacolo teatrale",
+      "categoria": "locuzione nominale",
+      "zh": "戏剧演出",
+      "en": "theatrical performance",
+      "esempio": "Lo scorso dicembre ho assistito a uno spettacolo teatrale organizzato dagli studenti della mia scuola di italiano."
+    },
+    {
+      "parola": "palco",
+      "categoria": "nome maschile",
+      "zh": "舞台",
+      "en": "stage",
+      "esempio": "Sono andato con due compagni e ci siamo seduti vicino al palco."
+    },
+    {
+      "parola": "battute",
+      "categoria": "nome femminile plurale",
+      "zh": "台词",
+      "en": "lines",
+      "esempio": "All'inizio ero curioso ma anche un po' preoccupato, perché pensavo di non capire tutte le battute."
+    },
+    {
+      "parola": "musica dal vivo",
+      "categoria": "locuzione nominale",
+      "zh": "现场音乐",
+      "en": "live music",
+      "esempio": "Mi ha colpito soprattutto la musica dal vivo, suonata da tre ragazzi durante i cambi di scena."
+    },
+    {
+      "parola": "biglietti online",
+      "categoria": "locuzione nominale",
+      "zh": "线上购买的票",
+      "en": "online tickets",
+      "esempio": "Scrivimi appena puoi, così compro i biglietti online."
+    }
+  ]
+}

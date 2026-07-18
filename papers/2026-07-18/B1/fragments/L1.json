@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Valentina Bivona, Marta de *I Cesaroni*",
+    "T1_TEXT": "A 6 anni Valentina Bivona ha capito di voler fare l'attrice e da allora non ha più abbandonato il suo sogno: il primo ruolo a 8 anni, poi lo studio della recitazione portato avanti insieme alla scuola, sempre con il sostegno della famiglia. Una carriera cresciuta rapidamente che l'ha portata oggi, diciannovenne, a recitare nel cast de *I Cesaroni - Il Ritorno*, dove interpreta il personaggio di Marta Cesaroni, figlia di Eva e Marco.\n\nHa raccontato la sua esperienza nella serie, la somiglianza con il personaggio e la sua vita fuori dal set: «Mi hanno sempre trattata come fossi parte della famiglia. A differenza di Marta, non sono stata un'adolescente combina guai».\n\n**Come sono arrivati I Cesaroni nella tua vita?**\n\nA casa mia guardare *I Cesaroni* la sera era una tradizione, la serie ha per me un grande bagaglio emotivo. Il provino per il ruolo di Marta è stato una catastrofe, sono arrivata con 45 minuti di ritardo perché ero nel posto sbagliato. È stato proprio un provino in pieno stile Cesaroni.\n\n**Hai sentito la responsabilità di questo ruolo, immaginato per anni dai fan di Eva e Marco?**\n\nPer preparare Marta ho riguardato le vecchie stagioni e ho cercato di fare un mix tra mamma Eva e papà Marco, tra la sua famiglia americana e i Cesaroni. Ho sentito una grande responsabilità per questo ruolo e ho avuto un po' di tensione, ma sul set c'è un'atmosfera veramente serena con cui si riesce a lavorare al meglio.\n\n**Te lo immaginavi così?**\n\nImmaginavo che si volessero bene proprio come appare in tv, però non pensavo così tanto. Mi hanno sorpreso in modo positivo. Non mi sono mai sentita «quella nuova» e tutti mi hanno sempre trattata come se fossi da sempre parte della famiglia.\n\n**Ti ci rivedi in Marta?**\n\nCi assomigliamo molto dal punto di vista della gestione dei sentimenti, anche se lei è più piccola di me e questo mi ha permesso di tornare ad alcune «prime volte» che ho vissuto. Siamo invece molto diverse dal punto di vista del combinare guai, io sono stata un'adolescente più tranquilla perché avevo fatto un patto con la mia famiglia.\n\n**Cioè?**\n\nDovevo andare bene a scuola così potevo continuare a studiare recitazione. Fin da piccolissima mi sono innamorata di questo mondo e ho anche avuto la fortuna di iniziare a lavorare. Ho sempre studiato recitazione continuando ad andare a scuola, che veniva prima di tutto. Sono figlia unica e i miei genitori sono separati, vivono entrambi nelle Marche. Siamo una famiglia allargata a modo nostro.",
+    "L1_ITEMS": "**1. Valentina ha ottenuto il suo primo ruolo all'età di**\n\nA) sei anni.  \nB) sette anni.  \nC) otto anni.  \nD) diciannove anni.\n\n**2. Valentina considera il provino per il ruolo di Marta una catastrofe perché**\n\nA) non conosceva bene la serie.  \nB) era arrivata nel posto sbagliato.  \nC) aveva dimenticato l'orario.  \nD) non aveva preparato il personaggio.\n\n**3. Per prepararsi a interpretare Marta, Valentina**\n\nA) ha parlato con i fan di Eva e Marco.  \nB) ha studiato la vita delle famiglie americane.  \nC) ha chiesto consigli ai propri genitori.  \nD) ha rivisto le stagioni precedenti della serie.\n\n**4. Quando ha iniziato a lavorare sul set, Valentina**\n\nA) si è sentita subito accolta dal gruppo.  \nB) ha trovato un'atmosfera piena di tensione.  \nC) si è sentita a lungo «quella nuova».  \nD) ha preferito lavorare senza gli altri attori.\n\n**5. Valentina dice di essere simile a Marta soprattutto nel modo di**\n\nA) vivere con la propria famiglia.  \nB) affrontare gli impegni scolastici.  \nC) gestire i propri sentimenti.  \nD) combinare guai con gli amici.\n\n**6. Rispetto a Marta, durante l'adolescenza Valentina era**\n\nA) più giovane.  \nB) più tranquilla.  \nC) più indipendente.  \nD) più distratta.\n\n**7. Il patto di Valentina con la famiglia prevedeva che lei**\n\nA) iniziasse a lavorare prima di studiare recitazione.  \nB) lasciasse la scuola dopo aver ottenuto un ruolo.  \nC) studiasse recitazione soltanto durante le vacanze.  \nD) andasse bene a scuola per continuare a studiare recitazione."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | C | Il testo dice: «il primo ruolo a 8 anni». |\n| L1.2 | B | È arrivata in ritardo «perché ero nel posto sbagliato». |\n| L1.3 | D | Per preparare Marta afferma: «ho riguardato le vecchie stagioni». |\n| L1.4 | A | Dice: «Non mi sono mai sentita “quella nuova”» e tutti l'hanno trattata come parte della famiglia. 中文：重点是她从一开始就被接纳。 |\n| L1.5 | C | Le due ragazze si assomigliano «dal punto di vista della gestione dei sentimenti». |\n| L1.6 | B | Valentina si definisce «un'adolescente più tranquilla». |\n| L1.7 | D | Il patto era: «andare bene a scuola» per poter «continuare a studiare recitazione». |"
+  },
+  "key": {
+    "L1.1": "C",
+    "L1.2": "B",
+    "L1.3": "D",
+    "L1.4": "A",
+    "L1.5": "C",
+    "L1.6": "B",
+    "L1.7": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "bagaglio emotivo",
+      "categoria": "locuzione nominale",
+      "zh": "情感积淀",
+      "en": "emotional baggage",
+      "esempio": "la serie ha per me un grande bagaglio emotivo"
+    },
+    {
+      "parola": "provino",
+      "categoria": "nome maschile",
+      "zh": "试镜",
+      "en": "audition",
+      "esempio": "Il provino per il ruolo di Marta è stato una catastrofe"
+    },
+    {
+      "parola": "sul set",
+      "categoria": "locuzione",
+      "zh": "在片场",
+      "en": "on set",
+      "esempio": "sul set c'è un'atmosfera veramente serena"
+    },
+    {
+      "parola": "combinare guai",
+      "categoria": "locuzione verbale",
+      "zh": "闯祸",
+      "en": "to get into trouble",
+      "esempio": "Siamo invece molto diverse dal punto di vista del combinare guai"
+    },
+    {
+      "parola": "famiglia allargata",
+      "categoria": "locuzione nominale",
+      "zh": "重组家庭",
+      "en": "blended family",
+      "esempio": "Siamo una famiglia allargata a modo nostro"
+    }
+  ]
+}

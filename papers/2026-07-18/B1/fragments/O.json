@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_ARGOMENTI": "**1.** Il mezzo di trasporto che usi più spesso: descrivi il tuo percorso abituale e spiega che cosa ti piace o non ti piace.\n\n**2.** Un'attività pratica che hai imparato di recente: racconta come hai cominciato, chi ti ha aiutato e quali difficoltà hai incontrato.\n\n**3.** Una giornata libera da organizzare con alcuni amici: proponi un programma, confronta diverse idee e spiega le tue preferenze.\n\n**4.** Fare acquisti nei negozi del quartiere oppure online: esprimi la tua opinione e parla dei vantaggi e degli svantaggi delle due possibilità.",
+    "O2_ARGOMENTI": "**1.** Una persona che ti ha insegnato qualcosa di importante: descrivila e racconta che cosa hai imparato da lei.\n\n**2.** Una giornata senza telefono: spiega come la organizzeresti, quali attività faresti e quali difficoltà potresti avere.\n\n**3.** Un luogo della tua città o del tuo paese che consiglieresti a un visitatore: descrivilo e spiega perché vale la pena andarci.\n\n**4.** Una piccola decisione che ha migliorato una tua abitudine quotidiana: racconta perché l'hai presa e quali risultati hai ottenuto."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**Argomento n. 1 — Il mezzo di trasporto abituale**\n\n*Esaminatore:* Quale mezzo di trasporto usa più spesso e per quale percorso?\n\n*Candidato:* Uso soprattutto l'autobus per andare al lavoro. La fermata è vicino a casa e il viaggio dura circa venticinque minuti. Di solito ascolto musica oppure guardo il panorama, quindi il tempo passa abbastanza velocemente.\n\n*Esaminatore:* Quali sono gli aspetti positivi e negativi?\n\n*Candidato:* Il vantaggio principale è che non devo cercare parcheggio e posso rilassarmi. Però nelle ore di punta l'autobus è molto affollato e qualche volta arriva in ritardo. Se il tempo è bello, preferisco tornare a piedi: impiego di più, ma faccio movimento.\n\n**Argomento n. 2 — Un'attività pratica imparata di recente**\n\n*Esaminatore:* Quale attività ha imparato e come ha cominciato?\n\n*Candidato:* Ho imparato a preparare il pane in casa. Ho cominciato due mesi fa, dopo aver visto mia zia lavorare l'impasto. Lei mi ha spiegato le fasi principali e mi ha dato una ricetta semplice da seguire.\n\n*Esaminatore:* Ha incontrato qualche difficoltà?\n\n*Candidato:* All'inizio non riuscivo a capire quando l'impasto era pronto e il primo pane era troppo duro. Poi ho preso confidenza e ho imparato a rispettare i tempi di riposo. Adesso lo preparo quasi ogni fine settimana e provo ingredienti diversi.\n\n**Argomento n. 3 — Una giornata libera con gli amici**\n\n*Esaminatore:* Come organizzerebbe una giornata libera con i suoi amici?\n\n*Candidato:* Proporrei di incontrarci verso le dieci e di fare una passeggiata in un parco fuori città. Potremmo portare qualcosa da mangiare e pranzare insieme all'aperto. Sarebbe un programma economico e adatto a tutti.\n\n*Esaminatore:* E se qualcuno preferisse un'altra attività?\n\n*Candidato:* Ascolterei le altre proposte e cercherei un compromesso. Per esempio, dopo il parco potremmo andare al cinema oppure fermarci in centro per un aperitivo. Preferisco non riempire troppo la giornata, perché voglio avere tempo per parlare con calma.\n\n**Argomento n. 4 — Acquisti in quartiere oppure online**\n\n*Esaminatore:* Preferisce comprare nei negozi del quartiere oppure online?\n\n*Candidato:* Per i vestiti preferisco i negozi del quartiere, perché posso provare i capi e chiedere consiglio. Inoltre mi piace conoscere i commercianti e sostenere le attività vicine a casa.\n\n*Esaminatore:* In quali casi sceglie invece gli acquisti online?\n\n*Candidato:* Compro online quando cerco un prodotto difficile da trovare o quando ho poco tempo. È comodo confrontare i prezzi, ma bisogna controllare bene le condizioni di consegna. A volte l'oggetto non corrisponde alle fotografie e restituirlo diventa complicato.",
+    "MODEL_O1_PHRASES": "«Il vantaggio principale è che...»（主要优点是……）; «All'inizio..., poi...»（起初……，后来……）; «Proporrei di...»（我会建议……）; «Cercherei un compromesso»（我会寻求折中方案）; «Invece scelgo...»（相反，我选择……）",
+    "MODEL_O2": "**Argomento n. 1 — Una persona che mi ha insegnato qualcosa**\n\nLa persona che mi ha insegnato qualcosa di importante è il mio primo allenatore di pallavolo, Marco. L'ho conosciuto quando avevo quattordici anni ed ero molto timido. Durante gli allenamenti avevo paura di sbagliare e spesso lasciavo decidere gli altri. Marco non si limitava a spiegare le regole del gioco: mi chiedeva di parlare con i compagni e di provare anche le azioni più difficili. Quando commettevo un errore, non mi criticava davanti alla squadra. Mi mostrava con calma come correggerlo e mi invitava a tentare di nuovo. Grazie a lui ho capito che un errore non è una sconfitta, ma un'occasione per imparare. Questa idea mi è stata utile anche a scuola e, più tardi, nel lavoro. Oggi non gioco più ogni settimana, ma ricordo ancora il suo consiglio: bisogna prepararsi seriamente senza pretendere di essere perfetti. Marco mi ha insegnato soprattutto ad avere fiducia nelle mie capacità.\n\n**Argomento n. 2 — Una giornata senza telefono**\n\nSe dovessi passare una giornata senza telefono, la organizzerei in anticipo per non avere problemi. Prima avviserei la mia famiglia e gli amici, così saprebbero come contattarmi in caso di necessità. La mattina farei una lunga passeggiata e porterei con me una macchina fotografica, invece di usare quella del cellulare. Poi preparerei il pranzo con calma e leggerei un libro che ho iniziato da poco. Nel pomeriggio incontrerei un amico in un luogo e a un'ora già stabiliti. La difficoltà maggiore sarebbe orientarmi senza le mappe e controllare gli orari dei mezzi pubblici. Per questo scriverei le informazioni importanti su un foglio. Probabilmente mi verrebbe spesso voglia di leggere i messaggi, soprattutto nei momenti vuoti. Tuttavia credo che la pausa digitale mi aiuterebbe a prestare più attenzione alle persone e a ciò che mi circonda. Alla fine della giornata vorrei capire quali funzioni del telefono sono davvero necessarie.\n\n**Argomento n. 3 — Un luogo da consigliare**\n\nA un visitatore consiglierei il giardino pubblico vicino alla vecchia stazione della mia città. Non è il luogo più famoso del centro, ma è piacevole e facile da raggiungere a piedi o in autobus. All'ingresso c'è un viale con alberi molto alti; più avanti si trovano un piccolo lago, alcune panchine e un chiosco. La mattina molte persone corrono, mentre nel pomeriggio le famiglie accompagnano i bambini nell'area giochi. Mi piace andarci verso il tramonto, quando la luce cambia e il rumore del traffico sembra lontano. Il giardino vale la pena perché permette di osservare la vita quotidiana della città, non soltanto i monumenti. Inoltre, il sabato ospita un piccolo mercato di prodotti locali. Dopo la passeggiata suggerirei di bere qualcosa al chiosco e poi di visitare il quartiere vicino, dove ci sono botteghe e librerie. È una tappa semplice, economica e adatta a persone di ogni età.\n\n**Argomento n. 4 — Una piccola decisione utile**\n\nUna piccola decisione che ha migliorato le mie giornate è stata preparare la sera tutto ciò che mi serve per la mattina. Prima cercavo i vestiti, le chiavi e i documenti pochi minuti prima di uscire. Di conseguenza arrivavo spesso in ritardo e cominciavo la giornata con molta agitazione. Ho deciso di cambiare abitudine dopo aver perso un autobus importante. Adesso, prima di andare a dormire, scelgo i vestiti, metto le chiavi accanto alla porta e controllo gli impegni del giorno successivo. Questa breve preparazione richiede meno di dieci minuti. Il risultato principale è che al mattino sono più tranquillo e posso fare colazione senza guardare continuamente l'orologio. Inoltre dimentico meno oggetti a casa. Non riesco a seguire questa abitudine tutte le sere, soprattutto quando torno tardi, ma la rispetto quasi sempre nei giorni di lavoro. È un cambiamento semplice che mi ha fatto capire quanto sia utile organizzare in anticipo le piccole cose.",
+    "MODEL_O2_PHRASES": "«La persona che mi ha insegnato...»（教会我的人……）; «La difficoltà maggiore sarebbe...»（最大的困难会是……）; «Vale la pena perché...»（值得，因为……）; «Di conseguenza...»（因此……）; «Il risultato principale è che...»（主要结果是……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "ore di punta",
+      "categoria": "locuzione nominale",
+      "zh": "高峰时段",
+      "en": "rush hour",
+      "esempio": "Però nelle ore di punta l'autobus è molto affollato"
+    },
+    {
+      "parola": "preso confidenza",
+      "categoria": "locuzione verbale",
+      "zh": "逐渐熟悉；掌握",
+      "en": "to become familiar",
+      "esempio": "Poi ho preso confidenza e ho imparato a rispettare i tempi di riposo"
+    },
+    {
+      "parola": "compromesso",
+      "categoria": "nome maschile",
+      "zh": "折中方案",
+      "en": "compromise",
+      "esempio": "Ascolterei le altre proposte e cercherei un compromesso"
+    },
+    {
+      "parola": "pausa digitale",
+      "categoria": "locuzione nominale",
+      "zh": "数字设备休息期",
+      "en": "digital break",
+      "esempio": "la pausa digitale mi aiuterebbe a prestare più attenzione alle persone"
+    },
+    {
+      "parola": "in anticipo",
+      "categoria": "locuzione avverbiale",
+      "zh": "提前",
+      "en": "in advance",
+      "esempio": "quanto sia utile organizzare in anticipo le piccole cose"
+    }
+  ]
+}

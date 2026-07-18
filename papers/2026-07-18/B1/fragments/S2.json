@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "INTERVISTA A RAFFAELE ALAJMO",
+    "S2_TEXT_WITH_GAPS": "Oggi Raffaele Alajmo *(raccontare)* __racconta (0)__ la visita al Noma.\n\n**Ha visto l’inchiesta?**\n\nMentre *(leggere)* __(1)__ l’inchiesta, dubitavo. Oggi per me René *(essere)* __(2)__ uno chef che conosco e stimo: io *(conoscere)* __(3)__ René e *(stimare)* __(4)__ René.\n\n**Conosce il Noma?**\n\nSono stato al Noma ad agosto scorso. Mentre *(essere)* __(5)__ lì, René e io *(salutarsi)* __(6)__ all’inizio; a fine servizio io *(rimanere)* __(7)__. Mentre restavo, l’atmosfera *(essere)* __(8)__ serena. Ogni volta che entravamo in una sala, io *(vedere)* __(9)__ persone orgogliose. Mentre le osservavo, tutti *(lavorare)* __(10)__.\n\n**Cosa pensa degli abusi?**\n\nFinora René *(ammettere)* __(11)__ gli episodi e *(scusarsi)* __(12)__. Al nostro primo saluto, in quel preciso istante, io non *(percepire)* __(13)__ tensioni.\n\n**Perché se ne parla?**\n\nAdesso tutti *(parlare)* __(14)__. Se non ci fosse una denuncia, parlarne non *(avere)* __(15)__ senso. Oggi queste storie *(contenere)* __(16)__ verità, ma io *(credere)* __(17)__ che ci siano esagerazioni.\n\n**Cosa rappresenta?**\n\nOggi il Noma *(rappresentare)* __(18)__ un modello in armonia con l’ambiente. Al termine della visita, in quel preciso istante, io *(vedere)* __(19)__ il Noma come un’opportunità per la Danimarca. In futuro *(rimanere)* __(20)__ un modello importante."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | leggevo | indicativo imperfetto | 11 | ha ammesso | indicativo passato prossimo |\n| 2 | è | indicativo presente | 12 | si è scusato | indicativo passato prossimo |\n| 3 | conosco | indicativo presente | 13 | ho percepito | indicativo passato prossimo |\n| 4 | stimo | indicativo presente | 14 | parlano | indicativo presente |\n| 5 | ero | indicativo imperfetto | 15 | avrebbe | condizionale presente |\n| 6 | ci siamo salutati | indicativo passato prossimo | 16 | contengono | indicativo presente |\n| 7 | sono rimasto | indicativo passato prossimo | 17 | credo | indicativo presente |\n| 8 | era | indicativo imperfetto | 18 | rappresenta | indicativo presente |\n| 9 | vedevo | indicativo imperfetto | 19 | ho visto | indicativo passato prossimo |\n| 10 | lavoravano | indicativo imperfetto | 20 | rimarrà | indicativo futuro semplice |",
+    "ANS_S2_NOTES": "- **S2.1–S2.2:** «Mentre» lega «leggevo» al dubbio in corso; «Oggi» fissa invece il presente «è» senza alcun clitico implicito. 中文：过去背景与当前判断分开。\n- **S2.6–S2.7:** «Ad agosto scorso» e la sequenza «all’inizio / a fine servizio» fissano eventi conclusi; ausiliare e participio restano nello stesso spazio. 中文：明确完成的过去事件。\n- **S2.9:** «Ogni volta che entravamo» presenta una percezione ripetuta e impone l’imperfetto. 中文：反复发生的过去背景。\n- **S2.13 e S2.19:** «In quel preciso istante» rende puntuali le due percezioni e impone il passato prossimo. 中文：明确的瞬时过去事件。\n- **S2.15:** «Se non ci fosse» introduce esplicitamente un’ipotesi e impone il condizionale «avrebbe». 中文：显式假设条件。"
+  },
+  "key": {
+    "S2.1": "leggevo",
+    "S2.2": "è",
+    "S2.3": "conosco",
+    "S2.4": "stimo",
+    "S2.5": "ero",
+    "S2.6": "ci siamo salutati",
+    "S2.7": "sono rimasto",
+    "S2.8": "era",
+    "S2.9": "vedevo",
+    "S2.10": "lavoravano",
+    "S2.11": "ha ammesso",
+    "S2.12": "si è scusato",
+    "S2.13": "ho percepito",
+    "S2.14": "parlano",
+    "S2.15": "avrebbe",
+    "S2.16": "contengono",
+    "S2.17": "credo",
+    "S2.18": "rappresenta",
+    "S2.19": "ho visto",
+    "S2.20": "rimarrà"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "inchiesta",
+      "categoria": "sostantivo femminile",
+      "zh": "调查报道",
+      "en": "investigation",
+      "esempio": "Oggi per me René è uno chef che conosco e stimo"
+    },
+    {
+      "parola": "a fine servizio",
+      "categoria": "locuzione avverbiale",
+      "zh": "服务结束时",
+      "en": "at the end of service",
+      "esempio": "a fine servizio io sono rimasto con il team."
+    },
+    {
+      "parola": "tensioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "紧张气氛",
+      "en": "tensions",
+      "esempio": "Al nostro primo saluto, in quel preciso istante, io non ho percepito tensioni."
+    },
+    {
+      "parola": "esagerazioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "夸大之处",
+      "en": "exaggerations",
+      "esempio": "Oggi queste storie contengono verità, ma io credo che ci siano esagerazioni."
+    },
+    {
+      "parola": "in armonia con",
+      "categoria": "locuzione preposizionale",
+      "zh": "与……和谐一致",
+      "en": "in harmony with",
+      "esempio": "Oggi il Noma rappresenta un modello in armonia con l’ambiente."
+    }
+  ]
+}
