@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione che promuove la vita di quartiere. Hai partecipato a una giornata in cui il cortile inutilizzato di una scuola è stato trasformato in un piccolo giardino. Scrivi un articolo in cui racconti l'esperienza, valuti i risultati e le difficoltà e proponi come coinvolgere più abitanti nelle prossime attività.",
+    "W2_PROMPT": "Hai acquistato online una tessera annuale per le piscine comunali, ma sulla tua carta risultano due addebiti e la tessera non è ancora attiva. Scrivi un'e-mail formale all'Ufficio Sport del Comune.",
+    "W2_REQ_1": "indicare la data dell'acquisto, il numero dell'ordine e il problema riscontrato;",
+    "W2_REQ_2": "chiedere l'attivazione della tessera e il rimborso del pagamento duplicato;",
+    "W2_REQ_3": "domandare entro quando sarà risolto il problema e se nel frattempo puoi accedere alla piscina mostrando la ricevuta."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato ho partecipato a una giornata organizzata per trasformare il cortile inutilizzato di una scuola in un piccolo giardino. Al mattino abbiamo tolto le erbacce, preparato le aiuole e piantato erbe aromatiche insieme ad alcuni studenti. Mi ha colpito la collaborazione tra persone di età diverse: chi aveva esperienza spiegava agli altri come lavorare senza danneggiare le piante. Il risultato è accogliente e potrà diventare uno spazio per leggere o incontrarsi. Non tutto, però, ha funzionato bene. Mancavano guanti per molti volontari e le istruzioni iniziali erano poco chiare, quindi abbiamo perso tempo. Per le prossime attività proporrei di raccogliere le iscrizioni in anticipo e di affidare a ogni gruppo un compito preciso. Inviterei anche i negozi della zona a donare materiali: così più abitanti potrebbero sentirsi coinvolti nel progetto.",
+    "MODEL_W1_PHRASES": "Mi ha colpito…（……给我留下了深刻印象）; Non tutto, però, ha funzionato bene.（不过，并非一切都进展顺利。）; Per le prossime attività proporrei di…（对于今后的活动，我建议……）; sentirsi coinvolti nel progetto（感到自己参与了这个项目）",
+    "MODEL_W2": "Gentile Ufficio Sport,\n\nil 17 luglio ho acquistato online la tessera annuale per le piscine comunali, ordine 4582. Sulla mia carta risultano due addebiti di 120 euro, mentre la tessera appare ancora inattiva. Chiedo pertanto l'attivazione del servizio e il rimborso del pagamento duplicato. Potreste indicarmi entro quando saranno completate queste operazioni? Vorrei inoltre sapere se, nell'attesa, posso accedere alla piscina mostrando la ricevuta allegata.\n\nResto a disposizione per eventuali verifiche e attendo un vostro riscontro.\n\nCordiali saluti,\nDavide Moretti",
+    "MODEL_W2_PHRASES": "Sulla mia carta risultano…（我的银行卡账单上显示……）; Chiedo pertanto…（因此，我请求……）; Potreste indicarmi entro quando…?（您能否告知我最迟何时……？）; Resto a disposizione per eventuali verifiche.（如需核查，我愿意提供协助。）; attendo un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "erbe aromatiche",
+      "categoria": "locuzione nominale",
+      "zh": "香草植物",
+      "en": "aromatic herbs",
+      "esempio": "Al mattino abbiamo tolto le erbacce, preparato le aiuole e piantato erbe aromatiche insieme ad alcuni studenti."
+    },
+    {
+      "parola": "raccogliere le iscrizioni in anticipo",
+      "categoria": "locuzione verbale",
+      "zh": "提前收集报名信息",
+      "en": "to collect registrations in advance",
+      "esempio": "Per le prossime attività proporrei di raccogliere le iscrizioni in anticipo e di affidare a ogni gruppo un compito preciso."
+    },
+    {
+      "parola": "sentirsi coinvolti nel progetto",
+      "categoria": "locuzione verbale",
+      "zh": "感到自己参与了这个项目",
+      "en": "to feel involved in the project",
+      "esempio": "Inviterei anche i negozi della zona a donare materiali: così più abitanti potrebbero sentirsi coinvolti nel progetto."
+    },
+    {
+      "parola": "pagamento duplicato",
+      "categoria": "locuzione nominale",
+      "zh": "重复付款",
+      "en": "duplicate payment",
+      "esempio": "Chiedo pertanto l'attivazione del servizio e il rimborso del pagamento duplicato."
+    },
+    {
+      "parola": "ricevuta allegata",
+      "categoria": "locuzione nominale",
+      "zh": "随附的收据",
+      "en": "attached receipt",
+      "esempio": "Vorrei inoltre sapere se, nell'attesa, posso accedere alla piscina mostrando la ricevuta allegata."
+    }
+  ]
+}

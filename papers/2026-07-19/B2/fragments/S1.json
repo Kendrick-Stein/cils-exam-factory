@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__Un (0)__ ritrovamento eccezionale e una tecnologia in grado di osservare i reperti, senza danneggiar__(1)__, hanno confermato: gli antenati dei mammiferi deponevano uova. Proprio __(2)__ strategia permise __(3)__ di sopravvivere a un periodo difficile della storia del __(4)__ Pianeta.\n\nÈ stato ritrovato un uovo fossile contenente un embrione di Lystrosaurus, un terapside __(5)__ sopravvisse all'estinzione di massa del Permiano-Triassico.\n\nÈ la prima volta __(6)__ i paleontologi hanno una prova del fatto __(7)__ l'oviparità era la strategia riproduttiva tra gli antenati dei mammiferi. L'oviparità è il tipo di riproduzione __(8)__ la crescita dell'embrione termina non nel corpo materno, ma fuori da __(9)__.\n\nIl fossile era stato trovato nel Bacino di Karoo, in Sudafrica, nel 2008. Gli autori erano gli stessi __(10)__ già allora sospettavano che quella formazione nodulare in pietra potesse contenere un esemplare di Lystrosaurus rannicchiato su __(11)__. All'epoca non esisteva una tecnologia __(12)__ potesse guardare all'interno del fossile senza distrugger__(13)__.\n\nIl guscio dell'uovo di Lystrosaurus doveva essere molle e flessibile, come __(14)__ delle uova di ornitorinco e di echidna, animali __(15)__ sono mammiferi __(16)__ depongono uova. Diversi erano __(17)__ delle uova degli uccelli: mineralizzati. La composizione mineralizzata __(18)__ rende più facili da conservare. Al contrario, la morbidezza e la flessibilità del guscio di Lystrosaurus erano caratteristiche. __(19)__ caratteristiche spiegano perché reperti di __(20)__ tipo siano stati rari.",
+    "T4_TITLE": "GLI ANTENATI DEI MAMMIFERI DEPONEVANO UOVA"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.5, S1.12, S1.15 e S1.16:** «che» può essere sostituito da un relativo concordato: «il quale», «la quale» o «i quali». 中文：关系代词要与先行词配合。\n- **S1.6:** dopo «la prima volta» sono accettati sia «che» sia «in cui». 中文：两种关系结构都自然。\n- **S1.8:** «in cui» può essere sostituito da «nella quale», concordato con «riproduzione». 中文：介词关系代词需与先行词一致。\n- **S1.9:** «esso» e «questo» rinviano entrambi al «corpo materno». 中文：两种代词均指母体。\n- **S1.11:** «se stesso» e «sé stesso» sono entrambe grafie accettate. 中文：重读代词可带重音。",
+    "ANS_S1_ROWS": "| S1.1 | li | S1.11 | se stesso || sé stesso |\n| S1.2 | questa | S1.12 | che || la quale |\n| S1.3 | loro | S1.13 | lo |\n| S1.4 | nostro | S1.14 | quello |\n| S1.5 | che || il quale | S1.15 | i quali || che |\n| S1.6 | che || in cui | S1.16 | che || i quali |\n| S1.7 | che | S1.17 | quelli |\n| S1.8 | in cui || nella quale | S1.18 | li |\n| S1.9 | esso || questo | S1.19 | Queste |\n| S1.10 | che | S1.20 | questo |"
+  },
+  "key": {
+    "S1.1": "li",
+    "S1.2": "questa",
+    "S1.3": "loro",
+    "S1.4": "nostro",
+    "S1.5": "che || il quale",
+    "S1.6": "che || in cui",
+    "S1.7": "che",
+    "S1.8": "in cui || nella quale",
+    "S1.9": "esso || questo",
+    "S1.10": "che",
+    "S1.11": "se stesso || sé stesso",
+    "S1.12": "che || la quale",
+    "S1.13": "lo",
+    "S1.14": "quello",
+    "S1.15": "i quali || che",
+    "S1.16": "che || i quali",
+    "S1.17": "quelli",
+    "S1.18": "li",
+    "S1.19": "Queste",
+    "S1.20": "questo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ritrovamento",
+      "categoria": "nome maschile",
+      "zh": "发现；出土物",
+      "en": "discovery; find",
+      "esempio": "ritrovamento eccezionale"
+    },
+    {
+      "parola": "estinzione di massa",
+      "categoria": "locuzione nominale",
+      "zh": "大灭绝",
+      "en": "mass extinction",
+      "esempio": "estinzione di massa del Permiano-Triassico"
+    },
+    {
+      "parola": "oviparità",
+      "categoria": "nome femminile",
+      "zh": "卵生",
+      "en": "oviparity",
+      "esempio": "L'oviparità è il tipo di riproduzione"
+    },
+    {
+      "parola": "formazione nodulare",
+      "categoria": "locuzione nominale",
+      "zh": "结节状构造",
+      "en": "nodular formation",
+      "esempio": "formazione nodulare in pietra"
+    },
+    {
+      "parola": "guscio",
+      "categoria": "nome maschile",
+      "zh": "壳",
+      "en": "shell",
+      "esempio": "Il guscio dell'uovo di Lystrosaurus"
+    }
+  ]
+}

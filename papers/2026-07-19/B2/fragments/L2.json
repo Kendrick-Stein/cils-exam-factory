@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "ISCRIZIONE ALLE SCUOLE DELL'INFANZIA",
+    "T2_TEXT": "**A chi è rivolto**\n\nIl servizio è rivolto alle bambine e ai bambini nati negli anni 2021, 2022, 2023 e nati dal 1° gennaio al 30 aprile 2024 (fino al 31 marzo 2024 per le scuole comunali).\n\nLa domanda può essere presentata da genitori, persone affidatarie, tutrici o tutori.\n\n**Descrizione**\n\nIl servizio consente di presentare la domanda di iscrizione per la frequenza alle scuole dell'infanzia comunali, statali e convenzionate e di gestire tutte le fasi successive per l'accettazione del posto attribuito o per la rinuncia.\n\nPer l'anno scolastico 2026/2027 la domanda, per essere considerata “nei termini”, deve essere inviata dalle ore 8:00 del 13 gennaio 2026 alle ore 20:00 del 21 febbraio 2026.\n\nSi precisa che inviare la domanda per primi non dà priorità di accesso al servizio. Le domande inviate dal 22 febbraio al 18 dicembre 2026 sono collocate in coda alla graduatoria definitiva. La domanda di iscrizione si presenta esclusivamente online accedendo al servizio con credenziali SPID o CIE.\n\n**Come fare**\n\nLa domanda di iscrizione deve essere compilata utilizzando il modulo online riportato in “Accedi al servizio”. Non verranno considerate valide le domande presentate in forme diverse da quella online. Si possono indicare in ordine di preferenza fino ad un massimo di 6 scuole, tra comunali, statali e convenzionate.\n\nNelle domande di iscrizione che riportano condizioni di priorità, quali la condizione di disabilità, il disagio sociale o gravi problemi di salute della bambina o del bambino, devono essere inserite almeno 3 preferenze.\n\n**Cosa serve**\n\n- le credenziali SPID o la credenziale CIE;\n- un numero di cellulare della rete italiana;\n- per le famiglie/genitori non residenti a Torino: codici fiscali e i dati anagrafici di tutti i componenti del nucleo familiare della bambina o del bambino;\n- per dichiarazioni riguardanti lo stato di gravidanza della madre, disabilità o gravi problemi di salute della bambina o del bambino e gravi problemi di salute di un componente del nucleo familiare: documentazione attestante la condizione dichiarata in formato elettronico (PDF o scansione).\n\nPer le famiglie residenti a Torino sono precompilati i dati anagrafici di tutti i componenti del nucleo della bambina o del bambino.\n\n**Tempi e scadenze**\n\nLa graduatoria provvisoria delle domande presentate “nei termini”, ove è indicato il punteggio e non l'assegnazione dei posti, viene pubblicata il 12 marzo 2026.\n\nChi ritiene che il punteggio assegnato non sia stato attribuito correttamente in base a quanto dichiarato, o alla documentazione prodotta, può presentare una domanda di revisione punteggio entro il 22 marzo 2026 tramite la compilazione di apposito modulo, utilizzando le credenziali SPID o CIE. In alternativa sarà possibile presentare richiesta di revisione presso uno Sportello Iscrizioni, previa prenotazione.\n\nIl 9 aprile 2026 viene pubblicata la graduatoria definitiva, suddivisa per scuola, nella quale è indicata l'assegnazione dei posti con la dicitura “Ammesso”.",
+    "L2_ITEMS": "1. I bambini nati nell'aprile 2024 possono essere iscritti anche alle scuole comunali. Vero ○ Falso ○\n\n2. Oltre ai genitori, anche una persona affidataria può presentare la domanda. Vero ○ Falso ○\n\n3. Il servizio permette sia di accettare il posto assegnato sia di rinunciarvi. Vero ○ Falso ○\n\n4. Per risultare presentata nei termini, la domanda deve essere inviata tra la mattina del 13 gennaio e la sera del 21 febbraio 2026. Vero ○ Falso ○\n\n5. A parità di condizioni, chi invia la domanda prima degli altri ottiene la priorità di accesso. Vero ○ Falso ○\n\n6. Le domande inviate dopo il 21 febbraio 2026 vengono automaticamente escluse dalla graduatoria. Vero ○ Falso ○\n\n7. Una domanda trasmessa senza usare il servizio online non è valida. Vero ○ Falso ○\n\n8. Ogni famiglia deve indicare esattamente sei scuole in ordine di preferenza. Vero ○ Falso ○\n\n9. Se viene dichiarata una condizione di priorità, occorre indicare almeno tre scuole. Vero ○ Falso ○\n\n10. Per presentare la domanda, alle famiglie non residenti a Torino basta fornire i dati del bambino. Vero ○ Falso ○\n\n11. Le famiglie residenti a Torino devono inserire personalmente i dati anagrafici di tutti i componenti del nucleo. Vero ○ Falso ○\n\n12. Nella graduatoria provvisoria viene mostrato il punteggio, ma non il posto assegnato. Vero ○ Falso ○\n\n13. La revisione del punteggio può essere richiesta online oppure presso uno Sportello Iscrizioni su prenotazione. Vero ○ Falso ○\n\n14. La graduatoria definitiva del 9 aprile riporta soltanto il punteggio ottenuto dai richiedenti. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Falso | Per le scuole comunali il limite è il “31 marzo 2024”, non il 30 aprile. 中文：市立学校的出生日期限制更早。 |\n| L2.2 | Vero | La domanda può essere presentata anche da “persone affidatarie”. |\n| L2.3 | Vero | Il servizio gestisce le fasi successive “per l'accettazione del posto attribuito o per la rinuncia”. |\n| L2.4 | Vero | La finestra indicata va “dalle ore 8:00 del 13 gennaio 2026 alle ore 20:00 del 21 febbraio 2026”. |\n| L2.5 | Falso | Il testo precisa che “inviare la domanda per primi non dà priorità di accesso”. |\n| L2.6 | Falso | Le domande tardive non sono escluse: sono “collocate in coda alla graduatoria definitiva”. 中文：迟交会排在队尾，并非自动作废。 |\n| L2.7 | Vero | “Non verranno considerate valide” le domande presentate in forme diverse da quella online. |\n| L2.8 | Falso | È possibile indicare “fino ad un massimo di 6 scuole”, quindi non è obbligatorio indicarne esattamente sei. |\n| L2.9 | Vero | Le domande con condizioni di priorità devono contenere “almeno 3 preferenze”. |\n| L2.10 | Falso | Per i non residenti servono i dati anagrafici e i codici fiscali “di tutti i componenti del nucleo familiare”. |\n| L2.11 | Falso | Per i residenti a Torino i dati anagrafici dei componenti del nucleo “sono precompilati”. |\n| L2.12 | Vero | Nella graduatoria provvisoria “è indicato il punteggio e non l'assegnazione dei posti”. |\n| L2.13 | Vero | In alternativa al modulo online, la revisione si può chiedere presso uno Sportello Iscrizioni, “previa prenotazione”. |\n| L2.14 | Falso | La graduatoria definitiva indica “l'assegnazione dei posti” con la dicitura “Ammesso”, non soltanto il punteggio. 中文：最终名单显示录取结果。 |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "V || Vero",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "nei termini",
+      "categoria": "locuzione avverbiale",
+      "zh": "在规定期限内",
+      "en": "within the deadline",
+      "esempio": "la domanda, per essere considerata “nei termini”, deve essere inviata"
+    },
+    {
+      "parola": "collocate in coda",
+      "categoria": "locuzione verbale",
+      "zh": "被排在队尾",
+      "en": "placed at the end of the queue",
+      "esempio": "Le domande inviate dal 22 febbraio al 18 dicembre 2026 sono collocate in coda alla graduatoria definitiva."
+    },
+    {
+      "parola": "condizioni di priorità",
+      "categoria": "locuzione nominale",
+      "zh": "优先条件",
+      "en": "priority conditions",
+      "esempio": "Nelle domande di iscrizione che riportano condizioni di priorità"
+    },
+    {
+      "parola": "documentazione attestante",
+      "categoria": "locuzione nominale",
+      "zh": "证明材料",
+      "en": "supporting documentation",
+      "esempio": "documentazione attestante la condizione dichiarata in formato elettronico"
+    },
+    {
+      "parola": "previa prenotazione",
+      "categoria": "locuzione avverbiale",
+      "zh": "须提前预约",
+      "en": "by prior appointment",
+      "esempio": "In alternativa sarà possibile presentare richiesta di revisione presso uno Sportello Iscrizioni, previa prenotazione."
+    }
+  ]
+}

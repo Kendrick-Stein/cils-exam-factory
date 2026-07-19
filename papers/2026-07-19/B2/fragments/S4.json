@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1.** «Gentili partecipanti, per motivi organizzativi il laboratorio di fotografia previsto sabato 25 luglio inizierà alle 15 anziché alle 10. Le iscrizioni restano valide. Chi non può partecipare nel nuovo orario può chiedere il rimborso entro mercoledì.»  \nA) È l'annuncio dell'annullamento definitivo di un laboratorio. B) È la conferma dell'apertura di nuove iscrizioni. C) È la comunicazione di un cambio d'orario con possibilità di rimborso. D) È la richiesta di portare fotografie a un incontro.\n\n**2.** «Buongiorno, il corriere non ha potuto consegnare il pacco perché nell'indirizzo manca il numero civico. Risponda a questo messaggio con il dato corretto entro le 18: programmeremo gratuitamente un secondo tentativo per la giornata di domani.»  \nA) È la richiesta di completare un indirizzo per ripetere una consegna. B) È l'avviso che un pacco è stato restituito definitivamente al mittente. C) È la conferma della consegna di un ordine entro le 18. D) È la richiesta di pagare un secondo tentativo di consegna.\n\n**3.** «Ciao Paolo, dal soffitto del mio bagno stanno cadendo alcune gocce e credo che la perdita venga dal tuo appartamento. Puoi controllare subito e, se trovi acqua, chiudere il rubinetto generale? Intanto avviso l'amministratore.»  \nA) È l'offerta di riparare gratuitamente un bagno. B) È un invito a discutere una spesa condominiale. C) È la comunicazione della visita già conclusa di un amministratore. D) È la richiesta urgente a un vicino di verificare una perdita.\n\n**4.** «La biblioteca cerca volontari per leggere racconti ai bambini ogni martedì pomeriggio, da settembre a novembre. Non è richiesta esperienza professionale, ma è necessario partecipare a un incontro di preparazione. Per candidarsi, inviare una breve presentazione entro il 20 agosto.»  \nA) È la pubblicità di un corso professionale per bibliotecari. B) È un invito a candidarsi per un'attività di volontariato. C) È la prenotazione di incontri individuali per bambini. D) È l'annuncio della vendita di libri usati a settembre.\n\n**5.** «La visita dentistica della signora Riva, fissata per lunedì alle 11, deve essere spostata perché la dottoressa sarà assente. Possiamo riceverla martedì alle 9 oppure giovedì alle 16. Ci richiami indicando quale delle due proposte preferisce.»  \nA) È la richiesta di scegliere una nuova data per una visita. B) È un promemoria per una visita confermata lunedì. C) È l'annuncio della chiusura definitiva di uno studio dentistico. D) È la comunicazione dei risultati di un controllo medico.\n\n**6.** «Benvenuta nella nostra residenza universitaria. La sua stanza è pronta dalle 14; al suo arrivo mostri un documento alla reception e ritiri la tessera magnetica. La cucina comune è al secondo piano, mentre la lavanderia si trova nel seminterrato.»  \nA) È un reclamo sulle condizioni di una stanza universitaria. B) È la richiesta di riconsegnare una tessera smarrita. C) È un messaggio di accoglienza con indicazioni pratiche. D) È l'offerta di un appartamento privato in affitto.\n\n**7.** «Affitto una scrivania nel mio studio condiviso vicino alla stazione, disponibile tre giorni alla settimana. Il prezzo comprende internet, riscaldamento e uso della sala riunioni. Cerco una persona tranquilla che lavori soprattutto al computer; per informazioni scrivetemi in privato.»  \nA) È la vendita di mobili per arredare un ufficio. B) È la ricerca di un impiego da svolgere al computer. C) È l'offerta di una sala riunioni per una sola giornata. D) È l'offerta a pagamento di uno spazio di lavoro condiviso.\n\n**8.** «Le famiglie degli alunni della seconda B devono autorizzare online la visita al museo entro venerdì. Nel modulo vanno segnalate eventuali allergie alimentari, perché il pranzo sarà fornito dalla scuola. Senza autorizzazione, gli studenti resteranno in classe.»  \nA) È la richiesta alle famiglie di compilare un'autorizzazione. B) È l'invito agli studenti a portare il pranzo da casa. C) È l'annuncio che la visita al museo è stata cancellata. D) È la comunicazione del risultato di un'attività scolastica.\n\n**9.** «Scusami, stasera non riesco a venire a cena: il treno ha accumulato quasi due ore di ritardo e arriverò troppo tardi. Mi dispiace avvertirti solo adesso. Se per te va bene, potremmo vederci domenica a pranzo.»  \nA) È la conferma dell'orario di una cena già organizzata. B) È un invito a raggiungere la stazione domenica. C) È una disdetta accompagnata da una proposta alternativa. D) È un reclamo inviato alla compagnia ferroviaria.\n\n**10.** «Attenzione ai messaggi che promettono buoni spesa e chiedono di aprire un collegamento: il Comune non sta inviando queste comunicazioni. Non inserite dati personali e cancellate il messaggio. In caso di dubbio, chiamate il numero ufficiale pubblicato sul nostro sito.»  \nA) È l'annuncio di nuovi buoni spesa distribuiti dal Comune. B) È un avviso per proteggere i cittadini da un tentativo di truffa. C) È la richiesta di aggiornare i dati personali sul sito comunale. D) È la pubblicità di un servizio telefonico a pagamento."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «inizierà alle 15 anziché alle 10» segnala il nuovo orario, mentre «può chiedere il rimborso» offre una soluzione a chi non può partecipare; 中文：活动没有取消。 |\n| S4.2 | A | Il corriere chiede il «numero civico» mancante per programmare «un secondo tentativo» gratuito; 中文：需要补全地址。 |\n| S4.3 | D | «stanno cadendo alcune gocce» e «Puoi controllare subito» esprimono una richiesta urgente di verifica al vicino; 中文：不是已完成的维修。 |\n| S4.4 | B | «cerca volontari» e «Per candidarsi» indicano chiaramente un invito a offrire la propria collaborazione; 中文：不是职业培训。 |\n| S4.5 | A | La visita «deve essere spostata» e vengono proposti due nuovi orari tra cui scegliere; 中文：原预约不能维持。 |\n| S4.6 | C | «Benvenuta» introduce le istruzioni su stanza, tessera e spazi comuni; 中文：是入住欢迎及实用信息。 |\n| S4.7 | D | «Affitto una scrivania» e «Il prezzo comprende» descrivono uno spazio condiviso offerto a pagamento; 中文：不是求职或卖家具。 |\n| S4.8 | A | «devono autorizzare online» e «Nel modulo vanno segnalate» chiedono alle famiglie di compilare il modulo; 中文：参观并未取消。 |\n| S4.9 | C | «non riesco a venire» annulla la cena e «potremmo vederci domenica» propone un altro momento; 中文：道歉后改约。 |\n| S4.10 | B | «il Comune non sta inviando queste comunicazioni» e l'ordine di non inserire dati mettono in guardia da una truffa; 中文：所谓购物券是假的。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "A",
+    "S4.6": "C",
+    "S4.7": "D",
+    "S4.8": "A",
+    "S4.9": "C",
+    "S4.10": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "numero civico",
+      "categoria": "espressione nominale",
+      "zh": "门牌号",
+      "en": "street number",
+      "esempio": "nell'indirizzo manca il numero civico"
+    },
+    {
+      "parola": "rubinetto generale",
+      "categoria": "espressione nominale",
+      "zh": "总水阀",
+      "en": "main water valve",
+      "esempio": "chiudere il rubinetto generale"
+    },
+    {
+      "parola": "tessera magnetica",
+      "categoria": "espressione nominale",
+      "zh": "磁卡",
+      "en": "key card",
+      "esempio": "ritiri la tessera magnetica"
+    },
+    {
+      "parola": "autorizzare online",
+      "categoria": "espressione verbale",
+      "zh": "在线授权",
+      "en": "authorize online",
+      "esempio": "devono autorizzare online la visita al museo"
+    },
+    {
+      "parola": "In caso di dubbio",
+      "categoria": "locuzione",
+      "zh": "如有疑问",
+      "en": "in case of doubt",
+      "esempio": "In caso di dubbio, chiamate il numero ufficiale"
+    }
+  ]
+}
