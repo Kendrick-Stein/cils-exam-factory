@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "al ritmo",
+    "S3_OPT0_B": "al passaggio",
+    "S3_OPT0_C": "al servizio",
+    "S3_OPT0_D": "al controllo",
+    "S3_OPTION_ROWS": "| 1. | torna a vivere | rinuncia a vivere | esita a vivere | tarda a vivere |\n| 2. | estraneo alla | dedicato alla | contrario alla | indifferente alla |\n| 3. | dei secoli | dei giorni | dei mesi | degli anni |\n| 4. | conserva l'atmosfera | cambia atmosfera | nasconde l'atmosfera | limita l'atmosfera |\n| 5. | si chiudono in | si fermano in | si trasformano in | si raccolgono in |\n| 6. | un grande parcheggio | un grande deposito | un grande magazzino | un grande palcoscenico |\n| 7. | a cielo aperto | a porte chiuse | a numero chiuso | al coperto |\n| 8. | auto di servizio | auto a noleggio | auto d'epoca | auto di soccorso |\n| 9. | La XXVI riunione | La XXVI edizione | La XXVI proposta | La XXVI squadra |\n| 10. | concluderà | interromperà | fermerà | aprirà |\n| 11. | uscire di scena | entrare nel vivo | fermarsi del tutto | perdere slancio |\n| 12. | nascosto | concentrato | diffuso | isolato |\n| 13. | ospiterà | eviterà | cancellerà | allontanerà |\n| 14. | resteranno vuote | saranno escluse | scompariranno del tutto | prenderanno forma |\n| 15. | causa | parte | limite | ostacolo |",
+    "S3_TEXT_WITH_GAPS": "Dal 31 luglio al 9 agosto 2026 Senigallia __(1)__ __(0)__ del Summer Jamboree, il festival internazionale __(2)__ musica e alla cultura americana __(3)__ Trenta, Quaranta e Cinquanta.\n\nPer dieci giorni la città marchigiana __(4)__: piazze, strade, lungomare e luoghi simbolo del centro storico __(5)__ __(6)__ __(7)__, tra concerti live, dj set, balli swing, __(8)__, mercatini vintage, spettacoli e appuntamenti vista mare.\n\n__(9)__ si __(10)__ con il Prefestival del 31 luglio, per poi __(11)__ dall'1 al 9 agosto. Il cuore musicale dell'evento sarà __(12)__ in tutta la città: Piazza Garibaldi __(13)__ il Main Stage con i grandi concerti, mentre tra Piazza del Duca, Rocca Roveresca, Piazza Roma, Piazza Simoncelli, la Rotonda a Mare e i lungomari di Levante e Ponente __(14)__ le diverse anime del festival.\n\nIl Summer Jamboree non è solo un evento da guardare, ma un'esperienza da vivere. Qui il pubblico diventa __(15)__ della festa, tra social dance, Record Hop, jam session, lezioni e workshop dedicati a Lindy Hop, Boogie Woogie, Balboa, Jive e altri stili swing.",
+    "T6_TITLE": "SUMMER JAMBOREE 2026"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Nel testo Senigallia «torna a vivere» perché il festival giunge alla XXVI edizione. 中文：torna 表示活动再次举行。 |\n| S3.2 | B | «Il festival internazionale» è dedicato alla musica e alla cultura americana. 中文：dedicato a 表示主题或对象。 |\n| S3.3 | D | «Trenta, Quaranta e Cinquanta» indicano decenni e richiedono la parola anni. 中文：年代名称与 anni 固定搭配。 |\n| S3.4 | B | Subito dopo si spiega che piazze e strade «si trasformano»: la città cambia atmosfera. 中文：后文的变化支持 cambia。 |\n| S3.5 | C | Piazze, strade e altri luoghi «si trasformano in un grande palcoscenico». 中文：trasformarsi in 表示变成。 |\n| S3.6 | D | Concerti, balli e spettacoli rendono la città «un grande palcoscenico». 中文：此处是舞台的比喻。 |\n| S3.7 | A | Piazze, strade e lungomare formano un palcoscenico «a cielo aperto». 中文：露天城市空间排除室内或封闭选项。 |\n| S3.8 | C | La cultura degli anni Trenta-Cinquanta e i mercatini vintage spiegano le «auto d'epoca». 中文：d'epoca 指老式车辆。 |\n| S3.9 | B | Il numero progressivo «XXVI» identifica l'edizione del festival. 中文：节庆活动的届次用 edizione。 |\n| S3.10 | D | Il Prefestival viene prima del periodo principale: l'edizione «si aprirà con» esso. 中文：per poi 明确随后进入主体活动。 |\n| S3.11 | B | Dopo il Prefestival, l'evento prosegue dall'1 al 9 agosto: deve «entrare nel vivo». 中文：该搭配表示进入最热烈的阶段。 |\n| S3.12 | C | L'elenco di numerose piazze e dei due lungomari mostra che il cuore musicale sarà diffuso. 中文：多个地点排除 concentrato 和 isolato。 |\n| S3.13 | A | Piazza Garibaldi è indicata come sede del Main Stage e quindi lo ospiterà. 中文：地点与舞台的关系要求 ospitare。 |\n| S3.14 | D | Nei diversi luoghi della città «prenderanno forma le diverse anime del festival». 中文：prendere forma 表示具体呈现。 |\n| S3.15 | B | Il contrasto tra «evento da guardare» ed «esperienza da vivere» mostra che il pubblico diventa parte della festa. 中文：观众从旁观者变为参与者。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "D",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "B",
+    "S3.12": "C",
+    "S3.13": "A",
+    "S3.14": "D",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "luoghi simbolo",
+      "categoria": "locuzione nominale",
+      "zh": "标志性地点",
+      "en": "landmark places",
+      "esempio": "piazze, strade, lungomare e luoghi simbolo del centro storico"
+    },
+    {
+      "parola": "mercatini vintage",
+      "categoria": "locuzione nominale",
+      "zh": "复古市集",
+      "en": "vintage markets",
+      "esempio": "mercatini vintage, spettacoli e appuntamenti vista mare"
+    },
+    {
+      "parola": "appuntamenti vista mare",
+      "categoria": "locuzione nominale",
+      "zh": "海景活动",
+      "en": "seafront events",
+      "esempio": "spettacoli e appuntamenti vista mare"
+    },
+    {
+      "parola": "jam session",
+      "categoria": "locuzione nominale",
+      "zh": "即兴合奏",
+      "en": "jam session",
+      "esempio": "tra social dance, Record Hop, jam session, lezioni e workshop"
+    },
+    {
+      "parola": "lungomari",
+      "categoria": "nome plurale",
+      "zh": "滨海道路",
+      "en": "seafront promenades",
+      "esempio": "i lungomari di Levante e Ponente"
+    }
+  ]
+}

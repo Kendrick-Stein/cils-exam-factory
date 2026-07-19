@@ -1,0 +1,80 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "spiega", "confidence": "hi"},
+  "S2.2": {"answer": "può", "confidence": "hi"},
+  "S2.3": {"answer": "ci sia", "confidence": "hi"},
+  "S2.4": {"answer": "cerchi", "confidence": "hi"},
+  "S2.5": {"answer": "deve", "confidence": "hi"},
+  "S2.6": {"answer": "condizionano", "confidence": "hi"},
+  "S2.7": {"answer": "è emerso", "confidence": "hi"},
+  "S2.8": {"answer": "avrebbe ordinato", "confidence": "hi"},
+  "S2.9": {"answer": "frequentava", "confidence": "hi"},
+  "S2.10": {"answer": "voleva", "confidence": "hi"},
+  "S2.11": {"answer": "stordito", "confidence": "hi"},
+  "S2.12": {"answer": "ha riconosciuto", "confidence": "hi"},
+  "S2.13": {"answer": "è cambiata", "confidence": "hi"},
+  "S2.14": {"answer": "dormo", "confidence": "hi"},
+  "S2.15": {"answer": "sono", "confidence": "hi"},
+  "S2.16": {"answer": "succederà", "confidence": "hi"},
+  "S2.17": {"answer": "essersi sentito", "confidence": "hi"},
+  "S2.18": {"answer": "sia", "confidence": "hi"},
+  "S2.19": {"answer": "sia stata raccontata", "confidence": "hi"},
+  "S2.20": {"answer": "vedremo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file non contiene prove di produzione scritta."
+}
+```
+
+13,510
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "spiega", "confidence": "hi"},
+  "S2.2": {"answer": "può", "confidence": "hi"},
+  "S2.3": {"answer": "ci sia", "confidence": "hi"},
+  "S2.4": {"answer": "cerchi", "confidence": "hi"},
+  "S2.5": {"answer": "deve", "confidence": "hi"},
+  "S2.6": {"answer": "condizionano", "confidence": "hi"},
+  "S2.7": {"answer": "è emerso", "confidence": "hi"},
+  "S2.8": {"answer": "avrebbe ordinato", "confidence": "hi"},
+  "S2.9": {"answer": "frequentava", "confidence": "hi"},
+  "S2.10": {"answer": "voleva", "confidence": "hi"},
+  "S2.11": {"answer": "stordito", "confidence": "hi"},
+  "S2.12": {"answer": "ha riconosciuto", "confidence": "hi"},
+  "S2.13": {"answer": "è cambiata", "confidence": "hi"},
+  "S2.14": {"answer": "dormo", "confidence": "hi"},
+  "S2.15": {"answer": "sono", "confidence": "hi"},
+  "S2.16": {"answer": "succederà", "confidence": "hi"},
+  "S2.17": {"answer": "essersi sentito", "confidence": "hi"},
+  "S2.18": {"answer": "sia", "confidence": "hi"},
+  "S2.19": {"answer": "sia stata raccontata", "confidence": "hi"},
+  "S2.20": {"answer": "vedremo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file non contiene prove di produzione scritta."
+}
+```

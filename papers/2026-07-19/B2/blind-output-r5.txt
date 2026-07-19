@@ -1,0 +1,80 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "li", "confidence": "hi"},
+  "S1.2": {"answer": "Questa", "confidence": "hi"},
+  "S1.3": {"answer": "loro", "confidence": "hi"},
+  "S1.4": {"answer": "nostro", "confidence": "med"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "che", "confidence": "hi"},
+  "S1.7": {"answer": "che", "confidence": "hi"},
+  "S1.8": {"answer": "in cui", "confidence": "hi"},
+  "S1.9": {"answer": "esso", "confidence": "hi"},
+  "S1.10": {"answer": "che", "confidence": "hi"},
+  "S1.11": {"answer": "sé stesso", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "quello", "confidence": "hi"},
+  "S1.15": {"answer": "che", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "quelli", "confidence": "hi"},
+  "S1.18": {"answer": "li", "confidence": "hi"},
+  "S1.19": {"answer": "Queste", "confidence": "hi"},
+  "S1.20": {"answer": "questo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file selezionato non contiene prove di produzione scritta o orale."
+}
+```
+
+13,535
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "li", "confidence": "hi"},
+  "S1.2": {"answer": "Questa", "confidence": "hi"},
+  "S1.3": {"answer": "loro", "confidence": "hi"},
+  "S1.4": {"answer": "nostro", "confidence": "med"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "che", "confidence": "hi"},
+  "S1.7": {"answer": "che", "confidence": "hi"},
+  "S1.8": {"answer": "in cui", "confidence": "hi"},
+  "S1.9": {"answer": "esso", "confidence": "hi"},
+  "S1.10": {"answer": "che", "confidence": "hi"},
+  "S1.11": {"answer": "sé stesso", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "quello", "confidence": "hi"},
+  "S1.15": {"answer": "che", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "quelli", "confidence": "hi"},
+  "S1.18": {"answer": "li", "confidence": "hi"},
+  "S1.19": {"answer": "Queste", "confidence": "hi"},
+  "S1.20": {"answer": "questo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file selezionato non contiene prove di produzione scritta o orale."
+}
+```

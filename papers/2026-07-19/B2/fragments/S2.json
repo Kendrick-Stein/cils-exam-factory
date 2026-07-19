@@ -1,0 +1,70 @@
+{
+ "prova": "S2",
+ "slots": {
+  "S2_TEXT_WITH_GAPS": "Nel luglio 2026 a Udine, Sigfrido Ranucci *(raccontare)* __ha raccontato (0)__ l'inchiesta sulla bomba sotto la sua auto.\n\n**Che prezzo ha la libertà di stampa?**\n\nOggi Ranucci *(spiegare)* __(1)__ che chi si occupa di politica non *(potere)* __(2)__ pensare che non *(esserci)* __(3)__ una reazione e che chi reagisce non *(cercare)* __(4)__ di fermarlo. Racconta che a volte un giornalista *(dovere)* __(5)__ scegliere in pochi secondi: quelle scelte *(condizionare)* __(6)__ per sempre la vita.\n\n**Che cosa è emerso finora?**\n\nFinora dalle indagini di Roma *(emergere)* __(7)__ il nome di Valter Lavitola. Se l'ipotesi degli investigatori fosse corretta, nel 2025 Lavitola, come mandante, *(ordinare)* __(8)__ di piazzare la bomba. Prima della svolta, ogni giorno Ranucci *(frequentare)* __(9)__ Lavitola e *(volergli)* __(10)__ bene. Dopo la svolta, Ranucci fu *(stordire)* __(11)__ dall'esito delle indagini. Finora Ranucci *(riconoscere)* __(12)__ il lavoro eccezionale degli investigatori e della procura.\n\n**Com'è cambiata la sua vita?**\n\n«Finora, dopo gli ultimi sviluppi, la mia vita *(cambiare)* __(13)__. Adesso, da qualche notte, non *(dormire)* __(14)__ bene, ma oggi *(essere)* __(15)__ tranquillo. Nei prossimi giorni vedremo che cosa *(succedere)* __(16)__.»\n\nOggi aggiunge di *(sentirsi)* __(17)__ stordito subito dopo l'esito e ritiene che la storia *(essere)* __(18)__ più complicata. Crede che finora la vicenda *(raccontare)* __(19)__ troppo semplicemente dai giornali. Sul futuro conclude: «Nei prossimi giorni *(vedere)* __(20)__ gli sviluppi».",
+  "T5_TITLE": "IL LAVORO DI SIGFRIDO RANUCCI E LE INDAGINI"
+ },
+ "answer_slots": {
+  "ANS_S2_NOTES": "- **S2.1–S2.6:** «Oggi» apre il quadro presente; «non può pensare che» impone «ci sia», mentre il soggetto singolare «chi reagisce» forza «cerchi»; il valore generale fissa «deve» e «condizionano»（现在时框架、支配结构和单数主语明确）。\n- **S2.7–S2.8:** «Finora» richiede il passato prossimo «è emerso»; «Se l'ipotesi… fosse corretta» con «nel 2025» impone il condizionale passato «avrebbe ordinato»（时间标记与假设结构明确）。\n- **S2.9–S2.10:** «Prima della svolta» e «ogni giorno» indicano due azioni abituali coordinate nel passato, quindi «frequentava» e «gli voleva»; il pronome indiretto riferito a Lavitola resta dentro lo spazio（过去习惯锁定未完成过去时，代词在空格内）。\n- **S2.11–S2.12:** l'ausiliare «fu» già stampato e il soggetto maschile singolare «Ranucci» impongono il participio passato «stordito»; «Finora» fissa «ha riconosciuto»（印出的助动词和主语性数锁定过去分词；时间标记锁定近过去时）。\n- **S2.13–S2.16:** «Finora, dopo gli ultimi sviluppi» fissa «è cambiata»; «Adesso, da qualche notte» e «oggi» impongono il presente, mentre «nei prossimi giorni» richiede «succederà»（时间轴发生清晰转换）。\n- **S2.17–S2.18:** «Oggi» fissa il quadro presente; «subito dopo l'esito» colloca l'esperienza prima di «aggiunge» e impone «essersi sentito», mentre «ritiene che» regge «sia»（现在框架、过去不定式与虚拟式由结构限定）。\n- **S2.19–S2.20:** «crede che finora» impone il congiuntivo passato passivo «sia stata raccontata»; «Sul futuro» e «nei prossimi giorni» fissano «vedremo»（被动态与将来时均有显式标记）。",
+  "ANS_S2_ROWS": "| S2.1 | spiega | indicativo presente | S2.11 | stordito | participio passato, passivo |\n| S2.2 | può | indicativo presente | S2.12 | ha riconosciuto | indicativo passato prossimo |\n| S2.3 | ci sia | congiuntivo presente | S2.13 | è cambiata | indicativo passato prossimo |\n| S2.4 | cerchi | congiuntivo presente | S2.14 | dormo | indicativo presente |\n| S2.5 | deve | indicativo presente | S2.15 | sono | indicativo presente |\n| S2.6 | condizionano | indicativo presente | S2.16 | succederà | indicativo futuro semplice |\n| S2.7 | è emerso | indicativo passato prossimo | S2.17 | essersi sentito | infinito passato |\n| S2.8 | avrebbe ordinato | condizionale passato | S2.18 | sia | congiuntivo presente |\n| S2.9 | frequentava | indicativo imperfetto | S2.19 | sia stata raccontata | congiuntivo passato, passivo |\n| S2.10 | gli voleva | indicativo imperfetto | S2.20 | vedremo | indicativo futuro semplice |"
+ },
+ "key": {
+  "S2.1": "spiega",
+  "S2.2": "può",
+  "S2.3": "ci sia",
+  "S2.4": "cerchi",
+  "S2.5": "deve",
+  "S2.6": "condizionano",
+  "S2.7": "è emerso",
+  "S2.8": "avrebbe ordinato",
+  "S2.9": "frequentava",
+  "S2.10": "gli voleva",
+  "S2.11": "stordito",
+  "S2.12": "ha riconosciuto",
+  "S2.13": "è cambiata",
+  "S2.14": "dormo",
+  "S2.15": "sono",
+  "S2.16": "succederà",
+  "S2.17": "essersi sentito",
+  "S2.18": "sia",
+  "S2.19": "sia stata raccontata",
+  "S2.20": "vedremo"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "libertà di stampa",
+   "categoria": "locuzione nominale",
+   "zh": "新闻自由",
+   "en": "freedom of the press",
+   "esempio": "la libertà di stampa"
+  },
+  {
+   "parola": "inchiesta",
+   "categoria": "sostantivo",
+   "zh": "调查",
+   "en": "investigation",
+   "esempio": "l'inchiesta sulla bomba"
+  },
+  {
+   "parola": "mandante",
+   "categoria": "sostantivo",
+   "zh": "幕后指使者",
+   "en": "instigator",
+   "esempio": "come mandante"
+  },
+  {
+   "parola": "svolta",
+   "categoria": "sostantivo",
+   "zh": "转折；突破",
+   "en": "turning point",
+   "esempio": "Prima della svolta"
+  },
+  {
+   "parola": "stordito",
+   "categoria": "aggettivo",
+   "zh": "震惊的；发懵的",
+   "en": "stunned",
+   "esempio": "stordito subito dopo l'esito"
+  }
+ ]
+}

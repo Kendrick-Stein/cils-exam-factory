@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. La scoperta relativa a Lhs 1140b è particolarmente importante perché**\n\nA) dimostra che sulla sua superficie è presente acqua liquida.\n\nB) riguarda la prima atmosfera osservata su un esopianeta roccioso simile alla Terra.\n\nC) conferma che tutti i pianeti terrestri possiedono un’atmosfera.\n\nD) identifica il pianeta abitabile più vicino al Sistema solare.\n\n**2. Dopo la scoperta di diversi pianeti terrestri, gli studiosi volevano capire soprattutto**\n\nA) quanto tempo servisse per raggiungere quei pianeti.\n\nB) perché le stelle nane rosse fossero così comuni.\n\nC) se uno di quei pianeti avesse conservato un’atmosfera.\n\nD) come osservare direttamente la superficie di quei pianeti.\n\n**3. Nel testo, l’espressione “zona abitabile” indica una regione dove**\n\nA) le condizioni potrebbero permettere la presenza di acqua liquida in superficie.\n\nB) le temperature garantiscono lo sviluppo di forme di vita simili a quelle terrestri.\n\nC) l’atmosfera protegge la superficie dalle radiazioni della stella.\n\nD) i pianeti si trovano a una distanza ridotta dal Sistema solare.\n\n**4. Il modello teorico elaborato da Cherubim e dai colleghi prevedeva che Lhs 1140b**\n\nA) avesse perso rapidamente ogni componente della sua atmosfera.\n\nB) fosse circondato da un’atmosfera composta soprattutto di acqua.\n\nC) condividesse la propria atmosfera con un altro pianeta del sistema.\n\nD) possedesse un’alta atmosfera di elio in lenta dispersione nello spazio.\n\n**5. Per controllare la previsione, il gruppo di ricerca ha sfruttato**\n\nA) il passaggio del pianeta dietro la sua stella per due notti consecutive.\n\nB) il transito dei due pianeti davanti alla stella nel corso della stessa notte.\n\nC) l’avvicinamento dei due pianeti al Telescopio Magellano in Cile.\n\nD) l’osservazione della stella contemporaneamente da due diversi telescopi.\n\n**6. Durante l’osservazione dei due pianeti, gli studiosi hanno rilevato che**\n\nA) entrambi presentavano una fuga di elio di intensità simile.\n\nB) nessuno dei due mostrava segnali riconducibili a un’atmosfera.\n\nC) solo Lhs 1140b mostrava una fuga di elio dalla propria atmosfera.\n\nD) solo l’altro pianeta conservava tracce evidenti di un’atmosfera.\n\n**7. Lhs 1140b è considerato interessante per le ricerche future perché la sua atmosfera**\n\nA) sembra essere rimasta presente per più di tre miliardi di anni.\n\nB) riceve dalla stella una quantità di radiazioni particolarmente debole.\n\nC) contiene elementi che provano la presenza di forme di vita.\n\nD) impedisce all’elio di disperdersi nello spazio circostante.",
+    "T1_TEXT": "Rilevata per la prima volta la presenza di un’atmosfera attorno a un esopianeta roccioso – Lhs 1140b, un pianeta simile alla Terra a circa 48 anni luce da noi – in orbita nella zona abitabile della sua stella. La scoperta, guidata dalla Harvard University e pubblicata oggi su Science, segna una tappa fondamentale nella ricerca della vita su pianeti al di fuori del Sistema solare.\n\nUna componente fondamentale per la vita sulla Terra è la presenza dell’atmosfera. Benché si conoscano esopianeti rocciosi simili alla Terra, finora non era mai stata osservata un’atmosfera in nessuno di questi: è infatti di oggi l’annuncio, pubblicato su Science da un team guidato da Collin Cherubim, dottorando alla Harvard University, della prima rivelazione di un’atmosfera attorno a un esopianeta roccioso simile al nostro.\n\n«È la prima volta che qualcuno individua un’atmosfera su un pianeta roccioso nella zona abitabile di un’altra stella», sottolinea Cherubim.\n\n«Vent’anni fa ci chiedevamo se esistessero davvero altri pianeti di tipo terrestre. Poi abbiamo scoperto che sono comuni e ne abbiamo individuati alcuni nella zona abitabile. La domanda successiva era se qualcuno di essi fosse riuscito a conservare un’atmosfera», dice Robin Wordsworth dell’Università di Harvard, uno dei relatori della tesi di dottorato di Cherubim. «Ora sappiamo che almeno uno ce l’ha».\n\nIl pianeta si chiama Lhs 1140b, si trova nella zona abitabile – ovvero nella regione in cui temperature e condizioni ambientali potrebbero consentire la presenza di acqua allo stato liquido sulla superficie del pianeta – di una nana rossa a circa 48 anni luce da noi. Ora è il turno dell’atmosfera.\n\nCherubim e colleghi già avevano messo a punto un modello teorico che prevedeva la presenza, attorno a Lhs 1140b, di un’alta atmosfera ricca di elio che sta lentamente sfuggendo nello spazio.\n\nPer verificare la previsione, il team ha utilizzato lo spettrografo per il vicino infrarosso Winered del Telescopio Magellano “Clay” presso l’Osservatorio di Las Campanas, in Cile, durante un raro allineamento: quando Lhs 1140b e un altro esopianeta dello stesso sistema planetario sono transitati nella stessa notte davanti alla loro stella.\n\nIn quell’occasione, mentre l’altro pianeta non ha mostrato alcuna traccia d’atmosfera, da Lhs 1140b è stata rilevata una fuga di elio, confermando così che possiede un’atmosfera.\n\n«Collin aveva analizzato i pianeti che conoscevamo e aveva previsto che questo avrebbe avuto un’atmosfera di elio», ricorda David Charbonneau, direttore del Dipartimento di astronomia dell’Università di Harvard, inizialmente piuttosto scettico al riguardo. «Poi ha organizzato il tempo di osservazione al telescopio, ha raccolto i dati e la rilevazione si è rivelata statisticamente ineccepibile».\n\nNei giganti gassosi, la forte irradiazione comporta la fuga di elio dalle atmosfere. Uno fra i possibili motivi per cui non era ancora stato possibile provare la presenza di un’atmosfera negli esopianeti rocciosi potrebbe dunque essere che, nella maggior parte di essi, l’elio sia già sfuggito. Nel caso di Lhs 1140b, al contrario, l’atmosfera è probabilmente sopravvissuta per oltre tre miliardi di anni, e ciò lo rende un obiettivo prezioso per le osservazioni future.",
+    "T1_TITLE": "ROCCIOSO, IN ZONA ABITABILE E CON ATMOSFERA"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo parla della «prima rivelazione di un’atmosfera attorno a un esopianeta roccioso simile al nostro». 中文：关键是首次观测到此类大气层。 |\n| L1.2 | C | Dopo aver trovato pianeti terrestri nella zona abitabile, la domanda era «se qualcuno di essi fosse riuscito a conservare un’atmosfera». 中文：研究重点从存在转向大气保存。 |\n| L1.3 | A | La zona abitabile è la regione in cui le condizioni «potrebbero consentire la presenza di acqua allo stato liquido sulla superficie». 中文：文本只说可能允许液态水存在。 |\n| L1.4 | D | Il modello prevedeva «un’alta atmosfera ricca di elio che sta lentamente sfuggendo nello spazio». 中文：预测同时包括成分与逸散。 |\n| L1.5 | B | Il team ha osservato i pianeti «durante un raro allineamento», quando entrambi «sono transitati nella stessa notte davanti alla loro stella». 中文：特殊条件是同夜凌星。 |\n| L1.6 | C | L’altro pianeta «non ha mostrato alcuna traccia d’atmosfera», mentre da Lhs 1140b «è stata rilevata una fuga di elio». 中文：对比结果锁定答案。 |\n| L1.7 | A | L’atmosfera «è probabilmente sopravvissuta per oltre tre miliardi di anni», fatto che rende il pianeta «un obiettivo prezioso per le osservazioni future». 中文：长期保存提升后续研究价值。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "C",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "zona abitabile",
+      "categoria": "locuzione nominale",
+      "zh": "宜居带",
+      "en": "habitable zone",
+      "esempio": "Il pianeta si chiama Lhs 1140b, si trova nella zona abitabile – ovvero nella regione in cui temperature e condizioni ambientali potrebbero consentire la presenza di acqua allo stato liquido sulla superficie del pianeta – di una nana rossa a circa 48 anni luce da noi."
+    },
+    {
+      "parola": "acqua allo stato liquido",
+      "categoria": "locuzione nominale",
+      "zh": "液态水",
+      "en": "liquid water",
+      "esempio": "Il pianeta si chiama Lhs 1140b, si trova nella zona abitabile – ovvero nella regione in cui temperature e condizioni ambientali potrebbero consentire la presenza di acqua allo stato liquido sulla superficie del pianeta – di una nana rossa a circa 48 anni luce da noi."
+    },
+    {
+      "parola": "spettrografo",
+      "categoria": "sostantivo maschile",
+      "zh": "光谱仪",
+      "en": "spectrograph",
+      "esempio": "Per verificare la previsione, il team ha utilizzato lo spettrografo per il vicino infrarosso Winered del Telescopio Magellano “Clay” presso l’Osservatorio di Las Campanas, in Cile, durante un raro allineamento: quando Lhs 1140b e un altro esopianeta dello stesso sistema planetario sono transitati nella stessa notte davanti alla loro stella."
+    },
+    {
+      "parola": "raro allineamento",
+      "categoria": "locuzione nominale",
+      "zh": "罕见的排列",
+      "en": "rare alignment",
+      "esempio": "Per verificare la previsione, il team ha utilizzato lo spettrografo per il vicino infrarosso Winered del Telescopio Magellano “Clay” presso l’Osservatorio di Las Campanas, in Cile, durante un raro allineamento: quando Lhs 1140b e un altro esopianeta dello stesso sistema planetario sono transitati nella stessa notte davanti alla loro stella."
+    },
+    {
+      "parola": "fuga di elio",
+      "categoria": "locuzione nominale",
+      "zh": "氦逃逸",
+      "en": "helium escape",
+      "esempio": "In quell’occasione, mentre l’altro pianeta non ha mostrato alcuna traccia d’atmosfera, da Lhs 1140b è stata rilevata una fuga di elio, confermando così che possiede un’atmosfera."
+    }
+  ]
+}

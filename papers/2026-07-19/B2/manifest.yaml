@@ -1,0 +1,135 @@
+exam: cils
+level: B2
+session: '2026-07-19'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/07/16/atmosfera-lhs-1140b/
+  title: Roccioso, in zona abitabile e con atmosfera
+  publisher: MEDIA INAF
+  published: '2026-07-16'
+  accessed: '2026-07-19'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 514
+- id: T2
+  url: https://www.comune.torino.it/servizi/iscrizione-alle-scuole-dellinfanzia
+  title: Iscrizione alle scuole dell’infanzia
+  publisher: Città di Torino
+  published: 2026-07-15 (ultima modifica)
+  accessed: '2026-07-19'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 461
+- id: T3
+  url: https://www.mountainblog.it/experience-news/avventura-in-eritrea-diario-di-bordo-di-angela-gemignani-parte-1/
+  title: 'Avventura in Eritrea: diario di bordo di Angela Gemignani (parte 1)'
+  publisher: MountainBlog
+  published: '2026-05-11'
+  accessed: '2026-07-19'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 391
+- id: T4
+  url: https://www.focus.it/scienza/scienze/gli-antenati-dei-mammiferi-deponevano-uova-ora-abbiamo-le-prove
+  title: 'Gli antenati dei mammiferi deponevano uova: una scoperta che riscrive le
+    tappe della nostra Storia'
+  publisher: Focus.it
+  published: '2026-04-20'
+  accessed: '2026-07-19'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 204
+- id: T5
+  url: https://www.rainews.it/tgr/fvg/video/2026/07/sigfrido-ranucci-stordito-dallesito-delle-indagini-c4cc69c2-63c2-41a5-bc8d-610c2d085ef1.html
+  title: 'Sigfrido Ranucci: “Stordito dall''esito delle indagini”'
+  publisher: RaiNews TGR Friuli Venezia Giulia
+  published: '2026-07-08'
+  accessed: '2026-07-19'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 198
+- id: T6
+  url: https://www.italia.it/it/marche/cosa-fare/evento-summer-jamboree-2026
+  title: Summer Jamboree 2026
+  publisher: Italia.it / ENIT
+  published: not visible
+  accessed: '2026-07-19'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 186
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-19T14:42:22+00:00'
+  - stage: authoring
+    at: '2026-07-19T14:54:12+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-19T14:59:12+00:00'
+    agreement: 83/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T15:09:44+00:00'
+    agreement: 87/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T15:16:47+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T16:02:20+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-19T16:02:29+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-19T16:02:29+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-19T16:05:44+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-19T16:05:44+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-19T16:06:24+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

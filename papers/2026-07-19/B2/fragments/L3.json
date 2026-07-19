@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "L’Eritrea non è un Paese che si visita. È un paese che ti entra dentro, giorno dopo giorno. Qui, ogni strada, ogni mercato, ogni persona ti racconta qualcosa di unico.",
+    "T3_PART_B": "All’1 di notte varchiamo finalmente l’uscita e incontriamo la nostra guida, Betti: un volto amico nel silenzio. Da lì, il tragitto verso l’hotel dura appena 15 minuti, ma è molto intenso.",
+    "T3_PART_C": "Quella sala è colma di valigie ferme lì da giorni. Questo racconta già molto della destinazione. In quel momento capiamo di aver fatto la scelta giusta: viaggiare leggeri, solo con il bagaglio a mano.",
+    "T3_PART_D": "A conferma di questa disconnessione, in alcuni hotel può sembrare disponibile il Wi-Fi, ma di fatto non funziona. Anche soluzioni come eSIM o sistemi simili risultano inutilizzabili: l’assenza della rete diventa così parte integrante dell’esperienza.",
+    "T3_PART_E": "Al suo interno, la moquette è segnata dal tempo e il bagno racconta anni di storia. Eppure, c’è tutto ciò che serve davvero: un letto grande, acqua calda e quella stanchezza piena che solo i viaggi sanno dare.",
+    "T3_PART_F": "Il viaggio, fuori dalle rotte, a tratti scomodo ma incredibilmente vero, comincia quando atterriamo alle 00:20, nel cuore della notte. L’impatto è immediato: l’aeroporto è minuscolo, con una sola sala per il ritiro bagagli.",
+    "T3_PART_G": "È infatti un museo a cielo aperto, dove tutto parla di un’eleganza inattesa, fuori dal tempo, tra linee razionaliste, cinema anni ’30 e caffè storici. Poi si entra nei mercati e lo scenario cambia, diventando più vivo e intenso.",
+    "T3_PART_H": "Durante quel breve tragitto, Asmara si svela poco a poco: luci soffuse, strade vuote e lampioni tremolanti. La città sembra trattenere il respiro, immobile, elegante, misteriosa. Poi appare il Savanna International Hotel, il nostro primo vero banco di prova.",
+    "T3_PART_I": "Ci addormentiamo così, con una sensazione chiara che si fa strada dentro di noi. La mattina seguente, la giornata inizia con calma, verso le 09:30: Asmara è una città che sorprende.",
+    "T3_PART_J": "Dopo questa prima impressione, i controlli scorrono lenti e, nonostante il visto già ottenuto in Italia, ci vogliono circa 40 minuti. Ma tutto ciò non pesa: è come se il viaggio ci stesse già insegnando a rallentare.",
+    "T3_PART_K": "Queste comodità essenziali non cambiano però una condizione di cui siamo consapevoli dall’atterraggio: nessun contatto con il mondo tramite dispositivi digitali. Non esiste copertura telefonica affidabile, né rete dati.",
+    "T3_TITLE": "La prima notte ad Asmara"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | L’apertura presenta l’Eritrea e introduce il viaggio. |\n| 2 | F | «Il viaggio … comincia quando atterriamo» avvia la cronologia dell’arrivo. |\n| 3 | C | «Quella sala» riprende la sala per il ritiro bagagli. |\n| 4 | J | «Dopo questa prima impressione» colloca i controlli dopo la scena dei bagagli. |\n| 5 | B | «All’1 di notte» segue l’atterraggio e i quaranta minuti di controlli. |\n| 6 | H | «Durante quel breve tragitto» riprende il percorso verso l’hotel. |\n| 7 | E | «Al suo interno» rinvia al Savanna International Hotel. |\n| 8 | K | «Queste comodità essenziali» riprende il letto e l’acqua calda. |\n| 9 | D | «Questa disconnessione» riprende l’assenza di contatti e di rete. |\n| 10 | I | «Così» conclude la prima notte; «La mattina seguente» apre il giorno dopo. |\n| 11 | G | «È infatti» riprende Asmara, appena definita una città sorprendente. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fuori dalle rotte",
+      "categoria": "locuzione",
+      "zh": "偏离常规路线",
+      "en": "off the beaten track",
+      "esempio": "Il viaggio, fuori dalle rotte, a tratti scomodo ma incredibilmente vero"
+    },
+    {
+      "parola": "lampioni tremolanti",
+      "categoria": "locuzione nominale",
+      "zh": "闪烁的路灯",
+      "en": "flickering streetlights",
+      "esempio": "luci soffuse, strade vuote e lampioni tremolanti"
+    },
+    {
+      "parola": "banco di prova",
+      "categoria": "locuzione nominale",
+      "zh": "考验",
+      "en": "test",
+      "esempio": "il nostro primo vero banco di prova"
+    },
+    {
+      "parola": "copertura telefonica",
+      "categoria": "locuzione nominale",
+      "zh": "手机信号覆盖",
+      "en": "mobile coverage",
+      "esempio": "Non esiste copertura telefonica affidabile"
+    },
+    {
+      "parola": "museo a cielo aperto",
+      "categoria": "locuzione nominale",
+      "zh": "露天博物馆",
+      "en": "open-air museum",
+      "esempio": "È infatti un museo a cielo aperto"
+    }
+  ]
+}

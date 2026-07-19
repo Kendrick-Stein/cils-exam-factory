@@ -1,0 +1,130 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "li", "confidence": "hi"},
+  "S1.2": {"answer": "questa", "confidence": "hi"},
+  "S1.3": {"answer": "loro", "confidence": "hi"},
+  "S1.4": {"answer": "nostro", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "che", "confidence": "hi"},
+  "S1.7": {"answer": "che", "confidence": "hi"},
+  "S1.8": {"answer": "in cui", "confidence": "hi"},
+  "S1.9": {"answer": "esso", "confidence": "hi"},
+  "S1.10": {"answer": "che", "confidence": "hi"},
+  "S1.11": {"answer": "se stesso", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "quello", "confidence": "hi"},
+  "S1.15": {"answer": "che", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "quelli", "confidence": "hi"},
+  "S1.18": {"answer": "li", "confidence": "hi"},
+  "S1.19": {"answer": "Queste", "confidence": "hi"},
+  "S1.20": {"answer": "questo", "confidence": "hi"},
+  "S2.1": {"answer": "spiega", "confidence": "hi"},
+  "S2.2": {"answer": "può", "confidence": "hi"},
+  "S2.3": {"answer": "ci sia", "confidence": "hi"},
+  "S2.4": {"answer": "cerchi", "confidence": "hi"},
+  "S2.5": {"answer": "deve", "confidence": "hi"},
+  "S2.6": {"answer": "condizionano", "confidence": "hi"},
+  "S2.7": {"answer": "è emerso", "confidence": "hi"},
+  "S2.8": {"answer": "avrebbe ordinato", "confidence": "hi"},
+  "S2.9": {"answer": "frequentava", "confidence": "hi"},
+  "S2.10": {"answer": "gli voleva", "confidence": "hi"},
+  "S2.11": {"answer": "stordì", "confidence": "med"},
+  "S2.12": {"answer": "ha riconosciuto", "confidence": "hi"},
+  "S2.13": {"answer": "è cambiata", "confidence": "hi"},
+  "S2.14": {"answer": "dormo", "confidence": "hi"},
+  "S2.15": {"answer": "sono", "confidence": "hi"},
+  "S2.16": {"answer": "succederà", "confidence": "hi"},
+  "S2.17": {"answer": "essersi sentito", "confidence": "hi"},
+  "S2.18": {"answer": "sia", "confidence": "hi"},
+  "S2.19": {"answer": "sia stata raccontata", "confidence": "hi"},
+  "S2.20": {"answer": "vedremo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.11",
+    "reason": "«Stordì» è favorito dalla costruzione narrativa «Fu ... che», ma anche «ha stordito» sarebbe grammaticalmente possibile nel contesto."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file non contiene prove di produzione scritta."
+}
+```
+
+5,838
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "li", "confidence": "hi"},
+  "S1.2": {"answer": "questa", "confidence": "hi"},
+  "S1.3": {"answer": "loro", "confidence": "hi"},
+  "S1.4": {"answer": "nostro", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "che", "confidence": "hi"},
+  "S1.7": {"answer": "che", "confidence": "hi"},
+  "S1.8": {"answer": "in cui", "confidence": "hi"},
+  "S1.9": {"answer": "esso", "confidence": "hi"},
+  "S1.10": {"answer": "che", "confidence": "hi"},
+  "S1.11": {"answer": "se stesso", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "quello", "confidence": "hi"},
+  "S1.15": {"answer": "che", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "quelli", "confidence": "hi"},
+  "S1.18": {"answer": "li", "confidence": "hi"},
+  "S1.19": {"answer": "Queste", "confidence": "hi"},
+  "S1.20": {"answer": "questo", "confidence": "hi"},
+  "S2.1": {"answer": "spiega", "confidence": "hi"},
+  "S2.2": {"answer": "può", "confidence": "hi"},
+  "S2.3": {"answer": "ci sia", "confidence": "hi"},
+  "S2.4": {"answer": "cerchi", "confidence": "hi"},
+  "S2.5": {"answer": "deve", "confidence": "hi"},
+  "S2.6": {"answer": "condizionano", "confidence": "hi"},
+  "S2.7": {"answer": "è emerso", "confidence": "hi"},
+  "S2.8": {"answer": "avrebbe ordinato", "confidence": "hi"},
+  "S2.9": {"answer": "frequentava", "confidence": "hi"},
+  "S2.10": {"answer": "gli voleva", "confidence": "hi"},
+  "S2.11": {"answer": "stordì", "confidence": "med"},
+  "S2.12": {"answer": "ha riconosciuto", "confidence": "hi"},
+  "S2.13": {"answer": "è cambiata", "confidence": "hi"},
+  "S2.14": {"answer": "dormo", "confidence": "hi"},
+  "S2.15": {"answer": "sono", "confidence": "hi"},
+  "S2.16": {"answer": "succederà", "confidence": "hi"},
+  "S2.17": {"answer": "essersi sentito", "confidence": "hi"},
+  "S2.18": {"answer": "sia", "confidence": "hi"},
+  "S2.19": {"answer": "sia stata raccontata", "confidence": "hi"},
+  "S2.20": {"answer": "vedremo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.11",
+    "reason": "«Stordì» è favorito dalla costruzione narrativa «Fu ... che», ma anche «ha stordito» sarebbe grammaticalmente possibile nel contesto."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file non contiene prove di produzione scritta."
+}
+```
