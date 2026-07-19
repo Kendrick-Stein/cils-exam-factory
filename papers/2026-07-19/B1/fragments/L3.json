@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "UN CAOS MERAVIGLIOSO: ALLA SCOPERTA DI BANGKOK",
+    "T3_PART_A": "Abbiamo iniziato il nostro giro a Chinatown, un quartiere vivace e accogliente dove i colori, i suoni e i sapori sono un'esplosione continua.",
+    "T3_PART_B": "Infine, abbiamo visitato il tempio di Wat Pho, che ospita l'imponente statua del Buddha sdraiato. Lunga 46 metri e alta 15,",
+    "T3_PART_C": "In ogni angolo della città, piccoli altari invitano i passanti a fermarsi a pregare, portando in dono fiori e cibo.",
+    "T3_PART_D": "Poco distante, ci siamo immersi nella quiete del mercato dei fiori, un luogo inaspettato. Dimenticate i soliti mazzi recisi e fiori in vasi di terra:",
+    "T3_PART_E": "E che il suo sorriso rappresenta uno dei suoi insegnamenti più importanti. All'interno del tempio c'è un rito che abbiamo voluto provare:",
+    "T3_PART_F": "La tappa successiva è stata il Palazzo Reale, un vero incanto architettonico. Le costruzioni del '700 sono dominate da simboli antichi come uccelli che conducono al paradiso",
+    "T3_PART_G": "Versare 108 monetine in 108 coppette, esprimendo un solo desiderio. Tutti e tre abbiamo partecipato a questa esperienza, ed è stato un momento molto suggestivo.",
+    "T3_PART_H": "Tra negozietti e banchetti, si trova di tutto: dai prodotti tipici cinesi alle specialità locali, un vero paradiso per gli occhi e il palato.",
+    "T3_PART_I": "La statua riposa in un tempio completamente affrescato. Ci hanno spiegato che il Buddha è sempre raffigurato sorridente,",
+    "T3_PART_J": "Qui i fiori sono intrecciati in ghirlande e mazzolini, usati soprattutto come offerte per le statue del Buddha.",
+    "T3_PART_K": "E serpenti Naga, da cui si dice discenda il popolo Khmer. Questi serpenti sono spesso raffigurati con occhi di una pietra rossa incastonata, un dettaglio che mi ha colpito molto."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | «Abbiamo iniziato» apre il percorso a Chinatown. |\n| 2 | H | «Tra negozietti e banchetti» sviluppa la descrizione di Chinatown. |\n| 3 | D | «Poco distante» segnala lo spostamento al mercato dei fiori. |\n| 4 | J | «Qui» riprende senza ambiguità il mercato dei fiori. |\n| 5 | C | «In ogni angolo della città» amplia il tema delle offerte appena descritte. |\n| 6 | F | «La tappa successiva» introduce il Palazzo Reale. |\n| 7 | K | «E serpenti Naga» completa l'elenco dei simboli antichi; 中文：承接前面的“come uccelli”. |\n| 8 | B | «Infine» introduce l'ultima visita, al tempio di Wat Pho. |\n| 9 | I | «La statua» riprende soltanto il Buddha sdraiato con le sue misure. |\n| 10 | E | «E che» completa la spiegazione iniziata con «Ci hanno spiegato che». |\n| 11 | G | «Versare 108 monetine» specifica il rito che i viaggiatori hanno voluto provare. |",
+    "ANS_L3_SEQUENCE": "A–H–D–J–C–F–K–B–I–E–G"
+  },
+  "key": {
+    "L3": "A–H–D–J–C–F–K–B–I–E–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "banchetti",
+      "categoria": "nome maschile plurale",
+      "zh": "摊位",
+      "en": "stalls",
+      "esempio": "Tra negozietti e banchetti, si trova di tutto: dai prodotti tipici cinesi alle specialità locali, un vero paradiso per gli occhi e il palato."
+    },
+    {
+      "parola": "ghirlande",
+      "categoria": "nome femminile plurale",
+      "zh": "花环",
+      "en": "garlands",
+      "esempio": "Qui i fiori sono intrecciati in ghirlande e mazzolini, usati soprattutto come offerte per le statue del Buddha."
+    },
+    {
+      "parola": "incastonata",
+      "categoria": "aggettivo",
+      "zh": "镶嵌的",
+      "en": "set, embedded",
+      "esempio": "Questi serpenti sono spesso raffigurati con occhi di una pietra rossa incastonata, un dettaglio che mi ha colpito molto."
+    },
+    {
+      "parola": "affrescato",
+      "categoria": "aggettivo",
+      "zh": "绘有壁画的",
+      "en": "frescoed",
+      "esempio": "La statua riposa in un tempio completamente affrescato."
+    },
+    {
+      "parola": "coppette",
+      "categoria": "nome femminile plurale",
+      "zh": "小碗；小钵",
+      "en": "small bowls",
+      "esempio": "Versare 108 monetine in 108 coppette, esprimendo un solo desiderio."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Shiva *(essere)* __è (0)__ un rapper.\n\n**Intervistatrice:** Oggi che cosa *(raccontare)* __(1)__?\n\n**Shiva:** Fino a oggi *(dedicare)* __(2)__ la mia vita alla musica. Durante l'infanzia, ogni giorno *(dedicare)* __(3)__ il mio tempo alla musica. Mentre ero bambino, non *(avere)* __(4)__ neanche una ragazza. Adesso *(parlare)* __(5)__ delle mie origini e delle difficoltà.\n\n**Intervistatrice:** E tuo figlio?\n\n**Shiva:** È nato mentre io *(essere)* __(6)__ in carcere. Mentre i fuochi d'artificio *(annunciare)* __(7)__ la nascita, ero ancora lì. Quel giorno *(sentirli)* __(8)__ e subito *(piangere)* __(9)__ tantissimo. Finora *(dovere)* __(10)__ capire da solo che cosa era giusto o sbagliato.",
+    "T5_TITLE": "SHIVA RACCONTA LA SUA STORIA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "Le espressioni temporali rendono unico il tempo verbale: «Oggi» e «Adesso» richiedono il presente; «ogni giorno» e «mentre» descrivono situazioni all'imperfetto; «Fino a oggi», «Quel giorno» e «Finora» fissano il passato prossimo. 中文提示：先找时间标记，再写完整动词形式。",
+    "ANS_S2_ROWS": "| 1 | racconti | presente | 6 | ero | imperfetto |\n| 2 | ho dedicato | passato prossimo | 7 | annunciavano | imperfetto |\n| 3 | dedicavo | imperfetto | 8 | li ho sentiti | passato prossimo |\n| 4 | avevo | imperfetto | 9 | ho pianto | passato prossimo |\n| 5 | parlo | presente | 10 | ho dovuto | passato prossimo |"
+  },
+  "key": {
+    "S2.1": "racconti",
+    "S2.2": "ho dedicato",
+    "S2.3": "dedicavo",
+    "S2.4": "avevo",
+    "S2.5": "parlo",
+    "S2.6": "ero",
+    "S2.7": "annunciavano",
+    "S2.8": "li ho sentiti",
+    "S2.9": "ho pianto",
+    "S2.10": "ho dovuto"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "origini",
+      "categoria": "nome femminile plurale",
+      "zh": "出身；根源",
+      "en": "origins",
+      "esempio": "delle mie origini e delle difficoltà"
+    },
+    {
+      "parola": "fuochi d'artificio",
+      "categoria": "locuzione nominale",
+      "zh": "烟花",
+      "en": "fireworks",
+      "esempio": "i fuochi d'artificio"
+    },
+    {
+      "parola": "nascita",
+      "categoria": "nome femminile",
+      "zh": "出生",
+      "en": "birth",
+      "esempio": "la nascita"
+    },
+    {
+      "parola": "difficoltà",
+      "categoria": "nome femminile invariabile",
+      "zh": "困难",
+      "en": "difficulties",
+      "esempio": "delle mie origini e delle difficoltà"
+    },
+    {
+      "parola": "da solo",
+      "categoria": "locuzione avverbiale",
+      "zh": "独自地",
+      "en": "on one's own",
+      "esempio": "capire da solo"
+    }
+  ]
+}

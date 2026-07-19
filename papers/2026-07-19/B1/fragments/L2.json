@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Estate 2026: Avviso per Centri Estivi e Campus Residenziali",
+    "T2_TEXT": "L’Amministrazione Comunale di Palermo – Area delle Politiche Socio-Sanitarie attiva un programma estivo straordinario dedicato al benessere, alla socializzazione e all'inclusione dei minori. Con uno stanziamento complessivo di € 700.000,00, l'iniziativa punta a sostenere le famiglie e a garantire la completa gratuità degli interventi ai minori in condizioni di vulnerabilità e fragilità economico-sociale.\n\nLa grande novità di quest'anno è lo sdoppiamento dell'offerta progettuale in due linee d'azione mirate, introducendo una forte caratterizzazione innovativa per la città:\n\n- Sezione A - “ESTATE INSIEME 2026” (€ 400.000,00): per la realizzazione di Centri estivi diurni sul territorio cittadino rivolti ai bambini dai 3 ai 14 anni non compiuti.\n- Sezione B - “E-STATE IN MOVIMENTO” (€ 300.000,00): un'opportunità inedita di crescita fuori dal territorio comunale, attraverso Campus residenziali regionali, nazionali ed europei per ragazzi dagli 11 ai 16 anni non compiuti, volti a stimolarne l'autonomia.\n\n**Termini e modalità di presentazione**\n\nPer garantire risposte immediate prima dell'inizio dell'estate, la selezione avverrà tramite procedura valutativa a sportello in base all'ordine cronologico di arrivo delle istanze, che dovranno raggiungere un punteggio minimo di 60/100.\n\n- Apertura dello sportello: ore 08:00 del 22/06/2026.\n- Chiusura dello sportello: ore 23:59 del 23/06/2026.\n\nLe domande, firmate digitalmente, dovranno essere trasmesse dagli Enti del Terzo Settore (ETS) iscritti al RUNTS esclusivamente via PEC all'indirizzo pianoterritorialeinfanzia@cert.comune.palermo.it.\n\nL’Amministrazione comunale informa i soggetti interessati che, a causa di un refuso tipografico presente nei documenti allegati, l'indirizzo PEC settoreservizisocioassistenziali@cert.comune.palermo.it precedentemente indicato risulta errato. L'indirizzo corretto a cui inviare la documentazione è pianoterritorialeinfanzia@cert.comune.palermo.it.\n\nL'Ufficio di pianificazione e monitoraggio delle attività sociali e delle emergenze sociali precisa che la domanda e i relativi allegati dovranno essere:\n\n- compilati digitalmente in ogni loro parte;\n- salvati esclusivamente in formato PDF;\n- sottoscritti tramite firma digitale.\n\nIl file così generato dovrà essere trasmesso tassativamente tramite Posta Elettronica Certificata (PEC) al sopraindicato indirizzo corretto. La mancata osservanza di tali disposizioni o l'invio a un indirizzo differente comporterà l'inammissibilità della domanda.",
+    "L2_ITEMS": "**1. Il programma estivo mira anche a favorire l'inclusione dei minori.**  \nVero ○ Falso ○\n\n**2. L'iniziativa prevede interventi gratuiti per i minori in condizioni di vulnerabilità economico-sociale.**  \nVero ○ Falso ○\n\n**3. L'offerta progettuale è organizzata in tre linee d'azione.**  \nVero ○ Falso ○\n\n**4. Alla Sezione A sono destinati 400.000 euro.**  \nVero ○ Falso ○\n\n**5. I Centri estivi diurni della Sezione A sono rivolti anche a chi ha già compiuto 14 anni.**  \nVero ○ Falso ○\n\n**6. I Campus della Sezione B si svolgono esclusivamente nel territorio comunale di Palermo.**  \nVero ○ Falso ○\n\n**7. La Sezione B è destinata a ragazzi dagli 11 ai 16 anni non compiuti.**  \nVero ○ Falso ○\n\n**8. Le domande saranno valutate senza considerare il loro ordine di arrivo.**  \nVero ○ Falso ○\n\n**9. Per essere selezionate, le istanze devono ottenere almeno 60 punti su 100.**  \nVero ○ Falso ○\n\n**10. Lo sportello chiude alle ore 23:59 del 22 giugno 2026.**  \nVero ○ Falso ○\n\n**11. Possono trasmettere le domande gli Enti del Terzo Settore iscritti al RUNTS.**  \nVero ○ Falso ○\n\n**12. Le domande possono essere inviate anche senza firma digitale.**  \nVero ○ Falso ○\n\n**13. L'indirizzo PEC indicato in precedenza nei documenti allegati contiene un errore.**  \nVero ○ Falso ○\n\n**14. L'invio della documentazione a un indirizzo diverso da quello corretto rende la domanda inammissibile.**  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il programma è «dedicato al benessere, alla socializzazione e all'inclusione dei minori». |\n| L2.2 | Vero | Il testo garantisce «la completa gratuità degli interventi» ai minori in condizioni di vulnerabilità. |\n| L2.3 | Falso | L'offerta è divisa «in due linee d'azione», non in tre. |\n| L2.4 | Vero | La Sezione A dispone di «€ 400.000,00». |\n| L2.5 | Falso | I destinatari hanno «dai 3 ai 14 anni non compiuti»: chi ha già compiuto 14 anni è escluso. 中文：注意“non compiuti”。 |\n| L2.6 | Falso | La Sezione B propone attività «fuori dal territorio comunale». |\n| L2.7 | Vero | I Campus sono destinati a ragazzi «dagli 11 ai 16 anni non compiuti». |\n| L2.8 | Falso | La procedura segue «l'ordine cronologico di arrivo delle istanze». |\n| L2.9 | Vero | Le istanze devono raggiungere «un punteggio minimo di 60/100». |\n| L2.10 | Falso | La chiusura è prevista alle «ore 23:59 del 23/06/2026», non il 22 giugno. |\n| L2.11 | Vero | Le domande devono essere trasmesse dagli «Enti del Terzo Settore (ETS) iscritti al RUNTS». |\n| L2.12 | Falso | Le domande devono essere «firmate digitalmente» e gli allegati «sottoscritti tramite firma digitale». |\n| L2.13 | Vero | Il precedente indirizzo PEC, per un «refuso tipografico», «risulta errato». |\n| L2.14 | Vero | «L'invio a un indirizzo differente comporterà l'inammissibilità della domanda». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "stanziamento",
+      "categoria": "sostantivo maschile",
+      "zh": "拨款；预算",
+      "en": "allocation; funding",
+      "esempio": "Con uno stanziamento complessivo di € 700.000,00"
+    },
+    {
+      "parola": "vulnerabilità",
+      "categoria": "sostantivo femminile",
+      "zh": "脆弱性；弱势状态",
+      "en": "vulnerability",
+      "esempio": "in condizioni di vulnerabilità e fragilità economico-sociale"
+    },
+    {
+      "parola": "sdoppiamento",
+      "categoria": "sostantivo maschile",
+      "zh": "一分为二；拆分",
+      "en": "division into two parts",
+      "esempio": "lo sdoppiamento dell'offerta progettuale in due linee d'azione mirate"
+    },
+    {
+      "parola": "istanze",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "申请；申请材料",
+      "en": "applications",
+      "esempio": "in base all'ordine cronologico di arrivo delle istanze"
+    },
+    {
+      "parola": "inammissibilità",
+      "categoria": "sostantivo femminile",
+      "zh": "不予受理",
+      "en": "inadmissibility",
+      "esempio": "comporterà l'inammissibilità della domanda"
+    }
+  ]
+}

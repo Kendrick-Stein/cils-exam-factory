@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_ARGOMENTI": "**1.** Preparare una cena per alcune persone: parla dei piatti da cucinare, dell'organizzazione e dei gusti degli invitati.\n\n**2.** Un viaggio durante il quale hai avuto un piccolo imprevisto: racconta che cosa è successo, come hai reagito e come si è conclusa l'esperienza.\n\n**3.** Scegliere un'attività per il tempo libero: confronta due possibilità, esprimi le tue preferenze e prova a trovare un accordo con l'esaminatore.\n\n**4.** L'utilità delle biblioteche oggi: esprimi la tua opinione e parla dei servizi che una biblioteca dovrebbe offrire.",
+    "O2_ARGOMENTI": "**1.** Un oggetto che usi ogni giorno: descrivilo, spiega perché ti è utile e racconta come lo hai avuto.\n\n**2.** Il quartiere ideale in cui vivere: descrivilo e spiega quali servizi e spazi non dovrebbero mancare.\n\n**3.** Un errore dal quale hai imparato qualcosa: racconta che cosa è successo e come hai cambiato il tuo comportamento.\n\n**4.** Una festa o un piccolo evento che vorresti organizzare: presenta il programma, il luogo, gli invitati e i preparativi necessari."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**Argomento n. 1 — Preparare una cena**\n\n*Esaminatore:* Deve preparare una cena per alcuni amici. Che cosa cucinerebbe?\n\n*Candidato:* Preparerei un piatto di pasta con verdure e, come secondo, una torta salata. Sono ricette semplici che posso preparare in anticipo. Prima chiederei agli invitati se hanno allergie o se non mangiano alcuni alimenti. Per il dolce comprerei un gelato, perché piace quasi a tutti.\n\n*Esaminatore:* Come organizzerebbe la serata e che cosa chiederebbe agli amici?\n\n*Candidato:* Fare la spesa il giorno prima mi permetterebbe di cucinare senza fretta. Apparecchierei la tavola in modo semplice e sceglierei un po' di musica. Chiederei a un amico di portare le bevande e a un altro del pane. Così tutti parteciperebbero e io avrei più tempo per stare con gli ospiti.\n\n**Argomento n. 2 — Un imprevisto durante un viaggio**\n\n*Esaminatore:* Mi racconti un piccolo imprevisto che le è capitato durante un viaggio.\n\n*Candidato:* L'estate scorsa sono andato al mare in treno con due amici. A metà del percorso il treno si è fermato per un guasto e abbiamo capito che saremmo arrivati molto tardi. All'inizio eravamo preoccupati, perché il proprietario dell'appartamento ci aspettava a un'ora precisa.\n\n*Esaminatore:* Come avete risolto il problema e come si è concluso il viaggio?\n\n*Candidato:* Abbiamo telefonato al proprietario e gli abbiamo spiegato la situazione. Per fortuna è stato comprensivo e ha lasciato le chiavi a una vicina. Durante l'attesa abbiamo parlato con altri viaggiatori e condiviso qualcosa da mangiare. Siamo arrivati stanchi, ma quell'imprevisto è diventato un ricordo divertente.\n\n**Argomento n. 3 — Un'attività per il tempo libero**\n\n*Esaminatore:* Per il fine settimana preferirebbe un corso di fotografia o una gita in bicicletta?\n\n*Candidato:* Mi interessano entrambe le proposte, ma sceglierei la gita in bicicletta. Dopo una settimana passata al chiuso ho voglia di stare all'aria aperta e fare movimento. Inoltre potremmo scoprire una zona nuova senza spendere molto. Naturalmente dovremmo controllare il tempo prima di partire.\n\n*Esaminatore:* Io preferirei il corso di fotografia. Possiamo trovare un accordo?\n\n*Candidato:* Potremmo combinare le due idee: durante la gita ci fermeremmo a fotografare i paesaggi e, la settimana successiva, seguiremmo una lezione breve. In questo modo lei potrebbe esercitarsi con la macchina fotografica e io potrei pedalare. Mi sembra una soluzione adatta a entrambi.\n\n**Argomento n. 4 — L'utilità delle biblioteche**\n\n*Esaminatore:* Secondo lei, le biblioteche sono ancora utili oggi?\n\n*Candidato:* Sì, perché non tutti possono comprare molti libri o studiare tranquillamente a casa. La biblioteca offre uno spazio silenzioso, permette di prendere libri in prestito e aiuta le persone a trovare informazioni affidabili. È anche un luogo dove si può leggere senza dover consumare qualcosa.\n\n*Esaminatore:* Quali altri servizi dovrebbe offrire una biblioteca moderna?\n\n*Candidato:* Dovrebbe avere computer, connessione a Internet e tavoli per lavorare in gruppo. Sarebbero utili anche corsi di lingua, incontri con autori e attività per bambini. Secondo me, però, bisogna conservare alcune zone davvero tranquille. Una biblioteca moderna può offrire nuovi servizi senza perdere la sua funzione principale.",
+    "MODEL_O1_PHRASES": "«Prima chiederei se...»（我会先询问是否……）; «All'inizio eravamo preoccupati, perché...»（起初我们很担心，因为……）; «Mi interessano entrambe le proposte, ma...»（两个建议我都感兴趣，不过……）; «Potremmo combinare le due idee»（我们可以结合两个想法）; «Secondo me, però...»（不过，我认为……）",
+    "MODEL_O2": "**Argomento n. 1 — Un oggetto che uso ogni giorno**\n\nL'oggetto che uso ogni giorno è uno zaino blu di media grandezza. Ha due tasche esterne, uno spazio per il computer e delle cinghie molto comode. Lo porto al lavoro, in biblioteca e anche durante le gite brevi. Mi è utile perché posso tenere in ordine tutto ciò che mi serve: il portatile, un quaderno, una bottiglia d'acqua e qualche volta il pranzo. Ho ricevuto questo zaino da mia sorella tre anni fa, quando ho iniziato un nuovo lavoro. Quello che usavo prima era troppo piccolo e mi faceva male a una spalla. Mia sorella ha scelto un modello semplice e resistente, adatto sia alla città sia ai viaggi. Ormai il colore è un po' meno brillante e una tasca è stata riparata, ma non voglio cambiarlo. Per me non è soltanto un oggetto pratico: mi ricorda l'inizio di un periodo importante e il sostegno di mia sorella.\n\n**Argomento n. 2 — Il quartiere ideale**\n\nIl mio quartiere ideale sarebbe tranquillo, ma non lontano dal centro. Vorrei poter raggiungere il lavoro con i mezzi pubblici e fare le spese quotidiane a piedi. Per questo non dovrebbero mancare una fermata dell'autobus, un supermercato, una farmacia e alcuni piccoli negozi. Mi piacerebbe anche avere un parco con alberi, panchine e uno spazio dove i bambini possano giocare senza pericoli. Le strade dovrebbero avere marciapiedi larghi e piste ciclabili ben separate dalle automobili. Un altro servizio importante sarebbe una biblioteca aperta anche nel tardo pomeriggio, utile agli studenti e a chi lavora. Non cerco un quartiere completamente silenzioso: apprezzerei qualche bar e un piccolo mercato settimanale, perché questi luoghi favoriscono gli incontri tra vicini. Tuttavia vorrei evitare il traffico intenso e i locali rumorosi di notte. In breve, il quartiere ideale dovrebbe rendere semplici gli spostamenti e offrire occasioni per stare insieme.\n\n**Argomento n. 3 — Un errore utile**\n\nQualche anno fa ho commesso un errore mentre organizzavo una breve vacanza con tre amici. Avevo trovato un appartamento conveniente e l'ho prenotato subito, senza leggere con attenzione tutte le condizioni. Soltanto pochi giorni prima della partenza ho scoperto che si trovava molto lontano dalla stazione e che nella zona non passavano autobus la sera. Nessuno di noi aveva una macchina. I miei amici si sono arrabbiati, perché avevamo già comprato i biglietti del treno. Ho riconosciuto il mio errore e ho cercato una soluzione: abbiamo cancellato la prenotazione e scelto una camera più centrale, anche se costava un po' di più. Alla fine la vacanza è andata bene, ma ho capito che un prezzo basso non è l'unico elemento da valutare. Da allora controllo sempre la posizione, i trasporti e le regole di cancellazione. Inoltre condivido tutte le informazioni con gli altri prima di confermare una prenotazione.\n\n**Argomento n. 4 — Un piccolo evento da organizzare**\n\nVorrei organizzare una festa di quartiere per dare alle persone l'occasione di conoscersi meglio. La farei un sabato pomeriggio nel cortile comune del mio palazzo, uno spazio abbastanza grande e lontano dalla strada. Inviterei tutti i vicini, comprese le famiglie arrivate da poco. Il programma sarebbe semplice: una merenda condivisa, alcuni giochi per i bambini e un angolo dove scambiare libri. Chiederei a ogni famiglia di portare qualcosa da mangiare o da bere, mentre io preparerei i tavoli e un po' di musica. Prima dell'evento dovrei chiedere il permesso all'amministratore, distribuire gli inviti e controllare le previsioni del tempo. In caso di pioggia potremmo usare la sala comune. Eviterei musica troppo alta, per non disturbare chi desidera riposare. Alla fine proporrei una fotografia di gruppo e raccoglierei idee per altre attività. Sarebbe una festa economica, ma potrebbe rendere il quartiere più accogliente.\n",
+    "MODEL_O2_PHRASES": "«Mi è utile perché...»（它对我有用，因为……）; «Non dovrebbero mancare...»（不应缺少……）; «Ho riconosciuto il mio errore»（我承认了自己的错误）; «Da allora controllo sempre...»（从那以后我总会检查……）; «In caso di pioggia...»（如果下雨……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "in anticipo",
+      "categoria": "locuzione avverbiale",
+      "zh": "提前",
+      "en": "in advance",
+      "esempio": "Sono ricette semplici che posso preparare in anticipo."
+    },
+    {
+      "parola": "guasto",
+      "categoria": "nome maschile",
+      "zh": "故障",
+      "en": "breakdown",
+      "esempio": "A metà del percorso il treno si è fermato per un guasto e abbiamo capito che saremmo arrivati molto tardi."
+    },
+    {
+      "parola": "prendere libri in prestito",
+      "categoria": "locuzione verbale",
+      "zh": "借书",
+      "en": "to borrow books",
+      "esempio": "La biblioteca offre uno spazio silenzioso, permette di prendere libri in prestito e aiuta le persone a trovare informazioni affidabili."
+    },
+    {
+      "parola": "piste ciclabili",
+      "categoria": "locuzione nominale",
+      "zh": "自行车道",
+      "en": "cycle paths",
+      "esempio": "Le strade dovrebbero avere marciapiedi larghi e piste ciclabili ben separate dalle automobili."
+    },
+    {
+      "parola": "regole di cancellazione",
+      "categoria": "locuzione nominale",
+      "zh": "取消规则",
+      "en": "cancellation rules",
+      "esempio": "Da allora controllo sempre la posizione, i trasporti e le regole di cancellazione."
+    }
+  ]
+}

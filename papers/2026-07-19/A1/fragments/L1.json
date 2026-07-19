@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "1. **Il Borgo del Mincio si trova...**\n   A) sulle Colline Moreniche.\n   B) a 43,5 chilometri dal lago.\n   C) lontano dal Parco del Mincio.\n\n2. **La famiglia si occupa di agricoltura e allevamento...**\n   A) dal 1800.\n   B) da quattordici anni.\n   C) da due anni.\n\n3. **L'agriturismo offre agli ospiti...**\n   A) due camere e quattordici appartamenti.\n   B) due appartamenti e quattordici camere.\n   C) quattordici camere senza bagno privato.\n\n4. **La ciclovia Mantova-Peschiera \u00e8 lunga...**\n   A) due chilometri.\n   B) quattordici chilometri.\n   C) 43,5 chilometri.",
+    "T1_TEXT": "Il Borgo del Mincio \u00e8 un agriturismo sulle Colline Moreniche, nell'oasi del Parco del Mincio. \u00c8 vicino al lago di Garda. Per la famiglia sono importanti il rispetto delle persone, degli animali e del territorio. Dal 1800 la famiglia si occupa di agricoltura e allevamento. Oggi continua questa tradizione al Borgo del Mincio.\n\nL'agriturismo offre due appartamenti e quattordici grandi camere. Tutte le camere hanno il bagno privato. Qui gli ospiti incontrano una famiglia numerosa e un piccolo cane meticcio di nome Nutella. Vicino all'agriturismo c'\u00e8 la ciclovia Mantova-Peschiera. La ciclovia \u00e8 lunga 43,5 chilometri. Il percorso \u00e8 per le persone a piedi e per chi usa la bicicletta.",
+    "T1_TITLE": "L'AGRITURISMO"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice \u00ab sulle Colline Moreniche \u00bb; \u6ce8\u610f\uff1a\u6e56\u548c\u516c\u56ed\u90fd\u5728\u6587\u4e2d\u51fa\u73b0\uff0c\u4f46\u6b63\u786e\u4f4d\u7f6e\u662f Colline Moreniche\u3002 |\n| L1.2 | A | La frase decisiva \u00e8 \u00ab Dal 1800 la famiglia si occupa di agricoltura e allevamento \u00bb; \u6ce8\u610f\uff1a14 \u662f\u623f\u95f4\u6570\u91cf\u3002 |\n| L1.3 | B | Il testo indica \u00ab due appartamenti e quattordici grandi camere \u00bb; \u6ce8\u610f\uff1aA \u9879\u628a\u4e24\u4e2a\u6570\u5b57\u5bf9\u8c03\u4e86\u3002 |\n| L1.4 | C | Il testo dice \u00ab La ciclovia \u00e8 lunga 43,5 chilometri \u00bb; \u6ce8\u610f\uff1a2 \u548c 14 \u6765\u81ea\u4f4f\u5bbf\u6570\u91cf\uff0c\u4e0d\u662f\u957f\u5ea6\u3002 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "A",
+    "L1.3": "B",
+    "L1.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "agriturismo",
+      "categoria": "nome maschile",
+      "zh": "\u519c\u5e84\u65c5\u9986",
+      "en": "farm stay",
+      "esempio": "Il Borgo del Mincio \u00e8 un agriturismo sulle Colline Moreniche, nell'oasi del Parco del Mincio."
+    },
+    {
+      "parola": "allevamento",
+      "categoria": "nome maschile",
+      "zh": "\u755c\u7267\u4e1a",
+      "en": "animal farming",
+      "esempio": "Dal 1800 la famiglia si occupa di agricoltura e allevamento."
+    },
+    {
+      "parola": "bagno privato",
+      "categoria": "espressione nominale",
+      "zh": "\u72ec\u7acb\u536b\u6d74",
+      "en": "private bathroom",
+      "esempio": "Tutte le camere hanno il bagno privato."
+    },
+    {
+      "parola": "meticcio",
+      "categoria": "aggettivo",
+      "zh": "\u6df7\u79cd\u7684",
+      "en": "mixed-breed",
+      "esempio": "Qui gli ospiti incontrano una famiglia numerosa e un piccolo cane meticcio di nome Nutella."
+    },
+    {
+      "parola": "ciclovia",
+      "categoria": "nome femminile",
+      "zh": "\u81ea\u884c\u8f66\u9053",
+      "en": "cycle path",
+      "esempio": "Vicino all'agriturismo c'\u00e8 la ciclovia Mantova-Peschiera."
+    }
+  ]
+}

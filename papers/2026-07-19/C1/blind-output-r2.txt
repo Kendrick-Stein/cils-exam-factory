@@ -1,0 +1,120 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "è stato considerato", "confidence": "hi"},
+  "S2.2": {"answer": "delizia", "confidence": "hi"},
+  "S2.3": {"answer": "essere", "confidence": "hi"},
+  "S2.4": {"answer": "ha rivestito", "confidence": "hi"},
+  "S2.5": {"answer": "gli hanno permesso", "confidence": "hi"},
+  "S2.6": {"answer": "partecipava", "confidence": "hi"},
+  "S2.7": {"answer": "lo intervistammo", "confidence": "hi"},
+  "S2.8": {"answer": "presa", "confidence": "hi"},
+  "S2.9": {"answer": "raccontando", "confidence": "med"},
+  "S2.10": {"answer": "tralasciò", "confidence": "hi"},
+  "S2.11": {"answer": "ci spiegasse", "confidence": "hi"},
+  "S2.12": {"answer": "capisca", "confidence": "hi"},
+  "S2.13": {"answer": "crescere", "confidence": "hi"},
+  "S2.14": {"answer": "ne ho visto", "confidence": "med"},
+  "S2.15": {"answer": "mi abbia già offerto", "confidence": "hi"},
+  "S2.16": {"answer": "dialogare", "confidence": "hi"},
+  "S2.17": {"answer": "avesse avuto", "confidence": "hi"},
+  "S2.18": {"answer": "sarebbe sembrata", "confidence": "hi"},
+  "S2.19": {"answer": "affrontò", "confidence": "hi"},
+  "S2.20": {"answer": "inclusi", "confidence": "hi"},
+  "S3.1": {"answer": "nell'impresa", "confidence": "hi"},
+  "S3.2": {"answer": "hanno appunto realizzato", "confidence": "hi"},
+  "S3.3": {"answer": "si basano", "confidence": "hi"},
+  "S3.4": {"answer": "anziché", "confidence": "hi"},
+  "S3.5": {"answer": "attuali", "confidence": "hi"},
+  "S3.6": {"answer": "durata", "confidence": "hi"},
+  "S3.7": {"answer": "hanno bisogno", "confidence": "hi"},
+  "S3.8": {"answer": "scandire", "confidence": "hi"},
+  "S3.9": {"answer": "saltano", "confidence": "hi"},
+  "S3.10": {"answer": "vengono colpiti", "confidence": "hi"},
+  "S3.11": {"answer": "frequenza", "confidence": "hi"},
+  "S3.12": {"answer": "innescare", "confidence": "hi"},
+  "S3.13": {"answer": "invece", "confidence": "hi"},
+  "S3.14": {"answer": "In particolare", "confidence": "hi"},
+  "S3.15": {"answer": "vicini", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.9",
+    "reason": "La costruzione «lo fece raccontando contemporaneamente del rapporto» è poco naturale, ma il gerundio è la soluzione sintatticamente più plausibile."
+  },
+  {
+    "item_id": "S2.14",
+    "reason": "«Finora» favorisce «ne ho visto», ma nel contesto generale sarebbe possibile anche «ne vedo»."
+  }
+]
+```
+
+WRITING checks
+```json
+[]
+```
+
+15,645
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "è stato considerato", "confidence": "hi"},
+  "S2.2": {"answer": "delizia", "confidence": "hi"},
+  "S2.3": {"answer": "essere", "confidence": "hi"},
+  "S2.4": {"answer": "ha rivestito", "confidence": "hi"},
+  "S2.5": {"answer": "gli hanno permesso", "confidence": "hi"},
+  "S2.6": {"answer": "partecipava", "confidence": "hi"},
+  "S2.7": {"answer": "lo intervistammo", "confidence": "hi"},
+  "S2.8": {"answer": "presa", "confidence": "hi"},
+  "S2.9": {"answer": "raccontando", "confidence": "med"},
+  "S2.10": {"answer": "tralasciò", "confidence": "hi"},
+  "S2.11": {"answer": "ci spiegasse", "confidence": "hi"},
+  "S2.12": {"answer": "capisca", "confidence": "hi"},
+  "S2.13": {"answer": "crescere", "confidence": "hi"},
+  "S2.14": {"answer": "ne ho visto", "confidence": "med"},
+  "S2.15": {"answer": "mi abbia già offerto", "confidence": "hi"},
+  "S2.16": {"answer": "dialogare", "confidence": "hi"},
+  "S2.17": {"answer": "avesse avuto", "confidence": "hi"},
+  "S2.18": {"answer": "sarebbe sembrata", "confidence": "hi"},
+  "S2.19": {"answer": "affrontò", "confidence": "hi"},
+  "S2.20": {"answer": "inclusi", "confidence": "hi"},
+  "S3.1": {"answer": "nell'impresa", "confidence": "hi"},
+  "S3.2": {"answer": "hanno appunto realizzato", "confidence": "hi"},
+  "S3.3": {"answer": "si basano", "confidence": "hi"},
+  "S3.4": {"answer": "anziché", "confidence": "hi"},
+  "S3.5": {"answer": "attuali", "confidence": "hi"},
+  "S3.6": {"answer": "durata", "confidence": "hi"},
+  "S3.7": {"answer": "hanno bisogno", "confidence": "hi"},
+  "S3.8": {"answer": "scandire", "confidence": "hi"},
+  "S3.9": {"answer": "saltano", "confidence": "hi"},
+  "S3.10": {"answer": "vengono colpiti", "confidence": "hi"},
+  "S3.11": {"answer": "frequenza", "confidence": "hi"},
+  "S3.12": {"answer": "innescare", "confidence": "hi"},
+  "S3.13": {"answer": "invece", "confidence": "hi"},
+  "S3.14": {"answer": "In particolare", "confidence": "hi"},
+  "S3.15": {"answer": "vicini", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.9",
+    "reason": "La costruzione «lo fece raccontando contemporaneamente del rapporto» è poco naturale, ma il gerundio è la soluzione sintatticamente più plausibile."
+  },
+  {
+    "item_id": "S2.14",
+    "reason": "«Finora» favorisce «ne ho visto», ma nel contesto generale sarebbe possibile anche «ne vedo»."
+  }
+]
+```
+
+WRITING checks
+```json
+[]
+```

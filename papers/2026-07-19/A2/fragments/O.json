@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Che cosa studi oppure che lavoro fai? Qual è la parte più interessante?\n\n**2.** Quali sono i tuoi orari durante la settimana? Quando hai tempo libero?\n\n**3.** Quando fai la spesa? Con chi vai e che cosa compri di solito?\n\n**4.** Quale mezzo usi più spesso per i tuoi spostamenti? Perché?\n\n**5.** Parla della tua ultima vacanza: dove sei andato, con chi e che cosa hai fatto?\n\n**6.** Come organizzerai le prossime vacanze? Dove vorresti andare e perché?",
+    "O2_ARGOMENTI": "**1.** Racconta una giornata in cui hai imparato qualcosa di nuovo: dove eri, con chi e che cosa è successo.\n\n**2.** Descrivi come organizzi una giornata normale quando hai molti impegni: orari, spostamenti e pause."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Che cosa studi oppure che lavoro fai? Qual è la parte più interessante?**\n\n*Esaminatore:* Che cosa studi oppure che lavoro fai? Qual è la parte più interessante?\n\n*Candidato:* Lavoro in una libreria del centro e aiuto i clienti a trovare i libri. La parte più interessante è parlare con persone che hanno gusti diversi.\n\n**2. Quali sono i tuoi orari durante la settimana? Quando hai tempo libero?**\n\n*Esaminatore:* Quali sono i tuoi orari durante la settimana? Quando hai tempo libero?\n\n*Candidato:* Dal lunedì al venerdì lavoro dalle nove alle cinque. Ho tempo libero dopo cena e il mercoledì sera frequento un corso di chitarra.\n\n**3. Quando fai la spesa? Con chi vai e che cosa compri di solito?**\n\n*Esaminatore:* Quando fai la spesa? Con chi vai e che cosa compri di solito?\n\n*Candidato:* Faccio la spesa il venerdì con il mio compagno e preparo sempre una lista della spesa. Al mercato coperto compriamo verdura e formaggio, poi prendiamo il resto al supermercato.\n\n**4. Quale mezzo usi più spesso per i tuoi spostamenti? Perché?**\n\n*Esaminatore:* Quale mezzo usi più spesso per i tuoi spostamenti? Perché?\n\n*Candidato:* Uso soprattutto i mezzi pubblici perché non ho l'automobile. Per andare al lavoro prendo il tram, mentre per fare commissioni in quartiere vado a piedi.\n\n**5. Parla della tua ultima vacanza: dove sei andato, con chi e che cosa hai fatto?**\n\n*Esaminatore:* Dove sei andato durante la tua ultima vacanza e che cosa hai fatto?\n\n*Candidato:* A maggio sono andato sul lago con alcuni amici. Abbiamo dormito in un piccolo albergo, seguito un sentiero facile e visitato due paesi.\n\n**6. Come organizzerai le prossime vacanze? Dove vorresti andare e perché?**\n\n*Esaminatore:* Come organizzerai le prossime vacanze? Dove vorresti andare e perché?\n\n*Candidato:* Vorrei trascorrere qualche giorno a Firenze perché mi interessano l'arte e la storia. Prima prenoterò il treno e una camera, poi preparerò un programma semplice.",
+    "MODEL_O1_PHRASES": "*La parte più interessante è…*（最有趣的部分是……）; *Di solito preparo…*（我通常准备……）; *Uso soprattutto… perché…*（我主要使用……因为……）; *A maggio sono andato…*（五月我去了……）; *Prima…, poi…*（先……，然后……）",
+    "MODEL_O2": "**Argomento n. 1 — Una giornata in cui ho imparato qualcosa di nuovo**\n\nLo scorso autunno ho partecipato a un laboratorio di ceramica con una mia amica. Eravamo in un piccolo studio vicino al fiume e l'insegnante ci ha mostrato come preparare l'argilla. All'inizio non riuscivo a dare una forma regolare alla tazza, ma ho provato più volte. La mia amica mi ha aiutato e alla fine ho creato una tazza semplice. Ero molto soddisfatto perché ho imparato con calma e senza paura di sbagliare.\n\n**Argomento n. 2 — Una giornata normale con molti impegni**\n\nQuando ho molti impegni, preparo il programma la sera prima. Mi alzo alle sette, faccio colazione e controllo gli orari dei mezzi pubblici. Vado al lavoro in tram e durante il viaggio leggo i messaggi importanti. A pranzo faccio una pausa breve con i colleghi. Dopo il lavoro faccio commissioni in quartiere oppure vado in palestra. La sera cucino qualcosa di semplice e preparo la borsa per il giorno seguente. Così dimentico meno cose e sono più tranquillo.",
+    "MODEL_O2_PHRASES": "*Lo scorso autunno…*（去年秋天……）; *All'inizio…, ma poi…*（起初……，但后来……）; *Alla fine…*（最后……）; *La sera prima…*（前一天晚上……）; *Così…*（这样……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "lista della spesa",
+      "categoria": "locuzione nominale",
+      "zh": "购物清单",
+      "en": "shopping list",
+      "esempio": "Faccio la spesa il venerdì con il mio compagno e preparo sempre una lista della spesa."
+    },
+    {
+      "parola": "mercato coperto",
+      "categoria": "locuzione nominale",
+      "zh": "室内市场",
+      "en": "indoor market",
+      "esempio": "Al mercato coperto compriamo verdura e formaggio."
+    },
+    {
+      "parola": "mezzi pubblici",
+      "categoria": "locuzione nominale",
+      "zh": "公共交通工具",
+      "en": "public transport",
+      "esempio": "Uso soprattutto i mezzi pubblici perché non ho l'automobile."
+    },
+    {
+      "parola": "fare commissioni",
+      "categoria": "locuzione verbale",
+      "zh": "办事，跑腿",
+      "en": "to run errands",
+      "esempio": "Per fare commissioni in quartiere vado a piedi."
+    },
+    {
+      "parola": "sentiero",
+      "categoria": "nome",
+      "zh": "小路，步道",
+      "en": "trail",
+      "esempio": "Abbiamo dormito in un piccolo albergo, seguito un sentiero facile e visitato due paesi."
+    }
+  ]
+}

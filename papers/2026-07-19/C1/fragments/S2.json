@@ -1,0 +1,70 @@
+{
+ "prova": "S2",
+ "slots": {
+  "T5_TITLE": "Gennaro Esposito e il futuro della ristorazione italiana",
+  "S2_TEXT_WITH_GAPS": "Oggi Gennaro Esposito *(essere)* __è (0)__ tra i maggiori chef italiani. Fino a oggi *(considerare)* __(1)__ un riferimento dell’alta cucina. Nel ristorante La Torre del Saracino, ogni giorno *(deliziare)* __(2)__ gli ospiti. Oltre a *(essere)* __(3)__ cuoco, è noto.\n\nFino a oggi *(rivestire)* __(4)__ il ruolo di giudice in talent show che finora *(permettergli)* __(5)__ di acquisire popolarità e disinvoltura davanti ai microfoni.\n\nNel giugno 2026, mentre *(partecipare)* __(6)__ a una cena a quattro mani con Riccardo Bacciottini, fu in quell’occasione che noi *(intervistarlo)* __(7)__. Una volta *(prendere)* __(8)__ la decisione, iniziò l’intervista. Parlò del proprio passato *(raccontare)* __(9)__ anche il rapporto con Gianfranco Vissani. Fu allora che non *(tralasciare)* __(10)__ l’evoluzione della ristorazione e i trend gastronomici.\n\nVolevamo che Esposito *(spiegarci)* __(11)__ il valore della formula. Rispose: «Oggi è bene che ogni cuoco *(capire)* __(12)__ la propria cucina per *(crescere)* __(13)__. Di formule così, finora, *(vederne)* __(14)__ il senso solo due o tre volte, e sempre quando hanno permesso un vero confronto: mi sembra che questa cena, ormai conclusa, *(offrirmi)* __(15)__ un’opportunità per *(dialogare)* __(16)__ con la nuova generazione. Se la formula non *(avere)* __(17)__ senso già prima di allora, quella sera la cena non *(sembrare)* __(18)__ un’occasione di crescita». Fu allora che Esposito *(affrontare)* __(19)__ il futuro del settore, uno dei temi *(includere)* __(20)__ nell’intervista."
+ },
+ "answer_slots": {
+  "ANS_S2_ROWS": "| S2.1 | è stato considerato | indicativo passato prossimo passivo | S2.11 | ci spiegasse | congiuntivo imperfetto |\n| S2.2 | delizia | indicativo presente | S2.12 | capisca | congiuntivo presente |\n| S2.3 | essere | infinito presente | S2.13 | crescere | infinito presente |\n| S2.4 | ha rivestito | indicativo passato prossimo | S2.14 | ne ho visto | indicativo passato prossimo |\n| S2.5 | gli hanno permesso | indicativo passato prossimo | S2.15 | mi abbia offerto | congiuntivo passato |\n| S2.6 | partecipava | indicativo imperfetto | S2.16 | dialogare | infinito presente |\n| S2.7 | lo intervistammo | indicativo passato remoto | S2.17 | avesse avuto | congiuntivo trapassato |\n| S2.8 | presa | participio passato | S2.18 | sarebbe sembrata | condizionale passato |\n| S2.9 | raccontando | gerundio presente | S2.19 | affrontò | indicativo passato remoto |\n| S2.10 | tralasciò | indicativo passato remoto | S2.20 | inclusi | participio passato |",
+  "ANS_S2_NOTES": "- **S2.1, S2.4–S2.5:** «Fino a oggi» e «finora» impongono il passato prossimo, non il passato remoto（时间范围延续到现在）。\n- **S2.6–S2.10:** «Nel giugno 2026», «mentre», «fu… che», «una volta» e «lo fece» distinguono imperfetto, passato remoto, participio e gerundio.\n- **S2.11–S2.15:** «volevamo che», «è bene che», «finora» e «ormai conclusa» fissano i tempi e i modi richiesti.\n- **S2.17–S2.18:** «già prima di allora» e «quella sera» fissano l’irrealtà nel passato, quindi congiuntivo trapassato e condizionale passato.\n- **S2.5, S2.7, S2.11, S2.14–S2.15:** i pronomi sono esplicitati anche nei verbi-guida fra parentesi e fanno parte delle risposte complete（代词必须写入空格）。\n- **S2.20:** «temi» impone il participio plurale «inclusi»; il gerundio non può reggere la costruzione."
+ },
+ "key": {
+  "S2.1": "è stato considerato",
+  "S2.2": "delizia",
+  "S2.3": "essere",
+  "S2.4": "ha rivestito",
+  "S2.5": "gli hanno permesso",
+  "S2.6": "partecipava",
+  "S2.7": "lo intervistammo",
+  "S2.8": "presa",
+  "S2.9": "raccontando",
+  "S2.10": "tralasciò",
+  "S2.11": "ci spiegasse",
+  "S2.12": "capisca",
+  "S2.13": "crescere",
+  "S2.14": "ne ho visto",
+  "S2.15": "mi abbia offerto || mi abbia già offerto",
+  "S2.16": "dialogare",
+  "S2.17": "avesse avuto",
+  "S2.18": "sarebbe sembrata",
+  "S2.19": "affrontò",
+  "S2.20": "inclusi"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "cena a quattro mani",
+   "categoria": "locuzione nominale",
+   "zh": "四手联厨晚宴",
+   "en": "four-hands dinner",
+   "esempio": "una cena a quattro mani con Riccardo Bacciottini"
+  },
+  {
+   "parola": "riferimento dell’alta cucina",
+   "categoria": "locuzione nominale",
+   "zh": "高级餐饮界的标杆",
+   "en": "a benchmark in fine dining",
+   "esempio": "un riferimento dell’alta cucina"
+  },
+  {
+   "parola": "disinvoltura",
+   "categoria": "nome femminile",
+   "zh": "从容；自如",
+   "en": "ease; confidence",
+   "esempio": "disinvoltura davanti ai microfoni"
+  },
+  {
+   "parola": "occasione di crescita",
+   "categoria": "locuzione nominale",
+   "zh": "成长机会",
+   "en": "opportunity for growth",
+   "esempio": "un’occasione di crescita"
+  },
+  {
+   "parola": "trend gastronomici",
+   "categoria": "locuzione nominale",
+   "zh": "餐饮趋势",
+   "en": "food trends",
+   "esempio": "i trend gastronomici"
+  }
+ ]
+}

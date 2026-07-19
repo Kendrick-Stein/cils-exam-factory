@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ 1. **Apasionada**\n\nDomenica 19 luglio 2026, alle ore 16:00, è in programma un concerto di chitarra negli spazi di Palazzo Reale di Genova...\n\n○ 2. **Visite alla Necropoli Nord**\n\nIl 19 luglio 2026 il Museo Nazionale Etrusco “Pompeo Aria” di Marzabotto propone visite tematiche e una possibilità speciale per il pubblico...\n\n○ 3. **Quartetto Paone**\n\nIl 19 luglio 2026, alla Casa Museo Mario Praz di Roma, si esibisce il Quartetto Paone in un concerto dedicato ai clarinetti soprani...\n\n○ 4. **Salvati. Storia di un sequestro**\n\nDal 17 luglio al 27 settembre 2026 il Museo archeologico nazionale del Melfese ospita «Salvati. Storia di un sequestro», una mostra...\n\n○ 5. **Cosmogonie dell’acqua**\n\nDal 16 luglio al 18 ottobre 2026 Villa d’Este, a Tivoli, ospita «Cosmogonie dell’acqua», la mostra di Claudia Müller negli ambienti storici...\n\n○ 6. **Le voci di sopra**\n\n«Le voci di sopra | Pessoa Luna Park» è un evento in programma dal 16 luglio al 4 ottobre 2026, all’interno della rassegna estiva...",
+    "L3_OPTIONS": "A. Per questo concerto genovese, la chitarra di Pietro Locatto suona a Palazzo Reale in collaborazione con un’associazione.\n\nB. Durante queste visite, il Museo Nazionale Etrusco di Marzabotto permette anche l’accesso straordinario alla Necropoli Nord.\n\nC. A completare il quartetto sono Augusto Travagliati, Amedeo Ricci e Giulia Leonardo, tutti ai clarinetti soprani.\n\nD. Proprio il 17 luglio, la mostra viene inaugurata alle ore 19:00 nel museo archeologico nazionale del Melfese.\n\nE. Per tutta la durata indicata, gli spazi storici di Villa d’Este accolgono la mostra di Claudia Müller.\n\nF. A ospitarlo è Castel Sant’Elmo, nella città di Napoli, dal 16 luglio al 4 ottobre 2026.\n\nG. Diversamente dagli altri eventi, questa visita guidata si svolge a Villa d’Este e termina il 18 ottobre 2026.\n\nH. Nello stesso pomeriggio, il concerto di Roma inizia alle ore 19:00 al museo archeologico nazionale del Melfese."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | «concerto di chitarra» e «Palazzo Reale di Genova» corrispondono alla chitarra di Pietro Locatto nel concerto genovese. 中文：乐器和地点同时锁定答案。 |\n| L3.2 | B | Le «visite tematiche» del Museo di Marzabotto continuano con l’«accesso straordinario alla Necropoli Nord». 中文：特殊开放对应北部墓地。 |\n| L3.3 | C | Il «Quartetto Paone» e i «clarinetti soprani» introducono i tre musicisti nominati nell’opzione. 中文：乐团名称和乐器一致。 |\n| L3.4 | D | La mostra al Museo del Melfese comincia il 17 luglio; D precisa l’inaugurazione «alle ore 19:00». 中文：开幕日期与时间唯一对应。 |\n| L3.5 | E | «Villa d’Este» e «Claudia Müller» sono ripresi insieme solo da E, che cita gli «spazi storici». 中文：地点与艺术家共同排除干扰项。 |\n| L3.6 | F | L’evento dura «dal 16 luglio al 4 ottobre 2026» e F riprende le stesse date indicando «Castel Sant’Elmo» a Napoli. 中文：日期和地点共同锁定答案。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D",
+    "L3.5": "E",
+    "L3.6": "F"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "accesso straordinario",
+      "categoria": "espressione nominale",
+      "zh": "特别开放参观",
+      "en": "special access",
+      "esempio": "l’accesso straordinario alla Necropoli Nord"
+    },
+    {
+      "parola": "clarinetti soprani",
+      "categoria": "espressione nominale",
+      "zh": "高音单簧管",
+      "en": "soprano clarinets",
+      "esempio": "un concerto dedicato ai clarinetti soprani"
+    },
+    {
+      "parola": "sequestro",
+      "categoria": "sostantivo maschile",
+      "zh": "绑架；劫持",
+      "en": "kidnapping",
+      "esempio": "Salvati. Storia di un sequestro"
+    },
+    {
+      "parola": "spazi storici",
+      "categoria": "espressione nominale",
+      "zh": "历史空间",
+      "en": "historic spaces",
+      "esempio": "gli spazi storici di Villa d’Este"
+    },
+    {
+      "parola": "rassegna estiva",
+      "categoria": "espressione nominale",
+      "zh": "夏季系列活动",
+      "en": "summer festival programme",
+      "esempio": "all’interno della rassegna estiva"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "è stato considerato", "confidence": "hi"},
+  "S2.2": {"answer": "delizia", "confidence": "hi"},
+  "S2.3": {"answer": "essere", "confidence": "hi"},
+  "S2.4": {"answer": "ha rivestito", "confidence": "hi"},
+  "S2.5": {"answer": "gli hanno permesso", "confidence": "hi"},
+  "S2.6": {"answer": "partecipava", "confidence": "hi"},
+  "S2.7": {"answer": "lo intervistammo", "confidence": "hi"},
+  "S2.8": {"answer": "presa", "confidence": "hi"},
+  "S2.9": {"answer": "raccontando", "confidence": "hi"},
+  "S2.10": {"answer": "tralasciò", "confidence": "hi"},
+  "S2.11": {"answer": "ci spiegasse", "confidence": "hi"},
+  "S2.12": {"answer": "capisca", "confidence": "hi"},
+  "S2.13": {"answer": "crescere", "confidence": "hi"},
+  "S2.14": {"answer": "ne ho visto", "confidence": "hi"},
+  "S2.15": {"answer": "mi abbia offerto", "confidence": "hi"},
+  "S2.16": {"answer": "dialogare", "confidence": "hi"},
+  "S2.17": {"answer": "avesse avuto", "confidence": "hi"},
+  "S2.18": {"answer": "sarebbe sembrata", "confidence": "hi"},
+  "S2.19": {"answer": "affrontò", "confidence": "hi"},
+  "S2.20": {"answer": "inclusi", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "tasks_present": false,
+  "checks": []
+}
+```
+
+4,399
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "è stato considerato", "confidence": "hi"},
+  "S2.2": {"answer": "delizia", "confidence": "hi"},
+  "S2.3": {"answer": "essere", "confidence": "hi"},
+  "S2.4": {"answer": "ha rivestito", "confidence": "hi"},
+  "S2.5": {"answer": "gli hanno permesso", "confidence": "hi"},
+  "S2.6": {"answer": "partecipava", "confidence": "hi"},
+  "S2.7": {"answer": "lo intervistammo", "confidence": "hi"},
+  "S2.8": {"answer": "presa", "confidence": "hi"},
+  "S2.9": {"answer": "raccontando", "confidence": "hi"},
+  "S2.10": {"answer": "tralasciò", "confidence": "hi"},
+  "S2.11": {"answer": "ci spiegasse", "confidence": "hi"},
+  "S2.12": {"answer": "capisca", "confidence": "hi"},
+  "S2.13": {"answer": "crescere", "confidence": "hi"},
+  "S2.14": {"answer": "ne ho visto", "confidence": "hi"},
+  "S2.15": {"answer": "mi abbia offerto", "confidence": "hi"},
+  "S2.16": {"answer": "dialogare", "confidence": "hi"},
+  "S2.17": {"answer": "avesse avuto", "confidence": "hi"},
+  "S2.18": {"answer": "sarebbe sembrata", "confidence": "hi"},
+  "S2.19": {"answer": "affrontò", "confidence": "hi"},
+  "S2.20": {"answer": "inclusi", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "tasks_present": false,
+  "checks": []
+}
+```

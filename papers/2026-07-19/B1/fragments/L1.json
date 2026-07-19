@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Dalla radio alle telecronache dei Mondiali",
+    "T1_TEXT": "Immaginate una Rai che trasmette tutte le partite dei Mondiali e degli Europei ed un canale concorrente che, in chiaro, fa altrettanto. Eppure è accaduto, anzi fu consuetudine per un intero decennio, con Telemontecarlo che decise di sfidare a campo aperto la Rai.\n\nFigura iconica di quella Tmc, che sarebbe divenuta La7 nel 2001 mutando completamente identità ed offerta, fu Massimo Caputi. «In quel periodo le persone ci sceglievano liberamente, senza pagare. Non era come adesso che ti devi abbonare per guardare qualcosa. Tutto era free e chi decideva di sintonizzarsi sulla tua telecronaca lo faceva in totale autonomia».\n\nDa sempre appassionato di sport, inizialmente il suo percorso sarebbe dovuto essere un altro: «Mi iscrissi a Giurisprudenza e volevo diventare giudice. Ma alla fine diedi solo undici esami e la mia vita professionale venne stravolta in positivo».\n\nL’opportunità si palesò grazie a Radio Antenna Europa, dove Caputi faceva il dj. «Un giorno – racconta – ci invitarono a Tele Regione, emittente di cui la radio era satellite. Mi chiesero se mi sarebbe interessato svolgere le radiocronache di Roma e Lazio. Accettai immediatamente».\n\nDa quel momento la carriera prese tutt’altra direzione, marciando in maniera spedita. «In successione arrivarono la Gbr, rete da cui partì pure Milly Carlucci, e Tele Tevere. Fino al colloquio per Tmc. Era il 1986, i brasiliani di Rede Globo avevano acquistato il canale da poco tempo e cercavano giornalisti. Mi presentai al colloquio con delle cassette e venni liquidato con il tipico “le faremo sapere”. Ma a pochi giorni dall’avvio dei Mondiali in Messico mi ricontattarono».\n\n**Per quell’edizione le fecero curare gli highlights.**\n\nLa primissima mansione fu segnare su un taccuino i minuti esatti in cui si verificavano le azioni più interessanti, così da consentire ai montatori di trovare le immagini. Ero felicissimo, però in me c’era un pizzico di frustrazione perché mi aspettavo ben altro. Quel sentimento, fortunatamente, durò poco. Dopo nemmeno una settimana mi chiesero di commentarli.\n\n**A Telemontecarlo trovò come direttore Luigi Colombo, scomparso di recente.**\n\nMi insegnò tantissimo e mi diede fiducia. Fu un precursore, molte delle tecniche che resistono ancora oggi le inventò lui, come l’innesto della seconda voce a supporto del telecronista. Ma potrei continuare con l’inviato a bordocampo o le interviste subito dopo l’evento. Da quel punto di vista, Tmc fu una realtà portatrice di tante novità.\n\n**L’esordio in telecronaca?**\n\nNon lo ricordo di preciso, ma sicuramente fu un match del campionato inglese. Tmc si era aggiudicata l’esclusiva delle sintesi di alcune gare.",
+    "L1_ITEMS": "**1. Negli anni di Telemontecarlo, il pubblico poteva...**\n\nA) scegliere liberamente la telecronaca senza pagare.\n\nB) vedere soltanto alcune partite acquistate dalla Rai.\n\nC) seguire lo sport dopo aver sottoscritto un abbonamento.\n\nD) ascoltare le telecronache esclusivamente alla radio.\n\n**2. Prima di lavorare nel giornalismo sportivo, Caputi pensava di...**\n\nA) diventare direttore di un canale televisivo.\n\nB) lavorare come giudice dopo l’università.\n\nC) concludere gli studi con undici esami.\n\nD) trasferirsi all’estero per seguire lo sport.\n\n**3. A Tele Regione proposero a Caputi di...**\n\nA) presentare un programma insieme a Milly Carlucci.\n\nB) commentare le partite di Roma e Lazio alla radio.\n\nC) cercare nuovi giornalisti per Radio Antenna Europa.\n\nD) registrare le sintesi del campionato inglese.\n\n**4. Dopo il colloquio del 1986, Tmc ricontattò Caputi...**\n\nA) quando erano già terminati i Mondiali in Messico.\n\nB) poco prima che cominciassero i Mondiali in Messico.\n\nC) appena Rede Globo decise di vendere il canale.\n\nD) dopo che aveva lavorato come giudice per alcuni anni.\n\n**5. Nel suo primo incarico per i Mondiali, Caputi doveva...**\n\nA) scegliere i giornalisti da mandare a bordocampo.\n\nB) intervistare i giocatori al termine delle partite.\n\nC) annotare i momenti delle azioni più interessanti.\n\nD) commentare in diretta tutte le partite del torneo.\n\n**6. Secondo Caputi, Luigi Colombo introdusse...**\n\nA) tecniche televisive innovative ancora utilizzate.\n\nB) il pagamento obbligatorio per vedere gli incontri.\n\nC) le radiocronache dedicate a Roma e Lazio.\n\nD) le sintesi esclusive del campionato inglese.\n\n**7. Caputi ricorda che la sua prima telecronaca riguardò...**\n\nA) una partita dei Mondiali in Messico.\n\nB) una gara del campionato brasiliano.\n\nC) una partita del campionato inglese.\n\nD) un incontro tra Roma e Lazio."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Le persone sceglievano la telecronaca «liberamente, senza pagare» e «in totale autonomia». 中文：当时无需订阅。 |\n| L1.2 | B | Caputi dice: «Mi iscrissi a Giurisprudenza e volevo diventare giudice». |\n| L1.3 | B | A Tele Regione gli chiesero di «svolgere le radiocronache di Roma e Lazio». |\n| L1.4 | B | Tmc lo ricontattò «a pochi giorni dall’avvio dei Mondiali in Messico». 中文：是在世界杯开始前不久。 |\n| L1.5 | C | La prima mansione fu «segnare su un taccuino i minuti esatti» delle azioni più interessanti. 中文：起初只记录时间点，后来才做解说。 |\n| L1.6 | A | Colombo fu «un precursore» e inventò «molte delle tecniche che resistono ancora oggi». |\n| L1.7 | C | Caputi afferma che l’esordio «fu un match del campionato inglese». |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "B",
+    "L1.4": "B",
+    "L1.5": "C",
+    "L1.6": "A",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sintonizzarsi",
+      "categoria": "verbo",
+      "zh": "调到某个频道",
+      "en": "to tune in",
+      "esempio": "chi decideva di sintonizzarsi sulla tua telecronaca lo faceva in totale autonomia"
+    },
+    {
+      "parola": "emittente",
+      "categoria": "nome femminile",
+      "zh": "广播电视台",
+      "en": "broadcaster",
+      "esempio": "Tele Regione, emittente di cui la radio era satellite"
+    },
+    {
+      "parola": "radiocronache",
+      "categoria": "nome femminile plurale",
+      "zh": "广播实况解说",
+      "en": "radio commentaries",
+      "esempio": "svolgere le radiocronache di Roma e Lazio"
+    },
+    {
+      "parola": "montatori",
+      "categoria": "nome maschile plurale",
+      "zh": "剪辑师",
+      "en": "editors",
+      "esempio": "così da consentire ai montatori di trovare le immagini"
+    },
+    {
+      "parola": "bordocampo",
+      "categoria": "nome maschile invariabile",
+      "zh": "场边",
+      "en": "sideline",
+      "esempio": "l’inviato a bordocampo"
+    }
+  ]
+}

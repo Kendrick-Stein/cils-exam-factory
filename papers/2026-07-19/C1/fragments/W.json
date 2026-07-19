@@ -1,0 +1,57 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«Il lavoro ibrido offre maggiore autonomia, ma può indebolire le relazioni professionali e rendere meno chiaro il confine tra tempo lavorativo e vita privata». Esprimi il tuo parere in merito, considerando vantaggi, rischi e condizioni necessarie per organizzare questa modalità in modo equilibrato.",
+    "W1B_PROMPT": "Una rivista online dedica un numero alla riparazione di oggetti di uso quotidiano come alternativa alla loro sostituzione. Scrivi un articolo in cui analizzi i benefici ambientali e sociali di questa pratica, gli ostacoli che ne limitano la diffusione e le iniziative che potrebbero renderla più accessibile.",
+    "W2A_PROMPT": "Hai acquistato un abbonamento mensile a un servizio di autobus interurbani per raggiungere il luogo di lavoro. Dopo una settimana, la corsa delle ore 7.15 è stata soppressa senza preavviso e l'alternativa proposta arriva troppo tardi. Scrivi un'e-mail alla società: descrivi l'accaduto, spiegane le conseguenze, chiedi una soluzione concreta e indica entro quando desideri una risposta.",
+    "W2B_PROMPT": "Hai incaricato un'impresa di ristrutturare la cucina entro il 10 luglio. I lavori sono ancora incompleti e una perdita causata dagli operai ha danneggiato il pavimento del corridoio. Scrivi una lettera al responsabile: ricostruisci i fatti, descrivi i disagi, chiedi il completamento dei lavori e il risarcimento del danno entro termini precisi."
+  },
+  "answer_slots": {
+    "MODEL_W1A": "Il lavoro ibrido può migliorare la qualità della vita: riduce gli spostamenti, permette di organizzare con maggiore autonomia le attività individuali e favorisce la partecipazione di chi vive lontano. Se ben progettato, inoltre, consente alle aziende di valutare i risultati anziché la semplice presenza in ufficio.\n\nTuttavia, la distanza non è neutrale. Le conversazioni spontanee aiutano a condividere conoscenze, mentre chi lavora sempre da casa rischia di ricevere meno informazioni e opportunità. Anche l'autonomia può trasformarsi in disponibilità permanente: senza limiti espliciti, messaggi e riunioni invadono il tempo privato. Infine, non tutti dispongono di uno spazio domestico adeguato.\n\nPerciò non considero efficace un modello identico per tutti. Le giornate in presenza dovrebbero essere dedicate alla collaborazione e concordate con anticipo, mentre quelle a distanza dovrebbero proteggere la concentrazione. Servono inoltre il diritto alla disconnessione, strumenti accessibili e criteri di valutazione trasparenti. Il lavoro ibrido diventa equilibrato quando amplia la libertà senza scaricare sui singoli i costi dell'organizzazione e quando la flessibilità è accompagnata da responsabilità condivise.",
+    "MODEL_W1A_PHRASES": "«Se ben progettato»（如果设计得当）; «non è neutrale»（并非没有影响）; «senza limiti espliciti»（没有明确界限时）; «dovrebbero essere dedicate a…»（应当用于……）; «responsabilità condivise»（共同责任）",
+    "MODEL_W1B": "Riparare un elettrodomestico, una bicicletta o un abito prolunga la vita degli oggetti e riduce la quantità di rifiuti. Questa pratica conserva anche competenze artigianali che rischiano di scomparire e può creare occasioni di incontro, come dimostrano i laboratori nei quali cittadini esperti aiutano gratuitamente chi porta un oggetto guasto.\n\nEppure, scegliere la riparazione non è sempre semplice. I pezzi di ricambio possono costare troppo, le istruzioni sono spesso inaccessibili e alcuni prodotti vengono assemblati in modo da rendere difficile qualsiasi intervento. A ciò si aggiunge la scarsità di tecnici, conseguenza di anni in cui il lavoro manuale è stato considerato poco prestigioso.\n\nPer invertire questa tendenza servono misure coordinate. I produttori dovrebbero garantire ricambi, manuali chiari e dispositivi smontabili; le amministrazioni potrebbero sostenere botteghe e laboratori condivisi. Anche le scuole potrebbero introdurre attività pratiche, restituendo valore alla capacità di aggiustare. Riparare non significa idealizzare il passato: significa progettare un'economia nella quale durata, conoscenza e responsabilità contino almeno quanto la comodità di comprare subito qualcosa di nuovo.",
+    "MODEL_W1B_PHRASES": "«prolunga la vita degli oggetti»（延长物品的使用寿命）; «A ciò si aggiunge…»（此外还有……）; «Per invertire questa tendenza»（为了扭转这一趋势）; «misure coordinate»（协调一致的措施）; «non significa idealizzare il passato»（并不意味着美化过去）",
+    "MODEL_W2A": "Gentile Servizio Clienti,\n\nvi scrivo in merito all'abbonamento mensile acquistato il 1° luglio per raggiungere il mio luogo di lavoro. Dal giorno 8, la corsa delle 7.15 è stata soppressa senza alcun preavviso. L'autobus successivo arriva dopo l'inizio del mio turno e, pertanto, sono costretto a utilizzare un mezzo privato, sostenendo ulteriori spese.\n\nVi chiedo di ripristinare la corsa o di predisporre un collegamento sostitutivo con un orario compatibile. Qualora ciò non fosse possibile, domando il rimborso della parte di abbonamento non utilizzabile. Gradirei ricevere una risposta entro il 15 luglio, così da organizzare i prossimi spostamenti.\n\nIn attesa di un vostro cortese riscontro, porgo cordiali saluti.\n\nAndrea Rinaldi",
+    "MODEL_W2A_PHRASES": "«vi scrivo in merito a…»（我就……事宜致函）; «senza alcun preavviso»（毫无预先通知）; «sono costretto a…»（我被迫……）; «Qualora ciò non fosse possibile»（若此事无法实现）; «In attesa di un vostro cortese riscontro»（静候贵方回复）",
+    "MODEL_W2B": "Spett.le Impresa,\n\ncon la presente segnalo che la ristrutturazione della mia cucina, prevista dal contratto entro il 10 luglio, non è stata completata. Mancano ancora il lavello e alcuni collegamenti elettrici; inoltre, il 12 luglio una perdita provocata durante i lavori ha danneggiato il pavimento del corridoio. Da allora non posso utilizzare la cucina e devo sostenere spese aggiuntive per i pasti.\n\nVi invito a terminare tutti gli interventi entro il 20 luglio e a confermare per iscritto la riparazione, a vostre spese, del pavimento danneggiato. Chiedo inoltre il rimborso dei costi documentati derivanti dal ritardo. Attendo un vostro riscontro entro tre giorni dal ricevimento della presente.\n\nDistinti saluti,\n\nSara Galli",
+    "MODEL_W2B_PHRASES": "«con la presente segnalo che…»（现特此反映……）; «prevista dal contratto»（合同约定的）; «a vostre spese»（由贵方承担费用）; «costi documentati»（有凭证的费用）; «entro tre giorni dal ricevimento»（自收到之日起三日内）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "disponibilità permanente",
+      "categoria": "locuzione nominale",
+      "zh": "随时待命的状态",
+      "en": "constant availability",
+      "esempio": "Anche l'autonomia può trasformarsi in disponibilità permanente: senza limiti espliciti, messaggi e riunioni invadono il tempo privato."
+    },
+    {
+      "parola": "diritto alla disconnessione",
+      "categoria": "locuzione nominale",
+      "zh": "离线权",
+      "en": "right to disconnect",
+      "esempio": "Servono inoltre il diritto alla disconnessione, strumenti accessibili e criteri di valutazione trasparenti."
+    },
+    {
+      "parola": "pezzi di ricambio",
+      "categoria": "locuzione nominale",
+      "zh": "备件",
+      "en": "spare parts",
+      "esempio": "I pezzi di ricambio possono costare troppo, le istruzioni sono spesso inaccessibili e alcuni prodotti vengono assemblati in modo da rendere difficile qualsiasi intervento."
+    },
+    {
+      "parola": "laboratori condivisi",
+      "categoria": "locuzione nominale",
+      "zh": "共享维修工坊",
+      "en": "shared workshops",
+      "esempio": "I produttori dovrebbero garantire ricambi, manuali chiari e dispositivi smontabili; le amministrazioni potrebbero sostenere botteghe e laboratori condivisi."
+    },
+    {
+      "parola": "collegamento sostitutivo",
+      "categoria": "locuzione nominale",
+      "zh": "替代交通班次",
+      "en": "replacement service",
+      "esempio": "Vi chiedo di ripristinare la corsa o di predisporre un collegamento sostitutivo con un orario compatibile."
+    }
+  ]
+}

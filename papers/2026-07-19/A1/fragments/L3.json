@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1. Musica dal vivo**\n\nMartedì 21 luglio c’è musica dal vivo con España Circo Este, Bharto e Molins. La giornata prevede anche laboratori e talk.\n\n**2. Talk e live show**\n\nMercoledì 22 luglio ci sono un talk e un live show con Auroro Borealo e Stereopatico. L’ingresso costa 5 euro.\n\n**3. Appuntamento internazionale**\n\nGiovedì 23 luglio c’è un grande appuntamento internazionale con le esibizioni di Quantic e La Yegros. L’ingresso costa 10 euro.\n\n**4. Serata hip-hop**\n\nVenerdì 24 luglio c’è una serata hip-hop con Mattak e Drimer. L’ingresso costa 5 euro. Ci sono anche lo Zoo di Venezia, Trape e attività di laboratorio.",
+    "L3_OPTIONS": "**A.** Durante questa giornata musicale, partecipa anche Rastasnob.\n\n**B.** In questa serata di mercoledì, l’appuntamento è a Villa dei Leoni, a Mira, alle ore 19.00.\n\n**C.** Prima di queste esibizioni internazionali, c’è l’incontro Eterno Verano; poi la musica inizia alle ore 19.00 a Villa dei Leoni.\n\n**D.** Nel programma hip-hop del venerdì, l’inizio è alle ore 19.00 a Villa dei Leoni, a Mira.\n\n**E.** Per l’appuntamento internazionale di giovedì, l’ingresso costa 5 euro.\n\n**F.** Nella serata hip-hop di venerdì, l’ingresso costa 10 euro."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | Il testo dice «Martedì 21 luglio» e cita «laboratori e talk»; A aggiunge Rastasnob alla stessa giornata musicale. 中文：同一天的活动线索唯一对应。 |\n| L3.2 | B | «Mercoledì 22 luglio» e «talk e live show» corrispondono alla «serata di mercoledì» in B. 中文：日期与活动类型同时锁定。 |\n| L3.3 | C | Le «esibizioni di Quantic e La Yegros» sono anticipate dall’«incontro Eterno Verano» indicato in C. 中文：演出前的活动是唯一线索。 |\n| L3.4 | D | «Serata hip-hop» e «venerdì» richiamano esattamente il «programma hip-hop del venerdì» in D. 中文：类型和星期共同锁定。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "musica dal vivo",
+      "categoria": "espressione",
+      "zh": "现场音乐",
+      "en": "live music",
+      "esempio": "Martedì 21 luglio c’è musica dal vivo con España Circo Este, Bharto e Molins."
+    },
+    {
+      "parola": "ingresso",
+      "categoria": "nome maschile",
+      "zh": "入场；门票",
+      "en": "admission",
+      "esempio": "L’ingresso costa 5 euro."
+    },
+    {
+      "parola": "esibizioni",
+      "categoria": "nome femminile plurale",
+      "zh": "演出",
+      "en": "performances",
+      "esempio": "Giovedì 23 luglio c’è un grande appuntamento internazionale con le esibizioni di Quantic e La Yegros."
+    },
+    {
+      "parola": "incontro",
+      "categoria": "nome maschile",
+      "zh": "会面；交流活动",
+      "en": "meeting",
+      "esempio": "Prima di queste esibizioni internazionali, c’è l’incontro Eterno Verano."
+    },
+    {
+      "parola": "laboratorio",
+      "categoria": "nome maschile",
+      "zh": "工作坊",
+      "en": "workshop",
+      "esempio": "Ci sono anche lo Zoo di Venezia, Trape e attività di laboratorio."
+    }
+  ]
+}

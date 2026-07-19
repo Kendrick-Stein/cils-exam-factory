@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un evento sportivo al quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Un amico ti ha prestato un libro che hai finito di leggere. Scrivigli un'email.",
+    "W2_REQ_1": "ringraziarlo e dire che cosa pensi del libro;",
+    "W2_REQ_2": "proporre un giorno e un luogo per restituirlo;",
+    "W2_REQ_3": "chiedergli se vuole ricevere in prestito un libro da te."
+  },
+  "answer_slots": {
+    "MODEL_W1": "La primavera scorsa ho partecipato a una pedalata organizzata dal comune lungo il fiume. Sono andata con mio cugino e abbiamo raggiunto il punto di partenza alle otto. C'erano famiglie, studenti e persone anziane, tutte con biciclette diverse. Prima di partire, i volontari hanno controllato i freni e ci hanno spiegato il percorso. Dopo pochi chilometri la catena della mia bicicletta è caduta, ma una signora del gruppo mi ha aiutata a sistemarla. Alla fine siamo arrivati in un parco, dove ci aspettavano panini e musica. Ero stanca ma soddisfatta, perché ho superato una piccola difficoltà, ho conosciuto persone gentili e ho scoperto un modo piacevole di vivere la città.",
+    "MODEL_W1_PHRASES": "«La primavera scorsa ho partecipato a…»（去年春天我参加了……）; «Prima di partire…»（出发前……）; «Dopo pochi chilometri…»（几公里后……）; «Mi ha aiutato/a a…»（他/她帮助我……）; «Ero stanco/a ma soddisfatto/a»（我很累但很满意）",
+    "MODEL_W2": "Ciao Matteo,\n\nho finito il romanzo che mi hai prestato: grazie, mi è piaciuto soprattutto il finale, perché non me l'aspettavo. Posso restituirtelo martedì alle sei davanti al bar della piazza. Hai tempo per bere qualcosa insieme? Vorrei anche prestarti un libro di racconti che ho letto il mese scorso. Dimmi se ti interessa o se preferisci un altro genere.\n\nA presto,\nElena",
+    "MODEL_W2_PHRASES": "«Grazie, mi è piaciuto…»（谢谢，我很喜欢……）; «Posso restituirtelo…»（我可以在……把它还给你）; «Hai tempo per…?»（你有时间……吗？）; «Vorrei anche prestarti…»（我也想借给你……）; «Dimmi se ti interessa»（告诉我你是否感兴趣）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "pedalata",
+      "categoria": "nome femminile",
+      "zh": "骑行活动",
+      "en": "bike ride",
+      "esempio": "La primavera scorsa ho partecipato a una pedalata organizzata dal comune lungo il fiume."
+    },
+    {
+      "parola": "punto di partenza",
+      "categoria": "locuzione nominale",
+      "zh": "出发点",
+      "en": "starting point",
+      "esempio": "Sono andata con mio cugino e abbiamo raggiunto il punto di partenza alle otto."
+    },
+    {
+      "parola": "controllato i freni",
+      "categoria": "locuzione verbale",
+      "zh": "检查了刹车",
+      "en": "checked the brakes",
+      "esempio": "Prima di partire, i volontari hanno controllato i freni e ci hanno spiegato il percorso."
+    },
+    {
+      "parola": "restituirtelo",
+      "categoria": "verbo con pronomi combinati",
+      "zh": "把它还给你",
+      "en": "to return it to you",
+      "esempio": "Posso restituirtelo martedì alle sei davanti al bar della piazza."
+    },
+    {
+      "parola": "libro di racconti",
+      "categoria": "locuzione nominale",
+      "zh": "短篇小说集",
+      "en": "short-story collection",
+      "esempio": "Vorrei anche prestarti un libro di racconti che ho letto il mese scorso."
+    }
+  ]
+}

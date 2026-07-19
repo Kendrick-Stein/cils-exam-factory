@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1.** «Buongiorno, la chiamiamo dallo studio dentistico. La visita di martedì alle 16 deve essere spostata perché la dottoressa sarà assente. Possiamo riceverla mercoledì alla stessa ora oppure venerdì mattina. Ci richiami per comunicarci la sua preferenza.»  \nA) È la conferma di una visita già svolta. B) È il promemoria per pagare una cura. C) È la proposta di cambiare la data di un appuntamento. D) È l'annuncio della chiusura definitiva di uno studio.\n\n**2.** «Ciao Paolo, il corriere ha lasciato il tuo pacco a casa mia perché non eri presente. Stasera rientro verso le sette: se vuoi, puoi passare a prenderlo. Altrimenti domani mattina lo consegno al portiere.»  \nA) È un messaggio per informare un vicino che il suo pacco è stato ritirato. B) È la richiesta di spedire un pacco entro la sera. C) È la protesta per un pacco arrivato danneggiato. D) È l'avviso che il portiere non accetta consegne.\n\n**3.** «Sabato mattina la sala studio al primo piano resterà chiusa per la manutenzione delle finestre. Gli studenti potranno utilizzare la sala grande al piano terra, aperta dalle 9 alle 18. Ci scusiamo per il disagio.»  \nA) È l'invito a partecipare a un corso di manutenzione. B) È la comunicazione di nuovi orari per tutta la biblioteca. C) È la richiesta agli studenti di pulire una sala. D) È un avviso di chiusura temporanea con l'indicazione di uno spazio alternativo.\n\n**4.** «Gentile corsista, la sua iscrizione al laboratorio di fotografia è stata registrata, ma manca ancora il pagamento della quota. Per conservare il posto, effettui il versamento entro il 25 luglio usando il collegamento indicato nella sua area personale.»  \nA) È l'annuncio dell'annullamento di un laboratorio. B) È un sollecito a completare il pagamento di un'iscrizione. C) È la conferma che la quota è già stata pagata. D) È l'offerta di un corso gratuito di fotografia.\n\n**5.** «Per il forte vento previsto nel pomeriggio, il concerto nel cortile comunale non si terrà all'aperto. L'orario resta quello indicato sul biglietto, ma l'evento si svolgerà nel teatro di via Roma. I posti assegnati non cambiano.»  \nA) È la comunicazione del rinvio di un concerto a un'altra data. B) È l'invito ad acquistare nuovi biglietti per un teatro. C) È un avviso sul trasferimento di un evento in un luogo coperto. D) È l'annuncio della modifica dei posti assegnati.\n\n**6.** «La sua prenotazione per quattro persone è confermata per sabato alle 20.30. Se tra gli ospiti ci sono persone con allergie alimentari, ce lo comunichi entro venerdì: lo chef potrà così preparare un menu adatto alle loro esigenze.»  \nA) È la conferma di una prenotazione con una richiesta sulle esigenze alimentari. B) È la pubblicità di un nuovo ristorante per famiglie. C) È il rifiuto di preparare piatti per persone allergiche. D) È la richiesta di cambiare il numero degli ospiti.\n\n**7.** «Ho appena saputo che domani devo accompagnare mia madre a una visita. Mi dispiace, ma non riuscirò a venire al cinema. Se sei d'accordo, possiamo usare i biglietti domenica: lo spettacolo è alla stessa ora.»  \nA) È il racconto di un film visto con la madre. B) È l'invito ad acquistare altri biglietti per domani. C) È la conferma di un incontro al cinema senza cambiamenti. D) È la proposta di rimandare un'uscita per un impegno familiare.\n\n**8.** «Domani dalle 9 alle 12 sarà interrotta l'acqua in tutto il condominio per riparare un tubo nel cortile. Prima dell'intervento vi consigliamo di riempire alcune bottiglie. Al termine dei lavori, lasciate scorrere l'acqua per qualche minuto.»  \nA) È la richiesta di segnalare una perdita dentro un appartamento. B) È un avviso su un'interruzione programmata con istruzioni per i residenti. C) È la comunicazione di un aumento delle spese condominiali. D) È l'annuncio che i lavori nel cortile sono terminati.\n\n**9.** «Regalo una scrivania in legno in buone condizioni, lunga un metro e con tre cassetti. Non posso consegnarla: chi è interessato deve ritirarla entro domenica nel quartiere San Paolo. Scrivetemi per concordare l'orario.»  \nA) È l'offerta di un servizio per trasportare mobili. B) È la ricerca di una scrivania per un ufficio. C) È l'annuncio di un mobile gratuito da ritirare personalmente. D) È la vendita di una scrivania nuova con consegna inclusa.\n\n**10.** «Le iscrizioni al corso di nuoto delle 18 sono complete. Possiamo però inserire il suo nome nella lista d'attesa e avvisarla se si libera un posto. In alternativa, ci sono ancora disponibilità nel gruppo delle 20.»  \nA) È la proposta di attendere un posto o scegliere un altro orario. B) È la conferma dell'iscrizione al corso delle 18. C) È l'annuncio della chiusura della piscina alle 20. D) È la richiesta di cancellarsi da due corsi di nuoto."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «La visita di martedì alle 16 deve essere spostata» e le due nuove possibilità indicano un cambio di appuntamento; 中文：不是取消诊所。 |\n| S4.2 | A | «il corriere ha lasciato il tuo pacco a casa mia» informa Paolo che il vicino lo ha ritirato; 中文：包裹没有损坏。 |\n| S4.3 | D | «resterà chiusa» è accompagnato da «potranno utilizzare la sala grande», quindi viene indicata un'alternativa; 中文：只是临时关闭一个自习室。 |\n| S4.4 | B | «manca ancora il pagamento» e «effettui il versamento entro il 25 luglio» costituiscono un sollecito; 中文：报名已登记，但尚未付款。 |\n| S4.5 | C | «non si terrà all'aperto» e «si svolgerà nel teatro» indicano lo spostamento al coperto, senza cambio di data o posti; 中文：活动没有延期。 |\n| S4.6 | A | Il messaggio conferma «la sua prenotazione» e chiede di comunicare eventuali «allergie alimentari»; 中文：确认订位并询问饮食需求。 |\n| S4.7 | D | «non riuscirò a venire» è seguito dalla proposta «possiamo usare i biglietti domenica» per un impegno con la madre; 中文：请求改到周日。 |\n| S4.8 | B | «sarà interrotta l'acqua» per tre ore e i consigli prima e dopo i lavori sono istruzioni ai residenti; 中文：这是计划性停水通知。 |\n| S4.9 | C | «Regalo una scrivania» e «deve ritirarla» mostrano che il mobile è gratuito ma senza consegna; 中文：不是出售，也不含运输。 |\n| S4.10 | A | Poiché il corso delle 18 è completo, vengono offerte «la lista d'attesa» e la disponibilità «nel gruppo delle 20»; 中文：有两个替代方案。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "C",
+    "S4.6": "A",
+    "S4.7": "D",
+    "S4.8": "B",
+    "S4.9": "C",
+    "S4.10": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "comunicarci la sua preferenza",
+      "categoria": "espressione verbale",
+      "zh": "告知我们您的选择",
+      "en": "let us know your preference",
+      "esempio": "Ci richiami per comunicarci la sua preferenza"
+    },
+    {
+      "parola": "sala studio",
+      "categoria": "espressione nominale",
+      "zh": "自习室",
+      "en": "study room",
+      "esempio": "la sala studio al primo piano resterà chiusa"
+    },
+    {
+      "parola": "conservare il posto",
+      "categoria": "espressione verbale",
+      "zh": "保留名额",
+      "en": "keep one's place",
+      "esempio": "Per conservare il posto, effettui il versamento"
+    },
+    {
+      "parola": "allergie alimentari",
+      "categoria": "espressione nominale",
+      "zh": "食物过敏",
+      "en": "food allergies",
+      "esempio": "persone con allergie alimentari"
+    },
+    {
+      "parola": "lista d'attesa",
+      "categoria": "espressione nominale",
+      "zh": "候补名单",
+      "en": "waiting list",
+      "esempio": "inserire il suo nome nella lista d'attesa"
+    }
+  ]
+}

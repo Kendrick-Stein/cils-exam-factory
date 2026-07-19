@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "CONSERVARE I DOLCI D'ESTATE",
+    "S1_TEXT_WITH_GAPS": "I dolci fatti __(1)__ casa d’estate sono una vera delizia, ma il caldo può rovinarli __(2)__ poche ore se non vengono conservati nel modo giusto. Che si tratti __(3)__ una crostata alla frutta fresca, di una cheesecake __(4)__ cottura o di un gelato fatto __(5)__ casa, ogni dolce ha __(6)__ sue esigenze. Alcuni dolci hanno bisogno del freddo __(7)__ mantenersi integri e sicuri. Conservali __(8)__ contenitori ermetici, ben chiusi, __(9)__ un ripiano centrale del frigo. __La (0)__ parte più fredda può farli indurire. Ogni dolce ha la sua durata e va trattato __(10)__ attenzione."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | in | S1.6 | le |\n| S1.2 | in | S1.7 | per |\n| S1.3 | di | S1.8 | in |\n| S1.4 | senza | S1.9 | su |\n| S1.5 | in | S1.10 | con |",
+    "ANS_S1_NOTES": "**Note.** S1.1 e S1.5: «fatto in casa» è una locuzione fissa; S1.2: «in poche ore» indica il tempo necessario; S1.3: il verbo *trattarsi* regge *di*; S1.4: «senza cottura» indica l’assenza della cottura; S1.6: *esigenze* è femminile plurale e il possessivo richiede *le*; S1.7: *per* introduce lo scopo; S1.8: si conserva qualcosa *in* un contenitore; S1.9: il contenitore si mette *su* un ripiano; S1.10: «con attenzione» è una locuzione di modo. 中文提示：固定搭配、名词复数阴性和目的表达使每空只有一个答案。"
+  },
+  "key": {
+    "S1.1": "in",
+    "S1.2": "in",
+    "S1.3": "di",
+    "S1.4": "senza",
+    "S1.5": "in",
+    "S1.6": "le",
+    "S1.7": "per",
+    "S1.8": "in",
+    "S1.9": "su",
+    "S1.10": "con"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "crostata alla frutta fresca",
+      "categoria": "espressione nominale",
+      "zh": "新鲜水果挞",
+      "en": "fresh fruit tart",
+      "esempio": "una crostata alla frutta fresca"
+    },
+    {
+      "parola": "contenitori ermetici",
+      "categoria": "espressione nominale",
+      "zh": "密封容器",
+      "en": "airtight containers",
+      "esempio": "contenitori ermetici, ben chiusi"
+    },
+    {
+      "parola": "ripiano centrale del frigo",
+      "categoria": "espressione nominale",
+      "zh": "冰箱中层搁板",
+      "en": "middle shelf of the fridge",
+      "esempio": "ripiano centrale del frigo"
+    },
+    {
+      "parola": "farli indurire",
+      "categoria": "espressione verbale",
+      "zh": "使它们变硬",
+      "en": "to make them hard",
+      "esempio": "farli indurire"
+    },
+    {
+      "parola": "mantenersi integri e sicuri",
+      "categoria": "espressione verbale",
+      "zh": "保持完好和安全",
+      "en": "to remain intact and safe",
+      "esempio": "mantenersi integri e sicuri"
+    }
+  ]
+}

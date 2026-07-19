@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "PERCHÉ SVOLTARE A SINISTRA È COSÌ PERICOLOSO",
+    "S1_TEXT_WITH_GAPS": "Nei Paesi con guida a destra, la manovra più banale può rivelarsi __(1)__ più letale. Le svolte a sinistra causano infatti oltre __(2)__ 60% degli incidenti che avvengono *(a)* __agli (0)__ incroci. A spiegare il perché su The Conversation è Vikash Gayah, docente di ingegneria civile *(a)* __(3)__ Penn State University: girare a sinistra obbliga il conducente __(4)__ tagliare la corsia dei mezzi __(5)__ arrivo *(da)* __(6)__ direzione opposta, spesso a velocità sostenuta, esponendo il fianco *(di)* __(7)__ veicolo a impatti catastrofici.\n\nOltre *(a)* __(8)__ rischio fisico, la svolta a sinistra rappresenta un enorme carico cognitivo. Il conducente deve valutare simultaneamente la velocità delle auto contromano e il movimento di pedoni e ciclisti che attraversano la strada __(9)__ immissione, oltre *(a)* __(10)__ presenza di ostacoli visivi.\n\nQuesto sovraccarico finisce __(11)__ aumentare lo stress e porta a valutazioni errate. In attesa *(di)* __(12)__ momento giusto, inoltre, il veicolo rimane fermo __(13)__ mezzo *(a)* __(14)__ incrocio in una posizione estremamente vulnerabile.\n\nLo studio *(di)* __(15)__ Penn State University suggerisce una soluzione radicale: limitare o abolire *(di)* __(16)__ tutto queste manovre e scegliere __(17)__ svoltare solo a destra. Giganti *(di)* __(18)__ logistica come UPS applicano già questa strategia da anni, pianificando percorsi che evitano le svolte a sinistra __(19)__ nove casi __(20)__ dieci."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | la | S1.11 | per |\n| S1.2 | il | S1.12 | del |\n| S1.3 | alla | S1.13 | in |\n| S1.4 | a | S1.14 | all' |\n| S1.5 | in | S1.15 | della |\n| S1.6 | dalla | S1.16 | del |\n| S1.7 | del | S1.17 | di |\n| S1.8 | al | S1.18 | della |\n| S1.9 | di | S1.19 | in |\n| S1.10 | alla | S1.20 | su |",
+    "ANS_S1_NOTES": "- **S1.3 — alla:** *a* si unisce a *la* davanti al nome dell'università. 中文：大学名称前保留阴性冠词。\n- **S1.6 — dalla:** *da* si unisce a *la* davanti a «direzione». 中文：介词与阴性单数冠词合并。\n- **S1.10 — alla:** nella locuzione «oltre alla presenza», *a* si unisce a *la*. 中文：介词与阴性单数冠词合并。\n- **S1.14 — all':** *a* si unisce all'articolo eliso davanti a «incrocio». 中文：元音前使用省音形式。\n- **S1.18 — della:** *di* si unisce a *la* nell'espressione «giganti della logistica». 中文：表示行业领域时使用 *della*。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "il",
+    "S1.3": "alla",
+    "S1.4": "a",
+    "S1.5": "in",
+    "S1.6": "dalla",
+    "S1.7": "del",
+    "S1.8": "al",
+    "S1.9": "di",
+    "S1.10": "alla",
+    "S1.11": "per",
+    "S1.12": "del",
+    "S1.13": "in",
+    "S1.14": "all' || all’",
+    "S1.15": "della",
+    "S1.16": "del",
+    "S1.17": "di",
+    "S1.18": "della",
+    "S1.19": "in",
+    "S1.20": "su"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "velocità sostenuta",
+      "categoria": "locuzione nominale",
+      "zh": "较高的速度",
+      "en": "high speed",
+      "esempio": "spesso a velocità sostenuta"
+    },
+    {
+      "parola": "carico cognitivo",
+      "categoria": "locuzione nominale",
+      "zh": "认知负荷",
+      "en": "cognitive load",
+      "esempio": "rappresenta un enorme carico cognitivo"
+    },
+    {
+      "parola": "ostacoli visivi",
+      "categoria": "locuzione nominale",
+      "zh": "视觉障碍",
+      "en": "visual obstacles",
+      "esempio": "presenza di ostacoli visivi"
+    },
+    {
+      "parola": "posizione estremamente vulnerabile",
+      "categoria": "locuzione nominale",
+      "zh": "极其危险的位置",
+      "en": "extremely vulnerable position",
+      "esempio": "in una posizione estremamente vulnerabile"
+    },
+    {
+      "parola": "pianificando percorsi",
+      "categoria": "locuzione verbale",
+      "zh": "规划路线",
+      "en": "planning routes",
+      "esempio": "pianificando percorsi che evitano le svolte a sinistra"
+    }
+  ]
+}

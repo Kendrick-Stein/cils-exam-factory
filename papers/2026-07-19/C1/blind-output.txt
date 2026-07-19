@@ -1,0 +1,296 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "D", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "C", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "A", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Vero", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A–K–D–N–B–F–M–H–I–P–C–L–E–O–G–J", "confidence": "hi"},
+
+  "S1.1": {"answer": "e", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "di", "confidence": "hi"},
+  "S1.4": {"answer": "dell'", "confidence": "hi"},
+  "S1.5": {"answer": "tra", "confidence": "hi"},
+  "S1.6": {"answer": "di", "confidence": "hi"},
+  "S1.7": {"answer": "della", "confidence": "hi"},
+  "S1.8": {"answer": "che", "confidence": "hi"},
+  "S1.9": {"answer": "di", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+  "S1.11": {"answer": "con", "confidence": "hi"},
+  "S1.12": {"answer": "di", "confidence": "hi"},
+  "S1.13": {"answer": "della", "confidence": "hi"},
+  "S1.14": {"answer": "i", "confidence": "hi"},
+  "S1.15": {"answer": "a", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "sia", "confidence": "hi"},
+  "S1.18": {"answer": "perché", "confidence": "hi"},
+  "S1.19": {"answer": "allo", "confidence": "hi"},
+  "S1.20": {"answer": "della", "confidence": "hi"},
+
+  "S2.1": {"answer": "è stato considerato", "confidence": "hi"},
+  "S2.2": {"answer": "delizia", "confidence": "hi"},
+  "S2.3": {"answer": "essere", "confidence": "hi"},
+  "S2.4": {"answer": "ha rivestito", "confidence": "hi"},
+  "S2.5": {"answer": "gli hanno permesso", "confidence": "hi"},
+  "S2.6": {"answer": "partecipava", "confidence": "hi"},
+  "S2.7": {"answer": "lo intervistammo", "confidence": "hi"},
+  "S2.8": {"answer": "presa", "confidence": "hi"},
+  "S2.9": {"answer": "raccontando", "confidence": "hi"},
+  "S2.10": {"answer": "tralasciò", "confidence": "hi"},
+  "S2.11": {"answer": "spiegasse", "confidence": "hi"},
+  "S2.12": {"answer": "capisca", "confidence": "hi"},
+  "S2.13": {"answer": "crescere", "confidence": "hi"},
+  "S2.14": {"answer": "ho visto", "confidence": "med"},
+  "S2.15": {"answer": "abbia offerto", "confidence": "hi"},
+  "S2.16": {"answer": "dialogare", "confidence": "hi"},
+  "S2.17": {"answer": "avesse", "confidence": "hi"},
+  "S2.18": {"answer": "sembrerebbe", "confidence": "hi"},
+  "S2.19": {"answer": "affrontò", "confidence": "hi"},
+  "S2.20": {"answer": "includendolo", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "B", "confidence": "hi"},
+  "S3.12": {"answer": "B", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "D", "confidence": "hi"},
+  "S3.15": {"answer": "C", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "La realizzazione di questi progetti spetta alle associazioni e/o organizzazioni no profit, conformemente al Regolamento n. 373.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "Per tutti i progetti sono obbligatori l'avvio nel 2026 e la conclusione entro il 30 settembre 2027.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "Soltanto dopo aver letto attentamente l'avviso, i soggetti interessati dovranno produrre l'istanza di partecipazione esclusivamente attraverso il modulo online accessibile dalla scheda servizio pubblicata sul sito della Città.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Il corretto invio dell'istanza di partecipazione sarà attestato da una e-mail che il richiedente riceverà al termine della procedura di partecipazione.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "Il termine per il ricevimento dell'istanza e dei relativi allegati è fissato alle ore 12 del 30 giugno 2026.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "Non si prenderanno in considerazione le istanze pervenute fuori termine.",
+    "confidence": "hi"
+  }
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING_CHECKS
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180",
+    "check": "Entrambe le tracce sono autonome e indicano chiaramente contenuto e genere testuale."
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120",
+    "check": "Entrambe le tracce forniscono destinatario, contesto, problemi e richieste da formulare."
+  },
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "check": "Tutte e quattro le situazioni definiscono interlocutore, problema e obiettivo comunicativo."
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "check": "Tutti e quattro gli argomenti indicano un tema autonomo e gli aspetti principali da esaminare."
+  }
+]
+```
+
+15,430
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "D", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "C", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "A", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Vero", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": ["A", "K", "D", "N", "B", "F", "M", "H", "I", "P", "C", "L", "E", "O", "G", "J"], "confidence": "hi"},
+
+  "S1.1": {"answer": "e", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "di", "confidence": "hi"},
+  "S1.4": {"answer": "dell'", "confidence": "hi"},
+  "S1.5": {"answer": "tra", "confidence": "hi"},
+  "S1.6": {"answer": "di", "confidence": "hi"},
+  "S1.7": {"answer": "della", "confidence": "hi"},
+  "S1.8": {"answer": "che", "confidence": "hi"},
+  "S1.9": {"answer": "di", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+  "S1.11": {"answer": "con", "confidence": "hi"},
+  "S1.12": {"answer": "di", "confidence": "hi"},
+  "S1.13": {"answer": "della", "confidence": "hi"},
+  "S1.14": {"answer": "i", "confidence": "hi"},
+  "S1.15": {"answer": "a", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "sia", "confidence": "hi"},
+  "S1.18": {"answer": "perché", "confidence": "hi"},
+  "S1.19": {"answer": "allo", "confidence": "hi"},
+  "S1.20": {"answer": "della", "confidence": "hi"},
+
+  "S2.1": {"answer": "è stato considerato", "confidence": "hi"},
+  "S2.2": {"answer": "delizia", "confidence": "hi"},
+  "S2.3": {"answer": "essere", "confidence": "hi"},
+  "S2.4": {"answer": "ha rivestito", "confidence": "hi"},
+  "S2.5": {"answer": "gli hanno permesso", "confidence": "hi"},
+  "S2.6": {"answer": "partecipava", "confidence": "hi"},
+  "S2.7": {"answer": "lo intervistammo", "confidence": "hi"},
+  "S2.8": {"answer": "presa", "confidence": "hi"},
+  "S2.9": {"answer": "raccontando", "confidence": "hi"},
+  "S2.10": {"answer": "tralasciò", "confidence": "hi"},
+  "S2.11": {"answer": "spiegasse", "confidence": "hi"},
+  "S2.12": {"answer": "capisca", "confidence": "hi"},
+  "S2.13": {"answer": "crescere", "confidence": "hi"},
+  "S2.14": {"answer": "ho visto", "confidence": "med"},
+  "S2.15": {"answer": "abbia offerto", "confidence": "hi"},
+  "S2.16": {"answer": "dialogare", "confidence": "hi"},
+  "S2.17": {"answer": "avesse", "confidence": "hi"},
+  "S2.18": {"answer": "sembrerebbe", "confidence": "hi"},
+  "S2.19": {"answer": "affrontò", "confidence": "hi"},
+  "S2.20": {"answer": "includendolo", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "B", "confidence": "hi"},
+  "S3.12": {"answer": "B", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "D", "confidence": "hi"},
+  "S3.15": {"answer": "C", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "La realizzazione di questi progetti spetta alle associazioni e/o organizzazioni no profit, conformemente al Regolamento n. 373.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "Per tutti i progetti sono obbligatori l'avvio nel 2026 e la conclusione entro il 30 settembre 2027.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "Soltanto dopo aver letto attentamente l'avviso, i soggetti interessati dovranno produrre l'istanza di partecipazione esclusivamente attraverso il modulo online accessibile dalla scheda servizio pubblicata sul sito della Città.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Il corretto invio dell'istanza di partecipazione sarà attestato da una e-mail che il richiedente riceverà al termine della procedura di partecipazione.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "Il termine per il ricevimento dell'istanza e dei relativi allegati è fissato alle ore 12 del 30 giugno 2026.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "Non si prenderanno in considerazione le istanze pervenute fuori termine.",
+    "confidence": "hi"
+  }
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING_CHECKS
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180",
+    "check": "Entrambe le tracce sono autonome e indicano chiaramente contenuto e genere testuale."
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120",
+    "check": "Entrambe le tracce forniscono destinatario, contesto, problemi e richieste da formulare."
+  },
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "check": "Tutte e quattro le situazioni definiscono interlocutore, problema e obiettivo comunicativo."
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "check": "Tutti e quattro gli argomenti indicano un tema autonomo e gli aspetti principali da esaminare."
+  }
+]
+```
