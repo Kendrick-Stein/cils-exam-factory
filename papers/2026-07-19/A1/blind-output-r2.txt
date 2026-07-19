@@ -1,0 +1,52 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "si intitola", "confidence": "hi"},
+  "S2.2": {"answer": "è tornato", "confidence": "hi"},
+  "S2.3": {"answer": "è partito", "confidence": "hi"},
+  "S2.4": {"answer": "è arrivato", "confidence": "hi"},
+  "S2.5": {"answer": "è durato", "confidence": "hi"},
+  "S2.6": {"answer": "abbiamo viaggiato", "confidence": "hi"},
+  "S2.7": {"answer": "abbiamo incontrato", "confidence": "hi"},
+  "S2.8": {"answer": "abbiamo lavorato", "confidence": "hi"},
+  "S2.9": {"answer": "si è fermato", "confidence": "hi"},
+  "S2.10": {"answer": "abbiamo raccontato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[]
+```
+
+12,809
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "si intitola", "confidence": "hi"},
+  "S2.2": {"answer": "è tornato", "confidence": "hi"},
+  "S2.3": {"answer": "è partito", "confidence": "hi"},
+  "S2.4": {"answer": "è arrivato", "confidence": "hi"},
+  "S2.5": {"answer": "è durato", "confidence": "hi"},
+  "S2.6": {"answer": "abbiamo viaggiato", "confidence": "hi"},
+  "S2.7": {"answer": "abbiamo incontrato", "confidence": "hi"},
+  "S2.8": {"answer": "abbiamo lavorato", "confidence": "hi"},
+  "S2.9": {"answer": "si è fermato", "confidence": "hi"},
+  "S2.10": {"answer": "abbiamo raccontato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[]
+```

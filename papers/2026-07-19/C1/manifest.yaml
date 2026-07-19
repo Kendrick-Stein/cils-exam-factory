@@ -1,0 +1,147 @@
+exam: cils
+level: C1
+session: '2026-07-19'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.doppiozero.com/alberi-e-frutta-melo
+  title: Alberi e frutta. Melo
+  publisher: doppiozero
+  published: 16/07/2026
+  accessed: 19/07/2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 570
+- id: T2
+  url: https://bandi.unibo.it/s/dicam/bando-per-l-erogazione-di-incentivi-alla-mobilita-per-la-ricerca-programma-marco-polo-dicam-1-tornata-2026
+  title: Bando per l’erogazione di incentivi alla mobilità per la ricerca — Programma
+    Marco Polo DICAM, prima tornata 2026
+  publisher: Alma Mater Studiorum — Università di Bologna
+  published: 19/02/2026
+  accessed: 19/07/2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 572
+- id: T3
+  url: https://it.wikisource.org/wiki/La_giara_%28Novella%2C_1928%29
+  title: La giara
+  publisher: Wikisource (testo di Luigi Pirandello, edizione 1928)
+  published: 1909; edizione digitale riletta e controllata
+  accessed: 19/07/2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 520
+- id: T4
+  url: https://www.wired.it/article/perche-torino-buio-quando-arriva-caldo-anomalo-ondate-calore-fanno-saltare-rete-elettrica/
+  title: Perché Torino resta al buio quando arriva il caldo anomalo
+  publisher: Wired Italia
+  published: 23/06/2026
+  accessed: 19/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 222
+- id: T5
+  url: https://www.gamberorosso.it/notizie/attualita/gennaro-esposito-intervista-ristoranti-noiosi/
+  title: '«I nostri ristoranti stanno diventando noiosi»: Gennaro Esposito sul fine
+    dining'
+  publisher: Gambero Rosso
+  published: 23/06/2026
+  accessed: 19/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 178
+- id: T6
+  url: https://www.wired.it/article/arrivano-primi-orologi-nucleari-come-potrebbero-cambiare-modo-in-cui-misuriamo-tempo/
+  title: Arrivano i primi orologi nucleari, ecco come potrebbero cambiare il modo
+    in cui misuriamo il tempo
+  publisher: Wired Italia
+  published: '2026-06-23'
+  accessed: '2026-07-19'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 179
+- id: T7
+  url: https://www.comune.torino.it/novita/avvisi/avviso-per-presentazione-progetti-per-promozione-sostegno-alle-reti-solidarieta
+  title: Avviso per la presentazione di progetti per la promozione e il sostegno alle
+    reti di solidarietà tra famiglie e all’affidamento familiare
+  publisher: Città di Torino
+  published: 30/05/2026
+  accessed: 19/07/2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: true
+  words_used: 146
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-19T14:42:22+00:00'
+  - stage: authoring
+    at: '2026-07-19T14:54:12+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-19T15:09:44+00:00'
+    agreement: 74/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T15:16:47+00:00'
+    agreement: 67/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T15:22:22+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-19T15:22:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-19T15:22:43+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-07-19T15:24:55+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-19T15:37:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-19T15:37:06+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-07-19T15:37:50+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

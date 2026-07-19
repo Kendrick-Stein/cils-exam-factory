@@ -1,0 +1,47 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Nella tesina finale Rosario parla**\n\nA) del lavoro che fa suo padre a scuola.  \nB) del suo desiderio di diventare Carabiniere.  \nC) delle professioni scelte dai suoi compagni.\n\n**2. Quando era piccolo, Rosario**\n\nA) andava spesso in caserma con suo padre.  \nB) ascoltava a casa le storie dei cittadini.  \nC) lavorava insieme ai colleghi di suo padre.\n\n**3. Con il passare degli anni, Rosario ha capito che il lavoro del Carabiniere**\n\nA) permette di conoscere molti territori.  \nB) offre molto tempo da passare in famiglia.  \nC) richiede impegno e responsabilità.\n\n**4. Durante l'incontro nella caserma di Sala Consilina, Rosario**\n\nA) ha presentato di nuovo la sua tesina.  \nB) ha ricevuto una targa ricordo.  \nC) ha consegnato un premio ai Carabinieri.",
+    "T1_TEXT": "Rosario è uno studente dell'Istituto \"Giovanni Falcone\" di Sassano. Per la sua tesina finale ha scelto di raccontare il sogno di diventare un giorno Carabiniere, come suo padre. Questo desiderio è nato quando era bambino: Rosario accompagnava spesso il padre in caserma.\n\n\"Per me era un posto speciale, pieno di persone che mi facevano sentire il benvenuto. Mi piaceva osservare tutto, ascoltare le loro storie e vedere come lavoravano insieme\", ha raccontato Rosario durante la presentazione della tesina.\n\nCon il passare degli anni, la sua curiosità è cambiata. Rosario ha iniziato a capire meglio il significato della divisa e le responsabilità di questo lavoro. \"Crescendo ho capito quanto impegno e quanta responsabilità ci sono dietro questo ruolo. Oggi so di voler seguire le orme di mio padre. Diventare Carabiniere significa fare qualcosa di importante per gli altri e mettere la legalità e il servizio al centro della mia vita\", ha spiegato lo studente.\n\nPer festeggiare il traguardo scolastico, i Carabinieri della Compagnia di Sala Consilina hanno invitato Rosario in caserma. Durante l'incontro, il ragazzo ha conosciuto meglio le attività che i Carabinieri svolgono ogni giorno per proteggere i cittadini e il territorio. Alla fine della visita, Rosario ha ricevuto una targa ricordo: un simbolo della giornata passata insieme e un augurio per il suo futuro.",
+    "T1_TITLE": "IL SOGNO DI ROSARIO"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice: \"il sogno di diventare un giorno Carabiniere\". 中文：主题是未来职业。 |\n| L1.2 | A | Il testo dice: \"Rosario accompagnava spesso il padre in caserma\". 中文：注意童年经历。 |\n| L1.3 | C | Rosario ha capito \"quanto impegno e quanta responsabilità ci sono dietro questo ruolo\". 中文：成长后认识到职责。 |\n| L1.4 | B | Alla fine della visita, \"Rosario ha ricevuto una targa ricordo\". 中文：礼物是纪念牌。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tesina finale",
+      "categoria": "locuzione nominale",
+      "zh": "结业小论文",
+      "en": "final paper",
+      "esempio": "Per la sua tesina finale ha scelto di raccontare il sogno"
+    },
+    {
+      "parola": "caserma",
+      "categoria": "nome femminile",
+      "zh": "军营；警营",
+      "en": "barracks",
+      "esempio": "Rosario accompagnava spesso il padre in caserma"
+    },
+    {
+      "parola": "seguire le orme",
+      "categoria": "locuzione verbale",
+      "zh": "追随……的脚步",
+      "en": "follow in someone's footsteps",
+      "esempio": "Oggi so di voler seguire le orme di mio padre"
+    },
+    {
+      "parola": "targa ricordo",
+      "categoria": "locuzione nominale",
+      "zh": "纪念牌",
+      "en": "commemorative plaque",
+      "esempio": "Rosario ha ricevuto una targa ricordo"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua giornata: scrivi a che ora ti alzi, cosa fai la mattina e cosa fai nel pomeriggio.",
+    "W2_PROMPT": "Scrivi una breve e-mail a un museo. Chiedi a che ora apre il sabato e quanto costa il biglietto."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Ogni mattina mi alzo alle sette. Faccio colazione con latte e pane, poi vado a scuola in autobus. Nel pomeriggio studio e gioco a calcio con i miei amici.",
+    "MODEL_W1_PHRASES": "«Ogni mattina…»（每天早上……） · «Mi alzo alle…»（我……点起床） · «Faccio colazione con…»（我早餐吃/喝……） · «Nel pomeriggio…»（下午……） · «Con i miei amici»（和我的朋友们一起）",
+    "MODEL_W2": "Buongiorno, voglio visitare il museo sabato. A che ora apre? Quanto costa il biglietto? Grazie. Maria",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Voglio visitare…»（我想参观……） · «A che ora apre?»（几点开门？） · «Quanto costa il biglietto?»（门票多少钱？） · «Grazie»（谢谢）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "Faccio colazione",
+      "categoria": "espressione verbale",
+      "zh": "我吃早餐",
+      "en": "I have breakfast",
+      "esempio": "Faccio colazione con latte e pane, poi vado a scuola in autobus."
+    },
+    {
+      "parola": "in autobus",
+      "categoria": "espressione avverbiale",
+      "zh": "乘公交车",
+      "en": "by bus",
+      "esempio": "Faccio colazione con latte e pane, poi vado a scuola in autobus."
+    },
+    {
+      "parola": "Nel pomeriggio",
+      "categoria": "espressione avverbiale",
+      "zh": "下午",
+      "en": "in the afternoon",
+      "esempio": "Nel pomeriggio studio e gioco a calcio con i miei amici."
+    },
+    {
+      "parola": "visitare il museo",
+      "categoria": "espressione verbale",
+      "zh": "参观博物馆",
+      "en": "to visit the museum",
+      "esempio": "Buongiorno, voglio visitare il museo sabato."
+    },
+    {
+      "parola": "biglietto",
+      "categoria": "nome maschile",
+      "zh": "门票",
+      "en": "ticket",
+      "esempio": "Quanto costa il biglietto?"
+    }
+  ]
+}

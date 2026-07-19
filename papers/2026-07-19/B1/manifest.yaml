@@ -1,0 +1,131 @@
+exam: cils
+level: B1
+session: '2026-07-19'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.fanpage.it/spettacolo/interviste/massimo-caputi-commentavo-mondiali-e-europei-su-tmc-e-sfidavo-la-rai-lo-sport-a-la7-purtroppo-e-sparito/
+  title: 'Massimo Caputi: “Commentavo Mondiali e Europei su Tmc e sfidavo la Rai.
+    Lo sport a La7 purtroppo è sparito”'
+  publisher: Fanpage.it
+  published: 19 luglio 2026
+  accessed: 19 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 421
+- id: T2
+  url: https://www.comune.palermo.it/novita/estate-2026-al-via-lavviso-pubblico-per-i-centri-estivi-e-i-campus-residenziali/
+  title: 'Estate 2026: al via l’Avviso Pubblico per i Centri Estivi e i Campus Residenziali'
+  publisher: Città di Palermo
+  published: 5 giugno 2026; ultimo aggiornamento 15 giugno 2026
+  accessed: 19 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 338
+- id: T3
+  url: https://www.asiatica-travel.it/blog/diario-viaggio-cambogia-thailandia.html
+  title: Diario di viaggio in Cambogia e Thailandia
+  publisher: Asiatica Travel
+  published: aggiornato il 30 dicembre 2025
+  accessed: 19 luglio 2026
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 253
+- id: T4
+  url: https://www.focus.it/cultura/curiosita/svoltare-a-sinistra-e-la-manovra-piu-pericolosa-in-auto-ecco-perche-dovremmo-smettere-di-farlo
+  title: 'Svoltare a sinistra è la manovra più pericolosa in auto: ecco perché dovremmo...
+    smettere di farlo!'
+  publisher: Focus.it
+  published: 9 aprile 2026
+  accessed: 19 luglio 2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 190
+- id: T5
+  url: https://www.focusjunior.it/animali/perche-adottare-un-cane-elisabetta-canalis-lo-spiega-ai-ragazzi/
+  title: Perché la vita con i cani è un’esperienza meravigliosa. Elisabetta Canalis
+    lo spiega ai ragazzi
+  publisher: FocusJunior.it
+  published: 1 dicembre 2025
+  accessed: 19 luglio 2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 179
+- id: T6
+  url: https://comune.ravenna.it/novita/comunicato-stampa/lestate-a-ravenna-con-mosaico-di-notte/
+  title: L’estate a Ravenna con Mosaico di Notte
+  publisher: Comune di Ravenna
+  published: 17 giugno 2026
+  accessed: 19 luglio 2026
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 139
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-19T14:42:22+00:00'
+  - stage: authoring
+    at: '2026-07-19T14:54:12+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-19T14:59:12+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T15:09:44+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-19T15:16:47+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-19T15:22:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-19T15:22:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-19T15:24:55+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-19T15:37:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-19T15:37:06+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

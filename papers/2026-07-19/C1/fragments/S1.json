@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "PERCHÉ TORINO RESTA AL BUIO QUANDO ARRIVA IL CALDO ANOMALO",
+    "S1_TEXT_WITH_GAPS": "Tra __il (0)__ 27 __(1)__ il 29 maggio, in meno __(2)__ 72 ore, Torino ha contato quindici blackout __(3)__ ampia portata che hanno privato __(4)__ elettricità __(5)__ le 80mila e le 120mila persone, colpendo prima il centro, Cit Turin e la Crocetta, poi a macchia __(6)__ leopardo la precollina e le periferie.\n\nSemafori spenti, ascensori bloccati, frigoriferi fermi e condizionatori fuori uso proprio nelle ore più calde __(7)__ giornata: un copione che i torinesi conoscono, dal momento __(8)__ nel solo mese di giugno dello scorso anno la città aveva attraversato decine __(9)__ blackout importanti nel giro __(10)__ due settimane, sempre in coincidenza __(11)__ le prime grandi ondate __(12)__ calore.\n\nIl 28 maggio il ministero __(13)__ Salute ha diramato __(14)__ primi bollini rossi della stagione per quattro città: Bologna, Firenze e Roma, oltre __(15)__ Torino.\n\nIl punto è __(16)__ a Torino il fenomeno si manifesta sia con un’intensità __(17)__ con una frequenza che nessun’altra grande città ha eguagliato: quindici blackout in 72 ore, dopo i 45 già contati nel giugno 2025. Ma __(18)__ proprio a Torino?\n\nIl sindaco Stefano Lo Russo ha definito la situazione un’emergenza, come del resto era già successo lo scorso anno, e ha attribuito l’emergenza __(19)__ stato delle infrastrutture cittadine: «La rete elettrica di Torino, soprattutto quella di media tensione, è piuttosto vecchia. Negli anni queste infrastrutture sono state lasciate indietro sul piano __(20)__ manutenzione e oggi, con l’aumento delle temperature e dei consumi elettrici, emergono tutte le criticità»."
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.4:** sono ammesse sia la costruzione *privare di* sia *privare dell’elettricità*. 中文：无冠词与缩合冠词形式均接受。\n- **S1.5:** sono accettate sia *tra* sia *fra*, equivalenti nell’indicazione di un intervallo numerico. 中文：两种形式均可表示数值区间。\n- **S1.8:** nella locuzione causale *dal momento che*, *che* è obbligatorio. 中文：固定因果连接结构。\n- **S1.17:** sono ammesse entrambe le correlazioni *sia … sia …* e *sia … che …*. 中文：两种关联结构均可。\n- **S1.18:** *perché* e *come mai* formulano lo stesso interrogativo causale; entrambe le forme sono ammesse. 中文：两种问因表达均可。",
+    "ANS_S1_ROWS": "| S1.1 | e | S1.11 | con |\n| S1.2 | di | S1.12 | di |\n| S1.3 | di | S1.13 | della |\n| S1.4 | di / dell' | S1.14 | i |\n| S1.5 | tra / fra | S1.15 | a |\n| S1.6 | di | S1.16 | che |\n| S1.7 | della | S1.17 | sia / che |\n| S1.8 | che | S1.18 | perché / come mai |\n| S1.9 | di | S1.19 | allo |\n| S1.10 | di | S1.20 | della |"
+  },
+  "key": {
+    "S1.1": "e",
+    "S1.2": "di",
+    "S1.3": "di",
+    "S1.4": "di || dell'",
+    "S1.5": "tra || fra",
+    "S1.6": "di",
+    "S1.7": "della",
+    "S1.8": "che",
+    "S1.9": "di",
+    "S1.10": "di",
+    "S1.11": "con",
+    "S1.12": "di",
+    "S1.13": "della",
+    "S1.14": "i",
+    "S1.15": "a",
+    "S1.16": "che",
+    "S1.17": "sia || che",
+    "S1.18": "perché || come mai",
+    "S1.19": "allo",
+    "S1.20": "della"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ampia portata",
+      "categoria": "locuzione nominale",
+      "zh": "广泛影响",
+      "en": "wide scope",
+      "esempio": "ampia portata che hanno privato"
+    },
+    {
+      "parola": "bollini rossi",
+      "categoria": "locuzione nominale",
+      "zh": "红色预警",
+      "en": "red alerts",
+      "esempio": "primi bollini rossi della stagione"
+    },
+    {
+      "parola": "infrastrutture cittadine",
+      "categoria": "locuzione nominale",
+      "zh": "城市基础设施",
+      "en": "urban infrastructure",
+      "esempio": "stato delle infrastrutture cittadine"
+    },
+    {
+      "parola": "media tensione",
+      "categoria": "locuzione nominale",
+      "zh": "中压",
+      "en": "medium voltage",
+      "esempio": "quella di media tensione"
+    },
+    {
+      "parola": "criticità",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "关键问题",
+      "en": "critical issues",
+      "esempio": "emergono tutte le criticità"
+    }
+  ]
+}

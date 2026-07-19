@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. È possibile cercare contemporaneamente non più di cinque viaggi.**  \nVero ○ Falso ○\n\n**2. Nella ricerca si possono inserire al massimo sette passeggeri, ma devono essere tutti adulti.**  \nVero ○ Falso ○\n\n**3. La ricerca può comprendere treni Frecce, Intercity e Regionali.**  \nVero ○ Falso ○\n\n**4. Le “Altre opzioni di ricerca” servono soltanto a trovare viaggi con cambio.**  \nVero ○ Falso ○\n\n**5. Per comprare il supplemento bici bisogna aprire “Promozioni e servizi regionali”.**  \nVero ○ Falso ○\n\n**6. Il comando “Cerca” permette di concludere subito l'acquisto.**  \nVero ○ Falso ○\n\n**7. La “i” accanto a Dettagli dà informazioni sui servizi e sulle fermate intermedie.**  \nVero ○ Falso ○\n\n**8. La scelta del posto avviene automaticamente quando l'offerta entra nel carrello.**  \nVero ○ Falso ○",
+    "T2_TEXT": "Indica se vuoi effettuare un viaggio di sola andata o di andata e ritorno. Puoi cercare fino a 5 viaggi contemporaneamente. Seleziona le stazioni, le date del tuo viaggio e il numero di passeggeri, fino a un massimo di 7 tra adulti e ragazzi. Puoi scegliere anche tra Frecce, Intercity o Regionali. Scegli “Altre opzioni di ricerca” se vuoi affinare la tua ricerca e visualizzare le offerte per miglior prezzo, soluzioni senza cambi o tipo di offerta. Vai su “Promozioni e servizi regionali” se vuoi acquistare il supplemento bici. Clicca su “Cerca” per avviare la ricerca.\n\nModifica i parametri di ricerca: stazioni, data, orario e passeggeri. Clicca sulla “i” accanto a Dettagli per conoscere i servizi presenti e le fermate intermedie. Per le soluzioni con cambio, visualizza gli orari di partenza e arrivo dalle diverse stazioni. Una volta individuata l'offerta, puoi selezionarla e visualizzarla nel carrello dopo aver cliccato su “Continua”. Se vuoi scegliere il posto, seleziona l'apposita opzione.",
+    "T2_TITLE": "COME ACQUISTARE ONLINE IL BIGLIETTO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice: «Puoi cercare fino a 5 viaggi contemporaneamente». “Fino a” indica il limite massimo（最多五个）. |\n| L2.2 | Falso | Il testo precisa: «fino a un massimo di 7 tra adulti e ragazzi»; quindi i passeggeri non devono essere tutti adulti（也可以有儿童）. |\n| L2.3 | Vero | Il testo presenta tutte e tre le possibilità: «Frecce, Intercity o Regionali»（三种列车都可选）. |\n| L2.4 | Falso | Le altre opzioni mostrano anche «offerte per miglior prezzo» e «soluzioni senza cambi», non soltanto viaggi con cambio（用途不止一种）. |\n| L2.5 | Vero | L'istruzione è: «Vai su “Promozioni e servizi regionali” se vuoi acquistare il supplemento bici»（购买自行车附加服务的入口）. |\n| L2.6 | Falso | Il comando «Cerca» serve «per avviare la ricerca», non per concludere l'acquisto（只是开始搜索）. |\n| L2.7 | Vero | Cliccando sulla «i» si possono conoscere «i servizi presenti e le fermate intermedie»（可查看服务和中途停站）. |\n| L2.8 | Falso | Per scegliere il posto bisogna selezionare «l'apposita opzione»; la scelta non avviene automaticamente nel carrello（需要主动选择）. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "affinare",
+      "categoria": "verbo",
+      "zh": "细化；优化",
+      "en": "to refine",
+      "esempio": "Scegli “Altre opzioni di ricerca” se vuoi affinare la tua ricerca e visualizzare le offerte per miglior prezzo, soluzioni senza cambi o tipo di offerta."
+    },
+    {
+      "parola": "supplemento bici",
+      "categoria": "espressione nominale",
+      "zh": "自行车附加票",
+      "en": "bicycle supplement",
+      "esempio": "Vai su “Promozioni e servizi regionali” se vuoi acquistare il supplemento bici."
+    },
+    {
+      "parola": "fermate intermedie",
+      "categoria": "espressione nominale",
+      "zh": "中途停站",
+      "en": "intermediate stops",
+      "esempio": "Clicca sulla “i” accanto a Dettagli per conoscere i servizi presenti e le fermate intermedie."
+    },
+    {
+      "parola": "carrello",
+      "categoria": "nome maschile",
+      "zh": "购物车",
+      "en": "shopping cart",
+      "esempio": "Una volta individuata l'offerta, puoi selezionarla e visualizzarla nel carrello dopo aver cliccato su “Continua”."
+    },
+    {
+      "parola": "apposita opzione",
+      "categoria": "espressione nominale",
+      "zh": "相应选项",
+      "en": "specific option",
+      "esempio": "Se vuoi scegliere il posto, seleziona l'apposita opzione."
+    }
+  ]
+}

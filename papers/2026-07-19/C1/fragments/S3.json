@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "ARRIVANO I PRIMI OROLOGI NUCLEARI",
+    "S3_TEXT_WITH_GAPS": "I primi orologi nucleari funzionanti __sono finalmente realtà (0)__. A riuscire __(1)__, dopo oltre 20 anni di ricerche, sono stati due team di ricerca internazionali, uno in Europa e uno in Cina, che __(2)__ questi innovativi dispositivi che __(3)__ sulle fluttuazioni di energia del nucleo di un atomo per misurare il tempo, __(4)__ quelle dei suoi elettroni, come fanno gli __(5)__ orologi atomici per definire la __(6)__ di un secondo.\n\nTutti gli orologi __(7)__ di un'oscillazione stabile per __(8)__ il tempo, proprio come succede in un comune orologio a pendolo. Negli orologi atomici, quest'oscillazione è data dagli elettroni che __(9)__ tra diversi livelli energetici quando __(10)__ da una luce laser, la cui __(11)__ per __(12)__ questi cambiamenti di stato viene usata per misurare il tempo.\n\nUn orologio nucleare, __(13)__, si basa su una strategia diversa: scandisce il tempo portando i protoni e i neutroni all'interno del nucleo degli atomi di torio-229 a uno stato energetico superiore. __(14)__, il torio ha una proprietà speciale in quanto, a differenza della maggior parte degli elementi, possiede livelli energetici stabili così __(15)__ tra loro che anche una semplice luce ultravioletta può innescare il cambiamento.",
+    "S3_OPT0_A": "sono finalmente realtà",
+    "S3_OPT0_B": "restano ancora un'ipotesi",
+    "S3_OPT0_C": "sembrano soltanto promesse",
+    "S3_OPT0_D": "costituiscono una finzione",
+    "S3_OPTION_ROWS": "| 1. | nell'impresa | nell'attesa | nel rinvio | nell'incertezza |\n| 2. | hanno ormai smantellato | hanno apertamente contestato | hanno appunto realizzato | hanno invece accantonato |\n| 3. | si interrogano | si basano | si dividono | si concentrano |\n| 4. | oltre | contro | senza | anziché |\n| 5. | attuali | remoti | futuri | ipotetici |\n| 6. | frequenza | durata | origine | cadenza |\n| 7. | hanno memoria | hanno bisogno | hanno timore | hanno notizia |\n| 8. | sospendere | deformare | scandire | cancellare |\n| 9. | sostano | spariscono | ricadono | saltano |\n| 10. | restano schermati | vengono colpiti | sono protetti | vengono isolati |\n| 11. | frequenza | intensità | direzione | provenienza |\n| 12. | evitare | innescare | frenare | annullare |\n| 13. | dunque | inoltre | invece | infatti |\n| 14. | In compenso | Di conseguenza | Per giunta | In particolare |\n| 15. | lontani | separati | vicini | indipendenti |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | La costruzione «A riuscire nell'impresa» presenta il risultato come un traguardo raggiunto dopo oltre vent'anni. 中文：固定搭配指“成功完成这一壮举”。 |\n| S3.2 | C | I due gruppi «hanno appunto realizzato questi innovativi dispositivi»: il participio «funzionanti» esclude abbandono, contestazione e smantellamento. 中文：设备已经实际制成并可运行。 |\n| S3.3 | B | I dispositivi «si basano sulle fluttuazioni di energia»; più avanti il testo riprende la stessa reggenza in «si basa su una strategia diversa». 中文：basarsi su 表示“以……为基础”。 |\n| S3.4 | D | «Anziché quelle dei suoi elettroni» contrappone le fluttuazioni del nucleo a quelle impiegate dagli orologi atomici. 中文：这里是替代关系，不是并列或缺失。 |\n| S3.5 | A | «Gli attuali orologi atomici» sono quelli che oggi definiscono la durata del secondo, contrapposti agli innovativi dispositivi nucleari. 中文：指目前使用的原子钟。 |\n| S3.6 | B | Gli orologi atomici servono a «definire la durata di un secondo», cioè l'intervallo temporale corrispondente. 中文：固定语义是“一秒的时长”。 |\n| S3.7 | B | «Tutti gli orologi hanno bisogno di un'oscillazione stabile»: il periodo successivo spiega quale oscillazione usino quelli atomici. 中文：计时需要稳定振荡。 |\n| S3.8 | C | La collocazione «scandire il tempo» indica la funzione svolta dall'oscillazione stabile. 中文：scandire il tempo 意为“划分、标记时间”。 |\n| S3.9 | D | Gli elettroni «saltano tra diversi livelli energetici» quando interagiscono con la luce laser. 中文：这里描述电子在能级之间跃迁。 |\n| S3.10 | B | I passaggi avvengono «quando vengono colpiti da una luce laser»; schermatura, protezione e isolamento impedirebbero l'interazione descritta. 中文：激光照射触发能级跃迁。 |\n| S3.11 | A | È la «frequenza» della luce a essere usata per misurare il tempo; intensità, direzione e provenienza non definiscono la durata del secondo. 中文：计时依据是激光频率。 |\n| S3.12 | B | La frequenza della luce serve a «innescare questi cambiamenti di stato», non a evitarli o annullarli. 中文：innescare 表示“触发”。 |\n| S3.13 | C | «Un orologio nucleare, invece» introduce il contrasto con il funzionamento dell'orologio atomico appena illustrato. 中文：invece 标明两种机制的对比。 |\n| S3.14 | D | «In particolare» restringe l'attenzione dal funzionamento generale al torio e alla sua proprietà speciale. 中文：从总体机制转入对钍的具体说明。 |\n| S3.15 | C | I livelli sono «così vicini tra loro che anche una semplice luce ultravioletta può innescare il cambiamento»: la conseguenza chiarisce la ridotta distanza energetica. 中文：能级很接近，所以紫外光即可触发变化。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "B",
+    "S3.8": "C",
+    "S3.9": "D",
+    "S3.10": "B",
+    "S3.11": "A",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "D",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fluttuazioni di energia",
+      "categoria": "locuzione nominale",
+      "zh": "能量波动",
+      "en": "energy fluctuations",
+      "esempio": "sulle fluttuazioni di energia del nucleo di un atomo"
+    },
+    {
+      "parola": "oscillazione stabile",
+      "categoria": "locuzione nominale",
+      "zh": "稳定振荡",
+      "en": "stable oscillation",
+      "esempio": "un'oscillazione stabile"
+    },
+    {
+      "parola": "livelli energetici",
+      "categoria": "locuzione nominale",
+      "zh": "能级",
+      "en": "energy levels",
+      "esempio": "tra diversi livelli energetici"
+    },
+    {
+      "parola": "innescare",
+      "categoria": "verbo transitivo",
+      "zh": "触发；引发",
+      "en": "to trigger",
+      "esempio": "innescare questi cambiamenti di stato"
+    },
+    {
+      "parola": "a differenza della maggior parte",
+      "categoria": "locuzione preposizionale",
+      "zh": "不同于大多数",
+      "en": "unlike most",
+      "esempio": "a differenza della maggior parte degli elementi"
+    }
+  ]
+}

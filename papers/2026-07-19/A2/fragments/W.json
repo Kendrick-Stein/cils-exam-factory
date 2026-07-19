@@ -1,0 +1,51 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un pomeriggio piacevole che hai passato in un parco vicino a casa. Scrivi con chi eri, che tempo faceva, che cosa avete fatto e perché ricordi bene quel pomeriggio.",
+    "W2_PROMPT": "Scrivi un messaggio a un'amica che frequenta una palestra. Chiedi informazioni sul corso di yoga: in quali giorni si svolge, a che ora comincia e quanto costa."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho passato un pomeriggio nel parco vicino a casa con due amici. Il tempo era caldo, ma sotto gli alberi c'era fresco. Abbiamo camminato, fatto alcune foto e mangiato un gelato. Ricordo bene quel pomeriggio perché abbiamo parlato molto e ci siamo divertiti insieme.",
+    "MODEL_W1_PHRASES": "«Sabato scorso ho passato…»（上周六我度过了……） · «Il tempo era…»（天气是……） · «Abbiamo camminato e…»（我们散了步并且……） · «Ricordo bene quel pomeriggio perché…»（我清楚地记得那个下午，因为……）",
+    "MODEL_W2": "Ciao Marta, vorrei provare il corso di yoga della tua palestra. Sai dirmi in quali giorni si svolge, a che ora comincia e quanto costa al mese? Grazie per l'aiuto! A presto, Lina",
+    "MODEL_W2_PHRASES": "«Vorrei provare…»（我想尝试……） · «Sai dirmi…?»（你能告诉我……吗？） · «A che ora comincia?»（几点开始？） · «Quanto costa al mese?»（每月多少钱？）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "sotto gli alberi",
+      "categoria": "locuzione preposizionale",
+      "zh": "在树下",
+      "en": "under the trees",
+      "esempio": "Il tempo era caldo, ma sotto gli alberi c'era fresco."
+    },
+    {
+      "parola": "ci siamo divertiti",
+      "categoria": "locuzione verbale",
+      "zh": "我们玩得很开心",
+      "en": "we had fun",
+      "esempio": "Ricordo bene quel pomeriggio perché abbiamo parlato molto e ci siamo divertiti insieme."
+    },
+    {
+      "parola": "corso di yoga",
+      "categoria": "locuzione nominale",
+      "zh": "瑜伽课程",
+      "en": "yoga class",
+      "esempio": "Ciao Marta, vorrei provare il corso di yoga della tua palestra."
+    },
+    {
+      "parola": "si svolge",
+      "categoria": "verbo pronominale",
+      "zh": "举行；进行",
+      "en": "takes place",
+      "esempio": "Sai dirmi in quali giorni si svolge, a che ora comincia e quanto costa al mese?"
+    },
+    {
+      "parola": "al mese",
+      "categoria": "locuzione avverbiale",
+      "zh": "每月",
+      "en": "per month",
+      "esempio": "Sai dirmi in quali giorni si svolge, a che ora comincia e quanto costa al mese?"
+    }
+  ]
+}

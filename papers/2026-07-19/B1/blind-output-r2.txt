@@ -1,0 +1,76 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "sapevo", "confidence": "hi"},
+  "S2.2": {"answer": "ci sarei riuscita", "confidence": "hi"},
+  "S2.3": {"answer": "ho sempre rispettato", "confidence": "hi"},
+  "S2.4": {"answer": "lo lascio", "confidence": "hi"},
+  "S2.5": {"answer": "devo", "confidence": "hi"},
+  "S2.6": {"answer": "vuole", "confidence": "hi"},
+  "S2.7": {"answer": "è", "confidence": "hi"},
+  "S2.8": {"answer": "accade", "confidence": "hi"},
+  "S2.9": {"answer": "hanno fatto", "confidence": "hi"},
+  "S2.10": {"answer": "sarebbe", "confidence": "hi"},
+  "S2.11": {"answer": "hanno accolto", "confidence": "hi"},
+  "S2.12": {"answer": "li accoglieranno", "confidence": "hi"},
+  "S2.13": {"answer": "troveranno", "confidence": "hi"},
+  "S2.14": {"answer": "possono", "confidence": "hi"},
+  "S2.15": {"answer": "sono", "confidence": "hi"},
+  "S2.16": {"answer": "viveva", "confidence": "hi"},
+  "S2.17": {"answer": "ricorda", "confidence": "hi"},
+  "S2.18": {"answer": "ringhia", "confidence": "hi"},
+  "S2.19": {"answer": "le ho insegnato", "confidence": "hi"},
+  "S2.20": {"answer": "è stato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[]
+```
+
+No writing tasks are present in the supplied extract.
+
+13,493
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "sapevo", "confidence": "hi"},
+  "S2.2": {"answer": "ci sarei riuscita", "confidence": "hi"},
+  "S2.3": {"answer": "ho sempre rispettato", "confidence": "hi"},
+  "S2.4": {"answer": "lo lascio", "confidence": "hi"},
+  "S2.5": {"answer": "devo", "confidence": "hi"},
+  "S2.6": {"answer": "vuole", "confidence": "hi"},
+  "S2.7": {"answer": "è", "confidence": "hi"},
+  "S2.8": {"answer": "accade", "confidence": "hi"},
+  "S2.9": {"answer": "hanno fatto", "confidence": "hi"},
+  "S2.10": {"answer": "sarebbe", "confidence": "hi"},
+  "S2.11": {"answer": "hanno accolto", "confidence": "hi"},
+  "S2.12": {"answer": "li accoglieranno", "confidence": "hi"},
+  "S2.13": {"answer": "troveranno", "confidence": "hi"},
+  "S2.14": {"answer": "possono", "confidence": "hi"},
+  "S2.15": {"answer": "sono", "confidence": "hi"},
+  "S2.16": {"answer": "viveva", "confidence": "hi"},
+  "S2.17": {"answer": "ricorda", "confidence": "hi"},
+  "S2.18": {"answer": "ringhia", "confidence": "hi"},
+  "S2.19": {"answer": "le ho insegnato", "confidence": "hi"},
+  "S2.20": {"answer": "è stato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[]
+```
+
+No writing tasks are present in the supplied extract.

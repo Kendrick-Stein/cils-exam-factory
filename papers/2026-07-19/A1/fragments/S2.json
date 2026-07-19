@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Il protagonista *(essere)* __è (0)__ il progetto ApeRadio. Oggi il racconto *(intitolarsi)* __(1)__ OltrApe 2022.\n\nNel 2022 il progetto ApeRadio *(tornare)* __(2)__ in viaggio. Il gruppo *(partire)* __(3)__ il 21 novembre e *(arrivare)* __(4)__ il 5 dicembre. Il tour *(durare)* __(5)__ due settimane. In due settimane noi *(viaggiare)* __(6)__, *(incontrare)* __(7)__ ragazzi e ragazze e *(lavorare)* __(8)__ con loro alla radio. Una mattina il progetto ApeRadio *(fermarsi)* __(9)__ in una scuola e noi *(raccontare)* __(10)__ la storia di Radioimmaginaria.",
+    "T5_TITLE": "OLTRAPE 2022"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** «Oggi» porta esplicitamente il testo al presente; il verbo riflessivo richiede *si intitola*. 中文：今天锁定现在时，反身代词必须写入空格。\n- **S2.2:** «Nel 2022» presenta il ritorno in viaggio come fatto concluso; il nome maschile «il progetto» impone *è tornato*. 中文：明确年份锁定近过去时，阳性中心词锁定过去分词。\n- **S2.3:** La data «il 21 novembre» indica una partenza conclusa; «il gruppo» impone il maschile singolare: *è partito*. 中文：具体日期与阳性单数主语锁定答案。\n- **S2.4:** La data finale «il 5 dicembre» indica un arrivo concluso; il soggetto resta «il gruppo»: *è arrivato*. 中文：终点日期和明确主语锁定形式。\n- **S2.5:** «Due settimane» misura l'intero tour concluso nel 2022: *è durato*. 中文：完整时长锁定近过去时。\n- **S2.6:** «In due settimane» indica il periodo concluso del viaggio: *abbiamo viaggiato*. 中文：已结束的两周时间段锁定近过去时。\n- **S2.7:** Nello stesso periodo concluso, il gruppo ha compiuto gli incontri: *abbiamo incontrato*. 中文：同一封闭时间段内的完成事件。\n- **S2.8:** «In due settimane» comprende anche l'attività conclusa alla radio: *abbiamo lavorato*. 中文：限定且结束的时间段锁定近过去时。\n- **S2.9:** «Una mattina» indica una singola occasione nel tour; il nome maschile «il progetto» impone *si è fermato*. 中文：单次过去事件、反身代词和阳性中心词锁定答案。\n- **S2.10:** Nella stessa singola mattina il gruppo ha raccontato la sua storia: *abbiamo raccontato*. 中文：同一单次过去场景锁定近过去时。",
+    "ANS_S2_ROWS": "| S2.1 | si intitola | presente indicativo | S2.6 | abbiamo viaggiato | passato prossimo |\n| S2.2 | è tornato | passato prossimo | S2.7 | abbiamo incontrato | passato prossimo |\n| S2.3 | è partito | passato prossimo | S2.8 | abbiamo lavorato | passato prossimo |\n| S2.4 | è arrivato | passato prossimo | S2.9 | si è fermato | passato prossimo |\n| S2.5 | è durato | passato prossimo | S2.10 | abbiamo raccontato | passato prossimo |"
+  },
+  "key": {
+    "S2.1": "si intitola",
+    "S2.2": "è tornato",
+    "S2.3": "è partito",
+    "S2.4": "è arrivato",
+    "S2.5": "è durato",
+    "S2.6": "abbiamo viaggiato",
+    "S2.7": "abbiamo incontrato",
+    "S2.8": "abbiamo lavorato",
+    "S2.9": "si è fermato",
+    "S2.10": "abbiamo raccontato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in viaggio",
+      "categoria": "locuzione avverbiale",
+      "zh": "在旅途中",
+      "en": "travelling",
+      "esempio": "il progetto ApeRadio *(tornare)* __(2)__ in viaggio"
+    },
+    {
+      "parola": "due settimane",
+      "categoria": "locuzione nominale",
+      "zh": "两周",
+      "en": "two weeks",
+      "esempio": "Il tour *(durare)* __(5)__ due settimane"
+    },
+    {
+      "parola": "ragazzi e ragazze",
+      "categoria": "locuzione nominale",
+      "zh": "男孩和女孩；年轻人",
+      "en": "boys and girls",
+      "esempio": "*(incontrare)* __(7)__ ragazzi e ragazze"
+    },
+    {
+      "parola": "alla radio",
+      "categoria": "locuzione avverbiale",
+      "zh": "在广播中；做广播节目",
+      "en": "on the radio",
+      "esempio": "*(lavorare)* __(8)__ con loro alla radio"
+    },
+    {
+      "parola": "la storia di Radioimmaginaria",
+      "categoria": "locuzione nominale",
+      "zh": "Radioimmaginaria 的故事",
+      "en": "the story of Radioimmaginaria",
+      "esempio": "*(raccontare)* __(10)__ la storia di Radioimmaginaria"
+    }
+  ]
+}

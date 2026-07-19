@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Piena anche per gli olivi, quell’annata. Piante massaje, cariche l’anno avanti, avevano raffermato tutte, a dispetto della nebbia che le aveva oppresse sul fiorire. Lo Zirafa ne aveva un bel giro.",
+    "T3_PART_B": "Così, anche per una pietruzza caduta dal murello di cinta o per una festuca di paglia, gridava che gli sellassero la mula per correre in città a fare gli atti.",
+    "T3_PART_C": "In quel ricovero provvisorio, una giara così non s’era mai veduta. Eppure, allogata nell’antro intanfato di mosto e dell’odore che cova nei luoghi senz’aria e senza luce, faceva pena.",
+    "T3_PART_D": "Proprio a Santo Stefano di Camastra si fabbricavano quelle giare. La sesta, alta a petto d’uomo, bella panciuta e maestosa, doveva essere delle altre cinque la badessa.",
+    "T3_PART_E": "Fra quegli abbacchiatori e quei mulattieri, non sapeva più come spartirsi né a chi badare prima. Il concime doveva essere depositato a mucchi sulla costa.",
+    "T3_PART_F": "A furia di carta bollata e d’onorarii agli avvocati, pagando sempre le spese per tutti, s’era mezzo rovinato. Dicevano, infatti, che il suo consulente legale fosse ormai stanco.",
+    "T3_PART_G": "Quanto invece ai mucchi di concime, pretendeva che fossero tutti della stessa misura. Col cappellaccio bianco, spettorato e affocato in volto, correva di qua e di là.",
+    "T3_PART_H": "Prima di quel regalo, tutti coloro con cui aveva da dire, per prenderlo in giro gli gridavano: — «Sellate la mula!» —. Dopo il dono del codice, però, la canzonatura cambiò.",
+    "T3_PART_I": "Ora, invece, al suo passaggio gli urlavano: — «Consultate il calepino!» —. E don Lollò rispondeva: — «Sicuro, e vi fulmino tutti!» —. Intanto la sesta giara era finalmente arrivata nel podere.",
+    "T3_PART_J": "Soltanto alla fine della terza giornata, dopo tanto correre, tre contadini entrarono nel palmento. Lì restarono davanti alla giara nuova, spaccata in due con un taglio netto per tutta la pancia.",
+    "T3_PART_K": "Quel giro si trovava nel suo podere delle Quote a Primosole. Prevedendo che le cinque giare vecchie non sarebbero bastate a contenere tutto l’olio, ne aveva ordinata una sesta più capace a Santo Stefano di Camastra.",
+    "T3_PART_L": "Mentre la giara restava nel palmento, da due giorni era cominciata l’abbacchiatura delle olive. Don Lollò era su tutte le furie, diviso tra gli abbacchiatori e i mulattieri.",
+    "T3_PART_M": "Per levarselo di torno, quel consulente gli aveva regalato un libricino: il codice, perchè si scapasse a cercare da sè il fondamento giuridico alle liti che voleva intentare.",
+    "T3_PART_N": "Neanche a dirlo, proprio col fornaciajo di là don Lollò aveva litigato per questa giara. Del resto, con chi non la attaccava? Ogni nonnulla bastava a spingerlo verso una nuova lite.",
+    "T3_PART_O": "Proprio in quella confusione bestemmiava e minacciava di fulminare questi e quelli, se un’oliva gli fosse mancata, quasi le avesse prima contate tutte sugli alberi.",
+    "T3_PART_P": "Una volta arrivata, quella giara nuova, pagata quattr’onze ballanti e sonanti, aspettava ancora un posto in cantina. Per questo fu allogata provvisoriamente nel palmento.",
+    "T3_TITLE": "LA GIARA"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | K | «Quel giro» riprende l’ultima espressione della parte A e ne precisa il luogo. |\n| 3 | D | «Proprio a Santo Stefano di Camastra» riprende il luogo finale di K; «La sesta» riprende l’ultima giara. |\n| 4 | N | «col fornaciajo di là» rinvia a Santo Stefano e «questa giara» alla sesta appena descritta. |\n| 5 | B | «Così» sviluppa con due esempi concreti la sua propensione alla lite. |\n| 6 | F | «A furia di carta bollata» è la conseguenza diretta delle continue corse a fare gli atti. |\n| 7 | M | «Per levarselo di torno» riprende unicamente il consulente ormai stanco. |\n| 8 | H | «quel regalo» indica il codice appena donato; il cambiamento della canzonatura prepara «Ora, invece». |\n| 9 | I | parte data |\n| 10 | P | «Una volta arrivata» riprende l’arrivo della sesta giara annunciato nella parte I. |\n| 11 | C | «In quel ricovero provvisorio» rinvia esclusivamente al palmento della parte P. |\n| 12 | L | «Mentre la giara restava nel palmento» mantiene il luogo e apre la fase dell’abbacchiatura. |\n| 13 | E | «quegli abbacchiatori e quei mulattieri» riprende i due gruppi nominati nella parte L. |\n| 14 | O | «quella confusione» riassume l’impossibilità di badare insieme ai lavoratori e al concime. |\n| 15 | G | «Quanto invece ai mucchi di concime» riprende l’altro oggetto della sorveglianza di don Lollò. |\n| 16 | J | «alla fine della terza giornata» chiude la cronologia; «Lì» rinvia al palmento. |",
+    "ANS_L3_SEQUENCE": "A–K–D–N–B–F–M–H–I–P–C–L–E–O–G–J"
+  },
+  "key": {
+    "L3": "A–K–D–N–B–F–M–H–I–P–C–L–E–O–G–J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Piante massaje",
+      "categoria": "locuzione nominale",
+      "zh": "高产的树木",
+      "en": "heavy-bearing trees",
+      "esempio": "Piante massaje, cariche l’anno avanti, avevano raffermato tutte, a dispetto della nebbia che le aveva oppresse sul fiorire."
+    },
+    {
+      "parola": "carta bollata",
+      "categoria": "locuzione nominale",
+      "zh": "诉讼用印花公文纸",
+      "en": "stamped legal paper",
+      "esempio": "A furia di carta bollata e d’onorarii agli avvocati, pagando sempre le spese per tutti, s’era mezzo rovinato."
+    },
+    {
+      "parola": "calepino",
+      "categoria": "sostantivo maschile",
+      "zh": "小手册；这里指法典",
+      "en": "handbook",
+      "esempio": "Consultate il calepino!"
+    },
+    {
+      "parola": "antro intanfato",
+      "categoria": "locuzione nominale",
+      "zh": "恶臭的洞室",
+      "en": "foul-smelling cavern",
+      "esempio": "Eppure, allogata nell’antro intanfato di mosto e dell’odore che cova nei luoghi senz’aria e senza luce, faceva pena."
+    },
+    {
+      "parola": "abbacchiatura",
+      "categoria": "sostantivo femminile",
+      "zh": "敲打采摘橄榄",
+      "en": "olive beating",
+      "esempio": "Mentre la giara restava nel palmento, da due giorni era cominciata l’abbacchiatura delle olive."
+    }
+  ]
+}

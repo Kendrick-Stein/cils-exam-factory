@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "offerta",
+    "S3_OPT0_B": "orario",
+    "S3_OPT0_C": "indirizzo",
+    "S3_OPTION_ROWS": "| 1. | verso | sotto | sopra |\n| 2. | comodamente | velocemente | gratuitamente |\n| 3. | adulti | studenti | anziani |\n| 4. | sportello | sconto | spazio |\n| 5. | prezzi | treni | gruppi |\n| 6. | persone | adulti | ragazzi |\n| 7. | famiglia | partenza | vacanza |\n| 8. | telefonare | mangiare | cambiare |",
+    "S3_TEXT_WITH_GAPS": "Con l\u2019__(0)__ Bimbi Gratis, sui treni Intercity, i ragazzi __(1)__ i 15 anni viaggiano __(2)__ e gli __(3)__ con lo __(4)__ del 40%.\n\nL\u2019offerta \u00e8 riservata ai __(5)__ composti da 2 a 5 __(6)__, con almeno un adulto e un ragazzo di et\u00e0 inferiore ai 15 anni.\n\nL\u2019offerta \u00e8 acquistabile fino alla mezzanotte del quarto giorno precedente la __(7)__ del treno e si pu\u00f2 __(8)__ o rimborsare.",
+    "T6_TITLE": "OFFERTA BIMBI GRATIS"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | La frase indica il limite: \u00ab__(1)__ i 15 anni\u00bb. \u4e2d\u6587\uff1a\u5e74\u9f84\u4e0a\u9650\u662f15\u5c81\u3002 |\n| S3.2 | C | Il titolo \u00abBimbi Gratis\u00bb chiarisce che i ragazzi viaggiano \u00abgratuitamente\u00bb. \u4e2d\u6587\uff1a\u513f\u7ae5\u514d\u8d39\u4e58\u8f66\u3002 |\n| S3.3 | A | Pi\u00f9 avanti il gruppo deve avere \u00abalmeno un adulto e un ragazzo\u00bb: qui sono quindi gli \u00abadulti\u00bb. \u4e2d\u6587\uff1a\u4e0e\u5c11\u5e74\u76f8\u5bf9\u7684\u662f\u6210\u5e74\u4eba\u3002 |\n| S3.4 | B | La percentuale del 40% completa l'espressione \u00abcon lo sconto del 40%\u00bb. \u4e2d\u6587\uff1a\u8868\u793a\u56db\u6298\u4f18\u60e0\u3002 |\n| S3.5 | C | Solo i \u00abgruppi\u00bb possono essere \u00abcomposti da 2 a 5 persone\u00bb. \u4e2d\u6587\uff1a\u75312\u52305\u4eba\u7ec4\u6210\u7684\u56e2\u4f53\u3002 |\n| S3.6 | A | Il seguito \u00abcon almeno un adulto e un ragazzo\u00bb mostra che il totale riguarda le \u00abpersone\u00bb. \u4e2d\u6587\uff1a\u6210\u5458\u5305\u62ec\u6210\u4eba\u548c\u5c11\u5e74\u3002 |\n| S3.7 | B | L'espressione \u00abla partenza del treno\u00bb \u00e8 l'unica combinazione coerente con il mezzo indicato. \u4e2d\u6587\uff1a\u6307\u5217\u8f66\u51fa\u53d1\u3002 |\n| S3.8 | C | L'offerta \u00absi pu\u00f2 cambiare o rimborsare\u00bb: i due verbi indicano le operazioni possibili. \u4e2d\u6587\uff1a\u53ef\u4ee5\u6539\u7b7e\u6216\u9000\u6b3e\u3002 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "A",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "treni",
+      "categoria": "sostantivo plurale",
+      "zh": "\u706b\u8f66",
+      "en": "trains",
+      "esempio": "sui treni Intercity"
+    },
+    {
+      "parola": "riservata",
+      "categoria": "aggettivo",
+      "zh": "\u4e13\u4e3a\u2026\u4fdd\u7559\u7684",
+      "en": "reserved",
+      "esempio": "L\u2019offerta \u00e8 riservata ai"
+    },
+    {
+      "parola": "et\u00e0",
+      "categoria": "sostantivo femminile",
+      "zh": "\u5e74\u9f84",
+      "en": "age",
+      "esempio": "di et\u00e0 inferiore ai 15 anni"
+    },
+    {
+      "parola": "mezzanotte",
+      "categoria": "sostantivo femminile",
+      "zh": "\u5348\u591c",
+      "en": "midnight",
+      "esempio": "fino alla mezzanotte del quarto giorno"
+    },
+    {
+      "parola": "rimborsare",
+      "categoria": "verbo",
+      "zh": "\u9000\u6b3e",
+      "en": "to refund",
+      "esempio": "o rimborsare"
+    }
+  ]
+}

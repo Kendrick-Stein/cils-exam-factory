@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "mese",
+    "S3_OPT0_B": "giorno",
+    "S3_OPT0_C": "anno",
+    "S3_OPTION_ROWS": "| 1. | ridotto | gratuito | privato |\n| 2. | chiude | ferma | apre |\n| 3. | contraria | dedicata | vicina |\n| 4. | nascondono | raccontano | cancellano |\n| 5. | scolastica | virtuale | guidata |\n| 6. | visita | inaugurazione | proiezione |\n| 7. | programma | dubbio | preparazione |\n| 8. | incontro | saluto | documentario |",
+    "S3_TEXT_WITH_GAPS": "Nel __mese (0)__ di luglio, dal 17 al 26, torna nell’Area Archeologica di Santa Croce in Gerusalemme Effetto Notte, una rassegna con ingresso __(1)__: non si paga. L’edizione si __(2)__ venerdì 17 luglio con una serata __(3)__ ai documentari. Le opere “Uncovered Rome” e “Parlami di me. Roma e il suo fiume” __(4)__ Roma.\n\nAlle 17.00 e alle 18.00 è prevista una visita __(5)__ all’Area Archeologica con una guida. Alle 21.00, per aprire la rassegna, ci saranno l’__(6)__, i saluti e un incontro. Alle 21.40 è in __(7)__ un incontro con Alessandra Fassio, seguito dal __(8)__ di Bruno Restuccia.",
+    "T6_TITLE": "EFFETTO NOTTE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | La rassegna è «a ingresso gratuito»; 中文：活动免费入场。 |\n| S3.2 | C | Il testo dice che l’edizione «si apre il 17 luglio»; 中文：这里表示活动开幕。 |\n| S3.3 | B | La serata è «dedicata ai documentari»; 中文：当晚主题是纪录片。 |\n| S3.4 | B | Le due opere «raccontano Roma»; 中文：两部作品讲述罗马。 |\n| S3.5 | C | Alle 17.00 e alle 18.00 è prevista una «visita guidata»; 中文：这是有讲解的参观。 |\n| S3.6 | B | Alle 21.00 è indicata «l’inaugurazione» insieme ai saluti; 中文：21点是开幕环节。 |\n| S3.7 | A | Alle 21.40 l’incontro è «in programma»; 中文：表示活动已安排。 |\n| S3.8 | C | L’incontro è seguito dal «documentario» di Bruno Restuccia; 中文：随后放映纪录片。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "A",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rassegna",
+      "categoria": "nome femminile",
+      "zh": "系列活动",
+      "en": "festival series",
+      "esempio": "una rassegna"
+    },
+    {
+      "parola": "Area Archeologica",
+      "categoria": "espressione nominale",
+      "zh": "考古遗址区",
+      "en": "archaeological area",
+      "esempio": "nell’Area Archeologica"
+    },
+    {
+      "parola": "serata",
+      "categoria": "nome femminile",
+      "zh": "晚间活动",
+      "en": "evening event",
+      "esempio": "una serata"
+    },
+    {
+      "parola": "opere",
+      "categoria": "nome plurale",
+      "zh": "作品",
+      "en": "works",
+      "esempio": "Le opere"
+    },
+    {
+      "parola": "saluti",
+      "categoria": "nome plurale",
+      "zh": "致辞",
+      "en": "greetings",
+      "esempio": "i saluti"
+    }
+  ]
+}

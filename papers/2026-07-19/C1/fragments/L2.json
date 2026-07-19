@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "INCENTIVI ALLA MOBILITÀ PER LA RICERCA — PROGRAMMA MARCO POLO",
+    "T2_TEXT": "**Art. 1 – Finalità e sedi ammesse**\n\nIl Programma Marco Polo è finalizzato all’erogazione di incentivi di mobilità, con lo scopo di promuovere la ricerca svolta all'estero da giovani ricercatori dell'Università di Bologna. Gli incentivi hanno a oggetto soggiorni di ricerca all’estero presso università o centri di ricerca pubblici e privati, ivi compresi sezioni e centri di ricerca e sviluppo presso imprese, situati in Paesi esteri. Non sono considerati Paesi esteri Città del Vaticano e Repubblica di San Marino. Sono esclusi soggiorni di ricerca presso imprese nonché l’iscrizione e la frequenza a corsi di studio e/o formazione.\n\n**Art. 2 – Beneficiari e durata**\n\nPossono presentare domanda esclusivamente i soggetti che ricoprono una delle posizioni di seguito indicate: ricercatore a tempo determinato, titolare di un contratto stipulato con l’Università di Bologna ai sensi del Regolamento vigente in materia, in applicazione dell’articolo 24, comma 3, della legge 29 dicembre 2010, n. 240; assegnista di ricerca, titolare di un contratto per assegno di ricerca stipulato con l’Università di Bologna ai sensi del Regolamento vigente per gli assegni di ricerca; dottorando di ricerca, studente iscritto a un corso di dottorato con sede amministrativa presso l’Università di Bologna. La durata minima del soggiorno è di tre mesi.\n\n**Art. 3 – Termine e modalità di presentazione**\n\nLa data di scadenza per la presentazione delle domande nella presente tornata di selezione è il 16 marzo 2026. A pena di esclusione, i candidati dovranno compilare la domanda di incentivo entro la data di scadenza sopra indicata, in modalità telematica.\n\nI candidati dovranno presentare domanda al Dipartimento così individuato: per i ricercatori a tempo determinato, il Dipartimento di afferenza; per gli assegnisti di ricerca, il Dipartimento di afferenza del docente tutor; per i dottorandi, il Dipartimento di afferenza, come individuato dal collegio dei docenti del corso di dottorato.\n\n**Art. 4 – Documentazione obbligatoria**\n\nAlla domanda dovranno essere allegati, esclusivamente in formato PDF, per tutti i candidati, il progetto di ricerca da sviluppare all'estero e la lettera di invito della struttura straniera ospitante firmata dal referente presso detta struttura, in cui si attesta il periodo durante il quale la struttura è disposta a ospitare il richiedente. Qualora la partenza del candidato sia stata antecedente alla scadenza del bando, deve essere presentata un’attestazione della presenza del candidato presso la sede ospitante, rilasciata dalla struttura estera.\n\n**Art. 5 – Pluralità delle sedi ospitanti**\n\nPer ragioni connesse allo svolgimento dell’attività di ricerca, previa richiesta del supervisore e approvazione del Consiglio di Dipartimento, è possibile scegliere massimo due strutture ospitanti per il periodo indicato, purché le sedi siano dislocate nella medesima area geografica.\n\n**Art. 6 – Autorizzazioni e pareri**\n\nPer i dottorandi sono inoltre richiesti l’autorizzazione del coordinatore del corso di dottorato, che dovrà essere ratificata nella prima seduta utile del Collegio dei docenti, previa acquisizione del parere favorevole del tutor di riferimento, e il modulo previsto dal bando. Per gli assegnisti su posizioni di dottorato di ricerca valgono gli stessi requisiti; per gli assegnisti di ricerca è richiesto il parere favorevole del tutor; per i ricercatori a tempo determinato è necessario il parere favorevole del Direttore di Dipartimento.\n\n**Art. 7 – Contratti finanziati con risorse esterne**\n\nPer gli assegnisti e i dottorandi il cui contratto è finanziato con risorse esterne tramite convenzioni con enti terzi che prevedano la possibilità di cessione dei risultati e di diritti di proprietà industriale è richiesta anche un’autodichiarazione redatta secondo il modello indicato dall’Ateneo.",
+    "L2_ITEMS": "**1. Il programma finanzia periodi di ricerca all’estero destinati a giovani ricercatori dell’Università di Bologna.**  \nVero ○ Falso ○\n\n**2. Ai fini del bando, la Repubblica di San Marino rientra tra i Paesi esteri ammissibili.**  \nVero ○ Falso ○\n\n**3. Un centro di ricerca e sviluppo interno a un’impresa può essere una sede ospitante, mentre un soggiorno presso un’impresa in quanto tale è escluso.**  \nVero ○ Falso ○\n\n**4. L’incentivo può essere utilizzato anche per frequentare un corso di formazione all’estero.**  \nVero ○ Falso ○\n\n**5. Possono candidarsi ricercatori a tempo determinato, assegnisti e dottorandi legati all’Università di Bologna secondo le condizioni indicate.**  \nVero ○ Falso ○\n\n**6. Il soggiorno finanziato può durare anche meno di tre mesi, purché la domanda sia presentata entro la scadenza.**  \nVero ○ Falso ○\n\n**7. La domanda deve essere compilata online entro il 16 marzo 2026, pena l’esclusione.**  \nVero ○ Falso ○\n\n**8. Tutti i candidati devono inoltrare la domanda al Dipartimento di afferenza del proprio tutor.**  \nVero ○ Falso ○\n\n**9. Il progetto di ricerca e la lettera d’invito firmata, con l’indicazione del periodo di ospitalità, sono allegati obbligatori per ogni candidato.**  \nVero ○ Falso ○\n\n**10. Chi è partito prima della scadenza del bando non deve produrre documenti ulteriori rispetto a quelli richiesti agli altri candidati.**  \nVero ○ Falso ○\n\n**11. La scelta di due sedi è ammessa soltanto per esigenze di ricerca, con le autorizzazioni previste e a condizione che le strutture si trovino nella stessa area geografica.**  \nVero ○ Falso ○\n\n**12. Per i dottorandi è sufficiente l’autorizzazione del coordinatore, senza che intervengano il tutor e il Collegio dei docenti.**  \nVero ○ Falso ○\n\n**13. Il parere richiesto agli assegnisti di ricerca proviene dal tutor, mentre quello necessario ai ricercatori a tempo determinato proviene dal Direttore di Dipartimento.**  \nVero ○ Falso ○\n\n**14. Qualunque contratto finanziato con risorse esterne comporta automaticamente l’obbligo di presentare un’autodichiarazione.**  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il programma mira a «promuovere la ricerca svolta all'estero da giovani ricercatori dell'Università di Bologna». |\n| L2.2 | Falso | Il testo precisa che San Marino e Città del Vaticano «non sono considerati Paesi esteri». 中文：例外规则。 |\n| L2.3 | Vero | Sono comprese le sezioni di ricerca e sviluppo presso imprese, ma sono esclusi i soggiorni «presso imprese». 中文：区分企业研发中心与企业本身。 |\n| L2.4 | Falso | Il bando esclude «l’iscrizione e la frequenza a corsi di studio e/o formazione». |\n| L2.5 | Vero | Le tre categorie ammesse sono «ricercatore a tempo determinato», «assegnista di ricerca» e «dottorando di ricerca», secondo i rispettivi legami con l’Ateneo. |\n| L2.6 | Falso | «La durata minima del soggiorno è di tre mesi»; il rispetto della scadenza non riduce tale minimo. |\n| L2.7 | Vero | La scadenza è «il 16 marzo 2026» e la compilazione deve avvenire «in modalità telematica» a pena di esclusione. |\n| L2.8 | Falso | Il Dipartimento cambia secondo il ruolo: quello del tutor riguarda gli assegnisti, non tutti i candidati. |\n| L2.9 | Vero | Per tutti sono richiesti il progetto e la lettera firmata che «attesta il periodo» di ospitalità. |\n| L2.10 | Falso | Se la partenza precede la scadenza, occorre anche «un’attestazione della presenza del candidato». |\n| L2.11 | Vero | Due sedi sono possibili con richiesta e approvazione, purché siano «nella medesima area geografica». |\n| L2.12 | Falso | L’autorizzazione deve essere ratificata dal Collegio ed è preceduta dal «parere favorevole del tutor». |\n| L2.13 | Vero | Il testo distingue il «parere favorevole del tutor» per gli assegnisti da quello del «Direttore di Dipartimento» per i ricercatori. |\n| L2.14 | Falso | L’obbligo riguarda assegnisti e dottorandi finanziati tramite convenzioni che prevedano cessione dei risultati o diritti di proprietà industriale. 中文：条件须同时满足。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "A pena di esclusione",
+      "categoria": "locuzione",
+      "zh": "否则将被取消资格",
+      "en": "on pain of exclusion",
+      "esempio": "A pena di esclusione, i candidati dovranno compilare la domanda di incentivo entro la data di scadenza sopra indicata, in modalità telematica."
+    },
+    {
+      "parola": "Dipartimento di afferenza",
+      "categoria": "locuzione nominale",
+      "zh": "所属院系",
+      "en": "affiliated department",
+      "esempio": "per i ricercatori a tempo determinato, il Dipartimento di afferenza"
+    },
+    {
+      "parola": "struttura straniera ospitante",
+      "categoria": "locuzione nominale",
+      "zh": "外国接收机构",
+      "en": "foreign host institution",
+      "esempio": "la lettera di invito della struttura straniera ospitante firmata dal referente presso detta struttura"
+    },
+    {
+      "parola": "ratificata",
+      "categoria": "participio passato",
+      "zh": "被追认的",
+      "en": "ratified",
+      "esempio": "che dovrà essere ratificata nella prima seduta utile del Collegio dei docenti"
+    },
+    {
+      "parola": "cessione dei risultati",
+      "categoria": "locuzione nominale",
+      "zh": "成果转让",
+      "en": "transfer of results",
+      "esempio": "che prevedano la possibilità di cessione dei risultati e di diritti di proprietà industriale"
+    }
+  ]
+}

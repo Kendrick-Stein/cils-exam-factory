@@ -1,0 +1,517 @@
+Reading additional input from stdin...
+OpenAI Codex v0.144.2
+--------
+workdir: /Users/kendrickstein/Code/CILS_Exam_AUTOGEN
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: low
+reasoning summaries: none
+session id: 019f7ae1-2756-75e0-838e-9de62caf808a
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-07-19-A2/paper.md using ONLY that file. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. Do not open any other file or the web.
+codex
+Leggo esclusivamente il file indicato e risolvo il compito come candidato, senza consultare altre fonti.
+exec
+/bin/zsh -lc "sed -n '1,260p' /tmp/cils-blind-2026-07-19-A2/paper.md" in /tmp
+ succeeded in 0ms:
+---
+exam: CILS
+level: A2
+level_name: "CILS A2"
+session: "2026-07-19"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello A2 — Prova di esercitazione · 19 luglio 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello degli esami CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Punteggio per abilità: massimo 12, sufficienza 7.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 12**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### IL SOGNO DI ROSARIO
+
+Rosario è uno studente dell'Istituto "Giovanni Falcone" di Sassano. Per la sua tesina finale ha scelto di raccontare il sogno di diventare un giorno Carabiniere, come suo padre. Questo desiderio è nato quando era bambino: Rosario accompagnava spesso il padre in caserma.
+
+"Per me era un posto speciale, pieno di persone che mi facevano sentire il benvenuto. Mi piaceva osservare tutto, ascoltare le loro storie e vedere come lavoravano insieme", ha raccontato Rosario durante la presentazione della tesina.
+
+Con il passare degli anni, la sua curiosità è cambiata. Rosario ha iniziato a capire meglio il significato della divisa e le responsabilità di questo lavoro. "Crescendo ho capito quanto impegno e quanta responsabilità ci sono dietro questo ruolo. Oggi so di voler seguire le orme di mio padre. Diventare Carabiniere significa fare qualcosa di importante per gli altri e mettere la legalità e il servizio al centro della mia vita", ha spiegato lo studente.
+
+Per festeggiare il traguardo scolastico, i Carabinieri della Compagnia di Sala Consilina hanno invitato Rosario in caserma. Durante l'incontro, il ragazzo ha conosciuto meglio le attività che i Carabinieri svolgono ogni giorno per proteggere i cittadini e il territorio. Alla fine della visita, Rosario ha ricevuto una targa ricordo: un simbolo della giornata passata insieme e un augurio per il suo futuro.
+
+> *Completa le seguenti frasi. Scegli una delle tre proposte di completamento che ti diamo per ogni frase. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 1 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. Nella tesina finale Rosario parla**
+
+A) del lavoro che fa suo padre a scuola.  
+B) del suo desiderio di diventare Carabiniere.  
+C) delle professioni scelte dai suoi compagni.
+
+**2. Quando era piccolo, Rosario**
+
+A) andava spesso in caserma con suo padre.  
+B) ascoltava a casa le storie dei cittadini.  
+C) lavorava insieme ai colleghi di suo padre.
+
+**3. Con il passare degli anni, Rosario ha capito che il lavoro del Carabiniere**
+
+A) permette di conoscere molti territori.  
+B) offre molto tempo da passare in famiglia.  
+C) richiede impegno e responsabilità.
+
+**4. Durante l'incontro nella caserma di Sala Consilina, Rosario**
+
+A) ha presentato di nuovo la sua tesina.  
+B) ha ricevuto una targa ricordo.  
+C) ha consegnato un premio ai Carabinieri.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### COME ACQUISTARE ONLINE IL BIGLIETTO
+
+Indica se vuoi effettuare un viaggio di sola andata o di andata e ritorno. Puoi cercare fino a 5 viaggi contemporaneamente. Seleziona le stazioni, le date del tuo viaggio e il numero di passeggeri, fino a un massimo di 7 tra adulti e ragazzi. Puoi scegliere anche tra Frecce, Intercity o Regionali. Scegli “Altre opzioni di ricerca” se vuoi affinare la tua ricerca e visualizzare le offerte per miglior prezzo, soluzioni senza cambi o tipo di offerta. Vai su “Promozioni e servizi regionali” se vuoi acquistare il supplemento bici. Clicca su “Cerca” per avviare la ricerca.
+
+Modifica i parametri di ricerca: stazioni, data, orario e passeggeri. Clicca sulla “i” accanto a Dettagli per conoscere i servizi presenti e le fermate intermedie. Per le soluzioni con cambio, visualizza gli orari di partenza e arrivo dalle diverse stazioni. Una volta individuata l'offerta, puoi selezionarla e visualizzarla nel carrello dopo aver cliccato su “Continua”. Se vuoi scegliere il posto, seleziona l'apposita opzione.
+
+> *Leggi le seguenti informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,5 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. È possibile cercare contemporaneamente non più di cinque viaggi.**  
+Vero ○ Falso ○
+
+**2. Nella ricerca si possono inserire al massimo sette passeggeri, ma devono essere tutti adulti.**  
+Vero ○ Falso ○
+
+**3. La ricerca può comprendere treni Frecce, Intercity e Regionali.**  
+Vero ○ Falso ○
+
+**4. Le “Altre opzioni di ricerca” servono soltanto a trovare viaggi con cambio.**  
+Vero ○ Falso ○
+
+**5. Per comprare il supplemento bici bisogna aprire “Promozioni e servizi regionali”.**  
+Vero ○ Falso ○
+
+**6. Il comando “Cerca” permette di concludere subito l'acquisto.**  
+Vero ○ Falso ○
+
+**7. La “i” accanto a Dettagli dà informazioni sui servizi e sulle fermate intermedie.**  
+Vero ○ Falso ○
+
+**8. La scelta del posto avviene automaticamente quando l'offerta entra nel carrello.**  
+Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi i testi. Scegli tra i testi da A a H i sei che completano i testi da 1 a 6. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — ~0,67 punti per ogni abbinamento esatto; punti 0 per ogni abbinamento sbagliato o omesso.*
+
+○ 1. **Apasionada**
+
+Domenica 19 luglio 2026, alle ore 16:00, è in programma un concerto di chitarra negli spazi di Palazzo Reale di Genova...
+
+○ 2. **Visite alla Necropoli Nord**
+
+Il 19 luglio 2026 il Museo Nazionale Etrusco “Pompeo Aria” di Marzabotto propone visite tematiche e una possibilità speciale per il pubblico...
+
+○ 3. **Quartetto Paone**
+
+Il 19 luglio 2026, alla Casa Museo Mario Praz di Roma, si esibisce il Quartetto Paone in un concerto dedicato ai clarinetti soprani...
+
+○ 4. **Salvati. Storia di un sequestro**
+
+Dal 17 luglio al 27 settembre 2026 il Museo archeologico nazionale del Melfese ospita «Salvati. Storia di un sequestro», una mostra...
+
+○ 5. **Cosmogonie dell’acqua**
+
+Dal 16 luglio al 18 ottobre 2026 Villa d’Este, a Tivoli, ospita «Cosmogonie dell’acqua», la mostra di Claudia Müller negli ambienti storici...
+
+○ 6. **Le voci di sopra**
+
+«Le voci di sopra | Pessoa Luna Park» è un evento in programma dal 16 luglio al 4 ottobre 2026, all’interno della rassegna estiva...
+
+---
+
+A. Per questo concerto genovese, la chitarra di Pietro Locatto suona a Palazzo Reale in collaborazione con un’associazione.
+
+B. Durante queste visite, il Museo Nazionale Etrusco di Marzabotto permette anche l’accesso straordinario alla Necropoli Nord.
+
+C. A completare il quartetto sono Augusto Travagliati, Amedeo Ricci e Giulia Leonardo, tutti ai clarinetti soprani.
+
+D. Proprio il 17 luglio, la mostra viene inaugurata alle ore 19:00 nel museo archeologico nazionale del Melfese.
+
+E. Per tutta la durata indicata, gli spazi storici di Villa d’Este accolgono la mostra di Claudia Müller.
+
+F. A ospitarlo è Castel Sant’Elmo, nella città di Napoli, dal 16 luglio al 4 ottobre 2026.
+
+G. Diversamente dagli altri eventi, questa visita guidata si svolge a Villa d’Este e termina il 18 ottobre 2026.
+
+H. Nello stesso pomeriggio, il concerto di Roma inizia alle ore 19:00 al museo archeologico nazionale del Melfese.
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 12**
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### CONSERVARE I DOLCI D'ESTATE
+
+I dolci fatti __(1)__ casa d’estate sono una vera delizia, ma il caldo può rovinarli __(2)__ poche ore se non vengono conservati nel modo giusto. Che si tratti __(3)__ una crostata alla frutta fresca, di una cheesecake __(4)__ cottura o di un gelato fatto __(5)__ casa, ogni dolce ha __(6)__ sue esigenze. Alcuni dolci hanno bisogno del freddo __(7)__ mantenersi integri e sicuri. Conservali __(8)__ contenitori ermetici, ben chiusi, __(9)__ un ripiano centrale del frigo. __La (0)__ parte più fredda può farli indurire. Ogni dolce ha la sua durata e va trattato __(10)__ attenzione.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### SHIVA RACCONTA LA SUA STORIA
+
+Shiva *(essere)* __è (0)__ un rapper.
+
+**Intervistatrice:** Oggi che cosa *(raccontare)* __(1)__?
+
+**Shiva:** Fino a oggi *(dedicare)* __(2)__ la mia vita alla musica. Durante l'infanzia, ogni giorno *(dedicare)* __(3)__ il mio tempo alla musica. Mentre ero bambino, non *(avere)* __(4)__ neanche una ragazza. Adesso *(parlare)* __(5)__ delle mie origini e delle difficoltà.
+
+**Intervistatrice:** E tuo figlio?
+
+**Shiva:** È nato mentre io *(essere)* __(6)__ in carcere. Mentre i fuochi d'artificio *(annunciare)* __(7)__ la nascita, ero ancora lì. Quel giorno *(sentirli)* __(8)__ e subito *(piangere)* __(9)__ tantissimo. Finora *(dovere)* __(10)__ capire da solo che cosa era giusto o sbagliato.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,5 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### EFFETTO NOTTE
+
+Nel __mese (0)__ di luglio, dal 17 al 26, torna nell’Area Archeologica di Santa Croce in Gerusalemme Effetto Notte, una rassegna con ingresso __(1)__: non si paga. L’edizione si __(2)__ venerdì 17 luglio con una serata __(3)__ ai documentari. Le opere “Uncovered Rome” e “Parlami di me. Roma e il suo fiume” __(4)__ Roma.
+
+Alle 17.00 e alle 18.00 è prevista una visita __(5)__ all’Area Archeologica con una guida. Alle 21.00, per aprire la rassegna, ci saranno l’__(6)__, i saluti e un incontro. Alle 21.40 è in __(7)__ un incontro con Alessandra Fassio, seguito dal __(8)__ di Bruno Restuccia.
+
+| n. | A | B | C |
+|---|---|---|---|
+| 0. | ~~mese~~ | giorno | anno |
+| 1. | ridotto | gratuito | privato |
+| 2. | chiude | ferma | apre |
+| 3. | contraria | dedicata | vicina |
+| 4. | nascondono | raccontano | cancellano |
+| 5. | scolastica | virtuale | guidata |
+| 6. | visita | inaugurazione | proiezione |
+| 7. | programma | dubbio | preparazione |
+| 8. | incontro | saluto | documentario |
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 12**
+
+## Produzione scritta — Prova n. 1
+
+> *Descrivi un pomeriggio piacevole che hai passato in un parco vicino a casa. Scrivi con chi eri, che tempo faceva, che cosa avete fatto e perché ricordi bene quel pomeriggio.*
+> *Devi scrivere da 40 a 60 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Scrivi un messaggio a un'amica che frequenta una palestra. Chiedi informazioni sul corso di yoga: in quali giorni si svolge, a che ora comincia e quanto costa.*
+> *Devi scrivere da 25 a 40 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 12**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: rispondi ad alta voce rispettando la durata indicata, poi confronta le tue risposte con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Dialogo con l'esaminatore. Rispondi alle domande.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Che cosa studi oppure che lavoro fai? Qual è la parte più interessante?
+
+**2.** Quali sono i tuoi orari durante la settimana? Quando hai tempo libero?
+
+
+exec
+/bin/zsh -lc "sed -n '261,520p' /tmp/cils-blind-2026-07-19-A2/paper.md" in /tmp
+ succeeded in 0ms:
+**3.** Quando fai la spesa? Con chi vai e che cosa compri di solito?
+
+**4.** Quale mezzo usi più spesso per i tuoi spostamenti? Perché?
+
+**5.** Parla della tua ultima vacanza: dove sei andato, con chi e che cosa hai fatto?
+
+**6.** Come organizzerai le prossime vacanze? Dove vorresti andare e perché?
+
+## Produzione orale — Prova n. 2
+
+> *Parla di uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Racconta una giornata in cui hai imparato qualcosa di nuovo: dove eri, con chi e che cosa è successo.
+
+**2.** Descrivi come organizzi una giornata normale quando hai molti impegni: orari, spostamenti e pause.
+
+---
+
+# Foglio delle risposte
+
+**Lettura — Prova n. 1** | **Prova n. 2** | **Prova n. 3**
+
+| n. | A/B/C | | n. | V/F | n. | V/F | | n. | A–H |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 |  | | 1 |  | 5 |  | | 1 |  |
+| 2 |  | | 2 |  | 6 |  | | 2 |  |
+| 3 |  | | 3 |  | 7 |  | | 3 |  |
+| 4 |  | | 4 |  | 8 |  | | 4 |  |
+|  |  | |  |  |  |  | | 5 |  |
+|  |  | |  |  |  |  | | 6 |  |
+
+**Strutture — Prova n. 1 e n. 2** *(scrivi la risposta in STAMPATELLO)* | **Prova n. 3**
+
+| n. | Prova 1 | Prova 2 | | n. | Prova 1 | Prova 2 | | n. | A/B/C |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 |  |  | | 6 |  |  | | 1 |  |
+| 2 |  |  | | 7 |  |  | | 2 |  |
+| 3 |  |  | | 8 |  |  | | 3 |  |
+| 4 |  |  | | 9 |  |  | | 4 |  |
+| 5 |  |  | | 10 |  |  | | 5 |  |
+|  |  |  | |  |  |  | | 6 |  |
+|  |  |  | |  |  |  | | 7 |  |
+|  |  |  | |  |  |  | | 8 |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*
+
+codex
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "A", "confidence": "hi"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "C", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+  "L3.5": {"answer": "E", "confidence": "hi"},
+  "L3.6": {"answer": "F", "confidence": "hi"},
+
+  "S1.1": {"answer": "in", "confidence": "hi"},
+  "S1.2": {"answer": "in", "confidence": "hi"},
+  "S1.3": {"answer": "di", "confidence": "hi"},
+  "S1.4": {"answer": "senza", "confidence": "hi"},
+  "S1.5": {"answer": "in", "confidence": "hi"},
+  "S1.6": {"answer": "le", "confidence": "hi"},
+  "S1.7": {"answer": "per", "confidence": "hi"},
+  "S1.8": {"answer": "in", "confidence": "hi"},
+  "S1.9": {"answer": "su", "confidence": "hi"},
+  "S1.10": {"answer": "con", "confidence": "hi"},
+
+  "S2.1": {"answer": "racconti", "confidence": "hi"},
+  "S2.2": {"answer": "ho dedicato", "confidence": "hi"},
+  "S2.3": {"answer": "dedicavo", "confidence": "hi"},
+  "S2.4": {"answer": "avevo", "confidence": "hi"},
+  "S2.5": {"answer": "parlo", "confidence": "hi"},
+  "S2.6": {"answer": "ero", "confidence": "hi"},
+  "S2.7": {"answer": "annunciavano", "confidence": "hi"},
+  "S2.8": {"answer": "li ho sentiti", "confidence": "hi"},
+  "S2.9": {"answer": "ho pianto", "confidence": "hi"},
+  "S2.10": {"answer": "ho dovuto", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole"
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole"
+  },
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa"
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa"
+  }
+]
+```
+tokens used
+9,351
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "A", "confidence": "hi"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "C", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+  "L3.5": {"answer": "E", "confidence": "hi"},
+  "L3.6": {"answer": "F", "confidence": "hi"},
+
+  "S1.1": {"answer": "in", "confidence": "hi"},
+  "S1.2": {"answer": "in", "confidence": "hi"},
+  "S1.3": {"answer": "di", "confidence": "hi"},
+  "S1.4": {"answer": "senza", "confidence": "hi"},
+  "S1.5": {"answer": "in", "confidence": "hi"},
+  "S1.6": {"answer": "le", "confidence": "hi"},
+  "S1.7": {"answer": "per", "confidence": "hi"},
+  "S1.8": {"answer": "in", "confidence": "hi"},
+  "S1.9": {"answer": "su", "confidence": "hi"},
+  "S1.10": {"answer": "con", "confidence": "hi"},
+
+  "S2.1": {"answer": "racconti", "confidence": "hi"},
+  "S2.2": {"answer": "ho dedicato", "confidence": "hi"},
+  "S2.3": {"answer": "dedicavo", "confidence": "hi"},
+  "S2.4": {"answer": "avevo", "confidence": "hi"},
+  "S2.5": {"answer": "parlo", "confidence": "hi"},
+  "S2.6": {"answer": "ero", "confidence": "hi"},
+  "S2.7": {"answer": "annunciavano", "confidence": "hi"},
+  "S2.8": {"answer": "li ho sentiti", "confidence": "hi"},
+  "S2.9": {"answer": "ho pianto", "confidence": "hi"},
+  "S2.10": {"answer": "ho dovuto", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole"
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole"
+  },
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa"
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa"
+  }
+]
+```

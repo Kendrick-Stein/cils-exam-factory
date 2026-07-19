@@ -1,0 +1,63 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "ELISABETTA CANALIS E LA VITA CON I CANI",
+    "S2_TEXT_WITH_GAPS": "Il giorno in cui è nata Skyler, due cani *(accoglierla)* __l'hanno accolta (0)__.\n\n**Come hai conquistato la fiducia di Nello?**\n\nAll'inizio, mentre Nello scappava sempre, io *(sapere)* __(1)__ di poter conquistare la sua fiducia. Se non l'avessi rispettato, non *(riuscirci)* __(2)__. Da allora fino a oggi *(rispettare)* __(3)__ il suo spirito libero. Oggi *(lasciarlo)* __(4)__ libero, ma *(dovere)* __(5)__ proteggerlo. Quando lo chiamo, Nello *(volere)* __(6)__ sempre farsi vedere.\n\n**Quali differenze ci sono?**\n\nOggi in America l'eutanasia *(essere)* __(7)__ diffusa; in Italia non *(accadere)* __(8)__ nei rifugi privati. Finora i volontari *(fare)* __(9)__ molto. Se i volontari non ci fossero, salvarli *(essere)* __(10)__ difficile. In questi anni i rifugi *(accogliere)* __(11)__ molti cani. In futuro i rifugi *(accoglierli)* __(12)__; più tardi i cani *(trovare)* __(13)__ casa.\n\n**Che cosa insegnano?**\n\nOggi questi cani *(potere)* __(14)__ rinascere con amore. Oggi le loro storie *(essere)* __(15)__ parallele alle nostre.\n\n**Che cosa ha imparato Skyler?**\n\nQuando Skyler era piccola, ogni giorno *(vivere)* __(16)__ con i cani. Oggi non *(ricordare)* __(17)__ un giorno senza di loro. Oggi, se un cane *(ringhiare)* __(18)__, ha ragione. In questi anni io *(insegnarle)* __(19)__ che i cani non sono giocattoli. Finora Nello *(essere)* __(20)__ un grande insegnante."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | sapevo | indicativo imperfetto | 11 | hanno accolto | indicativo passato prossimo |\n| 2 | ci sarei riuscita | condizionale passato | 12 | li accoglieranno | indicativo futuro semplice |\n| 3 | ho rispettato | indicativo passato prossimo | 13 | troveranno | indicativo futuro semplice |\n| 4 | lo lascio | indicativo presente | 14 | possono | indicativo presente |\n| 5 | devo | indicativo presente | 15 | sono | indicativo presente |\n| 6 | vuole | indicativo presente | 16 | viveva | indicativo imperfetto |\n| 7 | è | indicativo presente | 17 | ricorda | indicativo presente |\n| 8 | accade | indicativo presente | 18 | ringhia | indicativo presente |\n| 9 | hanno fatto | indicativo passato prossimo | 19 | le ho insegnato | indicativo passato prossimo |\n| 10 | sarebbe | condizionale presente | 20 | è stato | indicativo passato prossimo |",
+    "ANS_S2_NOTES": "- **S2.1–S2.3:** «mentre» fissa lo sfondo passato per «sapevo»; «Se non l'avessi rispettato» impone il condizionale passato, mentre «Da allora fino a oggi» collega esplicitamente l'azione al presente e impone il passato prossimo. 中文：过去背景、反事实条件与延续至今的动作分开。\n- **S2.4–S2.8:** «Oggi» apre chiaramente il piano del presente; anche «Quando lo chiamo» descrive un comportamento attuale e abituale. 中文：Oggi 明确锁定现在时。\n- **S2.9 e S2.11:** «Finora» e «In questi anni» collegano al presente azioni già compiute e impongono il passato prossimo. 中文：时间延续至今，使用近过去时。\n- **S2.12–S2.13:** «In futuro» apre il piano futuro e «più tardi» ne indica la seconda fase. 中文：两个明确的未来时间标记。\n- **S2.16–S2.20:** «ogni giorno» impone l'imperfetto; «Oggi» fissa il presente, mentre «In questi anni» e «Finora» richiedono il passato prossimo. In «lo lascio», «li accoglieranno» e «le ho insegnato» i pronomi sono compresi nelle risposte. 中文：时间标记锁定时态，代词留在空格内。"
+  },
+  "key": {
+    "S2.1": "sapevo",
+    "S2.2": "ci sarei riuscita",
+    "S2.3": "ho rispettato || ho sempre rispettato",
+    "S2.4": "lo lascio",
+    "S2.5": "devo",
+    "S2.6": "vuole",
+    "S2.7": "è",
+    "S2.8": "accade",
+    "S2.9": "hanno fatto",
+    "S2.10": "sarebbe",
+    "S2.11": "hanno accolto",
+    "S2.12": "li accoglieranno",
+    "S2.13": "troveranno",
+    "S2.14": "possono",
+    "S2.15": "sono",
+    "S2.16": "viveva",
+    "S2.17": "ricorda",
+    "S2.18": "ringhia",
+    "S2.19": "le ho insegnato",
+    "S2.20": "è stato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "spirito libero",
+      "categoria": "locuzione nominale",
+      "zh": "自由不羁的天性",
+      "en": "free spirit",
+      "esempio": "il suo spirito libero"
+    },
+    {
+      "parola": "rifugi privati",
+      "categoria": "locuzione nominale plurale",
+      "zh": "私人动物收容所",
+      "en": "private shelters",
+      "esempio": "nei rifugi privati"
+    },
+    {
+      "parola": "rinascere con amore",
+      "categoria": "locuzione verbale",
+      "zh": "在关爱中重新开始",
+      "en": "to start again through love",
+      "esempio": "rinascere con amore"
+    },
+    {
+      "parola": "giocattoli",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "玩具",
+      "en": "toys",
+      "esempio": "i cani non sono giocattoli"
+    }
+  ]
+}

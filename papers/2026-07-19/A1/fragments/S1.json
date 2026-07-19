@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Camera Comfort",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ Camera Comfort ha un piccolo balcone. Dal balcone si vede __(1)__ piscina e si respirano __(2)__ profumi della pineta. Ogni camera ha tutti __(3)__ comfort: __(4)__ aria condizionata, __(5)__ Wi-Fi free, __(6)__ armadio, __(7)__ riscaldamento, __(8)__ pavimento, __(9)__ scrivania, la TV e il telefono. __(10)__ bagno è privato e ha doccia, bidet, asciugacapelli e prodotti da bagno in omaggio. Gli animali sono ammessi."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | la | S1.6 | l' |\n| S1.2 | i | S1.7 | il |\n| S1.3 | i | S1.8 | il |\n| S1.4 | l' | S1.9 | la |\n| S1.5 | il | S1.10 | il |",
+    "ANS_S1_NOTES": "**Note.** S1.1–S1.5: «piscina» è femminile singolare; «profumi» e «comfort» sono maschili plurali; davanti ad «aria» serve «l'»; «Wi-Fi» è maschile singolare. S1.6–S1.10: davanti ad «armadio» serve «l'»; «riscaldamento», «pavimento» e «bagno» sono maschili singolari; «scrivania» è femminile singolare. 中文提示：先看名词的性和数，再注意元音开头的单数名词 «aria» 和 «armadio» 用 «l'»。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "i",
+    "S1.3": "i",
+    "S1.4": "l'",
+    "S1.5": "il",
+    "S1.6": "l'",
+    "S1.7": "il",
+    "S1.8": "il",
+    "S1.9": "la",
+    "S1.10": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "piccolo balcone",
+      "categoria": "locuzione nominale",
+      "zh": "小阳台",
+      "en": "small balcony",
+      "esempio": "un piccolo balcone"
+    },
+    {
+      "parola": "profumi della pineta",
+      "categoria": "locuzione nominale",
+      "zh": "松林的香气",
+      "en": "scents of the pine grove",
+      "esempio": "profumi della pineta"
+    },
+    {
+      "parola": "aria condizionata",
+      "categoria": "locuzione nominale",
+      "zh": "空调",
+      "en": "air conditioning",
+      "esempio": "aria condizionata"
+    },
+    {
+      "parola": "bagno",
+      "categoria": "nome maschile",
+      "zh": "浴室",
+      "en": "bathroom",
+      "esempio": "Il bagno è privato"
+    },
+    {
+      "parola": "animali",
+      "categoria": "nome maschile plurale",
+      "zh": "动物",
+      "en": "animals",
+      "esempio": "Gli animali sono ammessi."
+    }
+  ]
+}

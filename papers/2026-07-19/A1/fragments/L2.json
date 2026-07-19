@@ -1,0 +1,51 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "BIBLIOTECHE CITTADINE: ORARI E CHIUSURE IN ESTATE",
+    "T2_TEXT": "Nel periodo estivo alcune biblioteche cittadine modificano il loro orario di apertura.\n\nSono aperte dal 29 giugno al 12 settembre 2026 con i seguenti orari le biblioteche:\n\nRagazzi: martedì 14:30-18:30, mercoledì e giovedì 9:30-12:30 e 14:30-18:30, venerdì e sabato 9:30-12:30.\n\nCederna: da martedì a venerdì 9:30-12:30 e 14:30-19:00, sabato 9:30-12:30.\n\nSono aperte con orari invariati:\n\nSan Gerardo: dal lunedì al venerdì 9:30-19:15 e sabato 9:30-18:15.\n\nNel mese di agosto, inoltre, effettuano dei giorni di chiusura. In particolare: Ragazzi, dall’11 al 22 agosto; San Gerardo, dal 14 al 22 agosto; Cederna, dal 1 al 15 agosto.",
+    "L2_ITEMS": "**1. Nel periodo estivo alcune biblioteche cambiano il loro orario.**  \nVero ○ Falso ○\n\n**2. Il martedì la biblioteca Ragazzi apre alle 14:30.**  \nVero ○ Falso ○\n\n**3. Il mercoledì la biblioteca Ragazzi è aperta solo la mattina.**  \nVero ○ Falso ○\n\n**4. Il venerdì la biblioteca Cederna chiude alle 19:00.**  \nVero ○ Falso ○\n\n**5. Il sabato la biblioteca Cederna è aperta anche nel pomeriggio.**  \nVero ○ Falso ○\n\n**6. Il sabato la biblioteca San Gerardo chiude alle 18:15.**  \nVero ○ Falso ○\n\n**7. In agosto le biblioteche Ragazzi e San Gerardo chiudono a partire dallo stesso giorno.**  \nVero ○ Falso ○\n\n**8. In agosto la biblioteca Cederna è chiusa dal 1 al 15.**  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice che alcune biblioteche «modificano il loro orario di apertura». |\n| L2.2 | Vero | Per la biblioteca Ragazzi il martedì è indicato «14:30-18:30». |\n| L2.3 | Falso | Il mercoledì la biblioteca Ragazzi è aperta «9:30-12:30 e 14:30-18:30», quindi anche nel pomeriggio. |\n| L2.4 | Vero | Per Cederna, da martedì a venerdì, l’orario pomeridiano termina alle «19:00». |\n| L2.5 | Falso | Il sabato per Cederna è indicato solo «9:30-12:30». 只有上午。 |\n| L2.6 | Vero | Il sabato San Gerardo è aperta fino alle «18:15». |\n| L2.7 | Falso | Ragazzi chiude «dall’11» agosto, mentre San Gerardo chiude «dal 14». 开始日期不同。 |\n| L2.8 | Vero | Il testo indica per Cederna la chiusura «dal 1 al 15 agosto». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "orario di apertura",
+      "categoria": "locuzione nominale",
+      "zh": "开放时间",
+      "en": "opening hours",
+      "esempio": "Nel periodo estivo alcune biblioteche cittadine modificano il loro orario di apertura."
+    },
+    {
+      "parola": "orari invariati",
+      "categoria": "locuzione nominale",
+      "zh": "不变的时间安排",
+      "en": "unchanged hours",
+      "esempio": "Sono aperte con orari invariati:"
+    },
+    {
+      "parola": "giorni di chiusura",
+      "categoria": "locuzione nominale",
+      "zh": "闭馆日",
+      "en": "closure days",
+      "esempio": "Nel mese di agosto, inoltre, effettuano dei giorni di chiusura."
+    },
+    {
+      "parola": "In particolare",
+      "categoria": "locuzione avverbiale",
+      "zh": "具体来说",
+      "en": "in particular",
+      "esempio": "In particolare: Ragazzi, dall’11 al 22 agosto; San Gerardo, dal 14 al 22 agosto; Cederna, dal 1 al 15 agosto."
+    }
+  ]
+}

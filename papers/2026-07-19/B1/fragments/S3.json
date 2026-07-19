@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "estate",
+    "S3_OPT0_B": "entrata",
+    "S3_OPT0_C": "opinione",
+    "S3_OPT0_D": "attesa",
+    "S3_OPTION_ROWS": "| 1. | annuale | culturale | commerciale | sportiva |\n| 2. | sostituirà | eliminerà | offrirà | ridurrà |\n| 3. | gratuiti | guidati | privati | sportivi |\n| 4. | turismo | orario | servizio | patrimonio |\n| 5. | vieta | prevede | cancella | ritarda |\n| 6. | personale | traffico | pubblico | gruppo |\n| 7. | quando | poiché | perché | mentre |\n| 8. | abituale | ultimo | unico | ordinario |\n| 9. | pronti | presenti | aperti | fermi |\n| 10. | vendita | attesa | partenza | programma |\n| 11. | teatrale | sportiva | musicale | gastronomica |\n| 12. | in | per | a | con |\n| 13. | inviti | ingressi | viaggi | ritorni |\n| 14. | prestito | regalo | esposizione | vendita |\n| 15. | il museo | il biglietto | il sito | l’ingresso |",
+    "S3_TEXT_WITH_GAPS": "Un’__(0)__ all’insegna dell’arte e della bellezza con “Mosaico di Notte”, l’iniziativa __(1)__ che, dal 1° luglio al 6 settembre 2026, __(2)__ aperture serali straordinarie e itinerari __(3)__ nei siti più affascinanti di Ravenna e nei luoghi simbolo del __(4)__ culturale ravennate.\n\nL’iniziativa __(5)__ l’apertura straordinaria dei monumenti, con regolare biglietto d’ingresso. Il mercoledì i Musei Byron e del Risorgimento sono aperti al __(6)__ fino alle 22, __(7)__ il Museo Nazionale apre il venerdì sera fino alle 23.30, con l’__(8)__ ingresso alle 23.\n\nDal 3 luglio al 4 settembre la Basilica di San Vitale e il Mausoleo di Galla Placidia sono __(9)__ ogni venerdì, dalle 21 alle 23. Dalle 22, all’interno della Basilica, in alcune serate sarà in __(10)__ una rassegna __(11)__ __(12)__ cura del Conservatorio statale Giuseppe Verdi di Ravenna.\n\nGli __(13)__ ai monumenti prevedono il biglietto cumulativo, in __(14)__ alla biglietteria di San Vitale al momento dell’ingresso oppure online attraverso __(15)__ ravennamosaici.it.",
+    "T6_TITLE": "L’ESTATE A RAVENNA CON MOSAICO DI NOTTE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Arte, bellezza, musei e monumenti definiscono l’iniziativa come «culturale». 中文：上下文明确是文化活动。 |\n| S3.2 | C | L’iniziativa «offrirà aperture serali straordinarie» ai visitatori. 中文：表示将提供服务。 |\n| S3.3 | B | La collocazione del testo è «itinerari guidati». 中文：指有导览的参观路线。 |\n| S3.4 | D | La locuzione corretta è «patrimonio culturale ravennate». 中文：固定搭配“文化遗产”。 |\n| S3.5 | B | «Prevede» introduce ciò che fa parte dell’iniziativa. 中文：后文列出活动安排。 |\n| S3.6 | C | I musei sono «aperti al pubblico», cioè accessibili ai visitatori. 中文：固定搭配“向公众开放”。 |\n| S3.7 | D | «Mentre» collega e mette a confronto i diversi giorni di apertura. 中文：对比周三与周五的安排。 |\n| S3.8 | B | La chiusura è alle 23.30, ma l’«ultimo ingresso» è alle 23. 中文：区分闭馆与最后入场。 |\n| S3.9 | C | La Basilica e il Mausoleo sono «aperti» dalle 21 alle 23. 中文：时间段说明开放状态。 |\n| S3.10 | D | La locuzione è «essere in programma». 中文：表示活动列入安排。 |\n| S3.11 | C | La rassegna del Conservatorio è «musicale». 中文：音乐学院是决定性线索。 |\n| S3.12 | C | La locuzione corretta è «a cura del Conservatorio». 中文：表示由该机构负责。 |\n| S3.13 | B | «Gli ingressi ai monumenti» introduce le regole del biglietto. 中文：指进入景点。 |\n| S3.14 | D | Il biglietto è «in vendita» alla biglietteria. 中文：固定搭配“出售”。 |\n| S3.15 | C | Il dominio ravennamosaici.it identifica «il sito». 中文：网址直接锁定答案。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "D",
+    "S3.8": "B",
+    "S3.9": "C",
+    "S3.10": "D",
+    "S3.11": "C",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "apertura straordinaria",
+      "categoria": "locuzione nominale",
+      "zh": "特别开放",
+      "en": "special opening",
+      "esempio": "l’apertura straordinaria dei monumenti"
+    },
+    {
+      "parola": "arte e della bellezza",
+      "categoria": "locuzione nominale",
+      "zh": "艺术与美",
+      "en": "art and beauty",
+      "esempio": "all’insegna dell’arte e della bellezza"
+    },
+    {
+      "parola": "regolare biglietto d’ingresso",
+      "categoria": "locuzione nominale",
+      "zh": "普通入场票",
+      "en": "regular admission ticket",
+      "esempio": "con regolare biglietto d’ingresso"
+    },
+    {
+      "parola": "al momento dell’ingresso",
+      "categoria": "locuzione avverbiale",
+      "zh": "入场时",
+      "en": "at the time of entry",
+      "esempio": "al momento dell’ingresso"
+    },
+    {
+      "parola": "in alcune serate",
+      "categoria": "locuzione avverbiale",
+      "zh": "在某些晚上",
+      "en": "on some evenings",
+      "esempio": "in alcune serate"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+ "prova": "S4",
+ "slots": {
+  "T7_TITLE": "Progetti per le reti di solidarietà tra famiglie e l’affidamento familiare",
+  "T7_TEXT": "Con determinazione dirigenziale n. 3095 del 21 maggio 2026 è stato approvato l’avviso pubblico per la presentazione di progetti per la promozione e il sostegno alle reti di solidarietà tra famiglie e all’affidamento familiare. Questi progetti devono essere realizzati da associazioni e/o organizzazioni no profit, conformemente al Regolamento n. 373.\n\nTutti i progetti dovranno essere avviati nel 2026 e concludersi entro il 30 settembre 2027. I soggetti interessati, previa attenta lettura dell’avviso, dovranno produrre l’istanza di partecipazione esclusivamente attraverso il modulo online a cui si accede dalla scheda servizio pubblicata sul sito della Città.\n\nIl richiedente, al termine della procedura di partecipazione, riceverà una e-mail che attesterà il corretto invio dell’istanza di partecipazione. L’istanza e i relativi allegati dovranno pervenire entro il 30 giugno 2026 alle ore 12. Le istanze pervenute fuori termine non saranno prese in considerazione.",
+  "S4_SOURCE_0": "Con determinazione dirigenziale n. 3095 del 21 maggio 2026 è stato approvato l’avviso pubblico per la presentazione di progetti per la promozione e il sostegno alle reti di solidarietà tra famiglie e all’affidamento familiare.",
+  "S4_REWRITE_0": "LA DETERMINAZIONE DIRIGENZIALE N. 3095 DEL 21 MAGGIO 2026 HA APPROVATO L’AVVISO PUBBLICO PER LA PRESENTAZIONE DI PROGETTI PER LA PROMOZIONE E IL SOSTEGNO ALLE RETI DI SOLIDARIETÀ TRA FAMIGLIE E ALL’AFFIDAMENTO FAMILIARE.",
+  "S4_ITEMS": "**1. Questi progetti devono essere realizzati da associazioni e/o organizzazioni no profit, conformemente al Regolamento n. 373.**\n\n→ LA REALIZZAZIONE DI QUESTI PROGETTI SPETTA ………………………………………………………\n\n**2. Tutti i progetti dovranno essere avviati nel 2026 e concludersi entro il 30 settembre 2027.**\n\n→ PER TUTTI I PROGETTI SONO OBBLIGATORI ………………………………………………………\n\n**3. I soggetti interessati, previa attenta lettura dell’avviso, dovranno produrre l’istanza di partecipazione esclusivamente attraverso il modulo online a cui si accede dalla scheda servizio pubblicata sul sito della Città.**\n\n→ SOLTANTO DOPO AVER LETTO ATTENTAMENTE L’AVVISO, I SOGGETTI INTERESSATI DOVRANNO ………………………………………………………\n\n**4. Il richiedente, al termine della procedura di partecipazione, riceverà una e-mail che attesterà il corretto invio dell’istanza di partecipazione.**\n\n→ IL CORRETTO INVIO DELL’ISTANZA DI PARTECIPAZIONE SARÀ ATTESTATO ………………………………………………………\n\n**5. L’istanza e i relativi allegati dovranno pervenire entro il 30 giugno 2026 alle ore 12.**\n\n→ IL TERMINE PER IL RICEVIMENTO DELL’ISTANZA E DEI RELATIVI ALLEGATI È FISSATO ………………………………………………………\n\n**6. Le istanze pervenute fuori termine non saranno prese in considerazione.**\n\n→ NON SI PRENDERANNO IN CONSIDERAZIONE ………………………………………………………"
+ },
+ "answer_slots": {
+  "ANS_S4_ROWS": "| S4.1 | LA REALIZZAZIONE DI QUESTI PROGETTI SPETTA AD ASSOCIAZIONI E/O ORGANIZZAZIONI NO PROFIT E DEVE AVVENIRE CONFORMEMENTE AL REGOLAMENTO N. 373. |\n| S4.2 | PER TUTTI I PROGETTI SONO OBBLIGATORI L’AVVIO NEL 2026 E LA CONCLUSIONE ENTRO IL 30 SETTEMBRE 2027. |\n| S4.3 | SOLTANTO DOPO AVER LETTO ATTENTAMENTE L’AVVISO, I SOGGETTI INTERESSATI DOVRANNO PRODURRE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE A CUI SI ACCEDE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ. |\n| S4.4 | IL CORRETTO INVIO DELL’ISTANZA DI PARTECIPAZIONE SARÀ ATTESTATO DA UNA E-MAIL CHE IL RICHIEDENTE RICEVERÀ AL TERMINE DELLA PROCEDURA DI PARTECIPAZIONE. |\n| S4.5 | IL TERMINE PER IL RICEVIMENTO DELL’ISTANZA E DEI RELATIVI ALLEGATI È FISSATO ALLE ORE 12 DEL 30 GIUGNO 2026. |\n| S4.6 | NON SI PRENDERANNO IN CONSIDERAZIONE LE ISTANZE PERVENUTE FUORI TERMINE. |",
+  "ANS_S4_NOTES": "- **S4.1–S4.2:** la nominalizzazione deve conservare sia i soggetti incaricati sia il richiamo al Regolamento; per il calendario restano obbligatori l’avvio nel 2026 e la conclusione entro il 30 settembre 2027. 中文注：第一题不能遗漏承办主体和条例；第二题必须保留两个时间限制。\n- **S4.3–S4.4:** «previa attenta lettura» diventa una subordinata temporale e il richiedente diventa il destinatario dell’e-mail nella costruzione passiva. 中文注：第三题须保留“仅通过线上表格”；第四题不能改变邮件的证明作用。\n- **S4.5–S4.6:** la scadenza comprende data e ora; nella forma impersonale di S4.6 «le istanze pervenute fuori termine» resta l’oggetto. 中文注：截止日期和时间都不可省略；逾期申请仍是不予受理的对象。"
+ },
+ "key": {
+  "S4.1": "AD ASSOCIAZIONI E/O ORGANIZZAZIONI NO PROFIT E DEVE AVVENIRE CONFORMEMENTE AL REGOLAMENTO N. 373. || AD ASSOCIAZIONI E/O ORGANIZZAZIONI NON PROFIT E DEVE AVVENIRE CONFORMEMENTE AL REGOLAMENTO N. 373. || LA REALIZZAZIONE DI QUESTI PROGETTI SPETTA AD ASSOCIAZIONI E/O ORGANIZZAZIONI NO PROFIT E DEVE AVVENIRE CONFORMEMENTE AL REGOLAMENTO N. 373. || ALLE ASSOCIAZIONI E/O ORGANIZZAZIONI NO PROFIT, CONFORMEMENTE AL REGOLAMENTO N. 373. || AD ASSOCIAZIONI E/O ORGANIZZAZIONI NO PROFIT, CONFORMEMENTE AL REGOLAMENTO N. 373. || LA REALIZZAZIONE DI QUESTI PROGETTI SPETTA ALLE ASSOCIAZIONI E/O ORGANIZZAZIONI NO PROFIT, CONFORMEMENTE AL REGOLAMENTO N. 373.",
+  "S4.2": "L’AVVIO NEL 2026 E LA CONCLUSIONE ENTRO IL 30 SETTEMBRE 2027. || PER TUTTI I PROGETTI SONO OBBLIGATORI L’AVVIO NEL 2026 E LA CONCLUSIONE ENTRO IL 30 SETTEMBRE 2027.",
+  "S4.3": "PRODURRE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE A CUI SI ACCEDE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ. || PRESENTARE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE A CUI SI ACCEDE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ. || SOLTANTO DOPO AVER LETTO ATTENTAMENTE L’AVVISO, I SOGGETTI INTERESSATI DOVRANNO PRODURRE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE A CUI SI ACCEDE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ. || SOLTANTO DOPO AVER LETTO ATTENTAMENTE L’AVVISO, I SOGGETTI INTERESSATI DOVRANNO PRESENTARE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE A CUI SI ACCEDE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ. || PRODURRE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE ACCESSIBILE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ. || SOLTANTO DOPO AVER LETTO ATTENTAMENTE L’AVVISO, I SOGGETTI INTERESSATI DOVRANNO PRODURRE L’ISTANZA DI PARTECIPAZIONE ESCLUSIVAMENTE ATTRAVERSO IL MODULO ONLINE ACCESSIBILE DALLA SCHEDA SERVIZIO PUBBLICATA SUL SITO DELLA CITTÀ.",
+  "S4.4": "DA UNA E-MAIL CHE IL RICHIEDENTE RICEVERÀ AL TERMINE DELLA PROCEDURA DI PARTECIPAZIONE. || DA UN’E-MAIL CHE IL RICHIEDENTE RICEVERÀ AL TERMINE DELLA PROCEDURA DI PARTECIPAZIONE. || IL CORRETTO INVIO DELL’ISTANZA DI PARTECIPAZIONE SARÀ ATTESTATO DA UNA E-MAIL CHE IL RICHIEDENTE RICEVERÀ AL TERMINE DELLA PROCEDURA DI PARTECIPAZIONE. || IL CORRETTO INVIO DELL’ISTANZA DI PARTECIPAZIONE SARÀ ATTESTATO DA UN’E-MAIL CHE IL RICHIEDENTE RICEVERÀ AL TERMINE DELLA PROCEDURA DI PARTECIPAZIONE.",
+  "S4.5": "ALLE ORE 12 DEL 30 GIUGNO 2026. || AL 30 GIUGNO 2026 ALLE ORE 12. || IL TERMINE PER IL RICEVIMENTO DELL’ISTANZA E DEI RELATIVI ALLEGATI È FISSATO ALLE ORE 12 DEL 30 GIUGNO 2026. || IL TERMINE PER IL RICEVIMENTO DELL’ISTANZA E DEI RELATIVI ALLEGATI È FISSATO AL 30 GIUGNO 2026 ALLE ORE 12.",
+  "S4.6": "LE ISTANZE PERVENUTE FUORI TERMINE. || LE ISTANZE PERVENUTE OLTRE IL TERMINE. || NON SI PRENDERANNO IN CONSIDERAZIONE LE ISTANZE PERVENUTE FUORI TERMINE. || NON SI PRENDERANNO IN CONSIDERAZIONE LE ISTANZE PERVENUTE OLTRE IL TERMINE."
+ },
+ "glossario_candidates": [
+  {
+   "parola": "determinazione dirigenziale",
+   "categoria": "locuzione nominale",
+   "zh": "主管决定",
+   "en": "managerial determination",
+   "esempio": "Con determinazione dirigenziale n. 3095 del 21 maggio 2026 è stato approvato l’avviso pubblico per la presentazione di progetti per la promozione e il sostegno alle reti di solidarietà tra famiglie e all’affidamento familiare."
+  },
+  {
+   "parola": "reti di solidarietà",
+   "categoria": "locuzione nominale",
+   "zh": "互助网络",
+   "en": "solidarity networks",
+   "esempio": "Con determinazione dirigenziale n. 3095 del 21 maggio 2026 è stato approvato l’avviso pubblico per la presentazione di progetti per la promozione e il sostegno alle reti di solidarietà tra famiglie e all’affidamento familiare."
+  },
+  {
+   "parola": "previa attenta lettura",
+   "categoria": "locuzione preposizionale",
+   "zh": "经认真阅读后",
+   "en": "after careful reading",
+   "esempio": "I soggetti interessati, previa attenta lettura dell’avviso, dovranno produrre l’istanza di partecipazione esclusivamente attraverso il modulo online a cui si accede dalla scheda servizio pubblicata sul sito della Città."
+  },
+  {
+   "parola": "istanza di partecipazione",
+   "categoria": "locuzione nominale",
+   "zh": "参与申请",
+   "en": "application for participation",
+   "esempio": "Il richiedente, al termine della procedura di partecipazione, riceverà una e-mail che attesterà il corretto invio dell’istanza di partecipazione."
+  },
+  {
+   "parola": "pervenute fuori termine",
+   "categoria": "locuzione participiale",
+   "zh": "逾期送达的",
+   "en": "received after the deadline",
+   "esempio": "Le istanze pervenute fuori termine non saranno prese in considerazione."
+  }
+ ]
+}
