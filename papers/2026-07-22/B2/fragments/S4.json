@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Gentili spettatori, a causa di un guasto nell'impianto elettrico, il concerto di domani non si terrà al Teatro Verdi ma nell'Auditorium comunale, alla stessa ora. I biglietti già acquistati restano validi e i posti assegnati non cambiano.**\n\nA) È l'annuncio dell'annullamento definitivo di un concerto.\nB) È la comunicazione del trasferimento di uno spettacolo in un'altra sede.\nC) È la richiesta di acquistare un nuovo biglietto per l'Auditorium.\nD) È l'avviso di un cambiamento nell'orario dello spettacolo.\n\n**2. Buongiorno, abbiamo accettato la sua richiesta di restituzione delle scarpe. Troverà l'etichetta da stampare nella sua area personale. Applichi l'etichetta al pacco e scelga sul sito il giorno del ritiro a domicilio; il rimborso partirà dopo la verifica.**\n\nA) È la conferma che il rimborso è già stato versato.\nB) È la richiesta di portare le scarpe personalmente in negozio.\nC) È l'indicazione della procedura per restituire un acquisto.\nD) È la proposta di sostituire le scarpe con un altro modello.\n\n**3. Oggi a «Voci in città» parleremo dei luoghi pubblici che sono migliorati grazie agli abitanti. Inviateci entro mezzogiorno un messaggio vocale raccontando un progetto del vostro quartiere: alcuni contributi saranno trasmessi e commentati in diretta.**\n\nA) È un invito agli ascoltatori a contribuire a una trasmissione radiofonica.\nB) È la presentazione di un concorso per finanziare progetti cittadini.\nC) È la richiesta agli abitanti di partecipare a una riunione comunale.\nD) È l'annuncio di un programma dedicato esclusivamente alla musica locale.\n\n**4. Vendo bicicletta pieghevole in buone condizioni, usata per due anni e appena revisionata. Sono compresi luci, portapacchi e una borsa da viaggio. Prezzo 280 euro, non trattabile. Consegna a mano in centro; scrivere solo se realmente interessati.**\n\nA) È la ricerca di qualcuno che ripari una bicicletta usata.\nB) È l'offerta di noleggio di una bicicletta per un viaggio.\nC) È la richiesta di acquistare accessori per una bicicletta.\nD) È un annuncio per vendere una bicicletta con alcuni accessori.\n\n**5. Ciao Marta, venerdì devo accompagnare mio padre a una visita e non riesco a coprire il turno pomeridiano. Potresti fare tu dalle 14 alle 20? In cambio prenderei volentieri il tuo turno di lunedì mattina. Fammi sapere entro domani.**\n\nA) È la comunicazione di un'assenza per malattia già autorizzata.\nB) È la richiesta a una collega di scambiare due turni di lavoro.\nC) È un invito a partecipare a una visita medica lunedì.\nD) È la conferma del nuovo orario stabilito dal responsabile.\n\n**6. Benvenuti nello spazio di lavoro Officina 12. Alla reception riceverete la tessera per entrare; le sale riunioni si prenotano tramite l'app. Il caffè è gratuito, mentre le stampe si pagano alla fine del mese. Per assistenza rivolgetevi al personale del primo piano.**\n\nA) È una comunicazione di accoglienza con istruzioni per usare uno spazio di lavoro.\nB) È una pubblicità per acquistare attrezzature da ufficio.\nC) È un reclamo relativo ai costi delle sale riunioni.\nD) È un'offerta di lavoro per il personale della reception.\n\n**7. Per lavori urgenti alla rete, mercoledì dalle 9 alle 13 l'erogazione dell'acqua sarà temporaneamente sospesa nelle vie Manzoni e Leopardi. Si consiglia ai residenti di conservarne una quantità sufficiente. Al termine dell'intervento, lasciate scorrere l'acqua per qualche minuto.**\n\nA) È l'annuncio di un aumento permanente del costo dell'acqua.\nB) È la richiesta di segnalare una perdita nelle abitazioni.\nC) È un avviso su un'interruzione programmata dell'acqua e sui comportamenti consigliati.\nD) È la comunicazione della chiusura al traffico di due strade.\n\n**8. Le ricordiamo l'appuntamento di controllo con la dottoressa Neri, fissato per il 28 luglio alle 10. Per confermarlo risponda SÌ entro le 16 di oggi. Se non riceveremo risposta, il posto sarà assegnato a un paziente in lista d'attesa.**\n\nA) È la richiesta di confermare un appuntamento entro una scadenza.\nB) È la comunicazione che un appuntamento è stato cancellato dal medico.\nC) È la proposta di anticipare una visita già confermata.\nD) È l'avviso che il paziente è stato inserito in lista d'attesa.\n\n**9. Domenica il gruppo Sentieri Aperti pulirà il tratto di bosco vicino al lago. Cerchiamo volontari maggiorenni disponibili dalle 8 alle 12; guanti e attrezzi saranno forniti dall'associazione. Per partecipare, compilate il modulo online entro venerdì.**\n\nA) È un invito a candidarsi per un'attività volontaria di pulizia.\nB) È l'offerta di un lavoro retribuito nella manutenzione dei sentieri.\nC) È la richiesta di donare attrezzi a un'associazione ambientalista.\nD) È l'annuncio di un'escursione guidata intorno al lago.\n\n**10. Abbiamo rilevato un accesso al suo conto da un dispositivo mai usato prima. Se è stato lei, non deve fare nulla. In caso contrario, blocchi subito l'accesso dall'app e contatti l'assistenza usando esclusivamente il numero indicato sul retro della carta.**\n\nA) È la conferma che il conto è stato definitivamente bloccato.\nB) È la pubblicità di un nuovo dispositivo per i servizi bancari.\nC) È la richiesta di comunicare telefonicamente il codice della carta.\nD) È un avviso di sicurezza che indica cosa fare in caso di accesso sospetto."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «non si terrà al Teatro Verdi ma nell'Auditorium comunale» comunica un cambio di sede; ora, biglietti e posti restano invariati. 中文：演出改地点，不改时间。 |\n| S4.2 | C | «etichetta da stampare», «Applichi l'etichetta» e «scelga ... il giorno del ritiro» descrivono i passaggi necessari per la restituzione. 中文：退款尚未开始。 |\n| S4.3 | A | «Inviateci ... un messaggio vocale» e «saranno trasmessi ... in diretta» invitano gli ascoltatori a partecipare al programma. 中文：征集听众语音投稿。 |\n| S4.4 | D | «Vendo bicicletta» indica la vendita, mentre prezzo, accessori e consegna ne precisano le condizioni. 中文：出售自行车，不是出租。 |\n| S4.5 | B | «Potresti fare tu» e «In cambio prenderei ... il tuo turno» formulano una proposta di scambio fra colleghe. 中文：请求同事换班。 |\n| S4.6 | A | «Benvenuti» introduce indicazioni pratiche su tessera, prenotazioni, stampe e assistenza destinate ai nuovi utenti. 中文：共享办公空间的欢迎说明。 |\n| S4.7 | C | «temporaneamente sospesa» delimita l'interruzione e il messaggio consiglia che cosa fare prima e dopo i lavori. 中文：计划性临时停水通知。 |\n| S4.8 | A | «Per confermarlo risponda SÌ entro le 16» richiede una risposta entro un termine, altrimenti il posto sarà riassegnato. 中文：须限时确认预约。 |\n| S4.9 | A | «Cerchiamo volontari» e «Per partecipare, compilate il modulo» sono un invito a collaborare gratuitamente alla pulizia. 中文：招募清理森林的志愿者。 |\n| S4.10 | D | «accesso ... da un dispositivo mai usato prima» segnala un rischio e il testo spiega come bloccarlo e contattare l'assistenza. 中文：可疑登录的安全提醒。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "C",
+    "S4.3": "A",
+    "S4.4": "D",
+    "S4.5": "B",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "A",
+    "S4.9": "A",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ritiro a domicilio",
+      "categoria": "locuzione nominale",
+      "zh": "上门取件",
+      "en": "home collection",
+      "esempio": "scelga sul sito il giorno del ritiro a domicilio"
+    },
+    {
+      "parola": "appena revisionata",
+      "categoria": "locuzione aggettivale",
+      "zh": "刚检修过的",
+      "en": "recently serviced",
+      "esempio": "usata per due anni e appena revisionata"
+    },
+    {
+      "parola": "turno pomeridiano",
+      "categoria": "locuzione nominale",
+      "zh": "下午班",
+      "en": "afternoon shift",
+      "esempio": "non riesco a coprire il turno pomeridiano"
+    },
+    {
+      "parola": "temporaneamente sospesa",
+      "categoria": "locuzione verbale",
+      "zh": "暂时中断",
+      "en": "temporarily suspended",
+      "esempio": "l'erogazione dell'acqua sarà temporaneamente sospesa"
+    },
+    {
+      "parola": "lista d'attesa",
+      "categoria": "locuzione nominale",
+      "zh": "候补名单",
+      "en": "waiting list",
+      "esempio": "il posto sarà assegnato a un paziente in lista d'attesa"
+    }
+  ]
+}

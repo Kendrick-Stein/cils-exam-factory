@@ -1,0 +1,135 @@
+exam: cils
+level: A1
+session: '2026-07-22'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.agriturismocomenavolta.it/chi-siamo/
+  title: Chi siamo
+  publisher: Agriturismo Come Na Volta (Breganze, VI)
+  published: not dated on page (evergreen "chi siamo" page)
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 116
+- id: T2
+  url: https://www.museoscienzebergamo.it/visita/orari-e-tariffe/
+  title: Orari e Tariffe
+  publisher: Museo Civico di Scienze Naturali di Bergamo
+  published: not dated; content refers to "1 aprile 2026" orario estivo update
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 122
+- id: T3
+  url: https://parconord.milano.it/regolamenti/il-regolamento-duso-del-parco/
+  title: Il regolamento d'uso del Parco" (artt. 7, 32, 41, 42 — excerpted as a park
+    sign)
+  publisher: Parco Nord Milano
+  published: not dated (standing regulation)
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 106
+- id: T4
+  url: https://blog.giallozafferano.it/lacucinadiloredana/ricetta-insalata-di-pasta-fredda/
+  title: Insalata di pasta fredda
+  publisher: blog "La cucina di Loredana" (GialloZafferano)
+  published: not dated on page
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 88
+- id: T5
+  url: https://blog.giallozafferano.it/lericettedifragolina/ricetta-insalata-di-farro-fredda/
+  title: Insalata di farro fredda
+  publisher: blog "Le ricette di fragolina" (GialloZafferano)
+  published: not dated on page
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 89
+- id: T6
+  url: https://www.comune.como.it/servizi/App-e-informazioni-sulla-raccolta-differenziata/
+  title: App e informazioni sulla raccolta differenziata
+  publisher: Comune di Como
+  published: not dated on page
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 93
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-22T15:10:43+00:00'
+  - stage: authoring
+    at: '2026-07-22T15:10:43+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+  - stage: blind_validation
+    at: '2026-07-22T15:14:46+00:00'
+    agreement: 44/44
+    flags: 4
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T15:20:26+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-22T17:13:35+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T17:13:35+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T17:51:32+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T17:51:32+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "A quei tempi Mattia ogni giorno *(percorrere)* __(1)__ i vicoli del rione Sanità, mentre la famiglia *(gestire)* __gestiva (0)__ una pasticceria. Allora *(amare)* __(2)__ il pugilato. Nessuno allora avrebbe previsto che, negli anni successivi, le sue pietanze *(essere servite)* __(3)__ ai vertici; lui non *(crederci)* __(4)__.\n\nPochi giorni fa Mattia *(ricordare)* __(5)__ i pranzi per cinque presidenti. Pochi giorni fa Mattia *(raccontare)* __(6)__ il ruolo dei suoi piatti. Pochi giorni fa l'articolo *(menzionare)* __(7)__ gli incontri finiti nei libri di storia. Pochi giorni fa l'articolo *(descrivere)* __(8)__ il pranzo col re di Spagna.\n\nAllora ha detto: «Voglio che i giovani non *(arrendersi)* __(9)__ mai». Allora, se un ragazzo gli chiedesse consiglio, *(dirgli)* __(10)__ di credere negli obiettivi. Allora *(sognare)* __(11)__ sempre il ring. Mentre Mattia *(aprire)* __(12)__ un negozio, i colleghi allora *(dire)* __(13)__ sempre che l'impresa avrebbe fallito. Benché allora i colleghi del padre non *(credere)* __(14)__ nel progetto, Mattia ha continuato. Secondo loro, se avesse insistito, il negozio *(essere)* __(15)__ un fallimento. Pochi giorni fa Mattia *(ricordare)* __(16)__ il ripensamento dei colleghi.\n\nMentre *(scrivere)* __(17)__ il libro a ottantacinque anni, allora Mattia, pagina dopo pagina, *(raccontare)* __(18)__ gli obiettivi raggiunti e i pranzi. Mentre *(descrivere)* __(19)__ l'impresa, ricordava il catering. Ha concluso: «Spero che l'esperienza *(potere)* __(20)__ spronare i giovani».",
+    "T5_TITLE": "DAI VICOLI DEL RIONE SANITÀ AI PRANZI DI STATO"
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | percorreva | indicativo imperfetto | S2.11 | sognava | indicativo imperfetto |\n| S2.2 | amava | indicativo imperfetto | S2.12 | apriva | indicativo imperfetto |\n| S2.3 | sarebbero state servite | condizionale passato passivo | S2.13 | dicevano | indicativo imperfetto |\n| S2.4 | ci avrebbe creduto | condizionale passato | S2.14 | credessero | congiuntivo imperfetto |\n| S2.5 | ha ricordato | indicativo passato prossimo | S2.15 | sarebbe stato | condizionale passato |\n| S2.6 | ha raccontato | indicativo passato prossimo | S2.16 | ha ricordato | indicativo passato prossimo |\n| S2.7 | ha menzionato | indicativo passato prossimo | S2.17 | scriveva | indicativo imperfetto |\n| S2.8 | ha descritto | indicativo passato prossimo | S2.18 | raccontava | indicativo imperfetto |\n| S2.9 | si arrendano | congiuntivo presente | S2.19 | descriveva | indicativo imperfetto |\n| S2.10 | gli direbbe | condizionale presente | S2.20 | possa | congiuntivo presente |",
+    "ANS_S2_NOTES": "- **S2.1–S2.2:** «a quei tempi», «ogni giorno», «mentre» e «allora» fissano lo sfondo abituale.（明确的过去背景与习惯标记锁定未完成过去时）\n- **S2.3–S2.4:** «Se gli avessero predetto» apre un periodo ipotetico irreale; «le sue pietanze» impone il passivo plurale femminile.（过去非现实条件句与明确主语锁定过去条件式被动）\n- **S2.5–S2.8:** ogni clausola contiene «Pochi giorni fa» e un soggetto singolare esplicito.（每个分句都有明确的近期过去时间标记和单数主语）\n- **S2.9–S2.10:** «voglio che» regge il congiuntivo; «se … chiedesse» richiede il condizionale.（固定支配结构分别锁定虚拟式和条件式）\n- **S2.11–S2.14:** «allora», «sempre», «a quei tempi» e «mentre» fissano lo sfondo; in S2.14 il soggetto esplicito è «i colleghi del padre».（时间标记锁定未完成过去时，明确复数主语消除数的一致歧义）\n- **S2.15–S2.16:** il periodo ipotetico impone «sarebbe stato»; «Pochi giorni fa» e «Mattia» fissano tempo e numero di S2.16.（条件句与明确的时间、主语标记锁定形式）\n- **S2.17–S2.20:** «mentre» e «allora» fissano le azioni durative; «spero che» richiede «possa».（持续背景标记与固定支配结构锁定各形式）"
+  },
+  "key": {
+    "S2.1": "percorreva",
+    "S2.2": "amava",
+    "S2.3": "sarebbero state servite",
+    "S2.4": "ci avrebbe creduto",
+    "S2.5": "ha ricordato",
+    "S2.6": "ha raccontato",
+    "S2.7": "ha menzionato",
+    "S2.8": "ha descritto",
+    "S2.9": "si arrendano",
+    "S2.10": "gli direbbe",
+    "S2.11": "sognava",
+    "S2.12": "apriva",
+    "S2.13": "dicevano",
+    "S2.14": "credessero",
+    "S2.15": "sarebbe stato",
+    "S2.16": "ha ricordato",
+    "S2.17": "scriveva",
+    "S2.18": "raccontava",
+    "S2.19": "descriveva",
+    "S2.20": "possa"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rione",
+      "categoria": "nome comune",
+      "zh": "城区；街区",
+      "en": "district; neighbourhood",
+      "esempio": "i vicoli del rione Sanità"
+    },
+    {
+      "parola": "vertici",
+      "categoria": "nome comune plurale",
+      "zh": "峰会",
+      "en": "summits",
+      "esempio": "ai vertici"
+    },
+    {
+      "parola": "pugilato",
+      "categoria": "nome comune",
+      "zh": "拳击运动",
+      "en": "boxing",
+      "esempio": "il pugilato"
+    },
+    {
+      "parola": "ripensamento",
+      "categoria": "nome comune",
+      "zh": "重新考虑；改变看法",
+      "en": "change of mind",
+      "esempio": "il ripensamento dei colleghi"
+    },
+    {
+      "parola": "catering",
+      "categoria": "nome comune invariabile",
+      "zh": "餐饮承办服务",
+      "en": "catering",
+      "esempio": "ricordava il catering"
+    }
+  ]
+}

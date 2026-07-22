@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi l'egittologo Zahi Hawass *(raccontare)* __racconta (0)__. Finora *(ricostruire)* __(1)__ la genealogia di Tutankhamon.\n\n**Perché l'antico Egitto ci affascina?**\n\nMentre alcuni regnanti *(governare)* __(2)__ con giustizia, il popolo *(credere)* __(3)__ sempre nell'al di là e molti *(sposarsi)* __(4)__ spesso per amore. Domani un bambino *(rispondere)* __(5)__ «mummie, faraoni, piramidi». Se lei lo interrogasse oggi, lui *(dire)* __(6)__ così.\n\n**Qual è la sua missione?**\n\nAdesso la mia missione *(essere)* __(7)__ sfatare le falsità storiche. Io finora *(cercare)* __(8)__ di sfatare la maledizione di Tutankhamon, un'invenzione dei media del 1922. Oggi iscrizioni e tombe decorate *(dimostrare)* __(9)__ che i costruttori non erano schiavi: mentre costruivano le piramidi, *(essere)* __(10)__ lavoratori pagati.\n\n**Quanto resta oggi da scoprire?**\n\nOggi *(restare)* __(11)__ molto. Fino a oggi gli archeologi *(fare)* __(12)__ solo il trenta per cento delle scoperte. Adesso *(esserci)* __(13)__ siti da studiare; in futuro gli archeologi *(scoprire)* __(14)__ altri tesori.\n\n**Che cosa pensa oggi della restituzione?**\n\nIo oggi *(pensare)* __(15)__ che tre opere debbano tornare in Egitto. Se decidesse lei, il Paese *(dovere)* __(16)__ riaverle e le opere *(tornare)* __(17)__ a casa. Adesso la Stele *(trovarsi)* __(18)__ al British Museum, il busto *(essere)* __(19)__ a Berlino e lo Zodiaco *(rimanere)* __(20)__ al Louvre.",
+    "T5_TITLE": "ZAHI HAWASS E I TESORI DELL'ANTICO EGITTO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1, S2.8 e S2.12:** «Finora» e «Fino a oggi» richiedono il passato prossimo; 到目前为止，动作与现在相连.\n- **S2.2–S2.4 e S2.10:** «mentre», «sempre» e «spesso» descrivono situazioni abituali del passato, quindi richiedono l'imperfetto.\n- **S2.5 e S2.14:** «Domani» e «In futuro» impongono il futuro semplice.\n- **S2.6, S2.16 e S2.17:** le condizioni introdotte da «Se interrogasse» e «Se decidesse» richiedono il condizionale presente.\n- **S2.8 e S2.15:** il soggetto stampato «Io» impone la prima persona singolare.",
+    "ANS_S2_ROWS": "| S2.1 | ha ricostruito | passato prossimo | S2.11 | resta | presente indicativo |\n| S2.2 | governavano | imperfetto indicativo | S2.12 | hanno fatto | passato prossimo |\n| S2.3 | credeva | imperfetto indicativo | S2.13 | ci sono | presente indicativo |\n| S2.4 | si sposavano | imperfetto indicativo | S2.14 | scopriranno | futuro semplice |\n| S2.5 | risponderà | futuro semplice | S2.15 | penso | presente indicativo |\n| S2.6 | direbbe | condizionale presente | S2.16 | dovrebbe | condizionale presente |\n| S2.7 | è | presente indicativo | S2.17 | tornerebbero | condizionale presente |\n| S2.8 | ho cercato | passato prossimo | S2.18 | si trova | presente indicativo |\n| S2.9 | dimostrano | presente indicativo | S2.19 | è | presente indicativo |\n| S2.10 | erano | imperfetto indicativo | S2.20 | rimane | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "ha ricostruito",
+    "S2.2": "governavano",
+    "S2.3": "credeva",
+    "S2.4": "si sposavano",
+    "S2.5": "risponderà",
+    "S2.6": "direbbe",
+    "S2.7": "è",
+    "S2.8": "ho cercato",
+    "S2.9": "dimostrano",
+    "S2.10": "erano",
+    "S2.11": "resta",
+    "S2.12": "hanno fatto",
+    "S2.13": "ci sono",
+    "S2.14": "scopriranno",
+    "S2.15": "penso",
+    "S2.16": "dovrebbe",
+    "S2.17": "tornerebbero",
+    "S2.18": "si trova",
+    "S2.19": "è",
+    "S2.20": "rimane"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "genealogia",
+      "categoria": "nome femminile",
+      "zh": "家谱；世系",
+      "en": "genealogy",
+      "esempio": "la genealogia di Tutankhamon"
+    },
+    {
+      "parola": "al di là",
+      "categoria": "locuzione nominale",
+      "zh": "来世",
+      "en": "afterlife",
+      "esempio": "nell'al di là"
+    },
+    {
+      "parola": "sfatare",
+      "categoria": "verbo",
+      "zh": "揭穿；破除",
+      "en": "to debunk",
+      "esempio": "sfatare le falsità storiche"
+    },
+    {
+      "parola": "tombe decorate",
+      "categoria": "locuzione nominale",
+      "zh": "装饰过的墓葬",
+      "en": "decorated tombs",
+      "esempio": "iscrizioni e tombe decorate"
+    },
+    {
+      "parola": "restituzione",
+      "categoria": "nome femminile",
+      "zh": "归还",
+      "en": "restitution",
+      "esempio": "della restituzione"
+    }
+  ]
+}

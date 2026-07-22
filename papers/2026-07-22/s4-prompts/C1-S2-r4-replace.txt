@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — replace ONE gap's construction.
+
+Fragment: papers/2026-07-22/C1/fragments/S2.json (cloze_verbi, 20 gaps, T5 = Jeli il pastore). Read the current fragment.
+
+Everything validates EXCEPT S2.2. Its «sebbene … (descrivere) ___» concessive keeps admitting BOTH congiuntivo passato «l'abbia descritto» AND congiuntivo imperfetto «lo descrivesse» — in a literary passato-remoto narration both are stylistically defensible, so no wording of the concessive fully forces one.
+
+DECISIVE FIX: stop using a «sebbene»+congiuntivo construction for gap 2. RECAST that sentence so gap 2 tests a DIFFERENT verb form that has exactly ONE correct answer with NO tense/mood competition — for example a passato remoto forced by a cleft («Fu Verga che, nel 1881, (ritrarre) ___ Jeli in una novella» → «ritrasse»), or a clear indicative. Pick a form the T5 register supports and update key S2.2 to that single form (with `||` only for truly equivalent variants). The word «sebbene» must no longer govern gap 2.
+
+Change NOTHING else: keep the other 19 gaps, their contexts, keys, points, schema identical; keep S2 text within 230–280 words. Rewrite papers/2026-07-22/C1/fragments/S2.json in full (prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, glossario_candidates).
+
+Reply (short): the new S2.2 sentence and its single forced key form; confirm no congiuntivo tense competition remains.

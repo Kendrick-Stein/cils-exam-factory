@@ -1,0 +1,170 @@
+exam: cils
+level: C1
+session: '2026-07-22'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2026/07/20/timo-organo-utilita/
+  title: Nel corpo umano c'è un organo più utile di quanto si pensasse
+  publisher: Il Post
+  published: '2026-07-20'
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 596
+- id: T2
+  url: https://www.museodarcomantova.it/biblioteca/regolamento
+  title: Regolamento di accesso — Biblioteca dei Conti d'Arco e Archivio, Museo di
+    Palazzo d'Arco
+  publisher: Fondazione d'Arco / Museo di Palazzo d'Arco, Mantova
+  published: non datato (pagina istituzionale permanente del sito)
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 507
+- id: T3
+  url: https://it.wikisource.org/wiki/Vita_dei_campi_(1881)/Rosso_Malpelo
+  title: Rosso Malpelo (in Vita dei campi, 1881)
+  publisher: Wikisource (it.wikisource.org)
+  published: 1881 (opera di pubblico dominio; nessuna data di "pubblicazione web"
+    applicabile)
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 468
+- id: T4
+  url: https://www.ilpost.it/2026/07/17/matematica-intelligenza-artificiale-progressi/
+  title: Le AI trasformano la matematica, se le convinci
+  publisher: Il Post
+  published: '2026-07-17'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 287
+- id: T5
+  url: https://it.wikisource.org/wiki/Vita_dei_campi_(1881)/Jeli_il_pastore
+  title: Jeli il pastore (in Vita dei campi, 1881)
+  publisher: Wikisource (it.wikisource.org)
+  published: '1881'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 270
+- id: T6
+  url: https://www.doppiozero.com/alberi-e-frutta-castagno
+  title: Alberi e frutta. Castagno
+  publisher: doppiozero
+  published: '2026-07-02'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 229
+- id: T7
+  url: https://www.comune.napoli.it/articolo_tematico/urbanistica-patrimonio-politiche-per-la-casa-cimiteri-cittadini/edilizia-privata/
+  title: Edilizia Privata — Avviso del 01/07/2026
+  publisher: Comune di Napoli
+  published: '2026-07-01'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: true
+  words_used: 186
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-22T14:55:36+00:00'
+  - stage: authoring
+    at: '2026-07-22T14:55:36+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-22T16:36:58+00:00'
+    agreement: 72/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T16:59:22+00:00'
+    agreement: 82/83
+    flags: 5
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T17:08:06+00:00'
+    agreement: 82/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T17:21:49+00:00'
+    agreement: 76/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T17:31:06+00:00'
+    agreement: 82/83
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T17:49:52+00:00'
+    agreement: 62/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T18:07:18+00:00'
+    agreement: 82/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T18:07:39+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: fail
+    issues: 2
+  - stage: blind_validation
+    at: '2026-07-22T18:15:52+00:00'
+    agreement: 82/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T18:21:10+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

@@ -1,0 +1,47 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/A2.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level A2, session 2026-07-22, fragment ID O (Test di produzione orale).
+
+Prova spec from exam.yaml:
+id: orale
+nome: Test di produzione orale
+durata: ~10 minuti
+punti: 12
+punti_nota: 'modulo standard adulti: 12 punti, soglia 7 (linee guida); ripartizione
+  6 + 6 inferita; il campione dic-2024 è del modulo Integrazione (18 punti, struttura
+  diversa)'
+prove:
+- n: 1
+  tipo: dialogo
+  focus: dialogo con l'esaminatore, vita quotidiana
+  genere: 6 domande stampate su vita quotidiana (lavoro/studio, spesa, orari, spostamenti,
+    vacanze)
+  domande: 6
+  durata_prova: 2-3 minuti circa
+  punti: 6
+- n: 2
+  tipo: monologo
+  focus: monologo breve
+  genere: 1 tema familiare a scelta fra 2 (esperienze passate o abitudini)
+  scelta: 2
+  durata_prova: 1 minuto e mezzo circa
+  punti: 6
+
+This fragment has NO source text — compose its content per the template HTML comments and the spec below.
+
+Item-writer reminder for this prova: Produzione orale: compose text-only argomenti/domande (NEVER image tracce). Provide a COMPLETE memorizable model for EVERY argomento/domanda (dialoghi as Esaminatore:/Candidato: turns; monologhi within the spoken-length range in the template comment) + 3-5 espressioni utili per prova. key stays EMPTY.
+
+Output: write EXACTLY ONE file, papers/2026-07-22/A2/fragments/O.json — a JSON object
+{"prova": "O", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): O1_DOMANDE, O2_ARGOMENTI, MODEL_O1, MODEL_O1_PHRASES, MODEL_O2, MODEL_O2_PHRASES
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (O.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio) — omit for W/O (no source).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.

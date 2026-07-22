@@ -1,0 +1,12 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — LENGTH trim only.
+
+Fragment: papers/2026-07-22/C1/fragments/L3.json (ricostruzione, 16 parti A–P, 2 ancore, T3 = Rosso Malpelo). Read the current fragment.
+
+The reading text (the 16 parts together) measures 536 words; the C1 band for this prova is 420–520. Trim ~20–25 words to land ≤515 (aim ~500). Rules:
+- Do NOT remove or weaken the OPENING cohesion cue (connettivo / anaphoric pronoun / temporal marker) of ANY part — those force the unique order and were hard-won. Cut only redundant words in the MIDDLE/END of parts.
+- Do NOT change the number of parts (16), the 2 fixed anchors, the order, or the key sequence «A–F–N–C–L–H–P–D–I–M–B–O–G–K–E–J».
+- Preserve Verga's facts.
+
+Count the 16 parts' total words yourself (regex \b[\wÀ-ÿ']+\b) and confirm ≤515. Rewrite papers/2026-07-22/C1/fragments/L3.json in full (prova "L3", slots {T3_TITLE, T3_PART_A..P}, answer_slots {ANS_L3_ROWS, ANS_L3_SEQUENCE}, key {"L3": "..."}, glossario_candidates).
+
+Reply (short): the new total word count; confirm every part's opening cue and the order are unchanged.

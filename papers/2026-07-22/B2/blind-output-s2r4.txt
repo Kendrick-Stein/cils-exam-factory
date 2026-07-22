@@ -1,0 +1,12 @@
+ANSWERS
+```json
+{"S2.1": {"answer": "percorreva", "confidence": "hi"}, "S2.2": {"answer": "amava", "confidence": "hi"}, "S2.3": {"answer": "sarebbero state servite", "confidence": "hi"}, "S2.4": {"answer": "ci avrebbe creduto", "confidence": "hi"}, "S2.5": {"answer": "ha ricordato", "confidence": "hi"}, "S2.6": {"answer": "ha raccontato", "confidence": "hi"}, "S2.7": {"answer": "ha menzionato", "confidence": "hi"}, "S2.8": {"answer": "ha descritto", "confidence": "hi"}, "S2.9": {"answer": "si arrenda", "confidence": "med"}, "S2.10": {"answer": "gli direbbe", "confidence": "hi"}, "S2.11": {"answer": "sognava", "confidence": "hi"}, "S2.12": {"answer": "apriva", "confidence": "hi"}, "S2.13": {"answer": "dicevano", "confidence": "hi"}, "S2.14": {"answer": "credessero", "confidence": "hi"}, "S2.15": {"answer": "sarebbe stato", "confidence": "hi"}, "S2.16": {"answer": "ha ricordato", "confidence": "hi"}, "S2.17": {"answer": "scriveva", "confidence": "hi"}, "S2.18": {"answer": "raccontava", "confidence": "hi"}, "S2.19": {"answer": "descriveva", "confidence": "hi"}, "S2.20": {"answer": "possa", "confidence": "hi"}}
+```
+
+FLAGS
+```json
+[{"item_id": "S2.9", "reason": "«Voglio che non (arrendersi) mai» has no explicit subject: 'si arrenda' (3rd person reflexive) vs impersonal 'ci si arrenda' both valid."}]
+```
+
+WRITING
+n/a

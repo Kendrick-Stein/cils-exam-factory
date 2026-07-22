@@ -1,0 +1,37 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "percorreva", "confidence": "hi"},
+  "S2.2": {"answer": "gestiva", "confidence": "hi"},
+  "S2.3": {"answer": "sarebbero state servite", "confidence": "hi"},
+  "S2.4": {"answer": "ci avrebbe creduto", "confidence": "hi"},
+  "S2.5": {"answer": "ha organizzato", "confidence": "hi"},
+  "S2.6": {"answer": "hanno portato", "confidence": "med"},
+  "S2.7": {"answer": "sono finiti", "confidence": "med"},
+  "S2.8": {"answer": "ha", "confidence": "hi"},
+  "S2.9": {"answer": "si arrendano", "confidence": "hi"},
+  "S2.10": {"answer": "gli direbbe", "confidence": "hi"},
+  "S2.11": {"answer": "sognava", "confidence": "hi"},
+  "S2.12": {"answer": "aprì", "confidence": "hi"},
+  "S2.13": {"answer": "dicevano", "confidence": "hi"},
+  "S2.14": {"answer": "credessero", "confidence": "hi"},
+  "S2.15": {"answer": "sarebbe stato", "confidence": "hi"},
+  "S2.16": {"answer": "si sono ricreduti", "confidence": "hi"},
+  "S2.17": {"answer": "ha pensato", "confidence": "hi"},
+  "S2.18": {"answer": "aver raccontato", "confidence": "hi"},
+  "S2.19": {"answer": "si intitola", "confidence": "med"},
+  "S2.20": {"answer": "possa", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S2.6", "reason": "gnomic present 'portano' competes with intended 'hanno portato' — clause joined by semicolon, outside 'fino a oggi' scope."},
+  {"item_id": "S2.7", "reason": "gnomic present 'finiscono' competes with intended 'sono finiti' — clause joined by 'e', outside marker scope."},
+  {"item_id": "S2.19", "reason": "(intitolarsi): 'si intitola' vs 'è intitolato' both idiomatic present, no disambiguation."}
+]
+```
+
+WRITING
+n/a

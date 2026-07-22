@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Rino Nogarotto *(essere)* __è (0)__ un pensionato di Roncade, vicino Treviso. Adesso *(amare)* __(1)__ le auto e le moto d'epoca. L'anno scorso *(decidere)* __(2)__ di creare un museo. A quei tempi, ogni giorno *(cercare)* __(3)__ i permessi per costruire sul suo terreno. Nel marzo 2026 *(ricevere)* __(4)__ il permesso. Per aprire il museo, *(pagare)* __(5)__ tutto da solo. Adesso *(avere)* __(6)__ 45 moto e cinque automobili. Adesso la collezione *(comprendere)* __(7)__ veicoli di valore storico. Adesso Rino *(volere)* __(8)__ farla conoscere alle scuole. Adesso non *(esserci)* __(9)__ aiuti pubblici per il progetto. Adesso il progetto *(prevedere)* __(10)__ un museo di 350 metri quadrati, simile a un'officina.",
+    "T5_TITLE": "LA PASSIONE DI RINO DIVENTA UN MUSEO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "Le espressioni temporali rendono unica ogni forma: «L'anno scorso», «Nel marzo 2026» e «Dopo la pensione» fissano il passato prossimo; «A quei tempi, ogni giorno» richiede l'imperfetto; «Adesso» introduce lo stato attuale e richiede il presente. 中文提示：先找时间标记，再写完整动词形式。",
+    "ANS_S2_ROWS": "| 1 | ama | presente | 6 | ha | presente |\n| 2 | ha deciso | passato prossimo | 7 | comprende | presente |\n| 3 | cercava | imperfetto | 8 | vuole | presente |\n| 4 | ha ricevuto | passato prossimo | 9 | ci sono | presente |\n| 5 | ha pagato | passato prossimo | 10 | prevede | presente |"
+  },
+  "key": {
+    "S2.1": "ama",
+    "S2.2": "ha deciso",
+    "S2.3": "cercava",
+    "S2.4": "ha ricevuto",
+    "S2.5": "ha pagato",
+    "S2.6": "ha",
+    "S2.7": "comprende",
+    "S2.8": "vuole",
+    "S2.9": "ci sono",
+    "S2.10": "prevede"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "pensionato",
+      "categoria": "nome maschile",
+      "zh": "退休人员",
+      "en": "retired person",
+      "esempio": "un pensionato"
+    },
+    {
+      "parola": "d'epoca",
+      "categoria": "locuzione aggettivale",
+      "zh": "古董的；老式的",
+      "en": "vintage",
+      "esempio": "le auto e le moto d'epoca"
+    },
+    {
+      "parola": "collezione",
+      "categoria": "nome femminile",
+      "zh": "收藏；藏品",
+      "en": "collection",
+      "esempio": "Adesso la collezione"
+    },
+    {
+      "parola": "aiuti pubblici",
+      "categoria": "locuzione nominale",
+      "zh": "公共资助",
+      "en": "public funding",
+      "esempio": "aiuti pubblici"
+    },
+    {
+      "parola": "metri quadrati",
+      "categoria": "locuzione nominale",
+      "zh": "平方米",
+      "en": "square metres",
+      "esempio": "un museo di 350 metri quadrati"
+    }
+  ]
+}

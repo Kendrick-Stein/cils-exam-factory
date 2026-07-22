@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un corso o un laboratorio al quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Hai cambiato casa e vuoi invitare un amico o un'amica a cena per festeggiare. Scrivigli o scrivile un'email.",
+    "W2_REQ_1": "invitarlo o invitarla e indicare il giorno e l'ora della cena;",
+    "W2_REQ_2": "spiegare come raggiungere la tua nuova casa;",
+    "W2_REQ_3": "chiedere se ha particolari esigenze alimentari."
+  },
+  "answer_slots": {
+    "MODEL_W1": "L'estate scorsa ho partecipato a un laboratorio di cucina organizzato durante la festa del mio quartiere. Sono andato con la mia amica Sara, perché entrambi volevamo imparare a preparare la pasta fresca. Lo chef ci ha divisi in piccoli gruppi e ci ha mostrato come mescolare gli ingredienti. All'inizio il mio impasto era troppo duro, ma Sara mi ha consigliato di aggiungere un po' d'acqua. Dopo alcuni tentativi siamo riusciti a fare delle tagliatelle quasi regolari. Alla fine tutti hanno assaggiato i piatti e hanno votato quello più creativo. Non abbiamo vinto, però mi sono divertito molto. Questa esperienza mi ha insegnato a essere paziente e mi ha fatto conoscere persone del quartiere che non avevo mai incontrato.",
+    "MODEL_W1_PHRASES": "«L'estate scorsa ho partecipato a…»（去年夏天我参加了……）; «All'inizio…»（起初……）; «Dopo alcuni tentativi…»（尝试几次之后……）; «Siamo riusciti a…»（我们成功地……）; «Questa esperienza mi ha insegnato a…»（这次经历教会了我……）",
+    "MODEL_W2": "Ciao Paolo,\n\nsabato sera vorrei festeggiare la mia nuova casa con una cena. Ti va di venire alle otto? Abito in via Verdi 18: dalla stazione prendi l'autobus 6 e scendi alla fermata Teatro. Dimmi se non mangi qualche alimento, così preparo un menu adatto. Puoi anche portare la tua chitarra? Dopo cena potremmo suonare insieme.\n\nUn abbraccio,\nMarta",
+    "MODEL_W2_PHRASES": "«Vorrei festeggiare…»（我想庆祝……）; «Ti va di venire…?»（你愿意来……吗？）; «Dalla stazione prendi…»（从车站乘坐……）; «Dimmi se…»（请告诉我是否……）; «Così preparo…»（这样我就准备……）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

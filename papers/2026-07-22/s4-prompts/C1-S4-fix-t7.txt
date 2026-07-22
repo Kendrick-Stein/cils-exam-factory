@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — restore two missing slots.
+
+Fragment: papers/2026-07-22/C1/fragments/S4.json (trasformazioni, T7 = avviso amministrativo Comune di Napoli). Read the current fragment.
+
+Problem: the fragment is MISSING two required template slots — T7_TITLE and T7_TEXT — so assembly fails ("unfilled template slots: T7_TEXT, T7_TITLE"). These hold the continuous administrative SOURCE passage printed above the 6 trasformazioni.
+
+Fix: ADD "T7_TITLE" and "T7_TEXT" to the fragment's `slots` object:
+- T7_TEXT = the continuous administrative source passage (adapted from the '## Slot T7' section of papers/2026-07-22/C1/sources.md), 130–180 words, from which the 6 transformation sentences are drawn. It must be the coherent source text (NOT the transformation items).
+- T7_TITLE = a short title for that passage.
+Read factory/exams/cils/templates/C1.md to confirm the exact placement/format expected for T7_TITLE/T7_TEXT.
+
+Keep EVERYTHING else identical: S4_ITEMS, S4_SOURCE_0, S4_REWRITE_0, answer_slots (ANS_S4_ROWS, ANS_S4_NOTES), key S4.1..S4.6, glossario_candidates — do not change any of them. Rewrite papers/2026-07-22/C1/fragments/S4.json in full with the two slots added.
+
+Reply (short): confirm T7_TITLE + T7_TEXT added and word count of T7_TEXT; confirm S4 items/keys unchanged.

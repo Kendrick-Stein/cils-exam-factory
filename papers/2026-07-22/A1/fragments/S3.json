@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "applicazione",
+    "S3_OPT0_B": "associazione",
+    "S3_OPT0_C": "informazione",
+    "S3_OPTION_ROWS": "| 1. | personale | ambientale | musicale |\n| 2. | domande | fotografie | informazioni |\n| 3. | raccolta | vendita | lettura |\n| 4. | prezzi | colori | errori |\n| 5. | foto | visita | telefonata |\n| 6. | comprarlo | buttarlo | venderlo |\n| 7. | vendere | cancellare | scaricare |\n| 8. | biglietto | smartphone | quaderno |",
+    "S3_TEXT_WITH_GAPS": "L'app PuliAMO è un'__applicazione (0)__ gratuita che aiuta i cittadini di Como nei servizi di igiene __(1)__. L'app dà __(2)__ sulle frequenze e le modalità di __(3)__ dei rifiuti. C'è anche una funzione che aiuta a differenziare senza __(4)__ i rifiuti di casa. Basta fare una __(5)__ al codice a barre del prodotto per sapere come __(6)__. È sufficiente __(7)__ l'app da uno degli store: App Store, Google Play e Huawei AppGallery. Serve solo uno __(8)__.",
+    "T6_TITLE": "L'APP PULIAMO"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Nel contesto della raccolta dei rifiuti, l'igiene è «ambientale».（环境卫生） |\n| S3.2 | C | L'app dà «informazioni» sulle frequenze e sulle modalità del servizio.（提供信息） |\n| S3.3 | A | I rifiuti sono oggetto della «raccolta».（垃圾收集） |\n| S3.4 | C | La funzione aiuta a differenziare «senza errori».（不出错地分类） |\n| S3.5 | A | Per leggere il codice a barre bisogna fare una «foto».（拍照扫码） |\n| S3.6 | B | La foto serve a sapere come «buttarlo», cioè come eliminare il prodotto.（如何丢弃） |\n| S3.7 | C | Per usare l'app da uno store bisogna «scaricare» l'app.（下载应用） |\n| S3.8 | B | Per scaricare e usare l'app serve uno «smartphone».（需要智能手机） |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "raccolta",
+      "categoria": "nome",
+      "zh": "收集",
+      "en": "collection",
+      "esempio": "L'app dà informazioni sulle frequenze e le modalità di raccolta dei rifiuti."
+    },
+    {
+      "parola": "rifiuti",
+      "categoria": "nome plurale",
+      "zh": "垃圾",
+      "en": "waste",
+      "esempio": "C'è anche una funzione che aiuta a differenziare senza errori i rifiuti di casa."
+    },
+    {
+      "parola": "codice a barre",
+      "categoria": "locuzione nominale",
+      "zh": "条形码",
+      "en": "barcode",
+      "esempio": "Basta fare una foto al codice a barre del prodotto per sapere come buttarlo."
+    },
+    {
+      "parola": "scaricare",
+      "categoria": "verbo",
+      "zh": "下载",
+      "en": "to download",
+      "esempio": "È sufficiente scaricare l'app da uno degli store: App Store, Google Play e Huawei AppGallery."
+    },
+    {
+      "parola": "frequenze",
+      "categoria": "nome plurale",
+      "zh": "频率",
+      "en": "frequencies",
+      "esempio": "L'app dà informazioni sulle frequenze e le modalità di raccolta dei rifiuti."
+    }
+  ]
+}

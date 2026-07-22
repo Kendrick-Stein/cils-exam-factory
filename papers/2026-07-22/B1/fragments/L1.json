@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Nei momenti in cui i medici temevano che ci fossero poche speranze, Maddalena**\n\nA) continuava a scrivere testi di vario tipo.\n\nB) preparava il suo trasferimento a Roma.\n\nC) parlava della malattia con altri pazienti.\n\nD) leggeva libri scritti dai suoi familiari.\n\n**2. In un primo momento, Maddalena pensava che i suoi fogli sarebbero stati**\n\nA) un regalo per il personale dell'ospedale.\n\nB) un ricordo da lasciare alle persone care.\n\nC) il materiale per una ricerca medica.\n\nD) un messaggio destinato ad altri malati.\n\n**3. La vera gravità della malattia è emersa**\n\nA) durante la prima visita del maggio 2025.\n\nB) dopo la pubblicazione del primo libro.\n\nC) nel corso di un successivo intervento.\n\nD) alla fine degli otto cicli di cura.\n\n**4. Dopo circa otto cicli di chemioterapia,**\n\nA) la malattia è entrata in remissione completa.\n\nB) Maddalena ha dovuto cambiare ospedale.\n\nC) i medici hanno modificato la diagnosi iniziale.\n\nD) Maddalena ha interrotto la raccolta dei testi.\n\n**5. Quando la diagnosi è cambiata, i testi di Maddalena**\n\nA) sono diventati più brevi e realistici.\n\nB) hanno perso il loro valore personale.\n\nC) sono stati corretti dalla sua famiglia.\n\nD) hanno assunto un significato di rinascita.\n\n**6. Durante il ricovero, la letteratura permetteva a Maddalena di**\n\nA) dimenticare le persone che le stavano accanto.\n\nB) allontanarsi per un po' dal dolore.\n\nC) comprendere meglio le cure ricevute.\n\nD) prepararsi a lavorare in ospedale.\n\n**7. Nel libro “E cadde la notte”, Maddalena**\n\nA) presenta soltanto poesie sulla sua malattia.\n\nB) racconta le storie dei medici conosciuti a Roma.\n\nC) unisce generi diversi e aspetti della propria realtà.\n\nD) spiega come funzionano la prevenzione e la ricerca.",
+    "T1_TEXT": "«La scrittura mi ha salvato la vita». Non è una metafora, né una frase a effetto. Per Maddalena Giordano, materana, classe 1992, è il modo più semplice per raccontare ciò che ha vissuto negli ultimi mesi. Quando i medici temevano che per lei ci fossero ormai poche speranze, tra le stanze dell'Ematologia del Policlinico Umberto I di Roma continuava a scrivere racconti, favole e poesie. Piccoli mondi immaginari nei quali rifugiarsi mentre affrontava un linfoma non Hodgkin al quarto stadio, con metastasi che avevano già interessato diversi organi vitali. Quei fogli, nati inizialmente come un ultimo lascito per i suoi cari, sono diventati il simbolo di una rinascita e oggi hanno preso forma nel suo primo libro, “E cadde la notte”.\n\nLa storia di Maddalena comincia nel maggio del 2025, quando una prima diagnosi non individua la vera gravità della malattia. Solo durante un successivo intervento chirurgico, eseguito a Corato, emerge una realtà diversa. Da quel momento prende il via un percorso che la conduce a Roma, dove ulteriori accertamenti permettono di individuare un linfoma non Hodgkin a grandi cellule B. Dopo circa otto cicli di chemioterapia, conclusi nell'aprile scorso, oggi la malattia è in remissione completa.\n\n«Durante il ricovero», racconta, «ho arricchito la mia raccolta con nuovi testi e rivisto quelli già scritti. All'inizio erano pensati come un lascito postumo. Poi la diagnosi è cambiata e quei testi, che sembravano un addio, sono diventati germogli di nuova vita».\n\nÈ proprio tra le pareti dell'ospedale che Maddalena comprende fino in fondo il valore della letteratura. «La scrittura e la lettura assorbivano ogni pensiero», aggiunge. «Riuscivo a galleggiare sul dolore fisico e psicologico immergendomi in piccoli universi fantastici. La letteratura mi stava salvando».\n\nPer lei la scrittura è stata una terapia. «Mi ha alleviato il dolore», spiega, «e dato speranza anche quando sembrava davvero tutto finito». Accanto alla forza delle parole c'è stata quella delle persone.\n\n«L'amore delle persone che abbiamo accanto è la vera ricchezza. Tutto il resto passa in secondo piano». Da quell'esperienza è nato anche un modo diverso di guardare la vita. «Prima il cancro mi faceva paura persino nominarlo», afferma. «Oggi vorrei essere vicina a chi lo affronta e spero che la sanità pubblica possa essere sempre più valorizzata, insieme alla prevenzione e alla ricerca».\n\nNel suo esordio letterario, “E cadde la notte”, racconto, poesia e favola si intrecciano in un viaggio tra malinconia, immaginazione e speranza. «Ogni storia», conclude, «contiene un frammento della mia realtà. Vorrei che ogni lettore trovasse la propria nicchia tra queste pagine, lasciandosi cullare e accompagnare in una riflessione capace di far ridere, piangere e sospirare insieme».",
+    "T1_TITLE": "DAL REPARTO DI EMATOLOGIA AL PRIMO LIBRO"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Quando i medici temevano che ci fossero poche speranze, Maddalena «continuava a scrivere racconti, favole e poesie». 中文：即使病情严重，她仍继续写作。 |\n| L1.2 | B | I fogli erano nati «come un ultimo lascito per i suoi cari». 中文：最初是留给亲人的纪念。 |\n| L1.3 | C | La realtà diversa emerge «durante un successivo intervento chirurgico». 中文：不是第一次诊断时发现的。 |\n| L1.4 | A | Dopo circa otto cicli di chemioterapia, «la malattia è in remissione completa». 中文：治疗后病情完全缓解。 |\n| L1.5 | D | I testi che sembravano un addio «sono diventati germogli di nuova vita». 中文：意义由告别变为重生。 |\n| L1.6 | B | Maddalena riusciva a «galleggiare sul dolore fisico e psicologico» nei suoi universi fantastici. 中文：文学让她暂时超越痛苦。 |\n| L1.7 | C | Nel libro «racconto, poesia e favola si intrecciano» e ogni storia contiene «un frammento della mia realtà». 中文：作品结合不同文体与个人经历。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "A",
+    "L1.5": "D",
+    "L1.6": "B",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rifugiarsi",
+      "categoria": "verbo",
+      "zh": "躲避；寻求慰藉",
+      "en": "to take refuge",
+      "esempio": "Piccoli mondi immaginari nei quali rifugiarsi mentre affrontava un linfoma non Hodgkin al quarto stadio, con metastasi che avevano già interessato diversi organi vitali."
+    },
+    {
+      "parola": "lascito",
+      "categoria": "sostantivo maschile",
+      "zh": "留给后人的事物；遗赠",
+      "en": "legacy",
+      "esempio": "Quei fogli, nati inizialmente come un ultimo lascito per i suoi cari, sono diventati il simbolo di una rinascita e oggi hanno preso forma nel suo primo libro, “E cadde la notte”."
+    },
+    {
+      "parola": "germogli",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "嫩芽；新生的象征",
+      "en": "shoots; sprouts",
+      "esempio": "Poi la diagnosi è cambiata e quei testi, che sembravano un addio, sono diventati germogli di nuova vita»"
+    },
+    {
+      "parola": "alleviato",
+      "categoria": "verbo",
+      "zh": "减轻了",
+      "en": "relieved",
+      "esempio": "«Mi ha alleviato il dolore», spiega, «e dato speranza anche quando sembrava davvero tutto finito»."
+    },
+    {
+      "parola": "nicchia",
+      "categoria": "sostantivo femminile",
+      "zh": "适合自己的小天地",
+      "en": "niche",
+      "esempio": "Vorrei che ogni lettore trovasse la propria nicchia tra queste pagine, lasciandosi cullare e accompagnare in una riflessione capace di far ridere, piangere e sospirare insieme»"
+    }
+  ]
+}

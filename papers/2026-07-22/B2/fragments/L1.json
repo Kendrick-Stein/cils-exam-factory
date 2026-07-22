@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Le discussioni sul testosterone sono aumentate di recente anche perché**\n\nA) il governo statunitense vuole misurarlo in alcuni militari.\n\nB) gli adolescenti hanno chiesto nuovi controlli medici.\n\nC) la comunità scientifica ha approvato una terapia comune.\n\nD) i militari sotto i trent'anni sono stati esclusi dal combattimento.\n\n**2. Nel testo, testosterone e spermatozoi sono collegati perché**\n\nA) entrambi determinano il tono della voce.\n\nB) il primo regola la produzione dei secondi.\n\nC) i secondi controllano il livello del primo.\n\nD) entrambi dipendono dagli integratori.\n\n**3. Il dato sul calo del 54 per cento va considerato con cautela perché**\n\nA) riguarda esclusivamente gli uomini di 65 anni.\n\nB) è stato smentito dagli autori durante il congresso.\n\nC) non è ancora pubblicato e presenta discrepanze nella comunicazione.\n\nD) misura la fertilità invece del livello di testosterone.\n\n**4. Uno studio precedente degli stessi autori**\n\nA) era passato inosservato fuori dalla comunità scientifica.\n\nB) aveva dimostrato definitivamente il dimezzamento degli spermatozoi.\n\nC) aveva riguardato soltanto le funzioni delle ossa e dei muscoli.\n\nD) aveva suscitato scalpore ed era stato usato in modo strumentale.\n\n**5. Secondo il testo, l'idea di attribuire molti malesseri alla mancanza di testosterone risulta convincente a molti perché l'ormone**\n\nA) svolge numerose funzioni nell'organismo.\n\nB) agisce unicamente sul desiderio sessuale.\n\nC) è l'unico responsabile della fertilità maschile.\n\nD) elimina la stanchezza senza effetti collaterali.\n\n**6. Sui social, il cosiddetto «low T» viene spesso presentato come**\n\nA) una conseguenza inevitabile dell'assunzione di integratori.\n\nB) un disturbo che interessa solo gli uomini anziani.\n\nC) una carenza da correggere con integratori.\n\nD) un metodo per preservare la fertilità.\n\n**7. Le linee guida europee sconsigliano la terapia con testosterone agli uomini che vogliono preservare la fertilità perché essa può**\n\nA) aumentare eccessivamente la densità delle ossa.\n\nB) bloccare gli ormoni necessari alla produzione degli spermatozoi.\n\nC) rendere impossibile misurare il livello dell'ormone.\n\nD) causare automaticamente un calo medio della fertilità.",
+    "T1_TEXT": "La diminuzione del livello di testosterone medio negli uomini è un argomento che genera sempre più discussioni e allarmi, di recente anche per via di un'iniziativa del segretario alla Difesa statunitense Pete Hegseth, che ha annunciato di volerlo testare nei militari che hanno più di trent'anni per assicurarsi che siano adatti al combattimento. Il suo collega di governo Robert F. Kennedy, segretario alla Salute, ha detto in passato di iniettarsi il testosterone, sostenendo che gli adolescenti di oggi abbiano il 50 per cento di spermatozoi in meno di un uomo di 65 anni.\n\nQuesta preoccupazione per un presunto dimezzamento del testosterone e degli spermatozoi – che sono collegati: il primo regola la produzione dei secondi – coinvolge da tempo non solo la destra americana e la maschiosfera, quella comunità di influencer che sostengono la necessità di ripristinare la supremazia maschile sulle donne, ma anche parte della comunità scientifica.\n\nNei giorni scorsi ha ricevuto molte attenzioni l'annuncio fatto a Londra a un congresso di medicina della riproduzione secondo il quale il testosterone negli uomini sarebbe calato del 54 per cento tra il 1972 e il 2019. Il dato è stato ripreso da diversi giornali e in molti l'hanno inserito in un dibattito già acceso sulla possibilità che la fertilità maschile sia in crisi, ma va preso con le molle: non solo perché non è ancora stato pubblicato su una rivista scientifica, ma anche perché ci sono delle discrepanze tra il modo in cui è stato annunciato e il documento presentato al congresso.\n\nGià in passato uno studio degli stessi autori che ipotizzava il dimezzamento della conta degli spermatozoi negli uomini aveva suscitato scalpore e da allora è stato ripreso e strumentalizzato. Il testosterone, del resto, è un argomento che negli ultimi anni è diventato di enorme interesse, perché è effettivamente un ormone che fa moltissime cose e l'idea che quasi ogni malessere possa dipendere da una sua presunta mancanza è piuttosto suggestiva.\n\nÈ il principale ormone sessuale maschile e governa lo sviluppo delle caratteristiche sessuali (le primarie, come gli organi riproduttivi, e le secondarie, come il tono di voce), il desiderio sessuale e la produzione di spermatozoi. Ma regola anche la massa muscolare, la densità delle ossa, l'umore e il metabolismo. Sui social il cosiddetto «low T», cioè un basso livello di testosterone, viene presentato come la causa di problemi comuni come la stanchezza o il calo del desiderio, e spesso questa carenza viene indicata come un problema da correggere con degli integratori.\n\nChanna Jayasena, endocrinologo dell'Imperial College di Londra, stima che centinaia di migliaia di uomini abbiano iniziato una terapia a pagamento per far salire il proprio livello di testosterone, e che la maggior parte non ne abbia alcun bisogno. Anzi, le linee guida europee la considerano controindicata negli uomini che vogliono preservare la fertilità, perché può sopprimere gli ormoni che stimolano i testicoli e ridurre o arrestare la spermatogenesi, cioè la produzione degli spermatozoi. Un calo medio del testosterone e un calo della fertilità possono essere fenomeni collegati, ma il primo non dimostra automaticamente il secondo.",
+    "T1_TITLE": "Il testosterone degli uomini si è davvero dimezzato?"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il segretario alla Difesa ha annunciato di volerlo «testare nei militari che hanno più di trent'anni». |\n| L1.2 | B | Il testo precisa che «il primo regola la produzione dei secondi». |\n| L1.3 | C | Il dato «non è ancora stato pubblicato» e ci sono «discrepanze» fra annuncio e documento. 中文：报道数据不等于已验证结论。 |\n| L1.4 | D | Lo studio «aveva suscitato scalpore» ed «è stato ripreso e strumentalizzato». |\n| L1.5 | A | Il testosterone «è effettivamente un ormone che fa moltissime cose», rendendo suggestiva l'ipotesi. 中文：这里考查论述关系，不是单一功能。 |\n| L1.6 | C | La carenza viene indicata come «un problema da correggere con degli integratori». |\n| L1.7 | B | La terapia «può sopprimere gli ormoni che stimolano i testicoli» e ridurre la spermatogenesi. |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "D",
+    "L1.5": "A",
+    "L1.6": "C",
+    "L1.7": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "preso con le molle",
+      "categoria": "locuzione",
+      "zh": "谨慎看待",
+      "en": "taken with caution",
+      "esempio": "ma va preso con le molle"
+    },
+    {
+      "parola": "discrepanze",
+      "categoria": "nome femminile plurale",
+      "zh": "差异；不一致",
+      "en": "discrepancies",
+      "esempio": "ci sono delle discrepanze"
+    },
+    {
+      "parola": "suscitato scalpore",
+      "categoria": "locuzione verbale",
+      "zh": "引起轰动",
+      "en": "caused a stir",
+      "esempio": "aveva suscitato scalpore"
+    },
+    {
+      "parola": "controindicata",
+      "categoria": "aggettivo",
+      "zh": "不宜使用的；有禁忌的",
+      "en": "contraindicated",
+      "esempio": "la considerano controindicata"
+    },
+    {
+      "parola": "spermatogenesi",
+      "categoria": "nome femminile",
+      "zh": "精子发生",
+      "en": "spermatogenesis",
+      "esempio": "ridurre o arrestare la spermatogenesi"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+exam: cils
+level: B1
+session: '2026-07-22'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/basilicata/notizie/2026/07/15/dal-reparto-di-ematologia-al-primo-libro-la-rinascita-di-maddalena-giordano_2c4e6c6a-5592-4799-92e4-8637b7a8a9dc.html
+  title: Dal reparto di Ematologia al primo libro, la rinascita di Maddalena Giordano
+  publisher: ANSA (edizione Basilicata)
+  published: '2026-07-15'
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 435
+- id: T2
+  url: https://www.comune.como.it/servizi/Iscrizione-ai-servizi-e-prestito-bibliotecario/
+  title: Iscrizione ai servizi e prestito bibliotecario
+  publisher: Comune di Como (scheda servizio comunale)
+  published: pagina di servizio permanente, non datata; orario estivo indicato per
+    il 2026
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 332
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/diario-di-viaggio-a-lione-4-giorni-tra-lalta-gastronomia-e-il-fascino-dei-due-fiumi.html
+  title: 'Diario di viaggio a Lione: 4 giorni tra l''alta gastronomia e il fascino
+    dei due fiumi'
+  publisher: Turisti per Caso (Redazione TPC)
+  published: non esplicita; viaggio narrato datato 11–14 giugno 2026
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 279
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/natura/2026/07/13/super-topi-in-grado-di-vivere-a-quota-7.000-metri-_60d0b0fc-dcdb-4ce2-be74-94cd66012384.html
+  title: Super topi in grado di vivere a quota 7.000 metri
+  publisher: ANSA (canale Scienza/Natura)
+  published: '2026-07-13'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 244
+- id: T5
+  url: https://www.ansa.it/sicilia/notizie/2026/07/22/legittologo-zahi-hawass-e-ora-che-rosetta-e-nefertiti-siano-restituite_b9a6f076-6bfe-404f-97f6-81f8e23b0b0b.html
+  title: L'egittologo Zahi Hawass, "è ora che Rosetta e Nefertiti siano restituite
+  publisher: ANSA (edizione Sicilia; firma Alessandra Magliaro)
+  published: '2026-07-22'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 231
+- id: T6
+  url: https://www.comune.torino.it/novita/comunicati/riuso-sostenibilita-nasce-mercato-tematico-torino-green
+  title: 'Riuso e sostenibilità: nasce il mercato tematico ''Torino Green'''
+  publisher: Città di Torino (comunicato stampa)
+  published: '2026-07-17'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 185
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-22T14:55:05+00:00'
+  - stage: authoring
+    at: '2026-07-22T14:55:05+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-22T14:58:03+00:00'
+    agreement: 83/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T15:12:40+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-22T17:13:35+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T17:13:35+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T17:51:32+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T17:51:32+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

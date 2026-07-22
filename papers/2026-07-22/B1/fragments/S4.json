@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Gentile cliente, non l'abbiamo trovata a casa. Il suo pacco è stato lasciato al punto di ritiro di via Verdi 12, dove resterà fino a lunedì. Per ritirarlo, mostri questo messaggio e un documento d'identità.»**  \nA) È un reclamo per un pacco consegnato in ritardo.  \nB) È l'avviso che un pacco può essere ritirato in un luogo indicato.  \nC) È la richiesta di comunicare un nuovo indirizzo al corriere.  \nD) È la pubblicità di un servizio di consegna a domicilio.\n\n**2. «Ricordiamo alle famiglie che per partecipare alla gita di venerdì occorre consegnare l'autorizzazione firmata. Il modulo di Luca non è ancora arrivato in segreteria: potete inviarlo via e-mail entro domani alle 13.»**  \nA) È l'annuncio che la gita di venerdì è stata annullata.  \nB) È la conferma che Luca ha già consegnato tutti i documenti.  \nC) È l'invito ai genitori ad accompagnare la classe durante la gita.  \nD) È il sollecito a inviare un'autorizzazione necessaria per una gita.\n\n**3. «Ciao Marta, tra dieci minuti comincio una riunione online con il direttore. Potresti abbassare un po' la musica in salotto fino alle quattro? Dopo la chiamata ti aiuto volentieri a preparare la cena.»**  \nA) È la richiesta a una coinquilina di ridurre il volume per un tempo limitato.  \nB) È l'invito a partecipare a una riunione con il direttore.  \nC) È la proposta di ascoltare musica insieme dopo cena.  \nD) È la comunicazione che una riunione online è terminata.\n\n**4. «Attenzione: il regionale 1842 per Pisa delle 17.25 partirà oggi dal binario 6 anziché dal binario 2. L'orario di partenza non cambia. I viaggiatori sono invitati a raggiungere il nuovo binario.»**  \nA) È l'annuncio del ritardo di un treno diretto a Pisa.  \nB) È la comunicazione della cancellazione di un treno regionale.  \nC) È l'avviso che un treno partirà da un binario diverso.  \nD) È la richiesta di cambiare il biglietto prima della partenza.\n\n**5. «La richiesta di prolungare il prestito non può essere accettata perché un altro lettore ha prenotato il romanzo. La preghiamo quindi di restituirlo entro il 9 agosto; potrà prenderlo di nuovo quando sarà disponibile.»**  \nA) È la conferma del rinnovo di un prestito bibliotecario.  \nB) È il rifiuto di un rinnovo con la richiesta di restituire il libro.  \nC) È l'avviso che un romanzo prenotato è pronto per il ritiro.  \nD) È la proposta di acquistare un libro dalla biblioteca.\n\n**6. «Buongiorno, la camera sarà pronta dalle 14 e purtroppo non possiamo anticipare il suo ingresso alle 10. Al suo arrivo, però, potrà lasciare gratuitamente le valigie alla reception e tornare più tardi per la registrazione.»**  \nA) È l'offerta di una camera diversa con un costo aggiuntivo.  \nB) È la conferma che un ospite può entrare in camera alle 10.  \nC) È la richiesta di portare le valigie in camera senza assistenza.  \nD) È il rifiuto dell'ingresso anticipato con un servizio alternativo per i bagagli.\n\n**7. «Sabato il mercato del quartiere ospita un controllo gratuito delle biciclette. I tecnici verificheranno freni, luci e gomme dalle 9 alle 12. Non serve prenotare, ma ogni persona può portare una sola bicicletta.»**  \nA) È l'annuncio di un servizio gratuito per controllare le biciclette.  \nB) È la ricerca di tecnici da assumere al mercato del quartiere.  \nC) È il divieto di arrivare al mercato in bicicletta.  \nD) È l'invito a prenotare un corso per imparare a pedalare.\n\n**8. «Gentile candidata, per un impegno improvviso il colloquio previsto martedì alle 11 deve essere spostato. Possiamo incontrarla mercoledì alle 15 oppure giovedì alle 9. Ci risponda indicando quale dei due orari preferisce.»**  \nA) È la conferma dell'assunzione di una candidata.  \nB) È la richiesta di presentare nuovi documenti al colloquio.  \nC) È la proposta di scegliere una nuova data per un colloquio.  \nD) È l'annuncio della cancellazione definitiva di una selezione.\n\n**9. «Gli esami del sangue non mostrano problemi e al momento non è necessario fissare una visita. Continui la cura come indicato; se nei prossimi giorni compaiono nuovi disturbi, telefoni allo studio medico.»**  \nA) È la richiesta di ripetere subito alcuni esami del sangue.  \nB) È la prescrizione di interrompere una cura prima della visita.  \nC) È l'avviso che lo studio medico chiuderà nei prossimi giorni.  \nD) È la comunicazione di risultati rassicuranti con un consiglio in caso di disturbi.\n\n**10. «Ciao Elena, mi è caduto il libro che mi avevi prestato e la copertina si è rovinata. Mi dispiace molto. Posso comprarti una copia nuova oppure pagare la riparazione: dimmi quale soluzione preferisci.»**  \nA) È la richiesta di ricevere in prestito un altro libro.  \nB) È una scusa per un danno accompagnata dall'offerta di rimediare.  \nC) È un consiglio su dove far riparare un libro usato.  \nD) È la protesta per aver ricevuto un libro già rovinato."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «è stato lasciato al punto di ritiro» e l'indirizzo indicano dove recuperare il pacco; 中文：不是再次送货上门。 |\n| S4.2 | D | «occorre consegnare l'autorizzazione firmata» e il modulo non ancora arrivato rendono il messaggio un sollecito; 中文：材料尚未提交。 |\n| S4.3 | A | Marta deve «abbassare un po' la musica» soltanto durante la riunione online; 中文：请求暂时调低音量。 |\n| S4.4 | C | «partirà oggi dal binario 6 anziché dal binario 2» segnala un cambio di binario, mentre l'orario resta uguale; 中文：不是晚点。 |\n| S4.5 | B | Il rinnovo «non può essere accettato» e il libro va restituito «entro il 9 agosto»; 中文：续借被拒绝。 |\n| S4.6 | D | L'ingresso alle 10 non è possibile, ma l'ospite può lasciare «gratuitamente le valigie alla reception»; 中文：拒绝提前入住并提供行李寄存。 |\n| S4.7 | A | «controllo gratuito delle biciclette» e l'elenco dei controlli descrivono il servizio offerto; 中文：无需预约。 |\n| S4.8 | C | Il colloquio «deve essere spostato» e la candidata deve scegliere fra mercoledì e giovedì; 中文：面试未取消。 |\n| S4.9 | D | «non mostrano problemi» comunica un esito rassicurante; telefonare serve solo se compaiono nuovi disturbi; 中文：目前无需预约。 |\n| S4.10 | B | «Mi dispiace molto» esprime le scuse e la copia nuova o la riparazione sono due modi per rimediare; 中文：道歉并提出补救办法。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "D",
+    "S4.3": "A",
+    "S4.4": "C",
+    "S4.5": "B",
+    "S4.6": "D",
+    "S4.7": "A",
+    "S4.8": "C",
+    "S4.9": "D",
+    "S4.10": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "punto di ritiro",
+      "categoria": "locuzione nominale",
+      "zh": "取件点",
+      "en": "collection point",
+      "esempio": "Il suo pacco è stato lasciato al punto di ritiro di via Verdi 12"
+    },
+    {
+      "parola": "autorizzazione firmata",
+      "categoria": "locuzione nominale",
+      "zh": "已签字的同意书",
+      "en": "signed permission form",
+      "esempio": "occorre consegnare l'autorizzazione firmata"
+    },
+    {
+      "parola": "prolungare il prestito",
+      "categoria": "locuzione verbale",
+      "zh": "延长借阅期",
+      "en": "to renew a loan",
+      "esempio": "La richiesta di prolungare il prestito non può essere accettata"
+    },
+    {
+      "parola": "ingresso anticipato",
+      "categoria": "locuzione nominale",
+      "zh": "提前入住",
+      "en": "early check-in",
+      "esempio": "È il rifiuto dell'ingresso anticipato con un servizio alternativo per i bagagli"
+    },
+    {
+      "parola": "rimediare",
+      "categoria": "verbo",
+      "zh": "补救",
+      "en": "to make amends",
+      "esempio": "È una scusa per un danno accompagnata dall'offerta di rimediare"
+    }
+  ]
+}

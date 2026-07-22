@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione che promuove il consumo responsabile. Hai partecipato a un laboratorio di quartiere in cui alcuni volontari aiutavano i cittadini a riparare piccoli oggetti invece di buttarli. Scrivi un articolo in cui racconti l'esperienza, valuti gli aspetti positivi e le difficoltà e proponi come migliorare una futura edizione.",
+    "W2_PROMPT": "Ti sei iscritto a un corso serale di fotografia organizzato dal centro culturale comunale, ma hai ricevuto informazioni diverse sull'inizio delle lezioni. Scrivi un'e-mail formale alla segreteria del centro.",
+    "W2_REQ_1": "indicare il corso scelto, la data dell'iscrizione e le informazioni contrastanti ricevute;",
+    "W2_REQ_2": "chiedere conferma della data, dell'orario e dell'aula della prima lezione;",
+    "W2_REQ_3": "domandare quali materiali devi portare e se è possibile recuperare un'eventuale lezione persa."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Domenica scorsa ho partecipato al primo laboratorio di riparazione organizzato dalla nostra associazione. Nel salone del quartiere, alcuni volontari esperti aiutavano i cittadini a sistemare lampade, tostapane e piccoli mobili. Ho portato una vecchia radio: invece di ripararla al posto mio, una volontaria mi ha spiegato come individuare il guasto. L'iniziativa ha ridotto gli sprechi e ha creato un piacevole scambio di competenze tra generazioni. Tuttavia, l'attesa era lunga e mancavano alcuni strumenti, quindi non tutti hanno potuto concludere il lavoro. Per la prossima edizione proporrei di raccogliere le prenotazioni online, dividendo gli oggetti per categoria. Sarebbe utile anche pubblicare in anticipo l'elenco degli strumenti disponibili e organizzare un breve incontro sulla sicurezza. In questo modo il laboratorio diventerebbe più efficiente, senza perdere il suo carattere accogliente e collaborativo.",
+    "MODEL_W1_PHRASES": "invece di…（而不是……）; creare uno scambio di competenze（促进技能交流）; Per la prossima edizione proporrei di…（对于下一届活动，我建议……）; Sarebbe utile anche…（此外，……也会很有帮助）; senza perdere il suo carattere…（同时不失其……特色）",
+    "MODEL_W2": "Gentile Segreteria del Centro culturale,\n\nil 20 luglio mi sono iscritto al corso serale di fotografia. Nell'e-mail di conferma leggo che le lezioni inizieranno il 3 settembre, mentre sul vostro sito è indicato il 5 settembre. Potreste confermarmi la data corretta, l'orario e l'aula della prima lezione? Vorrei inoltre sapere quali materiali devo portare e se, in caso di assenza, sarà possibile recuperare la lezione persa.\n\nRingrazio anticipatamente per le informazioni e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nElena Riva",
+    "MODEL_W2_PHRASES": "mi sono iscritto a…（我报名参加了……）; Potreste confermarmi…?（您能否向我确认……？）; Vorrei inoltre sapere…（此外，我还想了解……）; in caso di assenza（如缺席）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

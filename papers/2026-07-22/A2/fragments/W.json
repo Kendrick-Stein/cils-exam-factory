@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una giornata piacevole che hai passato in un luogo vicino alla tua città. Scrivi dove sei andato, con chi, che cosa hai fatto e perché ti è piaciuta.",
+    "W2_PROMPT": "Vuoi invitare un amico o un'amica alla tua festa di compleanno. Scrivi un messaggio: indica il giorno, l'ora e il luogo della festa e chiedi una risposta."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso sono andata al lago vicino alla mia città con due amici. Siamo arrivati la mattina e abbiamo camminato lungo l'acqua. A pranzo abbiamo mangiato panini sotto un albero. Il posto era tranquillo e il tempo era bello. Mi è piaciuta molto questa giornata perché abbiamo parlato, riso e fatto tante fotografie.",
+    "MODEL_W1_PHRASES": "**Sabato scorso sono andato/a…**（上周六我去了……）；**Sono andato/a con…**（我和……一起去了）；**Il posto era…**（那个地方……）；**Mi è piaciuto/a perché…**（我喜欢……，因为……）",
+    "MODEL_W2": "Ciao Luca, sabato festeggio il mio compleanno a casa mia. Vieni alle sette? Mangiamo la pizza e poi guardiamo un film. Fammi sapere se puoi venire. A presto, Marta",
+    "MODEL_W2_PHRASES": "**Vorrei invitarti…**（我想邀请你……）；**La festa è…**（聚会在……）；**Vieni alle…?**（你……点来吗？）；**Fammi sapere se puoi venire.**（请告诉我你能不能来）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

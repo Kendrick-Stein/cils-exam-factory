@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 2 — one prova.
+
+Fragment: papers/2026-07-22/A2/fragments/S2.json (cloze_verbi, 10 gaps, T5 = pensionato/auto d'epoca). Source: '## Slot T5' section of papers/2026-07-22/A2/sources.md. Read the current fragment.
+
+Round 1 fixed S2.2/S2.3 but introduced «Fino a oggi» at S2.4/S2.5, which lets present tense compete with passato prossimo — the SAME class of bug.
+
+DECISIVE FIX: BAN every relative-to-now time marker from the whole cloze text — no «fino a oggi», «in questi anni/giorni/mesi», «oggi», «finora», «negli ultimi anni», «da allora». Every PASSATO PROSSIMO gap must instead carry an ABSOLUTE / bounded past anchor in its own clause: a year («Nel 2019»), a date, «L'anno scorso», «Due anni fa», «Dopo la pensione». Every IMPERFETTO gap must carry «allora / a quei tempi / ogni giorno / mentre». Present-tense gaps (if any) must describe the current museum/collection state with an explicit present cue («Adesso», «Oggi il museo…») clearly separated from the past narrative.
+
+After rewriting, re-read all 10 gaps and confirm no gap admits a competing tense. Keep exactly 10 gaps and points identical; keep the source facts. Rewrite papers/2026-07-22/A2/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.10, up to 5 glossario_candidates).
+
+Reply (short): confirm no relative markers remain; the anchor you gave S2.4 and S2.5; final text word count.

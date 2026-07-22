@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Fu nel 1881 che Verga *(pubblicare)* __pubblicò (0)__ il racconto di Jeli, guardiano di cavalli. Oggi basta che il lettore *(leggere)* __(1)__ queste pagine per incontrare Jeli. Fu proprio Verga che, nella novella del 1881, *(ritrarre)* __(2)__ Jeli una volta per tutte, rendendolo un personaggio ancora oggi vivissimo.\n\nA quel tempo Jeli *(avere)* __(3)__ tredici anni. Fu allora che *(conoscere)* __(4)__ don Alfonso. Chi passava *(vederlo)* __(5)__ sempre sui monti, su qualche greppo o accoccolato su un gran sasso, mentre le sue bestie *(pascolare)* __(6)__ nella pianura.\n\nDon Alfonso, mentre *(essere)* __(7)__ in villeggiatura, ogni giorno *(andare)* __(8)__ a trovarlo a Tebidi e *(dividere)* __(9)__ sempre con lui cioccolata e pane d’orzo. Fu dopo un litigio che i due *(consolidare)* __(10)__ la loro amicizia. Quando Jeli cominciò a insegnare, l’amicizia *(stabilire)* __(11)__ già dai due ragazzi subito dopo il litigio.\n\nOgni giorno Jeli *(insegnare)* __(12)__ al suo amico ciò che sapeva, affinché don Alfonso *(comprendere)* __(13)__ la vita sui monti. Jeli, invece, era capace di *(arrampicarsi)* __(14)__ sino ai nidi delle gazze, di *(cogliere)* __(15)__ un passero con una sassata e di *(montare)* __(16)__ sul dorso delle bestie. Jeli montava con un salto, *(acciuffare)* __(17)__ per la criniera la prima e balzandole in groppa. Ogni volta la bestia *(passare)* __(18)__ a tiro; lui agiva senza *(lasciarsi sbigottire)* __(19)__ dai nitriti di collera dei puledri. Una volta *(afferrare)* __(20)__ la criniera, restava saldo.",
+    "T5_TITLE": "Jeli e don Alfonso"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1–S2.2:** «Oggi basta che» impone in S2.1 il congiuntivo presente; in S2.2 la frase scissa «Fu proprio Verga che», il riferimento puntuale alla novella del 1881 e «una volta per tutte» fissano il passato remoto «ritrasse»（时间点与完成体明确）.\n- **S2.3–S2.6:** «A quel tempo» e la frase scissa «Fu allora che» distinguono imperfetto e passato remoto; «chi passava» è soggetto singolare di «lo vedeva», mentre «le sue bestie» è il soggetto plurale esplicito di «pascolavano»（主语数明确）.\n- **S2.7–S2.11:** «mentre», «ogni giorno» e «sempre» impongono l’imperfetto; «Fu dopo un litigio che» impone il passato remoto. In S2.11 «Quando Jeli cominciò», «già» e «subito dopo il litigio» fissano l’anteriorità, mentre «dai due ragazzi» esclude la lettura riflessiva e forza il passivo（施事明确）.\n- **S2.12–S2.13:** «Ogni giorno» impone l’imperfetto; «affinché», retto da una principale al passato, richiede il congiuntivo imperfetto.\n- **S2.14–S2.20:** «era capace di» regge separatamente i tre infiniti «arrampicarsi», «cogliere» e «montare»; nessuno dei tre appartiene alla subordinata con «affinché». In S2.17 il coordinato già stampato «e balzandole» forza il gerundio «acciuffando»（并列结构锁定动名词）. «Ogni volta» e il soggetto singolare «la bestia» fissano «passava»; «senza» regge l’infinito e «una volta» introduce il participio concordato con «criniera».",
+    "ANS_S2_ROWS": "| S2.1 | legga | congiuntivo presente | S2.11 | era stata stabilita | indicativo trapassato prossimo passivo |\n| S2.2 | ritrasse | indicativo passato remoto | S2.12 | insegnava | indicativo imperfetto |\n| S2.3 | aveva | indicativo imperfetto | S2.13 | comprendesse | congiuntivo imperfetto |\n| S2.4 | conobbe | indicativo passato remoto | S2.14 | arrampicarsi | infinito presente |\n| S2.5 | lo vedeva | indicativo imperfetto | S2.15 | cogliere | infinito presente |\n| S2.6 | pascolavano | indicativo imperfetto | S2.16 | montare | infinito presente |\n| S2.7 | era | indicativo imperfetto | S2.17 | acciuffando | gerundio presente |\n| S2.8 | andava | indicativo imperfetto | S2.18 | passava | indicativo imperfetto |\n| S2.9 | divideva | indicativo imperfetto | S2.19 | lasciarsi sbigottire | infinito presente passivo |\n| S2.10 | consolidarono | indicativo passato remoto | S2.20 | afferrata | participio passato |"
+  },
+  "key": {
+    "S2.1": "legga",
+    "S2.2": "ritrasse",
+    "S2.3": "aveva",
+    "S2.4": "conobbe",
+    "S2.5": "lo vedeva",
+    "S2.6": "pascolavano",
+    "S2.7": "era",
+    "S2.8": "andava",
+    "S2.9": "divideva",
+    "S2.10": "consolidarono",
+    "S2.11": "era stata stabilita",
+    "S2.12": "insegnava",
+    "S2.13": "comprendesse",
+    "S2.14": "arrampicarsi",
+    "S2.15": "cogliere",
+    "S2.16": "montare",
+    "S2.17": "acciuffando",
+    "S2.18": "passava",
+    "S2.19": "lasciarsi sbigottire",
+    "S2.20": "afferrata"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "guardiano di cavalli",
+      "categoria": "locuzione nominale",
+      "zh": "马群看守人",
+      "en": "horse keeper",
+      "esempio": "Jeli, guardiano di cavalli"
+    },
+    {
+      "parola": "nidi delle gazze",
+      "categoria": "locuzione nominale",
+      "zh": "喜鹊窝",
+      "en": "magpies’ nests",
+      "esempio": "sino ai nidi delle gazze"
+    },
+    {
+      "parola": "greppo",
+      "categoria": "nome maschile",
+      "zh": "陡坡；土坎",
+      "en": "steep bank",
+      "esempio": "su qualche greppo"
+    },
+    {
+      "parola": "pane d’orzo",
+      "categoria": "locuzione nominale",
+      "zh": "大麦面包",
+      "en": "barley bread",
+      "esempio": "cioccolata e pane d’orzo"
+    },
+    {
+      "parola": "nitriti di collera",
+      "categoria": "locuzione nominale",
+      "zh": "愤怒的嘶鸣",
+      "en": "angry neighing",
+      "esempio": "dai nitriti di collera dei puledri"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B"}, "L1.2": {"answer": "C"}, "L1.3": {"answer": "A"}, "L1.4": {"answer": "D"}, "L1.5": {"answer": "B"}, "L1.6": {"answer": "C"}, "L1.7": {"answer": "A"},
+  "L2.1": {"answer": "Falso"}, "L2.2": {"answer": "Vero"}, "L2.3": {"answer": "Falso"}, "L2.4": {"answer": "Vero"}, "L2.5": {"answer": "Falso"}, "L2.6": {"answer": "Vero"}, "L2.7": {"answer": "Falso"}, "L2.8": {"answer": "Vero"}, "L2.9": {"answer": "Falso"}, "L2.10": {"answer": "Vero"}, "L2.11": {"answer": "Falso"}, "L2.12": {"answer": "Vero"}, "L2.13": {"answer": "Falso"}, "L2.14": {"answer": "Vero"},
+  "L3": {"answer": "A-F-N-C-L-H-P-D-I-M-B-O-G-K-E-J"},
+  "S1.1": {"answer": "non tanto"}, "S1.2": {"answer": "che"}, "S1.3": {"answer": "via"}, "S1.4": {"answer": "che"}, "S1.5": {"answer": "che"}, "S1.6": {"answer": "che"}, "S1.7": {"answer": "cui"}, "S1.8": {"answer": "che"}, "S1.9": {"answer": "con"}, "S1.10": {"answer": "cui"}, "S1.11": {"answer": "di"}, "S1.12": {"answer": "a"}, "S1.13": {"answer": "a"}, "S1.14": {"answer": "di"}, "S1.15": {"answer": "sullo"}, "S1.16": {"answer": "a"}, "S1.17": {"answer": "dai"}, "S1.18": {"answer": "da"}, "S1.19": {"answer": "che"}, "S1.20": {"answer": "degli"},
+  "S2.1": {"answer": "legga"}, "S2.2": {"answer": "l'abbia descritto"}, "S2.3": {"answer": "aveva"}, "S2.4": {"answer": "conobbe"}, "S2.5": {"answer": "lo vedeva"}, "S2.6": {"answer": "pascolavano"}, "S2.7": {"answer": "era"}, "S2.8": {"answer": "andava"}, "S2.9": {"answer": "divideva"}, "S2.10": {"answer": "consolidarono"}, "S2.11": {"answer": "era stata stabilita"}, "S2.12": {"answer": "insegnava"}, "S2.13": {"answer": "comprendesse"}, "S2.14": {"answer": "arrampicarsi"}, "S2.15": {"answer": "cogliere"}, "S2.16": {"answer": "montare"}, "S2.17": {"answer": "acciuffando"}, "S2.18": {"answer": "passava"}, "S2.19": {"answer": "lasciarsi sbigottire"}, "S2.20": {"answer": "afferrata"},
+  "S3.1": {"answer": "scomparso"}, "S3.2": {"answer": "longevo"}, "S3.3": {"answer": "detronizzato"}, "S3.4": {"answer": "agraria"}, "S3.5": {"answer": "fondamentale"}, "S3.6": {"answer": "riscaldarsi"}, "S3.7": {"answer": "elargiti"}, "S3.8": {"answer": "economia"}, "S3.9": {"answer": "mutare"}, "S3.10": {"answer": "propagarsi"}, "S3.11": {"answer": "declinare"}, "S3.12": {"answer": "tramontato"}, "S3.13": {"answer": "spopolato"}, "S3.14": {"answer": "vertebrale"}, "S3.15": {"answer": "inesorabilmente"},
+  "S4.1": {"answer": "disposizioni vigenti relative all'Amministrazione digitale"}, "S4.2": {"answer": "si accede"}, "S4.3": {"answer": "dall'ufficio"}, "S4.4": {"answer": "successivamente"}, "S4.5": {"answer": "integrazioni alle pratiche già presentate alla data del 6 luglio 2026"}, "S4.6": {"answer": "comunicazioni relative alle CIL, alle SCIA e alle SCIAPDC"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S2.2", "reason": "sebbene + present main + single 1881 event: congiuntivo passato 'l'abbia descritto' (textbook) vs imperfetto 'lo descrivesse' (literary register) both defensible."}
+]
+```
+
+WRITING
+W1: ok
+W2: ok
+O1: ok
+O2: ok

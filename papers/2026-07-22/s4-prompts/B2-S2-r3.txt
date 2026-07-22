@@ -1,0 +1,20 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 3, ROOT-CAUSE rewrite — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 3 + §Stage S4), factory/exams/cils/templates/B2.md (S2 block + comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi, 20 gaps, T5 = chef intervista). Source: '## Slot T5' section of papers/2026-07-22/B2/sources.md.
+
+Two prior rounds kept producing NEW ambiguities of the SAME class: passato-prossimo gaps whose clause can also be read as a timeless PRESENT generalization. The current flags are S2.6 ("i suoi piatti (portare)" → 'hanno portato' vs gnomic 'portano'), S2.7 ("gli incontri (finire)" → 'sono finiti' vs gnomic 'finiscono'), and S2.19 ("(intitolarsi)" → 'si intitola' vs 'è intitolato').
+
+ROOT-CAUSE FIX — change the strategy, do not just nudge single gaps:
+1. Rewrite the S2 cloze text as a CLEANLY PAST narrative of the chef's story. Every verb gap must sit in a clause with an UNAMBIGUOUS temporal frame:
+   - passato prossimo ONLY with an explicit completed-past anchor in the SAME clause/sentence (e.g. «Nel 2015 …», «Dopo la scuola …», «Quell'anno …», «Due anni fa …») — never joined loosely to a «fino a oggi / in questi anni / oggi» frame.
+   - imperfetto with «allora / a quei tempi / mentre».
+   - keep the congiuntivo/condizionale/passato-remoto gaps that already validate (S2.3, S2.4, S2.9, S2.10, S2.12, S2.14, S2.15, S2.20…).
+   - BAN from the text: «fino a oggi», «in questi anni/mesi/giorni», «oggi», and any clause that reads as a timeless generalization sitting next to a gap.
+2. For the title sentence, re-cut so exactly ONE form fits — e.g. make it an explicit past passive with agent and past anchor: «Nel 2020 la casa editrice (intitolare) ___ il volume "…"» → forces «ha intitolato»/«intitolò»; or drop the title-verb gap and use a different unambiguous verb there.
+3. Keep exactly 20 gaps, the same point value, and the same source facts (no invented content). After rewriting, RE-READ each of the 20 gaps and confirm a present-tense or alternative-tense reading is impossible.
+
+Rewrite papers/2026-07-22/B2/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, up to 5 glossario_candidates). Use `||` only for truly equivalent forms.
+
+Reply (short): confirm no clause admits a present/gnomic reading; list the temporal anchor you gave S2.6, S2.7 and the new title gap; final text word count.

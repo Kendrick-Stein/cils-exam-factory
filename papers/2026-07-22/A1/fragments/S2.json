@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Fino a oggi voi non *(provare)* __(1)__ il farro così! *(essere)* __è (0)__ un piatto semplice.\n\nDomenica scorsa io *(preparare)* __(2)__ l'insalata. Prima io *(lessare)* __(3)__ il farro. Poi io *(portare)* __(4)__ il farro a cottura. Dopo io *(freddare)* __(5)__ il farro. Io *(unire)* __(6)__ tutti gli ingredienti. Io *(versare)* __(7)__ l'olio. Poi io *(salare)* __(8)__. Dopo io *(mescolare)* __(9)__ tutto. Infine io *(lasciare)* __(10)__ riposare in frigo per due ore.",
+    "T5_TITLE": "INSALATA DI FARRO FREDDA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** «Fino a oggi» forza il passato prossimo; «voi» impone *avete provato*. 中文：时间标记和主语锁定答案。\n- **S2.2:** «Domenica scorsa» indica un'azione conclusa e «io» impone *ho preparato*. 中文：明确过去时间。\n- **S2.3:** Nella stessa domenica conclusa, «io» impone *ho lessato*. 中文：同一完成的过去场景。\n- **S2.4:** La nuova frase con «io» richiede la forma completa *ho portato* nella cornice di domenica scorsa. 中文：独立句和明确主语要求完整复合形式。\n- **S2.5:** «Dopo» continua la sequenza di domenica scorsa: *ho freddato*. 中文：顺序词延续完成动作。\n- **S2.6:** «Io» e la cornice passata impongono *ho unito*. 中文：第一人称单数完成时。\n- **S2.7:** Nella sequenza conclusa, «io» impone *ho versato*. 中文：主语和时间锁定形式。\n- **S2.8:** La frase separata con «io» richiede *ho salato*, non il solo participio. 中文：独立句排除省略助动词。\n- **S2.9:** «Dopo» continua la sequenza conclusa: *ho mescolato*. 中文：顺序词延续完成动作。\n- **S2.10:** «Infine» e la nuova frase con «io» richiedono la forma completa *ho lasciato*. 中文：独立句要求完整复合形式。",
+    "ANS_S2_ROWS": "| S2.1 | avete provato | passato prossimo | S2.6 | ho unito | passato prossimo |\n| S2.2 | ho preparato | passato prossimo | S2.7 | ho versato | passato prossimo |\n| S2.3 | ho lessato | passato prossimo | S2.8 | ho salato | passato prossimo |\n| S2.4 | ho portato | passato prossimo | S2.9 | ho mescolato | passato prossimo |\n| S2.5 | ho freddato | passato prossimo | S2.10 | ho lasciato | passato prossimo |"
+  },
+  "key": {
+    "S2.1": "avete provato",
+    "S2.2": "ho preparato",
+    "S2.3": "ho lessato",
+    "S2.4": "ho portato",
+    "S2.5": "ho freddato",
+    "S2.6": "ho unito",
+    "S2.7": "ho versato",
+    "S2.8": "ho salato",
+    "S2.9": "ho mescolato",
+    "S2.10": "ho lasciato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "farro",
+      "categoria": "nome maschile",
+      "zh": "斯佩尔特小麦",
+      "en": "spelt",
+      "esempio": "il farro così"
+    },
+    {
+      "parola": "a cottura",
+      "categoria": "locuzione avverbiale",
+      "zh": "至煮熟",
+      "en": "until cooked",
+      "esempio": "il farro a cottura"
+    },
+    {
+      "parola": "ingredienti",
+      "categoria": "nome maschile plurale",
+      "zh": "食材",
+      "en": "ingredients",
+      "esempio": "tutti gli ingredienti"
+    },
+    {
+      "parola": "olio",
+      "categoria": "nome maschile",
+      "zh": "橄榄油",
+      "en": "oil",
+      "esempio": "l'olio"
+    },
+    {
+      "parola": "riposare in frigo",
+      "categoria": "locuzione verbale",
+      "zh": "放入冰箱静置",
+      "en": "to rest in the fridge",
+      "esempio": "riposare in frigo per due ore"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Giuseppe Macaione è tornato a scuola per**\n\nA) prendere il diploma.  \nB) lavorare nelle ferrovie.  \nC) insegnare elettrotecnica.\n\n**2. Prima di andare in pensione, Macaione ha lavorato**\n\nA) soltanto alle Poste.  \nB) nelle ferrovie e alle Poste.  \nC) all'Itis Galilei di Livorno.\n\n**3. Macaione racconta che ha ripreso a studiare**\n\nA) per piacere personale.  \nB) per conoscere persone della sua età.  \nC) per trovare un lavoro serale.\n\n**4. L'anno scorso Macaione ha interrotto le lezioni perché**\n\nA) doveva studiare da solo a casa.  \nB) voleva cambiare corso di studi.  \nC) doveva stare vicino alla moglie malata.",
+    "T1_TEXT": "A 82 anni ha realizzato un sogno: prendere il diploma. È la storia di Giuseppe Macaione, che si è diplomato in Elettrotecnica al corso serale dell'Itis Galilei di Livorno, tornando a scuola dopo più di sessant'anni. È una delle persone più anziane ad aver raggiunto questo traguardo.\n\nMacaione è nato in Sicilia, vicino a Cefalù. Ha lasciato la scuola a 18 anni, ha lavorato nelle ferrovie e poi alle Poste per più di trent'anni. Quando è andato in pensione, ha deciso di riprendere la sua passione giovanile per l'elettrotecnica.\n\n\"Ho ripreso a studiare per piacere personale - racconta -. Sono andato a scuola la sera con persone molto più giovani di me. Stare con gli altri ragazzi è stato magnifico.\"\n\nL'anno scorso ha dovuto interrompere le lezioni per stare vicino alla moglie malata, ma poi ha ripreso e ha finito i tre anni di scuola. \"Non è mai troppo tardi per iniziare a studiare\", dice Macaione, che si è preparato da solo, a casa, con l'aiuto di un'insegnante.\n\nIl preside dell'Itis, Antonio Manfredini, lo definisce \"un esempio concreto: quando c'è la volontà, non c'è un'età per raggiungere un traguardo\".",
+    "T1_TITLE": "FA LA MATURITÀ A 82 ANNI"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice che a 82 anni ha realizzato il sogno di «prendere il diploma». 中文：目标是取得文凭。 |\n| L1.2 | B | Ha lavorato «nelle ferrovie e poi alle Poste». 中文：两个工作单位都有明确出现。 |\n| L1.3 | A | Macaione afferma: «Ho ripreso a studiare per piacere personale». 中文：学习动机是个人兴趣。 |\n| L1.4 | C | Ha interrotto le lezioni «per stare vicino alla moglie malata». 中文：停课原因是照顾生病的妻子。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "A",
+    "L1.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "corso serale",
+      "categoria": "locuzione nominale",
+      "zh": "夜校课程",
+      "en": "evening course",
+      "esempio": "È la storia di Giuseppe Macaione, che si è diplomato in Elettrotecnica al corso serale dell'Itis Galilei di Livorno, tornando a scuola dopo più di sessant'anni."
+    },
+    {
+      "parola": "traguardo",
+      "categoria": "nome maschile",
+      "zh": "目标；成就",
+      "en": "goal; achievement",
+      "esempio": "È una delle persone più anziane ad aver raggiunto questo traguardo."
+    },
+    {
+      "parola": "ferrovie",
+      "categoria": "nome femminile plurale",
+      "zh": "铁路系统",
+      "en": "railways",
+      "esempio": "Ha lasciato la scuola a 18 anni, ha lavorato nelle ferrovie e poi alle Poste per più di trent'anni."
+    },
+    {
+      "parola": "pensione",
+      "categoria": "nome femminile",
+      "zh": "退休",
+      "en": "retirement",
+      "esempio": "Quando è andato in pensione, ha deciso di riprendere la sua passione giovanile per l'elettrotecnica."
+    },
+    {
+      "parola": "interrompere",
+      "categoria": "verbo",
+      "zh": "中断",
+      "en": "to interrupt",
+      "esempio": "L'anno scorso ha dovuto interrompere le lezioni per stare vicino alla moglie malata, ma poi ha ripreso e ha finito i tre anni di scuola."
+    }
+  ]
+}

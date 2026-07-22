@@ -1,0 +1,108 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Falso", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Vero", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-B-O-G-K-E-M-I-N-C-L-H-P-D-J", "confidence": "med"},
+
+  "S1.1": {"answer": "non tanto", "confidence": "hi"},
+  "S1.2": {"answer": "che", "confidence": "hi"},
+  "S1.3": {"answer": "dall'altro", "confidence": "hi"},
+  "S1.4": {"answer": "tanto più", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "Chiunque", "confidence": "lo"},
+  "S1.7": {"answer": "che", "confidence": "hi"},
+  "S1.8": {"answer": "a meno che", "confidence": "med"},
+  "S1.9": {"answer": "quanto", "confidence": "hi"},
+  "S1.10": {"answer": "in cui", "confidence": "hi"},
+  "S1.11": {"answer": "senza", "confidence": "hi"},
+  "S1.12": {"answer": "non solo", "confidence": "hi"},
+  "S1.13": {"answer": "Oltre a", "confidence": "med"},
+  "S1.14": {"answer": "Come", "confidence": "med"},
+  "S1.15": {"answer": "non solo", "confidence": "hi"},
+  "S1.16": {"answer": "se non", "confidence": "med"},
+  "S1.17": {"answer": "che", "confidence": "hi"},
+  "S1.18": {"answer": "da qui", "confidence": "med"},
+  "S1.19": {"answer": "che", "confidence": "hi"},
+  "S1.20": {"answer": "ma anche", "confidence": "hi"},
+
+  "S2.1": {"answer": "legga", "confidence": "hi"},
+  "S2.2": {"answer": "lo descrivesse", "confidence": "hi"},
+  "S2.3": {"answer": "aveva", "confidence": "hi"},
+  "S2.4": {"answer": "conobbe", "confidence": "hi"},
+  "S2.5": {"answer": "lo si vedeva", "confidence": "med"},
+  "S2.6": {"answer": "pascolava", "confidence": "hi"},
+  "S2.7": {"answer": "era", "confidence": "hi"},
+  "S2.8": {"answer": "andava", "confidence": "hi"},
+  "S2.9": {"answer": "divideva", "confidence": "hi"},
+  "S2.10": {"answer": "consolidarono", "confidence": "hi"},
+  "S2.11": {"answer": "si era stabilita", "confidence": "med"},
+  "S2.12": {"answer": "insegnava", "confidence": "hi"},
+  "S2.13": {"answer": "comprendesse", "confidence": "hi"},
+  "S2.14": {"answer": "arrampicarsi", "confidence": "med"},
+  "S2.15": {"answer": "cogliere", "confidence": "med"},
+  "S2.16": {"answer": "montare", "confidence": "med"},
+  "S2.17": {"answer": "di acciuffare", "confidence": "med"},
+  "S2.18": {"answer": "passava", "confidence": "hi"},
+  "S2.19": {"answer": "lasciarsi sbigottire", "confidence": "med"},
+  "S2.20": {"answer": "afferrata", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "med"},
+  "S3.2": {"answer": "D", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "D", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"},
+  "S3.9": {"answer": "B", "confidence": "med"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "B", "confidence": "hi"},
+  "S3.14": {"answer": "D", "confidence": "hi"},
+  "S3.15": {"answer": "C", "confidence": "hi"},
+
+  "S4.1": {"answer": "L'ADOZIONE DI TALE MODALITÀ COSTITUISCE UN ADEGUAMENTO ALLE DISPOSIZIONI VIGENTI RELATIVE ALL'AMMINISTRAZIONE DIGITALE.", "confidence": "med"},
+  "S4.2": {"answer": "PER ACCEDERE ALLA PIATTAFORMA SI UTILIZZANO LO SPID, LA CARTA D'IDENTITÀ ELETTRONICA (CIE) O LA CARTA NAZIONALE DEI SERVIZI (CNS).", "confidence": "hi"},
+  "S4.3": {"answer": "DAL 6 LUGLIO 2026, NESSUNA NUOVA PRATICA PRESENTATA IN ALTRA FORMA SARÀ ACCETTATA DALL'UFFICIO.", "confidence": "hi"},
+  "S4.4": {"answer": "PER LA TRASMISSIONE TELEMATICA SARÀ OBBLIGATORIO UTILIZZARE ESCLUSIVAMENTE IL PORTALE TELEMATICO «IMPRESA IN UN GIORNO», DI CUI VERRÀ SUCCESSIVAMENTE FORNITO IL LINK.", "confidence": "hi"},
+  "S4.5": {"answer": "L'AVVISO PRECISA CHE, DOPO TALE DATA, SARÀ POSSIBILE PRESENTARE IN FORMATO CARTACEO ESCLUSIVAMENTE LE INTEGRAZIONI ALLE PRATICHE GIÀ PRESENTATE ALLA DATA DEL 6 LUGLIO 2026.", "confidence": "hi"},
+  "S4.6": {"answer": "LE PEC DELLE MUNICIPALITÀ POTRANNO RICEVERE, INVECE, LE COMUNICAZIONI RELATIVE ALLE CIL, ALLE SCIA E ALLE SCIAPDC.", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S1.6", "reason": "Gap precedes indicative 'sa' with unclear subject; 'Chiunque' would normally govern subjunctive — connector ambiguous."},
+  {"item_id": "L3", "reason": "16-part reconstruction: E->M->I stretch (positions 7-9) rests on weaker cohesion cues; an alternate ordering there cannot be fully excluded."}
+]
+```
+
+WRITING
+W1: ok
+W2: ok
+O1: ok
+O2: ok

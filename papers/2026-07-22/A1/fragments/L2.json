@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Da martedì a venerdì il museo apre alle 9.00.**  \nVero ○ Falso ○\n\n**2. Da martedì a venerdì il museo chiude alle 18.00.**  \nVero ○ Falso ○\n\n**3. Con l'orario estivo, il sabato e la domenica il museo chiude alle 18.00.**  \nVero ○ Falso ○\n\n**4. È possibile entrare fino al momento della chiusura.**  \nVero ○ Falso ○\n\n**5. Il museo è chiuso tutti i lunedì.**  \nVero ○ Falso ○\n\n**6. Per visitare il museo è necessario prenotare.**  \nVero ○ Falso ○\n\n**7. L'abbonamento annuale costa 3 euro.**  \nVero ○ Falso ○\n\n**8. I ragazzi con meno di 18 anni entrano gratis.**  \nVero ○ Falso ○",
+    "T2_TEXT": "Orario di apertura: da martedì a venerdì 9.00–13.00 e 14.00–17.00. Sabato, domenica e festivi 10.00–17.00.\n\nDal 1° aprile 2026 (orario estivo): sabato, domenica e festivi 10.00–18.00.\n\nL'ultimo accesso è consentito 30 minuti prima della chiusura.\n\nIl museo è chiuso tutti i lunedì, il 25 dicembre e l'1 gennaio.\n\nNon è richiesta la prenotazione. I biglietti si acquistano solo alla biglietteria del museo.\n\nBiglietto unico (Museo di Scienze Naturali e Museo Archeologico): 3,00 euro. Abbonamento annuale per i due musei civici: 10,00 euro.\n\nL'ingresso è gratuito per i minori di 18 anni, per le persone con disabilità e per chi le accompagna, e per le scolaresche con gli insegnanti.",
+    "T2_TITLE": "ORARI E TARIFFE DEL MUSEO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Il testo indica: «da martedì a venerdì 9.00–13.00». 中文：周二至周五9点开馆。 |\n| L2.2 | F | Da martedì a venerdì l'orario termina alle «17.00», non alle 18.00. 中文：平日17点闭馆。 |\n| L2.3 | V | Con l'orario estivo, «sabato, domenica e festivi» il museo è aperto fino alle «18.00». 中文：夏季周末18点闭馆。 |\n| L2.4 | F | «L'ultimo accesso è consentito 30 minuti prima della chiusura». 中文：最晚入场不是闭馆时。 |\n| L2.5 | V | Il testo dice: «Il museo è chiuso tutti i lunedì». 中文：每周一闭馆。 |\n| L2.6 | F | «Non è richiesta la prenotazione». 中文：参观不需要预约。 |\n| L2.7 | F | L'abbonamento annuale costa «10,00 euro»; 3,00 euro è il prezzo del biglietto unico. 中文：年票10欧元。 |\n| L2.8 | V | «L'ingresso è gratuito per i minori di 18 anni». 中文：未满18岁免费。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "festivi",
+      "categoria": "aggettivo",
+      "zh": "节假日的",
+      "en": "public holidays",
+      "esempio": "Sabato, domenica e festivi 10.00–17.00."
+    },
+    {
+      "parola": "chiusura",
+      "categoria": "sostantivo",
+      "zh": "闭馆；关闭",
+      "en": "closing",
+      "esempio": "L'ultimo accesso è consentito 30 minuti prima della chiusura."
+    },
+    {
+      "parola": "biglietteria",
+      "categoria": "sostantivo",
+      "zh": "售票处",
+      "en": "ticket office",
+      "esempio": "I biglietti si acquistano solo alla biglietteria del museo."
+    },
+    {
+      "parola": "Abbonamento annuale",
+      "categoria": "espressione nominale",
+      "zh": "年票",
+      "en": "annual pass",
+      "esempio": "Abbonamento annuale per i due musei civici: 10,00 euro."
+    },
+    {
+      "parola": "scolaresche",
+      "categoria": "sostantivo",
+      "zh": "学生团体",
+      "en": "school groups",
+      "esempio": "L'ingresso è gratuito per i minori di 18 anni, per le persone con disabilità e per chi le accompagna, e per le scolaresche con gli insegnanti."
+    }
+  ]
+}

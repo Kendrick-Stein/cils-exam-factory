@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "comunali",
+    "S3_OPT0_B": "comuni",
+    "S3_OPT0_C": "comunitarie",
+    "S3_OPT0_D": "comunicative",
+    "S3_OPTION_ROWS": "| 1. | economiche | gratuite | libere | convenienti |\n| 2. | visiterà | condurrà | inseguirà | accompagnerà |\n| 3. | rivolti | spediti | trasferiti | mossi |\n| 4. | manuale | materiale | cartaceo | tipografico |\n| 5. | facilmente | liberamente | regolarmente | gratuitamente |\n| 6. | invece che | oltre che | prima che | più che |\n| 7. | palco | sito | banco | cortile |\n| 8. | circuito | movimento | vigore | servizio |\n| 9. | livello | periodo | tratto | reparto |\n| 10. | personale | servizio | regolamento | patrimonio |\n| 11. | interromperanno | sovrapporranno | allontaneranno | confonderanno |\n| 12. | volta | giornata | settimana | sessione |\n| 13. | poiché | sebbene | mentre | affinché |\n| 14. | prenotabili | modificabili | acquistabili | consultabili |\n| 15. | termina | inizia | riprende | prosegue |",
+    "S3_TEXT_WITH_GAPS": "Le biblioteche __comunali (0)__ di Perugia sono pronte per l'estate con un nuovo calendario di attività __(1)__. Si chiama \"Ogni stagione è un viaggio\" ed è il programma che __(2)__ il pubblico per i mesi di luglio e agosto 2026 con incontri, letture, laboratori ed eventi __(3)__ a bambini, ragazzi e adulti, negli spazi delle biblioteche e in alcuni parchi cittadini.\n\nPer la prima volta il calendario è raccolto in un opuscolo __(4)__ distribuito __(5)__, insieme a un segnalibro dedicato, nelle biblioteche Augusta, Biblionet, Arconi, San Matteo degli Armeni e Sandro Penna, __(6)__ in altri punti della città. Il programma completo è disponibile anche online sul __(7)__ del Comune.\n\nDal 6 luglio al 29 agosto entrano quindi in __(8)__ gli orari estivi. Le biblioteche osserveranno ciascuna un breve __(9)__ di chiusura per la revisione del __(10)__ librario, ma le chiusure non si __(11)__: sarà chiusa una sola struttura alla __(12)__, a rotazione, __(13)__ le altre resteranno aperte. Gli orari estivi e il calendario delle chiusure sono __(14)__ sul sito del Comune. L'orario invernale __(15)__ dal 31 agosto.",
+    "T6_TITLE": "BIBLIOTECHE E PARCHI: UN'ESTATE DI ATTIVITÀ"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | \"attività gratuite\": indica che la partecipazione non costa; 中文：不是仅仅价格低。 |\n| S3.2 | D | Il programma \"accompagnerà il pubblico per i mesi di luglio e agosto\": è la collocazione naturale per un'iniziativa che dura nel tempo. |\n| S3.3 | A | Gli eventi sono \"rivolti a bambini, ragazzi e adulti\", cioè destinati a loro; 中文：rivolto a 表示面向。 |\n| S3.4 | C | L'\"opuscolo cartaceo\" è distribuito fisicamente e viene poi contrapposto alla versione disponibile online. |\n| S3.5 | D | \"Distribuito gratuitamente\" significa consegnato senza pagamento; gli altri avverbi non esprimono il costo. |\n| S3.6 | B | \"Oltre che\" aggiunge altri punti della città alle biblioteche già elencate; 中文：表示除……之外还。 |\n| S3.7 | B | Il programma è disponibile \"online sul sito del Comune\": palco, banco e cortile non sono spazi digitali. |\n| S3.8 | C | \"Entrare in vigore\" è la collocazione usata per l'inizio di orari e disposizioni. |\n| S3.9 | B | Un \"periodo di chiusura\" indica un intervallo di tempo; le altre parole non hanno questo valore temporale. |\n| S3.10 | D | \"Patrimonio librario\" è l'insieme dei libri della biblioteca; 中文：馆藏。 |\n| S3.11 | B | Le chiusure non si \"sovrapporranno\": infatti sarà chiusa una sola struttura alla volta. |\n| S3.12 | A | \"Alla volta\" è la locuzione che significa una struttura per turno; 中文：每次一个。 |\n| S3.13 | C | \"Mentre\" mette in contrasto la struttura chiusa con le altre che resteranno aperte nello stesso momento. |\n| S3.14 | D | Orari e calendario sono \"consultabili sul sito\", cioè possono essere letti online. |\n| S3.15 | C | Dopo gli orari estivi, l'orario invernale \"riprende dal 31 agosto\"; 中文：恢复实施。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "D",
+    "S3.6": "B",
+    "S3.7": "B",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "B",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "D",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "parchi cittadini",
+      "categoria": "locuzione nominale",
+      "zh": "城市公园",
+      "en": "city parks",
+      "esempio": "in alcuni parchi cittadini"
+    },
+    {
+      "parola": "segnalibro dedicato",
+      "categoria": "locuzione nominale",
+      "zh": "配套书签",
+      "en": "dedicated bookmark",
+      "esempio": "insieme a un segnalibro dedicato"
+    },
+    {
+      "parola": "orari estivi",
+      "categoria": "locuzione nominale",
+      "zh": "夏季开放时间",
+      "en": "summer opening hours",
+      "esempio": "Gli orari estivi e il calendario delle chiusure"
+    },
+    {
+      "parola": "calendario delle chiusure",
+      "categoria": "locuzione nominale",
+      "zh": "闭馆日程",
+      "en": "closure schedule",
+      "esempio": "Gli orari estivi e il calendario delle chiusure"
+    },
+    {
+      "parola": "a rotazione",
+      "categoria": "locuzione avverbiale",
+      "zh": "轮流地",
+      "en": "in rotation",
+      "esempio": "a rotazione"
+    }
+  ]
+}

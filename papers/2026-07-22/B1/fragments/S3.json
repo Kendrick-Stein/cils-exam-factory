@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "nuovo",
+    "S3_OPT0_B": "giovane",
+    "S3_OPT0_C": "acerbo",
+    "S3_OPT0_D": "fresco",
+    "S3_OPTION_ROWS": "| 1. | istituzione | interruzione | riduzione | esclusione |\n| 2. | giornaliero | periodico | definitivo | continuo |\n| 3. | occasionale | obbligatoria | generale | abituale |\n| 4. | riutilizzo | trasferimento | consumo | abbandono |\n| 5. | produrre | ridurre | dividere | misurare |\n| 6. | aperta | diritta | circolare | uguale |\n| 7. | fermerà | svolgerà | porterà | resterà |\n| 8. | contrario | vietato | estraneo | riservato |\n| 9. | possesso | attesa | assenza | ricordo |\n| 10. | rilasciato | raccolto | cercato | comprato |\n| 11. | cumulabile | leggibile | pieghevole | visibile |\n| 12. | appartenenti | abituati | interessati | contrari |\n| 13. | utilizzabili | evitabili | accettabili | regolabili |\n| 14. | superiore | inferiore | uguale | vicino |\n| 15. | riduzione | descrizione | divisione | formazione |",
+    "S3_TEXT_WITH_GAPS": "Torino avrà un __nuovo (0)__ mercato dedicato al riuso. La Giunta ha approvato l'__(1)__ di \"Torino Green\", un mercato __(2)__ dedicato alla vendita __(3)__ di beni usati tra privati. L'iniziativa punta a valorizzare il __(4)__ degli oggetti, __(5)__ gli sprechi e sostenere le politiche di economia __(6)__.\n\nIl mercato si __(7)__ in via Carcano 14/A ogni sabato e domenica. Sarà __(8)__ esclusivamente alle persone fisiche in __(9)__ del tesserino hobbistico \"green.To\", __(10)__ dalla Città secondo il modello previsto dalla normativa regionale e non __(11)__ con altri tesserini per hobbisti.\n\nSui banchi si potranno trovare beni usati __(12)__ alla sfera personale dei partecipanti, come oggetti da collezione, articoli vintage, libri, giocattoli, abbigliamento e accessori, oggetti per la casa e attrezzature sportive. Gli articoli devono essere __(13)__. Il valore di vendita di ciascun prodotto non potrà essere __(14)__ ai 150 euro.\n\nCon questa iniziativa Torino continua il suo impegno per la __(15)__ dei rifiuti.",
+    "T6_TITLE": "TORINO GREEN: UN NUOVO MERCATO DEL RIUSO"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | La Giunta approva l'\"istituzione\" di un nuovo mercato; 中文：指市场的设立。 |\n| S3.2 | B | Un mercato che si tiene ogni fine settimana è \"periodico\", non continuo. |\n| S3.3 | A | La vendita tra privati è definita \"occasionale\". |\n| S3.4 | A | Si valorizza il \"riutilizzo degli oggetti\", cioè il loro nuovo uso. |\n| S3.5 | B | L'obiettivo ambientale è \"ridurre gli sprechi\". |\n| S3.6 | C | \"Economia circolare\" è l'espressione corretta per il modello basato sul riuso. |\n| S3.7 | B | Un mercato \"si svolgerà\" in un luogo e in giorni stabiliti. |\n| S3.8 | D | La struttura \"riservato esclusivamente alle persone\" indica chi può partecipare. |\n| S3.9 | A | L'espressione corretta è \"in possesso del tesserino\". |\n| S3.10 | A | Un tesserino ufficiale è \"rilasciato dalla Città\". |\n| S3.11 | A | \"Non cumulabile con altri tesserini\" significa che non si possono usare insieme; 中文：不可叠加使用。 |\n| S3.12 | A | I beni sono \"appartenenti alla sfera personale\" dei partecipanti. |\n| S3.13 | A | Gli articoli in vendita devono essere \"utilizzabili\". |\n| S3.14 | A | Con un limite massimo, il valore non può essere \"superiore ai 150 euro\". |\n| S3.15 | A | Le politiche ambientali mirano alla \"riduzione dei rifiuti\". |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "A",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "D",
+    "S3.9": "A",
+    "S3.10": "A",
+    "S3.11": "A",
+    "S3.12": "A",
+    "S3.13": "A",
+    "S3.14": "A",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "beni usati",
+      "categoria": "locuzione nominale",
+      "zh": "二手物品",
+      "en": "second-hand goods",
+      "esempio": "di beni usati tra privati"
+    },
+    {
+      "parola": "persone fisiche",
+      "categoria": "locuzione nominale",
+      "zh": "自然人",
+      "en": "individuals",
+      "esempio": "persone fisiche"
+    },
+    {
+      "parola": "tesserino hobbistico",
+      "categoria": "locuzione nominale",
+      "zh": "业余经营者证件",
+      "en": "hobby trader permit",
+      "esempio": "del tesserino hobbistico \"green.To\""
+    },
+    {
+      "parola": "attrezzature sportive",
+      "categoria": "locuzione nominale",
+      "zh": "体育器材",
+      "en": "sports equipment",
+      "esempio": "oggetti per la casa e attrezzature sportive"
+    },
+    {
+      "parola": "oggetti da collezione",
+      "categoria": "locuzione nominale",
+      "zh": "收藏品",
+      "en": "collectibles",
+      "esempio": "come oggetti da collezione"
+    }
+  ]
+}

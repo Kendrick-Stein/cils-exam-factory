@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Lione è senza dubbio la destinazione ideale per una breve vacanza per tutti gli amanti della buona cucina e della cultura.",
+    "T3_PART_B": "Al termine di quel viaggio in treno, arriviamo in serata, alle 20:32, alla stazione di Lyon Part-Dieu. Lì ci accoglie Mélina, che ci consegna la Lyon City Card.",
+    "T3_PART_C": "In quei quattro giorni, tra passeggiate lungo i fiumi, antichi quartieri e degustazioni indimenticabili, ecco il diario di un fine settimana lungo nella capitale della gastronomia.",
+    "T3_PART_D": "Terminata quella degustazione alle Halles, con la pancia e il cuore pieni, dedichiamo il primo pomeriggio al Museo delle Belle Arti di Lione.",
+    "T3_PART_E": "Raggiunto quell'alloggio, non abbiamo nemmeno il tempo di disfare le valigie: è già ora di cena alla storica Brasserie de l'Est, fondata da Paul Bocuse.",
+    "T3_PART_F": "Per dimostrarvelo, vi portiamo con noi a ripercorrere il viaggio vissuto da due appassionati di gastronomia, che hanno esplorato questa affascinante metropoli francese dall'11 al 14 giugno 2026.",
+    "T3_PART_G": "Conclusa la visita a quella collezione, alle 17:23 il treno da Lyon Part-Dieu ci riporta a casa. Lione ci lascia il ricordo di storia e cultura culinaria.",
+    "T3_PART_H": "Con la carta appena consegnata da Mélina, ci dirigiamo subito al nostro alloggio, il Grand Hôtel des Brotteaux Lyon Handwritten Collection, a pochi passi dalle principali attrazioni.",
+    "T3_PART_I": "Proprio quel museo, situato in un'ex abbazia del XVII secolo, ospita una grande collezione, dall'antico Egitto fino a opere di Rembrandt, Rubens e Gauguin.",
+    "T3_PART_J": "Quel diario comincia dal viaggio verso Lione: la città è facilmente raggiungibile dall'Italia in treno diretto con Trenitalia.",
+    "T3_PART_K": "Dopo quella prima cena e le due giornate successive, l'ultima mattina comincia alle storiche Halles di Lyon Paul Bocuse, tra degustazioni ai banchi dei produttori locali.",
+    "T3_TITLE": "DIARIO DI VIAGGIO A LIONE"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Presenta Lione come meta per chi ama cucina e cultura. |\n| 2 | F | «Per dimostrarvelo» riprende la presentazione iniziale e introduce i viaggiatori e le date. |\n| 3 | C | «In quei quattro giorni» riprende le date appena indicate e annuncia le tappe del diario. |\n| 4 | J | «Quel diario» riprende il diario appena annunciato e ne apre il racconto con il viaggio verso Lione. |\n| 5 | B | «Al termine di quel viaggio in treno» riprende il tragitto appena indicato e porta all'arrivo in stazione. |\n| 6 | H | «Con la carta appena consegnata da Mélina» riprende soltanto l'incontro narrato nella parte precedente. |\n| 7 | E | «Raggiunto quell'alloggio» riprende l'hotel appena nominato e conduce alla prima cena. |\n| 8 | K | «Dopo quella prima cena e le due giornate successive» collega direttamente la cena alla mattina conclusiva. |\n| 9 | D | «Terminata quella degustazione alle Halles» riprende unicamente la visita ai banchi della parte precedente. |\n| 10 | I | «Proprio quel museo» ha come referente unico il Museo delle Belle Arti appena nominato. 中文：指代上一段的博物馆。 |\n| 11 | G | «Conclusa la visita a quella collezione» riprende la collezione appena descritta e conduce al treno del ritorno. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "degustazioni",
+      "categoria": "nome femminile plurale",
+      "zh": "品尝活动",
+      "en": "tastings",
+      "esempio": "passeggiate lungo i fiumi, antichi quartieri e degustazioni indimenticabili"
+    },
+    {
+      "parola": "alloggio",
+      "categoria": "nome maschile",
+      "zh": "住宿处",
+      "en": "accommodation",
+      "esempio": "ci dirigiamo subito al nostro alloggio"
+    },
+    {
+      "parola": "disfare le valigie",
+      "categoria": "locuzione verbale",
+      "zh": "打开并整理行李",
+      "en": "to unpack",
+      "esempio": "non abbiamo nemmeno il tempo di disfare le valigie"
+    },
+    {
+      "parola": "banchi",
+      "categoria": "nome maschile plurale",
+      "zh": "摊位",
+      "en": "stalls",
+      "esempio": "ai banchi dei produttori locali"
+    },
+    {
+      "parola": "abbazia",
+      "categoria": "nome femminile",
+      "zh": "修道院",
+      "en": "abbey",
+      "esempio": "situato in un'ex abbazia del XVII secolo"
+    }
+  ]
+}

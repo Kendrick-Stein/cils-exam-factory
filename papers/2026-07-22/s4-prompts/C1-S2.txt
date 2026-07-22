@@ -1,0 +1,16 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 3 + §Stage S4), factory/exams/cils/templates/C1.md (S2 block + comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/C1/fragments/S2.json (cloze_verbi — tutto il sistema, 20 gaps, T5 = Jeli il pastore, testo letterario). Source: '## Slot T5' section of papers/2026-07-22/C1/sources.md.
+
+Defects (blind solver — intended answer not forced):
+- S2.2: key "lo abbia descritto/l'abbia descritto" (congiuntivo PASSATO) but solver read "lo descrivesse" (congiuntivo IMPERFETTO). Force the tense: the main clause tense + a clear anteriority/time relation must require congiuntivo passato (add a past-anterior cue), or change the intended answer to match the natural reading.
+- S2.6: key "pascolavano" (PLURALE) but solver read "pascolava" (singolare) — the subject number is ambiguous. Make the subject unmistakably plural (or singular) right by the gap.
+- S2.11: key "era stata stabilita" (passivo trapassato) but solver read "si era stabilita" (riflessivo) — passive-vs-reflexive competition. Force the passive with an explicit agent (da...), or switch the intended answer.
+- S2.17: key "acciuffando" (gerundio) but solver read "di acciuffare" (infinito) — the governing verb allows both an implicit gerundio and an infinitive complement. Re-cut so only the gerundio (or only the infinitive) is grammatical.
+- Rescan all 20 gaps for congiuntivo tense competition, subject-number ambiguity, passive-vs-reflexive, and gerundio-vs-infinito.
+
+Keep exactly 20 gaps and the point value identical. Rewrite papers/2026-07-22/C1/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, up to 5 glossario_candidates). Preserve Verga's text facts; adapt only as needed to force each form.
+
+Reply (short): the gaps you changed and how you forced each; final text word count.

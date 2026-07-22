@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ ricetta è una fresca insalata di pasta. __(1)__ estate è ideale per questo piatto. __(2)__ temperature sono alte e non ho voglia di usare __(3)__ fornelli. Devo comunque preparare qualcosa per la mia famiglia. __(4)__ pasta fredda è perfetta in estate. __(5)__ insalata è un piatto freddo: __(6)__ insalate di pasta, __(7)__ insalate di riso e __(8)__ insalate di legumi sono perfette. Ho preparato __(9)__ pasta due giorni fa: questa è __(10)__ ricetta di oggi.",
+    "T4_TITLE": "INSALATA DI PASTA FREDDA"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "**Note.** S1.1 e S1.5: davanti a «estate» e «insalata» serve «l'». S1.2 e S1.6–S1.8: «temperature» e «insalate» sono femminili plurali. S1.3: «fornelli» è maschile plurale. S1.4, S1.9 e S1.10: «pasta» e «ricetta» sono femminili singolari. 中文提示：先判断名词的性和数；元音开头的单数名词用 «l'»。",
+    "ANS_S1_ROWS": "| S1.1 | l' | S1.6 | le |\n| S1.2 | le | S1.7 | le |\n| S1.3 | i | S1.8 | le |\n| S1.4 | la | S1.9 | la |\n| S1.5 | l' | S1.10 | la |"
+  },
+  "key": {
+    "S1.1": "l'",
+    "S1.2": "le",
+    "S1.3": "i",
+    "S1.4": "la",
+    "S1.5": "l'",
+    "S1.6": "le",
+    "S1.7": "le",
+    "S1.8": "le",
+    "S1.9": "la",
+    "S1.10": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fresca",
+      "categoria": "aggettivo",
+      "zh": "清爽的；新鲜的",
+      "en": "fresh",
+      "esempio": "una fresca insalata di pasta"
+    },
+    {
+      "parola": "temperature",
+      "categoria": "nome femminile plurale",
+      "zh": "温度",
+      "en": "temperatures",
+      "esempio": "temperature sono alte"
+    },
+    {
+      "parola": "voglia",
+      "categoria": "nome femminile",
+      "zh": "愿望；想做某事的心情",
+      "en": "desire",
+      "esempio": "non ho voglia di usare"
+    },
+    {
+      "parola": "famiglia",
+      "categoria": "nome femminile",
+      "zh": "家庭；家人",
+      "en": "family",
+      "esempio": "mia famiglia"
+    },
+    {
+      "parola": "due giorni fa",
+      "categoria": "espressione di tempo",
+      "zh": "两天前",
+      "en": "two days ago",
+      "esempio": "due giorni fa"
+    }
+  ]
+}

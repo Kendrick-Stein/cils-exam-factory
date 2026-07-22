@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — length trim only.
+
+Fragment: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi, 20 gaps, T5 chef). Read the current fragment.
+
+The cloze text (slot S2_TEXT_WITH_GAPS) currently measures 262 words; the B2 band for this prova is 220–260. Trim 8–12 filler words to land at ~252 words. Rules:
+- Do NOT touch any of the 20 verb gaps, their governed verbs, their time/subject markers, or the immediately surrounding words that force each tense. Cut only redundant adjectives/adverbs/subordinate filler that are FAR from any gap.
+- Keep all 20 gaps, the key S2.1..S2.20 (unchanged), points, and schema identical. Do not introduce any new ambiguity.
+
+Count the words of S2_TEXT_WITH_GAPS yourself before finishing (regex \b[\wÀ-ÿ']+\b, gap tokens like «__(5)__» count as their number) and confirm 220–260, aim ~252. Rewrite papers/2026-07-22/B2/fragments/S2.json in full (prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, glossario_candidates).
+
+Reply (short): the new word count; confirm no gap context changed.

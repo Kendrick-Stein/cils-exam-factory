@@ -1,0 +1,112 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "A", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Vero", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A-H-D-J-B-F-K-C-I-E-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "li", "confidence": "hi"},
+  "S1.2": {"answer": "si", "confidence": "hi"},
+  "S1.3": {"answer": "cui", "confidence": "hi"},
+  "S1.4": {"answer": "li", "confidence": "hi"},
+  "S1.5": {"answer": "quello", "confidence": "hi"},
+  "S1.6": {"answer": "quelle", "confidence": "hi"},
+  "S1.7": {"answer": "quelli", "confidence": "hi"},
+  "S1.8": {"answer": "ne", "confidence": "hi"},
+  "S1.9": {"answer": "cui", "confidence": "hi"},
+  "S1.10": {"answer": "quella", "confidence": "hi"},
+  "S1.11": {"answer": "li", "confidence": "med"},
+  "S1.12": {"answer": "le", "confidence": "hi"},
+  "S1.13": {"answer": "la", "confidence": "hi"},
+  "S1.14": {"answer": "cui", "confidence": "hi"},
+  "S1.15": {"answer": "li", "confidence": "hi"},
+  "S1.16": {"answer": "lo", "confidence": "med"},
+  "S1.17": {"answer": "lo", "confidence": "hi"},
+  "S1.18": {"answer": "cui", "confidence": "hi"},
+  "S1.19": {"answer": "lo", "confidence": "med"},
+  "S1.20": {"answer": "questi", "confidence": "hi"},
+
+  "S2.1": {"answer": "percorreva", "confidence": "hi"},
+  "S2.2": {"answer": "gestiva", "confidence": "hi"},
+  "S2.3": {"answer": "sarebbero servite", "confidence": "hi"},
+  "S2.4": {"answer": "ci avrebbe creduto", "confidence": "hi"},
+  "S2.5": {"answer": "ha organizzato", "confidence": "hi"},
+  "S2.6": {"answer": "hanno portato", "confidence": "hi"},
+  "S2.7": {"answer": "sono finiti", "confidence": "hi"},
+  "S2.8": {"answer": "ha", "confidence": "hi"},
+  "S2.9": {"answer": "si arrendano", "confidence": "hi"},
+  "S2.10": {"answer": "gli direbbe", "confidence": "hi"},
+  "S2.11": {"answer": "sognava", "confidence": "hi"},
+  "S2.12": {"answer": "aprì", "confidence": "hi"},
+  "S2.13": {"answer": "dicevano", "confidence": "hi"},
+  "S2.14": {"answer": "credessero", "confidence": "hi"},
+  "S2.15": {"answer": "sarebbe stato", "confidence": "hi"},
+  "S2.16": {"answer": "si sono ricreduti", "confidence": "hi"},
+  "S2.17": {"answer": "ha pensato", "confidence": "hi"},
+  "S2.18": {"answer": "aver raccontato", "confidence": "hi"},
+  "S2.19": {"answer": "è stato intitolato", "confidence": "med"},
+  "S2.20": {"answer": "possa", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "med"},
+  "S3.2": {"answer": "D", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "D", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"},
+  "S3.9": {"answer": "B", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "B", "confidence": "hi"},
+  "S3.12": {"answer": "A", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "D", "confidence": "hi"},
+  "S3.15": {"answer": "C", "confidence": "med"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "C", "confidence": "hi"},
+  "S4.3": {"answer": "A", "confidence": "hi"},
+  "S4.4": {"answer": "D", "confidence": "hi"},
+  "S4.5": {"answer": "B", "confidence": "hi"},
+  "S4.6": {"answer": "A", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "A", "confidence": "hi"},
+  "S4.9": {"answer": "A", "confidence": "hi"},
+  "S4.10": {"answer": "D", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S1.19", "reason": "Pronoun antecedent ambiguous: 'lo' (il microbioma, masc sing) vs 'li' (gli archei just mentioned, masc pl) both defensible."},
+  {"item_id": "S2.19", "reason": "(intitolare) admits 'si intitola' (idiomatic present) vs 'è stato intitolato'/'fu intitolato' (passive past); no clitic to disambiguate."}
+]
+```
+
+WRITING
+W1: ok
+W2: ok
+O1: ok
+O2: ok

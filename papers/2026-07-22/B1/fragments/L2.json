@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Il servizio di prestito è disponibile sia per i cittadini italiani sia per quelli stranieri.**  \nVero ○ Falso ○\n\n**2. Il servizio permette di prendere materiali soltanto dalla Biblioteca comunale di Como.**  \nVero ○ Falso ○\n\n**3. Un utente può avere in prestito al massimo 15 documenti in totale.**  \nVero ○ Falso ○\n\n**4. Tra i 15 documenti, un utente può scegliere 10 libri e 10 prodotti multimediali.**  \nVero ○ Falso ○\n\n**5. Il prestito dura 30 giorni per i libri e 7 giorni per i DVD e i CD.**  \nVero ○ Falso ○\n\n**6. Anche il materiale multimediale può essere rinnovato una volta.**  \nVero ○ Falso ○\n\n**7. Il rinnovo può essere richiesto anche dopo la scadenza.**  \nVero ○ Falso ○\n\n**8. È possibile iscriversi in qualsiasi biblioteca della rete.**  \nVero ○ Falso ○\n\n**9. I cittadini stranieri senza CNS o CRS non possono iscriversi al servizio.**  \nVero ○ Falso ○\n\n**10. Per iscrivere un minore servono anche la firma di un genitore e la fotocopia del documento del genitore.**  \nVero ○ Falso ○\n\n**11. L'iscrizione è immediata e non ha alcun costo.**  \nVero ○ Falso ○\n\n**12. Tra l'11° e il 60° giorno di ritardo, l'utente può continuare a prendere altri documenti in prestito.**  \nVero ○ Falso ○\n\n**13. Dopo 60 giorni di ritardo, la sospensione dura altri 60 giorni dal momento della restituzione.**  \nVero ○ Falso ○\n\n**14. Nel periodo dal 6 al 31 luglio la biblioteca resta aperta anche il sabato pomeriggio.**  \nVero ○ Falso ○",
+    "T2_TEXT": "**Destinatari**\nIl servizio di prestito è aperto a tutti i cittadini italiani e stranieri.\n\n**Descrizione**\nIl servizio permette di prendere in prestito libri e materiale multimediale (DVD, CD musicali, CD Rom) dalla Biblioteca comunale e da tutte le biblioteche della Rete bibliotecaria della provincia di Como. Ogni utente può avere in prestito fino a 15 documenti totali: 10 libri e 5 prodotti multimediali, oppure 15 libri. La durata del prestito è di 30 giorni per i libri e di 7 giorni per i DVD e i CD. È possibile un solo rinnovo per i libri non prenotati da altri utenti, mentre il materiale multimediale non si può rinnovare. Il rinnovo va richiesto prima della scadenza, di persona, online o per telefono.\n\n**Come iscriversi**\nCi si può iscrivere in qualsiasi biblioteca della rete presentando la Carta Nazionale dei Servizi (CNS) o la Carta Regionale dei Servizi (CRS). I cittadini stranieri che non hanno la CNS o la CRS possono iscriversi con un documento d'identità valido. Per i minori di 18 anni è necessario presentare la CNS o la CRS del ragazzo, la firma di un genitore e la fotocopia del documento d'identità del genitore.\n\n**Costi e tempi**\nL'iscrizione è immediata e il servizio è completamente gratuito.\n\n**Ritardi nella restituzione**\nChi restituisce un libro con più di 30 giorni di ritardo ha ancora 10 giorni di tolleranza senza alcuna sospensione. Tra l'11° e il 60° giorno di ritardo, l'utente non può prendere in prestito altri documenti fino alla restituzione; se restituisce entro i 60 giorni viene riammesso automaticamente al prestito. Dopo 60 giorni di ritardo, invece, l'utente viene sospeso automaticamente per altri 60 giorni dal momento della restituzione, al termine dei quali torna a poter usare il servizio.\n\n**Orari**\nDa lunedì a venerdì la biblioteca è aperta dalle 9:30 alle 19:00, il sabato dalle 14:00 alle 19:00. Dal 6 al 31 luglio l'orario estivo prevede l'apertura dal lunedì al venerdì dalle 9:30 alle 16:00, con chiusura del sabato.",
+    "T2_TITLE": "ISCRIZIONE E PRESTITO NELLE BIBLIOTECHE DI COMO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il servizio è «aperto a tutti i cittadini italiani e stranieri». |\n| L2.2 | Falso | Si possono prendere materiali dalla Biblioteca comunale «e da tutte le biblioteche» della rete provinciale. 中文：并非仅限市图书馆。 |\n| L2.3 | Vero | Ogni utente può avere «fino a 15 documenti totali». |\n| L2.4 | Falso | Il limite indicato è «10 libri e 5 prodotti multimediali», non 10 prodotti multimediali. 中文：数量对比。 |\n| L2.5 | Vero | La durata è «di 30 giorni per i libri e di 7 giorni per i DVD e i CD». |\n| L2.6 | Falso | Il testo precisa che «il materiale multimediale non si può rinnovare». |\n| L2.7 | Falso | «Il rinnovo va richiesto prima della scadenza», non dopo. 中文：时间先后相反。 |\n| L2.8 | Vero | «Ci si può iscrivere in qualsiasi biblioteca della rete». |\n| L2.9 | Falso | Senza CNS o CRS, i cittadini stranieri possono usare «un documento d'identità valido». |\n| L2.10 | Vero | Per i minori sono richieste «la firma di un genitore e la fotocopia del documento d'identità del genitore». |\n| L2.11 | Vero | «L'iscrizione è immediata» e il servizio è «completamente gratuito». |\n| L2.12 | Falso | In quel periodo l'utente «non può prendere in prestito altri documenti fino alla restituzione». |\n| L2.13 | Vero | La sospensione è «per altri 60 giorni dal momento della restituzione». |\n| L2.14 | Falso | Dal 6 al 31 luglio è prevista la «chiusura del sabato». 中文：夏季周六关闭。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "materiale multimediale",
+      "categoria": "locuzione nominale",
+      "zh": "多媒体资料",
+      "en": "multimedia material",
+      "esempio": "libri e materiale multimediale (DVD, CD musicali, CD Rom)"
+    },
+    {
+      "parola": "rinnovo",
+      "categoria": "sostantivo maschile",
+      "zh": "续借",
+      "en": "renewal",
+      "esempio": "È possibile un solo rinnovo per i libri non prenotati da altri utenti"
+    },
+    {
+      "parola": "scadenza",
+      "categoria": "sostantivo femminile",
+      "zh": "到期日",
+      "en": "deadline; due date",
+      "esempio": "Il rinnovo va richiesto prima della scadenza"
+    },
+    {
+      "parola": "tolleranza",
+      "categoria": "sostantivo femminile",
+      "zh": "宽限期",
+      "en": "grace period",
+      "esempio": "ha ancora 10 giorni di tolleranza senza alcuna sospensione"
+    },
+    {
+      "parola": "sospeso",
+      "categoria": "aggettivo",
+      "zh": "被暂停资格的",
+      "en": "suspended",
+      "esempio": "l'utente viene sospeso automaticamente per altri 60 giorni"
+    }
+  ]
+}

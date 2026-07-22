@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE gap.
+
+Fragment: papers/2026-07-22/C1/fragments/S2.json (cloze_verbi, 20 gaps, T5 = Jeli il pastore). Read the current fragment.
+
+The prova validates EXCEPT S2.2. Its «sebbene … (descrivere) ___ …» clause admits both congiuntivo passato «lo abbia descritto» and congiuntivo imperfetto «lo descrivesse», because the temporal relation to the main clause is unclear. Keep the intended answer «lo abbia descritto || l'abbia descritto» (congiuntivo passato) and reword ONLY this sentence so ONLY congiuntivo passato fits: make the MAIN clause unambiguously PRESENT and the sebbene-action a COMPLETED, PUNCTUAL past relative to now — e.g. «Sebbene Verga lo (descrivere) ___ una sola volta, nel racconto del 1881, oggi Jeli resta un personaggio vivissimo». A present main clause + a bounded/punctual past event forces congiuntivo passato and excludes the imperfetto (which needs a habitual/past frame).
+
+Change NOTHING else: keep the other 19 gaps, contexts, keys, points, schema identical. Keep the whole S2 text within 230–280 words. Rewrite papers/2026-07-22/C1/fragments/S2.json in full (prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, glossario_candidates).
+
+Reply (short): the new S2.2 sentence; confirm only congiuntivo passato fits.

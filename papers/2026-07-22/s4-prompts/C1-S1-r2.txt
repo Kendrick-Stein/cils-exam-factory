@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE gap.
+
+Fragment: papers/2026-07-22/C1/fragments/S1.json (cloze connettivi/preposizioni, 20 gaps, T4). Read the current fragment.
+
+The prova validates EXCEPT S1.20: «in vista ___ studi successivi» — the key is «degli» but «di studi successivi» (bare preposition, generic) is equally defensible. Make the ARTICULATED form obligatory: specify/definite-ise the noun so the article is required — e.g. «in vista degli studi successivi che avrebbe affrontato», «in vista degli studi universitari». After the change, a bare «di» must be ungrammatical there. Keep key S1.20 = «degli».
+
+Change NOTHING else: keep the other 19 gaps, their contexts, all keys, points, schema identical. Rewrite papers/2026-07-22/C1/fragments/S1.json in full (prova "S1", slots {S1_TEXT_WITH_GAPS, T4_TITLE}, answer_slots {ANS_S1_ROWS, ANS_S1_NOTES}, key S1.1..S1.20, glossario_candidates).
+
+Reply (short): the new S1.20 clause; confirm only «degli» fits.

@@ -1,0 +1,66 @@
+ANSWERS
+```json
+{
+  "L3": {"answer": "A-F-N-C-L-H-P-D-I-M-B-O-G-K-E-J", "confidence": "hi"},
+  "S1.1": {"answer": "non tanto", "confidence": "hi"},
+  "S1.2": {"answer": "che", "confidence": "hi"},
+  "S1.3": {"answer": "che", "confidence": "hi"},
+  "S1.4": {"answer": "che", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "che", "confidence": "hi"},
+  "S1.7": {"answer": "cui", "confidence": "hi"},
+  "S1.8": {"answer": "che", "confidence": "hi"},
+  "S1.9": {"answer": "che", "confidence": "hi"},
+  "S1.10": {"answer": "cui", "confidence": "hi"},
+  "S1.11": {"answer": "di", "confidence": "hi"},
+  "S1.12": {"answer": "a", "confidence": "hi"},
+  "S1.13": {"answer": "a", "confidence": "hi"},
+  "S1.14": {"answer": "di", "confidence": "hi"},
+  "S1.15": {"answer": "sullo", "confidence": "hi"},
+  "S1.16": {"answer": "che", "confidence": "hi"},
+  "S1.17": {"answer": "che", "confidence": "hi"},
+  "S1.18": {"answer": "che", "confidence": "hi"},
+  "S1.19": {"answer": "che", "confidence": "hi"},
+  "S1.20": {"answer": "che", "confidence": "hi"},
+  "S2.1": {"answer": "legga", "confidence": "hi"},
+  "S2.2": {"answer": "l'abbia descritto", "confidence": "med"},
+  "S2.3": {"answer": "aveva", "confidence": "hi"},
+  "S2.4": {"answer": "conobbe", "confidence": "hi"},
+  "S2.5": {"answer": "lo vedeva", "confidence": "hi"},
+  "S2.6": {"answer": "pascolavano", "confidence": "hi"},
+  "S2.7": {"answer": "era", "confidence": "hi"},
+  "S2.8": {"answer": "andava", "confidence": "hi"},
+  "S2.9": {"answer": "divideva", "confidence": "hi"},
+  "S2.10": {"answer": "consolidarono", "confidence": "hi"},
+  "S2.11": {"answer": "era stata stabilita", "confidence": "hi"},
+  "S2.12": {"answer": "insegnava", "confidence": "hi"},
+  "S2.13": {"answer": "comprendesse", "confidence": "hi"},
+  "S2.14": {"answer": "arrampicarsi", "confidence": "med"},
+  "S2.15": {"answer": "cogliere", "confidence": "med"},
+  "S2.16": {"answer": "montare", "confidence": "med"},
+  "S2.17": {"answer": "acciuffando", "confidence": "hi"},
+  "S2.18": {"answer": "passava", "confidence": "hi"},
+  "S2.19": {"answer": "lasciarsi sbigottire", "confidence": "hi"},
+  "S2.20": {"answer": "afferrata", "confidence": "hi"},
+  "S4.1": {"answer": "disposizioni vigenti relative all'Amministrazione digitale.", "confidence": "hi"},
+  "S4.2": {"answer": "accesso.", "confidence": "med"},
+  "S4.3": {"answer": "dall'ufficio.", "confidence": "hi"},
+  "S4.4": {"answer": "successivamente.", "confidence": "hi"},
+  "S4.5": {"answer": "integrazioni alle pratiche già presentate alla data del 6 luglio 2026.", "confidence": "hi"},
+  "S4.6": {"answer": "comunicazioni relative alle CIL, alle SCIA e alle SCIAPDC.", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S2.2", "reason": "congiuntivo passato 'l'abbia descritto' vs trapassato 'l'avesse descritto' both defensible."},
+  {"item_id": "S2.14", "reason": "'come'+infinito 'arrampicarsi' vs conjugated subjunctive parallel to 'comprendesse'."},
+  {"item_id": "S2.15", "reason": "infinito 'cogliere' vs conjugated subjunctive parallel — defensible."},
+  {"item_id": "S2.16", "reason": "infinito 'montare' vs conjugated subjunctive parallel — defensible."},
+  {"item_id": "S4.2", "reason": "completion scope ambiguous: minimal 'accesso.' vs expanded object."}
+]
+```
+
+WRITING
+n/a

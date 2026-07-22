@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "quartiere",
+    "S3_OPT0_B": "negozio",
+    "S3_OPT0_C": "giardino",
+    "S3_OPTION_ROWS": "| 1. | coperto | leggero | gentile |\n| 2. | portare | fare | dare |\n| 3. | facile | tranquilla | difficile |\n| 4. | rinnovarlo | venderlo | chiuderlo |\n| 5. | rumoroso | sostenibile | vuoto |\n| 6. | accessibile | occupato | nascosto |\n| 7. | preparano | incontrano | perdono |\n| 8. | veloce | difficile | sociale |",
+    "S3_TEXT_WITH_GAPS": "A Torino, nel __quartiere (0)__ Vallette, è stato inaugurato di nuovo il mercato __(1)__ del quartiere. Si chiama \"Le Verbene\" ed è un luogo storico per __(2)__ la spesa.\n\nIl mercato era in una situazione __(3)__, ma la Città di Torino ha deciso di __(4)__. I lavori hanno reso il mercato più moderno, più __(5)__ e più __(6)__ per tutti.\n\nIl sindaco Stefano Lo Russo dice che il mercato è molto importante per il quartiere: qui le persone non solo fanno la spesa, ma si __(7)__ e parlano tra loro. Anche l'assessore al Commercio, Paolo Chiavarino, sottolinea il ruolo __(8)__ di questo luogo.",
+    "T6_TITLE": "IL MERCATO COPERTO LE VERBENE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Il titolo e l'espressione «mercato coperto» indicano uno spazio al chiuso. 中文：coperto 指室内的。 |\n| S3.2 | B | Si dice «fare la spesa». 中文：固定搭配，意为买东西。 |\n| S3.3 | C | Il contrasto con «ma» e i lavori successivi mostrano che la situazione era difficile. 中文：后文翻修说明原状不好。 |\n| S3.4 | A | «I lavori hanno reso il mercato più moderno»: la Città ha deciso di rinnovarlo. 中文：工程使市场焕新。 |\n| S3.5 | B | I lavori rendono il mercato «più moderno, più sostenibile». 中文：sostenibile 表示更可持续。 |\n| S3.6 | A | «Per tutti» completa naturalmente «accessibile». 中文：人人都能进入和使用。 |\n| S3.7 | B | Le persone «parlano tra loro» perché si incontrano al mercato. 中文：市场也是见面的地方。 |\n| S3.8 | C | Incontrarsi e parlare mostra il ruolo sociale del mercato. 中文：这里强调社会功能。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "quartiere",
+      "categoria": "sostantivo maschile",
+      "zh": "街区",
+      "en": "neighborhood",
+      "esempio": "del quartiere"
+    },
+    {
+      "parola": "luogo storico",
+      "categoria": "locuzione nominale",
+      "zh": "有历史意义的地方",
+      "en": "historic place",
+      "esempio": "è un luogo storico"
+    },
+    {
+      "parola": "lavori",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "工程",
+      "en": "renovation works",
+      "esempio": "I lavori hanno reso il mercato più moderno"
+    },
+    {
+      "parola": "sindaco",
+      "categoria": "sostantivo maschile",
+      "zh": "市长",
+      "en": "mayor",
+      "esempio": "Il sindaco Stefano Lo Russo dice"
+    },
+    {
+      "parola": "assessore al Commercio",
+      "categoria": "locuzione nominale",
+      "zh": "商业事务委员",
+      "en": "councillor for commerce",
+      "esempio": "Anche l'assessore al Commercio, Paolo Chiavarino"
+    }
+  ]
+}

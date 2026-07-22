@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua casa: scrivi dove abiti, con chi vivi, quali stanze ci sono e qual è la tua stanza preferita.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una scuola di italiano. Chiedi quando comincia il corso e quanto costa l'iscrizione."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Abito in un appartamento piccolo con mia sorella. Ci sono una cucina, un bagno e due camere. La mia stanza preferita è la cucina perché è luminosa.",
+    "MODEL_W1_PHRASES": "«Abito in…»（我住在……） · «Vivo con…»（我和……一起住） · «Ci sono…»（有……） · «La mia stanza preferita è…»（我最喜欢的房间是……）",
+    "MODEL_W2": "Buongiorno, scrivo per avere informazioni sul corso di italiano. Quando comincia? Quanto costa l'iscrizione? Grazie. Luca",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Scrivo per avere informazioni su…»（我写信想了解……） · «Quando comincia?»（什么时候开始？） · «Quanto costa l'iscrizione?»（报名费多少钱？） · «Grazie»（谢谢）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

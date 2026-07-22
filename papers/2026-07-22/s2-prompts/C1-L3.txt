@@ -1,0 +1,40 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/C1.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level C1, session 2026-07-22, fragment ID L3 (Test di comprensione della lettura).
+
+Prova spec from exam.yaml:
+n: 3
+tipo: ricostruzione
+parti: 16
+ancore: 2
+items: 14
+punti_item: 0.43
+punti: 6
+punti_nota: 6 punti totali su 14 legami
+testo:
+  slot: T3
+  genere: testo narrativo/letterario
+  parole:
+  - 420
+  - 520
+
+Your ONE source text: the '## Slot T3' section of papers/2026-07-22/C1/sources.md — read ONLY that section (do not use other slots' texts). Follow its adaptation plan; adapt INTO the band; cut whole sentences first; never invent facts.
+
+The reading text body you deliver in the *_TEXT / *_WITH_GAPS slot (title and items excluded) is word-counted by the quality audit against the band in the spec — land inside it, aim mid-band.
+
+Item-writer reminder for this prova: Ricostruzione (16 parti, 2 ancore fisse): every non-anchor part opens with a unique connettivo/anafora/time cue so EXACTLY ONE order is coherent. Verify each movable part fits nowhere else. Key = the full sequence string.
+
+Output: write EXACTLY ONE file, papers/2026-07-22/C1/fragments/L3.json — a JSON object
+{"prova": "L3", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): T3_PART_A, T3_PART_B, T3_PART_C, T3_PART_D, T3_PART_E, T3_PART_F, T3_PART_G, T3_PART_H, T3_PART_I, T3_PART_J, T3_PART_K, T3_PART_L, T3_PART_M, T3_PART_N, T3_PART_O, T3_PART_P, T3_TITLE, ANS_L3_ROWS, ANS_L3_SEQUENCE
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (L3.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.
