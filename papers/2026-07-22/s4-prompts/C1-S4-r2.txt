@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 2 — one prova (single item).
+
+Fragment: papers/2026-07-22/C1/fragments/S4.json (trasformazioni, 6 items, T7 = avviso Comune di Napoli). Source: '## Slot T7' section. Read the current fragment.
+
+Only item S4.2 remains ambiguous: the printed starter lets the completion be either minimal («accesso.») or expanded («accesso alla piattaforma…»); the key expects «ACCESSO ALLA PIATTAFORMA.». Re-cut the S4.2 STARTER so the required completion is unambiguous and minimal — i.e. the starter should stop at a point where exactly one short completion is natural (and the object is either already in the starter or unmistakably required). Set the key for S4.2 to that single completion, adding any genuinely equivalent variant with `||`. Do NOT change items S4.1, S4.3, S4.4, S4.5, S4.6 (they validated). Keep 6 items and points.
+
+Rewrite papers/2026-07-22/C1/fragments/S4.json in full (schema: prova "S4", slots {S4_ITEMS, S4_SOURCE_0, S4_REWRITE_0}, answer_slots {ANS_S4_ROWS, ANS_S4_NOTES}, key S4.1..S4.6, up to 5 glossario_candidates).
+
+Reply (short): the new S4.2 starter + its key completion.

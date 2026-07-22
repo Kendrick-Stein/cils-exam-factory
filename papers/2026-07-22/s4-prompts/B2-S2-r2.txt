@@ -1,0 +1,19 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 2 (final) — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 3 + §Stage S4), factory/exams/cils/templates/B2.md (the S2 block + HTML comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi, 20 gaps, T5 = chef intervista). Source: '## Slot T5' section of papers/2026-07-22/B2/sources.md.
+
+A fresh blind solver agrees with every key answer BUT still flags THREE gaps as having more than one defensible form. Kill each ambiguity by editing the printed text (not the key), then keep the same intended answers:
+
+1. S2.5 — "In questi anni (organizzare) … per cinque presidenti": «In questi anni» lets both «ha organizzato» (pp) and «organizza» (presente) fit. FORCE passato prossimo unambiguously: rewrite the time frame to a clearly bounded/completed past that blocks the present reading — e.g. «Negli anni della sua carriera ha organizzato…», «Fino a oggi ha organizzato…», or add «già». The present tense must become impossible.
+
+2. S2.17 — "In questi mesi Mattia (pensare) di scrivere un libro": both «ha pensato» (decision reached) and «sta pensando»/«pensa» (ongoing) fit. FORCE the passato prossimo with a completed-decision frame — e.g. «Qualche mese fa Mattia ha pensato di scrivere un libro», «Alla fine ha pensato di…». Remove any "in questi mesi / ongoing" reading.
+
+3. S2.3 — the parenthetical is the active infinitive «(servire)» but the intended answer is the passive «sarebbero state servite», which a candidate cannot infer from an active infinitive. Fix EITHER by (a) making the passive explicit — put «(essere servite)» / «(servire, passivo)» in the parenthetical and keep an explicit agent «dalla sua impresa» so «sarebbero state servite» is forced — OR (b) re-cut the gap to a form derivable directly from «(servire)» with one reading only (e.g. an intransitive «servire» = "essere utili": «le sue pietanze non (servire) ___ a nulla senza…» → «sarebbero servite», one reading). Update the key for S2.3 accordingly.
+
+Then RESCAN all 20 gaps once more for passato-prossimo-vs-presente competition (any «in questi anni/mesi/giorni + verbo» with no completion cue), reflexive-vs-passive, and participle agreement. Keep exactly 20 gaps and the point value identical.
+
+Rewrite papers/2026-07-22/B2/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, up to 5 glossario_candidates). Use `||` only for genuinely equivalent forms.
+
+Reply (short): the exact new wording around S2.3, S2.5, S2.17 and the key for each; final text word count.

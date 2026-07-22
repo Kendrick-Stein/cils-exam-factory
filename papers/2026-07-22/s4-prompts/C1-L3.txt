@@ -1,0 +1,13 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 5 + §Stage S4), factory/exams/cils/templates/C1.md (L3 block + comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/C1/fragments/L3.json (ricostruzione, 16 parti A–P, 2 ancore fisse, T3 = Rosso Malpelo, testo letterario). Source: '## Slot T3' section of papers/2026-07-22/C1/sources.md.
+
+Defect: intended key sequence "A–F–N–C–L–H–P–D–I–M–B–O–G–K–E–J" but a fresh blind solver reconstructed a very different order "A-F-B-O-G-K-E-M-I-N-C-L-H-P-D-J" and FLAGGED the E->M->I stretch as under-constrained. Too many parts lack a unique cohesion cue, so more than one order is coherent.
+
+Fix: re-cut / lightly re-word the non-anchor parts so EACH opens with a UNIQUE, unmistakable cohesion cue (a connettivo, an anaphoric pronoun that can only refer to one preceding part, or a temporal marker) that makes EXACTLY ONE global order coherent. Pay special attention to the run the solver mis-ordered. After re-cutting, VERIFY part-by-part that each movable part cannot sit anywhere else, and set the `key` sequence to the resulting unique order. Keep 16 parts, the 2 fixed anchors, and the point value identical; preserve Verga's narrative facts.
+
+Rewrite papers/2026-07-22/C1/fragments/L3.json in full (schema: prova "L3", slots {T3_TITLE, T3_PART_A..P}, answer_slots {ANS_L3_ROWS, ANS_L3_SEQUENCE}, key {"L3": "<sequence>"}, up to 5 glossario_candidates).
+
+Reply (short): the new sequence and which parts you re-cued.

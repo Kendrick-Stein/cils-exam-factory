@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__Questi (0)__ frammenti della Sindone furono prelevati nel 1978; gli studiosi __(1)__ hanno rianalizzati. Nei secoli, numerose contaminazioni __(2)__ erano accumulate sul tessuto.\n\nIl prelievo dei campioni, la __(3)__ esecuzione risale al 1978, non avvenne in maniera sterile. I guanti? Chi effettuò l'operazione non __(4)__ usò. Le indagini hanno individuato il Dna delle piante e __(5)__ degli animali. Fra le prime, __(6)__ coltivate erano carota, grano e mais; fra i secondi, __(7)__ domestici includevano cani, gatti, bovini e suini. Quanto al corallo rosso del Mediterraneo, __(8)__ è stata individuata la presenza genetica.\n\nI risultati? Scientific Reports __(9)__ ha pubblicati. Ricercatori di Pavia e Padova hanno guidato lo studio. L'Università di Torino? Lo studio __(10)__ coinvolse.\n\nI ricercatori? Nicola Rambaldi Migliore spiega che le difficoltà non __(11)__ hanno fermati. Le sequenze genomiche? I ricercatori __(12)__ hanno ottenute da sette frammenti. Quella linea genetica predominante? Gli studiosi __(13)__ rilevano come caratteristica degli ebrei ashkenaziti. Il profilo di Pierluigi Baima Bollone coincide con __(14)__ della linea. I prelievi? Pierluigi __(15)__ eseguì senza guanti. Il mancato uso dei guanti? Le proteine della pelle __(16)__ confermano.\n\nLo studio ha riscontrato un ricco microbioma e __(17)__ descrive come composto da microrganismi tipici della pelle umana. Il microbioma comprende comunità di archei, batteri e funghi. Queste comunità, i ricercatori __(18)__ collegano ad ambienti salini. Questi ambienti? Le analisi __(19)__ indicano come habitat compatibili. Tutti __(20)__ elementi documentano quanto numerose siano le contaminazioni.",
+    "T4_TITLE": "TRACCE DI DNA E CONTAMINAZIONI SULLA SINDONE"
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | li | S1.11 | li |\n| S1.2 | si | S1.12 | le |\n| S1.3 | cui | S1.13 | la |\n| S1.4 | li | S1.14 | quello |\n| S1.5 | quello | S1.15 | li |\n| S1.6 | quelle | S1.16 | lo |\n| S1.7 | quelli | S1.17 | lo |\n| S1.8 | ne | S1.18 | le |\n| S1.9 | li | S1.19 | li |\n| S1.10 | la | S1.20 | questi |",
+    "ANS_S1_NOTES": "- **S1.3 — cui:** esprime possesso e concorda con *esecuzione*, non con *prelievo*（关系所有格看后面的名词）.\n- **S1.9 — li:** riprende *i risultati*; l'accordo di *pubblicati* conferma il maschile plurale（直接宾语代词）.\n- **S1.11 — li:** riprende l'antecedente esplicito *i ricercatori*（阳性复数直接宾语）.\n- **S1.14 — quello:** sostituisce *il profilo* nella comparazione *coincide con quello della linea*（比较结构中的替代代词）.\n- **S1.16 — lo:** riprende *il mancato uso dei guanti*（阳性单数直接宾语）.\n- **S1.18 — le:** riprende *queste comunità*（阴性复数直接宾语）.\n- **S1.19 — li:** riprende *questi ambienti*（阳性复数直接宾语）."
+  },
+  "key": {
+    "S1.1": "li",
+    "S1.2": "si",
+    "S1.3": "cui",
+    "S1.4": "li",
+    "S1.5": "quello",
+    "S1.6": "quelle",
+    "S1.7": "quelli",
+    "S1.8": "ne",
+    "S1.9": "li",
+    "S1.10": "la",
+    "S1.11": "li",
+    "S1.12": "le",
+    "S1.13": "la",
+    "S1.14": "quello",
+    "S1.15": "li",
+    "S1.16": "lo",
+    "S1.17": "lo",
+    "S1.18": "le",
+    "S1.19": "li",
+    "S1.20": "questi"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prelievo",
+      "categoria": "nome maschile",
+      "zh": "取样",
+      "en": "sampling",
+      "esempio": "Il prelievo dei campioni"
+    },
+    {
+      "parola": "tessuto",
+      "categoria": "nome maschile",
+      "zh": "织物",
+      "en": "fabric",
+      "esempio": "sul tessuto"
+    },
+    {
+      "parola": "riscontrato",
+      "categoria": "participio passato",
+      "zh": "检测到的",
+      "en": "detected",
+      "esempio": "ha riscontrato"
+    },
+    {
+      "parola": "microbioma",
+      "categoria": "nome maschile",
+      "zh": "微生物组",
+      "en": "microbiome",
+      "esempio": "un ricco microbioma"
+    },
+    {
+      "parola": "ambienti salini",
+      "categoria": "locuzione nominale",
+      "zh": "盐碱环境",
+      "en": "saline environments",
+      "esempio": "ad ambienti salini"
+    }
+  ]
+}

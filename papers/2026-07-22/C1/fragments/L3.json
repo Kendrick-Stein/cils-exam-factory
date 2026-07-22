@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "ROSSO MALPELO",
+    "T3_PART_A": "Malpelo si chiamava così perchè aveva i capelli rossi; ed aveva i capelli rossi perchè era un ragazzo malizioso e cattivo, che prometteva di riescire un fior di birbone.",
+    "T3_PART_B": "Eppure, benché il nome «cava di Malpelo» seccasse al padrone, lì lo tenevano per carità, perché mastro Misciu, suo padre, era morto nella cava. Morì così: un sabato aveva voluto terminare un lavoro.",
+    "T3_PART_C": "Da quel timore che ne sottraesse un paio nasceva il castigo: la sorella maggiore gli faceva la ricevuta a scapaccioni. Poi, però, il padrone confermava che la paga era esatta;",
+    "T3_PART_D": "Durante quella stessa ricreazione, mentre Malpelo rosicchiava il suo pane, ciascuno, motteggiandolo, gli tirava dei sassi, finché il soprastante lo rimandava al lavoro con una pedata.",
+    "T3_PART_E": "Proprio perché solo un minchione poteva essersi lasciato gabbare in quel magro affare, lo chiamavano mastro Misciu Bestia: era l'asino da basto di tutta la cava.",
+    "T3_PART_F": "Per questa doppia fama, di ragazzo rosso e cattivo, tutti alla cava della rena rossa lo chiamavano Malpelo; persino sua madre, sentendolo nominare sempre così, aveva quasi dimenticato il suo nome di battesimo.",
+    "T3_PART_G": "Quanto a quel pilastro, il lavoro era stato calcolato col padrone in trentacinque o quaranta carra di rena. Invece, dopo tre giorni, mastro Misciu aveva ancora mezza giornata di sterro.",
+    "T3_PART_H": "Quando quel «can rognoso» capitava loro a tiro, lo accarezzavano coi piedi. Egli era un brutto ceffo, torvo, ringhioso e selvatico. Al mezzogiorno, gli altri operai si mangiavano in crocchio la minestra;",
+    "T3_PART_I": "Ei c'ingrassava, fra i calci e si lasciava caricare meglio dell'asino grigio, senza osar di lagnarsi. Era sempre cencioso e sporco di rena rossa, che la sua sorella s'era fatta sposa, e aveva altro pel capo:",
+    "T3_PART_J": "Nonostante quel nomignolo di Bestia, mastro Misciu, povero diavolaccio, lasciava dire e si contentava di buscarsi il pane con le proprie braccia, invece di menarle addosso agli altri e attaccar brighe.",
+    "T3_PART_K": "Dopo quei tre giorni di fatica, con ancora mezza giornata davanti, era ormai chiaro che si trattava di un magro affare: solo un minchione come mastro Misciu poteva lasciarsi gabbare così dal padrone.",
+    "T3_PART_L": "Confermata dal padrone la cifra esatta della paga, quei soldi erano troppi per Malpelo, un monellaccio che tutti schivavano come un can rognoso.",
+    "T3_PART_M": "Benché la sorella avesse ormai altro per il capo, Malpelo era noto come la bettonica per tutto Monserrato e la Carvana: perfino la cava si chiamava «la cava di Malpelo», cosa che seccava assai il padrone.",
+    "T3_PART_N": "Proprio quella madre, però, lo vedeva soltanto il sabato sera, quando tornava a casa coi pochi soldi della settimana; e, siccome era Malpelo, temeva perfino che ne sottraesse un paio.",
+    "T3_PART_O": "Quel lavoro del sabato, che mastro Misciu volle finire prima di morire, era stato preso a cottimo: riguardava un pilastro lasciato tempo prima come sostegno nella cava e ormai divenuto inutile.",
+    "T3_PART_P": "Durante quel mezzogiorno, dopo la minestra, quegli stessi operai facevano ricreazione; Malpelo, invece, andava a rincantucciarsi col suo corbello fra le gambe per rosicchiare il pane di otto giorni, come fanno le bestie sue pari."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | F | «Per questa doppia fama» riprende soltanto i capelli rossi e la cattiveria spiegati in A. |\n| 3 | N | «Proprio quella madre» riprende la madre che in F ha dimenticato il nome di battesimo. |\n| 4 | C | «quel timore che ne sottraesse un paio» riprende soltanto il timore espresso in N. |\n| 5 | L | «Confermata dal padrone la cifra esatta» riprende la verifica della paga in C. |\n| 6 | H | «quel “can rognoso”» riprende l'immagine conclusiva di L; «loro» indica chi lo schivava. |\n| 7 | P | «quel mezzogiorno» e «quegli stessi operai» riprendono il pasto descritto in H. |\n| 8 | D | «quella stessa ricreazione» e il pane di Malpelo riprendono entrambi P. |\n| 9 | I | parte data |\n| 10 | M | «Benché la sorella avesse ormai altro per il capo» riprende la chiusa di I. |\n| 11 | B | «il nome “cava di Malpelo”» e il padrone seccato riprendono soltanto M. |\n| 12 | O | «Quel lavoro del sabato» riprende il lavoro iniziato prima della morte, narrato in B. |\n| 13 | G | «quel pilastro» riprende l'oggetto del cottimo identificato in O. |\n| 14 | K | «quei tre giorni» e «mezza giornata» riprendono le durate indicate in G. |\n| 15 | E | «quel magro affare» riprende la conclusione di K e ne motiva il soprannome. |\n| 16 | J | «quel nomignolo di Bestia» riprende soltanto il soprannome dato in E. |",
+    "ANS_L3_SEQUENCE": "A–F–N–C–L–H–P–D–I–M–B–O–G–K–E–J"
+  },
+  "key": {
+    "L3": "A–F–N–C–L–H–P–D–I–M–B–O–G–K–E–J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fior di birbone",
+      "categoria": "locuzione nominale",
+      "zh": "十足的坏小子",
+      "en": "thorough rascal",
+      "esempio": "che prometteva di riescire un fior di birbone"
+    },
+    {
+      "parola": "scapaccioni",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "巴掌；拍打",
+      "en": "smacks",
+      "esempio": "la sorella maggiore gli faceva la ricevuta a scapaccioni"
+    },
+    {
+      "parola": "rincantucciarsi",
+      "categoria": "verbo pronominale",
+      "zh": "躲到角落里",
+      "en": "to hide in a corner",
+      "esempio": "andava a rincantucciarsi col suo corbello fra le gambe"
+    },
+    {
+      "parola": "a cottimo",
+      "categoria": "locuzione avverbiale",
+      "zh": "按件计酬",
+      "en": "on a piecework basis",
+      "esempio": "era stato preso a cottimo"
+    },
+    {
+      "parola": "asino da basto",
+      "categoria": "locuzione nominale",
+      "zh": "驮载重物的驴；苦力",
+      "en": "beast of burden",
+      "esempio": "era l'asino da basto di tutta la cava"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 4 on free-variant gaps + §Stage S4), factory/exams/cils/templates/B2.md (the S1 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-22/B2/fragments/S1.json (cloze_aperto — aggettivi e pronomi, 20 gaps, T4 = Sindone/DNA).
+Your source text: the '## Slot T4' section of papers/2026-07-22/B2/sources.md.
+
+Defect (blind solver, 0-agreement + FLAG on S1.19):
+- S1.19: key "le" but the solver read "lo" (and "li" is also defensible). The pronoun's ANTECEDENT is ambiguous (e.g. "il microbioma" masc.sing → lo vs "gli archei" masc.pl → li vs a feminine plural → le). Re-cut so exactly ONE clitic/pronoun is forced by an unambiguous, immediately-adjacent antecedent.
+- Also re-check S1.11 and S1.16 (solver marked them "med" confidence) and every other pronoun/clitic gap for antecedent ambiguity; make each antecedent unmistakable in gender/number.
+
+Keep exactly 20 gaps and the point value identical. Rewrite papers/2026-07-22/B2/fragments/S1.json in full (schema: prova "S1", slots {S1_TEXT_WITH_GAPS, T4_TITLE}, answer_slots {ANS_S1_ROWS, ANS_S1_NOTES}, key S1.1..S1.20, up to 5 glossario_candidates). Use `||` in the key only for genuinely equivalent forms.
+
+Reply (short): which gaps you changed and the antecedent you pinned for each; final text word count.

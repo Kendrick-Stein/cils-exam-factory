@@ -1,0 +1,47 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/B2.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level B2, session 2026-07-22, fragment ID W (Test di produzione scritta).
+
+Prova spec from exam.yaml:
+id: scritta
+nome: Test di produzione scritta
+durata: 1 ora e 10 minuti
+punti: 20
+prove:
+- n: 1
+  tipo: tema
+  genere: articolo per blog/recensione/testo descrittivo-narrativo
+  parole:
+  - 120
+  - 140
+  punti: 10
+  criteri: come B1 prova 1 (efficacia 4; morfosintassi 3,5; lessico 1,5; ortografia
+    1) — non stampati nel quaderno dic-2024
+- n: 2
+  tipo: testo_funzionale
+  genere: e-mail/lettera formale con 3 richieste di contenuto
+  parole:
+  - 80
+  - 100
+  punti: 10
+  criteri: come B1 prova 2 (efficacia 3; stile 1; morfosintassi 3,5; lessico 1,5;
+    ortografia 1) — non stampati nel quaderno dic-2024
+
+This fragment has NO source text — compose its content per the template HTML comments and the spec below.
+
+Item-writer reminder for this prova: Two prompts: W1 tema; W2 testo funzionale with 3 explicit content requests (W2_REQ_1..3). One 范文 per task INSIDE the printed word range + 3-5 espressioni utili each. No key entries.
+
+Output: write EXACTLY ONE file, papers/2026-07-22/B2/fragments/W.json — a JSON object
+{"prova": "W", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): W1_PROMPT, W2_PROMPT, W2_REQ_1, W2_REQ_2, W2_REQ_3, MODEL_W1, MODEL_W1_PHRASES, MODEL_W2, MODEL_W2_PHRASES
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (W.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio) — omit for W/O (no source).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.

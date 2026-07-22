@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Sagra del Cinghiale a Soriano nel Cimino**\n\nPer due fine settimana di luglio, la sagra del cinghiale è a Largo Enrico Berlinguer con ingresso libero.\n\n○ **2. Festa della Birra Artigianale a Vicopisano**\n\nDal 3 al 5 luglio, al Circolo Arci L'Ortaccio: birre artigianali e degustazioni guidate a 12 euro; ingresso gratuito.\n\n○ **3. Sagra del Tonno Rosso a Stazzo**\n\nL'11 e 12 luglio, la sagra offre specialità di tonno, musica dal vivo e menù a 7 euro.\n\n○ **4. Festa del Pomodoro a Cappella di Scorzè**\n\nDal 17 al 27 luglio, gastronomia e sport: gare in bicicletta, torneo di calcio e corsa podistica; ingresso libero.\n\n○ **5. Volontariato in biblioteca a Torino**\n\nLe Biblioteche Civiche cercano volontari maggiorenni; pensionati e persone con più di 65 anni seguono il percorso Senior civico.\n\n○ **6. Volontari per il canile di Pisa**\n\nIl Comune cerca volontari maggiorenni residenti a Pisa per socializzare e portare a spasso i cani gratuitamente.",
+    "L3_OPTIONS": "**A.** L'ingresso non costa nulla, ma chi vuole partecipare a una degustazione guidata deve pagare dodici euro.\n\n**B.** È un'attività gratuita riservata agli adulti che abitano in città e vogliono occuparsi dei cani.\n\n**C.** La manifestazione occupa due fine settimana di luglio e non richiede il pagamento di un biglietto.\n\n**D.** L'evento propone diversi sport, tra cui ciclismo, calcio e corsa, insieme alla gastronomia; l'ingresso è libero.\n\n**E.** Qui si possono mangiare specialità di pesce spendendo sette euro per il menù, in due sere.\n\n**F.** Il progetto cerca persone adulte; per pensionati e persone con più di 65 anni esiste un percorso specifico.\n\n**G.** La manifestazione offre degustazioni gratuite e un torneo di calcio durante due fine settimana di luglio.\n\n**H.** Il servizio è aperto anche ai minorenni e prevede un biglietto di sette euro per entrare."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | C | Il testo indica \"due fine settimana di luglio\" e \"ingresso libero\": la durata e l'accesso gratuito rendono unico l'abbinamento. 中文：两个周末，免费入场。 |\n| L3.2 | A | Le parole decisive sono \"ingresso gratuito\" e \"degustazioni guidate a 12 euro\". 中文：入场免费，品鉴收费。 |\n| L3.3 | E | Il testo offre \"specialità di tonno\" e un \"menù a 7 euro\" l'11 e il 12 luglio. 中文：鱼类食品，套餐七欧元。 |\n| L3.4 | D | Le attività \"gare in bicicletta, torneo di calcio e corsa podistica\" identificano l'opzione sugli sport. 中文：有自行车、足球和跑步活动。 |\n| L3.5 | F | Il progetto cerca \"volontari maggiorenni\" e le persone con più di 65 anni seguono il percorso \"Senior civico\". 中文：成年人参加，老年人有专门项目。 |\n| L3.6 | B | Le parole \"maggiorenni residenti a Pisa\" e le attività con i cani identificano il servizio gratuito. 中文：成年本地居民照顾狗。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "C",
+    "L3.2": "A",
+    "L3.3": "E",
+    "L3.4": "D",
+    "L3.5": "F",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "degustazioni guidate",
+      "categoria": "locuzione nominale",
+      "zh": "有讲解的品鉴活动",
+      "en": "guided tastings",
+      "esempio": "Dal 3 al 5 luglio, al Circolo Arci L'Ortaccio: birre artigianali e degustazioni guidate a 12 euro; ingresso gratuito."
+    },
+    {
+      "parola": "corsa podistica",
+      "categoria": "locuzione nominale",
+      "zh": "徒步跑步比赛",
+      "en": "road race",
+      "esempio": "Dal 17 al 27 luglio, gastronomia e sport: gare in bicicletta, torneo di calcio e corsa podistica; ingresso libero."
+    },
+    {
+      "parola": "maggiorenni",
+      "categoria": "aggettivo",
+      "zh": "成年的",
+      "en": "of legal age",
+      "esempio": "Le Biblioteche Civiche cercano volontari maggiorenni; pensionati e persone con più di 65 anni seguono il percorso Senior civico."
+    },
+    {
+      "parola": "portare a spasso",
+      "categoria": "locuzione verbale",
+      "zh": "带出去散步",
+      "en": "to take for a walk",
+      "esempio": "Il Comune cerca volontari maggiorenni residenti a Pisa per socializzare e portare a spasso i cani gratuitamente."
+    },
+    {
+      "parola": "residenti",
+      "categoria": "aggettivo",
+      "zh": "居住的",
+      "en": "resident",
+      "esempio": "Il Comune cerca volontari maggiorenni residenti a Pisa per socializzare e portare a spasso i cani gratuitamente."
+    }
+  ]
+}

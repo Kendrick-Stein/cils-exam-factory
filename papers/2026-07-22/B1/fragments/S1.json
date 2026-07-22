@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Il minuscolo topo dalle orecchie a foglia vive *(a)* __al (0)__ sorprendente limite di 7.000 metri di altitudine. Vive *(su)* __(1)__ Ande e resiste *(a)* __(2)__ loro temperature sempre sotto zero, con livelli *(di)* __(3)__ ossigeno molto bassi e *(con)* __(4)__ una forte scarsità d'acqua. La vegetazione *(su)* __(5)__ Ande è quasi del tutto assente.\n\nLa scoperta è stata descritta *(da)* __(6)__ un gruppo di ricercatori *(di)* __(7)__ McMaster University e spinge gli scienziati *(a)* __(8)__ riconsiderare i limiti *(di)* __(9)__ questa forma di vita *(su)* __(10)__ Terra. Prima si pensava che i mammiferi potessero sopravvivere solo fino *(a)* __(11)__ circa 5.500 metri, cioè *(a)* __(12)__ altezza *(di)* __(13)__ più elevati insediamenti umani permanenti.\n\nConfrontando tutti __(14)__ esemplari provenienti *(da)* __(15)__ stesse alte quote *(con)* __(16)__ quelli di altitudini inferiori, i ricercatori hanno capito che la sopravvivenza *(in)* __(17)__ queste condizioni non dipende *(da)* __(18)__ un singolo adattamento, ma *(da)* __(19)__ una combinazione di cambiamenti a livello *(di)* __(20)__ intero organismo.\n\nA quote così elevate anche il cibo scarseggia. Per questo i topi hanno iniziato a nutrirsi di licheni, semi e insetti trasportati dal vento. Grazie a questi cambiamenti, gli animali riescono anche a neutralizzare sostanze vegetali che normalmente sarebbero tossiche.",
+    "T4_TITLE": "SUPER TOPI A 7.000 METRI"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — sulle**: *su* + *le* davanti al plurale «Ande»（介词与定冠词合并）。\n- **S1.2 — alle**: davanti al possessivo plurale «loro» è necessario l'articolo（物主词前需定冠词）。\n- **S1.12 — all'**: *a* + *l'* davanti a «altezza»（元音前省音）。\n- **S1.14 — gli**: articolo determinativo plurale davanti a parola che inizia per vocale（阳性复数元音前用 *gli*）。\n- **S1.20 — dell'**: *di* + *l'* davanti a «intero organismo»（元音前省音）。",
+    "ANS_S1_ROWS": "| S1.1 | sulle | S1.11 | a |\n| S1.2 | alle | S1.12 | all' |\n| S1.3 | di | S1.13 | dei |\n| S1.4 | con | S1.14 | gli |\n| S1.5 | sulle | S1.15 | dalle |\n| S1.6 | da | S1.16 | con |\n| S1.7 | della | S1.17 | in |\n| S1.8 | a | S1.18 | da |\n| S1.9 | di | S1.19 | da |\n| S1.10 | sulla | S1.20 | dell' |"
+  },
+  "key": {
+    "S1.1": "sulle",
+    "S1.2": "alle",
+    "S1.3": "di",
+    "S1.4": "con",
+    "S1.5": "sulle",
+    "S1.6": "da",
+    "S1.7": "della",
+    "S1.8": "a",
+    "S1.9": "di",
+    "S1.10": "sulla",
+    "S1.11": "a",
+    "S1.12": "all'",
+    "S1.13": "dei",
+    "S1.14": "gli",
+    "S1.15": "dalle",
+    "S1.16": "con",
+    "S1.17": "in",
+    "S1.18": "da",
+    "S1.19": "da",
+    "S1.20": "dell'"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "insetti trasportati dal vento",
+      "categoria": "locuzione nominale",
+      "zh": "被风带来的昆虫",
+      "en": "insects carried by the wind",
+      "esempio": "Per questo i topi hanno iniziato a nutrirsi di licheni, semi e insetti trasportati dal vento."
+    },
+    {
+      "parola": "sostanze vegetali",
+      "categoria": "locuzione nominale",
+      "zh": "植物性物质",
+      "en": "plant substances",
+      "esempio": "Grazie a questi cambiamenti, gli animali riescono anche a neutralizzare sostanze vegetali che normalmente sarebbero tossiche."
+    },
+    {
+      "parola": "scarseggia",
+      "categoria": "verbo",
+      "zh": "稀少；不足",
+      "en": "is scarce",
+      "esempio": "A quote così elevate anche il cibo scarseggia."
+    },
+    {
+      "parola": "licheni",
+      "categoria": "nome maschile plurale",
+      "zh": "地衣",
+      "en": "lichens",
+      "esempio": "Per questo i topi hanno iniziato a nutrirsi di licheni, semi e insetti trasportati dal vento."
+    },
+    {
+      "parola": "neutralizzare",
+      "categoria": "verbo",
+      "zh": "中和；消除作用",
+      "en": "to neutralize",
+      "esempio": "Grazie a questi cambiamenti, gli animali riescono anche a neutralizzare sostanze vegetali che normalmente sarebbero tossiche."
+    }
+  ]
+}

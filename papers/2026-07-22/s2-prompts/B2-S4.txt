@@ -1,0 +1,34 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/B2.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level B2, session 2026-07-22, fragment ID S4 (Test di analisi delle strutture di comunicazione).
+
+Prova spec from exam.yaml:
+n: 4
+tipo: situazioni_mc_4
+focus: funzione comunicativa/pragmatica di micro-messaggi
+items: 10
+punti_item: 0.6
+punti: 6
+testo:
+  slot: null
+  genere: 10 micro-messaggi (25-50 parole) composti sul modello di realia autentici
+  parole: null
+
+This fragment has NO source text — compose its content per the template HTML comments and the spec below.
+
+Item-writer reminder for this prova: Situazioni (10 micro-messaggi realistici, 4 opzioni): each item has exactly ONE pragmatically correct communicative function; distractors plausible but wrong. Compose the micro-messaggi on the model of authentic realia (no source text).
+
+Output: write EXACTLY ONE file, papers/2026-07-22/B2/fragments/S4.json — a JSON object
+{"prova": "S4", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): S4_ITEMS, ANS_S4_ROWS
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (S4.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio) — omit for W/O (no source).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.

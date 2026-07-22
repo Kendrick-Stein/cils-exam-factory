@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE item.
+
+Fragment: papers/2026-07-22/C1/fragments/S4.json (trasformazioni, 6 items, T7 = avviso Comune di Napoli). Source: '## Slot T7' section. Read the current fragment.
+
+Everything validates EXCEPT S4.2. Its starter «… CONSENTE L'________» is open-ended, so a solver writes «ACCESSO.» while the key is «ACCESSO ALLA PIATTAFORMA.» — mismatch + ambiguity. Fix ONLY S4.2 so exactly one completion is forced. Preferred: extend the printed starter to «… CONSENTE L'ACCESSO ________» so the required completion is the prepositional object taken verbatim from T7 (e.g. «alla piattaforma telematica «Impresa in un giorno».»), and set key S4.2 to that completion (list genuinely equivalent variants with `||`, e.g. «AL PORTALE «IMPRESA IN UN GIORNO».» if the source wording supports it). Ensure the completion is short, unique, and directly derivable from the source.
+
+Change NOTHING else: keep items S4.1, S4.3, S4.4, S4.5, S4.6, the worked example, points, schema identical. Rewrite papers/2026-07-22/C1/fragments/S4.json in full (prova "S4", slots {S4_ITEMS, S4_SOURCE_0, S4_REWRITE_0}, answer_slots {ANS_S4_ROWS, ANS_S4_NOTES}, key S4.1..S4.6, glossario_candidates).
+
+Reply (short): the new S4.2 starter + its key completion.

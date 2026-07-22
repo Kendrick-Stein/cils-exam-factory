@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE gap.
+
+Fragment: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi, 20 gaps, T5 chef). Read the current fragment.
+
+The prova validates EXCEPT S2.3. Its context «… avessero predetto che (servire) ___ …» now admits both «sarebbero state servite» (condizionale passato — futuro nel passato) and «fossero state servite» (congiuntivo trapassato), because the governing clause is a subjunctive hypothetical. Keep the intended answer «sarebbero state servite» (condizionale passato passivo) and reword ONLY the governing clause so it is UNAMBIGUOUSLY a prediction about what WOULD later happen (futuro nel passato), which forces the condizionale and excludes the congiuntivo trapassato. Example frames: «Da giovane non avrebbe mai immaginato che le sue pietanze (servire) ___ nei ristoranti di mezzo mondo», «Nessuno allora avrebbe previsto che le sue pietanze (servire) ___ …». The meaning must be clearly FUTURE-relative-to-the-past (would be served later), not «had been served».
+
+Constraints: change NOTHING else — keep the other 19 gaps, their contexts, all keys (S2.3 = «sarebbero state servite»), points, schema identical. The whole S2_TEXT_WITH_GAPS must stay within 220–260 words (it is currently ~250; count with \b[\wÀ-ÿ']+\b, gap tokens count as their number).
+
+Rewrite papers/2026-07-22/B2/fragments/S2.json in full (prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, glossario_candidates).
+
+Reply (short): the new S2.3 clause; confirm only condizionale passato fits; the new word count.

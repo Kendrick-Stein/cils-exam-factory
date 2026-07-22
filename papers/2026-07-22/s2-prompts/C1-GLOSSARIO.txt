@@ -1,0 +1,15 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first:
+1. .claude/agents/item-writer.md — your role (GLOSSARIO section).
+2. factory/exams/cils/templates/C1.md — find {{GLOSSARIO_ROWS}} and the header just above it. The table columns are: | Parola/Espressione | Categoria | 中文 | EN | Esempio dal testo |. Your GLOSSARIO_ROWS value is ONLY the data rows (one per line, `| ... | ... | ... | ... | ... |`), no header, no separator line.
+3. factory/exams/cils/style-guide.md.
+
+Assignment: level C1, session 2026-07-22, fragment ID GLOSSARIO.
+
+Read the `glossario_candidates` arrays from EVERY other fragment JSON in papers/2026-07-22/C1/fragments/ (all files except GLOSSARIO.json). Pool them, then SELECT 15–25 of the most useful, level-appropriate, DISTINCT entries (dedupe near-duplicates; spread across the different source texts; prefer content words/expressions a learner at this level should acquire). Keep each entry's parola/categoria/中文/EN/esempio verbatim from the candidate (esempio = the short citation from its text).
+
+Output: write EXACTLY ONE file, papers/2026-07-22/C1/fragments/GLOSSARIO.json:
+{"prova": "GLOSSARIO", "slots": {"GLOSSARIO_ROWS": "| parola | categoria | 中文 | EN | esempio |\n| ... |"}, "answer_slots": {}, "key": {}, "glossario_candidates": []}
+
+Reply (short): number of rows selected.

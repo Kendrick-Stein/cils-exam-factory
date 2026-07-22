@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — LENGTH trim only.
+
+Fragment: papers/2026-07-22/C1/fragments/S1.json (cloze connettivi/preposizioni, 20 gaps, T4). Read the current fragment.
+
+The cloze text (S1_TEXT_WITH_GAPS) measures 312 words; the C1 band for this prova is 250–300. Trim ~15–18 words to land ≤295 (aim ~285). Rules:
+- Do NOT touch any of the 20 gaps or the words that FORCE each connettivo/preposizione (esp. correlatives like «non tanto…quanto», «così…che», the specifier that makes «degli studi successivi» obligatory at S1.20, etc.). Cut only redundant filler FAR from any gap.
+- Keep all 20 gaps, the keys, points, and schema identical. Introduce no new ambiguity.
+
+Count S1_TEXT_WITH_GAPS words yourself (regex \b[\wÀ-ÿ']+\b, gap tokens count as their number) and confirm 250–300. Rewrite papers/2026-07-22/C1/fragments/S1.json in full (prova "S1", slots {S1_TEXT_WITH_GAPS, T4_TITLE}, answer_slots {ANS_S1_ROWS, ANS_S1_NOTES}, key S1.1..S1.20, glossario_candidates).
+
+Reply (short): the new word count; confirm no gap or forcing context changed.

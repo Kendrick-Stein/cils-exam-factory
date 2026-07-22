@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 3 + §Stage S4), factory/exams/cils/templates/A2.md (S2 block + comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/A2/fragments/S2.json (cloze_verbi — presente/passato prossimo/imperfetto, 10 gaps, T5 = pensionato/auto d'epoca). Source: '## Slot T5' section of papers/2026-07-22/A2/sources.md.
+
+Defects (blind FLAGs — answers matched but ambiguous):
+- S2.2: "In questi anni (decidere)": «in questi anni» allows both passato prossimo «ha deciso» and present «decide». Replace the time frame with a bounded past anchor («L'anno scorso», «Nel 2024», «Due anni fa») so ONLY passato prossimo fits.
+- S2.3: "Per sei anni, ogni giorno (cercare)": «per sei anni» (bounded → passato prossimo) competes with «ogni giorno» (habitual → imperfetto). Choose ONE reading and make the markers consistent: for imperfetto keep «ogni giorno / a quei tempi» and drop the bounded «per sei anni»; for passato prossimo drop «ogni giorno» and keep a completed «per sei anni». Set the key to the forced form.
+- Rescan all 10 gaps for presente-vs-passato-prossimo («in questi anni/giorni») and imperfetto-vs-passato-prossimo (habitual-vs-bounded) competition.
+
+Keep exactly 10 gaps and the point value identical. Rewrite papers/2026-07-22/A2/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.10, up to 5 glossario_candidates).
+
+Reply (short): the markers you set for S2.2 and S2.3 and the forced form of each; final text word count.

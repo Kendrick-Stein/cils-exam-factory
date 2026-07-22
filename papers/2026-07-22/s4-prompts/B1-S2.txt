@@ -1,0 +1,17 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (esp. §Rules 3 on cloze verbi and §Stage S4), factory/exams/cils/templates/B1.md (the S2 block + its HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-22/B1/fragments/S2.json (cloze_verbi, 20 gaps, T5 = intervista).
+Your source text: the '## Slot T5' section of papers/2026-07-22/B1/sources.md.
+
+A fresh blind solver disagreed with the key on these gaps (0 flags, but wrong answers were fully defensible → the gap does NOT force one form):
+- S2.6: key "direbbe" (condizionale) but the solver read "dice" (presente) — both fit. FORCE one form only.
+- S2.8: key "ho cercato" (1ª persona) but the solver read "ha cercato" (3ª persona) — subject/person ambiguous.
+- S2.15: key "penso" (1ª persona) but the solver read "pensa" (3ª persona) — subject/person ambiguous.
+
+Fix: for each of these, re-cut the gap or add an explicit printed marker so EXACTLY ONE form is correct (e.g. an unmistakable "io" subject/context for 1st-person gaps; a clear condizionale trigger such as «Se potesse/Al posto suo …» where condizionale is intended, or switch the intended answer to presente and update the key). In an intervista, keep the interviewee's turns unambiguously 1st person and the interviewer/narration 3rd person. Then RESCAN all 20 gaps for the same defect classes (person ambiguity, presente/condizionale competition, imperfetto/passato prossimo competition) and fix any others. Keep exactly 20 gaps and the point value identical.
+
+Rewrite papers/2026-07-22/B1/fragments/S2.json in full (same schema: prova, slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key with S2.1..S2.20, up to 5 glossario_candidates). List every genuinely-correct variant with `||` in the key ONLY when truly equivalent.
+
+Reply (short): which gaps you changed and how you forced each; final text word count.

@@ -1,0 +1,15 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Quante persone ci sono nella tua famiglia e chi sono?\n\n**2.** Dove abiti e com'è la tua casa?\n\n**3.** Che cosa fai ogni mattina prima di uscire?\n\n**4.** Che cosa mangi di solito a pranzo?\n\n**5.** Che cosa ti piace fare nel tempo libero?\n\n**6.** Che cosa hai fatto sabato scorso?",
+    "O2_ARGOMENTI": "**1.** Descrivi il quartiere dove abiti: quali luoghi ci sono e che cosa fai lì.\n\n**2.** Parla del tuo giorno preferito della settimana: che cosa fai e con chi."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Quante persone ci sono nella tua famiglia e chi sono?**\n\n*Esaminatore:* Quante persone ci sono nella tua famiglia e chi sono?\n\n*Candidato:* Nella mia famiglia ci sono quattro persone: i miei genitori, mio fratello e io. La domenica pranziamo insieme.\n\n**2. Dove abiti e com'è la tua casa?**\n\n*Esaminatore:* Dove abiti e com'è la tua casa?\n\n*Candidato:* Abito in città, in una casa piccola e tranquilla. Ci sono una cucina, un soggiorno e due camere.\n\n**3. Che cosa fai ogni mattina prima di uscire?**\n\n*Esaminatore:* Che cosa fai ogni mattina prima di uscire?\n\n*Candidato:* Mi alzo alle sette, mi lavo e faccio colazione. Poi preparo la borsa ed esco di casa.\n\n**4. Che cosa mangi di solito a pranzo?**\n\n*Esaminatore:* Che cosa mangi di solito a pranzo?\n\n*Candidato:* Di solito mangio un piatto di pasta e un po' di verdura. Dopo pranzo bevo un caffè.\n\n**5. Che cosa ti piace fare nel tempo libero?**\n\n*Esaminatore:* Che cosa ti piace fare nel tempo libero?\n\n*Candidato:* Mi piace andare in bicicletta con gli amici. Quando sono a casa, ascolto musica o guardo un film.\n\n**6. Che cosa hai fatto sabato scorso?**\n\n*Esaminatore:* Che cosa hai fatto sabato scorso?\n\n*Candidato:* Sabato scorso ho incontrato un amico al bar. Abbiamo bevuto un caffè e abbiamo parlato molto.",
+    "MODEL_O1_PHRASES": "Nella mia famiglia ci sono…（我家里有……） · Abito in…（我住在……） · Di solito…（通常……） · Sabato scorso ho…（上周六我……）",
+    "MODEL_O2": "**Argomento n. 1 — Il mio quartiere**\n\nAbito in un quartiere tranquillo vicino al centro. Davanti a casa mia c'è un piccolo parco con molti alberi. Ci sono anche un supermercato, una farmacia e un bar. La mattina compro il pane nel negozio vicino. Nel pomeriggio vado al parco e cammino con un amico. Mi piace il mio quartiere perché è comodo e le persone sono gentili.\n\n**Argomento n. 2 — Il mio giorno preferito**\n\nIl mio giorno preferito è il sabato perché non lavoro. La mattina dormo un po' di più e faccio colazione con calma. Poi vado al mercato con mia sorella. Nel pomeriggio incontro gli amici e giochiamo a calcio. La sera preparo la pizza con la mia famiglia e guardiamo un film insieme. È una giornata semplice, ma sono sempre contento.",
+    "MODEL_O2_PHRASES": "Vicino a casa mia c'è…（我家附近有……） · Mi piace perché…（我喜欢，因为……） · Il mio giorno preferito è…（我最喜欢的一天是……） · La mattina… Nel pomeriggio… La sera…（早上……下午……晚上……）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

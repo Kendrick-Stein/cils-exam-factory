@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — redesign ONE item.
+
+Fragment: papers/2026-07-22/C1/fragments/S4.json (trasformazioni, 6 items, T7 = avviso Comune di Napoli). Read the current fragment AND the '## Slot T7' section of papers/2026-07-22/C1/sources.md.
+
+Problem: item S4.2 is mis-designed. Its source sentence «L'accesso avviene tramite SPID, CIE o CNS» has NO object for «accesso», so the current starter «L'UTILIZZO DI SPID… CONSENTE L'ACCESSO ………» already contains the whole meaning and leaves nothing authentic to complete — the blank is spurious and the keyed «alla piattaforma…» is invented (not in the source).
+
+Redesign S4.2 so the completion is GENUINELY FORCED BY THE SOURCE. Do EITHER:
+ (a) Restructure the SAME sentence so the blank needs a real continuation that exists in the source, e.g. starter «SPID, LA CIE E LA CNS SONO LE MODALITÀ CON CUI ………» → completion «AVVIENE L'ACCESSO.» / «SI ACCEDE AL SERVIZIO.»; OR
+ (b) Base S4.2 on a DIFFERENT sentence of T7 that yields a clear, forced completion (a nominalisation, passive, or discorso indiretto with a real object taken verbatim from the source).
+Whatever you choose, the printed STARTER must force exactly one short completion that is DERIVABLE FROM THE SOURCE, and the key S4.2 must be that completion (add genuinely equivalent variants with `||`). No invented content.
+
+Keep items S4.1, S4.3, S4.4, S4.5, S4.6 unchanged; keep slots T7_TITLE and T7_TEXT unchanged; keep 6 items, points, schema. Rewrite papers/2026-07-22/C1/fragments/S4.json in full (prova "S4", slots {S4_ITEMS, S4_SOURCE_0, S4_REWRITE_0, T7_TITLE, T7_TEXT}, answer_slots {ANS_S4_ROWS, ANS_S4_NOTES}, key S4.1..S4.6, glossario_candidates).
+
+Reply (short): the new S4.2 source sentence, its printed starter, and its key completion.

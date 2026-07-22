@@ -1,0 +1,12 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 2 — one prova.
+
+Fragment: papers/2026-07-22/C1/fragments/S2.json (cloze_verbi, 20 gaps, T5 = Jeli il pastore). Source: '## Slot T5' section of papers/2026-07-22/C1/sources.md. Read the current fragment.
+
+Four residual flags (answers match the key but a second form is defensible):
+- S2.2: «l'abbia descritto» (congiuntivo passato) competes with «l'avesse descritto» (trapassato). Fix by pinning the MAIN clause tense: if the main verb is PRESENT (e.g. «Oggi Jeli appare…»), only congiuntivo passato fits after «sebbene». Ensure the main clause is unambiguously present and keep the key «lo abbia descritto || l'abbia descritto».
+- S2.14, S2.15, S2.16: these are «come + infinito» (arrampicarsi / cogliere / montare) but sit close to the conjugated «comprendesse» (S2.13), so a parallel conjugated-subjunctive reading is defensible. RESTRUCTURE so only the infinito is grammatical: put the three under a verb/expression that governs the infinitive unambiguously (e.g. «aveva imparato a (arrampicarsi), (cogliere), (montare)…» or «era capace di …»), and move them OUT of the subjunctive clause that contains «comprendesse». After the change, no conjugated form may fit these three gaps.
+- Rescan all 20 gaps for congiuntivo passato-vs-trapassato and infinito-vs-congiuntivo competition.
+
+Keep exactly 20 gaps and points identical; preserve Verga's facts. Rewrite papers/2026-07-22/C1/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, up to 5 glossario_candidates).
+
+Reply (short): the new wording around S2.2 and S2.13–S2.16; confirm only one form fits each; final text word count.

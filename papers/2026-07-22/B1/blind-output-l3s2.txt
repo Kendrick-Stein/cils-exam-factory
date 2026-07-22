@@ -1,0 +1,34 @@
+ANSWERS
+```json
+{
+  "L3": {"answer": "A-F-C-J-B-H-E-K-D-I-G", "confidence": "hi"},
+  "S2.1": {"answer": "ha ricostruito", "confidence": "hi"},
+  "S2.2": {"answer": "governavano", "confidence": "hi"},
+  "S2.3": {"answer": "credeva", "confidence": "hi"},
+  "S2.4": {"answer": "si sposavano", "confidence": "hi"},
+  "S2.5": {"answer": "risponderà", "confidence": "hi"},
+  "S2.6": {"answer": "direbbe", "confidence": "hi"},
+  "S2.7": {"answer": "è", "confidence": "hi"},
+  "S2.8": {"answer": "ho cercato", "confidence": "hi"},
+  "S2.9": {"answer": "dimostrano", "confidence": "hi"},
+  "S2.10": {"answer": "erano", "confidence": "hi"},
+  "S2.11": {"answer": "resta", "confidence": "hi"},
+  "S2.12": {"answer": "hanno fatto", "confidence": "hi"},
+  "S2.13": {"answer": "ci sono", "confidence": "hi"},
+  "S2.14": {"answer": "scopriranno", "confidence": "hi"},
+  "S2.15": {"answer": "penso", "confidence": "hi"},
+  "S2.16": {"answer": "dovrebbe", "confidence": "hi"},
+  "S2.17": {"answer": "tornerebbero", "confidence": "hi"},
+  "S2.18": {"answer": "si trova", "confidence": "hi"},
+  "S2.19": {"answer": "è", "confidence": "hi"},
+  "S2.20": {"answer": "rimane", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING
+n/a

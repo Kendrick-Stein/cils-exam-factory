@@ -1,0 +1,57 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "li", "confidence": "hi"},
+  "S1.2": {"answer": "si", "confidence": "hi"},
+  "S1.3": {"answer": "cui", "confidence": "hi"},
+  "S1.4": {"answer": "li", "confidence": "hi"},
+  "S1.5": {"answer": "quello", "confidence": "hi"},
+  "S1.6": {"answer": "quelle", "confidence": "hi"},
+  "S1.7": {"answer": "quelli", "confidence": "hi"},
+  "S1.8": {"answer": "ne", "confidence": "hi"},
+  "S1.9": {"answer": "li", "confidence": "hi"},
+  "S1.10": {"answer": "la", "confidence": "hi"},
+  "S1.11": {"answer": "li", "confidence": "hi"},
+  "S1.12": {"answer": "le", "confidence": "hi"},
+  "S1.13": {"answer": "la", "confidence": "hi"},
+  "S1.14": {"answer": "quello", "confidence": "hi"},
+  "S1.15": {"answer": "li", "confidence": "hi"},
+  "S1.16": {"answer": "lo", "confidence": "hi"},
+  "S1.17": {"answer": "lo", "confidence": "hi"},
+  "S1.18": {"answer": "le", "confidence": "hi"},
+  "S1.19": {"answer": "li", "confidence": "hi"},
+  "S1.20": {"answer": "questi", "confidence": "hi"},
+  "S2.1": {"answer": "percorreva", "confidence": "hi"},
+  "S2.2": {"answer": "gestiva", "confidence": "hi"},
+  "S2.3": {"answer": "sarebbero state servite", "confidence": "med"},
+  "S2.4": {"answer": "ci avrebbe creduto", "confidence": "hi"},
+  "S2.5": {"answer": "ha organizzato", "confidence": "med"},
+  "S2.6": {"answer": "hanno portato", "confidence": "hi"},
+  "S2.7": {"answer": "sono finiti", "confidence": "hi"},
+  "S2.8": {"answer": "ha", "confidence": "hi"},
+  "S2.9": {"answer": "si arrendano", "confidence": "hi"},
+  "S2.10": {"answer": "gli direbbe", "confidence": "hi"},
+  "S2.11": {"answer": "sognava", "confidence": "hi"},
+  "S2.12": {"answer": "aprì", "confidence": "hi"},
+  "S2.13": {"answer": "dicevano", "confidence": "hi"},
+  "S2.14": {"answer": "credessero", "confidence": "hi"},
+  "S2.15": {"answer": "sarebbe stato", "confidence": "hi"},
+  "S2.16": {"answer": "si sono ricreduti", "confidence": "hi"},
+  "S2.17": {"answer": "ha pensato", "confidence": "med"},
+  "S2.18": {"answer": "aver raccontato", "confidence": "hi"},
+  "S2.19": {"answer": "si intitola", "confidence": "hi"},
+  "S2.20": {"answer": "possa", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S2.5", "reason": "'In questi anni (organizzare)' admits passato prossimo 'ha organizzato' and present 'organizza'."},
+  {"item_id": "S2.17", "reason": "'In questi mesi Mattia (pensare)' admits 'ha pensato' and 'sta pensando'/'pensa'."},
+  {"item_id": "S2.3", "reason": "Passive restructuring 'sarebbero state servite' not explicit in the active infinitive parenthetical."}
+]
+```
+
+WRITING
+n/a

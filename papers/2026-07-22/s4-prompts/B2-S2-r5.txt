@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE gap.
+
+Fragment: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi, 20 gaps, T5 chef). Read the current fragment.
+
+The paper is fully validated EXCEPT gap S2.9. The quoted sentence «Voglio che non (arrendersi) ___ mai» has no explicit subject, so a solver defensibly writes «si arrenda» (3ª sing.) or «ci si arrenda» (impersonale) instead of the intended plural «si arrendano». Fix ONLY S2.9: give the «che» clause an EXPLICIT PLURAL subject so «si arrendano» is the one and only correct form — e.g. «Voglio che i giovani non si arrendano mai» / «Voglio che le persone non si arrendano mai». Keep the key S2.9 = «si arrendano».
+
+Change NOTHING else: keep all other 19 gaps, their text, the keys, the points, and the schema identical. Rewrite papers/2026-07-22/B2/fragments/S2.json in full (prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, glossario_candidates).
+
+Reply (short): the new S2.9 sentence with its explicit plural subject.

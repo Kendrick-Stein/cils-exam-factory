@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (esp. §Rules 5 on ricostruzione and §Stage S4), factory/exams/cils/templates/B1.md (the L3 block + its HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-22/B1/fragments/L3.json (ricostruzione, 11 parti A–K, 1 ancora fissa, T3 = diario di viaggio a Lione).
+Your source text: the '## Slot T3' section of papers/2026-07-22/B1/sources.md.
+
+Defect: the intended key sequence is "A–F–C–J–B–H–E–K–D–I–G" but a fresh blind solver reconstructed "A–F–C–J–B–H–E–D–I–K–G" — equally coherent. The parts around positions 8–11 (K, D, I) are INTERCHANGEABLE: their order is not forced by the text. This fails the "exactly one coherent order" rule.
+
+Fix: re-cut / lightly re-word parts D, I, K (and any others you find under-constrained) so each non-anchor part OPENS with a UNIQUE connettivo / anafora / marcatore temporale that makes exactly one global order coherent. Concretely, chain them with unambiguous cues (e.g. a pronoun that can only refer to the immediately preceding part; «Il giorno dopo…», «Solo allora…», «Prima di tutto questo…»). After re-cutting, VERIFY each movable part cannot sit anywhere else, and set the `key` sequence string to the new unique order. Keep 11 parts, 1 fixed anchor, and the point value identical.
+
+Rewrite papers/2026-07-22/B1/fragments/L3.json in full (same schema: prova "L3", slots {T3_TITLE, T3_PART_A..K}, answer_slots {ANS_L3_ROWS, ANS_L3_SEQUENCE}, key {"L3": "<sequence>"}, up to 5 glossario_candidates).
+
+Reply (short): the new sequence, and which parts you re-cued.

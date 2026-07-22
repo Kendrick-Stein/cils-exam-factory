@@ -1,0 +1,41 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "legga", "confidence": "hi"},
+  "S2.2": {"answer": "l'abbia descritto", "confidence": "hi"},
+  "S2.3": {"answer": "aveva", "confidence": "hi"},
+  "S2.4": {"answer": "conobbe", "confidence": "hi"},
+  "S2.5": {"answer": "lo vedeva", "confidence": "hi"},
+  "S2.6": {"answer": "pascolavano", "confidence": "hi"},
+  "S2.7": {"answer": "era", "confidence": "hi"},
+  "S2.8": {"answer": "andava", "confidence": "hi"},
+  "S2.9": {"answer": "divideva", "confidence": "hi"},
+  "S2.10": {"answer": "consolidarono", "confidence": "hi"},
+  "S2.11": {"answer": "era stata stabilita", "confidence": "hi"},
+  "S2.12": {"answer": "insegnava", "confidence": "hi"},
+  "S2.13": {"answer": "comprendesse", "confidence": "hi"},
+  "S2.14": {"answer": "arrampicarsi", "confidence": "hi"},
+  "S2.15": {"answer": "cogliere", "confidence": "hi"},
+  "S2.16": {"answer": "montare", "confidence": "hi"},
+  "S2.17": {"answer": "acciuffando", "confidence": "hi"},
+  "S2.18": {"answer": "passava", "confidence": "hi"},
+  "S2.19": {"answer": "lasciarsi sbigottire", "confidence": "hi"},
+  "S2.20": {"answer": "afferrata", "confidence": "hi"},
+  "S4.1": {"answer": "DISPOSIZIONI VIGENTI RELATIVE ALL'AMMINISTRAZIONE DIGITALE.", "confidence": "hi"},
+  "S4.2": {"answer": "ACCESSO.", "confidence": "med"},
+  "S4.3": {"answer": "DALL'UFFICIO.", "confidence": "hi"},
+  "S4.4": {"answer": "SUCCESSIVAMENTE.", "confidence": "hi"},
+  "S4.5": {"answer": "INTEGRAZIONI ALLE PRATICHE GIÀ PRESENTATE ALLA DATA DEL 6 LUGLIO 2026.", "confidence": "hi"},
+  "S4.6": {"answer": "COMUNICAZIONI RELATIVE ALLE CIL, ALLE SCIA E ALLE SCIAPDC.", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S4.2", "reason": "starter 'CONSENTE L'___' leaves completion open: 'ACCESSO' vs 'ACCESSO ALLA PIATTAFORMA/AL SISTEMA'."}
+]
+```
+
+WRITING
+n/a

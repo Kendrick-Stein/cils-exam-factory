@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "cultura",
+    "S3_OPT0_B": "risorsa",
+    "S3_OPT0_C": "società",
+    "S3_OPT0_D": "scultura",
+    "S3_OPTION_ROWS": "| 1. | immutato | scomparso | smarrito | nascosto |\n| 2. | fragile | maturo | stagionale | longevo |\n| 3. | detronizzato | licenziato | retrocesso | trasferito |\n| 4. | ornamentale | industriale | agraria | urbana |\n| 5. | accessorio | fondamentale | marginale | eventuale |\n| 6. | conservarsi | nutrirsi | ripararsi | riscaldarsi |\n| 7. | elargiti | riscossi | prelevati | imposti |\n| 8. | memoria | geografia | economia | democrazia |\n| 9. | fermarsi | mutare | esaurirsi | crollare |\n| 10. | restringersi | esaurirsi | interrompersi | propagarsi |\n| 11. | declinare | oscillare | vacillare | slittare |\n| 12. | germogliato | maturato | tramontato | attecchito |\n| 13. | sorvolato | spopolato | recintato | collegato |\n| 14. | laterale | verticale | periferica | vertebrale |\n| 15. | provvisoriamente | casualmente | inesorabilmente | volontariamente |",
+    "S3_TEXT_WITH_GAPS": "\"Il castagno più che un albero è una __cultura (0)__\", scrive Angela Borghesi in un capitolo del suo libro Fior da fiore. Cultura vuol dire un mondo, e quel mondo oggi è __(1)__. Il castagno, meraviglioso albero alto, possente e __(2)__, ancora presente nei nostri boschi in numero ridotto, è un re __(3)__. Come ricorda Giuseppe Barbera, è stato una \"pianta a un tempo __(4)__ e forestale\". Veniva coltivato perché forniva per sei mesi all'anno l'elemento __(5)__ della dieta montanara, la farina di castagne, il pane della povera gente, come ci ricorda Piero Camporesi nei suoi libri. Per non dire del legno, con cui erano costruite le case, e poi la legna per __(6)__ nei lunghi inverni del passato. Anche i piccoli doni __(7)__ dal sovrano dei boschi erano preziosi nell'__(8)__ delle comunità: cenere per il bucato. A partire dall'Ottocento con il __(9)__ delle risorse alimentari, il __(10)__ delle coltivazioni di cereali, quel mondo ha cominciato a __(11)__, fino a che è __(12)__.\n\nL'emigrazione verso le pianure, e poi in Nord America e in Sudamerica, ha __(13)__ i paesi dell'Appennino, la colonna __(14)__ della Penisola. Così decine di centri abitati d'antica e fiera tradizione sono stati __(15)__ abbandonati.",
+    "T6_TITLE": "IL CASTAGNO, UN RE DETRONIZZATO"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Quel mondo oggi è scomparso»: il periodo successivo descrive infatti il castagno come un sovrano che ha perso il proprio ruolo. 中文：语境强调一种生活世界已经消失。 |\n| S3.2 | D | «Albero alto, possente e longevo» coordina tre qualità proprie del castagno; “longevo” indica che vive a lungo. 中文：longevo 指寿命长。 |\n| S3.3 | A | La collocazione metaforica è «re detronizzato»: l'albero conserva la presenza nei boschi, ma non l'antico primato economico. 中文：比喻失去王位和主导地位。 |\n| S3.4 | C | «Agraria e forestale» nomina i due usi della pianta, coltivata per il cibo e presente nei boschi. 中文：兼具农业与林业属性。 |\n| S3.5 | B | La farina era «l'elemento fondamentale della dieta montanara», perché costituiva il pane della povera gente per sei mesi. 中文：fundamentale 表示不可或缺。 |\n| S3.6 | D | La legna serve a «riscaldarsi nei lunghi inverni»; gli altri verbi non esprimono la funzione indicata. 中文：木柴用于冬季取暖。 |\n| S3.7 | A | Dei doni offerti da un sovrano si dice che sono «elargiti»; “riscossi”, “prelevati” e “imposti” descrivono azioni opposte. 中文：elargire 指赐予。 |\n| S3.8 | C | Cenere, farina e legno erano preziosi nell'«economia delle comunità», cioè nel loro sistema di risorse e attività. 中文：指社区经济生活。 |\n| S3.9 | B | «Il mutare delle risorse alimentari» indica il cambiamento che accompagna la diffusione dei cereali. 中文：名词化不定式表示变化。 |\n| S3.10 | D | Le coltivazioni di cereali si diffondono: perciò il nome d'azione richiesto è «il propagarsi». 中文：propagarsi 表示扩展传播。 |\n| S3.11 | A | Quel mondo «ha cominciato a declinare» prima di tramontare: il verbo esprime una perdita progressiva di importanza. 中文：先衰落，后消逝。 |\n| S3.12 | C | La metafora avviata da «declinare» si compie con «è tramontato», come il sole alla fine del giorno. 中文：延续日落隐喻。 |\n| S3.13 | B | L'emigrazione ha «spopolato i paesi», come conferma subito dopo l'abbandono di molti centri abitati. 中文：人口外流使村镇人口锐减。 |\n| S3.14 | D | L'Appennino è definito «la colonna vertebrale della Penisola»: la forma e la posizione della catena motivano la metafora anatomica. 中文：意为半岛的脊柱。 |\n| S3.15 | C | «Inesorabilmente abbandonati» esprime un processo di abbandono progressivo e difficile da arrestare. 中文：强调不可阻挡的趋势。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "D",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "pane della povera gente",
+      "categoria": "locuzione nominale",
+      "zh": "穷人的面包；基本口粮",
+      "en": "poor people's bread; staple food",
+      "esempio": "il pane della povera gente"
+    },
+    {
+      "parola": "sovrano dei boschi",
+      "categoria": "locuzione nominale",
+      "zh": "森林之王",
+      "en": "sovereign of the woods",
+      "esempio": "dal sovrano dei boschi"
+    },
+    {
+      "parola": "cenere per il bucato",
+      "categoria": "locuzione nominale",
+      "zh": "洗衣用的草木灰",
+      "en": "ash for laundry",
+      "esempio": "cenere per il bucato"
+    },
+    {
+      "parola": "centri abitati",
+      "categoria": "locuzione nominale",
+      "zh": "居民点；聚居地",
+      "en": "inhabited settlements",
+      "esempio": "decine di centri abitati"
+    },
+    {
+      "parola": "dieta montanara",
+      "categoria": "locuzione nominale",
+      "zh": "山区居民的饮食",
+      "en": "mountain diet",
+      "esempio": "della dieta montanara"
+    }
+  ]
+}

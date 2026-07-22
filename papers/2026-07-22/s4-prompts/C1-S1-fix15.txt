@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE gap.
+
+Fragment: papers/2026-07-22/C1/fragments/S1.json (cloze connettivi/preposizioni, 20 gaps, T4). Read the current fragment.
+
+The prova validates EXCEPT S1.15: «…un allenamento basato __(15)__ studio.» The key is «sullo» (su + lo studio), but a bare «su studio» is marginally defensible, so the gap does not fully force the ARTICULATED form. Fix ONLY S1.15: make «studio» unmistakably DEFINITE so «sullo» is obligatory — e.g. «basato __ studio della disciplina», «basato __ studio quotidiano dei problemi», «basato __ studio costante». After the change, bare «su» must be ungrammatical there. Keep key S1.15 = «sullo».
+
+Change NOTHING else: keep the other 19 gaps, their contexts, all keys, points, schema identical. Keep S1_TEXT_WITH_GAPS within 250–300 words. Rewrite papers/2026-07-22/C1/fragments/S1.json in full (prova "S1", slots {S1_TEXT_WITH_GAPS, T4_TITLE}, answer_slots {ANS_S1_ROWS, ANS_S1_NOTES}, key S1.1..S1.20, glossario_candidates).
+
+Reply (short): the new S1.15 clause; confirm only «sullo» fits; the word count.

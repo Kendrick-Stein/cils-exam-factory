@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 3 + §Stage S4), factory/exams/cils/templates/A1.md (the S2 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-22/A1/fragments/S2.json (cloze_verbi — presente e passato prossimo, 10 gaps, T5 = insalata di farro / ricetta-racconto).
+Your source text: the '## Slot T5' section of papers/2026-07-22/A1/sources.md.
+
+Defect (blind FLAGs — answers matched but items ambiguous): S2.4, S2.8, S2.10 sit in COORDINATED clauses where the subject/auxiliary is elided, e.g. "io (lessare) ___ il farro e (portare) ___ il farro a cottura". The second gap is ambiguous: a candidate can write the full compound "ho portato" OR just the bare participle "portato" with the auxiliary elided — both grammatical. This makes the answer non-unique.
+
+Fix: for every passato-prossimo gap, ensure the FULL compound form (ausiliare + participio) is unambiguously required in each gap — repeat the subject/auxiliary context or split into separate sentences so no gap can be read as a bare participle after an elided auxiliary (e.g. "Poi ho portato il farro a cottura." as its own sentence). Keep the recipe/narrative natural for A1. Rescan all 10 gaps for this coordination-ellipsis class and any presente/passato-prossimo competition.
+
+Keep exactly 10 gaps and the point value identical. Rewrite papers/2026-07-22/A1/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.10, up to 5 glossario_candidates).
+
+Reply (short): which gaps you changed and how you forced the full form; final text word count.

@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE item.
+
+Fragment: papers/2026-07-22/C1/fragments/S3.json (cloze lessico a scelta multipla, 4 opzioni, 15 gaps, T6). Read the current fragment.
+
+The prova validates EXCEPT S3.1: the correct option and a distractor are NEAR-SYNONYMS that both fit «quel mondo oggi è ___» (e.g. «dissolto» vs «scomparso»), so the item has two defensible answers. Fix ONLY item S3.1: replace the synonym DISTRACTOR with a plausible-but-clearly-wrong option (a word of a different meaning that the context excludes), OR adjust the gap's collocation so exactly one of the four options fits. Keep the intended correct answer/letter and its key unchanged; keep 4 options and the example gap 0 intact.
+
+Change NOTHING else: keep the other 14 gaps, the text, all keys, points, schema identical. Rewrite papers/2026-07-22/C1/fragments/S3.json in full (prova "S3", slots {S3_TEXT_WITH_GAPS, T6_TITLE, S3_OPT0_A, S3_OPT0_B, S3_OPT0_C, S3_OPT0_D, S3_OPTION_ROWS}, answer_slots {ANS_S3_ROWS}, key S3.1..S3.15, glossario_candidates).
+
+Reply (short): the new S3.1 options and which single one is correct + why the others fail.

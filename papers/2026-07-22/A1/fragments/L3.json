@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Domenica al Museo**\n\n   Domenica l'ingresso è gratuito nei musei, nei parchi e nei giardini statali. Le visite seguono gli orari regolari; in alcuni luoghi serve la prenotazione.\n\n2. **Di sera in biblioteca**\n\n   La Biblioteca Vittorio Sereni di Melzo cerca volontari per restare aperta la sera. Vuoi aiutare? Scrivi al gruppo La Clessidra. Ti aspettiamo!\n\n3. **Chiusura estiva**\n\n   La biblioteca comunale di Pognano resta chiusa dal 10 al 22 agosto 2026 e tutti i sabati di agosto. Per informazioni, scrivi alla biblioteca.\n\n4. **Regole del parco**\n\n   Nel parco non puoi fare attività rumorose, accendere fuochi, falò o barbecue. Nei boschi è vietato fumare. Non abbandonare rifiuti.",
+    "L3_OPTIONS": "A. Cerchi un luogo aperto di sera? Puoi lavorare come volontario in biblioteca.\n\nB. Vuoi visitare luoghi statali senza pagare? Controlla se devi prenotare.\n\nC. Dal 10 al 22 agosto la biblioteca è chiusa, anche ogni sabato del mese.\n\nD. Qui devi rispettare la quiete, non accendere fuochi e non lasciare rifiuti.\n\nE. La biblioteca di Pognano resta aperta tutti i sabati di agosto.\n\nF. Nel parco puoi fumare nei boschi, ma non puoi fare barbecue."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | B | «l'ingresso è gratuito» e «serve la prenotazione». 中文：可以免费参观，但有些地方需要预约。 |\n| L3.2 | A | La biblioteca «cerca volontari per restare aperta la sera». 中文：晚间开放与志愿者工作唯一对应。 |\n| L3.3 | C | «resta chiusa dal 10 al 22 agosto 2026 e tutti i sabati di agosto». 中文：日期和每周六的关闭信息完全对应。 |\n| L3.4 | D | Sono vietati le «attività rumorose», i fuochi e l'abbandono dei «rifiuti». 中文：安静、禁火和不乱扔垃圾三条规则共同锁定答案。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "B",
+    "L3.2": "A",
+    "L3.3": "C",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "l'ingresso è gratuito",
+      "categoria": "espressione",
+      "zh": "免费入场",
+      "en": "free admission",
+      "esempio": "Domenica l'ingresso è gratuito nei musei, nei parchi e nei giardini statali."
+    },
+    {
+      "parola": "prenotazione",
+      "categoria": "nome femminile",
+      "zh": "预约",
+      "en": "reservation",
+      "esempio": "Le visite seguono gli orari regolari; in alcuni luoghi serve la prenotazione."
+    },
+    {
+      "parola": "volontari",
+      "categoria": "nome maschile plurale",
+      "zh": "志愿者",
+      "en": "volunteers",
+      "esempio": "La Biblioteca Vittorio Sereni di Melzo cerca volontari per restare aperta la sera."
+    },
+    {
+      "parola": "resta chiusa",
+      "categoria": "espressione verbale",
+      "zh": "保持关闭；不开放",
+      "en": "remains closed",
+      "esempio": "La biblioteca comunale di Pognano resta chiusa dal 10 al 22 agosto 2026 e tutti i sabati di agosto."
+    },
+    {
+      "parola": "abbandonare rifiuti",
+      "categoria": "espressione verbale",
+      "zh": "乱扔垃圾",
+      "en": "leave litter",
+      "esempio": "Non abbandonare rifiuti."
+    }
+  ]
+}

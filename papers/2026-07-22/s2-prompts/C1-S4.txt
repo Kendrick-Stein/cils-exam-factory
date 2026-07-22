@@ -1,0 +1,39 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/C1.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level C1, session 2026-07-22, fragment ID S4 (Test di analisi delle strutture di comunicazione).
+
+Prova spec from exam.yaml:
+n: 4
+tipo: trasformazione_frasi
+focus: riformulazione mantenendo il significato (registro, nominalizzazione, discorso
+  indiretto)
+items: 6
+punti_item: 1
+punti: 6
+testo:
+  slot: T7
+  genere: testo continuo amministrativo/istituzionale da cui derivare 6 trasformazioni
+  parole:
+  - 130
+  - 180
+
+Your ONE source text: the '## Slot T7' section of papers/2026-07-22/C1/sources.md — read ONLY that section (do not use other slots' texts). Follow its adaptation plan; adapt INTO the band; cut whole sentences first; never invent facts.
+
+The reading text body you deliver in the *_TEXT / *_WITH_GAPS slot (title and items excluded) is word-counted by the quality audit against the band in the spec — land inside it, aim mid-band.
+
+Item-writer reminder for this prova: Trasformazioni (6): derive each from the T7 source. The printed STARTER must FORCE the target structure (e.g. «QUALORA» → congiuntivo; nominalisation; discorso indiretto). key lists ALL correct rewrites with `||` — meaning-preserving lexical variants are CORRECT answers, not defects. S4_SOURCE_0/S4_REWRITE_0 are the worked example (item 0).
+
+Output: write EXACTLY ONE file, papers/2026-07-22/C1/fragments/S4.json — a JSON object
+{"prova": "S4", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): S4_ITEMS, S4_REWRITE_0, S4_SOURCE_0, ANS_S4_NOTES, ANS_S4_ROWS
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (S4.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.

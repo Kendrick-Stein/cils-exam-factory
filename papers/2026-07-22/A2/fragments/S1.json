@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ salute è importante. Quando fa molto caldo, bisogna evitare __(1)__ uscire nelle ore più calde e ricordarsi __(2)__ bere anche senza sete. Bisogna cercare __(3)__ mangiare frutta fresca.\n\n__(4)__ ministero della Salute ricorda alcuni consigli utili. Consiglia __(5)__ conservare bene gli alimenti. Non bisogna dimenticare __(6)__ proteggere dal caldo gli animali domestici. È meglio bere solo __(7)__ po' di alcol e indossare vestiti leggeri. Per l'attività fisica, il consiglio è __(8)__ scegliere le ore più fresche.\n\nDurante tutta __(9)__ giornata è importante continuare a bere. Tutti __(10)__ anziani devono stare particolarmente attenti, perché spesso sentono meno il caldo.",
+    "T4_TITLE": "LE REGOLE PER AFFRONTARE IL CALDO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "*Nota:* **evitare di**, **ricordarsi di**, **cercare di**, **dimenticare di** e **il consiglio è di** richiedono una sola preposizione; **un po'** è un'espressione fissa. Gli articoli concordano con i nomi. 中文：注意固定搭配和冠词的性数一致。",
+    "ANS_S1_ROWS": "| 1 | di | 6 | di |\n| 2 | di | 7 | un |\n| 3 | di | 8 | di |\n| 4 | Il | 9 | la |\n| 5 | di | 10 | gli |"
+  },
+  "key": {
+    "S1.1": "di",
+    "S1.2": "di",
+    "S1.3": "di",
+    "S1.4": "Il",
+    "S1.5": "di",
+    "S1.6": "di",
+    "S1.7": "un",
+    "S1.8": "di",
+    "S1.9": "la",
+    "S1.10": "gli"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "attività fisica",
+      "categoria": "espressione nominale",
+      "zh": "体育活动",
+      "en": "physical activity",
+      "esempio": "attività fisica"
+    },
+    {
+      "parola": "alimenti",
+      "categoria": "nome maschile plurale",
+      "zh": "食品",
+      "en": "food",
+      "esempio": "conservare bene gli alimenti"
+    },
+    {
+      "parola": "animali domestici",
+      "categoria": "espressione nominale",
+      "zh": "宠物",
+      "en": "pets",
+      "esempio": "animali domestici"
+    },
+    {
+      "parola": "vestiti leggeri",
+      "categoria": "espressione nominale",
+      "zh": "轻便衣物",
+      "en": "light clothing",
+      "esempio": "vestiti leggeri"
+    },
+    {
+      "parola": "anziani",
+      "categoria": "nome maschile plurale",
+      "zh": "老年人",
+      "en": "older people",
+      "esempio": "anziani devono stare particolarmente attenti"
+    }
+  ]
+}

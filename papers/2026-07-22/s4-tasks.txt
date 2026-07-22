@@ -1,0 +1,34 @@
+B1 S2 repair-r1 high task-mrw7karr-8thy1o
+B1 L3 repair-r1 high task-mrw7kdfj-t46hdk
+C1 S3 re-author medium task-mrw7x332-i4s1zd
+B2 S1 repair-r1 high task-mrw7y7w7-42fx2b
+B2 S2 repair-r1 high task-mrw7yak9-x2lv0j
+A1 S1 repair-r1 medium task-mrw85fk3-dszrzf
+A1 S2 repair-r1 medium task-mrw85i7v-lbmprl
+B2 S2 repair-r2 high task-mrw8gata-hz3uoa
+B2 S2 repair-r3 high task-mrwawczf-mnuwkq
+A2 L3 repair-r1 medium task-mrwaxxct-7na43o
+C1 L3 repair-r1 high task-mrwb41rg-llj1eu
+C1 S1 repair-r1 high task-mrwb44e4-ht019u
+C1 S2 repair-r1 high task-mrwb470u-7tflkm
+C1 S4 repair-r1 high task-mrwb49o0-2vbp84
+A2 L3 repair-r2 medium task-mrwb7yf2-jshbpz
+B2 S2 repair-r4-FINAL high task-mrwbbe3j-48vyuk
+A2 S2 repair-r1 medium task-mrwbg3zl-za5len
+C1 S2-r2 high task-mrwbw051-dxqq03
+C1 S4-r2 high task-mrwbw2s9-r6rwy7
+A2 S2 repair-r2 medium task-mrwby1w6-247p9g
+B2 S2 repair-r5-surgical medium task-mrwc0qwr-q3rezj
+A2 S2 repair-r3-surgical medium task-mrwc2ocr-4sl24v
+C1 S4 repair-r3-surgical medium task-mrwc6yfb-hz410d
+C1 S4 fix-t7 medium task-mrwcd1l9-89qzr2
+B2 S2 trim medium task-mrwcdwkm-ym94nz
+C1 S4 redesign-S4.2 high task-mrwcjwvk-mco8nn
+B2 S2 fix-S2.3 high task-mrwcm4j2-uqgt5y
+C1 S1-r2 high task-mrwd0mwy-tkk5yq
+C1 S2-r3 high task-mrwd0pjh-1hpsp2
+C1 S3-r1 high task-mrwd0s6a-t6tc0h
+C1 S2 r4-replace high task-mrwdovtq-d4nthg
+C1 L3-trim medium task-mrweby1j-27b9mh
+C1 S1-trim medium task-mrwec0ob-b7q8wt
+C1 S1 fix-S1.15 medium task-mrwemfv1-ejilbm

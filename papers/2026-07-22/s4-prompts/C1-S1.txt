@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Stage S4), factory/exams/cils/templates/C1.md (S1 block + comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/C1/fragments/S1.json (cloze CONNETTIVI, 20 gaps, T4). Source: '## Slot T4' section of papers/2026-07-22/C1/sources.md.
+
+Defects (blind solver):
+- S1.6: key "come" but solver read "Chiunque" and FLAGGED it — the gap precedes an indicative and the intended connective is unclear. Re-cut so exactly ONE connettivo fits and the clause is unambiguous.
+- S1.8: key "salvo che" but solver read "a meno che" — these are EXACT SYNONYMS (both = "unless"). Interchangeable connective pairs are forbidden. Re-cut so only one connettivo is possible (choose a logical relation that only one connective expresses), or change the connective tested.
+- Rescan all 20 gaps for interchangeable-connective competition (e.g. ma/però, quindi/perciò, benché/sebbene, poiché/dato che, salvo che/a meno che, inoltre/per di più): each gap must admit exactly one connettivo forced by the logical relation.
+
+Keep exactly 20 gaps and the point value identical. Rewrite papers/2026-07-22/C1/fragments/S1.json in full (schema: prova "S1", slots {S1_TEXT_WITH_GAPS, T4_TITLE}, answer_slots {ANS_S1_ROWS, ANS_S1_NOTES}, key S1.1..S1.20, up to 5 glossario_candidates). Use `||` only for genuinely equivalent connectives (avoid needing it by removing competition).
+
+Reply (short): the gaps you changed and the single connettivo now forced for each; final text word count.

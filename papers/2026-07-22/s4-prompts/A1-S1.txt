@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 4 + §Stage S4), factory/exams/cils/templates/A1.md (the S1 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-22/A1/fragments/S1.json (cloze_aperto — articoli determinativi, 10 gaps, T4 = insalata di pasta fredda).
+Your source text: the '## Slot T4' section of papers/2026-07-22/A1/sources.md.
+
+Defect (blind FLAG, answer matched but item ambiguous):
+- S1.3: the gap follows a bare preposition — "…davanti a ___ fornelli" — so the expected article "i" produces the non-standard "a i fornelli" instead of the merged "ai". At A1 the prova tests ARTICOLI DETERMINATIVI only: no gap may sit right after a preposition that would merge into a preposizione articolata (a+i=ai, di+il=del, in+la=nella, …). Re-cut S1.3 so the article stands alone (e.g. rephrase to "I fornelli…" or move the noun so no preceding preposition merges).
+- Rescan all 10 gaps: ensure every gap is a plain definite article with NO immediately preceding a/di/da/in/su/con/per that would require a merged form.
+
+Keep exactly 10 gaps and the point value identical. Rewrite papers/2026-07-22/A1/fragments/S1.json in full (schema: prova "S1", slots {S1_TEXT_WITH_GAPS, T4_TITLE}, answer_slots {ANS_S1_ROWS, ANS_S1_NOTES}, key S1.1..S1.10, up to 5 glossario_candidates).
+
+Reply (short): which gaps you re-cut; final text word count.

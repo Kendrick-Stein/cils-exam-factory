@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "EDILIZIA PRIVATA — NUOVE MODALITÀ DI PRESENTAZIONE DELLE PRATICHE",
+    "T7_TEXT": "Si avverte l’utenza che, a far data dal 6 luglio 2026, le pratiche edilizie dovranno essere inoltrate esclusivamente attraverso la piattaforma «Impresa in un giorno» di Unioncamere. Tale modalità è adottata in adeguamento alle disposizioni vigenti relative all’Amministrazione digitale. L’accesso avviene tramite SPID, carta d’identità elettronica (CIE) o carta nazionale dei servizi (CNS). Si fa altresì presente che, a partire dal 6 luglio 2026, l’ufficio non accetterà nessuna nuova pratica in altra forma. La trasmissione telematica dovrà avvenire esclusivamente mediante il portale telematico «Impresa in un giorno», di cui verrà successivamente fornito il link. Dopo tale data sarà possibile presentare in formato cartaceo esclusivamente le integrazioni alle pratiche già presentate alla data del 6 luglio 2026. Sulle PEC delle municipalità potranno invece essere inviate le comunicazioni relative alle CIL, alle SCIA e alle SCIAPDC.",
+    "S4_SOURCE_0": "Si avverte l’utenza che, a far data dal 6 luglio 2026, le pratiche edilizie dovranno essere inoltrate esclusivamente attraverso la piattaforma «Impresa in un giorno» di Unioncamere.",
+    "S4_REWRITE_0": "L’UTENZA È AVVERTITA CHE, A FAR DATA DAL 6 LUGLIO 2026, LE PRATICHE EDILIZIE DOVRANNO ESSERE INOLTRATE ESCLUSIVAMENTE ATTRAVERSO LA PIATTAFORMA «IMPRESA IN UN GIORNO» DI UNIONCAMERE.",
+    "S4_ITEMS": "**1. Tale modalità è adottata in adeguamento alle disposizioni vigenti relative all’Amministrazione digitale.**\n\n→ L’ADOZIONE DI TALE MODALITÀ È FINALIZZATA ALL’ADEGUAMENTO ALLE ………………………………………………………\n\n**2. L’accesso avviene tramite SPID, carta d’identità elettronica (CIE) o carta nazionale dei servizi (CNS).**\n\n→ SPID, LA CARTA D’IDENTITÀ ELETTRONICA (CIE) E LA CARTA NAZIONALE DEI SERVIZI (CNS) SONO LE MODALITÀ CON CUI ………………………………………………………\n\n**3. Si fa altresì presente che, a partire dal 6 luglio 2026, l’ufficio non accetterà nessuna nuova pratica in altra forma.**\n\n→ A PARTIRE DAL 6 LUGLIO 2026, NESSUNA NUOVA PRATICA PRESENTATA IN ALTRA FORMA SARÀ ACCETTATA ………………………………………………………\n\n**4. La trasmissione telematica dovrà avvenire esclusivamente mediante il portale telematico «Impresa in un giorno», di cui verrà successivamente fornito il link.**\n\n→ LA TRASMISSIONE TELEMATICA DOVRÀ ESSERE EFFETTUATA ESCLUSIVAMENTE MEDIANTE IL PORTALE TELEMATICO «IMPRESA IN UN GIORNO», IL CUI LINK VERRÀ FORNITO ………………………………………………………\n\n**5. Dopo tale data sarà possibile presentare in formato cartaceo esclusivamente le integrazioni alle pratiche già presentate alla data del 6 luglio 2026.**\n\n→ L’AVVISO PRECISA CHE, DOPO TALE DATA, LA POSSIBILITÀ DI PRESENTAZIONE IN FORMATO CARTACEO SARÀ LIMITATA ALLE ………………………………………………………\n\n**6. Sulle PEC delle municipalità potranno invece essere inviate le comunicazioni relative alle CIL, alle SCIA e alle SCIAPDC.**\n\n→ LE PEC DELLE MUNICIPALITÀ POTRANNO ESSERE UTILIZZATE PER L’INVIO DELLE ………………………………………………………"
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | L’ADOZIONE DI TALE MODALITÀ È FINALIZZATA ALL’ADEGUAMENTO ALLE DISPOSIZIONI VIGENTI RELATIVE ALL’AMMINISTRAZIONE DIGITALE. |\n| S4.2 | SPID, LA CARTA D’IDENTITÀ ELETTRONICA (CIE) E LA CARTA NAZIONALE DEI SERVIZI (CNS) SONO LE MODALITÀ CON CUI AVVIENE L’ACCESSO. / SI ACCEDE. |\n| S4.3 | A PARTIRE DAL 6 LUGLIO 2026, NESSUNA NUOVA PRATICA PRESENTATA IN ALTRA FORMA SARÀ ACCETTATA DALL’UFFICIO. |\n| S4.4 | LA TRASMISSIONE TELEMATICA DOVRÀ ESSERE EFFETTUATA ESCLUSIVAMENTE MEDIANTE IL PORTALE TELEMATICO «IMPRESA IN UN GIORNO», IL CUI LINK VERRÀ FORNITO SUCCESSIVAMENTE. |\n| S4.5 | L’AVVISO PRECISA CHE, DOPO TALE DATA, LA POSSIBILITÀ DI PRESENTAZIONE IN FORMATO CARTACEO SARÀ LIMITATA ALLE INTEGRAZIONI ALLE PRATICHE GIÀ PRESENTATE ALLA DATA DEL 6 LUGLIO 2026. |\n| S4.6 | LE PEC DELLE MUNICIPALITÀ POTRANNO ESSERE UTILIZZATE PER L’INVIO DELLE COMUNICAZIONI RELATIVE ALLE CIL, ALLE SCIA E ALLE SCIAPDC. |",
+    "ANS_S4_NOTES": "- **S4.1–S4.2:** l’inizio dato impone rispettivamente una nominalizzazione con «adozione» e la trasformazione degli strumenti di accesso nelle «modalità con cui» avviene l’accesso; vanno conservati il riferimento alle disposizioni sull’Amministrazione digitale e tutti e tre gli strumenti di accesso. 中文注：第一题须保留制度依据；第二题不能遗漏任何一种登录方式，并须补出原文谓语。\n- **S4.3–S4.4:** il passivo è già vincolato dall’inizio; restano obbligatori l’ufficio come agente, l’unicità del portale e la successiva disponibilità del link. 中文注：第三题须保留受理主体；第四题须保留唯一渠道和链接信息。\n- **S4.5–S4.6:** l’inizio impone rispettivamente il discorso indiretto con nominalizzazione e il passivo con cambio di soggetto; restano il limite alle integrazioni, la data e tutte e tre le tipologie di comunicazione. 中文注：第五题须保留材料范围和日期；第六题不能遗漏任何一种通知类型。"
+  },
+  "key": {
+    "S4.1": "DISPOSIZIONI VIGENTI RELATIVE ALL’AMMINISTRAZIONE DIGITALE. || VIGENTI DISPOSIZIONI RELATIVE ALL’AMMINISTRAZIONE DIGITALE.",
+    "S4.2": "AVVIENE L’ACCESSO. || SI ACCEDE. || SI EFFETTUA L’ACCESSO. || SI EFFETTUA L'ACCESSO.",
+    "S4.3": "DALL’UFFICIO. || DA PARTE DELL’UFFICIO.",
+    "S4.4": "SUCCESSIVAMENTE. || IN SEGUITO. || IN UN SECONDO MOMENTO.",
+    "S4.5": "INTEGRAZIONI ALLE PRATICHE GIÀ PRESENTATE ALLA DATA DEL 6 LUGLIO 2026. || INTEGRAZIONI ALLE PRATICHE GIÀ PRESENTATE AL 6 LUGLIO 2026. || INTEGRAZIONI ALLE PRATICHE PRESENTATE ENTRO IL 6 LUGLIO 2026.",
+    "S4.6": "COMUNICAZIONI RELATIVE ALLE CIL, ALLE SCIA E ALLE SCIAPDC. || COMUNICAZIONI RIGUARDANTI LE CIL, LE SCIA E LE SCIAPDC."
+  },
+  "glossario_candidates": [
+    {
+      "parola": "a far data dal",
+      "categoria": "locuzione temporale",
+      "zh": "自……之日起",
+      "en": "with effect from",
+      "esempio": "Si avverte l’utenza che, a far data dal 6 luglio 2026, le pratiche edilizie dovranno essere inoltrate esclusivamente attraverso la piattaforma «Impresa in un giorno» di Unioncamere."
+    },
+    {
+      "parola": "pratiche edilizie",
+      "categoria": "locuzione nominale",
+      "zh": "建筑行政申请",
+      "en": "building applications",
+      "esempio": "Si avverte l’utenza che, a far data dal 6 luglio 2026, le pratiche edilizie dovranno essere inoltrate esclusivamente attraverso la piattaforma «Impresa in un giorno» di Unioncamere."
+    },
+    {
+      "parola": "disposizioni vigenti",
+      "categoria": "locuzione nominale",
+      "zh": "现行规定",
+      "en": "provisions in force",
+      "esempio": "Tale modalità è adottata in adeguamento alle disposizioni vigenti relative all’Amministrazione digitale."
+    },
+    {
+      "parola": "trasmissione telematica",
+      "categoria": "locuzione nominale",
+      "zh": "在线提交",
+      "en": "electronic submission",
+      "esempio": "La trasmissione telematica dovrà avvenire esclusivamente mediante il portale telematico «Impresa in un giorno», di cui verrà successivamente fornito il link."
+    },
+    {
+      "parola": "integrazioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "补充材料",
+      "en": "supplementary documents",
+      "esempio": "Dopo tale data sarà possibile presentare in formato cartaceo esclusivamente le integrazioni alle pratiche già presentate alla data del 6 luglio 2026."
+    }
+  ]
+}

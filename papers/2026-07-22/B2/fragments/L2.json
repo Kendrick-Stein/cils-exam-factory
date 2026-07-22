@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Le nuove modalità di bigliettazione entrano in vigore dopo 24 mesi di utilizzo della piattaforma Musei Italiani.**  \n+Vero ○ Falso ○\n\n**2. Il biglietto del Parco dura sette giorni dal primo ingresso e richiede la prenotazione tramite app.**  \n+Vero ○ Falso ○\n\n**3. Con il biglietto del Parco è possibile visitare subito tutti i sei siti elencati.**  \n+Vero ○ Falso ○\n\n**4. Il biglietto per il Mausoleo di Cecilia Metella e il Complesso di Capo di Bove permette più ingressi nella stessa giornata.**  \n+Vero ○ Falso ○\n\n**5. Per il biglietto giornaliero del Mausoleo di Cecilia Metella e del Complesso di Capo di Bove non serve prenotare.**  \n+Vero ○ Falso ○\n\n**6. La riduzione Roma Pass è riservata esclusivamente ai possessori della tessera 48h.**  \n+Vero ○ Falso ○\n\n**7. Il biglietto per Villa dei Quintili – Santa Maria Nova consente un solo ingresso nella giornata, senza prenotazione.**  \n+Vero ○ Falso ○\n\n**8. Il biglietto intero per l'Antiquarium di Lucrezia Romana costa 8 euro.**  \n+Vero ○ Falso ○\n\n**9. Per Villa di Sette Bassi e per le Tombe di via Latina si può prenotare una visita accompagnata negli orari di apertura.**  \n+Vero ○ Falso ○\n\n**10. Le Tombe di via Latina sono attualmente aperte al pubblico.**  \n+Vero ○ Falso ○\n\n**11. La Mia Appia Card è personale, dura un anno dal primo accesso e offre ingressi illimitati.**  \n+Vero ○ Falso ○\n\n**12. L'ingresso gratuito per i minori di 18 anni è riservato ai cittadini dell'Unione europea.**  \n+Vero ○ Falso ○\n\n**13. Ai totem situati agli ingressi si può pagare sia in contanti sia con carta.**  \n+Vero ○ Falso ○\n\n**14. Chi possiede un biglietto acquistato con le modalità precedenti può ancora usarlo per entrare.**  \n+Vero ○ Falso ○",
+    "T2_TEXT": "Si comunica che, a seguito dell'analisi effettuata al termine di 24 mesi di utilizzo della piattaforma Musei Italiani, con particolare riguardo ai flussi di acquisto e di utilizzo dei titoli di accesso ai siti del Parco e alle risultanze delle indagini condotte presso il personale addetto all'accoglienza, a partire dal 1° luglio 2026, la bigliettazione del Parco Archeologico dell'Appia Antica sarà rimodulata come segue:\n\n**Biglietto del Parco**\n\nIntero 12€ / ridotto Amici del Parco 10€ / ridotto 2€* / gratuito***\n\nBiglietto unico per tutti i siti del Parco, valido 7 giorni dal primo ingresso e previa prenotazione tramite app. Dà accesso a: Antiquarium di Lucrezia Romana, Mausoleo di Cecilia Metella, Complesso di Capo di Bove, Villa dei Quintili – Santa Maria Nova, Tombe di via Latina, Villa di Sette Bassi.\n\n(N.B. Il Complesso di Capo di Bove e le Tombe di via Latina sono temporaneamente chiusi al pubblico per interventi di restauro).\n\n**Mausoleo di Cecilia Metella e Complesso di Capo di Bove**\n\nIntero 8€ / ridotto 2€* / ridotto Roma Pass 4€** / gratuito***\n\nBiglietto giornaliero, valido per un solo ingresso, che consente l'accesso ai siti di Mausoleo di Cecilia Metella e Complesso di Capo di Bove nell'arco della stessa giornata e senza prenotazione.\n\n(N.B. Il Complesso di Capo di Bove è temporaneamente chiuso al pubblico per interventi di restauro).\n\n**Villa dei Quintili – Santa Maria Nova**\n\nIntero 8€ / ridotto 2€* / ridotto Roma Pass 4€** / gratuito***\n\nBiglietto giornaliero, valido per un solo ingresso, che consente l'accesso al sito di Villa dei Quintili – Santa Maria Nova nell'arco della stessa giornata e senza prenotazione.\n\n**Antiquarium di Lucrezia Romana**\n\nIntero 6€ / ridotto 2€* / gratuito***\n\nBiglietto giornaliero, valido per un solo ingresso, che consente l'accesso al sito dell'Antiquarium di Lucrezia Romana nell'arco della stessa giornata e senza prenotazione.\n\n**Villa di Sette Bassi**\n\nIntero 6€ / ridotto 2€* / gratuito***\n\nConsente di prenotare una visita accompagnata nelle fasce orarie di apertura al pubblico.\n\n**Tombe di via Latina**\n\nIntero 6€ / ridotto 2€* / gratuito***\n\nConsente di prenotare una visita accompagnata nelle fasce orarie di apertura al pubblico.\n\nN.B. Il sito è temporaneamente chiuso al pubblico per interventi di restauro.\n\n**La Mia Appia Card: 25€**\n\nAbbonamento nominativo, valido un anno solare dalla data del primo accesso, con ingressi illimitati a tutti i siti del Parco.\n\n* Ridotto: ingresso agevolato riservato ai giovani dell'UE tra i 18 e i 24 anni.\n\n** Ridotto Roma Pass: riduzione riservata ai possessori della tessera 48h e 72h Roma Pass.\n\n*** Gratuito: per i minori di 18 anni (UE ed extra UE), i membri ICOM e per tutte le altre agevolazioni previste dalla normativa vigente.\n\nI biglietti del Parco possono essere acquistati:\n\nonline sul sito Musei Italiani\n\nda telefono con la app Musei Italiani disponibile su Google Play e su App Store\n\ndai totem posizionati all'ingresso di ogni sito (esclusivamente con carte di pagamento elettroniche).\n\nI visitatori che hanno già acquistato un biglietto secondo le precedenti modalità potranno comunque presentarsi al sito con il biglietto in proprio possesso, che resterà valido per l'accesso.",
+    "T2_TITLE": "NUOVE MODALITÀ DI ACCESSO AI SITI DEL PARCO DAL 1° LUGLIO 2026"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V || Vero | Le modalità cambiano «al termine di 24 mesi di utilizzo della piattaforma Musei Italiani». |\n| L2.2 | V || Vero | Il biglietto è «valido 7 giorni dal primo ingresso» ed è soggetto a «previa prenotazione tramite app». |\n| L2.3 | F || Falso | Due dei siti compresi, Capo di Bove e Tombe di via Latina, sono «temporaneamente chiusi al pubblico». 中文：列入通票不等于目前可参观。 |\n| L2.4 | F || Falso | Il biglietto è «valido per un solo ingresso», non per ingressi multipli. |\n| L2.5 | V || Vero | L'accesso avviene «nell'arco della stessa giornata e senza prenotazione». |\n| L2.6 | F || Falso | La riduzione è riservata ai possessori della tessera «48h e 72h Roma Pass», non soltanto della 48h. |\n| L2.7 | V || Vero | Il biglietto è «valido per un solo ingresso» nella stessa giornata «e senza prenotazione». |\n| L2.8 | F || Falso | Per l'Antiquarium il prezzo intero indicato è «6€», non 8 euro. |\n| L2.9 | V || Vero | Per entrambi i siti il testo dice: «Consente di prenotare una visita accompagnata nelle fasce orarie di apertura al pubblico». |\n| L2.10 | F || Falso | Il testo avverte che il sito «è temporaneamente chiuso al pubblico per interventi di restauro». |\n| L2.11 | V || Vero | È un «Abbonamento nominativo», valido un anno dal primo accesso, «con ingressi illimitati». |\n| L2.12 | F || Falso | La gratuità riguarda i minori di 18 anni «UE ed extra UE». |\n| L2.13 | F || Falso | Ai totem si paga «esclusivamente con carte di pagamento elettroniche». |\n| L2.14 | V || Vero | Il biglietto già acquistato «resterà valido per l'accesso». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "risultanze",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "调查结果",
+      "en": "findings",
+      "esempio": "con particolare riguardo ai flussi di acquisto e di utilizzo dei titoli di accesso ai siti del Parco e alle risultanze delle indagini condotte presso il personale addetto all'accoglienza"
+    },
+    {
+      "parola": "rimodulata",
+      "categoria": "participio passato, femminile singolare",
+      "zh": "重新调整的",
+      "en": "restructured",
+      "esempio": "la bigliettazione del Parco Archeologico dell'Appia Antica sarà rimodulata come segue"
+    },
+    {
+      "parola": "previa prenotazione",
+      "categoria": "locuzione",
+      "zh": "须事先预约",
+      "en": "subject to prior booking",
+      "esempio": "Biglietto unico per tutti i siti del Parco, valido 7 giorni dal primo ingresso e previa prenotazione tramite app."
+    },
+    {
+      "parola": "fasce orarie",
+      "categoria": "locuzione nominale femminile plurale",
+      "zh": "时间段",
+      "en": "time slots",
+      "esempio": "Consente di prenotare una visita accompagnata nelle fasce orarie di apertura al pubblico."
+    },
+    {
+      "parola": "agevolazioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "优惠待遇",
+      "en": "concessions",
+      "esempio": "per tutte le altre agevolazioni previste dalla normativa vigente"
+    }
+  ]
+}

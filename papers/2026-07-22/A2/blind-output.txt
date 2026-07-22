@@ -1,0 +1,65 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "C", "confidence": "hi"},
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L3.1": {"answer": "C", "confidence": "hi"},
+  "L3.2": {"answer": "A", "confidence": "hi"},
+  "L3.3": {"answer": "E", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+  "L3.5": {"answer": "F", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+  "S1.1": {"answer": "di", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "di", "confidence": "hi"},
+  "S1.4": {"answer": "Il", "confidence": "hi"},
+  "S1.5": {"answer": "di", "confidence": "hi"},
+  "S1.6": {"answer": "di", "confidence": "hi"},
+  "S1.7": {"answer": "un", "confidence": "hi"},
+  "S1.8": {"answer": "di", "confidence": "hi"},
+  "S1.9": {"answer": "la", "confidence": "hi"},
+  "S1.10": {"answer": "gli", "confidence": "hi"},
+  "S2.1": {"answer": "ama", "confidence": "hi"},
+  "S2.2": {"answer": "ha deciso", "confidence": "med"},
+  "S2.3": {"answer": "cercava", "confidence": "med"},
+  "S2.4": {"answer": "ha ricevuto", "confidence": "hi"},
+  "S2.5": {"answer": "ha pagato", "confidence": "hi"},
+  "S2.6": {"answer": "ha", "confidence": "hi"},
+  "S2.7": {"answer": "comprende", "confidence": "hi"},
+  "S2.8": {"answer": "vuole", "confidence": "hi"},
+  "S2.9": {"answer": "ci sono", "confidence": "hi"},
+  "S2.10": {"answer": "prevede", "confidence": "hi"},
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "A", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S2.2", "reason": "'In questi anni (decidere)' ambiguous: passato prossimo 'ha deciso' vs present 'decide'."},
+  {"item_id": "S2.3", "reason": "'Per sei anni, ogni giorno (cercare)' ambiguous: imperfetto 'cercava' vs passato prossimo 'ha cercato'."}
+]
+```
+
+WRITING
+W1: ok
+W2: ok
+O1: ok
+O2: ok

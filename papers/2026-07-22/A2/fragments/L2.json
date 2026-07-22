@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "1. I Musei del Castello sono aperti sei giorni alla settimana.  \n   Vero ○ Falso ○\n\n2. L'ultimo ingresso ai musei è alle 17:30.  \n   Vero ○ Falso ○\n\n3. Il lunedì anche i cortili del Castello sono chiusi.  \n   Vero ○ Falso ○\n\n4. In inverno i cortili chiudono alle 18:00.  \n   Vero ○ Falso ○\n\n5. Con il biglietto intero si possono visitare sette musei civici.  \n   Vero ○ Falso ○\n\n6. Chi esce dai musei può rientrare soltanto il giorno successivo.  \n   Vero ○ Falso ○\n\n7. I minori di 18 anni devono comprare il biglietto ridotto.  \n   Vero ○ Falso ○\n\n8. Il martedì dopo le 14:00 l'ingresso è gratuito per tutti.  \n   Vero ○ Falso ○",
+    "T2_TEXT": "I Musei del Castello Sforzesco sono aperti dal martedì alla domenica, dalle 10:00 alle 17:30 (ultimo ingresso alle 17:00). Il lunedì i musei sono chiusi, ma i cortili restano aperti tutti i giorni, dalle 7:00 alle 19:30 in estate e dalle 7:00 alle 18:00 in inverno.\n\nIl biglietto intero costa 5,00 euro e dà accesso a tutti e sette i musei civici del Castello, compresa la Pietà Rondanini di Michelangelo. Si può uscire e rientrare durante la stessa giornata.\n\nIl biglietto ridotto costa 3,00 euro per i giovani tra 18 e 25 anni (cittadini UE), per gli over 65 residenti a Milano, per i gruppi di più di 15 persone e per gli studenti universitari con tessera.\n\nL'ingresso è gratuito per i minori di 18 anni, per le persone con disabilità e un accompagnatore, per le guide turistiche, per i giornalisti e per i soci ICOM. È gratuito anche la prima domenica del mese per i residenti a Milano e ogni martedì dopo le 14:00 per tutti.",
+    "T2_TITLE": "CASTELLO SFORZESCO: ORARI E BIGLIETTI"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice «dal martedì alla domenica»: sono sei giorni. 中文：周一不开放博物馆。 |\n| L2.2 | Falso | L'orario delle 17:30 è la chiusura; l'«ultimo ingresso» è alle 17:00. 中文：区分关门和最后入场时间。 |\n| L2.3 | Falso | Il lunedì i musei sono chiusi, «ma i cortili restano aperti tutti i giorni». 中文：庭院每天开放。 |\n| L2.4 | Vero | I cortili sono aperti «dalle 7:00 alle 18:00 in inverno». |\n| L2.5 | Vero | Il biglietto intero «dà accesso a tutti e sette i musei civici del Castello». |\n| L2.6 | Falso | Si può «uscire e rientrare durante la stessa giornata», non il giorno successivo. 中文：可在当天再次进入。 |\n| L2.7 | Falso | Per «i minori di 18 anni» l'ingresso è gratuito, non ridotto. 中文：未成年人免费。 |\n| L2.8 | Vero | Il testo indica che «ogni martedì dopo le 14:00» l'ingresso è gratuito per tutti. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ultimo ingresso",
+      "categoria": "locuzione nominale",
+      "zh": "最后入场时间",
+      "en": "last admission",
+      "esempio": "ultimo ingresso alle 17:00"
+    },
+    {
+      "parola": "cortili",
+      "categoria": "nome maschile plurale",
+      "zh": "庭院",
+      "en": "courtyards",
+      "esempio": "i cortili restano aperti tutti i giorni"
+    },
+    {
+      "parola": "rientrare",
+      "categoria": "verbo",
+      "zh": "再次进入",
+      "en": "to re-enter",
+      "esempio": "Si può uscire e rientrare durante la stessa giornata."
+    },
+    {
+      "parola": "biglietto ridotto",
+      "categoria": "locuzione nominale",
+      "zh": "优惠票",
+      "en": "reduced-price ticket",
+      "esempio": "Il biglietto ridotto costa 3,00 euro"
+    },
+    {
+      "parola": "accompagnatore",
+      "categoria": "nome maschile",
+      "zh": "陪同人员",
+      "en": "companion",
+      "esempio": "per le persone con disabilità e un accompagnatore"
+    }
+  ]
+}

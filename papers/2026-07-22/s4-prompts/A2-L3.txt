@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova (LENGTH trim).
+
+Read first: .claude/agents/item-writer.md (§Stage S4), factory/exams/cils/templates/A2.md (the L3 block + HTML comments), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/A2/fragments/L3.json (abbinamento, 6 micro-testi + 8 opzioni, T3 = compilazione di 6 realia). Source: '## Slot T3' section of papers/2026-07-22/A2/sources.md.
+
+Defect: the quality audit measured the delivered reading text (the 6 micro-testi, titles/items excluded per the audit's counting) at 199 words; the A2 band for this prova is 120–180. TRIM the six micro-testi so the total lands in-band, aim ~150 words (about 25 words each). Cut redundant detail sentence-by-sentence; keep each micro-testo's distinctive matchable content so the 6 abbinamenti stay uniquely solvable. Do NOT change the number of micro-testi (6), options (8, i.e. 2 distractors), items, or points; do not invent facts.
+
+Rewrite papers/2026-07-22/A2/fragments/L3.json in full (schema: prova "L3", slots {L3_ITEMS, L3_OPTIONS}, answer_slots {ANS_L3_ROWS, ANS_L3_UNUSED}, key L3.1..L3.6, up to 5 glossario_candidates). Keep each abbinamento uniquely derivable.
+
+Reply (short): new total word count of the 6 micro-testi; confirm 6 items + 8 options.

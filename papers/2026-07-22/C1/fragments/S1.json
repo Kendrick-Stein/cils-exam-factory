@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Non tutti condividono l'entusiasmo di Tao, __anche se (0)__ i risultati delle AI stanno portando a ripensamenti. La critica più frequente è che le AI ottengono risultati __(1)__ grazie all'intuizione creativa, quanto grazie a una perseveranza «meccanica». Il timore è, da un lato, __(2)__ le AI producano allucinazioni; dall'altro, i modelli sono diventati via __(3)__ più precisi e riescono a tenersi meglio sotto controllo. Questo controllo è tanto efficace __(4)__ fa sì __(5)__ evitino risposte campate in aria.\n\nA chi li usa è ben noto il fatto __(6)__ i modelli citano le fonti. La ragione sta nell'enorme quantità di informazioni a __(7)__ attingono. La massa dei dati è così vasta __(8)__ diventa difficile ricondurre ogni risposta a un'unica fonte. Soltanto richieste formulate __(9)__ estrema precisione permettono di restringere il campo. Per la matematica Melanie Wood è un problema di «negligenza professionale»: nel caso in __(10)__ un matematico presentasse idee altrui come proprie omettendo __(11)__ citarle, sarebbe la comunità accademica __(12)__ criticarlo e sanzionarlo duramente.\n\nAccanto __(13)__ questi problemi di etica professionale ci sono questioni pratiche. Al pari __(14)__ qualsiasi altra disciplina scientifica, la matematica richiede un allenamento basato __(15)__ studio quotidiano dei problemi. Il «muscolo mentale» si mantiene in forma proprio grazie __(16)__ questo esercizio, fin __(17)__ primi anni accademici. È a partire __(18)__ questo ragionamento che nasce la preoccupazione di molti matematici: il rischio è __(19)__ un uso precoce delle AI porti i meno esperti ad allenarsi di meno e a costruire basi meno solide in vista __(20)__ stessi studi universitari che avrebbe poi affrontato.",
+    "T4_TITLE": "LE AI TRASFORMANO LA MATEMATICA, SE LE CONVINCI"
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | non tanto | S1.11 | di |\n| S1.2 | che | S1.12 | a |\n| S1.3 | via | S1.13 | a |\n| S1.4 | che | S1.14 | di |\n| S1.5 | che | S1.15 | sullo |\n| S1.6 | che | S1.16 | a |\n| S1.7 | cui | S1.17 | dai |\n| S1.8 | che | S1.18 | da |\n| S1.9 | con | S1.19 | che |\n| S1.10 | cui | S1.20 | degli |",
+    "ANS_S1_NOTES": "- **S1.1:** la coppia «non tanto … quanto» contrappone le due cause attribuite ai risultati; 中文：与其说……不如说……\n- **S1.3:** la ripetizione «via via» esprime una progressione graduale; 中文：逐渐地。\n- **S1.6:** «il fatto che» introduce una completiva dichiarativa; 中文：固定结构排除 «come/chiunque»。\n- **S1.8:** «così vasta che» esprime una conseguenza e la forma verbale successiva esclude «da»; 中文：如此庞大，以至于……\n- **S1.10:** la preposizione «in» è già stampata, quindi completa la locuzione relativa soltanto «cui»; 中文：固定为 nel caso in cui。\n- **S1.16, S1.17 e S1.18:** le locuzioni «grazie a», «fin dai» e «a partire da» fissano le rispettive preposizioni; 中文：三个固定搭配。\n- **S1.20:** «in vista degli studi successivi» indica lo scopo futuro; 中文：着眼于后续学习。"
+  },
+  "key": {
+    "S1.1": "non tanto",
+    "S1.2": "che",
+    "S1.3": "via",
+    "S1.4": "che",
+    "S1.5": "che",
+    "S1.6": "che",
+    "S1.7": "cui",
+    "S1.8": "che",
+    "S1.9": "con",
+    "S1.10": "cui",
+    "S1.11": "di",
+    "S1.12": "a",
+    "S1.13": "a",
+    "S1.14": "di",
+    "S1.15": "sullo",
+    "S1.16": "a",
+    "S1.17": "dai",
+    "S1.18": "da",
+    "S1.19": "che",
+    "S1.20": "degli"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "perseveranza",
+      "categoria": "sostantivo femminile",
+      "zh": "毅力；坚持",
+      "en": "perseverance",
+      "esempio": "una perseveranza «meccanica»"
+    },
+    {
+      "parola": "campate in aria",
+      "categoria": "locuzione aggettivale",
+      "zh": "毫无根据的",
+      "en": "unfounded",
+      "esempio": "risposte campate in aria"
+    },
+    {
+      "parola": "attingono",
+      "categoria": "verbo",
+      "zh": "汲取；取自",
+      "en": "draw from",
+      "esempio": "informazioni a cui attingono"
+    },
+    {
+      "parola": "negligenza professionale",
+      "categoria": "locuzione nominale",
+      "zh": "职业疏忽",
+      "en": "professional negligence",
+      "esempio": "un problema di «negligenza professionale»"
+    },
+    {
+      "parola": "sanzionarlo",
+      "categoria": "verbo con pronome clitico",
+      "zh": "处罚他",
+      "en": "to sanction him",
+      "esempio": "criticarlo e sanzionarlo duramente"
+    }
+  ]
+}

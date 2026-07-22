@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Sono molti di più, alcune centinaia, le persone che dicono di averli visti tutti. La maggior parte lo ha fatto negli ultimi anni, per una strana forma di competizione che fino a poco tempo fa sarebbe stata impraticabile.",
+    "T3_PART_B": "Ma qualcuno ci è riuscito anche con quello indiano, filippino o giamaicano. Fra i Grand Master c'erano anche alcuni italiani (quattro), e qualche persona dalla Cina, dove i viaggiatori estremi pare siano diversi, ma poco intercettati dalle piattaforme occidentali.",
+    "T3_PART_C": "È rimasta nell'arcipelago il tempo necessario a raccogliere varie prove, poi è ripartita, con destinazione finale Lisbona, dove si sarebbe tenuta la riunione dei 103 Grand Master.",
+    "T3_PART_D": "A Lisbona a inizio giugno si sono ritrovati in un unico posto, una villa appena fuori dalla città, 103 di questi viaggiatori, i \"Grand Master\", come MTP chiama chi ha visitato tutti i paesi del mondo.",
+    "T3_PART_E": "In tutto, ci ha messo quasi dieci anni, ha viaggiato su navi cargo, ed è rimasto bloccato in porti per mesi, aspettando la nave giusta.",
+    "T3_PART_F": "Per alcuni di loro, la competizione può diventare piuttosto accesa. La statunitense Hongyu Yang pochi giorni prima della riunione non aveva passato l'esame di certificazione per un singolo stato, Kiribati (non aveva prove sufficienti).",
+    "T3_PART_G": "Dopo quelle lunghe attese, alla riunione dell'MTP è fra i più popolari e ricercati: «Qui dentro sono una specie di mito, poi vado fuori a parlare del libro in cui racconto la mia esperienza, e la gente non sembra interessata».",
+    "T3_PART_H": "Queste persone in sostanza viaggiano per spuntare caselle, per completare un album: non di figurine, ma di timbri sul passaporto. O di esperienze estremamente arricchenti che senza questa specie di gara non avrebbero mai fatto, a sentire loro.",
+    "T3_PART_I": "Dopo il caso di Yang, il danese Thor Pedersen ha raggiunto l'obiettivo in modo notevole: ha completato i 193 paesi senza prendere mai l'aereo, senza tornare mai a casa e con un budget di circa 20 dollari al giorno.",
+    "T3_PART_J": "Fra i paesi di provenienza dei Grand Master, gli Stati Uniti erano quello più rappresentato, seguiti da Germania, Portogallo e Regno Unito. Viaggiare con un passaporto occidentale permette di avere un vantaggio competitivo non da poco in questa gara.",
+    "T3_PART_K": "Per rientrare fra i 103 ha organizzato di corsa un nuovo volo dagli Stati Uniti verso l'arcipelago del Pacifico, che è lontano praticamente da tutto.",
+    "T3_TITLE": "QUELLI CHE VIAGGIANO PER COMPETIZIONE"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | L'apertura introduce le persone che hanno visitato tutti i paesi e la loro competizione. |\n| 2 | H | «Queste persone» riprende direttamente le persone presentate nella parte A e spiega il loro modo di viaggiare. |\n| 3 | D | «Questi viaggiatori» rinvia alla descrizione della parte H; «A Lisbona a inizio giugno» apre poi la scena della riunione. |\n| 4 | J | «I Grand Master» della parte D sono ripresi nell'analisi dei loro paesi di provenienza. |\n| 5 | B | «Ma qualcuno ci è riuscito anche con quello» contrappone altri passaporti a quello occidentale appena citato. |\n| 6 | F | «Per alcuni di loro» rinvia ai Grand Master della parte B e introduce un caso concreto di forte competizione. |\n| 7 | K | «Per rientrare fra i 103» riprende sia la riunione sia l'esame di certificazione non superato da Yang. |\n| 8 | C | «È rimasta nell'arcipelago» riprende Yang e il volo verso l'arcipelago della parte K. |\n| 9 | I | «Dopo il caso di Yang» chiude esplicitamente il primo episodio e introduce quello di Pedersen. |\n| 10 | E | «In tutto, ci ha messo quasi dieci anni» riprende il viaggio senza aereo di Pedersen. |\n| 11 | G | «Dopo quelle lunghe attese» rinvia ai mesi trascorsi nei porti e riporta Pedersen alla riunione. |",
+    "ANS_L3_SEQUENCE": "A–H–D–J–B–F–K–C–I–E–G"
+  },
+  "key": {
+    "L3": "A–H–D–J–B–F–K–C–I–E–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "impraticabile",
+      "categoria": "aggettivo",
+      "zh": "不可行的",
+      "en": "impracticable",
+      "esempio": "una strana forma di competizione che fino a poco tempo fa sarebbe stata impraticabile"
+    },
+    {
+      "parola": "spuntare caselle",
+      "categoria": "locuzione verbale",
+      "zh": "勾选方框",
+      "en": "to tick boxes",
+      "esempio": "Queste persone in sostanza viaggiano per spuntare caselle"
+    },
+    {
+      "parola": "vantaggio competitivo",
+      "categoria": "locuzione nominale",
+      "zh": "竞争优势",
+      "en": "competitive advantage",
+      "esempio": "avere un vantaggio competitivo non da poco in questa gara"
+    },
+    {
+      "parola": "arcipelago",
+      "categoria": "nome maschile",
+      "zh": "群岛",
+      "en": "archipelago",
+      "esempio": "un nuovo volo dagli Stati Uniti verso l'arcipelago del Pacifico"
+    },
+    {
+      "parola": "navi cargo",
+      "categoria": "locuzione nominale",
+      "zh": "货船",
+      "en": "cargo ships",
+      "esempio": "ha viaggiato su navi cargo"
+    }
+  ]
+}

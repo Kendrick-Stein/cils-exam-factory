@@ -1,0 +1,15 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 3 on cloze verbi + §Stage S4), factory/exams/cils/templates/B2.md (the S2 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi — indicativo/congiuntivo/condizionale/passiva, 20 gaps, T5 = chef intervista).
+Your source text: the '## Slot T5' section of papers/2026-07-22/B2/sources.md.
+
+Defects (blind solver):
+- S2.3: key "sarebbero state servite" (condizionale passato passivo) but the solver read "sarebbero servite" (condizionale passato di servire = "essere utili"). These are DIFFERENT verbs/meanings. Decide from the source which is intended and either (a) make the passive obligatory with an explicit agent/complement, or (b) if the natural meaning is "essere utili", set the key to "sarebbero servite". Do not leave both readings open.
+- S2.19: FLAG — "(intitolare)" for "il volume ___ «…»" admits "si intitola" (idiomatic present) vs "è stato/fu intitolato" (passive past). Add a clitic cue in the parenthetical or reword so exactly one form fits (e.g. give "(intitolarsi)" if you want "si intitola", or supply an explicit agent + past-time anchor if you want the passive), and set the key accordingly.
+- Rescan all 20 gaps for the same classes: passive-vs-intransitive competition, reflexive-vs-passive, and past-participle agreement (essere-aux with unspecified-gender subject).
+
+Keep exactly 20 gaps and the point value identical. Rewrite papers/2026-07-22/B2/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, up to 5 glossario_candidates). Use `||` only for genuinely equivalent forms.
+
+Reply (short): which gaps you changed and how you forced each; final text word count.

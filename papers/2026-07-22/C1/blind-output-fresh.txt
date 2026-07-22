@@ -1,0 +1,27 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B"}, "L1.2": {"answer": "C"}, "L1.3": {"answer": "A"}, "L1.4": {"answer": "D"}, "L1.5": {"answer": "B"}, "L1.6": {"answer": "C"}, "L1.7": {"answer": "A"},
+  "L2.1": {"answer": "F"}, "L2.2": {"answer": "V"}, "L2.3": {"answer": "F"}, "L2.4": {"answer": "V"}, "L2.5": {"answer": "F"}, "L2.6": {"answer": "V"}, "L2.7": {"answer": "F"}, "L2.8": {"answer": "V"}, "L2.9": {"answer": "F"}, "L2.10": {"answer": "V"}, "L2.11": {"answer": "F"}, "L2.12": {"answer": "V"}, "L2.13": {"answer": "F"}, "L2.14": {"answer": "V"},
+  "L3": {"answer": "A-F-N-C-L-H-P-D-I-M-B-O-G-K-E-J"},
+  "S1.1": {"answer": "non tanto"}, "S1.2": {"answer": "che"}, "S1.3": {"answer": "via"}, "S1.4": {"answer": "che"}, "S1.5": {"answer": "che"}, "S1.6": {"answer": "che"}, "S1.7": {"answer": "cui"}, "S1.8": {"answer": "che"}, "S1.9": {"answer": "con"}, "S1.10": {"answer": "cui"}, "S1.11": {"answer": "di"}, "S1.12": {"answer": "a"}, "S1.13": {"answer": "a"}, "S1.14": {"answer": "di"}, "S1.15": {"answer": "sullo"}, "S1.16": {"answer": "a"}, "S1.17": {"answer": "dai"}, "S1.18": {"answer": "da"}, "S1.19": {"answer": "che"}, "S1.20": {"answer": "di"},
+  "S2.1": {"answer": "legga"}, "S2.2": {"answer": "lo abbia descritto"}, "S2.3": {"answer": "aveva"}, "S2.4": {"answer": "conobbe"}, "S2.5": {"answer": "lo vedeva"}, "S2.6": {"answer": "pascolavano"}, "S2.7": {"answer": "era"}, "S2.8": {"answer": "andava"}, "S2.9": {"answer": "divideva"}, "S2.10": {"answer": "consolidarono"}, "S2.11": {"answer": "era stata stabilita"}, "S2.12": {"answer": "insegnava"}, "S2.13": {"answer": "comprendesse"}, "S2.14": {"answer": "arrampicarsi"}, "S2.15": {"answer": "cogliere"}, "S2.16": {"answer": "montare"}, "S2.17": {"answer": "acciuffando"}, "S2.18": {"answer": "passava"}, "S2.19": {"answer": "lasciarsi sbigottire"}, "S2.20": {"answer": "afferrata"},
+  "S3.1": {"answer": "B"}, "S3.2": {"answer": "D"}, "S3.3": {"answer": "A"}, "S3.4": {"answer": "C"}, "S3.5": {"answer": "B"}, "S3.6": {"answer": "D"}, "S3.7": {"answer": "A"}, "S3.8": {"answer": "C"}, "S3.9": {"answer": "B"}, "S3.10": {"answer": "D"}, "S3.11": {"answer": "A"}, "S3.12": {"answer": "C"}, "S3.13": {"answer": "B"}, "S3.14": {"answer": "D"}, "S3.15": {"answer": "C"},
+  "S4.1": {"answer": "DISPOSIZIONI VIGENTI RELATIVE ALL'AMMINISTRAZIONE DIGITALE."}, "S4.2": {"answer": "SI ACCEDE."}, "S4.3": {"answer": "DALL'UFFICIO."}, "S4.4": {"answer": "SUCCESSIVAMENTE."}, "S4.5": {"answer": "INTEGRAZIONI ALLE PRATICHE GIÀ PRESENTATE ALLA DATA DEL 6 LUGLIO 2026."}, "S4.6": {"answer": "COMUNICAZIONI RELATIVE ALLE CIL, ALLE SCIA E ALLE SCIAPDC."}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S1.20", "reason": "'in vista __ studi successivi': bare 'di studi' vs articolata 'degli studi' both defensible."},
+  {"item_id": "S2.2", "reason": "sebbene-clause: present main 'appare' + dated past → congiuntivo passato 'abbia descritto' vs imperfetto 'descrivesse'."},
+  {"item_id": "S3.1", "reason": "'dissolto' vs 'scomparso' near-synonyms both fit 'quel mondo oggi è ___'."}
+]
+```
+
+WRITING
+W1: ok
+W2: ok
+O1: ok
+O2: ok

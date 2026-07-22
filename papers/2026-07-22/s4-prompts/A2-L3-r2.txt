@@ -1,0 +1,11 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 2, LENGTH — one prova.
+
+Fragment: papers/2026-07-22/A2/fragments/L3.json (abbinamento, 6 micro-testi con titolo + 8 opzioni). Read the current file first.
+
+The quality audit counts the ENTIRE prova-3 reading block — the SIX numbered titles PLUS their bodies — with the regex \b[\wÀ-ÿ']+\b. It currently measures 198 words; the required band is 120–180. Round 1 failed (still 198). You MUST bring the block to ≤170 words total (titles included), aim ~155.
+
+Cut roughly 30–40 words from the bodies: drop redundant phrases, collapse date/time/price detail to the essentials, shorten each body to ONE tight sentence (~15–18 words). You may shorten the titles slightly too. Keep each of the six micro-testi UNIQUELY matchable to its option (the distinctive detail that makes exactly one abbinamento correct must survive). Do NOT change: 6 micro-testi, 8 options (2 distractors), the 6 keys, points. Do not invent facts.
+
+Count the six titles+bodies yourself before finishing and confirm ≤170. Rewrite papers/2026-07-22/A2/fragments/L3.json in full (schema: prova "L3", slots {L3_ITEMS, L3_OPTIONS}, answer_slots {ANS_L3_ROWS, ANS_L3_UNUSED}, key L3.1..L3.6, up to 5 glossario_candidates).
+
+Reply (short): the exact total word count you counted; confirm 6 items + 8 options + keys unchanged.

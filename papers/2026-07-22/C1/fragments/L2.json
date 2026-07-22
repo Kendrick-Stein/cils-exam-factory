@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Per consultare il materiale librario è sufficiente presentarsi in Biblioteca, anche senza essere iscritti.**  \nVero ○ Falso ○\n\n**2. Gli ambienti della Biblioteca storica sono visitabili soltanto in parte e con una guida.**  \nVero ○ Falso ○\n\n**3. Tutti i minori di quattordici anni possono entrare solo se accompagnati da un adulto.**  \nVero ○ Falso ○\n\n**4. I servizi destinati ai lavori di gruppo e alle visite guidate devono essere prenotati.**  \nVero ○ Falso ○\n\n**5. Gli orari di apertura sono stabiliti dal personale della biglietteria del Museo.**  \nVero ○ Falso ○\n\n**6. L'accesso può essere limitato temporaneamente per non compromettere la qualità dei servizi offerti.**  \nVero ○ Falso ○\n\n**7. Nel Giardino adiacente al Palazzo è consentito fumare.**  \nVero ○ Falso ○\n\n**8. Il deposito di borse e altri oggetti all'ingresso della sala di consultazione serve a prevenire atti illeciti.**  \nVero ○ Falso ○\n\n**9. L'Amministrazione risponde degli eventuali furti dei beni lasciati negli appositi armadietti.**  \nVero ○ Falso ○\n\n**10. Il personale può vietare l'accesso agli utenti che non rispettano il regolamento.**  \nVero ○ Falso ○\n\n**11. La tessera di iscrizione può essere richiesta esclusivamente di persona presso la sede.**  \nVero ○ Falso ○\n\n**12. I minori di quattordici anni si iscrivono sotto la responsabilità dei genitori.**  \nVero ○ Falso ○\n\n**13. La tessera permette di utilizzare la connessione internet soltanto a pagamento.**  \nVero ○ Falso ○\n\n**14. L'accesso ai documenti viene registrato dal personale di Sala.**  \nVero ○ Falso ○",
+    "T2_TEXT": "La Biblioteca è aperta a tutti, tuttavia:\n\n- l'ingresso all'area per la consultazione del materiale librario è possibile solo previa iscrizione e registrazione;\n- solo gli spazi riservati alla consultazione sono di libero accesso mentre ambienti che ospitano la Biblioteca storica, facenti parte del percorso museale, sono accessibili solo in parte e con visita guidata;\n- i bambini che hanno meno di 11 anni devono essere accompagnati da un adulto;\n- l'utilizzo dei servizi per lavori di gruppo e visite guidate è soggetto a prenotazione;\n- gli orari di apertura della biblioteca sono stabiliti dal consiglio di Amministrazione della Fondazione d'Arco e sono portati alla conoscenza del pubblico mediante affissione e diffusione informatica;\n- l'accesso è vietato a tutte le persone che per il loro comportamento o mancanza di contegno (ubriachezza, rumore, violenza fisica o verbale) rappresentino un pericolo per il pubblico e il personale;\n- i furti, i deterioramenti del materiale e dei documenti collezionati implicano il risarcimento del danno e potranno essere perseguiti per via giudiziaria;\n- l'accesso all'edificio e ai servizi potrà essere temporaneamente limitato per ragioni di sicurezza, di confort degli utenti o per preservare la qualità delle prestazioni offerte. La chiusura temporanea è comunicata mediante affissione e diffusione.\n\nÈ inoltre vietato:\n\n- entrare negli ambienti dell'edificio con animali;\n- fumare nel Palazzo e nel Giardino adiacente;\n- introdurre e consumare alimenti e bevande negli ambienti destinati alla consultazione;\n- distribuire e affiggere manifesti senza autorizzazione.\n\nLe riprese fotografiche, di film, registrazioni, interviste e inchieste sono sottoposte a domanda di autorizzazione. Al fine di prevenire atti illeciti è richiesto il deposito all'entrata della sala consultazione di borse, zaini, valigie, cappotti ed ombrelli, così come potrà essere chiesta la verifica del loro contenuto. L'Amministrazione non è responsabile di eventuali furti ai beni lasciati in deposito negli appositi locali e negli opportuni armadietti. Il personale è autorizzato a espellere o a interdire l'accesso degli utenti che non rispettano il presente regolamento o a far ricorso alle forze dell'ordine. Le infrazioni al regolamento potranno essere oggetto di una sanzione consistente nel divieto di accesso alla biblioteca.\n\n### Iscrizione alla Biblioteca\n\nGli utenti che per scopi di studio, ricerca e aggiornamento professionale desiderano accedere ai servizi della Biblioteca, possono essere ammessi se dotati di tessera di iscrizione. La tessera va richiesta al referente della Biblioteca:\n\n- in sede tramite presentazione del documento d'identità e compilazione di un modulo apposito di richiesta. I minori di 14 si iscrivono sotto la responsabilità dei genitori;\n- inviando il documento d'identità e formale richiesta all'indirizzo mail della Biblioteca. La tessera potrà poi essere ritirata presso la sede.\n\nLa tessera consente di:\n\n- accedere al servizio consultazione;\n- usufruire del servizio gratuito di connessione internet;\n- usufruire del servizio di fotoriproduzione.\n\nLa tessera va mostrata al personale della biglietteria del Museo, all'ingresso del Palazzo, per poter accedere agli ambienti riservati alla consultazione. Il lettore è personalmente responsabile della sua tessera. In caso di perdita o furto della tessera il lettore è tenuto a informare la biblioteca.\n\n### Accesso ai documenti\n\nI documenti sono concessi solo in consultazione. È dunque escluso il prestito a domicilio. L'accesso è registrato dal personale di Sala.",
+    "T2_TITLE": "REGOLAMENTO DI ACCESSO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Falso | L'ingresso all'area di consultazione è possibile «solo previa iscrizione e registrazione». |\n| L2.2 | Vero | Gli ambienti della Biblioteca storica sono «accessibili solo in parte e con visita guidata». |\n| L2.3 | Falso | L'accompagnamento di un adulto riguarda «i bambini che hanno meno di 11 anni», non tutti i minori di quattordici anni. 中文：年龄门槛不同。 |\n| L2.4 | Vero | L'utilizzo dei servizi per lavori di gruppo e visite guidate «è soggetto a prenotazione». |\n| L2.5 | Falso | Gli orari sono stabiliti «dal consiglio di Amministrazione della Fondazione d'Arco». |\n| L2.6 | Vero | L'accesso può essere limitato «per preservare la qualità delle prestazioni offerte». |\n| L2.7 | Falso | È vietato «fumare nel Palazzo e nel Giardino adiacente». |\n| L2.8 | Vero | Il deposito è richiesto «al fine di prevenire atti illeciti». |\n| L2.9 | Falso | Il testo precisa che «L'Amministrazione non è responsabile di eventuali furti» ai beni depositati. 中文：责任明确被排除。 |\n| L2.10 | Vero | Il personale può «interdire l'accesso degli utenti che non rispettano il presente regolamento». |\n| L2.11 | Falso | La richiesta può avvenire in sede oppure «inviando il documento d'identità e formale richiesta all'indirizzo mail». |\n| L2.12 | Vero | «I minori di 14 si iscrivono sotto la responsabilità dei genitori». |\n| L2.13 | Falso | La tessera consente di usufruire del «servizio gratuito di connessione internet». |\n| L2.14 | Vero | «L'accesso è registrato dal personale di Sala». |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "previa iscrizione e registrazione",
+      "categoria": "locuzione preposizionale",
+      "zh": "须事先注册登记",
+      "en": "subject to prior registration",
+      "esempio": "solo previa iscrizione e registrazione"
+    },
+    {
+      "parola": "mancanza di contegno",
+      "categoria": "locuzione nominale",
+      "zh": "行为失当",
+      "en": "improper conduct",
+      "esempio": "per il loro comportamento o mancanza di contegno"
+    },
+    {
+      "parola": "risarcimento del danno",
+      "categoria": "locuzione nominale",
+      "zh": "损害赔偿",
+      "en": "compensation for damage",
+      "esempio": "implicano il risarcimento del danno"
+    },
+    {
+      "parola": "interdire l'accesso",
+      "categoria": "locuzione verbale",
+      "zh": "禁止进入",
+      "en": "to bar access",
+      "esempio": "a interdire l'accesso degli utenti"
+    },
+    {
+      "parola": "aggiornamento professionale",
+      "categoria": "locuzione nominale",
+      "zh": "职业进修",
+      "en": "professional development",
+      "esempio": "per scopi di studio, ricerca e aggiornamento professionale"
+    }
+  ]
+}

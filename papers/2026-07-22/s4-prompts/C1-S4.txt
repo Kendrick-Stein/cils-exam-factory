@@ -1,0 +1,18 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova.
+
+Read first: .claude/agents/item-writer.md (§Rules 6 + §Stage S4), factory/exams/cils/templates/C1.md (S4 block + comments, incl. the worked example item 0), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-22/C1/fragments/S4.json (trasformazioni, 6 items, T7 = avviso amministrativo Comune di Napoli). Source: '## Slot T7' section of papers/2026-07-22/C1/sources.md.
+
+Defect: a fresh blind solver produced grammatically valid rewrites that did NOT match the key on S4.1, S4.2, S4.4, S4.6 — because the printed STARTER did not force the target structure tightly enough, so the solver completed each transformation differently (a different but meaning-preserving construction).
+
+Fix — for EACH of the 6 items:
+1. Make the printed STARTER pin the subject AND the pivotal structure so the completion is essentially forced (e.g. a starter that begins a passive «… è finalizzata a…», a nominalisation «L'utilizzo di…», or discorso indiretto «L'avviso precisa che…»). The candidate must have only one natural way to finish.
+2. In the `key`, list ALL genuinely meaning-preserving completions with `||` (lexical/word-order variants are correct, not defects) — but the STARTER must still exclude structurally different reformulations.
+3. Keep the worked example (item 0: S4_SOURCE_0 / S4_REWRITE_0) consistent with this stricter style.
+
+Re-derive all 6 from the T7 source; keep exactly 6 items and the point value. Rewrite papers/2026-07-22/C1/fragments/S4.json in full (schema: prova "S4", slots {S4_ITEMS, S4_SOURCE_0, S4_REWRITE_0}, answer_slots {ANS_S4_ROWS, ANS_S4_NOTES}, key S4.1..S4.6 with `||` variants, up to 5 glossario_candidates).
+
+IMPORTANT for re-validation: the printed starter for each item must be visible in S4_ITEMS so a solver writes ONLY the forced completion.
+
+Reply (short): for each item, the starter + the primary key completion; confirm 6 items.

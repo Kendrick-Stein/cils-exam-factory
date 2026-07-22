@@ -1,0 +1,33 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "L'", "confidence": "hi"},
+  "S1.2": {"answer": "Le", "confidence": "hi"},
+  "S1.3": {"answer": "i", "confidence": "hi"},
+  "S1.4": {"answer": "La", "confidence": "hi"},
+  "S1.5": {"answer": "L'", "confidence": "hi"},
+  "S1.6": {"answer": "le", "confidence": "hi"},
+  "S1.7": {"answer": "le", "confidence": "hi"},
+  "S1.8": {"answer": "le", "confidence": "hi"},
+  "S1.9": {"answer": "la", "confidence": "hi"},
+  "S1.10": {"answer": "la", "confidence": "hi"},
+  "S2.1": {"answer": "avete provato", "confidence": "hi"},
+  "S2.2": {"answer": "ho preparato", "confidence": "hi"},
+  "S2.3": {"answer": "ho lessato", "confidence": "hi"},
+  "S2.4": {"answer": "ho portato", "confidence": "hi"},
+  "S2.5": {"answer": "ho freddato", "confidence": "hi"},
+  "S2.6": {"answer": "ho unito", "confidence": "hi"},
+  "S2.7": {"answer": "ho versato", "confidence": "hi"},
+  "S2.8": {"answer": "ho salato", "confidence": "hi"},
+  "S2.9": {"answer": "ho mescolato", "confidence": "hi"},
+  "S2.10": {"answer": "ho lasciato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING
+n/a

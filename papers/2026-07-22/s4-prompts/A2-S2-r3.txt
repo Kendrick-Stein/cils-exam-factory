@@ -1,0 +1,9 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — surgical, ONE gap.
+
+Fragment: papers/2026-07-22/A2/fragments/S2.json (cloze_verbi, 10 gaps, T5 = pensionato/auto d'epoca). Read the current fragment.
+
+The prova is validated EXCEPT S2.5: «Dopo la pensione (pagare) ___ tutto da solo» admits both «ha pagato» (passato prossimo, single completed act) and «pagava» (imperfetto, ongoing) — no cue forces one. Fix ONLY S2.5. Decide the intended form from context (the neighbouring gaps «ha deciso», «ha ricevuto» suggest a single completed act → passato prossimo «ha pagato») and add an explicit completed-single-action cue so ONLY that form fits — e.g. «Per aprire il museo, ha pagato tutto da solo», «Nel 2023 ha pagato tutto da solo», «Alla fine ha pagato tutto da solo». Set key S2.5 accordingly.
+
+Change NOTHING else: keep the other 9 gaps, their text, keys, points, and schema identical. Rewrite papers/2026-07-22/A2/fragments/S2.json in full (prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.10, glossario_candidates).
+
+Reply (short): the new S2.5 clause and its key form.

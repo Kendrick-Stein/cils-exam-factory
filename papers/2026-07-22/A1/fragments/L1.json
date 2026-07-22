@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Mattia e Marica sono**\n\nA) due amici.\n\nB) una giovane coppia.\n\nC) due fratelli.\n\n**2. Che cosa coltivano Mattia e Marica?**\n\nA) Le galline e i maiali.\n\nB) I vini e i salumi.\n\nC) La vigna e gli ulivi.\n\n**3. Nella sala da pranzo gli ospiti possono**\n\nA) mangiare e bere.\n\nB) dormire e riposare.\n\nC) nuotare e prendere il sole.\n\n**4. Chi desidera fermarsi più a lungo può**\n\nA) pranzare vicino agli ulivi.\n\nB) dormire in una delle cinque camere.\n\nC) viaggiare con cinque cani.",
+    "T1_TEXT": "Benvenuti all'Agriturismo Come Na Volta!\n\nSiamo Mattia e Marica, una giovane coppia con una grande passione per la terra. Il nostro agriturismo nasce da un'antica cascina di famiglia, vicino a Breganze, nel cuore del Veneto.\n\nAbbiamo ristrutturato e ampliato la casa. Qui coltiviamo la vigna e gli ulivi, e alleviamo galline e maiali. Produciamo in casa i nostri vini e i nostri salumi.\n\nC'è una piscina con vista sulla pianura: è il posto perfetto per rilassarsi al sole. Nella grande sala da pranzo offriamo aperitivi, pranzi e cene.\n\nPer chi desidera fermarsi più a lungo, abbiamo 5 camere accoglienti nel silenzio della campagna, ideali anche per chi viaggia con il cane.\n\nVi aspettiamo!\nMattia e Marica",
+    "T1_TITLE": "AGRITURISMO COME NA VOLTA"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo presenta Mattia e Marica come «una giovane coppia». 中文：身份信息直接对应。 |\n| L1.2 | C | Il testo dice: «coltiviamo la vigna e gli ulivi»; galline e maiali sono animali, mentre vini e salumi sono prodotti. 中文：注意动作与对象的搭配。 |\n| L1.3 | A | Nella sala da pranzo «offriamo aperitivi, pranzi e cene», quindi gli ospiti possono mangiare e bere. 中文：地点功能对应。 |\n| L1.4 | B | Per chi vuole fermarsi, il testo dice: «abbiamo 5 camere accoglienti». 中文：数字五修饰的是房间。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cascina",
+      "categoria": "nome femminile",
+      "zh": "农舍",
+      "en": "farmhouse",
+      "esempio": "Il nostro agriturismo nasce da un'antica cascina di famiglia, vicino a Breganze, nel cuore del Veneto."
+    },
+    {
+      "parola": "vigna",
+      "categoria": "nome femminile",
+      "zh": "葡萄园",
+      "en": "vineyard",
+      "esempio": "Qui coltiviamo la vigna e gli ulivi, e alleviamo galline e maiali."
+    },
+    {
+      "parola": "ulivi",
+      "categoria": "nome maschile plurale",
+      "zh": "橄榄树",
+      "en": "olive trees",
+      "esempio": "Qui coltiviamo la vigna e gli ulivi, e alleviamo galline e maiali."
+    },
+    {
+      "parola": "alleviamo",
+      "categoria": "verbo",
+      "zh": "我们饲养",
+      "en": "we raise",
+      "esempio": "Qui coltiviamo la vigna e gli ulivi, e alleviamo galline e maiali."
+    },
+    {
+      "parola": "pianura",
+      "categoria": "nome femminile",
+      "zh": "平原",
+      "en": "plain",
+      "esempio": "C'è una piscina con vista sulla pianura: è il posto perfetto per rilassarsi al sole."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L3.1": {"answer": "B", "confidence": "hi"},
+  "L3.2": {"answer": "A", "confidence": "hi"},
+  "L3.3": {"answer": "C", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+  "S1.1": {"answer": "l'", "confidence": "hi"},
+  "S1.2": {"answer": "le", "confidence": "hi"},
+  "S1.3": {"answer": "i", "confidence": "med"},
+  "S1.4": {"answer": "la", "confidence": "hi"},
+  "S1.5": {"answer": "l'", "confidence": "hi"},
+  "S1.6": {"answer": "le", "confidence": "hi"},
+  "S1.7": {"answer": "le", "confidence": "hi"},
+  "S1.8": {"answer": "le", "confidence": "hi"},
+  "S1.9": {"answer": "la", "confidence": "hi"},
+  "S1.10": {"answer": "la", "confidence": "hi"},
+  "S2.1": {"answer": "avete provato", "confidence": "hi"},
+  "S2.2": {"answer": "ho preparato", "confidence": "hi"},
+  "S2.3": {"answer": "ho lessato", "confidence": "hi"},
+  "S2.4": {"answer": "ho portato", "confidence": "med"},
+  "S2.5": {"answer": "ho freddato", "confidence": "hi"},
+  "S2.6": {"answer": "ho unito", "confidence": "hi"},
+  "S2.7": {"answer": "ho versato", "confidence": "hi"},
+  "S2.8": {"answer": "ho salato", "confidence": "med"},
+  "S2.9": {"answer": "ho mescolato", "confidence": "hi"},
+  "S2.10": {"answer": "ho lasciato", "confidence": "med"},
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {"item_id": "S1.3", "reason": "'a i fornelli' must merge to 'ai' — printed preposition 'a' before an article gap creates a preposizione-articolata conflict."},
+  {"item_id": "S2.4", "reason": "Coordinated clause with elided 'io': second gap ambiguous between 'ho portato' and bare participle 'portato'."},
+  {"item_id": "S2.8", "reason": "Same auxiliary-ellipsis ambiguity: 'ho salato' vs 'salato'."},
+  {"item_id": "S2.10", "reason": "Same auxiliary-ellipsis ambiguity: 'ho lasciato' vs 'lasciato'."}
+]
+```
+
+WRITING
+W1: ok
+W2: ok
+O1: ok
+O2: ok

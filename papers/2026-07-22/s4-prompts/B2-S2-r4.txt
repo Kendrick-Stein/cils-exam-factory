@@ -1,0 +1,17 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — ROUND 4, FINAL — one prova. If this still leaves any ambiguity, the level will ship as draft, so be ruthless.
+
+Fragment: papers/2026-07-22/B2/fragments/S2.json (cloze_verbi, 20 gaps, T5 = chef intervista). Source: '## Slot T5' section of papers/2026-07-22/B2/sources.md. Read the current fragment and the source.
+
+History: three prior rounds each traded one ambiguity for another. Current flags: S2.5/S2.6/S2.7/S2.8/S2.16 (passato prossimo vs passato remoto vs gnomic present) and S2.14 (subject number).
+
+ADOPT A SINGLE, RIGID REGISTER and rewrite the whole cloze text under these NON-NEGOTIABLE rules:
+1. Narrate entirely in passato prossimo + imperfetto. BAN passato remoto completely (no «fu», «disse», «proseguì», «organizzò», «portò»…). BAN the gnomic/timeless present near any gap. BAN «fino a oggi / in questi anni / oggi».
+2. Every passato-prossimo gap must carry an EXPLICIT past-time anchor in its own clause: «Nel 2015…», «Il 3 marzo 2019…», «Dopo il diploma…», «Quell'anno…». If a clause states an enduring legacy (piatti che «portano Napoli nel mondo»), either DELETE it or rewrite it as a dated completed event («Nel 2019 i suoi piatti hanno fatto conoscere Napoli…»).
+3. Every imperfetto gap must carry «allora / a quei tempi / ogni giorno / mentre».
+4. Fix S2.14: make the subject of that clause explicit (name it) so its number is unambiguous.
+5. Keep the congiuntivo/condizionale gaps that already validate (S2.3 sarebbero state servite, S2.4 ci avrebbe creduto, S2.9 si arrendano, S2.10 gli direbbe, S2.15 sarebbe stato, S2.20 possa).
+6. Keep exactly 20 gaps, same points, same source facts (no invented content).
+
+After writing, RE-READ every gap and prove to yourself that neither a passato remoto, nor a present, nor a different-number reading is possible. Rewrite papers/2026-07-22/B2/fragments/S2.json in full (schema: prova "S2", slots {S2_TEXT_WITH_GAPS, T5_TITLE}, answer_slots {ANS_S2_ROWS, ANS_S2_NOTES}, key S2.1..S2.20, up to 5 glossario_candidates). Use `||` only for truly equivalent forms.
+
+Reply (short): confirm no passato remoto / present / number ambiguity remains; the anchor you gave S2.5, S2.6, S2.7, S2.8, S2.14, S2.16; final text word count.

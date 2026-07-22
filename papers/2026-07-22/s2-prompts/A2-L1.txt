@@ -1,0 +1,37 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/A2.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level A2, session 2026-07-22, fragment ID L1 (Test di comprensione della lettura).
+
+Prova spec from exam.yaml:
+n: 1
+tipo: scelta_multipla_3
+items: 4
+punti_item: 1
+punti: 4
+testo:
+  slot: T1
+  genere: breve articolo di giornale (descrizione di persone/cose/avvenimenti)
+  parole:
+  - 180
+  - 240
+
+Your ONE source text: the '## Slot T1' section of papers/2026-07-22/A2/sources.md — read ONLY that section (do not use other slots' texts). Follow its adaptation plan; adapt INTO the band; cut whole sentences first; never invent facts.
+
+The reading text body you deliver in the *_TEXT / *_WITH_GAPS slot (title and items excluded) is word-counted by the quality audit against the band in the spec — land inside it, aim mid-band.
+
+Item-writer reminder for this prova: Each stem tests comprehension derivable from THIS text alone; exactly one correct option; distractors plausible but text-refuted.
+
+Output: write EXACTLY ONE file, papers/2026-07-22/A2/fragments/L1.json — a JSON object
+{"prova": "L1", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): L1_ITEMS, T1_TEXT, T1_TITLE, ANS_L1_ROWS
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (L1.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.

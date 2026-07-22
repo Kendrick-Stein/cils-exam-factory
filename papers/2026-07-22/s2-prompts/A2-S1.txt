@@ -1,0 +1,38 @@
+You are an item-writer for the CILS Exam Factory (work in the current repo checkout at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN).
+
+Read first, in this order:
+1. .claude/agents/item-writer.md — your full role; every rule is binding.
+2. factory/exams/cils/style-guide.md and factory/validation/checklist.md §A.
+3. factory/exams/cils/templates/A2.md — find your {{SLOT}} placeholders and follow the HTML comments next to them EXACTLY (item counts, formats, examples (0), length guidance).
+
+Assignment: level A2, session 2026-07-22, fragment ID S1 (Test di analisi delle strutture di comunicazione).
+
+Prova spec from exam.yaml:
+n: 1
+tipo: cloze_aperto
+focus: articoli e preposizioni semplici
+items: 10
+punti_item: 0.4
+punti: 4
+testo:
+  slot: T4
+  genere: breve testo informativo quotidiano
+  parole:
+  - 90
+  - 130
+
+Your ONE source text: the '## Slot T4' section of papers/2026-07-22/A2/sources.md — read ONLY that section (do not use other slots' texts). Follow its adaptation plan; adapt INTO the band; cut whole sentences first; never invent facts.
+
+The reading text body you deliver in the *_TEXT / *_WITH_GAPS slot (title and items excluded) is word-counted by the quality audit against the band in the spec — land inside it, aim mid-band.
+
+Item-writer reminder for this prova: Cloze aperto: NO free-variant gaps. Make each article/preposition OBLIGATORY; avoid è/viene passive competition, di cui/del quale competition, bare-vs-articulated ambiguity, open quantifiers. One and only one correct token per gap.
+
+Output: write EXACTLY ONE file, papers/2026-07-22/A2/fragments/S1.json — a JSON object
+{"prova": "S1", "slots": {...}, "answer_slots": {...}, "key": {...}, "glossario_candidates": [...]}.
+- Fill EXACTLY these slots (paper + answers): S1_TEXT_WITH_GAPS, T4_TITLE, ANS_S1_NOTES, ANS_S1_ROWS
+- Slot values are the exact markdown the template expects at that position. 100% Italian in paper-facing slots; spiegazioni/notes may carry short 中文 glosses; never add point statements, source attributions or extra headings inside slot content.
+- key uses qualified IDs (S1.<n>) and session conventions: "V || Vero" style alternatives with ||; ricostruzione/abbinamento keys per the template comments; list every genuinely correct variant with ||.
+- Up to 5 glossario_candidates drawn VERBATIM from your text (parola, categoria, zh, en, esempio).
+- Do NOT touch manifest.yaml or any other file.
+
+Reply (short, no fragment content): item count, final text word count, words_used from your source, anything adapted heavily.

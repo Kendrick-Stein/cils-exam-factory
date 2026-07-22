@@ -1,0 +1,158 @@
+exam: cils
+level: B2
+session: '2026-07-22'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ilpost.it/2026/07/16/testosterone-uomini-dimezzato/
+  title: Il testosterone degli uomini si è davvero dimezzato?
+  publisher: Il Post
+  published: '2026-07-16'
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 505
+- id: T2
+  url: https://www.parcoarcheologicoappiaantica.it/in-evidenza/nuove-modalita-di-accesso-ai-siti-del-parco-dal-1-luglio-2026/
+  title: Nuove modalità di accesso ai siti del Parco dal 1° luglio 2026
+  publisher: Parco Archeologico dell'Appia Antica (Ministero della Cultura)
+  published: '2026-06-25'
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 490
+- id: T3
+  url: https://www.ilpost.it/2026/07/13/viaggiatori-estremi/
+  title: Quelli che viaggiano per competizione
+  publisher: Il Post
+  published: '2026-07-13'
+  accessed: '2026-07-22'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 380
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/scienza_arte/2026/07/13/tracce-di-dna-raccontano-le-contaminazioni-recenti-della-sindone_a4f971b4-c693-4fa9-8b5d-7e35f11c8861.html
+  title: Tracce di Dna raccontano le contaminazioni recenti della Sindone
+  publisher: ANSA (canale Scienza e Tecnica)
+  published: '2026-07-13'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 270
+- id: T5
+  url: https://www.ansa.it/canale_terraegusto/notizie/regioni/campania/2026/07/17/dal-quartiere-sanita-alla-cucina-con-i-miei-piatti-ho-portato-napoli_ac38555f-031e-4cad-a12b-a9309e3cb5ca.html
+  title: Dal quartiere Sanità alla cucina, 'con i miei piatti ho portato Napoli nel
+    mondo'
+  publisher: ANSA (Campania)
+  published: '2026-07-17'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 255
+- id: T6
+  url: https://www.umbria24.it/cultura/perugia-le-biblioteche-comunali-portano-letture-e-laboratori-anche-nei-parchi-per-lestate-2026/
+  title: Perugia, le biblioteche comunali portano letture e laboratori anche nei parchi
+    per l'estate 2026
+  publisher: Umbria24
+  published: '2026-06-22'
+  accessed: '2026-07-22'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 208
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-22T14:55:36+00:00'
+  - stage: authoring
+    at: '2026-07-22T14:55:36+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-22T15:09:09+00:00'
+    agreement: 85/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T15:23:24+00:00'
+    agreement: 87/87
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T16:31:36+00:00'
+    agreement: 87/87
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T17:03:30+00:00'
+    agreement: 86/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-22T17:08:50+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-22T17:13:35+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T17:13:35+00:00'
+    result: fail
+    issues: 1
+  - stage: blind_validation
+    at: '2026-07-22T17:28:01+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-22T17:51:32+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T17:51:32+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:07:55+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-22T18:21:30+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit
