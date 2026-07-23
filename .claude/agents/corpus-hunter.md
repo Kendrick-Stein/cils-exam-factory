@@ -35,6 +35,12 @@ Write `papers/<date>/<LEVEL>/sources.md`:
 
 End with a `## Coverage` line per slot: `Slot <id>: OK (candidate 1)` or `MISSING (<what failed>)`. Reply to the orchestrator with that coverage summary only.
 
+## WebFetch pitfalls (verified 2026-07-23 trial)
+- **Translation:** WebFetch's extractor may silently return English (translated/summarized). Always instruct it to *"return the article body in the ORIGINAL Italian, verbatim, do not translate or summarize"*, then verify the body is Italian. Never bank translated/altered text — it violates the authenticity rule.
+- **403 bot-blocks:** `focus.it`, `gamberorosso.it`, `fanpage.it`, `focusjunior.it`, `today.it`, `subito.it` return HTTP 403 to WebFetch. On a 403 / empty stub / translated result, **refetch the SAME url** via reader-proxy `https://r.jina.ai/<url>` or `curl` with a browser User-Agent before dropping.
+- **Dead sources:** `wired.it` (Condé Nast shut it 2026-06-30) and `italianofacile.news` (DNS dead) — skip.
+- **ANSA quirk:** difficulty-highlight `<span>`s can split tokens (e.g. `teoria`→`te oria`); strip stray markup.
+
 ## Rules
 - Anonymize personal phone numbers/emails in realia (annunci) — replace digits with `3XX XXXXXXX`.
 - Never paraphrase-fetch from memory: if you didn't fetch it this run, it doesn't exist.

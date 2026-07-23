@@ -1,4 +1,746 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 0
-sources: []
+count: 48
+sources:
+- url: https://archibiblio.comune.ferrara.it/589/informazioni-e-orari
+  title: Biblioteca Gianni Rodari, Ferrara — orari
+  publisher: Comune di Ferrara (Servizio Biblioteche e Archivi)
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 77
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/05e11c810746.md
+- url: https://bct.comune.torino.it/comunicazioni/orari-e-servizi-nel-periodo-estivo-2026
+  title: Orari e servizi delle Biblioteche civiche torinesi nel periodo estivo 2026
+  publisher: Biblioteche Civiche Torinesi / Comune di Torino
+  published: '2026-07-15'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 144
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/harvest-trial
+  source_file: factory/corpus/pool/c35544857394.md
+- url: https://blog.giallozafferano.it/allacciateilgrembiule/crostata-di-mele/
+  title: Crostata di mele
+  publisher: 'GialloZafferano (blog: Allacciate il Grembiule)'
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 223
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial
+  source_file: factory/corpus/pool/62c31225fabd.md
+- url: https://blog.giallozafferano.it/danielerossichef/pasta-al-pomodoro/
+  title: Pasta al pomodoro
+  publisher: 'GialloZafferano (blog: Daniele Rossi Chef)'
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 226
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial
+  source_file: factory/corpus/pool/9b8c3afbcec8.md
+- url: https://camminiditalia.org/martina-e-la-sua-via-degli-dei-in-tenda/
+  title: 'Martina e la sua Via degli Dei in tenda: partire da sola, arrivare insieme
+    (estratto: tappa 01)'
+  publisher: Cammini d'Italia
+  published: null
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 446
+  perishable: false
+  perishable_until: null
+  fetch_intent: B1/harvest-trial
+  source_file: factory/corpus/pool/57f16350d4d4.md
+- url: https://comune.ravenna.it/amministrazione/uffici/area-territoriale-3/
+  title: Area territoriale 3 — Sportello sociale
+  publisher: Comune di Ravenna
+  published: '2026-07-23'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 67
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/harvest-trial
+  source_file: factory/corpus/pool/d755b106b482.md
+- url: https://cultura.comune.firenze.it/pagina/orari-e-contatti
+  title: Orari e contatti — Biblioteca delle Oblate
+  publisher: Comune di Firenze (Biblioteche comunali fiorentine)
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 86
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/harvest-trial
+  source_file: factory/corpus/pool/0a10d324f679.md
+- url: https://it.wikisource.org/wiki/Naufraghi_in_porto/Capitolo_I
+  title: Naufraghi in porto - Capitolo I
+  publisher: Wikisource (Grazia Deledda, 1920)
+  published: '1920-01-01'
+  fetched: '2026-07-23'
+  genre: literature_public_domain
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 687
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/harvest-trial
+  source_file: factory/corpus/pool/a776d7985b4b.md
+- url: https://turistipercaso.it/diari-di-viaggio/tour-della-sicilia-diario-di-bordo.html
+  title: 'Tour della Sicilia: diario di bordo'
+  publisher: Turisti per Caso
+  published: null
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 326
+  perishable: false
+  perishable_until: null
+  fetch_intent: B1/harvest-trial
+  source_file: factory/corpus/pool/40be3c2ab7c9.md
+- url: https://www.ansa.it/abruzzo/notizie/2026/07/22/a-pescara-tornano-i-fuochi-artificiali-per-la-festa-di-santandrea_6ee4ea0c-9df9-4efc-b8c8-d0acfcb12d40.html
+  title: A Pescara tornano i fuochi artificiali per la Festa di Sant'Andrea
+  publisher: ANSA (Abruzzo)
+  published: '2026-07-22'
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 186
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial
+  source_file: factory/corpus/pool/4920f613082a.md
+- url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/07/22/cosi-la-pelle-distingue-il-caldo-dal-freddo-_317dcf06-7ea9-4bfa-b506-098a7bcc1cd9.html
+  title: Così la pelle distingue il caldo dal freddo
+  publisher: ANSA
+  published: '2026-07-22'
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 297
+  perishable: true
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/bb327367a7e2.md
+- url: https://www.ansa.it/canale_scienza/notizie/terra_poli/2026/07/23/giovani-e-anziani-influenzano-in-modo-diverso-le-emissioni-legate-allalimentazione_70dacd75-3c60-4f0e-89c9-8cec6b8de405.html
+  title: Giovani e anziani influenzano in modo diverso le emissioni legate all'alimentazione
+  publisher: ANSA
+  published: '2026-07-23'
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - B1
+  - B2
+  words: 335
+  perishable: true
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/b76d0584c761.md
+- url: https://www.ansa.it/molise/notizie/2026/07/21/miranda-borgo-del-tartufo-dal-23-al-27-luglio_584b1a79-45c2-4fe1-af3d-42e029b032d9.html
+  title: Miranda "Borgo del Tartufo" dal 23 al 27 luglio
+  publisher: ANSA (Molise)
+  published: '2026-07-21'
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 266
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial-bonus
+  source_file: factory/corpus/pool/8b027c88205c.md
+- url: https://www.ansa.it/sito/notizie/cronaca/2026/07/22/due-indagati-per-il-furto-delle-fiale-di-fentanyl-a-roma_3ab566db-8f58-4148-8832-d6b8233c558c.html
+  title: Furto di Fentanyl in ospedale a Roma, indagati due custodi
+  publisher: ANSA
+  published: '2026-07-22'
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 394
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/harvest-trial
+  source_file: factory/corpus/pool/c2106d2aadc0.md
+- url: https://www.ansa.it/sito/notizie/cronaca/2026/07/22/esplosione-distributore-gpl-a-roma-cinque-rischiano-il-processo_f4d342f3-1715-4fcd-8c10-1d6fe54a2556.html
+  title: Esplosione distributore Gpl a Roma, cinque rischiano il processo
+  publisher: ANSA
+  published: '2026-07-22'
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 218
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/harvest-trial
+  source_file: factory/corpus/pool/f9c84c835f94.md
+- url: https://www.cnr.it/it/comunicato-stampa/14516
+  title: La materia quantistica suona come una sirena
+  publisher: CNR
+  published: '2026-07-17'
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 543
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/2083681cf487.md
+- url: https://www.cnr.it/it/comunicato-stampa/14519/scoperto-il-checkpoint-molecolare-che-guida-la-maturazione-delle-proteine
+  title: Scoperto il checkpoint molecolare che guida la maturazione delle proteine
+  publisher: CNR
+  published: '2026-07-20'
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 562
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/b11c75599ae7.md
+- url: https://www.comune.bergamo.it/notizie/variazione-orario-sportelli-durante-le-festivit%C3%A0
+  title: Variazione orario sportelli durante le festività
+  publisher: Comune di Bergamo
+  published: '2025-12-19'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words: 36
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/harvest-trial
+  source_file: factory/corpus/pool/b53a6ed7fd8b.md
+- url: https://www.comune.bolzano.bz.it/Vivere-il-comune/Luoghi/Biblioteca-Civica-C.-Battisti
+  title: Biblioteca civica Cesare Battisti, Bolzano — orario estivo
+  publisher: Comune di Bolzano
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 68
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/57b593bc3610.md
+- url: https://www.comune.genova.it/novita/avvisi/urp-avviso-al-pubblico
+  title: URP - Avviso al pubblico
+  publisher: Comune di Genova
+  published: '2026-07-21'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words: 75
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/harvest-trial
+  source_file: factory/corpus/pool/2748ae5bd5ce.md
+- url: https://www.comune.modena.it/novita/notizie/2026/biblioteche-gli-orari-nei-mesi-di-luglio-e-agosto
+  title: Biblioteche, gli orari nei mesi di luglio e agosto
+  publisher: Comune di Modena
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 124
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/harvest-trial
+  source_file: factory/corpus/pool/5a97ee2f4251.md
+- url: https://www.comune.napoli.it/vivere-il-comune/luoghi/biblioteca-guido-dorso/
+  title: Biblioteca Guido Dorso
+  publisher: Comune di Napoli
+  published: '2026-05-20'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 65
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/harvest-trial
+  source_file: factory/corpus/pool/8ee24150255b.md
+- url: https://www.comune.perugia.it/biblioteche-perugia-orario-apertura/
+  title: Biblioteche comunali di Perugia — orario estivo
+  publisher: Comune di Perugia
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 79
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/d1a832441932.md
+- url: https://www.comune.piacenza.it/it/news/tornano-gli-orari-estivi-delle-biblioteche-del-comune-di-piacenza
+  title: Biblioteca Passerini-Landi, Piacenza — orario estivo
+  publisher: Comune di Piacenza
+  published: '2026-06-29'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 71
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/666104fb9b77.md
+- url: https://www.comune.trento.it/Novita/Notizie/Biblioteca-dal-10-giugno-2026-in-vigore-l-orario-estivo-in-tutte-le-sedi
+  title: Biblioteca comunale di Trento — orario estivo
+  publisher: Comune di Trento
+  published: '2026-06-05'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 77
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/8336a51be8f5.md
+- url: https://www.dissapore.com/ristoranti/come-cambiano-le-osterie-italiane/
+  title: Come cambiano le osterie italiane?
+  publisher: Dissapore
+  published: '2025-10-21'
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 556
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/56a328e8e4ea.md
+- url: https://www.dissapore.com/ristoranti/nei-panni-degli-chef-voi-come-vivreste-se-il-vostro-lavoro-venisse-giudicato-ogni-giorno/
+  title: 'Nei panni degli chef: voi come vivreste se il vostro lavoro venisse giudicato
+    ogni giorno?'
+  publisher: Dissapore
+  published: '2026-05-04'
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 633
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/dd216e8f6135.md
+- url: https://www.doppiozero.com/brian-dillon-e-larte-del-saggio-perfetto
+  title: Brian Dillon e l'arte del saggio perfetto
+  publisher: Doppiozero (Mario Barenghi)
+  published: '2023-03-02'
+  fetched: '2026-07-23'
+  genre: opinion_essay
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 564
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/harvest-trial
+  source_file: factory/corpus/pool/89fbfa17fc17.md
+- url: https://www.doppiozero.com/materiali/insegnare-luniversita-in-forma-di-saggio
+  title: 'Insegnare: l''università in forma di saggio'
+  publisher: Doppiozero (Bruno Cartosio)
+  published: '2019-02-12'
+  fetched: '2026-07-23'
+  genre: opinion_essay
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 613
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/harvest-trial
+  source_file: factory/corpus/pool/c1d791f68087.md
+- url: https://www.doppiozero.com/possiamo-fare-meno-delle-monografie
+  title: Possiamo fare a meno delle monografie?
+  publisher: Doppiozero (Vanni Codeluppi)
+  published: '2017-11-22'
+  fetched: '2026-07-23'
+  genre: opinion_essay
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 651
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/harvest-trial
+  source_file: factory/corpus/pool/509af7ef2ebf.md
+- url: https://www.fanpage.it/innovazione/scienze/3i-atlas-avi-loeb-la-nasa-sbaglia-accelerazione-non-gravitazionale-diversa-dai-loro-calcoli/
+  title: '3I/ATLAS, Avi Loeb: la Nasa sbaglia, l''accelerazione non gravitazionale
+    è diversa dai loro calcoli'
+  publisher: Fanpage.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - C1
+  words: 655
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/f1f9fa9b397a.md
+- url: https://www.fanpage.it/innovazione/scienze/enorme-deposito-doro-scoperto-sul-fondale-del-giappone-concentrazioni-elevatissime-lo-studio-su-scientific-reports/
+  title: Enorme deposito d'oro scoperto sul fondale del Giappone
+  publisher: Fanpage.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 579
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/aca4068a42b5.md
+- url: https://www.focus.it/scienza/scienze/anatomia-di-un-chicco-di-grandine-come-nascono-i-mostri-di-ghiaccio-che-devastano-le-nostre-citta
+  title: 'Come si forma la grandine: la fisica dei chicchi e la crescita umida e secca'
+  publisher: Focus.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 594
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/4a57246f93da.md
+- url: https://www.focus.it/scienza/scienze/milano-cortina-2026-la-scienza-segreta-dietro-il-ruggito-del-curling-alle-olimpiadi-invernali
+  title: 'Milano-Cortina 2026: la scienza segreta dietro al fascino del curling alle
+    Olimpiadi invernali'
+  publisher: Focus.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 506
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/d06ba84a5859.md
+- url: https://www.focusjunior.it/animali/5-cose-fondamentali-da-sapere-sugli-animali/
+  title: 5 cose fondamentali da sapere sugli animali
+  publisher: FocusJunior.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_easy
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 241
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial
+  source_file: factory/corpus/pool/c4428aaa6d61.md
+- url: https://www.focusjunior.it/animali/delfini-10-curiosita-che-forse-non-sapevi/
+  title: 'Delfini: 10 curiosità che (forse) non sapevi'
+  publisher: FocusJunior.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_easy
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 249
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial
+  source_file: factory/corpus/pool/b4441da2818e.md
+- url: https://www.focusjunior.it/news/animali-giraffe-sanno-fare-addizioni-studio/
+  title: Le giraffe sanno fare le addizioni, lo dice la scienza
+  publisher: FocusJunior.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_easy
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 518
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/60d3a24f1e64.md
+- url: https://www.focusjunior.it/scuola/7-consigli-per-finire-velocemente-i-compiti-delle-vacanze-senza-farli-sbagliati/
+  title: 7 consigli per finire velocemente i compiti delle vacanze (senza farli sbagliati!)
+  publisher: FocusJunior.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_easy
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 423
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/f6cb338ccb0d.md
+- url: https://www.gamberorosso.it/notizie/attualita/dopo-lomologazione-il-wine-bar-che-vorremmo-nel-2026/
+  title: 'Dopo l''omologazione: il wine bar che vorremmo nel 2026'
+  publisher: Gambero Rosso
+  published: null
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 482
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/6e4cc97dd290.md
+- url: https://www.gamberorosso.it/notizie/vino/vinitaly-2026-migliori-vini-degustati-10-etichette/
+  title: I dieci vini imperdibili assaggiati a Vinitaly 2026
+  publisher: Gambero Rosso
+  published: null
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: C1
+  usable_levels:
+  - C1
+  words: 685
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/3829840c7c75.md
+- url: https://www.media.inaf.it/2026/02/25/allineamento-pianeti-febbraio-2026/
+  title: Pianeti come un filo di perle
+  publisher: Media INAF (Albino Carbognani)
+  published: '2026-02-25'
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 555
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/harvest-trial
+  source_file: factory/corpus/pool/69d451152a03.md
+- url: https://www.media.inaf.it/2026/07/03/tredici-minuti-dopo-il-grb/
+  title: Tredici minuti dopo il lampo gamma
+  publisher: Media INAF (Valentina Guglielmo)
+  published: '2026-07-03'
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 515
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/harvest-trial
+  source_file: factory/corpus/pool/2f253ce997bd.md
+- url: https://www.media.inaf.it/2026/07/09/vicino-e-velocissimo-il-flyby-dellasteroide-torifune/
+  title: Vicino e velocissimo il flyby dell'asteroide Torifune
+  publisher: Media INAF
+  published: '2026-07-09'
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 595
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/harvest-trial
+  source_file: factory/corpus/pool/63a8e6ddeb3e.md
+- url: https://www.subito.it/arredamento-casalinghi/armadio-con-2-ante-specchio-e-3-con-sportelli-livorno-655035944.htm
+  title: Armadio con 2 ante specchio e 3 con sportelli
+  publisher: Subito.it
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 58
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/b7d2dc67ddc7.md
+- url: https://www.subito.it/arredamento-casalinghi/tavolo-in-legno-massello-con-6-sedie-udine-653661453.htm
+  title: Tavolo in legno massello con 6 sedie
+  publisher: Subito.it
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 104
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/f1d4c38c9838.md
+- url: https://www.today.it/animali/cani-che-vanno-d-accordo-con-gatti.html
+  title: Cani che vanno d'accordo con i gatti, sfatando ogni mito
+  publisher: Today.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 525
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/0672645abda0.md
+- url: https://www.today.it/attualita/ponti-2026.html
+  title: 'Tutti i ponti del 2026: il calendario completo'
+  publisher: Today.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 177
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/harvest-trial
+  source_file: factory/corpus/pool/4a6c11ddaf83.md
+- url: https://www.today.it/meteo/quando-torna-caldo-3-4-5-luglio-2026.html
+  title: Quando e dove torna il caldo rovente, di nuovo
+  publisher: Today.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 421
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/2b6780cda7df.md
