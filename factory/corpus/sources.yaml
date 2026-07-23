@@ -6,6 +6,7 @@ rules:
   paywalled_full_texts: forbidden          # if a fetch hits a paywall wall, drop the candidate
   invented_text: forbidden                 # every sentence must originate in the fetched page (trims/simplifications allowed per level)
   recency: "cronaca/blog: prefer < 12 months old; realia/letteratura: any age"
+  fetch_integrity: "WebFetch may silently translate/summarize to English — demand ORIGINAL Italian verbatim and verify the body is Italian; on HTTP 403 / empty stub / translated output, refetch the SAME url via reader-proxy https://r.jina.ai/<url> or curl with a browser User-Agent before dropping the candidate"
   # words per SINGLE reading text (linee guida give totals per test; dic-2024 samples confirm)
   length_bands_words:
     A1: {main: [60, 150], micro: [15, 50]}     # annunci/messaggi are micro-texts
@@ -26,14 +27,14 @@ sources:
     - {site: ansa.it, note: "agenzia, testi brevi e fattuali — ottimi B1/B2; no paywall"}
     - {site: rainews.it, note: "cronaca nazionale, linguaggio standard"}
     - {site: ilpost.it, note: "approfondimenti B2/C1; alcuni articoli riservati — usare i liberi"}
-    - {site: today.it, note: "cronaca locale semplice, utile A2/B1"}
-    - {site: fanpage.it, note: "cronaca/costume, B1/B2"}
+    - {site: today.it, note: "cronaca locale semplice, utile A2/B1; WebFetch 403 — usare reader-proxy r.jina.ai o curl UA"}
+    - {site: fanpage.it, note: "cronaca/costume, B1/B2; WebFetch 403 — usare reader-proxy r.jina.ai o curl UA"}
   news_easy:
-    - {site: focusjunior.it, note: "divulgazione per ragazzi — sintassi semplice, A2/B1"}
-    - {site: italianofacile.news, note: "se raggiungibile; verificare autenticità"}
+    - {site: focusjunior.it, note: "divulgazione per ragazzi — sintassi semplice, A2/B1; WebFetch 403 — usare reader-proxy r.jina.ai o curl UA"}
+    # italianofacile.news: IRRAGGIUNGIBILE 2026-07 (DNS/socket fail) — non usare
   culture_science:
-    - {site: focus.it, note: "divulgazione scientifica B2/C1"}
-    - {site: wired.it, note: "tecnologia/società B2/C1; verificare accesso"}
+    - {site: focus.it, note: "divulgazione scientifica B2/C1; WebFetch 403 — usare reader-proxy r.jina.ai o curl UA"}
+    # wired.it: DISMESSO 2026-06-30 (Condé Nast ha chiuso l'edizione web) — non usare
     - {site: nationalgeographic.it, note: "ambiente/viaggi B2/C1"}
     - {site: media.inaf.it, note: "astrofisica INAF — divulgazione scientifica B2/C1"}
     - {site: cnr.it, note: "comunicati di ricerca CNR — B2/C1"}
@@ -50,7 +51,7 @@ sources:
     - {site: "comune.<città>.it (torino, modena, parma, genova, roma, firenze, venezia, como, ravenna…)", note: "avvisi/servizi/comunicati comunali — regolativo A2/B1"}
     - {site: "biblioteche comunali (bibliotecasalaborsa.it, biblioteche.comune.verona.it)", note: "orari/servizi/prestito — realia A2/B1"}
     - {site: "musei e cultura (beniculturali.it, uffizi.it, museiincomuneroma.it, cultura.gov.it, italia.it, visittrentino.info)", note: "orari/biglietti/eventi culturali A2/B1"}
-    - {site: subito.it, note: "annunci (case, lavoro, usato) — micro-testi A1/A2; anonimizzare i contatti"}
+    - {site: subito.it, note: "annunci (case, lavoro, usato) — micro-testi A1/A2; anonimizzare i contatti; WebFetch 403 sulle liste — usare reader-proxy r.jina.ai o curl UA"}
     - {site: eventbrite.it / siti di sagre e festival, note: "programmi di eventi A2/B1"}
   blogs_lifestyle:
     - {site: dissapore.com, note: "cibo/costume B1/B2"}
@@ -59,7 +60,7 @@ sources:
     - {site: camminiditalia.org, note: "racconti di cammini/trekking — B1/B2"}
     - {site: bimbieviaggi.it, note: "viaggi in famiglia — B1/B2"}
     - {site: mountainblog.it, note: "montagna/outdoor — B1/B2"}
-    - {site: gamberorosso.it, note: "cibo/gastronomia — B1/B2"}
+    - {site: gamberorosso.it, note: "cibo/gastronomia — B1/B2; WebFetch 403 — usare reader-proxy r.jina.ai o curl UA"}
 
 levels:
   A1:
