@@ -1,0 +1,4844 @@
+generated_by: scripts/build_used_index.py
+note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
+  not edit by hand — regenerate.
+unique_sources: 372
+sources:
+- url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
+  title: Bruschetta al pomodoro fresco
+  publisher: GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L3.1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L3.1
+    words: 1
+    status: published
+- url: https://camminiditalia.org/oltre-la-comfort-zone-vi-racconto-la-mia-via-degli-dei/
+  title: Oltre la comfort zone — Vi racconto la mia Via degli Dei
+  publisher: Cammini d'Italia
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+- url: https://unduetresiviaggia.it/da-informatico-a-travel-blogger-storytime/
+  title: Da informatico a travel blogger — storytime
+  publisher: Un due tre si viaggia
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 1
+    status: published
+- url: https://www.ansa.it/campania/notizie/2026/04/07/a-22-anni-rinuncia-alla-laurea-per-il-sogno-di-pasticciera_8831b282-a25c-442d-9df2-fe8e9577d242.html
+  title: A 22 anni rinuncia alla laurea per il sogno di pasticciera
+  publisher: ANSA (Campania)
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 1
+    status: published
+- url: https://www.ansa.it/campania/notizie/2026/07/07/a-napoli-il-rifugio-climatico-culturale-con-laboratori-e-letture_15589e2c-0a7c-4d1d-b850-52b07278e34d.html
+  title: A Napoli il «rifugio climatico culturale» con laboratori e letture
+  publisher: ANSA (Campania)
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/03/02/perche-il-cervello-non-resiste-agli-snack-anche-se-lo-stomaco-e-pieno_f4591d0c-e331-48f3-8101-f29ce67f5e12.html
+  title: Perché il cervello non resiste agli snack anche se lo stomaco è pieno
+  publisher: ANSA Scienza
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 220
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/07/08/la-musica-piace-gia-a-tre-mesi-ma-solo-a-un-anno-ci-si-muove-a-ritmo_4a5920aa-aafe-4796-850c-d9f67ad39e16.html
+  title: La musica piace già a 3 mesi, ma solo a 1 anno ci si muove a ritmo
+  publisher: ANSA Scienza
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 1
+    status: published
+- url: https://www.ansa.it/donne/notizie/2026/03/26/linda-calistri-la-piu-giovane-pilota-di-linea-una-passione-nata-tutta_009cd181-6cf5-4e67-a4d4-009845b66762.html
+  title: 'Linda Calistri, la più giovane pilota di linea: una passione nata tutta
+    in famiglia'
+  publisher: ANSA Donne
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 1
+    status: published
+- url: https://www.ansa.it/sito/notizie/cronaca/2026/01/26/nato-a-parigi-vive-a-brescia-e-un-cucciolo-di-maine-coon-il-gatto-piu-bello_32f749a4-1857-44df-968e-1ba983fd6622.html
+  title: È un cucciolo di Maine Coon il gatto più bello del mondo
+  publisher: ANSA (Cronaca)
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 1
+    status: published
+- url: https://www.ansa.it/toscana/notizie/2025/05/26/fratello-e-sorella-gemelli-festeggiano-100-anni-a-bagno-a-ripoli_89be1366-ef3d-4b1a-b088-5504b004084e.html
+  title: 'Spengono duecento candeline in due: la festa di Paola e Paolo, due gemelli
+    di 100 anni'
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L1
+    words: 1
+    status: published
+- url: https://www.bibliotecasalaborsa.it/
+  title: Biblioteca Salaborsa — presentazione
+  publisher: Biblioteca Salaborsa (Bologna)
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 1
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/prestito
+  title: Prendere in prestito
+  publisher: Biblioteca Salaborsa, Bologna
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L2
+    words: 1
+    status: published
+- url: https://www.bibliotecasalaborsa.it/events/salaborsa_dal_1_luglio
+  title: Avviso servizi studio e prestito
+  publisher: Biblioteca Salaborsa (Bologna)
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.bibliotecasalaborsa.it/ragazzi/news/estate-2026-gli-orari-di-salaborsa-ragazzi
+  title: Estate 2026 | Gli orari di Salaborsa Ragazzi
+  publisher: Biblioteca Salaborsa Ragazzi, Bologna
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L3.4
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L3.4
+    words: 1
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/bologna-estate-colora-la-citta
+  title: Bologna Estate colora la città
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/lestate-non-ferma-le-attivita-ragazze-e-ragazzi-di-bologna-arriva-il-maxi-calendario-dei-centri
+  title: 'L''estate non ferma le attività per ragazze e ragazzi di Bologna: arriva
+    il maxi-calendario dei centri Cresco'
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: S3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: S3
+    words: 1
+    status: published
+- url: https://www.comune.torino.it/novita/comunicati/estate-torino-programmazione-2026-nei-punti-estivi-della-citta-aperture-delle
+  title: Estate a Torino, la programmazione 2026 nei Punti estivi della Città e le
+    aperture delle piscine comunali
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L3.5
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L3.5
+    words: 1
+    status: published
+- url: https://www.comune.torino.it/schede-informative/consegna-farmaci-domicilio
+  title: Consegna farmaci a domicilio
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L3.6
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L3.6
+    words: 1
+    status: published
+- url: https://www.comune.torino.it/vivere-comune/luoghi/mercato-repubblicaporta-palazzo
+  title: Mercato Repubblica/Porta Palazzo
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: S1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: S1
+    words: 1
+    status: published
+- url: https://www.doppiozero.com/fare-silenzio
+  title: Fare silenzio
+  publisher: Doppiozero
+  genre: opinion_essay
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 260
+    status: published
+- url: https://www.ilpost.it/2022/08/14/gelati-pericolosi/
+  title: Quando i gelati erano pericolosi
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 250
+    status: published
+- url: https://www.ilpost.it/2026/05/22/dodo-aspetto-estinzione/
+  title: Da quattro secoli pensiamo ai dodo nel modo sbagliato
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 555
+    status: published
+- url: https://www.legambientelombardia.it/torna-il-concorso-fotografico-gratuito-il-mio-giardino-biodiverso-con-ledizione-2026-questo-giardino-non-e-un-hotel-o-forse-si/
+  title: Concorso fotografico «Il mio giardino biodiverso» — edizione 2026
+  publisher: Legambiente Lombardia
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 1
+    status: published
+- url: https://www.media.enea.it/comunicati-e-news/archivio-anni/anno-2026/economia-circolare-italia-leader-in-europa-ma-ancora-troppo-dipendente-dalle-importazioni-di-materiali.html
+  title: 'Economia circolare: Italia leader in Europa, ma ancora troppo dipendente
+    dalle importazioni di materiali'
+  publisher: ENEA media / Circular Economy Network
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 1
+    status: published
+- url: https://www.mercatodelleerbe.eu/
+  title: Avviso chiusure estive
+  publisher: Mercato delle Erbe (Bologna)
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 4
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: '2026-07-08'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 1
+    status: published
+- url: https://www.museiincomuneroma.it/it/didattica/notturno-con-la-scienza-0
+  title: Notturno con la scienza
+  publisher: Musei in Comune Roma
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.museiincomuneroma.it/it/infopage/museo-civico-di-zoologia
+  title: Museo Civico di Zoologia — orari e biglietti
+  publisher: Musei in Comune Roma
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 1
+    status: published
+- url: https://www.museiincomuneroma.it/it/notizie/domenica-1-febbraio-2026-ingresso-gratuito-nei-musei-civici-e-siti-archeologici-di-roma
+  title: Domenica 1° febbraio 2026 ingresso gratuito nei musei civici e siti archeologici
+    di Roma
+  publisher: Musei in Comune Roma
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L3.3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L3.3
+    words: 1
+    status: published
+- url: https://www.portaledeigiovani.it/scheda/volontari-da-impiegare-progetti-di-servizio-civile-universale
+  title: Bando di Servizio Civile Universale — scadenza prorogata
+  publisher: Portale dei Giovani / Eurodesk Italy
+  genre: off-whitelist
+  first_used: '2026-07-08'
+  times_used: 3
+  uses:
+  - date: '2026-07-08'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: null
+    status: published
+  - date: '2026-07-08'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 1
+    status: published
+- url: https://www.trenitalia.com/it/informazioni.html
+  title: Avviso trasporto biciclette
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.trenitalia.com/it/offerte/promo-italia-in-tour.html
+  title: Italia in Tour — 3 giorni di viaggio a 35€
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: L3.2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: L3.2
+    words: 1
+    status: published
+- url: https://www.trenitalia.com/it/servizi/trasporto-animali-domestici.html
+  title: Viaggia in treno con il tuo animale domestico
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.viaggiapiccoli.com/cosa-vedere-a-palermo-in-un-giorno/
+  title: 'Cosa vedere a Palermo in un giorno: itinerario a piedi tra mercati, chiese
+    e profumi'
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.viaggiapiccoli.com/gita-in-camper-nellappenino-emiliano/
+  title: Gita in camper nell'Appenino Emiliano
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 1
+    status: published
+- url: https://www.viaggiapiccoli.com/la-fattoria-bosco-verde-a-civitella-di-romagna/
+  title: 'La Fattoria Bosco Verde a Civitella: nel cuore delle colline romagnole'
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A2
+    prova: S2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A2
+    prova: S2
+    words: 1
+    status: published
+- url: https://www.viaggiapiccoli.com/panchina-gigante-lago-di-garda-san-felice-del-benaco/
+  title: La panchina gigante del Lago di Garda
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-08'
+  times_used: 2
+  uses:
+  - date: '2026-07-08'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: null
+    status: published
+  - date: 2026-07-08-r2
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 1
+    status: published
+- url: https://www.comune.bologna.it/amministrazione/concorsi-avvisi-bandi/avvisi-pubblici/contributi-progetti-di-promozione-culturale-anno-2026
+  title: Contributi per progetti di promozione culturale - Anno 2026
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: 2026-07-08-r2
+  times_used: 2
+  uses:
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 547
+    status: published
+  - date: 2026-07-08-r2
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 134
+    status: published
+- url: https://blog.giallozafferano.it/asilannablu/insalata-di-riso-guida-completa/
+  title: 'Insalata di riso: la guida completa'
+  publisher: La Cucina di Asi — blog GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 94
+    status: published
+- url: https://blog.giallozafferano.it/piovonoricette/ricetta-insalata-di-riso-classica/
+  title: Insalata di riso classica — introduzione e consigli
+  publisher: Piovono Ricette — blog GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 84
+    status: published
+- url: https://camminiditalia.org/cammino-di-oropa-in-solitaria/
+  title: 'Cammino di Oropa in solitaria: il diario di Silvia tra vesciche e meraviglia'
+  publisher: Cammini d'Italia
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 252
+    status: published
+- url: https://camminiditalia.org/grande-traversata-elbana/
+  title: Il cammino di Irene e Luca nel cuore selvaggio dell'isola d'Elba
+  publisher: Cammini d'Italia
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 350
+    status: published
+- url: https://it.wikisource.org/wiki/Il_treno_ha_fischiato
+  title: Il treno ha fischiato (Novelle per un anno)
+  publisher: Luigi Pirandello — Wikisource (pubblico dominio)
+  genre: literature_public_domain
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 588
+    status: published
+- url: https://it.wikisource.org/wiki/Novelle_rusticane/La_roba
+  title: La roba (Novelle rusticane)
+  publisher: Giovanni Verga — Wikisource (pubblico dominio)
+  genre: literature_public_domain
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 424
+    status: published
+- url: https://it.wikisource.org/wiki/Vita_dei_campi/Cavalleria_rusticana
+  title: Cavalleria rusticana (Vita dei campi)
+  publisher: Giovanni Verga — Wikisource (pubblico dominio)
+  genre: literature_public_domain
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 254
+    status: published
+- url: https://museireali.beniculturali.it/organizza-la-tua-visita/
+  title: Musei Reali di Torino — Organizza la tua visita
+  publisher: Musei Reali Torino — Ministero della Cultura
+  genre: practical_realia
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 115
+    status: published
+- url: https://wiki.wikimedia.it/wiki/Wiki_Loves_Monuments/2025/Regolamento
+  title: Wiki Loves Monuments Italia — Regolamento
+  publisher: Wikimedia Italia
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 435
+    status: published
+- url: https://www.ansa.it/basilicata/notizie/2026/07/08/a-policoro-una-domenica-di-festa-per-la-bandiera-blu-2026_794ea67b-e337-4d2e-a63d-988e5b405c58.html
+  title: A Policoro una domenica di festa per la Bandiera blu 2026
+  publisher: ANSA Basilicata
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 97
+    status: published
+- url: https://www.ansa.it/campania/notizie/2026/05/22/a-napoli-il-museo-dellombrello-artigianale-da-eduardo-a-re-carlo-iii_555ca021-4ed4-4eb2-8483-d657203e4dc1.html
+  title: A Napoli il Museo dell'ombrello artigianale, da Eduardo a Re Carlo III
+  publisher: ANSA Campania
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 233
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/07/06/le-risate-spontanee-e-quelle-volontarie-nascono-in-zone-diverse-del-cervello_4a521a21-6a9c-4a79-ac1d-62a062213c18.html
+  title: Le risate spontanee e quelle volontarie nascono in zone diverse del cervello
+  publisher: ANSA Scienza
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 259
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/terra_poli/2026/07/08/scoperte-73-caldere-nei-fondali-degli-oceani_24216fac-d765-4aae-addb-6868a914334e.html
+  title: Scoperte 73 caldere nei fondali degli oceani
+  publisher: ANSA Scienza
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 233
+    status: published
+- url: https://www.ansa.it/canale_terraegusto/notizie/regioni/campania/2026/07/08/la-cipolla-di-vatolla-protagonista-della-festa-nel-cilento_1caeae7c-e616-4927-a00b-70a860f08956.html
+  title: La cipolla di Vatolla protagonista della festa nel Cilento
+  publisher: ANSA — Terra e Gusto
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 180
+    status: published
+- url: https://www.ansa.it/valledaosta/notizie/2026/07/02/le-marmotte-non-dormono-12-appuntamenti-per-lestate-valdostana_99ec6b1f-0055-420e-8622-b40088b6065d.html
+  title: '''Le marmotte non dormono'', 12 appuntamenti per l''estate valdostana'
+  publisher: ANSA Valle d'Aosta
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 173
+    status: published
+- url: https://www.ansa.it/valledaosta/notizie/2026/07/08/torna-ad-aosta-sotto-i-ponti-storie-appartate-sotto-lo-scorrere-del-tempo_6276e694-bea2-454f-b1ab-1cc1a28d46d5.html
+  title: Torna ad Aosta 'Sotto i ponti - Storie appartate sotto lo scorrere del tempo'
+  publisher: ANSA Valle d'Aosta
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 218
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/05-01-introduzione-generale-ai-servizi
+  title: Carta dei servizi — Introduzione generale ai servizi
+  publisher: Biblioteca Salaborsa / Biblioteche del Comune di Bologna
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 300
+    status: published
+- url: https://www.bibliotecasalaborsa.it/events/le_novit_del_prestito
+  title: Le novità del prestito (estate)
+  publisher: Biblioteca Salaborsa (Bologna)
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 33
+    status: published
+- url: https://www.comune.torino.it/servizi/richiedere-carta-identita
+  title: Richiedere la carta di identità — scheda del servizio
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 140
+    status: published
+- url: https://www.comune.torino.it/vivere-comune/luoghi/parco-valentino-0
+  title: Parco del Valentino — scheda del luogo
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 95
+    status: published
+- url: https://www.dissapore.com/cucina/il-lavoro-di-cuoco-cristina-bowerman-spiega/
+  title: 'Come diventare grandi chef: intervista a Cristina Bowerman'
+  publisher: Dissapore
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 202
+    status: published
+- url: https://www.dissapore.com/ristoranti/intervista-a-valerio-braschi-lunico-masterchef-che-ce-lha-fatta/
+  title: Intervista a Valerio Braschi, l'unico Masterchef che ce l'ha fatta
+  publisher: Dissapore
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 2
+  uses:
+  - date: '2026-07-09'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 473
+    status: published
+  - date: '2026-07-10'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 244
+    status: published
+- url: https://www.dissapore.com/ristoranti/jessica-rosval-e-davide-guidara-due-fuoriclasse-della-nuova-generazione-gastronomica/
+  title: 'Jessica Rosval e Davide Guidara: due fuoriclasse della nuova generazione
+    gastronomica'
+  publisher: Dissapore
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 242
+    status: published
+- url: https://www.doppiozero.com/peter-thiel-tecnoteologo-della-silicon-valley
+  title: Peter Thiel, tecnoteologo della Silicon Valley
+  publisher: Doppiozero
+  genre: opinion_essay
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 291
+    status: published
+- url: https://www.ilpost.it/2023/08/31/cinghiali-radioattivi/
+  title: Non c'entra solo Chernobyl con i cinghiali radioattivi
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 481
+    status: published
+- url: https://www.mercatocentrale.it/torino/
+  title: Mercato Centrale Torino — presentazione
+  publisher: Mercato Centrale
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 109
+    status: published
+- url: https://www.milanosport.it/istituzionali/orari-norme/
+  title: Avviso chiusura piscina Cambini Fossati
+  publisher: Milanosport (Comune di Milano)
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 31
+    status: published
+- url: https://www.scelgoilserviziocivile.gov.it/leggi-il-bando/
+  title: Bando Servizio Civile Universale 2026 — 947 operatori volontari
+  publisher: Dipartimento per le Politiche Giovanili e il Servizio Civile Universale
+  genre: off-whitelist
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 502
+    status: published
+- url: https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/la-sicurezza-deltuoviaggio.html
+  title: Il trasporto dei bagagli — la guida del viaggiatore
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 158
+    status: published
+- url: https://www.viaggiapiccoli.com/cosa-fare-torino-weekend-bambini/
+  title: Cosa fare a Torino questo weekend con i bambini (agenda 11-12 luglio)
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 121
+    status: published
+- url: https://www.viaggiapiccoli.com/gite-e-eventi-per-bambini-giugno/
+  title: Andersen Festival 2026 (annuncio)
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 2
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+  - date: '2026-07-09'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 25
+    status: published
+- url: https://www.viaggiapiccoli.com/ischia-con-i-bambini-un-week-end-a-forio/
+  title: 'Weekend a Forio con i bambini: il nostro viaggio a Ischia'
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 100
+    status: published
+- url: https://www.viaggiapiccoli.com/umbria-un-week-end-a-todi-a-misura-di-famiglia/
+  title: Weekend in Umbria con i bambini, partiamo da Todi
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-09'
+  times_used: 1
+  uses:
+  - date: '2026-07-09'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 92
+    status: published
+- url: https://aboutbologna.it/oltre-400-eventi-per-la-maggior-parte-gratuiti-parte-bologna-estate-2026-scopri-il-programma/
+  title: Oltre 400 eventi (per la maggior parte) gratuiti. Parte Bologna Estate 2026,
+    scopri il programma!
+  publisher: About Bologna
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 251
+    status: published
+- url: https://blog.giallozafferano.it/amicincucina/ricetta-pasta-al-pomodoro-e-basilico-ricetta-tradizionale-italiana/
+  title: Pasta al pomodoro e basilico — ricetta tradizionale italiana
+  publisher: Amici in cucina — blog GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 79
+    status: published
+- url: https://blog.giallozafferano.it/letortediziadebby/ricetta-pasta-fredda-super-saporita-e-facilissima/
+  title: Pasta fredda super saporita e facilissima
+  publisher: Le torte di Zia Debby — blog GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 171
+    status: published
+- url: https://blog.giallozafferano.it/valeriaciccotti/insalata-caprese/
+  title: Insalata Caprese — introduzione e origini
+  publisher: Valeria Ciccotti — blog GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 72
+    status: published
+- url: https://it.wikisource.org/wiki/La_giara_(Novella,_1928)
+  title: La giara (Novelle per un anno)
+  publisher: Luigi Pirandello — Wikisource
+  genre: literature_public_domain
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 253
+    status: published
+- url: https://it.wikisource.org/wiki/Racconti_sardi/Il_Padre
+  title: Il Padre (Racconti sardi)
+  publisher: Grazia Deledda — Wikisource
+  genre: literature_public_domain
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 431
+    status: published
+- url: https://portaleventi.it/evento/sagra-a-tre-stelle-a-gabbro
+  title: Sagra a Tre Stelle a Gabbro 2026
+  publisher: PortalEventi
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+- url: https://portaleventi.it/evento/sagra-del-raviolo-casalingo-a-borgo-fornari
+  title: Sagra del Raviolo Casalingo a Borgo Fornari 2026
+  publisher: PortalEventi
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 26
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/il-cuore-verde-ditalia-ma-non-solo-ecco-cosa-vedere-in-un-viaggio-di-4-giorni-in-umbria.html
+  title: 'Il cuore verde d''Italia: cosa vedere in un viaggio di 4 giorni in Umbria
+    (Civita di Bagnoregio)'
+  publisher: Turisti per Caso
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 255
+    status: published
+- url: https://www.ansa.it/canale_legalita_scuola/notizie/2026/04/13/calcolo-mentale-per-il-campione-aaryan-shukla-la-matematica-e-un-processo-non-fa-paura_edbbad9f-942e-409b-83f2-8eb80cb43834.html
+  title: Calcolo mentale, per il campione Aaryan Shukla 'la matematica è un processo,
+    non fa paura'
+  publisher: ANSA — Scuola
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 220
+    status: published
+- url: https://www.ansa.it/canale_lifestyle/notizie/design_giardino/2026/06/24/caldo-record-e-notti-insonni-otto-suggerimenti-anti-afa-oltre-laria_9a090408-7ee9-4f81-8209-16db7628dcf9.html
+  title: Caldo record e notti insonni, otto suggerimenti anti-afa oltre l'aria condizionata
+  publisher: ANSA — Lifestyle
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 124
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/natura/2026/07/06/i-delfini-delladriatico-sempre-piu-dipendenti-dai-pescherecci-per-il-cibo_83e40af5-1055-4ccf-9bd1-59f422b511ae.html
+  title: I delfini dell'Adriatico sempre più dipendenti dai pescherecci per il cibo
+  publisher: ANSA Scienza/Natura
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 255
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/07/09/il-pianeta-rosa-e-avvolto-da-nubi-di-sale-lo-ha-scoperto-il-telescopio-webb_637d1445-495e-4165-81d4-82969a7b6aa6.html
+  title: Il Pianeta Rosa è avvolto da nubi di sale, lo ha scoperto il telescopio Webb
+  publisher: ANSA Scienza & Tecnica
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 2
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 234
+    status: published
+  - date: '2026-07-13'
+    level: B2
+    prova: Strutture Prova 1 (cloze aggettivi e pronomi)
+    words: 246
+    status: published
+- url: https://www.ansa.it/sito/notizie/cronaca/2026/05/25/una-maxi-frittata-da-2.001-uova-paesino-del-molise-supera-un-nuovo_08471858-e247-4a74-9856-7ad0c620af51.html
+  title: Una maxi frittata da 2.001 uova, paesino del Molise supera un nuovo record
+  publisher: ANSA — Cronaca
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 240
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/libri/2026/06/20/bisceglie-diventa-la-prima-book-town-ditalia-al-via-10mila-libri-al-borgo_5b8262db-c03f-408a-92db-6bc14205ffb3.html
+  title: Bisceglie diventa la prima Book Town d'Italia, al via '10mila libri al borgo'
+  publisher: ANSA — Cultura/Libri
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 175
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/musica/2026/07/09/anna-io-come-ultimo-ho-successo-perche-uso-la-stessa-lingua-di-chi-mi-ascolta_27c22289-bc11-496a-82a7-de5382d2424a.html
+  title: 'ANNA: "Io come Ultimo ho successo perché uso la stessa lingua di chi mi
+    ascolta"'
+  publisher: ANSA — Cultura/Musica
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 443
+    status: published
+- url: https://www.ansa.it/veneto/notizie/2026/06/15/a-verona-un-bimbo-sale-da-solo-sul-treno-due-studenti-lo-aiutano-a-trovare_39f41697-1cc0-4544-9c90-898935ea57ba.html
+  title: A Verona un bimbo sale da solo sul treno, due studenti lo aiutano a trovare
+    la madre
+  publisher: ANSA — Veneto
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 192
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/da-oggi-riapre-bologna-il-parcheggio-pubblico-piazza-del-mercato-rionale-s-viola-si-chiamera
+  title: Riapre il parcheggio pubblico S. Viola
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 22
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/parchi-movimento-2026
+  title: Parchi in Movimento 2026
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 110
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/piazza-lucio-dalla-ospitera-il-mercato-di-campi-aperti-del-giovedi
+  title: Piazza Lucio Dalla ospiterà il mercato di Campi Aperti del giovedì
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 23
+    status: published
+- url: https://www.comune.genova.it/servizi/cultura-e-tempo-libero/edicola-e-biblioteca-digitali-online
+  title: Edicola e biblioteca digitali online
+  publisher: Comune di Genova
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 101
+    status: published
+- url: https://www.comune.roma.it/web/it/notizia/nuovo-sistema-tariffario-musei-monumenti.page
+  title: Nuovo sistema tariffario per i musei e i monumenti
+  publisher: Roma Capitale — Sito istituzionale
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 552
+    status: published
+- url: https://www.comune.roma.it/web/it/notizia/ztl-veicoli-elettrici-idrogeno-accesso-luglio-2026.page
+  title: ZTL veicoli elettrici o a idrogeno, le novità sull'accesso
+  publisher: Roma Capitale — Sito istituzionale
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 153
+    status: published
+- url: https://www.comune.sandonatomilanese.mi.it/novita/comunicati/orti-urbani-al-via-le-domande-per-lassegnazione
+  title: 'Orti urbani: al via le domande per l''assegnazione'
+  publisher: Comune di San Donato Milanese
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 320
+    status: published
+- url: https://www.comune.udine.it/Novita/Comunicati/La-nuova-app-per-avere-tutte-le-informazioni-sulla-raccolta-differenziata-a-portata-di-mano
+  title: La nuova app per avere tutte le informazioni sulla raccolta differenziata
+    a portata di mano
+  publisher: Comune di Udine
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 205
+    status: published
+- url: https://www.famigliatuttofareinviaggio.com/liguria-bambini-camogli-abbazia-san-fruttuoso/
+  title: 'Liguria con bambini: Camogli e Abbazia di San Fruttuoso'
+  publisher: Famiglia tuttofare in viaggio
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 100
+    status: published
+- url: https://www.ilpost.it/2026/02/27/camini-reggio-calabria-ripopolato-dai-migranti/
+  title: Il borgo calabrese ripopolato dai migranti
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 402
+    status: published
+- url: https://www.ilpost.it/2026/06/29/psicologia-fare-bagagli-vacanze/
+  title: Perché fare i bagagli ci mette in crisi
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 284
+    status: published
+- url: https://www.ilpost.it/2026/07/03/frodi-scientifiche-ricerca-cina-geng-hongwei/
+  title: In Cina uno youtuber è diventato un super vigilante delle frodi scientifiche
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 650
+    status: published
+- url: https://www.ilpost.it/2026/07/06/la-prima-cellula-sintetica-costruita-da-zero/
+  title: La prima cellula sintetica costruita da zero?
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 529
+    status: published
+- url: https://www.modellocurriculum.com/londra-bruxelles-maastricht-berlino-e-dresda-andrea-si-racconta.html
+  title: 'Londra, Bruxelles, Maastricht, Berlino e Dresda: Andrea si racconta'
+  publisher: Modello Curriculum
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 94
+    status: published
+- url: https://www.muse.it/
+  title: MUSE — Museo delle Scienze di Trento (orari)
+  publisher: MUSE — Museo delle Scienze di Trento
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 113
+    status: published
+- url: https://www.parconazionale5terre.it/cinque-terre-card.php
+  title: Cinque Terre Card 2026 — guida e regole d'uso
+  publisher: Parco Nazionale delle Cinque Terre
+  genre: off-whitelist
+  first_used: '2026-07-10'
+  times_used: 1
+  uses:
+  - date: '2026-07-10'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 493
+    status: published
+- url: https://alpinismofiorentino.caifirenze.it/2011/02/borghi-della-valdambra-di-pasquale-parcesepe/
+  title: Borghi della Valdambra (Pasquale Parcesepe)
+  publisher: Alpinismo Fiorentino — CAI Firenze
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A2
+    prova: Strutture — Prova n. 1 (cloze articoli e preposizioni semplici)
+    words: 128
+    status: published
+- url: https://amministrazionetrasparente.comune.firenze.it/system/files/2025-09/Istr%20amm%20bando%20definitivo_signed.pdf
+  title: Concorso pubblico a n. 55 posti di Istruttore Amministrativo — premessa,
+    Art. 1 e Art. 2
+  publisher: Comune di Firenze, Direzione Risorse Umane
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: strutture P4
+    words: 148
+    status: published
+- url: https://blog.giallozafferano.it/simona68/torta-di-mele-soffice/
+  title: Torta di Mele Soffice
+  publisher: GialloZafferano (blog)
+  genre: practical_realia
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A2
+    prova: Lettura — Prova n. 2 (vero/falso)
+    words: 176
+    status: published
+- url: https://blog.giallozafferano.it/valeriaciccotti/minestrone-di-verdure/
+  title: Minestrone di verdure — ricetta minestra di verdure facile
+  publisher: Valeria Ciccotti — blog GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 74
+    status: published
+- url: https://cultura.comune.fi.it/dalle-redazioni/leggere-come-mi-piace-luglio-2026
+  title: Leggere... come mi piace! — Luglio 2026 (Biblioteca delle Oblate)
+  publisher: Comune di Firenze — Cultura
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+- url: https://diariodiavventure.com/da-marciac-a-maubourguet/
+  title: Una piccola candela (trentanovesima tappa, da Marciac a Maubourguet)
+  publisher: Diario di Avventure — Nadia Meriggio
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B1
+    prova: lettura.prova3
+    words: 256
+    status: published
+- url: https://it.wikisource.org/wiki/Racconti_sardi/Di_Notte/I
+  title: Grazia Deledda, «Di Notte», in Racconti sardi, sezione I
+  publisher: it.wikisource.org
+  genre: literature_public_domain
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: lettura P3
+    words: 466
+    status: published
+- url: https://it.wikisource.org/wiki/Racconti_sardi/Il_Mago
+  title: Grazia Deledda, «Il Mago», in Racconti sardi
+  publisher: it.wikisource.org
+  genre: literature_public_domain
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: strutture P2
+    words: 233
+    status: published
+- url: https://liberta.it/event/sagra-della-rana-e-del-pesce/662
+  title: Sagra della rana e del pesce (Soarza, Villanova sull'Arda)
+  publisher: Libertà (quotidiano di Piacenza)
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 29
+    status: published
+- url: https://piscinacomunalemondovi.it/nuoto-libero/
+  title: Nuoto Libero — Piscina Comunale di Mondovì
+  publisher: Piscina Comunale di Mondovì
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 21
+    status: published
+- url: https://voitg.net/2026/06/grande-festa-per-lapertura-del-bocciodromo-comunale
+  title: Grande festa per l'apertura del bocciodromo comunale
+  publisher: Veneto Orientale Informazione (voitg.net)
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A2
+    prova: Lettura — Prova n. 1 (scelta multipla)
+    words: 189
+    status: published
+- url: https://www.ansa.it/canale_lifestyle/notizie/pets/2026/07/12/in-ecuador-gli-animali-domestici-fanno-da-testimoni-ai-matrimoni-_6b6a4c5b-fd1f-4a43-b2fc-61efb53b2d9b.html
+  title: In Ecuador gli animali domestici fanno da testimoni ai matrimoni
+  publisher: ANSA (Lifestyle / Pets)
+  genre: news_general
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B1
+    prova: strutture.prova1
+    words: 250
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/arte/2026/07/09/scavi-ercolano-dopo-30-anni-riapre-la-casa-del-mobilio-carbonizzato_91df8e91-8fa4-4d8d-bd23-04fbd1257a2c.html
+  title: Scavi Ercolano, dopo 30 anni riapre la Casa del mobilio carbonizzato
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: strutture P3
+    words: 205
+    status: published
+- url: https://www.ansa.it/umbria/notizie/2026/06/27/biblioteca-comunale-assisi-letture-estive-in-parchi-e-giardini-del-territorio_8f052a8e-d429-4473-87b7-f4fad1ad7c0f.html
+  title: Biblioteca comunale Assisi, letture estive in parchi e giardini del territorio
+  publisher: ANSA (Umbria)
+  genre: news_general
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B1
+    prova: strutture.prova3
+    words: 185
+    status: published
+- url: https://www.ballabionews.com/2026/07/01/a-ballabio-tornano-il-mercato-estivo-e-la-navetta-gratuita/
+  title: A Ballabio tornano il mercato estivo e la navetta gratuita
+  publisher: Ballabio News
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A2
+    prova: Strutture — Prova n. 3 (cloze lessicale MC)
+    words: 125
+    status: published
+- url: https://www.biblioteca-spinea.it/biblioteca/regolamenti/regolamento-biblioteca-comunale/
+  title: Regolamento della Biblioteca Comunale di Spinea — Titolo 3, I servizi al
+    pubblico
+  publisher: Comune di Spinea (VE)
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: lettura P2
+    words: 574
+    status: published
+- url: https://www.comune.bareggio.mi.it/vivere-il-comune/luoghi/parco-arcadia/
+  title: Parco Arcadia
+  publisher: Comune di Bareggio
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 110
+    status: published
+- url: https://www.comune.castiadas.su.it/it/news/bando-per-la-partecipazione-al-centro-estivo-anno-2026
+  title: Bando per la partecipazione al «Centro Estivo» – Anno 2026
+  publisher: Comune di Castiadas
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B2
+    prova: Lettura Prova 2 (vero/falso)
+    words: 452
+    status: published
+- url: https://www.comune.chioggia.ve.it/novita/torna-alberi-in-pianura-il-comune-di-chioggia-rinnova-ladesione-alliniziativa-di-veneto-agricoltura-al-via-le-prenotazioni-gratuite/
+  title: 'Torna «Alberi in Pianura»: il Comune di Chioggia rinnova l''adesione e apre
+    le prenotazioni gratuite'
+  publisher: Comune di Chioggia
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B2
+    prova: Strutture Prova 3 (cloze lessicale MC)
+    words: 205
+    status: published
+- url: https://www.comune.lecco.it/Novita/Notizie/Estate-a-Lecco-2026-il-calendario-degli-eventi-in-citta
+  title: Estate a Lecco 2026 — il calendario degli eventi in città
+  publisher: Comune di Lecco
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A2
+    prova: Lettura — Prova n. 3 (abbinamento, 6 micro-testi)
+    words: 144
+    status: published
+- url: https://www.ilpost.it/2026/06/06/archivio-articoli-giornale-online-chiude/
+  title: Che fine fanno gli articoli online quando un giornale chiude
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: lettura P1
+    words: 606
+    status: published
+- url: https://www.ilpost.it/ok-boomer/la-lotta-di-classe-climatica/
+  title: La lotta di classe climatica (rubrica Ok Boomer), Michele Serra
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: C1
+    prova: strutture P1
+    words: 262
+    status: published
+- url: https://www.marcogrippa.it/viaggio-in-galizia-cammino-dei-fari/
+  title: 'Cammino dei Fari, Galizia: fotografia e racconto di viaggio'
+  publisher: marcogrippa.it — Marco Grippa
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B2
+    prova: Lettura Prova 3 (ricostruzione, 11 parti)
+    words: 381
+    status: published
+- url: https://www.media.inaf.it/2026/06/30/galassia-andromeda-xxxvi/
+  title: Galassia quasi invisibile racconta l'alba dell'universo
+  publisher: Media INAF (notiziario dell'Istituto Nazionale di Astrofisica)
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B2
+    prova: Lettura Prova 1 (scelta multipla)
+    words: 484
+    status: published
+- url: https://www.murazzanophoto.it/
+  title: Regolamento — Concorso Fotografico "Vivere Murazzano – Il borgo che resta"
+    2026
+  publisher: Comune di Murazzano (CN) — murazzanophoto.it
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B1
+    prova: lettura.prova2
+    words: 321
+    status: published
+- url: https://www.musei.re.it/chi-siamo/orari-di-apertura/
+  title: Orari di apertura — Musei Civici di Reggio Emilia (Palazzo dei Musei)
+  publisher: Musei Civici di Reggio Emilia
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 114
+    status: published
+- url: https://www.paeseitaliapress.it/sport/2025/06/25/da-pilota-a-campione-paralimpico-la-storia-di-alex-mazzeo/
+  title: 'Da pilota a campione paralimpico: la storia di Alex Mazzeo'
+  publisher: Paese Italia Press (Valentina Chabert)
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B1
+    prova: lettura.prova1
+    words: 444
+    status: published
+- url: https://www.progettogiovani.pd.it/servizio-civile-universale-il-racconto-dei-protagonisti/
+  title: Servizio Civile Universale — il racconto dei protagonisti
+  publisher: Progetto Giovani — Comune di Padova
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A2
+    prova: Strutture — Prova n. 2 (cloze verbi)
+    words: 118
+    status: published
+- url: https://www.salepepe.it/news/piaceri/intervista-pietro-parisi-cuoco-contadino-la-sua-cucina-etica-riciclo-2/
+  title: Intervista a Pietro Parisi, il cuoco contadino e la sua cucina etica e di
+    riciclo
+  publisher: Sale&Pepe
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B1
+    prova: strutture.prova2
+    words: 225
+    status: published
+- url: https://www.turismovaltaro.it/comune-di-bardi/
+  title: Comune di Bardi (Fortezza-Castello di Bardi)
+  publisher: Turismo Valtaro
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 28
+    status: published
+- url: https://www.viaggiapiccoli.com/giro-del-lago-di-garda-in-battello-con-i-bambini/
+  title: Il giro del lago di Garda in battello con i bambini
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 78
+    status: published
+- url: https://www.viaggiapiccoli.com/il-parco-urbano-di-forli/
+  title: Il Parco Urbano di Forlì
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 76
+    status: published
+- url: https://www.viaggiatoridelgusto.it/storie-di-vino-e-di-olio-in-valsusa-coraggio-e-passione-di-giuliano-bosio/
+  title: 'Storie di vino e di olio in Valsusa: coraggio e passione di Giuliano Bosio'
+  publisher: Viaggiatori del Gusto
+  genre: off-whitelist
+  first_used: '2026-07-13'
+  times_used: 1
+  uses:
+  - date: '2026-07-13'
+    level: B2
+    prova: Strutture Prova 2 (cloze verbi)
+    words: 244
+    status: published
+- url: https://agenziagioventu.gov.it/faq-avviso-pubblico-polis/
+  title: FAQ Avviso Pubblico "POLIS
+  publisher: Agenzia Italiana per la Gioventù
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 494
+    status: published
+- url: https://blog.giallozafferano.it/mammaluisa/pasta-allarrabbiata/
+  title: Pasta all’arrabbiata
+  publisher: 'Le ricette di mamma Lù / GialloZafferano (whitelist: practical_realia)'
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 85
+    status: published
+- url: https://decentramento.comune.torino.it/circoscrizione2/vivere-circoscrizione/eventi/serata-giochi-quiz-giochi-squadre-risate
+  title: Serata giochi — Quiz, giochi a squadre & risate
+  publisher: 'Circoscrizione 2, Città di Torino (whitelist: comuni)'
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 28
+    status: published
+- url: https://decentramento.comune.torino.it/circoscrizione6/vivere-circoscrizione/eventi/respira-cammina-vivi
+  title: Respira, Cammina, Vivi
+  publisher: Città di Torino — Circoscrizione 6
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 187
+    status: published
+- url: https://it.wikisource.org/wiki/Una_giornata
+  title: Una giornata
+  publisher: Wikisource (testo di Luigi Pirandello, 1935)
+  genre: literature_public_domain
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 473
+    status: published
+- url: https://museonazionaleromano.it/attivita-educative/andiamo-al-museo/
+  title: AndiAMO al Museo da grandi
+  publisher: Museo Nazionale Romano
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 28
+    status: published
+- url: https://ricette.giallozafferano.it/Insalata-estiva-con-frutta-e-mozzarelline.html
+  title: Insalata estiva con frutta e mozzarelline
+  publisher: GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 152
+    status: published
+- url: https://servizi.comune.milano.it/documents/20121/363121948/AVVISO_PUBBLICO_premio_Milano_Donna_2026_timbrato.pdf/affcdaeb-eb68-baac-c8ec-dd63b5c9b129?t=1782413091284
+  title: Avviso pubblico Premio Milano Donna 2026
+  publisher: Comune di Milano, Municipio 4
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 143
+    status: published
+- url: https://shop.uffizi.it/info-biglietteria/
+  title: Sedie a rotelle e deambulatori
+  publisher: Le Gallerie degli Uffizi Shop
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 26
+    status: published
+- url: https://www.ansa.it/amp/sito/notizie/cultura/teatro/2026/06/30/felicitta-a-roma-il-2-luglio-per-scoprire-il-patrimonio-della-capitale_ad35bc73-eb32-4baa-8bb9-9a4c002361eb.html
+  title: Felicittà
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 25
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/06/24/perche-ii-cervello-ricorda-meglio-le-sorprese-_e70026c0-616b-4391-b6fb-d76e5185e820.html
+  title: Perché il cervello ricorda meglio le sorprese
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 255
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/spazio_astronomia/2026/03/24/risolto-grazie-un-mistero-stellare-vecchio-di-50-anni-_4f9a1834-ea1d-4843-acfc-888daf520b2d.html
+  title: Risolto un mistero stellare vecchio di 50 anni
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 237
+    status: published
+- url: https://www.ansa.it/marche/notizie/2026/07/07/a-offida-arriva-500-in-cinquecento-tra-fiat-500-e-storia-dei-frati_48151b16-10a5-49b0-8d2e-d8d405c4450a.html
+  title: A Offida arriva “500 in Cinquecento”, tra Fiat 500 e storia dei frati Cappuccini
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 213
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/tv/2026/07/11/stefano-bini-vi-porto-alla-scoperta-di-chicche-e-luoghi-inediti-in-tv_70960a79-e372-45fd-ae45-1db3fb917073.html
+  title: Stefano Bini, “vi porto alla scoperta di chicche e luoghi inediti in tv”
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 475
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/unlibroalgiorno/2026/06/28/karsaiova-racconta-il-recupero-delle-proprie-radici_eadb90b8-c63d-4047-b748-0e8a1929d3f4.html
+  title: Karsaiova racconta il recupero delle proprie radici
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 390
+    status: published
+- url: https://www.bimbieviaggi.it/weekend-a-napoli-con-bambini
+  title: 'Weekend a Napoli con bambini: viaggio e alloggio'
+  publisher: 'Bimbi e Viaggi (off-whitelist: blog di viaggio italiano autentico, gratuito
+    e direttamente accessibile; scelto per il raro racconto in prima persona con passato
+    prossimo)'
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 100
+    status: published
+- url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=69d7588634a5a6009a5a0c6a
+  title: Iscrizione ai Centri estivi 2026 — domanda fuori bando
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 130
+    status: published
+- url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=6a02eaa558e8490097e0637d
+  title: Bando migliorie MAG.-GIU 2026
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 558
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/bologna-estate-consiglia-8-0
+  title: 'Bologna Estate consiglia #8 — LookAp nel sottobosco'
+  publisher: 'Comune di Bologna (whitelist: comuni)'
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/fondo-di-comunita-radicalmente-adolescenti-al-la-seconda-edizione-del-progetto-che-finanzia-le-idee
+  title: Fondo di Comunità Radicalmente Adolescenti. Al via la seconda edizione del
+    progetto che finanzia le idee dei ragazzi e delle ragazze di Bologna tra gli 11
+    e i 20 anni
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 331
+    status: published
+- url: https://www.comune.bologna.it/novita/comunicati-stampa/nasce-la-lucioteca-punto-biblioteca-e-spazio-la-lettura-la-narrazione-e-la-produzione-culturale
+  title: Nasce la LucioTeca — orari e servizi
+  publisher: 'Comune di Bologna (whitelist: comuni; pagina di servizio culturale)'
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 85
+    status: published
+- url: https://www.comune.genova.it/novita/avvisi/manifestazioni-di-interesse-servizio-estivo-0-6-anni-2026
+  title: Manifestazioni di interesse per Servizio estivo 0-6 anni 2026
+  publisher: 'Comune di Genova (whitelist: comuni)'
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 32
+    status: published
+- url: https://www.comune.torino.it/vivere-comune/luoghi/casa-della-cultura
+  title: Casa della Cultura
+  publisher: 'Città di Torino (whitelist: comuni)'
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 100
+    status: published
+- url: https://www.doppiozero.com/emanuele-coccia-e-lamore-moderno
+  title: Emanuele Coccia e l’amore moderno
+  publisher: doppiozero
+  genre: opinion_essay
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 277
+    status: published
+- url: https://www.fanpage.it/sport/calcio/maurizio-ganz-non-ho-mai-scelto-per-soldi-rimpiango-quel-minuto-ma-sacchi-non-mi-face-entrare/
+  title: 'Maurizio Ganz: «Non ho mai scelto per soldi. Rimpiango quel minuto, ma Sacchi
+    non mi fece entrare»'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 254
+    status: published
+- url: https://www.focus.it/cultura/curiosita/il-mistero-del-buco-sotto-la-bottiglia-di-vino-ecco-perche-il-punt-sta-scomparendo
+  title: 'Il mistero del "buco" sotto la bottiglia di vino: ecco perché il punt sta
+    scomparendo'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 515
+    status: published
+- url: https://www.focusjunior.it/animali/il-polpo-non-ha-un-tentacolo-preferito-ogni-braccio-svolge-compiti-diversi/
+  title: 'Il polpo non ha un tentacolo preferito: ogni braccio svolge compiti diversi'
+  publisher: Focus Junior
+  genre: news_easy
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 245
+    status: published
+- url: https://www.mantovaducale.beniculturali.it/it/informazioni/biglietti-abbonamenti-e-riduzioni
+  title: Audioguida gratuita
+  publisher: Palazzo Ducale Mantova
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+- url: https://www.museiincomuneroma.it/it/informazioni_pratiche/orari_e_indirizzi
+  title: Informazioni pratiche — Museo delle Mura
+  publisher: 'Musei in Comune Roma (whitelist: siti di musei)'
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 121
+    status: published
+- url: https://www.museiincomuneroma.it/it/notizie/domenica-5-luglio-ingresso-gratuito-nei-musei-civici-e-nei-siti-archeologici-di-roma
+  title: Il 5 luglio ingresso gratuito nei musei civici e siti archeologici
+  publisher: 'Musei in Comune Roma (whitelist: siti di musei)'
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 30
+    status: published
+- url: https://www.museiincomuneroma.it/sites/default/files/f_file/1.%20CS_LA%20NOTTE%20DEI%20MUSEI%202026%20%20.pdf
+  title: Museo Casa di Goethe
+  publisher: Musei in Comune Roma
+  genre: off-whitelist
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 26
+    status: published
+- url: https://www.rainews.it/articoli/2023/04/la-rosa-bianca-non-vi-dara-pace-intervista-a-paolo-ghezzi--088e6580-dfec-49d6-a04c-ec97080c9c2c.html
+  title: “La Rosa Bianca non vi darà pace”. Intervista a Paolo Ghezzi
+  publisher: RaiNews
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 280
+    status: published
+- url: https://www.rainews.it/tgr/bolzano/articoli/2026/03/anna-trocker-si-racconta-tra-mondiali-juniores-scuola-primi-passi-sugli-sci-6e7428c9-09c4-4f6a-934b-05adc85e818b.html
+  title: 'Anna Trocker si racconta: tra mondiali juniores, scuola, primi passi sugli
+    sci'
+  publisher: RaiNews TGR Bolzano
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 129
+    status: published
+- url: https://www.rainews.it/tgr/fvg/articoli/2026/06/allis-dove-la-scienza-non-e-immaginazione-2485abca-6a5c-45f1-9f35-5dddfd2a4a99.html
+  title: All'IS, dove la scienza non è immaginazione
+  publisher: RaiNews TGR Friuli Venezia Giulia
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 198
+    status: published
+- url: https://www.rainews.it/tgr/piemonte/video/2026/04/-baglioni-dg-tgp2-1200-logomp4-5b8dc751-507f-404e-8690-526ad8ee02f9.html
+  title: 'Claudio Baglioni: “Torino è la città di molti miei debutti. Bello chiudere
+    qui”'
+  publisher: Rai TGR Piemonte
+  genre: news_general
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 237
+    status: published
+- url: https://www.soprintendenzapdve.beniculturali.it/visite-guidate-al-giardino-di-palazzo-soranzo-cappello-a-venezia-nel-mese-di-giugno/
+  title: Visite guidate al giardino di Palazzo Soranzo Cappello
+  publisher: Soprintendenza ABAP Padova, Treviso e Belluno
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 28
+    status: published
+- url: https://www.trenitalia.com/it/servizi/bagaglio-facile.html
+  title: Bagaglio Facile
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 124
+    status: published
+- url: https://www.viaggiapiccoli.com/villaggio-donne-giraffa-thailandia/
+  title: 'Villaggio donne giraffa: il nostro errore in Thailandia'
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 277
+    status: published
+- url: https://www.wired.it/article/corsa-quantistica-italia-inciampa-prima-di-partire-quantum-strategia-nazionale/
+  title: La corsa quantistica dell’Italia inciampa prima di partire. Quantum manca
+    alla strategia nazionale per competere davvero
+  publisher: Wired Italia
+  genre: culture_science
+  first_used: '2026-07-14'
+  times_used: 1
+  uses:
+  - date: '2026-07-14'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 606
+    status: published
+- url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=91107
+  title: Sabato agli Audio. Appuntamenti nei mesi di marzo e aprile
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 30
+    status: published
+- url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=91518
+  title: Visite guidate per adulti in Biblioteca Civica
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 29
+    status: published
+- url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=98223
+  title: Un mondo di parole - Letture bilingui ad alta voce
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+- url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=98296
+  title: Missione scienza, laboratori per bambini
+  publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
+    realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 33
+    status: published
+- url: https://cagliariturismo.comune.cagliari.it/it/vivicagliari/biblioteca-comunale-pirri
+  title: Biblioteca Comunale Pirri
+  publisher: 'Cagliari Turismo — Comune di Cagliari (whitelist: altri comuni / practical
+    realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 71
+    status: published
+- url: https://creativitacontemporanea.cultura.gov.it/wp-content/uploads/2026/06/Decreto-rep.286-Cultura-piccoli-comuni.pdf
+  title: Avviso “Cultura nei piccoli comuni” — finalità, risorse, proponenti e partenariato
+    (estratto)
+  publisher: 'Direzione Generale Creatività Contemporanea, Ministero della Cultura
+    — off-whitelist: bando nazionale ufficiale, autentico, gratuito e direttamente
+    adatto al genere regolativo C1'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 603
+    status: published
+- url: https://it.wikisource.org/wiki/Fior_di_passione_%28Serao%29/Novella_Greca
+  title: Novella Greca (estratto)
+  publisher: Wikisource — testo di Matilde Serao, *Fior di passione* (1888), pubblico
+    dominio; fonte whitelisted
+  genre: literature_public_domain
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 474
+    status: published
+- url: https://it.wikisource.org/wiki/Il_Ventaglino
+  title: Il Ventaglino (estratto)
+  publisher: Wikisource — testo di Luigi Pirandello (1903), pubblico dominio; fonte
+    whitelisted
+  genre: literature_public_domain
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 215
+    status: published
+- url: https://it.wikisource.org/wiki/Operette_morali/Dialogo_di_Tristano_e_di_un_amico
+  title: Dialogo di Tristano e di un amico (estratto argomentativo)
+  publisher: Wikisource — testo di Giacomo Leopardi, *Operette morali* (1827), pubblico
+    dominio; fonte whitelisted
+  genre: literature_public_domain
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 262
+    status: published
+- url: https://it.wikisource.org/wiki/Racconti_sardi/La_dama_bianca
+  title: La dama bianca (estratto)
+  publisher: Wikisource — testo di Grazia Deledda, *Racconti sardi* (1894), pubblico
+    dominio; fonte whitelisted
+  genre: literature_public_domain
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 684
+    status: published
+- url: https://morninggaro.wordpress.com/2025/06/28/provenza-moto-itinerario-7-giorni/
+  title: 'Provenza in moto: curve, silenzi e meraviglia condivisa'
+  publisher: Good Morning Garo
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 272
+    status: published
+- url: https://ricette.giallozafferano.it/Panzanella-dolce.html
+  title: Panzanella dolce
+  publisher: 'GialloZafferano (whitelist: `giallozafferano.it`)'
+  genre: practical_realia
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 88
+    status: published
+- url: https://ricette.giallozafferano.it/Verdure-al-forno-facili.html
+  title: Verdure al forno facili
+  publisher: 'GialloZafferano (whitelist: `giallozafferano.it`)'
+  genre: practical_realia
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 162
+    status: published
+- url: https://turismo.comune.palermo.it/palermo-welcome-luogo-dettaglio.php?det=22&id=272&tp=68
+  title: Biblioteca Comunale Villa Trabia
+  publisher: 'Comune di Palermo — Palermo Welcome (whitelist: altri comuni / practical
+    realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 105
+    status: published
+- url: https://www.ansa.it/campania/notizie/giffoni_55/2026/07/06/torna-il-giffoni-film-festival-con-il-racconto-delle-cose-impossibili_07f48226-9188-4ff3-9f7d-2c535b2d3082.html
+  title: Torna il Giffoni Film Festival con il racconto delle 'cose impossibili'
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 197
+    status: published
+- url: https://www.comune.cagliari.it/portale/page/it/mem__mediateca_del_mediterraneo?contentId=LGO12204
+  title: Mem - Mediateca del Mediterraneo
+  publisher: 'Comune di Cagliari (whitelist: altri comuni / practical realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 109
+    status: published
+- url: https://www.comune.firenze.it/novita/area-stampa/comunicati-stampa/protezione-civile-piano-straordinario-di-assistenza-ai
+  title: Protezione civile, piano straordinario di assistenza ai viaggiatori per la
+    chiusura di Ponte al Pino
+  publisher: Città di Firenze
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 201
+    status: published
+- url: https://www.comune.modena.it/novita/comunicati/2026/giugno/hub-in-polis-si-rinnova-il-bando-rivolto-ai-giovani-tra-idee-e-progetti
+  title: Hub in Polis, si rinnova il bando rivolto ai giovani tra idee e progetti
+  publisher: Comune di Modena
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 181
+    status: published
+- url: https://www.comune.modena.it/novita/notizie/2026/caldo-e-attivo-il-progetto-estate-sicura
+  title: 'Caldo: è attivo il progetto “Estate sicura'
+  publisher: 'Comune di Modena (whitelist: comuni, avvisi e servizi ai cittadini)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 117
+    status: published
+- url: https://www.comune.modena.it/novita/notizie/2026/estate-2026-richiesta-di-contributi-per-la-frequenza-dei-centri-estivi-3-13-17-anni-e-delle-attivita-estive-di-nido-09-36-mesi
+  title: Estate 2026 – Richiesta di contributi per la frequenza dei centri estivi
+  publisher: Comune di Modena
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 154
+    status: published
+- url: https://www.comune.parma.it/it/novita/notizie/servizi-educativi-per-linfanzia-apertura-delle-iscrizioni-online-per-lanno-educativo-2026-2027
+  title: 'Servizi Educativi per l''Infanzia: apertura delle iscrizioni online per
+    l’anno educativo 2026/2027'
+  publisher: Comune di Parma
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 306
+    status: published
+- url: https://www.comune.parma.it/it/vivere-parma/eventi/notte-europea-dei-musei-2026
+  title: Notte europea dei Musei 2026
+  publisher: 'Comune di Parma (whitelist: altri comuni / practical realia)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 86
+    status: published
+- url: https://www.dissapore.com/chef/michelangelo-mammoliti-da-quando-sono-cambiato-io-mi-sono-divertito-di-piu-intervista-al-nuovo-tre-stelle-michelin/
+  title: 'Michelangelo Mammoliti, nuovo tre stelle Michelin: la nostra intervista'
+  publisher: Dissapore
+  genre: blogs_lifestyle
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 198
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/marco-briano-vincitore-di-sarabanda-cosa-faro-coi-126mila-euro-disgustato-dal-comportamento-di-un-concorrente/
+  title: 'Marco Briano, vincitore di Sarabanda: “Cosa farò coi 126mila euro, disgustato
+    dal comportamento di un concorrente'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 415
+    status: published
+- url: https://www.focus.it/ambiente/animali/ai-procioni-piace-risolvere-gli-enigmi
+  title: Ai procioni piace risolvere gli enigmi per il gusto di trovare la soluzione
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 218
+    status: published
+- url: https://www.ilmiodiariodiviaggio.it/303-roma-toccata-fuga.htm
+  title: Roma, toccata e fuga!
+  publisher: 'Il mio diario di viaggio / Travel365 (off-whitelist: diario personale
+    italiano autentico, libero e direttamente accessibile; scelto perché fornisce
+    prima persona e passato prossimo richiesti dallo slot)'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 64
+    status: published
+- url: https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=0baac5e82b284205a9cd1b6b004b89ef
+  title: Concorso per esami per la copertura di n. 4 posti di agente di polizia locale
+  publisher: inPA — Portale del Reclutamento, Dipartimento della Funzione Pubblica
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 491
+    status: published
+- url: https://www.lavoro.gov.it/documenti-e-norme/normativa/circolare-7-del-01072026
+  title: Circolare n. 7 del 1° luglio 2026 — premessa su SFeRA (estratto)
+  publisher: 'Ministero del Lavoro e delle Politiche Sociali — off-whitelist: circolare
+    ministeriale ufficiale, autentica e gratuita, esattamente corrispondente al genere
+    istituzionale richiesto'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 130
+    status: published
+- url: https://www.media.inaf.it/2026/07/06/analogo-ottico-buco-nero/
+  title: Buco nero in fibra ottica (estratto)
+  publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist:
+    comunicazione scientifica primaria di ente pubblico, libera e con licenza di riutilizzo
+    esplicitamente indicata'
+  genre: off-whitelist
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 191
+    status: published
+- url: https://www.rainews.it/tgr/campania/video/2026/03/grazie-a-mio-figlio-ho-trovato-il-coraggio-di-denunciare-e-sono-rinata-storia-violenza-donne-8-marzo-c426f18c-ab8d-492f-a651-399cd4dc06fc.html
+  title: Grazie a mio figlio ho trovato il coraggio di denunciare. E sono rinata
+  publisher: RaiNews TGR Campania
+  genre: news_general
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 178
+    status: published
+- url: https://www.rainews.it/tgr/piemonte/articoli/2026/06/colle-dellassietta-riapre-per-lestate-una-delle-strade-sterrate-piu-belle-del-piemonte--69585a4d-e906-4e29-8006-2a103ff328cc.html
+  title: Colle dell'Assietta, riapre per l'estate una delle strade sterrate più belle
+    del Piemonte
+  publisher: 'RaiNews TGR Piemonte (whitelist: `rainews.it`)'
+  genre: news_general
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 205
+    status: published
+- url: https://www.rainews.it/tgr/puglia/video/2026/03/nuoto--autismo--sport--bisceglie--63e8fd84-f513-4f60-ae18-6bbd3646f014.html
+  title: Per 51 volte campione italiano di nuoto paralimpico
+  publisher: 'RaiNews TGR Puglia (whitelist: `rainews.it`)'
+  genre: news_general
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 91
+    status: published
+- url: https://www.viaggiapiccoli.com/vacanza-in-sicilia-occidentale-con-i-bambini/
+  title: 'Sicilia occidentale con i bambini: il nostro viaggio, tappa dopo tappa'
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 352
+    status: published
+- url: https://www.wired.it/article/caffe-a-ultrasuoni-che-si-prepara-senza-acqua-calda/
+  title: Il caffè a ultrasuoni che si prepara senza bisogno di acqua calda
+  publisher: Wired Italia
+  genre: culture_science
+  first_used: '2026-07-15'
+  times_used: 1
+  uses:
+  - date: '2026-07-15'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 556
+    status: published
+- url: https://comune.ravenna.it/vivere-il-comune/eventi/
+  title: Eventi
+  publisher: 'Comune di Ravenna (whitelist: altri comuni / practical realia)'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 4
+  uses:
+  - date: '2026-07-16'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 28
+    status: published
+  - date: '2026-07-16'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 25
+    status: published
+  - date: '2026-07-16'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 29
+    status: published
+  - date: '2026-07-16'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 29
+    status: published
+- url: https://educazione.comune.fi.it/dalle-redazioni/centri-estivi-2026
+  title: Centri estivi 2026
+  publisher: 'Comune di Firenze — Educazione (whitelist: `practical_realia`, altri
+    comuni)'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 170
+    status: published
+- url: https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XXX
+  title: Processi e prescrizione (Dei delitti e delle pene, capitolo XXX)
+  publisher: Wikisource — testo di Cesare Beccaria (1764), pubblico dominio; fonte
+    whitelisted per testo culturale/saggistico
+  genre: literature_public_domain
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 300
+    status: published
+- url: https://it.wikisource.org/wiki/Racconti_fantastici_(Tarchetti)/Un_osso_di_morto
+  title: Un osso di morto
+  publisher: Wikisource — testo di Iginio Ugo Tarchetti (1869), pubblico dominio;
+    fonte whitelisted
+  genre: literature_public_domain
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 278
+    status: published
+- url: https://it.wikisource.org/wiki/Un_vampiro/Un_vampiro
+  title: Un vampiro
+  publisher: Wikisource — testo di Luigi Capuana (1906), pubblico dominio; fonte whitelisted
+  genre: literature_public_domain
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 465
+    status: published
+- url: https://tgposte.poste.it/2026/04/28/poste-anche-a-rovereto-liniziativa-spazi-per-litalia/
+  title: 'Poste: anche a Rovereto l’iniziativa “Spazi per l’Italia”'
+  publisher: 'TG Poste / Poste Italiane (OFF-WHITELIST — giustificazione: pagina ufficiale
+    e gratuita dell''azienda che annuncia un nuovo servizio reale di coworking, perfettamente
+    aderente al genere informativo richiesto)'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 130
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/sant-antioco-2.html
+  title: Sant’Antioco, solo verde e blu
+  publisher: Turisti per Caso
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 361
+    status: published
+- url: https://www.ansa.it/basilicata/notizie/2026/07/13/a-potenza-un-nuovo-parco-giochi-sara-inaugurato-nel-quartiere-bucaletto_479c1759-6009-4dfe-a8d9-bb895473c0fc.html
+  title: 'A Potenza un nuovo parco giochi: sarà inaugurato nel quartiere Bucaletto'
+  publisher: 'ANSA (whitelist: `news_general`)'
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 195
+    status: published
+- url: https://www.ansa.it/sicilia/notizie/2026/07/07/a-malfa-in-funzione-il-primo-bus-elettrico-dellisola-di-salina_c49e07c8-71b6-4f0c-987d-ccb5910de7dc.html
+  title: A Malfa in funzione il primo bus elettrico dell’isola di Salina
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 219
+    status: published
+- url: https://www.comune.modena.it/novita/comunicati/2026/giugno/facciamo-largo-aperte-le-iscrizioni-al-progetto-partecipato-per-santagostino
+  title: Facciamo Largo", aperte le iscrizioni al progetto partecipato per Sant'Agostino
+  publisher: Comune di Modena
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 153
+    status: published
+- url: https://www.comune.parma.it/it/argomenti/mobilita-sostenibile/ciclabilita
+  title: Ciclabilità
+  publisher: 'Comune di Parma (whitelist: `practical_realia`, altri comuni)'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 96
+    status: published
+- url: https://www.comune.parma.it/it/novita/notizie/avviso-pubblico-per-contributi-a-iniziative-culturali-2026
+  title: Avviso pubblico per contributi a iniziative culturali 2026
+  publisher: Comune di Parma
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 303
+    status: published
+- url: https://www.comune.rimini.it/novita/notizie/ordinanza-balneare-2026-al-tutte-le-novita
+  title: 'Ordinanza balneare 2026 al via: tutte le novità'
+  publisher: 'Comune di Rimini (whitelist: altri comuni / practical realia)'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 119
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/gabriele-vagnato-sal-da-vinci-sta-giocando-la-sua-champions-league-e-se-zia-mara-chiama-arrivo-correndo/
+  title: 'Gabriele Vagnato: «Sal Da Vinci sta giocando la sua Champions League. E
+    se Zia Mara chiama, arrivo correndo'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 225
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/pippo-balistreri-storico-direttore-di-palco-di-sanremo-lascio-con-de-martino-e-tempo-di-dare-spazio-ai-giovani/
+  title: 'Pippo Balistreri, storico direttore di palco: “Lascio Sanremo, con De Martino
+    è tempo di dare spazio ai giovani”'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 174
+    status: published
+- url: https://www.focus.it/ambiente/animali/perche-i-gatti-smettono-di-mangiare-a-meta-pasto
+  title: 'Perché i gatti smettono di mangiare a metà pasto? Spoiler: non è per sazietà'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 205
+    status: published
+- url: https://www.italia.it/it/lazio/licenza/giardino-dei-5-sensi-
+  title: 'Giardino dei Cinque Sensi a Licenza: un parco dove la natura si tocca, si
+    annusa e si ascolta'
+  publisher: Italia.it — portale ufficiale del turismo italiano
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 106
+    status: published
+- url: https://www.media.inaf.it/2026/07/14/radiografie-nello-spazio/
+  title: Radiografie nello spazio, ora si può
+  publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist
+    justification: fonte scientifica primaria di ente pubblico, accesso libero e testo
+    rilasciato con licenza CC BY-NC-SA 3.0 Italia'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 676
+    status: published
+- url: https://www.media.inaf.it/2026/07/15/eris-beta-pictoris-d/
+  title: Giocando a nascondino con Beta Pictoris d
+  publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist
+    justification: fonte scientifica primaria di ente pubblico, gratuita e con licenza
+    CC BY-NC-SA 3.0 Italia'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 191
+    status: published
+- url: https://www.mimit.gov.it/it/incentivi/sviluppo-competenze
+  title: Sviluppo competenze
+  publisher: 'Ministero delle Imprese e del Made in Italy — off-whitelist justification:
+    pagina istituzionale nazionale autentica e gratuita, adatta al registro amministrativo
+    richiesto'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 174
+    status: published
+- url: https://www.mountainblog.it/experience-news/uganda-alla-ricerca-dei-gorilla-il-diario-di-bordo-di-carlo-mamberto/
+  title: 'Uganda, alla ricerca dei gorilla: il diario di bordo di Carlo Mamberto'
+  publisher: MountainBlog
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 263
+    status: published
+- url: https://www.nationalgeographic.it/il-misterioso-segnale-radio-che-da-mezzo-secolo-alimenta-il-dibattito-sugli-alieni
+  title: Il misterioso segnale radio che da mezzo secolo alimenta il dibattito sugli
+    alieni
+  publisher: National Geographic Italia
+  genre: culture_science
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 491
+    status: published
+- url: https://www.politichegiovanili.gov.it/comunicazione/news/2026/2/bando-ordinario-2026/
+  title: Bando per la selezione di 65.964 operatori volontari da impiegare in progetti
+    di Servizio civile universale — Scadenza 8 aprile 2026
+  publisher: Dipartimento per le Politiche Giovanili e il Servizio Civile Universale
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 436
+    status: published
+- url: https://www.poste.it/assistenza/faq-scegli-tu
+  title: FAQ Scegli Tu
+  publisher: Poste Italiane
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 81
+    status: published
+- url: https://www.quantomanca.com/cosa-vedere-a-venezia-in-3-giorni-con-i-bambini/
+  title: Cosa vedere a Venezia in 3 giorni con i bambini
+  publisher: Quantomanca
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 56
+    status: published
+- url: https://www.rainews.it/articoli/2026/04/tennis-sinner-racconta-la-sua-svolta-dalle-piste-di-sci-ai-campi-da-tennis-dd7990a9-b012-4f41-8d4c-96a0c8ef1621.html
+  title: 'Sinner racconta la sua svolta: dalle piste di sci ai campi da tennis'
+  publisher: 'RaiNews (whitelist: `news_general`)'
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 127
+    status: published
+- url: https://www.rainews.it/tgr/campania/video/2026/01/vintage-e-collezionismo-caccia-al-pezzo-raro-6d119487-2f83-483a-91ba-3abc07bb1ec8.html
+  title: Vintage e collezionismo, caccia al pezzo raro
+  publisher: RaiNews TGR Campania
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 230
+    status: published
+- url: https://www.rainews.it/tgr/piemonte/video/2025/12/di-fuoco-e-seta-manlio-castagna-racconta-il-risorgimento-ai-ragazzi-746a1fce-9a17-46b5-8f1f-455793ee5d3f.html
+  title: 'Di fuoco e seta": Manlio Castagna racconta il Risorgimento ai ragazzi'
+  publisher: RaiNews TGR Piemonte
+  genre: news_general
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 400
+    status: published
+- url: https://www.trenitalia.com/it/frecciarossa.html
+  title: Frecciarossa — Scopri le offerte / I servizi prima, durante e dopo il viaggio
+  publisher: 'Trenitalia (whitelist: `practical_realia`)'
+  genre: practical_realia
+  first_used: '2026-07-16'
+  times_used: 6
+  uses:
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 20
+    status: published
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 23
+    status: published
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 25
+    status: published
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 22
+    status: published
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 30
+    status: published
+  - date: '2026-07-16'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 22
+    status: published
+- url: https://www.visittrentino.info/it/dove-dormire/cerca-prenota/HOTEL-CAMPAGNOLA-hotel-Riva-del-Garda_ad-36789355
+  title: Hotel Campagnola — Informazioni
+  publisher: Visit Trentino / Trentino Marketing
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 97
+    status: published
+- url: https://youth.europa.eu/discovereu/rules_it
+  title: Regolamento dell’invito a presentare candidature DiscoverEU
+  publisher: 'Portale europeo per i giovani, Commissione europea / EACEA — off-whitelist
+    justification: regolamento istituzionale autentico, gratuito e direttamente adatto
+    al genere regolativo C1'
+  genre: off-whitelist
+  first_used: '2026-07-16'
+  times_used: 1
+  uses:
+  - date: '2026-07-16'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 608
+    status: published
+- url: https://cultura.gov.it/evento/luglio-2026-al-museo-nazionale-archeologia-del-mare-di-caorle
+  title: Luglio 2026 al Museo nazionale di archeologia del Mare di Caorle
+  publisher: Ministero della Cultura
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 11
+    status: published
+- url: https://direzionemuseiroma.cultura.gov.it/domenicalmuseo-5-luglio/
+  title: '#domenicalmuseo – 5 luglio'
+  publisher: Direzione Musei nazionali della città di Roma
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 13
+    status: published
+- url: https://eventi.comune.torino.it/estate-2026/
+  title: AMMIRA SENIOR – Tai Chi nel parco
+  publisher: Eventi a Torino / Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 4
+  uses:
+  - date: '2026-07-17'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 5
+    status: published
+  - date: '2026-07-17'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 10
+    status: published
+  - date: '2026-07-17'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 7
+    status: published
+  - date: '2026-07-17'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 5
+    status: published
+- url: https://it.wikisource.org/wiki/Ci%C3%A0ula_scopre_la_Luna
+  title: Ciàula scopre la Luna
+  publisher: Wikisource (testo di Luigi Pirandello)
+  genre: literature_public_domain
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 499
+    status: published
+- url: https://it.wikisource.org/wiki/La_patente_%28novella%29
+  title: La patente
+  publisher: Wikisource (testo di Luigi Pirandello)
+  genre: literature_public_domain
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 687
+    status: published
+- url: https://repubblicadigitale.gov.it/portale/-/premio-nazionale-competenze-digitali-lancio-terza-edizione
+  title: 'Premio Nazionale per le Competenze Digitali: al via le candidature per la
+    terza edizione'
+  publisher: Repubblica Digitale — Dipartimento per la trasformazione digitale
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 168
+    status: published
+- url: https://ricette.giallozafferano.it/Insalata-di-bulgur-vegana.html
+  title: Insalata di bulgur vegana
+  publisher: GialloZafferano
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 83
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/abbiamo-scelto-il-camper-per-visitare-la-toscana-e-in-5-giorni-ci-e-sembrato-di-vivere-un-viaggio-che-dura-una-vita-intera.html
+  title: 'Fiume, pietra e cielo aperto: il SentierElsa'
+  publisher: Turisti per Caso
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 262
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/la-crociera-piu-fredda-al-mondo-ecco-come-abbiamo-passato-11-giorni-tra-iceberg-ghiacciai-e-fiordi.html
+  title: 'La crociera più fredda al mondo: ecco come abbiamo passato 11 giorni tra
+    iceberg, ghiacciai e fiordi'
+  publisher: Turisti per Caso
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 363
+    status: published
+- url: https://www.ansa.it/marche/notizie/2026/05/18/torna-il-gulliver-rock-festival-evento-gratuito-sabato-23-maggio-in-piazza-roma_e090ef8e-d2c1-4aed-abd2-e2e46c2d8729.html
+  title: Torna il Gulliver Rock Festival, evento gratuito sabato 23 maggio in piazza
+    Roma
+  publisher: ANSA — Marche
+  genre: news_general
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 146
+    status: published
+- url: https://www.ansa.it/umbria/notizie/2026/07/14/pop-music-festival-perugia-dal-21-al-23-luglio_e9f8486f-6155-4d2c-bfe9-90e195a67738.html
+  title: Pop Music Festival Perugia dal 21 al 23 luglio
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 215
+    status: published
+- url: https://www.cnr.it/it/comunicato-stampa/14486
+  title: Isole di calore urbane, fino a 4°C in meno con riforestazione e depavimentazioni,
+    Roma e Firenze lo dimostrano
+  publisher: Consiglio Nazionale delle Ricerche
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 176
+    status: published
+- url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=694513521c18a7009c4fd8db
+  title: Scadenza carta d’identità cartacea
+  publisher: Comune di Bologna
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 174
+    status: published
+- url: https://www.comune.firenze.it/servizi/anagrafe-e-stato-civile/accesso-civico-semplice
+  title: Accesso civico semplice
+  publisher: Città di Firenze
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 8
+    status: published
+- url: https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-trapezio-santa-giulia
+  title: Parco Trapezio Santa Giulia
+  publisher: Comune di Milano
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 117
+    status: published
+- url: https://www.comune.torino.it/servizi/servizio-aiuto-anziani
+  title: Servizio aiuto anziani
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 3
+    words: 62
+    status: published
+- url: https://www.comune.venezia.it/it/node/75115
+  title: Avviso pubblico – curatore 2027
+  publisher: Comune di Venezia — Istituzione Fondazione Bevilacqua La Masa
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 311
+    status: published
+- url: https://www.europarl.europa.eu/news/it/press-room/20260323IPR38829/intelligenza-artificiale-rinvio-semplificazione-e-divieto-di-nudificazione
+  title: 'Intelligenza artificiale: rinvio, semplificazione e divieto di “nudificazione”'
+  publisher: Parlamento europeo
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 230
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/michael-di-liberto-dei-tre-di-denari-licenziato-dopo-reazione-a-catena-per-un-anno-mi-sono-goduto-i-miei-figli/
+  title: 'Michael Di Liberto dei Tre di Denari: “Licenziato dopo Reazione a Catena,
+    per un anno mi sono goduto i miei figli”'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 452
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/valeria-rossi-con-tre-parole-comprai-casa-ai-miei-genitori-quel-brano-simbolo-dellultima-estate-felice/
+  title: 'Valeria Rossi: “Con Tre Parole comprai casa ai miei genitori. Quel brano
+    simbolo dell’ultima estate felice”'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 196
+    status: published
+- url: https://www.focus.it/ambiente/animali/gli-scorpioni-usano-armi-di-metallo
+  title: 'Pungiglioni corazzati: gli scorpioni sono predatori “heavy metal”'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 193
+    status: published
+- url: https://www.focus.it/ambiente/animali/perche-le-mucche-ruttano-metano
+  title: Perché le mucche emettono così tanto metano? Dipende dai “rutti”
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B2
+    prova: Analisi delle strutture, Prova n. 1
+    words: 206
+    status: published
+- url: https://www.inpa.gov.it/bandi-e-avvisi/dettaglio-bando-avviso/?concorso_id=593f1559a3bc405cbec0dac918486254
+  title: Concorso pubblico per un posto di Funzionario Amministrativo da destinare
+    all’Ufficio Personale
+  publisher: inPA — Portale del Reclutamento, Dipartimento della Funzione Pubblica
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 4
+    words: 155
+    status: published
+- url: https://www.italia.it/it/friuli-venezia-giulia/udine/cosa-fare/evento-sauriis-in-festa
+  title: Sauris in festa 2026 – Festa del prosciutto
+  publisher: Italia.it
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 10
+    status: published
+- url: https://www.media.inaf.it/2026/04/20/cpt-gravity/
+  title: Segnali da (o verso) una regione CPT-simmetrica?
+  publisher: MEDIA INAF
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 213
+    status: published
+- url: https://www.ministeroturismo.gov.it/green-tour-scheda-tecnica/
+  title: Green Tour
+  publisher: Ministero del Turismo
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 465
+    status: published
+- url: https://www.rainews.it/tgr/lombardia/video/2026/03/lattrice-lazzarini-92-anni-il-piccolo-e-il-teatro-come-dovrebbe-essere-78c7181c-633d-49e6-b65c-126cefd0704b.html
+  title: 'L''attrice Lazzarini, 92 anni: “Il Piccolo è il teatro come dovrebbe essere”'
+  publisher: RaiNews — TGR Lombardia
+  genre: news_general
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 178
+    status: published
+- url: https://www.rainews.it/video/2026/01/briani-soltero-musica-leonardo-de-andreis-rainews-tormentone-40-milioni-visualizzazioni-web-social-genz--179cf372-4070-490b-ade6-73b43999ccaf.html
+  title: 'Fenomeno inconsapevole, chi è Leonardo de Andreis: la sua hit “Soltero”
+    è virale'
+  publisher: RaiNews.it
+  genre: news_general
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 2
+    words: 94
+    status: published
+- url: https://www.trenitalia.com/it/offerte/freccia-2x1.html
+  title: 'Freccia 2X1: viaggi in 2 al prezzo di 1'
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 9
+    status: published
+- url: https://www.trenitalia.com/it/servizi/stow-your-bags.html
+  title: Stow Your Bags
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Analisi delle strutture, Prova n. 3
+    words: 97
+    status: published
+- url: https://www.uffizi.it/eventi/apriti-cinema-2026
+  title: Apriti Cinema 2026
+  publisher: Gallerie degli Uffizi
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 13
+    status: published
+- url: https://www.unipd.it/sites/unipd.it/files/2026/All%201%201_5%20Bando%20Mob%20Doc_2026%20IT%20prot%26pubb.pdf
+  title: Bando mobilità docenti — Accordi bilaterali, anno 2026
+  publisher: Università degli Studi di Padova
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 559
+    status: published
+- url: https://www.viaggiapiccoli.com/chinatown-milano-con-i-bambini/
+  title: Una giornata nella Chinatown di Milano con i bambini
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 2
+    words: 68
+    status: published
+- url: https://www.visittrentino.info/it/dove-dormire/cerca-prenota/AGRITUR-CIASTEL-agriturismo-Sanzeno_ad-37239732
+  title: Agritur Ciastel
+  publisher: Visit Trentino / Trentino Marketing
+  genre: off-whitelist
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A1
+    prova: Analisi delle strutture, Prova n. 1
+    words: 64
+    status: published
+- url: https://www.wired.it/article/le-grandi-scimmie-ridono-come-noi-da-quindici-milioni-di-anni/
+  title: Le grandi scimmie ridono come noi da quindici milioni di anni
+  publisher: Wired Italia
+  genre: culture_science
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 511
+    status: published
+- url: https://www2.comune.milano.it/web/museo-archeologico-milano/-/campus-2026-un-estate...mitica?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_viewSingleAsset=true&redirect=%2Fweb%2Fmuseo-archeologico-milano%2Fmostre_eventi%2Fdettaglio-evento%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_cur%3D1%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_delta%3D20%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_assetEntryId%3D343916709
+  title: Campus 2026 | un’estate... mitica!
+  publisher: Civico Museo Archeologico di Milano / Comune di Milano
+  genre: practical_realia
+  first_used: '2026-07-17'
+  times_used: 1
+  uses:
+  - date: '2026-07-17'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 120
+    status: published
+- url: https://bandi.comune.torino.it/avviso/pn-metro-plus-progetto-to1131a-aiuti-alleconomia-prossimita-bando-lassegnazione-contributi
+  title: 'Aiuti all''economia di prossimità: contributi a fondo perduto alle micro
+    e piccole imprese'
+  publisher: Città di Torino — Notiziario degli appalti
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 472
+    status: published
+- url: https://blog.giallozafferano.it/acasadigery/sfida-di-cucina_fight-eat-club-15-02-19/
+  title: Sfida di cucina — Fight eat club, 15.02.19
+  publisher: acasadigery / GialloZafferano Blog
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 98
+    status: published
+- url: https://blog.giallozafferano.it/lydiaincucina/ricette-veloci-pranzo/
+  title: 'Ricette facili e veloci per pranzi di tutti i giorni: 15 idee pratiche e
+    gustose'
+  publisher: 'Lydia in Cucina / GialloZafferano Blog (whitelist: `giallozafferano.it`,
+    `practical_realia`)'
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 113
+    status: published
+- url: https://centri.unibo.it/arces/en/center/missioni-trasferte-mobilita/lineeguidamissioni.pdf/%40%40download/file/LineeGuidaMissioniMobilitaIntraAteneoTrasferte_2026.pdf
+  title: Linee Guida al Regolamento missioni, mobilità intra-ateneo e trasferte —
+    Articolo 3
+  publisher: Alma Mater Studiorum — Università di Bologna
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 571
+    status: published
+- url: https://it.wikisource.org/wiki/La_novella_del_buon_vecchio_e_della_bella_fanciulla_ed_altri_scritti/Una_burla_riuscita/IV
+  title: Una burla riuscita — IV
+  publisher: Wikisource (testo di Italo Svevo, edizione 1929)
+  genre: literature_public_domain
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 501
+    status: published
+- url: https://servizi.comune.milano.it/en/dettaglio-contenuto/-/asset_publisher/pqxq/content/apl-c-2026-8-posti
+  title: APL C. 2026 — selezione pubblica per 8 posti di Agente di Polizia Locale
+  publisher: Comune di Milano
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 4
+    words: 180
+    status: published
+- url: https://www.ansa.it/marche/notizie/2026/07/13/ad-ascoli-piceno-torna-il-servizio-bici-in-cri-primo-soccorso-in-bicicletta_1713fcba-9e57-499a-b6be-f67a8f4f1e6f.html
+  title: Ad Ascoli Piceno torna il servizio «Bici in CRI», primo soccorso in bicicletta
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 209
+    status: published
+- url: https://www.ansa.it/sicilia/notizie/2026/06/04/iart-ustica-il-festival-darte-e-linaugurazione-del-museo-sulla-storia-dellisola_07162a55-82f1-45c3-9a58-c01f2ebedc9d.html
+  title: iArt Ustica, il festival d'arte e l'inaugurazione del museo sulla storia
+    dell'isola
+  publisher: 'ANSA (whitelist: `news_general`)'
+  genre: news_general
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 190
+    status: published
+- url: https://www.bimbieviaggi.it/weekend-in-puglia-salento-in-primavera/
+  title: 'Weekend on the road in Puglia: Salento in primavera… e non solo!'
+  publisher: Bimbi e Viaggi
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 363
+    status: published
+- url: https://www.cnr.it/it/news/14412/scuola-e-ricerca-a-ischia-il-cnr-alla-prima-conferenza-nazionale-sul-public-engagement
+  title: 'Scuola e Ricerca a Ischia: il CNR alla prima conferenza nazionale sul public
+    engagement'
+  publisher: Consiglio Nazionale delle Ricerche
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 260
+    status: published
+- url: https://www.comune.pisa.it/content/download/28602/673081/file/Avviso%20refezione%202026-2027.pdf
+  title: Iscrizione al servizio di refezione scolastica A.S. 2026/2027
+  publisher: 'Comune di Pisa (whitelist: `practical_realia`, altri comuni)'
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 179
+    status: published
+- url: https://www.comune.venezia.it/es/node/71532
+  title: Mosse di mezzanotte in VEZ 2026
+  publisher: 'Comune di Venezia, Rete Biblioteche Venezia (whitelist: `practical_realia`,
+    altri comuni); sei pagine collegate dal calendario/listing “Rete Biblioteche Venezia:
+    il programma dal 17 al 24 luglio”'
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 177
+    status: published
+- url: https://www.doppiozero.com/le-macchine-hanno-ancora-bisogno-di-fiumi
+  title: Le macchine hanno ancora bisogno di fiumi
+  publisher: doppiozero
+  genre: opinion_essay
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 620
+    status: published
+- url: https://www.fanpage.it/cultura/mattia-marzi-ultimo-non-ha-una-fanbase-ma-una-tribu-il-successo-racconta-paure-e-frustrazioni-come-nessuno/
+  title: 'Mattia Marzi: «Ultimo non ha una fanbase ma una tribù»'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 274
+    status: published
+- url: https://www.fanpage.it/cultura/rovazzi-arisa-e-nino-dangelo-per-la-costiera-amalfitana-panico-in-moto-dacqua-ma-in-studio-e-nata-la-magia/
+  title: 'Rovazzi, Arisa e Nino D''Angelo per La Costiera Amalfitana: «Panico in moto
+    d''acqua, ma in studio è nata la magia»'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 251
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/valentina-bivona-marta-de-i-cesaroni-il-provino-fu-una-catastrofe-il-calo-degli-ascolti-colpa-dellorario/
+  title: 'Valentina Bivona, Marta de I Cesaroni: “Il provino fu una catastrofe. Il
+    calo degli ascolti? Colpa dell’orario”'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 421
+    status: published
+- url: https://www.focus.it/tecnologia/innovazione/i-chatbot-formulano-diagnosi-mediche-affidabili
+  title: 'IA contro medici: i chatbot sanno davvero fare diagnosi corrette?'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 261
+    status: published
+- url: https://www.focusjunior.it/scienza/curiosita-scientifiche/e-vero-che-la-luna-ci-influenza/
+  title: È vero che la Luna ci influenza?
+  publisher: Focus Junior
+  genre: news_easy
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 248
+    status: published
+- url: https://www.gamberorosso.it/notizie/rubriche/interviste/redzepi-chiesto-scusa-spero-non-conseguenze-raffaele-alajmo-caso-noma/
+  title: “Redzepi ha chiesto scusa, spero non ci siano conseguenze”. Raffaele Alajmo
+    sul caso Noma
+  publisher: Gambero Rosso
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 234
+    status: published
+- url: https://www.gbviaggi.it/blog/diari-di-viaggio/cosa-vedere-a-pisa-in-un-giorno
+  title: 'Pisa in un giorno: il mio viaggio tra storia e sorprese'
+  publisher: GB Viaggi
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 257
+    status: published
+- url: https://www.italia.it/it/lazio/cosa-fare/borgo-di-orte
+  title: Il borgo di Orte affacciato sul Tevere
+  publisher: Italia.it
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 90
+    status: published
+- url: https://www.lakesoundfestival.it/
+  title: Rainbow Lake – Color Run 2026
+  publisher: Lake Sound Festival / Comitato Laghi, con il patrocinio del Comune di
+    Campogalliano
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 186
+    status: published
+- url: https://www.media.inaf.it/2026/07/15/stima-rischio-tempeste-solari/
+  title: 'Tempeste solari: stiamo sottostimando i rischi?'
+  publisher: MEDIA INAF
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 222
+    status: published
+- url: https://www.rainews.it/tgr/emiliaromagna/articoli/2026/06/infermiera-fuori-servizio-salva-bambino-di-tre-anni-dallannegamento-d5c378ff-5393-4c28-bb4d-c07e40db0e80.html
+  title: Infermiera fuori servizio salva bambino dall'annegamento
+  publisher: 'RaiNews TGR Emilia-Romagna (whitelist: `news_general`)'
+  genre: news_general
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 115
+    status: published
+- url: https://www.subito.it/arredamento-casalinghi/cassettiera-ikea-hemnes-colore-tortora-ottime-treviso-633454409.htm
+  title: Cassettiera IKEA HEMNES – colore tortora – ottime condizioni
+  publisher: Subito.it
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 27
+    status: published
+- url: https://www.subito.it/arredamento-casalinghi/cucina-completa-roma-639013400.htm
+  title: Cucina completa
+  publisher: Subito.it
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 33
+    status: published
+- url: https://www.subito.it/arredamento-casalinghi/divano-con-penisola-poltrone-e-sofa-ottime-condi-firenze-631554992.htm
+  title: Divano con penisola Poltrone e Sofà – ottime condizioni
+  publisher: Subito.it
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 26
+    status: published
+- url: https://www.subito.it/arredamento-casalinghi/materasso-matrimoniale-nightitude-soul-160x190cm-brescia-636437317.htm
+  title: Materasso matrimoniale NIGHTITUDE “Soul” 160x190 cm
+  publisher: Subito.it
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 28
+    status: published
+- url: https://www.trenitalia.com/it/informazioni/assistenza-online.html
+  title: Assistenza digitale
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 96
+    status: published
+- url: https://www.uffizi.it/avvisi/giardino-delle-scuderie-reali-regole-di-comportamento
+  title: Giardino delle Scuderie Reali. Regole di comportamento
+  publisher: Le Gallerie degli Uffizi
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 120
+    status: published
+- url: https://www.uffizi.it/news/r-estate-con-larte-visite-e-attivita-estive-per-giovani-e-famiglie
+  title: R-Estate con l'arte! Visite e attività estive per giovani e famiglie
+  publisher: 'Gallerie degli Uffizi (whitelist: `practical_realia`, siti di musei)'
+  genre: practical_realia
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 120
+    status: published
+- url: https://www.viaggiapiccoli.com/chi-siamo/
+  title: Chi siamo
+  publisher: Viaggiapiccoli
+  genre: blogs_lifestyle
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 112
+    status: published
+- url: https://www.wikimedia.it/news/wiki-loves-monuments-italia-2025-regolamento/
+  title: Wiki Loves Monuments Italia 2025 – Regolamento
+  publisher: Wikimedia Italia
+  genre: off-whitelist
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 325
+    status: published
+- url: https://www.wired.it/article/un-nuovo-modello-matematico-ipotizza-che-la-popolazione-mondiale-potrebbe-dimezzarsi-nel-2064/
+  title: Un nuovo modello matematico ipotizza che la popolazione mondiale potrebbe
+    dimezzarsi nel 2064
+  publisher: Wired Italia
+  genre: culture_science
+  first_used: '2026-07-18'
+  times_used: 1
+  uses:
+  - date: '2026-07-18'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 494
+    status: published
+- url: https://bandi.unibo.it/s/dicam/bando-per-l-erogazione-di-incentivi-alla-mobilita-per-la-ricerca-programma-marco-polo-dicam-1-tornata-2026
+  title: Bando per l’erogazione di incentivi alla mobilità per la ricerca — Programma
+    Marco Polo DICAM, prima tornata 2026
+  publisher: Alma Mater Studiorum — Università di Bologna
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 572
+    status: published
+- url: https://blog.giallozafferano.it/idolcidisusy/come-conservare-dolci-estate/
+  title: Come conservare i dolci fatti in casa d'estate
+  publisher: idolcidisusy — GialloZafferano Blog
+  genre: practical_realia
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 4
+    status: published
+- url: https://comune.ravenna.it/novita/comunicato-stampa/lestate-a-ravenna-con-mosaico-di-notte/
+  title: L’estate a Ravenna con Mosaico di Notte
+  publisher: Comune di Ravenna
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 139
+    status: published
+- url: https://cultura.gov.it/eventi/cerca-evento
+  title: Eventi — lista degli eventi visitabili il 19 luglio 2026
+  publisher: Ministero della Cultura
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 136
+    status: published
+- url: https://cultura.gov.it/evento/effetto-notte-dal-17-al-26-luglio-2026
+  title: Effetto Notte — dal 17 al 26 luglio 2026
+  publisher: Ministero della Cultura
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 124
+    status: published
+- url: https://it.wikisource.org/wiki/La_giara_%28Novella%2C_1928%29
+  title: La giara
+  publisher: Wikisource (testo di Luigi Pirandello, edizione 1928)
+  genre: literature_public_domain
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 520
+    status: published
+- url: https://radioimmaginaria.it/oltrape2022
+  title: OltrApe 2022
+  publisher: Radioimmaginaria
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 94
+    status: published
+- url: https://www.ansa.it/campania/notizie/2026/07/17/studente-di-sassano-racconta-nella-tesina-il-sogno-di-diventare-carabiniere_5b8a263a-8301-45ab-8d3c-91d93eb8d627.html
+  title: Studente di Sassano racconta nella tesina il sogno di diventare Carabiniere
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 215
+    status: published
+- url: https://www.asiatica-travel.it/blog/diario-viaggio-cambogia-thailandia.html
+  title: Diario di viaggio in Cambogia e Thailandia
+  publisher: Asiatica Travel
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 253
+    status: published
+- url: https://www.borgodelmincio.it/it/
+  title: L'agriturismo
+  publisher: Borgo del Mincio
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 111
+    status: published
+- url: https://www.comune.mira.ve.it/vivere-il-comune/eventi/mira-on-air-festival-2026/
+  title: Martedì 21 luglio — Musica dal vivo
+  publisher: Comune di Mira
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 111
+    status: published
+- url: https://www.comune.monza.it/it/news/567220/biblioteche-orari-e-chiusure-estivi-1854263
+  title: 'Biblioteche cittadine: orari e chiusure in estate'
+  publisher: Comune di Monza
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 123
+    status: published
+- url: https://www.comune.palermo.it/novita/estate-2026-al-via-lavviso-pubblico-per-i-centri-estivi-e-i-campus-residenziali/
+  title: 'Estate 2026: al via l’Avviso Pubblico per i Centri Estivi e i Campus Residenziali'
+  publisher: Città di Palermo
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 338
+    status: published
+- url: https://www.comune.torino.it/novita/avvisi/avviso-per-presentazione-progetti-per-promozione-sostegno-alle-reti-solidarieta
+  title: Avviso per la presentazione di progetti per la promozione e il sostegno alle
+    reti di solidarietà tra famiglie e all’affidamento familiare
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 4
+    words: 146
+    status: published
+- url: https://www.comune.torino.it/servizi/iscrizione-alle-scuole-dellinfanzia
+  title: Iscrizione alle scuole dell’infanzia
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 461
+    status: published
+- url: https://www.doppiozero.com/alberi-e-frutta-melo
+  title: Alberi e frutta. Melo
+  publisher: doppiozero
+  genre: opinion_essay
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 570
+    status: published
+- url: https://www.fanpage.it/spettacolo/interviste/massimo-caputi-commentavo-mondiali-e-europei-su-tmc-e-sfidavo-la-rai-lo-sport-a-la7-purtroppo-e-sparito/
+  title: 'Massimo Caputi: “Commentavo Mondiali e Europei su Tmc e sfidavo la Rai.
+    Lo sport a La7 purtroppo è sparito”'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 421
+    status: published
+- url: https://www.focus.it/cultura/curiosita/svoltare-a-sinistra-e-la-manovra-piu-pericolosa-in-auto-ecco-perche-dovremmo-smettere-di-farlo
+  title: 'Svoltare a sinistra è la manovra più pericolosa in auto: ecco perché dovremmo...
+    smettere di farlo!'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 190
+    status: published
+- url: https://www.focus.it/scienza/scienze/gli-antenati-dei-mammiferi-deponevano-uova-ora-abbiamo-le-prove
+  title: 'Gli antenati dei mammiferi deponevano uova: una scoperta che riscrive le
+    tappe della nostra Storia'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 204
+    status: published
+- url: https://www.focusjunior.it/animali/perche-adottare-un-cane-elisabetta-canalis-lo-spiega-ai-ragazzi/
+  title: Perché la vita con i cani è un’esperienza meravigliosa. Elisabetta Canalis
+    lo spiega ai ragazzi
+  publisher: FocusJunior.it
+  genre: news_easy
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 179
+    status: published
+- url: https://www.gamberorosso.it/notizie/attualita/gennaro-esposito-intervista-ristoranti-noiosi/
+  title: '«I nostri ristoranti stanno diventando noiosi»: Gennaro Esposito sul fine
+    dining'
+  publisher: Gambero Rosso
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 178
+    status: published
+- url: https://www.italia.it/it/marche/cosa-fare/evento-summer-jamboree-2026
+  title: Summer Jamboree 2026
+  publisher: Italia.it / ENIT
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 186
+    status: published
+- url: https://www.media.inaf.it/2026/07/16/atmosfera-lhs-1140b/
+  title: Roccioso, in zona abitabile e con atmosfera
+  publisher: MEDIA INAF
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 514
+    status: published
+- url: https://www.mountainblog.it/experience-news/avventura-in-eritrea-diario-di-bordo-di-angela-gemignani-parte-1/
+  title: 'Avventura in Eritrea: diario di bordo di Angela Gemignani (parte 1)'
+  publisher: MountainBlog
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 391
+    status: published
+- url: https://www.rainews.it/tgr/fvg/video/2026/07/sigfrido-ranucci-stordito-dallesito-delle-indagini-c4cc69c2-63c2-41a5-bc8d-610c2d085ef1.html
+  title: 'Sigfrido Ranucci: “Stordito dall''esito delle indagini”'
+  publisher: RaiNews TGR Friuli Venezia Giulia
+  genre: news_general
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 198
+    status: published
+- url: https://www.rainews.it/video/2026/04/il-rapper-shiva-a-belve-avevo-scommesso-10mila-euro-sullitalia-ai-mondiali-dcb1cf66-df5c-47c4-a669-fdf295b1c22e.html
+  title: 'Il rapper Shiva a Belve: «Avevo scommesso 10mila euro sull''Italia ai Mondiali»'
+  publisher: RaiNews
+  genre: news_general
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 118
+    status: published
+- url: https://www.termemarine.com/camera/camera-comfort/
+  title: Camera Comfort
+  publisher: Terme Marine Leopoldo II
+  genre: off-whitelist
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 87
+    status: published
+- url: https://www.trenitalia.com/it/informazioni/acquisti-online/guida-acquisto-online/come-acquistare-online-il-biglietto.app.html
+  title: Come acquistare online il biglietto
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 159
+    status: published
+- url: https://www.trenitalia.com/it/offerte/offerta-bimbi-gratis.html
+  title: Offerta Bimbi Gratis
+  publisher: Trenitalia
+  genre: practical_realia
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 70
+    status: published
+- url: https://www.wired.it/article/arrivano-primi-orologi-nucleari-come-potrebbero-cambiare-modo-in-cui-misuriamo-tempo/
+  title: Arrivano i primi orologi nucleari, ecco come potrebbero cambiare il modo
+    in cui misuriamo il tempo
+  publisher: Wired Italia
+  genre: culture_science
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 179
+    status: published
+- url: https://www.wired.it/article/perche-torino-buio-quando-arriva-caldo-anomalo-ondate-calore-fanno-saltare-rete-elettrica/
+  title: Perché Torino resta al buio quando arriva il caldo anomalo
+  publisher: Wired Italia
+  genre: culture_science
+  first_used: '2026-07-19'
+  times_used: 1
+  uses:
+  - date: '2026-07-19'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 222
+    status: published
+- url: https://blog.giallozafferano.it/lacucinadiloredana/ricetta-insalata-di-pasta-fredda/
+  title: Insalata di pasta fredda
+  publisher: blog "La cucina di Loredana" (GialloZafferano)
+  genre: practical_realia
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 88
+    status: published
+- url: https://blog.giallozafferano.it/lericettedifragolina/ricetta-insalata-di-farro-fredda/
+  title: Insalata di farro fredda
+  publisher: blog "Le ricette di fragolina" (GialloZafferano)
+  genre: practical_realia
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 89
+    status: published
+- url: https://castello-sforzesco.milano.it/orari/ ; https://castello-sforzesco.milano.it/biglietti/
+  title: Orari" e "Biglietti" — Castello Sforzesco (Comune di Milano)
+  publisher: Comune di Milano — Castello Sforzesco (sito ufficiale civico)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 177
+    status: published
+- url: https://it.wikisource.org/wiki/Vita_dei_campi_(1881)/Jeli_il_pastore
+  title: Jeli il pastore (in Vita dei campi, 1881)
+  publisher: Wikisource (it.wikisource.org)
+  genre: literature_public_domain
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 270
+    status: published
+- url: https://it.wikisource.org/wiki/Vita_dei_campi_(1881)/Rosso_Malpelo
+  title: Rosso Malpelo (in Vita dei campi, 1881)
+  publisher: Wikisource (it.wikisource.org)
+  genre: literature_public_domain
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 468
+    status: published
+- url: https://parconord.milano.it/regolamenti/il-regolamento-duso-del-parco/
+  title: Il regolamento d'uso del Parco" (artt. 7, 32, 41, 42 — excerpted as a park
+    sign)
+  publisher: Parco Nord Milano
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 106
+    status: published
+- url: 'https://portaleventi.it/ (compilazione di 6 realia: portaleventi.it; bct.comune.torino.it;
+    comune.pisa.it)'
+  title: 6 micro-testi funzionali (sagre/eventi, volontariato in biblioteca, volontariato
+    al canile)
+  publisher: 'vari: Portale Eventi; Biblioteche Civiche Torinesi; Comune di Pisa'
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 153
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/diario-di-viaggio-a-lione-4-giorni-tra-lalta-gastronomia-e-il-fascino-dei-due-fiumi.html
+  title: 'Diario di viaggio a Lione: 4 giorni tra l''alta gastronomia e il fascino
+    dei due fiumi'
+  publisher: Turisti per Caso (Redazione TPC)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 279
+    status: published
+- url: https://www.agriturismocomenavolta.it/chi-siamo/
+  title: Chi siamo
+  publisher: Agriturismo Come Na Volta (Breganze, VI)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 116
+    status: published
+- url: https://www.ansa.it/basilicata/notizie/2026/07/15/dal-reparto-di-ematologia-al-primo-libro-la-rinascita-di-maddalena-giordano_2c4e6c6a-5592-4799-92e4-8637b7a8a9dc.html
+  title: Dal reparto di Ematologia al primo libro, la rinascita di Maddalena Giordano
+  publisher: ANSA (edizione Basilicata)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 435
+    status: published
+- url: https://www.ansa.it/canale_saluteebenessere/notizie/stili_di_vita/2026/06/25/da-idratazione-a-farmaci-le-regole-per-affrontare-il-caldo_59ca3ab6-df7e-4f4f-910f-fe9b3e76d45e.html
+  title: Da idratazione a farmaci, le regole per affrontare il caldo
+  publisher: ANSA (Salute&Benessere)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 121
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/natura/2026/07/13/super-topi-in-grado-di-vivere-a-quota-7.000-metri-_60d0b0fc-dcdb-4ce2-be74-94cd66012384.html
+  title: Super topi in grado di vivere a quota 7.000 metri
+  publisher: ANSA (canale Scienza/Natura)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 244
+    status: published
+- url: https://www.ansa.it/canale_scienza/notizie/scienza_arte/2026/07/13/tracce-di-dna-raccontano-le-contaminazioni-recenti-della-sindone_a4f971b4-c693-4fa9-8b5d-7e35f11c8861.html
+  title: Tracce di Dna raccontano le contaminazioni recenti della Sindone
+  publisher: ANSA (canale Scienza e Tecnica)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 270
+    status: published
+- url: https://www.ansa.it/canale_terraegusto/notizie/regioni/campania/2026/07/17/dal-quartiere-sanita-alla-cucina-con-i-miei-piatti-ho-portato-napoli_ac38555f-031e-4cad-a12b-a9309e3cb5ca.html
+  title: Dal quartiere Sanità alla cucina, 'con i miei piatti ho portato Napoli nel
+    mondo'
+  publisher: ANSA (Campania)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 255
+    status: published
+- url: https://www.ansa.it/piemonte/notizie/2026/06/10/torino-quartiere-vallette-ha-di-nuovo-il-suo-mercato-coperto_5fcd5245-fad1-430b-9c64-8944847f9c7a.html
+  title: Torino, quartiere Vallette ha di nuovo il suo mercato coperto
+  publisher: ANSA (Piemonte)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 120
+    status: published
+- url: https://www.ansa.it/sicilia/notizie/2026/07/22/legittologo-zahi-hawass-e-ora-che-rosetta-e-nefertiti-siano-restituite_b9a6f076-6bfe-404f-97f6-81f8e23b0b0b.html
+  title: L'egittologo Zahi Hawass, "è ora che Rosetta e Nefertiti siano restituite
+  publisher: ANSA (edizione Sicilia; firma Alessandra Magliaro)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 231
+    status: published
+- url: https://www.ansa.it/toscana/notizie/2026/07/16/fa-la-maturita-a-82-anni-a-livorno-non-e-mai-tardi-per-studiare_5ce6cdf6-798c-40c6-b798-15be945e75ee.html
+  title: Fa la maturità a 82 anni a Livorno, 'non è mai tardi per studiare'
+  publisher: ANSA (Toscana), citando Il Tirreno
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 187
+    status: published
+- url: https://www.ansa.it/veneto/notizie/2026/03/02/pensionato-investe-300mila-euro-per-esporre-auto-depoca-nel-trevigiano_d9701ea8-19b2-43b0-b3e6-18df30069e26.html
+  title: Pensionato investe 300mila euro per esporre auto d'epoca nel Trevigiano
+  publisher: ANSA (Veneto)
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 118
+    status: published
+- url: https://www.comune.como.it/servizi/App-e-informazioni-sulla-raccolta-differenziata/
+  title: App e informazioni sulla raccolta differenziata
+  publisher: Comune di Como
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 93
+    status: published
+- url: https://www.comune.como.it/servizi/Iscrizione-ai-servizi-e-prestito-bibliotecario/
+  title: Iscrizione ai servizi e prestito bibliotecario
+  publisher: Comune di Como (scheda servizio comunale)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 332
+    status: published
+- url: https://www.comune.napoli.it/articolo_tematico/urbanistica-patrimonio-politiche-per-la-casa-cimiteri-cittadini/edilizia-privata/
+  title: Edilizia Privata — Avviso del 01/07/2026
+  publisher: Comune di Napoli
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 4
+    words: 186
+    status: published
+- url: https://www.comune.torino.it/novita/comunicati/riuso-sostenibilita-nasce-mercato-tematico-torino-green
+  title: 'Riuso e sostenibilità: nasce il mercato tematico ''Torino Green'''
+  publisher: Città di Torino (comunicato stampa)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 185
+    status: published
+- url: https://www.doppiozero.com/alberi-e-frutta-castagno
+  title: Alberi e frutta. Castagno
+  publisher: doppiozero
+  genre: opinion_essay
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 229
+    status: published
+- url: https://www.ilpost.it/2026/07/13/viaggiatori-estremi/
+  title: Quelli che viaggiano per competizione
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 380
+    status: published
+- url: https://www.ilpost.it/2026/07/16/testosterone-uomini-dimezzato/
+  title: Il testosterone degli uomini si è davvero dimezzato?
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 505
+    status: published
+- url: https://www.ilpost.it/2026/07/17/matematica-intelligenza-artificiale-progressi/
+  title: Le AI trasformano la matematica, se le convinci
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 287
+    status: published
+- url: https://www.ilpost.it/2026/07/20/timo-organo-utilita/
+  title: Nel corpo umano c'è un organo più utile di quanto si pensasse
+  publisher: Il Post
+  genre: news_general
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 596
+    status: published
+- url: https://www.museodarcomantova.it/biblioteca/regolamento
+  title: Regolamento di accesso — Biblioteca dei Conti d'Arco e Archivio, Museo di
+    Palazzo d'Arco
+  publisher: Fondazione d'Arco / Museo di Palazzo d'Arco, Mantova
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 507
+    status: published
+- url: https://www.museoscienzebergamo.it/visita/orari-e-tariffe/
+  title: Orari e Tariffe
+  publisher: Museo Civico di Scienze Naturali di Bergamo
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 122
+    status: published
+- url: https://www.parcoarcheologicoappiaantica.it/in-evidenza/nuove-modalita-di-accesso-ai-siti-del-parco-dal-1-luglio-2026/
+  title: Nuove modalità di accesso ai siti del Parco dal 1° luglio 2026
+  publisher: Parco Archeologico dell'Appia Antica (Ministero della Cultura)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 490
+    status: published
+- url: https://www.umbria24.it/cultura/perugia-le-biblioteche-comunali-portano-letture-e-laboratori-anche-nei-parchi-per-lestate-2026/
+  title: Perugia, le biblioteche comunali portano letture e laboratori anche nei parchi
+    per l'estate 2026
+  publisher: Umbria24
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 208
+    status: published

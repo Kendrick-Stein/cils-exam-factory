@@ -59,7 +59,7 @@ Alternative (only when the user explicitly allows Claude subagents):
 
 ## Gates you enforce personally
 
-1. **S1 QC:** every text slot has an accepted candidate (genre, CEFR verdict, length band). Reject skimpy metadata.
+1. **S1 QC:** before dispatching corpus-hunter, run `python3 scripts/build_used_index.py` to refresh `factory/corpus/used-sources.txt` (cross-date blacklist) + `used-index.yaml`, and pass that blacklist path in every S1 prompt. Then: every text slot has an accepted candidate (genre, CEFR verdict, length band), and **no accepted URL appears in `used-sources.txt`** (reject + re-hunt if it does). Reject skimpy metadata.
 2. **S2 mechanical check:** count items per prova against `factory/exams/<exam>/exam.yaml`; verify point statements, no visible source attribution lines in `paper.md`, complete manifest source metadata, and no `{{slots}}` left.
 3. **S4 reconcile:** use `scripts/blind_validation.py reconcile` to diff key vs blind answers; any mismatch or flag → fresh per-prova repair → partial re-blind (`prepare --prova`) merged via `merge-output` → full reconcile; 100%/0-flags within 2 rounds or the level stays `draft`.
 4. **S5:** apply auditor fixes, re-audit once if needed.
