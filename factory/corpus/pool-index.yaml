@@ -1,7 +1,22 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 31
+count: 48
 sources:
+- url: https://archibiblio.comune.ferrara.it/589/informazioni-e-orari
+  title: Biblioteca Gianni Rodari, Ferrara — orari
+  publisher: Comune di Ferrara (Servizio Biblioteche e Archivi)
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 77
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/05e11c810746.md
 - url: https://bct.comune.torino.it/comunicazioni/orari-e-servizi-nel-periodo-estivo-2026
   title: Orari e servizi delle Biblioteche civiche torinesi nel periodo estivo 2026
   publisher: Biblioteche Civiche Torinesi / Comune di Torino
@@ -266,6 +281,21 @@ sources:
   perishable_until: null
   fetch_intent: A1/harvest-trial
   source_file: factory/corpus/pool/b53a6ed7fd8b.md
+- url: https://www.comune.bolzano.bz.it/Vivere-il-comune/Luoghi/Biblioteca-Civica-C.-Battisti
+  title: Biblioteca civica Cesare Battisti, Bolzano — orario estivo
+  publisher: Comune di Bolzano
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 68
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/57b593bc3610.md
 - url: https://www.comune.genova.it/novita/avvisi/urp-avviso-al-pubblico
   title: URP - Avviso al pubblico
   publisher: Comune di Genova
@@ -312,6 +342,51 @@ sources:
   perishable_until: null
   fetch_intent: A1/harvest-trial
   source_file: factory/corpus/pool/8ee24150255b.md
+- url: https://www.comune.perugia.it/biblioteche-perugia-orario-apertura/
+  title: Biblioteche comunali di Perugia — orario estivo
+  publisher: Comune di Perugia
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 79
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/d1a832441932.md
+- url: https://www.comune.piacenza.it/it/news/tornano-gli-orari-estivi-delle-biblioteche-del-comune-di-piacenza
+  title: Biblioteca Passerini-Landi, Piacenza — orario estivo
+  publisher: Comune di Piacenza
+  published: '2026-06-29'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 71
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/666104fb9b77.md
+- url: https://www.comune.trento.it/Novita/Notizie/Biblioteca-dal-10-giugno-2026-in-vigore-l-orario-estivo-in-tutte-le-sedi
+  title: Biblioteca comunale di Trento — orario estivo
+  publisher: Comune di Trento
+  published: '2026-06-05'
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  words: 77
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/reharvest
+  source_file: factory/corpus/pool/8336a51be8f5.md
 - url: https://www.dissapore.com/ristoranti/come-cambiano-le-osterie-italiane/
   title: Come cambiano le osterie italiane?
   publisher: Dissapore
@@ -389,6 +464,67 @@ sources:
   perishable_until: null
   fetch_intent: C1/harvest-trial
   source_file: factory/corpus/pool/509af7ef2ebf.md
+- url: https://www.fanpage.it/innovazione/scienze/3i-atlas-avi-loeb-la-nasa-sbaglia-accelerazione-non-gravitazionale-diversa-dai-loro-calcoli/
+  title: '3I/ATLAS, Avi Loeb: la Nasa sbaglia, l''accelerazione non gravitazionale
+    è diversa dai loro calcoli'
+  publisher: Fanpage.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - C1
+  words: 655
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/f1f9fa9b397a.md
+- url: https://www.fanpage.it/innovazione/scienze/enorme-deposito-doro-scoperto-sul-fondale-del-giappone-concentrazioni-elevatissime-lo-studio-su-scientific-reports/
+  title: Enorme deposito d'oro scoperto sul fondale del Giappone
+  publisher: Fanpage.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 579
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/aca4068a42b5.md
+- url: https://www.focus.it/scienza/scienze/anatomia-di-un-chicco-di-grandine-come-nascono-i-mostri-di-ghiaccio-che-devastano-le-nostre-citta
+  title: 'Come si forma la grandine: la fisica dei chicchi e la crescita umida e secca'
+  publisher: Focus.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 594
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/4a57246f93da.md
+- url: https://www.focus.it/scienza/scienze/milano-cortina-2026-la-scienza-segreta-dietro-il-ruggito-del-curling-alle-olimpiadi-invernali
+  title: 'Milano-Cortina 2026: la scienza segreta dietro al fascino del curling alle
+    Olimpiadi invernali'
+  publisher: Focus.it
+  published: null
+  fetched: '2026-07-23'
+  genre: culture_science
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 506
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/d06ba84a5859.md
 - url: https://www.focusjunior.it/animali/5-cose-fondamentali-da-sapere-sugli-animali/
   title: 5 cose fondamentali da sapere sugli animali
   publisher: FocusJunior.it
@@ -421,6 +557,67 @@ sources:
   perishable_until: null
   fetch_intent: A2/harvest-trial
   source_file: factory/corpus/pool/b4441da2818e.md
+- url: https://www.focusjunior.it/news/animali-giraffe-sanno-fare-addizioni-studio/
+  title: Le giraffe sanno fare le addizioni, lo dice la scienza
+  publisher: FocusJunior.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_easy
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 518
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/60d3a24f1e64.md
+- url: https://www.focusjunior.it/scuola/7-consigli-per-finire-velocemente-i-compiti-delle-vacanze-senza-farli-sbagliati/
+  title: 7 consigli per finire velocemente i compiti delle vacanze (senza farli sbagliati!)
+  publisher: FocusJunior.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_easy
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 423
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/f6cb338ccb0d.md
+- url: https://www.gamberorosso.it/notizie/attualita/dopo-lomologazione-il-wine-bar-che-vorremmo-nel-2026/
+  title: 'Dopo l''omologazione: il wine bar che vorremmo nel 2026'
+  publisher: Gambero Rosso
+  published: null
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 482
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/6e4cc97dd290.md
+- url: https://www.gamberorosso.it/notizie/vino/vinitaly-2026-migliori-vini-degustati-10-etichette/
+  title: I dieci vini imperdibili assaggiati a Vinitaly 2026
+  publisher: Gambero Rosso
+  published: null
+  fetched: '2026-07-23'
+  genre: blogs_lifestyle
+  cefr: C1
+  usable_levels:
+  - C1
+  words: 685
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2C1/reharvest
+  source_file: factory/corpus/pool/3829840c7c75.md
 - url: https://www.media.inaf.it/2026/02/25/allineamento-pianeti-febbraio-2026/
   title: Pianeti come un filo di perle
   publisher: Media INAF (Albino Carbognani)
@@ -467,6 +664,54 @@ sources:
   perishable_until: null
   fetch_intent: B2/harvest-trial
   source_file: factory/corpus/pool/63a8e6ddeb3e.md
+- url: https://www.subito.it/arredamento-casalinghi/armadio-con-2-ante-specchio-e-3-con-sportelli-livorno-655035944.htm
+  title: Armadio con 2 ante specchio e 3 con sportelli
+  publisher: Subito.it
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 58
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/b7d2dc67ddc7.md
+- url: https://www.subito.it/arredamento-casalinghi/tavolo-in-legno-massello-con-6-sedie-udine-653661453.htm
+  title: Tavolo in legno massello con 6 sedie
+  publisher: Subito.it
+  published: null
+  fetched: '2026-07-23'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 104
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/f1d4c38c9838.md
+- url: https://www.today.it/animali/cani-che-vanno-d-accordo-con-gatti.html
+  title: Cani che vanno d'accordo con i gatti, sfatando ogni mito
+  publisher: Today.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 525
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/0672645abda0.md
 - url: https://www.today.it/attualita/ponti-2026.html
   title: 'Tutti i ponti del 2026: il calendario completo'
   publisher: Today.it
@@ -483,3 +728,19 @@ sources:
   perishable_until: null
   fetch_intent: A2/harvest-trial
   source_file: factory/corpus/pool/4a6c11ddaf83.md
+- url: https://www.today.it/meteo/quando-torna-caldo-3-4-5-luglio-2026.html
+  title: Quando e dove torna il caldo rovente, di nuovo
+  publisher: Today.it
+  published: null
+  fetched: '2026-07-23'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 421
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2B1/reharvest
+  source_file: factory/corpus/pool/2b6780cda7df.md
