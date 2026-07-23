@@ -1,0 +1,24 @@
+---
+url: https://www.doppiozero.com/possiamo-fare-meno-delle-monografie
+title: Possiamo fare a meno delle monografie?
+publisher: Doppiozero (Vanni Codeluppi)
+published: '2017-11-22'
+fetched: '2026-07-23'
+genre: opinion_essay
+cefr: C1
+usable_levels:
+- B2
+- C1
+words: 651
+perishable: false
+perishable_until: null
+fetch_intent: C1/harvest-trial
+---
+
+In questo periodo, si è scritto molto a proposito dell'anniversario della rivoluzione russa avvenuta nel 1917. Ma questo importante evento sociopolitico non avrebbe probabilmente avuto luogo se Karl Marx non avesse pubblicato esattamente cinquant'anni prima un saggio teorico fondamentale come il primo volume del Capitale. I saggi monografici rilevanti, infatti, possono modificare e addirittura sconvolgere il processo evolutivo delle società. Basti pensare, ad esempio, alla potente forza di cambiamento culturale e sociale manifestata da un saggio estremamente importante come L'interpretazione dei sogni di Sigmund Freud. Oppure a ciò che hanno causato altri innovativi saggi pubblicati tra gli anni Cinquanta e gli anni Sessanta del Novecento: Miti d'oggi di Roland Barthes, Apocalittici e integrati di Umberto Eco, Gli strumenti del comunicare di Marshall McLuhan.
+
+Un saggio monografico può dunque dare vita a una potente forza di cambiamento della società. L'evoluzione del pensiero scientifico ma anche della cultura sociale non ha potuto prescindere nella storia della modernità da questo strumento di elaborazione teorica. Eppure oggi stiamo progressivamente rinunciando a tale strumento. È in atto cioè una vera e propria rivoluzione. Si tratta di una rivoluzione silenziosa, eppure è comunque una rivoluzione. D'altronde, è noto come spesso le rivoluzioni silenziose siano quelle più radicali ed efficaci, perché nascoste e invisibili. Che cosa sta succedendo? Le università italiane stanno abbandonando quel modello di produzione culturale basato sulla monografia che per molto tempo è stato per esse centrale. Le regole di valutazione del lavoro di ricerca svolto dai docenti stabilite negli ultimi anni dal Ministero dell'Università e dall'ANVUR stanno progressivamente indebolendo il valore attribuito alle monografie. Già oggi agli articoli pubblicati su riviste scientifiche classificate nella cosiddetta "fascia A" viene attribuito un maggior valore delle monografie. Ma è evidente che tali articoli richiedono agli studiosi un lavoro decisamente inferiore a quello richiesto per la realizzazione di una monografia. Un articolo infatti ha mediamente una lunghezza che corrisponde a circa un decimo delle pagine di un saggio monografico. Non consente pertanto di sviluppare un'analisi e un'argomentazione così approfondite come quelle che caratterizzano tale saggio.
+
+Ciò non comporta che un saggio rivoluzionario debba necessariamente essere voluminoso. Un testo come La moda di Georg Simmel è lungo una cinquantina di pagine, eppure, dopo più di un secolo dalla sua pubblicazione, costituisce ancora oggi il punto di riferimento fondamentale della riflessione teorica sulla moda. E un altro lavoro di un centinaio di pagine – Produzione di merci a mezzo di merci di Piero Sraffa – ha rivoluzionato a sua volta nel Novecento la concezione dominante nella teoria economica. Quello che conta è che l'autore di un saggio sia libero di strutturare il suo lavoro con la massima libertà, per poter esprimere al meglio il suo pensiero. Invece, un articolo di una rivista scientifica ha per il suo autore un margine di libertà decisamente limitato, perché il suo contenuto dev'essere fatto rientrare all'interno di un format internazionale che è stato da tempo rigidamente normato. Si perde pertanto anche quella capacità di dare spazio a un pensiero innovativo che un saggio scientifico può avere. Come ha scritto cioè il filosofo Roberto Esposito sulla rivista L'Espresso, «Ve li immaginate, per restare nel campo della filosofia, Habermas e Derrida che cercano le riviste di fascia A per scrivere dodici articoletti?». Ve li immaginate cioè due giganti del pensiero come questi che rinunciano a esprimere in una monografia la forza dirompente della loro innovativa capacità di riflessione per fare rientrare quest'ultima all'interno del tipico format che caratterizza una rivista scientifica internazionale?
+
+La questione della progressiva scomparsa del modello della monografia dal nostro scenario culturale sembra interessare poco oggi, eppure è della massima importanza. È vero che viviamo all'interno dell'era della comunicazione iperveloce del web, ma dobbiamo comunque chiederci se come società possiamo permetterci di rinunciare a quell'approfondimento e a quella riflessione che il modello del saggio ci consente di sviluppare. Se possiamo cioè permetterci di produrre un significativo indebolimento della nostra capacità di produrre cultura.
