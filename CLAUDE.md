@@ -33,6 +33,10 @@ User directive (2026-07-08): **Claude Code only plans, gates, owns manifests, bu
 | `factory/validation/checklist.md` | Quality gates |
 | `scripts/assemble_paper.py` | Merges per-prova `fragments/*.json` into `paper.md` + `answers.md` + `key.json` (no LLM) |
 | `scripts/build_used_index.py` | Rebuilds `factory/corpus/used-index.yaml` + `used-sources.txt` from every manifest — run at S1 for cross-date source de-dup |
+| `scripts/pool_add.py` | Banks one graded, cleaned text into `factory/corpus/pool/<id>.md` (S1 over-fetch) |
+| `scripts/build_pool_index.py` | Catalogues `pool/*.md` → `pool-index.yaml` + coverage; `--prune` drops consumed/stale |
+| `scripts/pool_select.py` | Queries the pool for a slot (level+genre+length, minus consumed/stale) |
+| `factory/corpus/pool/` | Standing pool of graded authentic texts (full cleaned text + front-matter) |
 | `scripts/format_audit.py` | Deterministic paper-format, section-order, leakage and key-file audit |
 | `scripts/paper_quality_audit.py` | Deterministic official-style, difficulty, length and cross-level reuse audit |
 | `scripts/build_site.py` | `papers/` → `docs/` (PDF only + index; HTML is a render intermediate); `docs/` is the GitHub Pages root |
