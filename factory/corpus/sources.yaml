@@ -14,6 +14,13 @@ rules:
     B2: {main: [400, 600], micro: [60, 120]}
     C1: {main: [500, 700], micro: [80, 150]}
 
+# Perishability windows (months) per genre — pool_select drops perishable texts past
+# their window (or their explicit perishable_until). Genres absent here are evergreen.
+freshness:
+  news_general: 12
+  news_easy: 12
+  practical_realia: 6
+
 sources:
   news_general:
     - {site: ansa.it, note: "agenzia, testi brevi e fattuali — ottimi B1/B2; no paywall"}
@@ -28,6 +35,8 @@ sources:
     - {site: focus.it, note: "divulgazione scientifica B2/C1"}
     - {site: wired.it, note: "tecnologia/società B2/C1; verificare accesso"}
     - {site: nationalgeographic.it, note: "ambiente/viaggi B2/C1"}
+    - {site: media.inaf.it, note: "astrofisica INAF — divulgazione scientifica B2/C1"}
+    - {site: cnr.it, note: "comunicati di ricerca CNR — B2/C1"}
   opinion_essay:
     - {site: ilpost.it, note: "editoriali e analisi C1"}
     - {site: internazionale.it, note: "opinioni/reportage C1; alcuni tradotti — preferire firme italiane"}
@@ -38,13 +47,19 @@ sources:
   practical_realia:
     - {site: giallozafferano.it, note: "ricette: istruzioni A2/B1"}
     - {site: trenitalia.com, note: "avvisi/orari/regole di viaggio A1/A2"}
-    - {site: comune.bologna.it / comune.milano.it / altri comuni, note: "avvisi ai cittadini, servizi — regolativo A2/B1"}
-    - {site: beniculturali.it / siti di musei (uffizi.it, museiincomuneroma.it), note: "orari/biglietti/visite A2/B1"}
+    - {site: "comune.<città>.it (torino, modena, parma, genova, roma, firenze, venezia, como, ravenna…)", note: "avvisi/servizi/comunicati comunali — regolativo A2/B1"}
+    - {site: "biblioteche comunali (bibliotecasalaborsa.it, biblioteche.comune.verona.it)", note: "orari/servizi/prestito — realia A2/B1"}
+    - {site: "musei e cultura (beniculturali.it, uffizi.it, museiincomuneroma.it, cultura.gov.it, italia.it, visittrentino.info)", note: "orari/biglietti/eventi culturali A2/B1"}
     - {site: subito.it, note: "annunci (case, lavoro, usato) — micro-testi A1/A2; anonimizzare i contatti"}
     - {site: eventbrite.it / siti di sagre e festival, note: "programmi di eventi A2/B1"}
   blogs_lifestyle:
     - {site: dissapore.com, note: "cibo/costume B1/B2"}
     - {site: viaggiapiccoli.com / blog di viaggio italiani, note: "racconti di viaggio B1/B2"}
+    - {site: turistipercaso.it, note: "diari di viaggio — B1/B2"}
+    - {site: camminiditalia.org, note: "racconti di cammini/trekking — B1/B2"}
+    - {site: bimbieviaggi.it, note: "viaggi in famiglia — B1/B2"}
+    - {site: mountainblog.it, note: "montagna/outdoor — B1/B2"}
+    - {site: gamberorosso.it, note: "cibo/gastronomia — B1/B2"}
 
 levels:
   A1:
