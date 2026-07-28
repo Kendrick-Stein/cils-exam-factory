@@ -1,7 +1,7 @@
 generated_by: scripts/build_used_index.py
 note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
   not edit by hand — regenerate.
-unique_sources: 372
+unique_sources: 403
 sources:
 - url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
   title: Bruschetta al pomodoro fresco
@@ -23,7 +23,7 @@ sources:
 - url: https://camminiditalia.org/oltre-la-comfort-zone-vi-racconto-la-mia-via-degli-dei/
   title: Oltre la comfort zone — Vi racconto la mia Via degli Dei
   publisher: Cammini d'Italia
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -178,7 +178,7 @@ sources:
 - url: https://www.bibliotecasalaborsa.it/
   title: Biblioteca Salaborsa — presentazione
   publisher: Biblioteca Salaborsa (Bologna)
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -195,7 +195,7 @@ sources:
 - url: https://www.bibliotecasalaborsa.it/documents/prestito
   title: Prendere in prestito
   publisher: Biblioteca Salaborsa, Bologna
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -212,7 +212,7 @@ sources:
 - url: https://www.bibliotecasalaborsa.it/events/salaborsa_dal_1_luglio
   title: Avviso servizi studio e prestito
   publisher: Biblioteca Salaborsa (Bologna)
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -229,7 +229,7 @@ sources:
 - url: https://www.bibliotecasalaborsa.it/ragazzi/news/estate-2026-gli-orari-di-salaborsa-ragazzi
   title: Estate 2026 | Gli orari di Salaborsa Ragazzi
   publisher: Biblioteca Salaborsa Ragazzi, Bologna
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -246,7 +246,7 @@ sources:
 - url: https://www.comune.bologna.it/novita/comunicati-stampa/bologna-estate-colora-la-citta
   title: Bologna Estate colora la città
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -264,7 +264,7 @@ sources:
   title: 'L''estate non ferma le attività per ragazze e ragazzi di Bologna: arriva
     il maxi-calendario dei centri Cresco'
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -446,7 +446,7 @@ sources:
 - url: https://www.museiincomuneroma.it/it/didattica/notturno-con-la-scienza-0
   title: Notturno con la scienza
   publisher: Musei in Comune Roma
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -463,7 +463,7 @@ sources:
 - url: https://www.museiincomuneroma.it/it/infopage/museo-civico-di-zoologia
   title: Museo Civico di Zoologia — orari e biglietti
   publisher: Musei in Comune Roma
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -481,7 +481,7 @@ sources:
   title: Domenica 1° febbraio 2026 ingresso gratuito nei musei civici e siti archeologici
     di Roma
   publisher: Musei in Comune Roma
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-08'
   times_used: 2
   uses:
@@ -640,7 +640,7 @@ sources:
 - url: https://www.comune.bologna.it/amministrazione/concorsi-avvisi-bandi/avvisi-pubblici/contributi-progetti-di-promozione-culturale-anno-2026
   title: Contributi per progetti di promozione culturale - Anno 2026
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: 2026-07-08-r2
   times_used: 2
   uses:
@@ -681,7 +681,7 @@ sources:
 - url: https://camminiditalia.org/cammino-di-oropa-in-solitaria/
   title: 'Cammino di Oropa in solitaria: il diario di Silvia tra vesciche e meraviglia'
   publisher: Cammini d'Italia
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-09'
   times_used: 1
   uses:
@@ -693,7 +693,7 @@ sources:
 - url: https://camminiditalia.org/grande-traversata-elbana/
   title: Il cammino di Irene e Luca nel cuore selvaggio dell'isola d'Elba
   publisher: Cammini d'Italia
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-09'
   times_used: 1
   uses:
@@ -849,7 +849,7 @@ sources:
 - url: https://www.bibliotecasalaborsa.it/documents/05-01-introduzione-generale-ai-servizi
   title: Carta dei servizi — Introduzione generale ai servizi
   publisher: Biblioteca Salaborsa / Biblioteche del Comune di Bologna
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-09'
   times_used: 1
   uses:
@@ -861,7 +861,7 @@ sources:
 - url: https://www.bibliotecasalaborsa.it/events/le_novit_del_prestito
   title: Le novità del prestito (estate)
   publisher: Biblioteca Salaborsa (Bologna)
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-09'
   times_used: 1
   uses:
@@ -1162,7 +1162,7 @@ sources:
   title: 'Il cuore verde d''Italia: cosa vedere in un viaggio di 4 giorni in Umbria
     (Civita di Bagnoregio)'
   publisher: Turisti per Caso
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-10'
   times_used: 1
   uses:
@@ -1278,7 +1278,7 @@ sources:
 - url: https://www.comune.bologna.it/novita/comunicati-stampa/da-oggi-riapre-bologna-il-parcheggio-pubblico-piazza-del-mercato-rionale-s-viola-si-chiamera
   title: Riapre il parcheggio pubblico S. Viola
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-10'
   times_used: 1
   uses:
@@ -1290,7 +1290,7 @@ sources:
 - url: https://www.comune.bologna.it/novita/comunicati-stampa/parchi-movimento-2026
   title: Parchi in Movimento 2026
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-10'
   times_used: 1
   uses:
@@ -1302,7 +1302,7 @@ sources:
 - url: https://www.comune.bologna.it/novita/comunicati-stampa/piazza-lucio-dalla-ospitera-il-mercato-di-campi-aperti-del-giovedi
   title: Piazza Lucio Dalla ospiterà il mercato di Campi Aperti del giovedì
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-10'
   times_used: 1
   uses:
@@ -1750,7 +1750,7 @@ sources:
 - url: https://www.media.inaf.it/2026/06/30/galassia-andromeda-xxxvi/
   title: Galassia quasi invisibile racconta l'alba dell'universo
   publisher: Media INAF (notiziario dell'Istituto Nazionale di Astrofisica)
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-13'
   times_used: 1
   uses:
@@ -1956,7 +1956,7 @@ sources:
 - url: https://servizi.comune.milano.it/documents/20121/363121948/AVVISO_PUBBLICO_premio_Milano_Donna_2026_timbrato.pdf/affcdaeb-eb68-baac-c8ec-dd63b5c9b129?t=1782413091284
   title: Avviso pubblico Premio Milano Donna 2026
   publisher: Comune di Milano, Municipio 4
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2054,7 +2054,7 @@ sources:
   publisher: 'Bimbi e Viaggi (off-whitelist: blog di viaggio italiano autentico, gratuito
     e direttamente accessibile; scelto per il raro racconto in prima persona con passato
     prossimo)'
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2066,7 +2066,7 @@ sources:
 - url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=69d7588634a5a6009a5a0c6a
   title: Iscrizione ai Centri estivi 2026 — domanda fuori bando
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2078,7 +2078,7 @@ sources:
 - url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=6a02eaa558e8490097e0637d
   title: Bando migliorie MAG.-GIU 2026
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2090,7 +2090,7 @@ sources:
 - url: https://www.comune.bologna.it/novita/comunicati-stampa/bologna-estate-consiglia-8-0
   title: 'Bologna Estate consiglia #8 — LookAp nel sottobosco'
   publisher: 'Comune di Bologna (whitelist: comuni)'
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2104,7 +2104,7 @@ sources:
     progetto che finanzia le idee dei ragazzi e delle ragazze di Bologna tra gli 11
     e i 20 anni
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2116,7 +2116,7 @@ sources:
 - url: https://www.comune.bologna.it/novita/comunicati-stampa/nasce-la-lucioteca-punto-biblioteca-e-spazio-la-lettura-la-narrazione-e-la-produzione-culturale
   title: Nasce la LucioTeca — orari e servizi
   publisher: 'Comune di Bologna (whitelist: comuni; pagina di servizio culturale)'
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2214,7 +2214,7 @@ sources:
 - url: https://www.museiincomuneroma.it/it/informazioni_pratiche/orari_e_indirizzi
   title: Informazioni pratiche — Museo delle Mura
   publisher: 'Musei in Comune Roma (whitelist: siti di musei)'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2226,7 +2226,7 @@ sources:
 - url: https://www.museiincomuneroma.it/it/notizie/domenica-5-luglio-ingresso-gratuito-nei-musei-civici-e-nei-siti-archeologici-di-roma
   title: Il 5 luglio ingresso gratuito nei musei civici e siti archeologici
   publisher: 'Musei in Comune Roma (whitelist: siti di musei)'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2238,7 +2238,7 @@ sources:
 - url: https://www.museiincomuneroma.it/sites/default/files/f_file/1.%20CS_LA%20NOTTE%20DEI%20MUSEI%202026%20%20.pdf
   title: Museo Casa di Goethe
   publisher: Musei in Comune Roma
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2337,7 +2337,7 @@ sources:
   title: La corsa quantistica dell’Italia inciampa prima di partire. Quantum manca
     alla strategia nazionale per competere davvero
   publisher: Wired Italia
-  genre: culture_science
+  genre: off-whitelist
   first_used: '2026-07-14'
   times_used: 1
   uses:
@@ -2350,7 +2350,7 @@ sources:
   title: Sabato agli Audio. Appuntamenti nei mesi di marzo e aprile
   publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
     realia)'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2363,7 +2363,7 @@ sources:
   title: Visite guidate per adulti in Biblioteca Civica
   publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
     realia)'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2376,7 +2376,7 @@ sources:
   title: Un mondo di parole - Letture bilingui ad alta voce
   publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
     realia)'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2389,7 +2389,7 @@ sources:
   title: Missione scienza, laboratori per bambini
   publisher: 'Biblioteche del Comune di Verona (whitelist: altri comuni / practical
     realia)'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2417,7 +2417,7 @@ sources:
   publisher: 'Direzione Generale Creatività Contemporanea, Ministero della Cultura
     — off-whitelist: bando nazionale ufficiale, autentico, gratuito e direttamente
     adatto al genere regolativo C1'
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2707,7 +2707,7 @@ sources:
   publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist:
     comunicazione scientifica primaria di ente pubblico, libera e con licenza di riutilizzo
     esplicitamente indicata'
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2768,7 +2768,7 @@ sources:
 - url: https://www.wired.it/article/caffe-a-ultrasuoni-che-si-prepara-senza-acqua-calda/
   title: Il caffè a ultrasuoni che si prepara senza bisogno di acqua calda
   publisher: Wired Italia
-  genre: culture_science
+  genre: off-whitelist
   first_used: '2026-07-15'
   times_used: 1
   uses:
@@ -2872,7 +2872,7 @@ sources:
 - url: https://turistipercaso.it/diari-di-viaggio/sant-antioco-2.html
   title: Sant’Antioco, solo verde e blu
   publisher: Turisti per Caso
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-16'
   times_used: 1
   uses:
@@ -2995,7 +2995,7 @@ sources:
   title: 'Giardino dei Cinque Sensi a Licenza: un parco dove la natura si tocca, si
     annusa e si ascolta'
   publisher: Italia.it — portale ufficiale del turismo italiano
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-16'
   times_used: 1
   uses:
@@ -3009,7 +3009,7 @@ sources:
   publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist
     justification: fonte scientifica primaria di ente pubblico, accesso libero e testo
     rilasciato con licenza CC BY-NC-SA 3.0 Italia'
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-16'
   times_used: 1
   uses:
@@ -3023,7 +3023,7 @@ sources:
   publisher: 'Media INAF, notiziario dell’Istituto Nazionale di Astrofisica — off-whitelist
     justification: fonte scientifica primaria di ente pubblico, gratuita e con licenza
     CC BY-NC-SA 3.0 Italia'
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-16'
   times_used: 1
   uses:
@@ -3049,7 +3049,7 @@ sources:
 - url: https://www.mountainblog.it/experience-news/uganda-alla-ricerca-dei-gorilla-il-diario-di-bordo-di-carlo-mamberto/
   title: 'Uganda, alla ricerca dei gorilla: il diario di bordo di Carlo Mamberto'
   publisher: MountainBlog
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-16'
   times_used: 1
   uses:
@@ -3184,7 +3184,7 @@ sources:
 - url: https://www.visittrentino.info/it/dove-dormire/cerca-prenota/HOTEL-CAMPAGNOLA-hotel-Riva-del-Garda_ad-36789355
   title: Hotel Campagnola — Informazioni
   publisher: Visit Trentino / Trentino Marketing
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-16'
   times_used: 1
   uses:
@@ -3210,7 +3210,7 @@ sources:
 - url: https://cultura.gov.it/evento/luglio-2026-al-museo-nazionale-archeologia-del-mare-di-caorle
   title: Luglio 2026 al Museo nazionale di archeologia del Mare di Caorle
   publisher: Ministero della Cultura
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3222,7 +3222,7 @@ sources:
 - url: https://direzionemuseiroma.cultura.gov.it/domenicalmuseo-5-luglio/
   title: '#domenicalmuseo – 5 luglio'
   publisher: Direzione Musei nazionali della città di Roma
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3310,7 +3310,7 @@ sources:
 - url: https://turistipercaso.it/diari-di-viaggio/abbiamo-scelto-il-camper-per-visitare-la-toscana-e-in-5-giorni-ci-e-sembrato-di-vivere-un-viaggio-che-dura-una-vita-intera.html
   title: 'Fiume, pietra e cielo aperto: il SentierElsa'
   publisher: Turisti per Caso
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3323,7 +3323,7 @@ sources:
   title: 'La crociera più fredda al mondo: ecco come abbiamo passato 11 giorni tra
     iceberg, ghiacciai e fiordi'
   publisher: Turisti per Caso
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3361,7 +3361,7 @@ sources:
   title: Isole di calore urbane, fino a 4°C in meno con riforestazione e depavimentazioni,
     Roma e Firenze lo dimostrano
   publisher: Consiglio Nazionale delle Ricerche
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3373,7 +3373,7 @@ sources:
 - url: https://www.comune.bologna.it/myportal/C_A944/api/content/download?id=694513521c18a7009c4fd8db
   title: Scadenza carta d’identità cartacea
   publisher: Comune di Bologna
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3397,7 +3397,7 @@ sources:
 - url: https://www.comune.milano.it/aree-tematiche/verde/verde-pubblico/parchi-cittadini/parco-trapezio-santa-giulia
   title: Parco Trapezio Santa Giulia
   publisher: Comune di Milano
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3508,7 +3508,7 @@ sources:
 - url: https://www.italia.it/it/friuli-venezia-giulia/udine/cosa-fare/evento-sauriis-in-festa
   title: Sauris in festa 2026 – Festa del prosciutto
   publisher: Italia.it
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3520,7 +3520,7 @@ sources:
 - url: https://www.media.inaf.it/2026/04/20/cpt-gravity/
   title: Segnali da (o verso) una regione CPT-simmetrica?
   publisher: MEDIA INAF
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3629,7 +3629,7 @@ sources:
 - url: https://www.visittrentino.info/it/dove-dormire/cerca-prenota/AGRITUR-CIASTEL-agriturismo-Sanzeno_ad-37239732
   title: Agritur Ciastel
   publisher: Visit Trentino / Trentino Marketing
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3641,7 +3641,7 @@ sources:
 - url: https://www.wired.it/article/le-grandi-scimmie-ridono-come-noi-da-quindici-milioni-di-anni/
   title: Le grandi scimmie ridono come noi da quindici milioni di anni
   publisher: Wired Italia
-  genre: culture_science
+  genre: off-whitelist
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3653,7 +3653,7 @@ sources:
 - url: https://www2.comune.milano.it/web/museo-archeologico-milano/-/campus-2026-un-estate...mitica?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_viewSingleAsset=true&redirect=%2Fweb%2Fmuseo-archeologico-milano%2Fmostre_eventi%2Fdettaglio-evento%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_cur%3D1%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_delta%3D20%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_assetEntryId%3D343916709
   title: Campus 2026 | un’estate... mitica!
   publisher: Civico Museo Archeologico di Milano / Comune di Milano
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-17'
   times_used: 1
   uses:
@@ -3729,7 +3729,7 @@ sources:
 - url: https://servizi.comune.milano.it/en/dettaglio-contenuto/-/asset_publisher/pqxq/content/apl-c-2026-8-posti
   title: APL C. 2026 — selezione pubblica per 8 posti di Agente di Polizia Locale
   publisher: Comune di Milano
-  genre: practical_realia
+  genre: off-whitelist
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -3766,7 +3766,7 @@ sources:
 - url: https://www.bimbieviaggi.it/weekend-in-puglia-salento-in-primavera/
   title: 'Weekend on the road in Puglia: Salento in primavera… e non solo!'
   publisher: Bimbi e Viaggi
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -3779,7 +3779,7 @@ sources:
   title: 'Scuola e Ricerca a Ischia: il CNR alla prima conferenza nazionale sul public
     engagement'
   publisher: Consiglio Nazionale delle Ricerche
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -3892,7 +3892,7 @@ sources:
   title: “Redzepi ha chiesto scusa, spero non ci siano conseguenze”. Raffaele Alajmo
     sul caso Noma
   publisher: Gambero Rosso
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -3916,7 +3916,7 @@ sources:
 - url: https://www.italia.it/it/lazio/cosa-fare/borgo-di-orte
   title: Il borgo di Orte affacciato sul Tevere
   publisher: Italia.it
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -3941,7 +3941,7 @@ sources:
 - url: https://www.media.inaf.it/2026/07/15/stima-rischio-tempeste-solari/
   title: 'Tempeste solari: stiamo sottostimando i rischi?'
   publisher: MEDIA INAF
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -4074,7 +4074,7 @@ sources:
   title: Un nuovo modello matematico ipotizza che la popolazione mondiale potrebbe
     dimezzarsi nel 2064
   publisher: Wired Italia
-  genre: culture_science
+  genre: off-whitelist
   first_used: '2026-07-18'
   times_used: 1
   uses:
@@ -4123,7 +4123,7 @@ sources:
 - url: https://cultura.gov.it/eventi/cerca-evento
   title: Eventi — lista degli eventi visitabili il 19 luglio 2026
   publisher: Ministero della Cultura
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4135,7 +4135,7 @@ sources:
 - url: https://cultura.gov.it/evento/effetto-notte-dal-17-al-26-luglio-2026
   title: Effetto Notte — dal 17 al 26 luglio 2026
   publisher: Ministero della Cultura
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4333,7 +4333,7 @@ sources:
   title: '«I nostri ristoranti stanno diventando noiosi»: Gennaro Esposito sul fine
     dining'
   publisher: Gambero Rosso
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4345,7 +4345,7 @@ sources:
 - url: https://www.italia.it/it/marche/cosa-fare/evento-summer-jamboree-2026
   title: Summer Jamboree 2026
   publisher: Italia.it / ENIT
-  genre: off-whitelist
+  genre: practical_realia
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4357,7 +4357,7 @@ sources:
 - url: https://www.media.inaf.it/2026/07/16/atmosfera-lhs-1140b/
   title: Roccioso, in zona abitabile e con atmosfera
   publisher: MEDIA INAF
-  genre: off-whitelist
+  genre: culture_science
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4369,7 +4369,7 @@ sources:
 - url: https://www.mountainblog.it/experience-news/avventura-in-eritrea-diario-di-bordo-di-angela-gemignani-parte-1/
   title: 'Avventura in Eritrea: diario di bordo di Angela Gemignani (parte 1)'
   publisher: MountainBlog
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4442,7 +4442,7 @@ sources:
   title: Arrivano i primi orologi nucleari, ecco come potrebbero cambiare il modo
     in cui misuriamo il tempo
   publisher: Wired Italia
-  genre: culture_science
+  genre: off-whitelist
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4454,7 +4454,7 @@ sources:
 - url: https://www.wired.it/article/perche-torino-buio-quando-arriva-caldo-anomalo-ondate-calore-fanno-saltare-rete-elettrica/
   title: Perché Torino resta al buio quando arriva il caldo anomalo
   publisher: Wired Italia
-  genre: culture_science
+  genre: off-whitelist
   first_used: '2026-07-19'
   times_used: 1
   uses:
@@ -4554,7 +4554,7 @@ sources:
   title: 'Diario di viaggio a Lione: 4 giorni tra l''alta gastronomia e il fascino
     dei due fiumi'
   publisher: Turisti per Caso (Redazione TPC)
-  genre: off-whitelist
+  genre: blogs_lifestyle
   first_used: '2026-07-22'
   times_used: 1
   uses:
@@ -4841,4 +4841,386 @@ sources:
     level: B2
     prova: Analisi delle strutture di comunicazione, Prova n. 3
     words: 208
+    status: published
+- url: https://archibiblio.comune.ferrara.it/589/informazioni-e-orari
+  title: Biblioteca Gianni Rodari, Ferrara — orari
+  publisher: Comune di Ferrara (Servizio Biblioteche e Archivi)
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 63
+    status: published
+- url: https://bct.comune.torino.it/comunicazioni/orari-e-servizi-nel-periodo-estivo-2026
+  title: Orari e servizi delle Biblioteche civiche torinesi nel periodo estivo 2026
+  publisher: Biblioteche Civiche Torinesi / Comune di Torino
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 96
+    status: published
+- url: https://blog.giallozafferano.it/allacciateilgrembiule/crostata-di-mele/
+  title: Crostata di mele
+  publisher: 'GialloZafferano (blog: Allacciate il Grembiule)'
+  genre: practical_realia
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 177
+    status: published
+- url: https://blog.giallozafferano.it/danielerossichef/pasta-al-pomodoro/
+  title: Pasta al pomodoro
+  publisher: 'GialloZafferano (blog: Daniele Rossi Chef)'
+  genre: practical_realia
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 112
+    status: published
+- url: https://camminiditalia.org/laura-e-il-suo-cammino-del-salento/
+  title: 'Laura e il suo Cammino del Salento: tra sogni, destino e scoperte'
+  publisher: Cammini d'Italia (camminiditalia.org)
+  genre: blogs_lifestyle
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 388
+    status: published
+- url: https://camminiditalia.org/martina-e-la-sua-via-degli-dei-in-tenda/
+  title: 'Martina e la sua Via degli Dei in tenda: partire da sola, arrivare insieme
+    (estratto: tappa 01)'
+  publisher: Cammini d'Italia
+  genre: blogs_lifestyle
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 276
+    status: published
+- url: https://cultura.comune.firenze.it/pagina/orari-e-contatti
+  title: Orari e contatti — Biblioteca delle Oblate
+  publisher: Comune di Firenze (Biblioteche comunali fiorentine)
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 181
+    status: published
+- url: https://it.wikisource.org/wiki/Naufraghi_in_porto/Capitolo_I
+  title: Naufraghi in porto - Capitolo I
+  publisher: Wikisource (Grazia Deledda, 1920)
+  genre: literature_public_domain
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 460
+    status: published
+- url: https://it.wikisource.org/wiki/Vita_dei_campi_(1897)/Fantasticheria
+  title: Fantasticheria" (in *Vita dei campi*, 1880/1897)
+  publisher: Giovanni Verga — testo di pubblico dominio, edizione Wikisource
+  genre: literature_public_domain
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 211
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/tour-della-sicilia-diario-di-bordo.html
+  title: 'Tour della Sicilia: diario di bordo'
+  publisher: Turisti per Caso
+  genre: blogs_lifestyle
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 97
+    status: published
+- url: https://www.ansa.it/abruzzo/notizie/2026/07/22/a-pescara-tornano-i-fuochi-artificiali-per-la-festa-di-santandrea_6ee4ea0c-9df9-4efc-b8c8-d0acfcb12d40.html
+  title: A Pescara tornano i fuochi artificiali per la Festa di Sant'Andrea
+  publisher: ANSA (Abruzzo)
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 186
+    status: published
+- url: https://www.ansa.it/molise/notizie/2026/07/21/miranda-borgo-del-tartufo-dal-23-al-27-luglio_584b1a79-45c2-4fe1-af3d-42e029b032d9.html
+  title: Miranda "Borgo del Tartufo" dal 23 al 27 luglio
+  publisher: ANSA (Molise)
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 218
+    status: published
+- url: https://www.ansa.it/sito/notizie/cronaca/2026/07/22/due-indagati-per-il-furto-delle-fiale-di-fentanyl-a-roma_3ab566db-8f58-4148-8832-d6b8233c558c.html
+  title: Furto di Fentanyl in ospedale a Roma, indagati due custodi
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 161
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/teatro/2026/07/25/paolo-ruffini-faccio-commuovere-lirriverenza-ha-cambiato-pelle_91ffcb4d-64b5-4816-acce-6d9e2c102907.html
+  title: Paolo Ruffini, 'Faccio commuovere, l'irriverenza ha cambiato pelle'
+  publisher: ANSA (di Alessandra Magliaro, ospite di Nicola Timpone al Marateale 2026)
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 175
+    status: published
+- url: https://www.comune.campobellodilicata.ag.it/it/news/divieto-di-accensione-delle-stoppie-e-di-altri-fuochi-dal-15-maggio-al-31-ottobre-2026
+  title: Avviso a tutta la cittadinanza. Il Sindaco avvisa che è assolutamente vietata
+    l'accensione delle stoppie e di altri fuochi, dal 15 maggio al 31 ottobre 2026
+  publisher: Comune di Campobello di Licata (AG)
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 4
+    words: 160
+    status: published
+- url: https://www.comune.chianciano-terme.siena.it/notizie/Borse-di-studio--IOSTUDIO--Miur---A.S.-2025-2026---Avviso-pubblico.html
+  title: Borse di studio 'IOSTUDIO' Miur - A.S. 2025/2026 - Avviso pubblico
+  publisher: Comune di Chianciano Terme (SI)
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 483
+    status: published
+- url: 'https://www.comune.genova.it/novita/avvisi/urp-avviso-al-pubblico (compilazione
+    di 6 realia: comune.genova.it; comune.ravenna.it; subito.it; comune.bergamo.it;
+    comune.bolzano.bz.it; comune.napoli.it)'
+  title: 6 micro-testi funzionali (avvisi comunali, sportello sociale, annuncio, biblioteche)
+  publisher: 'vari: Comune di Genova; Comune di Ravenna; Subito.it; Comune di Bergamo;
+    Comune di Bolzano; Comune di Napoli'
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 300
+    status: published
+- url: https://www.comune.riccione.rn.it/it/news/stagione-balneare-2026-al-via-macedonia-in-vendita-in-spiaggia-nuove-date-per-il-salvataggio-e-stop-al-fumo-sulla-battigia
+  title: 'Stagione balneare 2026 al via: macedonia in vendita in spiaggia, nuove date
+    per il salvataggio e stop al fumo sulla battigia'
+  publisher: Comune di Riccione (comunicato ufficiale/sito istituzionale)
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 353
+    status: published
+- url: https://www.dissapore.com/ristoranti/nei-panni-degli-chef-voi-come-vivreste-se-il-vostro-lavoro-venisse-giudicato-ogni-giorno/
+  title: 'Nei panni degli chef: voi come vivreste se il vostro lavoro venisse giudicato
+    ogni giorno?'
+  publisher: Dissapore
+  genre: blogs_lifestyle
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 195
+    status: published
+- url: https://www.doppiozero.com/brian-dillon-e-larte-del-saggio-perfetto
+  title: Brian Dillon e l'arte del saggio perfetto
+  publisher: Doppiozero (Mario Barenghi)
+  genre: opinion_essay
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 558
+    status: published
+- url: https://www.doppiozero.com/materiali/insegnare-luniversita-in-forma-di-saggio
+  title: 'Insegnare: l''università in forma di saggio'
+  publisher: Doppiozero (Bruno Cartosio)
+  genre: opinion_essay
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 239
+    status: published
+- url: https://www.fanpage.it/innovazione/scienze/3i-atlas-avi-loeb-la-nasa-sbaglia-accelerazione-non-gravitazionale-diversa-dai-loro-calcoli/
+  title: '3I/ATLAS, Avi Loeb: la Nasa sbaglia, l''accelerazione non gravitazionale
+    è diversa dai loro calcoli'
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 612
+    status: published
+- url: https://www.fanpage.it/innovazione/scienze/enorme-deposito-doro-scoperto-sul-fondale-del-giappone-concentrazioni-elevatissime-lo-studio-su-scientific-reports/
+  title: Enorme deposito d'oro scoperto sul fondale del Giappone
+  publisher: Fanpage.it
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 183
+    status: published
+- url: https://www.focus.it/scienza/scienze/milano-cortina-2026-la-scienza-segreta-dietro-il-ruggito-del-curling-alle-olimpiadi-invernali
+  title: 'Milano-Cortina 2026: la scienza segreta dietro al fascino del curling alle
+    Olimpiadi invernali'
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 492
+    status: published
+- url: https://www.focusjunior.it/animali/delfini-10-curiosita-che-forse-non-sapevi/
+  title: 'Delfini: 10 curiosità che (forse) non sapevi'
+  publisher: FocusJunior.it
+  genre: news_easy
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 92
+    status: published
+- url: https://www.focusjunior.it/scuola/7-consigli-per-finire-velocemente-i-compiti-delle-vacanze-senza-farli-sbagliati/
+  title: 7 consigli per finire velocemente i compiti delle vacanze (senza farli sbagliati!)
+  publisher: FocusJunior.it
+  genre: news_easy
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 52
+    status: published
+- url: https://www.sanbonifaciopomezia.it/2026/07/24/cammino-2026-clan/
+  title: Cammino 2026 Clan
+  publisher: Gruppo Scout AGESCI San Bonifacio–Pomezia (blog UGC del gruppo scout;
+    parrocchiale/associativo)
+  genre: off-whitelist
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 66
+    status: published
+- url: https://www.subito.it/arredamento-casalinghi/tavolo-in-legno-massello-con-6-sedie-udine-653661453.htm
+  title: Tavolo in legno massello con 6 sedie
+  publisher: Subito.it
+  genre: practical_realia
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 129
+    status: published
+- url: https://www.today.it/animali/cani-che-vanno-d-accordo-con-gatti.html
+  title: Cani che vanno d'accordo con i gatti, sfatando ogni mito
+  publisher: Today.it
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 191
+    status: published
+- url: https://www.today.it/attualita/ponti-2026.html
+  title: 'Tutti i ponti del 2026: il calendario completo'
+  publisher: Today.it
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 147
+    status: published
+- url: https://www.today.it/meteo/quando-torna-caldo-3-4-5-luglio-2026.html
+  title: Quando e dove torna il caldo rovente, di nuovo
+  publisher: Today.it
+  genre: news_general
+  first_used: '2026-07-28'
+  times_used: 1
+  uses:
+  - date: '2026-07-28'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 410
     status: published
