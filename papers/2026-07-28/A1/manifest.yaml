@@ -1,0 +1,111 @@
+exam: cils
+level: A1
+session: '2026-07-28'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.subito.it/arredamento-casalinghi/tavolo-in-legno-massello-con-6-sedie-udine-653661453.htm
+  title: Tavolo in legno massello con 6 sedie
+  publisher: Subito.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 129
+- id: T2
+  url: https://blog.giallozafferano.it/danielerossichef/pasta-al-pomodoro/
+  title: Pasta al pomodoro
+  publisher: 'GialloZafferano (blog: Daniele Rossi Chef)'
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 112
+- id: T3
+  url: https://cultura.comune.firenze.it/pagina/orari-e-contatti
+  title: Orari e contatti — Biblioteca delle Oblate
+  publisher: Comune di Firenze (Biblioteche comunali fiorentine)
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 181
+- id: T4
+  url: https://www.focusjunior.it/scuola/7-consigli-per-finire-velocemente-i-compiti-delle-vacanze-senza-farli-sbagliati/
+  title: 7 consigli per finire velocemente i compiti delle vacanze (senza farli sbagliati!)
+  publisher: FocusJunior.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 52
+- id: T5
+  url: https://www.sanbonifaciopomezia.it/2026/07/24/cammino-2026-clan/
+  title: Cammino 2026 Clan
+  publisher: Gruppo Scout AGESCI San Bonifacio–Pomezia (blog UGC del gruppo scout;
+    parrocchiale/associativo)
+  published: 24 luglio 2026
+  accessed: '2026-07-28'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 66
+- id: T6
+  url: https://archibiblio.comune.ferrara.it/589/informazioni-e-orari
+  title: Biblioteca Gianni Rodari, Ferrara — orari
+  publisher: Comune di Ferrara (Servizio Biblioteche e Archivi)
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 63
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-28T02:09:32+00:00'
+  - stage: authoring
+    at: '2026-07-28T02:09:32+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+  - stage: blind_validation
+    at: '2026-07-28T02:20:05+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-28T03:04:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-28T03:04:36+00:00'
+    result: fail
+    issues: 4
+  - stage: quality_audit
+    at: '2026-07-28T03:05:11+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  audit_result: pass
+  audit_issues: 0
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+reason: quality_audit

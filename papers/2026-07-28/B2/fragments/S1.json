@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__Questo (0)__ Festival torna a Miranda dal 23 al 27 luglio. Il borgo dell'Alto Molise in __(1)__ si svolge è in fermento.\n\nIl Festival è dedicato al tartufo nero estivo. Da trent'anni Miranda __(2)__ promuove: prima con la \"Tartufata\", ora con il Festival. È l'eccellenza per la __(3)__ nasce l'evento. Le aree montane sono quelle in __(4)__ il fungo prolifica e viene raccolto. Un vero indotto locale per trasformarlo e venderlo? Non __(5)__ è ancora uno in paese.\n\nIl Festival è una vetrina di profumi, convivialità e tradizioni. Le ricette molisane? I volontari __(6)__ preparano. Le proposte dedicate al \"re del sottobosco\"? I visitatori __(7)__ degustano nelle cinque serate. Il motore propulsivo è la proloco \"Ricircolo Mirandese\". Il patrocinio comunale? L'associazione __(8)__ ha ottenuto. Il contributo dell'Aps Borgo del Tartufo? La proloco __(9)__ ha ricevuto. I visitatori? I volontari __(10)__ accolgono. È un evento grazie al __(11)__ cultura, ospitalità e territorio si uniscono.\n\nIl momento clou, domenica 26, sarà \"Tartufo in piazza\". Le produzioni? L'esposizione __(12)__ presenta dalle 11. È l'appuntamento in __(13)__ si racconta l'identità delle aree interne. Questa identità? La giornata __(14)__ mette al centro. Il legame tra tartufo, natura e comunità? L'evento __(15)__ mostra. La biodiversità dei boschi? È un tema di __(16)__ l'esposizione parla. Il lavoro dei cavatori? L'esposizione __(17)__ valorizza. Le tradizioni? L'esposizione __(18)__ collega al futuro. I boschi e i cavatori? L'evento __(19)__ include nel racconto. Il territorio? Il Festival __(20)__ promuove.",
+    "T4_TITLE": "MIRANDA, IL BORGO DEL TARTUFO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.3 — quale:** dopo *per la* il relativo obbligatorio è *quale*（介词与冠词已给出）.\n- **S1.5 — ce ne:** l'esistenziale *ce n'è uno* richiede entrambi i clitici（组合代词）.\n- **S1.11 — quale:** dopo *grazie al* la forma relativa obbligatoria è *quale*（介词与冠词已给出）.\n- **S1.13 — cui:** la preposizione *in* è già stampata, quindi non si usa *nel quale*（关系代词）.\n- **S1.16 — cui:** *di cui* introduce il tema trattato dall'esposizione（介词关系结构）.",
+    "ANS_S1_ROWS": "| S1.1 | cui | S1.11 | quale |\n| S1.2 | lo | S1.12 | le |\n| S1.3 | quale | S1.13 | cui |\n| S1.4 | cui | S1.14 | la |\n| S1.5 | ce ne || ce n' | S1.15 | lo |\n| S1.6 | le | S1.16 | cui |\n| S1.7 | le | S1.17 | lo |\n| S1.8 | lo | S1.18 | le |\n| S1.9 | lo | S1.19 | li |\n| S1.10 | li | S1.20 | lo |"
+  },
+  "key": {
+    "S1.1": "cui",
+    "S1.2": "lo",
+    "S1.3": "quale",
+    "S1.4": "cui",
+    "S1.5": "ce ne || ce n'",
+    "S1.6": "le",
+    "S1.7": "le",
+    "S1.8": "lo",
+    "S1.9": "lo",
+    "S1.10": "li",
+    "S1.11": "quale",
+    "S1.12": "le",
+    "S1.13": "cui",
+    "S1.14": "la",
+    "S1.15": "lo",
+    "S1.16": "cui",
+    "S1.17": "lo",
+    "S1.18": "le",
+    "S1.19": "li",
+    "S1.20": "lo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in fermento",
+      "categoria": "locuzione aggettivale",
+      "zh": "活跃筹备中",
+      "en": "bustling",
+      "esempio": "è in fermento"
+    },
+    {
+      "parola": "indotto locale",
+      "categoria": "locuzione nominale",
+      "zh": "本地配套产业",
+      "en": "local supply chain",
+      "esempio": "indotto locale"
+    },
+    {
+      "parola": "motore propulsivo",
+      "categoria": "locuzione nominale",
+      "zh": "推动力量",
+      "en": "driving force",
+      "esempio": "Il motore propulsivo è la proloco"
+    },
+    {
+      "parola": "cavatori",
+      "categoria": "nome maschile plurale",
+      "zh": "松露采挖者",
+      "en": "truffle hunters",
+      "esempio": "Il lavoro dei cavatori"
+    },
+    {
+      "parola": "aree interne",
+      "categoria": "locuzione nominale",
+      "zh": "内陆地区",
+      "en": "inland areas",
+      "esempio": "l'identità delle aree interne"
+    }
+  ]
+}

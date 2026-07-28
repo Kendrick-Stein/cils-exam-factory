@@ -1,0 +1,15 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 3-4 + §Stage S4), factory/exams/cils/templates/A2.md (the S2 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/A2/fragments/S2.json (cloze_verbi — presente, passato prossimo, imperfetto; 10 gaps, T5 = diario di viaggio in Sicilia).
+Your source text: the '## Slot T5' section of papers/2026-07-28/A2/sources.md.
+
+Defects (blind mismatches + FLAGS):
+- S2.10: key "dico", solver answered "diciamo" — the unexpressed subject leaves person ambiguous. Make the subject explicit right before the gap (io/noi printed in the text) or re-cut.
+- S2.6 (FLAG): "Il soggetto non è espresso; il contesto suggerisce «noi» quindi «abbiamo noleggiato», ma «hanno noleggiato» sarebbe possibile riferendosi a Maria ed Elio." Print an explicit subject.
+- S2.8 (FLAG): "«dalle camere» senza antecedente; «vedevamo» probabile ma «vedevano» possibile." Print an explicit subject and fix the antecedent.
+- Rescan ALL 10 gaps: every gap must have its person, number and tense forced by explicit printed markers (subjects printed, time anchors per rule 3: «Ieri/L'anno scorso» for passato prossimo, «ogni giorno/mentre» for imperfetto, «adesso/oggi» for presente). Auxiliary inside the gap.
+
+Keep exactly 10 gaps, points identical, first-person diary voice authentic (you may make subjects explicit; do not invent events). Rewrite papers/2026-07-28/A2/fragments/S2.json in full.
+Reply (short): which gaps you fixed; final text word count.

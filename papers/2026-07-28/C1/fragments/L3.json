@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "In casa Porru, nella camera dei forestieri, c'era una donna che piangeva. Seduta per terra, vicino al letto, con le braccia sulle ginocchia sollevate e la fronte sulle braccia,",
+    "T3_PART_B": "di tanto in tanto sbattersi sulle pietre del selciato. Una donna bassa e grossa, in costume nuorese, con un gran viso di vecchio grasso, apparve sulla porta,",
+    "T3_PART_C": "è destinata agli amici ospiti dei paesi vicini) era vasta, bianca, rozza, con un gran letto di legno, un tavolino coperto da un tappeto di percalle con sopra chicchere e tazze di vetro;",
+    "T3_PART_D": "s'alzavano e si abbassavano come un'onda. Intorno era quasi buio: la camera non aveva finestra; la porta spalancata su una terrazza di mattoni s'apriva su uno sfondo",
+    "T3_PART_E": "Bisacce di lana, colme, diritte, stavano qua e là per terra. La donna grassa, che era la padrona di casa, sollevò una di queste bisacce,",
+    "T3_PART_F": "con in mano una lampada di ferro a quattro becchi, in uno dei quali ardeva un lucignolo nuotante nell'olio. — Giovanna Era, — disse con voce grossa e rude,",
+    "T3_PART_G": "Non bisogna poi disperarsi; che diavolo, colomba mia; se il pubblico ministero ha chiesto i lavori forzati, non vuol dire che i giurati siano cani rabbiosi come lui...",
+    "T3_PART_H": "— Ah! Ah! Ah! — disse la donna grossa, avanzandosi, come sorpresa e scandalizzata. — Lo avevo detto io che piangevi! Perchè piangi? Tua madre è giù che ti aspetta,",
+    "T3_PART_I": "e tu piangi come una matta che sei. Attaccò il lume ad un lungo chiodo sul muro, e cominciò a girare attorno alla donna piangente, cercando invano parole per confortarla.",
+    "T3_PART_J": "— No... No... No... — Sì! Sì! Ti dico che è sì! Alzati o chiamo tua madre, — gridò la donna, gettandosele sopra. E le sollevò a forza la testa.",
+    "T3_PART_K": "piangeva singultando, scuotendo la testa come per significare che per lei non c'era, non c'era più speranza. Le sue spalle rotonde e il suo dorso ben fatto, ben disegnato da un corsetto di panno giallo,",
+    "T3_PART_L": "con moltissimi quadretti appesi in alto sulle pareti, quasi sotto il soffitto di legno grezzo. Dalle travi del soffitto pendevano grappoli d'uva raggrinzita e di pere gialle dai quali pioveva una sottile fragranza.",
+    "T3_PART_M": "— che fai lì al buio? Sei lì? Che fai? Mi pare che tu pianga! Tu sei matta, in verità mia, tu sei matta! L'altra continuò a singhiozzare più forte.",
+    "T3_PART_N": "di cielo cenerognolo che andava sempre più oscurandosi. Su quello sfondo brillava una piccola stella gialla lontana; e nel cortile s'udiva un grillo zirlare e la zampa d'un cavallo,",
+    "T3_PART_O": "la portò più in là, poi la riportò al posto donde l'aveva presa. — Ecco, finiscila, — disse ansando per lo sforzo fatto, — che cosa vuoi farci?",
+    "T3_PART_P": "Non riusciva a dirle altro che: — Ma sei matta, Giovanna, sei matta! La camera dei forestieri (così viene chiamata a Nuoro la stanza che in tutte le case all'antica",
+    "T3_TITLE": "NELLA CAMERA DEI FORESTIERI"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | K | «piangeva singultando» completa sintatticamente la descrizione della donna lasciata in sospeso dalla parte A. |\n| 3 | D | «s'alzavano e si abbassavano» riprende il soggetto plurale «le sue spalle ... e il suo dorso» della parte K. |\n| 4 | N | «di cielo cenerognolo» completa senza alternative «uno sfondo» alla fine della parte D. |\n| 5 | B | «di tanto in tanto sbattersi» completa il movimento della «zampa d'un cavallo» introdotta nella parte N. |\n| 6 | F | «con in mano una lampada» continua la descrizione della donna appena apparsa sulla porta nella parte B. |\n| 7 | M | «che fai lì al buio?» completa il discorso diretto introdotto da «disse» alla fine della parte F. |\n| 8 | H | I tre «Ah!» reagiscono al singhiozzo più forte con cui termina la parte M. |\n| 9 | I | parte data |\n| 10 | P | «Non riusciva a dirle altro» riprende il tentativo di confortare la donna espresso alla fine della parte I. |\n| 11 | C | «è destinata» completa la relativa «la stanza che ...» lasciata aperta dalla parte P. |\n| 12 | L | «con moltissimi quadretti» prosegue l'elenco degli arredi chiuso da un punto e virgola nella parte C. |\n| 13 | E | Le «Bisacce di lana» completano l'inventario della stanza e introducono l'oggetto che la padrona solleva. |\n| 14 | O | «la portò» riprende univocamente «una di queste bisacce» alla fine della parte E. |\n| 15 | G | «Non bisogna poi disperarsi» continua l'esortazione «finiscila» pronunciata nella parte O. |\n| 16 | J | I tre «No» respingono il conforto della parte G; i tre «Sì» costituiscono la replica immediata. |",
+    "ANS_L3_SEQUENCE": "A–K–D–N–B–F–M–H–I–P–C–L–E–O–G–J"
+  },
+  "key": {
+    "L3": "A–K–D–N–B–F–M–H–I–P–C–L–E–O–G–J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cielo cenerognolo",
+      "categoria": "locuzione nominale",
+      "zh": "灰蒙蒙的天空",
+      "en": "ash-grey sky",
+      "esempio": "la porta spalancata su una terrazza di mattoni s'apriva su uno sfondo di cielo cenerognolo che andava sempre più oscurandosi."
+    },
+    {
+      "parola": "lucignolo",
+      "categoria": "sostantivo maschile",
+      "zh": "灯芯",
+      "en": "wick",
+      "esempio": "Una donna bassa e grossa, in costume nuorese, con un gran viso di vecchio grasso, apparve sulla porta, con in mano una lampada di ferro a quattro becchi, in uno dei quali ardeva un lucignolo nuotante nell'olio."
+    },
+    {
+      "parola": "fragranza",
+      "categoria": "sostantivo femminile",
+      "zh": "芳香",
+      "en": "fragrance",
+      "esempio": "Dalle travi del soffitto pendevano grappoli d'uva raggrinzita e di pere gialle dai quali pioveva una sottile fragranza."
+    },
+    {
+      "parola": "Bisacce di lana",
+      "categoria": "locuzione nominale",
+      "zh": "羊毛褡裢",
+      "en": "wool saddlebags",
+      "esempio": "Bisacce di lana, colme, diritte, stavano qua e là per terra."
+    },
+    {
+      "parola": "lavori forzati",
+      "categoria": "locuzione nominale",
+      "zh": "苦役",
+      "en": "forced labour",
+      "esempio": "Non bisogna poi disperarsi; che diavolo, colomba mia; se il pubblico ministero ha chiesto i lavori forzati, non vuol dire che i giurati siano cani rabbiosi come lui..."
+    }
+  ]
+}

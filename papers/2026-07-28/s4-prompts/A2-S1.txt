@@ -1,0 +1,13 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; do not assume anything not in the files below.
+
+Read first: .claude/agents/item-writer.md (§Rules + §Stage S4), factory/exams/cils/templates/A2.md (the S1 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/A2/fragments/S1.json (cloze_aperto — articoli e preposizioni semplici, 10 gaps, T4 = orari estivi biblioteche Torino).
+Your source text: the '## Slot T4' section of papers/2026-07-28/A2/sources.md.
+
+Defect (blind mismatch):
+- S1.7: key expects "a" but the blind solver answered "per" — the sentence admits both prepositions. Re-cut or reword that gap's sentence so exactly ONE preposition is grammatical and semantically required (e.g. bind it to a fixed expression or a verb that governs only one preposition).
+- Rescan ALL 10 gaps for the same defect class: any gap where two different prepositions/articles are both defensible must be re-cut. Also keep rule 4: no bare-vs-articulated preposition ambiguity — make the article obligatory or avoid the merge context.
+
+Keep exactly 10 gaps, points identical, text authentic (trim only). Rewrite papers/2026-07-28/A2/fragments/S1.json in full (same schema as now: prova, slots, answer_slots, key S1.1..S1.10, glossario_candidates).
+Reply (short): which gaps you re-cut; final text word count.

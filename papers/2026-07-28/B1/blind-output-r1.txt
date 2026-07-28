@@ -1,0 +1,66 @@
+(1) ANSWERS
+
+```json
+{
+  "L3": {
+    "answer": "A-F-C-J-B-H-E-K-D-I-G",
+    "confidence": "hi"
+  },
+  "S1.1": {"answer": "con", "confidence": "hi"},
+  "S1.2": {"answer": "nella", "confidence": "hi"},
+  "S1.3": {"answer": "la", "confidence": "hi"},
+  "S1.4": {"answer": "gli", "confidence": "hi"},
+  "S1.5": {"answer": "di", "confidence": "hi"},
+  "S1.6": {"answer": "di", "confidence": "hi"},
+  "S1.7": {"answer": "per", "confidence": "hi"},
+  "S1.8": {"answer": "da", "confidence": "hi"},
+  "S1.9": {"answer": "gli", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+  "S1.11": {"answer": "con", "confidence": "hi"},
+  "S1.12": {"answer": "al", "confidence": "hi"},
+  "S1.13": {"answer": "a", "confidence": "hi"},
+  "S1.14": {"answer": "per", "confidence": "hi"},
+  "S1.15": {"answer": "di", "confidence": "hi"},
+  "S1.16": {"answer": "nella", "confidence": "hi"},
+  "S1.17": {"answer": "alla", "confidence": "hi"},
+  "S1.18": {"answer": "a", "confidence": "hi"},
+  "S1.19": {"answer": "dal", "confidence": "hi"},
+  "S1.20": {"answer": "a", "confidence": "hi"},
+  "S2.1": {"answer": "sono", "confidence": "hi"},
+  "S2.2": {"answer": "intervisto", "confidence": "hi"},
+  "S2.3": {"answer": "piango", "confidence": "hi"},
+  "S2.4": {"answer": "cambiano", "confidence": "hi"},
+  "S2.5": {"answer": "ho fatto", "confidence": "hi"},
+  "S2.6": {"answer": "hanno distratto", "confidence": "hi"},
+  "S2.7": {"answer": "è uscito", "confidence": "hi"},
+  "S2.8": {"answer": "hanno riempito", "confidence": "hi"},
+  "S2.9": {"answer": "aspiravo", "confidence": "hi"},
+  "S2.10": {"answer": "aspettavano", "confidence": "hi"},
+  "S2.11": {"answer": "chiamavano", "confidence": "hi"},
+  "S2.12": {"answer": "ricordava", "confidence": "hi"},
+  "S2.13": {"answer": "creo", "confidence": "hi"},
+  "S2.14": {"answer": "salto", "confidence": "hi"},
+  "S2.15": {"answer": "rimuovo", "confidence": "hi"},
+  "S2.16": {"answer": "scatta", "confidence": "hi"},
+  "S2.17": {"answer": "arriveranno", "confidence": "hi"},
+  "S2.18": {"answer": "interesseranno", "confidence": "hi"},
+  "S2.19": {"answer": "sarebbero", "confidence": "hi"},
+  "S2.20": {"answer": "avrebbero", "confidence": "hi"}
+}
+```
+
+(2) FLAGS
+
+```json
+[]
+```
+
+(3) WRITING checks
+
+```json
+{
+  "writing_tasks_present": false,
+  "checks": [],
+  "note": "Il file non contiene prove di produzione scritta né consegne con intervalli di parole da verificare."
+}
+```

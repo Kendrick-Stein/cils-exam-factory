@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "Iniziano",
+    "S3_OPT0_B": "Provano",
+    "S3_OPT0_C": "Partono",
+    "S3_OPT0_D": "Nascono",
+    "S3_OPTION_ROWS": "| 1. | incaricati | indagati | ricoverati | trasferiti |\n| 2. | consegna | prescrizione | vendita | sottrazione |\n| 3. | spaccio | ricovero | controllo | turno |\n| 4. | cure | pause | verifiche | consegne |\n| 5. | vendita | custodia | pubblicità | produzione |\n| 6. | prezzo | reparto | dosaggio | movente |\n| 7. | piste | regole | ricette | corsie |\n| 8. | durata | qualità | assenza | costo |\n| 9. | apertura | gestione | forma | dimensione |\n| 10. | curati | vietati | consumati | tracciati |\n| 11. | effrazione | incendio | ritardo | errore |\n| 12. | visite | ricette | scorte | stanze |\n| 13. | convinto | accorto | ricordato | lamentato |\n| 14. | ricevuto | nascosto | tradotto | emanato |\n| 15. | passaggio | elenco | rifiuto | peso |",
+    "S3_TEXT_WITH_GAPS": "__Iniziano (0)__ a emergere dettagli dell'inchiesta sul furto di Fentanyl avvenuto a Roma. Due custodi dell'ospedale risultano __(1)__ dalla Procura per la __(2)__ di 80 fiale dalla cassaforte della farmacia. Gli investigatori vogliono chiarire se il farmaco fosse destinato allo __(3)__.\n\nI tecnici ministeriali hanno svolto __(4)__ in loco per oltre sei ore. Gli ispettori hanno esaminato l'organizzazione e la __(5)__ dei medicinali. Quanto al __(6)__, non ci sono segnali che la sostanza sia arrivata sul mercato degli stupefacenti.\n\nTra le __(7)__ c'è l'uso dell'anestetico in studi medici non autorizzati. Restano da chiarire l'__(8)__ del sistema di videosorveglianza e la __(9)__ della chiave, usata da più dipendenti. I farmaci soggetti alla normativa sugli stupefacenti sono già __(10)__ mediante registri.\n\nIl furto, senza segni di __(11)__, è avvenuto tra il controllo delle __(12)__ dell'11 giugno e il 23 giugno, quando il personale si è __(13)__ della mancanza. Dopo la scoperta, il ministero ha __(14)__ una circolare per rafforzare i controlli. Secondo gli esperti, serve anche una procedura standardizzata per il __(15)__ di consegne tra gli operatori.",
+    "T6_TITLE": "Furto di Fentanyl in ospedale: due custodi indagati"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «dalla Procura» seleziona *indagati*: 中文：检方调查对象。 |\n| S3.2 | D | Nel contesto di un furto, le fiale sono oggetto di una «sottrazione». |\n| S3.3 | A | Il «mercato degli stupefacenti» richiamato subito dopo rende pertinente *spaccio*. |\n| S3.4 | C | Sono i tecnici del ministero a svolgere «verifiche in loco» per oltre sei ore. |\n| S3.5 | B | Medicinali e cassaforte richiedono misure di «custodia», non attività commerciali. |\n| S3.6 | D | In un'inchiesta, la ragione del reato è il «movente». |\n| S3.7 | A | La collocazione investigativa è «piste considerate»; segue una specifica ipotesi. |\n| S3.8 | C | La videosorveglianza è indicata come mancante: quindi «assenza». |\n| S3.9 | B | Le «modalità» relative a una chiave riguardano la sua «gestione». |\n| S3.10 | D | I registri documentano il percorso dei farmaci, che risultano quindi «tracciati». |\n| S3.11 | A | «Senza segni di» riferito all'apertura forzata seleziona *effrazione*. |\n| S3.12 | C | Un controllo delle quantità disponibili è un «controllo delle scorte». |\n| S3.13 | B | La costruzione «si è … che mancavano» esprime una scoperta: *accorto*. |\n| S3.14 | D | Un ministero «emana una circolare»: 中文：正式发布通告。 |\n| S3.15 | A | La collocazione fissa è «passaggio di consegne» tra operatori e turni. |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "D",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cassaforte",
+      "categoria": "sostantivo femminile",
+      "zh": "保险柜",
+      "en": "safe",
+      "esempio": "80 fiale dalla cassaforte della farmacia"
+    },
+    {
+      "parola": "in loco",
+      "categoria": "locuzione avverbiale",
+      "zh": "在现场",
+      "en": "on site",
+      "esempio": "in loco per oltre sei ore"
+    },
+    {
+      "parola": "stupefacenti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "麻醉品；毒品",
+      "en": "narcotics",
+      "esempio": "sul mercato degli stupefacenti"
+    },
+    {
+      "parola": "videosorveglianza",
+      "categoria": "sostantivo femminile",
+      "zh": "视频监控",
+      "en": "video surveillance",
+      "esempio": "sistema di videosorveglianza"
+    },
+    {
+      "parola": "procedura standardizzata",
+      "categoria": "locuzione nominale",
+      "zh": "标准化流程",
+      "en": "standardized procedure",
+      "esempio": "serve anche una procedura standardizzata"
+    }
+  ]
+}

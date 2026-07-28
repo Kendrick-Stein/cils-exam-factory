@@ -1,0 +1,118 @@
+exam: cils
+level: B1
+session: '2026-07-28'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.today.it/meteo/quando-torna-caldo-3-4-5-luglio-2026.html
+  title: Quando e dove torna il caldo rovente, di nuovo
+  publisher: Today.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 410
+- id: T2
+  url: https://www.comune.riccione.rn.it/it/news/stagione-balneare-2026-al-via-macedonia-in-vendita-in-spiaggia-nuove-date-per-il-salvataggio-e-stop-al-fumo-sulla-battigia
+  title: 'Stagione balneare 2026 al via: macedonia in vendita in spiaggia, nuove date
+    per il salvataggio e stop al fumo sulla battigia'
+  publisher: Comune di Riccione (comunicato ufficiale/sito istituzionale)
+  published: 24 aprile 2026
+  accessed: '2026-07-28'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 353
+- id: T3
+  url: https://camminiditalia.org/martina-e-la-sua-via-degli-dei-in-tenda/
+  title: 'Martina e la sua Via degli Dei in tenda: partire da sola, arrivare insieme
+    (estratto: tappa 01)'
+  publisher: Cammini d'Italia
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 276
+- id: T4
+  url: https://www.today.it/animali/cani-che-vanno-d-accordo-con-gatti.html
+  title: Cani che vanno d'accordo con i gatti, sfatando ogni mito
+  publisher: Today.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 191
+- id: T5
+  url: https://www.ansa.it/sito/notizie/cultura/teatro/2026/07/25/paolo-ruffini-faccio-commuovere-lirriverenza-ha-cambiato-pelle_91ffcb4d-64b5-4816-acce-6d9e2c102907.html
+  title: Paolo Ruffini, 'Faccio commuovere, l'irriverenza ha cambiato pelle'
+  publisher: ANSA (di Alessandra Magliaro, ospite di Nicola Timpone al Marateale 2026)
+  published: 25 luglio 2026, 11:38
+  accessed: '2026-07-28'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 175
+- id: T6
+  url: https://www.today.it/attualita/ponti-2026.html
+  title: 'Tutti i ponti del 2026: il calendario completo'
+  publisher: Today.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 147
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-28T02:09:32+00:00'
+  - stage: authoring
+    at: '2026-07-28T02:09:32+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-28T02:20:05+00:00'
+    agreement: 84/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T02:32:48+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-28T03:04:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-28T03:04:36+00:00'
+    result: fail
+    issues: 4
+  - stage: quality_audit
+    at: '2026-07-28T03:05:11+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  audit_result: pass
+  audit_issues: 0
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+reason: quality_audit

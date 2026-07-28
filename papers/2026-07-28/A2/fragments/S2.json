@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Sabato scorso il nostro volo da Milano *(partire)* __(1)__ alle 11.20 e lo stesso volo *(arrivare)* __(2)__ a Palermo. Questa *(essere)* __è (0)__ la quinta vacanza insieme. In questi anni noi *(organizzare)* __(3)__ cinque viaggi. Quest'anno, fino a oggi, noi *(visitare)* __(4)__ la Sicilia. Durante questo viaggio, fino a oggi, Maria ed Elio *(accompagnarci)* __(5)__. Quel sabato noi *(noleggiare)* __(6)__ una Renault Clio. Mentre le formalità *(essere)* __(7)__ lunghe, noi aspettavamo l'auto. Ogni giorno, dalle nostre camere, noi *(vedere)* __(8)__ sempre le isole Eolie. Allora ogni sera il buffet *(offrire)* __(9)__ molte specialità. Oggi io *(dire)* __(10)__ ancora che il buffet valeva il prezzo del viaggio.",
+    "T5_TITLE": "IL PRIMO GIORNO IN SICILIA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "I soggetti sono sempre espressi. «Sabato scorso» e «Quel sabato» fissano il passato prossimo; «In questi anni» e «fino a oggi» collegano le esperienze al presente; «mentre», «ogni giorno», «sempre» e «ogni sera» richiedono l'imperfetto; «Oggi» richiede il presente. 中文提示：明确的主语和时间标记决定人称与时态；助动词和代词都写在空格里。",
+    "ANS_S2_ROWS": "| 1 | è partito | passato prossimo | 6 | abbiamo noleggiato | passato prossimo |\n| 2 | è arrivato | passato prossimo | 7 | erano | imperfetto |\n| 3 | abbiamo organizzato | passato prossimo | 8 | vedevamo | imperfetto |\n| 4 | abbiamo visitato | passato prossimo | 9 | offriva | imperfetto |\n| 5 | ci hanno accompagnato | passato prossimo | 10 | dico | presente |"
+  },
+  "key": {
+    "S2.1": "è partito",
+    "S2.2": "è arrivato",
+    "S2.3": "abbiamo organizzato",
+    "S2.4": "abbiamo visitato",
+    "S2.5": "ci hanno accompagnato",
+    "S2.6": "abbiamo noleggiato",
+    "S2.7": "erano",
+    "S2.8": "vedevamo",
+    "S2.9": "offriva",
+    "S2.10": "dico"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "quinta vacanza",
+      "categoria": "locuzione nominale",
+      "zh": "第五次度假",
+      "en": "fifth holiday",
+      "esempio": "la quinta vacanza insieme"
+    },
+    {
+      "parola": "noleggiare",
+      "categoria": "verbo",
+      "zh": "租用",
+      "en": "to rent",
+      "esempio": "una Renault Clio"
+    },
+    {
+      "parola": "formalità",
+      "categoria": "nome femminile plurale",
+      "zh": "手续",
+      "en": "formalities",
+      "esempio": "le formalità"
+    },
+    {
+      "parola": "isole Eolie",
+      "categoria": "nome proprio geografico",
+      "zh": "埃奥利群岛",
+      "en": "Aeolian Islands",
+      "esempio": "le isole Eolie"
+    },
+    {
+      "parola": "buffet",
+      "categoria": "nome maschile invariabile",
+      "zh": "自助餐",
+      "en": "buffet",
+      "esempio": "il buffet"
+    }
+  ]
+}

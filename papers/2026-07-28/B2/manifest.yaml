@@ -1,0 +1,124 @@
+exam: cils
+level: B2
+session: '2026-07-28'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.focus.it/scienza/scienze/milano-cortina-2026-la-scienza-segreta-dietro-il-ruggito-del-curling-alle-olimpiadi-invernali
+  title: 'Milano-Cortina 2026: la scienza segreta dietro al fascino del curling alle
+    Olimpiadi invernali'
+  publisher: Focus.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 492
+- id: T2
+  url: https://www.comune.chianciano-terme.siena.it/notizie/Borse-di-studio--IOSTUDIO--Miur---A.S.-2025-2026---Avviso-pubblico.html
+  title: Borse di studio 'IOSTUDIO' Miur - A.S. 2025/2026 - Avviso pubblico
+  publisher: Comune di Chianciano Terme (SI)
+  published: 12 marzo 2026
+  accessed: '2026-07-28'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 483
+- id: T3
+  url: https://camminiditalia.org/laura-e-il-suo-cammino-del-salento/
+  title: 'Laura e il suo Cammino del Salento: tra sogni, destino e scoperte'
+  publisher: Cammini d'Italia (camminiditalia.org)
+  published: not dated on page (the walk described took place 29 dicembre 2023 – inizio
+    gennaio 2024; blog post published afterward)
+  accessed: '2026-07-28'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 388
+- id: T4
+  url: https://www.ansa.it/molise/notizie/2026/07/21/miranda-borgo-del-tartufo-dal-23-al-27-luglio_584b1a79-45c2-4fe1-af3d-42e029b032d9.html
+  title: Miranda "Borgo del Tartufo" dal 23 al 27 luglio
+  publisher: ANSA (Molise)
+  published: '2026-07-21'
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 218
+- id: T5
+  url: https://www.dissapore.com/ristoranti/nei-panni-degli-chef-voi-come-vivreste-se-il-vostro-lavoro-venisse-giudicato-ogni-giorno/
+  title: 'Nei panni degli chef: voi come vivreste se il vostro lavoro venisse giudicato
+    ogni giorno?'
+  publisher: Dissapore
+  published: '2026-05-04'
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 195
+- id: T6
+  url: https://www.ansa.it/sito/notizie/cronaca/2026/07/22/due-indagati-per-il-furto-delle-fiale-di-fentanyl-a-roma_3ab566db-8f58-4148-8832-d6b8233c558c.html
+  title: Furto di Fentanyl in ospedale a Roma, indagati due custodi
+  publisher: ANSA
+  published: '2026-07-22'
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 161
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-28T02:09:32+00:00'
+  - stage: authoring
+    at: '2026-07-28T02:09:32+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-28T02:20:05+00:00'
+    agreement: 83/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T02:32:48+00:00'
+    agreement: 85/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T02:37:24+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-28T03:04:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-28T03:04:36+00:00'
+    result: fail
+    issues: 4
+  - stage: quality_audit
+    at: '2026-07-28T03:05:11+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  audit_result: pass
+  audit_issues: 0
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+reason: quality_audit

@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 5 + §Stage S4), factory/exams/cils/templates/C1.md (the L3 block + HTML comments — ricostruzione 16 parti, 2 ancore), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/C1/fragments/L3.json (ricostruzione — 16 parti, ancore fisse, key = full sequence; T3 = De Marchi, "Naufraghi in porto" cap. I, estratto).
+Your source text: the '## Slot T3' section of papers/2026-07-28/C1/sources.md.
+
+Defect (blind mismatch):
+- Key sequence starts A–K–D–N–…; the blind solver produced A–D–K–N–… — parts K and D are interchangeable at that point: nothing in their openings forces K before D. Fix per rule 5: re-cut the part boundaries (or swap which sentences open parts K and D) so each movable part opens with a UNIQUE connettivo/anaphora/time cue that anchors it to exactly one predecessor. Then verify EVERY movable part cannot sit anywhere else in the sequence (walk the chain part by part).
+- Keep 16 parts, same anchors count, same points, letters re-assignable as needed; key = the full unique sequence (update if letters change).
+
+The text is public-domain literature: cut whole sentences if needed, do NOT rewrite De Marchi's prose or invent connectives that aren't his — achieve uniqueness by choosing WHERE parts break, not by altering wording.
+Rewrite papers/2026-07-28/C1/fragments/L3.json in full.
+Reply (short): what you changed about parts K/D (or the re-lettered equivalents); confirmation that you walked all 16 parts for unique placement.

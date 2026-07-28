@@ -1,0 +1,28 @@
+---
+url: https://www.viaggiapiccoli.com/tre-sentieri-per-bambini-e-famiglie-sul-vesuvio/
+title: "Vesuvio con i bambini: i sentieri più belli e come salire al cratere"
+publisher: Viaggiapiccoli.com
+published: 27 novembre 2025
+fetched: 2026-07-28
+genre: blogs_lifestyle
+cefr: B1
+usable_levels: A2,B1
+words: 150
+fetch_intent: B1/T5 (over-fetch during interview hunt, not used — banked as short blog-narrative fragment for A2/B1 slots)
+---
+
+CEFR grading: ACCEPT WITH ADAPTATION (usable as-is for B1 micro-text or A2 with light lexical simplification).
+- Evidence: (1) narrazione in prima persona plurale di un'escursione familiare, quasi interamente al passato prossimo ("abbiamo fatto", "siamo andati", "abbiamo visto", "abbiamo lasciato", "siamo arrivati") — ottimo per cloze passato prossimo; (2) tema concreto e quotidiano (gita con bambini), frasi coordinate con incisi descrittivi non troppo complessi; (3) qualche subordinata con "che" e un imperativo plurale finale ("Qualsiasi sentiero scegliate") che introduce il congiuntivo — unico punto sopra soglia A2/B1 semplice.
+- Anchor: paragonabile ai brani di blog di viaggio in famiglia usati come letture brevi/blog narrativi B1.
+- Numbers: 150 parole (frammento — solo il paragrafo narrativo iniziale, non l'intero articolo); media ≈ 24 parole/frase (alta per via di incisi tra virgole, ma lessico comune); lessico difficile stimato ≈ 3-4%.
+- Note: questo è un estratto parziale (solo l'apertura narrativa); per uso come testo pieno B1 (300+ parole) andrebbe rifetchato includendo le sezioni pratiche successive (info su sentieri, orari, biglietti) dell'articolo completo.
+
+---
+
+# Vesuvio con i bambini: i sentieri più belli e come salire al cratere
+
+Noi abbiamo fatto, con i bambini di sei anni, il sentiero del Gran Cono e vi assicuriamo che: è un'esperienza unica, per l'emozione di camminare lungo il cratere di un vulcano e per gli scorci suggestivi che si possono godere; la passeggiata è in salita continua per 800 metri, ma molto dolce (non si può fare però con i passeggini).
+
+Noi siamo andati a sinistra, verso la Valle dell'Inferno, che però abbiamo visto solo dall'alto senza scendere, facendo un bellissimo pit stop su Punta Nasone. Ci siamo semplicemente goduti il panorama: abbiamo lasciato alle nostre spalle i colori e siamo arrivati su una strada nera costellata di ginestre, fermandoci a un belvedere intermedio.
+
+Qualsiasi sentiero scegliate sarà un'esperienza unica per i vostri bambini. Torneranno a casa con le tasche piene di pietre vulcaniche nere e gialle, stanchi, sporchi, ma felici.

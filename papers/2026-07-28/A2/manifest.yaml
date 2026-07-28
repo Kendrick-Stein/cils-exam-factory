@@ -1,0 +1,118 @@
+exam: cils
+level: A2
+session: '2026-07-28'
+title: CILS A2 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/abruzzo/notizie/2026/07/22/a-pescara-tornano-i-fuochi-artificiali-per-la-festa-di-santandrea_6ee4ea0c-9df9-4efc-b8c8-d0acfcb12d40.html
+  title: A Pescara tornano i fuochi artificiali per la Festa di Sant'Andrea
+  publisher: ANSA (Abruzzo)
+  published: '2026-07-22'
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 186
+- id: T2
+  url: https://blog.giallozafferano.it/allacciateilgrembiule/crostata-di-mele/
+  title: Crostata di mele
+  publisher: 'GialloZafferano (blog: Allacciate il Grembiule)'
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 177
+- id: T3
+  url: 'https://www.comune.genova.it/novita/avvisi/urp-avviso-al-pubblico (compilazione
+    di 6 realia: comune.genova.it; comune.ravenna.it; subito.it; comune.bergamo.it;
+    comune.bolzano.bz.it; comune.napoli.it)'
+  title: 6 micro-testi funzionali (avvisi comunali, sportello sociale, annuncio, biblioteche)
+  publisher: 'vari: Comune di Genova; Comune di Ravenna; Subito.it; Comune di Bergamo;
+    Comune di Bolzano; Comune di Napoli'
+  published: non datati (avvisi/annunci 2026)
+  accessed: '2026-07-28'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 300
+- id: T4
+  url: https://bct.comune.torino.it/comunicazioni/orari-e-servizi-nel-periodo-estivo-2026
+  title: Orari e servizi delle Biblioteche civiche torinesi nel periodo estivo 2026
+  publisher: Biblioteche Civiche Torinesi / Comune di Torino
+  published: '2026-07-15'
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 96
+- id: T5
+  url: https://turistipercaso.it/diari-di-viaggio/tour-della-sicilia-diario-di-bordo.html
+  title: 'Tour della Sicilia: diario di bordo'
+  publisher: Turisti per Caso
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 97
+- id: T6
+  url: https://www.focusjunior.it/animali/delfini-10-curiosita-che-forse-non-sapevi/
+  title: 'Delfini: 10 curiosità che (forse) non sapevi'
+  publisher: FocusJunior.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 92
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-28T02:09:32+00:00'
+  - stage: authoring
+    at: '2026-07-28T02:09:32+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+  - stage: blind_validation
+    at: '2026-07-28T02:20:05+00:00'
+    agreement: 44/46
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T02:32:48+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-28T03:04:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-28T03:04:36+00:00'
+    result: fail
+    issues: 4
+  - stage: quality_audit
+    at: '2026-07-28T03:05:11+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  audit_result: pass
+  audit_issues: 0
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+reason: quality_audit

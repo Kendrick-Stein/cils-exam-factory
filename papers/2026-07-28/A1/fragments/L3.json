@@ -1,0 +1,47 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1. Orari di lunedì e martedì**\n\nLa Biblioteca delle Oblate apre al pubblico lunedì dalle 14 alle 19 e martedì dalle 9 alle 19. Si trova in via dell'Oriuolo 24.\n\n**2. Orari da mercoledì a sabato**\n\nMercoledì, giovedì e venerdì la Biblioteca delle Oblate è aperta dalle 9 alle 23. Il sabato apre alle 10 e chiude alle 23.\n\n**3. Orari dell'help desk**\n\nL'help desk della Biblioteca delle Oblate è aperto dal lunedì al venerdì dalle 9 alle 19. Il sabato è aperto dalle 10 alle 19.\n\n**4. Giorni di chiusura**\n\nLa Biblioteca delle Oblate è chiusa il 15 agosto e il 1 novembre. A dicembre chiude nei giorni 7, 8, 24, 25, 26 e 31.",
+    "L3_OPTIONS": "**A.** Il lunedì la biblioteca apre nel pomeriggio, mentre il martedì apre la mattina.\n\n**B.** Da mercoledì a venerdì la biblioteca resta aperta fino alle 23.\n\n**C.** Anche il sabato l'help desk chiude alle 19.\n\n**D.** La biblioteca non apre il 15 agosto e il 1 novembre.\n\n**E.** Il lunedì la biblioteca apre alle 9.\n\n**F.** Il sabato l'help desk resta aperto fino alle 23."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | Le parole decisive sono \"lunedì dalle 14\" e \"martedì dalle 9\": il lunedì l'apertura è nel pomeriggio, il martedì al mattino. 中文：周一下午开门，周二上午开门。 |\n| L3.2 | B | Il testo dice \"mercoledì, giovedì e venerdì\" e \"dalle 9 alle 23\". 中文：周三到周五开放至23点。 |\n| L3.3 | C | La frase \"Il sabato è aperto dalle 10 alle 19\" indica che l'help desk chiude alle 19. 中文：服务台周六19点关闭。 |\n| L3.4 | D | Il testo indica tra i giorni di chiusura \"15 agosto\" e \"1 novembre\". 中文：8月15日和11月1日闭馆。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "apre al pubblico",
+      "categoria": "locuzione verbale",
+      "zh": "向公众开放",
+      "en": "opens to the public",
+      "esempio": "La Biblioteca delle Oblate apre al pubblico lunedì dalle 14 alle 19 e martedì dalle 9 alle 19."
+    },
+    {
+      "parola": "help desk",
+      "categoria": "nome maschile invariabile",
+      "zh": "服务台",
+      "en": "help desk",
+      "esempio": "L'help desk della Biblioteca delle Oblate è aperto dal lunedì al venerdì dalle 9 alle 19."
+    },
+    {
+      "parola": "chiude",
+      "categoria": "verbo",
+      "zh": "关闭",
+      "en": "closes",
+      "esempio": "A dicembre chiude nei giorni 7, 8, 24, 25, 26 e 31."
+    },
+    {
+      "parola": "via dell'Oriuolo",
+      "categoria": "nome proprio",
+      "zh": "奥廖洛街",
+      "en": "Via dell'Oriuolo",
+      "esempio": "Si trova in via dell'Oriuolo 24."
+    }
+  ]
+}

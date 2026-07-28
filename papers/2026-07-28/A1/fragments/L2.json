@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "1. Per questa ricetta servono 400 g di spaghetti.  **Vero ○ Falso ○**\n\n2. Per questa ricetta servono 2 chili di pomodorini.  **Vero ○ Falso ○**\n\n3. Prima di cuocere l'aglio, bisogna togliere la buccia.  **Vero ○ Falso ○**\n\n4. I pomodorini devono essere tagliati in quattro parti.  **Vero ○ Falso ○**\n\n5. All'inizio i pomodorini cuociono per dieci minuti.  **Vero ○ Falso ○**\n\n6. Dopo aver aggiunto il basilico e il sale, la cottura finisce.  **Vero ○ Falso ○**\n\n7. Prima di usare il passaverdure, bisogna togliere l'aglio.  **Vero ○ Falso ○**\n\n8. La pasta si serve senza parmigiano.  **Vero ○ Falso ○**",
+    "T2_TEXT": "**Ingredienti**\n\nPer preparare la pasta servono 400 g di spaghetti, 800 g di pomodorini, due spicchi d'aglio, basilico fresco, olio extravergine d'oliva, parmigiano e sale.\n\n**Preparazione**\n\nSchiacciate l'aglio e togliete la buccia. Lavate i pomodorini e tagliateli a metà. Mettete l'aglio intero in una pentola con l'olio, poi aggiungete i pomodorini e cuocete per dieci minuti. Aggiungete il basilico e il sale. Coprite in parte la pentola e continuate la cottura per altri dieci minuti. Togliete l'aglio e passate il pomodoro con il passaverdure. Cuocete gli spaghetti in acqua salata. Mettete il sugo in una padella, scolate gli spaghetti e versateli nel sugo. Servite la pasta con parmigiano grattugiato e basilico fresco.",
+    "T2_TITLE": "PASTA AL POMODORO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica «400 g di spaghetti». |\n| L2.2 | Falso | Il testo indica «800 g di pomodorini», non 2 chili. 数量不同。 |\n| L2.3 | Vero | La preparazione dice: «Schiacciate l'aglio e togliete la buccia». |\n| L2.4 | Falso | Il testo dice di tagliare i pomodorini «a metà», non in quattro parti. |\n| L2.5 | Vero | Dopo aver aggiunto i pomodorini, bisogna cuocere «per dieci minuti». |\n| L2.6 | Falso | Dopo basilico e sale, bisogna continuare la cottura «per altri dieci minuti». |\n| L2.7 | Vero | Il testo ordina: «Togliete l'aglio e passate il pomodoro con il passaverdure». |\n| L2.8 | Falso | La pasta si serve «con parmigiano grattugiato», non senza. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "spicchi d'aglio",
+      "categoria": "nome plurale",
+      "zh": "蒜瓣",
+      "en": "garlic cloves",
+      "esempio": "Per preparare la pasta servono 400 g di spaghetti, 800 g di pomodorini, due spicchi d'aglio, basilico fresco, olio extravergine d'oliva, parmigiano e sale."
+    },
+    {
+      "parola": "buccia",
+      "categoria": "nome femminile",
+      "zh": "外皮",
+      "en": "peel",
+      "esempio": "Schiacciate l'aglio e togliete la buccia."
+    },
+    {
+      "parola": "a metà",
+      "categoria": "locuzione avverbiale",
+      "zh": "切成两半",
+      "en": "in half",
+      "esempio": "Lavate i pomodorini e tagliateli a metà."
+    },
+    {
+      "parola": "cottura",
+      "categoria": "nome femminile",
+      "zh": "烹饪",
+      "en": "cooking",
+      "esempio": "Coprite in parte la pentola e continuate la cottura per altri dieci minuti."
+    },
+    {
+      "parola": "passaverdure",
+      "categoria": "nome maschile",
+      "zh": "蔬菜研磨器",
+      "en": "food mill",
+      "esempio": "Togliete l'aglio e passate il pomodoro con il passaverdure."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+---
+url: https://camminiditalia.org/diario-lungo-il-cammino-di-san-jacopo-il-santiago-ditalia/
+title: "Diario lungo il Cammino di San Jacopo – Il Santiago d'Italia!"
+publisher: Cammini d'Italia (camminiditalia.org)
+published: not dated on page
+fetched: 2026-07-28
+genre: blogs_lifestyle
+cefr: B2
+usable_levels: [B1, B2]
+words: ~700 (est.)
+fetch_intent: B2/T3 (over-fetch, not used — Laura/Cammino del Salento chosen instead for clearer single-thread chronology)
+---
+
+Diario lungo il Cammino di San Jacopo – Il Santiago d'Italia!
+
+Prima di leggere questa storia, vi chiediamo – se potete – di sedervi cinque minuti e fermarvi.
+Ovunque voi siate.
+Fate una pausa e fermatevi solo per un istante.
+
+Decidete cosa fare del vostro Tempo, con la speranza che questa lettura possa restarvi impressa.
+
+Ma ora vediamo, cosa è stato il Cammino di San Jacopo in Toscana?
+
+Spiegarlo a parole non è assolutamente facile, ma noi ci proviamo.
+
+È stato un cammino totalizzante che ci ha letteralmente stravolti.
+
+Per la prima volta ho percorso un intero cammino in solitaria, senza incontrare altri pellegrini lungo i sentieri (complice il caldo dei primi giorni).
+
+Tuttavia, non c'è stato un solo momento in cui ci siamo sentiti soli.
+
+Il Vento.
+Il Sole.
+Il Cielo.
+La Terra.
+
+I fenicotteri lungo i fiumi.
+Le rondini che volavano in cielo.
+Gli scoiattoli nel bosco.
+
+Eravamo un TUTTO che si muoveva assieme.
+Lentamente.
+All'unisono.
+
+Sin dalla nostra partenza, la sensazione era quella che tutti ci stessero aspettando e, straordinariamente, così è stato.
+
+Noi non conoscevamo loro, ma loro conoscevano già noi.
+
+Sentirsi chiamare per strada da sconosciuti con queste parole: "sei tu il Pellegrino che sta Camminando sul Cammino di San Jacopo? Siediti, ti aspettavamo".
+
+Non ho chiesto loro chi fossero.
+Ho solo ascoltato.
+In silenzio.
+Con rispetto.
+
+Qualcuno lo chiama "calore umano".
+
+In ogni città che abbiamo attraversato c'è stata una vera e propria mobilitazione cittadina.
+Tutti aspettavano il mio passaggio.
+
+Pensate…abbiamo trovato tutte ospitalità con "donativo".
+E donativo significa una cosa sola: lunga Vita per il Cammino ed i Pellegrini!
+
+Ma ora non ci sono più mezzi termini: questo Cammino è davvero il Cammino di Santiago in Italia!
+
+Questo Cammino è un vero e proprio patrimonio che abbiamo nella nostra Terra e, pertanto, merita di essere percorso e conosciuto da ogni Pellegrino.
+
+Ringrazio tutti quelli che ci hanno donato un sorriso, un abbraccio…ed un piatto di pasta!
+
+Ringraziamo tutte le città che ci hanno ospitato:
+
+Firenze: ringraziamo in particolar modo la gentilezza di Suor Barbara;
+Prato: la struttura d'accoglienza di Don Carlo ed i simpatici ragazzi del circolo ARCI;
+Pistoia: ringraziamo l'amministrazione comunale, nella persona dell'assessore al turismo Alessandro Sabella che ha voluto incontrarci, nonché Paolo Rindi per averci donato un'esperienza emozionante, ovvero la lavanda dei piedi. Pistoia è un piccolo grande gioiello. La chiamano "la Santiago d'Italia" ma, dopo averla visitata, possiamo dirvi che non siamo d'accordo perché…Pistoia è Santiago! Del resto Santiago è una Percezione e, nella città di Pistoia, si respira la stessa Essenza di Santiago de Compostela;
+Pescia: ringraziamo l'ospitalità di Jacopo con le sue formidabili crêpes a colazione, nonché la disponibilità di Noemi ed Andrea;
+Lucca: ringraziamo Erica e Roby per il loro cuore immenso (con la speranza che Roby, grazie alla nostra ricetta, possa finalmente cucinare la cacio e pepe);
+Pisa: ringraziamo le suore di Nazareth per l'ospitalità, ma ringraziamo anche Roberto, un ragazzo senza fissa dimora con il quale abbiamo trascorso la serata donandogli un sorriso sincero e parole di conforto. Già. Perché il Cammino ci insegna a non essere più indifferenti.
+
+E poi…Livorno. Oh Livorno!
+
+Qui siamo stati accolti prima da Davide Fiz (l'ideatore del progetto "SmartWalking"), e poi dal comitato del quartiere San Jacopo, capitanato dalla mitica Irene che ci fatto sentire subito a casa.
+
+L'ammirazione di tutto il quartiere, la loro disponibilità…e la bellezza disarmante della città ha rapito in pochissimo tempo il nostro cuore.
+
+Abbiamo trascorso tre giorni stupendi, estasiati dai colori del tramonto in Terrazza Mascagni.
+
+Che dire…Livorno è stata la nostra Finisterre.
+
+Dove tutto finisce, ma dove tutto rinasce.
+
+Un ringraziamento speciale e doveroso è rivolto all'amico Pellegrino Leonardo Giancipoli, referente di Ginosa lungo il Cammino Materano.
+
+Adesso, però, è ora di salutare questo cammino, questa gente e questa terra, fra lacrime di gioia ed emozione.
+Ma la promessa è una: torneremo presto.
+
+Ma non è tutto.
+
+Il Cammino di San Jacopo è in grado di fare anche una magia.
+
+Il Cammino di San Jacopo ti permette non solo di Camminare, ma anche di volare…proprio come un gabbiano al tramonto che spicca il volo sul cielo incantato di Livorno.
+
+Grazie Cammino di San Jacopo
+
+Vito Renna – Percezioni in Cammino

@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una gita alla quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Il prossimo fine settimana vuoi fare una gita al lago con un amico o un'amica. Scrivigli o scrivile un'email.",
+    "W2_REQ_1": "invitarlo o invitarla e indicare il giorno della gita;",
+    "W2_REQ_2": "spiegare dove e quando incontrarsi e quale mezzo di trasporto prendere;",
+    "W2_REQ_3": "dire che cosa portare e chiedere una risposta entro un giorno preciso."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Lo scorso maggio ho partecipato a una gita in bicicletta organizzata dal centro giovani del mio quartiere. Sono partito con due amici e un gruppo di persone che non conoscevo. Il percorso seguiva il fiume e attraversava alcuni piccoli paesi. Dopo circa un'ora, la ruota della mia bicicletta si è bucata. Ero preoccupato di rallentare tutti, ma una ragazza del gruppo mi ha aiutato a ripararla. Durante la pausa abbiamo parlato e scoperto di frequentare la stessa biblioteca. Alla fine siamo arrivati in un parco, dove abbiamo pranzato insieme. Questa giornata è stata importante perché ho superato una difficoltà senza arrendermi e ho conosciuto nuovi amici. Da allora uso più spesso la bicicletta e partecipo volentieri alle attività del quartiere.",
+    "MODEL_W1_PHRASES": "«Lo scorso maggio ho partecipato a…»（去年五月我参加了……）; «Dopo circa un'ora…»（大约一小时后……）; «Mi ha aiutato a…»（他/她帮助我……）; «Questa giornata è stata importante perché…»（这一天很重要，因为……）; «Da allora…»（从那以后……）",
+    "MODEL_W2": "Ciao Giulia,\n\nsabato prossimo vorrei fare una gita al lago e mi piacerebbe che venissi con me. Possiamo incontrarci alle nove davanti alla stazione e prendere insieme il treno delle 9.15. Porta scarpe comode, una giacca leggera e qualcosa da bere. Fammi sapere entro giovedì se sei libera, così compro i biglietti per entrambe.\n\nA presto,\nElena",
+    "MODEL_W2_PHRASES": "«Mi piacerebbe che venissi con me»（我希望你和我一起去）; «Possiamo incontrarci…»（我们可以见面……）; «Prendere insieme il treno»（一起乘火车）; «Porta…»（请带上……）; «Fammi sapere entro…»（请在……之前告诉我）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. A causa delle previsioni di forte pioggia, lo spettacolo nel parco previsto per venerdì è rinviato a domenica alle 21. I biglietti restano validi; chi non può partecipare nella nuova data può richiedere il rimborso entro sabato.**\n\nA) È l'annuncio dell'annullamento definitivo di uno spettacolo.\nB) È la comunicazione del rinvio di uno spettacolo con possibilità di rimborso.\nC) È l'invito ad acquistare i biglietti per un secondo spettacolo.\nD) È l'avviso dello spostamento dello spettacolo in uno spazio coperto.\n\n**2. Gentile cliente, per valutare il malfunzionamento della macchina da caffè, ci invii una breve registrazione in cui si vede il problema e una foto del numero di serie. Dopo la verifica le comunicheremo se è necessario l'intervento di un tecnico.**\n\nA) È la conferma che un tecnico è già stato mandato a casa del cliente.\nB) È la richiesta di restituire subito una macchina acquistata online.\nC) È l'offerta di sostituire gratuitamente un elettrodomestico guasto.\nD) È la richiesta di documentare un guasto prima di decidere l'assistenza necessaria.\n\n**3. Oggi a «Pausa pranzo» cerchiamo idee per mangiare bene spendendo poco durante la settimana. Mandateci entro le undici un messaggio vocale con la vostra ricetta preferita: le proposte più originali saranno ascoltate e commentate in diretta.**\n\nA) È un invito agli ascoltatori a contribuire a una trasmissione radiofonica.\nB) È la pubblicità di un ristorante che propone pranzi economici.\nC) È l'annuncio di un corso dedicato alla cucina settimanale.\nD) È la richiesta di votare la migliore trasmissione gastronomica.\n\n**4. Ho trovato un mazzo di chiavi ieri sera sulla panchina davanti alla palestra comunale. C'è un portachiavi rosso a forma di bicicletta. Il proprietario può scrivermi in privato, descrivendo le altre chiavi, per concordare la restituzione.**\n\nA) È la ricerca di un mazzo di chiavi smarrito vicino a una palestra.\nB) È la vendita di un portachiavi a forma di bicicletta.\nC) È l'avviso del ritrovamento di chiavi per rintracciarne il proprietario.\nD) È la richiesta alla palestra di installare nuovi armadietti.\n\n**5. Ciao Elena, mi dispiace ma domani non potrò aiutarti con il trasloco: mi hanno anticipato un impegno di lavoro e finirò tardi. Se vuoi, sabato mattina posso venire con la macchina e restare fino all'ora di pranzo.**\n\nA) È la conferma della propria presenza a un trasloco già organizzato.\nB) È la richiesta di usare la macchina di un'amica per andare al lavoro.\nC) È il rinvio di un impegno professionale al sabato mattina.\nD) È una disdetta accompagnata dall'offerta di aiutare in un altro momento.\n\n**6. Benvenuti al corso online di fotografia urbana. Da domani troverete le lezioni registrate nella vostra area personale; il martedì sera potrete partecipare all'incontro in diretta. Per problemi di accesso, usate il modulo di assistenza nella pagina iniziale.**\n\nA) È una comunicazione di benvenuto con indicazioni per seguire un corso.\nB) È un reclamo per la scarsa qualità di alcune lezioni registrate.\nC) È la proposta di lavorare come assistente in un corso di fotografia.\nD) È l'avviso che gli incontri in diretta sono stati sostituiti dalle registrazioni.\n\n**7. Si informano i residenti che martedì, dalle 8 alle 14, l'ascensore resterà fermo per il controllo annuale. Durante l'intervento utilizzate le scale e non programmate consegne di mobili. Il servizio riprenderà appena conclusa la verifica tecnica.**\n\nA) È la comunicazione della sostituzione definitiva dell'ascensore.\nB) È un avviso sulla sospensione temporanea dell'ascensore con istruzioni ai residenti.\nC) È la richiesta di segnalare un guasto avvenuto durante una consegna.\nD) È l'annuncio della chiusura delle scale per un controllo tecnico.\n\n**8. Le ricordiamo che il prestito dei due libri scade lunedì. Se desidera tenerli più a lungo, rinnovi il prestito dall'app entro quella data; altrimenti li restituisca in una delle nostre sedi per evitare la sospensione del servizio.**\n\nA) È la conferma dell'acquisto di due libri tramite un'applicazione.\nB) È l'avviso che il servizio di prestito è stato sospeso in tutte le sedi.\nC) È la richiesta di prenotare due libri non ancora disponibili.\nD) È un promemoria sulla scadenza di un prestito e sulle azioni possibili.\n\n**9. Cerco una persona madrelingua tedesca interessata a uno scambio di conversazione: mezz'ora in italiano e mezz'ora in tedesco, una volta alla settimana in biblioteca. Non sono previste lezioni né compensi; l'obiettivo è esercitarsi insieme in modo informale.**\n\nA) È l'offerta di lezioni private di tedesco a pagamento.\nB) È la ricerca di un partner per praticare reciprocamente due lingue.\nC) È l'annuncio di un corso gratuito organizzato da una biblioteca.\nD) È la candidatura per un lavoro come insegnante di italiano.\n\n**10. Attenzione ai messaggi che annunciano una consegna bloccata e chiedono di pagare due euro tramite un collegamento. La nostra azienda non invia richieste simili. Non aprite il collegamento e controllate lo stato della spedizione soltanto nell'app ufficiale.**\n\nA) È la richiesta di pagare una piccola somma per sbloccare una consegna.\nB) È l'annuncio di un nuovo metodo per seguire una spedizione.\nC) È un avviso contro messaggi fraudolenti che imitano un corriere.\nD) È la conferma che tutte le consegne sono temporaneamente sospese."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «è rinviato a domenica» comunica una nuova data, mentre «può richiedere il rimborso» tutela chi non può partecipare. 中文：演出延期，并非取消或换场地。 |\n| S4.2 | D | «ci invii una breve registrazione» e «una foto del numero di serie» servono a valutare il guasto prima di stabilire l'intervento. 中文：先提交故障材料，再决定售后方案。 |\n| S4.3 | A | «Mandateci ... un messaggio vocale» e «saranno ascoltate ... in diretta» invitano il pubblico a contribuire al programma. 中文：征集听众语音参与广播。 |\n| S4.4 | C | «Ho trovato un mazzo di chiavi» e la richiesta di descriverle mirano a identificare il proprietario e restituirgliele. 中文：发布失物招领，不是寻找自己的钥匙。 |\n| S4.5 | D | «non potrò aiutarti» disdice l'impegno di domani, mentre «sabato mattina posso venire» offre un'alternativa. 中文：取消原约并提出补救时间。 |\n| S4.6 | A | «Benvenuti» introduce informazioni su lezioni registrate, incontro in diretta e assistenza destinate ai partecipanti. 中文：网课欢迎及使用说明。 |\n| S4.7 | B | «resterà fermo ... dalle 8 alle 14» delimita la sospensione e il testo indica di usare le scale e rinviare le consegne. 中文：电梯临时停用通知。 |\n| S4.8 | D | «il prestito ... scade lunedì» è un promemoria; il destinatario può rinnovare oppure restituire i libri. 中文：提醒续借或归还。 |\n| S4.9 | B | «scambio di conversazione» e «mezz'ora in italiano e mezz'ora in tedesco» descrivono una pratica reciproca senza lezioni né compensi. 中文：寻找语言交换伙伴。 |\n| S4.10 | C | «La nostra azienda non invia richieste simili» smentisce il falso pagamento e invita a usare soltanto l'app ufficiale. 中文：警惕冒充快递公司的诈骗信息。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "D",
+    "S4.3": "A",
+    "S4.4": "C",
+    "S4.5": "D",
+    "S4.6": "A",
+    "S4.7": "B",
+    "S4.8": "D",
+    "S4.9": "B",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "numero di serie",
+      "categoria": "locuzione nominale",
+      "zh": "序列号",
+      "en": "serial number",
+      "esempio": "una foto del numero di serie"
+    },
+    {
+      "parola": "concordare la restituzione",
+      "categoria": "locuzione verbale",
+      "zh": "商定归还方式",
+      "en": "arrange the return",
+      "esempio": "per concordare la restituzione"
+    },
+    {
+      "parola": "area personale",
+      "categoria": "locuzione nominale",
+      "zh": "个人账户区域",
+      "en": "personal account area",
+      "esempio": "nella vostra area personale"
+    },
+    {
+      "parola": "controllo annuale",
+      "categoria": "locuzione nominale",
+      "zh": "年度检查",
+      "en": "annual inspection",
+      "esempio": "per il controllo annuale"
+    },
+    {
+      "parola": "scambio di conversazione",
+      "categoria": "locuzione nominale",
+      "zh": "语言会话交换",
+      "en": "conversation exchange",
+      "esempio": "interessata a uno scambio di conversazione"
+    }
+  ]
+}

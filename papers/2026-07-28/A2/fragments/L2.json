@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Per preparare la pasta frolla servono quattro ingredienti.**  \nVero ○ Falso ○\n\n**2. Per il ripieno servono due mele.**  \nVero ○ Falso ○\n\n**3. Dopo aver mescolato burro e zucchero, si aggiunge la farina prima del tuorlo.**  \nVero ○ Falso ○\n\n**4. La pasta deve rimanere in frigorifero per 20 minuti.**  \nVero ○ Falso ○\n\n**5. Bisogna stendere la pasta senza usare la carta forno.**  \nVero ○ Falso ○\n\n**6. Prima di mettere la marmellata, bisogna bucare la base.**  \nVero ○ Falso ○\n\n**7. La marmellata tenuta da parte si scalda con un po' di acqua.**  \nVero ○ Falso ○\n\n**8. La crostata deve cuocere per 30 minuti a 180 gradi.**  \nVero ○ Falso ○",
+    "T2_TEXT": "Ingredienti per la frolla: 270 g di farina, 130 g di burro, 90 g di zucchero e 1 tuorlo. Per il ripieno: 150 g di marmellata di albicocche e 1 mela.\n\n**Preparazione della frolla**\n\nMettete il burro morbido in una ciotola con lo zucchero e mescolate fino a ottenere una crema. Unite il tuorlo, poi aggiungete la farina e impastate fino a ottenere un impasto liscio. Mettete la pasta in frigo per 20 minuti.\n\n**Preparazione della crostata**\n\nStendete la pasta frolla tra due fogli di carta forno, fino a uno spessore di 1 centimetro. Mettetela in uno stampo, tagliate i bordi in eccesso e bucate la base. Fate uno strato di marmellata, ma tenetene da parte un cucchiaio. Sbucciate la mela, togliete il torsolo e tagliatela a fettine sottili. Mettete le fettine sopra la frolla. Scaldate la marmellata tenuta da parte con un po' di acqua e spennellatela sulle fettine di mela. Cuocete in forno preriscaldato a 180 gradi per 20 minuti, fino a quando la pasta frolla è dorata. Fate raffreddare la crostata prima di servirla.",
+    "T2_TITLE": "CROSTATA DI MELE"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo elenca «270 g di farina, 130 g di burro, 90 g di zucchero e 1 tuorlo»: sono quattro ingredienti. |\n| L2.2 | Falso | Per il ripieno è indicata «1 mela», non due. |\n| L2.3 | Falso | Il testo dice: «Unite il tuorlo, poi aggiungete la farina». 顺序相反。 |\n| L2.4 | Vero | La consegna è: «Mettete la pasta in frigo per 20 minuti». |\n| L2.5 | Falso | La pasta va stesa «tra due fogli di carta forno». |\n| L2.6 | Vero | Prima si deve bucare la base, poi si fa «uno strato di marmellata». |\n| L2.7 | Vero | Il testo dice di scaldare la marmellata tenuta da parte «con un po' di acqua». |\n| L2.8 | Falso | Il testo indica «a 180 gradi per 20 minuti», non 30 minuti. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "impasto liscio",
+      "categoria": "espressione nominale",
+      "zh": "光滑的面团",
+      "en": "smooth dough",
+      "esempio": "impastate fino a ottenere un impasto liscio"
+    },
+    {
+      "parola": "bordi in eccesso",
+      "categoria": "espressione nominale",
+      "zh": "多余的边缘",
+      "en": "excess edges",
+      "esempio": "tagliate i bordi in eccesso"
+    },
+    {
+      "parola": "torsolo",
+      "categoria": "nome maschile",
+      "zh": "果核",
+      "en": "core",
+      "esempio": "togliete il torsolo"
+    },
+    {
+      "parola": "fettine sottili",
+      "categoria": "espressione nominale",
+      "zh": "薄片",
+      "en": "thin slices",
+      "esempio": "tagliatela a fettine sottili"
+    },
+    {
+      "parola": "forno preriscaldato",
+      "categoria": "espressione nominale",
+      "zh": "预热的烤箱",
+      "en": "preheated oven",
+      "esempio": "Cuocete in forno preriscaldato a 180 gradi"
+    }
+  ]
+}

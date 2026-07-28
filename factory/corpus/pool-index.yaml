@@ -1,6 +1,6 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 48
+count: 53
 sources:
 - url: https://archibiblio.comune.ferrara.it/589/informazioni-e-orari
   title: Biblioteca Gianni Rodari, Ferrara — orari
@@ -744,3 +744,78 @@ sources:
   perishable_until: null
   fetch_intent: A2B1/reharvest
   source_file: factory/corpus/pool/2b6780cda7df.md
+- url: https://camminiditalia.org/diario-lungo-il-cammino-di-san-jacopo-il-santiago-ditalia/
+  title: Diario lungo il Cammino di San Jacopo – Il Santiago d'Italia!
+  publisher: Cammini d'Italia (camminiditalia.org)
+  published: not dated on page
+  fetched: '2026-07-28'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 702
+  perishable: false
+  perishable_until: null
+  fetch_intent: 2026-07-28/overfetch
+  source_file: factory/corpus/pool/b40ad7523ebb.md
+- url: https://www.comune.ciampino.roma.it/it/news/borse-di-studio-io-studio-anno-scolastico-2025-2026
+  title: Borse di studio Io Studio anno scolastico 2025/2026
+  publisher: Comune di Ciampino (RM)
+  published: not dated on page
+  fetched: '2026-07-28'
+  genre: practical_realia
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 273
+  perishable: true
+  perishable_until: null
+  fetch_intent: 2026-07-28/overfetch
+  source_file: factory/corpus/pool/42ad701f7069.md
+- url: https://www.comune.siena.it/novita/bando-contributo-affitto-2026
+  title: Bando Contributo Affitto 2026
+  publisher: Comune di Siena
+  published: 4 giugno 2026 (data di pubblicazione del bando, citata nel testo)
+  fetched: '2026-07-28'
+  genre: practical_realia
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 237
+  perishable: true
+  perishable_until: null
+  fetch_intent: 2026-07-28/overfetch
+  source_file: factory/corpus/pool/13e2bb3afc07.md
+- url: https://www.salepepe.it/luoghi-personaggi/le-persone/intervista-antonino-cannavacciuolo/
+  title: Intervista ad Antonino Cannavacciuolo
+  publisher: Sale&Pepe (di Barbara Roncarolo)
+  published: 29 aprile 2014
+  fetched: '2026-07-28'
+  genre: interviews
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 602
+  perishable: false
+  perishable_until: null
+  fetch_intent: 2026-07-28/overfetch
+  source_file: factory/corpus/pool/62d1968ade4f.md
+- url: https://www.viaggiapiccoli.com/tre-sentieri-per-bambini-e-famiglie-sul-vesuvio/
+  title: 'Vesuvio con i bambini: i sentieri più belli e come salire al cratere'
+  publisher: Viaggiapiccoli.com
+  published: 27 novembre 2025
+  fetched: '2026-07-28'
+  genre: blogs_lifestyle
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 320
+  perishable: false
+  perishable_until: null
+  fetch_intent: 2026-07-28/overfetch
+  source_file: factory/corpus/pool/1f137c569ad9.md

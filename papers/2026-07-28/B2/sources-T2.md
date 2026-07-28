@@ -1,0 +1,29 @@
+## Slot T2 — testo regolativo/informativo (bando), target 430–500 parole, feeds lettura P2 (14 vero/falso)
+
+### Candidate 1 — ACCEPT WITH ADAPTATION
+- url: https://www.comune.chianciano-terme.siena.it/notizie/Borse-di-studio--IOSTUDIO--Miur---A.S.-2025-2026---Avviso-pubblico.html
+- title: "Borse di studio 'IOSTUDIO' Miur - A.S. 2025/2026 - Avviso pubblico"
+- publisher: Comune di Chianciano Terme (SI)
+- published: 12 marzo 2026
+- accessed: 2026-07-28
+- CEFR: ACCEPT WITH ADAPTATION (target B2). Evidence: (1) dense administrative/legal register typical of a bando — passives ("saranno erogate", "è fissato", "verrà considerato"), nominalizations ("erogazione", "presentazione", "rilevazione dell'anagrafica"), subordinates with "qualora", "tenendo conto che"; (2) rich in concrete checkable facts (scadenze, soglie ISEE, importi, incompatibilità, canali di invio) — exactly the density a 14-item vero/falso needs; (3) some long compound sentences push average length above typical B2, but this matches the register of official CILS bandi/regolamenti anchors, where students are expected to locate facts rather than parse every clause. Numbers: ~541 words (full fetch), ~17 sentences, avg ~32 words/sentence (above the 18–25 B2 guidance band but justified by genre — administrative texts routinely run long compound sentences); hard-lexis ~8–9% (ISEE, D.P.C.M., SIDI, graduatoria, aventi diritto, beneficiario) — within the B2 6–10% band. usable_levels: B1, B2.
+- Adaptation plan: trim from ~541 to the 430–500 print band by cutting the "Precisazioni sull'ISEE" paragraph (ISEE corrente nuance) and shortening the "Importo della borsa di studio" section to one sentence; keep all requisiti, scadenza, importo, modalità di presentazione and the Libri-Gratis incompatibility (these carry the checkable facts). Personal staff contacts (names/phone/email of the two named officials) already dropped in cleaning — only the institutional PEC address is retained.
+
+Borse di studio "IOSTUDIO" MIUR — anno scolastico 2025/2026: avviso pubblico
+
+Sono aperti i termini, con scadenza tassativa al 17 aprile 2026, per la presentazione delle domande per accedere alle borse di studio del Ministero dell'Istruzione e del Merito per l'anno scolastico 2025/2026.
+
+Requisiti per l'ammissione: residenza nel Comune di Chianciano Terme; iscrizione per l'anno scolastico 2025/2026 presso un istituto della scuola secondaria di secondo grado del sistema nazionale di istruzione. Le studentesse e gli studenti interessati dovranno essere correttamente censiti nella banca dati gestita dal Ministero dell'Istruzione e del Merito e alimentata da ciascuna istituzione scolastica. La mancata rilevazione dell'anagrafica all'interno del SIDI, o la sua mancata correzione da parte delle segreterie scolastiche in caso di errori, comporterà l'esclusione dal beneficio. È inoltre richiesta l'appartenenza a un nucleo familiare con ISEE 2026 non superiore al valore massimo di euro 15.748,78, calcolato in base alle disposizioni del D.P.C.M. n. 159/2013 e successive modifiche.
+
+Le studentesse e gli studenti residenti in Toscana e frequentanti istituti secondari di secondo grado localizzati in altre regioni possono comunque richiedere il beneficio al proprio comune di residenza.
+
+L'ISEE richiesto è quello "ordinario", oppure l'ISEE "minorenni" qualora il nucleo familiare rientri nelle casistiche disciplinate per i genitori non conviventi. L'ISEE ordinario può inoltre essere sostituito dall'ISEE corrente, da utilizzare quando si verificano significative variazioni reddituali o patrimoniali che incidono sulla situazione economica del nucleo familiare.
+
+La borsa ministeriale non è compatibile con la misura "Libri Gratis": chi, nell'anno scolastico 2025/2026, è già beneficiario del contributo Libri Gratis non può presentare domanda per la borsa ministeriale. In fase di controllo, chi risulterà beneficiario del contributo Libri Gratis non sarà considerato idoneo all'ottenimento della borsa di studio.
+
+La struttura competente della Regione Toscana raccoglierà gli elenchi con le generalità dei potenziali beneficiari residenti nei Comuni della Toscana e trasmetterà al Ministero dell'Istruzione e del Merito l'elenco dei nominativi degli aventi diritto, in un'unica graduatoria regionale che individua gli effettivi beneficiari in base alle risorse disponibili. L'importo unitario delle borse di studio nella Regione Toscana è fissato in 250,00 euro. La Regione si riserva la possibilità di aumentare tale importo fino a un massimo di 500 euro, tenendo conto delle risorse complessivamente stanziate dal Ministero e del numero effettivo degli aventi diritto. Le borse di studio saranno erogate direttamente dal Ministero dell'Istruzione e del Merito, secondo le modalità previste dall'articolo 10, comma 5, del D. Lgs. 13 aprile 2017, n. 63.
+
+La domanda di ammissione, compilata in ogni sua parte sugli appositi moduli predisposti dal Comune di Chianciano Terme e distribuiti dall'Ufficio URP – Relazioni con il Pubblico, presso la portineria del Comune, oppure scaricabili dal sito, dovrà essere presentata da uno dei genitori, da chi rappresenta legalmente il o la minore, oppure direttamente dallo studente o dalla studentessa se maggiorenne. La domanda va diretta al Comune di residenza dello studente, entro e non oltre venerdì 17 aprile 2026, con allegata la copia fotostatica di un documento d'identità del richiedente e l'attestazione ISEE in corso di validità. La domanda può essere inviata a mezzo posta elettronica certificata all'indirizzo comune.chianciano-terme@pec.consorzioterrecablate.it, oppure consegnata direttamente all'Ufficio Protocollo del Comune di Chianciano Terme, in Via Solferino 3, oppure inviata tramite raccomandata con avviso di ricevimento allo stesso indirizzo: in questo caso farà fede il timbro postale.
+
+## Coverage
+Slot T2: OK (candidate 1)

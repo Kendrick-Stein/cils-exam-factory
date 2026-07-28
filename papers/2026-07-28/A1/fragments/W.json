@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una persona della tua famiglia: scrivi come si chiama, com'è, che cosa fa e che cosa fate insieme.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una biblioteca. Chiedi gli orari e che cosa serve per avere la tessera."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Mia cugina si chiama Anna. È alta, allegra e molto gentile. Lavora in un negozio di fiori. La domenica passeggiamo insieme e poi mangiamo un gelato.",
+    "MODEL_W1_PHRASES": "«Si chiama…»（他/她叫……） · «È alto/a e…»（他/她个子高而且……） · «Lavora in…»（他/她在……工作） · «Insieme…»（一起……）",
+    "MODEL_W2": "Buongiorno, vorrei avere informazioni sulla biblioteca. Quali sono gli orari? Che cosa serve per avere la tessera? Grazie. Paolo",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Vorrei avere informazioni su…»（我想了解……） · «Quali sono gli orari?»（开放时间是什么？） · «Che cosa serve per…?»（……需要什么？） · «Grazie»（谢谢）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

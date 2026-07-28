@@ -1,0 +1,11 @@
+A2 S1 medium task-ms417la2-82jwu0
+A2 S2 medium task-ms417nix-1xqmrd
+B1 S1 medium task-ms417ps4-005x8r
+B1 S2 medium task-ms417s15-1ikd24
+B2 S1 high task-ms417uae-u9974g
+B2 S2 high task-ms417wk7-ipfccg
+C1 L3 high task-ms417yue-p253om
+C1 S1 high task-ms41815k-2lxteb
+C1 S2 high task-ms4183ep-q4icey
+C1-S1-r2 task-ms41man2-lcdznp
+C1-S2-r2 task-ms41mcwq-uvmyik

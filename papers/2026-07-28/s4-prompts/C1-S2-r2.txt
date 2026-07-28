@@ -1,0 +1,14 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR round 2 — one prova, TWO defective gaps. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 3-4 + §Stage S4), factory/exams/cils/templates/C1.md (S2 block), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-28/C1/fragments/S2.json (cloze_verbi sistema verbale completo, 20 gaps, T5 = Verga "Fantasticheria").
+Source text: the '## Slot T5' section of papers/2026-07-28/C1/sources.md.
+HARD CONSTRAINT unchanged: authentic Verga prose — no rewording, no invented markers; only choose different verbs to gap, move gap boundaries (print clitics outside), or cut whole sentences.
+
+Defects (round-2):
+- S2.14: gap *(buscarsi)* keyed "buscarsi"; solver answered "buscarci" — with the first-person-plural narration both clitics are defensible on the infinitive. Fix: stop gapping this verb (print "buscarsi" in full in the text) and gap a DIFFERENT verb elsewhere whose form is forced, keeping exactly 20 gaps; or re-cut so the printed context pins the clitic (printing the clitic outside an infinitive is impossible — prefer moving the gap).
+- S2.17 (FLAG, twice): gap *(raccogliere)* keyed "raccolta" modifying «un'alba» — Verga's collocation is stylistically unusual, a blind solver cannot be sure. Stop gapping this participle; print it and gap a different verb with a forced form.
+- Keep all other 18 gaps EXACTLY as they are (they validated clean). Keep 20 gaps total, same points. Update key + ANS rows coherently (keep the existing "viver || vivere" alternatives on S2.20).
+
+Rewrite papers/2026-07-28/C1/fragments/S2.json in full. Reply (short): which verbs you now gap for items 14 and 17 and why forced.

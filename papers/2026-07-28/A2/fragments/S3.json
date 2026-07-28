@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "abbandona",
+    "S3_OPT0_B": "accompagna",
+    "S3_OPT0_C": "incontra",
+    "S3_OPTION_ROWS": "| 1. | superficie | strada | spiaggia |\n| 2. | profonda | sveglia | vuota |\n| 3. | distanza | altezza | profondità |\n| 4. | rumoroso | preciso | rapido |\n| 5. | nome | viaggio | gioco |\n| 6. | visita | protegge | chiude |\n| 7. | camminare | parlare | saltare |\n| 8. | larghezza | altezza | lunghezza |",
+    "S3_TEXT_WITH_GAPS": "I delfini sono animali intelligenti e sensibili. Se un delfino è in difficoltà, il gruppo non lo __abbandona (0)__ mai. Possono restare sott'acqua fino a dieci minuti, poi tornano in __(1)__ per respirare. Quando dormono, una parte del cervello resta __(2)__ e controlla la respirazione. Possono nuotare a 65 chilometri all'ora e arrivare a 300 metri di __(3)__. Comunicano con dei fischi: ogni fischio ha un significato __(4)__ e ogni delfino ha un suono speciale, come un __(5)__. In Italia il Santuario Pelagos __(6)__ otto specie marine. Infine, i delfini possono __(7)__ fuori dall'acqua fino a sette metri di __(8)__.",
+    "T6_TITLE": "CURIOSITÀ SUI DELFINI"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «tornano in superficie per respirare»: è il luogo necessario per prendere aria. 中文：回到水面呼吸。 |\n| S3.2 | B | «resta sveglia e controlla la respirazione»: la parte del cervello non dorme. 中文：保持清醒。 |\n| S3.3 | C | «arrivare a 300 metri di profondità»: indica quanto scendono nell'acqua. 中文：下潜深度。 |\n| S3.4 | B | «un significato preciso»: ogni fischio comunica un messaggio determinato. 中文：含义明确。 |\n| S3.5 | A | «un suono speciale, come un nome»: il suono identifica il delfino. 中文：像名字一样。 |\n| S3.6 | B | «il Santuario Pelagos protegge otto specie»: l'area difende gli animali marini. 中文：保护物种。 |\n| S3.7 | C | «fuori dall'acqua»: i delfini possono saltare, non camminare o parlare. 中文：跃出水面。 |\n| S3.8 | B | «sette metri di altezza»: misura quanto salgono sopra l'acqua. 中文：高度。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in difficoltà",
+      "categoria": "locuzione",
+      "zh": "处于困难中",
+      "en": "in difficulty",
+      "esempio": "Se un delfino è in difficoltà, il gruppo non lo abbandona mai."
+    },
+    {
+      "parola": "superficie",
+      "categoria": "nome femminile",
+      "zh": "水面；表面",
+      "en": "surface",
+      "esempio": "Possono restare sott'acqua fino a dieci minuti, poi tornano in superficie per respirare."
+    },
+    {
+      "parola": "respirazione",
+      "categoria": "nome femminile",
+      "zh": "呼吸",
+      "en": "breathing",
+      "esempio": "Quando dormono, una parte del cervello resta sveglia e controlla la respirazione."
+    },
+    {
+      "parola": "profondità",
+      "categoria": "nome femminile",
+      "zh": "深度",
+      "en": "depth",
+      "esempio": "Possono nuotare a 65 chilometri all'ora e arrivare a 300 metri di profondità."
+    },
+    {
+      "parola": "fischi",
+      "categoria": "nome maschile plurale",
+      "zh": "哨声；鸣叫声",
+      "en": "whistles",
+      "esempio": "Comunicano con dei fischi: ogni fischio ha un significato preciso e ogni delfino ha un suono speciale, come un nome."
+    }
+  ]
+}

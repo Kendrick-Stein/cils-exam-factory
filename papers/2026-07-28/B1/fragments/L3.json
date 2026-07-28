@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Ciao, sono Marty, ho 25 anni e vengo da un paesino della bassa cremonese. Questa è la storia della mia Via degli Dei, il primo cammino fatto completamente da sola.",
+    "T3_PART_B": "Solo in quel momento ho capito che stavo per partire davvero, senza preparazione. Ho passato una notte praticamente insonne prima della prima tappa.",
+    "T3_PART_C": "Pensando a quell'occasione, mi immaginavo preparatissima: tappe studiate, mappa alla mano e tutto sotto controllo. I fatti, però, sono stati molto diversi.",
+    "T3_PART_D": "Dopo aver parlato di cammini e avermi dato consigli sulle calze, al terzo gradino della salita mi ha salutata: il mio zaino pesava 12,5 chili.",
+    "T3_PART_E": "Con quell'unica certezza mi sono alzata presto e alle 6:30 ero già in Piazza Maggiore, pronta a cominciare il lungo tragitto verso Brento.",
+    "T3_PART_F": "Da mesi, in realtà, quel cammino era nella lista delle cose da fare. Non sono molto organizzata, ma volevo partire alla prima occasione disponibile.",
+    "T3_PART_G": "Per fortuna, in quel parco ho incontrato una coppia: per ore ci siamo sorpassati scambiando sorrisi. Infine sono arrivata a Brento e ho scoperto che il campo apriva alle 17.",
+    "T3_PART_H": "La mattina seguente, venerdì, avevo una sola certezza: dovevo percorrere trenta chilometri, una distanza che non ricordavo di avere mai affrontato a piedi.",
+    "T3_PART_I": "Rimasta sola dopo quel saluto, ho superato San Luca meglio del previsto. Nel Parco della Chiusa, invece, alle nove avevo già le scarpe completamente infangate.",
+    "T3_PART_J": "Contrariamente a quei progetti, giovedì alle 23 ero sul materassino gonfiabile di Laura, un'amica che studia a Bologna, e scaricavo ancora l'app del percorso.",
+    "T3_PART_K": "Appena iniziato il cammino, poco prima dei portici di San Luca, mi ha affiancato un signore che percorreva la prima parte del mio stesso tragitto.",
+    "T3_TITLE": "IL MIO PRIMO CAMMINO DA SOLA"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l'inizio dato: Marty si presenta e introduce la sua Via degli Dei. |\n| 2 | F | «Quel cammino» riprende soltanto la Via degli Dei appena presentata. |\n| 3 | C | «Quell'occasione» richiama la «prima occasione disponibile» della parte precedente. |\n| 4 | J | «Contrariamente a quei progetti» si oppone alla preparazione immaginata nella parte C. |\n| 5 | B | «Solo in quel momento» indica il momento preciso in cui Marty scarica l'app del percorso. |\n| 6 | H | «La mattina seguente, venerdì» viene necessariamente dopo il giovedì e la notte insonne. |\n| 7 | E | «Quell'unica certezza» riprende l'obbligo di percorrere trenta chilometri. |\n| 8 | K | «Appena iniziato il cammino» segue la partenza da Piazza Maggiore verso Brento. |\n| 9 | D | «Dopo aver parlato» continua esclusivamente l'incontro con il signore della parte K. |\n| 10 | I | «Quel saluto» richiama il saluto del signore al terzo gradino della salita. 中文：指代上一段的告别。 |\n| 11 | G | «In quel parco» riprende il Parco della Chiusa e «Infine» chiude la tappa con l'arrivo a Brento. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "materassino gonfiabile",
+      "categoria": "nome maschile con aggettivo",
+      "zh": "充气垫",
+      "en": "inflatable mattress",
+      "esempio": "ero sul materassino gonfiabile di Laura"
+    },
+    {
+      "parola": "tappe studiate",
+      "categoria": "locuzione nominale",
+      "zh": "规划好的行程阶段",
+      "en": "planned stages",
+      "esempio": "tappe studiate, mappa alla mano e tutto sotto controllo"
+    },
+    {
+      "parola": "tragitto",
+      "categoria": "nome maschile",
+      "zh": "路程",
+      "en": "route",
+      "esempio": "pronta a cominciare il lungo tragitto verso Brento"
+    },
+    {
+      "parola": "infangate",
+      "categoria": "aggettivo femminile plurale",
+      "zh": "沾满泥的",
+      "en": "muddy",
+      "esempio": "avevo già le scarpe completamente infangate"
+    },
+    {
+      "parola": "ci siamo sorpassati",
+      "categoria": "locuzione verbale",
+      "zh": "我们互相超过了几次",
+      "en": "we passed each other",
+      "esempio": "per ore ci siamo sorpassati scambiando sorrisi"
+    }
+  ]
+}

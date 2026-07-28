@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1.** Le domande devono essere presentate entro il 17 aprile 2026.\n\nVero ○ Falso ○\n\n**2.** Le borse sono destinate anche agli studenti della scuola secondaria di primo grado.\n\nVero ○ Falso ○\n\n**3.** Un errore non corretto nell'anagrafica SIDI può causare l'esclusione dal beneficio.\n\nVero ○ Falso ○\n\n**4.** Per essere ammesso, il nucleo familiare deve avere un ISEE 2026 superiore a 15.748,78 euro.\n\nVero ○ Falso ○\n\n**5.** Chi risiede in Toscana e studia in un'altra regione può chiedere la borsa al proprio comune di residenza.\n\nVero ○ Falso ○\n\n**6.** Gli studenti che ricevono il contributo Libri Gratis possono ottenere anche la borsa ministeriale.\n\nVero ○ Falso ○\n\n**7.** I controlli possono rendere non idoneo chi risulta beneficiario di Libri Gratis.\n\nVero ○ Falso ○\n\n**8.** Ogni Comune toscano trasmette direttamente al Ministero l'elenco dei propri aventi diritto.\n\nVero ○ Falso ○\n\n**9.** La graduatoria regionale individua i beneficiari anche in rapporto alle risorse disponibili.\n\nVero ○ Falso ○\n\n**10.** L'importo della borsa è di 250 euro e non può essere aumentato.\n\nVero ○ Falso ○\n\n**11.** Il pagamento delle borse è effettuato direttamente dal Ministero.\n\nVero ○ Falso ○\n\n**12.** I moduli per la domanda sono disponibili esclusivamente sul sito del Comune.\n\nVero ○ Falso ○\n\n**13.** Uno studente minorenne può presentare personalmente la domanda senza un rappresentante adulto.\n\nVero ○ Falso ○\n\n**14.** Per le domande inviate con raccomandata, vale la data del timbro postale.\n\nVero ○ Falso ○",
+    "T2_TEXT": "Sono aperti i termini, con scadenza tassativa al 17 aprile 2026, per la presentazione delle domande per accedere alle borse di studio del Ministero dell'Istruzione e del Merito per l'anno scolastico 2025/2026.\n\nRequisiti per l'ammissione: residenza nel Comune di Chianciano Terme; iscrizione per l'anno scolastico 2025/2026 presso un istituto della scuola secondaria di secondo grado del sistema nazionale di istruzione. Le studentesse e gli studenti interessati dovranno essere correttamente censiti nella banca dati gestita dal Ministero dell'Istruzione e del Merito e alimentata da ciascuna istituzione scolastica. La mancata rilevazione dell'anagrafica all'interno del SIDI, o la sua mancata correzione da parte delle segreterie scolastiche in caso di errori, comporterà l'esclusione dal beneficio. È inoltre richiesta l'appartenenza a un nucleo familiare con ISEE 2026 non superiore al valore massimo di euro 15.748,78, calcolato in base alle disposizioni del D.P.C.M. n. 159/2013 e successive modifiche.\n\nLe studentesse e gli studenti residenti in Toscana e frequentanti istituti secondari di secondo grado localizzati in altre regioni possono comunque richiedere il beneficio al proprio comune di residenza.\n\nLa borsa ministeriale non è compatibile con la misura «Libri Gratis»: chi, nell'anno scolastico 2025/2026, è già beneficiario del contributo Libri Gratis non può presentare domanda per la borsa ministeriale. In fase di controllo, chi risulterà beneficiario del contributo Libri Gratis non sarà considerato idoneo all'ottenimento della borsa di studio.\n\nLa struttura competente della Regione Toscana raccoglierà gli elenchi con le generalità dei potenziali beneficiari residenti nei Comuni della Toscana e trasmetterà al Ministero dell'Istruzione e del Merito l'elenco dei nominativi degli aventi diritto, in un'unica graduatoria regionale che individua gli effettivi beneficiari in base alle risorse disponibili. L'importo unitario delle borse di studio nella Regione Toscana è fissato in 250,00 euro. La Regione si riserva la possibilità di aumentare tale importo fino a un massimo di 500 euro, tenendo conto delle risorse complessivamente stanziate dal Ministero e del numero effettivo degli aventi diritto. Le borse di studio saranno erogate direttamente dal Ministero dell'Istruzione e del Merito.\n\nLa domanda di ammissione, compilata in ogni sua parte sugli appositi moduli predisposti dal Comune di Chianciano Terme e distribuiti dall'Ufficio URP – Relazioni con il Pubblico, presso la portineria del Comune, oppure scaricabili dal sito, dovrà essere presentata da uno dei genitori, da chi rappresenta legalmente il o la minore, oppure direttamente dallo studente o dalla studentessa se maggiorenne. La domanda va diretta al Comune di residenza dello studente, entro e non oltre venerdì 17 aprile 2026, con allegata la copia fotostatica di un documento d'identità del richiedente e l'attestazione ISEE in corso di validità. La domanda può essere inviata a mezzo posta elettronica certificata all'indirizzo comune.chianciano-terme@pec.consorzioterrecablate.it, oppure consegnata direttamente all'Ufficio Protocollo del Comune di Chianciano Terme, in Via Solferino 3, oppure inviata tramite raccomandata con avviso di ricevimento allo stesso indirizzo: in questo caso farà fede il timbro postale.",
+    "T2_TITLE": "BORSE DI STUDIO «IOSTUDIO» — AVVISO PUBBLICO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il termine è indicato come «scadenza tassativa al 17 aprile 2026». |\n| L2.2 | Falso | È richiesta l'iscrizione a una «scuola secondaria di secondo grado», non di primo grado. 中文：学校类型相反。 |\n| L2.3 | Vero | La mancata correzione dell'anagrafica «comporterà l'esclusione dal beneficio». |\n| L2.4 | Falso | L'ISEE deve essere «non superiore» a 15.748,78 euro. 中文：题目把上限改成了下限。 |\n| L2.5 | Vero | Gli studenti residenti in Toscana che frequentano istituti in altre regioni possono «richiedere il beneficio al proprio comune di residenza». |\n| L2.6 | Falso | La borsa ministeriale «non è compatibile» con Libri Gratis. 中文：两项资助不可兼得。 |\n| L2.7 | Vero | Chi risulterà beneficiario di Libri Gratis «non sarà considerato idoneo». |\n| L2.8 | Falso | «La struttura competente della Regione Toscana» raccoglie gli elenchi e li «trasmetterà al Ministero». 中文：责任主体不是各市镇。 |\n| L2.9 | Vero | La graduatoria individua i beneficiari «in base alle risorse disponibili». |\n| L2.10 | Falso | La Regione può aumentare l'importo «fino a un massimo di 500 euro». 中文：250欧元不是不可变金额。 |\n| L2.11 | Vero | Le borse «saranno erogate direttamente dal Ministero». |\n| L2.12 | Falso | I moduli sono «distribuiti dall'Ufficio URP» presso la portineria oppure scaricabili dal sito. 中文：并非只有线上渠道。 |\n| L2.13 | Falso | Presenta la domanda un genitore o rappresentante legale; lo studente può farlo direttamente solo «se maggiorenne». 中文：未成年人不能自行申请。 |\n| L2.14 | Vero | Per la raccomandata «farà fede il timbro postale». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "scadenza tassativa",
+      "categoria": "locuzione nominale",
+      "zh": "硬性截止日期",
+      "en": "strict deadline",
+      "esempio": "con scadenza tassativa al 17 aprile 2026"
+    },
+    {
+      "parola": "censiti",
+      "categoria": "participio passato",
+      "zh": "已登记的",
+      "en": "registered",
+      "esempio": "dovranno essere correttamente censiti nella banca dati"
+    },
+    {
+      "parola": "aventi diritto",
+      "categoria": "locuzione nominale",
+      "zh": "有资格者",
+      "en": "eligible persons",
+      "esempio": "l'elenco dei nominativi degli aventi diritto"
+    },
+    {
+      "parola": "in corso di validità",
+      "categoria": "locuzione aggettivale",
+      "zh": "在有效期内的",
+      "en": "currently valid",
+      "esempio": "l'attestazione ISEE in corso di validità"
+    },
+    {
+      "parola": "farà fede",
+      "categoria": "locuzione verbale",
+      "zh": "将作为有效依据",
+      "en": "will constitute valid evidence",
+      "esempio": "in questo caso farà fede il timbro postale"
+    }
+  ]
+}
