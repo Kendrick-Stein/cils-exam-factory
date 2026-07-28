@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. La cultura contemporanea riconosce ormai saldamente il saggio come forma letteraria.**  \nVero ○ Falso ○\n\n**2. Gli studi critici dedicati alla saggistica costituiscono ancora una bibliografia piuttosto esigua.**  \nVero ○ Falso ○\n\n**3. Nel panorama italiano l'unico riferimento indicato è il volume di Angela Borghesi.**  \nVero ○ Falso ○\n\n**4. Secondo l'autore dell'articolo, sia il titolo italiano sia quello originale valorizzano soprattutto la prima parte del libro.**  \nVero ○ Falso ○\n\n**5. I 26 capitoli del libro sono numerati progressivamente.**  \nVero ○ Falso ○\n\n**6. I titoli dei capitoli sono formulati come complementi di argomento.**  \nVero ○ Falso ○\n\n**7. Il saggio ricerca la precisione rinunciando alla dispersione e alla divagazione.**  \nVero ○ Falso ○\n\n**8. Le parole «essay» e «saggio» rimandano entrambe, attraverso la loro origine, all'idea della bilancia.**  \nVero ○ Falso ○\n\n**9. Nell'interpretazione proposta, la preposizione latina «ex» ha esclusivamente valore intensivo.**  \nVero ○ Falso ○\n\n**10. «Sciame» viene presentato come un esito di «examen» giunto attraverso una tradizione ininterrotta.**  \nVero ○ Falso ○\n\n**11. La forma del saggio è descritta come naturalmente orientata anche alla brevità e alla leggerezza.**  \nVero ○ Falso ○\n\n**12. Le citazioni scelte da Dillon riguardano soltanto autori molto conosciuti dal pubblico non anglosassone.**  \nVero ○ Falso ○\n\n**13. A un certo punto del libro, la riflessione sul saggio lascia spazio a una scrittura più personale e quasi confessionale.**  \nVero ○ Falso ○\n\n**14. Nel libro l'autobiografismo prevale su tutti gli altri temi.**  \nVero ○ Falso ○",
+    "T2_TEXT": "L'inclusione del saggio nel dominio della letteratura propriamente intesa è una delle acquisizioni più solide della cultura contemporanea. Ad accompagnare il processo, una nutrita serie di riflessioni sull'argomento: la bibliografia critica sulla saggistica ha ormai assunto dimensioni davvero ragguardevoli. Per quanto riguarda il panorama nazionale, il riferimento principale è senza dubbio La forma del saggio di Alfonso Berardinelli (Marsilio 2002), da leggersi in abbinamento con Genealogie. Saggi e interpreti del Novecento di Angela Borghesi (Quodlibet 2011).\n\nIl Saggiatore dedica ora al genere saggistico un agile e brillante volumetto, Scrivere la realtà. L'arte del saggio perfetto di Brian Dillon (trad. di Andrea Sirotti, pp. 206), autorevole firma del «Times Literary Supplement» e della «London Review of Books» e editor di «Cabinet Magazine». Il titolo originale suona più referenziale e meno ambizioso: semplicemente, Essayism (2017). L'impressione è tuttavia che entrambe le scelte privilegino la prima parte del libro, mentre la più caratteristica – il che non significa necessariamente la meglio riuscita – è la seconda. Ma andiamo con ordine.\n\nIl libro è suddiviso in 26 capitoli non numerati, ciascuno con un titolo in forma di complemento di argomento: Sul saggismo, Sullo stile, Sul gusto, Sugli elenchi, Sulla coerenza, e così via. I primi offrono una felice sintesi dei caratteri generali del genere saggistico, mettendone in rilievo la felice contraddittorietà. Il saggio mescola esattezza e dispersione; mira a cogliere qualcosa di essenziale, ma è programmaticamente incompleto e provvisorio; misura e divaga; è insieme acuminato e vulnerabile. Il termine inglese essay deriva dal francese: essai, essayer, che a loro volta traggono origine (come l'italiano «saggio») dal latino exagium, bilancia. Si tratta del medesimo etimo di examen, termine che indica la lancetta o l'ago della bilancia. L'idea è quindi l'atto di «pesare», «vagliare», «stimare»: dunque, una ricerca di precisione. Ma poiché la preposizione ex può avere valore sia intensivo (come in «scalciare» rispetto a «calciare»), sia spaziale (come in «espirare» o «espellere»), un altro esito di examen – come dicono i linguisti, quello di tradizione ininterrotta – è «sciame». Il saggio esce fuori, erra, brulica: tiene insieme della ponderatezza e dell'azzardo, della valutazione e dell'esperimento, della prova e della messa a fuoco. E la forma del saggio si presenta perciò molteplice, seriale, assortita – nonché incline per vocazione alla brevità e alla leggerezza.\n\nStrada facendo, Dillon infilza una serie di citazioni, da cui emergono le sue preferenze letterarie. Alcune sono di autori noti o notissimi, come Virginia Woolf, Susan Sontag, Roland Barthes, William Carlos Williams, Walter Benjamin, Georges Perec, William Gass; altri riferimenti riguardano invece nomi poco noti al pubblico non anglosassone, come Elizabeth Hardwick, Cyril Connolly, Joan Didion. Di certo, fra i classici un posto di riguardo spetta a Montaigne, anche per la propensione all'autoanalisi. Da un certo punto in poi, infatti, i ragionamenti meta-saggistici lasciano spazio alla saggistica vera e propria; e qui il discorso assume un carattere abbastanza fortemente personale, al limite della confessione (aspetto peraltro costitutivo del genere, teste il grande modello degli Essais).\n\nParlando di sé e della propria vita, Dillon mette in rilievo la propria tendenza (predestinazione?) alla malinconia, anzi, alla depressione; non a caso, ben cinque capitoli (il settimo, il tredicesimo, il diciottesimo, il ventiduesimo e il venticinquesimo) hanno per titolo Sulla consolazione. Non che l'autobiografismo spadroneggi; vari temi si alternano, ritornano parecchie considerazioni di tipo formale; particolare rilievo hanno ad esempio le pagine sul rapporto tra frammento e aforisma.",
+    "T2_TITLE": "L'ARTE DEL SAGGIO"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il saggio nella letteratura è «una delle acquisizioni più solide della cultura contemporanea». |\n| L2.2 | Falso | La bibliografia critica ha assunto «dimensioni davvero ragguardevoli», non esigue. 中文：数量对比。 |\n| L2.3 | Falso | Il riferimento principale è *La forma del saggio* di Berardinelli, da leggere «in abbinamento con» il libro di Borghesi. 中文：不是唯一一本。 |\n| L2.4 | Vero | «Entrambe le scelte privilegino la prima parte del libro» si riferisce ai due titoli. |\n| L2.5 | Falso | Il libro comprende «26 capitoli non numerati». 中文：数字是章节总数，不是编号方式。 |\n| L2.6 | Vero | Ogni capitolo ha «un titolo in forma di complemento di argomento». |\n| L2.7 | Falso | Il saggio «mescola esattezza e dispersione» e «misura e divaga». 中文：两种倾向并存。 |\n| L2.8 | Vero | *Essay* risale a *exagium*, «bilancia», come l'italiano «saggio». |\n| L2.9 | Falso | *Ex* può avere valore «sia intensivo [...] sia spaziale». |\n| L2.10 | Vero | «Un altro esito di *examen* [...] quello di tradizione ininterrotta – è “sciame”». |\n| L2.11 | Vero | La forma è «incline per vocazione alla brevità e alla leggerezza». |\n| L2.12 | Falso | Accanto agli autori noti compaiono «nomi poco noti al pubblico non anglosassone». 中文：并非全是知名作者。 |\n| L2.13 | Vero | I ragionamenti meta-saggistici lasciano spazio alla saggistica e il discorso diventa «personale, al limite della confessione». |\n| L2.14 | Falso | «Non che l'autobiografismo spadroneggi»; si alternano vari temi e riflessioni formali. 中文：自传成分没有占据主导。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ragguardevoli",
+      "categoria": "aggettivo",
+      "zh": "相当大的；可观的",
+      "en": "considerable",
+      "esempio": "la bibliografia critica sulla saggistica ha ormai assunto dimensioni davvero ragguardevoli"
+    },
+    {
+      "parola": "vagliare",
+      "categoria": "verbo",
+      "zh": "仔细衡量；审查",
+      "en": "to assess",
+      "esempio": "L'idea è quindi l'atto di «pesare», «vagliare», «stimare»"
+    },
+    {
+      "parola": "ponderatezza",
+      "categoria": "sostantivo",
+      "zh": "深思熟虑；审慎",
+      "en": "thoughtfulness",
+      "esempio": "tiene insieme della ponderatezza e dell'azzardo"
+    },
+    {
+      "parola": "azzardo",
+      "categoria": "sostantivo",
+      "zh": "冒险；大胆尝试",
+      "en": "risk",
+      "esempio": "tiene insieme della ponderatezza e dell'azzardo"
+    },
+    {
+      "parola": "autoanalisi",
+      "categoria": "sostantivo",
+      "zh": "自我分析",
+      "en": "self-analysis",
+      "esempio": "anche per la propensione all'autoanalisi"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Nel testo il curling viene presentato come uno sport in cui**\n\nA) la precisione conta più delle caratteristiche dei materiali.\nB) i risultati dipendono anche dall'attrito e dai materiali impiegati.\nC) la preparazione atletica ha sostituito lo studio della fisica.\nD) le condizioni della pista sono uguali in ogni partita.\n\n**2. Il granito di Ailsa Craig viene scelto soprattutto perché**\n\nA) mantiene il suo colore anche dopo molti anni.\nB) rende le pietre più leggere e facili da lanciare.\nC) resiste all'usura e ai ripetuti cambiamenti di temperatura.\nD) assorbe l'acqua senza modificare la propria struttura.\n\n**3. Secondo il testo, la direzione della curva compiuta dalla pietra**\n\nA) cambia in base al verso della sua rotazione.\nB) è determinata esclusivamente dalla velocità del lancio.\nC) dipende dalla posizione dell'atleta sulla pista.\nD) rimane imprevedibile perché non esistono modelli matematici.\n\n**4. Durante lo sweeping, le spazzole**\n\nA) eliminano dal ghiaccio tutte le microgocce congelate.\nB) aumentano l'attrito per rallentare la pietra.\nC) raffreddano la pista per renderla più uniforme.\nD) scaldano la superficie e riducono la resistenza al moto.\n\n**5. Nelle fasi di spazzolamento, il sistema anaerobico**\n\nA) garantisce potenza immediata per un tempo breve.\nB) permette di sostenere a lungo uno sforzo moderato.\nC) favorisce il recupero tra due partite consecutive.\nD) funziona soltanto quando aumenta l'apporto di ossigeno.\n\n**6. Dopo un'intensa fase di sweeping, l'atleta deve**\n\nA) interrompere l'attività finché la frequenza cardiaca si abbassa.\nB) passare subito da uno sforzo intenso a un gesto molto preciso.\nC) affidare il lancio successivo a un altro componente della squadra.\nD) continuare a spazzolare per mantenere attivo il sistema aerobico.\n\n**7. In base allo «Spirit of Curling», se commette una violazione involontaria il giocatore deve**\n\nA) aspettare che sia l'avversario a segnalarla.\nB) accettare una penalità decisa dai compagni di squadra.\nC) dichiarare personalmente il proprio errore.\nD) rinunciare immediatamente al resto della partita.",
+    "T1_TEXT": "Il curling non è solo un gioco di precisione: in vista delle Olimpiadi invernali di Milano-Cortina 2026, questo sport si rivela un vero laboratorio di fisica a cielo aperto. Ogni partita è una sfida estrema tra materiali d'avanguardia e gestione dell'attrito. Dalla chimica del granito scozzese alla fisiologia degli atleti, scopriamo i segreti di una disciplina dove la scienza decide il podio.\n\nLe pietre olimpiche che vedremo in pista nel 2026 hanno un'origine leggendaria: provengono quasi tutte da Ailsa Craig, un'isola disabitata al largo della Scozia. Il motivo della scelta non è legato all'estetica, ma risiede nell'incredibile resistenza del granito locale all'usura e ai continui cicli di gelo e disgelo. I produttori utilizzano spesso il granito Blue Hone per l'anello di scorrimento a causa della sua durezza e della sua bassissima assorbenza d'acqua. Questa caratteristica è vitale per l'affidabilità dello strumento, poiché l'acqua che penetra nel materiale potrebbe espandersi del 9% durante il congelamento, causando microfessure distruttive nel tempo.\n\nPerché la pietra curva? È uno dei grandi enigmi della fisica sportiva. Su un ghiaccio ricoperto di microgocce congelate, chiamato pebble, una pietra con rotazione oraria curva verso destra, mentre una con rotazione antioraria si sposta verso sinistra. Questo fenomeno di \"frizione asimmetrica\" è ancora oggi oggetto di studi avanzati: i modelli matematici vengono costantemente raffinati per prevedere la traiettoria perfetta verso la house.\n\nContrariamente a quanto si pensa, gli atleti non \"puliscono\" la pista: lo sweeping serve a generare calore. Proprio così: con una pressione costante e un'alta frequenza di passate, le spazzole scaldano la superficie favorendo la riduzione della resistenza al moto. Questo permette di mandare la pietra più lontano e di influenzare la traiettoria, curvandola se necessario. L'effetto dipende da variabili precise come la forza applicata dall'atleta e le condizioni ambientali, ma la ricerca conferma che l'azione delle spazzole abbassa drasticamente l'attrito superficiale.\n\nDal punto di vista fisiologico questo sport richiede sforzi brevi e intensi paragonabili a sprint ripetuti, con picchi di frequenza cardiaca molto elevati durante le fasi di spazzolamento. In quei momenti il corpo deve produrre energia in modo rapidissimo, utilizzando due \"motori\" diversi: da un lato il sistema anaerobico, che fornisce potenza immediata per pochi secondi senza bisogno di ossigeno, dall'altro il sistema aerobico, che entra in gioco per sostenere lo sforzo più a lungo e permettere un recupero veloce tra un'azione e la successiva. Questa alternanza è fondamentale perché, dopo un'intensa fase di sweeping, l'atleta deve tornare subito a un controllo motorio finissimo per eseguire con precisione il lancio successivo.\n\nOltre alla fisica, il curling si distingue per una cultura dell'autoregolazione definita \"Spirit of Curling\". Questo codice enfatizza la sportività e la condotta onorevole, stabilendo che un giocatore non debba mai infrangere consapevolmente una regola. Il principio è così radicato che, in caso di violazione involontaria, spetta al curler, il giocatore stesso, il compito di dichiarare il proprio errore, mettendo la lealtà e la reputazione al di sopra di ogni possibile vantaggio nel risultato agonistico.",
+    "T1_TITLE": "La scienza segreta del curling"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo definisce ogni partita «una sfida estrema tra materiali d'avanguardia e gestione dell'attrito». |\n| L1.2 | C | Il granito locale ha un'«incredibile resistenza [...] all'usura e ai continui cicli di gelo e disgelo». |\n| L1.3 | A | Con rotazione oraria la pietra curva a destra, mentre con rotazione antioraria va a sinistra. |\n| L1.4 | D | Le spazzole «scaldano la superficie favorendo la riduzione della resistenza al moto». |\n| L1.5 | A | Il sistema anaerobico «fornisce potenza immediata per pochi secondi senza bisogno di ossigeno». |\n| L1.6 | B | Dopo lo sweeping l'atleta deve «tornare subito a un controllo motorio finissimo». 中文：考查从高强度到精细动作的快速转换。 |\n| L1.7 | C | In caso di violazione involontaria, spetta al giocatore «dichiarare il proprio errore». |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "A",
+    "L1.6": "B",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "assorbenza d'acqua",
+      "categoria": "locuzione nominale",
+      "zh": "吸水性",
+      "en": "water absorption",
+      "esempio": "I produttori utilizzano spesso il granito Blue Hone per l'anello di scorrimento a causa della sua durezza e della sua bassissima assorbenza d'acqua."
+    },
+    {
+      "parola": "microfessure",
+      "categoria": "nome femminile plurale",
+      "zh": "微裂缝",
+      "en": "microcracks",
+      "esempio": "Questa caratteristica è vitale per l'affidabilità dello strumento, poiché l'acqua che penetra nel materiale potrebbe espandersi del 9% durante il congelamento, causando microfessure distruttive nel tempo."
+    },
+    {
+      "parola": "traiettoria",
+      "categoria": "nome femminile",
+      "zh": "轨迹",
+      "en": "trajectory",
+      "esempio": "Questo permette di mandare la pietra più lontano e di influenzare la traiettoria, curvandola se necessario."
+    },
+    {
+      "parola": "autoregolazione",
+      "categoria": "nome femminile",
+      "zh": "自我约束",
+      "en": "self-regulation",
+      "esempio": "Oltre alla fisica, il curling si distingue per una cultura dell'autoregolazione definita \"Spirit of Curling\"."
+    },
+    {
+      "parola": "condotta onorevole",
+      "categoria": "locuzione nominale",
+      "zh": "正直的行为",
+      "en": "honourable conduct",
+      "esempio": "Questo codice enfatizza la sportività e la condotta onorevole, stabilendo che un giocatore non debba mai infrangere consapevolmente una regola."
+    }
+  ]
+}

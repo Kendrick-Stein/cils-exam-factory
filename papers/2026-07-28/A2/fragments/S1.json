@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ Biblioteca civica Cascina Marchesa cambia orario a causa del caldo. Dal 15 luglio, tutte __(1)__ sedi senza aria condizionata aprono soltanto al mattino, fino a nuova comunicazione. __(2)__ Biblioteca Cascina Marchesa e la Biblioteca musicale Andrea Della Corte seguono __(3)__ stesso orario: dalle 9.00 alle 15.30. __(4)__ Punto bibliotecario del Mausoleo della Bela Rosin apre lunedì, mercoledì e giovedì dalle 9.00 alle 13.00. __(5)__ Bibliobus 2 sospende le soste pomeridiane dal martedì alla domenica fino al 31 luglio. Tutti __(6)__ nuovi orari permettono __(7)__ evitare tutte __(8)__ ore più calde e continuano __(9)__ garantire i servizi essenziali __(10)__ il pubblico.",
+    "T4_TITLE": "ORARI ESTIVI DELLE BIBLIOTECHE DI TORINO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "*Nota:* «Tutte le» e «tutti i» rendono obbligatori gli articoli; le preposizioni sono richieste da «permettono di», «continuano a» e «per il pubblico». 中文：注意冠词配合和固定搭配。",
+    "ANS_S1_ROWS": "| S1.1 | le | S1.6 | i |\n| S1.2 | La | S1.7 | di |\n| S1.3 | lo | S1.8 | le |\n| S1.4 | Il | S1.9 | a |\n| S1.5 | Il | S1.10 | per |"
+  },
+  "key": {
+    "S1.1": "le",
+    "S1.2": "La",
+    "S1.3": "lo",
+    "S1.4": "Il",
+    "S1.5": "Il",
+    "S1.6": "i",
+    "S1.7": "di",
+    "S1.8": "le",
+    "S1.9": "a",
+    "S1.10": "per"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "aria condizionata",
+      "categoria": "locuzione nominale",
+      "zh": "空调",
+      "en": "air conditioning",
+      "esempio": "sedi senza aria condizionata"
+    },
+    {
+      "parola": "nuova comunicazione",
+      "categoria": "locuzione nominale",
+      "zh": "另行通知",
+      "en": "further notice",
+      "esempio": "fino a nuova comunicazione"
+    },
+    {
+      "parola": "orario",
+      "categoria": "nome maschile",
+      "zh": "开放时间；时刻表",
+      "en": "opening hours; schedule",
+      "esempio": "stesso orario: dalle 9.00 alle 15.30"
+    },
+    {
+      "parola": "soste pomeridiane",
+      "categoria": "locuzione nominale",
+      "zh": "下午停靠",
+      "en": "afternoon stops",
+      "esempio": "sospende le soste pomeridiane"
+    },
+    {
+      "parola": "servizi essenziali",
+      "categoria": "locuzione nominale",
+      "zh": "基本服务",
+      "en": "essential services",
+      "esempio": "servizi essenziali"
+    }
+  ]
+}

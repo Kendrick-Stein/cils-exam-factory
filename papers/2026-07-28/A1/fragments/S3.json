@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "a",
+    "S3_OPT0_B": "da",
+    "S3_OPT0_C": "per",
+    "S3_OPTION_ROWS": "| 1. | chiusa | nuova | lontana |\n| 2. | centro | pomeriggio | telefono |\n| 3. | biblioteca | bicicletta | mattina |\n| 4. | arriva | chiude | telefona |\n| 5. | libri | giorni | minuti |\n| 6. | linea | fermata | biblioteca |\n| 7. | biblioteca | fermata | linea |\n| 8. | leggere | stampare | scrivere |",
+    "S3_TEXT_WITH_GAPS": "La biblioteca Gianni Rodari è __a (0)__ Ferrara, in Viale Krasnodar 102. Il lunedì non apre: resta __(1)__. Martedì apre la mattina e il __(2)__. Mercoledì e venerdì apre solo la __(3)__. Giovedì apre alle 15 e __(4)__ alle 19. In bicicletta, dal centro servono dieci __(5)__. Puoi arrivare anche in autobus: prendi la __(6)__ 11 e scendi alla __(7)__ Scuola Media De Pisis. Per informazioni, puoi telefonare o __(8)__ un'email.",
+    "T6_TITLE": "LA BIBLIOTECA GIANNI RODARI"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «non apre: resta» richiede «chiusa». 中文：周一闭馆。 |\n| S3.2 | B | «la mattina e il pomeriggio» indica le due parti della giornata. 中文：上午和下午。 |\n| S3.3 | C | «solo la mattina» completa l'indicazione dell'orario. 中文：只在上午开放。 |\n| S3.4 | B | Dopo «apre alle 15», «chiude alle 19» completa l'orario. 中文：15点开门，19点关门。 |\n| S3.5 | C | «dieci minuti» esprime il tempo necessario dal centro. 中文：骑车需要十分钟。 |\n| S3.6 | A | Il numero 11 identifica la «linea» dell'autobus. 中文：11路公交线。 |\n| S3.7 | B | Con l'autobus si scende alla «fermata». 中文：在该站下车。 |\n| S3.8 | C | Per contattare la biblioteca si può «scrivere un'email». 中文：可以写邮件咨询。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "A",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "biblioteca",
+      "categoria": "nome femminile",
+      "zh": "图书馆",
+      "en": "library",
+      "esempio": "La biblioteca Gianni Rodari è a Ferrara, in Viale Krasnodar 102."
+    },
+    {
+      "parola": "chiusa",
+      "categoria": "aggettivo",
+      "zh": "关闭的",
+      "en": "closed",
+      "esempio": "Il lunedì non apre: resta chiusa."
+    },
+    {
+      "parola": "pomeriggio",
+      "categoria": "nome maschile",
+      "zh": "下午",
+      "en": "afternoon",
+      "esempio": "Martedì apre la mattina e il pomeriggio."
+    },
+    {
+      "parola": "fermata",
+      "categoria": "nome femminile",
+      "zh": "车站",
+      "en": "stop",
+      "esempio": "Puoi arrivare anche in autobus: prendi la linea 11 e scendi alla fermata Scuola Media De Pisis."
+    },
+    {
+      "parola": "informazioni",
+      "categoria": "nome femminile plurale",
+      "zh": "信息",
+      "en": "information",
+      "esempio": "Per informazioni, puoi telefonare o scrivere un'email."
+    }
+  ]
+}

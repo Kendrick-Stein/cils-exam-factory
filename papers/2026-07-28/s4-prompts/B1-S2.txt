@@ -1,0 +1,16 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 3-4 + §Stage S4), factory/exams/cils/templates/B1.md (the S2 block + HTML comments — intervista format, domande in grassetto), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/B1/fragments/S2.json (cloze_verbi — presente, passato prossimo, imperfetto, futuro, condizionale; 20 gaps, T5 = intervista ANSA a Paolo Ruffini).
+Your source text: the '## Slot T5' section of papers/2026-07-28/B1/sources.md.
+
+Defects (blind mismatches + FLAGS):
+- S2.1: key "sono", solver "è" — number ambiguity; force it (explicit subject printed next to the gap).
+- S2.2: key "intervisto", solver "intervista" — person ambiguity (io vs lui/lei); force with explicit printed subject pronoun or question context.
+- S2.10 (FLAG): "soggetto plurale sottinteso di «aspettavano» non espresso" — print the subject.
+- S2.11 (FLAG): same for «chiamavano» — print the subject.
+- Rescan ALL 20 gaps: person/number/tense of every gap must be forced by printed markers (explicit subjects; time anchors per rule 3). Auxiliary and clitic inside the gap. No essere-aux passato prossimo with unspecified-gender subject.
+
+Keep exactly 20 gaps, points identical, interview Q&A structure intact (domande in grassetto; you may not invent new content — only make existing subjects explicit and adjust gap cuts). Rewrite papers/2026-07-28/B1/fragments/S2.json in full.
+Reply (short): which gaps you fixed; final text word count.

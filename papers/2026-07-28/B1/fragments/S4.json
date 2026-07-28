@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Gentile cliente, il farmaco ordinato è arrivato ed è disponibile nella nostra farmacia. Può ritirarlo entro sabato mostrando la tessera sanitaria. Dopo questa data, se non riceveremo sue notizie, lo restituiremo al fornitore.»**  \nA) È la richiesta di ordinare un farmaco presso un fornitore.  \nB) È l'avviso che un farmaco è pronto per essere ritirato entro una scadenza.  \nC) È la comunicazione che la farmacia resterà chiusa sabato.  \nD) È il consiglio di cambiare una cura già prescritta.\n\n**2. «Si avvisano i residenti che domani l'ascensore non funzionerà dalle 8 alle 14 per un intervento di manutenzione. Durante i lavori sarà necessario usare le scale. Ci scusiamo per il disagio.»**  \nA) È l'annuncio dell'installazione di un nuovo ascensore.  \nB) È la richiesta di non lasciare oggetti sulle scale.  \nC) È l'avviso di una sospensione temporanea del servizio dell'ascensore.  \nD) È la comunicazione di un guasto senza data di riparazione.\n\n**3. «Ciao Amir, mentre usavo la bicicletta che mi hai prestato ho bucato una gomma. Mi dispiace molto. Domani la porto dal meccanico e pago io la riparazione; te la riporto appena è pronta.»**  \nA) È la richiesta di poter tenere una bicicletta per un altro giorno.  \nB) È la protesta perché una bicicletta prestata era già rotta.  \nC) È il consiglio di portare una bicicletta da un meccanico.  \nD) È una scusa per un danno accompagnata dall'impegno a ripararlo.\n\n**4. «La visita guidata delle 11 è annullata perché la guida è malata. Potete comunque entrare nel museo con lo stesso biglietto e visitarlo liberamente, oppure chiedere il rimborso completo alla biglietteria.»**  \nA) È l'annullamento di una visita guidata con due alternative per i partecipanti.  \nB) È l'invito ad acquistare un secondo biglietto per entrare nel museo.  \nC) È l'annuncio della chiusura del museo per tutta la giornata.  \nD) È la proposta di spostare la visita guidata alle 11.\n\n**5. «Abbiamo trovato uno zaino blu sul treno regionale arrivato ieri da Lucca. Chi pensa di esserne il proprietario deve telefonare all'ufficio oggetti smarriti e descrivere il contenuto prima di venire a ritirarlo.»**  \nA) È la denuncia del furto di uno zaino durante un viaggio.  \nB) È la ricerca del proprietario di un oggetto ritrovato.  \nC) È la richiesta ai viaggiatori di consegnare gli oggetti di valore.  \nD) È l'offerta di uno zaino usato a chi telefona per primo.\n\n**6. «Il suo abbonamento alla palestra scade il 31 luglio. Se desidera continuare a frequentare i corsi senza interruzioni, rinnovi l'iscrizione entro quella data dalla sua area personale o direttamente alla reception.»**  \nA) È il promemoria di rinnovare un abbonamento prima della scadenza.  \nB) È la conferma che un abbonamento è stato rinnovato automaticamente.  \nC) È l'offerta di frequentare gratuitamente i corsi della palestra.  \nD) È l'avviso che la palestra chiuderà alla fine di luglio.\n\n**7. «Buongiorno, il ritiro dei mobili vecchi prenotato per martedì non potrà essere effettuato a causa di un guasto al camion. Possiamo venire giovedì mattina. Risponda a questo messaggio per confermare la nuova data.»**  \nA) È la richiesta di pagare il trasporto di alcuni mobili nuovi.  \nB) È l'annuncio della cancellazione definitiva di un servizio di ritiro.  \nC) È la proposta di una nuova data per un ritiro già prenotato.  \nD) È la conferma che i mobili sono stati ritirati martedì.\n\n**8. «Ciao Laura, il mio treno ha due ore di ritardo e non riuscirò a tornare prima delle nove. Potresti dare da mangiare al gatto e chiudere la finestra della cucina? Le chiavi sono dal portiere.»**  \nA) È l'invito ad aspettare insieme l'arrivo di un treno.  \nB) È la comunicazione che il portiere ha perso delle chiavi.  \nC) È il consiglio di tenere chiuso un gatto in cucina.  \nD) È la richiesta di occuparsi temporaneamente di alcune necessità domestiche.\n\n**9. «Non possiamo accettare la restituzione delle cuffie perché sono trascorsi più di trenta giorni dall'acquisto. Possiamo però inviarle gratuitamente al centro assistenza, che controllerà il difetto e le riparerà se necessario.»**  \nA) È la conferma del rimborso completo per un prodotto difettoso.  \nB) È il rifiuto di un reso con l'offerta di assistenza tecnica.  \nC) È la richiesta di pagare una seconda volta le cuffie.  \nD) È l'annuncio che il centro assistenza non esegue riparazioni.\n\n**10. «La biblioteca cerca due volontari per sabato pomeriggio. Dovranno sistemare i libri donati e preparare gli scatoloni per il mercatino. Chi è disponibile può lasciare nome e numero di telefono al banco informazioni.»**  \nA) È l'avviso che sabato la biblioteca non accetterà libri.  \nB) È la vendita di scatoloni destinati a un mercatino.  \nC) È la ricerca di persone disponibili ad aiutare in biblioteca.  \nD) È l'invito a donare denaro per acquistare nuovi libri."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «il farmaco ordinato è arrivato» e «Può ritirarlo entro sabato» comunicano disponibilità e scadenza; 中文：药品已到店，须按时领取。 |\n| S4.2 | C | «l'ascensore non funzionerà dalle 8 alle 14» indica una sospensione limitata ai lavori; 中文：电梯只是暂时停用。 |\n| S4.3 | D | «Mi dispiace molto» esprime le scuse e «pago io la riparazione» promette di rimediare; 中文：道歉并承担修理费。 |\n| S4.4 | A | La visita è «annullata», ma sono possibili l'ingresso libero o il «rimborso completo»; 中文：取消导览并提供两种选择。 |\n| S4.5 | B | «Abbiamo trovato uno zaino» e si chiede al proprietario di descriverne il contenuto; 中文：寻找失物的主人。 |\n| S4.6 | A | «scade il 31 luglio» e l'invito a rinnovare entro quella data costituiscono un promemoria; 中文：提醒续办会员。 |\n| S4.7 | C | Il ritiro di martedì non è possibile e viene proposto «giovedì mattina», da confermare; 中文：改约上门回收日期。 |\n| S4.8 | D | A causa del ritardo, Laura deve dare da mangiare al gatto e chiudere una finestra; 中文：请求临时代办家务。 |\n| S4.9 | B | Il negozio «non può accettare la restituzione», ma offre l'invio gratuito al centro assistenza; 中文：拒绝退货但提供维修。 |\n| S4.10 | C | «La biblioteca cerca due volontari» per sistemare libri e scatoloni; 中文：招募志愿者帮忙。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "C",
+    "S4.3": "D",
+    "S4.4": "A",
+    "S4.5": "B",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "D",
+    "S4.9": "B",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tessera sanitaria",
+      "categoria": "locuzione nominale",
+      "zh": "医保卡",
+      "en": "health insurance card",
+      "esempio": "Può ritirarlo entro sabato mostrando la tessera sanitaria"
+    },
+    {
+      "parola": "intervento di manutenzione",
+      "categoria": "locuzione nominale",
+      "zh": "维护作业",
+      "en": "maintenance work",
+      "esempio": "per un intervento di manutenzione"
+    },
+    {
+      "parola": "oggetti smarriti",
+      "categoria": "locuzione nominale",
+      "zh": "失物",
+      "en": "lost property",
+      "esempio": "telefonare all'ufficio oggetti smarriti"
+    },
+    {
+      "parola": "rinnovi l'iscrizione",
+      "categoria": "locuzione verbale",
+      "zh": "续办会员",
+      "en": "renew the membership",
+      "esempio": "rinnovi l'iscrizione entro quella data"
+    },
+    {
+      "parola": "centro assistenza",
+      "categoria": "locuzione nominale",
+      "zh": "售后服务中心",
+      "en": "service centre",
+      "esempio": "inviarle gratuitamente al centro assistenza"
+    }
+  ]
+}

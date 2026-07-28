@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. La stagione estiva è iniziata ufficialmente il 4 aprile.**\n\nVero ○ Falso ○\n\n**2. L'ordinanza del Comune regola la vita in spiaggia per l'anno 2025.**\n\nVero ○ Falso ○\n\n**3. Sulla battigia è permesso fumare.**\n\nVero ○ Falso ○\n\n**4. Ogni stabilimento deve avere defibrillatori certificati.**\n\nVero ○ Falso ○\n\n**5. Il Comune ha autorizzato dodici operatori del commercio itinerante.**\n\nVero ○ Falso ○\n\n**6. Gli operatori autorizzati possono vendere bibite e gelati, ma non macedonia fresca.**\n\nVero ○ Falso ○\n\n**7. Tutti gli operatori possono vendere prodotti tradizionali come cocco e canditi.**\n\nVero ○ Falso ○\n\n**8. La stagione balneare estiva termina il 2 novembre 2026.**\n\nVero ○ Falso ○\n\n**9. Il servizio di assistenza alla balneazione è obbligatorio dal 16 maggio al 20 settembre.**\n\nVero ○ Falso ○\n\n**10. Nel periodo del servizio di assistenza, le attività di spiaggia devono aprire ogni giorno alle 8:30.**\n\nVero ○ Falso ○\n\n**11. Ombrelloni e lettini possono essere rimossi gradualmente già dal 1° settembre.**\n\nVero ○ Falso ○\n\n**12. Le operazioni di smontaggio devono terminare dopo il 27 settembre.**\n\nVero ○ Falso ○\n\n**13. In spiaggia sono autorizzate attività come massaggi e tatuaggi.**\n\nVero ○ Falso ○\n\n**14. Nelle spiagge libere indicate, i cani possono fare il bagno dalle 6:00 alle 7:30 e dalle 19:00 al tramonto.**\n\nVero ○ Falso ○",
+    "T2_TEXT": "Con la stagione estiva già ufficialmente avviata lo scorso 4 aprile, il Comune di Riccione ha reso noti i dettagli dell'ordinanza che disciplina la vita in spiaggia per l'anno 2026. L'amministrazione ha scelto di dare continuità a un modello di accoglienza basato sulla sicurezza e sul rispetto dell'ambiente, confermando provvedimenti ormai consolidati come il divieto assoluto di fumo lungo la battigia e l'accesso regolamentato per gli animali domestici nelle aree dedicate. Tra le certezze per la tutela della salute pubblica rimane fermo l'obbligo per ogni stabilimento di disporre di defibrillatori certificati.\n\nAccanto a queste conferme, spunta una piccola curiosità merceologica dedicata al ristoro sotto l'ombrellone: i dodici operatori del commercio itinerante autorizzati dal Comune potranno ora vendere anche la macedonia fresca, che si aggiunge a bibite e gelati, mentre resta confermata l'esclusiva per i venditori storici su prodotti tradizionali come cocco e canditi.\n\nLa stagione balneare estiva proseguirà fino al 2 novembre 2026, ma il cuore della programmazione riguarda la sicurezza in mare. L'ordinanza stabilisce infatti che il servizio di assistenza alla balneazione dovrà essere garantito obbligatoriamente dal 16 maggio al 20 settembre. In questo arco temporale, tutti gli stabilimenti, i bar e i ristoranti di spiaggia dovranno assicurare l'apertura quotidiana a partire dalle 7:30, offrendo così pieni servizi ai turisti fin dalle prime ore del mattino.\n\nAnche lo smontaggio delle attrezzature a fine estate è stato regolamentato per non pregiudicare il decoro: ombrelloni e lettini potranno essere rimossi gradualmente dal 7 settembre, ma le operazioni dovranno concludersi tassativamente solo dopo il 27 settembre.\n\nPer garantire il decoro, restano vietate le attività non autorizzate come massaggi o tatuaggi e l'accesso in spiaggia tra l'1:00 e le 5:00 del mattino. Infine, viene confermata la disciplina per gli amici a quattro zampe: il bagno in mare è permesso esclusivamente nelle prime ore del mattino (06:00-07:30) e in serata (dalle 19:00 al tramonto) nelle spiagge libere individuate tra le zone 5 e 7, 51 e 52, 77 e 78, 132 e 134, 146 e 147. Negli stabilimenti privati, i proprietari potranno invece usufruire delle aree attrezzate predisposte dai concessionari.",
+    "T2_TITLE": "Stagione balneare 2026 al via: macedonia in vendita in spiaggia, nuove date per il salvataggio e stop al fumo sulla battigia"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice «stagione estiva già ufficialmente avviata lo scorso 4 aprile». |\n| L2.2 | Falso | L'ordinanza disciplina la vita in spiaggia «per l'anno 2026», non per il 2025. |\n| L2.3 | Falso | È confermato «il divieto assoluto di fumo lungo la battigia». |\n| L2.4 | Vero | Rimane fermo «l'obbligo per ogni stabilimento di disporre di defibrillatori certificati». |\n| L2.5 | Vero | Il testo indica «i dodici operatori del commercio itinerante autorizzati dal Comune». |\n| L2.6 | Falso | Gli operatori potranno vendere «anche la macedonia fresca», oltre a bibite e gelati. |\n| L2.7 | Falso | Cocco e canditi restano in esclusiva «per i venditori storici», non per tutti gli operatori. |\n| L2.8 | Vero | La stagione «proseguirà fino al 2 novembre 2026». |\n| L2.9 | Vero | Il servizio deve essere garantito «dal 16 maggio al 20 settembre». |\n| L2.10 | Falso | L'apertura quotidiana è prevista «a partire dalle 7:30», non dalle 8:30. |\n| L2.11 | Falso | La rimozione può iniziare «dal 7 settembre», non dal 1° settembre. |\n| L2.12 | Vero | Le operazioni «dovranno concludersi tassativamente solo dopo il 27 settembre». |\n| L2.13 | Falso | Massaggi e tatuaggi sono citati tra «le attività non autorizzate» che restano vietate. |\n| L2.14 | Vero | Il bagno è permesso «06:00-07:30» e «dalle 19:00 al tramonto» nelle spiagge libere indicate. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "battigia",
+      "categoria": "nome femminile",
+      "zh": "海浪拍岸处；潮水线",
+      "en": "shoreline",
+      "esempio": "il divieto assoluto di fumo lungo la battigia"
+    },
+    {
+      "parola": "commercio itinerante",
+      "categoria": "locuzione nominale",
+      "zh": "流动商业；流动销售",
+      "en": "mobile retail trade",
+      "esempio": "i dodici operatori del commercio itinerante autorizzati dal Comune"
+    },
+    {
+      "parola": "assistenza alla balneazione",
+      "categoria": "locuzione nominale",
+      "zh": "海水浴救生服务",
+      "en": "bathing assistance service",
+      "esempio": "il servizio di assistenza alla balneazione dovrà essere garantito obbligatoriamente"
+    },
+    {
+      "parola": "tassativamente",
+      "categoria": "avverbio",
+      "zh": "严格地；务必",
+      "en": "strictly",
+      "esempio": "le operazioni dovranno concludersi tassativamente solo dopo il 27 settembre"
+    },
+    {
+      "parola": "concessionari",
+      "categoria": "nome maschile plurale",
+      "zh": "特许经营者",
+      "en": "concession holders",
+      "esempio": "le aree attrezzate predisposte dai concessionari"
+    }
+  ]
+}

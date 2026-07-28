@@ -1,0 +1,13 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 4 + §Stage S4), factory/exams/cils/templates/C1.md (the S1 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/C1/fragments/S1.json (cloze_aperto — connettivi, 20 gaps, T4 = saggio "Insegnare: l'università in forma di saggio").
+Your source text: the '## Slot T4' section of papers/2026-07-28/C1/sources.md.
+
+Defect (blind mismatch):
+- S1.7: key "anche se", solver answered "mentre" — both connectives are defensible in that sentence (concessive vs adversative reading both coherent). Re-cut so the sentence's logic admits exactly ONE connective (strengthen the semantic contrast/concession in the surrounding printed clauses by choosing a different sentence to gap, or gap a connective whose relation is unambiguous).
+- Rescan ALL 20 gaps for connective competition (anche se/mentre/benché; perché/poiché/siccome; quindi/perciò/dunque; ma/però/tuttavia are interchangeable sets — where two members of a set both fit, key must list both with || OR the gap must be re-cut to a non-competing connective).
+
+Keep exactly 20 gaps, points identical, essay wording authentic (trim, don't rewrite). Rewrite papers/2026-07-28/C1/fragments/S1.json in full.
+Reply (short): which gaps you re-cut or key-extended; final text word count.

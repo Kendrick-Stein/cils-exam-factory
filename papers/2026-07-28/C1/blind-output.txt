@@ -1,0 +1,154 @@
+### (1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "C", "confidence": "hi"},
+  "L1.6": {"answer": "B", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Vero", "confidence": "hi"},
+  "L2.11": {"answer": "Vero", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {
+    "answer": "A-D-K-N-B-F-M-H-I-P-C-L-E-O-G-J",
+    "confidence": "hi"
+  },
+
+  "S1.1": {"answer": "quanto", "confidence": "hi"},
+  "S1.2": {"answer": "dall'altra", "confidence": "hi"},
+  "S1.3": {"answer": "né", "confidence": "hi"},
+  "S1.4": {"answer": "che", "confidence": "hi"},
+  "S1.5": {"answer": "sia", "confidence": "hi"},
+  "S1.6": {"answer": "tanto", "confidence": "hi"},
+  "S1.7": {"answer": "mentre", "confidence": "hi"},
+  "S1.8": {"answer": "perché", "confidence": "hi"},
+  "S1.9": {"answer": "sia", "confidence": "hi"},
+  "S1.10": {"answer": "quanto", "confidence": "hi"},
+  "S1.11": {"answer": "prima di", "confidence": "hi"},
+  "S1.12": {"answer": "purché", "confidence": "hi"},
+  "S1.13": {"answer": "così", "confidence": "hi"},
+  "S1.14": {"answer": "come", "confidence": "hi"},
+  "S1.15": {"answer": "primo", "confidence": "hi"},
+  "S1.16": {"answer": "secondo", "confidence": "hi"},
+  "S1.17": {"answer": "ultimo", "confidence": "hi"},
+  "S1.18": {"answer": "quanto", "confidence": "hi"},
+  "S1.19": {"answer": "quanto", "confidence": "hi"},
+  "S1.20": {"answer": "che", "confidence": "hi"},
+
+  "S2.1": {"answer": "ritornammo", "confidence": "hi"},
+  "S2.2": {"answer": "passammo", "confidence": "hi"},
+  "S2.3": {"answer": "dovesse", "confidence": "hi"},
+  "S2.4": {"answer": "passavano", "confidence": "hi"},
+  "S2.5": {"answer": "gingillandovi", "confidence": "hi"},
+  "S2.6": {"answer": "allungavate", "confidence": "hi"},
+  "S2.7": {"answer": "spuntasse", "confidence": "hi"},
+  "S2.8": {"answer": "passeggiammo", "confidence": "hi"},
+  "S2.9": {"answer": "ci arrampicammo", "confidence": "hi"},
+  "S2.10": {"answer": "avevate ancora imparato", "confidence": "hi"},
+  "S2.11": {"answer": "erano state gettate", "confidence": "med"},
+  "S2.12": {"answer": "gettare", "confidence": "hi"},
+  "S2.13": {"answer": "potesse", "confidence": "hi"},
+  "S2.14": {"answer": "sorprese", "confidence": "hi"},
+  "S2.15": {"answer": "raccolta", "confidence": "hi"},
+  "S2.16": {"answer": "dormivano", "confidence": "hi"},
+  "S2.17": {"answer": "sia rimasta", "confidence": "hi"},
+  "S2.18": {"answer": "abbiate dimenticato", "confidence": "hi"},
+  "S2.19": {"answer": "ho conservato", "confidence": "hi"},
+  "S2.20": {"answer": "può", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "A", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "D", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "C", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "B", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "D", "confidence": "hi"},
+  "S3.15": {"answer": "B", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "Le mine non possono essere fatte brillare in prossimità dei boschi e nei terreni cespugliosi ricadenti nel territorio comunale.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "L'uso di apparecchi a fiamma o elettrici per il taglio dei metalli è vietato.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "I fornelli inceneritori produttori di faville non possono essere usati nei boschi e nei terreni cespugliosi.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Qualora ci si trovi nei boschi o nelle aree interessate dalla presenza di cespugli, erba secca, macchia, stoppie e sterpaglie, non si può fumare né compiere alcuna operazione che possa creare pericolo immediato di incendio.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "Gli organi competenti devono aver preventivamente autorizzato l'uso dei fuochi di artificio in occasione di feste e solennità, che è comunque consentito soltanto nelle aree appositamente individuate.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "Il divieto si estende a ogni altra operazione che possa creare pericolo immediato di incendio, come gettare dai veicoli o abbandonare sul terreno fiammiferi, sigari, sigarette o altro materiale acceso o incandescente.",
+    "confidence": "hi"
+  }
+}
+```
+
+### (2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.11",
+    "issue": "La forma passiva «erano state gettate» è la lettura temporalmente più naturale, ma la consegna non esclude del tutto altre forme contestualmente possibili del verbo."
+  }
+]
+```
+
+### (3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180 parole",
+    "notes": "Entrambe le tracce definiscono autonomamente tema, prospettive da considerare e genere testuale dove necessario."
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole",
+    "notes": "Entrambe le tracce forniscono destinatario, fatti, richieste e necessità di fissare un termine per la risposta."
+  },
+  "O1": {
+    "self_contained": true,
+    "notes": "Tutte e quattro le situazioni precisano interlocutore, problema e obiettivo comunicativo; preparazione e durata sono stampate."
+  },
+  "O2": {
+    "self_contained": true,
+    "notes": "Tutti e quattro gli argomenti definiscono una questione e le dimensioni da discutere; preparazione e durata sono stampate."
+  }
+}
+```

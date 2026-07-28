@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione di quartiere che ha inaugurato una biblioteca degli oggetti, dove i residenti possono prendere in prestito strumenti e piccoli apparecchi. Scrivi un articolo in cui racconti la giornata di apertura, valuti i vantaggi e le difficoltà del servizio e proponi alcuni miglioramenti.",
+    "W2_PROMPT": "Ti sei iscritto a un corso di ceramica della scuola civica, ma nel portale la tua domanda risulta ancora in attesa. Scrivi un'e-mail formale all'ufficio iscrizioni.",
+    "W2_REQ_1": "indicare il corso scelto, la data di iscrizione e lo stato visualizzato nel portale;",
+    "W2_REQ_2": "chiedere se sei stato ammesso e domandare la data, l'orario e la sede della prima lezione;",
+    "W2_REQ_3": "informarti sulla scadenza per il pagamento e sulle modalità di rimborso se il corso non viene attivato."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho partecipato alla giornata inaugurale della biblioteca degli oggetti organizzata dalla nostra associazione. I residenti potevano prendere in prestito trapani, macchine da cucire e attrezzi da giardino, invece di comprarli per usarli poche volte. Ho aiutato a registrare i prestiti e ho visto persone di età diverse scambiarsi consigli pratici. L'iniziativa mi è sembrata utile perché riduce gli sprechi, fa risparmiare e rafforza i rapporti nel quartiere. All'inizio, però, si è formata una lunga fila e alcuni oggetti non avevano istruzioni chiare. Per migliorare il servizio proporrei un catalogo online aggiornato, brevi video sull'uso sicuro degli strumenti e turni di volontari più numerosi nelle ore affollate. Sarebbe inoltre opportuno chiedere agli utenti di segnalare subito eventuali guasti. Così la biblioteca potrà crescere mantenendo un clima semplice, responsabile e collaborativo.",
+    "MODEL_W1_PHRASES": "prendere in prestito（借用）; invece di…（而不是……）; rafforzare i rapporti（增进关系）; Per migliorare il servizio proporrei…（为了改善服务，我建议……）; Sarebbe inoltre opportuno…（此外，……也是合适的）",
+    "MODEL_W2": "Gentile Ufficio iscrizioni,\n\nil 24 luglio mi sono iscritto al corso di ceramica del martedì, ma nel portale la domanda risulta ancora in attesa. Potreste comunicarmi se sono stato ammesso e confermarmi la data, l'orario e la sede della prima lezione? Vorrei inoltre conoscere la scadenza per il pagamento e sapere come richiedere il rimborso e quali siano i tempi previsti, qualora il corso non venisse attivato.\n\nRingrazio anticipatamente per l'attenzione e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nMarco Villa",
+    "MODEL_W2_PHRASES": "la domanda risulta ancora in attesa（申请仍显示为待处理）; Potreste comunicarmi se…?（您能否告知我是否……？）; Vorrei inoltre conoscere…（此外，我还想了解……）; qualora il corso non venisse attivato（如果课程未能开设）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

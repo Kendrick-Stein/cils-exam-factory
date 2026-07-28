@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. La perturbazione arrivata dal Nord**\n\nA) ha concluso un breve periodo di pioggia.\n\nB) ha interrotto una lunga fase di caldo.\n\nC) ha portato temperature più alte in tutta Italia.\n\nD) ha interessato il Paese dalla fine di luglio.\n\n**2. A causa del maltempo, l'allerta arancione è stata diramata**\n\nA) in Veneto e in Emilia-Romagna.\n\nB) in Toscana e nel Lazio.\n\nC) in Piemonte e in Trentino.\n\nD) in Sicilia e in Sardegna.\n\n**3. Nel pomeriggio di mercoledì, a Milano e nell'hinterland**\n\nA) la neve ha bloccato molte strade.\n\nB) una tromba d'aria ha colpito l'altopiano.\n\nC) il vento è diminuito dopo i temporali.\n\nD) i vigili del fuoco hanno fatto centinaia di interventi.\n\n**4. Venerdì 3 luglio, nel Sud Italia, sono previsti**\n\nA) cielo sereno e temperature fino a 40 gradi.\n\nB) temporali forti soprattutto durante la notte.\n\nC) temporali anche forti nel pomeriggio.\n\nD) neve e forti raffiche sulle coste.\n\n**5. Nello stesso venerdì, sul resto d'Italia**\n\nA) il tempo migliorerà e le temperature saliranno.\n\nB) l'instabilità aumenterà fino alla sera.\n\nC) le temperature diminuiranno di qualche grado.\n\nD) il fronte nordico porterà nuove grandinate.\n\n**6. Sabato 4 luglio ci sarà ancora un po' di variabilità**\n\nA) nelle zone interne della Sardegna.\n\nB) sulla Sicilia centro-orientale.\n\nC) lungo tutte le coste adriatiche.\n\nD) sul basso Tirreno e in alcune zone montuose.\n\n**7. Per domenica le previsioni indicano**\n\nA) piogge diffuse e temperature inferiori a 30 gradi.\n\nB) sole e temperature massime di 33-35 gradi in alcune zone.\n\nC) caldo oltre i 40 gradi in gran parte del Nord-Ovest.\n\nD) temporali pomeridiani sulle coste tirreniche.",
+    "T1_TEXT": "Il fresco ha già le ore contate. La situazione meteo è in continua evoluzione: piogge e temporali sono caduti in modo molto intenso e in poco tempo in diverse regioni italiane oggi, giovedì 2 luglio. Si tratta però di una parentesi destinata a durare poco: dal prossimo fine settimana, infatti, l'anticiclone africano dovrebbe riportare le temperature su valori elevati. Diamo un'occhiata alle ultime previsioni meteo.\n\nIn queste ore una perturbazione di origine nordica ha interrotto la lunga fase di caldo intenso che ha investito l'Italia da metà giugno, portando piogge, grandinate e un calo delle temperature. È stata diramata l'allerta arancione su Veneto ed Emilia-Romagna e quella gialla sulla maggior parte del Paese, con temporali attesi anche al Centro-Sud. I primi effetti si sono già visti nel pomeriggio di mercoledì a Milano e nell'hinterland, colpiti da nubifragi e forti raffiche di vento: centinaia gli interventi dei vigili del fuoco. Rovesci intensi hanno interessato anche Torino, diverse province emiliane e il Trentino, mentre sull'altopiano di Asiago si è registrata una tromba d'aria e al passo dello Stelvio è tornata a cadere la neve.\n\nPoi torna il caldo rovente, con temperature in aumento e afa notturna. Secondo gli esperti di 3bmeteo, venerdì 3 luglio il passaggio di una zona di bassa pressione tra il basso Tirreno e il Sud Italia farà aumentare ancora l'instabilità sulle regioni meridionali. Sono previsti temporali anche forti nel pomeriggio sulle zone appenniniche e sulle coste tirreniche, con il coinvolgimento della Sicilia centro-orientale. In serata, invece, i fenomeni tenderanno ad attenuarsi. Sul resto d'Italia inizierà a rinforzarsi l'anticiclone, con bel tempo e temperature in aumento di qualche grado.\n\nIl tempo del prossimo fine settimana, sabato 4 e domenica 5 luglio, sarà caratterizzato da un ulteriore rinforzo dell'anticiclone in espansione dall'Europa occidentale e da una crescente stabilità atmosferica sull'Italia. In poche parole, le temperature torneranno progressivamente ad aumentare. Tuttavia sono previsti gli ultimi temporali, con variabilità sabato sul basso Tirreno, dove si sentiranno gli ultimi effetti del fronte in allontanamento. Ci sarà inoltre un po' di variabilità pomeridiana sulle Alpi occidentali e sull'Appennino settentrionale.\n\nDomenica invece è previsto sole per tutti, con temperature massime fino a 33-35 gradi al Nord-Ovest e nelle zone interne di Toscana, Lazio e Sardegna. Al momento non sono previsti i picchi di 40 gradi e oltre di qualche giorno fa, ma una cosa sembra certa: l'aria un po' più fresca di queste ore sarà solo un brevissimo intermezzo stagionale.",
+    "T1_TITLE": "QUANDO TORNA IL CALDO ROVENTE"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | La perturbazione «ha interrotto la lunga fase di caldo intenso». | \n| L1.2 | A | Il testo dice: «l'allerta arancione su Veneto ed Emilia-Romagna». | \n| L1.3 | D | A Milano e nell'hinterland ci sono stati «centinaia gli interventi dei vigili del fuoco». | \n| L1.4 | C | Venerdì al Sud sono previsti «temporali anche forti nel pomeriggio». | \n| L1.5 | A | Sul resto d'Italia sono annunciati «bel tempo e temperature in aumento». | \n| L1.6 | D | Sabato resta variabilità «sul basso Tirreno», «sulle Alpi occidentali» e «sull'Appennino settentrionale». 注意题目概括了海域和山区。 | \n| L1.7 | B | Domenica è previsto «sole per tutti», con massime «fino a 33-35 gradi» in alcune zone. |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "D",
+    "L1.4": "C",
+    "L1.5": "A",
+    "L1.6": "D",
+    "L1.7": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "le ore contate",
+      "categoria": "locuzione",
+      "zh": "所剩时间不多",
+      "en": "not much time left",
+      "esempio": "Il fresco ha già le ore contate."
+    },
+    {
+      "parola": "grandinate",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "冰雹天气",
+      "en": "hailstorms",
+      "esempio": "portando piogge, grandinate e un calo delle temperature"
+    },
+    {
+      "parola": "raffiche di vento",
+      "categoria": "locuzione nominale",
+      "zh": "阵风",
+      "en": "gusts of wind",
+      "esempio": "colpiti da nubifragi e forti raffiche di vento"
+    },
+    {
+      "parola": "attenuarsi",
+      "categoria": "verbo pronominale",
+      "zh": "减弱",
+      "en": "to weaken",
+      "esempio": "In serata, invece, i fenomeni tenderanno ad attenuarsi."
+    },
+    {
+      "parola": "intermezzo stagionale",
+      "categoria": "locuzione nominale",
+      "zh": "季节性短暂间歇",
+      "en": "seasonal interlude",
+      "esempio": "sarà solo un brevissimo intermezzo stagionale"
+    }
+  ]
+}

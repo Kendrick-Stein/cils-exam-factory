@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Il set da pranzo**\n\nA) costa 100 euro.\n\nB) costa 800 euro.\n\nC) costa 220 euro.\n\n**2. Il tavolo è adatto a**\n\nA) una zona giorno spaziosa.\n\nB) una camera molto piccola.\n\nC) uno spazio solo moderno.\n\n**3. La struttura del tavolo è**\n\nA) in legno beige.\n\nB) in acciaio marrone.\n\nC) in acciaio nero.\n\n**4. Le sei sedie hanno**\n\nA) tutte la seduta marrone.\n\nB) tre sedute marroni e tre beige.\n\nC) tutte la seduta beige.",
+    "T1_TEXT": "Vendo un set da pranzo completo: un tavolo in legno massello e sei sedie coordinate. Il prezzo è di 800 euro e il set si trova a Gonars, in provincia di Udine.\n\nIl tavolo è ideale per una zona giorno spaziosa, una taverna o un grande spazio aperto in stile industriale o rustico. È un mobile importante, solido e con grande personalità. Le sue misure sono 220 x 100. Il piano è in vero legno massello, con belle venature naturali e calde. La struttura è in acciaio nero, robusta e stabile.\n\nAnche le sei sedie sono in legno massello. Hanno lo schienale a doghe e sono robuste e comode. Tre sedie hanno la seduta marrone e tre hanno la seduta beige. Il set è come nuovo, perfetto o ricondizionato.",
+    "T1_TITLE": "TAVOLO IN LEGNO MASSELLO CON SEI SEDIE"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice: «Il prezzo è di 800 euro». I numeri 100 e 220 indicano le misure, non il prezzo. 数字陷阱。 |\n| L1.2 | A | Il testo dice che il tavolo è «ideale per una zona giorno spaziosa». |\n| L1.3 | C | Il testo dice: «La struttura è in acciaio nero». |\n| L1.4 | B | Il testo precisa: «Tre sedie hanno la seduta marrone e tre hanno la seduta beige». |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "legno massello",
+      "categoria": "locuzione nominale",
+      "zh": "实木",
+      "en": "solid wood",
+      "esempio": "Anche le sei sedie sono in legno massello."
+    },
+    {
+      "parola": "zona giorno spaziosa",
+      "categoria": "locuzione nominale",
+      "zh": "宽敞的起居区",
+      "en": "spacious living area",
+      "esempio": "Il tavolo è ideale per una zona giorno spaziosa, una taverna o un grande spazio aperto in stile industriale o rustico."
+    },
+    {
+      "parola": "venature naturali",
+      "categoria": "locuzione nominale",
+      "zh": "天然纹理",
+      "en": "natural grain",
+      "esempio": "Il piano è in vero legno massello, con belle venature naturali e calde."
+    },
+    {
+      "parola": "schienale a doghe",
+      "categoria": "locuzione nominale",
+      "zh": "板条靠背",
+      "en": "slatted backrest",
+      "esempio": "Hanno lo schienale a doghe e sono robuste e comode."
+    },
+    {
+      "parola": "ricondizionato",
+      "categoria": "aggettivo",
+      "zh": "翻新的",
+      "en": "refurbished",
+      "esempio": "Il set è come nuovo, perfetto o ricondizionato."
+    }
+  ]
+}

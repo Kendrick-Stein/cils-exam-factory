@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "**Oggi chi è Paolo Ruffini?**\n\n«Oggi io *(raccontare)* __racconto (0)__ storie sui social. Oggi io *(essere)* __(1)__ attore e comico. Oggi io *(intervistare)* __(2)__ persone comuni e adesso io, quando dialogo con un'anziana o un bambino, spesso *(piangere)* __(3)__. Oggi le persone *(cambiare)* __(4)__.»\n\n**Finora come è cambiata la sua carriera?**\n\n«Fino a oggi io *(fare)* __(5)__ lavori diversi. In questi anni cinema e televisione forse mi *(distrarre)* __(6)__; il mio primo libro *(uscire)* __(7)__ e gli spettacoli *(riempire)* __(8)__ i teatri.»\n\n**Com'era agli inizi?**\n\n«Dieci anni fa io *(aspirare)* __(9)__ sempre al “bravo”. Alla presentazione del primo libro, mentre le persone *(aspettare)* __(10)__ l'autore, le persone non *(chiamare)* __(11)__ me. Per anni il pubblico mi *(ricordare)* __(12)__ sempre per il mio lato comico.»\n\n**Oggi come incontra persone diverse?**\n\n«Oggi io *(creare)* __(13)__ un ponte con storie personali, io *(saltare)* __(14)__ passaggi e io *(rimuovere)* __(15)__ filtri. Adesso l'empatia *(scattare)* __(16)__: i fragili sono come tutti gli altri.»\n\n**In futuro queste storie *(arrivare)* __(17)__ al cinema o in televisione? In futuro esse *(interessare)* __(18)__ il pubblico?**\n\n«Non lo so. Se arrivassero al cinema, queste storie *(essere)* __(19)__ forti e queste storie *(avere)* __(20)__ grande interesse.»",
+    "T5_TITLE": "PAOLO RUFFINI: STORIE CHE FANNO RIDERE E PIANGERE"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1–S2.4 e S2.13–S2.16:** «Oggi/Adesso» colloca le azioni nel presente; ogni verbo ha il soggetto espresso.\n- **S2.5–S2.8:** «Fino a oggi» e «In questi anni» richiedono il passato prossimo; i soggetti sono espliciti e «il mio primo libro» fissa anche il genere di «è uscito».\n- **S2.9–S2.12:** «Dieci anni fa ... sempre», «mentre» e «Per anni ... sempre» descrivono situazioni abituali o durative nel passato, quindi richiedono l'imperfetto.\n- **S2.17–S2.18:** «In futuro» colloca chiaramente le azioni nel futuro.\n- **S2.19–S2.20:** «Se arrivassero» introduce un'ipotesi e richiede il condizionale presente nelle conseguenze.",
+    "ANS_S2_ROWS": "| 1 | sono | presente indicativo | 11 | chiamavano | imperfetto indicativo |\n| 2 | intervisto | presente indicativo | 12 | ricordava | imperfetto indicativo |\n| 3 | piango | presente indicativo | 13 | creo | presente indicativo |\n| 4 | cambiano | presente indicativo | 14 | salto | presente indicativo |\n| 5 | ho fatto | passato prossimo | 15 | rimuovo | presente indicativo |\n| 6 | hanno distratto | passato prossimo | 16 | scatta | presente indicativo |\n| 7 | è uscito | passato prossimo | 17 | arriveranno | futuro semplice |\n| 8 | hanno riempito | passato prossimo | 18 | interesseranno | futuro semplice |\n| 9 | aspiravo | imperfetto indicativo | 19 | sarebbero | condizionale presente |\n| 10 | aspettavano | imperfetto indicativo | 20 | avrebbero | condizionale presente |"
+  },
+  "key": {
+    "S2.1": "sono",
+    "S2.2": "intervisto",
+    "S2.3": "piango",
+    "S2.4": "cambiano",
+    "S2.5": "ho fatto",
+    "S2.6": "hanno distratto",
+    "S2.7": "è uscito",
+    "S2.8": "hanno riempito",
+    "S2.9": "aspiravo",
+    "S2.10": "aspettavano",
+    "S2.11": "chiamavano",
+    "S2.12": "ricordava",
+    "S2.13": "creo",
+    "S2.14": "salto",
+    "S2.15": "rimuovo",
+    "S2.16": "scatta",
+    "S2.17": "arriveranno",
+    "S2.18": "interesseranno",
+    "S2.19": "sarebbero",
+    "S2.20": "avrebbero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "carriera",
+      "categoria": "nome femminile",
+      "zh": "职业生涯",
+      "en": "career",
+      "esempio": "Finora come è cambiata la sua carriera?"
+    },
+    {
+      "parola": "storie personali",
+      "categoria": "nome femminile plurale",
+      "zh": "个人故事",
+      "en": "personal stories",
+      "esempio": "un ponte con storie personali"
+    },
+    {
+      "parola": "agli inizi",
+      "categoria": "locuzione avverbiale",
+      "zh": "起初",
+      "en": "at the beginning",
+      "esempio": "Com'era agli inizi?"
+    },
+    {
+      "parola": "filtri",
+      "categoria": "nome maschile plurale",
+      "zh": "隔阂；过滤",
+      "en": "filters",
+      "esempio": "io *(rimuovere)* __(15)__ filtri"
+    },
+    {
+      "parola": "empatia",
+      "categoria": "nome femminile",
+      "zh": "共情",
+      "en": "empathy",
+      "esempio": "l'empatia *(scattare)* __(16)__"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Domenica scorsa, dopo che la sala *(concludere)* __aveva concluso (0)__ il servizio, ho parlato con due clienti. Oggi io *(dirigere)* __(1)__ una brigata e noi, finora, *(ricevere)* __(2)__ soprattutto clienti contenti. Tuttavia credo che pochi *(comprendere)* __(3)__ davvero la pressione quotidiana.\n\nMentre io *(parlare)* __(4)__ con loro, ricordavo che ogni sera i clienti *(arrivare)* __(5)__. Fino a oggi una sola recensione *(comparire)* __(6)__ online: tre stelle su cinque. Durante il servizio, mentre la brigata *(lavorare)* __(7)__, c'è stato un piccolo errore. La brigata, dopo *(accorgersi)* __(8)__ dell'errore, ha reagito in corsa. Già prima dell'arrivo della recensione, la brigata *(correggere)* __(9)__ il problema e noi *(offrirgli)* __(10)__ anche un piatto.\n\nMi dispiace che quella sera il cliente *(darci)* __(11)__ tre stelle, sebbene già prima di pubblicare la recensione il cliente *(riconoscere)* __(12)__ il nostro sforzo. Fu proprio quella recensione che *(costringermi)* __(13)__ a riflettere. Quando ho riaperto il computer, la recensione *(pubblicare, forma passiva)* __(14)__ prima del mio accesso. Capivo che anche il servizio successivo *(valutare, forma passiva)* __(15)__ nello stesso modo.\n\nSe noi *(potere)* __(16)__ rimediare il giorno dopo, noi *(vivere)* __(17)__ con meno ansia. Invece la brigata torna in scena e spera che ogni cliente *(considerare)* __(18)__ l'intera esperienza. Se chi scrive online *(conoscere)* __(19)__ questa fatica, forse quella persona *(mostrare)* __(20)__ più empatia.",
+    "T5_TITLE": "GIUDICATI DOPO OGNI SERVIZIO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.2:** il soggetto stampato «noi» e «finora» impongono «abbiamo ricevuto». 中文：主语与时间标记都明确.\n- **S2.8:** dopo richiede l'infinito passato; «la brigata» rende obbligatorio il femminile «accorta». 中文：代词和助动词都在空格内.\n- **S2.9:** «Già prima dell'arrivo» colloca la correzione prima della recensione; «già» resta fuori dal gap. 中文：副词不属于答案.\n- **S2.12:** «sebbene» regge il congiuntivo e «prima di pubblicare» forza l'anteriorità; «già» è stampato fuori dal gap. 中文：答案只含动词.\n- **S2.13:** la struttura «Fu proprio ... che» rende inequivocabile il passato remoto «mi costrinse». 中文：强调句锁定远过去时.\n- **S2.14–S2.15:** «prima del mio accesso» richiede il trapassato passivo; «successivo» visto dal passato richiede invece il condizionale passato passivo. 中文：区分先过去与过去将来.",
+    "ANS_S2_ROWS": "| S2.1 | dirigo | indicativo presente | S2.11 | ci abbia dato | congiuntivo passato |\n| S2.2 | abbiamo ricevuto | indicativo passato prossimo | S2.12 | avesse riconosciuto | congiuntivo trapassato |\n| S2.3 | comprendano | congiuntivo presente | S2.13 | mi costrinse | indicativo passato remoto |\n| S2.4 | parlavo | indicativo imperfetto | S2.14 | era stata pubblicata | indicativo trapassato prossimo, forma passiva |\n| S2.5 | arrivavano | indicativo imperfetto | S2.15 | sarebbe stato valutato | condizionale passato, forma passiva |\n| S2.6 | è comparsa | indicativo passato prossimo | S2.16 | potessimo | congiuntivo imperfetto |\n| S2.7 | lavorava | indicativo imperfetto | S2.17 | vivremmo | condizionale presente |\n| S2.8 | essersi accorta | infinito passato pronominale | S2.18 | consideri | congiuntivo presente |\n| S2.9 | aveva corretto | indicativo trapassato prossimo | S2.19 | conoscesse | congiuntivo imperfetto |\n| S2.10 | gli avevamo offerto | indicativo trapassato prossimo | S2.20 | mostrerebbe | condizionale presente |"
+  },
+  "key": {
+    "S2.1": "dirigo",
+    "S2.2": "abbiamo ricevuto",
+    "S2.3": "comprendano",
+    "S2.4": "parlavo",
+    "S2.5": "arrivavano",
+    "S2.6": "è comparsa",
+    "S2.7": "lavorava",
+    "S2.8": "essersi accorta",
+    "S2.9": "aveva corretto",
+    "S2.10": "gli avevamo offerto",
+    "S2.11": "ci abbia dato",
+    "S2.12": "avesse riconosciuto",
+    "S2.13": "mi costrinse",
+    "S2.14": "era stata pubblicata",
+    "S2.15": "sarebbe stato valutato",
+    "S2.16": "potessimo",
+    "S2.17": "vivremmo",
+    "S2.18": "consideri",
+    "S2.19": "conoscesse",
+    "S2.20": "mostrerebbe"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "brigata",
+      "categoria": "nome femminile",
+      "zh": "厨师团队",
+      "en": "kitchen brigade",
+      "esempio": "una brigata"
+    },
+    {
+      "parola": "pressione quotidiana",
+      "categoria": "locuzione nominale",
+      "zh": "日常压力",
+      "en": "daily pressure",
+      "esempio": "la pressione quotidiana"
+    },
+    {
+      "parola": "recensione",
+      "categoria": "nome femminile",
+      "zh": "评论",
+      "en": "review",
+      "esempio": "una sola recensione"
+    },
+    {
+      "parola": "in scena",
+      "categoria": "locuzione avverbiale",
+      "zh": "登场",
+      "en": "on stage",
+      "esempio": "in scena"
+    },
+    {
+      "parola": "empatia",
+      "categoria": "nome femminile",
+      "zh": "同理心",
+      "en": "empathy",
+      "esempio": "più empatia"
+    }
+  ]
+}

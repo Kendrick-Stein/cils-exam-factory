@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ 1. **URP - Avviso al pubblico**\n\nGiovedì 23 luglio lo sportello dell'Ufficio Relazioni con il Pubblico resta chiuso. Anche durante la chiusura, chi cerca informazioni o vuole fare una segnalazione...\n\n○ 2. **Sportello sociale**\n\nLa sede principale è in via Aquileia 13, a Ravenna. Chi può andare allo sportello soltanto nel pomeriggio deve scegliere con attenzione il giorno...\n\n○ 3. **Armadio in vendita**\n\nL'armadio costa 135 euro, è poco usato e ha due ante scorrevoli con specchi e tre sportelli. Prima dell'acquisto è importante ricordare che...\n\n○ 4. **Orari durante le feste**\n\nGli sportelli di piazza Matteotti e piazzale Goisis 6 cambiano orario il 24 e il 31 dicembre 2025. In entrambe queste giornate...\n\n○ 5. **Biblioteca Cesare Battisti**\n\nDal 1° luglio al 31 agosto la biblioteca segue l'orario estivo. Il sabato chiude alle 12:45, ma per iscriversi o prendere libri...\n\n○ 6. **Biblioteca Guido Dorso**\n\nLa biblioteca di piazza Zanardelli 21 offre gratuitamente sale di lettura, prestito e accesso wi-fi. È aperta dal lunedì al venerdì, ma...",
+    "L3_OPTIONS": "**A.** può telefonare al numero verde 800 085 324, attivo dalle 9 alle 13, per informazioni e segnalazioni.\n\n**B.** perché il servizio è aperto dalle 14 alle 17 solo il martedì e il giovedì.\n\n**C.** il trasporto e il ritiro sono a carico dell'acquirente, ma il prezzo si può trattare.\n\n**D.** le due sedi restano aperte soltanto fino alle 12:30 e poi chiudono al pubblico.\n\n**E.** è necessario arrivare entro le 12:30, perché questi servizi terminano quindici minuti prima della chiusura.\n\n**F.** chi vuole visitarla nel mese di agosto deve aspettare la riapertura, perché resta chiusa al pubblico.\n\n**G.** può presentarsi anche il sabato mattina, dalle 8 alle 12:45, senza bisogno di andare nei giorni feriali.\n\n**H.** può chiamare il numero verde dalle 8 alle 12:30 nei giorni di apertura dello sportello."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | Lo sportello è chiuso, ma il numero verde resta «attivo dalle 9 alle 13» per «informazioni e segnalazioni». 中文：关闭的是柜台，不是电话服务。 |\n| L3.2 | B | Lo sportello sociale è aperto anche «dalle 14 alle 17» soltanto il martedì e il giovedì. 中文：下午开放日只有周二、周四。 |\n| L3.3 | C | Nell'offerta «il trasporto e il ritiro sono a carico dell'acquirente» e «il prezzo si può trattare». 中文：买家负责搬运。 |\n| L3.4 | D | Il 24 e il 31 dicembre le due sedi sono aperte solo «fino alle 12:30». 中文：两天都提前结束服务。 |\n| L3.5 | E | I servizi di iscrizione e prestito «terminano quindici minuti prima della chiusura», quindi il sabato entro le 12:30. 中文：闭馆前十五分钟停办。 |\n| L3.6 | F | La biblioteca è aperta nei giorni feriali, ma nel mese di agosto «resta chiusa al pubblico». 中文：八月整月关闭。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D",
+    "L3.5": "E",
+    "L3.6": "F"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fare una segnalazione",
+      "categoria": "locuzione verbale",
+      "zh": "反映问题；提交报告",
+      "en": "to make a report",
+      "esempio": "Anche durante la chiusura, chi cerca informazioni o vuole fare una segnalazione..."
+    },
+    {
+      "parola": "ante scorrevoli",
+      "categoria": "locuzione nominale",
+      "zh": "滑动柜门",
+      "en": "sliding doors",
+      "esempio": "L'armadio costa 135 euro, è poco usato e ha due ante scorrevoli con specchi e tre sportelli."
+    },
+    {
+      "parola": "a carico dell'acquirente",
+      "categoria": "locuzione",
+      "zh": "由买方承担",
+      "en": "at the buyer's expense",
+      "esempio": "il trasporto e il ritiro sono a carico dell'acquirente, ma il prezzo si può trattare."
+    },
+    {
+      "parola": "orario estivo",
+      "categoria": "locuzione nominale",
+      "zh": "夏季开放时间",
+      "en": "summer opening hours",
+      "esempio": "Dal 1° luglio al 31 agosto la biblioteca segue l'orario estivo."
+    },
+    {
+      "parola": "resta chiusa al pubblico",
+      "categoria": "locuzione verbale",
+      "zh": "暂停对公众开放",
+      "en": "remains closed to the public",
+      "esempio": "chi vuole visitarla nel mese di agosto deve aspettare la riapertura, perché resta chiusa al pubblico."
+    }
+  ]
+}

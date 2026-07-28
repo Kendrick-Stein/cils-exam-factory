@@ -1,0 +1,15 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 3-4 + §Stage S4), factory/exams/cils/templates/B2.md (the S2 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/B2/fragments/S2.json (cloze_verbi — indicativo, congiuntivo, condizionale, passiva; 20 gaps, T5 = reportage "Nei panni degli chef").
+Your source text: the '## Slot T5' section of papers/2026-07-28/B2/sources.md.
+
+Defects (blind mismatches):
+- S2.2: key "abbiamo ricevuto", solver "ho ricevuto" — unexpressed subject leaves person ambiguous; print the subject (noi/io) explicitly.
+- S2.9: key "aveva già corretto", solver "aveva corretto" — "già" is trapped inside the gap but nothing forces the solver to include it. Print "già" OUTSIDE the gap in the text ("aveva già ___" is wrong shape — instead print the adverb in the visible text and gap only the verb: "… già ______" or re-cut so the gap is aux+participle and già sits printed between them is NOT allowed — simplest: key without già and print già visibly in the sentence).
+- S2.12: key "avesse già riconosciuto", solver "avesse riconosciuto" — same "già" boundary defect; same fix.
+- Rescan ALL 20 gaps: no adverb (già/ancora/sempre/mai) may be silently required inside a gap; subjects and tense anchors printed per rule 3.
+
+Keep exactly 20 gaps, points identical. Rewrite papers/2026-07-28/B2/fragments/S2.json in full.
+Reply (short): which gaps you fixed; final text word count.

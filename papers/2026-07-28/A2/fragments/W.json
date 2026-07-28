@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un pomeriggio piacevole che hai passato in una biblioteca vicino a casa. Scrivi con chi eri, che cosa hai fatto, com'era il luogo e perché ti è piaciuto.",
+    "W2_PROMPT": "Scrivi un messaggio a un negozio di biciclette per chiedere informazioni sul noleggio. Chiedi l'orario di apertura, il prezzo per tre ore e se devi lasciare un documento."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Domenica scorsa ho passato il pomeriggio in una piccola biblioteca vicino a casa con la mia amica Giulia. Abbiamo scelto due libri, letto alcune riviste e studiato italiano insieme. La biblioteca era luminosa e silenziosa. Mi è piaciuta perché ho trovato storie interessanti e ho potuto parlare con una bibliotecaria molto gentile.",
+    "MODEL_W1_PHRASES": "**Domenica scorsa ho passato…**（上周日我度过了……）；**Abbiamo scelto…**（我们选择了……）；**Il luogo era…**（那个地方……）；**Mi è piaciuto perché…**（我喜欢它，因为……）",
+    "MODEL_W2": "Buongiorno, sabato vorrei noleggiare una bicicletta. A che ora aprite? Quanto costa il noleggio per tre ore? È necessario lasciare un documento? Grazie per le informazioni. Chen",
+    "MODEL_W2_PHRASES": "**Vorrei noleggiare…**（我想租……）；**A che ora aprite?**（你们几点开门？）；**Quanto costa il noleggio?**（租赁费用是多少？）；**È necessario lasciare…?**（需要留下……吗？）；**Grazie per le informazioni.**（感谢提供信息）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

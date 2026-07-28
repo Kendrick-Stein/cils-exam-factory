@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Le lezioni di Franco Moretti sono la messa __(1)__ pagina dell'esperienza dell'insegnare come si possano leggere poesie e romanzi, guardare quadri e film. Il corso __(2)__ cui sono tratte si chiamava «Literary History». Era un corso __(3)__ introduzione a tutta la letteratura inglese e americana. Nulla __(4)__ ricordasse il procedere cadenzato: non la catena di autori e opere in __(5)__ il peso della continuità era tale __(6)__ rendere superflua ogni spiegazione, ma una serie di lezioni in __(7)__ l'assenza di continuità era quasi esibita. Moretti salta da una stanza all'altra della cultura con l'obiettivo __(8)__ mostrare agli studenti come muoversi e perché valga __(9)__ pena.\n\n«È possibile vivere senza conoscere», ha scritto Feynman; Moretti aggiunge: «conoscere rende la vita tanto più ricca». Per questo, __(10)__ punto di vista __(11)__ di chi deve insegnare, sia di chi deve imparare, è importante quello che si sa e come __(12)__ si sa, rispetto __(13)__ molto che si ignora.\n\nNel capitolo dedicato a Hemingway, l'analisi della lingua fornisce la chiave __(14)__ interpretare lo stile brachilogico. Moretti cita il romanziere: «Se un prosatore sa bene di __(15)__ cosa sta scrivendo, può omettere delle cose che sa, se scrive __(16)__ abbastanza verità». L'immagine __(17)__ Hemingway rimanda è quella dell'iceberg, che ha soltanto un ottavo della sua mole __(18)__ di sopra della superficie. La gran parte del lavoro rimane non esplicitata, sommersa. Sulla pagina un intrico di appunti, linee e frecce evoca il sommerso. Quel che si vede sono i frammenti __(19)__ si staccano ed emergono, a testimoniare l'iceberg e la materia di __(20)__ è composto.",
+    "T4_TITLE": "Insegnare, __ovvero (0)__ rendere visibile il sommerso"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — in:** completa la locuzione «messa in pagina». 中文：固定表达。\n- **S1.2 — da:** il passivo «sono tratte» seleziona «da cui». 中文：被动来源结构。\n- **S1.3 — di:** «corso di introduzione» impone la preposizione. 中文：固定名词搭配。\n- **S1.4 — che:** il congiuntivo «ricordasse» completa il relativo «Nulla che». 中文：否定先行词后的关系结构。\n- **S1.5–S1.7 — cui / da / cui:** completano rispettivamente «in cui», «tale da» e «in cui». 中文：介词已印出，关系结构唯一。\n- **S1.8 — di:** «con l'obiettivo di» impone la preposizione. 中文：固定介词搭配。\n- **S1.9 — la:** completa la locuzione «valere la pena». 中文：固定表达。\n- **S1.10 — dal:** completa la locuzione «dal punto di vista». 中文：固定介词短语。\n- **S1.11 — sia:** il secondo «sia» stampato impone il primo elemento della correlazione. 中文：前后呼应。\n- **S1.12 — lo:** riprende «quello che si sa» nella costruzione «come lo si sa». 中文：宾语代词回指。\n- **S1.13 — al:** «rispetto» regge «a» e «il molto» richiede la forma articolata. 中文：介词与定冠词合并。\n- **S1.15 — che:** completa la locuzione interrogativa indiretta «di che cosa». 中文：固定疑问结构。\n- **S1.18 — al:** completa la locuzione «al di sopra». 中文：固定方位结构。\n- **S1.19–S1.20 — che / cui:** completano «frammenti che» e «di cui è composto». 中文：关系代词由句法唯一限定。",
+    "ANS_S1_ROWS": "| S1.1 | in | S1.11 | sia |\n| S1.2 | da | S1.12 | lo |\n| S1.3 | di | S1.13 | al |\n| S1.4 | che | S1.14 | per |\n| S1.5 | cui | S1.15 | che |\n| S1.6 | da | S1.16 | con |\n| S1.7 | cui | S1.17 | cui |\n| S1.8 | di | S1.18 | al |\n| S1.9 | la | S1.19 | che |\n| S1.10 | dal | S1.20 | cui |"
+  },
+  "key": {
+    "S1.1": "in",
+    "S1.2": "da",
+    "S1.3": "di",
+    "S1.4": "che",
+    "S1.5": "cui",
+    "S1.6": "da",
+    "S1.7": "cui",
+    "S1.8": "di",
+    "S1.9": "la",
+    "S1.10": "dal",
+    "S1.11": "sia",
+    "S1.12": "lo",
+    "S1.13": "al",
+    "S1.14": "per",
+    "S1.15": "che",
+    "S1.16": "con",
+    "S1.17": "cui || a cui",
+    "S1.18": "al",
+    "S1.19": "che",
+    "S1.20": "cui"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "procedere cadenzato",
+      "categoria": "locuzione nominale",
+      "zh": "按固定节奏推进的方式",
+      "en": "regular, measured progression",
+      "esempio": "ricordasse il procedere cadenzato"
+    },
+    {
+      "parola": "superflua",
+      "categoria": "aggettivo",
+      "zh": "多余的",
+      "en": "unnecessary",
+      "esempio": "rendere superflua ogni spiegazione"
+    },
+    {
+      "parola": "brachilogico",
+      "categoria": "aggettivo",
+      "zh": "简练省略的",
+      "en": "concise and elliptical",
+      "esempio": "interpretare lo stile brachilogico"
+    },
+    {
+      "parola": "sommersa",
+      "categoria": "aggettivo",
+      "zh": "淹没的；隐而不显的",
+      "en": "submerged",
+      "esempio": "gran parte del lavoro rimane non esplicitata, sommersa"
+    },
+    {
+      "parola": "intrico",
+      "categoria": "nome maschile",
+      "zh": "错综复杂的一团",
+      "en": "tangle",
+      "esempio": "un intrico di appunti, linee e frecce"
+    }
+  ]
+}

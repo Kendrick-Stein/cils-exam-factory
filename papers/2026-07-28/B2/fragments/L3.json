@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Il programma è semplice: iniziare a camminare il 30 dicembre, raggiungere Otranto il 31 e festeggiare Capodanno in piazza. Prenoto tutti gli alloggi, alcuni lontani dal percorso, perché, in bassissima stagione, molte strutture ricettive del Salento sono chiuse.",
+    "T3_PART_B": "Perciò non se ne parla di accorciare il percorso: voglio fare tutto come si deve. Dopo un'abbondante colazione di buon mattino, carico lo zaino sulle spalle e mi incammino, anche se a Lecce è ancora tutto chiuso.",
+    "T3_PART_C": "Pochi chilometri più avanti, infatti, le strade diventano semideserte e strette, immerse in una campagna meravigliosa. Intorno a me compaiono muretti e torrette a secco, ulivi, campi e fichi d'India.",
+    "T3_PART_D": "La mattina seguente devo raggiungere l'inizio del cammino, alla Porta Napoli. L'ostello convenzionato, dove posso acquistare la credenziale, si trova invece nella periferia meridionale di Lecce, non lontano dal percorso.",
+    "T3_PART_E": "Lasciata Acaja, ricomincio a camminare e costeggio i canneti della riserva delle Cesine. A un certo punto sento l'odore del mare; subito dopo lo vedo davanti a me e proseguo in parte sulla spiaggia e poi su una strada sterrata.",
+    "T3_PART_F": "Di conseguenza, non so come organizzarmi per il pranzo, ma, senza alternative, sono certa di trovare qualcosa lungo questa prima tappa. Faccio partire il GPS, scatto il primo di decine di selfie e comincio a camminare.",
+    "T3_PART_G": "Infine raggiungo San Foca, dove ho prenotato una stanza proprio sul percorso. Sono stanca, le spalle mi fanno male per lo zaino pesante e mi aspettano una doccia, una ricca cena e un bel po' di riposo.",
+    "T3_PART_H": "Una volta organizzato il percorso, il 29 dicembre 2023 parto in treno, per mantenere lenti gli spostamenti e ridurne l'impatto ambientale. Mi prometto di non usare altri mezzi fino all'autobus da Santa Maria di Leuca diretto a Lecce.",
+    "T3_PART_I": "Soltanto dopo aver attraversato Merine arrivo ad Acaja, splendida cittadina fortificata. Mi fermo per una breve visita e trovo un bar che sembra rimasto in un tempo lontano, perfetto per un panino e una bibita.",
+    "T3_PART_J": "A causa di questa posizione, molti camminatori evitano di tornare in centro, alla Porta Napoli, e tagliano un pezzetto della tappa. Sarebbe la soluzione più comoda, ma io sono venuta fin qui per percorrere ogni tratto.",
+    "T3_PART_K": "All'inizio la temperatura è frizzantina ma piacevole; il primo tratto, però, non mi entusiasma. Devo uscire dalla città e attraversare un'area periferica per alcuni chilometri, prima che il paesaggio cambi completamente.",
+    "T3_TITLE": "IL PRIMO GIORNO SUL CAMMINO DEL SALENTO"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Presenta il programma e i preparativi del viaggio. |\n| 2 | H | «Una volta organizzato il percorso» riprende i preparativi e indica la partenza del 29 dicembre. |\n| 3 | D | «La mattina seguente» colloca l'inizio del cammino al 30 dicembre. |\n| 4 | J | «A causa di questa posizione» rimanda all'ostello situato fuori dal centro. |\n| 5 | B | «Perciò» introduce la decisione opposta a quella degli altri camminatori: non tagliare il percorso. |\n| 6 | F | «Di conseguenza» riprende il fatto che a Lecce è ancora tutto chiuso. |\n| 7 | K | «All'inizio» introduce il primo tratto appena dopo la partenza a piedi. |\n| 8 | C | «Pochi chilometri più avanti» segnala il passaggio dalla periferia alla campagna. |\n| 9 | I | «Dopo aver attraversato Merine» fissa la tappa successiva ad Acaja. |\n| 10 | E | «Lasciata Acaja» riprende esattamente il luogo raggiunto nella parte precedente. |\n| 11 | G | «Infine» chiude la giornata con l'arrivo e il riposo a San Foca. |",
+    "ANS_L3_SEQUENCE": "A–H–D–J–B–F–K–C–I–E–G"
+  },
+  "key": {
+    "L3": "A–H–D–J–B–F–K–C–I–E–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "strutture ricettive",
+      "categoria": "locuzione nominale",
+      "zh": "住宿设施",
+      "en": "accommodation facilities",
+      "esempio": "Prenoto tutti gli alloggi, alcuni lontani dal percorso, perché, in bassissima stagione, molte strutture ricettive del Salento sono chiuse."
+    },
+    {
+      "parola": "credenziale",
+      "categoria": "nome femminile",
+      "zh": "朝圣路线凭证",
+      "en": "pilgrim credential",
+      "esempio": "L'ostello convenzionato, dove posso acquistare la credenziale, si trova invece nella periferia meridionale di Lecce, non lontano dal percorso."
+    },
+    {
+      "parola": "semideserte",
+      "categoria": "aggettivo",
+      "zh": "几乎无人的",
+      "en": "almost deserted",
+      "esempio": "Pochi chilometri più avanti, infatti, le strade diventano semideserte e strette, immerse in una campagna meravigliosa."
+    },
+    {
+      "parola": "cittadina fortificata",
+      "categoria": "locuzione nominale",
+      "zh": "设防小镇",
+      "en": "fortified small town",
+      "esempio": "Soltanto dopo aver attraversato Merine arrivo ad Acaja, splendida cittadina fortificata."
+    },
+    {
+      "parola": "costeggio",
+      "categoria": "verbo",
+      "zh": "沿着……前行",
+      "en": "I walk alongside",
+      "esempio": "Lasciata Acaja, ricomincio a camminare e costeggio i canneti della riserva delle Cesine."
+    }
+  ]
+}

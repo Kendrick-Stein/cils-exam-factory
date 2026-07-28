@@ -1,0 +1,18 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 3-4 + §Stage S4), factory/exams/cils/templates/C1.md (the S2 block + HTML comments), factory/validation/checklist.md §A.
+
+Current fragment to repair: papers/2026-07-28/C1/fragments/S2.json (cloze_verbi — sistema verbale completo: passato remoto, congiuntivi, forme implicite; 20 gaps, T5 = Verga, "Fantasticheria", estratto).
+Your source text: the '## Slot T5' section of papers/2026-07-28/C1/sources.md.
+
+HARD CONSTRAINT: the text is Verga's authentic prose. You may NOT rewrite his sentences or insert invented time markers. Achieve uniqueness ONLY by (a) choosing WHICH verb to gap, (b) moving gap boundaries (print clitics/adverbs visibly outside the gap), (c) cutting whole sentences.
+
+Defects (blind mismatches + FLAG):
+- S2.2: key "vi passammo", solver "passammo" — the locative clitic "vi" is trapped inside the gap with nothing forcing it. Print "vi" in the visible text and gap only "passammo", or choose a different verb to gap.
+- S2.10: key "avevate imparato", solver wrote "avevate ancora imparato" — the printed "ancora" placement is confusing the gap boundary (probably "non ______ ancora …" vs "non avevate ancora imparato"). Re-cut so the gap is exactly aux+participle with "ancora" printed unambiguously outside the gap (e.g. "non avevate ancora ______" gapping only the participle, keyed accordingly).
+- S2.17: key "rimanga", solver "sia rimasta" — both congiuntivo readings defensible without a clear time anchor. Choose a different verb to gap, or gap a verb whose tense is forced by Verga's own printed context.
+- S2.11 (FLAG): "«erano state gettate» lettura più naturale ma altre forme contestualmente possibili" — ensure the passive trapassato is the only coherent reading given the printed context, otherwise gap a different verb.
+- Rescan ALL 20 gaps under the same lens: clitic/adverb boundaries clean; person/number/tense forced by Verga's printed context alone; keys list || alternatives ONLY where truly both correct.
+
+Keep exactly 20 gaps, points identical. Rewrite papers/2026-07-28/C1/fragments/S2.json in full.
+Reply (short): which gaps you re-cut; final word count.

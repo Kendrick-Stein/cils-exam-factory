@@ -1,0 +1,12 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR round 2 — one prova, ONE defective gap. FRESH agent.
+
+Read first: .claude/agents/item-writer.md (§Rules 4 + §Stage S4), factory/exams/cils/templates/C1.md (S1 block), factory/validation/checklist.md §A.
+
+Fragment: papers/2026-07-28/C1/fragments/S1.json (cloze_aperto connettivi, 20 gaps, T4 = saggio "Insegnare: l'università in forma di saggio").
+Source text: the '## Slot T4' section of papers/2026-07-28/C1/sources.md.
+
+Defect (round-2 blind mismatch):
+- S1.7: the sentence prints "Per __(7)__ dal punto di vista __(8)__ di chi deve insegnare…". Key "cui", solver answered "questo" — sentence-initial "Per cui" and "Per questo" are BOTH idiomatic resultatives; ambiguity confirmed twice. DO NOT key-extend. Re-cut gap 7: move it off this "Per ___" position onto a connective in the same sentence area whose relation is unambiguous (e.g. gap "sia … sia" correlative only if unique, or a "rispetto a" style governed preposition — something with exactly one defensible filler), renumbering nothing (keep 20 gaps, same order).
+- Touch ONLY what is needed for gap 7; do not alter other gaps. Then rescan the 20 gaps once for any other two-filler competition.
+
+Rewrite papers/2026-07-28/C1/fragments/S1.json in full. Reply (short): what gap 7 now tests and why unique.

@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. In prossimità dei boschi e nei terreni cespugliosi ricadenti nel territorio comunale è fatto divieto di far brillare mine.**\n\n→ LE MINE NON POSSONO …………………………………\n\n**2. È fatto divieto di usare apparecchi a fiamma o elettrici per tagliare metalli.**\n\n→ L'USO DI APPARECCHI A FIAMMA O ELETTRICI PER IL TAGLIO DEI METALLI …………………………………\n\n**3. È fatto divieto di usare fornelli inceneritori che producono faville in boschi e terreni cespugliosi.**\n\n→ I FORNELLI INCENERITORI PRODUTTORI DI FAVILLE NON POSSONO …………………………………\n\n**4. È fatto divieto di fumare o compiere qualsiasi operazione che possa creare pericolo immediato di incendio nei boschi e nelle aree interessate dalla presenza di cespugli, erba secca, macchia, stoppie e sterpaglie.**\n\n→ QUALORA CI SI TROVI NEI BOSCHI O NELLE AREE INTERESSATE DALLA PRESENZA DI CESPUGLI, ERBA SECCA, MACCHIA, STOPPIE E STERPAGLIE, …………………………………\n\n**5. È fatto divieto di usare fuochi di artificio, in occasione di feste e solennità, in aree diverse da quelle appositamente individuate e comunque senza le preventive autorizzazioni da parte degli organi competenti.**\n\n→ GLI ORGANI COMPETENTI DEVONO AVER PREVENTIVAMENTE AUTORIZZATO …………………………………\n\n**6. È fatto divieto di compiere ogni altra operazione che possa creare pericolo immediato di incendio, come buttare dai veicoli o comunque abbandonare sul terreno fiammiferi, sigari o sigarette e qualunque altro tipo di materiale acceso o incandescente.**\n\n→ IL DIVIETO SI ESTENDE …………………………………",
+    "S4_REWRITE_0": "IL SINDACO AVVISA TUTTA LA CITTADINANZA CHE DAL 15 MAGGIO AL 31 OTTOBRE 2026 È ASSOLUTAMENTE VIETATA L'ACCENSIONE DELLE STOPPIE E DI ALTRI FUOCHI.",
+    "S4_SOURCE_0": "Il Sindaco avvisa tutta la cittadinanza: «Dal 15 maggio al 31 ottobre 2026 è assolutamente vietata l'accensione delle stoppie e di altri fuochi».",
+    "T7_TITLE": "DIVIETO DI ACCENSIONE DELLE STOPPIE E DI ALTRI FUOCHI — AVVISO ALLA CITTADINANZA",
+    "T7_TEXT": "Vista l'Ordinanza N. 21 del 10-04-2026, il Sindaco avvisa tutta la cittadinanza che nel periodo dal 15 maggio al 31 ottobre 2026 è fatto divieto, in prossimità dei boschi e nei terreni cespugliosi ricadenti nel territorio comunale: di accendere fuochi; far brillare mine; usare apparecchi a fiamma o elettrici per tagliare metalli; usare fornelli inceneritori che producono faville in boschi e terreni cespugliosi; fumare o compiere qualsiasi operazione che possa creare pericolo immediato di incendio nei boschi e nelle aree interessate dalla presenza di cespugli, erba secca, macchia, stoppie, sterpaglie ecc.; bruciare stoppie, materiale erbaceo e sterpaglie; usare fuochi di artificio, in occasione di feste e solennità, in aree diverse da quelle appositamente individuate e comunque senza le preventive autorizzazioni da parte degli organi competenti; compiere ogni altra operazione che possa creare pericolo immediato di incendio come buttare dai veicoli o comunque abbandonare sul terreno fiammiferi, sigari o sigarette e qualunque altro tipo di materiale acceso o incandescente."
+  },
+  "answer_slots": {
+    "ANS_S4_NOTES": "- Nell'esempio (0) il discorso diretto diventa indiretto mediante **che**, senza modificare il contenuto dell'avviso. 中文：注意保留禁令的时间范围。\n- In S4.1 e S4.3 **essere** e **venire** sono entrambe ammissibili nella perifrasi passiva; l'inizio obbligato deve restare invariato. 中文：被动态两种形式均可。\n- In S4.4 **qualora** richiede il congiuntivo; in S4.5 e S4.6 sono accettabili soltanto varianti che mantengano sia il divieto sia tutte le condizioni indicate. 中文：不得删减许可、地点或危险条件。",
+    "ANS_S4_ROWS": "| S4.1 | LE MINE NON POSSONO ESSERE FATTE BRILLARE IN PROSSIMITÀ DEI BOSCHI E NEI TERRENI CESPUGLIOSI RICADENTI NEL TERRITORIO COMUNALE. |\n| S4.2 | L'USO DI APPARECCHI A FIAMMA O ELETTRICI PER IL TAGLIO DEI METALLI È VIETATO. |\n| S4.3 | I FORNELLI INCENERITORI PRODUTTORI DI FAVILLE NON POSSONO ESSERE USATI IN BOSCHI E TERRENI CESPUGLIOSI. || I FORNELLI INCENERITORI PRODUTTORI DI FAVILLE NON POSSONO ESSERE USATI NEI BOSCHI E NEI TERRENI CESPUGLIOSI. |\n| S4.4 | QUALORA CI SI TROVI NEI BOSCHI O NELLE AREE INTERESSATE DALLA PRESENZA DI CESPUGLI, ERBA SECCA, MACCHIA, STOPPIE E STERPAGLIE, NON SI PUÒ FUMARE NÉ COMPIERE ALCUNA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO. |\n| S4.5 | GLI ORGANI COMPETENTI DEVONO AVER PREVENTIVAMENTE AUTORIZZATO L'USO DEI FUOCHI DI ARTIFICIO, CHE, IN OCCASIONE DI FESTE E SOLENNITÀ, È CONSENTITO SOLTANTO NELLE AREE APPOSITAMENTE INDIVIDUATE. || GLI ORGANI COMPETENTI DEVONO AVER PREVENTIVAMENTE AUTORIZZATO L'USO DEI FUOCHI DI ARTIFICIO IN OCCASIONE DI FESTE E SOLENNITÀ, CHE È COMUNQUE CONSENTITO SOLTANTO NELLE AREE APPOSITAMENTE INDIVIDUATE. |\n| S4.6 | IL DIVIETO SI ESTENDE A OGNI ALTRA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO, TRA CUI IL LANCIO DAI VEICOLI O L'ABBANDONO SUL TERRENO DI FIAMMIFERI, SIGARI, SIGARETTE E QUALUNQUE ALTRO MATERIALE ACCESO O INCANDESCENTE. || IL DIVIETO SI ESTENDE A OGNI ALTRA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO, COME GETTARE DAI VEICOLI O ABBANDONARE SUL TERRENO FIAMMIFERI, SIGARI, SIGARETTE O ALTRO MATERIALE ACCESO O INCANDESCENTE. |"
+  },
+  "key": {
+    "S4.1": "LE MINE NON POSSONO ESSERE FATTE BRILLARE IN PROSSIMITÀ DEI BOSCHI E NEI TERRENI CESPUGLIOSI RICADENTI NEL TERRITORIO COMUNALE. || LE MINE NON POSSONO VENIRE FATTE BRILLARE IN PROSSIMITÀ DEI BOSCHI E NEI TERRENI CESPUGLIOSI RICADENTI NEL TERRITORIO COMUNALE.",
+    "S4.2": "L'USO DI APPARECCHI A FIAMMA O ELETTRICI PER IL TAGLIO DEI METALLI È VIETATO. || L'USO DI APPARECCHI A FIAMMA O ELETTRICI PER IL TAGLIO DEI METALLI NON È CONSENTITO.",
+    "S4.3": "I FORNELLI INCENERITORI PRODUTTORI DI FAVILLE NON POSSONO ESSERE USATI IN BOSCHI E TERRENI CESPUGLIOSI. || I FORNELLI INCENERITORI PRODUTTORI DI FAVILLE NON POSSONO VENIRE USATI IN BOSCHI E TERRENI CESPUGLIOSI. || I FORNELLI INCENERITORI PRODUTTORI DI FAVILLE NON POSSONO ESSERE USATI NEI BOSCHI E NEI TERRENI CESPUGLIOSI.",
+    "S4.4": "QUALORA CI SI TROVI NEI BOSCHI O NELLE AREE INTERESSATE DALLA PRESENZA DI CESPUGLI, ERBA SECCA, MACCHIA, STOPPIE E STERPAGLIE, NON SI PUÒ FUMARE NÉ COMPIERE ALCUNA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO. || QUALORA CI SI TROVI NEI BOSCHI O NELLE AREE INTERESSATE DALLA PRESENZA DI CESPUGLI, ERBA SECCA, MACCHIA, STOPPIE E STERPAGLIE, NON È CONSENTITO FUMARE NÉ COMPIERE ALCUNA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO.",
+    "S4.5": "GLI ORGANI COMPETENTI DEVONO AVER PREVENTIVAMENTE AUTORIZZATO L'USO DEI FUOCHI DI ARTIFICIO, CHE, IN OCCASIONE DI FESTE E SOLENNITÀ, È CONSENTITO SOLTANTO NELLE AREE APPOSITAMENTE INDIVIDUATE. || GLI ORGANI COMPETENTI DEVONO AVER PREVENTIVAMENTE AUTORIZZATO L'IMPIEGO DEI FUOCHI DI ARTIFICIO, CHE, IN OCCASIONE DI FESTE E SOLENNITÀ, È PERMESSO SOLTANTO NELLE AREE APPOSITAMENTE INDIVIDUATE. || GLI ORGANI COMPETENTI DEVONO AVER PREVENTIVAMENTE AUTORIZZATO L'USO DEI FUOCHI DI ARTIFICIO IN OCCASIONE DI FESTE E SOLENNITÀ, CHE È COMUNQUE CONSENTITO SOLTANTO NELLE AREE APPOSITAMENTE INDIVIDUATE.",
+    "S4.6": "IL DIVIETO SI ESTENDE A OGNI ALTRA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO, TRA CUI IL LANCIO DAI VEICOLI O L'ABBANDONO SUL TERRENO DI FIAMMIFERI, SIGARI, SIGARETTE E QUALUNQUE ALTRO MATERIALE ACCESO O INCANDESCENTE. || IL DIVIETO SI ESTENDE A OGNI ALTRA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO, COMPRESI IL GETTO DAI VEICOLI E L'ABBANDONO SUL TERRENO DI FIAMMIFERI, SIGARI, SIGARETTE E QUALUNQUE ALTRO MATERIALE ACCESO O INCANDESCENTE. || IL DIVIETO SI ESTENDE A OGNI ALTRA OPERAZIONE CHE POSSA CREARE PERICOLO IMMEDIATO DI INCENDIO, COME GETTARE DAI VEICOLI O ABBANDONARE SUL TERRENO FIAMMIFERI, SIGARI, SIGARETTE O ALTRO MATERIALE ACCESO O INCANDESCENTE."
+  },
+  "glossario_candidates": [
+    {
+      "parola": "terreni cespugliosi",
+      "categoria": "locuzione nominale",
+      "zh": "灌木丛生的土地",
+      "en": "scrub-covered land",
+      "esempio": "nei terreni cespugliosi ricadenti nel territorio comunale"
+    },
+    {
+      "parola": "far brillare mine",
+      "categoria": "locuzione verbale",
+      "zh": "引爆炸药",
+      "en": "detonate explosive charges",
+      "esempio": "far brillare mine"
+    },
+    {
+      "parola": "fornelli inceneritori",
+      "categoria": "locuzione nominale",
+      "zh": "焚烧炉",
+      "en": "incinerator burners",
+      "esempio": "usare fornelli inceneritori che producono faville"
+    },
+    {
+      "parola": "faville",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "火星",
+      "en": "sparks",
+      "esempio": "che producono faville in boschi e terreni cespugliosi"
+    },
+    {
+      "parola": "materiale acceso o incandescente",
+      "categoria": "locuzione nominale",
+      "zh": "燃烧或炽热的材料",
+      "en": "burning or incandescent material",
+      "esempio": "qualunque altro tipo di materiale acceso o incandescente"
+    }
+  ]
+}

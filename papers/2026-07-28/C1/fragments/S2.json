@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Una volta, mentre il treno *(passare)* __passava (0)__ vicino ad Aci-Trezza, voi, affacciandovi allo sportello del vagone, esclamaste: \"Vorrei starci un mese laggiù!„\n\nNoi vi *(ritornare)* __(1)__, e vi *(passare)* __(2)__ non un mese, ma quarantott'ore; — i terrazzani che spalancavano gli occhi *(vedere)* __(3)__ i vostri grossi bauli avranno creduto che ci sareste rimasta un par d'anni.\n\nIn quelle quarantott'ore facemmo tutto ciò che si può *(fare)* __(4)__ ad Aci-Trezza: *(passeggiare)* __(5)__ nella polvere della strada, e ci *(arrampicarsi)* __(6)__ sugli scogli; col pretesto d'*(imparare)* __(7)__ a *(remare)* __(14)__ vi *(fare)* __(8)__ sotto il guanto delle bollicine che rubavano i baci; *(passare)* __(9)__ sul mare una notte romanticissima, *(gettare)* __(10)__ le reti tanto per *(fare)* __(11)__ qualche cosa che a' barcaiuoli *(potere)* __(12)__ *(parere)* __(13)__ meritevole di buscarsi dei reumatismi, e l'alba ci *(sorprendere)* __(15)__ in cima al fariglione — un'alba modesta e pallida, che ho ancora dinanzi agli occhi, *(striare)* __(16)__ di larghi riflessi violetti, sul mare di un verde cupo, raccolta come una carezza su quel gruppetto di casuccie che *(dormire)* __(17)__ quasi raggomitolate sulla riva, mentre in cima allo scoglio, sul cielo trasparente e limpido, si *(stampare)* __(18)__ netta la vostra figurina, colle linee sapienti che vi metteva la vostra sarta, e il profilo fine ed elegante che ci mettevate voi.\n\nDiceste soltanto ingenuamente: \"Non capisco come si *(potere)* __(19)__ *(vivere)* __(20)__ qui tutta la vita.„",
+    "T5_TITLE": "FANTASTICHERIA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1, S2.2, S2.5, S2.6, S2.8, S2.9 e S2.15:** la cornice narrativa aperta da «Una volta» e «esclamaste», insieme a «In quelle quarantott'ore», presenta azioni concluse in sequenza e richiede il passato remoto. 中文：远过去叙事框架锁定连续完成事件。\n- **S2.3 e S2.10** sono gerundi presenti; **S2.4, S2.7, S2.11, S2.13, S2.14 e S2.20** sono infiniti imposti da verbo modale o preposizione. In **S2.14**, «a» è stampato prima del vuoto; **viver** e **vivere** sono entrambe forme ammesse in S2.20. 中文：支配词锁定不定式；第20题接受完整式和截短式。\n- **S2.12 e S2.19** richiedono il congiuntivo imperfetto e presente nelle rispettive subordinate; **S2.16** è un participio passato femminile singolare concordato con «un'alba». 中文：从句结构及性数配合限定形式。\n- **S2.17 e S2.18:** la descrizione simultanea dell'alba, esplicitata da «mentre», richiede l'imperfetto; «casuccie» impone la terza persona plurale in S2.17, mentre «la vostra figurina» impone il singolare in S2.18. 中文：背景描写与主语数锁定未完成过去时。",
+    "ANS_S2_ROWS": "| 1 | ritornammo | indicativo passato remoto | 11 | far | infinito presente, forma apocopata |\n| 2 | passammo | indicativo passato remoto | 12 | potesse | congiuntivo imperfetto |\n| 3 | vedendo | gerundio presente | 13 | parer | infinito presente, forma apocopata |\n| 4 | fare | infinito presente | 14 | remare | infinito presente |\n| 5 | passeggiammo | indicativo passato remoto | 15 | sorprese | indicativo passato remoto |\n| 6 | arrampicammo | indicativo passato remoto | 16 | striata | participio passato, femminile singolare |\n| 7 | imparare | infinito presente | 17 | dormivano | indicativo imperfetto |\n| 8 | faceste | indicativo passato remoto | 18 | stampava | indicativo imperfetto |\n| 9 | passammo | indicativo passato remoto | 19 | possa | congiuntivo presente |\n| 10 | gettando | gerundio presente | 20 | viver || vivere | infinito presente, forma apocopata o piena |"
+  },
+  "key": {
+    "S2.1": "ritornammo",
+    "S2.2": "passammo",
+    "S2.3": "vedendo",
+    "S2.4": "fare",
+    "S2.5": "passeggiammo",
+    "S2.6": "arrampicammo",
+    "S2.7": "imparare",
+    "S2.8": "faceste",
+    "S2.9": "passammo",
+    "S2.10": "gettando || gettammo",
+    "S2.11": "far || fare",
+    "S2.12": "potesse",
+    "S2.13": "parer || parere",
+    "S2.14": "remare",
+    "S2.15": "sorprese",
+    "S2.16": "striata",
+    "S2.17": "dormivano",
+    "S2.18": "stampava",
+    "S2.19": "possa",
+    "S2.20": "viver || vivere"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "terrazzani",
+      "categoria": "nome plurale",
+      "zh": "当地居民",
+      "en": "local inhabitants",
+      "esempio": "i terrazzani che spalancavano gli occhi"
+    },
+    {
+      "parola": "grossi bauli",
+      "categoria": "sintagma nominale",
+      "zh": "大旅行箱",
+      "en": "large trunks",
+      "esempio": "i vostri grossi bauli"
+    },
+    {
+      "parola": "fariglione",
+      "categoria": "nome maschile",
+      "zh": "海蚀柱",
+      "en": "sea stack",
+      "esempio": "in cima al fariglione"
+    },
+    {
+      "parola": "casuccie",
+      "categoria": "nome femminile plurale",
+      "zh": "小屋子",
+      "en": "little houses",
+      "esempio": "quel gruppetto di casuccie"
+    },
+    {
+      "parola": "raggomitolate",
+      "categoria": "participio/aggettivo",
+      "zh": "蜷缩着的",
+      "en": "curled up",
+      "esempio": "quasi raggomitolate sulla riva"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Questo *(essere)* __è (0)__ il nostro racconto. Il 23 luglio il gruppo *(partire)* __(1)__ dalle Prove e *(arrivare)* __(2)__ a Ronciglione. Un Rover *(prendere)* __(3)__ il pullman. Noi *(perdere)* __(4)__ il pullman e *(dovere)* __(5)__ continuare a piedi. Nel pomeriggio il gruppo *(arrivare)* __(6)__ a Sutri stanco ma soddisfatto. Il 22 luglio il gruppo *(partire)* __(7)__ da Botte e *(camminare)* __(8)__ per Monte Fogliano. Una signora *(portare)* __(9)__ bottiglie d'acqua. Adesso tutti noi *(essere)* __(10)__ felici.",
+    "T5_TITLE": "DUE GIORNI DI CAMMINO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "Le date «Il 23 luglio» e «Il 22 luglio» fissano le azioni concluse al passato prossimo; «Adesso» richiede il presente. I soggetti stampati determinano persona e numero. 中文：日期锁定近过去时，Adesso 锁定现在时。",
+    "ANS_S2_ROWS": "| S2.1 | è partito | passato prossimo | S2.6 | è arrivato | passato prossimo |\n| S2.2 | è arrivato | passato prossimo | S2.7 | è partito | passato prossimo |\n| S2.3 | ha preso | passato prossimo | S2.8 | ha camminato | passato prossimo |\n| S2.4 | abbiamo perso | passato prossimo | S2.9 | ha portato | passato prossimo |\n| S2.5 | abbiamo dovuto | passato prossimo | S2.10 | siamo | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "è partito",
+    "S2.2": "è arrivato",
+    "S2.3": "ha preso",
+    "S2.4": "abbiamo perso",
+    "S2.5": "abbiamo dovuto",
+    "S2.6": "è arrivato",
+    "S2.7": "è partito",
+    "S2.8": "ha camminato",
+    "S2.9": "ha portato",
+    "S2.10": "siamo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "racconto",
+      "categoria": "sostantivo",
+      "zh": "故事；叙述",
+      "en": "story; account",
+      "esempio": "il nostro racconto"
+    },
+    {
+      "parola": "Rover",
+      "categoria": "sostantivo",
+      "zh": "罗浮童军成员",
+      "en": "Rover Scout",
+      "esempio": "Un Rover"
+    },
+    {
+      "parola": "continuare a piedi",
+      "categoria": "locuzione verbale",
+      "zh": "继续步行",
+      "en": "to continue on foot",
+      "esempio": "continuare a piedi"
+    },
+    {
+      "parola": "stanco ma soddisfatto",
+      "categoria": "locuzione aggettivale",
+      "zh": "疲惫但满意",
+      "en": "tired but satisfied",
+      "esempio": "stanco ma soddisfatto"
+    },
+    {
+      "parola": "bottiglie d'acqua",
+      "categoria": "locuzione nominale",
+      "zh": "水瓶",
+      "en": "bottles of water",
+      "esempio": "bottiglie d'acqua"
+    }
+  ]
+}

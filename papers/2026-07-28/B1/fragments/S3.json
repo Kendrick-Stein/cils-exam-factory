@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "meno",
+    "S3_OPT0_B": "più",
+    "S3_OPT0_C": "molto",
+    "S3_OPT0_D": "poco",
+    "S3_OPTION_ROWS": "| 1. | ponti | viaggi | turni | stipendi |\n| 2. | festivo | libero | giusto | breve |\n| 3. | brevi | lunghe | regolari | frequenti |\n| 4. | orario | indirizzo | biglietto | calendario |\n| 5. | principali | locali | religiose | estive |\n| 6. | festivo | lavorativo | libero | feriale |\n| 7. | eviterete | avrete | ridurrete | cancellerete |\n| 8. | lavorativi | festivi | estivi | consecutivi |\n| 9. | dura | costa | vale | perde |\n| 10. | partono | restano | cadono | tornano |\n| 11. | invitare | allungare | ordinare | correggere |\n| 12. | notizia | domanda | risposta | possibilità |\n| 13. | unite | confrontate | confondete | scambiate |\n| 14. | tre | cinque | quattro | sei |\n| 15. | lavorativi | liberi | festivi | feriali |",
+    "S3_TEXT_WITH_GAPS": "Il 2026 sarà __meno (0)__ generoso del 2025 per i __(1)__ e le feste. Tuttavia, se chiedete i giorni di ferie nel modo __(2)__, potete ottenere __(3)__ pause dal lavoro.\n\nEcco il __(4)__ delle feste __(5)__: Pasqua e Pasquetta cadono il 5 e 6 aprile, domenica e lunedì; la Festa della Liberazione sarà sabato 25 aprile; la Festa dei Lavoratori venerdì 1° maggio; la Festa della Repubblica martedì 2 giugno. Ferragosto sarà sabato 15 agosto, Ognissanti domenica 1° novembre, l'Immacolata Concezione martedì 8 dicembre.\n\nPer Pasqua, se prendete il 3 aprile come giorno __(6)__, __(7)__ quattro giorni __(8)__. Se invece prendete ferie dal 7 al 10 aprile, la vacanza __(9)__ nove giorni.\n\nLa Festa della Liberazione e Ferragosto __(10)__ di sabato. Potete quindi __(11)__ il weekend prendendo il venerdì o il lunedì.\n\nC'è anche un'altra __(12)__: __(13)__ i giorni dal 27 al 30 aprile con il 1° maggio. Bastano __(14)__ giorni di ferie per avere nove giorni __(15)__, fino al 3 maggio.",
+    "T6_TITLE": "TUTTI I PONTI DEL 2026: IL CALENDARIO COMPLETO"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Il titolo e l'apertura parlano dei «ponti» del 2026. |\n| S3.2 | C | L'espressione corretta è «nel modo giusto». |\n| S3.3 | B | I periodi descritti permettono «lunghe pause dal lavoro». |\n| S3.4 | D | La lista di date è il «calendario delle feste». |\n| S3.5 | A | L'elenco presenta le feste «principali» dell'anno, non solo quelle religiose o estive. |\n| S3.6 | C | Il 3 aprile viene preso come «giorno libero». |\n| S3.7 | B | Prendendo libero il 3 aprile, «avrete quattro giorni» di pausa. |\n| S3.8 | D | I quattro giorni sono uno dopo l'altro: «giorni consecutivi». |\n| S3.9 | A | La costruzione di durata è «la vacanza dura nove giorni». |\n| S3.10 | C | Per indicare il giorno della settimana si dice che le feste «cadono di sabato». |\n| S3.11 | B | Prendere venerdì o lunedì serve ad «allungare il weekend». |\n| S3.12 | D | La frase introduce «un'altra possibilità», seguita dalle istruzioni dopo i due punti. |\n| S3.13 | A | Bisogna unire due periodi: «unite i giorni dal 27 al 30 aprile». |\n| S3.14 | C | Dal 27 al 30 aprile sono quattro date: «bastano quattro giorni di ferie». |\n| S3.15 | B | Il risultato è una pausa di «nove giorni liberi». |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "A",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "D",
+    "S3.9": "A",
+    "S3.10": "C",
+    "S3.11": "B",
+    "S3.12": "D",
+    "S3.13": "A",
+    "S3.14": "C",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "giorni di ferie",
+      "categoria": "espressione nominale",
+      "zh": "休假天数",
+      "en": "days of leave",
+      "esempio": "i giorni di ferie"
+    },
+    {
+      "parola": "Pasqua e Pasquetta",
+      "categoria": "espressione nominale",
+      "zh": "复活节与复活节星期一",
+      "en": "Easter and Easter Monday",
+      "esempio": "Pasqua e Pasquetta"
+    },
+    {
+      "parola": "vacanza",
+      "categoria": "sostantivo femminile",
+      "zh": "假期",
+      "en": "holiday",
+      "esempio": "la vacanza"
+    },
+    {
+      "parola": "weekend",
+      "categoria": "sostantivo maschile",
+      "zh": "周末",
+      "en": "weekend",
+      "esempio": "il weekend"
+    },
+    {
+      "parola": "invece",
+      "categoria": "avverbio",
+      "zh": "相反；而是",
+      "en": "instead",
+      "esempio": "Se invece prendete ferie"
+    }
+  ]
+}

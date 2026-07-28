@@ -1,0 +1,143 @@
+exam: cils
+level: C1
+session: '2026-07-28'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.fanpage.it/innovazione/scienze/3i-atlas-avi-loeb-la-nasa-sbaglia-accelerazione-non-gravitazionale-diversa-dai-loro-calcoli/
+  title: '3I/ATLAS, Avi Loeb: la Nasa sbaglia, l''accelerazione non gravitazionale
+    è diversa dai loro calcoli'
+  publisher: Fanpage.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 612
+- id: T2
+  url: https://www.doppiozero.com/brian-dillon-e-larte-del-saggio-perfetto
+  title: Brian Dillon e l'arte del saggio perfetto
+  publisher: Doppiozero (Mario Barenghi)
+  published: '2023-03-02'
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 558
+- id: T3
+  url: https://it.wikisource.org/wiki/Naufraghi_in_porto/Capitolo_I
+  title: Naufraghi in porto - Capitolo I
+  publisher: Wikisource (Grazia Deledda, 1920)
+  published: '1920-01-01'
+  accessed: '2026-07-23'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 460
+- id: T4
+  url: https://www.doppiozero.com/materiali/insegnare-luniversita-in-forma-di-saggio
+  title: 'Insegnare: l''università in forma di saggio'
+  publisher: Doppiozero (Bruno Cartosio)
+  published: '2019-02-12'
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 239
+- id: T5
+  url: https://it.wikisource.org/wiki/Vita_dei_campi_(1897)/Fantasticheria
+  title: Fantasticheria" (in *Vita dei campi*, 1880/1897)
+  publisher: Giovanni Verga — testo di pubblico dominio, edizione Wikisource
+  published: 1880 (prima pubblicazione); edizione Vita dei campi 1897
+  accessed: '2026-07-28'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 211
+- id: T6
+  url: https://www.fanpage.it/innovazione/scienze/enorme-deposito-doro-scoperto-sul-fondale-del-giappone-concentrazioni-elevatissime-lo-studio-su-scientific-reports/
+  title: Enorme deposito d'oro scoperto sul fondale del Giappone
+  publisher: Fanpage.it
+  published: not dated on page
+  accessed: '2026-07-23'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 183
+- id: T7
+  url: https://www.comune.campobellodilicata.ag.it/it/news/divieto-di-accensione-delle-stoppie-e-di-altri-fuochi-dal-15-maggio-al-31-ottobre-2026
+  title: Avviso a tutta la cittadinanza. Il Sindaco avvisa che è assolutamente vietata
+    l'accensione delle stoppie e di altri fuochi, dal 15 maggio al 31 ottobre 2026
+  publisher: Comune di Campobello di Licata (AG)
+  published: ordinanza n. 21 del 10/04/2026 (data dell'atto citata nel testo; non
+    è indicata una data di pubblicazione separata dell'articolo)
+  accessed: '2026-07-28'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: true
+  words_used: 160
+pipeline:
+  generator: codex-companion (per-prova item-writers, tiered)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-28T02:09:32+00:00'
+  - stage: authoring
+    at: '2026-07-28T02:09:32+00:00'
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-28T02:20:05+00:00'
+    agreement: 75/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T02:32:48+00:00'
+    agreement: 80/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T02:37:24+00:00'
+    agreement: 78/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T03:02:12+00:00'
+    agreement: 81/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-28T03:03:01+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-28T03:04:23+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-28T03:04:36+00:00'
+    result: fail
+    issues: 4
+  - stage: quality_audit
+    at: '2026-07-28T03:05:11+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  audit_result: pass
+  audit_issues: 0
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+reason: quality_audit

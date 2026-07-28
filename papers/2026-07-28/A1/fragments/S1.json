@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ mattina è un buon momento per fare __(1)__ compiti delle vacanze. Prepara __(2)__ piano di studio e usa __(3)__ orologio per organizzare __(4)__ tempo. Fai due esercizi al giorno e alterna __(5)__ attività difficili con quelle più facili. Durante __(6)__ studio, spegni __(7)__ cellulare, __(8)__ computer, __(9)__ televisione e __(10)__ radio. Studia nelle ore meno calde, dopo una buona colazione.",
+    "T4_TITLE": "I COMPITI DELLE VACANZE"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "*Nota:* gli articoli dipendono dal genere, dal numero e dal suono iniziale del nome. 中文提示：注意 *lo studio* 和 *l'orologio*。",
+    "ANS_S1_ROWS": "| 1 | i | 6 | lo |\n| 2 | il | 7 | il |\n| 3 | l' | 8 | il |\n| 4 | il | 9 | la |\n| 5 | le | 10 | la |"
+  },
+  "key": {
+    "S1.1": "i",
+    "S1.2": "il",
+    "S1.3": "l'",
+    "S1.4": "il",
+    "S1.5": "le",
+    "S1.6": "lo",
+    "S1.7": "il",
+    "S1.8": "il",
+    "S1.9": "la",
+    "S1.10": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "vacanze",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "假期",
+      "en": "holidays",
+      "esempio": "compiti delle vacanze"
+    },
+    {
+      "parola": "attività difficili",
+      "categoria": "espressione",
+      "zh": "困难的活动",
+      "en": "difficult activities",
+      "esempio": "attività difficili con quelle più facili"
+    },
+    {
+      "parola": "spegni",
+      "categoria": "verbo",
+      "zh": "关掉",
+      "en": "turn off",
+      "esempio": "studio, spegni"
+    },
+    {
+      "parola": "colazione",
+      "categoria": "sostantivo femminile",
+      "zh": "早餐",
+      "en": "breakfast",
+      "esempio": "dopo una buona colazione"
+    },
+    {
+      "parola": "ore meno calde",
+      "categoria": "espressione",
+      "zh": "较凉快的时段",
+      "en": "cooler hours",
+      "esempio": "nelle ore meno calde"
+    }
+  ]
+}

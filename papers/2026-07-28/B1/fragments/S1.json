@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Alcune razze canine vivono bene *(con)* __(1)__ i felini. Il padrone è importante *(in)* __(2)__ creazione di questo rapporto: deve evitare gelosie e mantenere un clima sereno in casa, anche durante __(3)__ sua assenza. Il cane lascia spazio *(a)* __al (0)__ gatto; entrambi __(4)__ animali hanno una cuccia e una ciotola.\n\nIl Bassotto non è molto più grande *(di)* __(5)__ un gatto e non considera la presenza *(di)* __(6)__ un felino una minaccia. Con il rispetto reciproco, i due animali finiscono *(per)* __(7)__ condividere tutto, compresa la copertina. Non vede il gatto come una preda *(da)* __(8)__ rincorrere.\n\nIl Carlino è socievole con gli esseri umani e con tutti __(9)__ altri animali. Ha bisogno *(di)* __(10)__ qualche certezza, ma è indipendente e trova il giusto equilibrio *(con)* __(11)__ i felini.\n\nIl Border Collie è uno dei cani più intelligenti *(a)* __(12)__ mondo. Sa adattarsi *(a)* __(13)__ qualsiasi circostanza e diventare un buon compagno *(per)* __(14)__ ogni gioco, in grado *(di)* __(15)__ conquistare anche il felino più restio.\n\nIl Basset Hound ama sonnecchiare *(in)* __(16)__ sua comoda cuccia. Va d'accordo con i felini grazie *(a)* __(17)__ sua indole riservata: non dà fastidio *(a)* __(18)__ nessuno e cerca qualche coccola *(da)* __(19)__ proprio padrone. È adatto *(a)* __(20)__ chi ama anche i felini.",
+    "T4_TITLE": "CANI E GATTI POSSONO VIVERE INSIEME"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.2 — nella:** *in* si unisce a *la* davanti a «creazione». 中文：阴性单数冠词与介词合并。\n- **S1.3 — la:** dopo «durante», il possessivo «sua» richiede l'articolo. 中文：物主形容词前必须使用定冠词。\n- **S1.10 — di:** davanti a «qualche» la preposizione resta semplice. 中文：不定限定词前使用简单介词。\n- **S1.12 — al:** *a* si unisce a *il* nella locuzione «al mondo». 中文：固定表达中介词与定冠词合并。\n- **S1.14 — per:** davanti a «ogni» la preposizione resta semplice. 中文：*ogni* 前不能使用带冠词的介词。\n- **S1.16 — nella:** il possessivo «sua» richiede l'articolo davanti a «cuccia». 中文：物主形容词前保留定冠词。\n- **S1.17 — alla:** nella locuzione «grazie alla sua indole», *a* si unisce a *la*. 中文：介词与阴性单数冠词合并。\n- **S1.19 — dal:** *da* si unisce a *il* davanti a «proprio padrone». 中文：*proprio* 前的名词仍需要定冠词。",
+    "ANS_S1_ROWS": "| S1.1 | con | S1.11 | con |\n| S1.2 | nella | S1.12 | al |\n| S1.3 | la | S1.13 | a |\n| S1.4 | gli | S1.14 | per |\n| S1.5 | di | S1.15 | di |\n| S1.6 | di | S1.16 | nella |\n| S1.7 | per | S1.17 | alla |\n| S1.8 | da | S1.18 | a |\n| S1.9 | gli | S1.19 | dal |\n| S1.10 | di | S1.20 | a |"
+  },
+  "key": {
+    "S1.1": "con",
+    "S1.2": "nella",
+    "S1.3": "la",
+    "S1.4": "gli",
+    "S1.5": "di",
+    "S1.6": "di",
+    "S1.7": "per",
+    "S1.8": "da",
+    "S1.9": "gli",
+    "S1.10": "di",
+    "S1.11": "con",
+    "S1.12": "al",
+    "S1.13": "a",
+    "S1.14": "per",
+    "S1.15": "di",
+    "S1.16": "nella",
+    "S1.17": "alla",
+    "S1.18": "a",
+    "S1.19": "dal",
+    "S1.20": "a"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "gelosie",
+      "categoria": "nome femminile plurale",
+      "zh": "嫉妒",
+      "en": "jealousies",
+      "esempio": "deve evitare gelosie"
+    },
+    {
+      "parola": "cuccia",
+      "categoria": "nome femminile",
+      "zh": "宠物窝",
+      "en": "pet bed",
+      "esempio": "animali hanno una cuccia"
+    },
+    {
+      "parola": "copertina",
+      "categoria": "nome femminile",
+      "zh": "小毯子",
+      "en": "small blanket",
+      "esempio": "compresa la copertina"
+    },
+    {
+      "parola": "restio",
+      "categoria": "aggettivo",
+      "zh": "不情愿的",
+      "en": "reluctant",
+      "esempio": "conquistare anche il felino più restio"
+    },
+    {
+      "parola": "sonnecchiare",
+      "categoria": "verbo",
+      "zh": "打盹",
+      "en": "to doze",
+      "esempio": "Il Basset Hound ama sonnecchiare"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+### ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "D", "confidence": "hi"},
+  "L1.4": {"answer": "C", "confidence": "hi"},
+  "L1.5": {"answer": "A", "confidence": "hi"},
+  "L1.6": {"answer": "D", "confidence": "hi"},
+  "L1.7": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-C-J-B-H-E-K-D-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "con", "confidence": "hi"},
+  "S1.2": {"answer": "nella", "confidence": "hi"},
+  "S1.3": {"answer": "nella", "confidence": "hi"},
+  "S1.4": {"answer": "gli", "confidence": "hi"},
+  "S1.5": {"answer": "di", "confidence": "hi"},
+  "S1.6": {"answer": "di", "confidence": "hi"},
+  "S1.7": {"answer": "per", "confidence": "hi"},
+  "S1.8": {"answer": "da", "confidence": "hi"},
+  "S1.9": {"answer": "gli", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+  "S1.11": {"answer": "con", "confidence": "hi"},
+  "S1.12": {"answer": "al", "confidence": "hi"},
+  "S1.13": {"answer": "a", "confidence": "hi"},
+  "S1.14": {"answer": "di", "confidence": "hi"},
+  "S1.15": {"answer": "di", "confidence": "hi"},
+  "S1.16": {"answer": "nella", "confidence": "hi"},
+  "S1.17": {"answer": "alla", "confidence": "hi"},
+  "S1.18": {"answer": "a", "confidence": "hi"},
+  "S1.19": {"answer": "dal", "confidence": "hi"},
+  "S1.20": {"answer": "a", "confidence": "hi"},
+
+  "S2.1": {"answer": "è", "confidence": "hi"},
+  "S2.2": {"answer": "intervista", "confidence": "hi"},
+  "S2.3": {"answer": "piango", "confidence": "hi"},
+  "S2.4": {"answer": "cambiano", "confidence": "hi"},
+  "S2.5": {"answer": "ho fatto", "confidence": "hi"},
+  "S2.6": {"answer": "hanno distratto", "confidence": "hi"},
+  "S2.7": {"answer": "è uscito", "confidence": "hi"},
+  "S2.8": {"answer": "hanno riempito", "confidence": "hi"},
+  "S2.9": {"answer": "aspiravo", "confidence": "hi"},
+  "S2.10": {"answer": "aspettavano", "confidence": "med"},
+  "S2.11": {"answer": "chiamavano", "confidence": "med"},
+  "S2.12": {"answer": "ricordava", "confidence": "hi"},
+  "S2.13": {"answer": "creo", "confidence": "hi"},
+  "S2.14": {"answer": "salto", "confidence": "hi"},
+  "S2.15": {"answer": "rimuovo", "confidence": "hi"},
+  "S2.16": {"answer": "scatta", "confidence": "hi"},
+  "S2.17": {"answer": "arriveranno", "confidence": "hi"},
+  "S2.18": {"answer": "interesseranno", "confidence": "hi"},
+  "S2.19": {"answer": "sarebbero", "confidence": "hi"},
+  "S2.20": {"answer": "avrebbero", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "B", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "D", "confidence": "hi"},
+  "S3.9": {"answer": "A", "confidence": "hi"},
+  "S3.10": {"answer": "C", "confidence": "hi"},
+  "S3.11": {"answer": "B", "confidence": "hi"},
+  "S3.12": {"answer": "D", "confidence": "hi"},
+  "S3.13": {"answer": "A", "confidence": "hi"},
+  "S3.14": {"answer": "C", "confidence": "hi"},
+  "S3.15": {"answer": "B", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "C", "confidence": "hi"},
+  "S4.3": {"answer": "D", "confidence": "hi"},
+  "S4.4": {"answer": "A", "confidence": "hi"},
+  "S4.5": {"answer": "B", "confidence": "hi"},
+  "S4.6": {"answer": "A", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "D", "confidence": "hi"},
+  "S4.9": {"answer": "B", "confidence": "hi"},
+  "S4.10": {"answer": "C", "confidence": "hi"}
+}
+```
+
+### FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.10",
+    "issue": "Il soggetto plurale sottinteso di «aspettavano» non è espresso esplicitamente."
+  },
+  {
+    "item_id": "S2.11",
+    "issue": "Il soggetto plurale sottinteso di «chiamavano» non è espresso esplicitamente."
+  }
+]
+```
+
+### WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```

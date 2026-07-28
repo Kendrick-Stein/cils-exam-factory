@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "enorme",
+    "S3_OPT0_B": "esiguo",
+    "S3_OPT0_C": "modesto",
+    "S3_OPT0_D": "minimo",
+    "S3_OPTION_ROWS": "| 1. | associato | estraneo | conforme | opposto |\n| 2. | dissolto | accatastato | incastonato | rovesciato |\n| 3. | rassicurare | ingannare | formare | premiare |\n| 4. | fragile | poroso | volatile | malleabile |\n| 5. | quantità | concentrazione | composizione | distribuzione |\n| 6. | giunti | tornati | sfuggiti | rimasti |\n| 7. | aumentato | sottovalutato | determinato | negoziato |\n| 8. | frenare | colmare | sopire | stuzzicare |\n| 9. | resistenti | inalterabili | delicatissimi | insensibili |\n| 10. | addestrate | sfruttate | classificate | riprodotte |\n| 11. | comporterebbe | attenuerebbe | riparerebbe | scongiurerebbe |\n| 12. | trattenendo | immettendo | sottraendo | separando |\n| 13. | conservare | ampliare | cancellare | trasferire |\n| 14. | finanziati | ignorati | accelerati | osteggiati |\n| 15. | concessione | moratoria | sanzione | incentivo |",
+    "S3_TEXT_WITH_GAPS": "Sul fondale del Giappone è stato scoperto un __enorme (0)__ deposito d'oro, __(1)__ a un campo idrotermale nella caldera. Il metallo non forma pepite: come una gemma, resta __(2)__ nella struttura cristallina della pirite. Soprannominato «oro degli sciocchi» per il colore giallo, questo minerale può __(3)__ i cercatori inesperti. È duro, mentre l'oro vero si lascia modellare perché è __(4)__.\n\nI campioni della caldera mostrano la più elevata __(5)__ mai rilevata al mondo, fino all'1,9 percento. Gli studiosi sono __(6)__ alle conclusioni analizzando, con la spettrometria di massa a ioni secondari, campioni raccolti da un sottomarino robotico presso fumarole nere. Dopo i test ne hanno __(7)__ l'elevato valore economico: il tesoro sommerso potrebbe __(8)__ gli appetiti per l'estrazione mineraria.\n\nTuttavia, i campi idrotermali sono ecosistemi __(9)__ e unici, spesso associati a forme di vita non ancora __(10)__ dalla scienza. La loro distruzione __(11)__ danni biologici, geologici ed ecologici, poiché le sorgenti abissali regolano processi chimici, __(12)__ minerali e fluidi nell'acqua marina. Lo sfruttamento della pirite potrebbe __(13)__ per sempre questi campi. Tentativi analoghi sono stati fortemente __(14)__ dagli ambientalisti. Fino al 2030 diversi Paesi del Pacifico hanno firmato una __(15)__ per non sfruttarli, ma non il Giappone.",
+    "T6_TITLE": "UN TESORO D'ORO SUL FONDALE DEL GIAPPONE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Il deposito è «associato a un campo idrotermale»; gli altri aggettivi esprimono estraneità, conformità o opposizione. 中文：associato a 表示与热液区相关。 |\n| S3.2 | C | L'oro «resta incastonato nella struttura cristallina della pirite»: il paragone con una gemma forza questa collocazione. 中文：incastonato 指嵌在晶体结构中。 |\n| S3.3 | B | Il colore simile a quello dell'oro può «ingannare i cercatori inesperti»; il soprannome conferma l'equivoco. 中文：外观会欺骗缺乏经验的淘金者。 |\n| S3.4 | D | L'oro «si lascia modellare perché è malleabile»; fragilità, porosità e volatilità non esprimono questa proprietà. 中文：malleabile 意为有延展性的。 |\n| S3.5 | B | Il dato percentuale misura la «concentrazione» d'oro, non la quantità assoluta o la distribuzione. 中文：百分比表示浓度。 |\n| S3.6 | A | La reggenza idiomatica è «sono giunti alle conclusioni», qui dopo l'analisi dei campioni. 中文：giungere alle conclusioni 是固定搭配。 |\n| S3.7 | C | I test hanno permesso di «determinare l'elevato valore economico» dei campioni, cioè di stabilirlo sulla base delle analisi. 中文：检测用于确定其经济价值。 |\n| S3.8 | D | Il tesoro potrebbe «stuzzicare gli appetiti» per l'estrazione: la locuzione indica che può suscitare interesse economico. 中文：stuzzicare gli appetiti 表示激起欲望。 |\n| S3.9 | C | «Ecosistemi delicatissimi e unici» anticipa i gravi danni che deriverebbero dalla loro distruzione. 中文：这里强调生态系统极其脆弱。 |\n| S3.10 | C | Le forme di vita sono «non ancora classificate dalla scienza»; il passivo indica che non sono state catalogate. 中文：尚未被科学分类。 |\n| S3.11 | A | La costruzione naturale e coerente è «la loro distruzione comporterebbe danni»; le altre opzioni indicano riduzione o prevenzione del danno. 中文：comportare danni 意为造成损害。 |\n| S3.12 | B | Le sorgenti regolano processi chimici «immettendo minerali e fluidi» nell'acqua, dunque introducendoli nell'ambiente marino. 中文：immettere 表示注入、排入。 |\n| S3.13 | C | Lo sfruttamento potrebbe «cancellare per sempre questi campi», esito coerente con la distruzione descritta. 中文：意为永久毁掉该生态系统。 |\n| S3.14 | D | I tentativi di estrazione sono stati «fortemente osteggiati dagli ambientalisti», contrari ai rischi per gli ecosistemi. 中文：环保人士强烈反对开采。 |\n| S3.15 | B | La «moratoria» impone di non sfruttare i campi fino al 2030; concessione e incentivo favorirebbero invece l'attività. 中文：moratoria 指暂停实施。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "C",
+    "S3.8": "D",
+    "S3.9": "C",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "D",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "struttura cristallina",
+      "categoria": "locuzione nominale",
+      "zh": "晶体结构",
+      "en": "crystal structure",
+      "esempio": "nella struttura cristallina della pirite"
+    },
+    {
+      "parola": "spettrometria di massa a ioni secondari",
+      "categoria": "locuzione nominale",
+      "zh": "二次离子质谱法",
+      "en": "secondary ion mass spectrometry",
+      "esempio": "con la spettrometria di massa a ioni secondari"
+    },
+    {
+      "parola": "fumarole nere",
+      "categoria": "locuzione nominale",
+      "zh": "黑烟囱；深海热液喷口",
+      "en": "black smokers",
+      "esempio": "presso fumarole nere"
+    },
+    {
+      "parola": "tesoro sommerso",
+      "categoria": "locuzione nominale",
+      "zh": "海底宝藏",
+      "en": "underwater treasure",
+      "esempio": "il tesoro sommerso"
+    },
+    {
+      "parola": "sorgenti abissali",
+      "categoria": "locuzione nominale",
+      "zh": "深海热液喷口",
+      "en": "deep-sea vents",
+      "esempio": "le sorgenti abissali"
+    }
+  ]
+}
