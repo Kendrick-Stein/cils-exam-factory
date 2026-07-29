@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Biblioteche, __(1)__ orari nei mesi __(2)__ luglio e agosto.\n\nDurante __il (0)__ periodo estivo, __(3)__ Archivio Storico e __(4)__ Biblioteche comunali osserveranno chiusure alternate secondo __(5)__ seguente calendario: Giardino, dall'1 al 31 luglio; Rotonda, dal 13 al 26 luglio; Archivio Storico, Crocetta e Poletti, dall'1 al 31 agosto; Delfini, dal 10 al 16 agosto.\n\nAnche __(6)__ Punti __(7)__ Lettura seguiranno orari estivi, __(8)__ __(9)__ ultime aperture e __(10)__ successive riaperture previste come segue: Baggiovara, ultima apertura sabato 27 giugno, riapertura sabato 5 settembre; Modena Est, ultima apertura venerdì 31 luglio, riapertura lunedì 31 agosto.",
+    "T4_TITLE": "ORARI ESTIVI"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "1. «gli orari»: *orari* è maschile plurale e davanti a vocale richiede *gli*. 中文：阳性复数元音前用 gli。\n2. «nei mesi di luglio e agosto»: *di* collega i mesi ai loro nomi. 中文：月份名称前用 di。\n3. «l'Archivio Storico»: il nome singolare maschile inizia per vocale e indica l'istituto nominato. 中文：元音前定冠词省音为 l'。\n4. «l'Archivio Storico e le Biblioteche comunali»: i due soggetti indicano gli istituti comunali del calendario; *Biblioteche* è femminile plurale. 中文：阴性复数定冠词用 le。\n5. «il seguente calendario»: davanti a *seguente* il riferimento è al calendario che viene subito dopo. 中文：seguente 指下文特定日程，用 il。\n6. «Anche i Punti di Lettura»: la maiuscola segnala il nome del servizio comunale e *Punti* è maschile plurale. 中文：服务名称为阳性复数，用 i。\n7. «Punti di Lettura»: *di* fa parte del nome del servizio. 中文：固定名称 Punti di Lettura。\n8. «con le ultime aperture»: *con* introduce i dati che accompagnano gli orari estivi. 中文：con 引出配套的开放信息。\n9. «le ultime aperture»: *ultime* indica le aperture precise elencate subito dopo. 中文：下文列出特定的最后开放日，用 le。\n10. «le successive riaperture»: l'articolo riprende in parallelo le riaperture precise dell'elenco. 中文：与前项平行，指下文特定的重新开放日。",
+    "ANS_S1_ROWS": "| 1 | gli | 6 | i |\n| 2 | di | 7 | di |\n| 3 | l' | 8 | con |\n| 4 | le | 9 | le |\n| 5 | il | 10 | le |"
+  },
+  "key": {
+    "S1.1": "gli",
+    "S1.2": "di",
+    "S1.3": "l'",
+    "S1.4": "le",
+    "S1.5": "il",
+    "S1.6": "i",
+    "S1.7": "di",
+    "S1.8": "con",
+    "S1.9": "le",
+    "S1.10": "le"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "periodo estivo",
+      "categoria": "locuzione nominale",
+      "zh": "夏季时段",
+      "en": "summer period",
+      "esempio": "Durante il periodo estivo"
+    },
+    {
+      "parola": "chiusure alternate",
+      "categoria": "locuzione nominale",
+      "zh": "错开的闭馆安排",
+      "en": "staggered closures",
+      "esempio": "osserveranno chiusure alternate"
+    },
+    {
+      "parola": "calendario",
+      "categoria": "nome maschile",
+      "zh": "日程表",
+      "en": "schedule",
+      "esempio": "secondo il seguente calendario"
+    },
+    {
+      "parola": "ultima apertura",
+      "categoria": "locuzione nominale",
+      "zh": "最后开放日",
+      "en": "last opening day",
+      "esempio": "ultima apertura sabato 27 giugno"
+    },
+    {
+      "parola": "riapertura",
+      "categoria": "nome femminile",
+      "zh": "重新开放",
+      "en": "reopening",
+      "esempio": "riapertura sabato 5 settembre"
+    }
+  ]
+}

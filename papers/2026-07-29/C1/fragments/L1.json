@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Il nuovo meccanismo individuato dal gruppo di ricerca**\n\nA) facilita il trasporto delle proteine già mature fuori dalla cellula.\n\nB) decide precocemente se una proteina può maturare o deve essere trattenuta.\n\nC) interviene soltanto dopo l'azione dei sistemi di sorveglianza conosciuti.\n\nD) regola esclusivamente le proteine destinate alla superficie cellulare.\n\n**2. La N-glicosilazione descritta nel testo**\n\nA) elimina gli zuccheri presenti nelle proteine appena sintetizzate.\n\nB) trasforma le proteine in segnali per lo sviluppo embrionale.\n\nC) aggiunge zuccheri e favorisce ripiegamento, stabilità e funzionalità.\n\nD) trattiene nel reticolo endoplasmatico tutte le proteine prodotte.\n\n**3. Quando TUSC3 è assente, le proteine**\n\nA) si fermano in uno stato intermedio e possono diventare insolubili.\n\nB) completano la maturazione, ma vengono secrete più lentamente.\n\nC) evitano il reticolo endoplasmatico e raggiungono subito la superficie.\n\nD) mantengono la propria solubilità, pur perdendo ogni funzione.\n\n**4. Gli esperimenti condotti su BMP4 mostrano che**\n\nA) la riduzione di TUSC3 aumenta la quantità di BMP4 secreta.\n\nB) i livelli di TUSC3 non modificano la trasmissione dei segnali.\n\nC) l'aumento di TUSC3 trattiene BMP4 nel reticolo endoplasmatico.\n\nD) una maggiore quantità di TUSC3 rafforza la secrezione e il segnale di BMP4.\n\n**5. L'uso di cellule di mammifero e del moscerino Drosophila permette di concludere che il meccanismo**\n\nA) compare soltanto negli organismi dotati di tessuti complessi.\n\nB) si è conservato nel corso dell'evoluzione.\n\nC) svolge funzioni opposte nei mammiferi e negli insetti.\n\nD) riguarda esclusivamente lo sviluppo embrionale degli animali.\n\n**6. La novità del passaggio rivelato dallo studio consiste nel fatto che la cellula**\n\nA) sostituisce la N-glicosilazione con un diverso processo di maturazione.\n\nB) controlla le proteine soltanto al termine del loro percorso.\n\nC) opera una selezione prima dei sistemi di sorveglianza già noti.\n\nD) attiva il controllo qualità solo quando le proteine si accumulano.\n\n**7. Rispetto alla salute umana, i risultati dello studio**\n\nA) offrono una chiave per interpretare difetti dello sviluppo e progressione tumorale.\n\nB) dimostrano che ogni disabilità intellettiva dipende da mutazioni di TUSC3.\n\nC) forniscono già una terapia per le malattie congenite della glicosilazione.\n\nD) escludono un coinvolgimento di TUSC3 nei diversi tipi di tumore.",
+    "T1_TEXT": "Un team internazionale guidato dal professor Thomas Vaccari del Dipartimento di Bioscienze dell'Università degli Studi di Milano ha scoperto un nuovo meccanismo che controlla la maturazione delle proteine e la comunicazione tra le cellule. Alla ricerca hanno collaborato il gruppo del dottor Antonio Galeone dell'Istituto di Nanotecnologia del Consiglio nazionale delle ricerche (Cnr-Nanotec) di Lecce, nell'ambito di Tecnomed Puglia — centro congiunto tra Cnr e Università del Salento dedicato alla ricerca biomedica e tecnologica — e il professor Hamed Jafar-Nejad del Baylor College of Medicine di Houston. Lo studio, pubblicato sulla rivista Cell Reports, descrive per la prima volta un checkpoint molecolare precoce che stabilisce se una proteina potrà completare correttamente il proprio percorso di maturazione oppure verrà trattenuta all'interno della cellula.\n\nLe proteine destinate alla secrezione o alla superficie cellulare vengono prodotte nel reticolo endoplasmatico, dove molte subiscono la N-glicosilazione, ossia un processo in cui vengono aggiunti zuccheri alle proteine appena sintetizzate. Questa modifica rappresenta un passaggio essenziale che favorisce il corretto ripiegamento, la stabilità e la funzionalità delle proteine.\n\nI ricercatori hanno scoperto che TUSC3, una proteina del reticolo endoplasmatico coinvolta nella N-glicosilazione, svolge un ruolo chiave in questa fase. Agisce come un vero checkpoint molecolare che consente alle proteine di superare uno snodo cruciale del loro percorso di maturazione. In assenza di TUSC3, le proteine rimangono bloccate in uno stato intermedio, tendono a diventare insolubili e possono accumularsi all'interno della cellula con effetti potenzialmente dannosi.\n\nPer comprendere il funzionamento di questo meccanismo, il team ha studiato BMP4, una proteina segnale che permette alle cellule di comunicare tra loro e coordina la formazione di tessuti e organi durante lo sviluppo embrionale. I risultati mostrano che, in assenza di TUSC3, BMP4 resta intrappolata nel reticolo endoplasmatico e la sua capacità di trasmettere segnali si riduce significativamente. Al contrario, aumentando i livelli di TUSC3 cresce la quantità di BMP4 secreta e il segnale cellulare si rafforza.\n\nGli esperimenti, condotti in cellule di mammifero e sul moscerino Drosophila, dimostrano che questo meccanismo è conservato nel corso dell'evoluzione, confermandone la rilevanza biologica.\n\nLo studio rivela così un passaggio finora sconosciuto nel controllo qualità delle proteine: una fase molto precoce in cui la cellula stabilisce quali molecole possono proseguire il loro percorso di maturazione prima ancora dell'intervento dei sistemi di sorveglianza già noti. Questa scoperta amplia la comprensione dei meccanismi che regolano la comunicazione tra cellule e il corretto funzionamento di tessuti e organi.\n\nLe implicazioni per la salute umana sono significative. Mutazioni del gene TUSC3, che contiene le istruzioni per produrre l'omonima proteina, sono associate a rare malattie congenite della glicosilazione e a forme di disabilità intellettiva. Il nuovo meccanismo suggerisce che alterazioni di questo checkpoint possano contribuire ai difetti dello sviluppo osservati nei pazienti e offre una nuova chiave di lettura dei processi patologici alla base di queste condizioni. Inoltre, poiché TUSC3 è coinvolta anche in diversi tipi di tumore, questi risultati aprono nuove prospettive per comprendere il ruolo del controllo qualità delle proteine nella progressione tumorale.\n\n\"Abbiamo identificato un passaggio precoce e finora inatteso nel controllo qualità delle proteine, che agisce come un vero punto decisionale nel determinarne la corretta maturazione\", commenta Thomas Vaccari. \"Questo meccanismo è fondamentale per regolare la comunicazione tra le cellule e potrebbe estendersi a molti altri processi biologici essenziali per lo sviluppo dei tessuti e degli organi\".",
+    "T1_TITLE": "Scoperto il checkpoint molecolare che guida la maturazione delle proteine"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il checkpoint «stabilisce se una proteina potrà completare correttamente il proprio percorso di maturazione oppure verrà trattenuta». 中文：关键在早期判定，而非成熟后的运输。 |\n| L1.2 | C | La N-glicosilazione è il processo in cui «vengono aggiunti zuccheri» e favorisce «il corretto ripiegamento, la stabilità e la funzionalità». 中文：不是去除糖分。 |\n| L1.3 | A | Senza TUSC3 le proteine «rimangono bloccate in uno stato intermedio» e «tendono a diventare insolubili». 中文：干扰项把阻滞误写成较慢成熟。 |\n| L1.4 | D | «Aumentando i livelli di TUSC3 cresce la quantità di BMP4 secreta e il segnale cellulare si rafforza». 中文：注意因果方向。 |\n| L1.5 | B | Gli esperimenti nei due modelli «dimostrano che questo meccanismo è conservato nel corso dell'evoluzione». 中文：跨物种结果支持进化保守性。 |\n| L1.6 | C | La cellula decide quali molecole proseguono «prima ancora dell'intervento dei sistemi di sorveglianza già noti». 中文：新意在于阶段更早。 |\n| L1.7 | A | Il meccanismo offre «una nuova chiave di lettura» dei difetti dello sviluppo e apre prospettive sulla «progressione tumorale». 中文：这是解释框架，不是现成疗法。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "C",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "checkpoint molecolare",
+      "categoria": "locuzione nominale",
+      "zh": "分子检查点",
+      "en": "molecular checkpoint",
+      "esempio": "Lo studio, pubblicato sulla rivista Cell Reports, descrive per la prima volta un checkpoint molecolare precoce che stabilisce se una proteina potrà completare correttamente il proprio percorso di maturazione oppure verrà trattenuta all'interno della cellula."
+    },
+    {
+      "parola": "N-glicosilazione",
+      "categoria": "sostantivo femminile",
+      "zh": "N-糖基化",
+      "en": "N-glycosylation",
+      "esempio": "Le proteine destinate alla secrezione o alla superficie cellulare vengono prodotte nel reticolo endoplasmatico, dove molte subiscono la N-glicosilazione, ossia un processo in cui vengono aggiunti zuccheri alle proteine appena sintetizzate."
+    },
+    {
+      "parola": "ripiegamento",
+      "categoria": "sostantivo maschile",
+      "zh": "折叠",
+      "en": "folding",
+      "esempio": "Questa modifica rappresenta un passaggio essenziale che favorisce il corretto ripiegamento, la stabilità e la funzionalità delle proteine."
+    },
+    {
+      "parola": "stato intermedio",
+      "categoria": "locuzione nominale",
+      "zh": "中间状态",
+      "en": "intermediate state",
+      "esempio": "In assenza di TUSC3, le proteine rimangono bloccate in uno stato intermedio, tendono a diventare insolubili e possono accumularsi all'interno della cellula con effetti potenzialmente dannosi."
+    },
+    {
+      "parola": "chiave di lettura",
+      "categoria": "locuzione nominale",
+      "zh": "解读视角",
+      "en": "interpretive key",
+      "esempio": "Il nuovo meccanismo suggerisce che alterazioni di questo checkpoint possano contribuire ai difetti dello sviluppo osservati nei pazienti e offre una nuova chiave di lettura dei processi patologici alla base di queste condizioni."
+    }
+  ]
+}

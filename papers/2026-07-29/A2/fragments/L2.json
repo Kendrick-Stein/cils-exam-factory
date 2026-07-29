@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Il mercatino si svolge ogni venerdì sera di luglio e agosto 2026.**  \nVero ○ Falso ○\n\n**2. Possono partecipare i ragazzi dai 6 ai 14 anni.**  \nVero ○ Falso ○\n\n**3. I bambini possono vendere soltanto oggetti creati da loro.**  \nVero ○ Falso ○\n\n**4. Nel mese di agosto il primo mercatino è venerdì 3.**  \nVero ○ Falso ○\n\n**5. Il mercatino termina alle ore 23:30.**  \nVero ○ Falso ○\n\n**6. Il modulo di iscrizione deve essere consegnato in forma cartacea prima dell'inizio del mercatino.**  \nVero ○ Falso ○\n\n**7. Il contributo di partecipazione è di 10 euro.**  \nVero ○ Falso ○\n\n**8. Un bambino di 14 anni può andare al mercatino senza un adulto.**  \nVero ○ Falso ○",
+    "T2_TEXT": "Palacongressi Dean Martin Ogni venerdì sera di luglio e agosto 2026\n\nIl Comune di Montesilvano, in collaborazione con l’Associazione Culturale Amare Montesilvano, è lieto di annunciare il ritorno del Mercatino dei Bambini 2026, un’iniziativa ricreativa e creativa riservata ai ragazzi/e dai 6 ai 14 anni.\n\nUn’occasione unica per i più piccoli di vendere oggetti frutto della propria creatività, giocattoli, fumetti, libri usati, peluche e tutto ciò che non usano più, promuovendo socializzazione, creatività e il valore del riuso.\n\n**Date 2026**\n\n**Luglio**\n\nVenerdì 3 – 10 – 17 – 24 – 31 luglio 2026\n\n**Agosto**\n\nVenerdì 7 – 14 – 21 – 28 agosto 2026\n\n**Orario:** dalle ore 19:00 alle 23:30\n\n**Come partecipare**\n\nPer partecipare è obbligatorio compilare il Modulo di Iscrizione (scaricabile qui sotto) e consegnarlo in forma cartacea all’organizzazione prima dell’inizio del mercatino.\n\nContributo simbolico di partecipazione: € 2,00\n\n**Informazioni**\n\nOgni bambino deve essere accompagnato da un genitore o adulto responsabile.\n\nÈ consentito vendere solo oggetti usati o creati dai bambini (no cibo, profumi, bigiotteria, prodotti per adulti, ecc.).\n\nPrezzo massimo per singolo oggetto: € 10,00.\n\nPostazione assegnata dall’organizzazione.",
+    "T2_TITLE": "MERCATINO DEI BAMBINI 2026"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica: «Ogni venerdì sera di luglio e agosto 2026».（活动日期） |\n| L2.2 | Vero | L’iniziativa è «riservata ai ragazzi/e dai 6 ai 14 anni».（年龄范围） |\n| L2.3 | Falso | Si possono vendere «oggetti usati o creati dai bambini», non soltanto quelli creati da loro.（也可以卖二手物品） |\n| L2.4 | Falso | La prima data di agosto è «Venerdì 7», mentre il 3 è una data di luglio.（月份对比） |\n| L2.5 | Vero | L’orario è «dalle ore 19:00 alle 23:30».（结束时间） |\n| L2.6 | Vero | Bisogna «consegnarlo in forma cartacea all’organizzazione prima dell’inizio del mercatino».（提交方式和时间） |\n| L2.7 | Falso | Il contributo è «€ 2,00»; € 10,00 è il prezzo massimo di un oggetto.（金额对比） |\n| L2.8 | Falso | «Ogni bambino deve essere accompagnato da un genitore o adulto responsabile», anche se ha 14 anni.（必须由成人陪同） |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "valore del riuso",
+      "categoria": "espressione nominale",
+      "zh": "再利用的价值",
+      "en": "value of reuse",
+      "esempio": "promuovendo socializzazione, creatività e il valore del riuso"
+    },
+    {
+      "parola": "in forma cartacea",
+      "categoria": "locuzione avverbiale",
+      "zh": "以纸质形式",
+      "en": "in paper form",
+      "esempio": "consegnarlo in forma cartacea all’organizzazione"
+    },
+    {
+      "parola": "Contributo simbolico",
+      "categoria": "espressione nominale",
+      "zh": "象征性费用",
+      "en": "nominal fee",
+      "esempio": "Contributo simbolico di partecipazione: € 2,00"
+    },
+    {
+      "parola": "adulto responsabile",
+      "categoria": "espressione nominale",
+      "zh": "负责的成年人",
+      "en": "responsible adult",
+      "esempio": "un genitore o adulto responsabile"
+    },
+    {
+      "parola": "Postazione assegnata",
+      "categoria": "espressione nominale",
+      "zh": "指定的摊位",
+      "en": "assigned stall",
+      "esempio": "Postazione assegnata dall’organizzazione"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Una vecchia stazione di posta, dove i viaggiatori si fermavano a riposare, le membra, la schiena, ma anche i pensieri.",
+    "T3_PART_B": "All’ingresso trovate vecchie valigie e una mappa: davvero è qui che inizia il viaggio. Una soglia simbolica che dice subito al visitatore che sta entrando in un altro tempo.",
+    "T3_PART_C": "Silenziosi e presenti, sembrano custodi del luogo. Quando entriamo nella nostra stanza troviamo una lettera poggiata sul letto.",
+    "T3_PART_D": "Abbiamo lasciato Torino e ci siamo diretti verso Biella, autostrada, statale e poi una sottile ma dolce strada di montagna",
+    "T3_PART_E": "la tana, il luogo dove trovare protezione. La Bursch, il mio progetto del cuore, è la casa dei miei nonni e il luogo a cui ho deciso di ridare vita,",
+    "T3_PART_F": "E nella casa vivono anche tre gatti sornioni e osservatori: Roger, Mimmi e un terzo senza nome, che ognuno chiama un po’ come vuole.",
+    "T3_PART_G": "Perché, come in ciascuna delle nostre case, non è forse tutto perfetto ma ci sono amore, fatica, ricordi, sogni.”",
+    "T3_PART_H": "Non so perché ma è la prima cosa che abbiamo pensato arrivando a La Bursch, casa di campagna in Valle Cervo.",
+    "T3_PART_I": "nel 2019, attraverso un intervento di restauro conservativo. Spero tanto che qui potrete sentirvi coccolati, liberi e, soprattutto, a vostro agio, come se questa fosse casa vostra.",
+    "T3_PART_J": "E siamo arrivati a Campiglia Cervo, tra le Alpi biellesi, con le punte delle montagne già innevate. Un’ora e mezza di viaggio verso una casa-rifugio.",
+    "T3_PART_K": "È di Barbara Varese, la proprietaria che ci accoglie: “Sono felice di accogliervi nella mia casa, La Bursch come la chiamano in Walser, l’antico dialetto di questi luoghi:",
+    "T3_TITLE": "ABBIAMO SCOPERTO LA BURSCH: UN RIFUGIO SEGRETO NELLA VALLE CERVO DOVE TUTTO TROVA IL SUO POSTO"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Introduce l’immagine iniziale della vecchia stazione di posta. |\n| 2 | H | «La prima cosa che abbiamo pensato» riprende direttamente l’immagine della stazione. |\n| 3 | D | «Abbiamo lasciato Torino» avvia il tragitto verso la struttura appena nominata. |\n| 4 | J | «E siamo arrivati» completa il viaggio su autostrada, statale e strada di montagna. |\n| 5 | B | «All’ingresso» indica la tappa successiva all’arrivo e presenta valigie e mappa. |\n| 6 | F | «E nella casa» sposta il racconto dalla soglia all’interno e introduce i tre gatti. |\n| 7 | C | «Silenziosi e presenti» descrive soltanto i gatti appena nominati; poi il racconto passa alla stanza. 中文：指代前一段的猫。 |\n| 8 | K | «È di Barbara Varese» identifica l’autrice della lettera trovata sul letto e apre la citazione. |\n| 9 | E | «La tana» completa la spiegazione del nome in Walser introdotta dai due punti. |\n| 10 | I | «Nel 2019» completa la decisione di ridare vita alla casa e introduce il restauro. |\n| 11 | G | «Perché» spiega infine perché gli ospiti possono sentirsi come a casa propria. |",
+    "ANS_L3_SEQUENCE": "A–H–D–J–B–F–C–K–E–I–G"
+  },
+  "key": {
+    "L3": "A–H–D–J–B–F–C–K–E–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "stazione di posta",
+      "categoria": "locuzione nominale",
+      "zh": "驿站",
+      "en": "posting station",
+      "esempio": "Una vecchia stazione di posta"
+    },
+    {
+      "parola": "innevate",
+      "categoria": "aggettivo femminile plurale",
+      "zh": "被雪覆盖的",
+      "en": "snow-covered",
+      "esempio": "con le punte delle montagne già innevate"
+    },
+    {
+      "parola": "soglia simbolica",
+      "categoria": "locuzione nominale",
+      "zh": "象征性的门槛",
+      "en": "symbolic threshold",
+      "esempio": "Una soglia simbolica che dice subito al visitatore"
+    },
+    {
+      "parola": "custodi",
+      "categoria": "nome maschile plurale",
+      "zh": "守护者",
+      "en": "guardians",
+      "esempio": "sembrano custodi del luogo"
+    },
+    {
+      "parola": "restauro conservativo",
+      "categoria": "locuzione nominale",
+      "zh": "保护性修复",
+      "en": "conservation restoration",
+      "esempio": "attraverso un intervento di restauro conservativo"
+    }
+  ]
+}

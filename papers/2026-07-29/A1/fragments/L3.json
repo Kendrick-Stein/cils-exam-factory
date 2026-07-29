@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Un avviso per i visitatori**\n\n   Museo Civico di Zoologia: ascensore fuori servizio. Si informano i gentili visitatori che l’ascensore è temporaneamente fuori uso. Ci scusiamo per il disagio.\n\n2. **Chiusura estiva**\n\n   Si ricorda ai gentili visitatori che il complesso della Serra Moresca è chiuso al pubblico dal 1° luglio al 31 agosto. Grazie dell'attenzione.\n\n3. **Un problema tecnico**\n\n   Le attività del Planetario sono sospese dal 26 giugno. Si comunica che per un problema tecnico le attività del Planetario sono sospese dal 26 giugno al 26 luglio.\n\n4. **Lavori in corso**\n\n   Musei Capitolini: sala Pietro da Cortona temporaneamente chiusa. Si avvisano i gentili visitatori che la Sala Pietro da Cortona è temporaneamente chiusa per lavori in corso.",
+    "L3_OPTIONS": "A. Al Museo Civico di Zoologia non si può usare l'ascensore.\n\nB. La Serra Moresca non apre nei mesi di luglio e agosto.\n\nC. Al Planetario le attività sono ferme per un problema tecnico fino al 26 luglio.\n\nD. Ai Musei Capitolini la Sala Pietro da Cortona è chiusa per lavori.\n\nE. Il Planetario resta chiuso per lavori dal 1° luglio al 31 agosto.\n\nF. La Serra Moresca è aperta al pubblico per tutta l'estate."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | L’ascensore del Museo Civico di Zoologia è «temporaneamente fuori uso». 中文：动物博物馆的电梯暂时不能使用。 |\n| L3.2 | B | Il complesso della Serra Moresca è «chiuso al pubblico dal 1° luglio al 31 agosto». 中文：七月和八月不对公众开放。 |\n| L3.3 | C | Per «un problema tecnico» le attività sono sospese «dal 26 giugno al 26 luglio». 中文：技术问题和截止日期共同锁定答案。 |\n| L3.4 | D | La Sala Pietro da Cortona è «temporaneamente chiusa per lavori in corso». 中文：闭馆原因是施工。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fuori servizio",
+      "categoria": "espressione",
+      "zh": "停止使用；故障中",
+      "en": "out of service",
+      "esempio": "Museo Civico di Zoologia: ascensore fuori servizio."
+    },
+    {
+      "parola": "temporaneamente fuori uso",
+      "categoria": "espressione",
+      "zh": "暂时无法使用",
+      "en": "temporarily out of order",
+      "esempio": "Si informano i gentili visitatori che l’ascensore è temporaneamente fuori uso."
+    },
+    {
+      "parola": "chiuso al pubblico",
+      "categoria": "espressione",
+      "zh": "不对公众开放",
+      "en": "closed to the public",
+      "esempio": "Si ricorda ai gentili visitatori che il complesso della Serra Moresca è chiuso al pubblico dal 1° luglio al 31 agosto."
+    },
+    {
+      "parola": "problema tecnico",
+      "categoria": "nome maschile",
+      "zh": "技术问题",
+      "en": "technical problem",
+      "esempio": "Si comunica che per un problema tecnico le attività del Planetario sono sospese dal 26 giugno al 26 luglio."
+    },
+    {
+      "parola": "lavori in corso",
+      "categoria": "espressione",
+      "zh": "施工中",
+      "en": "work in progress",
+      "esempio": "Si avvisano i gentili visitatori che la Sala Pietro da Cortona è temporaneamente chiusa per lavori in corso."
+    }
+  ]
+}

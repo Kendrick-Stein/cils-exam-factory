@@ -1,0 +1,26 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova, LENGTH ONLY. FRESH agent.
+
+Read first: `.claude/agents/item-writer.md`, `factory/exams/cils/templates/A2.md` (the S1 block + its HTML comments), `factory/validation/checklist.md` §A.
+
+Fragment: `papers/2026-07-29/A2/fragments/S1.json` — analisi delle strutture, prova 1, `cloze_aperto`, 10 gaps.
+Source text: the '## Slot T4' section of `papers/2026-07-29/A2/sources.md`.
+
+Defect (quality audit): `structure prova 1 has 136 words; expected 90-130`.
+
+This fragment was JUST repaired for an unrelated ambiguity defect (bare-vs-articulated preposition free choice). Your ONLY job is to shorten it to about **115 words** as the audit counts them, WITHOUT reintroducing that defect:
+- every gap must still admit exactly ONE grammatical surface form (no `dal` / `dall'` / `da` free choice);
+- every gap must still match what the printed consegna asks for.
+
+Cut whole redundant clauses or low-information sentences rather than shaving words everywhere. Keep the text authentic (trim only; never invent).
+
+IMPORTANT — how the audit counts words: `scripts/paper_quality_audit.py` counts the WHOLE printed prova block
+(consegna, esempio, the text with its `__(n)__` gap markers — everything except tables and HTML comments),
+NOT just the body prose. So your own body word count will read LOWER than the audit's. Verify with:
+
+    python3 scripts/assemble_paper.py --paper-dir papers/2026-07-29/A2 && \
+    python3 scripts/paper_quality_audit.py --session 2026-07-29 --levels A2 --report /tmp/qa-A2.json
+
+and iterate until the `length.` issue for this prova disappears. Aim for the MIDDLE of the band, not the edge.
+
+Keep exactly 10 gaps and identical points/consegna. Rewrite `papers/2026-07-29/A2/fragments/S1.json` IN FULL, same schema. Touch no other file (never `manifest.yaml`).
+Reply (short): what you cut, and the audit's reported word count for structure prova 1 after your fix.

@@ -1,0 +1,21 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; assume nothing not in the files below.
+
+Read first: `.claude/agents/item-writer.md` (§Rules 4 + §Stage S4), `factory/exams/cils/templates/A2.md` (the S1 block + its HTML comments — check what the printed consegna actually asks for), `factory/validation/checklist.md` §A.
+
+Current fragment to repair: `papers/2026-07-29/A2/fragments/S1.json` (cloze_aperto — 10 gaps, T4 = orari estivi delle biblioteche di Modena).
+Your source text: the '## Slot T4' section of `papers/2026-07-29/A2/sources.md`.
+
+Defects from blind validation (2 mismatches + 1 prova-level flag):
+- S1.2 MISMATCH: key «dall'», solver answered «dal».
+- S1.6 MISMATCH: key «dall'», solver answered «dal».
+- S1 FLAG (whole prova): "La consegna richiede preposizioni semplici, ma gli item 2-9 necessitano delle preposizioni articolate «dal» e «al»."
+
+Two distinct problems — fix BOTH:
+1. **Consegna/content mismatch.** The A2 S1 consegna printed by the template states what kind of form the candidate must supply. Read it in `factory/exams/cils/templates/A2.md` and make every gap consistent with it. Do not edit the consegna (it is immutable template text) — change the GAPS so they match it.
+2. **Bare-vs-articulated and elision ambiguity** (rule 4 / checklist §A.12). «dal» vs «dall'» vs «da» must never be a free choice. For each gap make exactly ONE surface form grammatical: pick a following noun whose gender/number/initial letter forces a single article form, or restructure the phrase.
+
+Also rescan ALL 10 gaps for the same defect class: any gap where two different prepositions or two article forms are both defensible must be re-cut.
+
+Keep exactly 10 gaps and identical points/consegna. Text stays authentic (trim only; you may reorder printed sentences).
+Rewrite `papers/2026-07-29/A2/fragments/S1.json` IN FULL, same schema (prova, slots, answer_slots, key, glossario_candidates). Update the spiegazioni in answer_slots to match your new items. Touch no other file (never `manifest.yaml`).
+Reply (short, no fragment content): which items you changed and how; final text word count.

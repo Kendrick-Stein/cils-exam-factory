@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "**Carlo, da quanto?**\n\nC. Oggi io *(correre)* __corro (0)__. Oggi io *(essere)* __(1)__ un ultra trailer dal 2006. In quel periodo, ogni giorno io *(prepararsi)* __(2)__. Fu nel 2006 che io *(ricevere)* __(3)__ l’invito. Fu lì che io *(ritirarsi)* __(4)__. Fino a oggi la voglia *(accompagnarmi)* __(5)__ sempre.\n\n**Renzo, e tu?**\n\nR. Oggi io *(correre)* __(6)__ con Carlo. Fu tre anni fa che Carlo *(dirmi)* __(7)__: «Vieni in montagna?». Da allora fino a oggi io *(accettare)* __(8)__ tutto.\n\n**Carlo, perché?**\n\nC. A quei tempi io non *(sapere)* __(9)__. Fu allora che io *(provare)* __(10)__.\n\n**Renzo, come reagivi?**\n\nR. Carlo ogni tanto *(uscirsene)* __(11)__. Io *(dirgli)* __(12)__ sempre sì. In futuro Carlo *(propormi)* __(13)__ un’altra corsa e io *(dirgli)* __(14)__ sì; se fosse difficile, io *(fare)* __(15)__ i conti.\n\n**Carlo e Renzo, come atleti?**\n\nC. Oggi io *(descriversi)* __(16)__ rilassato, tenace, prudente.\n\nR. Oggi io *(scegliere)* __(17)__ tre aggettivi: aggressivo, reattivo, calmo.\n\n**Carlo e Renzo, come papà?**\n\nC. Tra poco io *(usare)* __(18)__ tre aggettivi: giocoso, affettuoso, attento; se domani rispondessi, io *(scegliere)* __(19)__ quelli.\n\nR. Ultragiocoso, severo, sincero.\n\n**Carlo e Renzo, oggi voi *(avere)* __(20)__ due figli?**\n\nC. Pietro e Nora.\n\nR. Matilde ed Emma.",
+    "T5_TITLE": "LE CORSE DEGLI ULTRAPAPÀ"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1, S2.6, S2.16, S2.17, S2.20:** «Oggi» e i soggetti espliciti «io/voi» impongono presente e persona.（现在时与人称）\n- **S2.2, S2.9, S2.11, S2.12:** «ogni giorno», «a quei tempi», «ogni tanto» e «sempre» presentano sfondo o abitudini: imperfetto.（过去背景与习惯）\n- **S2.3, S2.4, S2.7, S2.10:** la costruzione stampata «Fu … che» impone il passato remoto per l’evento isolato.（强调句锁定远过去时）\n- **S2.5, S2.8:** «fino a oggi» e «da allora» collegano il passato al presente e impongono il passato prossimo.（时间延续至今）\n- **S2.13, S2.14, S2.18:** «In futuro» vale per le due azioni coordinate, mentre «tra poco» impone il futuro della risposta di Carlo.（将来时标记）\n- **S2.15, S2.19:** «se … fosse/rispondessi» introduce un’ipotesi e richiede il condizionale presente nella conseguenza.（假设结果）",
+    "ANS_S2_ROWS": "| S2.1 | sono | presente | S2.11 | se ne usciva | imperfetto |\n| S2.2 | mi preparavo | imperfetto | S2.12 | gli dicevo | imperfetto |\n| S2.3 | ricevetti | passato remoto | S2.13 | mi proporrà | futuro semplice |\n| S2.4 | mi ritirai | passato remoto | S2.14 | gli dirò | futuro semplice |\n| S2.5 | mi ha accompagnato | passato prossimo | S2.15 | farei | condizionale presente |\n| S2.6 | corro | presente | S2.16 | mi descrivo | presente |\n| S2.7 | mi disse | passato remoto | S2.17 | scelgo | presente |\n| S2.8 | ho accettato | passato prossimo | S2.18 | userò | futuro semplice |\n| S2.9 | sapevo | imperfetto | S2.19 | sceglierei | condizionale presente |\n| S2.10 | provai | passato remoto | S2.20 | avete | presente |"
+  },
+  "key": {
+    "S2.1": "sono",
+    "S2.2": "mi preparavo",
+    "S2.3": "ricevetti",
+    "S2.4": "mi ritirai",
+    "S2.5": "mi ha accompagnato",
+    "S2.6": "corro",
+    "S2.7": "mi disse",
+    "S2.8": "ho accettato",
+    "S2.9": "sapevo",
+    "S2.10": "provai",
+    "S2.11": "se ne usciva",
+    "S2.12": "gli dicevo",
+    "S2.13": "mi proporrà",
+    "S2.14": "gli dirò",
+    "S2.15": "farei",
+    "S2.16": "mi descrivo",
+    "S2.17": "scelgo",
+    "S2.18": "userò",
+    "S2.19": "sceglierei",
+    "S2.20": "avete"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ultra trailer",
+      "categoria": "locuzione nominale",
+      "zh": "越野超长跑运动员",
+      "en": "ultra-trail runner",
+      "esempio": "Oggi io *(essere)* __(1)__ un ultra trailer dal 2006."
+    },
+    {
+      "parola": "distrutto",
+      "categoria": "aggettivo",
+      "zh": "筋疲力尽的",
+      "en": "exhausted",
+      "esempio": "Fu lì che io *(ritirarsi)* __(4)__, distrutto."
+    },
+    {
+      "parola": "tenace",
+      "categoria": "aggettivo",
+      "zh": "坚韧的",
+      "en": "tenacious",
+      "esempio": "Oggi io *(descriversi)* __(16)__ rilassato, tenace, prudente."
+    },
+    {
+      "parola": "reattivo",
+      "categoria": "aggettivo",
+      "zh": "反应敏捷的",
+      "en": "responsive",
+      "esempio": "Oggi io *(scegliere)* __(17)__ aggressivo, reattivo, calmo."
+    },
+    {
+      "parola": "ultragiocoso",
+      "categoria": "aggettivo",
+      "zh": "超级爱玩闹的",
+      "en": "super-playful",
+      "esempio": "Io direi ultragiocoso, severo, sincero."
+    }
+  ]
+}

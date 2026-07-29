@@ -1,0 +1,26 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; assume nothing not in the files below.
+
+Read first: `.claude/agents/item-writer.md` (§Rules 3-4 + §Stage S4), `factory/exams/cils/templates/B1.md` (the S2 block + its HTML comments — intervista format, domande in grassetto), `factory/validation/checklist.md` §A.
+
+Current fragment to repair: `papers/2026-07-29/B1/fragments/S2.json` (cloze_verbi — 20 gaps, T5 = intervista doppia «Le Corse degli UltraPapà»).
+Your source text: the '## Slot T5' section of `papers/2026-07-29/B1/sources.md`.
+
+Defects from blind validation (3 mismatches + 5 ambiguity flags):
+- S2.16 MISMATCH: key «si descrive», solver «mi descrivo» — PERSON not forced.
+- S2.17 MISMATCH: key «sceglie», solver «scelgo» — PERSON not forced.
+- S2.18 MISMATCH: key «userò», solver «sarò» — the LEXICAL verb is not pinned (the gap does not print which verb to use, or the printed infinitive allows another reading).
+- S2.3 FLAG: "«ho ricevuto» and narrative «ricevetti» both possible."
+- S2.4 FLAG: "«mi sono ritirato» and «mi ritirai» both possible."
+- S2.7 FLAG: "«mi ha detto» and «mi disse» both fit."
+- S2.8 FLAG: "«ho accettato» and «accettai» both fit."
+- S2.10 FLAG: "«ho provato» and «provai» both possible."
+
+Two defect classes — fix BOTH across all 20 gaps:
+1. **Passato prossimo vs passato remoto competition.** In an interview every isolated past event admits both. Print «In questi anni», «Finora», «fino a oggi», «da allora», «quest'anno», «il mese scorso» beside each such gap — markers that block the passato remoto (rule 3 / checklist §A.10). Passato remoto is allowed ONLY with an unmistakable printed cleft cue («Fu … che»).
+2. **Person/number not forced.** This is a DOUBLE interview: two interviewees answer, so a bare verb can be 1st or 3rd person. Print the explicit subject (io / lui / Carlo / Renzo) immediately beside every gap, and make sure the question in grassetto establishes who is speaking. Also verify each gap prints the infinitive of the verb it wants, so the lexical verb is never in doubt.
+
+Auxiliary AND reflexive clitic go INSIDE the gap. No essere-auxiliary passato prossimo with an unspecified-gender subject.
+
+Keep exactly 20 gaps and identical points/consegna. Text stays authentic — you may add explicit subjects and time markers and trim, but never invent events.
+Rewrite `papers/2026-07-29/B1/fragments/S2.json` IN FULL, same schema (prova, slots, answer_slots, key, glossario_candidates). Update the spiegazioni in answer_slots to match your new items. Touch no other file (never `manifest.yaml`).
+Reply (short, no fragment content): which items you changed and how; final text word count.

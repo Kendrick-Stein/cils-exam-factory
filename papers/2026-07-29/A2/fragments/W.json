@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Racconta la prima volta che hai preparato un pasto per altre persone. Scrivi che cosa hai cucinato, chi era con te, che cosa è successo e come ti sei sentito.",
+    "W2_PROMPT": "Scrivi un messaggio a un vicino per chiedergli di dare da mangiare al tuo gatto durante il fine settimana. Indica quando deve andare, dove sono le chiavi e proponi un momento per spiegargli tutto."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho preparato per la prima volta una cena per la mia famiglia. Ho cucinato la pasta al pomodoro e una torta semplice. Mia sorella mi ha aiutato a mettere la tavola. All'inizio ero un po' nervoso, ma tutti hanno mangiato volentieri. Alla fine ero stanco, però molto contento del risultato.",
+    "MODEL_W1_PHRASES": "**Per la prima volta ho…**（我第一次……）；**Ho preparato…**（我准备了……）；**All'inizio ero…**（一开始我觉得……）；**Alla fine ero…**（最后我觉得……）",
+    "MODEL_W2": "Ciao Paolo, questo fine settimana sarò fuori città. Puoi dare da mangiare al mio gatto sabato e domenica mattina? Le chiavi sono da mia sorella. Se puoi aiutarmi, stasera ti spiego tutto. Grazie! Sara",
+    "MODEL_W2_PHRASES": "**Puoi aiutarmi a…?**（你能帮我……吗？）；**Questo fine settimana…**（这个周末……）；**Le chiavi sono…**（钥匙在……）；**Ti spiego tutto.**（我把一切告诉你）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

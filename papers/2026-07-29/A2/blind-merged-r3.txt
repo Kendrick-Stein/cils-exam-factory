@@ -1,0 +1,56 @@
+ANSWERS
+{
+  "L1.1": "A",
+  "L1.2": "B",
+  "L1.3": "C",
+  "L1.4": "A",
+  "L2.1": "Vero",
+  "L2.2": "Vero",
+  "L2.3": "Falso",
+  "L2.4": "Falso",
+  "L2.5": "Vero",
+  "L2.6": "Vero",
+  "L2.7": "Falso",
+  "L2.8": "Falso",
+  "S2.1": "so",
+  "S2.2": "ho raccontato",
+  "S2.3": "ero",
+  "S2.4": "abitavo",
+  "S2.5": "assicuro",
+  "S2.6": "sono stati",
+  "S2.7": "produceva",
+  "S2.8": "consumavamo",
+  "S2.9": "preparava",
+  "S2.10": "piaceva",
+  "L3.1": "C",
+  "L3.2": "A",
+  "L3.3": "E",
+  "L3.4": "F",
+  "L3.5": "D",
+  "L3.6": "B",
+  "S1.1": "gli",
+  "S1.2": "di",
+  "S1.3": "l'",
+  "S1.4": "le",
+  "S1.5": "il",
+  "S1.6": "i",
+  "S1.7": "di",
+  "S1.8": "con",
+  "S1.9": "le",
+  "S1.10": "le",
+  "S3.1": "collaborazione",
+  "S3.2": "anima",
+  "S3.3": "appuntamenti",
+  "S3.4": "strada",
+  "S3.5": "gastronomici",
+  "S3.6": "somministrazione",
+  "S3.7": "cornice",
+  "S3.8": "possibile"
+}
+FLAGS
+[
+  {
+    "item": "L3.6",
+    "reason": "B è l'unico abbinamento plausibile, ma dice «in diverse piazze», mentre il testo indica soltanto piazza della Libertà."
+  }
+]

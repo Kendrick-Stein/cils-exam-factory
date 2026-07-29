@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Buongiorno, ieri il corriere non ha trovato nessuno in casa. Il pacco è ora disponibile al punto di ritiro di via Verdi fino a venerdì. Per ritirarlo, porti questo codice e un documento.»**  \nA) È la conferma che un pacco è stato consegnato a domicilio.  \nB) È l'avviso di una consegna non riuscita con le istruzioni per il ritiro.  \nC) È la richiesta di cambiare l'indirizzo indicato su un pacco.  \nD) È la comunicazione che un ordine è stato restituito al venditore.\n\n**2. «Ciao Marta, per la cena di domani ho prenotato un tavolo all'aperto. Le previsioni però annunciano pioggia. Puoi chiamare il ristorante e chiedere se hanno un tavolo libero dentro? Io sono ancora al lavoro.»**  \nA) È l'invito a cancellare una cena per il cattivo tempo.  \nB) È la conferma che il ristorante ha già cambiato il tavolo.  \nC) È il consiglio di cenare a casa invece che al ristorante.  \nD) È la richiesta di verificare una sistemazione al coperto.\n\n**3. «A causa di lavori urgenti, mercoledì dalle 9 alle 12 sarà sospesa l'acqua negli edifici di piazza Roma. Consigliamo ai residenti di preparare una piccola scorta. Il servizio tornerà regolare entro mezzogiorno.»**  \nA) È l'avviso di un'interruzione temporanea dell'acqua.  \nB) È l'invito a segnalare una perdita d'acqua al Comune.  \nC) È la richiesta di pagare una bolletta entro mezzogiorno.  \nD) È l'annuncio di lavori che chiuderanno piazza Roma al traffico.\n\n**4. «Grazie per avermi invitato alla tua festa di sabato, ma quel giorno devo accompagnare mia madre a una visita e non potrò venire. Mi farebbe piacere vederti domenica pomeriggio, se sei libero.»**  \nA) È la richiesta di spostare una visita medica a domenica.  \nB) È la conferma della partecipazione a una festa di sabato.  \nC) È il rifiuto di un invito con la proposta di incontrarsi un altro giorno.  \nD) È il consiglio di organizzare una festa per la propria madre.\n\n**5. «Nello spogliatoio della piscina abbiamo trovato un paio di occhiali da vista con la custodia rossa. Il proprietario può rivolgersi alla reception entro trenta giorni e indicare il giorno in cui li ha persi.»**  \nA) È l'offerta di occhiali da nuoto in vendita alla reception.  \nB) È la richiesta di lasciare gli oggetti personali nello spogliatoio.  \nC) È l'avviso che la piscina cambierà gli orari per trenta giorni.  \nD) È la ricerca del proprietario di un oggetto ritrovato.\n\n**6. «Le ricordiamo che la visita con la dottoressa Riva è fissata per lunedì alle 15. Se non può presentarsi, telefoni entro venerdì: potremo assegnare l'orario a un altro paziente e concordare una nuova data.»**  \nA) È l'annuncio che una dottoressa sarà assente lunedì.  \nB) È il promemoria di un appuntamento con l'invito a comunicare un'eventuale assenza.  \nC) È la richiesta di arrivare alla visita entro venerdì.  \nD) È la conferma che un appuntamento è già stato spostato.\n\n**7. «Abbiamo ricevuto la sua segnalazione sulla lampada difettosa. Il modello acquistato non è più disponibile, ma può scegliere senza costi un'altra lampada dello stesso prezzo. La aspettiamo in negozio con lo scontrino.»**  \nA) È il rifiuto di esaminare un difetto segnalato da un cliente.  \nB) È la richiesta di pagare la differenza per una lampada più costosa.  \nC) È l'offerta di sostituire un prodotto difettoso con un altro equivalente.  \nD) È l'annuncio dell'arrivo in negozio dello stesso modello di lampada.\n\n**8. «Per lo spettacolo delle 20 restano soltanto posti in piedi. I biglietti già acquistati per i posti a sedere rimangono validi e non cambiano. Questa informazione riguarda esclusivamente i nuovi acquisti.»**  \nA) È l'avviso che per i nuovi acquisti sono disponibili soltanto posti in piedi.  \nB) È la comunicazione che tutti i biglietti saranno trasformati in posti in piedi.  \nC) È l'annuncio che lo spettacolo delle 20 è stato rinviato.  \nD) È la richiesta di cambiare i biglietti acquistati in precedenza.\n\n**9. «Gentile signora Bassi, abbiamo letto la sua domanda di lavoro e vorremmo incontrarla martedì alle 10 per un colloquio. Risponda a questa e-mail entro domani per confermare la sua presenza o chiedere un altro orario.»**  \nA) È la conferma che una candidata ha ottenuto il posto di lavoro.  \nB) È il rifiuto di una domanda di lavoro con una breve spiegazione.  \nC) È l'invito a un colloquio con la richiesta di confermare l'orario.  \nD) È la richiesta di inviare nuovamente una domanda di lavoro.\n\n**10. «Buonasera, domani mattina sosterrò un esame online dalle 9 alle 11. Potreste evitare di usare il trapano in quelle due ore? Dopo le 11 non ci sono problemi. Grazie per la comprensione.»**  \nA) È l'annuncio di lavori domestici che inizieranno dopo le 11.  \nB) È l'invito ai vicini a partecipare a un esame online.  \nC) È la protesta per un rumore avvenuto la mattina precedente.  \nD) È la richiesta di non fare rumore durante un intervallo preciso."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «il corriere non ha trovato nessuno» e il pacco è «disponibile al punto di ritiro»: la consegna non è riuscita e vengono date istruzioni; 中文：投递失败后通知自取。 |\n| S4.2 | D | Marta deve «chiamare il ristorante» per sapere se esiste «un tavolo libero dentro»; 中文：请求确认室内座位。 |\n| S4.3 | A | «sarà sospesa l'acqua» solo «dalle 9 alle 12» indica un'interruzione temporanea; 中文：临时停水通知。 |\n| S4.4 | C | «non potrò venire» rifiuta la festa, mentre «vederti domenica» propone un'alternativa; 中文：婉拒邀请并另约时间。 |\n| S4.5 | D | «abbiamo trovato» gli occhiali e si invita «il proprietario» a rivolgersi alla reception; 中文：寻找失物主人。 |\n| S4.6 | B | «La visita ... è fissata per lunedì» ricorda l'appuntamento e chiede di telefonare in caso di assenza; 中文：提醒预约并要求提前取消。 |\n| S4.7 | C | Poiché il modello non è disponibile, il cliente «può scegliere senza costi un'altra lampada dello stesso prezzo»; 中文：免费更换等价商品。 |\n| S4.8 | A | I posti in piedi riguardano «esclusivamente i nuovi acquisti», mentre i biglietti già comprati non cambiano; 中文：仅新购票者可买站票。 |\n| S4.9 | C | «vorremmo incontrarla ... per un colloquio» e «confermare la sua presenza» esprimono invito e richiesta di conferma; 中文：邀请面试并确认时间。 |\n| S4.10 | D | Si chiede di «evitare di usare il trapano» soltanto «dalle 9 alle 11» durante l'esame; 中文：请求在考试时段保持安静。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "D",
+    "S4.3": "A",
+    "S4.4": "C",
+    "S4.5": "D",
+    "S4.6": "B",
+    "S4.7": "C",
+    "S4.8": "A",
+    "S4.9": "C",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "punto di ritiro",
+      "categoria": "locuzione nominale",
+      "zh": "自提点",
+      "en": "collection point",
+      "esempio": "Il pacco è ora disponibile al punto di ritiro di via Verdi"
+    },
+    {
+      "parola": "preparare una piccola scorta",
+      "categoria": "locuzione verbale",
+      "zh": "准备少量储备",
+      "en": "prepare a small supply",
+      "esempio": "Consigliamo ai residenti di preparare una piccola scorta"
+    },
+    {
+      "parola": "concordare una nuova data",
+      "categoria": "locuzione verbale",
+      "zh": "商定新日期",
+      "en": "arrange a new date",
+      "esempio": "concordare una nuova data"
+    },
+    {
+      "parola": "scontrino",
+      "categoria": "nome maschile",
+      "zh": "购物小票",
+      "en": "receipt",
+      "esempio": "La aspettiamo in negozio con lo scontrino"
+    },
+    {
+      "parola": "posti in piedi",
+      "categoria": "locuzione nominale",
+      "zh": "站票",
+      "en": "standing places",
+      "esempio": "restano soltanto posti in piedi"
+    }
+  ]
+}

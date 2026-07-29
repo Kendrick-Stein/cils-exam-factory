@@ -1,0 +1,32 @@
+ANSWERS
+```json
+{
+  "L3.1": {"answer": "C", "confidence": "hi"},
+  "L3.2": {"answer": "A", "confidence": "hi"},
+  "L3.3": {"answer": "E", "confidence": "hi"},
+  "L3.4": {"answer": "F", "confidence": "hi"},
+  "L3.5": {"answer": "D", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_present",
+  "checks": []
+}
+```

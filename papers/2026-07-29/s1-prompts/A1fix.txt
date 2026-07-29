@@ -1,0 +1,20 @@
+You are **corpus-hunter** for the CILS Exam Factory. Work in `/Users/kendrickstein/Code/CILS_Exam_AUTOGEN` (do NOT commit).
+
+`papers/2026-07-29/A1/sources.md` already exists and is correct for slots T1–T5. ONE slot is broken:
+**Slot T6** was pinned to a pool file whose body is only 67 words, below the 70–100 band.
+
+Fix: re-pin **T6** to `factory/corpus/pool/2748ae5bd5ce.md` (body = 76 words — "URP - Avviso
+al pubblico"). Read that pool file, strip the YAML front-matter, and use its body as the
+T6 text (76 words is inside the 70–100 band, so use it whole — do not cut, do not rewrite,
+do not invent). Take url/title/publisher/published from its front-matter; `accessed: 2026-07-29`.
+
+Slot T6 feeds: Analisi delle strutture, Prova n. 3 (cloze a scelta multipla, lessico di base,
+8 item). Genere: breve testo informativo.
+
+Edit `papers/2026-07-29/A1/sources.md` IN PLACE:
+1. Replace the whole `## Slot T6 …` section with a correct one in the same format the other
+   sections use (url / title / publisher / published / accessed / words_used / CEFR verdict
+   with 2–3 evidence bullets and numbers per `factory/corpus/cefr-criteria.md` §4 /
+   Adaptation plan), followed by the text.
+2. Update the `## Coverage` line for T6 to `Slot T6: OK (76 words, <url>)`.
+Change nothing else in the file. Reply with the Coverage block only.

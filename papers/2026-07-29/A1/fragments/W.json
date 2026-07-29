@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua mattina: scrivi a che ora ti alzi, che cosa mangi, come vai al lavoro o a scuola e che cosa fai prima di uscire.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una piscina. Chiedi gli orari e il prezzo di un ingresso."
+  },
+  "answer_slots": {
+    "MODEL_W1": "La mattina mi alzo alle sette e faccio colazione con latte e pane. Poi mi lavo, preparo la borsa e vado a scuola in autobus.",
+    "MODEL_W1_PHRASES": "«La mattina…»（早上……） · «Mi alzo alle…»（我……点起床） · «Faccio colazione con…»（我早餐吃……） · «Vado a… in…»（我乘……去……）",
+    "MODEL_W2": "Buongiorno, vorrei venire in piscina sabato. Quali sono gli orari? Quanto costa un ingresso? Grazie. Mei",
+    "MODEL_W2_PHRASES": "«Buongiorno»（您好） · «Vorrei venire…»（我想来……） · «Quali sono gli orari?»（开放时间是什么？） · «Quanto costa…?»（……多少钱？） · «Grazie»（谢谢）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

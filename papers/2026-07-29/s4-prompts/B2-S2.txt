@@ -1,0 +1,20 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; assume nothing not in the files below.
+
+Read first: `.claude/agents/item-writer.md` (§Rules 3-4 + §Stage S4), `factory/exams/cils/templates/B2.md` (the S2 block + its HTML comments), `factory/validation/checklist.md` §A.
+
+Current fragment to repair: `papers/2026-07-29/B2/fragments/S2.json` (cloze_verbi — 20 gaps, T5 = intervista ANSA a Raffaella Griggi).
+Your source text: the '## Slot T5' section of `papers/2026-07-29/B2/sources.md`.
+
+Defect from blind validation (1 ambiguity flag; answers otherwise 87/87):
+- S2.4 FLAG: "After «credo che», standard formal Italian favors «aiutino», but indicative «aiutano» is also possible in contemporary usage."
+
+Fix: a gap governed by «credo che» is a free-variant gap in real usage — exactly the class checklist §A.12 forbids. Re-cut item 4 so the mood is forced beyond argument. Options (pick one):
+- move the gap out of the «credo che» clause onto a verb whose tense/mood is pinned by a printed time marker; or
+- replace the governing expression with one that admits ONLY the congiuntivo in both formal and colloquial Italian (e.g. «benché», «sebbene», «prima che», «a patto che», «nonostante») — keeping the sentence authentic to the interview; or
+- restructure so the verb is an infinitive after «credo di».
+
+Then rescan ALL 20 gaps for the same class: any gap after a verb of opinion/belief («penso che», «credo che», «mi sembra che», «suppongo che») where the indicative is defensible in contemporary usage must be re-cut the same way. Also re-check rule 4: no è/viene passive free variants, no infinito passato «aver/avere» choice, no bare-vs-articulated preposition inside a verb gap.
+
+Keep exactly 20 gaps and identical points/consegna. Text stays authentic (trim, add explicit markers; never invent facts).
+Rewrite `papers/2026-07-29/B2/fragments/S2.json` IN FULL, same schema (prova, slots, answer_slots, key, glossario_candidates). Update the spiegazioni in answer_slots to match your new items. Touch no other file (never `manifest.yaml`).
+Reply (short, no fragment content): which items you changed and how; final text word count.

@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Il gruppo di ricerca ha sviluppato una tecnica innovativa per studiare il comportamento della materia quantistica che sfrutta un fenomeno comune, l'effetto Doppler, per __(1)__ la sirena di un'ambulanza viene percepita più acuta non __(2)__ si avvicina e più grave dopo __(3)__ comincia ad allontanarsi. Allo __(4)__ modo, il suono che si propaga in un superfluido in rotazione cambia a seconda __(5)__ si muova nella stessa direzione od opposta rispetto __(6)__ superfluido: grazie __(7)__ queste minuscole variazioni il team è riuscito a svelare la struttura interna nei gas di Fermi superfluidi, sistemi costituiti da atomi raffreddati a temperature prossime allo zero assoluto. È in tali condizioni __(8)__ le particelle di Fermi si accoppiano __(9)__ origine alla superfluidità, uno stato della materia in __(10)__ scompare l'attrito.\n\nIn seguito __(11)__ misurazione di questo effetto con estrema precisione, i ricercatori hanno ottenuto la dimostrazione del fatto __(12)__ la circolazione del superfluido nell'anello non può assumere valori arbitrari; al __(13)__, può assumere solo valori quantizzati (vale __(14)__ discreti), determinati dal rapporto __(15)__ la costante di Planck __(16)__ la massa delle particelle. È __(17)__ questo caso che tali valori risultano dimezzati rispetto __(18)__ quelli previsti per particelle singole. La nostra osservazione dimostra che il superfluido è costituito da fermioni che si accoppiano due a due, formando unità quantistiche composite di massa doppia, le cosiddette coppie di Cooper, analogamente a __(19)__ che avviene nei superconduttori. Il risultato conferma che la formazione di coppie di fermioni dà origine alla superfluidità non solo nei superconduttori, __(20)__ in questi sistemi gassosi ultrafreddi.",
+    "T4_TITLE": "La materia quantistica suona come una sirena, __ovvero (0)__ cambia tono con il movimento"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1–S1.3 — cui / appena / che:** completano «per cui», «non appena» e «dopo che»; le parti già stampate escludono connettivi concorrenti. 中文：固定连接结构。\n- **S1.4–S1.5 — stesso / che:** completano «allo stesso modo» e «a seconda che»; il congiuntivo «si muova» conferma il secondo. 中文：比较与选择关系。\n- **S1.8–S1.10 — che / dando / cui:** la frase scissa «È in tali condizioni che» mette a fuoco la causa; seguono «dando origine» e «in cui». 中文：强调、结果与关系衔接。\n- **S1.11–S1.14 — alla / che / contrario / a dire:** formano rispettivamente «in seguito alla», «del fatto che», «al contrario» e «vale a dire». 中文：时间、补充、对比与释义。\n- **S1.15–S1.20 — tra / e / in / a / ciò / ma anche:** le coppie «tra X e Y», «rispetto a», «analogamente a ciò che» e «non solo... ma anche» rendono visibili i legami. 中文：配对、比较和递进结构。",
+    "ANS_S1_ROWS": "| S1.1 | cui | S1.11 | alla |\n| S1.2 | appena | S1.12 | che |\n| S1.3 | che | S1.13 | contrario |\n| S1.4 | stesso | S1.14 | a dire |\n| S1.5 | che | S1.15 | tra |\n| S1.6 | al | S1.16 | e |\n| S1.7 | a | S1.17 | in |\n| S1.8 | che | S1.18 | a |\n| S1.9 | dando | S1.19 | ciò |\n| S1.10 | cui | S1.20 | ma anche |"
+  },
+  "key": {
+    "S1.1": "cui",
+    "S1.2": "appena",
+    "S1.3": "che",
+    "S1.4": "stesso",
+    "S1.5": "che",
+    "S1.6": "al",
+    "S1.7": "a",
+    "S1.8": "che",
+    "S1.9": "dando",
+    "S1.10": "cui",
+    "S1.11": "alla",
+    "S1.12": "che",
+    "S1.13": "contrario",
+    "S1.14": "a dire",
+    "S1.15": "tra",
+    "S1.16": "e",
+    "S1.17": "in",
+    "S1.18": "a",
+    "S1.19": "ciò",
+    "S1.20": "ma anche"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "gas di Fermi superfluidi",
+      "categoria": "locuzione nominale",
+      "zh": "费米超流气体",
+      "en": "superfluid Fermi gases",
+      "esempio": "la struttura interna nei gas di Fermi superfluidi"
+    },
+    {
+      "parola": "zero assoluto",
+      "categoria": "locuzione nominale",
+      "zh": "绝对零度",
+      "en": "absolute zero",
+      "esempio": "temperature prossime allo zero assoluto"
+    },
+    {
+      "parola": "valori quantizzati",
+      "categoria": "locuzione nominale",
+      "zh": "量子化数值",
+      "en": "quantized values",
+      "esempio": "può assumere solo valori quantizzati"
+    },
+    {
+      "parola": "unità quantistiche composite",
+      "categoria": "locuzione nominale",
+      "zh": "复合量子单元",
+      "en": "composite quantum units",
+      "esempio": "formando unità quantistiche composite di massa doppia"
+    },
+    {
+      "parola": "coppie di Cooper",
+      "categoria": "locuzione nominale",
+      "zh": "库珀对",
+      "en": "Cooper pairs",
+      "esempio": "le cosiddette coppie di Cooper"
+    }
+  ]
+}

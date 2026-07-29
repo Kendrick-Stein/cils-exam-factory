@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ Biblioteca comunale di Trento applica __(1)__ orario estivo dal 10 giugno 2026. In via Roma, __(2)__ piano terra e __(3)__ primo piano sono aperti lunedì-venerdì 8:30-19:30 e, durante __(4)__ giornata di sabato, 8:30-12:30. __(5)__ Sala Trentina è aperta __(6)__ mattina 8:30-12:30 e __(7)__ pomeriggio 14:00-18:30. __(8)__ sedi periferiche osservano orari diversi. Consulta __(9)__ orario. __(10)__ informazioni sono su bibcom.trento.it.",
+    "T4_TITLE": "L'ORARIO ESTIVO DELLA BIBLIOTECA"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "*Nota:* ogni articolo è determinato dal genere, dal numero e dal suono iniziale del nome. 中文提示：注意 *l'orario*, *il primo piano* e *le sedi*。",
+    "ANS_S1_ROWS": "| 1 | l' | 6 | la |\n| 2 | il | 7 | il |\n| 3 | il | 8 | le |\n| 4 | la | 9 | l' |\n| 5 | la | 10 | le |"
+  },
+  "key": {
+    "S1.1": "l'",
+    "S1.2": "il",
+    "S1.3": "il",
+    "S1.4": "la",
+    "S1.5": "la",
+    "S1.6": "la",
+    "S1.7": "il",
+    "S1.8": "le",
+    "S1.9": "l'",
+    "S1.10": "le"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "orario estivo",
+      "categoria": "espressione",
+      "zh": "夏季开放时间",
+      "en": "summer opening hours",
+      "esempio": "orario estivo dal 10 giugno 2026"
+    },
+    {
+      "parola": "via Roma",
+      "categoria": "espressione",
+      "zh": "罗马街",
+      "en": "Via Roma",
+      "esempio": "In via Roma"
+    },
+    {
+      "parola": "piano terra",
+      "categoria": "espressione",
+      "zh": "底层",
+      "en": "ground floor",
+      "esempio": "piano terra"
+    },
+    {
+      "parola": "sedi periferiche",
+      "categoria": "espressione",
+      "zh": "分馆",
+      "en": "outlying branches",
+      "esempio": "sedi periferiche"
+    },
+    {
+      "parola": "orari diversi",
+      "categoria": "espressione",
+      "zh": "不同的开放时间",
+      "en": "different opening hours",
+      "esempio": "osservano orari diversi"
+    }
+  ]
+}

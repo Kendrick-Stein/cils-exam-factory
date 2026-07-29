@@ -1,0 +1,23 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; assume nothing not in the files below.
+
+Read first: `.claude/agents/item-writer.md` (§Rules 3-4 + §Stage S4), `factory/exams/cils/templates/C1.md` (the S2 block + its HTML comments), `factory/validation/checklist.md` §A.
+
+Current fragment to repair: `papers/2026-07-29/C1/fragments/S2.json` (cloze_verbi — 20 gaps, T5 = reportage ANSA sul concerto di Patti Smith al Circo Massimo).
+Your source text: the '## Slot T5' section of `papers/2026-07-29/C1/sources.md`.
+
+Defects from blind validation (2 mismatches):
+- S2.12 MISMATCH: key «aveva già sognato», solver answered «aveva sognato».
+  Printed context: «Fu nel 1975 che *(scrivere)* __(11)__ Break It Up; a quella data l'artista *(sognare)* __(12)__ Jim Morrison.»
+  The adverb «già» is NOT printed anywhere, so the solver cannot know to insert it. Either print «già» outside the gap (and key the form without it), or keep it inside the gap but print a cue that makes it obligatory. Do not require an unprompted adverb.
+- S2.13 MISMATCH: key «fosse», solver answered «essere».
+  Printed context: «Nel sogno, Morrison appariva quasi *(essere)* __(13)__ una statua cui era incatenato».
+  «quasi» alone licenses both the literary congiuntivo and an infinitive reading of «apparire». Print «come se» (which forces the congiuntivo imperfetto) or restructure the clause so only one form is grammatical.
+
+Rescan ALL 20 gaps for these classes:
+- **Unprompted material inside the key**: the key must contain nothing the candidate cannot infer from what is printed (no invisible adverbs, no optional clitics).
+- **Free-variant gaps** (rule 4 / checklist §A.12): check item 8 «Fu dopo le parole di Smith che il pezzo *(eseguire)* __(8)__» — a passive gap where «fu eseguito», «venne eseguito» and «si eseguì» compete; re-cut it or key every genuinely correct variant with `||`. Same check for items 7 and 16 (participio/passive) and any «essere/venire» alternation.
+- Every past gap must have its tense pinned by a printed marker; keep the «Fu … che» clefts that legitimately force the passato remoto.
+
+Keep exactly 20 gaps and identical points/consegna. Text stays authentic (trim, add printed markers; never invent facts).
+Rewrite `papers/2026-07-29/C1/fragments/S2.json` IN FULL, same schema (prova, slots, answer_slots, key, glossario_candidates). Update the spiegazioni in answer_slots to match your new items. Touch no other file (never `manifest.yaml`).
+Reply (short, no fragment content): which items you changed and how; final text word count.

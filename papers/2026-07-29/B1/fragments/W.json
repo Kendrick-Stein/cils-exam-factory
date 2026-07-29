@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un'attività di volontariato alla quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Domenica il tuo quartiere organizza uno scambio di libri. Vuoi chiedere aiuto a un amico o un'amica. Scrivigli o scrivile un'email.",
+    "W2_REQ_1": "spiegare perché scrivi e descrivere brevemente l'iniziativa;",
+    "W2_REQ_2": "chiedere aiuto, indicando il luogo, l'ora e l'attività da svolgere;",
+    "W2_REQ_3": "dire che cosa portare e chiedere una conferma entro un giorno preciso."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho partecipato a una giornata di volontariato nell'orto condiviso del mio quartiere. Sono arrivato alle nove con mia cugina, anche se nessuno di noi aveva esperienza. Una volontaria ci ha mostrato come togliere le erbacce senza danneggiare le piante e poi abbiamo sistemato cassette di pomodori. A metà mattina ha iniziato a piovere, quindi ci siamo rifugiati in una serra. Lì abbiamo bevuto un tè e conosciuto persone di età diverse. Quando il cielo si è schiarito, siamo tornati al lavoro e abbiamo piantato delle erbe aromatiche. Alla fine ero stanco, ma soddisfatto. Questa esperienza mi ha fatto capire che, con poche ore e un po' di impegno, si può rendere più bello un luogo usato da tutti.",
+    "MODEL_W1_PHRASES": "«Sabato scorso ho partecipato a…»（上周六我参加了……）; «Anche se nessuno di noi…»（尽管我们谁都不……）; «A metà mattina…»（上午过半时……）; «Quando il cielo si è schiarito…»（天气转晴时……）; «Questa esperienza mi ha fatto capire che…»（这次经历让我明白……）",
+    "MODEL_W2": "Ciao Luca,\n\ndomenica il quartiere organizza uno scambio di libri e vorrei preparare il tavolo insieme a te. Ci vediamo alle nove davanti alla biblioteca? Avrei bisogno del tuo aiuto per sistemare i volumi e scrivere i cartelli. Se puoi, porta alcuni libri che non leggi più e una scatola vuota. Confermami entro venerdì, così avviso gli organizzatori.\n\nA presto,\nMarco",
+    "MODEL_W2_PHRASES": "«Vorrei preparare… insieme a te»（我想和你一起准备……）; «Ci vediamo alle…?»（我们……点见面好吗？）; «Avrei bisogno del tuo aiuto per…»（我需要你的帮助来……）; «Se puoi, porta…»（如果可以，请带……）; «Confermami entro…»（请在……之前向我确认）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

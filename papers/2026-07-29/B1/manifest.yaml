@@ -1,0 +1,100 @@
+exam: cils
+level: B1
+session: '2026-07-29'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.salepepe.it/luoghi-personaggi/le-persone/intervista-antonino-cannavacciuolo/
+  title: Intervista ad Antonino Cannavacciuolo
+  publisher: Sale&Pepe (di Barbara Roncarolo)
+  published: 29 aprile 2014
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 445
+- id: T2
+  url: https://www.comune.torino.it/servizi/istanza-concessione-spazi-sportivi
+  title: Istanza di concessione spazi sportivi
+  publisher: Città di Torino
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 316
+- id: T3
+  url: https://www.viaggiapiccoli.com/la-bursch-country-house-valle-cervo/
+  title: 'Abbiamo scoperto La Bursh: un rifugio segreto nella Valle Cervo dove tutto
+    trova il suo posto'
+  publisher: Viaggiapiccoli.com
+  published: 9 dicembre 2025
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 276
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/biotech/2026/07/22/cosi-la-pelle-distingue-il-caldo-dal-freddo-_317dcf06-7ea9-4bfa-b506-098a7bcc1cd9.html
+  title: Così la pelle distingue il caldo dal freddo
+  publisher: ANSA
+  published: '2026-07-22'
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 237
+- id: T5
+  url: https://www.mountainblog.it/corse-degli-ultrapapa-intervista-doppia-carlo-dagradi-renzo-zanetti/
+  title: 'Le Corse degli UltraPapá: intervista doppia a Carlo Dagradi e Renzo Zanetti'
+  publisher: MountainBlog
+  published: 12 agosto 2014
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 221
+- id: T6
+  url: https://www.rainews.it/tgr/fvg/articoli/2026/03/trieste-nuovo-centro-di-raccolta-rifiuti-nel-quartiere-di-giarizzole-f99de5d5-e8c9-479c-b097-ba92044bb311.html
+  title: Trieste, nuovo centro di raccolta rifiuti nel quartiere di Giarizzole
+  publisher: RaiNews TGR Friuli Venezia Giulia
+  published: 25 marzo 2026
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 184
+pipeline:
+  generator: /genpapers (codex executors)
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-29'
+    slots: 6
+  - stage: blind_validation
+    at: '2026-07-29T10:19:45+00:00'
+    agreement: 85/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-29T10:24:20+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-29T10:27:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-29T10:27:44+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

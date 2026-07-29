@@ -1,6 +1,6 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 53
+count: 64
 sources:
 - url: https://archibiblio.comune.ferrara.it/589/informazioni-e-orari
   title: Biblioteca Gianni Rodari, Ferrara — orari
@@ -819,3 +819,175 @@ sources:
   perishable_until: null
   fetch_intent: 2026-07-28/overfetch
   source_file: factory/corpus/pool/1f137c569ad9.md
+- url: https://bandi.unibo.it/s/campus-ravenna/bando-per-l-erogazione-di-borse-di-studio-per-periodi-di-ricerca-all-estero-per-la-preparazione-della-tesi-di-laurea-destinato-a-studenti-iscritti-ai-corsi-di-laurea-magistrale-e-a-ciclo-unico-del-dipartimento-di-beni-culturali-dbc-ii-tornata-anno-2026/bando/bando-borse-tesi-estero-dbc_bando-unico_anno-2026.pdf/@@download/file/Bando%20borse%20tesi%20estero%20DBC_bando%20unico_anno%202026.pdf
+  title: Bando per l’erogazione di borse di studio per periodi di ricerca all’estero
+    per la preparazione della tesi di laurea – Dipartimento di Beni Culturali – anno
+    2026
+  publisher: Alma Mater Studiorum – Università di Bologna
+  published: not dated on page
+  fetched: '2026-07-29'
+  genre: practical_realia
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 656
+  perishable: true
+  perishable_until: null
+  fetch_intent: B2/overfetch
+  source_file: factory/corpus/pool/4d412f0d0e92.md
+- url: https://blog.giallozafferano.it/fornoefornelli/ricotta-fatta-in-casa/
+  title: Ricotta fatta in casa
+  publisher: Forno e fornelli
+  published: not dated on page
+  fetched: '2026-07-29'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A2
+  - B1
+  words: 231
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T2
+  source_file: factory/corpus/pool/661857fe01b6.md
+- url: https://blog.giallozafferano.it/naturaecucina/gamberetti-in-padella/
+  title: Gamberetti in padella
+  publisher: Natura e Cucina
+  published: not dated on page
+  fetched: '2026-07-29'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 179
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T6
+  source_file: factory/corpus/pool/30e7086e2579.md
+- url: https://decentramento.comune.torino.it/circoscrizione4/novita/avviso/avviso-pubblico-per-richiesta-spazi-sportivi-palestre-per-stagione-estiva-2026
+  title: Avviso pubblico per richiesta spazi sportivi - palestre per la stagione estiva
+    2026
+  publisher: Circoscrizione 4 / Città di Torino
+  published: 1 marzo 2026
+  fetched: '2026-07-29'
+  genre: practical_realia
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 177
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T2-overfetch
+  source_file: factory/corpus/pool/7908a58538b0.md
+- url: https://it.wikisource.org/wiki/Il_fanciullo_nascosto/Ritorno
+  title: Ritorno
+  publisher: Wikisource (Grazia Deledda)
+  published: '1921'
+  fetched: '2026-07-29'
+  genre: literature_public_domain
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 542
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/T3-extra
+  source_file: factory/corpus/pool/a9e02fa88b62.md
+- url: https://it.wikisource.org/wiki/Lettera_a_Melitta_%2816_marzo_1909%29
+  title: Lettera a Melitta
+  publisher: Wikisource (Mario Rapisardi)
+  published: '1909-03-16'
+  fetched: '2026-07-29'
+  genre: opinion_essay
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 255
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/T5
+  source_file: factory/corpus/pool/e5b0ee52f905.md
+- url: https://it.wikisource.org/wiki/Sopra_e_sotto
+  title: Sopra e sotto
+  publisher: Wikisource (Luigi Pirandello)
+  published: not dated on page
+  fetched: '2026-07-29'
+  genre: literature_public_domain
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 435
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/T3-extra
+  source_file: factory/corpus/pool/4e60664b2b47.md
+- url: https://www.comune.milano.it/servizi/cultura/cataloghi-online-delle-biblioteche-di-pubblica-lettura
+  title: Cataloghi online delle Biblioteche di pubblica lettura
+  publisher: Comune di Milano
+  published: '2026-05-12'
+  fetched: '2026-07-29'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 131
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T1-extra
+  source_file: factory/corpus/pool/84a6a64b6891.md
+- url: https://www.comune.torino.it/novita/comunicati/riqualificazione-continuita-apertura-al-territorio-al-via-una-nuova-gestione-per
+  title: 'Riqualificazione, continuità e apertura al territorio: al via una nuova
+    gestione per la palestra della scuola primaria Manzoni'
+  publisher: Città di Torino
+  published: 28 marzo 2026
+  fetched: '2026-07-29'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 175
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T6-overfetch
+  source_file: factory/corpus/pool/d9df9060f5dc.md
+- url: https://www.mountainblog.it/redazionale/incontro-con-andrea-lanfri-intervistato-da-roccati/
+  title: Incontro con Andrea Lanfri intervistato da Roccati
+  publisher: MountainBlog (di Christian Roccati)
+  published: 28 dicembre 2024
+  fetched: '2026-07-29'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 576
+  perishable: false
+  perishable_until: null
+  fetch_intent: B1/T5-overfetch
+  source_file: factory/corpus/pool/1c760eb3a54a.md
+- url: https://www.uffizi.it/avvisi/regolamento
+  title: Qualche regola da seguire
+  publisher: Gallerie degli Uffizi
+  published: not dated on page
+  fetched: '2026-07-29'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 111
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T2-extra
+  source_file: factory/corpus/pool/c6a28b81890d.md

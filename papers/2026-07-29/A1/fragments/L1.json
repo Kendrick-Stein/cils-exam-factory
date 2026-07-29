@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. La sala studio è aperta**\n\nA) dal lunedì al venerdì.\nB) dal martedì al venerdì.\nC) il sabato e la domenica.\n\n**2. Tra le 12:30 e le 13:30 la sala studio**\n\nA) chiude tutti i servizi.\nB) presta soltanto riviste e tesi.\nC) sospende la distribuzione dei materiali.\n\n**3. Nella sala studio le persone possono usare**\n\nA) libri, documenti d’archivio e Wi-Fi gratuito.\nB) solo riviste e tesi, senza Wi-Fi.\nC) libri, ma non documenti d’archivio.\n\n**4. Per consultare l’archivio è necessario**\n\nA) pagare l’ingresso.\nB) prenotare.\nC) andare al primo piano.",
+    "T1_TEXT": "Da martedì a venerdì - dalle ore 10:30 alle 17:30\n\nI servizi di prestito e di consultazione dei volumi della biblioteca e dell’archivio dell’Istituto nazionale Ferruccio Parri sono attivi negli stessi orari, con sospensione della distribuzione dei materiali dalle 12:30 alle 13:30 e dalle 16:30 alle 17:30.\n\nLa Sala Studio \"Giovanni Pirelli\" ti offre un ambiente accogliente con accesso a libri, documenti d’archivio e connessione Wi-Fi gratuita.\n\nAccesso libero e gratuito.\n\nPrenotazione obbligatoria per la consultazione dell’archivio.\n\nPrenotazione richiesta solo per riviste e tesi in biblioteca (consigliata per altri prestiti).\n\nSono disponibili 12 tavoli, di cui 4 riservati a chi consulta materiali in sede.\n\nLa bibilioteca è situata al terzo piano della struttura.",
+    "T1_TITLE": "SALA STUDIO “GIOVANNI PIRELLI”"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice «Da martedì a venerdì». 中文：开放日。 |\n| L1.2 | C | Il testo indica la «sospensione della distribuzione dei materiali dalle 12:30 alle 13:30». 中文：暂停的是资料发放。 |\n| L1.3 | A | La sala offre «accesso a libri, documenti d’archivio e connessione Wi-Fi gratuita». 中文：三项服务都在原文中。 |\n| L1.4 | B | Il testo dice «Prenotazione obbligatoria per la consultazione dell’archivio». 中文：查阅档案必须预约。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sospensione",
+      "categoria": "nome femminile",
+      "zh": "暂停",
+      "en": "suspension",
+      "esempio": "I servizi di prestito e di consultazione dei volumi della biblioteca e dell’archivio dell’Istituto nazionale Ferruccio Parri sono attivi negli stessi orari, con sospensione della distribuzione dei materiali dalle 12:30 alle 13:30 e dalle 16:30 alle 17:30."
+    },
+    {
+      "parola": "ambiente accogliente",
+      "categoria": "espressione",
+      "zh": "舒适宜人的环境",
+      "en": "welcoming environment",
+      "esempio": "La Sala Studio \"Giovanni Pirelli\" ti offre un ambiente accogliente con accesso a libri, documenti d’archivio e connessione Wi-Fi gratuita."
+    },
+    {
+      "parola": "Accesso libero e gratuito",
+      "categoria": "espressione",
+      "zh": "免费自由进入",
+      "en": "free admission",
+      "esempio": "Accesso libero e gratuito."
+    },
+    {
+      "parola": "Prenotazione obbligatoria",
+      "categoria": "espressione",
+      "zh": "必须预约",
+      "en": "booking required",
+      "esempio": "Prenotazione obbligatoria per la consultazione dell’archivio."
+    },
+    {
+      "parola": "riservati",
+      "categoria": "aggettivo",
+      "zh": "预留的",
+      "en": "reserved",
+      "esempio": "Sono disponibili 12 tavoli, di cui 4 riservati a chi consulta materiali in sede."
+    }
+  ]
+}

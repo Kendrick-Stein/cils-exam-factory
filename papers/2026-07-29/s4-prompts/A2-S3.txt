@@ -1,0 +1,19 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; assume nothing not in the files below.
+
+Read first: `.claude/agents/item-writer.md` (§Rules 2 + 5 + §Stage S4), `factory/exams/cils/templates/A2.md` (the S3 block + its HTML comments), `factory/validation/checklist.md` §A.
+
+Current fragment to repair: `papers/2026-07-29/A2/fragments/S3.json` (cloze_mc_3 — lessico, 8 items, T6 = Mostra Mercato di Pisogne).
+Your source text: the '## Slot T6' section of `papers/2026-07-29/A2/sources.md`.
+
+Defect from blind validation:
+- S3.5 MISMATCH: key «B» (tema), solver answered «C» (voce).
+  Printed context: «laboratori e letture a __(5)__ per bambini», options A. turno / B. tema / C. voce.
+  Both «letture a tema» and «letture a voce (alta)» are real collocations, so two options are defensible.
+
+Fix: re-cut item 5 so exactly ONE option is semantically right and the other two are wrong for a reason locatable in the text (checklist §A.2/§A.5). Either move the gap to a different word in that sentence, or replace the distractor set so no competing collocation survives.
+
+Rescan the other 7 items for the same class: for each, check that no distractor forms an equally idiomatic collocation with the printed context. All three options must be the same part of speech and grammatical in the slot; only the key may be semantically correct.
+
+Keep exactly 8 items plus the esempio (0), 3 options each, identical points/consegna. Text stays authentic (trim only).
+Rewrite `papers/2026-07-29/A2/fragments/S3.json` IN FULL, same schema (prova, slots, answer_slots, key, glossario_candidates). Update the spiegazioni in answer_slots to match your new items. Touch no other file (never `manifest.yaml`).
+Reply (short, no fragment content): which items you changed and how; final text word count.

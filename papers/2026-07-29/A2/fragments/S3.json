@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "torna.",
+    "S3_OPT0_B": "parte.",
+    "S3_OPT0_C": "chiude.",
+    "S3_OPTION_ROWS": "| 1. | collaborazione. | competizione. | discussione. |\n| 2. | precede. | anima. | conclude. |\n| 3. | ritardi. | divieti. | appuntamenti. |\n| 4. | biglietto. | orario. | strada. |\n| 5. | sportivi. | telefonici. | gastronomici. |\n| 6. | pubblicazione. | somministrazione. | collaborazione. |\n| 7. | periferia. | cornice. | superficie. |\n| 8. | sicuro. | probabile. | possibile. |",
+    "S3_TEXT_WITH_GAPS": "Dal 12 al 16 agosto 2026 __torna (0)__ a Pisogne la Mostra Mercato – 28ª edizione, la rassegna promossa dall’Amministrazione comunale di Pisogne in __(1)__ con l’Associazione Pisogne Eventi, con la Biblioteca Comunale e con lo Spazio Culturale STORiE.\n\nUna grande manifestazione che __(2)__ il Ferragosto pisognese, pensata per presentare il paese attraverso un programma ricco di __(3)__.\n\nEsposizione artigiani, hobbisti, artisti di __(4)__, spettacoli circensi, teatro, musica, laboratori e letture a tema per bambini, stand __(5)__ e punti ristoro con __(6)__ di prodotti tipici locali nella __(7)__ del centro storico.\n\nLe informazioni complete saranno pubblicate appena __(8)__.",
+    "T6_TITLE": "MOSTRA MERCATO PISOGNE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | La rassegna è promossa dal Comune «in collaborazione con» più associazioni. 中文：固定搭配。 |\n| S3.2 | B | Le date dal 12 al 16 agosto comprendono Ferragosto: la manifestazione lo «anima», non lo precede né lo conclude. 中文：日期排除干扰项。 |\n| S3.3 | C | L’elenco successivo presenta i numerosi «appuntamenti» del programma. 中文：下文列举活动。 |\n| S3.4 | C | «Artisti di strada» indica un tipo di artista; biglietto e orario sono invece elementi organizzativi dell’evento. 中文：只有“街头艺人”语义成立。 |\n| S3.5 | C | Gli stand sono «gastronomici» perché sono accanto ai punti ristoro e ai prodotti tipici. 中文：餐饮语境唯一确定。 |\n| S3.6 | B | Nei punti ristoro avviene la «somministrazione» di prodotti; pubblicazione e collaborazione riguardano informazioni o persone. 中文：宾语“产品”与餐饮点限定词义。 |\n| S3.7 | B | Il centro storico è la «cornice», cioè il luogo in cui si svolgono le attività; non una periferia o una superficie. 中文：语境搭配。 |\n| S3.8 | C | «Appena possibile» è l’espressione corretta per indicare il primo momento disponibile. 中文：固定表达。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "C",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "artigiani",
+      "categoria": "sostantivo plurale",
+      "zh": "手工艺人",
+      "en": "artisans",
+      "esempio": "Esposizione artigiani, hobbisti, artisti di __(4)__"
+    },
+    {
+      "parola": "hobbisti",
+      "categoria": "sostantivo plurale",
+      "zh": "业余爱好者",
+      "en": "hobbyists",
+      "esempio": "Esposizione artigiani, hobbisti, artisti di __(4)__"
+    },
+    {
+      "parola": "punti ristoro",
+      "categoria": "locuzione nominale",
+      "zh": "餐饮点",
+      "en": "refreshment points",
+      "esempio": "stand __(5)__ e punti ristoro con __(6)__ di prodotti tipici locali"
+    },
+    {
+      "parola": "somministrazione",
+      "categoria": "sostantivo femminile",
+      "zh": "供应",
+      "en": "serving",
+      "esempio": "punti ristoro con __(6)__ di prodotti tipici locali"
+    },
+    {
+      "parola": "centro storico",
+      "categoria": "locuzione nominale",
+      "zh": "历史城区",
+      "en": "historic centre",
+      "esempio": "nella __(7)__ del centro storico"
+    }
+  ]
+}

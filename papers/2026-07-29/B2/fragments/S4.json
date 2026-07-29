@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Per lavori nell'aula principale, l'incontro con l'autrice di giovedì non si terrà in biblioteca ma sarà trasmesso online alla stessa ora. Gli iscritti riceveranno il collegamento via email; non occorre effettuare una nuova registrazione.**\n\nA) È l'annuncio della cancellazione di un incontro in biblioteca.\nB) È l'invito a registrarsi a un secondo incontro con un'autrice.\nC) È la comunicazione del passaggio online di un evento già prenotato.\nD) È la richiesta agli iscritti di scegliere un nuovo orario.\n\n**2. Gentile cliente, abbiamo verificato la sua segnalazione relativa all'addebito duplicato. La somma pagata in più sarà riaccreditata sulla stessa carta entro cinque giorni lavorativi. Non deve inviarci altri documenti né contattare la banca.**\n\nA) È la conferma che un rimborso è stato disposto dopo una verifica.\nB) È la richiesta di presentare alla banca i documenti di pagamento.\nC) È l'avviso che un pagamento con carta non è andato a buon fine.\nD) È la proposta di sostituire il rimborso con un buono acquisto.\n\n**3. Tra poco, a «Città in movimento», parleremo delle nuove piste ciclabili con l'assessora ai trasporti. Potete inviare domande tramite l'app della radio fino alle 18: le più interessanti saranno rivolte all'ospite durante la diretta.**\n\nA) È la pubblicità di un'app per organizzare percorsi in bicicletta.\nB) È l'annuncio di una gara radiofonica dedicata alla mobilità.\nC) È l'invito a partecipare di persona a un incontro politico.\nD) È l'invito agli ascoltatori a proporre domande per un'intervista.\n\n**4. Regalo scrivania in legno con tre cassetti, in buone condizioni. È già smontata, ma chi la vuole deve ritirarla entro venerdì e provvedere al trasporto. Non effettuo spedizioni e non posso consegnarla a domicilio.**\n\nA) È la vendita di una scrivania con consegna compresa nel prezzo.\nB) È l'offerta gratuita di un mobile da ritirare sul posto.\nC) È la ricerca di qualcuno che ripari una scrivania danneggiata.\nD) È la richiesta di un servizio di trasporto per un mobile.\n\n**5. Ciao Paolo, grazie dell'invito alla tua festa di sabato. Purtroppo quella sera sarò fuori città e non riuscirò a venire. Mi farebbe però piacere offrirti un caffè lunedì e consegnarti di persona il regalo.**\n\nA) È l'accettazione di un invito con la richiesta di cambiare luogo.\nB) È la proposta di spostare una festa dal sabato al lunedì.\nC) È un rifiuto motivato accompagnato da una proposta alternativa.\nD) È un ringraziamento per un regalo ricevuto durante una festa.\n\n**6. Benvenuti nello spazio di lavoro condiviso Officina 12. Prima di usare stampanti e sala riunioni, completate il breve incontro di orientamento alla reception. La tessera personale consente l'accesso dalle 7 alle 22 e non può essere prestata.**\n\nA) È una comunicazione di accoglienza con regole per usare uno spazio condiviso.\nB) È l'annuncio della vendita di stampanti usate da un ufficio.\nC) È la richiesta di restituire una tessera prestata a un collega.\nD) È l'avviso della chiusura serale di una sala riunioni.\n\n**7. Mercoledì, dalle 9 alle 13, la pressione dell'acqua potrà diminuire nelle vie del quartiere per un intervento sulla rete. Il servizio non sarà interrotto completamente; consigliamo comunque di evitare lavatrici e lavastoviglie in quella fascia oraria.**\n\nA) È la comunicazione di un aumento permanente della pressione dell'acqua.\nB) È la richiesta ai residenti di segnalare una perdita nella rete.\nC) È l'annuncio della sospensione totale dell'acqua per tutta la giornata.\nD) È un avviso su un possibile disagio temporaneo con un consiglio pratico.\n\n**8. Le ricordiamo la visita dermatologica fissata per martedì 12 alle 15. Confermi la presenza rispondendo SÌ a questo messaggio. Se non può venire, annulli entro le 18 di lunedì: in questo modo renderà disponibile l'orario per un altro paziente.**\n\nA) È la comunicazione dello spostamento automatico di una visita medica.\nB) È un promemoria che chiede di confermare o annullare un appuntamento.\nC) È l'offerta di anticipare una visita grazie a una rinuncia.\nD) È la richiesta di scegliere uno specialista per una nuova visita.\n\n**9. Per il dormitorio cittadino raccogliamo coperte pulite e in buono stato. Potete portarle sabato mattina al centro civico; non servono vestiti né alimenti. I volontari le controlleranno e le consegneranno agli ospiti della struttura.**\n\nA) È la ricerca di volontari per pulire un dormitorio nel fine settimana.\nB) È l'annuncio della distribuzione di alimenti presso un centro civico.\nC) È un appello a donare un bene specifico per una struttura di accoglienza.\nD) È la vendita di coperte usate per finanziare un'associazione.\n\n**10. Per precauzione ritiriamo le confezioni di zuppa vegetale con scadenza 14 settembre e lotto Z48. Chi le ha acquistate non deve consumarle: può riportarle in qualsiasi nostro punto vendita, anche senza scontrino, per ottenere il rimborso completo.**\n\nA) È un avviso di richiamo di un prodotto con istruzioni per il rimborso.\nB) È la promozione di una zuppa vegetale prossima alla scadenza.\nC) È la richiesta di mostrare lo scontrino per cambiare un prodotto.\nD) È l'annuncio della chiusura temporanea di alcuni punti vendita."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «non si terrà in biblioteca ma sarà trasmesso online» indica un cambio di modalità, mentre «non occorre effettuare una nuova registrazione» conferma l'iscrizione esistente. 中文：活动改为线上，原预约仍有效。 |\n| S4.2 | A | «abbiamo verificato» e «sarà riaccreditata» comunicano che la pratica è conclusa e il rimborso è già stato disposto. 中文：核查后已安排退款。 |\n| S4.3 | D | «Potete inviare domande» e «saranno rivolte all'ospite» invitano il pubblico a contribuire all'intervista radiofonica. 中文：征集听众提问，不是邀请到现场。 |\n| S4.4 | B | «Regalo scrivania» esclude la vendita; «deve ritirarla» precisa che il trasporto spetta a chi la riceve. 中文：免费赠送，但须自取。 |\n| S4.5 | C | «non riuscirò a venire» rifiuta l'invito per un motivo preciso, mentre «offrirti un caffè lunedì» propone un altro incontro. 中文：有理由地婉拒并提出替代安排。 |\n| S4.6 | A | «Benvenuti» introduce le indicazioni su orientamento, orari di accesso e uso personale della tessera. 中文：共享办公空间的欢迎与使用规则。 |\n| S4.7 | D | «potrà diminuire» descrive un disagio limitato nel tempo e «consigliamo ... di evitare» fornisce una precauzione concreta. 中文：临时水压降低及实用建议。 |\n| S4.8 | B | Il testo ricorda data e ora della visita e chiede esplicitamente di «Confermi» oppure di «annulli». 中文：预约提醒，要求确认或取消。 |\n| S4.9 | C | «raccogliamo coperte» specifica il bene richiesto e la consegna «agli ospiti della struttura» chiarisce lo scopo solidale. 中文：为收容机构定向募集毛毯。 |\n| S4.10 | A | «ritiriamo le confezioni» identifica un richiamo e «non deve consumarle» con la possibilità di restituzione indica come ottenere il rimborso. 中文：特定批次产品召回通知。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "C",
+    "S4.6": "A",
+    "S4.7": "D",
+    "S4.8": "B",
+    "S4.9": "C",
+    "S4.10": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "addebito duplicato",
+      "categoria": "locuzione nominale",
+      "zh": "重复扣款",
+      "en": "duplicate charge",
+      "esempio": "la sua segnalazione relativa all'addebito duplicato"
+    },
+    {
+      "parola": "provvedere al trasporto",
+      "categoria": "locuzione verbale",
+      "zh": "负责运输",
+      "en": "arrange transportation",
+      "esempio": "provvedere al trasporto"
+    },
+    {
+      "parola": "spazio di lavoro condiviso",
+      "categoria": "locuzione nominale",
+      "zh": "共享办公空间",
+      "en": "coworking space",
+      "esempio": "nello spazio di lavoro condiviso"
+    },
+    {
+      "parola": "fascia oraria",
+      "categoria": "locuzione nominale",
+      "zh": "时间段",
+      "en": "time slot",
+      "esempio": "in quella fascia oraria"
+    },
+    {
+      "parola": "punto vendita",
+      "categoria": "locuzione nominale",
+      "zh": "销售门店",
+      "en": "retail outlet",
+      "esempio": "in qualsiasi nostro punto vendita"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+You are **corpus-hunter** for the CILS Exam Factory. Work strictly inside the repo:
+`cd /Users/kendrickstein/Code/CILS_Exam_AUTOGEN` (git repo — do NOT commit anything, do NOT touch other levels' directories).
+
+Session date (today, use as `accessed`/`--fetched`): **2026-07-29**
+
+## Read these first
+- `factory/corpus/sources.yaml`  (whitelist + rules + length bands)
+- `factory/corpus/cefr-criteria.md`  (§4 grading rubric — you must follow it)
+- `factory/corpus/used-sources.txt`  (**BLACKLIST**: every URL already consumed by a previous paper. Never accept a URL on this list.)
+
+## Two kinds of slot
+**(A) PINNED POOL SLOTS** — already chosen by the orchestrator. Do **NOT** fetch anything
+for these and do **NOT** substitute a different text. Just `cat` the given pool file, take
+its cleaned body, and produce an excerpt of the stated target length (cut whole
+sentences/paragraphs from the end or the middle; never rewrite or invent). The pool file's
+front-matter carries url/title/publisher/published — copy that metadata verbatim into
+`sources.md`.
+
+**(B) LIVE SLOTS** — you must fetch a real, authentic Italian web text.
+
+## Fetching method (Codex: use curl, you have full network)
+```
+curl -sL --max-time 30 -A 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36' '<URL>' -o /tmp/p.html
+```
+- Extract the article body **verbatim in the original Italian**. Never translate, never
+  summarize, never write a sentence that is not on the page.
+- If a site 403s or returns a cookie/paywall stub, retry the SAME url via
+  `curl -sL 'https://r.jina.ai/<URL>'` before dropping it.
+- Known-hostile/dead: `focus.it`, `gamberorosso.it`, `fanpage.it`, `focusjunior.it`,
+  `today.it`, `subito.it` all 403 → go straight to `r.jina.ai`. `wired.it` and
+  `italianofacile.news` are DEAD — never use.
+- To discover URLs, fetch a section/listing page and read its links, or use
+  `curl -sL 'https://duckduckgo.com/html/?q=<query>'` / `https://r.jina.ai/https://www.bing.com/search?q=<query>`.
+  Italian queries only.
+- **Clean**: keep title + body prose. Drop nav, ads, cookie banners, photo captions,
+  "leggi anche"/correlati, author bios, share buttons, comment counts. Fix broken
+  hyphenation. Keep paragraph breaks.
+- Anonymize any personal phone/e-mail in realia → `3XX XXXXXXX`.
+
+## Grading (every live candidate)
+Per `cefr-criteria.md` §4: 2–3 concrete rubric evidence bullets, an anchor comparison, the
+numbers (word count, avg sentence length, hard-lexis estimate), and a verdict
+`ACCEPT` / `ACCEPT WITH ADAPTATION (plan)` / `REJECT (reason)`. Adaptation may bridge at
+most one CEFR level. Assign a primary CEFR + `usable_levels` (primary ±1).
+
+## Over-fetch and bank (mandatory)
+While you are fetching, grab **2–3 extra** good candidates from neighbouring
+levels/genres. Grade them and bank **every** graded text you fetched (used or not):
+```
+python3 scripts/pool_add.py --url <url> --title <t> --publisher <p> --published <d> \
+  --fetched 2026-07-29 --genre <genre> --cefr <primary> --usable-levels <L1,L2> \
+  --words <n> --fetch-intent <LEVEL>/<slot> --text-file <cleaned.txt>
+```
+Valid `--genre` values: `news_general`, `news_easy`, `culture_science`, `opinion_essay`,
+`literature_public_domain`, `practical_realia`, `blogs_lifestyle`.
+Already-consumed / already-pooled URLs are skipped automatically — that is fine.
+
+## Output — write `papers/2026-07-29/<LEVEL>/sources.md`
+One section per slot, in slot order:
+```markdown
+# Sources — <LEVEL> 2026-07-29
+
+## Slot T1 — <genre>, target <min>–<max> words, feeds <prova>
+### Candidate 1 — ACCEPT
+- url: <url>
+- title: <title>
+- publisher: <publisher>
+- published: <date or "not dated on page">
+- accessed: 2026-07-29
+- words_used: <exact word count of the text you print below>
+- CEFR: <verdict> — <evidence bullet> / <evidence bullet> / numbers: <n> parole, frase media <n> parole, lessico difficile ~<n>%
+- Adaptation plan: <what you cut/simplified, or "none">
+
+<cleaned full text, exactly the words you counted, original Italian>
+```
+End the file with a `## Coverage` block, one line per slot:
+`Slot T1: OK (<n> words, <url>)` or `Slot T1: MISSING (<what failed>)`.
+
+## Hard rules
+- Every printed sentence must come from the fetched/pooled page. Zero invented text.
+- Word counts must be real (`wc -w`), and inside the stated band.
+- No URL from `factory/corpus/used-sources.txt`.
+- Do not print source attribution into any file other than `sources.md`.
+- Do not edit `manifest.yaml`, other levels, or anything under `factory/exams/`.
+
+## Final reply
+Reply with ONLY the `## Coverage` block plus a one-line list of the URLs you banked.
+
+
+# ===== YOUR ASSIGNMENT: LEVEL A1, session 2026-07-29 =====
+Output file: `papers/2026-07-29/A1/sources.md`
+**Your topic lane (avoid collisions with the parallel hunts for other levels): local
+public services, transport, museums/culture opening info, neighbourhood notices, simple
+personal messages.** Preferred sites: `comune.<città>.it`, `trenitalia.com`,
+`museiincomuneroma.it` / `uffizi.it` / `italia.it` / `visittrentino.info`, local library
+sites, `eventbrite.it`. Stay away from food blogs/recipes (A2's lane), sport/volunteering
+regulations (B1's lane), bandi (B2's lane), and literary/opinion texts (C1's lane).
+
+## (A) PINNED POOL SLOTS — do NOT fetch, do NOT substitute
+- **T4** ← `factory/corpus/pool/8336a51be8f5.md` — target **70–100 words**, feeds Analisi delle strutture, Prova n. 1 (cloze aperto, articoli determinativi). keep 70–100 words.
+  Metadata (url/title/publisher/published/genre/cefr) comes from that file's front-matter; `accessed: 2026-07-29`.
+- **T6** ← `factory/corpus/pool/d755b106b482.md` — target **70–100 words**, feeds Analisi delle strutture, Prova n. 3 (cloze a scelta multipla, lessico di base). keep 70–100 words.
+  Metadata (url/title/publisher/published/genre/cefr) comes from that file's front-matter; `accessed: 2026-07-29`.
+
+## (B) LIVE SLOTS — fetch these
+- **T1** — genere: testo informativo semplice: presentazione di una persona, di un luogo o di un servizio. Target **100–140 words**. Feeds Comprensione della lettura, Prova n. 1 (scelta multipla a 3 opzioni, 4 item).
+- **T2** — genere: testo regolativo / avviso pubblico semplice (orari, regole, dépliant). Target **100–140 words**. Feeds Comprensione della lettura, Prova n. 2 (vero/falso, 8 item).
+- **T3** — genere: 4 micro-testi funzionali separati e autonomi (annunci, cartelli, messaggi brevi) — 20–35 parole ciascuno, presi da pagine reali; possono venire da 1–2 pagine dello stesso sito (es. una pagina di avvisi con più box, o una bacheca di annunci). Target **80–120 in totale words**. Feeds Comprensione della lettura, Prova n. 3 (abbinamento, 4 item su 6 opzioni).
+- **T5** — genere: breve racconto o e-mail/messaggio personale (prima persona, passato prossimo + presente). Target **70–100 words**. Feeds Analisi delle strutture, Prova n. 2 (cloze verbi).
+
+NOTE for T5: A1 needs a genuinely personal narrative. Good real sources: sezioni
+"racconta la tua esperienza"/testimonianze su siti di comuni, biblioteche o associazioni;
+lettere dei lettori; brevi testimonianze su blog di viaggio in italiano molto semplice.
+It MUST be a real published text — if the best you find is B1-hard, take it and write an
+`ACCEPT WITH ADAPTATION` plan that brings it to A1 (shorter sentences, common verbs),
+bridging at most one level.
+
+Write the file, then reply with the Coverage block only.

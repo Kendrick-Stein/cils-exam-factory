@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione che vuole rendere la cultura accessibile a tutti. Hai partecipato a una visita notturna del museo civico guidata da giovani studenti. Scrivi un articolo in cui racconti l'esperienza, valuti gli aspetti positivi e le difficoltà e proponi come migliorare le prossime visite.",
+    "W2_PROMPT": "Hai smarrito la tessera annuale dell'autobus e l'hai già bloccata tramite l'app dell'azienda di trasporto. Scrivi un'e-mail formale al servizio clienti.",
+    "W2_REQ_1": "indicare il numero della tessera, quando l'hai smarrita e come l'hai bloccata;",
+    "W2_REQ_2": "chiedere quali documenti servono per ottenere un duplicato, quanto costa e quali sono i tempi di consegna;",
+    "W2_REQ_3": "domandare se puoi ricevere un titolo di viaggio provvisorio e come devi mostrarlo durante i controlli."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Venerdì sera ho partecipato alla visita notturna del museo civico organizzata dalla nostra associazione. A guidarci erano tre studenti di storia dell'arte, che hanno presentato le opere con racconti brevi e domande rivolte al pubblico. L'atmosfera informale ha aiutato anche chi, come me, frequenta raramente i musei. Ho apprezzato soprattutto la possibilità di discutere in piccoli gruppi e di osservare alcuni dettagli senza fretta. Tuttavia, il percorso era troppo lungo e nelle ultime sale si sentiva male la voce delle guide. Per le prossime visite proporrei gruppi meno numerosi, una breve pausa e auricolari disponibili all'ingresso. Sarebbe utile anche pubblicare prima dell'evento una scheda semplice sulle opere principali. Con questi accorgimenti, l'iniziativa potrebbe avvicinare nuovi visitatori al patrimonio cittadino e trasformare il museo in un luogo davvero aperto, piacevole e partecipato.",
+    "MODEL_W1_PHRASES": "rendere la cultura accessibile a tutti（让所有人都能接触文化）; Ho apprezzato soprattutto…（我尤其欣赏……）; Per le prossime visite proporrei…（对于今后的参观，我建议……）; Sarebbe utile anche…（此外，……也会很有帮助）; Con questi accorgimenti…（采取这些改进措施后……）",
+    "MODEL_W2": "Gentile Servizio Clienti,\n\nieri ho smarrito la tessera annuale dell'autobus numero 45821 e l'ho bloccata tramite l'app. Vorrei sapere quali documenti devo presentare per ottenere un duplicato, quanto costa la procedura e in quanti giorni sarà pronta la nuova tessera. Poiché uso l'autobus ogni giorno per recarmi al lavoro, vi chiedo inoltre se nel frattempo posso ricevere un titolo di viaggio provvisorio e come devo mostrarlo ai controllori.\n\nRingrazio anticipatamente per l'assistenza e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nLuca Ferri",
+    "MODEL_W2_PHRASES": "Vorrei sapere quali documenti devo presentare…（我想了解需要提交哪些文件……）; per ottenere un duplicato（为了补办一张副本）; vi chiedo inoltre se…（此外，我想请问是否……）; nel frattempo（在此期间）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

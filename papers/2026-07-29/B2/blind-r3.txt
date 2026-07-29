@@ -1,0 +1,60 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "ce", "confidence": "hi"},
+  "S1.2": {"answer": "lo", "confidence": "hi"},
+  "S1.3": {"answer": "ci", "confidence": "hi"},
+  "S1.4": {"answer": "cui", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "quali", "confidence": "hi"},
+  "S1.7": {"answer": "le", "confidence": "hi"},
+  "S1.8": {"answer": "quali", "confidence": "hi"},
+  "S1.9": {"answer": "quale", "confidence": "hi"},
+  "S1.10": {"answer": "quali", "confidence": "hi"},
+  "S1.11": {"answer": "gli", "confidence": "hi"},
+  "S1.12": {"answer": "lo", "confidence": "hi"},
+  "S1.13": {"answer": "ne", "confidence": "hi"},
+  "S1.14": {"answer": "se", "confidence": "hi"},
+  "S1.15": {"answer": "ne", "confidence": "hi"},
+  "S1.16": {"answer": "lo", "confidence": "hi"},
+  "S1.17": {"answer": "quali", "confidence": "hi"},
+  "S1.18": {"answer": "quale", "confidence": "hi"},
+  "S1.19": {"answer": "cui", "confidence": "hi"},
+  "S1.20": {"answer": "lo", "confidence": "hi"},
+  "S2.1": {"answer": "sentivo", "confidence": "hi"},
+  "S2.2": {"answer": "parlavo", "confidence": "hi"},
+  "S2.3": {"answer": "sono riuscita", "confidence": "hi"},
+  "S2.4": {"answer": "aiutano", "confidence": "hi"},
+  "S2.5": {"answer": "mancassero", "confidence": "hi"},
+  "S2.6": {"answer": "potrei", "confidence": "hi"},
+  "S2.7": {"answer": "sento", "confidence": "hi"},
+  "S2.8": {"answer": "entrare", "confidence": "hi"},
+  "S2.9": {"answer": "sono stati trasmessi", "confidence": "hi"},
+  "S2.10": {"answer": "credette", "confidence": "med"},
+  "S2.11": {"answer": "continui", "confidence": "hi"},
+  "S2.12": {"answer": "deluda", "confidence": "hi"},
+  "S2.13": {"answer": "è stato", "confidence": "hi"},
+  "S2.14": {"answer": "mi occupo", "confidence": "hi"},
+  "S2.15": {"answer": "ho seguito", "confidence": "hi"},
+  "S2.16": {"answer": "giocavo", "confidence": "hi"},
+  "S2.17": {"answer": "sono", "confidence": "hi"},
+  "S2.18": {"answer": "spiegava", "confidence": "hi"},
+  "S2.19": {"answer": "avessi ricevuto", "confidence": "hi"},
+  "S2.20": {"answer": "avrei rischiato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.10",
+    "reason": "«Credette» è favorito dal passato remoto «Fu», ma nel discorso contemporaneo sarebbe possibile anche «ha creduto»."
+  }
+]
+```
+
+WRITING checks
+```json
+[]
+```

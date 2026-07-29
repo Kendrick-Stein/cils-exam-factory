@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Lo studio dell'Università di Barcellona mostra che le giraffe**\n\nA) riescono a calcolare solo quando vedono tutte le carote.\nB) risolvono somme semplici senza vedere il risultato finale.\nC) possiedono un talento matematico già conosciuto da tempo.\nD) devono osservare il risultato finale prima di fare una somma.\n\n**2. All'inizio del gioco, gli scienziati**\n\nA) presentavano due contenitori gialli con quantità diverse di carote.\nB) nascondevano tutte le carote in un unico contenitore verde.\nC) lasciavano che le giraffe mangiassero da entrambi i contenitori.\nD) aggiungevano lo stesso numero di carote a due barattoli gialli.\n\n**3. I contenitori venivano chiusi per verificare se le giraffe**\n\nA) ricordavano il colore del contenitore scelto in precedenza.\nB) preferivano il cibo nascosto a quello lasciato in vista.\nC) calcolavano mentalmente invece di scegliere il mucchio visivamente maggiore.\nD) riuscivano ad aprire i barattoli senza l'aiuto dei ricercatori.\n\n**4. Secondo i ricercatori, il comportamento di due giraffe indica che gli animali**\n\nA) dimenticavano le quantità iniziali e sceglievano a caso.\nB) ricordavano le quantità iniziali e aggiornavano il totale con le nuove carote.\nC) ricordavano solo i colori senza considerare le quantità.\nD) consideravano le carote aggiunte ma ignoravano quelle iniziali.\n\n**5. Nella prova in cui venivano tolte alcune carote,**\n\nA) tutte le giraffe hanno ottenuto risultati migliori.\nB) solo le due giraffe più esperte hanno risposto bene.\nC) gli animali hanno preferito il contenitore inizialmente più pieno.\nD) nessuna delle giraffe è riuscita a svolgere il compito.\n\n**6. Nella savana, la capacità di valutare le quantità può aiutare le giraffe a**\n\nA) trovare il pasto più abbondante limitando il consumo di energie.\nB) riconoscere le acacie che crescono più vicine tra loro.\nC) scegliere un gruppo stabile con cui vivere per sempre.\nD) consumare più energie per raggiungere il cibo meno abbondante.\n\n**7. La riflessione conclusiva sottolinea che studiare talenti animali inattesi permette di**\n\nA) dimostrare che tutte le specie ragionano nello stesso modo.\nB) concentrare la ricerca sugli animali più simili agli esseri umani.\nC) comprendere meglio il funzionamento della mente degli animali.\nD) spiegare perché l'intelligenza appartenga soprattutto agli esseri umani.",
+    "T1_TEXT": "Un nuovo studio dell'Università di Barcellona ha scoperto che le giraffe riescono a fare le somme. Ecco come gli scienziati l'hanno dimostrato grazie a un gioco con le carote.\n\nLe giraffe le conosciamo tutti per il collo lunghissimo, l'altezza da record e il mantello a macchie. Ma ora potrebbero aggiungere un nuovo talento alla lista: la matematica. Un gruppo di ricercatori dell'Università di Barcellona, in Spagna, lo ha scoperto e ha pubblicato i risultati sulla rivista scientifica Scientific Reports: questi giganti gentili sanno fare somme semplici anche quando non riescono a vedere il risultato finale.\n\n**Il gioco delle carote.** Per scoprirlo, gli scienziati hanno inventato un gioco goloso per quattro giraffe dello zoo di Barcellona. Prima mostravano a ogni giraffa due contenitori gialli con dentro un numero diverso di carote. Dopo pochi secondi chiudevano i contenitori, così l'animale non poteva più vedere il cibo. A quel punto arrivava un terzo contenitore, verde, con altre carote: gli scienziati le aggiungevano a uno dei due barattoli gialli, sempre davanti agli occhi della giraffa. Infine l'animale doveva scegliere quale contenitore preferiva, senza però poter vedere quante carote c'erano in tutto.\n\nIl trucco più importante era proprio questo: dopo il primo \"assaggio\" con gli occhi, le giraffe non potevano più contare le carote guardandole. Se avessero potuto vederle, gli scienziati non avrebbero saputo dire se stavano facendo un calcolo a mente o semplicemente scegliendo il mucchio più grande.\n\n**Il risultato?** Due giraffe su quattro sono riuscite a scegliere il contenitore con più carote molto più spesso di quanto sarebbe successo tirando a indovinare. Secondo i ricercatori questo significa che ricordavano le quantità viste all'inizio, aggiornavano il conto quando arrivavano le nuove carote e poi sceglievano: proprio come una piccola addizione fatta con la mente.\n\n**Ma le sottrazioni sono un'altra storia.** C'è una cosa buffa. Quando gli scienziati hanno provato al contrario, cioè a togliere carote da un contenitore, nessuna giraffa ci è riuscita.\n\nNon è così strano come sembra. Iker Loidi, uno dei ricercatori che ha guidato lo studio, ha spiegato che togliere è più difficile che aggiungere, e che il nostro cervello per sottrarre deve \"accendere\" zone che per le addizioni non servono. Succede anche a noi umani: non a caso, a scuola impariamo prima le addizioni e solo dopo le sottrazioni.\n\n**A che cosa serve la matematica a una giraffa?** Perché un animale dovrebbe imparare a fare i conti? Gli scienziati hanno un'idea. Le giraffe si nutrono delle foglie delle acacie, alberi che nella savana africana crescono lontani gli uni dagli altri: capire dove si trova il pasto più abbondante le aiuta a mangiare meglio senza sprecare energie.\n\nC'è anche un altro motivo. Le giraffe vivono in gruppi che si dividono e si riuniscono di continuo a seconda di dove trovano cibo, e tenere il conto delle quantità le aiuta a scegliere bene.\n\nQuesto studio ci ricorda una cosa importante: l'intelligenza non è solo faccenda da esseri umani. Anche animali molto diversi da noi possono avere talenti nascosti, e studiarli aiuta gli scienziati a capire come funziona la loro mente.",
+    "T1_TITLE": "LE GIRAFFE SANNO FARE LE ADDIZIONI, LO DICE LA SCIENZA"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo afferma che le giraffe «sanno fare somme semplici anche quando non riescono a vedere il risultato finale». |\n| L1.2 | A | All'inizio gli scienziati mostravano «due contenitori gialli con dentro un numero diverso di carote». |\n| L1.3 | C | Senza vedere il cibo si poteva distinguere un «calcolo a mente» dalla semplice scelta del «mucchio più grande». 中文：关键是排除视觉比较。 |\n| L1.4 | B | Le giraffe «ricordavano le quantità viste all'inizio» e «aggiornavano il conto» con le nuove carote. |\n| L1.5 | D | Nel tentativo con le sottrazioni, «nessuna giraffa ci è riuscita». |\n| L1.6 | A | Individuare «il pasto più abbondante» consente di mangiare meglio «senza sprecare energie». |\n| L1.7 | C | Studiare questi talenti aiuta gli scienziati «a capire come funziona la loro mente». |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B",
+    "L1.5": "D",
+    "L1.6": "A",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mantello a macchie",
+      "categoria": "locuzione nominale",
+      "zh": "斑点皮毛",
+      "en": "spotted coat",
+      "esempio": "Le giraffe le conosciamo tutti per il collo lunghissimo, l'altezza da record e il mantello a macchie."
+    },
+    {
+      "parola": "barattoli",
+      "categoria": "nome maschile plurale",
+      "zh": "罐子，容器",
+      "en": "jars, containers",
+      "esempio": "A quel punto arrivava un terzo contenitore, verde, con altre carote: gli scienziati le aggiungevano a uno dei due barattoli gialli, sempre davanti agli occhi della giraffa."
+    },
+    {
+      "parola": "tirando a indovinare",
+      "categoria": "locuzione verbale",
+      "zh": "靠猜测",
+      "en": "by guessing",
+      "esempio": "Due giraffe su quattro sono riuscite a scegliere il contenitore con più carote molto più spesso di quanto sarebbe successo tirando a indovinare."
+    },
+    {
+      "parola": "sottrazioni",
+      "categoria": "nome femminile plurale",
+      "zh": "减法",
+      "en": "subtractions",
+      "esempio": "Ma le sottrazioni sono un'altra storia."
+    },
+    {
+      "parola": "sprecare energie",
+      "categoria": "locuzione verbale",
+      "zh": "浪费能量",
+      "en": "to waste energy",
+      "esempio": "Le giraffe si nutrono delle foglie delle acacie, alberi che nella savana africana crescono lontani gli uni dagli altri: capire dove si trova il pasto più abbondante le aiuta a mangiare meglio senza sprecare energie."
+    }
+  ]
+}
