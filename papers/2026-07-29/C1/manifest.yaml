@@ -74,6 +74,20 @@ pipeline:
   - stage: corpus
     at: '2026-07-29'
     slots: 7
+  - stage: authoring
+    at: '2026-07-29'
+    executor: codex-companion (one task per prova, tiered effort)
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
   - stage: blind_validation
     at: '2026-07-29T10:19:45+00:00'
     agreement: 83/83
@@ -97,6 +111,29 @@ pipeline:
     at: '2026-07-29T10:27:44+00:00'
     result: pass
     issues: 0
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 1
+    executor: codex-companion (fresh item-writer per prova)
+    fixed_items:
+    - S2.4
+    - S2.6
+    - S2.7
+    - S2.8
+    - S2.10-S2.18
+    - S4.1-S4.6 (estensione chiave, checklist A.13)
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 2
+    executor: orchestrator (targeted per-item fix)
+    fixed_items:
+    - S2.12
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 3
+    executor: orchestrator (targeted per-item fix)
+    fixed_items:
+    - S2.18
 quality:
   variant_profile: cils-2024-standard
   source_policy: excerpt-first

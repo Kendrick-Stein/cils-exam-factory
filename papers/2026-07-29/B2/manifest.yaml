@@ -15,8 +15,8 @@ sources:
   words_used: 518
 - id: T2
   url: https://bandi.unibo.it/s/abis1/bando-di-concorso-per-l-assegnazione-di-n-327-contributi-da-2-000-00-euro-ciascuno-a-sostegno-di-studenti-in-condizioni-di-difficolta-iscritti-all-anno-accademico-2025-2026/bando/bando-studenti-in-condizioni-di-disagio-a-a-2025-2026.pdf/@@download/file/Bando%20studenti%20in%20condizioni%20di%20disagio%20a.a.2025-2026.pdf
-  title: Bando di concorso per 327 contributi da 2.000 € ciascuno a sostegno di studentesse
-    e studenti in condizioni di difficoltà iscritti all’anno accademico 2025/26
+  title: Bando di concorso per 327 contributi da 2.000 € ciascuno a sostegno di studentesse e studenti
+    in condizioni di difficoltà iscritti all’anno accademico 2025/26
   publisher: Alma Mater Studiorum – Università di Bologna
   published: not dated on page
   accessed: '2026-07-29'
@@ -43,8 +43,7 @@ sources:
   words_used: 258
 - id: T5
   url: https://www.ansa.it/sito/notizie/cultura/tv/2026/07/28/raffaella-griggi-il-mio-grande-passo-da-inviata-a-conduttrice-di-chi-lha-visto_3d356fd2-97fc-4a10-9544-6e925780408b.html
-  title: Raffaella Griggi, 'il mio grande passo da inviata a conduttrice di Chi l'ha
-    visto'
+  title: Raffaella Griggi, 'il mio grande passo da inviata a conduttrice di Chi l'ha visto'
   publisher: ANSA
   published: '2026-07-28'
   accessed: '2026-07-29'
@@ -67,6 +66,20 @@ pipeline:
   - stage: corpus
     at: '2026-07-29'
     slots: 6
+  - stage: authoring
+    at: '2026-07-29'
+    executor: codex-companion (one task per prova, tiered effort)
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
   - stage: blind_validation
     at: '2026-07-29T10:24:20+00:00'
     agreement: 87/87
@@ -85,6 +98,25 @@ pipeline:
     at: '2026-07-29T10:27:44+00:00'
     result: pass
     issues: 0
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 1
+    executor: codex-companion (fresh item-writer per prova)
+    fixed_items:
+    - S2.4
+    - S2.8
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 2
+    executor: orchestrator (targeted per-item fix)
+    fixed_items:
+    - S1 (lunghezza)
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 3
+    executor: orchestrator (targeted per-item fix)
+    fixed_items:
+    - S2.10
 quality:
   variant_profile: cils-2024-standard
   source_policy: excerpt-first
