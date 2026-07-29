@@ -24,8 +24,7 @@ sources:
   words_used: 316
 - id: T3
   url: https://www.viaggiapiccoli.com/la-bursch-country-house-valle-cervo/
-  title: 'Abbiamo scoperto La Bursh: un rifugio segreto nella Valle Cervo dove tutto
-    trova il suo posto'
+  title: 'Abbiamo scoperto La Bursh: un rifugio segreto nella Valle Cervo dove tutto trova il suo posto'
   publisher: Viaggiapiccoli.com
   published: 9 dicembre 2025
   accessed: '2026-07-29'
@@ -66,6 +65,20 @@ pipeline:
   - stage: corpus
     at: '2026-07-29'
     slots: 6
+  - stage: authoring
+    at: '2026-07-29'
+    executor: codex-companion (one task per prova, tiered effort)
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
   - stage: blind_validation
     at: '2026-07-29T10:19:45+00:00'
     agreement: 85/87
@@ -84,6 +97,22 @@ pipeline:
     at: '2026-07-29T10:27:44+00:00'
     result: pass
     issues: 0
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 1
+    executor: codex-companion (fresh item-writer per prova)
+    fixed_items:
+    - 'S2 (cloze verbi: persona e tempo forzati su tutti i gap)'
+  - stage: reconcile
+    at: '2026-07-29T10:30:42+00:00'
+    round: 2
+    executor: orchestrator (targeted per-item fix)
+    fixed_items:
+    - S2.2
+    - S2.5
+    - S2.17
+    - S2.18
+    - S2 (lunghezza)
 quality:
   variant_profile: cils-2024-standard
   source_policy: excerpt-first
