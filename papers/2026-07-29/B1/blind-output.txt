@@ -1,0 +1,312 @@
+1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "C", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "B", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "C", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A-H-D-J-B-F-C-K-E-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "la", "confidence": "hi"},
+  "S1.2": {"answer": "In", "confidence": "hi"},
+  "S1.3": {"answer": "alla", "confidence": "hi"},
+  "S1.4": {"answer": "della", "confidence": "hi"},
+  "S1.5": {"answer": "a", "confidence": "hi"},
+  "S1.6": {"answer": "l'", "confidence": "hi"},
+  "S1.7": {"answer": "l'", "confidence": "hi"},
+  "S1.8": {"answer": "di", "confidence": "hi"},
+  "S1.9": {"answer": "da", "confidence": "hi"},
+  "S1.10": {"answer": "la", "confidence": "hi"},
+  "S1.11": {"answer": "alla", "confidence": "hi"},
+  "S1.12": {"answer": "della", "confidence": "hi"},
+  "S1.13": {"answer": "Per", "confidence": "hi"},
+  "S1.14": {"answer": "il", "confidence": "hi"},
+  "S1.15": {"answer": "di", "confidence": "hi"},
+  "S1.16": {"answer": "da", "confidence": "hi"},
+  "S1.17": {"answer": "il", "confidence": "hi"},
+  "S1.18": {"answer": "alla", "confidence": "hi"},
+  "S1.19": {"answer": "di", "confidence": "hi"},
+  "S1.20": {"answer": "per", "confidence": "hi"},
+
+  "S2.1": {"answer": "sono", "confidence": "hi"},
+  "S2.2": {"answer": "mi preparavo", "confidence": "hi"},
+  "S2.3": {"answer": "ho ricevuto", "confidence": "med"},
+  "S2.4": {"answer": "mi sono ritirato", "confidence": "med"},
+  "S2.5": {"answer": "mi ha abbandonato", "confidence": "hi"},
+  "S2.6": {"answer": "corro", "confidence": "hi"},
+  "S2.7": {"answer": "mi ha detto", "confidence": "med"},
+  "S2.8": {"answer": "ho accettato", "confidence": "med"},
+  "S2.9": {"answer": "sapevo", "confidence": "hi"},
+  "S2.10": {"answer": "ho provato", "confidence": "med"},
+  "S2.11": {"answer": "se ne usciva", "confidence": "hi"},
+  "S2.12": {"answer": "dicevo", "confidence": "hi"},
+  "S2.13": {"answer": "proporrà", "confidence": "hi"},
+  "S2.14": {"answer": "dirò", "confidence": "hi"},
+  "S2.15": {"answer": "farei", "confidence": "hi"},
+  "S2.16": {"answer": "mi descrivo", "confidence": "hi"},
+  "S2.17": {"answer": "scelgo", "confidence": "hi"},
+  "S2.18": {"answer": "sarò", "confidence": "hi"},
+  "S2.19": {"answer": "sceglierei", "confidence": "hi"},
+  "S2.20": {"answer": "avete", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"},
+  "S3.9": {"answer": "A", "confidence": "hi"},
+  "S3.10": {"answer": "A", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "D", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "C", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "D", "confidence": "hi"},
+  "S4.3": {"answer": "A", "confidence": "hi"},
+  "S4.4": {"answer": "C", "confidence": "hi"},
+  "S4.5": {"answer": "D", "confidence": "hi"},
+  "S4.6": {"answer": "B", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "A", "confidence": "hi"},
+  "S4.9": {"answer": "C", "confidence": "hi"},
+  "S4.10": {"answer": "D", "confidence": "hi"}
+}
+```
+
+2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.3",
+    "issue": "Both «ho ricevuto» and narrative «ricevetti» are grammatically possible."
+  },
+  {
+    "item_id": "S2.4",
+    "issue": "Both «mi sono ritirato» and narrative «mi ritirai» are grammatically possible."
+  },
+  {
+    "item_id": "S2.7",
+    "issue": "Both «mi ha detto» and «mi disse» fit the stated past event."
+  },
+  {
+    "item_id": "S2.8",
+    "issue": "Both «ho accettato» and «accettai» fit the stated past event."
+  },
+  {
+    "item_id": "S2.10",
+    "issue": "Both «ho provato» and «provai» are grammatically possible."
+  }
+]
+```
+
+3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa",
+    "all_four_topics_self_contained": true
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa",
+    "all_four_topics_self_contained": true
+  }
+}
+```
+tokens used
+15,064
+1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "C", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "B", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "C", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Falso", "confidence": "hi"},
+  "L2.13": {"answer": "Vero", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A-H-D-J-B-F-C-K-E-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "la", "confidence": "hi"},
+  "S1.2": {"answer": "In", "confidence": "hi"},
+  "S1.3": {"answer": "alla", "confidence": "hi"},
+  "S1.4": {"answer": "della", "confidence": "hi"},
+  "S1.5": {"answer": "a", "confidence": "hi"},
+  "S1.6": {"answer": "l'", "confidence": "hi"},
+  "S1.7": {"answer": "l'", "confidence": "hi"},
+  "S1.8": {"answer": "di", "confidence": "hi"},
+  "S1.9": {"answer": "da", "confidence": "hi"},
+  "S1.10": {"answer": "la", "confidence": "hi"},
+  "S1.11": {"answer": "alla", "confidence": "hi"},
+  "S1.12": {"answer": "della", "confidence": "hi"},
+  "S1.13": {"answer": "Per", "confidence": "hi"},
+  "S1.14": {"answer": "il", "confidence": "hi"},
+  "S1.15": {"answer": "di", "confidence": "hi"},
+  "S1.16": {"answer": "da", "confidence": "hi"},
+  "S1.17": {"answer": "il", "confidence": "hi"},
+  "S1.18": {"answer": "alla", "confidence": "hi"},
+  "S1.19": {"answer": "di", "confidence": "hi"},
+  "S1.20": {"answer": "per", "confidence": "hi"},
+
+  "S2.1": {"answer": "sono", "confidence": "hi"},
+  "S2.2": {"answer": "mi preparavo", "confidence": "hi"},
+  "S2.3": {"answer": "ho ricevuto", "confidence": "med"},
+  "S2.4": {"answer": "mi sono ritirato", "confidence": "med"},
+  "S2.5": {"answer": "mi ha abbandonato", "confidence": "hi"},
+  "S2.6": {"answer": "corro", "confidence": "hi"},
+  "S2.7": {"answer": "mi ha detto", "confidence": "med"},
+  "S2.8": {"answer": "ho accettato", "confidence": "med"},
+  "S2.9": {"answer": "sapevo", "confidence": "hi"},
+  "S2.10": {"answer": "ho provato", "confidence": "med"},
+  "S2.11": {"answer": "se ne usciva", "confidence": "hi"},
+  "S2.12": {"answer": "dicevo", "confidence": "hi"},
+  "S2.13": {"answer": "proporrà", "confidence": "hi"},
+  "S2.14": {"answer": "dirò", "confidence": "hi"},
+  "S2.15": {"answer": "farei", "confidence": "hi"},
+  "S2.16": {"answer": "mi descrivo", "confidence": "hi"},
+  "S2.17": {"answer": "scelgo", "confidence": "hi"},
+  "S2.18": {"answer": "sarò", "confidence": "hi"},
+  "S2.19": {"answer": "sceglierei", "confidence": "hi"},
+  "S2.20": {"answer": "avete", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"},
+  "S3.9": {"answer": "A", "confidence": "hi"},
+  "S3.10": {"answer": "A", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "D", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "C", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "D", "confidence": "hi"},
+  "S4.3": {"answer": "A", "confidence": "hi"},
+  "S4.4": {"answer": "C", "confidence": "hi"},
+  "S4.5": {"answer": "D", "confidence": "hi"},
+  "S4.6": {"answer": "B", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "A", "confidence": "hi"},
+  "S4.9": {"answer": "C", "confidence": "hi"},
+  "S4.10": {"answer": "D", "confidence": "hi"}
+}
+```
+
+2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.3",
+    "issue": "Both «ho ricevuto» and narrative «ricevetti» are grammatically possible."
+  },
+  {
+    "item_id": "S2.4",
+    "issue": "Both «mi sono ritirato» and narrative «mi ritirai» are grammatically possible."
+  },
+  {
+    "item_id": "S2.7",
+    "issue": "Both «mi ha detto» and «mi disse» fit the stated past event."
+  },
+  {
+    "item_id": "S2.8",
+    "issue": "Both «ho accettato» and «accettai» fit the stated past event."
+  },
+  {
+    "item_id": "S2.10",
+    "issue": "Both «ho provato» and «provai» are grammatically possible."
+  }
+]
+```
+
+3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa",
+    "all_four_topics_self_contained": true
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa",
+    "all_four_topics_self_contained": true
+  }
+}
+```

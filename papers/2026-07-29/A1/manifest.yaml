@@ -1,0 +1,100 @@
+exam: cils
+level: A1
+session: '2026-07-29'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www2.comune.milano.it/web/casadellamemoria/sala-studio-giovanni-pirelli
+  title: Sala studio “Giovanni Pirelli” - Casa della Memoria
+  publisher: Comune di Milano
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 121
+- id: T2
+  url: https://www.museiincomuneroma.it/it/informazioni_pratiche/condizioni_di_accesso
+  title: Servizi per i visitatori
+  publisher: Musei in Comune Roma
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 129
+- id: T3
+  url: https://www.museiincomuneroma.it/it/servizi/avvisi
+  title: Avvisi
+  publisher: Musei in Comune Roma
+  published: 2026-07-01; 2026-06-30; 2026-06-26; 2026-02-16
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 105
+- id: T4
+  url: https://www.comune.trento.it/Novita/Notizie/Biblioteca-dal-10-giugno-2026-in-vigore-l-orario-estivo-in-tutte-le-sedi
+  title: Biblioteca comunale di Trento — orario estivo
+  publisher: Comune di Trento
+  published: '2026-06-05'
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 77
+- id: T5
+  url: https://www.unicas.it/media/mi4bf3g4/bollettinosban1novembre2023.pdf
+  title: Progetto Studenti in biblioteca, la mia esperienza
+  publisher: Sistema Bibliotecario di Ateneo — Università degli Studi di Cassino e
+    del Lazio Meridionale
+  published: 2023-11
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 93
+- id: T6
+  url: https://www.comune.genova.it/novita/avvisi/urp-avviso-al-pubblico
+  title: URP - Avviso al pubblico
+  publisher: Comune di Genova
+  published: '2026-07-21'
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 76
+pipeline:
+  generator: /genpapers (codex executors)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-29'
+    slots: 6
+  - stage: blind_validation
+    at: '2026-07-29T10:19:45+00:00'
+    agreement: 44/44
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-29T10:24:20+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-29T10:27:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-29T10:27:44+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

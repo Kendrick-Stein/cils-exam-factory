@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. La richiesta riguarda spazi sportivi gestiti dalle Circoscrizioni.**  \nVero ○ Falso ○\n\n**2. Possono presentare la richiesta soltanto le associazioni sportive.**  \nVero ○ Falso ○\n\n**3. Tra gli spazi disponibili ci sono palestre scolastiche e piscine comunali.**  \nVero ○ Falso ○\n\n**4. È possibile chiedere anche le palestre delle scuole superiori.**  \nVero ○ Falso ○\n\n**5. Ogni Circoscrizione pubblica ogni anno un avviso sugli impianti disponibili.**  \nVero ○ Falso ○\n\n**6. Negli avvisi non è indicato il termine per inviare le domande.**  \nVero ○ Falso ○\n\n**7. Prima di compilare il modulo bisogna preparare la presentazione dell'attività.**  \nVero ○ Falso ○\n\n**8. Per accedere alla domanda online occorre avere SPID o CIE.**  \nVero ○ Falso ○\n\n**9. Nella domanda bisogna indicare la Circoscrizione di riferimento.**  \nVero ○ Falso ○\n\n**10. Tutti devono pagare obbligatoriamente un'imposta di bollo di 16 euro.**  \nVero ○ Falso ○\n\n**11. Con l'invio della domanda lo spazio viene concesso immediatamente.**  \nVero ○ Falso ○\n\n**12. Le domande per le concessioni stagionali possono arrivare dopo il termine dell'avviso.**  \nVero ○ Falso ○\n\n**13. Dopo le assegnazioni stagionali, gli spazi ancora disponibili possono essere assegnati durante la stagione.**  \nVero ○ Falso ○\n\n**14. Le altre richieste devono arrivare almeno dieci giorni lavorativi prima dell'inizio delle attività.**  \nVero ○ Falso ○",
+    "T2_TEXT": "Richiesta per concessione spazi sportivi gestititi dalle Circoscrizioni.\n\n**A chi è rivolto**\n\nAssociazioni sportive, federazioni, enti di promozione sportiva, cooperative sociali, scuole, altri enti pubblici, organizzazioni di volontariato, gruppi spontanei.\n\n**Descrizione**\n\nLe associazioni sportive possono richiedere la concessione breve, stagionale o infrannuale, di spazi sportivi comunali gestiti dalle Circoscrizioni, come le palestre delle scuole elementari e medie (sono escluse le palestre delle scuole superiori) e le piscine a gestione comunale.\n\n**Come fare**\n\nAnnualmente, ogni Circoscrizione pubblica sul notiziario bandi e appalti della Città un avviso con l'elenco degli impianti disponibili e le modalità per usufruirne; all'interno di ogni avviso, viene segnalato il termine entro cui i soggetti interessati possono inviare le istanze di concessione utilizzando l'apposito modulo online.\n\nPrima di compilare il modulo per la richiesta di concessione di spazi sportivi, occorre avere a disposizione la presentazione dell'attività per cui si richiede l'utilizzo degli spazi.\n\n**Cosa serve**\n\nPer poter inviare la domanda online occorre:\n\n- essere in possesso di SPID o CIE per l'accesso alla compilazione della richiesta online;\n- indicare la circoscrizione di riferimento;\n- caricare la presentazione dell'attività;\n- compilare l'istanza con i dati dell'associazione;\n- pagare l'imposta di bollo, se dovuta, da 16 euro con pago PA o scaricando il bollettino di pagamento.\n\n**Cosa si ottiene**\n\nL'invio della domanda di concessione spazi sportivi, che dovrà essere sottoposta alla valutazione da parte della Circoscrizione.\n\n**Tempi e scadenze**\n\nPer le concessioni stagionali: le istanze devono pervenire entro il termine previsto dagli avvisi pubblici pubblicati annualmente nel notiziario bandi e appalti del sito istituzionale della Città di Torino.\n\nPer altre richieste: successivamente alle assegnazioni stagionali, gli spazi rimasti disponibili, in quanto non assegnati oppure oggetto di rinuncia, potranno essere assegnati in itinere per la stagione di riferimento. Tali richieste dovranno pervenire con almeno 15 giorni lavorativi di anticipo rispetto all’inizio delle attività e verranno trattate rispettando l’ordine cronologico di presentazione.",
+    "T2_TITLE": "ISTANZA DI CONCESSIONE SPAZI SPORTIVI"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo parla di «spazi sportivi comunali gestiti dalle Circoscrizioni». |\n| L2.2 | Falso | Tra i destinatari compaiono anche federazioni, scuole, enti pubblici e altri soggetti. |\n| L2.3 | Vero | Sono citate «le palestre delle scuole elementari e medie» e «le piscine a gestione comunale». |\n| L2.4 | Falso | Il testo precisa che «sono escluse le palestre delle scuole superiori». |\n| L2.5 | Vero | «Annualmente, ogni Circoscrizione pubblica» un avviso con gli impianti disponibili. |\n| L2.6 | Falso | «All'interno di ogni avviso, viene segnalato il termine» per inviare le istanze. |\n| L2.7 | Vero | Prima del modulo «occorre avere a disposizione la presentazione dell'attività». |\n| L2.8 | Vero | Bisogna «essere in possesso di SPID o CIE». |\n| L2.9 | Vero | Tra i requisiti figura «indicare la circoscrizione di riferimento». |\n| L2.10 | Falso | L'imposta di 16 euro si paga soltanto «se dovuta», non in tutti i casi. |\n| L2.11 | Falso | La domanda «dovrà essere sottoposta alla valutazione» della Circoscrizione. |\n| L2.12 | Falso | Le istanze stagionali «devono pervenire entro il termine previsto dagli avvisi pubblici». |\n| L2.13 | Vero | Gli spazi rimasti disponibili «potranno essere assegnati in itinere per la stagione di riferimento». |\n| L2.14 | Falso | È richiesto «almeno 15 giorni lavorativi di anticipo», non dieci. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "V || Vero",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "concessione",
+      "categoria": "sostantivo",
+      "zh": "使用许可",
+      "en": "grant",
+      "esempio": "Le associazioni sportive possono richiedere la concessione breve, stagionale o infrannuale, di spazi sportivi comunali gestiti dalle Circoscrizioni"
+    },
+    {
+      "parola": "avviso",
+      "categoria": "sostantivo",
+      "zh": "公告",
+      "en": "notice",
+      "esempio": "ogni Circoscrizione pubblica sul notiziario bandi e appalti della Città un avviso"
+    },
+    {
+      "parola": "istanza",
+      "categoria": "sostantivo",
+      "zh": "申请",
+      "en": "application",
+      "esempio": "compilare l'istanza con i dati dell'associazione"
+    },
+    {
+      "parola": "imposta di bollo",
+      "categoria": "locuzione nominale",
+      "zh": "印花税",
+      "en": "stamp duty",
+      "esempio": "pagare l'imposta di bollo, se dovuta, da 16 euro"
+    },
+    {
+      "parola": "ordine cronologico",
+      "categoria": "locuzione nominale",
+      "zh": "时间顺序",
+      "en": "chronological order",
+      "esempio": "verranno trattate rispettando l’ordine cronologico di presentazione"
+    }
+  ]
+}

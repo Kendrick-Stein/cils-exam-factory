@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Lo scorso luglio (concludere) __(1)__ l'esperienza. Il primo giorno (dedicare) __(2)__ tempo all'accoglienza. Per due settimane (gestire) __(3)__ i prestiti. Una volta (illustrare) __(4)__ i servizi. Poi (vedere) __(5)__ i colleghi confusi. Subito dopo (ridere) __(6)__ molto. La pausa caffè, alla fine del mese, (diventare) __(7)__ un momento di dialogo. Alla fine del progetto (risultare) __(8)__ positiva l'esperienza. Adesso (ammettere) __(9)__ che l'esperienza è stata positiva. Oggi (raccontare) __(10)__ il progetto; adesso il tono (essere) __è (0)__ positivo.",
+    "T5_TITLE": "STUDENTI IN BIBLIOTECA: LA MIA ESPERIENZA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "*Nota:* S2.1–S2.8 hanno ciascuno un indicatore di evento concluso vicino al verbo: “Lo scorso luglio”, “Il primo giorno”, “Per due settimane”, “Una volta”, “Poi”, “Subito dopo”, “alla fine del mese” e “Alla fine del progetto”. In S2.7 e S2.8 il soggetto femminile è espresso. “Adesso” (S2.9) e “Oggi” (S2.10) richiedono il presente. 中文：每个过去时空格都有独立的完成事件标记；助动词和分词都写在空格内，现在时间标记限定现在时。*",
+    "ANS_S2_ROWS": "| 1 | ho concluso | passato prossimo | 6 | ho riso | passato prossimo |\n| 2 | ho dedicato | passato prossimo | 7 | è diventata | passato prossimo |\n| 3 | ho gestito | passato prossimo | 8 | è risultata | passato prossimo |\n| 4 | ho illustrato | passato prossimo | 9 | ammetto | presente indicativo |\n| 5 | ho visto | passato prossimo | 10 | racconto | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "ho concluso",
+    "S2.2": "ho dedicato",
+    "S2.3": "ho gestito",
+    "S2.4": "ho illustrato",
+    "S2.5": "ho visto",
+    "S2.6": "ho riso",
+    "S2.7": "è diventata",
+    "S2.8": "è risultata",
+    "S2.9": "ammetto",
+    "S2.10": "racconto"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "accoglienza",
+      "categoria": "sostantivo",
+      "zh": "接待",
+      "en": "reception",
+      "esempio": "Il primo giorno ho dedicato tempo all'accoglienza."
+    },
+    {
+      "parola": "prestiti",
+      "categoria": "espressione nominale",
+      "zh": "借阅申请",
+      "en": "loan requests",
+      "esempio": "Per due settimane ho gestito i prestiti."
+    },
+    {
+      "parola": "servizi",
+      "categoria": "espressione nominale",
+      "zh": "各种服务",
+      "en": "various services",
+      "esempio": "Una volta ho illustrato i servizi."
+    },
+    {
+      "parola": "colleghi confusi",
+      "categoria": "espressione nominale",
+      "zh": "国际同学",
+      "en": "confused classmates",
+      "esempio": "Poi ho visto i colleghi confusi."
+    },
+    {
+      "parola": "momento di dialogo",
+      "categoria": "espressione nominale",
+      "zh": "分享与交流",
+      "en": "moment of dialogue",
+      "esempio": "La pausa caffè è diventata un momento di dialogo."
+    }
+  ]
+}

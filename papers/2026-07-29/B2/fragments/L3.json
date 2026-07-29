@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "In ogni città che abbiamo attraversato c'è stata una vera e propria mobilitazione cittadina. Tutti aspettavano il mio passaggio e ci hanno donato un sorriso, un abbraccio e un piatto di pasta.",
+    "T3_PART_B": "Dopo Firenze e Prato veniva Pistoia, dove l'amministrazione comunale ci aveva accolto e l'assessore al turismo Alessandro Sabella aveva voluto incontrarci. Paolo Rindi ci aveva donato un'esperienza emozionante: la lavanda dei piedi.",
+    "T3_PART_C": "Con questa convinzione, abbiamo riconosciuto nel percorso un patrimonio della nostra terra, degno di essere conosciuto da ogni pellegrino. Poi abbiamo ringraziato le città che ci avevano ospitato, cominciando da Firenze e Prato.",
+    "T3_PART_D": "Lasciata Pistoia, a Pescia ci aspettavano l'ospitalità di Jacopo, le sue formidabili crêpes a colazione e la disponibilità di Noemi e Andrea. Era un'altra tappa segnata dalla generosità.",
+    "T3_PART_E": "Da Lucca siamo passati a Pisa, dove le suore di Nazareth ci hanno offerto ospitalità. Lì abbiamo incontrato Roberto, un ragazzo senza fissa dimora, e abbiamo trascorso con lui la serata.",
+    "T3_PART_F": "Queste accoglienze erano tutte a «donativo»: per noi il donativo significava una cosa sola, lunga vita per il Cammino e per i pellegrini. Non c'erano più dubbi: era davvero il Cammino di Santiago in Italia.",
+    "T3_PART_G": "Conclusa quella serata a Pisa, siamo arrivati infine a Livorno. Davide Fiz e il comitato del quartiere San Jacopo, guidato da Irene, ci hanno fatto sentire subito a casa. Vi abbiamo trascorso tre giorni, ammirando i tramonti dalla Terrazza Mascagni.",
+    "T3_PART_H": "Proprio dopo quell'esperienza, Pistoia ci appariva come un piccolo grande gioiello. La chiamavano «la Santiago d'Italia», ma noi non eravamo d'accordo: Pistoia era Santiago, perché vi respiravamo la stessa essenza di Santiago de Compostela.",
+    "T3_PART_I": "Durante quella serata gli abbiamo donato un sorriso sincero e parole di conforto. Quell'incontro ci ha ricordato ciò che il Cammino insegna: non essere più indifferenti.",
+    "T3_PART_J": "Fra quelle due prime tappe, a Firenze ricordavamo soprattutto la gentilezza di suor Barbara; a Prato, invece, la struttura d'accoglienza di don Carlo e i simpatici ragazzi del circolo ARCI.",
+    "T3_PART_K": "Subito dopo Pescia, a Lucca abbiamo ringraziato Erica e Roby per il loro cuore immenso, con la speranza che Roby, grazie alla nostra ricetta, riuscisse finalmente a cucinare la cacio e pepe.",
+    "T3_TITLE": "UN CAMMINO DI CITTÀ IN CITTÀ"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Presenta l'accoglienza ricevuta in tutte le città attraversate. |\n| 2 | F | «Queste accoglienze» riprende la mobilitazione e i gesti descritti nella parte A. |\n| 3 | C | «Con questa convinzione» riprende l'idea del Cammino di Santiago in Italia e introduce i ringraziamenti alle città. |\n| 4 | J | «Quelle due prime tappe» rimanda precisamente a Firenze e Prato, nominate alla fine della parte C. |\n| 5 | B | «Dopo Firenze e Prato» porta il racconto alla tappa successiva, Pistoia. |\n| 6 | H | «Quell'esperienza» riprende la lavanda dei piedi ricevuta a Pistoia. |\n| 7 | D | «Lasciata Pistoia» conduce senza alternative alla tappa di Pescia. |\n| 8 | K | «Subito dopo Pescia» introduce la visita a Lucca. |\n| 9 | E | «Da Lucca» collega direttamente la tappa precedente all'arrivo a Pisa. |\n| 10 | I | «Durante quella serata» riprende la serata trascorsa a Pisa con Roberto. |\n| 11 | G | «Conclusa quella serata a Pisa» chiude il percorso con l'arrivo e i tre giorni a Livorno. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–D–K–E–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–D–K–E–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mobilitazione cittadina",
+      "categoria": "locuzione nominale",
+      "zh": "市民动员",
+      "en": "community mobilization",
+      "esempio": "In ogni città che abbiamo attraversato c'è stata una vera e propria mobilitazione cittadina."
+    },
+    {
+      "parola": "struttura d'accoglienza",
+      "categoria": "locuzione nominale",
+      "zh": "接待设施",
+      "en": "accommodation facility",
+      "esempio": "Fra quelle due prime tappe, a Firenze ricordavamo soprattutto la gentilezza di suor Barbara; a Prato, invece, la struttura d'accoglienza di don Carlo e i simpatici ragazzi del circolo ARCI."
+    },
+    {
+      "parola": "lavanda dei piedi",
+      "categoria": "locuzione nominale",
+      "zh": "洗脚礼",
+      "en": "washing of the feet",
+      "esempio": "Paolo Rindi ci aveva donato un'esperienza emozionante: la lavanda dei piedi."
+    },
+    {
+      "parola": "senza fissa dimora",
+      "categoria": "locuzione aggettivale",
+      "zh": "无固定住所的",
+      "en": "homeless",
+      "esempio": "Lì abbiamo incontrato Roberto, un ragazzo senza fissa dimora, e abbiamo trascorso con lui la serata."
+    },
+    {
+      "parola": "parole di conforto",
+      "categoria": "locuzione nominale",
+      "zh": "安慰的话",
+      "en": "words of comfort",
+      "esempio": "Durante quella serata gli abbiamo donato un sorriso sincero e parole di conforto."
+    }
+  ]
+}

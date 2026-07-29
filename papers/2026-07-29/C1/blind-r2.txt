@@ -1,0 +1,40 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "è rimasto", "confidence": "hi"},
+  "S2.2": {"answer": "correva", "confidence": "hi"},
+  "S2.3": {"answer": "mostrò", "confidence": "hi"},
+  "S2.4": {"answer": "fosse tornata", "confidence": "hi"},
+  "S2.5": {"answer": "segna", "confidence": "hi"},
+  "S2.6": {"answer": "eseguendo", "confidence": "hi"},
+  "S2.7": {"answer": "scritto", "confidence": "hi"},
+  "S2.8": {"answer": "eseguì", "confidence": "hi"},
+  "S2.9": {"answer": "ritrovasse", "confidence": "hi"},
+  "S2.10": {"answer": "è stata spiegata", "confidence": "hi"},
+  "S2.11": {"answer": "scrisse", "confidence": "hi"},
+  "S2.12": {"answer": "aveva sognato", "confidence": "med"},
+  "S2.13": {"answer": "fosse", "confidence": "hi"},
+  "S2.14": {"answer": "si trasformava", "confidence": "hi"},
+  "S2.15": {"answer": "urlare", "confidence": "hi"},
+  "S2.16": {"answer": "composta", "confidence": "hi"},
+  "S2.17": {"answer": "aspettava", "confidence": "hi"},
+  "S2.18": {"answer": "abbia concluso", "confidence": "hi"},
+  "S2.19": {"answer": "difenda", "confidence": "hi"},
+  "S2.20": {"answer": "perdete", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.12",
+    "reason": "«Aveva sognato» è favorito da «già allora», ma «sognava» potrebbe essere grammaticalmente plausibile come descrizione di uno stato o motivo ricorrente."
+  }
+]
+```
+
+WRITING checks
+```json
+[]
+```

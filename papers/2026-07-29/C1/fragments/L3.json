@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "A ventisei anni, completamente rovinato finanziariamente, ma ancora bello nonostante gli stravizi della sua prima gioventù, don Elia pensò di ammogliarsi. Gl’indicarono la nipote di un vescovo, alla quale lo zio doveva lasciare una grossa eredità.",
+    "T3_PART_B": "se non avrebbe fatto un’opera meritoria a conceder la nipote in isposa ad un peccatore pentito. «Se io rifiuto, pensò il buon vecchio, Elia può ricadere nei suoi eccessi: facendo un buon matrimonio, invece, egli si correggerà davvero».",
+    "T3_PART_C": "Ma mentre chiacchieravano, in dialetto sardo, un cameriere bussò discretamente all'uscio. Elia, alquanto seccato, aprì. — Scusi, — disse il cameriere — c'è qui all'albergo, un vecchio sardignolo.",
+    "T3_PART_D": "e si innamorò di Elia perchè egli era nobile e aveva fatto un viaggio apposta per conoscerla. Il vecchio vescovo adorava la nipote, ma dichiarò subito che il matrimonio sognato e voluto da lei non gli piaceva.",
+    "T3_PART_E": "Ma quando ho sentito parlar sardo mi son rallegrato come se avessi visto mio padre. — Salute! — rispose Elia. — Anche noi siamo contenti di vedere un compatriota. Sedetevi. E di qual paese siete?",
+    "T3_PART_F": "e disse francamente allo sposo che se non si comportava bene l'assegno verrebbe sospeso. I due sposi accettarono questa condizione, e partirono in viaggio di nozze.",
+    "T3_PART_G": "Il vecchio entrò subito dopo. Vestiva in borghese, ma invece del cappello aveva in testa la berretta sarda. I lunghi capelli grigiastri gli coprivano le orecchie turate con l'ovatta.",
+    "T3_PART_H": "Don Elia andò nella piccola città vescovile e riuscì a far innamorare di sè la ragazza. Ella si chiamava Pasqua: era buona, intelligente ma ignorante,",
+    "T3_PART_I": "E siccome pioveva dirottamente e la sposa soffriva ancora il mal di mare, si chiusero nella loro camera, decisi a non uscire finchè il tempo non si rassernava.",
+    "T3_PART_J": "— Son venuto per curarmi di una otite, ed anche per soddisfare al mio antico desiderio di vedere il Papa! — E l'avete veduto? — domandò Pasqua con viva curiosità. — Non ancora! Ma c'è una persona che s'è incaricata di farmi ottenere un'udienza.",
+    "T3_PART_K": "Dovevano andare a Roma, Napoli, Pompei. Lo zio li aveva incaricati di fare un'offerta alla Madonna di Pompei. A Roma i due giovani sposi scesero in un modesto albergo vicino alla stazione.",
+    "T3_PART_L": "— Di Barunèi. Montanaro! Sono cugino di don Simone Decherchi. Elia aveva sentito parlare dei Decherchi, anche loro nobili decaduti. — E che fate, a Roma? — domandò al vecchio.",
+    "T3_PART_M": "Egli aveva sentito parlare di Elia. Il giovine però si mostrava così pentito dei suoi trascorsi, così risoluto a cambiar vita, che il vecchio vescovo si domandò",
+    "T3_PART_N": "Il suo volto raso, giallognolo, la bocca rientrante, gli occhi grigi, avevano una espressione ironica e maliziosa. — Salute, fratelli, — egli gridò entrando — perdonerete se mi son preso la libertà di disturbarvi.",
+    "T3_PART_O": "E cedette. Elia, del resto, era pronto a cambiar vita e a diventare un buon marito. Il vescovo, tuttavia, non fece la dote a Pasqua: assegnò un tanto al mese alla giovine coppia,",
+    "T3_PART_P": "Egli pretende di aver sentito parlare i signori in sardo, e domanda se può venire a vederli. È un vecchio, malato. — Che venga pure — disse Elia.",
+    "T3_TITLE": "CATTIVE COMPAGNIE"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | parte data |\n| L3.2 | H | «Don Elia andò» sviluppa l’azione annunciata in A: dopo l’indicazione della nipote, egli si reca nella città vescovile. |\n| L3.3 | D | L’iniziale «e si innamorò» completa la descrizione di Pasqua lasciata in sospeso da H; subito dopo compare il vescovo, suo zio. |\n| L3.4 | M | «Egli» riprende univocamente «Il vecchio vescovo» nominato alla fine di D, mentre «Elia» resta l’oggetto dei suoi sospetti. |\n| L3.5 | B | «se non avrebbe fatto» completa direttamente la domanda indiretta aperta da «si domandò» alla fine di M. |\n| L3.6 | O | «E cedette» presenta l’esito immediato del ragionamento con cui il vescovo conclude B. |\n| L3.7 | F | L’iniziale «e disse» coordina la seconda misura del vescovo con «assegnò un tanto al mese», che chiude O. |\n| L3.8 | K | «Dovevano andare» riprende il viaggio di nozze appena iniziato in F e ne precisa l’itinerario; poi gli sposi arrivano a Roma. |\n| L3.9 | I | parte data |\n| L3.10 | C | «Ma mentre chiacchieravano» colloca l’arrivo del cameriere durante la permanenza in camera descritta in I. |\n| L3.11 | P | «Egli» può indicare soltanto il «vecchio sardignolo» appena annunciato dal cameriere in C; segue il permesso di Elia. |\n| L3.12 | G | «Il vecchio entrò subito dopo» realizza l’invito «Che venga pure» con cui termina P e avvia la descrizione del visitatore. |\n| L3.13 | N | «Il suo volto» prosegue senza cambio di referente il ritratto fisico del vecchio cominciato in G; poi il visitatore saluta. |\n| L3.14 | E | «Ma quando ho sentito parlar sardo» completa la spiegazione del disturbo iniziata dal vecchio in N; Elia risponde e domanda il paese d’origine. |\n| L3.15 | L | «Di Barunèi» risponde direttamente a «di qual paese siete?» in E; dopo il riconoscimento dei Decherchi, Elia formula una nuova domanda. |\n| L3.16 | J | «Son venuto per curarmi» risponde a «che fate, a Roma?» in L; le due battute successive sviluppano il desiderio di vedere il Papa. |",
+    "ANS_L3_SEQUENCE": "A–H–D–M–B–O–F–K–I–C–P–G–N–E–L–J"
+  },
+  "key": {
+    "L3": "A–H–D–M–B–O–F–K–I–C–P–G–N–E–L–J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "stravizi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "放纵；纵欲",
+      "en": "excesses",
+      "esempio": "nonostante gli stravizi della sua prima gioventù"
+    },
+    {
+      "parola": "ammogliarsi",
+      "categoria": "verbo pronominale",
+      "zh": "娶妻；结婚",
+      "en": "to marry",
+      "esempio": "don Elia pensò di ammogliarsi"
+    },
+    {
+      "parola": "opera meritoria",
+      "categoria": "locuzione nominale",
+      "zh": "善举；值得称许的行为",
+      "en": "meritorious deed",
+      "esempio": "avrebbe fatto un’opera meritoria"
+    },
+    {
+      "parola": "dirottamente",
+      "categoria": "avverbio",
+      "zh": "倾盆地；猛烈地",
+      "en": "heavily",
+      "esempio": "pioveva dirottamente"
+    },
+    {
+      "parola": "berretta sarda",
+      "categoria": "locuzione nominale",
+      "zh": "撒丁式便帽",
+      "en": "Sardinian cap",
+      "esempio": "aveva in testa la berretta sarda"
+    }
+  ]
+}

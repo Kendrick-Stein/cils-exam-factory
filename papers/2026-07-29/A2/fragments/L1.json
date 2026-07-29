@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Le prime creature animali**\n\nA) vivevano nel mare.\n\nB) erano simili ai mammiferi.\n\nC) sono comparse dopo gli esseri umani.\n\n**2. Gli invertebrati**\n\nA) hanno la colonna vertebrale.\n\nB) non hanno la colonna vertebrale.\n\nC) sono mammiferi e uccelli.\n\n**3. I parenti più vicini agli esseri umani sono**\n\nA) i cani.\n\nB) i cavalli.\n\nC) le scimmie.\n\n**4. Gli animali che si sono adattati meglio**\n\nA) hanno vissuto più a lungo e hanno avuto più cuccioli.\n\nB) sono rimasti tutti nello stesso luogo.\n\nC) si sono trasformati in vermi e insetti.",
+    "T1_TEXT": "Il mondo non è popolato solo da noi, ma da tante altre creature importanti per la vita del pianeta. Ecco cinque cose fondamentali sugli animali.\n\n1. Gli animali ci sono sempre stati?\nGli animali vivono sul nostro pianeta da molto più tempo di noi: sono comparsi sulla Terra più di 500 milioni di anni fa. Le prime creature erano simili a vermi o insetti e vivevano in mare. Piano piano si sono trasformate nei tanti animali diversi che vediamo oggi.\n\n2. Quanti tipi di animali esistono?\nGli animali si dividono in due grandi gruppi. Gli invertebrati non hanno la colonna vertebrale: per esempio insetti, ragni, lumache e polpi. I vertebrati hanno la colonna vertebrale: sono i pesci, i rettili, gli anfibi, gli uccelli e i mammiferi.\n\n3. Anche noi siamo animali?\nCertamente! Siamo vertebrati e mammiferi, come cani, gatti e cavalli. I nostri parenti più vicini sono le scimmie: le loro facce, le mani e i piedi sono molto simili ai nostri.\n\n4. Perché oggi ci sono tanti tipi di animali?\nÈ a causa dell'evoluzione: gli animali si sono spostati in luoghi diversi, e quelli che si sono adattati meglio hanno vissuto più a lungo e hanno avuto più cuccioli.",
+    "T1_TITLE": "5 COSE FONDAMENTALI DA SAPERE SUGLI ANIMALI"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Le prime creature «vivevano in mare». 海洋是关键信息。 |\n| L1.2 | B | Gli invertebrati «non hanno la colonna vertebrale». 注意与脊椎动物的对比。 |\n| L1.3 | C | «I nostri parenti più vicini sono le scimmie». 题目问最近的亲属。 |\n| L1.4 | A | Quelli adattati meglio «hanno vissuto più a lungo e hanno avuto più cuccioli». 结果有两个部分。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "creature",
+      "categoria": "nome femminile plurale",
+      "zh": "生物",
+      "en": "creatures",
+      "esempio": "Il mondo non è popolato solo da noi, ma da tante altre creature importanti per la vita del pianeta."
+    },
+    {
+      "parola": "invertebrati",
+      "categoria": "nome maschile plurale",
+      "zh": "无脊椎动物",
+      "en": "invertebrates",
+      "esempio": "Gli invertebrati non hanno la colonna vertebrale: per esempio insetti, ragni, lumache e polpi."
+    },
+    {
+      "parola": "colonna vertebrale",
+      "categoria": "locuzione nominale femminile",
+      "zh": "脊柱",
+      "en": "spine",
+      "esempio": "I vertebrati hanno la colonna vertebrale: sono i pesci, i rettili, gli anfibi, gli uccelli e i mammiferi."
+    },
+    {
+      "parola": "parenti",
+      "categoria": "nome maschile plurale",
+      "zh": "亲属",
+      "en": "relatives",
+      "esempio": "I nostri parenti più vicini sono le scimmie: le loro facce, le mani e i piedi sono molto simili ai nostri."
+    },
+    {
+      "parola": "si sono adattati",
+      "categoria": "verbo pronominale, passato prossimo",
+      "zh": "适应了",
+      "en": "adapted",
+      "esempio": "È a causa dell'evoluzione: gli animali si sono spostati in luoghi diversi, e quelli che si sono adattati meglio hanno vissuto più a lungo e hanno avuto più cuccioli."
+    }
+  ]
+}

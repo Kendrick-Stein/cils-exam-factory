@@ -1,0 +1,24 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova, LENGTH ONLY. FRESH agent.
+
+Read first: `.claude/agents/item-writer.md`, `factory/exams/cils/templates/A2.md` (the L3 block + its HTML comments).
+
+Fragment: `papers/2026-07-29/A2/fragments/L3.json` — comprensione della lettura, prova 3, `abbinamento`, 6 micro-testi funzionali con titolo, 6 items.
+Source text: the '## Slot T3' section of `papers/2026-07-29/A2/sources.md`.
+
+Defect (quality audit): `reading prova 3 has 184 words; expected 120-180`.
+
+Fix: shorten the printed micro-testi to land around **150 words** as the audit counts them. Cut redundant clauses, adjectives and repeated details — do NOT delete a micro-testo, do NOT invent new content, and keep all 6 abbinamento items solvable from what remains: each item must still match exactly ONE micro-testo, with the discriminating detail still printed.
+
+After trimming, re-read every item stem and confirm its key is still the unique answer. Update the spiegazioni if the discriminating detail moved.
+
+IMPORTANT — how the audit counts words: `scripts/paper_quality_audit.py` counts the WHOLE printed prova block
+(consegna, esempio, the text with its `__(n)__` gap markers — everything except tables and HTML comments),
+NOT just the body prose. So your own body word count will read LOWER than the audit's. Verify with:
+
+    python3 scripts/assemble_paper.py --paper-dir papers/2026-07-29/A2 && \
+    python3 scripts/paper_quality_audit.py --session 2026-07-29 --levels A2 --report /tmp/qa-A2.json
+
+and iterate until the `length.` issue for this prova disappears. Aim for the MIDDLE of the band, not the edge.
+
+Keep exactly 6 items and identical points/consegna. Rewrite `papers/2026-07-29/A2/fragments/L3.json` IN FULL, same schema. Touch no other file (never `manifest.yaml`).
+Reply (short): what you cut, and the audit's reported word count for reading prova 3 after your fix.

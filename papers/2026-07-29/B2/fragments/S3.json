@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "termini",
+    "S3_OPT0_B": "confini",
+    "S3_OPT0_C": "margini",
+    "S3_OPT0_D": "intervalli",
+    "S3_OPTION_ROWS": "| 1. | conservazione | restituzione | presentazione | sospensione |\n| 2. | ricordo | favore | possesso | presenza |\n| 3. | dirigenti | controllanti | rappresentanti | frequentanti |\n| 4. | secondaria | primaria | universitaria | professionale |\n| 5. | partecipazione | selezione | esclusione | inclusione |\n| 6. | ultimi | primi | successivi | precedenti |\n| 7. | requisito | documento | indirizzo | beneficio |\n| 8. | minorenni | stranieri | pendolari | iscritti |\n| 9. | ammessi | occupati | residenti | diplomati |\n| 10. | bilancio | nucleo | domicilio | profilo |\n| 11. | parzialmente | anonimamente | oralmente | regolarmente |\n| 12. | completa | incompleta | parziale | facoltativa |\n| 13. | partire | rimanere | pervenire | comparire |\n| 14. | scopo | pena | favore | carico |\n| 15. | ordinaria | personale | gratuita | certificata |",
+    "S3_TEXT_WITH_GAPS": "Si informano le famiglie che sono aperti i __termini (0)__ per la __(1)__ della richiesta di fornitura \"Borse di Studio anno scolastico 2025/2026\", in __(2)__ degli alunni __(3)__ gli istituti di istruzione __(4)__ di II grado, statali e paritari. Sono comprese le scuole superiori dal 1° al 5° anno, con __(5)__ delle scuole private non paritarie. Possono fare richiesta anche gli alunni dei __(6)__ tre anni di un percorso triennale di IeFP; i quarti anni sono esclusi.\n\nPossono richiedere il suddetto __(7)__ i genitori o chi esercita la responsabilità genitoriale degli studenti, se __(8)__, oppure gli studenti stessi, se maggiorenni. Devono essere __(9)__ nel Comune di Ciampino, anche se frequentano una scuola in un altro comune. Il loro __(10)__ familiare deve avere un reddito ISEE non superiore a 15.748,78 euro.\n\nLa domanda, __(11)__ compilata in ogni sua parte e sottoscritta, insieme alla __(12)__ documentazione richiesta, dovrà __(13)__ entro le ore 12.00 del 10 aprile 2026, a __(14)__ di esclusione. Si può inviare tramite PEC, cioè per posta elettronica __(15)__, oppure consegnare a mano all'Ufficio Protocollo del Comune.",
+    "T6_TITLE": "BORSE DI STUDIO PER L'ANNO SCOLASTICO 2025/2026"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | «termini per la presentazione della richiesta» è la collocazione amministrativa corretta; 中文：提交申请。 |\n| S3.2 | B | «in favore degli alunni» indica i destinatari del beneficio; 中文：面向学生。 |\n| S3.3 | D | Gli alunni «frequentanti gli istituti» sono quelli che vi studiano; le altre opzioni cambiano il loro ruolo. |\n| S3.4 | A | «istruzione secondaria di II grado» coincide con «scuole superiori dal 1° al 5° anno». |\n| S3.5 | C | Le scuole private non paritarie sono escluse: «con esclusione delle scuole…». |\n| S3.6 | B | Il percorso è triennale e i quarti anni sono esclusi: sono ammessi i «primi tre anni». |\n| S3.7 | D | «suddetto beneficio» riprende le borse di studio; 中文：上述资助。 |\n| S3.8 | A | Il contrasto esplicito è «se minorenni» / «se maggiorenni». |\n| S3.9 | C | La condizione riguarda chi è «residente nel Comune», anche se studia altrove. |\n| S3.10 | B | ISEE indica la situazione economica del «nucleo familiare»; 中文：家庭核心成员。 |\n| S3.11 | D | «in ogni sua parte e sottoscritta» impone «regolarmente»: le alternative indicano incompletezza, anonimato o una modalità incompatibile. |\n| S3.12 | A | «documentazione richiesta» e domanda completa impongono la «completa documentazione», non materiale incompleto, parziale o facoltativo. |\n| S3.13 | C | In un avviso formale la domanda deve «pervenire entro» la scadenza, cioè arrivare all'ufficio. |\n| S3.14 | B | «a pena di esclusione» è la locuzione che segnala la conseguenza del ritardo; 中文：否则取消资格。 |\n| S3.15 | D | La sigla «PEC» conferma la collocazione «posta elettronica certificata». |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fornitura",
+      "categoria": "sostantivo femminile",
+      "zh": "提供；发放",
+      "en": "provision; supply",
+      "esempio": "richiesta di fornitura \"Borse di Studio anno scolastico 2025/2026\""
+    },
+    {
+      "parola": "paritarie",
+      "categoria": "aggettivo",
+      "zh": "受国家认可的私立（学校）",
+      "en": "state-recognised private",
+      "esempio": "gli istituti di istruzione secondaria di II grado, statali e paritari"
+    },
+    {
+      "parola": "responsabilità genitoriale",
+      "categoria": "locuzione nominale",
+      "zh": "监护责任",
+      "en": "parental responsibility",
+      "esempio": "chi esercita la responsabilità genitoriale"
+    },
+    {
+      "parola": "sottoscritta",
+      "categoria": "aggettivo / participio passato",
+      "zh": "已签署的",
+      "en": "signed",
+      "esempio": "regolarmente compilata in ogni sua parte e sottoscritta"
+    },
+    {
+      "parola": "consegnare a mano",
+      "categoria": "locuzione verbale",
+      "zh": "亲自递交",
+      "en": "hand delivery",
+      "esempio": "oppure consegnare a mano all'Ufficio Protocollo del Comune"
+    }
+  ]
+}

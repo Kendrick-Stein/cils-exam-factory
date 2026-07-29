@@ -1,0 +1,35 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "sentivo", "confidence": "hi"},
+  "S2.2": {"answer": "parlavo", "confidence": "hi"},
+  "S2.3": {"answer": "sono riuscita", "confidence": "hi"},
+  "S2.4": {"answer": "aiutano", "confidence": "hi"},
+  "S2.5": {"answer": "mancassero", "confidence": "hi"},
+  "S2.6": {"answer": "potrei", "confidence": "hi"},
+  "S2.7": {"answer": "sento", "confidence": "hi"},
+  "S2.8": {"answer": "entrare", "confidence": "hi"},
+  "S2.9": {"answer": "sono stati trasmessi", "confidence": "hi"},
+  "S2.10": {"answer": "ha creduto", "confidence": "hi"},
+  "S2.11": {"answer": "continui", "confidence": "hi"},
+  "S2.12": {"answer": "deluda", "confidence": "hi"},
+  "S2.13": {"answer": "è stato", "confidence": "hi"},
+  "S2.14": {"answer": "mi occupo", "confidence": "hi"},
+  "S2.15": {"answer": "ho seguito", "confidence": "hi"},
+  "S2.16": {"answer": "giocavo", "confidence": "hi"},
+  "S2.17": {"answer": "sono", "confidence": "hi"},
+  "S2.18": {"answer": "spiegava", "confidence": "hi"},
+  "S2.19": {"answer": "avessi ricevuto", "confidence": "hi"},
+  "S2.20": {"answer": "avrei rischiato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[]
+```

@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Cerimonia di inaugurazione**\n\nLunedì 20 luglio, lungolago di Castel Gandolfo\n\nore 19 Cerimonia di inaugurazione con taglio del nastro, istituzioni, associazioni e cittadini\n\n○ **2. Spettacolo serale – Alessandro e Monica**\n\nMartedì 21 luglio, Mole di Castel Gandolfo, piazzetta tra via Petrara e via delle Mole\n\nore 21\n\n○ **3. Spettacolo serale – Mirco e gli Ottava nota**\n\nMercoledì 22 luglio, Laghetto di Castel Gandolfo, parco giochi via Santo Spirito\n\nore 21\n\n○ **4. Spettacolo serale con Emanuele Imperioli**\n\nGiovedì 23 luglio, Pavona di Castel Gandolfo, Anfiteatro via Leonardo da Vinci\n\nSpettacolo serale con Emanuele Imperioli\n\n○ **5. Showcooking di pasticceria**\n\nSabato 25 luglio, Centro storico di Castel Gandolfo, p.zza della Libertà\n\nore 17:30 Showcooking di pasticceria con lo chef Art Smith\n\n○ **6. Giochi di piazza per le famiglie**\n\nDomenica 26 luglio, Centro storico di Castel Gandolfo, p.zza della Libertà\n\nore 19:30 Giochi di piazza per le famiglie",
+    "L3_OPTIONS": "**A.** Lo spettacolo è martedì sera in una piazzetta tra via Petrara e via delle Mole.\n\n**B.** La domenica sera le famiglie possono partecipare ai giochi in piazza della Libertà, nel centro storico.\n\n**C.** L'inaugurazione è lunedì alle 19 sul lungolago di Castel Gandolfo, con autorità, associazioni e cittadini.\n\n**D.** Lo chef Art Smith presenta uno showcooking di pasticceria sabato pomeriggio nel centro storico, in piazza della Libertà.\n\n**E.** Lo spettacolo di Mirco e gli Ottava nota è mercoledì sera vicino al parco giochi.\n\n**F.** Emanuele Imperioli si esibisce giovedì sera nell'Anfiteatro di Pavona, in via Leonardo da Vinci, a Castel Gandolfo.\n\n**G.** Alessandro e Monica si esibiscono mercoledì sera nel parco giochi vicino al Laghetto di Castel Gandolfo.\n\n**H.** Lo showcooking di pasticceria è domenica alle 19:30 e propone giochi per tutte le famiglie."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | C | Le parole decisive sono \"Lunedì 20 luglio\", \"lungolago\" e \"ore 19\". 中文：周一19点在湖边举行开幕式。 |\n| L3.2 | A | Il testo indica \"Martedì 21 luglio\", \"piazzetta tra via Petrara e via delle Mole\" e lo spettacolo di Alessandro e Monica. 中文：周二晚在两条街之间的小广场。 |\n| L3.3 | E | \"Mercoledì 22 luglio\", \"parco giochi\" e \"Mirco e gli Ottava nota\" identificano un solo evento. 中文：周三晚在游乐场附近演出。 |\n| L3.4 | F | Il testo unisce \"Giovedì 23 luglio\", \"Anfiteatro via Leonardo da Vinci\" ed \"Emanuele Imperioli\". 中文：周四晚在帕沃纳圆形剧场。 |\n| L3.5 | D | Le informazioni uniche sono \"Sabato 25 luglio\", \"ore 17:30\" e \"chef Art Smith\". 中文：周六下午的甜点烹饪展示。 |\n| L3.6 | B | Il testo dice \"Domenica 26 luglio\", \"ore 19:30\" e \"Giochi di piazza per le famiglie\". 中文：周日晚有家庭广场游戏。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "C",
+    "L3.2": "A",
+    "L3.3": "E",
+    "L3.4": "F",
+    "L3.5": "D",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "taglio del nastro",
+      "categoria": "locuzione nominale",
+      "zh": "剪彩",
+      "en": "ribbon-cutting",
+      "esempio": "ore 19 Cerimonia di inaugurazione con taglio del nastro, istituzioni, associazioni e cittadini"
+    },
+    {
+      "parola": "piazzetta",
+      "categoria": "nome femminile",
+      "zh": "小广场",
+      "en": "small square",
+      "esempio": "Martedì 21 luglio, Mole di Castel Gandolfo, piazzetta tra via Petrara e via delle Mole"
+    },
+    {
+      "parola": "Anfiteatro",
+      "categoria": "nome maschile",
+      "zh": "圆形剧场",
+      "en": "amphitheatre",
+      "esempio": "Giovedì 23 luglio, Pavona di Castel Gandolfo, Anfiteatro via Leonardo da Vinci"
+    },
+    {
+      "parola": "Showcooking di pasticceria",
+      "categoria": "locuzione nominale",
+      "zh": "甜点烹饪展示",
+      "en": "pastry cooking demonstration",
+      "esempio": "ore 17:30 Showcooking di pasticceria con lo chef Art Smith"
+    },
+    {
+      "parola": "Giochi di piazza",
+      "categoria": "locuzione nominale",
+      "zh": "广场游戏",
+      "en": "public-square games",
+      "esempio": "ore 19:30 Giochi di piazza per le famiglie"
+    }
+  ]
+}

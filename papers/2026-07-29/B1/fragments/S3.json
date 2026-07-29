@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "inaugurato",
+    "S3_OPT0_B": "rinviato",
+    "S3_OPT0_C": "demolito",
+    "S3_OPT0_D": "svuotato",
+    "S3_OPTION_ROWS": "| 1. | e | ma | perché | oppure |\n| 2. | offre | conta | visita | cerca |\n| 3. | turisti | edifici | residenti | negozi |\n| 4. | parco | ufficio | centro | ponte |\n| 5. | ingombranti | quotidiani | naturali | personali |\n| 6. | orari | fondi | servizi | lavori |\n| 7. | apertura | iniziativa | investimento | area |\n| 8. | richiesta | lacuna | giornata | batteria |\n| 9. | posa | forma | vendita | visita |\n| 10. | funzione | città | strada | fila |\n| 11. | aperto | costruito | raccolto | investito |\n| 12. | camion | cassonetti | cittadini | quartieri |\n| 13. | residenti | orari | investimenti | rifiuti |\n| 14. | fondi | camion | centri | cittadini |\n| 15. | orientale | particolare | differenziata | ingombrante |",
+    "S3_TEXT_WITH_GAPS": "È stato __inaugurato (0)__ questa mattina. Sarà destinato a rifiuti ingombranti e particolari.\n\nA Trieste ce n'erano già quattro, __(1)__ la zona orientale della città, che __(2)__ 40 mila __(3)__, non aveva ancora il suo __(4)__ per la raccolta di rifiuti __(5)__ e particolari. I __(6)__ del PNRR – un milione – e l'__(7)__ di Acegas – 800 mila euro – hanno consentito di colmare la __(8)__ in tempi record, poco più di un anno dalla __(9)__ della prima pietra, con il nuovo centro di raccolta di Giarizzole. Entrerà in __(10)__ il primo aprile e sarà __(11)__ dal lunedì al sabato dalle 9 alle 19.\n\nL'area è ampia, qui i __(12)__ – che conferiranno i __(13)__ nei container dall'alto – non incroceranno i __(14)__ che svuoteranno e sostituiranno i cassoni. L'iniziativa vuole incentivare la raccolta __(15)__ nel capoluogo, dove non raggiunge il 50% contro una media del nord Italia che supera il 70%.\n\nEppure dal 2014 tutti i cassonetti di Trieste sono in batterie dove sono presenti umido, carta, plastica, vetro e indifferenziata.",
+    "T6_TITLE": "TRIESTE, NUOVO CENTRO DI RACCOLTA RIFIUTI NEL QUARTIERE DI GIARIZZOLE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Ce n'erano già quattro» contrasta con «non aveva ancora»: serve «ma». |\n| S3.2 | B | La zona «conta 40 mila» persone, cioè ne indica il numero. |\n| S3.3 | C | Dopo «40 mila» il testo identifica gli abitanti: «residenti». |\n| S3.4 | C | La zona non aveva ancora il suo «centro per la raccolta». |\n| S3.5 | A | L'apertura precisa che il servizio è destinato ai «rifiuti ingombranti e particolari». |\n| S3.6 | B | Il «milione» del PNRR indica dei «fondi», non orari o servizi. |\n| S3.7 | C | Gli «800 mila euro» sono «l'investimento di Acegas». |\n| S3.8 | B | La costruzione permette di «colmare la lacuna», cioè risolvere la mancanza. 中文：固定搭配。 |\n| S3.9 | A | L'espressione è «posa della prima pietra», momento iniziale dei lavori. 中文：固定搭配。 |\n| S3.10 | A | Un servizio che comincia «entra in funzione». 中文：固定搭配。 |\n| S3.11 | A | Gli orari «dal lunedì al sabato dalle 9 alle 19» indicano quando il centro sarà «aperto». |\n| S3.12 | C | Sono i «cittadini» a conferire i rifiuti nei container. |\n| S3.13 | D | I cittadini «conferiranno i rifiuti nei container». |\n| S3.14 | B | I «camion» sono i mezzi che «svuoteranno e sostituiranno i cassoni». |\n| S3.15 | C | Il confronto in percentuale riguarda la «raccolta differenziata». |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "C",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "B",
+    "S3.9": "A",
+    "S3.10": "A",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "D",
+    "S3.14": "B",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rifiuti ingombranti",
+      "categoria": "espressione nominale",
+      "zh": "大件垃圾",
+      "en": "bulky waste",
+      "esempio": "Sarà destinato a rifiuti ingombranti e particolari."
+    },
+    {
+      "parola": "colmare la lacuna",
+      "categoria": "espressione verbale",
+      "zh": "填补空缺",
+      "en": "fill the gap",
+      "esempio": "hanno consentito di colmare la lacuna in tempi record"
+    },
+    {
+      "parola": "posa della prima pietra",
+      "categoria": "espressione nominale",
+      "zh": "奠基",
+      "en": "laying of the foundation stone",
+      "esempio": "poco più di un anno dalla posa della prima pietra"
+    },
+    {
+      "parola": "conferiranno",
+      "categoria": "verbo",
+      "zh": "将投放",
+      "en": "will dispose of",
+      "esempio": "i cittadini conferiranno i rifiuti nei container dall'alto"
+    },
+    {
+      "parola": "cassonetti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "垃圾箱",
+      "en": "waste bins",
+      "esempio": "tutti i cassonetti di Trieste sono in batterie"
+    }
+  ]
+}

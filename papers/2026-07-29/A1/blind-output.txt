@@ -1,0 +1,216 @@
+(1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "A", "confidence": "hi"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "C", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+
+  "S1.1": {"answer": "l'", "confidence": "hi"},
+  "S1.2": {"answer": "il", "confidence": "hi"},
+  "S1.3": {"answer": "il", "confidence": "hi"},
+  "S1.4": {"answer": "la", "confidence": "hi"},
+  "S1.5": {"answer": "la", "confidence": "hi"},
+  "S1.6": {"answer": "la", "confidence": "hi"},
+  "S1.7": {"answer": "il", "confidence": "hi"},
+  "S1.8": {"answer": "le", "confidence": "hi"},
+  "S1.9": {"answer": "l'", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+
+  "S2.1": {"answer": "ho concluso", "confidence": "hi"},
+  "S2.2": {"answer": "era", "confidence": "med"},
+  "S2.3": {"answer": "ho lavorato", "confidence": "med"},
+  "S2.4": {"answer": "ho gestito", "confidence": "med"},
+  "S2.5": {"answer": "ho illustrato", "confidence": "med"},
+  "S2.6": {"answer": "ammetto", "confidence": "hi"},
+  "S2.7": {"answer": "era", "confidence": "hi"},
+  "S2.8": {"answer": "è diventata", "confidence": "med"},
+  "S2.9": {"answer": "racconto", "confidence": "hi"},
+  "S2.10": {"answer": "è stata", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+(2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.2",
+    "issue": "Aspect is not fully forced: «è stato» is also grammatically possible, although «era» is more natural for describing the role."
+  },
+  {
+    "item_id": "S2.3",
+    "issue": "Both «ho lavorato» and «lavoravo» are possible depending on whether the month is presented as a completed experience or background."
+  },
+  {
+    "item_id": "S2.4",
+    "issue": "Both «ho gestito» and «gestivo» can fit, depending on the intended narrative aspect."
+  },
+  {
+    "item_id": "S2.5",
+    "issue": "Both «ho illustrato» and «illustravo» can fit, depending on the intended narrative aspect."
+  },
+  {
+    "item_id": "S2.8",
+    "issue": "«È diventata», «diventò» and, with a habitual/background reading, «diventava» are grammatically possible."
+  }
+]
+```
+
+(3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "20-40 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "15-30 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "note": "All six examiner questions can be answered without external information."
+  },
+  "O2": {
+    "self_contained": true,
+    "note": "Both optional speaking topics specify the principal details to cover."
+  }
+}
+```
+tokens used
+30,824
+(1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "A", "confidence": "hi"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "C", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"},
+
+  "S1.1": {"answer": "l'", "confidence": "hi"},
+  "S1.2": {"answer": "il", "confidence": "hi"},
+  "S1.3": {"answer": "il", "confidence": "hi"},
+  "S1.4": {"answer": "la", "confidence": "hi"},
+  "S1.5": {"answer": "la", "confidence": "hi"},
+  "S1.6": {"answer": "la", "confidence": "hi"},
+  "S1.7": {"answer": "il", "confidence": "hi"},
+  "S1.8": {"answer": "le", "confidence": "hi"},
+  "S1.9": {"answer": "l'", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+
+  "S2.1": {"answer": "ho concluso", "confidence": "hi"},
+  "S2.2": {"answer": "era", "confidence": "med"},
+  "S2.3": {"answer": "ho lavorato", "confidence": "med"},
+  "S2.4": {"answer": "ho gestito", "confidence": "med"},
+  "S2.5": {"answer": "ho illustrato", "confidence": "med"},
+  "S2.6": {"answer": "ammetto", "confidence": "hi"},
+  "S2.7": {"answer": "era", "confidence": "hi"},
+  "S2.8": {"answer": "è diventata", "confidence": "med"},
+  "S2.9": {"answer": "racconto", "confidence": "hi"},
+  "S2.10": {"answer": "è stata", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+(2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.2",
+    "issue": "Aspect is not fully forced: «è stato» is also grammatically possible, although «era» is more natural for describing the role."
+  },
+  {
+    "item_id": "S2.3",
+    "issue": "Both «ho lavorato» and «lavoravo» are possible depending on whether the month is presented as a completed experience or background."
+  },
+  {
+    "item_id": "S2.4",
+    "issue": "Both «ho gestito» and «gestivo» can fit, depending on the intended narrative aspect."
+  },
+  {
+    "item_id": "S2.5",
+    "issue": "Both «ho illustrato» and «illustravo» can fit, depending on the intended narrative aspect."
+  },
+  {
+    "item_id": "S2.8",
+    "issue": "«È diventata», «diventò» and, with a habitual/background reading, «diventava» are grammatically possible."
+  }
+]
+```
+
+(3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "20-40 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "15-30 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "note": "All six examiner questions can be answered without external information."
+  },
+  "O2": {
+    "self_contained": true,
+    "note": "Both optional speaking topics specify the principal details to cover."
+  }
+}
+```

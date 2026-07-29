@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Il cielo può trasformarsi in un campo di battaglia: a noi __questa (0)__ ondata di temporali e allerte meteo __(1)__ __(2)__ ricorda. __(3)__ troviamo sempre più spesso di fronte a precipitazioni estreme e a chicchi le __(4)__ dimensioni possono essere spaventose. Ma __(5)__ cosa succede dentro una nube temporalesca per trasformare semplici gocce d'acqua in «proiettili» congelati?\n\nTutto ha inizio nei cumulonembi, enormi torri di nubi, alcune delle __(6)__ possono superare i dieci chilometri di altezza. Forti correnti ascensionali afferrano le gocce d'acqua e __(7)__ spingono verso zone nelle __(8)__ le temperature scendono molto al di sotto dello zero.\n\nIn questo ambiente gelido si forma il graupel, un cristallo iniziale al __(9)__ si fissano goccioline d'acqua sopraffuse, molte delle __(10)__ restano liquide nonostante la temperatura negativa. Le correnti intrappolano il nucleo, __(11)__ impediscono di cadere e __(12)__ mantengono sospeso nella nube. Durante il tragitto, il graupel incontra altre goccioline e __(13)__ raccoglie alcune; poi __(14)__ __(15)__ ricopre, continuando ad accrescersi. Le correnti __(16)__ riportano verso l'alto.\n\nIl chicco attraversa varie zone, ognuna delle __(17)__ presenta temperature e concentrazioni di umidità diverse. È questa variazione a determinare il modo nel __(18)__ il ghiaccio si deposita sul chicco, la __(19)__ superficie continua così a cambiare. Il nucleo non riesce a cadere finché le correnti __(20)__ trattengono.",
+    "T4_TITLE": "COME SI FORMA LA GRANDINE"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1–S1.2 — ce lo:** *A noi* impone *ce* e la proposizione precedente è ripresa da *lo*; 中文：两个代词的位置和形式都固定。\n- **S1.4 e S1.19 — cui:** dopo l'articolo (*le cui dimensioni*, *la cui superficie*) il relativo possessivo non ammette *quale*; 中文：冠词已给出，只能用 *cui*。\n- **S1.9 — quale:** la preposizione articolata *al* è già stampata e impone *quale*; 中文：不能改成 *a cui*。\n- **S1.13–S1.15 — ne / se ne:** *ne raccoglie alcune* è partitivo, mentre *se ne ricopre* è la forma pronominale completa; 中文：分别表示“收集其中一些”和“覆盖上这些水滴”。",
+    "ANS_S1_ROWS": "| S1.1 | ce | S1.11 | gli |\n| S1.2 | lo | S1.12 | lo |\n| S1.3 | ci | S1.13 | ne |\n| S1.4 | cui | S1.14 | se |\n| S1.5 | che | S1.15 | ne |\n| S1.6 | quali | S1.16 | lo |\n| S1.7 | le | S1.17 | quali |\n| S1.8 | quali | S1.18 | quale |\n| S1.9 | quale | S1.19 | cui |\n| S1.10 | quali | S1.20 | lo |"
+  },
+  "key": {
+    "S1.1": "ce",
+    "S1.2": "lo",
+    "S1.3": "ci",
+    "S1.4": "cui",
+    "S1.5": "che",
+    "S1.6": "quali",
+    "S1.7": "le",
+    "S1.8": "quali",
+    "S1.9": "quale",
+    "S1.10": "quali",
+    "S1.11": "gli",
+    "S1.12": "lo",
+    "S1.13": "ne",
+    "S1.14": "se",
+    "S1.15": "ne",
+    "S1.16": "lo",
+    "S1.17": "quali",
+    "S1.18": "quale",
+    "S1.19": "cui",
+    "S1.20": "lo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "raffiche di vento",
+      "categoria": "locuzione nominale",
+      "zh": "阵风",
+      "en": "gusts of wind",
+      "esempio": "con raffiche di vento e violente grandinate"
+    },
+    {
+      "parola": "raccolti a rischio",
+      "categoria": "locuzione nominale",
+      "zh": "面临风险的农作物",
+      "en": "crops at risk",
+      "esempio": "Tra auto danneggiate, tetti sferzati e raccolti a rischio"
+    },
+    {
+      "parola": "correnti ascensionali",
+      "categoria": "locuzione nominale",
+      "zh": "上升气流",
+      "en": "updrafts",
+      "esempio": "forti correnti ascensionali calde e ricche di umidità"
+    },
+    {
+      "parola": "goccioline d'acqua sopraffuse",
+      "categoria": "locuzione nominale",
+      "zh": "过冷水滴",
+      "en": "supercooled water droplets",
+      "esempio": "si fissano goccioline d'acqua sopraffuse"
+    },
+    {
+      "parola": "continuando ad accrescersi",
+      "categoria": "locuzione verbale",
+      "zh": "继续增大",
+      "en": "continuing to grow",
+      "esempio": "continuando ad accrescersi"
+    }
+  ]
+}

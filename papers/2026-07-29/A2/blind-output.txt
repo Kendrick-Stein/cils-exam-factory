@@ -1,0 +1,182 @@
+(1) ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "C", "confidence": "hi"},
+  "L3.2": {"answer": "A", "confidence": "hi"},
+  "L3.3": {"answer": "E", "confidence": "hi"},
+  "L3.4": {"answer": "F", "confidence": "hi"},
+  "L3.5": {"answer": "D", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+
+  "S1.1": {"answer": "il", "confidence": "hi"},
+  "S1.2": {"answer": "dal", "confidence": "hi"},
+  "S1.3": {"answer": "al", "confidence": "hi"},
+  "S1.4": {"answer": "dal", "confidence": "hi"},
+  "S1.5": {"answer": "al", "confidence": "hi"},
+  "S1.6": {"answer": "dal", "confidence": "hi"},
+  "S1.7": {"answer": "al", "confidence": "hi"},
+  "S1.8": {"answer": "dal", "confidence": "hi"},
+  "S1.9": {"answer": "al", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+
+  "S2.1": {"answer": "so", "confidence": "hi"},
+  "S2.2": {"answer": "ho raccontato", "confidence": "hi"},
+  "S2.3": {"answer": "ero", "confidence": "hi"},
+  "S2.4": {"answer": "abitavo", "confidence": "hi"},
+  "S2.5": {"answer": "assicuro", "confidence": "hi"},
+  "S2.6": {"answer": "sono stati", "confidence": "hi"},
+  "S2.7": {"answer": "produceva", "confidence": "hi"},
+  "S2.8": {"answer": "consumavamo", "confidence": "hi"},
+  "S2.9": {"answer": "preparava", "confidence": "hi"},
+  "S2.10": {"answer": "piaceva", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+(2) FLAGS
+```json
+[
+  {
+    "item_id": "S1",
+    "issue": "La consegna richiede preposizioni semplici, ma gli item 2-9 necessitano delle preposizioni articolate «dal» e «al»."
+  }
+]
+```
+
+(3) WRITING checks
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```
+tokens used
+31,389
+(1) ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "C", "confidence": "hi"},
+  "L3.2": {"answer": "A", "confidence": "hi"},
+  "L3.3": {"answer": "E", "confidence": "hi"},
+  "L3.4": {"answer": "F", "confidence": "hi"},
+  "L3.5": {"answer": "D", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+
+  "S1.1": {"answer": "il", "confidence": "hi"},
+  "S1.2": {"answer": "dal", "confidence": "hi"},
+  "S1.3": {"answer": "al", "confidence": "hi"},
+  "S1.4": {"answer": "dal", "confidence": "hi"},
+  "S1.5": {"answer": "al", "confidence": "hi"},
+  "S1.6": {"answer": "dal", "confidence": "hi"},
+  "S1.7": {"answer": "al", "confidence": "hi"},
+  "S1.8": {"answer": "dal", "confidence": "hi"},
+  "S1.9": {"answer": "al", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+
+  "S2.1": {"answer": "so", "confidence": "hi"},
+  "S2.2": {"answer": "ho raccontato", "confidence": "hi"},
+  "S2.3": {"answer": "ero", "confidence": "hi"},
+  "S2.4": {"answer": "abitavo", "confidence": "hi"},
+  "S2.5": {"answer": "assicuro", "confidence": "hi"},
+  "S2.6": {"answer": "sono stati", "confidence": "hi"},
+  "S2.7": {"answer": "produceva", "confidence": "hi"},
+  "S2.8": {"answer": "consumavamo", "confidence": "hi"},
+  "S2.9": {"answer": "preparava", "confidence": "hi"},
+  "S2.10": {"answer": "piaceva", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"}
+}
+```
+
+(2) FLAGS
+```json
+[
+  {
+    "item_id": "S1",
+    "issue": "La consegna richiede preposizioni semplici, ma gli item 2-9 necessitano delle preposizioni articolate «dal» e «al»."
+  }
+]
+```
+
+(3) WRITING checks
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```

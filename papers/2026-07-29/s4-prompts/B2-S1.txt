@@ -1,0 +1,24 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova, LENGTH ONLY. FRESH agent.
+
+Read first: `.claude/agents/item-writer.md`, `factory/exams/cils/templates/B2.md` (the S1 block + its HTML comments), `factory/validation/checklist.md` §A.
+
+Fragment: `papers/2026-07-29/B2/fragments/S1.json` — analisi delle strutture, prova 1, `cloze_aperto`, focus **aggettivi e pronomi (possessivi, relativi, combinati)**, 20 gaps, 0.3 punti each.
+Source text: the '## Slot T4' section of `papers/2026-07-29/B2/sources.md`.
+
+Defect (quality audit): `structure prova 1 has 316 words; expected 230-280`. It is **36+ words over the band** — the largest single cut in this session.
+
+Fix: trim the printed text to about **255 words** as the audit counts them. Cut whole low-information sentences or subordinate clauses that carry no gap; never delete a gap, never renumber below 20, never invent content.
+
+While you are in there, verify each of the 20 gaps against checklist §A.12: a gap testing possessives/relatives/combined pronouns must admit exactly ONE form. In particular check that no gap allows `che` / `cui` / `il quale` (or `ne` / `ci` / `gli`) as equally correct alternatives — if one does, re-cut it or key every correct variant with `||`.
+
+IMPORTANT — how the audit counts words: `scripts/paper_quality_audit.py` counts the WHOLE printed prova block
+(consegna, esempio, the text with its `__(n)__` gap markers — everything except tables and HTML comments),
+NOT just the body prose. So your own body word count will read LOWER than the audit's. Verify with:
+
+    python3 scripts/assemble_paper.py --paper-dir papers/2026-07-29/B2 && \
+    python3 scripts/paper_quality_audit.py --session 2026-07-29 --levels B2 --report /tmp/qa-B2.json
+
+and iterate until the `length.` issue for this prova disappears. Aim for the MIDDLE of the band, not the edge.
+
+Keep exactly 20 gaps and identical points/consegna. Rewrite `papers/2026-07-29/B2/fragments/S1.json` IN FULL, same schema. Touch no other file (never `manifest.yaml`).
+Reply (short): what you cut, any gaps you re-cut, and the audit's reported word count for structure prova 1 after your fix.

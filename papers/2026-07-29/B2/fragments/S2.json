@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Il 28 luglio 2026 Griggi parlò del nuovo incarico.\n\nFino a oggi io *(essere)* __sono stata (0)__ un’inviata. Ogni volta che Federica mi dava la linea, io *(sentire)* __(1)__ lo studio in cuffia. Mentre io *(parlare)* __(2)__ con i familiari degli scomparsi, entravo in punta di piedi. Finora io, quasi sempre, *(riuscire)* __(3)__ a instaurare rapporti di fiducia. Oggi rispetto, pudore e intuito mi *(aiutare)* __(4)__. Se queste qualità *(mancare)* __(5)__, io non *(potere)* __(6)__ riuscirci.\n\nOggi io *(sentire)* __(7)__ una grande responsabilità: raccolgo il testimone di Federica. Federica mi ha insegnato a *(entrare)* __(8)__ in punta di piedi. Finora molti insegnamenti *(trasmettere)* __(9)__ da Federica direttamente a me. Fino a oggi la Rai *(credere)* __(10)__ in me. Spero che il pubblico *(continuare)* __(11)__ a seguirci e che io non *(deludere)* __(12)__ nessuno. Fino a oggi, senza eccezione, il pubblico *(essere)* __(13)__ presente.\n\nOggi, da oltre vent’anni, io *(occuparsi)* __(14)__ di cronaca nera. Finora io *(seguire)* __(15)__ anche sport e calcio. Mentre ero giovane, io *(giocare)* __(16)__ a pallavolo. Oggi io *(essere)* __(17)__ una super tifosa della Sampdoria. Mentre ero inviata, Federica *(spiegare)* __(18)__ sempre il linguaggio del corpo. Se io non *(ricevere)* __(19)__ quei consigli, io *(rischiare)* __(20)__ di sconfinare nel linguaggio.",
+    "T5_TITLE": "IL PASSAGGIO DALL’INVIATA ALLA CONDUZIONE"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.3:** «Finora» e «quasi sempre» delimitano l’esperienza fino al presente e richiedono il passato prossimo（截至目前）.\n- **S2.4:** «Oggi» colloca esplicitamente l’azione nel presente; il soggetto plurale «rispetto, pudore e intuito» richiede «aiutano»（现在时与复数一致）.\n- **S2.8:** la preposizione «a» dopo «ha insegnato» richiede l’infinito presente «entrare»（介词后用不定式）.\n- **S2.9:** «Finora» forza il passato prossimo; «molti insegnamenti» impone il maschile plurale nella forma passiva（被动式一致）.\n- **S2.10:** «Fino a oggi» collega l'azione al presente e impone il passato prossimo, come in S2.3 e S2.15（现在完成时）.\n- **S2.19–S2.20:** il periodo ipotetico irreale del passato richiede congiuntivo trapassato e condizionale passato（过去非现实条件句）.",
+    "ANS_S2_ROWS": "| S2.1 | sentivo | indicativo imperfetto | S2.11 | continui | congiuntivo presente |\n| S2.2 | parlavo | indicativo imperfetto | S2.12 | deluda | congiuntivo presente |\n| S2.3 | sono riuscita | indicativo passato prossimo | S2.13 | è stato | indicativo passato prossimo |\n| S2.4 | aiutano | indicativo presente | S2.14 | mi occupo | indicativo presente |\n| S2.5 | mancassero | congiuntivo imperfetto | S2.15 | ho seguito | indicativo passato prossimo |\n| S2.6 | potrei | condizionale presente | S2.16 | giocavo | indicativo imperfetto |\n| S2.7 | sento | indicativo presente | S2.17 | sono | indicativo presente |\n| S2.8 | entrare | infinito presente | S2.18 | spiegava | indicativo imperfetto |\n| S2.9 | sono stati trasmessi | indicativo passato prossimo passivo | S2.19 | avessi ricevuto | congiuntivo trapassato |\n| S2.10 | ha creduto | indicativo passato prossimo | S2.20 | avrei rischiato | condizionale passato |"
+  },
+  "key": {
+    "S2.1": "sentivo",
+    "S2.2": "parlavo",
+    "S2.3": "sono riuscita",
+    "S2.4": "aiutano",
+    "S2.5": "mancassero",
+    "S2.6": "potrei",
+    "S2.7": "sento",
+    "S2.8": "entrare",
+    "S2.9": "sono stati trasmessi",
+    "S2.10": "ha creduto",
+    "S2.11": "continui",
+    "S2.12": "deluda",
+    "S2.13": "è stato",
+    "S2.14": "mi occupo",
+    "S2.15": "ho seguito",
+    "S2.16": "giocavo",
+    "S2.17": "sono",
+    "S2.18": "spiegava",
+    "S2.19": "avessi ricevuto",
+    "S2.20": "avrei rischiato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rapporti di fiducia",
+      "categoria": "locuzione nominale",
+      "zh": "信任关系",
+      "en": "relationships of trust",
+      "esempio": "instaurare rapporti di fiducia"
+    },
+    {
+      "parola": "raccolgo il testimone",
+      "categoria": "locuzione verbale",
+      "zh": "接过接力棒；接任",
+      "en": "I take over",
+      "esempio": "raccolgo il testimone di Federica"
+    },
+    {
+      "parola": "cronaca nera",
+      "categoria": "locuzione nominale",
+      "zh": "社会犯罪新闻",
+      "en": "crime news",
+      "esempio": "di cronaca nera"
+    },
+    {
+      "parola": "linguaggio del corpo",
+      "categoria": "locuzione nominale",
+      "zh": "肢体语言",
+      "en": "body language",
+      "esempio": "il linguaggio del corpo"
+    },
+    {
+      "parola": "sconfinare nel linguaggio",
+      "categoria": "locuzione verbale",
+      "zh": "在措辞上越界",
+      "en": "to overstep in one’s language",
+      "esempio": "di sconfinare nel linguaggio"
+    }
+  ]
+}

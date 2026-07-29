@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "solare",
+    "S3_OPT0_B": "lunare",
+    "S3_OPT0_C": "stellare",
+    "S3_OPT0_D": "cosmico",
+    "S3_OPTION_ROWS": "| 1. | raggio | arco | tratto | spazio |\n| 2. | celeste | solare | lunare | terrestre |\n| 3. | umano | esperto | attento | nudo |\n| 4. | compresa | esclusa | aggiunta | considerata |\n| 5. | intende | ammette | dimostra | suppone |\n| 6. | curva | chiusa | retta | discontinua |\n| 7. | periodicamente | contemporaneamente | separatamente | casualmente |\n| 8. | massimo | minimo | centro | culmine |\n| 9. | consueto | regolare | raro | continuo |\n| 10. | accorgiamo | accontentiamo | dimentichiamo | fidiamo |\n| 11. | preciso | vistoso | esteso | frequente |\n| 12. | prossimo | precedente | remoto | antico |\n| 13. | serale | centrale | annuale | generale |\n| 14. | bassi | distanti | opposti | isolati |\n| 15. | invece | dunque | peraltro | infine |",
+    "S3_TEXT_WITH_GAPS": "Il mattino del 10 marzo 1982 si verificò un allineamento approssimato di tutti i pianeti del Sistema __solare (0)__; erano racchiusi entro un __(1)__ di circa 95° in prossimità del piano dell'eclittica, il piano dell'orbita __(2)__. Ovviamente, a occhio __(3)__, Urano e Nettuno non erano visibili, ma c'erano tutti (Terra __(4)__, ovvio). Quando si parla di allineamento dei pianeti, si __(5)__ proprio questo: non vuol dire che tutti i pianeti, visti dal Sole, siano allineati lungo una linea __(6)__, ma, più semplicemente, che è possibile osservarne __(7)__ un certo numero nel cielo serale o mattutino, da un capo all'altro dell'orizzonte.\n\nInoltre, visto che i pianeti del Sistema solare sono otto, Terra compresa, al __(8)__ l'allineamento può avvenire con sette corpi. Un evento del genere è __(9)__; tuttavia, se invece di sette pianeti ci __(10)__ di sei, l'evento diventa più __(11)__.\n\nIn effetti, il __(12)__ \"allineamento planetario\" __(13)__ visibile dalle nostre latitudini ci sarà il 28 febbraio, quando a partire dalle 18:45 ora locale, si potranno osservare Venere e Mercurio molto __(14)__ sull'orizzonte; Nettuno e Saturno a circa 10° di altezza; __(15)__ Urano e Giove a circa 60° di altezza sull'orizzonte.",
+    "T6_TITLE": "PIANETI COME UN FILO DI PERLE"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | I pianeti erano racchiusi «entro un arco di circa 95°»: in astronomia l'ampiezza angolare si esprime qui con «arco». 中文：这里指天空中的角弧。 |\n| S3.2 | D | L'eclittica è definita subito come «il piano dell'orbita terrestre»; le altre qualificazioni cambiano il referente. 中文：terrestre 修饰地球轨道。 |\n| S3.3 | D | La locuzione è «a occhio nudo», cioè senza strumenti; il seguito precisa che Urano e Nettuno non erano visibili. 中文：a occhio nudo 意为用肉眼。 |\n| S3.4 | B | «Terra esclusa» chiarisce che nel cielo erano presenti tutti gli altri pianeti, mentre l'osservazione avveniva dalla Terra. 中文：地球不计入可见天体。 |\n| S3.5 | A | «Si intende proprio questo» introduce la definizione di allineamento planetario; gli altri verbi non hanno valore definitorio. 中文：si intende 用来界定概念。 |\n| S3.6 | C | Il testo nega l'idea che i pianeti formino «una linea retta» e la sostituisce con la loro osservabilità simultanea. 中文：retta 与后文的实际定义形成对照。 |\n| S3.7 | B | L'allineamento consiste nel poterne osservare «contemporaneamente un certo numero», non in osservazioni separate o casuali. 中文：contemporaneamente 表示同时。 |\n| S3.8 | A | Poiché i pianeti sono otto e la Terra è compresa, «al massimo» se ne possono allineare sette nel cielo osservato. 中文：al massimo 表示上限。 |\n| S3.9 | C | Il contrasto successivo con sei pianeti, caso «più frequente», richiede che l'evento con sette sia «raro». 中文：raro 与 più frequente 构成对照。 |\n| S3.10 | B | La reggenza e il senso sono «ci accontentiamo di sei»: si accetta un numero inferiore di pianeti. 中文：accontentarsi di 表示满足于。 |\n| S3.11 | D | Riducendo da sette a sei i pianeti richiesti, l'evento «diventa più frequente»; le altre qualità non riguardano la ricorrenza. 中文：frequente 描述发生频率。 |\n| S3.12 | A | Il futuro «ci sarà il 28 febbraio» richiede «il prossimo allineamento», non uno precedente o remoto. 中文：prossimo 与将来时态呼应。 |\n| S3.13 | A | L'orario «a partire dalle 18:45» conferma che si tratta di un allineamento «serale». 中文：18:45 锚定傍晚时段。 |\n| S3.14 | A | Venere e Mercurio sono «molto bassi sull'orizzonte», in contrasto con i pianeti indicati poi a 10° e 60° di altezza. 中文：bassi 描写接近地平线。 |\n| S3.15 | D | «Infine» introduce l'ultimo gruppo dell'elenco, Urano e Giove, dopo i primi due gruppi separati da punti e virgola. 中文：infine 标记列举的最后一项。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "D",
+    "S3.4": "B",
+    "S3.5": "A",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "A",
+    "S3.14": "A",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "piano dell'eclittica",
+      "categoria": "locuzione nominale",
+      "zh": "黄道平面",
+      "en": "ecliptic plane",
+      "esempio": "in prossimità del piano dell'eclittica"
+    },
+    {
+      "parola": "cielo serale o mattutino",
+      "categoria": "locuzione nominale",
+      "zh": "傍晚或清晨的天空",
+      "en": "evening or morning sky",
+      "esempio": "nel cielo serale o mattutino"
+    },
+    {
+      "parola": "da un capo all'altro",
+      "categoria": "locuzione avverbiale",
+      "zh": "从一端到另一端",
+      "en": "from one end to the other",
+      "esempio": "da un capo all'altro dell'orizzonte"
+    },
+    {
+      "parola": "allineamento planetario",
+      "categoria": "locuzione nominale",
+      "zh": "行星连线现象",
+      "en": "planetary alignment",
+      "esempio": "\"allineamento planetario\""
+    },
+    {
+      "parola": "ora locale",
+      "categoria": "locuzione nominale",
+      "zh": "当地时间",
+      "en": "local time",
+      "esempio": "a partire dalle 18:45 ora locale"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "ho concluso", "confidence": "hi"},
+  "S2.2": {"answer": "ho dedicato", "confidence": "hi"},
+  "S2.3": {"answer": "ho gestito", "confidence": "hi"},
+  "S2.4": {"answer": "ho illustrato", "confidence": "hi"},
+  "S2.5": {"answer": "ho visto", "confidence": "hi"},
+  "S2.6": {"answer": "mi ha divertito", "confidence": "med"},
+  "S2.7": {"answer": "è diventata", "confidence": "hi"},
+  "S2.8": {"answer": "è risultata", "confidence": "hi"},
+  "S2.9": {"answer": "ammetto", "confidence": "hi"},
+  "S2.10": {"answer": "racconto", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.6",
+    "reason": "Il complemento oggetto non è stampato: la lettura naturale richiede il pronome «mi» dentro il completamento («Questo mi ha divertito»)."
+  }
+]
+```
+
+WRITING checks
+```json
+[]
+```

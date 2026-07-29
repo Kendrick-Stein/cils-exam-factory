@@ -1,0 +1,6 @@
+A1 S2 medium
+A2 S1 medium
+A2 S3 medium
+B1 S2 high
+B2 S2 high
+C1 S2 high

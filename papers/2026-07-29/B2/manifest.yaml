@@ -1,0 +1,101 @@
+exam: cils
+level: B2
+session: '2026-07-29'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.focusjunior.it/news/animali-giraffe-sanno-fare-addizioni-studio/
+  title: Le giraffe sanno fare le addizioni, lo dice la scienza
+  publisher: FocusJunior.it
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 518
+- id: T2
+  url: https://bandi.unibo.it/s/abis1/bando-di-concorso-per-l-assegnazione-di-n-327-contributi-da-2-000-00-euro-ciascuno-a-sostegno-di-studenti-in-condizioni-di-difficolta-iscritti-all-anno-accademico-2025-2026/bando/bando-studenti-in-condizioni-di-disagio-a-a-2025-2026.pdf/@@download/file/Bando%20studenti%20in%20condizioni%20di%20disagio%20a.a.2025-2026.pdf
+  title: Bando di concorso per 327 contributi da 2.000 € ciascuno a sostegno di studentesse
+    e studenti in condizioni di difficoltà iscritti all’anno accademico 2025/26
+  publisher: Alma Mater Studiorum – Università di Bologna
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 469
+- id: T3
+  url: https://camminiditalia.org/diario-lungo-il-cammino-di-san-jacopo-il-santiago-ditalia/
+  title: Diario lungo il Cammino di San Jacopo – Il Santiago d'Italia!
+  publisher: Cammini d'Italia (camminiditalia.org)
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 392
+- id: T4
+  url: https://www.focus.it/scienza/scienze/anatomia-di-un-chicco-di-grandine-come-nascono-i-mostri-di-ghiaccio-che-devastano-le-nostre-citta
+  title: 'Come si forma la grandine: la fisica dei chicchi e la crescita umida e secca'
+  publisher: Focus.it
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 258
+- id: T5
+  url: https://www.ansa.it/sito/notizie/cultura/tv/2026/07/28/raffaella-griggi-il-mio-grande-passo-da-inviata-a-conduttrice-di-chi-lha-visto_3d356fd2-97fc-4a10-9544-6e925780408b.html
+  title: Raffaella Griggi, 'il mio grande passo da inviata a conduttrice di Chi l'ha
+    visto'
+  publisher: ANSA
+  published: '2026-07-28'
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 254
+- id: T6
+  url: https://www.comune.ciampino.roma.it/it/news/borse-di-studio-io-studio-anno-scolastico-2025-2026
+  title: Borse di studio Io Studio anno scolastico 2025/2026
+  publisher: Comune di Ciampino (RM)
+  published: not dated on page
+  accessed: '2026-07-29'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 215
+pipeline:
+  generator: /genpapers (codex executors)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-29'
+    slots: 6
+  - stage: blind_validation
+    at: '2026-07-29T10:24:20+00:00'
+    agreement: 87/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-29T10:27:34+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-07-29T10:27:44+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-29T10:27:44+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

@@ -1,0 +1,26 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN). STAGE S4 REPAIR — one prova. FRESH agent; assume nothing not in the files below.
+
+Read first: `.claude/agents/item-writer.md` (§Rules 3-4 + §Stage S4), `factory/exams/cils/templates/A1.md` (the S2 block + its HTML comments), `factory/validation/checklist.md` §A.
+
+Current fragment to repair: `papers/2026-07-29/A1/fragments/S2.json` (cloze_verbi — presente e passato prossimo, 10 gaps, T5 = racconto personale «Studenti in biblioteca»).
+Your source text: the '## Slot T5' section of `papers/2026-07-29/A1/sources.md`.
+
+Defects from blind validation (2 mismatches + 5 ambiguity flags — ALL on the passato prossimo / imperfetto contrast):
+- S2.2 MISMATCH: key «è stato», solver answered «era». Solver: "aspect is not fully forced; «era» is more natural for describing the role."
+- S2.7 MISMATCH: key «è stato», solver answered «era». Same cause.
+- S2.3 FLAG: "«ho lavorato» and «lavoravo» both possible depending on whether the month is a completed experience or background."
+- S2.4 FLAG: "«ho gestito» and «gestivo» both fit."
+- S2.5 FLAG: "«ho illustrato» and «illustravo» both fit."
+- S2.8 FLAG: "«è diventata», «diventò» and «diventava» are all grammatically possible."
+
+Root cause: the text has ONE past anchor at the top and then narrates, so every past gap admits both passato prossimo (completed) and imperfetto (background). At A1 the spec tests **presente e passato prossimo of regular verbs, essere/avere and modals** — imperfetto and passato remoto must be made IMPOSSIBLE, not merely less natural.
+
+Required fix (rule 3 + checklist §A.10):
+- Give EVERY past gap its own explicit completed-event marker printed immediately beside it — «Lo scorso luglio», «Il primo giorno», «Alla fine del mese», «Per due settimane», «Una volta», «Poi», «Subito dopo» — so only the passato prossimo reading survives.
+- Add «Adesso» / «Oggi» / «In questo momento» as a printed pivot before every present-tense gap.
+- Never leave a gap where a habitual/background reading is available; if the sentence is inherently descriptive («il mio compito era…»), either key the imperfetto AND print «ogni giorno / sempre / in quel periodo» to force it, or rewrite the gap onto a punctual verb.
+- Auxiliary and any clitic go INSIDE the gap. No essere-auxiliary passato prossimo with an unspecified-gender subject.
+
+Keep exactly 10 gaps and identical points/consegna. The text stays authentic (trim/reorder printed sentences and add only explicit time markers — never invent events).
+Rewrite `papers/2026-07-29/A1/fragments/S2.json` IN FULL, same schema (prova, slots, answer_slots, key, glossario_candidates). Update the spiegazioni in answer_slots to match your new items. Touch no other file (never `manifest.yaml`).
+Reply (short, no fragment content): which items you changed and how; final text word count.

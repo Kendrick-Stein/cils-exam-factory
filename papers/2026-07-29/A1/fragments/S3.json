@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "Pubblico",
+    "S3_OPT0_B": "Comune",
+    "S3_OPT0_C": "Centro",
+    "S3_OPTION_ROWS": "| 1. | centrale | chiuso | sinistro |\n| 2. | pubblico | chiuso | attivo |\n| 3. | verde | centrale | sinistro |\n| 4. | riposarsi | rivolgersi | scusarsi |\n| 5. | lezioni | segnalazioni | colazioni |\n| 6. | pubblico | porticato | disagio |\n| 7. | Orario | Indirizzo | Numero |\n| 8. | Numero | Indirizzo | Orario |",
+    "S3_TEXT_WITH_GAPS": "Si comunica che giovedì 23 luglio 2026 lo sportello dell'Ufficio Relazioni con il __Pubblico (0)__ (URP) resterà __(1)__.\n\nRimarrà comunque regolarmente __(2)__ il numero __(3)__ 800 085 324 dalle 9 alle 13, a cui gli utenti potranno __(4)__ per informazioni e __(5)__. Ci scusiamo per il __(6)__.\n\nUfficio Relazioni con il Pubblico\n__(7)__: Via Garibaldi 9, Cortile Centrale, Porticato sinistro.\n__(8)__ al pubblico: da martedì a venerdì, dalle 8:30 alle 13:30.",
+    "T6_TITLE": "URP - AVVISO AL PUBBLICO"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Lo sportello «resterà chiuso» il 23 luglio. 中文：当天窗口关闭。 |\n| S3.2 | C | Il servizio telefonico «rimarrà comunque regolarmente attivo». 中文：电话服务仍正常可用。 |\n| S3.3 | A | «Numero verde» è il servizio telefonico gratuito indicato dal numero 800. 中文：这里指免费服务热线。 |\n| S3.4 | B | Gli utenti possono «rivolgersi» al numero per chiedere informazioni. 中文：用户可以联系该号码。 |\n| S3.5 | B | Il numero è attivo per «informazioni e segnalazioni». 中文：可用于咨询和反馈。 |\n| S3.6 | C | La formula corretta è «Ci scusiamo per il disagio». 中文：为不便致歉。 |\n| S3.7 | B | «Via Garibaldi 9» è preceduto dall'etichetta «Indirizzo». 中文：后面是地址。 |\n| S3.8 | C | I giorni e le ore sono introdotti da «Orario al pubblico». 中文：后面是开放时间。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "B",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sportello",
+      "categoria": "nome maschile",
+      "zh": "办事窗口",
+      "en": "service desk",
+      "esempio": "lo sportello dell'Ufficio Relazioni"
+    },
+    {
+      "parola": "regolarmente",
+      "categoria": "avverbio",
+      "zh": "正常地",
+      "en": "regularly",
+      "esempio": "Rimarrà comunque regolarmente"
+    },
+    {
+      "parola": "utenti",
+      "categoria": "nome maschile plurale",
+      "zh": "用户",
+      "en": "users",
+      "esempio": "a cui gli utenti potranno"
+    },
+    {
+      "parola": "Porticato",
+      "categoria": "nome maschile",
+      "zh": "柱廊",
+      "en": "arcade",
+      "esempio": "Cortile Centrale, Porticato sinistro."
+    },
+    {
+      "parola": "giovedì",
+      "categoria": "nome maschile",
+      "zh": "星期四",
+      "en": "Thursday",
+      "esempio": "Si comunica che giovedì 23 luglio 2026"
+    }
+  ]
+}

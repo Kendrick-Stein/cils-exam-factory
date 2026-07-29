@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Il sistema nervoso utilizza un'unica popolazione cellulare per distinguere il caldo dal freddo.\n\n\"Invece di affidarsi a sensori separati per il caldo e il fresco – afferma Clarissa Whitmire, coautrice assieme a Phillip Bokiniec della ricerca – la maggior parte delle cellule nervose sensibili alla temperatura si attiva in risposta *(a)* __al (0)__ raffreddamento, riducendo semplicemente __(1)__ propria attività quando la pelle si riscalda\". __(2)__ pratica le cellule reagiscono *(a)* __(3)__ temperatura effettiva *(di)* __(4)__ pelle, anziché limitarsi __(5)__ rilevare __(6)__ entità della variazione termica. Non solo: \"Gli scienziati conoscono __(7)__ esistenza __(8)__ questi neuroni __(9)__ anni – aggiunge Poulet – ma si riteneva fossero relativamente rari. È invece emerso che costituiscono __(10)__ maggior parte delle cellule deputate *(a)* __(11)__ percezione *(di)* __(12)__ temperatura.\"\n\n__(13)__ monitorare __(14)__ funzionamento __(15)__ queste cellule i ricercatori hanno utilizzato tecniche avanzate di imaging su topi, registrando l'attività dei singoli neuroni mentre venivano riscaldate e raffreddate le zampe degli animali. Il team ha, poi, bloccato la proteina TRPM8, nota __(16)__ tempo come principale sensore dell'organismo per __(17)__ rilevamento delle temperature fredde. Dati *(a)* __(18)__ mano è risultato che un singolo sensore molecolare è in grado __(19)__ generare segnali sia per il freddo che __(20)__ il caldo.",
+    "T4_TITLE": "COSÌ LA PELLE DISTINGUE IL CALDO DAL FREDDO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.3 — alla:** il verbo «reagire» regge *a* e «temperatura effettiva della pelle» richiede l'articolo: *a + la*. 中文：介词与定冠词合并。\n- **S1.8 — di:** davanti al dimostrativo «questi» la preposizione resta semplice. 中文：指示词前不用冠词。\n- **S1.11 — alla:** «deputate» regge *a*; il nome «percezione» è determinato dal complemento successivo. 中文：固定支配关系加定冠词。\n- **S1.18 — alla:** «dati alla mano» è un'espressione fissa. 中文：固定表达，意为“有数据为证”。",
+    "ANS_S1_ROWS": "| S1.1 | la | S1.11 | alla |\n| S1.2 | In | S1.12 | della |\n| S1.3 | alla | S1.13 | Per |\n| S1.4 | della | S1.14 | il |\n| S1.5 | a | S1.15 | di |\n| S1.6 | l' | S1.16 | da |\n| S1.7 | l' | S1.17 | il |\n| S1.8 | di | S1.18 | alla |\n| S1.9 | da | S1.19 | di |\n| S1.10 | la | S1.20 | per |"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "In",
+    "S1.3": "alla",
+    "S1.4": "della",
+    "S1.5": "a",
+    "S1.6": "l'",
+    "S1.7": "l'",
+    "S1.8": "di",
+    "S1.9": "da",
+    "S1.10": "la",
+    "S1.11": "alla",
+    "S1.12": "della",
+    "S1.13": "Per",
+    "S1.14": "il",
+    "S1.15": "di",
+    "S1.16": "da",
+    "S1.17": "il",
+    "S1.18": "alla",
+    "S1.19": "di",
+    "S1.20": "per"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "popolazione cellulare",
+      "categoria": "locuzione nominale",
+      "zh": "细胞群",
+      "en": "cell population",
+      "esempio": "un'unica popolazione cellulare"
+    },
+    {
+      "parola": "variazione termica",
+      "categoria": "locuzione nominale",
+      "zh": "温度变化",
+      "en": "temperature variation",
+      "esempio": "della variazione termica"
+    },
+    {
+      "parola": "tecniche avanzate di imaging",
+      "categoria": "locuzione nominale",
+      "zh": "先进成像技术",
+      "en": "advanced imaging techniques",
+      "esempio": "tecniche avanzate di imaging su topi"
+    },
+    {
+      "parola": "cellule nervose",
+      "categoria": "locuzione nominale",
+      "zh": "神经细胞",
+      "en": "nerve cells",
+      "esempio": "cellule nervose sensibili"
+    },
+    {
+      "parola": "sensore molecolare",
+      "categoria": "locuzione nominale",
+      "zh": "分子传感器",
+      "en": "molecular sensor",
+      "esempio": "un singolo sensore molecolare"
+    }
+  ]
+}

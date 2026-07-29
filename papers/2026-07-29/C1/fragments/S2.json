@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Al Circo Massimo, Patti Smith *(offrire)* __ha offerto (0)__ musica e impegno.\n\nFino a oggi, il legame con Jesse Paris, cofondatrice di Pathway to Paris, *(rimanere)* __(1)__ speciale. Mentre la musica *(correre)* __(2)__, Smith non nascondeva l'emozione. Fu lì che Smith *(mostrare)* __(3)__ la sua emozione. Benché già prima di quel concerto *(tornare)* __(4)__ a Roma, viveva un'occasione particolare. Adesso quel concerto *(segnare)* __(5)__ il traguardo dei suoi ottant'anni.\n\nContemporaneamente, Smith rendeva omaggio alla Palestina, *(eseguire)* __(6)__ Peaceable Kingdom. Il brano era un pezzo *(scrivere)* __(7)__ ventitré anni prima e portava un messaggio di unità. Fu dopo quelle parole che Smith *(eseguire)* __(8)__ il pezzo. L'artista chiese che il pubblico *(ritrovare)* __(9)__ l'unità.\n\nFino a oggi, l'origine di Because the Night *(spiegare)* __(10)__ da Smith: la canzone era nata per amore del marito. Fu nel 1975 che Smith *(scrivere)* __(11)__ Break It Up; fu una notte di quell'anno che Smith *(sognare)* __(12)__ Jim Morrison. Nel sogno, Morrison appariva come se *(essere)* __(13)__ una statua cui era incatenato; mentre *(trasformarsi)* __(14)__ in un angelo per spiccare il volo, Smith continuava a *(urlare)* __(15)__ «Break It Up».\n\nPeople Have the Power era una canzone *(comporre)* __(16)__ a quattro mani con il marito e dedicata alla figlia che Smith *(aspettare)* __(17)__ mentre la componeva. Oggi è significativo che ogni suo concerto *(concludersi)* __(18)__ con un invito all'impegno. È essenziale che ciascuno *(difendere)* __(19)__ la propria voce: «Non *(perdere)* __(20)__ la vostra voce».",
+    "T5_TITLE": "UNA VOCE AL CIRCO MASSIMO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1 e S2.10:** «Fino a oggi» colloca i risultati nel presente e impone il passato prossimo; in S2.10 il soggetto femminile «l'origine» e l'agente «da Smith» impongono il passivo «è stata spiegata». 中文：“直到今天”锁定现在完成时；明确的阴性主语和施事者锁定被动形式。\n- **S2.2, S2.14 e S2.17:** «mentre» segnala azioni contemporanee in corso e richiede l'imperfetto. 中文：“mentre”锁定同时进行的未完成过去时。\n- **S2.3, S2.8 e S2.11:** le strutture scisse «Fu ... che» impongono il passato remoto e i soggetti stampati rendono attive le forme. **S2.12** è retto da una seconda struttura scissa «fu ... che», che impone anch'essa il passato remoto. 中文：强调句锁定远过去时。\n- **S2.4, S2.9, S2.13, S2.18 e S2.19:** l'anteriorità rispetto al concerto, «chiese che», «come se», «è significativo che» con valore abituale («ogni suo concerto») e «è essenziale che» impongono rispettivamente i congiuntivi trapassato, imperfetto, imperfetto, presente e presente. 中文：时间先后、支配结构和“come se”分别锁定相应虚拟式；“ogni suo concerto”表习惯，用现在虚拟式。\n- **S2.5, S2.15 e S2.20:** «Adesso» impone il presente; «continuava a» regge l'infinito «urlare»; l'invito diretto rivolto al pubblico impone l'imperativo plurale «perdete». 中文：现在标记、固定动词支配和直接劝告分别锁定相应形式。\n- **S2.6, S2.7 e S2.16:** «Contemporaneamente» impone il gerundio presente «eseguendo»; i sintagmi nominali «un pezzo ...» e «una canzone ...» ammettono solo i participi concordati «scritto» e «composta». 中文：同时发生锁定现在分词式；名词短语与性数配合锁定过去分词。",
+    "ANS_S2_ROWS": "| 1 | è rimasto | indicativo passato prossimo | 11 | scrisse | indicativo passato remoto |\n| 2 | correva | indicativo imperfetto | 12 | aveva sognato | indicativo trapassato prossimo |\n| 3 | mostrò | indicativo passato remoto | 13 | fosse | congiuntivo imperfetto |\n| 4 | fosse tornata | congiuntivo trapassato | 14 | si trasformava | indicativo imperfetto |\n| 5 | segna | indicativo presente | 15 | urlare | infinito presente |\n| 6 | eseguendo | gerundio presente | 16 | composta | participio passato, femminile singolare |\n| 7 | scritto | participio passato, maschile singolare | 17 | aspettava | indicativo imperfetto |\n| 8 | eseguì | indicativo passato remoto | 18 | si concluda | congiuntivo presente |\n| 9 | ritrovasse | congiuntivo imperfetto | 19 | difenda | congiuntivo presente |\n| 10 | è stata spiegata | indicativo passato prossimo passivo | 20 | perdete | imperativo presente |"
+  },
+  "key": {
+    "S2.1": "è rimasto",
+    "S2.2": "correva",
+    "S2.3": "mostrò",
+    "S2.4": "fosse tornata",
+    "S2.5": "segna",
+    "S2.6": "eseguendo",
+    "S2.7": "scritto",
+    "S2.8": "eseguì",
+    "S2.9": "ritrovasse",
+    "S2.10": "è stata spiegata",
+    "S2.11": "scrisse",
+    "S2.12": "sognò",
+    "S2.13": "fosse",
+    "S2.14": "si trasformava",
+    "S2.15": "urlare",
+    "S2.16": "composta",
+    "S2.17": "aspettava",
+    "S2.18": "si concluda",
+    "S2.19": "difenda",
+    "S2.20": "perdete"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cofondatrice",
+      "categoria": "nome femminile",
+      "zh": "联合创始人",
+      "en": "co-founder",
+      "esempio": "cofondatrice di Pathway to Paris"
+    },
+    {
+      "parola": "traguardo",
+      "categoria": "nome maschile",
+      "zh": "里程碑；目标",
+      "en": "milestone",
+      "esempio": "il traguardo dei suoi ottant'anni"
+    },
+    {
+      "parola": "omaggio",
+      "categoria": "nome maschile",
+      "zh": "致敬",
+      "en": "tribute",
+      "esempio": "rendeva omaggio alla Palestina"
+    },
+    {
+      "parola": "incatenato",
+      "categoria": "participio passato",
+      "zh": "被锁链拴住的",
+      "en": "chained",
+      "esempio": "una statua cui era incatenato"
+    },
+    {
+      "parola": "a quattro mani",
+      "categoria": "locuzione avverbiale",
+      "zh": "由两人合作完成",
+      "en": "jointly, by two people",
+      "esempio": "a quattro mani con il marito"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Vero", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A-H-D-M-B-O-F-K-I-C-P-G-N-E-L-J", "confidence": "hi"},
+
+  "S1.1": {"answer": "cui", "confidence": "hi"},
+  "S1.2": {"answer": "appena", "confidence": "hi"},
+  "S1.3": {"answer": "che", "confidence": "hi"},
+  "S1.4": {"answer": "stesso", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "al", "confidence": "hi"},
+  "S1.7": {"answer": "a", "confidence": "hi"},
+  "S1.8": {"answer": "che", "confidence": "hi"},
+  "S1.9": {"answer": "dando", "confidence": "hi"},
+  "S1.10": {"answer": "cui", "confidence": "hi"},
+  "S1.11": {"answer": "alla", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "contrario", "confidence": "hi"},
+  "S1.14": {"answer": "a dire", "confidence": "hi"},
+  "S1.15": {"answer": "tra", "confidence": "hi"},
+  "S1.16": {"answer": "e", "confidence": "hi"},
+  "S1.17": {"answer": "in", "confidence": "hi"},
+  "S1.18": {"answer": "a", "confidence": "hi"},
+  "S1.19": {"answer": "ciò", "confidence": "hi"},
+  "S1.20": {"answer": "ma anche", "confidence": "hi"},
+
+  "S2.1": {"answer": "è rimasto", "confidence": "hi"},
+  "S2.2": {"answer": "correva", "confidence": "hi"},
+  "S2.3": {"answer": "mostrò", "confidence": "hi"},
+  "S2.4": {"answer": "fosse tornata", "confidence": "hi"},
+  "S2.5": {"answer": "segna", "confidence": "hi"},
+  "S2.6": {"answer": "Eseguendo", "confidence": "hi"},
+  "S2.7": {"answer": "scritto", "confidence": "hi"},
+  "S2.8": {"answer": "fu eseguito", "confidence": "hi"},
+  "S2.9": {"answer": "ritrovasse", "confidence": "hi"},
+  "S2.10": {"answer": "ha spiegato", "confidence": "hi"},
+  "S2.11": {"answer": "scrisse", "confidence": "hi"},
+  "S2.12": {"answer": "aveva sognato", "confidence": "hi"},
+  "S2.13": {"answer": "essere", "confidence": "hi"},
+  "S2.14": {"answer": "si trasformava", "confidence": "hi"},
+  "S2.15": {"answer": "urlava", "confidence": "hi"},
+  "S2.16": {"answer": "composta", "confidence": "hi"},
+  "S2.17": {"answer": "aspettava", "confidence": "hi"},
+  "S2.18": {"answer": "si sia concluso", "confidence": "hi"},
+  "S2.19": {"answer": "difenda", "confidence": "hi"},
+  "S2.20": {"answer": "perdete", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "D", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "A", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "B", "confidence": "hi"},
+  "S3.11": {"answer": "D", "confidence": "hi"},
+  "S3.12": {"answer": "A", "confidence": "hi"},
+  "S3.13": {"answer": "A", "confidence": "hi"},
+  "S3.14": {"answer": "A", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "Si rende noto che il Bando per l'assegnazione dei contributi a integrazione dei canoni di locazione relativi al periodo dal 1 gennaio al 31 dicembre 2026 è pubblicato dal 4 giugno al 3 luglio 2026.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "Per poter partecipare, è necessario risiedere nel Comune di Siena, possedere gli altri requisiti dettagliatamente elencati nel bando ed essere titolari di un contratto di locazione regolarmente registrato per un alloggio adibito ad abitazione principale.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "La collocazione dei soggetti richiedenti nelle fasce A o B avverrà, in applicazione dei criteri fissati dalla Regione Toscana, sulla base dei parametri economici indicati.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Qualora il valore ISE sia uguale o inferiore a euro 16.114,80 e l'incidenza del canone annuo su tale valore non sia inferiore al 14%, il soggetto rientra nella fascia A.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "La fascia B comprende i soggetti con un valore ISE compreso tra euro 16.114,81 ed euro 32.724,49 e un'incidenza del canone annuo sul valore ISE non inferiore al 24%.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "È necessario che, in ogni caso, il valore ISEE del nucleo familiare non sia superiore a euro 16.500.",
+    "confidence": "hi"
+  }
+}
+```
+
+## FLAGS
+
+```json
+[]
+```
+
+## WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180 parole",
+    "check": "Entrambe le tracce definiscono autonomamente tema, prospettive da considerare e genere testuale quando pertinente."
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole",
+    "check": "Entrambe le tracce forniscono destinatario, fatti, richieste, scadenze e informazioni necessarie."
+  },
+  "O1": {
+    "self_contained": true,
+    "check": "Tutte e quattro le situazioni specificano interlocutore, contesto e obiettivi comunicativi; preparazione e durata sono stampate."
+  },
+  "O2": {
+    "self_contained": true,
+    "check": "Tutti e quattro gli argomenti indicano chiaramente il tema e le dimensioni da discutere; preparazione e durata sono stampate."
+  }
+}
+```
+tokens used
+37,781
+## ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Falso", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Vero", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A-H-D-M-B-O-F-K-I-C-P-G-N-E-L-J", "confidence": "hi"},
+
+  "S1.1": {"answer": "cui", "confidence": "hi"},
+  "S1.2": {"answer": "appena", "confidence": "hi"},
+  "S1.3": {"answer": "che", "confidence": "hi"},
+  "S1.4": {"answer": "stesso", "confidence": "hi"},
+  "S1.5": {"answer": "che", "confidence": "hi"},
+  "S1.6": {"answer": "al", "confidence": "hi"},
+  "S1.7": {"answer": "a", "confidence": "hi"},
+  "S1.8": {"answer": "che", "confidence": "hi"},
+  "S1.9": {"answer": "dando", "confidence": "hi"},
+  "S1.10": {"answer": "cui", "confidence": "hi"},
+  "S1.11": {"answer": "alla", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "contrario", "confidence": "hi"},
+  "S1.14": {"answer": "a dire", "confidence": "hi"},
+  "S1.15": {"answer": "tra", "confidence": "hi"},
+  "S1.16": {"answer": "e", "confidence": "hi"},
+  "S1.17": {"answer": "in", "confidence": "hi"},
+  "S1.18": {"answer": "a", "confidence": "hi"},
+  "S1.19": {"answer": "ciò", "confidence": "hi"},
+  "S1.20": {"answer": "ma anche", "confidence": "hi"},
+
+  "S2.1": {"answer": "è rimasto", "confidence": "hi"},
+  "S2.2": {"answer": "correva", "confidence": "hi"},
+  "S2.3": {"answer": "mostrò", "confidence": "hi"},
+  "S2.4": {"answer": "fosse tornata", "confidence": "hi"},
+  "S2.5": {"answer": "segna", "confidence": "hi"},
+  "S2.6": {"answer": "Eseguendo", "confidence": "hi"},
+  "S2.7": {"answer": "scritto", "confidence": "hi"},
+  "S2.8": {"answer": "fu eseguito", "confidence": "hi"},
+  "S2.9": {"answer": "ritrovasse", "confidence": "hi"},
+  "S2.10": {"answer": "ha spiegato", "confidence": "hi"},
+  "S2.11": {"answer": "scrisse", "confidence": "hi"},
+  "S2.12": {"answer": "aveva sognato", "confidence": "hi"},
+  "S2.13": {"answer": "essere", "confidence": "hi"},
+  "S2.14": {"answer": "si trasformava", "confidence": "hi"},
+  "S2.15": {"answer": "urlava", "confidence": "hi"},
+  "S2.16": {"answer": "composta", "confidence": "hi"},
+  "S2.17": {"answer": "aspettava", "confidence": "hi"},
+  "S2.18": {"answer": "si sia concluso", "confidence": "hi"},
+  "S2.19": {"answer": "difenda", "confidence": "hi"},
+  "S2.20": {"answer": "perdete", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "D", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "A", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "B", "confidence": "hi"},
+  "S3.11": {"answer": "D", "confidence": "hi"},
+  "S3.12": {"answer": "A", "confidence": "hi"},
+  "S3.13": {"answer": "A", "confidence": "hi"},
+  "S3.14": {"answer": "A", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "Si rende noto che il Bando per l'assegnazione dei contributi a integrazione dei canoni di locazione relativi al periodo dal 1 gennaio al 31 dicembre 2026 è pubblicato dal 4 giugno al 3 luglio 2026.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "Per poter partecipare, è necessario risiedere nel Comune di Siena, possedere gli altri requisiti dettagliatamente elencati nel bando ed essere titolari di un contratto di locazione regolarmente registrato per un alloggio adibito ad abitazione principale.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "La collocazione dei soggetti richiedenti nelle fasce A o B avverrà, in applicazione dei criteri fissati dalla Regione Toscana, sulla base dei parametri economici indicati.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Qualora il valore ISE sia uguale o inferiore a euro 16.114,80 e l'incidenza del canone annuo su tale valore non sia inferiore al 14%, il soggetto rientra nella fascia A.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "La fascia B comprende i soggetti con un valore ISE compreso tra euro 16.114,81 ed euro 32.724,49 e un'incidenza del canone annuo sul valore ISE non inferiore al 24%.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "È necessario che, in ogni caso, il valore ISEE del nucleo familiare non sia superiore a euro 16.500.",
+    "confidence": "hi"
+  }
+}
+```
+
+## FLAGS
+
+```json
+[]
+```
+
+## WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180 parole",
+    "check": "Entrambe le tracce definiscono autonomamente tema, prospettive da considerare e genere testuale quando pertinente."
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole",
+    "check": "Entrambe le tracce forniscono destinatario, fatti, richieste, scadenze e informazioni necessarie."
+  },
+  "O1": {
+    "self_contained": true,
+    "check": "Tutte e quattro le situazioni specificano interlocutore, contesto e obiettivi comunicativi; preparazione e durata sono stampate."
+  },
+  "O2": {
+    "self_contained": true,
+    "check": "Tutti e quattro gli argomenti indicano chiaramente il tema e le dimensioni da discutere; preparazione e durata sono stampate."
+  }
+}
+```

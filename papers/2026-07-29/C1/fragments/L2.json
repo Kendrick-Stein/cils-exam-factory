@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Secondo il testo, la rivoluzione russa potrebbe non essersi verificata senza la precedente pubblicazione del primo volume del *Capitale*.**  \nVero ○ Falso ○\n\n**2. *L'interpretazione dei sogni* viene citata come esempio di articolo apparso su una rivista scientifica.**  \nVero ○ Falso ○\n\n**3. Gli innovativi saggi di Barthes, Eco e McLuhan menzionati nel testo risalgono all'Ottocento.**  \nVero ○ Falso ○\n\n**4. Un saggio monografico può esercitare una notevole forza di cambiamento sulla società.**  \nVero ○ Falso ○\n\n**5. Le università italiane stanno consolidando il ruolo centrale tradizionalmente assegnato alle monografie.**  \nVero ○ Falso ○\n\n**6. Le regole di valutazione ministeriali e dell'ANVUR stanno riducendo il valore riconosciuto alle monografie.**  \nVero ○ Falso ○\n\n**7. Oggi le monografie ricevono una valutazione superiore agli articoli pubblicati nelle riviste di «fascia A».**  \nVero ○ Falso ○\n\n**8. In media, un articolo ha un numero di pagine pari a circa un decimo di quello di un saggio monografico.**  \nVero ○ Falso ○\n\n**9. Un articolo consente di sviluppare un'argomentazione approfondita quanto quella di una monografia.**  \nVero ○ Falso ○\n\n**10. Per essere rivoluzionario, un saggio deve necessariamente avere molte pagine.**  \nVero ○ Falso ○\n\n**11. Nonostante la sua brevità, *La moda* di Simmel è tuttora un riferimento fondamentale per la riflessione teorica sulla moda.**  \nVero ○ Falso ○\n\n**12. Il lavoro di Sraffa, lungo circa cento pagine, ha modificato la concezione dominante nella teoria economica del Novecento.**  \nVero ○ Falso ○\n\n**13. Il formato delle riviste scientifiche lascia agli autori la massima libertà nella struttura del lavoro.**  \nVero ○ Falso ○\n\n**14. Secondo il testo, un formato rigidamente regolato può ostacolare l'espressione di un pensiero innovativo.**  \nVero ○ Falso ○",
+    "T2_TEXT": "In questo periodo, si è scritto molto a proposito dell'anniversario della rivoluzione russa avvenuta nel 1917. Ma questo importante evento sociopolitico non avrebbe probabilmente avuto luogo se Karl Marx non avesse pubblicato esattamente cinquant'anni prima un saggio teorico fondamentale come il primo volume del Capitale. I saggi monografici rilevanti, infatti, possono modificare e addirittura sconvolgere il processo evolutivo delle società. Basti pensare, ad esempio, alla potente forza di cambiamento culturale e sociale manifestata da un saggio estremamente importante come L'interpretazione dei sogni di Sigmund Freud. Oppure a ciò che hanno causato altri innovativi saggi pubblicati tra gli anni Cinquanta e gli anni Sessanta del Novecento: Miti d'oggi di Roland Barthes, Apocalittici e integrati di Umberto Eco, Gli strumenti del comunicare di Marshall McLuhan.\n\nUn saggio monografico può dunque dare vita a una potente forza di cambiamento della società. L'evoluzione del pensiero scientifico ma anche della cultura sociale non ha potuto prescindere nella storia della modernità da questo strumento di elaborazione teorica. Eppure oggi stiamo progressivamente rinunciando a tale strumento. È in atto cioè una vera e propria rivoluzione. Si tratta di una rivoluzione silenziosa, eppure è comunque una rivoluzione. D'altronde, è noto come spesso le rivoluzioni silenziose siano quelle più radicali ed efficaci, perché nascoste e invisibili. Che cosa sta succedendo? Le università italiane stanno abbandonando quel modello di produzione culturale basato sulla monografia che per molto tempo è stato per esse centrale. Le regole di valutazione del lavoro di ricerca svolto dai docenti stabilite negli ultimi anni dal Ministero dell'Università e dall'ANVUR stanno progressivamente indebolendo il valore attribuito alle monografie. Già oggi agli articoli pubblicati su riviste scientifiche classificate nella cosiddetta \"fascia A\" viene attribuito un maggior valore delle monografie. Ma è evidente che tali articoli richiedono agli studiosi un lavoro decisamente inferiore a quello richiesto per la realizzazione di una monografia. Un articolo infatti ha mediamente una lunghezza che corrisponde a circa un decimo delle pagine di un saggio monografico. Non consente pertanto di sviluppare un'analisi e un'argomentazione così approfondite come quelle che caratterizzano tale saggio.\n\nCiò non comporta che un saggio rivoluzionario debba necessariamente essere voluminoso. Un testo come La moda di Georg Simmel è lungo una cinquantina di pagine, eppure, dopo più di un secolo dalla sua pubblicazione, costituisce ancora oggi il punto di riferimento fondamentale della riflessione teorica sulla moda. E un altro lavoro di un centinaio di pagine – Produzione di merci a mezzo di merci di Piero Sraffa – ha rivoluzionato a sua volta nel Novecento la concezione dominante nella teoria economica. Quello che conta è che l'autore di un saggio sia libero di strutturare il suo lavoro con la massima libertà, per poter esprimere al meglio il suo pensiero. Invece, un articolo di una rivista scientifica ha per il suo autore un margine di libertà decisamente limitato, perché il suo contenuto dev'essere fatto rientrare all'interno di un format internazionale che è stato da tempo rigidamente normato. Si perde pertanto anche quella capacità di dare spazio a un pensiero innovativo che un saggio scientifico può avere. Come ha scritto cioè il filosofo Roberto Esposito sulla rivista L'Espresso, «Ve li immaginate, per restare nel campo della filosofia, Habermas e Derrida che cercano le riviste di fascia A per scrivere dodici articoletti?». Ve li immaginate cioè due giganti del pensiero come questi che rinunciano a esprimere in una monografia la forza dirompente della loro innovativa capacità di riflessione per fare rientrare quest'ultima all'interno del tipico format che caratterizza una rivista scientifica internazionale?",
+    "T2_TITLE": "POSSIAMO FARE A MENO DELLE MONOGRAFIE?"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | L'evento «non avrebbe probabilmente avuto luogo» senza il saggio pubblicato da Marx cinquant'anni prima. |\n| L2.2 | Falso | *L'interpretazione dei sogni* è definita «un saggio estremamente importante», non un articolo scientifico. 中文：文类对比。 |\n| L2.3 | Falso | I tre saggi furono pubblicati «tra gli anni Cinquanta e gli anni Sessanta del Novecento». 中文：世纪错误。 |\n| L2.4 | Vero | Il testo afferma che una monografia può dare vita a «una potente forza di cambiamento della società». |\n| L2.5 | Falso | Le università italiane «stanno abbandonando» il modello fondato sulla monografia. 中文：趋势相反。 |\n| L2.6 | Vero | Le regole del Ministero e dell'ANVUR «stanno progressivamente indebolendo il valore attribuito alle monografie». |\n| L2.7 | Falso | Agli articoli di «fascia A» viene attribuito «un maggior valore delle monografie». 中文：评价高低颠倒。 |\n| L2.8 | Vero | La lunghezza media dell'articolo corrisponde «a circa un decimo delle pagine di un saggio monografico». |\n| L2.9 | Falso | L'articolo non consente un'analisi e un'argomentazione «così approfondite» come la monografia. 中文：能力对比。 |\n| L2.10 | Falso | Un saggio rivoluzionario non deve «necessariamente essere voluminoso». |\n| L2.11 | Vero | *La moda*, pur lunga «una cinquantina di pagine», è ancora «il punto di riferimento fondamentale» del settore. |\n| L2.12 | Vero | L'opera di Sraffa, di «un centinaio di pagine», «ha rivoluzionato» la concezione dominante nella teoria economica. |\n| L2.13 | Falso | L'autore di un articolo ha «un margine di libertà decisamente limitato». 中文：自由度相反。 |\n| L2.14 | Vero | Il format «rigidamente normato» fa perdere la capacità di dare spazio a «un pensiero innovativo». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "elaborazione teorica",
+      "categoria": "locuzione nominale",
+      "zh": "理论建构；理论阐述",
+      "en": "theoretical development",
+      "esempio": "questo strumento di elaborazione teorica"
+    },
+    {
+      "parola": "prescindere",
+      "categoria": "verbo",
+      "zh": "撇开；不依赖",
+      "en": "to disregard; to do without",
+      "esempio": "non ha potuto prescindere nella storia della modernità da questo strumento di elaborazione teorica"
+    },
+    {
+      "parola": "fascia A",
+      "categoria": "locuzione nominale",
+      "zh": "A类（最高等级）",
+      "en": "top-tier category",
+      "esempio": "riviste scientifiche classificate nella cosiddetta \"fascia A\""
+    },
+    {
+      "parola": "rigidamente normato",
+      "categoria": "locuzione aggettivale",
+      "zh": "受到严格规范的",
+      "en": "strictly regulated",
+      "esempio": "un format internazionale che è stato da tempo rigidamente normato"
+    },
+    {
+      "parola": "forza dirompente",
+      "categoria": "locuzione nominale",
+      "zh": "突破性力量；冲击力",
+      "en": "disruptive force",
+      "esempio": "la forza dirompente della loro innovativa capacità di riflessione"
+    }
+  ]
+}

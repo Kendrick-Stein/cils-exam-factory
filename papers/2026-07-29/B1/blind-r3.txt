@@ -1,0 +1,38 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "sono", "confidence": "hi"},
+  "S2.2": {"answer": "mi preparavo", "confidence": "hi"},
+  "S2.3": {"answer": "ricevetti", "confidence": "hi"},
+  "S2.4": {"answer": "mi ritirai", "confidence": "hi"},
+  "S2.5": {"answer": "mi ha accompagnato", "confidence": "hi"},
+  "S2.6": {"answer": "corro", "confidence": "hi"},
+  "S2.7": {"answer": "mi disse", "confidence": "hi"},
+  "S2.8": {"answer": "ho accettato", "confidence": "hi"},
+  "S2.9": {"answer": "sapevo", "confidence": "hi"},
+  "S2.10": {"answer": "provai", "confidence": "hi"},
+  "S2.11": {"answer": "se ne usciva", "confidence": "hi"},
+  "S2.12": {"answer": "gli dicevo", "confidence": "hi"},
+  "S2.13": {"answer": "mi proporrà", "confidence": "hi"},
+  "S2.14": {"answer": "gli dirò", "confidence": "hi"},
+  "S2.15": {"answer": "farei", "confidence": "hi"},
+  "S2.16": {"answer": "mi descrivo", "confidence": "hi"},
+  "S2.17": {"answer": "scelgo", "confidence": "hi"},
+  "S2.18": {"answer": "userò", "confidence": "hi"},
+  "S2.19": {"answer": "sceglierei", "confidence": "hi"},
+  "S2.20": {"answer": "avete", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "checks": [],
+  "note": "Il file selezionato non contiene prove di produzione scritta."
+}
+```

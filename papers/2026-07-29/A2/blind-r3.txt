@@ -1,0 +1,47 @@
+ANSWERS
+```json
+{
+  "L3.1": {"answer": "C", "confidence": "hi"},
+  "L3.2": {"answer": "A", "confidence": "hi"},
+  "L3.3": {"answer": "E", "confidence": "hi"},
+  "L3.4": {"answer": "F", "confidence": "hi"},
+  "L3.5": {"answer": "D", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "med"},
+  "S1.1": {"answer": "gli", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "l'", "confidence": "hi"},
+  "S1.4": {"answer": "le", "confidence": "hi"},
+  "S1.5": {"answer": "il", "confidence": "hi"},
+  "S1.6": {"answer": "i", "confidence": "hi"},
+  "S1.7": {"answer": "di", "confidence": "hi"},
+  "S1.8": {"answer": "con", "confidence": "hi"},
+  "S1.9": {"answer": "le", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+  "S3.1": {"answer": "collaborazione", "confidence": "hi"},
+  "S3.2": {"answer": "anima", "confidence": "hi"},
+  "S3.3": {"answer": "appuntamenti", "confidence": "hi"},
+  "S3.4": {"answer": "strada", "confidence": "hi"},
+  "S3.5": {"answer": "gastronomici", "confidence": "hi"},
+  "S3.6": {"answer": "somministrazione", "confidence": "hi"},
+  "S3.7": {"answer": "cornice", "confidence": "hi"},
+  "S3.8": {"answer": "possibile", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "L3.6",
+    "reason": "B è l'unico abbinamento plausibile, ma dice «in diverse piazze», mentre il testo indica soltanto piazza della Libertà."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "tasks_present": false,
+  "checks": []
+}
+```

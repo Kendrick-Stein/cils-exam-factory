@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1.** Il concorso mette a disposizione 327 contributi da 2.000 euro ciascuno.\n\nVero ○ Falso ○\n\n**2.** L'importo di ciascun contributo è calcolato al netto degli oneri fiscali.\n\nVero ○ Falso ○\n\n**3.** Le situazioni di difficoltà devono essere documentate e avere conseguenze negative sul percorso di studi.\n\nVero ○ Falso ○\n\n**4.** Il bando ammette soltanto le cinque cause di difficoltà indicate nell'elenco.\n\nVero ○ Falso ○\n\n**5.** Tra i corsi ammessi compare il primo anno di Laurea Magistrale.\n\nVero ○ Falso ○\n\n**6.** Tra i corsi ammessi compare il primo anno di Laurea.\n\nVero ○ Falso ○\n\n**7.** Alla scadenza del bando, il candidato non deve avere già compiuto 32 anni.\n\nVero ○ Falso ○\n\n**8.** Il limite previsto per l'ISEE è di 62.000 euro.\n\nVero ○ Falso ○\n\n**9.** Non può partecipare chi si iscrive a un corso che rilascia un titolo identico o inferiore a uno già posseduto.\n\nVero ○ Falso ○\n\n**10.** Uno studente straniero è escluso anche quando ottiene il riconoscimento di un titolo estero di valore inferiore a quello del nuovo corso.\n\nVero ○ Falso ○\n\n**11.** La domanda deve essere presentata esclusivamente attraverso l'applicativo «studenti online».\n\nVero ○ Falso ○\n\n**12.** In alternativa alla procedura online, la domanda può essere inviata agli uffici via e-mail.\n\nVero ○ Falso ○\n\n**13.** Per usare l'applicativo bisogna entrare con SPID, aprire la sezione «bandi» e selezionare il concorso indicato.\n\nVero ○ Falso ○\n\n**14.** La domanda resta valida anche se lo studente non completa tutta la procedura descritta.\n\nVero ○ Falso ○",
+    "T2_TEXT": "**SCADENZA BANDO: 8 SETTEMBRE 2026, ORE 12:00 (ID 4838)**\n\n**Art. 1 – Finalità**\n\nL'Alma Mater Studiorum - Università di Bologna istituisce un concorso per l'assegnazione di n. 327 contributi, di importo pari a 2.000,00 euro ciascuno (al lordo degli oneri fiscali a carico Ente e percipiente previsti per legge) per studenti regolarmente iscritti all'Università di Bologna per l'a.a. 2025/2026 che si trovano in condizioni di particolare disagio personale, familiare ed economico tale da compromettere la prosecuzione degli studi universitari a causa di (elenco meramente esemplificativo e non esaustivo):\n\n- decesso di un percettore di reddito del nucleo familiare;\n- perdita del lavoro di un percettore di reddito del nucleo familiare;\n- sospensione dell'attività lavorativa (cassa integrazione – sospensione dell'attività imprenditoriale) di un percettore di reddito del nucleo familiare;\n- gravi patologie dello studente o di un componente del nucleo familiare;\n- calamità naturali.\n\nTutte le situazioni di difficoltà dovranno essere adeguatamente documentate e avere un'oggettiva ricaduta negativa sul percorso di studi.\n\n**Art. 2 – Requisiti richiesti per la partecipazione**\n\nPer partecipare al presente concorso occorre essere in possesso di tutti i requisiti di seguito elencati alla data di scadenza del bando:\n\na) essere iscritti nell'a.a. 2025/2026 ad uno dei seguenti corsi:\n\n- Laurea dal II anno fino al IV anno fuori corso;\n- Laurea Magistrale dal I anno fino al IV anno fuori corso;\n- Laurea Magistrale a Ciclo Unico e Scienze della Formazione Primaria dal II anno fino al IV anno fuori corso;\n\nb) avere un'età non superiore ai 32 anni (occorre non avere compiuto i 32 anni alla data di scadenza del bando);\n\nc) essere in possesso dei seguenti requisiti relativi alla condizione economica:\n\n- ISEE inferiore o uguale a € 28.000,00;\n- ISPE inferiore o uguale a € 62.000,00.\n\n**Non possono partecipare al concorso:**\n\na) gli studenti che si iscrivono ad un corso di studio che rilascia un titolo di valore identico o inferiore a quello già posseduto;\n\nb) gli studenti stranieri che ottengono il riconoscimento o l'equipollenza di un titolo accademico conseguito all'estero di valore equivalente o superiore a quello per cui si iscrivono.\n\n**Art. 3 – Modalità di presentazione della domanda**\n\nLa domanda di partecipazione al concorso dovrà essere presentata entro la data di scadenza esclusivamente accedendo all'applicativo «studenti online».\n\nPer utilizzare l'applicativo occorre:\n\n1. accedere a studenti.unibo.it usando le proprie credenziali SPID;\n2. cliccare sul pulsante «bandi»;\n3. selezionare il bando «Bando di concorso per l'assegnazione di contributi a favore di studenti universitari in condizioni di difficoltà iscritti nell'a.a. 2025/2026 all'Università di Bologna».\n\nLa domanda risulta valida solo se lo studente completa la procedura sopra riportata, non è possibile inviare la domanda in formato cartaceo o via e-mail agli uffici.",
+    "T2_TITLE": "BANDO PER 327 CONTRIBUTI A STUDENTI IN CONDIZIONI DI DIFFICOLTÀ"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il concorso assegna «n. 327 contributi, di importo pari a 2.000,00 euro ciascuno». |\n| L2.2 | Falso | L'importo è «al lordo degli oneri fiscali», quindi non è una somma netta priva di oneri. 中文：税前金额不等于实收净额。 |\n| L2.3 | Vero | Le difficoltà devono essere «adeguatamente documentate» e avere «un'oggettiva ricaduta negativa sul percorso di studi». |\n| L2.4 | Falso | L'elenco è dichiarato «meramente esemplificativo e non esaustivo». 中文：列举的是例子，并非封闭清单。 |\n| L2.5 | Vero | Per la Laurea Magistrale sono ammessi gli iscritti «dal I anno fino al IV anno fuori corso». |\n| L2.6 | Falso | Per la Laurea l'ammissione parte «dal II anno», non dal primo. 中文：本科一年级不在规定范围内。 |\n| L2.7 | Vero | Il testo precisa che occorre «non avere compiuto i 32 anni alla data di scadenza». |\n| L2.8 | Falso | L'ISEE deve essere al massimo di «€ 28.000,00»; 62.000 euro è il limite dell'ISPE. 中文：题目互换了两个经济指标。 |\n| L2.9 | Vero | Sono esclusi gli iscritti a un corso che rilascia un titolo «di valore identico o inferiore a quello già posseduto». |\n| L2.10 | Falso | Per il titolo estero l'esclusione riguarda un valore «equivalente o superiore», non inferiore. 中文：比较关系被反转。 |\n| L2.11 | Vero | La domanda va presentata «esclusivamente accedendo all'applicativo “studenti online”». |\n| L2.12 | Falso | Il bando afferma che «non è possibile inviare la domanda [...] via e-mail agli uffici». 中文：电子邮件不是替代渠道。 |\n| L2.13 | Vero | La procedura richiede di accedere con SPID, cliccare su «bandi» e selezionare il bando indicato. |\n| L2.14 | Falso | La domanda è valida «solo se lo studente completa la procedura sopra riportata». 中文：必须完成全部线上步骤。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "al lordo degli oneri fiscali",
+      "categoria": "locuzione avverbiale",
+      "zh": "未扣除税费",
+      "en": "before tax charges",
+      "esempio": "al lordo degli oneri fiscali a carico Ente e percipiente"
+    },
+    {
+      "parola": "elenco meramente esemplificativo e non esaustivo",
+      "categoria": "locuzione nominale",
+      "zh": "仅作示例且非穷尽性清单",
+      "en": "illustrative and non-exhaustive list",
+      "esempio": "elenco meramente esemplificativo e non esaustivo"
+    },
+    {
+      "parola": "oggettiva ricaduta negativa",
+      "categoria": "locuzione nominale",
+      "zh": "客观的负面影响",
+      "en": "objective negative impact",
+      "esempio": "avere un'oggettiva ricaduta negativa sul percorso di studi"
+    },
+    {
+      "parola": "equipollenza",
+      "categoria": "nome femminile",
+      "zh": "学历等效认定",
+      "en": "equivalence",
+      "esempio": "il riconoscimento o l'equipollenza di un titolo accademico"
+    },
+    {
+      "parola": "applicativo",
+      "categoria": "nome maschile",
+      "zh": "应用程序",
+      "en": "application",
+      "esempio": "Per utilizzare l'applicativo occorre"
+    }
+  ]
+}

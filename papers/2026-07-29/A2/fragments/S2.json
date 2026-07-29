@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi non *(sapere)* __(1)__ se fino a oggi vi *(raccontare)* __(2)__ che, quando io *(essere)* __(3)__ piccola, mentre *(abitare)* __(4)__ vicino casa dei miei nonni materni, con loro ho imparato tantissime cose. Adesso vi *(assicurare)* __(5)__ che, fino a oggi, quelli *(essere)* __(6)__ anni bellissimi.\n\nA quel tempo mia nonna *(produrre)* __(7)__ il formaggio; allora noi lo *(consumare)* __(8)__ in famiglia e spesso lei dal siero *(preparare)* __(9)__ la ricotta.\n\nOggi la ricotta *(essere)* __è (0)__ buonissima, ma quando eravamo ragazzi a noi *(piacere)* __(10)__ da pazzi saltata in padella con olio e sale.",
+    "T5_TITLE": "RICOTTA IN PADELLA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "*I marcatori «Oggi», «fino a oggi», «quando», «mentre», «Adesso», «a quel tempo», «allora», «spesso» e «quando eravamo ragazzi» fissano i tempi verbali. 中文提示：先找时间标记，再选择时态。*",
+    "ANS_S2_ROWS": "| 1 | so | presente | 6 | sono stati | passato prossimo |\n| 2 | ho raccontato | passato prossimo | 7 | produceva | imperfetto |\n| 3 | ero | imperfetto | 8 | consumavamo | imperfetto |\n| 4 | abitavo | imperfetto | 9 | preparava | imperfetto |\n| 5 | assicuro | presente | 10 | piaceva | imperfetto |"
+  },
+  "key": {
+    "S2.1": "so",
+    "S2.2": "ho raccontato",
+    "S2.3": "ero",
+    "S2.4": "abitavo",
+    "S2.5": "assicuro",
+    "S2.6": "sono stati",
+    "S2.7": "produceva",
+    "S2.8": "consumavamo",
+    "S2.9": "preparava",
+    "S2.10": "piaceva"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "nonni materni",
+      "categoria": "locuzione nominale",
+      "zh": "外祖父母",
+      "en": "maternal grandparents",
+      "esempio": "vicino casa dei miei nonni materni"
+    },
+    {
+      "parola": "anni bellissimi",
+      "categoria": "locuzione nominale",
+      "zh": "美好的岁月",
+      "en": "wonderful years",
+      "esempio": "anni bellissimi"
+    },
+    {
+      "parola": "siero",
+      "categoria": "nome",
+      "zh": "乳清",
+      "en": "whey",
+      "esempio": "dal siero preparava la ricotta"
+    },
+    {
+      "parola": "da pazzi",
+      "categoria": "locuzione avverbiale",
+      "zh": "非常；喜欢得不得了",
+      "en": "like crazy",
+      "esempio": "a noi piaceva da pazzi"
+    },
+    {
+      "parola": "saltata in padella",
+      "categoria": "locuzione aggettivale",
+      "zh": "在平底锅里翻炒的",
+      "en": "pan-sautéed",
+      "esempio": "saltata in padella con olio e sale"
+    }
+  ]
+}
