@@ -360,8 +360,10 @@ def command_prepare(args: argparse.Namespace) -> int:
         "(never inside ANSWERS: writing and oral tasks have no objective key; "
         "verify instead that each consegna/argomento is self-contained and, for "
         "writing, that the word range is printed). For reading reconstruction, either "
-        "return the whole sequence as L3 or each slot as L3.<n>. Do not open any "
-        "other file or the web."
+        "return the whole sequence as L3 or each slot as L3.<n>. For every "
+        "multiple-choice item answer with the option LETTER ONLY (A, B, C or D) "
+        "exactly as labelled in the paper, never with the option's word or phrase. "
+        "Do not open any other file or the web."
     )
     print(
         json.dumps(

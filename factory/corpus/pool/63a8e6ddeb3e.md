@@ -10,7 +10,7 @@ usable_levels:
 - B1
 - B2
 - C1
-words: 595
+words: 592
 perishable: false
 perishable_until: null
 fetch_intent: B2/harvest-trial

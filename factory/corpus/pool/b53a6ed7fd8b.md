@@ -9,7 +9,7 @@ cefr: A2
 usable_levels:
 - A1
 - A2
-words: 36
+words: 37
 perishable: true
 perishable_until: null
 fetch_intent: A1/harvest-trial
