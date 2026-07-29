@@ -12,7 +12,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 77
+  words: 84
   perishable: true
   perishable_until: null
   fetch_intent: A1/reharvest
@@ -28,7 +28,7 @@ sources:
   - A2
   - B1
   - B2
-  words: 144
+  words: 152
   perishable: true
   perishable_until: null
   fetch_intent: B1/harvest-trial
@@ -60,7 +60,7 @@ sources:
   - A1
   - A2
   - B1
-  words: 226
+  words: 228
   perishable: true
   perishable_until: null
   fetch_intent: A2/harvest-trial
@@ -77,7 +77,7 @@ sources:
   - A2
   - B1
   - B2
-  words: 446
+  words: 448
   perishable: false
   perishable_until: null
   fetch_intent: B1/harvest-trial
@@ -92,7 +92,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 67
+  words: 71
   perishable: true
   perishable_until: null
   fetch_intent: A1/harvest-trial
@@ -107,7 +107,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 86
+  words: 85
   perishable: true
   perishable_until: null
   fetch_intent: A1/harvest-trial
@@ -122,7 +122,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 687
+  words: 663
   perishable: false
   perishable_until: null
   fetch_intent: C1/harvest-trial
@@ -138,7 +138,7 @@ sources:
   - A2
   - B1
   - B2
-  words: 326
+  words: 329
   perishable: false
   perishable_until: null
   fetch_intent: B1/harvest-trial
@@ -154,7 +154,7 @@ sources:
   - A2
   - B1
   - B2
-  words: 186
+  words: 185
   perishable: true
   perishable_until: null
   fetch_intent: A2/harvest-trial
@@ -170,7 +170,7 @@ sources:
   - B1
   - B2
   - C1
-  words: 297
+  words: 291
   perishable: true
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -185,7 +185,7 @@ sources:
   usable_levels:
   - B1
   - B2
-  words: 335
+  words: 337
   perishable: true
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -216,7 +216,7 @@ sources:
   usable_levels:
   - B1
   - B2
-  words: 394
+  words: 391
   perishable: true
   perishable_until: null
   fetch_intent: B1/harvest-trial
@@ -246,7 +246,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 543
+  words: 544
   perishable: false
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -261,7 +261,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 562
+  words: 564
   perishable: false
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -276,7 +276,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 36
+  words: 37
   perishable: true
   perishable_until: null
   fetch_intent: A1/harvest-trial
@@ -291,7 +291,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 68
+  words: 73
   perishable: true
   perishable_until: null
   fetch_intent: A1/reharvest
@@ -306,7 +306,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 75
+  words: 76
   perishable: true
   perishable_until: null
   fetch_intent: A1/harvest-trial
@@ -337,7 +337,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 65
+  words: 72
   perishable: true
   perishable_until: null
   fetch_intent: A1/harvest-trial
@@ -352,7 +352,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 79
+  words: 80
   perishable: true
   perishable_until: null
   fetch_intent: A1/reharvest
@@ -367,7 +367,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 71
+  words: 76
   perishable: true
   perishable_until: null
   fetch_intent: A1/reharvest
@@ -382,7 +382,7 @@ sources:
   usable_levels:
   - A1
   - A2
-  words: 77
+  words: 88
   perishable: true
   perishable_until: null
   fetch_intent: A1/reharvest
@@ -398,7 +398,7 @@ sources:
   - B1
   - B2
   - C1
-  words: 556
+  words: 554
   perishable: false
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -414,7 +414,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 633
+  words: 632
   perishable: false
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -429,7 +429,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 564
+  words: 558
   perishable: false
   perishable_until: null
   fetch_intent: C1/harvest-trial
@@ -444,7 +444,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 613
+  words: 603
   perishable: false
   perishable_until: null
   fetch_intent: C1/harvest-trial
@@ -459,7 +459,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 651
+  words: 649
   perishable: false
   perishable_until: null
   fetch_intent: C1/harvest-trial
@@ -628,7 +628,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 555
+  words: 557
   perishable: false
   perishable_until: null
   fetch_intent: C1/harvest-trial
@@ -643,7 +643,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 515
+  words: 516
   perishable: false
   perishable_until: null
   fetch_intent: C1/harvest-trial
@@ -659,7 +659,7 @@ sources:
   - B1
   - B2
   - C1
-  words: 595
+  words: 592
   perishable: false
   perishable_until: null
   fetch_intent: B2/harvest-trial
@@ -675,7 +675,7 @@ sources:
   - A1
   - A2
   - B1
-  words: 58
+  words: 57
   perishable: true
   perishable_until: null
   fetch_intent: A2B1/reharvest
@@ -691,7 +691,7 @@ sources:
   - A1
   - A2
   - B1
-  words: 104
+  words: 101
   perishable: true
   perishable_until: null
   fetch_intent: A2B1/reharvest
@@ -723,7 +723,7 @@ sources:
   - A1
   - A2
   - B1
-  words: 177
+  words: 170
   perishable: true
   perishable_until: null
   fetch_intent: A2/harvest-trial
@@ -739,7 +739,7 @@ sources:
   - B1
   - B2
   - C1
-  words: 421
+  words: 426
   perishable: true
   perishable_until: null
   fetch_intent: A2B1/reharvest
@@ -799,7 +799,7 @@ sources:
   usable_levels:
   - B1
   - B2
-  words: 602
+  words: 448
   perishable: false
   perishable_until: null
   fetch_intent: 2026-07-28/overfetch
@@ -814,7 +814,7 @@ sources:
   usable_levels:
   - A2
   - B1
-  words: 320
+  words: 153
   perishable: false
   perishable_until: null
   fetch_intent: 2026-07-28/overfetch
@@ -831,7 +831,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 656
+  words: 670
   perishable: true
   perishable_until: null
   fetch_intent: B2/overfetch
@@ -846,7 +846,7 @@ sources:
   usable_levels:
   - A2
   - B1
-  words: 231
+  words: 236
   perishable: true
   perishable_until: null
   fetch_intent: A2/T2
@@ -862,7 +862,7 @@ sources:
   - A2
   - B1
   - B2
-  words: 179
+  words: 185
   perishable: true
   perishable_until: null
   fetch_intent: A2/T6
@@ -878,7 +878,7 @@ sources:
   usable_levels:
   - B1
   - B2
-  words: 177
+  words: 195
   perishable: true
   perishable_until: null
   fetch_intent: B1/T2-overfetch
@@ -893,7 +893,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 542
+  words: 548
   perishable: false
   perishable_until: null
   fetch_intent: C1/T3-extra
@@ -908,7 +908,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 255
+  words: 254
   perishable: false
   perishable_until: null
   fetch_intent: C1/T5
@@ -923,7 +923,7 @@ sources:
   usable_levels:
   - B2
   - C1
-  words: 435
+  words: 437
   perishable: false
   perishable_until: null
   fetch_intent: C1/T3-extra
@@ -939,7 +939,7 @@ sources:
   - A1
   - A2
   - B1
-  words: 131
+  words: 123
   perishable: true
   perishable_until: null
   fetch_intent: A1/T1-extra
@@ -970,7 +970,7 @@ sources:
   usable_levels:
   - B1
   - B2
-  words: 576
+  words: 581
   perishable: false
   perishable_until: null
   fetch_intent: B1/T5-overfetch
@@ -986,7 +986,7 @@ sources:
   - A2
   - B1
   - B2
-  words: 111
+  words: 115
   perishable: true
   perishable_until: null
   fetch_intent: A1/T2-extra

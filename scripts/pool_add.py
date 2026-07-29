@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -20,6 +21,20 @@ from corpus_pool import POOL_DIR, load_freshness, normalize_url, read_blacklist
 
 FRONT_ORDER = ["url", "title", "publisher", "published", "fetched", "genre", "cefr",
                "usable_levels", "words", "perishable", "perishable_until", "fetch_intent"]
+
+WORD_RE = re.compile(r"[\wÀ-ÿ']+")
+# Hunters sometimes pipe their whole sources.md section in, so the body arrives with a
+# CEFR-grading preamble closed by a `---` rule. That commentary is not part of the text
+# and must not inflate the word count a later S1 trusts when picking a slot.
+GRADING_RE = re.compile(r"\A\s*(?:CEFR|Adaptation plan)\b.*?^-{3,}\s*$", re.DOTALL | re.MULTILINE | re.IGNORECASE)
+
+
+def clean_body(body: str) -> str:
+    return GRADING_RE.sub("", body).strip()
+
+
+def count_words(body: str) -> int:
+    return len(WORD_RE.findall(body))
 
 
 def pool_id(url: str) -> str:
@@ -89,11 +104,17 @@ def main(argv: list[str] | None = None) -> int:
     if out.exists() and not args.overwrite:
         print(f"skip (already pooled): {out}")
         return 0
-    body = args.text_file.read_text(encoding="utf-8") if args.text_file else sys.stdin.read()
+    body = clean_body(args.text_file.read_text(encoding="utf-8") if args.text_file else sys.stdin.read())
     meta = build_meta(args, load_freshness(args.sources))
+    # `words` is what a later S1 filters slots on, so measure the body we actually store
+    # instead of trusting the caller's count.
+    actual = count_words(body)
+    if args.words is not None and abs(args.words - actual) > max(10, 0.05 * actual):
+        print(f"warning: --words {args.words} but stored body has {actual}; using {actual}")
+    meta["words"] = actual
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(meta, body), encoding="utf-8")
-    print(f"banked {out}")
+    print(f"banked {out} ({actual} words)")
     return 0
 
 
