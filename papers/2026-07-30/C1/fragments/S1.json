@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "**Ascensione __ovvero (0)__ decadenza della poesia italiana?**\n\nDecadenza, cara signora, decadenza.... La poesia italiana, soltanto __(1)__ essere sbucata in classico paludamento dalle fucine barbaresche, precipita ora a scavezzacollo verso il manicomio.\n\nIl verso libero? Non è tanto un verso, __(2)__ il luogo comodo della scioperataggine pretenziosa. Dal Kahn, il __(3)__ ne è l'apostolo fervente, si potrebbe chiamare verso kanino.\n\nQuanto __(4)__ Futurismo? Io deploro sinceramente che, per __(5)__ siano d'ingegno e non privi di coltura, tanti giovani si perdano dietro a tali follie. È un'aberrazione che durerà poco: non __(6)__ sarà svanita, lascerà, così __(7)__ fa la nebbia, il tempo che trova.\n\nAbolire non soltanto i musei e le accademie, ma __(8)__ le scuole, fino __(9)__ fare un falò delle biblioteche? Per fondare una scuola che celebri, oltre __(10)__ pugno e allo schiaffo, il salto mortale! Non Le pare di assistere agli esercizi di un circo equestre, piuttosto __(11)__ a quelli di una scuola?\n\nQuanto __(12)__ critica letteraria, storica ed estetica al tempo istesso, essa, così __(13)__ deve essere, fu in Italia fondata da Ugo Foscolo. A partire __(14)__ lui, il Carducci, __(15)__ sua volta, la consolidò su le basi foscoliane, non __(16)__ mescolarla di chiazze verdastre, segni non dubbi della epatite alcoolica che non soltanto gli corrompeva il sangue, ma __(17)__ gli offuscava il giudizio.\n\nIl Graf, __(18)__ parte sua, la va ora lumeggiando con dottrina letteraria e, per di __(19)__, scientifica, e con sentimento storico ed artistico tale __(20)__ risultare ammirevole.",
+    "T4_TITLE": "LETTERA A MELITTA"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.2 — quanto:** completa la correlazione *non tanto … quanto*, che rettifica la prima definizione. 中文：不是前者，而是后者。\n- **S1.5 — quanto:** con *per* e il congiuntivo forma il connettivo concessivo *per quanto*. 中文：尽管。\n- **S1.6–S1.7 — appena / come:** *non appena* fissa l'immediatezza temporale; *così … come* introduce il paragone con la nebbia. 中文：一……就……；正如。\n- **S1.11 — che:** completa *piuttosto che*, qui usato per contrapporre il circo alla scuola. 中文：与其……不如……。\n- **S1.17 — anche:** è il secondo elemento della correlazione *non soltanto … ma anche*. 中文：不仅……而且。",
+    "ANS_S1_ROWS": "| S1.1 | dopo | S1.11 | che |\n| S1.2 | quanto | S1.12 | alla |\n| S1.3 | quale | S1.13 | come |\n| S1.4 | al | S1.14 | da |\n| S1.5 | quanto | S1.15 | a |\n| S1.6 | appena | S1.16 | senza |\n| S1.7 | come | S1.17 | anche |\n| S1.8 | anche | S1.18 | da |\n| S1.9 | a | S1.19 | più |\n| S1.10 | al | S1.20 | da |"
+  },
+  "key": {
+    "S1.1": "dopo",
+    "S1.2": "quanto",
+    "S1.3": "quale",
+    "S1.4": "al",
+    "S1.5": "quanto",
+    "S1.6": "appena",
+    "S1.7": "come",
+    "S1.8": "anche",
+    "S1.9": "a",
+    "S1.10": "al",
+    "S1.11": "che",
+    "S1.12": "alla",
+    "S1.13": "come",
+    "S1.14": "da",
+    "S1.15": "a",
+    "S1.16": "senza",
+    "S1.17": "anche",
+    "S1.18": "da",
+    "S1.19": "più",
+    "S1.20": "da"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "paludamento",
+      "categoria": "sostantivo",
+      "zh": "华丽而庄重的外衣",
+      "en": "ornate garb",
+      "esempio": "La poesia italiana, soltanto dopo essere sbucata in classico paludamento dalle fucine barbaresche"
+    },
+    {
+      "parola": "a scavezzacollo",
+      "categoria": "locuzione avverbiale",
+      "zh": "鲁莽地；不顾危险地",
+      "en": "recklessly",
+      "esempio": "precipita ora a scavezzacollo verso il manicomio"
+    },
+    {
+      "parola": "scioperataggine pretenziosa",
+      "categoria": "locuzione nominale",
+      "zh": "自命不凡的懒散",
+      "en": "pretentious idleness",
+      "esempio": "il luogo comodo della scioperataggine pretenziosa"
+    },
+    {
+      "parola": "il tempo che trova",
+      "categoria": "locuzione idiomatica",
+      "zh": "昙花一现；影响短暂",
+      "en": "short-lived effect",
+      "esempio": "lascerà, così come fa la nebbia, il tempo che trova"
+    },
+    {
+      "parola": "lumeggiando",
+      "categoria": "verbo, gerundio",
+      "zh": "阐明；凸显",
+      "en": "illuminating",
+      "esempio": "la va ora lumeggiando con dottrina"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__Queste (0)__ malattie neurodegenerative, tra cui l’Alzheimer, colpiscono milioni di persone. Le malattie? La perdita progressiva di neuroni __(1)__ caratterizza. I neuroni? Il testo __(2)__ definisce cellule del sistema nervoso.\n\nUna sfida della ricerca? Il testo __(3)__ individua nel capire che cosa accada dentro queste cellule all’inizio. Lo sviluppo di nuove terapie? Questa comprensione __(4)__ potrebbe favorire.\n\nTra i protagonisti ci sono i microRNA. Queste molecole? Il testo __(5)__ presenta come regolatrici dei geni. L’attività dei geni? I microRNA __(6)__ regolano. I geni? Il testo __(7)__ definisce tratti di DNA. Il DNA? Ogni cellula __(8)__ contiene. Il corpo? Ogni cellula __(9)__ fa parte.\n\nIl ruolo dei microRNA come biomarcatori? La ricerca __(10)__ esamina con interesse. L’evoluzione di una malattia? La loro presenza o variazione offre informazioni che __(11)__ riguardano. Presenza e variazione: sia l’una sia l’__(12)__ sono informative. Una variazione dei livelli? Diversi studi __(13)__ documentano anche nell’Alzheimer.\n\nIl vecchio metodo? I ricercatori __(14)__ usavano rompendo le cellule nervose. Le cellule? Il metodo __(15)__ rompeva. Il contenuto? Poi __(16)__ estraevano. La possibilità di seguirne l’evoluzione? Questo procedimento __(17)__ faceva perdere.\n\nUna nuova nanobiotecnologia? Lo studio del Cnr e del Laboratorio Bio@SNS __(18)__ presenta come SNaP. Il materiale formato dai microRNA? SNaP __(19)__ raccoglie dai neuroni. I neuroni? Non __(20)__ danneggia. Le cellule producono nanoparticelle che legano i microRNA, li trasportano nel terreno di coltura cellulare e permettono di analizzarli.",
+    "T4_TITLE": "SNaP, una tecnologia per studiare le malattie neurodegenerative"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.4 — lo:** riprende *lo sviluppo*; il pronome precede il verbo modale *potrebbe*; 代词位于情态动词之前。\n- **S1.9 — ne:** *fare parte di* richiede *ne* per riprendere *del nostro corpo*; 动词支配关系锁定代词。\n- **S1.11 — la:** riprende *l’evoluzione di una malattia*, oggetto di *riguardano*; 阴性单数直接宾语。\n- **S1.12 — altra:** la cornice fissa *sia l’una sia l’altra* oppone i due indicatori; 固定关联结构。\n- **S1.19 — lo / S1.20 — li:** *lo* riprende il materiale, *li* i neuroni; 相邻先行词的性数不同。",
+    "ANS_S1_ROWS": "| 1 | le | 11 | la |\n| 2 | li | 12 | altra |\n| 3 | la | 13 | la |\n| 4 | lo | 14 | lo |\n| 5 | le | 15 | le |\n| 6 | la | 16 | lo |\n| 7 | li | 17 | la |\n| 8 | lo | 18 | la |\n| 9 | ne | 19 | lo |\n| 10 | lo | 20 | li |"
+  },
+  "key": {
+    "S1.1": "le",
+    "S1.2": "li",
+    "S1.3": "la",
+    "S1.4": "lo",
+    "S1.5": "le",
+    "S1.6": "la",
+    "S1.7": "li",
+    "S1.8": "lo",
+    "S1.9": "ne",
+    "S1.10": "lo",
+    "S1.11": "la",
+    "S1.12": "altra",
+    "S1.13": "la",
+    "S1.14": "lo",
+    "S1.15": "le",
+    "S1.16": "lo",
+    "S1.17": "la",
+    "S1.18": "la",
+    "S1.19": "lo",
+    "S1.20": "li"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "malattie neurodegenerative",
+      "categoria": "locuzione nominale",
+      "zh": "神经退行性疾病",
+      "en": "neurodegenerative diseases",
+      "esempio": "malattie neurodegenerative, tra cui l’Alzheimer"
+    },
+    {
+      "parola": "biomarcatori",
+      "categoria": "nome maschile plurale",
+      "zh": "生物标志物",
+      "en": "biomarkers",
+      "esempio": "Il ruolo dei microRNA come biomarcatori"
+    },
+    {
+      "parola": "seguirne l’evoluzione",
+      "categoria": "locuzione verbale",
+      "zh": "追踪其演变",
+      "en": "track their evolution",
+      "esempio": "La possibilità di seguirne l’evoluzione"
+    },
+    {
+      "parola": "nanoparticelle",
+      "categoria": "nome femminile plurale",
+      "zh": "纳米颗粒",
+      "en": "nanoparticles",
+      "esempio": "Le cellule producono nanoparticelle"
+    },
+    {
+      "parola": "terreno di coltura cellulare",
+      "categoria": "locuzione nominale",
+      "zh": "细胞培养基",
+      "en": "cell culture medium",
+      "esempio": "nel terreno di coltura cellulare"
+    }
+  ]
+}

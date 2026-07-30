@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Oggi voglio parlarvi del cammino del Salto, un anello di circa 100 km che da Peschieta vi farà conoscere tanti comuni e piccole frazioni del Cicolano, con una vista a 360 gradi sul più grande bacino artificiale del Lazio.",
+    "T3_PART_B": "Dopo il santuario lascio l’asfalto e inizio a scendere verso la valle lungo sentieri e carrarecce, tra nebbia e un po’ di fango, in un tipico scenario autunnale.",
+    "T3_PART_C": "Proprio durante quella salita, la nebbia si dirada: raggiungo prima il borgo di Roccarandisi e poi Santo Stefano, dove un cagnolone con il viso sfregiato dai lupi mi accoglie per le prime coccole.",
+    "T3_PART_D": "Conclusa questa panoramica iniziale, passo alla prima tappa. Imposto la sveglia, ma, come spesso accade, l’adrenalina mi fa svegliare prima del suono. Dopo colazione, alle 7:30 arrivo al John Pedro bar, punto di partenza.",
+    "T3_PART_E": "Terminata quella pausa al bar di Santa Lucia, riparto verso Fiamignano e mi fermo al forno per la pizza rentorta, una specialità locale. Qui, però, un signore prende l’ultimo pezzo e ripiego su un’altra pizza.",
+    "T3_PART_F": "Giunto a valle, attraverso qualche piccolo guado di torrenti quasi in secca, raccolgo qualche mela selvatica per futuri snack e oltrepasso il viadotto della superstrada Salto-Cicolana.",
+    "T3_PART_G": "Dopo l’imprevisto al forno, arrivo a Fiamignano: fotografo il borgo e timbro al bar. Devio verso la Big Bench 382, la Chiesa della Madonna del Poggio e la rocca; al ritorno termina la prima tappa, ma io proseguo.",
+    "T3_PART_H": "Proprio quel bacino si può ammirare da ogni angolazione, con panorami spettacolari tra il verde dei boschi della macchia mediterranea e l’azzurro del cielo, per poi ritrovare questo mix smeraldo nelle acque del lago.",
+    "T3_PART_I": "Da Santo Stefano, ancora pochi chilometri e sono a Santa Lucia. Attraverso le vie del paese e mi siedo al bar, dove mi concedo un caffè e una fetta di torta ricotta e cioccolato.",
+    "T3_PART_J": "Al John Pedro bar avvio l’orologio e parto. Attraverso Peschieta fino alla chiesa di San Paolo Apostolo; poi i segnali del cammino mi accompagnano oltre il monumento ai caduti, fuori dal borgo, fino al santuario di SS. Maria Assunta.",
+    "T3_PART_K": "Subito dopo aver oltrepassato quel viadotto mi ritrovo tra ruderi suggestivi e natura che si riappropria del territorio. Terminata la visita a questo nucleo abbandonato, riprendo a salire verso il borgo successivo.",
+    "T3_TITLE": "LA PRIMA TAPPA DEL CAMMINO DEL SALTO"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Presenta il cammino, la partenza da Peschieta e il bacino artificiale. |\n| 2 | H | «Proprio quel bacino» riprende unicamente il bacino artificiale nominato nella parte A. |\n| 3 | D | «Conclusa questa panoramica iniziale» chiude la descrizione della vista e passa alla prima tappa. |\n| 4 | J | «Al John Pedro bar» riprende il luogo raggiunto alla fine della parte D. |\n| 5 | B | «Dopo il santuario» riprende il santuario di SS. Maria Assunta, ultima meta della parte J. |\n| 6 | F | «Giunto a valle» segue necessariamente la discesa «verso la valle» descritta nella parte B. |\n| 7 | K | «Subito dopo aver oltrepassato quel viadotto» riprende il viadotto superato nella parte F e conduce ai ruderi. |\n| 8 | C | «Proprio durante quella salita» riprende la salita successiva alla visita dei ruderi; solo qui il narratore raggiunge Roccarandisi. |\n| 9 | I | «Da Santo Stefano» riparte esattamente dal luogo raggiunto nella parte C. |\n| 10 | E | «Terminata quella pausa al bar di Santa Lucia» riprende il caffè e la torta della parte I. |\n| 11 | G | «Dopo l’imprevisto al forno» riprende l’ultimo pezzo di pizza e introduce l’arrivo conclusivo a Fiamignano. |",
+    "ANS_L3_SEQUENCE": "A–H–D–J–B–F–K–C–I–E–G"
+  },
+  "key": {
+    "L3": "A–H–D–J–B–F–K–C–I–E–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "bacino artificiale",
+      "categoria": "locuzione nominale",
+      "zh": "人工水库",
+      "en": "artificial reservoir",
+      "esempio": "Oggi voglio parlarvi del cammino del Salto, un anello di circa 100 km che da Peschieta vi farà conoscere tanti comuni e piccole frazioni del Cicolano, con una vista a 360 gradi sul più grande bacino artificiale del Lazio."
+    },
+    {
+      "parola": "macchia mediterranea",
+      "categoria": "locuzione nominale",
+      "zh": "地中海灌木丛",
+      "en": "Mediterranean scrub",
+      "esempio": "Proprio quel bacino si può ammirare da ogni angolazione, con panorami spettacolari tra il verde dei boschi della macchia mediterranea e l’azzurro del cielo, per poi ritrovare questo mix smeraldo nelle acque del lago."
+    },
+    {
+      "parola": "carrarecce",
+      "categoria": "nome femminile plurale",
+      "zh": "乡间土路",
+      "en": "dirt tracks",
+      "esempio": "Dopo il santuario lascio l’asfalto e inizio a scendere verso la valle lungo sentieri e carrarecce, tra nebbia e un po’ di fango, in un tipico scenario autunnale."
+    },
+    {
+      "parola": "ruderi suggestivi",
+      "categoria": "locuzione nominale",
+      "zh": "引人遐想的遗迹",
+      "en": "evocative ruins",
+      "esempio": "Subito dopo aver oltrepassato quel viadotto mi ritrovo tra ruderi suggestivi e natura che si riappropria del territorio."
+    },
+    {
+      "parola": "pizza rentorta",
+      "categoria": "locuzione nominale",
+      "zh": "伦托尔塔披萨，当地特色",
+      "en": "pizza rentorta, a local specialty",
+      "esempio": "Terminata quella pausa al bar di Santa Lucia, riparto verso Fiamignano e mi fermo al forno per la pizza rentorta, una specialità locale."
+    }
+  ]
+}

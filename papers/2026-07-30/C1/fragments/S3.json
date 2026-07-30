@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "serie",
+    "S3_OPT0_B": "coppia",
+    "S3_OPT0_C": "riserva",
+    "S3_OPT0_D": "totalità",
+    "S3_OPTION_ROWS": "| 1. | subisce | conduce | elude | osteggia |\n| 2. | ricorrenze | controversie | rassegne | campagne |\n| 3. | dinamiche | coordinate | scadenze | pause |\n| 4. | salinità | viscosità | riflettanza | porosità |\n| 5. | costeggiano | attraversano | circondano | compongono |\n| 6. | prosciugamento | monitoraggio | arredamento | isolamento |\n| 7. | emergenza | controversia | interruzione | iniziativa |\n| 8. | ambito | archivio | indirizzo | inventario |\n| 9. | competizione | concorrenza | collaborazione | contrasto |\n| 10. | dispersione | raccolta | cancellazione | cessione |\n| 11. | campionamenti | occultamenti | spostamenti | frazionamenti |\n| 12. | provenienze | migrazioni | concentrazioni | diramazioni |\n| 13. | durezza | densità | anzianità | fragilità |\n| 14. | trasporto | distacco | rifiuto | contenuto |\n| 15. | validazione | dispersione | abolizione | occultamento |",
+    "S3_TEXT_WITH_GAPS": "L’Istituto per il Rilevamento Elettromagnetico dell’Ambiente (Cnr-Irea) del Consiglio Nazionale delle Ricerche __(1)__ dal 2021 una __serie (0)__ di __(2)__ di misura delle __(3)__ temporali, infragiornaliere e infrastagionali, della __(4)__ di piante acquatiche flottanti presenti nei due bacini che __(5)__ il lago di Annone (LC), la cui conoscenza è fondamentale per il __(6)__ delle condizioni del sistema lacustre.\n\nL'__(7)__ si inserisce nell'__(8)__ del progetto di ricerca “macroDIVERSITY”, coordinato dal Cnr-Irea, in __(9)__ con il Dipartimento di Biologia del Museo di Storia Naturale dell'Università di Firenze e il Dipartimento di Scienze Chimiche, della Vita e della Sostenibilità Ambientale dell’Università di Parma.\n\nIl Cnr-Irea, in particolare, ha lavorato alla __(10)__ di dati della riflettanza spettrale tramite spettroradiometro portatile in diversi punti strategici di entrambi i bacini del lago, effettuando contestualmente __(11)__ di parametri chiave delle acque (come la trasparenza e le __(12)__ di fitoplancton) e delle piante acquatiche (come la __(13)__ della copertura vegetale, ovvero la percentuale di suolo coperta da vegetazione, e il __(14)__ di pigmenti fogliari, tra cui la clorofilla).\n\nObiettivo principale dei dati raccolti è la __(15)__ delle osservazioni ricavabili dai dati telerilevati da drone o satellite.",
+    "T6_TITLE": "LAGO DI ANNONE, LA LUCE RIFLESSA DALL'ACQUA SVELA LO STATO DI SALUTE DELL'ECOSISTEMA"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | La collocazione è «conduce ... campagne di misura»: l’istituto svolge sistematicamente l’attività. 中文：condurre una campagna = 开展一项活动。 |\n| S3.2 | D | «Campagne di misura» è la collocazione propria delle rilevazioni scientifiche ripetute dal 2021. 中文：这里指多次测量活动。 |\n| S3.3 | A | Gli aggettivi «temporali, infragiornaliere e infrastagionali» specificano le diverse dinamiche osservate. 中文：指不同时间尺度的变化。 |\n| S3.4 | C | Il testo riprende subito dopo l’espressione «dati della riflettanza spettrale», che conferma il termine tecnico. 中文：riflettanza 指反射率。 |\n| S3.5 | D | I «due bacini» costituiscono insieme il lago: perciò lo «compongono», mentre non lo costeggiano, attraversano o circondano. 中文：两个湖盆共同构成湖泊。 |\n| S3.6 | B | La conoscenza delle dinamiche serve al «monitoraggio delle condizioni del sistema lacustre», non a modificarlo. 中文：monitoraggio = 监测。 |\n| S3.7 | D | «L’iniziativa» riprende anaforicamente la serie di campagne descritta nel periodo precedente. 中文：指前述研究行动。 |\n| S3.8 | A | La locuzione istituzionale corretta è «nell’ambito del progetto di ricerca». 中文：意为在项目框架内。 |\n| S3.9 | C | I dipartimenti partecipano al progetto «in collaborazione con» il Cnr-Irea; le altre opzioni indicano rapporti oppositivi. 中文：合作关系。 |\n| S3.10 | B | La «raccolta di dati» è confermata dalla ripresa finale «dati raccolti». 中文：后文原词复现锁定答案。 |\n| S3.11 | A | Trasparenza, fitoplancton e caratteristiche delle piante sono oggetto di «campionamenti» scientifici. 中文：指采样。 |\n| S3.12 | C | Tra i parametri delle acque si misurano le «concentrazioni di fitoplancton». 中文：concentrazione = 浓度。 |\n| S3.13 | B | La glossa «percentuale di suolo coperta da vegetazione» definisce la densità della copertura vegetale. 中文：覆盖密度。 |\n| S3.14 | D | I pigmenti fogliari, tra cui la clorofilla, sono sostanze di cui si misura il «contenuto». 中文：指色素含量。 |\n| S3.15 | A | Le osservazioni da drone o satellite vengono confrontate con i dati raccolti per la loro «validazione». 中文：用实测数据验证遥感观测。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "D",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "B",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "infragiornaliere",
+      "categoria": "aggettivo",
+      "zh": "日内的",
+      "en": "within-day",
+      "esempio": "temporali, infragiornaliere e infrastagionali"
+    },
+    {
+      "parola": "sistema lacustre",
+      "categoria": "locuzione nominale",
+      "zh": "湖泊生态系统",
+      "en": "lake system",
+      "esempio": "delle condizioni del sistema lacustre"
+    },
+    {
+      "parola": "spettroradiometro portatile",
+      "categoria": "locuzione nominale",
+      "zh": "便携式光谱辐射计",
+      "en": "portable spectroradiometer",
+      "esempio": "tramite spettroradiometro portatile"
+    },
+    {
+      "parola": "fitoplancton",
+      "categoria": "nome maschile invariabile",
+      "zh": "浮游植物",
+      "en": "phytoplankton",
+      "esempio": "di fitoplancton"
+    },
+    {
+      "parola": "pigmenti fogliari",
+      "categoria": "locuzione nominale",
+      "zh": "叶片色素",
+      "en": "leaf pigments",
+      "esempio": "di pigmenti fogliari"
+    }
+  ]
+}

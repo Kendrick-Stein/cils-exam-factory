@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Eran venuti su per la buja, erta scaletta di legno; su, in silenzio, quasi di furto, piano piano. Il professor Carmelo Sabato — tozzo pingue calvo –",
+    "T3_PART_B": "come se si lamentasse in sogno: — Enrichetto, Enrichetto mio, — diceva, — mi fai male... t’assicuro che mi fai male... tanto male... Il Lamella, biondino, magro,",
+    "T3_PART_C": "continuo delle stelle che pungevano il cielo senz’allargar le tenebre della notte profonda, conversavano. E bevevano. Vino, il professor Sabato: vino, fino a schiattarne: voleva morire.",
+    "T3_PART_D": "alla fine, nonostante l’ammonimento del Lamella: «Professore, voi vi raffreddate» s’era tolta la giacca, e con molti sospiri, ripiegatala, se l’era messa sotto, per star piú comodo",
+    "T3_PART_E": "gattoni, e le corse dietro per pararla, fermarla, gemendo, arrangolando: — Per carità... per carità... sei matto? giú parrà un tuono. Parlando, il Lamella si storceva",
+    "T3_PART_F": "con in braccio, come un bamboccetto in fasce, un grosso fiasco di vino. Il professor Lamella, antico alunno del Sabato, con due bottiglie di birra, una per mano.",
+    "T3_PART_G": "sui pilastrini del parapetto. Allungando un braccio, poteva prendere da terra la bottiglia: prendeva quasi sempre la vuota, e si stizziva; tanto che, alla fine,",
+    "T3_PART_H": "La notte era afosa, e il professor Carmelo Sabato s’era dapprima snodata la cravatta e sbottonato il colletto davanti, poi anche sbottonato il panciotto e aperta la camicia sul petto velloso:",
+    "T3_PART_I": "Teneva ciondoloni il testone calvo e raso, socchiusi gli occhi bovini torbidi, venati di sangue, sotto le foltissime sopracciglia spioventi, e parlava con voce languida, velata, stiracchiata,",
+    "T3_PART_J": "ma apposta lo faccio: voi dovete guarire! vi voglio rialzare! E vi ripeto che le vostre idee sono antiquate, antiquate, antiquate... Rifletteteci bene, e mi darete ragione!",
+    "T3_PART_K": "tutto, non poteva star fermo un momento, si raggricchiava, si stirava, dava calci e pugni all’aria. — Vi farò male; ne sono persuaso, caro professore;",
+    "T3_PART_L": "su la panchetta bassa, di legno, a sedere con le gambe distese e aperte, una qua, una là, sotto il tavolinetto rustico, imporrito dalla pioggia e dal sole.",
+    "T3_PART_M": "E da piú d’un’ora, su l’alta terrazza sui tetti, irta di comignoli, di fumajoli di stufe, di tubi d’acqua, sotto lo sfavillío fitto,",
+    "T3_PART_N": "itterico, nervosissimo, stava sdrajato su una specie d’amaca sospesa di qua a un anello nel muro del terrazzo, di là a due bacchette di ferro",
+    "T3_PART_O": "con una manata la mandò a rotolare sul pavimento in pendío, con grande angoscia, anzi terrore del vecchio professor Sabato, che si buttò subito a terra,",
+    "T3_PART_P": "Il professor Lamella, birra: non voleva morire. Dalle case, dalle vie della città non saliva piú, da un pezzo, nessun rumore. Solo, di tratto in tratto, qualche remoto rotolío di vettura.",
+    "T3_TITLE": "SOPRA E SOTTO"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | F | «con in braccio» completa il ritratto del professor Sabato. |\n| 3 | M | «E da piú d’un’ora» passa dalla salita alla permanenza sulla terrazza. |\n| 4 | C | «continuo delle stelle» completa «lo sfavillío fitto». |\n| 5 | P | «Il professor Lamella, birra» riprende il contrasto con il vino del Sabato. |\n| 6 | H | «La notte era afosa» spiega perché il Sabato comincia a spogliarsi. |\n| 7 | D | «alla fine» conclude la progressione «dapprima... poi anche». |\n| 8 | L | «su la panchetta» completa «per star piú comodo». |\n| 9 | I | parte data |\n| 10 | B | «come se si lamentasse» completa la descrizione della voce e introduce le sue parole. |\n| 11 | N | «itterico, nervosissimo» prosegue il ritratto del Lamella iniziato con «biondino, magro». |\n| 12 | G | «sui pilastrini del parapetto» completa «due bacchette di ferro». |\n| 13 | O | «con una manata» dipende da «tanto che, alla fine» e avvia la bottiglia. |\n| 14 | E | «gattoni» riprende il Sabato appena buttatosi a terra. |\n| 15 | K | «tutto» completa «si storceva» e continua i suoi movimenti. |\n| 16 | J | «ma apposta lo faccio» contrappone l’intenzione di guarirlo al male annunciato. |",
+    "ANS_L3_SEQUENCE": "A–F–M–C–P–H–D–L–I–B–N–G–O–E–K–J"
+  },
+  "key": {
+    "L3": "A–F–M–C–P–H–D–L–I–B–N–G–O–E–K–J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "irta",
+      "categoria": "aggettivo",
+      "zh": "竖满的；林立的",
+      "en": "bristling",
+      "esempio": "su l’alta terrazza sui tetti, irta di comignoli"
+    },
+    {
+      "parola": "sfavillío",
+      "categoria": "sostantivo",
+      "zh": "闪耀；闪烁",
+      "en": "sparkle",
+      "esempio": "sotto lo sfavillío fitto"
+    },
+    {
+      "parola": "imporrito",
+      "categoria": "aggettivo",
+      "zh": "受风雨侵蚀的",
+      "en": "weather-beaten",
+      "esempio": "sotto il tavolinetto rustico, imporrito dalla pioggia e dal sole"
+    },
+    {
+      "parola": "ciondoloni",
+      "categoria": "avverbio",
+      "zh": "低垂着；耷拉着",
+      "en": "dangling",
+      "esempio": "Teneva ciondoloni il testone calvo e raso"
+    },
+    {
+      "parola": "itterico",
+      "categoria": "aggettivo",
+      "zh": "面色蜡黄的；黄疸般的",
+      "en": "jaundiced",
+      "esempio": "itterico, nervosissimo, stava sdrajato"
+    }
+  ]
+}

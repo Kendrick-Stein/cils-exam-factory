@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "1. L’Avviso invita a presentare proposte per la programmazione culturale delle Biblioteche civiche torinesi.  \n   Vero ○ Falso ○\n\n2. Le sale e i locali delle Biblioteche sono concessi a pagamento.  \n   Vero ○ Falso ○\n\n3. Tra gli obiettivi c’è la crescita culturale individuale, ma non quella collettiva.  \n   Vero ○ Falso ○\n\n4. Il Servizio Biblioteche vuole favorire l’accesso a conoscenze e informazioni diverse.  \n   Vero ○ Falso ○\n\n5. L’Avviso collega alcuni suoi obiettivi all’Agenda 2030.  \n   Vero ○ Falso ○\n\n6. La programmazione culturale indicata comincia a ottobre 2026.  \n   Vero ○ Falso ○\n\n7. Possono partecipare anche imprese che lavorano a scopo di lucro.  \n   Vero ○ Falso ○\n\n8. Le società sportive dilettantistiche sono tra gli enti ammessi.  \n   Vero ○ Falso ○\n\n9. L’Avviso richiede il rispetto della trasparenza e della parità di trattamento.  \n   Vero ○ Falso ○\n\n10. Al momento della domanda, l’iscrizione al Registro deve essere già validata e non può essere ancora in corso.  \n    Vero ○ Falso ○\n\n11. Gli enti devono avere almeno due anni di esperienza professionale.  \n    Vero ○ Falso ○\n\n12. È valida soltanto l’esperienza nella formazione degli adulti.  \n    Vero ○ Falso ○\n\n13. La documentazione può essere inviata in qualsiasi formato digitale.  \n    Vero ○ Falso ○\n\n14. La domanda deve arrivare via PEC entro le ore 12.00 del 15 giugno 2026.  \n    Vero ○ Falso ○",
+    "T2_TEXT": "Avviso pubblico rivolto ad Enti del terzo settore e associazioni per la presentazione di proposte progettuali nell’ambito della programmazione culturale delle Biblioteche civiche torinesi 2026/2027, con l’utilizzo a titolo gratuito di sale e locali di pertinenza del suddetto Servizio.\n\n**Obiettivi**\n\nCon il presente Avviso pubblico il Servizio Biblioteche persegue i seguenti obiettivi:\n\n- favorire la crescita culturale individuale e collettiva;\n- promuovere il diritto primario dei cittadini e delle cittadine al libero accesso alla conoscenza e a un'informazione plurale, anche in un’ottica di contrasto alle disuguaglianze;\n- contribuire allo sviluppo della persona, all'esercizio pieno dei diritti di cittadinanza e alla consapevole partecipazione alla vita associata;\n- creare un modello integrato di promozione del benessere e della salute degli individui e delle comunità, in un’ottica di welfare culturale;\n- contribuire al perseguimento degli Obiettivi dell’agenda 2030 (es. Città e comunità sostenibili, istruzione di qualità, riduzione delle disuguaglianze, parità di genere).\n\n**Durata**\n\nIl presente Avviso è finalizzato ad arricchire la programmazione culturale delle Biblioteche civiche torinesi nel periodo da settembre 2026 a settembre 2027.\n\n**Soggetti ammissibili e requisiti di idoneità**\n\nL’Avviso è rivolto agli Enti senza scopo di lucro, per esempio associazioni culturali, associazioni di promozione sociale, organizzazioni di volontariato, fondazioni, cooperative sociali, società sportive dilettantistiche, enti del terzo settore, nel rispetto dei principi di imparzialità, pubblicità, trasparenza, partecipazione e parità di trattamento.\n\nGli Enti devono possedere i seguenti requisiti:\n\n1. iscrizione al Registro delle Associazioni della Città di Torino; al momento di presentazione dell’istanza la pratica deve essere già validata o in iter;\n2. esperienza professionale in ambito culturale e/o di formazione a adulti e/o minori pari ad almeno un biennio.\n\n**Modalità e termini di partecipazione**\n\nGli Enti che intendono rispondere al presente Avviso Pubblico per aderire alla programmazione relativa all’annualità 2026-2027 (indicativamente settembre 2026 - settembre 2027) dovranno far pervenire la documentazione richiesta, in formato PDF, entro e non oltre le ore 12.00 di lunedì 15 giugno 2026 all’indirizzo PEC: biblioteche@cert.comune.torino.it.",
+    "T2_TITLE": "LE BIBLIOTECHE CRESCONO, FAI CRESCERE LE BIBLIOTECHE!"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | L’Avviso riguarda la «presentazione di proposte progettuali» per la «programmazione culturale» delle Biblioteche. |\n| L2.2 | Falso | Il testo precisa che l’utilizzo di sale e locali è «a titolo gratuito». |\n| L2.3 | Falso | L’obiettivo è «favorire la crescita culturale individuale e collettiva»: sono comprese entrambe. |\n| L2.4 | Vero | Si vuole promuovere il «libero accesso alla conoscenza e a un'informazione plurale». |\n| L2.5 | Vero | Il testo cita il «perseguimento degli Obiettivi dell’agenda 2030». |\n| L2.6 | Falso | Il periodo inizia «da settembre 2026», non da ottobre. |\n| L2.7 | Falso | L’Avviso è rivolto agli «Enti senza scopo di lucro». |\n| L2.8 | Vero | Nell’elenco compaiono le «società sportive dilettantistiche». |\n| L2.9 | Vero | Tra i principi sono indicati «trasparenza» e «parità di trattamento». |\n| L2.10 | Falso | La pratica può essere «già validata o in iter»: può quindi essere ancora in corso. 中文：in iter 表示办理中。 |\n| L2.11 | Vero | È richiesta esperienza «pari ad almeno un biennio», cioè almeno due anni. |\n| L2.12 | Falso | Vale l’esperienza «in ambito culturale e/o di formazione a adulti e/o minori», non solo con adulti. |\n| L2.13 | Falso | La documentazione deve essere «in formato PDF». |\n| L2.14 | Vero | Il termine è «le ore 12.00 di lunedì 15 giugno 2026» e l’invio avviene all’indirizzo PEC indicato. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "a titolo gratuito",
+      "categoria": "locuzione avverbiale",
+      "zh": "免费地",
+      "en": "free of charge",
+      "esempio": "con l’utilizzo a titolo gratuito di sale e locali"
+    },
+    {
+      "parola": "informazione plurale",
+      "categoria": "locuzione nominale",
+      "zh": "多元信息",
+      "en": "diverse information",
+      "esempio": "libero accesso alla conoscenza e a un'informazione plurale"
+    },
+    {
+      "parola": "senza scopo di lucro",
+      "categoria": "locuzione aggettivale",
+      "zh": "非营利的",
+      "en": "non-profit",
+      "esempio": "L’Avviso è rivolto agli Enti senza scopo di lucro"
+    },
+    {
+      "parola": "in iter",
+      "categoria": "locuzione",
+      "zh": "办理中",
+      "en": "in progress",
+      "esempio": "la pratica deve essere già validata o in iter"
+    },
+    {
+      "parola": "far pervenire",
+      "categoria": "locuzione verbale",
+      "zh": "递交；送达",
+      "en": "submit; deliver",
+      "esempio": "dovranno far pervenire la documentazione richiesta"
+    }
+  ]
+}

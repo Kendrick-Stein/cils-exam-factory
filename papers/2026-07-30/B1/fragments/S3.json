@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "aperta",
+    "S3_OPT0_B": "chiusa",
+    "S3_OPT0_C": "nascosta",
+    "S3_OPT0_D": "ridotta",
+    "S3_OPTION_ROWS": "| 1. | descrizione | assegnazione | costruzione | pulizia |\n| 2. | lezione | squadra | stagione | palestra |\n| 3. | iniziativa | intervista | partita | vacanza |\n| 4. | raccontato | incontrato | visitato | approvato |\n| 5. | restituisce | attribuisce | suggerisce | spedisce |\n| 6. | risultato | esercizio | settore | allenamento |\n| 7. | comprese | escluse | lontane | separate |\n| 8. | calendario | certificato | questionario | protocollo |\n| 9. | consiglio | avviso | racconto | saluto |\n| 10. | famiglie | palestre | associazioni | stagioni |\n| 11. | relative | contrarie | precedenti | estranee |\n| 12. | ritorno | rifiuto | ricordo | rilascio |\n| 13. | nascondere | presentare | correggere | annullare |\n| 14. | raramente | lentamente | esclusivamente | improvvisamente |\n| 15. | accettate | raccontate | costruite | scoperte |",
+    "S3_TEXT_WITH_GAPS": "Fino al 31 marzo è __aperta (0)__ la procedura per l'__(1)__ e la concessione degli spazi sportivi delle palestre nella __(2)__ estiva 2026.\n\nL'__(3)__ segue quanto previsto dall'articolo 42 del Regolamento sul Decentramento. Il regolamento è stato __(4)__ dal Consiglio Comunale il 17 dicembre 2015 ed è diventato esecutivo il primo gennaio 2016. L'articolo __(5)__ alle Circoscrizioni competenze proprie nel __(6)__ sportivo, __(7)__ le procedure per l'assegnazione e la concessione degli spazi.\n\nIn base al __(8)__ operativo numero 348, la Circoscrizione pubblica quindi questo __(9)__ per informare le __(10)__ sulle modalità di presentazione delle richieste __(11)__ alle palestre per l'estate 2026.\n\nL'approvazione del piano delle assegnazioni e il __(12)__ delle successive concessioni saranno stabiliti con un'apposita determina dirigenziale.\n\nI soggetti interessati devono __(13)__ le domande per ottenere gli spazi sportivi __(14)__ tramite il modulo online MOOn. Al servizio si accede dall'indirizzo del Comune di Torino indicato nell'avviso. Le associazioni devono usare soltanto questa procedura: non saranno __(15)__ altre modalità di invio delle domande.",
+    "T6_TITLE": "PALESTRE PER L'ESTATE 2026: COME RICHIEDERE GLI SPAZI"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Il testo riprende poi «le procedure per l'assegnazione e la concessione degli spazi»: qui serve «assegnazione». |\n| S3.2 | C | L'espressione completa è «stagione estiva 2026». |\n| S3.3 | A | «L'iniziativa» indica la procedura annunciata nella frase precedente. |\n| S3.4 | D | Il Consiglio Comunale ha «approvato» il regolamento. |\n| S3.5 | B | L'articolo 42 «attribuisce alle Circoscrizioni competenze proprie». |\n| S3.6 | C | Le competenze riguardano il «settore sportivo». |\n| S3.7 | A | Tra le competenze sono «comprese le procedure» indicate subito dopo. |\n| S3.8 | D | Il numero 348 identifica il «protocollo operativo». |\n| S3.9 | B | La Circoscrizione «pubblica» un «avviso» per dare informazioni pratiche. |\n| S3.10 | C | Le destinatarie dell'avviso sono le «associazioni», nominate anche nell'ultimo paragrafo. |\n| S3.11 | A | Le richieste sono «relative alle palestre», cioè le riguardano. 中文：固定搭配“relativo a”。 |\n| S3.12 | D | La determina stabilirà il «rilascio delle successive concessioni». 中文：行政用语搭配。 |\n| S3.13 | B | I soggetti interessati devono «presentare le domande». |\n| S3.14 | C | «Esclusivamente» è confermato da «devono usare soltanto questa procedura». |\n| S3.15 | A | Il divieto riguarda le alternative: «non saranno accettate altre modalità di invio». |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "B",
+    "S3.14": "C",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "concessione",
+      "categoria": "sostantivo femminile",
+      "zh": "许可；使用权授予",
+      "en": "grant; concession",
+      "esempio": "la concessione degli spazi sportivi"
+    },
+    {
+      "parola": "competenze proprie",
+      "categoria": "espressione nominale",
+      "zh": "自身职权",
+      "en": "own responsibilities",
+      "esempio": "L'articolo attribuisce alle Circoscrizioni competenze proprie nel settore sportivo."
+    },
+    {
+      "parola": "determina dirigenziale",
+      "categoria": "espressione nominale",
+      "zh": "主管行政决定",
+      "en": "managerial administrative decision",
+      "esempio": "saranno stabiliti con un'apposita determina dirigenziale"
+    },
+    {
+      "parola": "soggetti interessati",
+      "categoria": "espressione nominale",
+      "zh": "相关主体；申请方",
+      "en": "interested parties",
+      "esempio": "I soggetti interessati devono presentare le domande"
+    },
+    {
+      "parola": "modalità di invio",
+      "categoria": "espressione nominale",
+      "zh": "提交方式",
+      "en": "submission methods",
+      "esempio": "non saranno accettate altre modalità di invio delle domande"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "1. I gruppi delle visite guidate possono avere al massimo 25 persone.  \n   Vero ○ Falso ○\n\n2. Tutti gli animali possono entrare nel museo.  \n   Vero ○ Falso ○\n\n3. Gli ombrelli devono restare nel guardaroba al piano terra.  \n   Vero ○ Falso ○\n\n4. Zaini e borse devono essere lasciati nel guardaroba.  \n   Vero ○ Falso ○\n\n5. Nel museo è possibile mangiare e bere.  \n   Vero ○ Falso ○\n\n6. Le fotografie sono permesse solo per uso personale e senza flash.  \n   Vero ○ Falso ○\n\n7. I visitatori devono tenere la suoneria del cellulare accesa.  \n   Vero ○ Falso ○\n\n8. Con molti visitatori, il museo può limitare il numero delle persone che entrano.  \n   Vero ○ Falso ○",
+    "T2_TEXT": "**Visite guidate.** Le visite guidate sono possibili per gruppi di massimo 25 persone.\n\n**Animali.** Solo i cani guida possono entrare nel museo. Gli altri animali devono restare fuori.\n\n**Ombrelli, zaini e borse.** Gli ombrelli devono restare all'ingresso. Zaini e borse devono essere lasciati nel guardaroba al piano terra.\n\n**Cibo e fumo.** Nel museo è vietato mangiare, bere e fumare, anche con le sigarette elettroniche.\n\n**Fotografie.** I visitatori possono fare fotografie solo per uso personale, ma senza flash, supporti per la macchina fotografica e bastoni per i selfie.\n\n**Cellulari e voce.** Togli la suoneria del cellulare e parla a bassa voce, per non disturbare gli altri visitatori.\n\n**Molti visitatori.** Quando ci sono molti visitatori, il museo può limitare il numero delle persone che entrano.",
+    "T2_TITLE": "Regole per visitare il museo"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice: «gruppi di massimo 25 persone». 数量一致。 |\n| L2.2 | Falso | Il testo dice: «Solo i cani guida possono entrare nel museo». 不是所有动物。 |\n| L2.3 | Falso | Gli ombrelli restano «all'ingresso»; il guardaroba al piano terra è per zaini e borse. 地点不同。 |\n| L2.4 | Vero | Il testo dice: «Zaini e borse devono essere lasciati nel guardaroba». 规则明确。 |\n| L2.5 | Falso | Il testo dice: «è vietato mangiare, bere e fumare». 禁止饮食。 |\n| L2.6 | Vero | Il testo permette fotografie «solo per uso personale, ma senza flash». 条件一致。 |\n| L2.7 | Falso | Il testo ordina: «Togli la suoneria del cellulare». 应关闭铃声。 |\n| L2.8 | Vero | Con molti visitatori, il museo «può limitare il numero delle persone che entrano». 人数可能受限。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "guardaroba",
+      "categoria": "nome maschile",
+      "zh": "衣帽间",
+      "en": "cloakroom",
+      "esempio": "Zaini e borse devono essere lasciati nel guardaroba al piano terra."
+    },
+    {
+      "parola": "piano terra",
+      "categoria": "locuzione nominale",
+      "zh": "一楼；底层",
+      "en": "ground floor",
+      "esempio": "Zaini e borse devono essere lasciati nel guardaroba al piano terra."
+    },
+    {
+      "parola": "sigarette elettroniche",
+      "categoria": "locuzione nominale",
+      "zh": "电子烟",
+      "en": "electronic cigarettes",
+      "esempio": "Nel museo è vietato mangiare, bere e fumare, anche con le sigarette elettroniche."
+    },
+    {
+      "parola": "suoneria",
+      "categoria": "nome femminile",
+      "zh": "手机铃声",
+      "en": "ringtone",
+      "esempio": "Togli la suoneria del cellulare e parla a bassa voce, per non disturbare gli altri visitatori."
+    },
+    {
+      "parola": "a bassa voce",
+      "categoria": "locuzione avverbiale",
+      "zh": "低声地",
+      "en": "quietly",
+      "esempio": "Togli la suoneria del cellulare e parla a bassa voce, per non disturbare gli altri visitatori."
+    }
+  ]
+}

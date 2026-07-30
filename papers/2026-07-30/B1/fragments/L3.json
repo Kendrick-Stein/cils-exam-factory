@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_PART_A": "Pensavo che passare l’Immacolata a Londra fosse proibitivo per via delle “3F”: freddo, folla e frenesia natalizia.",
+    "T3_PART_B": "Quanto al primo problema, il freddo, potevamo fare ben poco se non prediligere attività al chiuso ove possibile.",
+    "T3_PART_C": "E quindi eccoci qui, il 6 dicembre, armati di itinerario, consigli di amici londinesi e tante buone intenzioni. La migliore? Non strafare: da questa nasceva la nostra idea di Londra.",
+    "T3_PART_D": "Proprio per rispettare questi tre criteri, il segreto del successo di questo weekend lungo a Londra è stato scegliere South Kensington come magnete per i nostri spostamenti.",
+    "T3_PART_E": "Per evitarla abbiamo scelto quartieri meno tradizionalmente turistici o ne abbiamo limitato al massimo la visita. Rimaneva infine la frenesia natalizia.",
+    "T3_PART_F": "Nonostante tutto, ho deciso di provare: erano anni che non tornavo a Londra e il volo diretto da Linate arrivando in aeroporto in metropolitana era troppo allettante.",
+    "T3_PART_G": "Alla fine di quegli itinerari, ecco il bilancio conclusivo. In famiglia si rischia di strafare e sovraccaricare il bambino. Ci siamo persi qualcosa? Sicuramente! Ma non è questo il punto.",
+    "T3_PART_H": "Per fortuna siamo stati graziati da qualche giorno di pioggerella che inevitabilmente ha alzato le temperature. Restava però il secondo problema: la folla.",
+    "T3_PART_I": "Da lì abbiamo tratteggiato itinerari accessibili, non eccessivamente stancanti, soddisfacenti per tutti e piacevoli da vivere e ricordare. Quel piano era importante soprattutto perché i giorni erano pochi.",
+    "T3_PART_J": "Quell’idea di Londra doveva aggirare i problemi delle “3F” e regalarci uno stacco piacevole in famiglia prima del rush natalizio.",
+    "T3_PART_K": "Per prepararci al Natale senza farci prendere la mano, i negozi di giocattoli non sono mancati nel nostro itinerario, ma in orari inconsueti e meno battuti.",
+    "T3_TITLE": "SE SCEGLI QUESTO QUARTIERE A LONDRA POTRAI SCOPRIRE LA CITTÀ IN FAMIGLIA SENZA STRESS (E DIVERTENDOTI)"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l’apertura: presenta le tre difficoltà temute prima del viaggio. |\n| 2 | F | «Nonostante tutto» riprende quei timori e introduce la decisione di partire. |\n| 3 | C | «E quindi eccoci qui» indica l’arrivo dopo la decisione e fissa la data del viaggio. |\n| 4 | J | «Quell’idea di Londra» riprende esattamente «la nostra idea di Londra» alla fine di C e ne precisa lo scopo. |\n| 5 | B | «Il primo problema» avvia l’esame ordinato delle tre difficoltà, cominciando dal freddo. |\n| 6 | H | «Per fortuna» completa il tema del freddo con l’effetto della pioggerella, poi introduce la folla. |\n| 7 | E | «Per evitarla» può riferirsi soltanto alla folla appena nominata; poi annuncia l’ultimo problema. |\n| 8 | K | «Per prepararci al Natale» sviluppa la frenesia natalizia e conclude le tre soluzioni pratiche. |\n| 9 | D | «Questi tre criteri» riassume le scelte appena descritte e introduce South Kensington. |\n| 10 | I | «Da lì» rinvia unicamente a South Kensington e descrive gli itinerari organizzati dal quartiere. |\n| 11 | G | «Alla fine di quegli itinerari» riprende soltanto gli itinerari di I; «bilancio conclusivo» impone la chiusura. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "proibitivo",
+      "categoria": "aggettivo",
+      "zh": "令人望而却步的；代价过高的",
+      "en": "prohibitive",
+      "esempio": "Pensavo che passare l’Immacolata a Londra fosse proibitivo per via delle “3F”: freddo, folla e frenesia natalizia."
+    },
+    {
+      "parola": "prediligere",
+      "categoria": "verbo",
+      "zh": "偏爱；优先选择",
+      "en": "to prefer",
+      "esempio": "Quanto al primo problema, il freddo, potevamo fare ben poco se non prediligere attività al chiuso ove possibile."
+    },
+    {
+      "parola": "pioggerella",
+      "categoria": "nome femminile",
+      "zh": "毛毛雨",
+      "en": "drizzle",
+      "esempio": "Per fortuna siamo stati graziati da qualche giorno di pioggerella che inevitabilmente ha alzato le temperature."
+    },
+    {
+      "parola": "meno battuti",
+      "categoria": "locuzione aggettivale",
+      "zh": "较少人走的；不太热门的",
+      "en": "less frequented",
+      "esempio": "Per prepararci al Natale senza farci prendere la mano, i negozi di giocattoli non sono mancati nel nostro itinerario, ma in orari inconsueti e meno battuti."
+    },
+    {
+      "parola": "sovraccaricare",
+      "categoria": "verbo",
+      "zh": "使负担过重",
+      "en": "to overload",
+      "esempio": "In famiglia si rischia di strafare e sovraccaricare il bambino."
+    }
+  ]
+}

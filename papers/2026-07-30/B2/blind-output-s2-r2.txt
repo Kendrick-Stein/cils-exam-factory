@@ -1,0 +1,5 @@
+ANSWERS
+{"S2.1":{"answer":"registrò","confidence":"hi"},"S2.2":{"answer":"diminuire","confidence":"hi"},"S2.3":{"answer":"guarda","confidence":"hi"},"S2.4":{"answer":"innovi","confidence":"hi"},"S2.5":{"answer":"erano cambiate","confidence":"hi"},"S2.6":{"answer":"erano stati adottati","confidence":"hi"},"S2.7":{"answer":"avevano investito","confidence":"hi"},"S2.8":{"answer":"essersi diffusi","confidence":"hi"},"S2.9":{"answer":"aumenti","confidence":"hi"},"S2.10":{"answer":"innovassero","confidence":"hi"},"S2.11":{"answer":"intercettassero","confidence":"hi"},"S2.12":{"answer":"attirerebbero","confidence":"hi"},"S2.13":{"answer":"si concretizzerebbe","confidence":"hi"},"S2.14":{"answer":"orientarsi","confidence":"hi"},"S2.15":{"answer":"essere","confidence":"hi"},"S2.16":{"answer":"produce","confidence":"hi"},"S2.17":{"answer":"migliorasse","confidence":"hi"},"S2.18":{"answer":"crescerebbe","confidence":"hi"},"S2.19":{"answer":"accada","confidence":"hi"},"S2.20":{"answer":"sappia","confidence":"hi"}}
+
+FLAGS
+[]

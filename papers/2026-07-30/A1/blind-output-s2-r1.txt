@@ -1,0 +1,5 @@
+ANSWERS
+{"S2.1":{"answer":"è spuntato","confidence":"hi"},"S2.2":{"answer":"ha visitato","confidence":"hi"},"S2.3":{"answer":"abbiamo guardato","confidence":"hi"},"S2.4":{"answer":"ha iniziato","confidence":"hi"},"S2.5":{"answer":"ha portato","confidence":"hi"},"S2.6":{"answer":"abbiamo osservato","confidence":"hi"},"S2.7":{"answer":"abbiamo scherzato","confidence":"hi"},"S2.8":{"answer":"abbiamo fotografato","confidence":"hi"},"S2.9":{"answer":"abbiamo scattato","confidence":"hi"},"S2.10":{"answer":"abbiamo","confidence":"hi"}}
+
+FLAGS
+[]

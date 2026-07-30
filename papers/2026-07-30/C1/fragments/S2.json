@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Il 18 luglio 2026, a Giffoni, Zerocalcare *(parlare)* __ha parlato (0)__. Fu allora che ha *(spiegare)* __(1)__: «Ho sempre prestato attenzione alle storie degli ultimi». Parlando del proprio linguaggio, oggi precisa che, fino a oggi, esso *(usare)* __(2)__ da lui; quanto allo scopo presente, aggiunge: «Adesso lo uso affinché la gente *(interessarsi)* __(3)__ a temi distanti. Non ci sono orizzonti a cui *(guardare)* __(4)__. Negli anni Settanta gli orizzonti *(essere)* __(5)__ diversi, mentre c'erano troppe lenti di fascinazione; fu poi che tutto *(crollare)* __(6)__».\n\nSul punk: «Fino a oggi mi ha *(influenzare)* __(7)__ un botto. La regola invita a *(fare)* __(8)__ le cose da soli, senza che *(essere)* __(9)__ perfette».\n\nSul rischio: «Oggi temo che, fino a oggi, qualcuno *(fraintendere)* __(10)__ il mio messaggio almeno una volta. In passato, mentre preparavo ogni opera, *(pensare)* __(11)__ sempre a ogni sillaba e provavo a *(perimetrare)* __(12)__ il messaggio. Pur *(volere)* __(13)__ evitare equivoci, so che un messaggio così *(perimetrare)* __(14)__ limita il lettore. Se il lettore non avesse un margine d'interpretazione, l'opera *(subire)* __(15)__ un danno artistico. Adesso, benché *(risultare)* __(16)__ difficile distinguere l'opera dal personaggio, è come se il lettore non *(potere)* __(17)__ interpretarla liberamente».\n\nInfine: «Sono cresciuto *(ispirare)* __(18)__ da valori alti e da una spinta all'azione. Finora mi sono *(dare)* __(19)__ sempre un alibi perché non ero felice; in questi anni ho *(inseguire)* __(20)__ l'altrove, l'irrisolto, l'ansia. Al vuoto si sopravvive: vi invito a capirne presto i motivi».",
+    "T5_TITLE": "ZEROCALCARE TRA PUNK E INSICUREZZA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** l'ausiliare già stampato «ha» lascia nel vuoto soltanto il participio «spiegato»; **S2.6:** la costruzione «fu poi che» impone il passato remoto. 中文：已给出的助动词把第1空锁定为过去分词。\n- **S2.2:** «oggi precisa che, fino a oggi» impone il passato prossimo; il soggetto «esso» e l'agente «da lui» rendono obbligatoria la passiva. **S2.7, S2.19 e S2.20:** le sequenze già stampate «mi ha», «mi sono» e «ho» lasciano nei vuoti soltanto i participi «influenzato», «dato» e «inseguito»; **S2.10** richiede il congiuntivo passato. 中文：助动词和反身代词已给出，空格只填写过去分词。\n- **S2.3:** «quanto allo scopo presente» e «Adesso lo uso affinché» impongono il congiuntivo presente. **S2.9, S2.16 e S2.17:** «senza che», «benché» e «come se» reggono rispettivamente congiuntivo presente, presente e imperfetto. 中文：明确的当前目的框架排除未完成过去时虚拟式。\n- **S2.4, S2.8 e S2.12** sono infiniti retti da «a cui», «invita ... a» e «provavo a»; **S2.11** è un imperfetto reso inequivoco da «mentre» e «sempre»; **S2.13, S2.14 e S2.18** sono forme implicite, mentre il periodo ipotetico forza il condizionale in **S2.15**. 中文：支配结构、同时背景和性数配合锁定其余形式。",
+    "ANS_S2_ROWS": "| 1 | spiegato | participio passato | 11 | pensavo | indicativo imperfetto |\n| 2 | è stato usato | indicativo passato prossimo passivo | 12 | perimetrare | infinito presente |\n| 3 | si interessi | congiuntivo presente | 13 | volendo | gerundio presente |\n| 4 | guardare | infinito presente | 14 | perimetrato | participio passato, maschile singolare |\n| 5 | erano | indicativo imperfetto | 15 | subirebbe | condizionale presente |\n| 6 | crollò | indicativo passato remoto | 16 | risulti | congiuntivo presente |\n| 7 | influenzato | participio passato, maschile singolare | 17 | potesse | congiuntivo imperfetto |\n| 8 | fare | infinito presente | 18 | ispirato | participio passato, maschile singolare |\n| 9 | siano | congiuntivo presente | 19 | dato | participio passato, maschile singolare |\n| 10 | abbia frainteso | congiuntivo passato | 20 | inseguito | participio passato, maschile singolare |"
+  },
+  "key": {
+    "S2.1": "spiegato",
+    "S2.2": "è stato usato",
+    "S2.3": "si interessi",
+    "S2.4": "guardare",
+    "S2.5": "erano",
+    "S2.6": "crollò",
+    "S2.7": "influenzato",
+    "S2.8": "fare",
+    "S2.9": "siano",
+    "S2.10": "abbia frainteso",
+    "S2.11": "pensavo",
+    "S2.12": "perimetrare",
+    "S2.13": "volendo",
+    "S2.14": "perimetrato",
+    "S2.15": "subirebbe",
+    "S2.16": "risulti",
+    "S2.17": "potesse",
+    "S2.18": "ispirato",
+    "S2.19": "dato",
+    "S2.20": "inseguito"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "storie degli ultimi",
+      "categoria": "sintagma nominale",
+      "zh": "弱势群体的故事",
+      "en": "stories of marginalized people",
+      "esempio": "Ho sempre prestato attenzione alle storie degli ultimi"
+    },
+    {
+      "parola": "lenti di fascinazione",
+      "categoria": "sintagma nominale",
+      "zh": "理想化滤镜",
+      "en": "lenses of idealization",
+      "esempio": "c'erano troppe lenti di fascinazione"
+    },
+    {
+      "parola": "un botto",
+      "categoria": "locuzione avverbiale colloquiale",
+      "zh": "非常；极大程度地",
+      "en": "a great deal",
+      "esempio": "Fino a oggi mi ha influenzato un botto."
+    },
+    {
+      "parola": "perimetrare",
+      "categoria": "verbo transitivo",
+      "zh": "界定范围",
+      "en": "to delimit",
+      "esempio": "provavo a perimetrare il messaggio"
+    },
+    {
+      "parola": "l'irrisolto",
+      "categoria": "nome maschile sostantivato",
+      "zh": "未解决之事",
+      "en": "the unresolved",
+      "esempio": "ho inseguito l'altrove, l'irrisolto, l'ansia"
+    }
+  ]
+}

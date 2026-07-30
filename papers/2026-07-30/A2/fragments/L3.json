@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. La prima passeggiata enogastronomica del Trentino**\n\nLa Magnalonga dell’Alta Vallagarina è la prima e più longeva passeggiata enogastronomica del Trentino con 10 km di camminata non competitiva fra i vigneti e i borghi.\n\n○ **2. Tracce nel sottobosco**\n\nTappa 2, loc. Praolini (Volano). Speck cotto con rostì e cappuccio. VEG: Medaglione di pomodoro con salsa, rostì e cappuccio.\n\n○ **3. Incantesimi nel piatto**\n\nTappa 3, loc. Prà dei Fanti (Volano). Orzotto con lucanica e marzemino alla trentina. VEG: Orzotto con radicchio e marzemino alla trentina.\n\n○ **4. I segreti dello gnomo**\n\nTappa 6, loc. Fornaci (Volano). Selezione di formaggi trentini con miele. In abbinamento a Rosato Vigneti delle Dolomiti IGT della Cantina Vivallis.\n\n○ **5. Il risveglio del bosco**\n\nTappa 7, loc. Castel Pietra (Calliano). Carne salada con riccioli di patate fritte e misticanza. VEG: Polpette di verdure con riccioli di patate fritte e misticanza.\n\n○ **6. Magia finale**\n\nTappa 8, Parco Europa (Calliano). Fortaie a scelta con zucchero, limone o composta di frutta. In abbinamento a Moscato Giallo Castel Beseno Superiore della Cantina di Aldeno.",
+    "L3_OPTIONS": "**A.** I formaggi trentini con miele sono serviti insieme a un vino rosato della Cantina Vivallis.\n\n**B.** È un percorso di dieci chilometri, senza gara, tra vigneti e borghi dell’Alta Vallagarina.\n\n**C.** Per il finale si possono scegliere fortaie con zucchero, limone o frutta, accompagnate da Moscato Giallo.\n\n**D.** In questa proposta l’orzotto è preparato con lucanica oppure, nella versione vegetariana, con radicchio e marzemino.\n\n**E.** Carne salada o polpette di verdure arrivano con lo stesso contorno: patate fritte e misticanza.\n\n**F.** Questa tappa offre speck cotto; chi sceglie il menu vegetariano riceve un medaglione di pomodoro.\n\n**G.** Questa tappa propone un primo di pasta con pomodoro e formaggi, anche nella versione vegetariana.\n\n**H.** Durante la passeggiata i partecipanti fanno una gara di velocità lungo un percorso di cinque chilometri."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | B | «10 km di camminata non competitiva fra i vigneti e i borghi» identifica il percorso senza gara. 中文：十公里的非竞赛步行。 |\n| L3.2 | F | «Speck cotto» e «Medaglione di pomodoro» distinguono le due proposte della tappa. 中文：普通菜单有熏肉，素食菜单有番茄饼。 |\n| L3.3 | D | L’«Orzotto con lucanica» si oppone alla versione con «radicchio e marzemino». 中文：两种大麦烩饭的配料不同。 |\n| L3.4 | A | «formaggi trentini con miele» e «Rosato […] della Cantina Vivallis» rendono unico l’abbinamento. 中文：奶酪配蜂蜜和桃红葡萄酒。 |\n| L3.5 | E | Entrambe le scelte hanno «riccioli di patate fritte e misticanza», ma cambiano carne salada e polpette. 中文：主菜不同，配菜相同。 |\n| L3.6 | C | Le «Fortaie» con zucchero, limone o frutta sono abbinate al «Moscato Giallo». 中文：甜点配黄麝香葡萄酒。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "B",
+    "L3.2": "F",
+    "L3.3": "D",
+    "L3.4": "A",
+    "L3.5": "E",
+    "L3.6": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "camminata non competitiva",
+      "categoria": "espressione nominale",
+      "zh": "非竞赛步行",
+      "en": "non-competitive walk",
+      "esempio": "10 km di camminata non competitiva fra i vigneti e i borghi"
+    },
+    {
+      "parola": "vigneti",
+      "categoria": "nome maschile plurale",
+      "zh": "葡萄园",
+      "en": "vineyards",
+      "esempio": "fra i vigneti e i borghi"
+    },
+    {
+      "parola": "rostì",
+      "categoria": "nome maschile invariabile",
+      "zh": "土豆煎饼",
+      "en": "potato rösti",
+      "esempio": "Speck cotto con rostì e cappuccio"
+    },
+    {
+      "parola": "lucanica",
+      "categoria": "nome femminile",
+      "zh": "香肠",
+      "en": "sausage",
+      "esempio": "Orzotto con lucanica e marzemino alla trentina"
+    },
+    {
+      "parola": "misticanza",
+      "categoria": "nome femminile",
+      "zh": "混合嫩叶沙拉",
+      "en": "mixed leaf salad",
+      "esempio": "Carne salada con riccioli di patate fritte e misticanza"
+    }
+  ]
+}

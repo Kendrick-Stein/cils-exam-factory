@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione culturale che ha organizzato una rassegna di cinema all'aperto in un cortile del quartiere. Scrivi un articolo in cui racconti una serata, valuti gli aspetti positivi e le difficoltà dell'iniziativa e proponi alcuni miglioramenti per la prossima edizione.",
+    "W2_PROMPT": "Hai prenotato una visita guidata per un gruppo presso l'archivio storico comunale, ma non hai ancora ricevuto la conferma. Scrivi un'e-mail formale all'ufficio visite.",
+    "W2_REQ_1": "indicare la data della prenotazione, il giorno scelto e il numero dei partecipanti;",
+    "W2_REQ_2": "chiedere conferma della visita e informarsi sull'accessibilità degli spazi;",
+    "W2_REQ_3": "domandare entro quando pagare e come modificare il numero dei partecipanti."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Venerdì sera ho partecipato alla rassegna di cinema all'aperto organizzata dalla nostra associazione nel cortile dell'ex scuola. Prima della proiezione, alcuni volontari hanno presentato il film e raccolto ricordi degli abitanti sul quartiere. L'atmosfera era accogliente: famiglie, studenti e persone anziane hanno condiviso lo stesso spazio e, alla fine, hanno discusso insieme della storia. L'iniziativa ha quindi favorito nuovi incontri e reso la cultura accessibile anche a chi frequenta raramente le sale. Tuttavia, le sedie non erano sufficienti e i rumori della strada disturbavano alcune scene. Per la prossima edizione proporrei la prenotazione gratuita dei posti, un impianto audio migliore e una zona più tranquilla per le famiglie. Sarebbe utile anche distribuire il programma con anticipo e prevedere sottotitoli in italiano. In questo modo ogni serata potrebbe coinvolgere un pubblico ancora più ampio.",
+    "MODEL_W1_PHRASES": "L'atmosfera era accogliente（气氛很温馨）; L'iniziativa ha favorito…（这项活动促进了……）; Tuttavia, …（然而，……）; Per la prossima edizione proporrei…（对于下一届活动，我建议……）; In questo modo…（这样一来……）",
+    "MODEL_W2": "Gentile Ufficio visite,\n\nil 22 luglio ho prenotato una visita guidata all'archivio storico per il 6 settembre, per un gruppo di quattordici persone. Non avendo ancora ricevuto la conferma, vorrei sapere se la visita è regolarmente prevista e se tutti gli spazi sono accessibili a una partecipante con mobilità ridotta. Potreste inoltre indicarmi entro quale data effettuare il pagamento e come comunicare un'eventuale modifica del numero dei partecipanti?\n\nRingrazio anticipatamente per l'attenzione e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nGiulia Ferri",
+    "MODEL_W2_PHRASES": "Non avendo ancora ricevuto la conferma…（由于尚未收到确认……）; vorrei sapere se…（我想了解是否……）; Potreste inoltre indicarmi…?（此外，您能否告知我……？）; un'eventuale modifica（可能的变更）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

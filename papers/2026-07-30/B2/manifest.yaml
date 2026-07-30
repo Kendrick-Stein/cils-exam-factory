@@ -1,0 +1,137 @@
+exam: cils
+level: B2
+session: '2026-07-30'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/07/03/tredici-minuti-dopo-il-grb/
+  title: Tredici minuti dopo il lampo gamma
+  publisher: Media INAF (Valentina Guglielmo)
+  published: '2026-07-03'
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 516
+- id: T2
+  url: https://bandi.unibo.it/s/abis1/bando-concorso-contributi-mur-spese-locazione-abitativa-studentesse-studenti-fuori-sede-2025-2026/bando/bando-contributo-affitti-mur-2025_26.pdf/@@download/file/Bando%20contributo%20affitti%20MUR%202025_26.pdf
+  title: Bando di concorso per contributi MUR per spese di locazione abitativa delle
+    studentesse e degli studenti fuori sede a.a. 2025/2026
+  publisher: Alma Mater Studiorum — Università di Bologna
+  published: P.D. Rep. n. 3704/2026, Prot. n. 110667; date not shown
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 461
+- id: T3
+  url: https://camminiditalia.org/adriano-ritorna-con-una-nuova-esperienza-il-cammino-del-salto/
+  title: 'Adriano ritorna con una nuova esperienza: il cammino del Salto'
+  publisher: Cammini d’Italia (Adriano Ianiro)
+  published: '2025-04-21'
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 404
+- id: T4
+  url: https://www.cnr.it/it/nota-stampa/n-14520
+  title: SNaP, l’innovativa tecnologia che potrebbe cambiare il modo di studiare le
+    malattie neurodegenerative
+  publisher: Consiglio Nazionale delle Ricerche (Cnr-In)
+  published: '2026-07-21'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 270
+- id: T5
+  url: https://www.gamberorosso.it/notizie/vino/rapporto-ristorazione-fipe-2026-consumi-vino-intervista-stoppani/
+  title: “I no e low alcol non sono una moda passeggera”. Fipe traccia il futuro delle
+    carte dei vini al ristorante
+  publisher: Gambero Rosso (Gianluca Atzeni)
+  published: '2026-04-09'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 254
+- id: T6
+  url: https://www.comune.torino.it/novita/comunicati/al-via-piano-straordinario-per-sostituzione-delle-carte-didentita-cartacee-carta
+  title: Al via il piano straordinario per la sostituzione delle carte d’identità
+    cartacee con Carta d’Identità Elettronica (CIE)
+  publisher: Città di Torino — Ufficio stampa Giunta comunale
+  published: '2026-03-02'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 215
+pipeline:
+  generator: /genpapers (Codex team)
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-07-30'
+    slots: 6
+  - stage: authoring
+    at: '2026-07-30'
+    executor: codex-companion (one fresh task per prova, tiered effort)
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-30T06:12:02+00:00'
+    agreement: 82/87
+    flags: 25
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-30T06:28:25+00:00'
+    agreement: 86/87
+    flags: 4
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-30T06:35:24+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-30'
+    round: 1
+    executor: fresh item-writers plus isolated partial blind solve
+    fixed_items:
+    - L3 (location and reconstruction cues)
+    - S1 (all 20 completions recut to obligatory morphology)
+    - S2.2 and S2.5-S2.7 and S2.10-S2.13 and S2.17-S2.18
+    - S2 (trimmed to the 220-260 word band)
+  - stage: reconcile
+    at: '2026-07-30'
+    round: 2
+    executor: fresh item-writer plus isolated partial blind solve
+    fixed_items:
+    - S2.2 and S2.14-S2.15 and S2.17 (mechanically forced nonfinite forms)
+  - stage: format_audit
+    at: '2026-07-30T06:35:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-30T06:35:47+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

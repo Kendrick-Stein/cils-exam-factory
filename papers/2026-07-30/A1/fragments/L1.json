@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Il catalogo online permette di**\n\nA) cercare libri, film e musica.\n\nB) comprare libri e riviste.\n\nC) leggere solo i quotidiani.\n\n**2. Dal catalogo, gli utenti iscritti possono**\n\nA) salvare le ricerche.\n\nB) organizzare attività culturali.\n\nC) usare le aree per bambini.\n\n**3. Le biblioteche sono aperte**\n\nA) da lunedì a venerdì.\n\nB) da sabato a domenica.\n\nC) da lunedì a sabato.\n\n**4. Le biblioteche organizzano attività culturali**\n\nA) solo per gli adulti.\n\nB) per adulti e ragazzi.\n\nC) solo per i bambini.",
+    "T1_TEXT": "Un unico catalogo online permette di cercare libri, film, musica, ebook, riviste e quotidiani di tutte le biblioteche pubbliche di Milano. Dal catalogo, gli utenti iscritti alle biblioteche possono prenotare i documenti per il prestito, rinnovare i prestiti e salvare le ricerche.\n\nLe biblioteche sono aperte da lunedì a sabato con orario continuato. Offrono accesso gratuito a libri, quotidiani, riviste, risorse digitali, banche dati e altri contenuti multimediali.\n\nI servizi principali sono le informazioni sui libri e sulla comunità, il prestito e la consultazione, la lettura e lo studio in spazi attrezzati, le postazioni internet e il wifi. Ci sono anche aree per bambini e ragazzi, attività culturali per adulti e ragazzi, gruppi di lettura e il servizio MediaLibraryOnLine, chiamato MLOL.",
+    "T1_TITLE": "Le biblioteche pubbliche di Milano"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice «permette di cercare libri, film, musica». 中文：目录用来查找资料。 |\n| L1.2 | A | Dal catalogo gli utenti iscritti possono «salvare le ricerche». 中文：此功能属于在线目录。 |\n| L1.3 | C | Le biblioteche sono aperte «da lunedì a sabato». 中文：开放日包括星期六。 |\n| L1.4 | B | Il testo indica «attività culturali per adulti e ragazzi». 中文：活动面向成人和青少年。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "catalogo online",
+      "categoria": "locuzione nominale",
+      "zh": "在线目录",
+      "en": "online catalogue",
+      "esempio": "Un unico catalogo online permette di cercare libri, film, musica, ebook, riviste e quotidiani di tutte le biblioteche pubbliche di Milano."
+    },
+    {
+      "parola": "utenti iscritti",
+      "categoria": "locuzione nominale",
+      "zh": "注册用户",
+      "en": "registered users",
+      "esempio": "Dal catalogo, gli utenti iscritti alle biblioteche possono prenotare i documenti per il prestito, rinnovare i prestiti e salvare le ricerche."
+    },
+    {
+      "parola": "prestito",
+      "categoria": "nome",
+      "zh": "借阅",
+      "en": "loan",
+      "esempio": "I servizi principali sono le informazioni sui libri e sulla comunità, il prestito e la consultazione, la lettura e lo studio in spazi attrezzati, le postazioni internet e il wifi."
+    },
+    {
+      "parola": "orario continuato",
+      "categoria": "locuzione nominale",
+      "zh": "全天连续营业时间",
+      "en": "continuous opening hours",
+      "esempio": "Le biblioteche sono aperte da lunedì a sabato con orario continuato."
+    },
+    {
+      "parola": "spazi attrezzati",
+      "categoria": "locuzione nominale",
+      "zh": "设施齐全的空间",
+      "en": "equipped spaces",
+      "esempio": "I servizi principali sono le informazioni sui libri e sulla comunità, il prestito e la consultazione, la lettura e lo studio in spazi attrezzati, le postazioni internet e il wifi."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Nella scena iniziale, due persone difficilmente osservano la stessa stella cadente perché le strisciate**\n\nA) restano visibili a lungo nello stesso punto.\n\nB) sono numerose e occupano una grande parte del cielo.\n\nC) sono troppo rapide, rare e piccole.\n\nD) si distinguono soltanto con strumenti appositi.\n\n**2. L'osservazione del 26 gennaio 2026 ha rappresentato una novità perché gli astronomi**\n\nA) hanno scoperto un lampo gamma soltanto due giorni dopo la sua comparsa.\n\nB) hanno osservato per la prima volta un lampo gamma a onde millimetriche e submillimetriche pochi minuti dopo la scoperta.\n\nC) hanno usato un unico telescopio per studiare contemporaneamente tutte le lunghezze d'onda.\n\nD) hanno ricevuto il segnale direttamente dal Submillimeter Array delle Hawaii.\n\n**3. La sequenza avviata dall'allerta di Swift dimostra che il nuovo sistema**\n\nA) può reagire rapidamente con un intervento umano molto limitato.\n\nB) richiede che l'operatore orienti manualmente il telescopio entro 90 secondi.\n\nC) comincia a osservare solo quando arrivano i dati dei telescopi ottici.\n\nD) ripete automaticamente le osservazioni ogni quattro minuti.\n\n**4. Gli astronomi hanno collegato la sorgente individuata da Sma al lampo gamma perché essa**\n\nA) era già comparsa due giorni prima del segnale inviato da Swift.\n\nB) produceva esclusivamente raggi X e nessun altro tipo di radiazione.\n\nC) si trovava lontano dai bagliori osservati con gli altri strumenti.\n\nD) era vicina ai bagliori rilevati ad altre lunghezze d'onda e non era più visibile due giorni dopo.\n\n**5. Rispetto agli strumenti millimetrici, i telescopi ottici e a raggi X**\n\nA) possono osservare soltanto l'esplosione iniziale dei lampi gamma.\n\nB) riescono già da tempo a rilevare rapidamente il bagliore residuo.\n\nC) studiano il bagliore residuo solo quando scompare dopo due giorni.\n\nD) arrivano abitualmente con un ritardo maggiore nell'osservazione del fenomeno.\n\n**6. L'analogia tra fotografia e film serve a spiegare che la time-domain astronomy**\n\nA) produce immagini più nitide rispetto all'astronomia tradizionale.\n\nB) sostituisce le fotografie del cielo con riprese destinate al pubblico.\n\nC) segue nel tempo i cambiamenti dei fenomeni invece di registrarne una sola immagine.\n\nD) studia esclusivamente eventi che durano pochi minuti.\n\n**7. Con gli ulteriori miglioramenti di Sma, i ricercatori intendono**\n\nA) ridurre la risposta a 2-3 minuti e organizzare in serie più osservazioni.\n\nB) mantenere la risposta a 13 minuti per aumentare la precisione.\n\nC) affidare nuovamente agli operatori umani l'intera sequenza.\n\nD) limitare il sistema all'osservazione di un solo oggetto alla volta.",
+    "T1_TEXT": "Nella notte di San Lorenzo, in un prato di montagna a lume del firmamento, a caccia di stelle cadenti. \"Eccola! Tu l'hai vista?\". Chiaramente no. Troppo veloci, troppo rare, troppo piccole le strisciate perché due occhi, casualmente, si posino sullo stesso millimetro di cielo. Troppo veloci, soprattutto. Un po' come i gamma ray burst (Grb): lampi rapidissimi catturati e segnalati da uno strumento apposito a cui gli astronomi cercano di dare un volto guardandoli, il più velocemente possibile, con altri occhi diversi fra loro. Il 26 gennaio 2026, per la prima volta, sono riusciti a osservarne uno a lunghezze d'onda millimetriche e submillimetriche pochi minuti dopo la sua scoperta, grazie a una nuova modalità di risposta rapida implementata al Submillimeter Array (Sma), alle Hawaii. I risultati sono pubblicati su The Astrophysical Journal Letters.\n\nL'allerta dell'evento in questione, il Grb 260127A, è arrivata in maniera automatica dal satellite Neil Gehrels Swift Observatory. L'intera sequenza si è svolta quasi completamente senza intervento umano. Entro 90 secondi l'operatore di turno era stato avvisato, e in meno di quattro minuti il telescopio era già in movimento per avviare le osservazioni, iniziate 12,6 minuti dopo il segnale di Swift. Contemporaneamente, il fenomeno era stato osservato anche nell'ottico e ai raggi X, e Sma è riuscito a individuare una sorgente proprio in prossimità dei bagliori rilevati nelle altre lunghezze d'onda. Due giorni dopo, le osservazioni sono state ripetute, ma questa volta non si è visto nulla.\n\nI Grb sono le esplosioni più luminose dell'universo: brevi ma straordinariamente intense emissioni prodotte dai getti di materia generati durante il collasso di stelle massicce o dalla fusione di oggetti compatti, come le stelle di neutroni. Alla prima esplosione segue un bagliore residuo (chiamato afterglow) che i telescopi nei raggi X e nell'ottico riescono da tempo a osservare nel giro di pochi secondi o minuti, a differenza degli strumenti operanti alle lunghezze d'onda millimetriche che finora arrivavano con un ritardo notevole.\n\nLo studio di fenomeni come i Grb fa parte di una branca dell'astronomia, chiamata time-domain astronomy, che studia gli oggetti e i fenomeni che cambiano nel tempo, osservandoli nel momento in cui avvengono e seguendone l'evoluzione. L'idea riflette un po' la differenza tra una fotografia e un film: l'astronomia tradizionale scatta una fotografia del cielo, mentre la time-domain astronomy realizza un film, cercando di individuare fenomeni improvvisi o transienti e seguendone l'evoluzione minuto dopo minuto, giorno dopo giorno o anno dopo anno. Nel caso dei Grb, i tempi sono strettissimi e rispondere prontamente all'avviso generato in seguito alla loro individuazione è fondamentale. Per questo la nuova funzionalità di Sma è così preziosa.\n\nSebbene il tempo di risposta di 13 minuti rappresenti un traguardo senza precedenti – il nuovo sistema riduce i tempi di risposta di circa due ordini di grandezza rispetto a quelli tipici dei telescopi operanti alle lunghezze d'onda millimetriche e submillimetriche – i ricercatori si aspettano di riuscire a implementare ulteriori miglioramenti al sistema per ridurre i tempi di risposta fino ad appena 2-3 minuti, con la possibilità di raggruppare in serie le osservazioni di più oggetti per garantire un'elevata produttività.",
+    "T1_TITLE": "TREDICI MINUTI DOPO IL LAMPO GAMMA"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | C | Le strisciate sono descritte come «Troppo veloci, troppo rare, troppo piccole». 中文：三个并列特征共同解释两人难以同时看见。 |\n| L1.2 | B | Il testo segnala che «per la prima volta» un Grb è stato osservato «a lunghezze d'onda millimetriche e submillimetriche pochi minuti dopo la sua scoperta». |\n| L1.3 | A | «L'intera sequenza si è svolta quasi completamente senza intervento umano» e il telescopio si è mosso in meno di quattro minuti. 中文：关键是自动化与快速响应，不是完全无人参与。 |\n| L1.4 | D | Sma ha trovato la sorgente «in prossimità dei bagliori rilevati nelle altre lunghezze d'onda»; due giorni dopo «non si è visto nulla». |\n| L1.5 | B | I telescopi nei raggi X e nell'ottico osservano l'afterglow «nel giro di pochi secondi o minuti», mentre gli strumenti millimetrici arrivavano in ritardo. |\n| L1.6 | C | L'astronomia tradizionale «scatta una fotografia», mentre la time-domain astronomy «realizza un film» e segue l'evoluzione dei fenomeni. 中文：比喻对比静态记录与持续追踪。 |\n| L1.7 | A | L'obiettivo è «ridurre i tempi di risposta fino ad appena 2-3 minuti» e «raggruppare in serie le osservazioni di più oggetti». |"
+  },
+  "key": {
+    "L1.1": "C",
+    "L1.2": "B",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "C",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "firmamento",
+      "categoria": "sostantivo maschile",
+      "zh": "苍穹；星空",
+      "en": "firmament",
+      "esempio": "Nella notte di San Lorenzo, in un prato di montagna a lume del firmamento, a caccia di stelle cadenti."
+    },
+    {
+      "parola": "strisciate",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "划痕般的光带",
+      "en": "streaks",
+      "esempio": "Troppo veloci, troppo rare, troppo piccole le strisciate perché due occhi, casualmente, si posino sullo stesso millimetro di cielo."
+    },
+    {
+      "parola": "bagliore residuo",
+      "categoria": "locuzione nominale",
+      "zh": "余辉",
+      "en": "afterglow",
+      "esempio": "Alla prima esplosione segue un bagliore residuo (chiamato afterglow) che i telescopi nei raggi X e nell'ottico riescono da tempo a osservare nel giro di pochi secondi o minuti, a differenza degli strumenti operanti alle lunghezze d'onda millimetriche che finora arrivavano con un ritardo notevole."
+    },
+    {
+      "parola": "oggetti compatti",
+      "categoria": "locuzione nominale",
+      "zh": "致密天体",
+      "en": "compact objects",
+      "esempio": "I Grb sono le esplosioni più luminose dell'universo: brevi ma straordinariamente intense emissioni prodotte dai getti di materia generati durante il collasso di stelle massicce o dalla fusione di oggetti compatti, come le stelle di neutroni."
+    },
+    {
+      "parola": "traguardo senza precedenti",
+      "categoria": "locuzione nominale",
+      "zh": "前所未有的里程碑",
+      "en": "unprecedented milestone",
+      "esempio": "Sebbene il tempo di risposta di 13 minuti rappresenti un traguardo senza precedenti"
+    }
+  ]
+}

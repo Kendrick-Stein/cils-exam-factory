@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ Biblioteca Guido Dorso è a Napoli, in Piazza Zanardelli n. 21, Secondigliano.\n\n__(1)__ biblioteca è intitolata a Guido Dorso, uomo politico e pubblicista.\n\nServizi: __(2)__ sala lettura, __(3)__ sala consultazione, __(4)__ sezione ragazzi, __(5)__ accesso wi-fi gratuito, __(6)__ prestito gratuito.\n\n__(7)__ orario per __(8)__ pubblico: aperta dal lunedì al venerdì dalle 9:00 alle 18:00. __(9)__ biblioteca chiude al pubblico per __(10)__ mese di agosto.",
+    "T4_TITLE": "BIBLIOTECA GUIDO DORSO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "*Nota:* il genere, il numero e il suono iniziale del nome determinano ogni articolo. 中文提示：注意元音前的 *l'accesso* 和 *l'orario*。",
+    "ANS_S1_ROWS": "| 1 | la | 6 | il |\n| 2 | la | 7 | l' |\n| 3 | la | 8 | il |\n| 4 | la | 9 | la |\n| 5 | l' | 10 | il |"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "la",
+    "S1.3": "la",
+    "S1.4": "la",
+    "S1.5": "l'",
+    "S1.6": "il",
+    "S1.7": "l'",
+    "S1.8": "il",
+    "S1.9": "la",
+    "S1.10": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Biblioteca Guido Dorso",
+      "categoria": "nome proprio",
+      "zh": "圭多·多尔索图书馆",
+      "en": "Guido Dorso Library",
+      "esempio": "Biblioteca Guido Dorso"
+    },
+    {
+      "parola": "uomo politico e pubblicista",
+      "categoria": "espressione",
+      "zh": "政治家和政论家",
+      "en": "politician and publicist",
+      "esempio": "uomo politico e pubblicista"
+    },
+    {
+      "parola": "sala lettura",
+      "categoria": "espressione",
+      "zh": "阅览室",
+      "en": "reading room",
+      "esempio": "sala lettura"
+    },
+    {
+      "parola": "prestito gratuito",
+      "categoria": "espressione",
+      "zh": "免费借阅",
+      "en": "free lending",
+      "esempio": "prestito gratuito"
+    },
+    {
+      "parola": "dal lunedì al venerdì",
+      "categoria": "espressione",
+      "zh": "从星期一到星期五",
+      "en": "from Monday to Friday",
+      "esempio": "dal lunedì al venerdì"
+    }
+  ]
+}
