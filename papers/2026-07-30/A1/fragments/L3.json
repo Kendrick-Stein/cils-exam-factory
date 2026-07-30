@@ -1,0 +1,47 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1. Biblioteche comunali di Perugia — orario estivo**\n\nPer le biblioteche comunali di Perugia, questo orario estivo è valido dal 6 luglio al 29 agosto 2026.\n\n**2. Biblioteca Augusta**\n\nlunedì e mercoledì dalle 9 alle 18:30\nmartedì, giovedì e venerdì dalle 9 alle 13:30\nTelefono: 075 5772506\n\n**3. Biblioteca Biblionet**\n\ndal lunedì al sabato dalle 9 alle 13\nmartedì e giovedì anche dalle 15 alle 19\nTelefono: 075 5772938\n\n**4. Biblioteca Sandro Penna**\n\ndal lunedì al sabato dalle 9 alle 13\nlunedì e mercoledì anche dalle 15 alle 19\nTelefono: 075 5772941",
+    "L3_OPTIONS": "**A.** Il martedì e il giovedì apre anche nel pomeriggio.\n\n**B.** Il lunedì e il mercoledì apre anche dalle 15 alle 19.\n\n**C.** Il lunedì e il mercoledì chiude alle 18:30.\n\n**D.** Vale in luglio e agosto.\n\n**E.** Il sabato apre anche nel pomeriggio.\n\n**F.** La domenica apre fino alle 13."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | D | Il testo dice «dal 6 luglio al 29 agosto 2026»: l'orario vale in luglio e agosto. |\n| L3.2 | C | La biblioteca è aperta «lunedì e mercoledì dalle 9 alle 18:30». |\n| L3.3 | A | Per Biblionet, «martedì e giovedì» ci sono anche le ore «dalle 15 alle 19». |\n| L3.4 | B | Per Sandro Penna, «lunedì e mercoledì» ci sono anche le ore «dalle 15 alle 19». 中文提示：Augusta 写的是 9:00–18:30；15:00–19:00 只对应 Sandro Penna。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "D",
+    "L3.2": "C",
+    "L3.3": "A",
+    "L3.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "orario estivo",
+      "categoria": "locuzione nominale",
+      "zh": "夏季开放时间",
+      "en": "summer opening hours",
+      "esempio": "Orario estivo dal 6 luglio al 29 agosto 2026."
+    },
+    {
+      "parola": "dal lunedì al sabato",
+      "categoria": "locuzione temporale",
+      "zh": "从星期一到星期六",
+      "en": "from Monday to Saturday",
+      "esempio": "dal lunedì al sabato dalle 9 alle 13"
+    },
+    {
+      "parola": "anche",
+      "categoria": "avverbio",
+      "zh": "也；还",
+      "en": "also",
+      "esempio": "martedì e giovedì anche dalle 15 alle 19"
+    },
+    {
+      "parola": "Telefono",
+      "categoria": "nome maschile",
+      "zh": "电话",
+      "en": "telephone",
+      "esempio": "Telefono: 075 5772938"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Per un pomeriggio, via Martin Knoller**\n\nA) è diventata una strada per giocare.\nB) è rimasta aperta ai mezzi motorizzati.\nC) è stata usata per una gara di auto.\n\n**2. Durante Streets for Kids, bambine e bambini possono**\n\nA) imparare a guidare mezzi motorizzati.\nB) partecipare a giochi e laboratori.\nC) seguire soltanto attività musicali.\n\n**3. A Bolzano, la cooperativa Blufink ha organizzato l'iniziativa**\n\nA) nel centro del quartiere San Quirino.\nB) in una scuola della città di Vienna.\nC) davanti a una scuola primaria.\n\n**4. Ai bambini presenti gli organizzatori hanno chiesto di**\n\nA) disegnare la città che desiderano.\nB) preparare il cibo per la festa.\nC) scegliere le associazioni partecipanti.",
+    "T1_TEXT": "Per un pomeriggio via Martin Knoller, nel quartiere Gries di Bolzano, è rimasta chiusa al traffico e si è trasformata in una strada per il gioco e la socializzazione.\n\nL'iniziativa Streets for Kids arriva da Vienna e da altre città del Nord Europa: per qualche ora una strada viene chiusa ai mezzi motorizzati e diventa uno spazio di libertà e movimento per bambine e bambini e per le loro famiglie. Ecco allora che tornano vecchi giochi come il salto con la corda o l'hula hop ma ci sono anche proposte musicali, laboratori, truccabimbi, cibo e tanto altro.\n\nA Bolzano la cooperativa Blufink ha organizzato - con il coordinamento di Katherina Longariva - Streets for Kids davanti alla scuola primaria di lingua tedesca di via Martin Knoller.\n\nStreets for Kids ha avuto il patrocinio del comune di Bolzano e del consiglio di quartiere Gries San Quirino. Diverse le associazioni che hanno contribuito alla riuscita della festa.\n\nAi bambini presenti è stato chiesto anche di disegnare la città che vorrebbero. C'è da scommettere che la vorrebbero proprio come è stata per un pomeriggio grazie all'iniziativa Streets for Kids.",
+    "T1_TITLE": "STREETS FOR KIDS, I BAMBINI SI RIAPPROPRIANO DELLE STRADE"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | La via «si è trasformata in una strada per il gioco e la socializzazione». 中文：不是继续通车。 |\n| L1.2 | B | Il testo elenca «vecchi giochi» e «laboratori» tra le attività. 中文：音乐不是唯一活动。 |\n| L1.3 | C | Blufink ha organizzato l'iniziativa «davanti alla scuola primaria». 中文：地点信息很明确。 |\n| L1.4 | A | Ai bambini è stato chiesto «di disegnare la città che vorrebbero». 中文：考查活动任务。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "chiusa al traffico",
+      "categoria": "espressione",
+      "zh": "禁止车辆通行",
+      "en": "closed to traffic",
+      "esempio": "è rimasta chiusa al traffico"
+    },
+    {
+      "parola": "mezzi motorizzati",
+      "categoria": "nome plurale",
+      "zh": "机动车辆",
+      "en": "motor vehicles",
+      "esempio": "una strada viene chiusa ai mezzi motorizzati"
+    },
+    {
+      "parola": "laboratori",
+      "categoria": "nome plurale",
+      "zh": "工作坊",
+      "en": "workshops",
+      "esempio": "ci sono anche proposte musicali, laboratori, truccabimbi, cibo e tanto altro"
+    },
+    {
+      "parola": "patrocinio",
+      "categoria": "nome maschile",
+      "zh": "官方支持",
+      "en": "patronage",
+      "esempio": "Streets for Kids ha avuto il patrocinio del comune di Bolzano"
+    },
+    {
+      "parola": "riuscita",
+      "categoria": "nome femminile",
+      "zh": "成功举办",
+      "en": "success",
+      "esempio": "hanno contribuito alla riuscita della festa"
+    }
+  ]
+}

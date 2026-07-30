@@ -1,0 +1,149 @@
+exam: cils
+level: C1
+session: '2026-07-30'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/07/09/vicino-e-velocissimo-il-flyby-dellasteroide-torifune/
+  title: Vicino e velocissimo il flyby dell'asteroide Torifune
+  publisher: Media INAF
+  published: '2026-07-09'
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: false
+  words_used: 592
+- id: T2
+  url: https://bandi.unibo.it/s/campus-ravenna/bando-per-l-erogazione-di-borse-di-studio-per-periodi-di-ricerca-all-estero-per-la-preparazione-della-tesi-di-laurea-destinato-a-studenti-iscritti-ai-corsi-di-laurea-magistrale-e-a-ciclo-unico-del-dipartimento-di-beni-culturali-dbc-ii-tornata-anno-2026/bando/bando-borse-tesi-estero-dbc_bando-unico_anno-2026.pdf/@@download/file/Bando%20borse%20tesi%20estero%20DBC_bando%20unico_anno%202026.pdf
+  title: Bando per l'erogazione di borse di studio per periodi di ricerca all'estero
+    per la preparazione della tesi di laurea - Dipartimento di Beni Culturali - anno
+    2026
+  publisher: Alma Mater Studiorum - Università di Bologna
+  published: not dated on page
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 581
+- id: T3
+  url: https://it.wikisource.org/wiki/Sopra_e_sotto
+  title: Sopra e sotto
+  publisher: Wikisource (Luigi Pirandello)
+  published: not dated on page
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: false
+  words_used: 437
+- id: T4
+  url: https://it.wikisource.org/wiki/Lettera_a_Melitta_%2816_marzo_1909%29
+  title: Lettera a Melitta
+  publisher: Wikisource (Mario Rapisardi)
+  published: '1909-03-16'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: false
+  words_used: 254
+- id: T5
+  url: https://www.ansa.it/sito/notizie/cultura/cinema/2026/07/18/zerocalcare-a-giffoni-sono-insicuro-da-sempre-non-ho-ricette-per-la-felicita_fe6623a9-7ade-49ec-af0b-662286956d71.html
+  title: 'Zerocalcare a Giffoni: Sono insicuro da sempre, non ho ricette per la felicità'
+  publisher: ANSA
+  published: 2026-07-18 22:29
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 247
+- id: T6
+  url: https://www.cnr.it/it/news/14534/lago-di-annone-la-luce-riflessa-dall-acqua-svela-lo-stato-di-salute-dell-ecosistema
+  title: Lago di Annone, la luce riflessa dall'acqua svela lo stato di salute dell'ecosistema
+  publisher: Consiglio Nazionale delle Ricerche (CNR)
+  published: '2026-07-28'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 219
+- id: T7
+  url: https://www.comune.torino.it/novita/comunicati/riqualificazione-continuita-apertura-al-territorio-al-via-una-nuova-gestione-per
+  title: 'Riqualificazione, continuità e apertura al territorio: al via una nuova
+    gestione per la palestra della scuola primaria Manzoni'
+  publisher: Città di Torino
+  published: '2026-03-28'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: false
+  words_used: 175
+pipeline:
+  generator: /genpapers (Codex team)
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-30'
+    slots: 7
+  - stage: authoring
+    at: '2026-07-30'
+    executor: codex-companion (one fresh task per prova, tiered effort)
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - S4
+    - W
+  - stage: blind_validation
+    at: '2026-07-30T06:13:01+00:00'
+    agreement: 80/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-30T06:26:51+00:00'
+    agreement: 81/83
+    flags: 4
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-30T06:33:46+00:00'
+    agreement: 81/83
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-30T06:34:13+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-30'
+    round: 1
+    executor: fresh item-writers plus isolated partial blind solve
+    fixed_items:
+    - S2.2-S2.3 (passive and present-purpose frames)
+    - S4.5-S4.6 (valid transformation variants)
+  - stage: reconcile
+    at: '2026-07-30'
+    round: 2
+    executor: fresh item-writers plus isolated partial blind solve
+    fixed_items:
+    - S2.1 and S2.7 and S2.19-S2.20 (preprinted auxiliary frames)
+    - S4.2 and S4.5-S4.6 (valid transformation variants)
+  - stage: format_audit
+    at: '2026-07-30T06:35:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-30T06:35:47+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

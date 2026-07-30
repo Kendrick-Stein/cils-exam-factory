@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "sportello",
+    "S3_OPT0_B": "mercato",
+    "S3_OPT0_C": "ristorante",
+    "S3_OPTION_ROWS": "| 1. | principale | sociale | territoriale |\n| 2. | scuole | sedi | fermate |\n| 3. | pubblico | telefono | comune |\n| 4. | 17 | 14 | 12,30 |\n| 5. | pomeriggio | mese | fine settimana |\n| 6. | libero | chiuso | aperto |\n| 7. | fax | telefono | documento |\n| 8. | e-mail | lettera | cartolina |",
+    "S3_TEXT_WITH_GAPS": "L'Area territoriale 3 ha uno __sportello (0)__ sociale. La sede non è secondaria: è __(1)__, in Via Aquileia 13 a Ravenna. Altre due __(2)__ sono a Marina di Ravenna e Lido Adriano. Lo sportello apre al __(3)__ dal lunedì al venerdì, la mattina dalle 8 alle __(4)__. Martedì e giovedì apre anche nel __(5)__, dalle 14 alle 17. Sabato non apre: è __(6)__. Per informazioni chiama il numero di __(7)__ 0544 485620 o scrivi una __(8)__ a sportellosociale3@comune.ravenna.it.",
+    "T6_TITLE": "SPORTELLO SOCIALE DELL'AREA TERRITORIALE 3"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | «La sede non è secondaria»: quindi è «principale». 中文：与“次要”相反的是“主要”。 |\n| S3.2 | B | Dopo «La sede» il testo presenta «altre due sedi». 中文：后面两处也是服务地点。 |\n| S3.3 | A | Lo sportello offre un servizio e «apre al pubblico». 中文：这里说明对公众开放。 |\n| S3.4 | C | «La mattina dalle 8 alle 12,30» precede l'orario pomeridiano dalle 14 alle 17. 中文：上午开放至12点30分。 |\n| S3.5 | A | «Dalle 14 alle 17» indica il pomeriggio. 中文：14点到17点属于下午。 |\n| S3.6 | B | «Sabato non apre» significa che è «chiuso». 中文：星期六不开放。 |\n| S3.7 | B | «Chiama il numero» richiede «di telefono». 中文：这是联系电话。 |\n| S3.8 | A | L'indirizzo con @ mostra che devi scrivere un'e-mail. 中文：带有@的是电子邮箱。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "A",
+    "S3.6": "B",
+    "S3.7": "B",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Area territoriale",
+      "categoria": "locuzione nominale",
+      "zh": "辖区",
+      "en": "territorial area",
+      "esempio": "L'Area territoriale 3"
+    },
+    {
+      "parola": "sede",
+      "categoria": "nome femminile",
+      "zh": "办公地点",
+      "en": "office location",
+      "esempio": "La sede"
+    },
+    {
+      "parola": "dal lunedì al venerdì",
+      "categoria": "espressione di tempo",
+      "zh": "从星期一到星期五",
+      "en": "from Monday to Friday",
+      "esempio": "dal lunedì al venerdì"
+    },
+    {
+      "parola": "informazioni",
+      "categoria": "nome femminile plurale",
+      "zh": "信息",
+      "en": "information",
+      "esempio": "Per informazioni"
+    },
+    {
+      "parola": "la mattina",
+      "categoria": "espressione di tempo",
+      "zh": "上午",
+      "en": "in the morning",
+      "esempio": "la mattina"
+    }
+  ]
+}

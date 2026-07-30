@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "**Come nasce la sua passione per i tuffi?**\n\n«Oggi i miei genitori *(raccontare)* __raccontano (0)__ che ho iniziato da piccolissimo, quando *(avere)* __(1)__ circa quattro anni. Oggi non *(ricordarsi)* __(2)__ quel momento; adesso *(sapere)* __(3)__ che non sapevo nuotare. Fino a oggi non *(esserci)* __(4)__ un momento preciso; finora il percorso *(crescere)* __(5)__ con me.»\n\n**Quindi non viene dal nuoto?**\n\n«Da piccolo mia sorella *(fare)* __(6)__ sempre i tuffi e io la *(seguire)* __(7)__ ogni giorno. Fino a oggi la passione *(diventare)* __(8)__ personale. All'inizio io non *(amare)* __(9)__ i tuffi: allora *(avere)* __(10)__ sempre paura dell'acqua, dei salti e dell'altezza. Fino a oggi la paura *(trasformarsi)* __(11)__ e *(lasciare)* __(12)__ spazio alla voglia di migliorare.»\n\n**All'inizio aveva paura?**\n\n«Tu oggi, quando i tuffi *(mettere)* __(13)__ davanti a sensazioni forti, senza strumenti per gestirle *(bloccarsi)* __(14)__ facilmente. All'inizio io *(farsi)* __(15)__ sempre “mangiare” dalla paura; fino a oggi non *(mollare)* __(16)__ mai.»\n\n**Quando arriverà il momento di scegliere, che cosa *(volere)* __(17)__ Lei fare allora? E quale *(essere)* __(18)__ il suo sogno in quel momento?**\n\n«Le Olimpiadi. Se dovessi descrivere il percorso, *(dire)* __(19)__ che, se la paura tornasse, la voglia di migliorare mi *(aiutare)* __(20)__ ad andare oltre.»",
+    "T5_TITLE": "DA PICCOLO AVEVO PAURA DI TUFFARMI IN ACQUA, ORA IL MIO SOGNO SONO LE OLIMPIADI"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.2:** «Oggi» impone il presente; il pronome riflessivo resta dentro la risposta: *mi ricordo*. 中文：反身代词也要写入空格。\n- **S2.4–S2.5 e S2.8:** «Fino a oggi» e «finora» collegano il passato al presente e impongono il passato prossimo. 中文：时间范围延续到现在。\n- **S2.6–S2.7 e S2.15:** «Da piccolo», «ogni giorno» e «sempre» descrivono abitudini passate e impongono l'imperfetto. 中文：过去习惯用未完成过去时。\n- **S2.13–S2.14:** il soggetto stampato «Tu» governa entrambe le proposizioni e «oggi» impone il presente: *ti mettono*, *ti blocchi*. 中文：明确的第二人称和时间标记排除第一人称与条件式。\n- **S2.17–S2.20:** «Quando arriverà» con «allora / in quel momento» colloca S2.17–S2.18 nel futuro; «Se dovessi» e «se la paura tornasse» introducono le due conseguenze al condizionale. 中文：将来时间从句与非现实条件从句分别锁定将来时和条件式。",
+    "ANS_S2_ROWS": "| 1 | avevo | imperfetto indicativo | 11 | si è trasformata | passato prossimo |\n| 2 | mi ricordo | presente indicativo | 12 | ha lasciato | passato prossimo |\n| 3 | so | presente indicativo | 13 | ti mettono | presente indicativo |\n| 4 | c'è stato | passato prossimo | 14 | ti blocchi | presente indicativo |\n| 5 | è cresciuto | passato prossimo | 15 | mi facevo | imperfetto indicativo |\n| 6 | faceva | imperfetto indicativo | 16 | ho mollato | passato prossimo |\n| 7 | seguivo | imperfetto indicativo | 17 | vorrà | futuro semplice |\n| 8 | è diventata | passato prossimo | 18 | sarà | futuro semplice |\n| 9 | amavo | imperfetto indicativo | 19 | direi | condizionale presente |\n| 10 | avevo | imperfetto indicativo | 20 | aiuterebbe | condizionale presente |"
+  },
+  "key": {
+    "S2.1": "avevo",
+    "S2.2": "mi ricordo",
+    "S2.3": "so",
+    "S2.4": "c'è stato",
+    "S2.5": "è cresciuto",
+    "S2.6": "faceva",
+    "S2.7": "seguivo",
+    "S2.8": "è diventata",
+    "S2.9": "amavo",
+    "S2.10": "avevo",
+    "S2.11": "si è trasformata",
+    "S2.12": "ha lasciato",
+    "S2.13": "ti mettono",
+    "S2.14": "ti blocchi",
+    "S2.15": "mi facevo",
+    "S2.16": "ho mollato",
+    "S2.17": "vorrà",
+    "S2.18": "sarà",
+    "S2.19": "direi",
+    "S2.20": "aiuterebbe"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tuffi",
+      "categoria": "nome maschile plurale",
+      "zh": "跳水",
+      "en": "diving",
+      "esempio": "Come nasce la sua passione per i tuffi?"
+    },
+    {
+      "parola": "da piccolissimo",
+      "categoria": "locuzione avverbiale",
+      "zh": "从很小的时候起",
+      "en": "from a very young age",
+      "esempio": "Oggi i miei genitori *(raccontare)* __raccontano (0)__ che ho iniziato da piccolissimo, quando *(avere)* __(1)__ circa quattro anni."
+    },
+    {
+      "parola": "altezza",
+      "categoria": "nome femminile",
+      "zh": "高度",
+      "en": "height",
+      "esempio": "All'inizio io non *(amare)* __(9)__ i tuffi: allora *(avere)* __(10)__ sempre paura dell'acqua, dei salti e dell'altezza."
+    },
+    {
+      "parola": "andare oltre",
+      "categoria": "locuzione verbale",
+      "zh": "超越；继续突破",
+      "en": "to go beyond",
+      "esempio": "Se dovessi descrivere il percorso, *(dire)* __(19)__ che, se la paura tornasse, la voglia di migliorare mi *(aiutare)* __(20)__ ad andare oltre."
+    },
+    {
+      "parola": "sensazioni forti",
+      "categoria": "locuzione nominale",
+      "zh": "强烈感受",
+      "en": "strong sensations",
+      "esempio": "Tu oggi, quando i tuffi *(mettere)* __(13)__ davanti a sensazioni forti, senza strumenti per gestirle *(bloccarsi)* __(14)__ facilmente."
+    }
+  ]
+}

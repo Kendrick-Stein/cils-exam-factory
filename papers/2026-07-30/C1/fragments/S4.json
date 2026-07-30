@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "Riqualificazione, continuità e apertura al territorio: al via una nuova gestione per la palestra della scuola primaria Manzoni",
+    "T7_TEXT": "Nuove modalità di gestione per la palestra della scuola primaria Manzoni di corso Svizzera: la Circoscrizione Quattro ha approvato una delibera che avvia un percorso innovativo per la concessione dell'impianto che punta a coniugare utilizzo sportivo, manutenzione degli spazi e apertura al territorio.\n\nUn atto con cui l’Amministrazione definisce gli indirizzi per l’assegnazione della palestra in orario extrascolastico, confermando la volontà di sostenere la pratica sportiva e le attività ricreative locali in uno degli impianti più richiesti del territorio, favorendo gli interventi di riqualificazione necessari, che potranno essere realizzati dal soggetto assegnatario nell’ambito della concessione.\n\nIl provvedimento prevede la pubblicazione di un avviso pubblico – già avviata in questi giorni – per individuare un soggetto disponibile a gestire la palestra e a farsi carico degli interventi manutentivi: una selezione che terrà conto della qualità dei progetti presentati, degli investimenti proposti, dei tempi di realizzazione e del radicamento sul territorio, con attenzione anche agli aspetti di inclusività.",
+    "S4_SOURCE_0": "La Circoscrizione Quattro ha approvato una delibera che avvia un percorso innovativo per la concessione dell'impianto.",
+    "S4_REWRITE_0": "LA DELIBERA APPROVATA DALLA CIRCOSCRIZIONE QUATTRO AVVIA UN PERCORSO INNOVATIVO PER LA CONCESSIONE DELL'IMPIANTO.",
+    "S4_ITEMS": "**1. L’Amministrazione definisce gli indirizzi per l’assegnazione della palestra in orario extrascolastico.**\n\n→ GLI INDIRIZZI PER L’ASSEGNAZIONE DELLA PALESTRA IN ORARIO EXTRASCOLASTICO …………………………………\n\n**2. L’Amministrazione conferma che vuole sostenere la pratica sportiva e le attività ricreative locali.**\n\n→ LA VOLONTÀ DELL’AMMINISTRAZIONE …………………………………\n\n**3. Nel provvedimento si legge: «Sarà pubblicato un avviso pubblico per individuare un soggetto disponibile a gestire la palestra e a farsi carico degli interventi manutentivi».**\n\n→ NEL PROVVEDIMENTO SI LEGGE CHE …………………………………\n\n**4. Il provvedimento prevede la pubblicazione di un avviso pubblico per individuare un soggetto disponibile a gestire la palestra e a farsi carico degli interventi manutentivi.**\n\n→ AFFINCHÉ …………………………………\n\n**5. La selezione terrà conto della qualità dei progetti presentati, degli investimenti proposti, dei tempi di realizzazione e del radicamento sul territorio.**\n\n→ AI FINI DELLA SELEZIONE …………………………………\n\n**6. La selezione presterà attenzione anche agli aspetti di inclusività.**\n\n→ ANCHE GLI ASPETTI DI INCLUSIVITÀ …………………………………"
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | GLI INDIRIZZI PER L’ASSEGNAZIONE DELLA PALESTRA IN ORARIO EXTRASCOLASTICO SONO DEFINITI DALL’AMMINISTRAZIONE. |\n| S4.2 | LA VOLONTÀ DELL’AMMINISTRAZIONE DI SOSTENERE LA PRATICA SPORTIVA E LE ATTIVITÀ RICREATIVE LOCALI VIENE CONFERMATA. |\n| S4.3 | NEL PROVVEDIMENTO SI LEGGE CHE SARÀ PUBBLICATO UN AVVISO PUBBLICO PER INDIVIDUARE UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI. |\n| S4.4 | AFFINCHÉ SIA INDIVIDUATO UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI, IL PROVVEDIMENTO PREVEDE LA PUBBLICAZIONE DI UN AVVISO PUBBLICO. |\n| S4.5 | AI FINI DELLA SELEZIONE, SARANNO PRESI IN CONSIDERAZIONE LA QUALITÀ DEI PROGETTI PRESENTATI, GLI INVESTIMENTI PROPOSTI, I TEMPI DI REALIZZAZIONE E IL RADICAMENTO SUL TERRITORIO. |\n| S4.6 | ANCHE GLI ASPETTI DI INCLUSIVITÀ SARANNO OGGETTO DI ATTENZIONE NELLA SELEZIONE. |",
+    "ANS_S4_NOTES": "- In S4.2 è necessario conservare il valore di conferma e non trasformare la volontà in un sostegno già realizzato. 中文：保留“确认意愿”的语义。\n- In S4.3 il passaggio al discorso indiretto non modifica il futuro perché il verbo introduttivo è al presente. 中文：引述动词为现在时，未来时不变。\n- In S4.4 sono accettate sia la costruzione passiva «affinché sia individuato» sia quella impersonale «affinché si individui». 中文：两种虚拟式结构均可。\n- Per tutti gli item, l’inizio dato non può essere modificato e la nuova frase deve cambiare davvero la struttura sintattica senza alterare il significato."
+  },
+  "key": {
+    "S4.1": "GLI INDIRIZZI PER L’ASSEGNAZIONE DELLA PALESTRA IN ORARIO EXTRASCOLASTICO SONO DEFINITI DALL’AMMINISTRAZIONE. || GLI INDIRIZZI PER L’ASSEGNAZIONE DELLA PALESTRA IN ORARIO EXTRASCOLASTICO VENGONO DEFINITI DALL’AMMINISTRAZIONE. || GLI INDIRIZZI PER L’ASSEGNAZIONE DELLA PALESTRA IN ORARIO EXTRASCOLASTICO SONO STABILITI DALL’AMMINISTRAZIONE.",
+    "S4.2": "LA VOLONTÀ DELL’AMMINISTRAZIONE DI SOSTENERE LA PRATICA SPORTIVA E LE ATTIVITÀ RICREATIVE LOCALI VIENE CONFERMATA. || LA VOLONTÀ DELL’AMMINISTRAZIONE DI SOSTENERE LA PRATICA SPORTIVA E LE ATTIVITÀ RICREATIVE LOCALI È CONFERMATA. || LA VOLONTÀ DELL’AMMINISTRAZIONE DI SOSTENERE LA PRATICA SPORTIVA E LE ATTIVITÀ RICREATIVE LOCALI RISULTA CONFERMATA. || La volontà dell’Amministrazione di sostenere la pratica sportiva e le attività ricreative locali è confermata dalla stessa Amministrazione.",
+    "S4.3": "NEL PROVVEDIMENTO SI LEGGE CHE SARÀ PUBBLICATO UN AVVISO PUBBLICO PER INDIVIDUARE UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI. || NEL PROVVEDIMENTO SI LEGGE CHE È PREVISTA LA PUBBLICAZIONE DI UN AVVISO PUBBLICO PER INDIVIDUARE UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI.",
+    "S4.4": "AFFINCHÉ SIA INDIVIDUATO UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI, IL PROVVEDIMENTO PREVEDE LA PUBBLICAZIONE DI UN AVVISO PUBBLICO. || AFFINCHÉ VENGA INDIVIDUATO UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI, IL PROVVEDIMENTO PREVEDE LA PUBBLICAZIONE DI UN AVVISO PUBBLICO. || AFFINCHÉ SI INDIVIDUI UN SOGGETTO DISPONIBILE A GESTIRE LA PALESTRA E A FARSI CARICO DEGLI INTERVENTI MANUTENTIVI, IL PROVVEDIMENTO PREVEDE LA PUBBLICAZIONE DI UN AVVISO PUBBLICO.",
+    "S4.5": "AI FINI DELLA SELEZIONE, SARANNO PRESI IN CONSIDERAZIONE LA QUALITÀ DEI PROGETTI PRESENTATI, GLI INVESTIMENTI PROPOSTI, I TEMPI DI REALIZZAZIONE E IL RADICAMENTO SUL TERRITORIO. || AI FINI DELLA SELEZIONE, SARANNO VALUTATI LA QUALITÀ DEI PROGETTI PRESENTATI, GLI INVESTIMENTI PROPOSTI, I TEMPI DI REALIZZAZIONE E IL RADICAMENTO SUL TERRITORIO. || AI FINI DELLA SELEZIONE, SI TERRÀ CONTO DELLA QUALITÀ DEI PROGETTI PRESENTATI, DEGLI INVESTIMENTI PROPOSTI, DEI TEMPI DI REALIZZAZIONE E DEL RADICAMENTO SUL TERRITORIO. || Ai fini della selezione saranno valutati la qualità dei progetti presentati, gli investimenti proposti, i tempi di realizzazione e il radicamento sul territorio. || Ai fini della selezione si terrà conto della qualità dei progetti presentati, degli investimenti proposti, dei tempi di realizzazione e del radicamento sul territorio. || Ai fini della selezione, la qualità dei progetti presentati, gli investimenti proposti, i tempi di realizzazione e il radicamento sul territorio saranno presi in considerazione.",
+    "S4.6": "ANCHE GLI ASPETTI DI INCLUSIVITÀ SARANNO OGGETTO DI ATTENZIONE NELLA SELEZIONE. || ANCHE GLI ASPETTI DI INCLUSIVITÀ SARANNO PRESI IN CONSIDERAZIONE NELLA SELEZIONE. || ANCHE GLI ASPETTI DI INCLUSIVITÀ, LA SELEZIONE LI PRENDERÀ IN CONSIDERAZIONE. || Anche gli aspetti di inclusività saranno tenuti in considerazione nella selezione. || Anche gli aspetti di inclusività riceveranno attenzione nel corso della selezione."
+  },
+  "glossario_candidates": [
+    {
+      "parola": "concessione dell'impianto",
+      "categoria": "locuzione nominale",
+      "zh": "设施特许使用",
+      "en": "facility concession",
+      "esempio": "un percorso innovativo per la concessione dell'impianto"
+    },
+    {
+      "parola": "orario extrascolastico",
+      "categoria": "locuzione nominale",
+      "zh": "课外时段",
+      "en": "outside school hours",
+      "esempio": "l’assegnazione della palestra in orario extrascolastico"
+    },
+    {
+      "parola": "soggetto assegnatario",
+      "categoria": "locuzione nominale",
+      "zh": "获授主体",
+      "en": "successful assignee",
+      "esempio": "realizzati dal soggetto assegnatario nell’ambito della concessione"
+    },
+    {
+      "parola": "interventi manutentivi",
+      "categoria": "locuzione nominale",
+      "zh": "维护工程",
+      "en": "maintenance work",
+      "esempio": "a farsi carico degli interventi manutentivi"
+    },
+    {
+      "parola": "radicamento sul territorio",
+      "categoria": "locuzione nominale",
+      "zh": "在当地的扎根程度",
+      "en": "local rootedness",
+      "esempio": "dei tempi di realizzazione e del radicamento sul territorio"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Chi è la persona più allegra della tua famiglia e che cosa fate insieme?\n\n**2.** Che cosa vedi dalla finestra di casa tua?\n\n**3.** A che ora torni a casa e che cosa fai subito dopo?\n\n**4.** Come vai al lavoro o a scuola e con chi?\n\n**5.** Quale musica ascolti e quando la ascolti?\n\n**6.** Che cosa hai fatto ieri sera?",
+    "O2_ARGOMENTI": "**1.** Parla del tuo negozio preferito: dove si trova, che cosa compri e quando ci vai.\n\n**2.** Parla di un pasto semplice che sai preparare: quali cose usi e come lo prepari."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Chi è la persona più allegra della tua famiglia e che cosa fate insieme?**\n\n*Esaminatore:* Chi è la persona più allegra della tua famiglia e che cosa fate insieme?\n\n*Candidato:* La persona più allegra è mia sorella. Insieme cantiamo e parliamo molto.\n\n**2. Che cosa vedi dalla finestra di casa tua?**\n\n*Esaminatore:* Che cosa vedi dalla finestra di casa tua?\n\n*Candidato:* Dalla finestra vedo una strada e un piccolo giardino. La mattina vedo molti bambini.\n\n**3. A che ora torni a casa e che cosa fai subito dopo?**\n\n*Esaminatore:* A che ora torni a casa e che cosa fai subito dopo?\n\n*Candidato:* Torno a casa alle sei. Subito dopo bevo un bicchiere d'acqua e telefono a mia madre.\n\n**4. Come vai al lavoro o a scuola e con chi?**\n\n*Esaminatore:* Come vai al lavoro o a scuola e con chi?\n\n*Candidato:* Vado al lavoro in autobus con un collega. Il viaggio dura venti minuti.\n\n**5. Quale musica ascolti e quando la ascolti?**\n\n*Esaminatore:* Quale musica ascolti e quando la ascolti?\n\n*Candidato:* Ascolto la musica italiana quando cucino. Mi piacciono le canzoni allegre.\n\n**6. Che cosa hai fatto ieri sera?**\n\n*Esaminatore:* Che cosa hai fatto ieri sera?\n\n*Candidato:* Ieri sera ho preparato la cena e ho telefonato a un amico. Poi ho letto un libro.",
+    "MODEL_O1_PHRASES": "La persona più allegra è…（最开朗的人是……） · Dalla finestra vedo…（从窗户我看到……） · Vado al lavoro o a scuola…（我去上班或上学……） · Ieri sera ho…（昨天晚上我……）",
+    "MODEL_O2": "**Argomento n. 1 — Il mio negozio preferito**\n\nIl mio negozio preferito è una piccola libreria vicino alla stazione. È aperta dal lunedì al sabato. Ci vado una volta alla settimana, di solito nel pomeriggio. Compro libri facili in italiano e qualche quaderno. A volte scelgo anche una cartolina per un amico. Il negozio mi piace perché è tranquillo e il signore alla cassa è sempre gentile.\n\n**Argomento n. 2 — Un pasto semplice che so preparare**\n\nSo preparare un piatto di pasta al pomodoro. Uso la pasta, due pomodori, un po' di olio e sale. Prima metto l'acqua in una pentola e cucino la pasta. Intanto taglio i pomodori e preparo il sugo. Alla fine metto tutto nel piatto. Preparo questo pasto la sera, quando ho poco tempo, perché è facile e molto buono.",
+    "MODEL_O2_PHRASES": "Il mio negozio preferito è…（我最喜欢的商店是……） · Ci vado…（我去那里……） · Prima… Alla fine…（首先……最后……） · So preparare…（我会做……）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1.** «Buongiorno, la visita di controllo prevista per martedì alle 15 deve essere spostata perché la dottoressa sarà assente. Può scegliere un nuovo appuntamento giovedì mattina oppure venerdì pomeriggio, chiamando la segreteria entro domani.»  \nA) È la conferma di una visita già svolta. B) È la richiesta di pagare una visita medica. C) È la proposta di cambiare la data di un appuntamento. D) È l'annuncio della chiusura definitiva di un ambulatorio.\n\n**2.** «Si informa che mercoledì, dalle 9 alle 12, l'acqua sarà sospesa nei palazzi di via Roma per un intervento urgente. Prima dell'inizio dei lavori, i residenti sono invitati a preparare una quantità sufficiente d'acqua.»  \nA) È un avviso su un'interruzione temporanea del servizio. B) È un invito a partecipare a una riunione di quartiere. C) È la comunicazione di un aumento nella bolletta dell'acqua. D) È la richiesta di segnalare una perdita in strada.\n\n**3.** «Ciao Luca, grazie dell'invito alla cena di sabato, ma quella sera lavoro fino a tardi e non riuscirò a venire. Mi dispiace! Se sei libero, potremmo vederci domenica pomeriggio per un caffè.»  \nA) È la richiesta di spostare una cena a sabato sera. B) È l'accettazione entusiasta di un invito a cena. C) È la protesta per un impegno di lavoro troppo lungo. D) È il rifiuto di un invito con una proposta alternativa.\n\n**4.** «Gentile utente, il prestito del libro è scaduto da cinque giorni e un'altra persona lo ha prenotato. La preghiamo di restituire il volume entro venerdì, per evitare la sospensione temporanea del servizio.»  \nA) È l'offerta di acquistare un libro a prezzo ridotto. B) È un sollecito a restituire un libro in ritardo. C) È la conferma del rinnovo automatico di un prestito. D) È la richiesta di prenotare un volume non disponibile.\n\n**5.** «I posti per il laboratorio di fotografia sono esauriti. Chi desidera partecipare può comunque compilare il modulo per entrare nella lista d'attesa: in caso di rinuncia, contatteremo le persone seguendo l'ordine di iscrizione.»  \nA) È la cancellazione di un laboratorio per mancanza di iscritti. B) È l'obbligo di acquistare una macchina fotografica. C) È la possibilità di iscriversi a una lista d'attesa. D) È la conferma di un posto già assegnato.\n\n**6.** «Ieri sera abbiamo trovato uno zaino blu sul treno regionale arrivato alle 20.10. Il proprietario può ritirarlo all'ufficio oggetti smarriti della stazione, mostrando un documento e descrivendo ciò che contiene.»  \nA) È un avviso per riconsegnare un oggetto al proprietario. B) È la denuncia di un furto avvenuto su un treno. C) È il divieto di portare bagagli sul treno regionale. D) È la vendita di uno zaino dimenticato in stazione.\n\n**7.** «Il suo pacco è arrivato al punto di ritiro di via Dante 18. Può presentarsi entro lunedì con il codice ricevuto via SMS e un documento; dopo tale data, la spedizione tornerà al mittente.»  \nA) È la comunicazione che una spedizione è stata persa. B) È la richiesta di cambiare l'indirizzo del mittente. C) È la pubblicità di un nuovo servizio postale. D) È un invito a ritirare un pacco entro una scadenza.\n\n**8.** «Sabato mattina puliremo insieme il piccolo parco vicino alla scuola. Il Comune fornirà guanti e sacchi; noi cerchiamo volontari disponibili dalle 9 alle 11. Per partecipare, scrivete il vostro nome nel gruppo del quartiere.»  \nA) È l'annuncio della chiusura di un parco pubblico. B) È un invito a collaborare a un'attività di quartiere. C) È la richiesta di comprare materiali per la scuola. D) È l'offerta di un lavoro comunale retribuito.\n\n**9.** «Ci scusiamo per il rumore che ha disturbato il suo soggiorno. Per rimediare, possiamo offrirle una camera più tranquilla per le prossime due notti oppure uno sconto del trenta per cento sul conto finale.»  \nA) È il rifiuto di cambiare una camera d'albergo. B) È la richiesta di saldare subito il conto. C) È una risposta a un reclamo con due soluzioni. D) È la pubblicità di camere economiche per il fine settimana.\n\n**10.** «Cerco una persona con cui condividere il tragitto in auto da Pavia a Milano, dal lunedì al venerdì. Parto alle 7.15 e torno verso le 18. Possiamo alternare le automobili e dividere le spese di viaggio.»  \nA) È la ricerca di un compagno per viaggiare insieme. B) È l'offerta di un servizio professionale di taxi. C) È la vendita di un'automobile usata. D) È la richiesta di modificare l'orario di lavoro."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «deve essere spostata» e la scelta tra due nuovi momenti indicano un cambio di data; 中文：不是取消诊所服务。 |\n| S4.2 | A | «mercoledì, dalle 9 alle 12» limita nel tempo la sospensione dell'acqua; 中文：是临时停水通知。 |\n| S4.3 | D | «non riuscirò a venire» rifiuta la cena, mentre «potremmo vederci domenica» propone un'alternativa; 中文：拒绝后另约时间。 |\n| S4.4 | B | «il prestito del libro è scaduto» e «restituire il volume entro venerdì» costituiscono un sollecito; 中文：不是自动续借。 |\n| S4.5 | C | «i posti… sono esauriti» ma il modulo permette di «entrare nella lista d'attesa»; 中文：目前没有确认名额。 |\n| S4.6 | A | «abbiamo trovato uno zaino» e le istruzioni per ritirarlo mirano alla riconsegna; 中文：不是失窃报案。 |\n| S4.7 | D | «Può presentarsi entro lunedì» comunica dove, come ed entro quando ritirare il pacco; 中文：包裹已到取件点。 |\n| S4.8 | B | «cerchiamo volontari» e «Per partecipare» invitano i residenti a pulire insieme il parco; 中文：不是带薪工作。 |\n| S4.9 | C | Alle scuse seguono due rimedi: «una camera più tranquilla» oppure «uno sconto»; 中文：酒店回应投诉并给出两种方案。 |\n| S4.10 | A | «condividere il tragitto» e «dividere le spese» esprimono la ricerca di un compagno di viaggio; 中文：不是出租车服务。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "C",
+    "S4.6": "A",
+    "S4.7": "D",
+    "S4.8": "B",
+    "S4.9": "C",
+    "S4.10": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "intervento urgente",
+      "categoria": "espressione nominale",
+      "zh": "紧急维修",
+      "en": "urgent repair",
+      "esempio": "per un intervento urgente"
+    },
+    {
+      "parola": "sollecito",
+      "categoria": "nome",
+      "zh": "催促；提醒",
+      "en": "reminder",
+      "esempio": "È un sollecito a restituire un libro in ritardo."
+    },
+    {
+      "parola": "lista d'attesa",
+      "categoria": "espressione nominale",
+      "zh": "候补名单",
+      "en": "waiting list",
+      "esempio": "entrare nella lista d'attesa"
+    },
+    {
+      "parola": "oggetti smarriti",
+      "categoria": "espressione nominale",
+      "zh": "失物",
+      "en": "lost property",
+      "esempio": "all'ufficio oggetti smarriti della stazione"
+    },
+    {
+      "parola": "rimediare",
+      "categoria": "verbo",
+      "zh": "补救",
+      "en": "make amends",
+      "esempio": "Per rimediare, possiamo offrirle una camera più tranquilla"
+    }
+  ]
+}

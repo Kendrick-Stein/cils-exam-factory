@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Il castello *(essere)* __è (0)__ bello. Oggi, fino a questo momento, abbiamo fatto tutto: prima il sole *(spuntare)* __(1)__. Poi il gruppo *(visitare)* __(2)__ il castello. Poi noi *(guardare)* __(3)__ le grotte. Dopo, il gruppo *(iniziare)* __(4)__ la gita in barca. Poi la barca *(portare)* __(5)__ il gruppo a Bardolino. In barca noi *(osservare)* __(6)__ il panorama. Poi noi *(scherzare)* __(7)__. Dopo, noi *(fotografare)* __(8)__ il gruppo. Infine noi *(scattare)* __(9)__ qualche selfie. Adesso noi *(avere)* __(10)__ le foto.",
+    "T5_TITLE": "IL SECONDO GIORNO: DA SIRMIONE A BARDOLINO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "L'esempio «Il castello è bello» mostra il presente singolare. La cornice «Oggi, fino a questo momento, abbiamo fatto tutto» collega al presente e dichiara concluse tutte le attività dei punti 1–9; «prima», «Poi», «Dopo» e «Infine» ne fissano la sequenza al passato prossimo. I soggetti stampati fissano persona e numero; «Adesso noi» richiede «abbiamo» al presente nel punto 10. 中文：今天截至目前且所有活动已完成，明确锁定第1–9题的近过去时；顺序词、主语和“现在”标记分别锁定时态与人称。",
+    "ANS_S2_ROWS": "| S2.1 | è spuntato | passato prossimo | S2.6 | abbiamo osservato | passato prossimo |\n| S2.2 | ha visitato | passato prossimo | S2.7 | abbiamo scherzato | passato prossimo |\n| S2.3 | abbiamo guardato | passato prossimo | S2.8 | abbiamo fotografato | passato prossimo |\n| S2.4 | ha iniziato | passato prossimo | S2.9 | abbiamo scattato | passato prossimo |\n| S2.5 | ha portato | passato prossimo | S2.10 | abbiamo | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "è spuntato",
+    "S2.2": "ha visitato",
+    "S2.3": "abbiamo guardato",
+    "S2.4": "ha iniziato",
+    "S2.5": "ha portato",
+    "S2.6": "abbiamo osservato",
+    "S2.7": "abbiamo scherzato",
+    "S2.8": "abbiamo fotografato",
+    "S2.9": "abbiamo scattato",
+    "S2.10": "abbiamo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "grotte",
+      "categoria": "sostantivo plurale",
+      "zh": "洞穴；石窟",
+      "en": "caves; grottoes",
+      "esempio": "le grotte"
+    },
+    {
+      "parola": "gita in barca",
+      "categoria": "locuzione nominale",
+      "zh": "乘船游览",
+      "en": "boat trip",
+      "esempio": "la gita in barca"
+    },
+    {
+      "parola": "panorama",
+      "categoria": "sostantivo",
+      "zh": "景色",
+      "en": "view",
+      "esempio": "il panorama"
+    },
+    {
+      "parola": "foto",
+      "categoria": "sostantivo",
+      "zh": "照片",
+      "en": "photos",
+      "esempio": "le foto"
+    },
+    {
+      "parola": "selfie",
+      "categoria": "sostantivo invariabile",
+      "zh": "自拍照",
+      "en": "selfie",
+      "esempio": "qualche selfie"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+ANSWERS
+
+{"L3":{"answer":"A-F-C-J-B-H-E-K-D-I-G","confidence":"hi"},"S1.1":{"answer":"il","confidence":"hi"},"S1.2":{"answer":"nella","confidence":"hi"},"S1.3":{"answer":"del","confidence":"hi"},"S1.4":{"answer":"all'","confidence":"hi"},"S1.5":{"answer":"della","confidence":"hi"},"S1.6":{"answer":"i","confidence":"hi"},"S1.7":{"answer":"di","confidence":"hi"},"S1.8":{"answer":"a","confidence":"hi"},"S1.9":{"answer":"sul","confidence":"hi"},"S1.10":{"answer":"le","confidence":"hi"},"S1.11":{"answer":"le","confidence":"hi"},"S1.12":{"answer":"i","confidence":"hi"},"S1.13":{"answer":"i","confidence":"hi"},"S1.14":{"answer":"dell'","confidence":"hi"},"S1.15":{"answer":"l'","confidence":"hi"},"S1.16":{"answer":"lo","confidence":"hi"},"S1.17":{"answer":"gli","confidence":"hi"},"S1.18":{"answer":"i","confidence":"hi"},"S1.19":{"answer":"la","confidence":"hi"},"S1.20":{"answer":"di","confidence":"hi"},"S2.1":{"answer":"avevo","confidence":"hi"},"S2.2":{"answer":"mi ricordo","confidence":"hi"},"S2.3":{"answer":"so","confidence":"hi"},"S2.4":{"answer":"c'è stato","confidence":"hi"},"S2.5":{"answer":"è cresciuto","confidence":"hi"},"S2.6":{"answer":"faceva","confidence":"hi"},"S2.7":{"answer":"seguivo","confidence":"hi"},"S2.8":{"answer":"è diventata","confidence":"hi"},"S2.9":{"answer":"amavo","confidence":"hi"},"S2.10":{"answer":"avevo","confidence":"hi"},"S2.11":{"answer":"si è trasformata","confidence":"hi"},"S2.12":{"answer":"ha lasciato","confidence":"hi"},"S2.13":{"answer":"ti mettono","confidence":"hi"},"S2.14":{"answer":"ti blocchi","confidence":"hi"},"S2.15":{"answer":"mi facevo","confidence":"hi"},"S2.16":{"answer":"ho mollato","confidence":"hi"},"S2.17":{"answer":"vorrà","confidence":"hi"},"S2.18":{"answer":"sarà","confidence":"hi"},"S2.19":{"answer":"direi","confidence":"hi"},"S2.20":{"answer":"aiuterebbe","confidence":"hi"}}
+
+FLAGS
+
+[]
+
+WRITING
+
+{}

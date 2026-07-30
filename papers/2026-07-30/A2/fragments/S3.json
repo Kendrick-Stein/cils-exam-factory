@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_OPT0_A": "All'interno",
+    "S3_OPT0_B": "All'esterno",
+    "S3_OPT0_C": "Lontano",
+    "S3_OPTION_ROWS": "| 1. | ragazzi | bimbi | uomini |\n| 2. | lezioni | proiezioni | vacanze |\n| 3. | prezzo | orario | tema |\n| 4. | pratici | chiusi | assenti |\n| 5. | genitori | turisti | atleti |\n| 6. | approfondire | dimenticare | nascondere |\n| 7. | relazione | prenotazione | proiezione |\n| 8. | libero | vietato | chiuso |",
+    "S3_TEXT_WITH_GAPS": "È tornato Concorto Kids, e quest'anno è dedicato all'acqua!\n\n__All'interno (0)__ di #Concorto2026, una tre giorni dedicata a bimbe e __(1)__ con __(2)__ ma non solo! Quest'anno il __(3)__ è L'ACQUA e vi aspettiamo con laboratori __(4)__, proiezioni, merende e un pomeriggio dedicato a educatrici, educatori, insegnanti e __(5)__ dei bambini per __(6)__ il tema dell'arte come metodo di narrazione e __(7)__ con la natura.\n\nPer bimbe e bimbi dai 3 ai 12 anni (ma se ti incuriosisce vieni a dare un'occhiata comunque!), INGRESSO __(8)__ con prenotazione obbligatoria.\n\nVi aspettiamo il 25, 26 e 27 agosto alla Galleria d'Arte Moderna Ricci Oddi di Piacenza.",
+    "T6_TITLE": "Concorto Kids 2026"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Più avanti il testo precisa «Per bimbe e bimbi dai 3 ai 12 anni»: qui serve quindi «bimbi». 中文：后文年龄信息排除其他人群。 |\n| S3.2 | B | Nell'elenco delle attività compare di nuovo «proiezioni, merende»: la parola corretta è «proiezioni». 中文：后文重复词提供线索。 |\n| S3.3 | C | Subito dopo si legge «L'ACQUA» e poi «il tema dell'arte»: il nome richiesto è «tema». 中文：语义搭配明确。 |\n| S3.4 | A | L'annuncio invita il pubblico a partecipare ai laboratori; «chiusi» e «assenti» contraddicono «vi aspettiamo con laboratori». 中文：其余选项与活动邀请矛盾。 |\n| S3.5 | A | La sequenza «insegnanti e genitori dei bambini» forma un gruppo coerente; «turisti» e «atleti» non completano correttamente «dei bambini». 中文：后置成分 «dei bambini» 排除游客和运动员。 |\n| S3.6 | A | Il pomeriggio serve «per approfondire il tema dell'arte»; gli altri verbi esprimono uno scopo contrario. 中文：目的结构决定词义。 |\n| S3.7 | A | L'espressione coerente è «relazione con la natura», collegata al metodo di narrazione. 中文：固定语义搭配。 |\n| S3.8 | A | «Con prenotazione obbligatoria» indica una condizione per entrare, non un divieto: l'ingresso è «libero». 中文：预约必需但入场免费。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "A",
+    "S3.6": "A",
+    "S3.7": "A",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "merende",
+      "categoria": "nome femminile plurale",
+      "zh": "点心，加餐",
+      "en": "snacks",
+      "esempio": "proiezioni, merende e un pomeriggio dedicato a educatrici"
+    },
+    {
+      "parola": "pomeriggio",
+      "categoria": "nome maschile",
+      "zh": "下午",
+      "en": "afternoon",
+      "esempio": "un pomeriggio dedicato a educatrici, educatori, insegnanti"
+    },
+    {
+      "parola": "narrazione",
+      "categoria": "nome femminile",
+      "zh": "叙述，讲述",
+      "en": "narration",
+      "esempio": "dell'arte come metodo di narrazione"
+    },
+    {
+      "parola": "dare un'occhiata",
+      "categoria": "locuzione verbale",
+      "zh": "看一看",
+      "en": "to take a look",
+      "esempio": "vieni a dare un'occhiata comunque!"
+    },
+    {
+      "parola": "prenotazione obbligatoria",
+      "categoria": "espressione nominale",
+      "zh": "必须预约",
+      "en": "mandatory reservation",
+      "esempio": "con prenotazione obbligatoria."
+    }
+  ]
+}

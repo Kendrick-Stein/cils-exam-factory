@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Il bando scade il 24 luglio 2026 alle ore 15.**  \nVero ○ Falso ○\n\n**2. Il concorso assegna un contributo per pagare le tasse universitarie.**  \nVero ○ Falso ○\n\n**3. L’Università di Bologna stabilisce autonomamente l’ammontare complessivo del contributo ministeriale.**  \nVero ○ Falso ○\n\n**4. Il contributo individuale non può superare la spesa di locazione effettivamente sostenuta e documentata.**  \nVero ○ Falso ○\n\n**5. Nel calcolo del contributo possono rientrare anche le spese di locazione sostenute dopo la scadenza del bando.**  \nVero ○ Falso ○\n\n**6. L’Università può erogare il contributo soltanto dopo la comunicazione ministeriale e il trasferimento delle somme.**  \nVero ○ Falso ○\n\n**7. Tutti i requisiti richiesti devono essere posseduti entro la data di scadenza.**  \nVero ○ Falso ○\n\n**8. Per partecipare bisogna essere iscritti a un corso attivato presso l’Ateneo di Bologna.**  \nVero ○ Falso ○\n\n**9. Chi ha conseguito il titolo per l’anno accademico 2025/2026 prima della scadenza non può presentare domanda.**  \nVero ○ Falso ○\n\n**10. Può partecipare chi ha conseguito il titolo nella sessione straordinaria dell’anno accademico 2024/2025.**  \nVero ○ Falso ○\n\n**11. Per gli iscritti alle Scuole di Specializzazione mediche si considera l’iscrizione all’anno accademico 2025/2026.**  \nVero ○ Falso ○\n\n**12. È escluso chi risulta iscritto al primo anno di corso universitario per più di una volta.**  \nVero ○ Falso ○\n\n**13. L’ISEE universitario del nucleo familiare non deve superare 20.000 euro.**  \nVero ○ Falso ○\n\n**14. L’ISEE ordinario è accettato in alternativa all’ISEE per il diritto allo studio universitario.**  \nVero ○ Falso ○",
+    "T2_TEXT": "**SCADENZA BANDO: 24/07/2026 - ore 15:00**\n\n**ART. 2 – FINALITÀ E IMPORTO DEI CONTRIBUTI**\n\n1. L’Alma Mater Studiorum - Università di Bologna, conformemente alla normativa sopra citata, istituisce un concorso per selezionare le studentesse e gli studenti fuori sede – regolarmente iscritti/e all’anno accademico 2025/2026 – idonei/e a ricevere un contributo per le spese di locazione abitativa sostenute nel 2026.\n\n2. L’ammontare del contributo ministeriale complessivamente spettante all’Alma Mater Studiorum – Università di Bologna sarà determinato dal Ministero dell’Università e della Ricerca con successivo provvedimento.\n\n3. L’importo del contributo spettante a ciascun beneficiario sarà determinato dall’Università in seguito al provvedimento del MUR sopra citato e non potrà in nessun caso eccedere l’importo della spesa effettivamente sostenuta dallo studente/studentessa, nel corso del 2026 e fino alla data di scadenza del presente bando, per la locazione e dallo/a stesso/a documentata, come risultante all’esito delle verifiche effettuate dall’Ateneo ai sensi del successivo art. 5.\n\n4. Solo successivamente alla comunicazione da parte del Ministero, nonché al trasferimento delle relative somme, l’Università potrà procedere con l’erogazione del contributo agli aventi diritto.\n\n**ART. 3 – REQUISITI DI PARTECIPAZIONE**\n\nPer partecipare al presente concorso occorre essere in possesso, alla data di scadenza del bando, di tutti i requisiti di seguito elencati.\n\n**ART. 3.A – REQUISITI DI ISCRIZIONE**\n\n1. Per partecipare al presente concorso è necessario essere iscritti/e all’a.a. 2025/2026 ad un corso di studi attivato presso l’Ateneo di Bologna, in regola con il versamento delle contribuzioni studentesche dovute.\n\n2. Possono partecipare anche coloro che hanno conseguito il titolo per l’a.a. 2025/2026 prima della scadenza del bando.\n\n4. Non possono partecipare coloro la cui iscrizione all’a.a. 2025/2026 sia stata annullata o chiusa per effetto di decadenza dagli studi, rinuncia agli studi, congedo in uscita, conseguimento del titolo nella sessione straordinaria dell’a.a. 2024/2025.\n\n5. Per gli iscritti alle Scuole di Specializzazione mediche e alle Scuole di Specializzazione sanitarie non mediche si fa riferimento all’iscrizione all’a.a. 2024/2025.\n\n6. Sono esclusi dall’ammissibilità al beneficio gli iscritti per più di una volta al primo anno di corso universitario.\n\n**ART. 3.B – REQUISITI DI REDDITO**\n\n1. Appartenere ad un nucleo familiare con ISEE per prestazioni per il diritto allo studio universitario non superiore a € 20.000,00. Non è accettato l’ISEE ordinario, non applicabile a prestazioni per il diritto allo studio universitario.\n\n2. È possibile avvalersi dell’ISEE corrente rilasciato sulla base dell’ISEE 2026 per prestazioni per il diritto allo studio universitario, laddove ricorrano le condizioni previste.",
+    "T2_TITLE": "BANDO DI CONCORSO PER CONTRIBUTI MUR PER SPESE DI LOCAZIONE ABITATIVA DELLE STUDENTESSE E DEGLI STUDENTI FUORI SEDE A.A. 2025/2026"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica: «SCADENZA BANDO: 24/07/2026 - ore 15:00». |\n| L2.2 | Falso | Il contributo riguarda «le spese di locazione abitativa», non le tasse universitarie. 中文：用途不同。 |\n| L2.3 | Falso | L’ammontare complessivo «sarà determinato dal Ministero dell’Università e della Ricerca», non autonomamente dall’Ateneo. 中文：决定主体是教育部。 |\n| L2.4 | Vero | L’importo «non potrà in nessun caso eccedere» la spesa sostenuta e documentata. |\n| L2.5 | Falso | Sono considerate le spese sostenute «fino alla data di scadenza del presente bando», non quelle successive. 中文：时间上限是截止日。 |\n| L2.6 | Vero | L’erogazione può avvenire «solo successivamente» alla comunicazione e al trasferimento delle somme. |\n| L2.7 | Vero | Occorre possedere tutti i requisiti «alla data di scadenza del bando». |\n| L2.8 | Vero | È richiesta l’iscrizione «ad un corso di studi attivato presso l’Ateneo di Bologna». |\n| L2.9 | Falso | «Possono partecipare anche» coloro che hanno già conseguito il titolo 2025/2026 prima della scadenza. 中文：毕业不自动排除。 |\n| L2.10 | Falso | Il conseguimento del titolo nella sessione straordinaria 2024/2025 è tra le cause che impediscono la partecipazione. |\n| L2.11 | Falso | Per queste Scuole si fa riferimento all’iscrizione «all’a.a. 2024/2025», non al 2025/2026. 中文：特殊年份不同。 |\n| L2.12 | Vero | Sono esclusi gli iscritti «per più di una volta al primo anno». |\n| L2.13 | Vero | La soglia richiesta è un ISEE universitario «non superiore a € 20.000,00». |\n| L2.14 | Falso | Il testo precisa: «Non è accettato l’ISEE ordinario». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ammontare",
+      "categoria": "nome maschile",
+      "zh": "总额",
+      "en": "amount",
+      "esempio": "L’ammontare del contributo ministeriale complessivamente spettante all’Alma Mater Studiorum – Università di Bologna sarà determinato dal Ministero dell’Università e della Ricerca con successivo provvedimento."
+    },
+    {
+      "parola": "erogazione",
+      "categoria": "nome femminile",
+      "zh": "发放",
+      "en": "disbursement",
+      "esempio": "Solo successivamente alla comunicazione da parte del Ministero, nonché al trasferimento delle relative somme, l’Università potrà procedere con l’erogazione del contributo agli aventi diritto."
+    },
+    {
+      "parola": "contribuzioni studentesche",
+      "categoria": "locuzione nominale",
+      "zh": "学生应缴费用",
+      "en": "student fees",
+      "esempio": "Per partecipare al presente concorso è necessario essere iscritti/e all’a.a. 2025/2026 ad un corso di studi attivato presso l’Ateneo di Bologna, in regola con il versamento delle contribuzioni studentesche dovute."
+    },
+    {
+      "parola": "decadenza dagli studi",
+      "categoria": "locuzione nominale",
+      "zh": "学籍失效",
+      "en": "loss of student status",
+      "esempio": "Non possono partecipare coloro la cui iscrizione all’a.a. 2025/2026 sia stata annullata o chiusa per effetto di decadenza dagli studi, rinuncia agli studi, congedo in uscita, conseguimento del titolo nella sessione straordinaria dell’a.a. 2024/2025."
+    },
+    {
+      "parola": "avvalersi",
+      "categoria": "verbo pronominale",
+      "zh": "利用；采用",
+      "en": "to make use of",
+      "esempio": "È possibile avvalersi dell’ISEE corrente rilasciato sulla base dell’ISEE 2026 per prestazioni per il diritto allo studio universitario, laddove ricorrano le condizioni previste."
+    }
+  ]
+}

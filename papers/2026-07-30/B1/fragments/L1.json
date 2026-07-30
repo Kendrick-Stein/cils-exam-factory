@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Leo Di Bello è entrato a Sky**\n\nA) all'età di diciannove anni.\n\nB) all'età di ventitré anni.\n\nC) quando aveva quarantadue anni.\n\nD) cinque anni fa.\n\n**2. Pensando al proprio futuro, Leo spera di**\n\nA) ricevere altre occasioni per esprimere il suo talento.\n\nB) dedicarsi soltanto alla musica e al cinema.\n\nC) lasciare la televisione per un mestiere artigianale.\n\nD) lavorare esclusivamente nel mondo del calcio.\n\n**3. Secondo Leo, un conduttore fa la differenza grazie**\n\nA) alla quantità di programmi che presenta.\n\nB) alla conoscenza del mercato televisivo.\n\nC) alla presenza, alla personalità e al carisma.\n\nD) alla capacità di comprare idee originali.\n\n**4. Per Leo, le idee nascono soprattutto**\n\nA) dalla creatività delle persone.\n\nB) dallo studio degli eventi sportivi.\n\nC) dalla concorrenza tra web e televisione.\n\nD) dall'acquisto di nuovi programmi.\n\n**5. Champions Night è diventato un progetto vincente perché**\n\nA) ha sostituito lo sport con lo spettacolo.\n\nB) è rimasto un esperimento formativo.\n\nC) presenta soltanto immagini della Champions.\n\nD) unisce lo sport e l'intrattenimento.\n\n**6. Nel programma, il racconto della Champions offre**\n\nA) immagini e approfondimenti di alto livello.\n\nB) notizie di musica e cinema su RDS.\n\nC) soprattutto informazioni sul mercato televisivo.\n\nD) esclusivamente i commenti degli ospiti.\n\n**7. La vera forza della squadra del programma è**\n\nA) il talento di un solo conduttore.\n\nB) il buon clima creato fra le persone.\n\nC) il numero degli ospiti presenti in studio.\n\nD) la lunga storia di Sky Sport.",
+    "T1_TEXT": "Leo Di Bello ha 42 anni, diciannove dei quali passati in televisione. È entrato a Sky a 23 anni e da allora non si è più fermato: Europa League, Conference League, Champions Night su TV8 con Sarah Castellana e la Gialappa's Band, Sky Sport 24 Night su Cielo, e poi RDS dove parla di musica e cinema. Un curriculum solido, costruito \"a bottega\" come i vecchi mestieri artigianali. Eppure quando gli chiediamo qual è la versione di sé che vorrebbe essere tra cinque anni, la risposta è sorprendentemente aperta: \"Spero di avere ancora occasioni per portare avanti il mio talento\".\n\nOccasioni. È una parola che torna spesso nella nostra conversazione, in questa lunga intervista con Fanpage.it, insieme a un'altra: competenza. Leo crede ancora nel valore del lavoro, dello studio, della preparazione. Crede che il conduttore faccia la differenza con \"la sua presenza fisica, la sua personalità, il suo carisma\". E crede che in un momento di cambiamento tra web e televisione lineare ci sia spazio per chi ha idee. \"Le idee non si comprano al mercato\", dice. \"Le idee arrivano da chi ha creatività\".\n\n**Champions Night è diventato un riferimento per gli appassionati di calcio e spettacolo. Siete ripartiti con una nuova stagione: c'è Sarah Castellana, c'è la Gialappa's. Non c'è più Max Giusti, ma avete trovato sulla strada un super Ubaldo Pantani.**\n\nInnanzitutto siamo molto orgogliosi del percorso che stiamo facendo. Quello che era nato come un esperimento, anche formativo per me dal punto di vista dell'intrattenimento, è diventato un progetto vincente perché unisce sport e intrattenimento. Unisce la competenza e la qualità calcistica top nel racconto della Champions – fatto sì di immagini ma anche di approfondimento veramente di grande livello, contraddistinto dal marchio Sky. Tutti lo riconoscono: da quando Sky Sport è nata nel 2003, Sky sa raccontare gli eventi in maniera veramente unica. Non era facile trovare la chiave giusta, ci siamo riusciti fin da subito, fin dall'anno scorso. Adesso siamo molto più rodati. Con la Gialappa's siamo riusciti a unire sport e intrattenimento, e la chiave dell'intrattenimento si inserisce in un'armonia molto bella che si è creata nel programma. Siamo una squadra – sembra banale dirlo ma è così – e quando c'è un ottimo rapporto fuori dal set, in onda questa cosa si vede e si nota. La nostra forza vera è il clima molto bello che si crea tra gli ospiti, i Gialappa, Ubaldo Pantani. Il talento di ciascuno va a essere vincente dentro il lavoro della squadra. Il livello che abbiamo raggiunto è molto molto alto.",
+    "T1_TITLE": "Leo Di Bello: sport, intrattenimento e lavoro di squadra"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo dice: «È entrato a Sky a 23 anni». | \n| L1.2 | A | Leo afferma: «Spero di avere ancora occasioni per portare avanti il mio talento». | \n| L1.3 | C | Il conduttore fa la differenza con «la sua presenza fisica, la sua personalità, il suo carisma». | \n| L1.4 | A | Leo precisa: «Le idee arrivano da chi ha creatività». 中文：创意来自有创造力的人，不是购买节目。 | \n| L1.5 | D | Il progetto è vincente «perché unisce sport e intrattenimento». | \n| L1.6 | A | Il racconto della Champions è «fatto sì di immagini ma anche di approfondimento veramente di grande livello». 中文：不仅有画面，也有深入分析。 | \n| L1.7 | B | La forza vera è «il clima molto bello che si crea» e il buon rapporto fuori dal set si vede in onda. |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "A",
+    "L1.5": "D",
+    "L1.6": "A",
+    "L1.7": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "a bottega",
+      "categoria": "locuzione avverbiale",
+      "zh": "在师傅身边学艺；从实践中学习",
+      "en": "through apprenticeship",
+      "esempio": "Un curriculum solido, costruito \"a bottega\" come i vecchi mestieri artigianali."
+    },
+    {
+      "parola": "carisma",
+      "categoria": "nome maschile",
+      "zh": "个人魅力",
+      "en": "charisma",
+      "esempio": "Crede che il conduttore faccia la differenza con \"la sua presenza fisica, la sua personalità, il suo carisma\"."
+    },
+    {
+      "parola": "percorso",
+      "categoria": "nome maschile",
+      "zh": "历程；发展道路",
+      "en": "journey; path",
+      "esempio": "Innanzitutto siamo molto orgogliosi del percorso che stiamo facendo."
+    },
+    {
+      "parola": "approfondimento",
+      "categoria": "nome maschile",
+      "zh": "深入分析",
+      "en": "in-depth analysis",
+      "esempio": "Unisce la competenza e la qualità calcistica top nel racconto della Champions – fatto sì di immagini ma anche di approfondimento veramente di grande livello, contraddistinto dal marchio Sky."
+    },
+    {
+      "parola": "rodati",
+      "categoria": "aggettivo",
+      "zh": "磨合成熟的；经验更丰富的",
+      "en": "well-practised",
+      "esempio": "Adesso siamo molto più rodati."
+    }
+  ]
+}

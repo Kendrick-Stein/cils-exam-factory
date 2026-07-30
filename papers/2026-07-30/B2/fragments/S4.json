@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Domenica il Museo del Mare apre eccezionalmente il deposito delle collezioni. Le visite, gratuite ma su prenotazione, partono ogni trenta minuti dalle 10. I posti sono limitati e l'accesso è consentito soltanto ai maggiori di quattordici anni.**\n\nA) È l'annuncio di un'apertura straordinaria con modalità di partecipazione.\nB) È la comunicazione della chiusura domenicale di alcune sale del museo.\nC) È la ricerca di volontari per sistemare le collezioni di un museo.\nD) È l'offerta di un abbonamento annuale riservato agli adolescenti.\n\n**2. Gentile cliente, il tavolo ricevuto presenta effettivamente un difetto sul piano. Possiamo sostituirlo senza spese oppure riconoscerle una riduzione del prezzo se preferisce tenerlo. Ci comunichi la sua scelta entro sette giorni rispondendo a questa email.**\n\nA) È la richiesta di pagare le spese per restituire un mobile difettoso.\nB) È la proposta di due soluzioni alternative dopo il riconoscimento di un difetto.\nC) È la conferma della consegna di un tavolo sostitutivo già spedito.\nD) È il rifiuto di intervenire perché il reclamo è arrivato in ritardo.\n\n**3. Fra poco a «Voci dal quartiere» parleremo degli spazi verdi insieme a un'architetta del Comune. Raccontateci con un messaggio quale parco frequentate e che cosa migliorereste: leggeremo alcune proposte durante la trasmissione di oggi.**\n\nA) È l'annuncio di un concorso per progettare un nuovo parco comunale.\nB) È la richiesta del Comune di votare il migliore spazio verde cittadino.\nC) È l'invito agli ascoltatori a contribuire a una trasmissione con le proprie opinioni.\nD) È la pubblicità di visite guidate condotte da un'architetta nei parchi.\n\n**4. Affitto per tre mesi una stanza arredata nel mio appartamento, a dieci minuti dalla stazione. Cerco una persona non fumatrice; cucina e bagno sono in comune. Nel canone sono comprese le spese, mentre è richiesto un deposito iniziale.**\n\nA) È la vendita di un appartamento arredato vicino alla stazione.\nB) È la ricerca di una persona che pulisca gli spazi comuni.\nC) È l'offerta di una camera d'albergo per soggiorni brevi.\nD) È l'offerta temporanea di una stanza in un appartamento condiviso.\n\n**5. Ciao Marta, il treno è fermo da mezz'ora e non riuscirò ad arrivare per l'inizio del concerto. Entra pure senza di me: ti raggiungo direttamente davanti alla sala, appena arrivo. Ho io i biglietti digitali e ti mando subito il tuo.**\n\nA) È l'avviso di un ritardo con indicazioni per non far aspettare l'altra persona.\nB) È la proposta di rinunciare al concerto e prendere un altro treno.\nC) È la richiesta di acquistare due nuovi biglietti alla biglietteria.\nD) È la conferma che due persone arriveranno insieme prima del concerto.\n\n**6. Benvenuti nella residenza universitaria Aurora. Al vostro arrivo ritirate il badge in portineria e controllate il numero della camera nell'area personale. La cucina comune è disponibile fino alle 23; per segnalare guasti compilate il modulo online.**\n\nA) È l'avviso di un guasto che impedisce l'accesso alle camere.\nB) È una comunicazione di accoglienza con istruzioni sui servizi della residenza.\nC) È la pubblicità di camere universitarie ancora disponibili.\nD) È la richiesta agli studenti di riconsegnare il badge in portineria.\n\n**7. Per consentire la potatura degli alberi, mercoledì dalle 7 alle 16 sarà vietato parcheggiare in via Manzoni. I veicoli lasciati nell'area saranno rimossi. Il transito pedonale resterà possibile sul lato opposto della strada.**\n\nA) È l'annuncio della chiusura definitiva di una strada al traffico pedonale.\nB) È la richiesta di segnalare alberi pericolosi lungo una strada.\nC) È un avviso di divieto temporaneo di sosta dovuto a lavori di manutenzione.\nD) È la comunicazione del trasferimento di un parcheggio in via Manzoni.\n\n**8. Il pacco numero 5831 è disponibile nell'armadietto automatico della stazione fino a venerdì alle 20. Per aprire lo sportello usi il codice ricevuto nell'app. Dopo la scadenza, la spedizione sarà riportata al centro di distribuzione.**\n\nA) È un promemoria per ritirare una spedizione entro un termine preciso.\nB) È l'avviso che una consegna a domicilio è stata annullata dal cliente.\nC) È la richiesta di scegliere un nuovo centro per la spedizione di un pacco.\nD) È la conferma che un pacco è già stato restituito al mittente.\n\n**9. Sabato mattina ripuliremo il sentiero lungo il fiume. L'associazione fornirà guanti e sacchi; chiediamo ai partecipanti di indossare scarpe adatte e di iscriversi entro giovedì. Non è necessaria esperienza, ma i minorenni devono essere accompagnati.**\n\nA) È l'offerta di un corso professionale sulla manutenzione dei sentieri.\nB) È la raccolta di denaro per acquistare attrezzature destinate a un parco.\nC) È l'avviso che un sentiero resterà chiuso ai minorenni nel fine settimana.\nD) È un invito a partecipare a un'attività volontaria di pulizia ambientale.\n\n**10. Attenzione: circolano email che promettono un rimborso fiscale e invitano a inserire i dati della carta su un sito esterno. L'Agenzia non richiede queste informazioni via email. Eliminate il messaggio e consultate soltanto il portale ufficiale.**\n\nA) È la comunicazione delle istruzioni ufficiali per chiedere un rimborso fiscale.\nB) È un avviso contro un tentativo di frode attraverso false email.\nC) È la richiesta di aggiornare i dati della carta sul portale dell'Agenzia.\nD) È l'annuncio di un nuovo servizio fiscale disponibile su un sito esterno."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | A | «apre eccezionalmente» annuncia l'apertura straordinaria; il testo precisa prenotazione, orari e limite di età. 中文：博物馆特别开放并说明参加条件。 |\n| S4.2 | B | «Possiamo sostituirlo» oppure «riconoscerle una riduzione» presenta due rimedi tra cui il cliente deve scegliere. 中文：确认瑕疵后提供换货或折价两种方案。 |\n| S4.3 | C | «Raccontateci» e «leggeremo alcune proposte durante la trasmissione» invitano il pubblico a inviare opinioni per il programma. 中文：邀请听众投稿参与节目。 |\n| S4.4 | D | «Affitto per tre mesi una stanza» e «cucina e bagno sono in comune» definiscono un'offerta temporanea in un alloggio condiviso. 中文：短期出租合住房间。 |\n| S4.5 | A | «il treno è fermo» spiega il ritardo; «Entra pure senza di me» e l'invio del biglietto evitano che Marta aspetti. 中文：告知迟到并安排对方先入场。 |\n| S4.6 | B | «Benvenuti» introduce istruzioni su badge, camera, cucina e segnalazione dei guasti per i nuovi residenti. 中文：学生宿舍欢迎信息及服务说明。 |\n| S4.7 | C | «mercoledì dalle 7 alle 16» limita nel tempo il divieto di parcheggio, motivato dalla «potatura degli alberi». 中文：因修剪树木临时禁止停车。 |\n| S4.8 | A | «è disponibile ... fino a venerdì alle 20» ricorda dove e quando ritirare il pacco e avverte della successiva restituzione. 中文：提醒在截止时间前从自提柜取件。 |\n| S4.9 | D | «ripuliremo il sentiero» descrive l'attività e l'invito a iscriversi, senza esperienza richiesta, ne chiarisce il carattere volontario. 中文：招募志愿者清理河边步道。 |\n| S4.10 | B | «circolano email» che richiedono dati bancari, smentite dall'Agenzia, e l'ordine «Eliminate il messaggio» segnalano una frode. 中文：警惕冒充税务机构的钓鱼邮件。 |"
+  },
+  "key": {
+    "S4.1": "A",
+    "S4.2": "B",
+    "S4.3": "C",
+    "S4.4": "D",
+    "S4.5": "A",
+    "S4.6": "B",
+    "S4.7": "C",
+    "S4.8": "A",
+    "S4.9": "D",
+    "S4.10": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "riconoscerle una riduzione del prezzo",
+      "categoria": "locuzione verbale",
+      "zh": "给予价格折扣",
+      "en": "grant a price reduction",
+      "esempio": "riconoscerle una riduzione del prezzo"
+    },
+    {
+      "parola": "canone",
+      "categoria": "nome maschile",
+      "zh": "租金",
+      "en": "rent",
+      "esempio": "Nel canone sono comprese le spese"
+    },
+    {
+      "parola": "portineria",
+      "categoria": "nome femminile",
+      "zh": "门卫处",
+      "en": "reception desk",
+      "esempio": "ritirate il badge in portineria"
+    },
+    {
+      "parola": "potatura",
+      "categoria": "nome femminile",
+      "zh": "修剪",
+      "en": "pruning",
+      "esempio": "Per consentire la potatura degli alberi"
+    },
+    {
+      "parola": "armadietto automatico",
+      "categoria": "locuzione nominale",
+      "zh": "自提柜",
+      "en": "parcel locker",
+      "esempio": "nell'armadietto automatico della stazione"
+    }
+  ]
+}

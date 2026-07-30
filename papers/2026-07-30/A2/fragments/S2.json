@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "La cucina di nonna Rosa *(essere)* __è (0)__ lucana. Oggi Vittoria *(raccontare)* __(1)__ la sua storia. «Nel 2020, durante il lockdown, mentre io *(lavorare)* __(2)__ per una multinazionale, all'improvviso *(ritrovarsi)* __(3)__ a casa. Mentre *(guardare)* __(4)__ Instagram, a un certo punto *(vedere)* __(5)__ una storia. Nella storia c'era scritto: “Adesso noi *(avere)* __(6)__ bisogno di qualcuno a Milano”. Subito dopo io *(mandare)* __(7)__ un video in cui preparavo spaghetti, fagiolini e cacio ricotta». Adesso Vittoria *(aggiungere)* __(8)__: «Mi hanno detto di inventare un'idea». In questi anni, da quell'idea *(nascere)* __(9)__ il programma “Giovani Nonne”; poi il programma *(finire)* __(10)__ su Food Network.",
+    "T5_TITLE": "DALLA CUCINA DI NONNA ROSA ALLA TELEVISIONE"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "*Nota:* «Oggi» e i due «Adesso» impongono il presente (现在时); i due «mentre» introducono azioni in corso all'imperfetto, mentre «all'improvviso», «a un certo punto» e «Subito dopo» segnalano eventi conclusi al passato prossimo (未完成过去时 / 近过去时). «In questi anni» collega gli ultimi risultati al presente. Pronomi e ausiliari sono interamente compresi nei gap.",
+    "ANS_S2_ROWS": "| 1 | racconta | presente | 6 | abbiamo | presente |\n| 2 | lavoravo | imperfetto | 7 | ho mandato | passato prossimo |\n| 3 | mi sono ritrovata | passato prossimo | 8 | aggiunge | presente |\n| 4 | guardavo | imperfetto | 9 | è nato | passato prossimo |\n| 5 | ho visto | passato prossimo | 10 | è finito | passato prossimo |"
+  },
+  "key": {
+    "S2.1": "racconta",
+    "S2.2": "lavoravo",
+    "S2.3": "mi sono ritrovata",
+    "S2.4": "guardavo",
+    "S2.5": "ho visto",
+    "S2.6": "abbiamo",
+    "S2.7": "ho mandato",
+    "S2.8": "aggiunge",
+    "S2.9": "è nato",
+    "S2.10": "è finito"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "lockdown",
+      "categoria": "nome maschile invariabile",
+      "zh": "封控期",
+      "en": "lockdown",
+      "esempio": "Nel 2020, durante il lockdown, mentre io *(lavorare)* __(2)__ per una multinazionale, all'improvviso *(ritrovarsi)* __(3)__ a casa"
+    },
+    {
+      "parola": "multinazionale",
+      "categoria": "nome femminile",
+      "zh": "跨国公司",
+      "en": "multinational company",
+      "esempio": "io *(lavorare)* __(2)__ per una multinazionale"
+    },
+    {
+      "parola": "all'improvviso",
+      "categoria": "avverbio",
+      "zh": "突然",
+      "en": "suddenly",
+      "esempio": "all'improvviso *(ritrovarsi)* __(3)__ a casa"
+    },
+    {
+      "parola": "fagiolini",
+      "categoria": "nome maschile plurale",
+      "zh": "四季豆",
+      "en": "green beans",
+      "esempio": "un video in cui preparavo spaghetti, fagiolini e cacio ricotta"
+    },
+    {
+      "parola": "inventare un'idea",
+      "categoria": "espressione verbale",
+      "zh": "想出一个主意",
+      "en": "to come up with an idea",
+      "esempio": "Mi hanno detto di inventare un'idea"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Fu il 9 aprile 2026 che la FIPE *(presentare)* __presentò (0)__ il Rapporto Ristorazione 2026. Fu allora che il rapporto *(registrare)* __(1)__ un aumento del giro d’affari. Mentre i ricavi crescevano, ogni mese i volumi continuavano a *(diminuire)* __(2)__: il calo fu del 5,4%.\n\n**Vini a bassa gradazione**\n\nOggi il settore *(guardare)* __(3)__ a questi vini. Occorre che il settore *(innovare)* __(4)__. Il 9 aprile risultò che le abitudini, già prima di allora, *(cambiare)* __(5)__, che quei vini, entro quella data, *(adottare)* __(6)__ dai ristoratori e che le aziende, già prima del rapporto, *(investire)* __(7)__ su questo versante. Dopo *(diffondersi)* __(8)__, non sono più una moda passeggera.\n\n**Rilanceranno i consumi?**\n\nIl 30,1% degli imprenditori si aspetta che il fatturato *(aumentare)* __(9)__. Caso irreale: se i ristoratori fossero pronti e *(innovare)* __(10)__ e *(intercettare)* __(11)__ i bisogni, non solo i consumi aumenterebbero, ma quei vini *(attirare)* __(12)__ i giovani e l’ottimismo *(concretizzarsi)* __(13)__.\n\n**Il futuro?**\n\nEntro il 2056 il settore tenderà a *(orientarsi)* __(14)__ all’eccellenza e continuerà a *(essere)* __(15)__ un pilastro. Oggi *(produrre)* __(16)__ 59,3 miliardi di euro di valore aggiunto. Nel caso irreale, se il settore innovasse e *(migliorare)* __(17)__ l’offerta, ci sarebbero benefici e la marginalità *(crescere)* __(18)__. Perché ciò *(accadere)* __(19)__, occorre che la ristorazione *(sapere)* __(20)__ innovare.",
+    "T5_TITLE": "VINO E RISTORAZIONE: LE SCELTE DEL FUTURO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1 — registrò:** la costruzione «Fu allora che» impone il passato remoto. 中文：强调句锁定历史叙述时态。\n- **S2.2 — diminuire:** la forma già stampata «continuavano a» richiede l’infinito. 中文：持续体助动结构已印出，只能填写不定式。\n- **S2.5–S2.7:** «Il 9 aprile risultò», «già prima di allora», «entro quella data» e «prima del rapporto» collocano risultati anteriori al riferimento passato; S2.6 mantiene l’intera passiva nel vuoto. 中文：过去参照点之前的结果锁定愈过去时。\n- **S2.8 — essersi diffusi:** «Dopo» impone l’infinito passato; il soggetto maschile plurale è recuperabile da «quei vini». 中文：代词、助动词和分词都在空格内。\n- **S2.10–S2.13:** il «caso irreale» contiene già «fossero» e l’apodosi già «aumenterebbero»; le forme coordinate seguono gli stessi modi. 中文：条件从句和结果从句各有印出的语气锚点。\n- **S2.14–S2.15:** le forme già stampate «tenderà a» e «continuerà a» reggono rispettivamente gli infiniti «orientarsi» ed «essere». 中文：将来时已印出，空格只能填写不定式。\n- **S2.17–S2.18:** il soggetto «il settore» coordina «innovasse» e «migliorasse» con l’oggetto espresso «l’offerta»; «ci sarebbero» regge poi «crescerebbe». 中文：明确主语、宾语和平行结构排除被动形式。",
+    "ANS_S2_ROWS": "| 1 | registrò | passato remoto | 11 | intercettassero | congiuntivo imperfetto |\n| 2 | diminuire | infinito presente | 12 | attirerebbero | condizionale presente |\n| 3 | guarda | indicativo presente | 13 | si concretizzerebbe | condizionale presente |\n| 4 | innovi | congiuntivo presente | 14 | orientarsi | infinito presente |\n| 5 | erano cambiate | trapassato prossimo | 15 | essere | infinito presente |\n| 6 | erano stati adottati | trapassato prossimo passivo | 16 | produce | indicativo presente |\n| 7 | avevano investito | trapassato prossimo | 17 | migliorasse | congiuntivo imperfetto |\n| 8 | essersi diffusi | infinito passato | 18 | crescerebbe | condizionale presente |\n| 9 | aumenti | congiuntivo presente | 19 | accada | congiuntivo presente |\n| 10 | innovassero | congiuntivo imperfetto | 20 | sappia | congiuntivo presente |"
+  },
+  "key": {
+    "S2.1": "registrò",
+    "S2.2": "diminuire",
+    "S2.3": "guarda",
+    "S2.4": "innovi",
+    "S2.5": "erano cambiate",
+    "S2.6": "erano stati adottati",
+    "S2.7": "avevano investito",
+    "S2.8": "essersi diffusi",
+    "S2.9": "aumenti",
+    "S2.10": "innovassero",
+    "S2.11": "intercettassero",
+    "S2.12": "attirerebbero",
+    "S2.13": "si concretizzerebbe",
+    "S2.14": "orientarsi",
+    "S2.15": "essere",
+    "S2.16": "produce",
+    "S2.17": "migliorasse",
+    "S2.18": "crescerebbe",
+    "S2.19": "accada",
+    "S2.20": "sappia"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "giro d’affari",
+      "categoria": "locuzione nominale",
+      "zh": "营业额",
+      "en": "turnover",
+      "esempio": "un aumento del giro d’affari"
+    },
+    {
+      "parola": "bassa gradazione",
+      "categoria": "locuzione nominale",
+      "zh": "低酒精度",
+      "en": "low alcohol content",
+      "esempio": "Vini a bassa gradazione"
+    },
+    {
+      "parola": "moda passeggera",
+      "categoria": "locuzione nominale",
+      "zh": "昙花一现的潮流",
+      "en": "passing fad",
+      "esempio": "una moda passeggera"
+    },
+    {
+      "parola": "valore aggiunto",
+      "categoria": "locuzione nominale",
+      "zh": "增加值",
+      "en": "value added",
+      "esempio": "59,3 miliardi di euro di valore aggiunto"
+    },
+    {
+      "parola": "marginalità",
+      "categoria": "nome femminile",
+      "zh": "利润率",
+      "en": "profit margin",
+      "esempio": "la marginalità"
+    }
+  ]
+}

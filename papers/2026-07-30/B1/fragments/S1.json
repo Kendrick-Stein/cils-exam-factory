@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Rai Abruzzo, in sinergia con __(1)__ Comune di Pescara, ha organizzato *(in)* __(2)__ giornata *(di)* __(3)__ 9 maggio un evento *(a)* __(4)__ insegna della solidarietà, il tema centrale *(di)* __(5)__ manifestazione, rivolto a tutti __(6)__ ragazzi con disabilità. Si tratta __(7)__ un evento sportivo volto __(8)__ sensibilizzare l'opinione pubblica *(su)* __(9)__ tema del superamento di tutte __(10)__ discriminazioni che colpiscono tutte __(11)__ persone con disabilità. La manifestazione, intitolata «Nessuno è fuori gioco!», si è svolta *(a)* __al (0)__ Palazzetto Comunale dello Sport «Giovanni Paolo II» di Pescara.\n\nTutti __(12)__ dipendenti di RAI Abruzzo sono scesi in campo in squadre miste con tutti __(13)__ ragazzi con disabilità *(di)* __(14)__ Associazione «ASD uguali nello Sport», con quella che era __(15)__ unica regola da seguire in questo singolare torneo: condividere e divertirsi.\n\nSi è voluto ancora una volta dimostrare, come è già avvenuto in tante altre manifestazioni pubbliche, che __(16)__ sport non è solo un'attività ricreativa ma è a tutti __(17)__ effetti un vero e proprio mezzo di inclusione, capace di abbattere tutti __(18)__ pregiudizi e costruire comunità aperte ed accoglienti.\n\nCon lo sport, declinato in una molteplicità di discipline, i giovani con disabilità possono aumentare __(19)__ propria autostima e sentirsi parte __(20)__ un gruppo, condividendo esperienze con i coetanei all'insegna della socializzazione, mentre i giovani normodotati superano le barriere culturali.",
+    "T4_TITLE": "NESSUNO È FUORI GIOCO: SPORT E INCLUSIONE"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.2:** *in + la* diventa **nella** davanti a «giornata».（介词与定冠词合并）\n- **S1.4:** *a + l’* diventa **all’** davanti a una vocale.（元音前省音）\n- **S1.5:** *di + la* diventa **della** perché «manifestazione» indica l’evento appena menzionato.（指前文中特定的活动，必须使用定冠词）\n- **S1.14:** *di + l’* diventa **dell’** davanti a «Associazione».（介词与冠词合并并省音）\n- **S1.16:** davanti a *sport*, che inizia con *s* + consonante, l’articolo è **lo**.（特殊辅音组合）",
+    "ANS_S1_ROWS": "| 1 | il | 11 | le |\n| 2 | nella | 12 | i |\n| 3 | del | 13 | i |\n| 4 | all’ | 14 | dell’ |\n| 5 | della | 15 | l’ |\n| 6 | i | 16 | lo |\n| 7 | di | 17 | gli |\n| 8 | a | 18 | i |\n| 9 | sul | 19 | la |\n| 10 | le | 20 | di |"
+  },
+  "key": {
+    "S1.1": "il",
+    "S1.2": "nella",
+    "S1.3": "del",
+    "S1.4": "all’",
+    "S1.5": "della",
+    "S1.6": "i",
+    "S1.7": "di",
+    "S1.8": "a",
+    "S1.9": "sul",
+    "S1.10": "le",
+    "S1.11": "le",
+    "S1.12": "i",
+    "S1.13": "i",
+    "S1.14": "dell’",
+    "S1.15": "l’",
+    "S1.16": "lo",
+    "S1.17": "gli",
+    "S1.18": "i",
+    "S1.19": "la",
+    "S1.20": "di"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sensibilizzare",
+      "categoria": "verbo",
+      "zh": "提高意识",
+      "en": "to raise awareness",
+      "esempio": "sensibilizzare l'opinione pubblica"
+    },
+    {
+      "parola": "ricreativa",
+      "categoria": "aggettivo",
+      "zh": "娱乐性的",
+      "en": "recreational",
+      "esempio": "attività ricreativa"
+    },
+    {
+      "parola": "autostima",
+      "categoria": "nome femminile",
+      "zh": "自尊心",
+      "en": "self-esteem",
+      "esempio": "propria autostima"
+    },
+    {
+      "parola": "coetanei",
+      "categoria": "nome maschile plurale",
+      "zh": "同龄人",
+      "en": "peers",
+      "esempio": "esperienze con i coetanei"
+    },
+    {
+      "parola": "barriere culturali",
+      "categoria": "locuzione nominale",
+      "zh": "文化障碍",
+      "en": "cultural barriers",
+      "esempio": "superano le barriere culturali"
+    }
+  ]
+}

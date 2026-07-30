@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una lezione di cucina che hai seguito nel tuo quartiere. Scrivi con chi eri, che cosa hai preparato, com'era il luogo e perché l'esperienza ti è piaciuta.",
+    "W2_PROMPT": "Devi partire per il fine settimana. Scrivi un messaggio a un amico o a un'amica: chiedi di annaffiare le tue piante, indica dove sono le chiavi e ringrazia per l'aiuto."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato mattina ho partecipato a una lezione di cucina nel centro del mio quartiere. Ero con mia sorella e altre sei persone. Abbiamo preparato una torta di mele e poi l'abbiamo mangiata insieme. La sala era grande e accogliente. Mi sono divertito perché l'insegnante spiegava tutto con calma e ho imparato una ricetta facile.",
+    "MODEL_W1_PHRASES": "**Ho partecipato a…**（我参加了……）；**Abbiamo preparato…**（我们准备了……）；**Il luogo era…**（那个地方……）；**Mi sono divertito/a perché…**（我玩得很开心，因为……）",
+    "MODEL_W2": "Ciao Anna, questo fine settimana vado dai miei genitori. Puoi annaffiare le piante sabato pomeriggio? Le chiavi sono dalla signora Bianchi. Scrivimi se hai problemi. Grazie mille per l'aiuto! Paolo",
+    "MODEL_W2_PHRASES": "**Questo fine settimana…**（这个周末……）；**Puoi annaffiare…?**（你可以给……浇水吗？）；**Le chiavi sono…**（钥匙在……）；**Grazie mille per l'aiuto!**（非常感谢你的帮助！）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un evento di scambio di libri al quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Ieri non hai potuto partecipare alle prove del gruppo musicale che frequenti. Scrivi un'email a un amico o un'amica del gruppo.",
+    "W2_REQ_1": "spiegare perché non eri presente;",
+    "W2_REQ_2": "chiedere che cosa ha deciso il gruppo e quali brani avete provato;",
+    "W2_REQ_3": "proporre un giorno e un luogo per esercitarvi insieme."
+  },
+  "answer_slots": {
+    "MODEL_W1": "L'autunno scorso ho partecipato a uno scambio di libri organizzato nella biblioteca del mio quartiere. Sono andato con mio fratello e ho portato tre romanzi che avevo già letto. All'ingresso, i volontari ci hanno dato un biglietto per ogni libro consegnato. Con quei biglietti potevamo scegliere altri volumi. All'inizio non trovavo niente di interessante, poi una ragazza mi ha consigliato un racconto di viaggio ambientato in Sicilia. Abbiamo parlato a lungo dei nostri autori preferiti e ci siamo scambiati alcuni suggerimenti. Prima di tornare a casa, ho letto una storia ai bambini presenti. Questa esperienza è stata importante perché ho conosciuto persone, ho scoperto un libro e ho capito che condividere ciò che possediamo può rendere più unito il quartiere.",
+    "MODEL_W1_PHRASES": "«L'autunno scorso ho partecipato a…»（去年秋天我参加了……）; «All'inizio…, poi…»（起初……，后来……）; «Mi ha consigliato…»（他/她向我推荐了……）; «Prima di tornare a casa…»（回家之前……）; «Questa esperienza è stata importante perché…»（这次经历很重要，因为……）",
+    "MODEL_W2": "Ciao Luca,\n\nmi dispiace di non essere venuta alle prove ieri, ma avevo la febbre. Che cosa avete deciso per il concerto? Quali brani avete provato? Se puoi, mandami anche la nuova scaletta. Per recuperare, potremmo esercitarci insieme venerdì alle cinque nella sala del centro giovanile. Sei libero a quell'ora?\n\nGrazie e a presto,\nChiara",
+    "MODEL_W2_PHRASES": "«Mi dispiace di non essere venuta…»（很抱歉我没能来……）; «Che cosa avete deciso…?»（你们决定了什么……？）; «Se puoi, mandami…»（如果可以，请发给我……）; «Potremmo esercitarci insieme…»（我们可以一起练习……）; «Sei libero a quell'ora?»（你那个时间有空吗？）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

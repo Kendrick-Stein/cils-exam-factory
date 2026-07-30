@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ scuola ricomincia dopo __(1)__ vacanze di Natale. È tempo, quindi, di rimettersi __(2)__ pari con tutti __(3)__ tuoi compiti e studiare __(4)__ le ultime verifiche prima della pagella.\n\n**Recupera il ritmo del sonno**\n\nDurante __(5)__ vacanze sei andato a letto e ti sei alzato tardi? Non puoi pretendere che al suono della campanella __(6)__ tuo corpo sia attivo e la tua mente vigile. Inizia ad anticipare la sveglia di 15 minuti.\n\n**Pianifica le urgenze**\n\nGennaio è __(7)__ mese dei recuperi. Non studiare tutto insieme. Prendi un foglio e dividi tutte __(8)__ materie: metti __(9)__ cima quelle __(10)__ cui hai il voto più basso o la verifica imminente.",
+    "T4_TITLE": "10 CONSIGLI PER TORNARE A SCUOLA SENZA STRESS"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "*Nota:* «dopo le vacanze», «rimettersi in pari» e «studiare per le verifiche» fissano le forme richieste; «tutti i tuoi compiti» e «tutte le materie» rendono obbligatori gli articoli. 中文：固定搭配和性数一致决定唯一答案。",
+    "ANS_S1_ROWS": "| S1.1 | le | S1.6 | il |\n| S1.2 | in | S1.7 | il |\n| S1.3 | i | S1.8 | le |\n| S1.4 | per | S1.9 | in |\n| S1.5 | le | S1.10 | in |"
+  },
+  "key": {
+    "S1.1": "le",
+    "S1.2": "in",
+    "S1.3": "i",
+    "S1.4": "per",
+    "S1.5": "le",
+    "S1.6": "il",
+    "S1.7": "il",
+    "S1.8": "le",
+    "S1.9": "in",
+    "S1.10": "in"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rimettersi in pari",
+      "categoria": "locuzione verbale",
+      "zh": "赶上进度",
+      "en": "to catch up",
+      "esempio": "rimettersi in pari con tutti i tuoi compiti"
+    },
+    {
+      "parola": "ritmo del sonno",
+      "categoria": "locuzione nominale",
+      "zh": "睡眠节律",
+      "en": "sleep pattern",
+      "esempio": "Recupera il ritmo del sonno"
+    },
+    {
+      "parola": "suono della campanella",
+      "categoria": "locuzione nominale",
+      "zh": "上课铃声",
+      "en": "sound of the school bell",
+      "esempio": "al suono della campanella"
+    },
+    {
+      "parola": "anticipare la sveglia",
+      "categoria": "locuzione verbale",
+      "zh": "把闹钟提前",
+      "en": "to set the alarm earlier",
+      "esempio": "anticipare la sveglia di 15 minuti"
+    },
+    {
+      "parola": "verifica imminente",
+      "categoria": "locuzione nominale",
+      "zh": "即将到来的测验",
+      "en": "upcoming test",
+      "esempio": "la verifica imminente"
+    }
+  ]
+}

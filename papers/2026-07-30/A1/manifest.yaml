@@ -1,0 +1,118 @@
+exam: cils
+level: A1
+session: '2026-07-30'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.comune.milano.it/servizi/cultura/cataloghi-online-delle-biblioteche-di-pubblica-lettura
+  title: Cataloghi online delle Biblioteche di pubblica lettura
+  publisher: Comune di Milano
+  published: '2026-05-12'
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 123
+- id: T2
+  url: https://cultura.gov.it/evento/guercino-nello-studio
+  title: Guercino nello studio — Regolamento di accesso e fruizione
+  publisher: Ministero della Cultura — Pinacoteca nazionale di Bologna
+  published: 2023-10-17; updated 2024-01-19
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 108
+- id: T3
+  url: https://www.comune.perugia.it/biblioteche-perugia-orario-apertura/
+  title: Biblioteche comunali di Perugia — orario estivo
+  publisher: Comune di Perugia
+  published: not dated on page
+  accessed: '2026-07-30'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 80
+- id: T4
+  url: https://www.comune.napoli.it/vivere-il-comune/luoghi/biblioteca-guido-dorso/
+  title: Biblioteca Guido Dorso
+  publisher: Comune di Napoli
+  published: '2026-05-20'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 72
+- id: T5
+  url: https://www.immaginache.it/post/la-nostra-gita-del-biennio
+  title: La nostra gita del Biennio
+  publisher: Scuole ImmaginaChe — Liceo paritario San Gregorio Magno
+  published: 2025-05-27; updated 2025-07-08
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 92
+- id: T6
+  url: https://comune.ravenna.it/amministrazione/uffici/area-territoriale-3/
+  title: Area territoriale 3 — Sportello sociale
+  publisher: Comune di Ravenna
+  published: '2026-07-23'
+  accessed: '2026-07-30'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 71
+pipeline:
+  generator: /genpapers (Codex team)
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: corpus
+    at: '2026-07-30'
+    slots: 6
+  - stage: authoring
+    at: '2026-07-30'
+    executor: codex-companion (one fresh task per prova, tiered effort)
+    fragments:
+    - GLOSSARIO
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+  - stage: blind_validation
+    at: '2026-07-30T05:44:29+00:00'
+    agreement: 44/44
+    flags: 9
+    result: fail
+  - stage: blind_validation
+    at: '2026-07-30T06:08:27+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-07-30'
+    round: 1
+    executor: fresh item-writer plus isolated partial blind solve
+    fixed_items:
+    - S2.1-S2.9 (same-day scope and completed-sequence anchors)
+  - stage: format_audit
+    at: '2026-07-30T06:35:43+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-07-30T06:35:47+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass
