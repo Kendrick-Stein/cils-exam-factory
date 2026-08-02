@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Nella sezione Anagrafica candidatura devono essere inserite le informazioni obbligatorie.**  Vero ○ Falso ○\n\n**2. I requisiti generici da dichiarare sono stabiliti esclusivamente dal singolo bando di concorso.**  Vero ○ Falso ○\n\n**3. Prima di scegliere fra idoneità fisica, psico-fisica e \"No\", occorre controllare il requisito previsto dalla procedura.**  Vero ○ Falso ○\n\n**4. Tutti i campi della sezione Requisiti specifici sono obbligatori.**  Vero ○ Falso ○\n\n**5. Un titolo di studio estero può essere registrato selezionando \"Conseguito all'estero\".**  Vero ○ Falso ○\n\n**6. Chi seleziona \"Titolo equipollente\" deve essere già in possesso del relativo decreto.**  Vero ○ Falso ○\n\n**7. Se il decreto di equipollenza è già stato ottenuto, bisogna indicare ente, data e numero del provvedimento.**  Vero ○ Falso ○\n\n**8. L'equivalenza di un titolo estero può essere richiesta al DFP anche senza riferirsi a una specifica procedura concorsuale.**  Vero ○ Falso ○\n\n**9. La richiesta di equivalenza deve essere inviata entro la scadenza del bando interessato.**  Vero ○ Falso ○\n\n**10. Il DFP conclude il procedimento di riconoscimento per tutti i partecipanti al concorso.**  Vero ○ Falso ○\n\n**11. In base al DPR 189/2009, alcuni riconoscimenti possono spettare ad amministrazioni diverse dal DFP.**  Vero ○ Falso ○\n\n**12. I titoli di preferenza permettono di superare candidati che hanno ottenuto un punteggio più alto.**  Vero ○ Falso ○\n\n**13. Ogni allegato caricato può avere una grandezza massima di 20 MB.**  Vero ○ Falso ○\n\n**14. Il pulsante \"Annulla Domanda\" conserva i dati già inseriti per consentire una nuova verifica.**  Vero ○ Falso ○",
+    "T2_TEXT": "**Anagrafica candidatura: cosa inserire**\n\nNella sezione devono essere inserite le informazioni obbligatorie.\n\n**Requisiti generici: cosa inserire**\n\nNella sezione devono essere inserite le informazioni previste dalla legge per i concorsi pubblici (Cittadinanza, Iscrizione liste elettorali, Paese di residenza, Posizione rispetto agli obblighi di leva, Eventuale invalidità, ecc.).\n\n**Requisiti generici: idoneità psico-fisica**\n\nNella sezione “Requisiti generici” è possibile indicare il possesso di idoneità “Fisica” o “Psico-Fisica” all’impiego. Controllare il requisito richiesto dalla procedura concorsuale prima di effettuare la scelta tra “Fisica”, “Psico-Fisica” e “No”.\n\n**Requisiti specifici: cosa inserire**\n\nI campi presenti nella sezione possono essere obbligatori (contrassegnati con l’asterisco) oppure campi per richiedere al candidato ulteriori necessari requisiti per partecipare alla procedura concorsuale. Tali requisiti cambiano in relazione a quanto previsto dal Bando/Avviso.\n\n**Titoli di studio e abilitazioni professionali candidatura: titolo di studio estero**\n\nIl titolo di studio conseguito all’estero può essere inserito nella sezione “TITOLI DI STUDIO, ABILITAZIONI PROFESSIONALI, ATTESTAZIONI E CERTIFICAZIONI (LEGGE 4/2013)” selezionando “Conseguito all’estero”, scegliere “Titolo equipollente” o “Titolo equivalente” o “Titolo valutabile ai sensi dell’art.3 o dell’art.4 del DPR 189/2009”.\n\nIndicando “Titolo equipollente” occorre precisare se si è già in possesso del decreto di equipollenza oppure se si è presentata istanza di riconoscimento oppure se si intende presentare istanza di equipollenza.\n\nNel primo caso va indicato Ente/Data/Numero del provvedimento.\n\nSelezionando “Titolo equivalente” occorre indicare la data di presentazione dell’istanza. L’equivalenza del proprio titolo di studio estero può essere richiesta (ex art.38 D.Lgs. 165/2001), esclusivamente nell’ambito di una specifica procedura concorsuale, al Dipartimento della Funzione Pubblica (DFP), in particolare all’Ufficio per l’Organizzazione e il Lavoro Pubblico. La domanda deve essere inviata entro la data di scadenza del bando di concorso oggetto della richiesta e il DFP conclude il procedimento di riconoscimento solo nei confronti dei vincitori del concorso.\n\nSelezionare “Titolo valutabile ai sensi dell’art.3 o dell’art.4 del DPR 189/2009” qualora in base al citato decreto il riconoscimento dei titoli di studio è adottato da parte di amministrazioni diverse dal DFP.\n\n**Titoli di preferenza: cosa inserire**\n\nNella sezione, è presente la lista dei “Titoli di preferenza”, previsti da DPR 82/2023 per i concorsi pubblici, che, se posseduti, saranno considerati solo in situazione di parità di punteggio. Se non si ha nulla da dichiarare, selezionare “Non dichiaro esperienze di questo tipo”.\n\n**Allegati: cosa inserire**\n\nIn questa sezione è possibile inserire gli allegati richiesti. Inoltre, è possibile visionare ed eventualmente modificare gli allegati inseriti in fase di compilazione del CV. La grandezza massima di ogni allegato è di 20MB. La sezione allegati si attiva solo in alcuni casi specifici, ad esempio: se si dichiara invalidità e/o Disturbi Specifici dell’Apprendimento il sistema richiede obbligatoriamente di allegare la relativa certificazione.\n\n**Verifica e invio**\n\nNel caso la domanda non sia completa, il sistema segnala la presenza delle sezioni e dei relativi campi mancanti; in questo caso la domanda non può essere inviata e il candidato deve terminare di inserire tutte le informazioni richieste. Se le sezioni e i campi risultano correttamente compilati, è possibile inoltrare la Domanda tramite il pulsante “Conferma e invia”. Il pulsante “Annulla Domanda” cancella tutti i dati inseriti.\n\nÈ possibile anche scaricare il “Riepilogo della Domanda” in formato .pdf tramite il pulsante “Download”.",
+    "T2_TITLE": "FAQ — Domanda di candidatura"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo precisa: «devono essere inserite le informazioni obbligatorie». |\n| L2.2 | Falso | Le informazioni sono «previste dalla legge per i concorsi pubblici», non esclusivamente dal singolo bando. 中文：依据来源被替换。 |\n| L2.3 | Vero | Bisogna «controllare il requisito richiesto dalla procedura concorsuale prima di effettuare la scelta». |\n| L2.4 | Falso | I campi «possono essere obbligatori» oppure servire a richiedere ulteriori requisiti. 中文：不是所有字段都必填。 |\n| L2.5 | Vero | Il testo indica di selezionare «Conseguito all’estero». |\n| L2.6 | Falso | Si può anche avere già presentato l’istanza o intendere presentarla; il decreto non deve essere necessariamente già disponibile. |\n| L2.7 | Vero | «Nel primo caso va indicato Ente/Data/Numero del provvedimento.» |\n| L2.8 | Falso | L’equivalenza è richiedibile «esclusivamente nell’ambito di una specifica procedura concorsuale». 中文：限定条件相反。 |\n| L2.9 | Vero | «La domanda deve essere inviata entro la data di scadenza del bando.» |\n| L2.10 | Falso | Il DFP conclude il procedimento «solo nei confronti dei vincitori del concorso». |\n| L2.11 | Vero | Il riconoscimento può essere adottato «da parte di amministrazioni diverse dal DFP». |\n| L2.12 | Falso | I titoli sono considerati «solo in situazione di parità di punteggio», non quando i punteggi sono diversi. |\n| L2.13 | Vero | «La grandezza massima di ogni allegato è di 20MB.» |\n| L2.14 | Falso | Il pulsante «Annulla Domanda» «cancella tutti i dati inseriti». 中文：功能结果被颠倒。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "equipollente",
+      "categoria": "aggettivo",
+      "zh": "同等的；等效的",
+      "en": "equivalent",
+      "esempio": "Indicando “Titolo equipollente” occorre precisare se si è già in possesso del decreto di equipollenza oppure se si è presentata istanza di riconoscimento oppure se si intende presentare istanza di equipollenza."
+    },
+    {
+      "parola": "istanza di riconoscimento",
+      "categoria": "locuzione nominale",
+      "zh": "认可申请",
+      "en": "recognition application",
+      "esempio": "Indicando “Titolo equipollente” occorre precisare se si è già in possesso del decreto di equipollenza oppure se si è presentata istanza di riconoscimento oppure se si intende presentare istanza di equipollenza."
+    },
+    {
+      "parola": "titoli di preferenza",
+      "categoria": "locuzione nominale",
+      "zh": "优先资格",
+      "en": "preference qualifications",
+      "esempio": "Nella sezione, è presente la lista dei “Titoli di preferenza”, previsti da DPR 82/2023 per i concorsi pubblici, che, se posseduti, saranno considerati solo in situazione di parità di punteggio."
+    },
+    {
+      "parola": "parità di punteggio",
+      "categoria": "locuzione nominale",
+      "zh": "同分",
+      "en": "tie in scores",
+      "esempio": "Nella sezione, è presente la lista dei “Titoli di preferenza”, previsti da DPR 82/2023 per i concorsi pubblici, che, se posseduti, saranno considerati solo in situazione di parità di punteggio."
+    },
+    {
+      "parola": "inoltrare",
+      "categoria": "verbo",
+      "zh": "提交；发送",
+      "en": "to submit",
+      "esempio": "Se le sezioni e i campi risultano correttamente compilati, è possibile inoltrare la Domanda tramite il pulsante “Conferma e invia”."
+    }
+  ]
+}

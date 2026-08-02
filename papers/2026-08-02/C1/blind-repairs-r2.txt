@@ -1,0 +1,39 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "determinò", "confidence": "hi"},
+  "S2.2": {"answer": "giocare", "confidence": "hi"},
+  "S2.3": {"answer": "affrontiamo", "confidence": "hi"},
+  "S2.4": {"answer": "parlando", "confidence": "hi"},
+  "S2.5": {"answer": "si confrontano", "confidence": "hi"},
+  "S2.6": {"answer": "si danno", "confidence": "hi"},
+  "S2.7": {"answer": "si credesse", "confidence": "hi"},
+  "S2.8": {"answer": "avesse", "confidence": "hi"},
+  "S2.9": {"answer": "sia stata rappresentata", "confidence": "hi"},
+  "S2.10": {"answer": "contenuto", "confidence": "hi"},
+  "S2.11": {"answer": "ho lavorato", "confidence": "hi"},
+  "S2.12": {"answer": "costruivamo", "confidence": "hi"},
+  "S2.13": {"answer": "si autodirigeva", "confidence": "hi"},
+  "S2.14": {"answer": "abbia dedicato", "confidence": "hi"},
+  "S2.15": {"answer": "farei", "confidence": "hi"},
+  "S2.16": {"answer": "torno", "confidence": "hi"},
+  "S2.17": {"answer": "mi accorgo", "confidence": "hi"},
+  "S2.18": {"answer": "interpreto", "confidence": "hi"},
+  "S2.19": {"answer": "sono", "confidence": "hi"},
+  "S2.20": {"answer": "si è creato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "The supplied extract contains no writing tasks."
+}
+```

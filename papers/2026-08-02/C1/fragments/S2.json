@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Fino a oggi, Riondino *(ammirare)* __ha ammirato (0)__ l'affetto del pubblico di “Art”.\n\n**Riondino, perché ha scelto questa commedia?**\n\n«Fu il gioco con la lingua che ci permise di parlare d'altro e che, allora, *(determinare)* __(1)__ la mia scelta. Oggi il testo permette di *(giocare)* __(2)__ con la lingua. Oggi noi *(affrontare)* __(3)__ l'arte contemporanea; pur *(parlare)* __(4)__ di arte, ne facciamo un pretesto per parlare d'altro».\n\n**Che cosa l'ha colpita?**\n\n«Mi colpiscono la velocità e il dinamismo. Ancora oggi, i tre amici *(confrontarsi)* __(5)__ e *(darsi)* __(6)__ battaglia per il predominio. Ciascuno vuole avere ragione, come se *(credersi)* __(7)__ competente su tutto e *(avere)* __(8)__ sempre ragione: uno specchio della società. Benché fino a oggi la commedia *(rappresentare)* __(9)__ moltissime volte, resta attuale».\n\n**Come ha orientato la regia?**\n\n«Il testo, *(contenere)* __(10)__ in un salotto borghese, concentra tutto su tre personaggi. Finora io *(lavorare)* __(11)__ con due attori-autori. Durante la creazione, mentre noi *(costruire)* __(12)__ i personaggi, ciascuno *(autodirigersi)* __(13)__ sempre».\n\n**Con “Art” siete in tournée da gennaio: le reazioni?**\n\n«Benché finora io non *(dedicare)* __(14)__ al teatro tutto il tempo che desidero, se potessi, io *(fare)* __(15)__ più teatro. Adesso, ogni volta che io *(tornare)* __(16)__ in scena, io *(accorgersi)* __(17)__ dell'affetto del pubblico. Oggi, un conto è quando io *(interpretare)* __(18)__ un personaggio televisivo, un altro quando io *(essere)* __(19)__ in teatro. Finora, dopo un mese e mezzo di repliche, *(crearsi)* __(20)__ un bel rapporto».",
+    "T5_TITLE": "MICHELE RIONDINO: IL TEATRO COME VERO AMORE"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** «Fu ... che ci permise ... e che, allora» coordina due azioni concluse al passato remoto; il soggetto «il gioco con la lingua» e l'oggetto «la mia scelta» sono entrambi stampati, quindi la forma è *determinò*. 中文：主语和宾语均明确写出，强调结构与时间标记共同锁定简单过去时。\n- **S2.5 e S2.6:** «Ancora oggi» introduce un fatto dichiarato nella frase principale e impone l'indicativo presente. 中文：主句陈述当前事实，不再受模糊的“il fatto che”支配。\n- **S2.9 e S2.14:** *benché* richiede il congiuntivo; «fino a oggi/finora» colloca l'azione nel passato prossimo. In S2.14 «io ... al teatro tutto il tempo» stampa soggetto e complementi e impone *abbia dedicato*, senza accordi di genere. 中文：让步结构和时间标记锁定过去时；主语及补语明确，并避免性别配合歧义。\n- **S2.10:** l'inciso tra virgole impone il participio passato *contenuto*, concordato con «il testo». 中文：插入式分词与主语保持阳性单数一致。\n- **S2.11 e S2.20:** «Finora» impone il passato prossimo; ausiliare e pronome riflessivo appartengono alla risposta. 中文：持续到现在的时间标记锁定近过去时，助动词和自反代词都要写入空格。\n- **S2.15–S2.17:** gli «io» stampati rendono esplicito il soggetto di ogni forma; «se potessi» forza *farei*, mentre «Adesso, ogni volta» forza i due presenti. 中文：每个动词的第一人称主语均明确写出，条件句及当前习惯标记分别锁定条件式和现在时。",
+    "ANS_S2_ROWS": "| S2.1 | determinò | indicativo passato remoto | S2.11 | ho lavorato | indicativo passato prossimo |\n| S2.2 | giocare | infinito presente | S2.12 | costruivamo | indicativo imperfetto |\n| S2.3 | affrontiamo | indicativo presente | S2.13 | si autodirigeva | indicativo imperfetto, forma pronominale |\n| S2.4 | parlando | gerundio presente | S2.14 | abbia dedicato | congiuntivo passato |\n| S2.5 | si confrontano | indicativo presente, forma pronominale | S2.15 | farei | condizionale presente |\n| S2.6 | si danno | indicativo presente, forma pronominale | S2.16 | torno | indicativo presente |\n| S2.7 | si credesse | congiuntivo imperfetto, forma pronominale | S2.17 | mi accorgo | indicativo presente, forma pronominale |\n| S2.8 | avesse | congiuntivo imperfetto | S2.18 | interpreto | indicativo presente |\n| S2.9 | sia stata rappresentata | congiuntivo passato, forma passiva | S2.19 | sono | indicativo presente |\n| S2.10 | contenuto | participio passato | S2.20 | si è creato | indicativo passato prossimo, forma pronominale |"
+  },
+  "key": {
+    "S2.1": "determinò",
+    "S2.2": "giocare",
+    "S2.3": "affrontiamo",
+    "S2.4": "parlando",
+    "S2.5": "si confrontano",
+    "S2.6": "si danno",
+    "S2.7": "si credesse",
+    "S2.8": "avesse",
+    "S2.9": "sia stata rappresentata",
+    "S2.10": "contenuto",
+    "S2.11": "ho lavorato",
+    "S2.12": "costruivamo",
+    "S2.13": "si autodirigeva",
+    "S2.14": "abbia dedicato",
+    "S2.15": "farei",
+    "S2.16": "torno",
+    "S2.17": "mi accorgo",
+    "S2.18": "interpreto",
+    "S2.19": "sono",
+    "S2.20": "si è creato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "giocare con la lingua",
+      "categoria": "locuzione verbale",
+      "zh": "玩味语言；进行语言实验",
+      "en": "to play with language",
+      "esempio": "Oggi il testo permette di giocare con la lingua."
+    },
+    {
+      "parola": "pretesto",
+      "categoria": "sostantivo maschile",
+      "zh": "借口；引子",
+      "en": "pretext",
+      "esempio": "ne facciamo un pretesto per parlare d'altro"
+    },
+    {
+      "parola": "si danno battaglia",
+      "categoria": "locuzione verbale",
+      "zh": "展开较量；激烈争论",
+      "en": "to battle it out",
+      "esempio": "i tre amici si confrontano e si danno battaglia per il predominio"
+    },
+    {
+      "parola": "predominio",
+      "categoria": "sostantivo maschile",
+      "zh": "支配地位；主导权",
+      "en": "dominance",
+      "esempio": "i tre amici si confrontano e si danno battaglia per il predominio"
+    },
+    {
+      "parola": "salotto borghese",
+      "categoria": "locuzione nominale",
+      "zh": "资产阶级客厅",
+      "en": "bourgeois sitting room",
+      "esempio": "Il testo, contenuto in un salotto borghese, concentra tutto su tre personaggi."
+    }
+  ]
+}

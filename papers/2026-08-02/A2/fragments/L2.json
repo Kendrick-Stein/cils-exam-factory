@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Per fare la ricotta servono soltanto tre ingredienti.**  \nVero ○ Falso ○\n\n**2. Bisogna togliere la pentola dal fuoco quando il latte arriva esattamente a 90°C.**  \nVero ○ Falso ○\n\n**3. Per controllare la temperatura del latte è necessario un termometro da cucina.**  \nVero ○ Falso ○\n\n**4. Dopo il succo di limone, bisogna lasciare la pentola senza coperchio.**  \nVero ○ Falso ○\n\n**5. Il sale si aggiunge dopo aver lasciato riposare il composto per 10 minuti.**  \nVero ○ Falso ○\n\n**6. Il colino deve essere messo direttamente sopra un piatto.**  \nVero ○ Falso ○\n\n**7. Prima di mettere la pentola in frigorifero, bisogna farla raffreddare completamente.**  \nVero ○ Falso ○\n\n**8. In frigorifero la ricotta deve riposare per 10 ore.**  \nVero ○ Falso ○",
+    "T2_TEXT": "La ricotta fatta in casa è molto semplice da preparare, bastano solo 3 semplici ingredienti. Se seguirai tutte le istruzioni potrai ottenere un risultato perfetto.\n\n**Preparazione**\n\nPer preparare la ricotta fatta in casa, per prima cosa riscalda il latte.\n\nIn una pentola porta il latte ad una temperatura di 90°C. In questa fase è fondamentale l’uso di un termometro da cucina.\n\nTi consiglio di togliere dal fuoco la pentola attorno agli 85°C perché la temperatura continuerà a salire grazie al calore accumulato dalla pentola.\n\nAggiungi il succo di mezzo limone, mescola con la frusta e copri con un coperchio. Lascia riposare per 10 minuti.\n\nA questo punto, sempre con l’aiuto di una frusta, rompi la “cagliata”, aggiungi il sale e mescola.\n\nPosiziona un colino o un setaccio sopra una ciotola e comincia a filtrare la “cagliata”.\n\nSu di un piatto posiziona la fuscella, e trasferisci in essa la “cagliata”.\n\nFai raffreddare completamente a temperatura ambiente e trasferisci la pentola in frigo. Lascia riposare per 12 ore.\n\nLa tua ricotta è pronta, buon appetito!",
+    "T2_TITLE": "RICOTTA FATTA IN CASA"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice: «bastano solo 3 semplici ingredienti». |\n| L2.2 | Falso | Il testo consiglia di togliere la pentola dal fuoco «attorno agli 85°C», non esattamente a 90°C. 数字对比。 |\n| L2.3 | Vero | Il testo dice che «è fondamentale l’uso di un termometro da cucina». |\n| L2.4 | Falso | Dopo aver aggiunto il limone, l’istruzione è «copri con un coperchio». 动作相反。 |\n| L2.5 | Vero | Prima si lascia riposare il composto per 10 minuti; «A questo punto» si aggiunge il sale. |\n| L2.6 | Falso | Il testo dice di mettere il colino o il setaccio «sopra una ciotola», non sopra un piatto. |\n| L2.7 | Vero | L’istruzione è «Fai raffreddare completamente» e poi «trasferisci la pentola in frigo». |\n| L2.8 | Falso | In frigorifero il tempo indicato è «12 ore», non 10. 数字对比。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "frusta",
+      "categoria": "nome femminile",
+      "zh": "打蛋器",
+      "en": "whisk",
+      "esempio": "Aggiungi il succo di mezzo limone, mescola con la frusta e copri con un coperchio."
+    },
+    {
+      "parola": "coperchio",
+      "categoria": "nome maschile",
+      "zh": "锅盖",
+      "en": "lid",
+      "esempio": "Aggiungi il succo di mezzo limone, mescola con la frusta e copri con un coperchio."
+    },
+    {
+      "parola": "colino",
+      "categoria": "nome maschile",
+      "zh": "滤网",
+      "en": "strainer",
+      "esempio": "Posiziona un colino o un setaccio sopra una ciotola e comincia a filtrare la “cagliata”."
+    },
+    {
+      "parola": "setaccio",
+      "categoria": "nome maschile",
+      "zh": "筛子",
+      "en": "sieve",
+      "esempio": "Posiziona un colino o un setaccio sopra una ciotola e comincia a filtrare la “cagliata”."
+    },
+    {
+      "parola": "fuscella",
+      "categoria": "nome femminile",
+      "zh": "奶酪沥水模具",
+      "en": "cheese mold",
+      "esempio": "Su di un piatto posiziona la fuscella, e trasferisci in essa la “cagliata”."
+    }
+  ]
+}

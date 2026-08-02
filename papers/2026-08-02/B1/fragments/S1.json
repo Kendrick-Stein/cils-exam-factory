@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Gli adolescenti e i giovani adulti sotto i 30 anni sono responsabili delle maggiori emissioni di gas serra pro capite legate all'alimentazione a livello globale, mentre gli over 60 rappresentano la fascia d'età che contribuisce più rapidamente *(a)* __all'aumento (0)__ delle emissioni complessive legate all'alimentazione, soprattutto nei Paesi ad alto reddito, __(1)__ causa dell'invecchiamento della popolazione. Lo dimostra l'analisi delle abitudini alimentari di 149 Paesi e 22 fasce d'età tra il 2000 e il 2019, condotta __(2)__ un team internazionale guidato dalle università di Birmingham e Groningen.\n\n*(Da)* __(3)__ studio emerge che l'aumento del consumo __(4)__ carne (soprattutto quella rossa) è __(5)__ principale fattore determinante della crescita delle emissioni alimentari __(6)__ livello globale, __(7)__ concomitanza __(8)__ il peggioramento della qualità nutrizionale. Nell'arco __(9)__ due decenni, le emissioni associate *(a)* __(10)__ sistema alimentare mondiale sono aumentate di 2,1 miliardi __(11)__ tonnellate di CO2 equivalente (un'unità __(12)__ misura che permette __(13)__ confrontare l'effetto *(su)* __(14)__ clima dei diversi gas serra). I giovani tra gli 11 e i 29 anni, invece, hanno __(15)__ media le diete con __(16)__ maggiore impronta __(17)__ carbonio a livello globale, soprattutto a causa del maggiore consumo __(18)__ carne, latticini e alimenti trasformati.\n\nPer le fasce più giovani __(19)__ livello globale, i decisori politici dovrebbero dare priorità *(a)* __(20)__ educazione e al cambiamento dei comportamenti.",
+    "T4_TITLE": "GIOVANI E ANZIANI INFLUENZANO IN MODO DIVERSO LE EMISSIONI LEGATE ALL'ALIMENTAZIONE"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.3 — dallo:** lo studio è già stato presentato nel paragrafo precedente; *da* si unisce a *lo*. 中文：回指已提到的研究，使用定冠词并与介词合并。\n- **S1.5 — il:** «il principale fattore» indica l'unico fattore considerato principale. 中文：*principale* 在这里要求定冠词。\n- **S1.7–S1.8 — in, con:** l'espressione è «in concomitanza con». 中文：固定搭配，表示“与……同时发生”。\n- **S1.10 — al:** *a* si unisce a *il* davanti a «sistema alimentare mondiale». 中文：介词与阳性单数定冠词合并。\n- **S1.14 e S1.20 — sul, all':** *su* + *il* forma «sul clima»; *a* + *l'* forma «all'educazione». 中文：分别合并为 *sul* 和省音形式 *all'*。",
+    "ANS_S1_ROWS": "| S1.1 | a | S1.11 | di |\n| S1.2 | da | S1.12 | di |\n| S1.3 | dallo | S1.13 | di |\n| S1.4 | di | S1.14 | sul |\n| S1.5 | il | S1.15 | in |\n| S1.6 | a | S1.16 | la |\n| S1.7 | in | S1.17 | di |\n| S1.8 | con | S1.18 | di |\n| S1.9 | di | S1.19 | a |\n| S1.10 | al | S1.20 | all' |"
+  },
+  "key": {
+    "S1.1": "a",
+    "S1.2": "da",
+    "S1.3": "dallo",
+    "S1.4": "di",
+    "S1.5": "il",
+    "S1.6": "a",
+    "S1.7": "in",
+    "S1.8": "con",
+    "S1.9": "di",
+    "S1.10": "al",
+    "S1.11": "di",
+    "S1.12": "di",
+    "S1.13": "di",
+    "S1.14": "sul",
+    "S1.15": "in",
+    "S1.16": "la",
+    "S1.17": "di",
+    "S1.18": "di",
+    "S1.19": "a",
+    "S1.20": "all'"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "gas serra pro capite",
+      "categoria": "locuzione nominale",
+      "zh": "人均温室气体",
+      "en": "greenhouse gases per capita",
+      "esempio": "emissioni di gas serra pro capite"
+    },
+    {
+      "parola": "abitudini alimentari",
+      "categoria": "locuzione nominale",
+      "zh": "饮食习惯",
+      "en": "eating habits",
+      "esempio": "l'analisi delle abitudini alimentari"
+    },
+    {
+      "parola": "qualità nutrizionale",
+      "categoria": "locuzione nominale",
+      "zh": "营养质量",
+      "en": "nutritional quality",
+      "esempio": "il peggioramento della qualità nutrizionale"
+    },
+    {
+      "parola": "alimenti trasformati",
+      "categoria": "locuzione nominale",
+      "zh": "加工食品",
+      "en": "processed foods",
+      "esempio": "carne, latticini e alimenti trasformati"
+    },
+    {
+      "parola": "decisori politici",
+      "categoria": "locuzione nominale",
+      "zh": "政策制定者",
+      "en": "policymakers",
+      "esempio": "i decisori politici"
+    }
+  ]
+}

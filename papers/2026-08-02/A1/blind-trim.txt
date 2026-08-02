@@ -1,0 +1,14 @@
+ANSWERS
+```json
+{
+  "L3.1": {"answer": "A", "confidence": "hi"},
+  "L3.2": {"answer": "B", "confidence": "hi"},
+  "L3.3": {"answer": "C", "confidence": "hi"},
+  "L3.4": {"answer": "D", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```

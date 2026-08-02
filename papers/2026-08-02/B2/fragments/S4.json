@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Sabato la ciclofficina del quartiere organizza un laboratorio gratuito per imparare a regolare i freni e riparare una gomma. Gli attrezzi saranno disponibili sul posto; portate la vostra bicicletta e prenotate entro giovedì, perché sono previsti soltanto dodici partecipanti.**\n\nA) È l'annuncio di un corso pratico gratuito con iscrizione obbligatoria.\nB) È la ricerca di meccanici da assumere in una nuova ciclofficina.\nC) È l'offerta di riparazioni gratuite eseguite senza la presenza dei proprietari.\nD) È l'avviso della chiusura di un'officina per mancanza di attrezzi.\n\n**2. Buongiorno, l'ombrello descritto nel suo modulo è stato ritrovato sul treno regionale 2187. Può ritirarlo all'ufficio oggetti smarriti mostrando un documento e indicando il colore del manico. Lo conserveremo per trenta giorni, poi sarà dato in beneficenza.**\n\nA) È la richiesta di compilare una nuova denuncia per un oggetto ancora disperso.\nB) È la conferma del ritrovamento con le istruzioni e il termine per il ritiro.\nC) È l'avviso che un ombrello dimenticato è già stato donato.\nD) È la proposta di spedire a domicilio un oggetto trovato sul treno.\n\n**3. Questa settimana «Suoni di casa» raccoglie brevi note vocali sui rumori che accompagnano la vostra giornata: una moka, un mercato, una porta che cigola. Inviate una registrazione di massimo venti secondi; le più originali entreranno nella puntata di venerdì.**\n\nA) È la pubblicità di un apparecchio per registrare suoni domestici.\nB) È l'annuncio di un concorso musicale riservato ai professionisti.\nC) È la richiesta di segnalare rumori molesti alle autorità comunali.\nD) È l'invito al pubblico a contribuire con registrazioni a un programma.\n\n**4. Offro lezioni di pianoforte di livello iniziale in cambio di conversazioni settimanali in spagnolo. Non cerco denaro: vorrei incontrare una persona paziente, preferibilmente il martedì sera, nel centro culturale vicino al mercato. Scrivetemi indicando il vostro livello.**\n\nA) È la vendita di un pianoforte usato presso un centro culturale.\nB) È la ricerca di un insegnante professionista di musica da retribuire.\nC) È la proposta di scambiare competenze linguistiche e musicali senza pagamento.\nD) È l'offerta di un corso collettivo di spagnolo per principianti.\n\n**5. Ciao Elisa, venerdì ho l'esame di guida proprio durante il mio turno pomeridiano. Potresti sostituirmi dalle 14 alle 18? In cambio posso coprire il tuo turno di domenica mattina. Fammi sapere entro stasera, così avviso il responsabile.**\n\nA) È la richiesta a una collega di scambiare due turni di lavoro.\nB) È la comunicazione al responsabile dell'assenza definitiva di una dipendente.\nC) È l'invito a partecipare insieme a un esame di guida.\nD) È la conferma di un cambio di turno già approvato dall'azienda.\n\n**6. Benvenuti nell'orto condiviso Le Querce. Il vostro appezzamento è il numero 16; l'acqua si apre con la chiave comune custodita nella casetta. Usate soltanto il contenitore verde per il compost e, prima di uscire, annotate eventuali problemi sul registro.**\n\nA) È la richiesta di liberare un terreno destinato a un nuovo parcheggio.\nB) È l'offerta di vendita di prodotti coltivati in un orto collettivo.\nC) È l'avviso di una riunione per scegliere gli assegnatari degli appezzamenti.\nD) È un messaggio di accoglienza con indicazioni per usare uno spazio comune.\n\n**7. Martedì l'ascensore del condominio resterà fuori servizio dalle 8 alle 12 per il controllo annuale. Chi aspetta consegne pesanti è invitato a concordare un altro orario con il corriere. Il tecnico non dovrà entrare negli appartamenti.**\n\nA) È la richiesta ai residenti di permettere al tecnico di entrare in casa.\nB) È un avviso di indisponibilità temporanea dell'ascensore con un consiglio sulle consegne.\nC) È l'annuncio dell'installazione di un nuovo ascensore nel condominio.\nD) È la comunicazione del divieto permanente di trasportare oggetti pesanti.\n\n**8. Si è liberato un tavolo per quattro persone alle 20.30 di questa sera. Se desidera confermare la prenotazione richiesta in lista d'attesa, risponda ENTRO 30 MINUTI. In assenza di risposta, proporremo il tavolo al cliente successivo.**\n\nA) È la conferma automatica di una prenotazione per la sera seguente.\nB) È la richiesta di ridurre il numero di persone prima di arrivare.\nC) È un'offerta a tempo per accettare un tavolo diventato disponibile.\nD) È l'avviso che un ristorante non accetta più liste d'attesa.\n\n**9. Cerchiamo residenti disponibili a misurare la temperatura sul proprio balcone per due settimane. Forniremo un piccolo sensore e semplici istruzioni; i dati, inviati in forma anonima, aiuteranno a costruire una mappa del caldo nei diversi quartieri.**\n\nA) È l'invito a collaborare a una raccolta di dati sul clima urbano.\nB) È la vendita di sensori domestici per controllare il riscaldamento.\nC) È la richiesta di segnalare balconi non conformi alle regole comunali.\nD) È l'annuncio dei risultati definitivi di uno studio sulle temperature.\n\n**10. Se avvertite odore di gas nell'edificio, non accendete luci e non usate l'ascensore. Aprite le finestre, uscite senza azionare apparecchi elettrici e chiamate il numero di emergenza dall'esterno. Non cercate di individuare da soli la perdita.**\n\nA) È la spiegazione di come controllare personalmente un impianto domestico.\nB) È la richiesta di comunicare i consumi di gas al gestore.\nC) È l'annuncio di un'esercitazione antincendio programmata nell'edificio.\nD) È un avviso di sicurezza con le azioni da seguire in caso di possibile fuga di gas."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | A | «laboratorio gratuito per imparare» definisce un corso pratico, mentre «prenotate entro giovedì» rende necessaria l'iscrizione. 中文：免费实操课，但必须预约。 |\n| S4.2 | B | «è stato ritrovato» conferma il recupero; il messaggio precisa documento, descrizione e limite di trenta giorni per il ritiro. 中文：确认已找到并说明领取手续与期限。 |\n| S4.3 | D | «raccoglie brevi note vocali» e «entreranno nella puntata» invitano gli ascoltatori a fornire registrazioni per il programma. 中文：征集公众录音用于节目。 |\n| S4.4 | C | «in cambio di conversazioni settimanali in spagnolo» e «Non cerco denaro» indicano uno scambio di competenze senza compenso. 中文：以语言交流交换钢琴课，不收费。 |\n| S4.5 | A | Elisa dovrebbe «sostituirmi» venerdì e riceve in cambio la copertura del proprio turno domenicale: è una richiesta di scambio. 中文：请求同事互换班次。 |\n| S4.6 | D | «Benvenuti» introduce l'assegnazione dell'appezzamento e le regole per acqua, compost e registro nello spazio condiviso. 中文：欢迎新成员并说明共享菜园规则。 |\n| S4.7 | B | «fuori servizio dalle 8 alle 12» segnala un'interruzione limitata e il testo consiglia di riprogrammare le consegne pesanti. 中文：电梯暂时停用，并提示调整送货时间。 |\n| S4.8 | C | «Si è liberato un tavolo» offre un posto prima non disponibile, ma «ENTRO 30 MINUTI» impone un termine per accettarlo. 中文：候补桌位限时确认。 |\n| S4.9 | A | Il testo cerca residenti che misurino la temperatura e inviino dati per «una mappa del caldo», quindi propone una collaborazione scientifica. 中文：邀请居民参与城市气候数据采集。 |\n| S4.10 | D | Gli imperativi «non accendete», «uscite» e «chiamate» indicano le precauzioni da adottare davanti a una possibile perdita. 中文：疑似燃气泄漏时的安全指引。 |"
+  },
+  "key": {
+    "S4.1": "A",
+    "S4.2": "B",
+    "S4.3": "D",
+    "S4.4": "C",
+    "S4.5": "A",
+    "S4.6": "D",
+    "S4.7": "B",
+    "S4.8": "C",
+    "S4.9": "A",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "oggetti smarriti",
+      "categoria": "locuzione nominale",
+      "zh": "失物",
+      "en": "lost property",
+      "esempio": "all'ufficio oggetti smarriti"
+    },
+    {
+      "parola": "porta che cigola",
+      "categoria": "locuzione nominale",
+      "zh": "吱呀作响的门",
+      "en": "squeaky door",
+      "esempio": "una porta che cigola"
+    },
+    {
+      "parola": "appezzamento",
+      "categoria": "nome maschile",
+      "zh": "小块土地",
+      "en": "plot of land",
+      "esempio": "Il vostro appezzamento è il numero 16"
+    },
+    {
+      "parola": "lista d'attesa",
+      "categoria": "locuzione nominale",
+      "zh": "候补名单",
+      "en": "waiting list",
+      "esempio": "in lista d'attesa"
+    },
+    {
+      "parola": "fuga di gas",
+      "categoria": "locuzione nominale",
+      "zh": "燃气泄漏",
+      "en": "gas leak",
+      "esempio": "in caso di possibile fuga di gas"
+    }
+  ]
+}

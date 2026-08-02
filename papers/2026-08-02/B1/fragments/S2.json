@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "**Ci (raccontare) __racconta (0)__ che cosa penserebbe il Luigi bambino?**\n\nSe potesse vedermi, credo che *(essere)* __(1)__ felice. *(Scoprire)* __(2)__ che la passione per la montagna, lo sport e l’endurance non *(svanire)* __(3)__ fino a oggi. In questi anni quella passione *(trasformarsi)* __(4)__ in una parte del mio lavoro.\n\n**Come vede il percorso che ha fatto?**\n\nAdesso *(pensare)* __(5)__ che, se potesse vedermi, il bambino *(guardare)* __(6)__ con stupore al mio percorso. In questi anni io *(affrontare)* __(7)__ le difficoltà e *(superare)* __(8)__. In passato, mentre la strada *(sembrare)* __(9)__ complicata, continuavo comunque. Fino a oggi *(scegliere)* __(10)__ di non fermarmi. Da piccolo *(chiamare)* __(11)__ sempre le mie intuizioni «sogni»; in questi anni, a un certo punto, *(iniziare)* __(12)__ a credere in me stesso e a seguirle con determinazione.\n\n**Quale consiglio darebbe oggi a quel bambino?**\n\nGli *(dire)* __(13)__ di continuare a curiosare senza paura. Gli *(consigliare)* __(14)__ di non avere fretta. In futuro alcune strade *(rivelarsi)* __(15)__; allora lui *(essere)* __(16)__ pronto a percorrerle. Oggi so che ciò che al bambino adesso *(sembrare)* __(17)__ confuso fra qualche anno *(acquistare)* __(18)__ finalmente un senso. Tra molti anni lui *(guardare)* __(19)__ indietro e allora *(capire)* __(20)__ meglio il percorso.",
+    "T5_TITLE": "INTERVISTA A LUIGI VANONI: I SOGNI DI UN BAMBINO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.3–S2.4:** «fino a oggi» e «In questi anni» collegano il passato al presente e richiedono il passato prossimo（时间延续到现在）.\n- **S2.9 e S2.11:** «mentre» e «sempre» descrivono situazioni durative o abituali nel passato e forzano l’imperfetto（过去持续或反复发生）.\n- **S2.10:** «Fino a oggi» esclude il passato remoto e richiede il passato prossimo（截至目前）.\n- **S2.15–S2.18:** «In futuro» e «allora» fissano S2.15–S2.16 nel futuro; «adesso» forza il presente in S2.17 e «fra qualche anno» il futuro in S2.18（明确区分现在与未来）.\n- **S2.19–S2.20:** «Tra molti anni» e «allora» collocano chiaramente entrambe le azioni nel futuro（明确的未来标记）.",
+    "ANS_S2_ROWS": "| S2.1 | sarebbe | condizionale presente | S2.11 | chiamavo | imperfetto indicativo |\n| S2.2 | scoprirebbe | condizionale presente | S2.12 | ho iniziato | passato prossimo indicativo |\n| S2.3 | è svanita | passato prossimo indicativo | S2.13 | direi | condizionale presente |\n| S2.4 | si è trasformata | passato prossimo indicativo | S2.14 | consiglierei | condizionale presente |\n| S2.5 | penso | presente indicativo | S2.15 | si riveleranno | futuro semplice indicativo |\n| S2.6 | guarderebbe | condizionale presente | S2.16 | sarà | futuro semplice indicativo |\n| S2.7 | ho affrontato | passato prossimo indicativo | S2.17 | sembra | presente indicativo |\n| S2.8 | le ho superate | passato prossimo indicativo | S2.18 | acquisterà | futuro semplice indicativo |\n| S2.9 | sembrava | imperfetto indicativo | S2.19 | guarderà | futuro semplice indicativo |\n| S2.10 | ho scelto | passato prossimo indicativo | S2.20 | capirà | futuro semplice indicativo |"
+  },
+  "key": {
+    "S2.1": "sarebbe",
+    "S2.2": "scoprirebbe",
+    "S2.3": "è svanita",
+    "S2.4": "si è trasformata",
+    "S2.5": "penso",
+    "S2.6": "guarderebbe",
+    "S2.7": "ho affrontato",
+    "S2.8": "le ho superate",
+    "S2.9": "sembrava",
+    "S2.10": "ho scelto",
+    "S2.11": "chiamavo",
+    "S2.12": "ho iniziato",
+    "S2.13": "direi",
+    "S2.14": "consiglierei",
+    "S2.15": "si riveleranno",
+    "S2.16": "sarà",
+    "S2.17": "sembra",
+    "S2.18": "acquisterà",
+    "S2.19": "guarderà",
+    "S2.20": "capirà"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "endurance",
+      "categoria": "sostantivo invariabile",
+      "zh": "耐力运动",
+      "en": "endurance sport",
+      "esempio": "la passione per la montagna, lo sport e l’endurance"
+    },
+    {
+      "parola": "percorso",
+      "categoria": "sostantivo maschile",
+      "zh": "历程",
+      "en": "journey",
+      "esempio": "Come vede il percorso che ha fatto?"
+    },
+    {
+      "parola": "stupore",
+      "categoria": "sostantivo maschile",
+      "zh": "惊讶",
+      "en": "amazement",
+      "esempio": "con stupore al mio percorso"
+    },
+    {
+      "parola": "determinazione",
+      "categoria": "sostantivo femminile",
+      "zh": "决心",
+      "en": "determination",
+      "esempio": "a seguirle con determinazione"
+    },
+    {
+      "parola": "curiosare",
+      "categoria": "verbo",
+      "zh": "好奇地探索",
+      "en": "to explore curiously",
+      "esempio": "di continuare a curiosare"
+    }
+  ]
+}

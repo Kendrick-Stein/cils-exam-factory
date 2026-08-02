@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Attenzione: il regionale delle 18.20 per Arezzo partirà dal binario 6 anziché dal binario 2. I viaggiatori sono pregati di raggiungere il nuovo binario utilizzando il sottopassaggio centrale.»**  \nA) È l'annuncio della cancellazione di un treno regionale.  \nB) È la comunicazione di un cambiamento del luogo di partenza.  \nC) È il consiglio di acquistare il biglietto nel sottopassaggio.  \nD) È la richiesta di anticipare l'orario di partenza.\n\n**2. «Avviso ai clienti: il vasetto di pesto con scadenza 12 settembre è stato ritirato dal commercio per un possibile difetto. Non consumatelo e riportatelo in qualsiasi nostro negozio per ricevere il rimborso.»**  \nA) È la pubblicità di un prodotto alimentare appena arrivato.  \nB) È la spiegazione di come conservare correttamente un alimento.  \nC) È l'invito a non usare un prodotto e a restituirlo.  \nD) È l'offerta di cambiare un prodotto con due confezioni nuove.\n\n**3. «Gentili famiglie, per partecipare alla gita al museo occorre consegnare in segreteria il modulo firmato entro il 14 ottobre. Senza l'autorizzazione di un genitore, gli studenti resteranno a scuola con un insegnante.»**  \nA) È il promemoria di una condizione necessaria per partecipare a una gita.  \nB) È l'annuncio che una visita scolastica è stata cancellata.  \nC) È la richiesta ai genitori di accompagnare la classe al museo.  \nD) È la comunicazione di un cambiamento nell'orario delle lezioni.\n\n**4. «Hai quasi terminato i giga inclusi nella tua offerta mensile. Puoi continuare a navigare fino al rinnovo, ma a velocità ridotta; se preferisci, acquista dall'app un pacchetto aggiuntivo valido sette giorni.»**  \nA) È la conferma che un nuovo abbonamento è già attivo.  \nB) È l'avviso che il telefono non può più collegarsi a Internet.  \nC) È la richiesta di aggiornare un'applicazione entro sette giorni.  \nD) È la segnalazione di un limite quasi raggiunto con una soluzione facoltativa.\n\n**5. «Ciao Paolo, mentre usavo il trapano che mi hai prestato si è rotto. Mi dispiace davvero: domani lo porto a riparare e pago io. Se non fosse possibile aggiustarlo, te ne comprerò uno uguale.»**  \nA) È la richiesta di poter tenere ancora un oggetto prestato.  \nB) È una scusa accompagnata dall'impegno a rimediare a un danno.  \nC) È la protesta per aver ricevuto un oggetto già difettoso.  \nD) È il consiglio di comprare uno strumento più moderno.\n\n**6. «Buonasera, abbiamo ricevuto la prenotazione per sei persone a nome Conti. Prima di preparare il menù, vorremmo sapere se tra gli ospiti ci sono allergie o altre esigenze alimentari. Può risponderci entro giovedì?»**  \nA) È la richiesta di informazioni utili per preparare un pasto adatto.  \nB) È il rifiuto di una prenotazione per un gruppo numeroso.  \nC) È la conferma che tutti gli ospiti hanno scelto lo stesso menù.  \nD) È l'invito a pagare in anticipo una cena già ordinata.\n\n**7. «Il rinnovo automatico del suo abbonamento alla rivista è previsto per il 3 novembre e durerà altri dodici mesi. Se non desidera proseguire, lo disattivi nell'area personale almeno 48 ore prima della data indicata.»**  \nA) È l'offerta di leggere gratuitamente una rivista per dodici mesi.  \nB) È la comunicazione che un abbonamento è già stato disdetto.  \nC) È l'avviso di un rinnovo futuro con le istruzioni per evitarlo.  \nD) È la richiesta di modificare i dati personali del lettore.\n\n**8. «Scambio pattini quasi nuovi, numero 39, con un paio dello stesso modello numero 40. Non sono interessata a venderli, perché mi serve soltanto una misura più grande. Posso incontrarvi in centro nel fine settimana.»**  \nA) È la ricerca di un negozio che ripari attrezzature sportive.  \nB) È l'annuncio della vendita di un oggetto usato a prezzo basso.  \nC) È la richiesta di provare un paio di pattini prima dell'acquisto.  \nD) È la proposta di scambiare un oggetto con uno simile di altra misura.\n\n**9. «Hai seguito il nostro corso di cucina vegetariana sabato scorso. Ci aiuteresti a migliorare compilando un breve questionario anonimo? Bastano cinque minuti e puoi indicarci quali attività ti sono sembrate più utili.»**  \nA) È la richiesta di esprimere un'opinione su un'attività svolta.  \nB) È l'invito a iscriversi a un nuovo corso di cucina.  \nC) È la proposta di insegnare una ricetta agli altri partecipanti.  \nD) È la comunicazione dei risultati di una prova pratica.\n\n**10. «Benvenuta a Bologna! L'autista della navetta ti aspetterà alle 16 davanti all'uscita Arrivi, con un cartello a tuo nome. Se il volo accumula ritardo, avvisalo al numero indicato nella prenotazione.»**  \nA) È l'avviso che il servizio di trasporto non è disponibile.  \nB) È la conferma di un incontro con indicazioni per riconoscere e contattare l'autista.  \nC) È la richiesta di prenotare una navetta dopo l'arrivo.  \nD) È il consiglio di cambiare volo per arrivare prima."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «partirà dal binario 6 anziché dal binario 2» comunica lo spostamento del luogo di partenza; 中文：车次和时间没有取消或改变。 |\n| S4.2 | C | «Non consumatelo e riportatelo» dà le due istruzioni legate al prodotto ritirato; 中文：因可能的缺陷而停止食用并退货。 |\n| S4.3 | A | «occorre consegnare ... il modulo firmato entro il 14 ottobre» indica la condizione per partecipare; 中文：必须按时交家长签字的许可表。 |\n| S4.4 | D | «quasi terminato i giga» segnala il limite vicino e il pacchetto aggiuntivo è presentato con «se preferisci»; 中文：额外流量包是可选方案。 |\n| S4.5 | B | «Mi dispiace davvero» esprime le scuse e «pago io» promette di rimediare; 中文：道歉并承担修理或更换责任。 |\n| S4.6 | A | Il ristorante chiede se ci sono «allergie o altre esigenze alimentari» prima di preparare il menù; 中文：为安排合适餐食而询问信息。 |\n| S4.7 | C | «Il rinnovo automatico ... è previsto per il 3 novembre» annuncia il rinnovo futuro e «lo disattivi» spiega come impedirlo; 中文：不是已经取消订阅。 |\n| S4.8 | D | «Scambio» e «Non sono interessata a venderli» chiariscono che si cerca lo stesso modello in una misura diversa; 中文：只换不卖。 |\n| S4.9 | A | «compilando un breve questionario» e l'invito a indicare le attività utili chiedono una valutazione del corso; 中文：课程结束后征求反馈。 |\n| S4.10 | B | Il messaggio precisa dove attenderà l'autista, come riconoscerlo e come avvisarlo in caso di ritardo; 中文：确认接送并提供会合与联系方法。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "C",
+    "S4.3": "A",
+    "S4.4": "D",
+    "S4.5": "B",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "D",
+    "S4.9": "A",
+    "S4.10": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "binario",
+      "categoria": "nome maschile",
+      "zh": "站台；轨道",
+      "en": "platform; track",
+      "esempio": "partirà dal binario 6 anziché dal binario 2"
+    },
+    {
+      "parola": "ritirato dal commercio",
+      "categoria": "locuzione verbale",
+      "zh": "从市场召回",
+      "en": "recalled from sale",
+      "esempio": "è stato ritirato dal commercio per un possibile difetto"
+    },
+    {
+      "parola": "modulo firmato",
+      "categoria": "locuzione nominale",
+      "zh": "已签字的表格",
+      "en": "signed form",
+      "esempio": "consegnare in segreteria il modulo firmato entro il 14 ottobre"
+    },
+    {
+      "parola": "esigenze alimentari",
+      "categoria": "locuzione nominale",
+      "zh": "饮食需求",
+      "en": "dietary requirements",
+      "esempio": "se tra gli ospiti ci sono allergie o altre esigenze alimentari"
+    },
+    {
+      "parola": "rinnovo automatico",
+      "categoria": "locuzione nominale",
+      "zh": "自动续订",
+      "en": "automatic renewal",
+      "esempio": "Il rinnovo automatico del suo abbonamento alla rivista"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "IL TRENO DELLA SILA: UN VIAGGIO LENTO NEL TEMPO",
+    "T3_PART_A": "Siamo tornati a casa sporchi di carbone, con la testa ancora confusa da cigolii e fischi, e felici. Amo il passato e la sua anima nostalgica: per questo ho voluto provare il treno a vapore della Sila.",
+    "T3_PART_B": "Proprio per contrastare questa fretta, io vorrei insegnare ai miei bambini ad andare piano, a godersi il viaggio e a fare esperienze, non soltanto ad avere obiettivi.",
+    "T3_PART_C": "Nonostante ciò, in tutti i libri c'era il disegno del treno a vapore. Anche oggi, quando noi quarantenni dobbiamo imitarne il rumore, facciamo «ciuf ciuf», proprio come da bambini.",
+    "T3_PART_D": "Poco prima, durante il viaggio, Enrico aveva tenuto la testa fuori dal finestrino, tra la polvere di carbone e gli odori del bosco. Poi mi aveva chiesto perché sui treni normali i finestrini non si potessero aprire.",
+    "T3_PART_E": "Da quella risposta ho capito che la lezione era arrivata. Oggi non abbiamo fretta, bambino mio: oggi viviamo e viaggiamo con lentezza. Intanto, la locomotiva 353 percorre la tratta da Moccone a San Nicola Silvana Mansio.",
+    "T3_PART_F": "Quella nostalgia mi fa pensare spesso alle esperienze naturali della mia infanzia: il drin drin del telefono fisso, l'enorme televisore in bianco e nero e i treni. Però, ai miei tempi, erano già elettrici.",
+    "T3_PART_G": "Infine, la protagonista meccanica del viaggio è la locomotiva 353, una Borsig tedesca del 1926. Fischia, sbuffa e stride attraversando boschi e valli della Sila. Per completare il viaggio consuma otto tonnellate di carbone e tre metri cubi d'acqua.",
+    "T3_PART_H": "Così, la domenica sul treno si è trasformata in un viaggio nel tempo, lento, fatto di emozioni e ricordi. Scesi dal treno, Giulia aveva le guance nere di carbone ed Enrico diceva di sentire la polvere sotto i denti.",
+    "T3_PART_I": "Su quel percorso, il treno passa per Camigliatello Silano, Ringhio, Sculca e Croce di Magara. La tratta appartiene alla Ferrovia Silana, storica linea a scartamento ridotto nel cuore della Calabria, che collega Cosenza a San Giovanni in Fiore.",
+    "T3_PART_J": "Da quel ricordo, il pensiero passa al presente: il tempo corre e le abitudini cambiano. Siamo tutti affamati di tempo, cerchiamo più ore come fossero ossigeno e viviamo in apnea, perché il tempo non basta mai.",
+    "T3_PART_K": "Alla sua domanda ho risposto: «Perché i treni moderni vanno a 200 all'ora e sarebbe pericoloso». Enrico allora ha replicato: «Meglio andare piano, tanto oggi non abbiamo fretta»."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l'inizio dato: presenta il ritorno a casa, il carbone e la passione nostalgica per il treno a vapore. |\n| 2 | F | «Quella nostalgia» riprende direttamente «la sua anima nostalgica» della parte A. |\n| 3 | C | «Nonostante ciò» contrappone i treni elettrici dell'infanzia ai treni a vapore disegnati nei libri. 中文：ciò 指前文的 treni elettrici。 |\n| 4 | J | «Da quel ricordo» riprende i ricordi infantili e introduce il passaggio al presente. |\n| 5 | B | «Questa fretta» richiama il tempo che corre e non basta mai; il desiderio di andare piano ne è il contrasto. |\n| 6 | H | «Così» introduce l'esperienza concreta che realizza il proposito di viaggiare lentamente. |\n| 7 | D | «Poco prima, durante il viaggio» torna a un episodio precedente alla discesa narrata in H. |\n| 8 | K | «Alla sua domanda» può riferirsi soltanto alla domanda di Enrico sui finestrini nella parte D. |\n| 9 | E | «Da quella risposta» riprende la frase di Enrico «oggi non abbiamo fretta» e ne esplicita la lezione. |\n| 10 | I | «Su quel percorso» riprende la tratta da Moccone a San Nicola Silvana Mansio appena nominata. |\n| 11 | G | «Infine» chiude il racconto con i dati sulla locomotiva 353 e sul suo consumo. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–D–K–E–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–D–K–E–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "anima nostalgica",
+      "categoria": "locuzione nominale",
+      "zh": "怀旧的情怀",
+      "en": "nostalgic spirit",
+      "esempio": "Amo il passato e la sua anima nostalgica: per questo ho voluto provare il treno a vapore della Sila."
+    },
+    {
+      "parola": "affamati di tempo",
+      "categoria": "locuzione aggettivale",
+      "zh": "渴求更多时间的",
+      "en": "starved for time",
+      "esempio": "Siamo tutti affamati di tempo, cerchiamo più ore come fossero ossigeno e viviamo in apnea, perché il tempo non basta mai."
+    },
+    {
+      "parola": "viviamo in apnea",
+      "categoria": "espressione figurata",
+      "zh": "像屏住呼吸一样生活",
+      "en": "we live holding our breath",
+      "esempio": "Siamo tutti affamati di tempo, cerchiamo più ore come fossero ossigeno e viviamo in apnea, perché il tempo non basta mai."
+    },
+    {
+      "parola": "scartamento ridotto",
+      "categoria": "locuzione nominale",
+      "zh": "窄轨",
+      "en": "narrow gauge",
+      "esempio": "La tratta appartiene alla Ferrovia Silana, storica linea a scartamento ridotto nel cuore della Calabria, che collega Cosenza a San Giovanni in Fiore."
+    },
+    {
+      "parola": "sbuffa",
+      "categoria": "verbo",
+      "zh": "喷着蒸汽前进",
+      "en": "puffs",
+      "esempio": "Fischia, sbuffa e stride attraversando boschi e valli della Sila."
+    }
+  ]
+}

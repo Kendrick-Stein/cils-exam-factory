@@ -1,0 +1,42 @@
+ANSWERS
+```json
+{
+  "L3": {
+    "answer": "A-H-D-N-B-K-F-P-I-C-M-E-L-G-O-J",
+    "confidence": "hi"
+  },
+  "S1.1": {"answer": "che", "confidence": "hi"},
+  "S1.2": {"answer": "quanto", "confidence": "hi"},
+  "S1.3": {"answer": "quali", "confidence": "hi"},
+  "S1.4": {"answer": "quanto", "confidence": "hi"},
+  "S1.5": {"answer": "di", "confidence": "hi"},
+  "S1.6": {"answer": "quale", "confidence": "hi"},
+  "S1.7": {"answer": "quali", "confidence": "hi"},
+  "S1.8": {"answer": "da", "confidence": "hi"},
+  "S1.9": {"answer": "quale", "confidence": "hi"},
+  "S1.10": {"answer": "quale", "confidence": "hi"},
+  "S1.11": {"answer": "quale", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "se", "confidence": "hi"},
+  "S1.14": {"answer": "cui", "confidence": "hi"},
+  "S1.15": {"answer": "quale", "confidence": "hi"},
+  "S1.16": {"answer": "quale", "confidence": "hi"},
+  "S1.17": {"answer": "quali", "confidence": "hi"},
+  "S1.18": {"answer": "cui", "confidence": "hi"},
+  "S1.19": {"answer": "da", "confidence": "hi"},
+  "S1.20": {"answer": "se", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "checks": [],
+  "note": "The supplied extract contains no writing or oral tasks."
+}
+```

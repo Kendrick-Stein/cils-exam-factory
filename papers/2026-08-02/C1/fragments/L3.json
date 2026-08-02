@@ -1,0 +1,66 @@
+{
+ "prova": "L3",
+ "slots": {
+  "T3_TITLE": "RITORNO",
+  "T3_PART_A": "Quando si assentava di casa, e questo le accadeva spesso perchè era una donna di chiesa, Mannella Fadda pregava le donne del vicinato di dire, a chiunque andasse a cercarlo, che suo nipote Costantino era fuori di paese.",
+  "T3_PART_B": "guardò su e giù, con gli occhietti neri, vide che la casa Fadda era chiusa come una casa in lutto, vide le donne a curiosare sulle porticine delle casupole, chi con un canestro in mano,",
+  "T3_PART_C": "Era quell’uomo dall’aspetto miserabile il ricco proprietario Costantino Fadda al quale la prima moglie aveva lasciato un grosso patrimonio ma col patto che egli cessasse di vivere in peccato mortale con la sua serva Barbara?",
+  "T3_PART_D": "seduta a cavalcioni su un cavallino piccolo come un asino, fermarsi davanti alla porta chiusa dei Fadda, corse a dirle premurosamente: — Non c’è nessuno.",
+  "T3_PART_E": "Costantino la guardava, un po’ stupito dapprima; poi accorgendosi delle donne che spiavano dietro le porte si accomodò con un gesto energico la berretta: infine rispose al saluto della straniera e aprì la porta.",
+  "T3_PART_F": "Qualche uomo, sbarbato, col cappotto di velluto, attraversava la strada; guardava la vecchietta, si volgeva a guardarla ancora, spariva: lei rimaneva immobile. Finalmente una donna disse dall’interno d’una casetta:",
+  "T3_PART_G": "ai tempi terribili ed eroici quando viveva Sennòra Rughitta, la sua prima moglie, ed ella andava in chiesa ed egli rimaneva solo in casa con la piccola Barbara.",
+  "T3_PART_H": "Quella mattina, dunque — una mattina di quaresima — una delle vicine di casa, appena vide una vecchietta di Mamojada, con due fazzoletti legati uno sopra l’altro sotto il mento,",
+  "T3_PART_I": "e di tanto in tanto si fermava, un attimo, pensieroso, accomodandosi la berretta, e pareva ricordarsi di qualche cosa che dovesse costringerlo a tornare indietro. Ella lo fissava dall’alto, dura, silenziosa.",
+  "T3_PART_J": "e il fuoco coperto da un gran mucchio di cenere dava l’idea di un tumulo. — Tu sai bene che tua moglie è al mio paese. Sta in casa mia. Ti chiede perdono e vuol tornare.",
+  "T3_PART_K": "chi con un bambino al seno, ma stette immobile sul cavallino immobile. Giù in fondo alla strada in pendio vedeva brillare il torrente.",
+  "T3_PART_L": "Il cuore gli batteva di gioia perchè la zia, la sua feroce tutrice, non era in casa. Gli parve, per un istante, di esser tornato",
+  "T3_PART_M": "Per cessare di vivere in peccato mortale egli aveva sposato la sua serva Barbara; e questa gli era poi scappata di casa. La vecchietta smontò e legò il cavallino all’inferriata d’una finestra.",
+  "T3_PART_N": "Riprendendo «Non c’è nessuno», la vicina proseguì: — Comare Mannella è andata a confessarsi e Costantino è in giro o forse sarà anche lui in chiesa. Ma se volete smontare venite qui dentro a scaldarvi. La vecchietta straniera sembrava sorda:",
+  "T3_PART_O": "La vecchietta si guardava attorno. La casa era triste, umida, chiusa: un quadrato di sole s’adagiava davanti alla finestra della cucina;",
+  "T3_PART_P": "— Ecco Costantino Fadda, — e la vecchietta vide venir su, dalla parte ombrosa della strada, un uomo curvo che camminava come un cieco rasente al muro"
+ },
+ "answer_slots": {
+  "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | H | «Quella mattina, dunque» riprende la premessa sulle frequenti assenze di Mannella. |\n| 3 | D | «seduta a cavalcioni» completa la descrizione della vecchietta introdotta nella parte H. |\n| 4 | N | «Riprendendo “Non c’è nessuno”» lega esplicitamente la prosecuzione della vicina all’avvertimento della parte D, non alla donna della parte F. 中文：明示承接 D，排除接在 F 后的读法。 |\n| 5 | B | Il soggetto sottinteso di «guardò» è «La vecchietta straniera» nominata alla fine della parte N. |\n| 6 | K | «chi con un bambino al seno» completa il parallelismo con «chi con un canestro in mano». |\n| 7 | F | «Qualche uomo» amplia la scena della strada dopo la descrizione delle donne e del torrente. |\n| 8 | P | «Ecco Costantino Fadda» è la battuta annunciata da «una donna disse» nella parte F. |\n| 9 | I | parte data |\n| 10 | C | «quell’uomo dall’aspetto miserabile» riprende l’uomo appena osservato dalla vecchietta. |\n| 11 | M | «Per cessare di vivere in peccato mortale» riprende alla lettera la condizione ricordata nella parte C. |\n| 12 | E | «Costantino la guardava» segue l’arrivo della vecchietta davanti a lui. |\n| 13 | L | «Il cuore gli batteva» esplicita la reazione di Costantino dopo l’apertura della porta. |\n| 14 | G | «ai tempi terribili ed eroici» completa «di esser tornato» della parte L. |\n| 15 | O | «La vecchietta si guardava attorno» segue l’ingresso nella casa e introduce la descrizione dell’interno. |\n| 16 | J | «e il fuoco» completa l’elenco degli elementi della casa prima delle parole conclusive della visitatrice. |",
+  "ANS_L3_SEQUENCE": "A–H–D–N–B–K–F–P–I–C–M–E–L–G–O–J"
+ },
+ "key": {
+  "L3": "A–H–D–N–B–K–F–P–I–C–M–E–L–G–O–J"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "a cavalcioni",
+   "categoria": "locuzione avverbiale",
+   "zh": "跨坐着",
+   "en": "astride",
+   "esempio": "seduta a cavalcioni su un cavallino piccolo come un asino"
+  },
+  {
+   "parola": "in lutto",
+   "categoria": "locuzione aggettivale",
+   "zh": "服丧的；笼罩着哀伤的",
+   "en": "in mourning",
+   "esempio": "la casa Fadda era chiusa come una casa in lutto"
+  },
+  {
+   "parola": "rasente al muro",
+   "categoria": "locuzione preposizionale",
+   "zh": "紧贴着墙",
+   "en": "close along the wall",
+   "esempio": "un uomo curvo che camminava come un cieco rasente al muro"
+  },
+  {
+   "parola": "inferriata",
+   "categoria": "sostantivo femminile",
+   "zh": "铁栅栏",
+   "en": "iron grating",
+   "esempio": "La vecchietta smontò e legò il cavallino all’inferriata d’una finestra."
+  },
+  {
+   "parola": "tutrice",
+   "categoria": "sostantivo femminile",
+   "zh": "女监护人",
+   "en": "female guardian",
+   "esempio": "perchè la zia, la sua feroce tutrice, non era in casa."
+  }
+ ]
+}

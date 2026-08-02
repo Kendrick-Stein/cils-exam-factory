@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. La Biblioteca Comunale è un luogo ideale per**\n\nA) prenotare libri a pagamento.\n\nB) studiare e concentrarsi.\n\nC) giocare al piano inferiore.\n\n**2. Nella biblioteca puoi consultare**\n\nA) quotidiani e riviste.\n\nB) libri e DVD.\n\nC) internet e CD.\n\n**3. Con il servizio di prestito e interprestito puoi prenotare gratuitamente**\n\nA) quotidiani e riviste.\n\nB) la connessione Wi-Fi e internet.\n\nC) libri, CD e DVD da biblioteche della provincia.\n\n**4. L'area bimbi si trova**\n\nA) in tutte le biblioteche della provincia.\n\nB) al piano superiore.\n\nC) nell'aula studio.",
+    "T1_TEXT": "La Biblioteca Comunale di Besozzo è il luogo ideale per studiare, concentrarsi e lasciarsi ispirare.\n\nA tua disposizione trovi:\n\n- una comoda aula studio;\n- connessione Wi-Fi e internet gratuiti;\n- la possibilità di consultare quotidiani e riviste;\n- un efficiente servizio di prestito e interprestito del Sistema dei Laghi.\n\nPuoi prenotare gratuitamente libri, CD e DVD da tutte le biblioteche della provincia di Varese.\n\nAl piano superiore ti aspetta un'area bimbi, con un angolo morbido dedicato ai più piccoli, perfetto per leggere, giocare e muovere i primi passi nel mondo dei libri in un ambiente accogliente e sicuro.\n\nScopri il nostro Gruppo di Lettura!",
+    "T1_TITLE": "LA BIBLIOTECA COMUNALE DI BESOZZO"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il testo presenta la biblioteca come luogo ideale per «studiare, concentrarsi». 中文：地点用途直接对应。 |\n| L1.2 | A | Tra i servizi c'è «la possibilità di consultare quotidiani e riviste». 中文：注意 consultare，不是 prenotare。 |\n| L1.3 | C | Il testo dice: «Puoi prenotare gratuitamente libri, CD e DVD da tutte le biblioteche della provincia di Varese». 中文：可从全省图书馆预约。 |\n| L1.4 | B | L'area bimbi è indicata «Al piano superiore». 中文：楼层信息明确。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "aula studio",
+      "categoria": "locuzione nominale",
+      "zh": "自习室",
+      "en": "study room",
+      "esempio": "una comoda aula studio"
+    },
+    {
+      "parola": "quotidiani",
+      "categoria": "nome maschile plurale",
+      "zh": "报纸",
+      "en": "newspapers",
+      "esempio": "la possibilità di consultare quotidiani e riviste"
+    },
+    {
+      "parola": "interprestito",
+      "categoria": "nome maschile",
+      "zh": "馆际互借",
+      "en": "interlibrary loan",
+      "esempio": "un efficiente servizio di prestito e interprestito del Sistema dei Laghi"
+    },
+    {
+      "parola": "piano superiore",
+      "categoria": "locuzione nominale",
+      "zh": "楼上",
+      "en": "upper floor",
+      "esempio": "Al piano superiore ti aspetta un'area bimbi"
+    },
+    {
+      "parola": "angolo morbido",
+      "categoria": "locuzione nominale",
+      "zh": "软垫角",
+      "en": "soft corner",
+      "esempio": "un angolo morbido dedicato ai più piccoli"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Il bando riguarda eventi destinati alla cittadinanza tra maggio e ottobre 2026.**  \nVero ○ Falso ○\n\n**2. Il bando finanzia esclusivamente eventi sportivi.**  \nVero ○ Falso ○\n\n**3. Tra i criteri c’è il coinvolgimento della cittadinanza.**  \nVero ○ Falso ○\n\n**4. Gli eventi legati alla tradizione locale non rientrano tra le iniziative considerate.**  \nVero ○ Falso ○\n\n**5. Il bando considera attività di volontariato per la cura delle aree verdi.**  \nVero ○ Falso ○\n\n**6. Le iniziative in rete devono essere realizzate da un solo soggetto.**  \nVero ○ Falso ○\n\n**7. La sensibilizzazione all’inclusione sociale e sportiva è uno dei criteri.**  \nVero ○ Falso ○\n\n**8. Il carattere originale e innovativo dell’iniziativa non viene valutato.**  \nVero ○ Falso ○\n\n**9. I soggetti che presentano la richiesta devono avere sede nel Municipio Levante.**  \nVero ○ Falso ○\n\n**10. Le associazioni costituite da meno di un anno devono comunque essere iscritte al Registro Anagrafico.**  \nVero ○ Falso ○\n\n**11. Le fondazioni possono partecipare se hanno soprattutto finalità di interesse sociale.**  \nVero ○ Falso ○\n\n**12. Gli istituti di patronato sono ammessi anche senza finalità sociali di interesse generale.**  \nVero ○ Falso ○\n\n**13. Le richieste devono arrivare via PEC entro le ore 12 del 18 marzo 2026.**  \nVero ○ Falso ○\n\n**14. Le informazioni sul bando possono essere richieste soltanto tramite PEC.**  \nVero ○ Falso ○",
+    "T2_TEXT": "Il presente bando è finalizzato all’erogazione di contributi e di patrocini con partecipazione finanziaria per eventi in ambito sociale, ludico-ricreativo, culturale, sportivo, di promozione, riqualificazione e valorizzazione del territorio destinati alla cittadinanza nel periodo MAGGIO/OTTOBRE 2026 sulla base dei seguenti criteri:\n\n- Legame, Valorizzazione, promozione del territorio e del patrimonio del Municipio Levante e coinvolgimento della cittadinanza;\n- Realizzazione eventi legati alla tradizione locale\n- Realizzazione di attività di volontariato finalizzato alla cura delle aree verdi\n- Realizzazione di iniziative in rete con uno o più soggetti, a tale scopo il Municipio intende prendere in considerazione anche le associazioni che decideranno di lavorare in rete con più soggetti al fine di promuovere il reciproco scambio di conoscenze in un’ottica di collaborazione e partecipazione condivisa;\n- Sensibilizzazione alle tematiche di inclusione in ambito sociale e sportivo;\n- Sensibilizzazione alle tematiche ambientali e alla sostenibilità;\n- Carattere di originalità e innovatività dell’iniziativa;\n\nPossono inoltrare richiesta i soggetti di seguito indicati che abbiano sede nel Municipio Levante e, esclusivamente i soggetti a carattere privato, fatta eccezione per le Associazioni costituite da meno di un anno, che siano iscritti al Registro Anagrafico di cui all’art. 19 c. 3 dello Statuto:\n\n- le organizzazioni di volontariato;\n- le associazioni di promozione sociale;\n- le cooperative sociali;\n- le imprese sociali diverse dalle cooperative sociali;\n- le società di mutuo soccorso;\n- le fondazioni, se caratterizzate da prevalenti finalità di interesse sociale;\n- gli istituti di patronato, se caratterizzati da prevalenti finalità sociali di interesse generale;\n- le società sportive, dello spettacolo e ricreative\n- CIV\n- Comitati;\n\n**MODALITÀ DI PRESENTAZIONE DELLE RICHIESTE**\n\nLe richieste, formulate sull’allegato modulo a) dovranno essere inoltrate al Municipio Levante – Segreteria Organi Istituzionali a mezzo PEC all’indirizzo municipio9comge@postecert.it entro le ore 12,00 del 18 marzo 2026.\n\nIl bando, comprensivo del modello di richiesta, potrà essere scaricato dal sito istituzionale del Municipio Levante. Informazioni per la partecipazione al bando potranno essere richieste tramite mail a: municipio9@comune.genova.it",
+    "T2_TITLE": "BANDO PER CONTRIBUTI E PATROCINI A EVENTI DA MAGGIO A OTTOBRE 2026"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica eventi «destinati alla cittadinanza nel periodo MAGGIO/OTTOBRE 2026». |\n| L2.2 | Falso | Gli eventi possono essere in ambito sociale, culturale, sportivo e in altri ambiti, non soltanto sportivo. |\n| L2.3 | Vero | Tra i criteri compare il «coinvolgimento della cittadinanza». |\n| L2.4 | Falso | Il bando considera la «Realizzazione eventi legati alla tradizione locale». |\n| L2.5 | Vero | È prevista la «Realizzazione di attività di volontariato finalizzato alla cura delle aree verdi». |\n| L2.6 | Falso | Le iniziative in rete possono coinvolgere «uno o più soggetti» e anche «più soggetti». |\n| L2.7 | Vero | Il testo cita la «Sensibilizzazione alle tematiche di inclusione in ambito sociale e sportivo». |\n| L2.8 | Falso | Tra i criteri c’è il «Carattere di originalità e innovatività dell’iniziativa». |\n| L2.9 | Vero | I soggetti indicati devono avere «sede nel Municipio Levante». |\n| L2.10 | Falso | L’obbligo di iscrizione prevede un’eccezione per le «Associazioni costituite da meno di un anno». 中文：fatta eccezione per 表示“除外”。 |\n| L2.11 | Vero | Sono ammesse le fondazioni «se caratterizzate da prevalenti finalità di interesse sociale». |\n| L2.12 | Falso | Gli istituti di patronato devono avere «prevalenti finalità sociali di interesse generale». |\n| L2.13 | Vero | Le richieste vanno inviate «a mezzo PEC» entro «le ore 12,00 del 18 marzo 2026». |\n| L2.14 | Falso | Le informazioni possono essere richieste «tramite mail» all’indirizzo indicato, non soltanto via PEC. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "patrocini con partecipazione finanziaria",
+      "categoria": "locuzione nominale",
+      "zh": "附带资金支持的赞助",
+      "en": "sponsorships with financial support",
+      "esempio": "patrocini con partecipazione finanziaria per eventi"
+    },
+    {
+      "parola": "riqualificazione",
+      "categoria": "nome femminile",
+      "zh": "改造提升",
+      "en": "redevelopment",
+      "esempio": "riqualificazione e valorizzazione del territorio"
+    },
+    {
+      "parola": "reciproco scambio di conoscenze",
+      "categoria": "locuzione nominale",
+      "zh": "相互交流知识",
+      "en": "mutual exchange of knowledge",
+      "esempio": "promuovere il reciproco scambio di conoscenze"
+    },
+    {
+      "parola": "società di mutuo soccorso",
+      "categoria": "locuzione nominale",
+      "zh": "互助协会",
+      "en": "mutual aid societies",
+      "esempio": "le società di mutuo soccorso"
+    },
+    {
+      "parola": "inoltrare richiesta",
+      "categoria": "locuzione verbale",
+      "zh": "提交申请",
+      "en": "submit an application",
+      "esempio": "Possono inoltrare richiesta i soggetti di seguito indicati"
+    }
+  ]
+}

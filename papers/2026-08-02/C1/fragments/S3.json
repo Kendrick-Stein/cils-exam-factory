@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "Per la __prima (0)__ volta gli astronomi hanno __(1)__ quello che potrebbe essere il primo esosatellite, o esoluna, mai osservato al di __(2)__ del Sistema solare. La scoperta, __(3)__ sulla rivista Nature, è stata resa __(4)__ grazie alle __(5)__ del Very Large Telescope (VLT) dell'European Southern Observatory (ESO) in Cile.\n\nL'oggetto si trova nel sistema CD-35 2722 e __(6)__ caratteristiche __(7)__ che rendono difficile __(8)__. Nel nostro Sistema solare __(9)__ tra pianeti, stelle e satelliti è relativamente semplice, ma in questo caso i confini tra le diverse categorie si fanno molto meno __(10)__. “Si tratta della prima evidenza convincente di un esosatellite”, spiega Alice Zurlo dell'Università Diego Portales e dell'INAF.\n\nA rendere __(11)__ la scoperta è __(12)__ la natura dell'oggetto: ha dimensioni __(13)__ a quelle di Giove e non ruota attorno a un pianeta, bensì a una nana bruna, un corpo celeste con una massa circa trenta volte __(14)__ a quella del gigante gassoso. A sua volta, però, la nana bruna orbita attorno a una stella più grande.\n\nÈ proprio questa particolare __(15)__ a far ritenere che l'oggetto debba essere considerato un satellite, nonostante sia molto diverso dalle lune rocciose che conosciamo nel Sistema solare.",
+    "T6_TITLE": "SCOPERTA UNA POSSIBILE «LUNA ALIENA»",
+    "S3_OPT0_A": "prima",
+    "S3_OPT0_B": "seconda",
+    "S3_OPT0_C": "ultima",
+    "S3_OPT0_D": "prossima",
+    "S3_OPTION_ROWS": "| 1. | ipotizzato | individuato | fabbricato | trascurato |\n| 2. | sopra | qua | fuori | sotto |\n| 3. | pubblicata | recensita | anticipata | archiviata |\n| 4. | autonoma | consueta | superflua | possibile |\n| 5. | intuizioni | osservazioni | opinioni | supposizioni |\n| 6. | nasconde | perde | presenta | elimina |\n| 7. | insolite | ricorrenti | uniformi | inequivocabili |\n| 8. | conservarlo | raccontarlo | trasferirlo | classificarlo |\n| 9. | alternare | distinguere | distribuire | ordinare |\n| 10. | estesi | affollati | netti | regolari |\n| 11. | ordinaria | prevedibile | irrilevante | eccezionale |\n| 12. | soprattutto | casualmente | marginalmente | provvisoriamente |\n| 13. | estranee | opposte | paragonabili | indifferenti |\n| 14. | parallela | superiore | estranea | equivalente |\n| 15. | coincidenza | misurazione | terminologia | configurazione |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B — individuato | Gli astronomi hanno «individuato» l'oggetto grazie a osservazioni strumentali; «ipotizzato» non esprime il rilevamento descritto. 中文：强调实际观测发现。 |\n| S3.2 | C — fuori | La locuzione «al di fuori del Sistema solare» indica che l'oggetto è extrasolare. 中文：固定搭配 al di fuori di。 |\n| S3.3 | A — pubblicata | La scoperta è «pubblicata» sulla rivista Nature; le altre scelte non descrivono correttamente la diffusione scientifica. 中文：期刊发表的搭配。 |\n| S3.4 | D — possibile | Le osservazioni hanno «reso possibile» la scoperta: è la collocazione che esprime il rapporto tra mezzo e risultato. 中文：rendere possibile 表示使之成为可能。 |\n| S3.5 | B — osservazioni | Il Very Large Telescope fornisce «osservazioni», non opinioni, intuizioni o supposizioni. 中文：望远镜提供观测资料。 |\n| S3.6 | C — presenta | «L'oggetto presenta caratteristiche» è la collocazione neutra con cui il testo introduce le proprietà osservate; le altre scelte ne alterano il senso. 中文：presentare caratteristiche 表示具有特征。 |\n| S3.7 | A — insolite | Le caratteristiche sono «insolite» e proprio per questo rendono difficile classificare l'oggetto; le altre scelte contraddicono tale difficoltà. 中文：异常特征导致分类困难。 |\n| S3.8 | D — classificarlo | Il periodo successivo parla dei «confini tra le diverse categorie», perciò la difficoltà riguarda il «classificarlo». 中文：下文的类别边界锁定答案。 |\n| S3.9 | B — distinguere | «Distinguere tra pianeti, stelle e satelliti» significa riconoscere le categorie; gli altri verbi non esprimono questa operazione. 中文：distinguere tra 是辨别分类。 |\n| S3.10 | C — netti | I confini tra categorie possono essere più o meno «netti»; qui diventano meno chiari. 中文：confini netti 是固定语义搭配。 |\n| S3.11 | D — eccezionale | La natura inconsueta dell'oggetto «rende eccezionale la scoperta»; ordinaria, prevedibile e irrilevante contraddicono la descrizione. 中文：后文的特殊结构说明其非凡。 |\n| S3.12 | A — soprattutto | «Soprattutto la natura dell'oggetto» segnala l'elemento principale che rende eccezionale la scoperta. 中文：soprattutto 突出首要原因。 |\n| S3.13 | C — paragonabili | «Dimensioni paragonabili a quelle di Giove» esprime un confronto di grandezza; le altre relazioni non si applicano alle dimensioni. 中文：paragonabile a 表示可相比。 |\n| S3.14 | B — superiore | Il moltiplicatore «circa trenta volte» richiede «superiore a» per indicare la maggiore massa della nana bruna. 中文：倍数与 superiore a 搭配。 |\n| S3.15 | D — configurazione | «Questa particolare configurazione» riprende l'assetto orbitale appena descritto e motiva la classificazione come satellite. 中文：指前述轨道结构。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "esosatellite",
+      "categoria": "sostantivo maschile",
+      "zh": "系外卫星",
+      "en": "exomoon",
+      "esempio": "quello che potrebbe essere il primo esosatellite"
+    },
+    {
+      "parola": "nana bruna",
+      "categoria": "locuzione nominale femminile",
+      "zh": "褐矮星",
+      "en": "brown dwarf",
+      "esempio": "bensì a una nana bruna"
+    },
+    {
+      "parola": "corpo celeste",
+      "categoria": "locuzione nominale maschile",
+      "zh": "天体",
+      "en": "celestial body",
+      "esempio": "una nana bruna, un corpo celeste"
+    },
+    {
+      "parola": "gigante gassoso",
+      "categoria": "locuzione nominale maschile",
+      "zh": "气态巨行星",
+      "en": "gas giant",
+      "esempio": "a quella del gigante gassoso"
+    },
+    {
+      "parola": "orbita attorno",
+      "categoria": "locuzione verbale",
+      "zh": "围绕……运行",
+      "en": "orbits around",
+      "esempio": "la nana bruna orbita attorno a una stella più grande"
+    }
+  ]
+}

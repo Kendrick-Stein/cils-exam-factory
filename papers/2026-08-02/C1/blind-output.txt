@@ -1,0 +1,152 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "C", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "D", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+  "L1.5": {"answer": "C", "confidence": "hi"},
+  "L1.6": {"answer": "A", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "V", "confidence": "hi"},
+  "L2.2": {"answer": "F", "confidence": "hi"},
+  "L2.3": {"answer": "V", "confidence": "hi"},
+  "L2.4": {"answer": "F", "confidence": "hi"},
+  "L2.5": {"answer": "V", "confidence": "hi"},
+  "L2.6": {"answer": "F", "confidence": "hi"},
+  "L2.7": {"answer": "V", "confidence": "hi"},
+  "L2.8": {"answer": "F", "confidence": "hi"},
+  "L2.9": {"answer": "V", "confidence": "hi"},
+  "L2.10": {"answer": "F", "confidence": "hi"},
+  "L2.11": {"answer": "V", "confidence": "hi"},
+  "L2.12": {"answer": "F", "confidence": "hi"},
+  "L2.13": {"answer": "V", "confidence": "hi"},
+  "L2.14": {"answer": "F", "confidence": "hi"},
+
+  "L3": {"answer": "A H D B K F N P I C M E L G O J", "confidence": "hi"},
+
+  "S1.1": {"answer": "che", "confidence": "hi"},
+  "S1.2": {"answer": "quanto", "confidence": "hi"},
+  "S1.3": {"answer": "quanto", "confidence": "hi"},
+  "S1.4": {"answer": "quanto", "confidence": "hi"},
+  "S1.5": {"answer": "da", "confidence": "hi"},
+  "S1.6": {"answer": "da essere", "confidence": "hi"},
+  "S1.7": {"answer": "sia", "confidence": "hi"},
+  "S1.8": {"answer": "da", "confidence": "hi"},
+  "S1.9": {"answer": "quanto", "confidence": "hi"},
+  "S1.10": {"answer": "che", "confidence": "hi"},
+  "S1.11": {"answer": "come", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "se", "confidence": "hi"},
+  "S1.14": {"answer": "e", "confidence": "med"},
+  "S1.15": {"answer": "quanto", "confidence": "med"},
+  "S1.16": {"answer": "sia", "confidence": "hi"},
+  "S1.17": {"answer": "sia", "confidence": "hi"},
+  "S1.18": {"answer": "quanto", "confidence": "hi"},
+  "S1.19": {"answer": "che", "confidence": "hi"},
+  "S1.20": {"answer": "se", "confidence": "hi"},
+
+  "S2.1": {"answer": "mi ha convinto", "confidence": "hi"},
+  "S2.2": {"answer": "giocare", "confidence": "hi"},
+  "S2.3": {"answer": "affrontiamo", "confidence": "hi"},
+  "S2.4": {"answer": "parlando", "confidence": "hi"},
+  "S2.5": {"answer": "si confrontino", "confidence": "med"},
+  "S2.6": {"answer": "si diano", "confidence": "med"},
+  "S2.7": {"answer": "si credesse", "confidence": "hi"},
+  "S2.8": {"answer": "avesse", "confidence": "hi"},
+  "S2.9": {"answer": "sia stata rappresentata", "confidence": "hi"},
+  "S2.10": {"answer": "contenuto", "confidence": "hi"},
+  "S2.11": {"answer": "sono stato affiancato", "confidence": "hi"},
+  "S2.12": {"answer": "costruivamo", "confidence": "hi"},
+  "S2.13": {"answer": "si autodirigeva", "confidence": "hi"},
+  "S2.14": {"answer": "sia riuscito", "confidence": "hi"},
+  "S2.15": {"answer": "farei", "confidence": "hi"},
+  "S2.16": {"answer": "torno", "confidence": "hi"},
+  "S2.17": {"answer": "mi accorgo", "confidence": "hi"},
+  "S2.18": {"answer": "interpreto", "confidence": "hi"},
+  "S2.19": {"answer": "sono", "confidence": "hi"},
+  "S2.20": {"answer": "si è creato", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "C", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "D", "confidence": "hi"},
+  "S3.9": {"answer": "B", "confidence": "hi"},
+  "S3.10": {"answer": "C", "confidence": "hi"},
+  "S3.11": {"answer": "D", "confidence": "hi"},
+  "S3.12": {"answer": "A", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {
+    "answer": "Il lancio della nuova edizione dell’avviso pubblico PAC – Piano per l’Arte Contemporanea, finalizzato alla selezione di proposte per l’acquisizione, la produzione e la valorizzazione di opere dell’arte e della creatività contemporanee destinate al patrimonio pubblico italiano, in attuazione della Legge 29/2001, avviene in data 5 marzo 2026 a cura della Direzione Generale Creatività Contemporanea del Ministero della Cultura.",
+    "confidence": "hi"
+  },
+  "S4.2": {
+    "answer": "Al fine di selezionare proposte progettuali per l’acquisizione, la produzione e la valorizzazione di opere dell’arte e della creatività contemporanee destinate al patrimonio pubblico italiano, la Direzione Generale Creatività Contemporanea del Ministero della Cultura lancia in data 5 marzo 2026 la nuova edizione dell’avviso pubblico PAC – Piano per l’Arte Contemporanea, in attuazione della Legge 29/2001 istitutiva del Piano.",
+    "confidence": "hi"
+  },
+  "S4.3": {
+    "answer": "L’avviso precisa che, come nelle precedenti edizioni, il PAC2026 si articola in tre ambiti: il primo per l’acquisizione di opere realizzate negli ultimi 70 anni e di collezioni o archivi legati all’arte e alla creatività contemporanee; il secondo per la produzione di nuove opere; il terzo per progetti di valorizzazione di donazioni.",
+    "confidence": "hi"
+  },
+  "S4.4": {
+    "answer": "Nell’avviso si individuano, come nelle precedenti edizioni, tre ambiti: il primo per acquisire opere realizzate negli ultimi 70 anni e collezioni o archivi legati all’arte e alla creatività contemporanee; il secondo per produrre nuove opere; il terzo per valorizzare donazioni.",
+    "confidence": "hi"
+  },
+  "S4.5": {
+    "answer": "Il sostegno del PAC2026 alla qualità e alla continuità dell’incremento dell’arte contemporanea nelle collezioni pubbliche si realizza mediante il finanziamento di acquisizioni di opere, collezioni e archivi legati al contemporaneo, nonché mediante il sostegno alla produzione di progetti artistici innovativi e alla valorizzazione di donazioni già ricevute da collezioni pubbliche.",
+    "confidence": "hi"
+  },
+  "S4.6": {
+    "answer": "Il finanziamento di acquisizioni di opere, collezioni e archivi legati al contemporaneo e il sostegno alla produzione di progetti artistici innovativi e alla valorizzazione di donazioni già ricevute supportano e incoraggiano la qualità e la continuità dell’incremento dell’arte contemporanea nelle collezioni pubbliche.",
+    "confidence": "hi"
+  }
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S1.14-S1.15",
+    "reason": "La coordinazione ammette più realizzazioni grammaticalmente plausibili; «formaggi e kimchi quanto porro brasato» è la ricostruzione più naturale nel periodo dato."
+  },
+  {
+    "item_id": "S2.5-S2.6",
+    "reason": "Dopo «il fatto che» sono possibili indicativo e congiuntivo secondo l’interpretazione; ho scelto il congiuntivo formale."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180 parole",
+    "notes": "Entrambe le tracce definiscono tema, genere o prospettiva e aspetti da sviluppare."
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole",
+    "notes": "Entrambe le tracce forniscono destinatario, fatti, richieste e termine di risposta."
+  },
+  "O1": {
+    "self_contained": true,
+    "notes": "Tutte le situazioni specificano interlocutore, problema e obiettivi comunicativi; preparazione e durata sono indicate."
+  },
+  "O2": {
+    "self_contained": true,
+    "notes": "Tutti gli argomenti delimitano chiaramente il tema e le dimensioni da discutere; preparazione e durata sono indicate."
+  }
+}
+```

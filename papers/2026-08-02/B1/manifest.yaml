@@ -1,0 +1,116 @@
+exam: cils
+level: B1
+session: '2026-08-02'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/sito/notizie/cultura/libri/intervista/2026/06/12/pitzorno-la-sonnambula-mi-ha-spiazzata-ha-venduto-tantissimo-in-poco-tempo_3ca2fe21-4b28-419e-a2f3-c9d8302abc6b.html
+  title: Pitzorno, La sonnambula mi ha spiazzata, ha venduto tantissimo in poco tempo
+  publisher: ANSA
+  published: '2026-06-12'
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 444
+- id: T2
+  url: https://www.comune.genova.it/novita/avvisi/bando-lerogazione-di-contributi-e-la-concessione-di-patrocini-con-partecipazione-1
+  title: Bando per l’erogazione di contributi e la concessione di patrocini con partecipazione
+    finanziaria per eventi da svolgersi nel periodo maggio/ottobre 2026
+  publisher: Comune di Genova
+  published: '2026-02-06'
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 321
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/viaggio-in-italia.html
+  title: Viaggio in Italia
+  publisher: Turisti per Caso
+  published: '2007-01-15'
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 271
+- id: T4
+  url: https://www.ansa.it/canale_scienza/notizie/terra_poli/2026/07/23/giovani-e-anziani-influenzano-in-modo-diverso-le-emissioni-legate-allalimentazione_70dacd75-3c60-4f0e-89c9-8cec6b8de405.html
+  title: Giovani e anziani influenzano in modo diverso le emissioni legate all'alimentazione
+  publisher: ANSA
+  published: '2026-07-23'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 258
+  origin: pool/b76d0584c761.md
+- id: T5
+  url: https://www.mountainblog.it/redazionale/intervista-dr-luigi-vanoni-i-sogni-di-un-bimbo-il-viaggio-del-medico-dalta-quota/
+  title: 'Intervista a Luigi Vanoni: i sogni di un bimbo, il viaggio del medico d’alta
+    quota'
+  publisher: MountainBlog
+  published: '2025-12-22'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 239
+- id: T6
+  url: https://comune.ravenna.it/novita/news/lavori-in-comune-estate-2026/
+  title: Lavori in Comune – Estate 2026
+  publisher: Comune di Ravenna
+  published: '2026-04-27'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 193
+pipeline:
+  generator: genpapers/claude-code
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: scaffold
+    at: '2026-08-02'
+  - stage: corpus
+    at: '2026-08-02'
+  - stage: authoring
+    at: '2026-08-02'
+  - stage: blind_validation
+    at: '2026-08-02T02:37:33+00:00'
+    agreement: 85/87
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-02T02:45:48+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-02T03:01:58+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-08-02'
+    rounds: 2
+    executor: fresh item-writers per prova plus isolated partial blind solve
+    fixed_items:
+    - S2.18 (future time marker)
+  - stage: format_audit
+    at: '2026-08-02T03:02:57+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-02T03:02:57+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0

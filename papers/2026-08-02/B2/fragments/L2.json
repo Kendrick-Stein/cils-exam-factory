@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1.** La Città di Torino promuove da anni la partecipazione dei nuovi cittadini alla vita della città.  \nVero ○ Falso ○\n\n**2.** Secondo le linee guida, il pluralismo religioso ostacola il dialogo tra le comunità.  \nVero ○ Falso ○\n\n**3.** La Civica Amministrazione sostiene organizzazioni del Terzo Settore che contrastano le situazioni di marginalità.  \nVero ○ Falso ○\n\n**4.** Le attività sostenute dall'Amministrazione escludono i processi di socializzazione.  \nVero ○ Falso ○\n\n**5.** Il Dipartimento vuole rafforzare iniziative, progetti, eventi e servizi legati alle politiche interculturali.  \nVero ○ Falso ○\n\n**6.** La comprensione delle regole di convivenza civile non rientra tra gli obiettivi delle attività da rafforzare.  \nVero ○ Falso ○\n\n**7.** Le linee guida specificano le procedure relative ai contributi per l'attività ordinaria delle organizzazioni del Terzo Settore.  \nVero ○ Falso ○\n\n**8.** I soggetti proponenti possono presentare progetti privi di collegamento con gli ambiti indicati.  \nVero ○ Falso ○\n\n**9.** La conoscenza tra culture diverse deve favorire anche la mediazione e la gestione dei conflitti.  \nVero ○ Falso ○\n\n**10.** Le iniziative di animazione socio-culturale possono coinvolgere gli abitanti e le attività produttive e commerciali.  \nVero ○ Falso ○\n\n**11.** Le iniziative devono riguardare l'intera città e non possono concentrarsi su ambiti territoriali ristretti.  \nVero ○ Falso ○\n\n**12.** Tra i criteri di valutazione rientrano il coinvolgimento del territorio e la coerenza del piano finanziario.  \nVero ○ Falso ○\n\n**13.** Ogni contributo può coprire l'intero preventivo delle spese ammissibili.  \nVero ○ Falso ○\n\n**14.** I contributi vengono erogati anche quando le risorse finanziarie non sono disponibili.  \nVero ○ Falso ○",
+    "T2_TEXT": "**Premessa**\n\nLa Città di Torino è impegnata da molti anni nella promozione di politiche interculturali e di partecipazione dei nuovi cittadini alla vita sociale, economica della Città e nel riconoscere il pluralismo religioso, come valore fondamentale per sostenere il dialogo, il rispetto e la relazione tra le diverse comunità presenti sul territorio.\n\nIn tale ambito, la Civica Amministrazione sostiene le attività svolte da organizzazioni del Terzo Settore che operano per valorizzare le differenze culturali e le ricchezze personali e collettive e contrastare le crescenti situazioni di marginalità, supportando processi di partecipazione, inclusione, e socializzazione per promuovere lo sviluppo di Comunità.\n\nA tal proposito il Dipartimento Cultura, Sport, Grandi eventi e Promozione Turistica, intende rafforzare le iniziative, i progetti, gli eventi e i servizi, che contribuiscono a promuovere la conoscenza e la valorizzazione delle differenze culturali, la mediazione e gestione dei conflitti, la comprensione delle regole di convivenza civile, anche mediante il riconoscimento di contributi, sulla base di quanto previsto dal Regolamento del Consiglio Comunale n. 373.\n\n**Ambiti di intervento**\n\nLe presenti Linee Guida per l’anno 2026, richiamano integralmente quanto previso dal Regolamento del Consiglio Comunale n. 373 e intendono specificare le procedure per la concessione e l’erogazione di contributi economici a sostegno dell’attività ordinaria svolta dalle organizzazioni del Terzo Settore.\n\nI soggetti proponenti dovranno sviluppare specifiche progettualità nei seguenti ambiti:\n\nPromuovere la conoscenza tra le differenti culture come mezzo per sostenere relazioni di prossimità e di mediazione e gestione dei conflitti, finalizzate alla convivenza civile, al rispetto delle regole e alla prevenzione di eventi abusivi e di altri comportamenti di inciviltà;\n\nPromuovere iniziative ed eventi di animazione socio-culturale e marketing territoriale, anche con il coinvolgimento degli abitanti, delle attività produttive e commerciali e di altri attori territoriali per promuovere, rigenerare e valorizzare specificità di quartiere, o eventualmente anche ristretti ambiti territoriali;\n\n**Criteri e priorità per la concessione dei contributi**\n\nPer la concessione dei contributi ordinari, erogati nei limiti delle disponibilità di bilancio, verranno considerati i criteri di valutazione in aderenza a quanto previsto dall’art. 5 del Regolamento n. 373 e focalizzando l’attenzione nello specifico, sulla promozione di una crescente integrazione tra culture diverse, sul livello di coinvolgimento del territorio, sul livello di coerenza con le linee programmatiche dell’Amministrazione e sulla dimensione finanziaria, con particolare riferimento alla chiarezza e alla coerenza del piano finanziario rispetto all’articolazione progettuale.\n\nL’ammontare di ciascun contributo non potrà superare l’80% del preventivo delle spese ammissibili, come previsto dall’art. 7, comma 1 del Regolamento n. 373 della Città di Torino. I contributi saranno erogati compatibilmente con la disponibilità delle risorse finanziarie.",
+    "T2_TITLE": "LINEE GUIDA PER I CONTRIBUTI ALLE POLITICHE INTERCULTURALI"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo dice che la Città è impegnata «da molti anni» nella partecipazione dei nuovi cittadini alla vita sociale ed economica. |\n| L2.2 | Falso | Il pluralismo religioso è definito un «valore fondamentale per sostenere il dialogo», non un ostacolo. |\n| L2.3 | Vero | Le organizzazioni sostenute operano per «contrastare le crescenti situazioni di marginalità». |\n| L2.4 | Falso | Il testo include esplicitamente la «socializzazione» tra i processi sostenuti. |\n| L2.5 | Vero | Il Dipartimento intende rafforzare «le iniziative, i progetti, gli eventi e i servizi». |\n| L2.6 | Falso | Tra gli obiettivi compare «la comprensione delle regole di convivenza civile». |\n| L2.7 | Vero | Le linee guida specificano le procedure per i contributi «a sostegno dell'attività ordinaria» del Terzo Settore. |\n| L2.8 | Falso | I proponenti «dovranno sviluppare specifiche progettualità nei seguenti ambiti»: il collegamento è obbligatorio. |\n| L2.9 | Vero | La conoscenza tra culture serve a sostenere relazioni «di mediazione e gestione dei conflitti». |\n| L2.10 | Vero | Gli eventi possono prevedere «il coinvolgimento degli abitanti, delle attività produttive e commerciali». |\n| L2.11 | Falso | Il testo ammette interventi in «ristretti ambiti territoriali», non soltanto nell'intera città. |\n| L2.12 | Vero | La valutazione considera il «coinvolgimento del territorio» e la «coerenza del piano finanziario». |\n| L2.13 | Falso | Il contributo «non potrà superare l'80%» delle spese ammissibili, quindi non può coprire l'intero preventivo. |\n| L2.14 | Falso | L'erogazione è condizionata alla «disponibilità delle risorse finanziarie». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "marginalità",
+      "categoria": "sostantivo femminile",
+      "zh": "边缘化",
+      "en": "marginalization",
+      "esempio": "contrastare le crescenti situazioni di marginalità"
+    },
+    {
+      "parola": "relazioni di prossimità",
+      "categoria": "locuzione nominale",
+      "zh": "邻近关系",
+      "en": "neighbourhood relations",
+      "esempio": "sostenere relazioni di prossimità e di mediazione e gestione dei conflitti"
+    },
+    {
+      "parola": "comportamenti di inciviltà",
+      "categoria": "locuzione nominale",
+      "zh": "不文明行为",
+      "en": "uncivil behaviour",
+      "esempio": "prevenzione di eventi abusivi e di altri comportamenti di inciviltà"
+    },
+    {
+      "parola": "articolazione progettuale",
+      "categoria": "locuzione nominale",
+      "zh": "项目结构",
+      "en": "project structure",
+      "esempio": "coerenza del piano finanziario rispetto all'articolazione progettuale"
+    },
+    {
+      "parola": "spese ammissibili",
+      "categoria": "locuzione nominale",
+      "zh": "符合条件的费用",
+      "en": "eligible expenses",
+      "esempio": "l'80% del preventivo delle spese ammissibili"
+    }
+  ]
+}
