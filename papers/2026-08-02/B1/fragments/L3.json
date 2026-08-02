@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "VIAGGIO IN ITALIA",
+    "T3_PART_A": "I racconti di viaggio quasi sempre parlano di paesi remoti, lontani dalla realtà quotidiana: paesi strani e viaggi avventurosi che ci fanno sognare e che vorremmo fare.",
+    "T3_PART_B": "Eppure, come succede quando rivedi una persona dopo anni e noti un cambiamento invisibile a chi le vive accanto, così avviene con un paese dopo anni di lontananza.",
+    "T3_PART_C": "Questo viaggio, invece, nasce “contromano”: si parte da un paese straniero per arrivare in Italia, un paese conosciuto, o che almeno dovrebbe esserlo.",
+    "T3_PART_D": "Dopo tre giorni di mare, infatti, si arriva in un paese che ormai si rivela sconosciuto.",
+    "T3_PART_E": "Proprio per questi cambiamenti, spesso non è facile vivere in un paese con tradizioni, credenze e ritmi diversi da quelli a cui siamo stati abituati.",
+    "T3_PART_F": "Sono viaggi che vorremmo fare, che ci ripromettiamo di fare prima o poi, chissà, oppure viaggi da compiere solo nel nostro immaginario.",
+    "T3_PART_G": "Alla fine, servono altri tre giorni di mare per lasciarsi alle spalle una realtà che non c’è più. E il viaggio finisce così.",
+    "T3_PART_H": "Anche un paese, in fondo, è come una persona: cambiano il modo di vivere, le abitudini, i valori attribuiti alle cose e soprattutto il carattere, come avviene con l’età.",
+    "T3_PART_I": "Ben presto hai la percezione di un ritmo angoscioso, di un’ansia e di un’aggressività mal repressa: ogni cosa sembra difficile e ostile. Quest’ansia ti contagia tuo malgrado.",
+    "T3_PART_J": "Infatti, è il paese che conosco per nascita e per averci vissuto alcuni decenni; per questo non dovrebbe avere segreti da svelare.",
+    "T3_PART_K": "Ma è ancora più strano non ritrovare le proprie abitudini al ritorno, nel paese che pensavi di conoscere bene dopo tanti anni di assenza."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l’apertura generale sui racconti di viaggio. |\n| 2 | F | «Sono viaggi» riprende i viaggi «che ci fanno sognare». |\n| 3 | C | «Questo viaggio, invece» introduce il contrasto con i viaggi immaginati. |\n| 4 | J | «Infatti» spiega perché l’Italia dovrebbe essere conosciuta dal narratore. |\n| 5 | B | «Eppure» contrappone questa familiarità ai cambiamenti osservati dopo anni. |\n| 6 | H | «Anche un paese» sviluppa il paragone tra il paese e una persona. |\n| 7 | E | «Proprio per questi cambiamenti» riprende i mutamenti appena elencati. |\n| 8 | K | «Ma è ancora più strano» oppone la vita all’estero al ritorno nel proprio paese. |\n| 9 | D | «Dopo tre giorni di mare» porta il racconto al momento dell’arrivo. |\n| 10 | I | «Ben presto» descrive la prima impressione dopo l’arrivo. |\n| 11 | G | «Alla fine» e «altri tre giorni di mare» segnano la partenza e la conclusione. |",
+    "ANS_L3_SEQUENCE": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "key": {
+    "L3": "A–F–C–J–B–H–E–K–D–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "paesi remoti",
+      "categoria": "locuzione nominale",
+      "zh": "遥远的国家",
+      "en": "remote countries",
+      "esempio": "I racconti di viaggio quasi sempre parlano di paesi remoti, lontani dalla realtà quotidiana: paesi strani e viaggi avventurosi che ci fanno sognare e che vorremmo fare."
+    },
+    {
+      "parola": "contromano",
+      "categoria": "avverbio",
+      "zh": "逆向地；反方向地",
+      "en": "the wrong way; in reverse",
+      "esempio": "Questo viaggio, invece, nasce “contromano”: si parte da un paese straniero per arrivare in Italia, un paese conosciuto, o che almeno dovrebbe esserlo."
+    },
+    {
+      "parola": "ritmi",
+      "categoria": "nome maschile plurale",
+      "zh": "节奏",
+      "en": "rhythms",
+      "esempio": "Proprio per questi cambiamenti, spesso non è facile vivere in un paese con tradizioni, credenze e ritmi diversi da quelli a cui siamo stati abituati."
+    },
+    {
+      "parola": "angoscioso",
+      "categoria": "aggettivo",
+      "zh": "令人焦虑的",
+      "en": "distressing",
+      "esempio": "Ben presto hai la percezione di un ritmo angoscioso, di un’ansia e di un’aggressività mal repressa: ogni cosa sembra difficile e ostile."
+    },
+    {
+      "parola": "lasciarsi alle spalle",
+      "categoria": "locuzione verbale",
+      "zh": "把……抛在身后",
+      "en": "to leave behind",
+      "esempio": "Alla fine, servono altri tre giorni di mare per lasciarsi alle spalle una realtà che non c’è più."
+    }
+  ]
+}

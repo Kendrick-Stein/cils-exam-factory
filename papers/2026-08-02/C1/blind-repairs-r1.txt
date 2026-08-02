@@ -1,0 +1,68 @@
+ANSWERS
+```json
+{
+  "L3": {
+    "answer": "A-H-D-N-B-K-F-P-I-C-M-E-L-G-O-J",
+    "confidence": "hi"
+  },
+  "S1.1": {"answer": "che", "confidence": "hi"},
+  "S1.2": {"answer": "quanto", "confidence": "hi"},
+  "S1.3": {"answer": "quali", "confidence": "hi"},
+  "S1.4": {"answer": "quanto", "confidence": "hi"},
+  "S1.5": {"answer": "di", "confidence": "hi"},
+  "S1.6": {"answer": "quale", "confidence": "hi"},
+  "S1.7": {"answer": "quali", "confidence": "hi"},
+  "S1.8": {"answer": "che", "confidence": "hi"},
+  "S1.9": {"answer": "quale", "confidence": "hi"},
+  "S1.10": {"answer": "quale", "confidence": "hi"},
+  "S1.11": {"answer": "quale", "confidence": "hi"},
+  "S1.12": {"answer": "che", "confidence": "hi"},
+  "S1.13": {"answer": "se", "confidence": "hi"},
+  "S1.14": {"answer": "cui", "confidence": "hi"},
+  "S1.15": {"answer": "quale", "confidence": "hi"},
+  "S1.16": {"answer": "quale", "confidence": "hi"},
+  "S1.17": {"answer": "quali", "confidence": "hi"},
+  "S1.18": {"answer": "cui", "confidence": "hi"},
+  "S1.19": {"answer": "che", "confidence": "hi"},
+  "S1.20": {"answer": "se", "confidence": "hi"},
+  "S2.1": {"answer": "mi convinse", "confidence": "med"},
+  "S2.2": {"answer": "giocare", "confidence": "hi"},
+  "S2.3": {"answer": "affrontiamo", "confidence": "hi"},
+  "S2.4": {"answer": "parlando", "confidence": "hi"},
+  "S2.5": {"answer": "si confrontano", "confidence": "hi"},
+  "S2.6": {"answer": "si danno", "confidence": "hi"},
+  "S2.7": {"answer": "si credesse", "confidence": "hi"},
+  "S2.8": {"answer": "avesse", "confidence": "hi"},
+  "S2.9": {"answer": "sia stata rappresentata", "confidence": "hi"},
+  "S2.10": {"answer": "contenuto", "confidence": "hi"},
+  "S2.11": {"answer": "ho lavorato", "confidence": "hi"},
+  "S2.12": {"answer": "costruivamo", "confidence": "hi"},
+  "S2.13": {"answer": "si autodirigeva", "confidence": "hi"},
+  "S2.14": {"answer": "sia riuscito", "confidence": "hi"},
+  "S2.15": {"answer": "farei", "confidence": "hi"},
+  "S2.16": {"answer": "torno", "confidence": "hi"},
+  "S2.17": {"answer": "mi accorgo", "confidence": "hi"},
+  "S2.18": {"answer": "interpreto", "confidence": "hi"},
+  "S2.19": {"answer": "sono", "confidence": "hi"},
+  "S2.20": {"answer": "si è creato", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.1",
+    "reason": "Il verbo «convincere» richiede qui un complemento oggetto non esplicitato; «mi convinse» è plausibile, ma il testo non determina con assoluta certezza il pronome."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_present",
+  "checks": [],
+  "note": "L'estratto non contiene prove di produzione scritta o orale."
+}
+```

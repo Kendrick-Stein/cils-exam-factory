@@ -1,0 +1,47 @@
+{
+ "prova": "L3",
+ "slots": {
+  "L3_ITEMS": "**1. Museo archeologico nazionale dell'Agro atellano**\n\nIl giorno di Ferragosto il Museo archeologico nazionale dell'Agro atellano sarà aperto al pubblico. Il museo accoglie i visitatori. Per entrare si seguono le regole di sempre:...\n\n**2. Museo archeologico della penisola sorrentina Georges Vallet**\n\nA Ferragosto il Museo archeologico della penisola sorrentina Georges Vallet sarà aperto. Il consueto orario del sabato finisce all'una del pomeriggio, cioè...\n\n**3. Museo Paleocristiano di Aquileia**\n\nSabato 15 agosto il Museo Paleocristiano di Aquileia è aperto dalle 8.30 alle 13.30. Per questa giornata non bisogna pagare:...\n\n**4. Museo di Palazzo Davanzati**\n\nA Ferragosto il Museo di Palazzo Davanzati è aperto al pubblico. Quel giorno il museo chiude alle ore diciotto e cinquanta, cioè...",
+  "L3_OPTIONS": "**A.** le consuete modalità di ingresso.\n\n**B.** alle 13.00.\n\n**C.** l'ingresso è gratuito.\n\n**D.** alle 18.50.\n\n**E.** alle 12.30.\n\n**F.** l'ingresso è a pagamento."
+ },
+ "answer_slots": {
+  "ANS_L3_ROWS": "| L3.1 | A | «Le regole di sempre» sono le consuete modalità di ingresso. 中文：按平常方式入场。 |\n| L3.2 | B | «All'una del pomeriggio» corrisponde alle 13.00. 中文：下午1点就是13:00。 |\n| L3.3 | C | «Non bisogna pagare»: l'ingresso è gratuito. 中文：当天免费入场。 |\n| L3.4 | D | «Diciotto e cinquanta» corrisponde alle 18.50. 中文：十八点五十分就是18:50。 |",
+  "ANS_L3_UNUSED": "E, F"
+ },
+ "key": {
+  "L3.1": "A",
+  "L3.2": "B",
+  "L3.3": "C",
+  "L3.4": "D"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "modalità di ingresso",
+   "categoria": "locuzione nominale",
+   "zh": "入场方式",
+   "en": "entry procedures",
+   "esempio": "le consuete modalità di ingresso"
+  },
+  {
+   "parola": "consueto",
+   "categoria": "aggettivo",
+   "zh": "通常的",
+   "en": "usual",
+   "esempio": "Il consueto orario del sabato"
+  },
+  {
+   "parola": "gratuito",
+   "categoria": "aggettivo",
+   "zh": "免费的",
+   "en": "free of charge",
+   "esempio": "l'ingresso è gratuito"
+  },
+  {
+   "parola": "accoglie",
+   "categoria": "verbo",
+   "zh": "接待",
+   "en": "welcomes",
+   "esempio": "Il museo accoglie i visitatori"
+  }
+ ]
+}

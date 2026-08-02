@@ -1,0 +1,115 @@
+exam: cils
+level: A2
+session: '2026-08-02'
+title: CILS A2 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.rainews.it/tgr/fvg/articoli/2026/01/cosplay-fumetti-giochi-a-extracon-16-mila-presenze-f4f30fcf-fc77-49a3-b537-208c0aae2389.html
+  title: 'Cosplay, fumetti, giochi: a Extracon 16 mila presenze'
+  publisher: RaiNews TGR Friuli Venezia Giulia
+  published: '2026-01-11'
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 201
+- id: T2
+  url: https://blog.giallozafferano.it/fornoefornelli/ricotta-fatta-in-casa/
+  title: Ricotta fatta in casa
+  publisher: Forno e fornelli
+  published: null
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 177
+  origin: pool/661857fe01b6.md
+- id: T3
+  url: https://bct.comune.torino.it/faq/iscrizione-e-tessera-faq
+  title: Iscrizione e tessera - FAQ
+  publisher: Biblioteche Civiche Torinesi
+  published: null
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 179
+- id: T4
+  url: https://www.uffizi.it/avvisi/regolamento
+  title: Qualche regola da seguire
+  publisher: Gallerie degli Uffizi
+  published: null
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 126
+  origin: pool/c6a28b81890d.md
+- id: T5
+  url: https://www.rainews.it/amp/tgr/campania/video/2026/06/giro-d-italia-ciclismo-next-gen-michele-pascarella-cf97acad-9922-46cc-adaa-b632d8c02e18.html
+  title: Giro Next Gen, l'emozione del campano Pascarella
+  publisher: RaiNews TGR Campania
+  published: '2026-06-18'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 125
+- id: T6
+  url: https://www.comune.torino.it/novita/avvisi/aperture-straordinarie-per-rilascio-carte-didentita
+  title: Aperture straordinarie per il rilascio di carte d'identità
+  publisher: Città di Torino
+  published: '2026-01-02'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 110
+pipeline:
+  generator: genpapers/claude-code
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: scaffold
+    at: '2026-08-02'
+  - stage: corpus
+    at: '2026-08-02'
+  - stage: authoring
+    at: '2026-08-02'
+  - stage: blind_validation
+    at: '2026-08-02T02:37:33+00:00'
+    agreement: 45/46
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-02T02:45:48+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: blind_validation
+    at: '2026-08-02T03:01:58+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-08-02'
+    rounds: 1
+    executor: fresh item-writers per prova plus isolated partial blind solve
+    fixed_items:
+    - S2 (tense anchors)
+  - stage: format_audit
+    at: '2026-08-02T03:02:57+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-02T03:02:57+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0

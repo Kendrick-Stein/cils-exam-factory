@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Il museo *(essere)* __è (0)__ particolare. Il viaggio è finito. Io *(viaggiare)* __(1)__ con i miei compagni e le prof. Prima noi *(visitare)* __(2)__ la Sagrada Familia e io *(ammirare)* __(3)__ la Sagrada Familia. Poi a Rosas noi *(camminare)* __(4)__. Il trekking *(essere)* __(5)__ faticoso e divertente. Dopo il gruppo *(visitare)* __(6)__ Girona. La gita *(essere)* __(7)__ carina. Io *(guardare)* __(8)__ la cattedrale. Infine noi *(visitare)* __(9)__ il Museo di Dalì. Oggi io *(potere)* __(10)__ ricordare il viaggio.",
+    "T5_TITLE": "IL NOSTRO VIAGGIO IN SPAGNA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** «Il viaggio è finito» fissa un periodo concluso: *ho viaggiato*. 中文：旅行已经结束，锁定近过去时。\n- **S2.2:** «Prima» apre la sequenza delle visite compiute durante quel viaggio concluso: *abbiamo visitato*. 中文：先后顺序中的已完成动作。\n- **S2.3:** La coordinazione con la visita, nello stesso momento passato, richiede *ho ammirato*. 中文：同一已结束的过去场景。\n- **S2.4:** «Poi a Rosas» colloca il cammino nella sequenza conclusa: *abbiamo camminato*. 中文：旅行中的已完成活动。\n- **S2.5:** Il soggetto maschile singolare «Il trekking» e il periodo concluso impongono *è stato*. 中文：阳性单数主语决定分词形式。\n- **S2.6:** «Dopo» continua la sequenza del viaggio già finito; «il gruppo» richiede *ha visitato*. 中文：明确主语和过去顺序锁定答案。\n- **S2.7:** Il soggetto femminile singolare «la gita» impone *è stata* nello stesso periodo concluso. 中文：阴性单数主语决定分词形式。\n- **S2.8:** La frase resta nella visita conclusa a Girona: *ho guardato*. 中文：同一过去场景中的完成动作。\n- **S2.9:** «Infine» chiude la sequenza delle visite concluse: *abbiamo visitato*. 中文：“最后”锁定已完成的末项活动。\n- **S2.10:** «Oggi» richiede il presente del modale con soggetto «io»: *posso*. 中文：“今天”锁定现在时第一人称单数。",
+    "ANS_S2_ROWS": "| S2.1 | ho viaggiato | passato prossimo | S2.6 | ha visitato | passato prossimo |\n| S2.2 | abbiamo visitato | passato prossimo | S2.7 | è stata | passato prossimo |\n| S2.3 | ho ammirato | passato prossimo | S2.8 | ho guardato | passato prossimo |\n| S2.4 | abbiamo camminato | passato prossimo | S2.9 | abbiamo visitato | passato prossimo |\n| S2.5 | è stato | passato prossimo | S2.10 | posso | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "ho viaggiato",
+    "S2.2": "abbiamo visitato",
+    "S2.3": "ho ammirato",
+    "S2.4": "abbiamo camminato",
+    "S2.5": "è stato",
+    "S2.6": "ha visitato",
+    "S2.7": "è stata",
+    "S2.8": "ho guardato",
+    "S2.9": "abbiamo visitato",
+    "S2.10": "posso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "viaggio",
+      "categoria": "sostantivo maschile",
+      "zh": "旅行",
+      "en": "trip",
+      "esempio": "Il viaggio è finito"
+    },
+    {
+      "parola": "compagni",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "同学；伙伴",
+      "en": "classmates; companions",
+      "esempio": "con i miei compagni e le prof"
+    },
+    {
+      "parola": "trekking",
+      "categoria": "sostantivo maschile invariabile",
+      "zh": "徒步旅行",
+      "en": "hike; trekking",
+      "esempio": "Il trekking"
+    },
+    {
+      "parola": "faticoso",
+      "categoria": "aggettivo",
+      "zh": "费力的",
+      "en": "tiring",
+      "esempio": "faticoso e divertente"
+    },
+    {
+      "parola": "Museo di Dalì",
+      "categoria": "nome proprio",
+      "zh": "达利博物馆",
+      "en": "Dalì Museum",
+      "esempio": "il Museo di Dalì"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Gli zuccheri sono biomolecole essenziali per la vita. __La loro (0)__ importanza deriva dall'energia che forniscono alle cellule del __(1)__ organismo. Formano lo scheletro zucchero-fosfato, grazie al __(2)__ costituiscono l'impalcatura del Dna e dell'Rna, macromolecole alle __(3)__ sono affidate conservazione, trasmissione ed espressione dell'informazione genetica.\n\nAlcune teorie sull'origine della vita sulla Terra, nelle __(4)__ questi composti sono fondamentali, riguardano la comparsa dei primi acidi nucleici. Esperimenti di chimica prebiotica condotti finora indicano che la __(5)__ sintesi sulla Terra primordiale sarebbe poco efficiente: gli zuccheri non __(6)__ formerebbero facilmente. Da anni si ipotizza che alcune molecole si siano formate tra le stelle e che asteroidi o comete __(7)__ abbiano trasportate sul __(8)__ pianeta.\n\nQuanto ai monosaccaridi, i meteoriti e i campioni asteroidali __(9)__ contengono diversi, tra i __(10)__ il ribosio e il glucosio. Nessuno __(11)__ aveva però individuato uno nel mezzo interstellare, nel __(12)__ non erano stati trovati zuccheri. Era la prova senza la __(13)__ non si poteva confermare l'ipotesi. Un gruppo internazionale, i __(14)__ membri erano guidati dal Centro de Astrobiología di Madrid, ha finalmente fornito la prova: ha individuato per la prima volta un simile composto, grazie al __(15)__ è arrivata la conferma fondamentale.\n\nÈ l'eritrulosio, il __(16)__ ritrovamento è descritto su Nature Astronomy. Questa molecola, la __(17)__ formula è C4H8O4, è presente naturalmente nei lamponi. Quanto all'eritrulosio, l'industria cosmetica __(18)__ impiega in alcuni autoabbronzanti, nei __(19)__ compare come ingrediente: è il settore nel __(20)__ trova applicazione.",
+    "T4_TITLE": "ERITRULOSIO, UNA DOLCE SCOPERTA TRA LE STELLE"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.7 — le**: «trasportate» impone il pronome femminile plurale che riprende «alcune molecole».（中文：阴性复数宾语）\n- **S1.9 — ne**: il tema «Quanto ai monosaccaridi» e il quantificatore «diversi» impongono il partitivo; «i meteoriti e i campioni asteroidali» è già il soggetto, quindi non serve un locativo.（中文：部分代词）\n- **S1.11 — ne**: il partitivo è imposto dalla costruzione «trovarne uno».（中文：其中一个）\n- **S1.14 — cui**: l'articolo «i» e il nome «membri» già stampati impongono il relativo possessivo «cui».（中文：其成员）\n- **S1.16/S1.17 — cui**: l'articolo già stampato («il/la») impone il relativo possessivo «cui».（中文：其）\n- **S1.18 — lo**: il tema esplicito «Quanto all'eritrulosio» impone la ripresa con il pronome maschile singolare.（中文：阳性单数宾语）",
+    "ANS_S1_ROWS": "| S1.1 | nostro | S1.11 | ne |\n| S1.2 | quale | S1.12 | quale |\n| S1.3 | quali | S1.13 | quale |\n| S1.4 | quali | S1.14 | cui |\n| S1.5 | loro | S1.15 | quale |\n| S1.6 | si | S1.16 | cui |\n| S1.7 | le | S1.17 | cui |\n| S1.8 | nostro | S1.18 | lo |\n| S1.9 | ne | S1.19 | quali |\n| S1.10 | quali | S1.20 | quale |"
+  },
+  "key": {
+    "S1.1": "nostro",
+    "S1.2": "quale",
+    "S1.3": "quali",
+    "S1.4": "quali",
+    "S1.5": "loro",
+    "S1.6": "si",
+    "S1.7": "le",
+    "S1.8": "nostro",
+    "S1.9": "ne",
+    "S1.10": "quali",
+    "S1.11": "ne",
+    "S1.12": "quale",
+    "S1.13": "quale",
+    "S1.14": "cui",
+    "S1.15": "quale",
+    "S1.16": "cui",
+    "S1.17": "cui",
+    "S1.18": "lo",
+    "S1.19": "quali",
+    "S1.20": "quale"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "impalcatura",
+      "categoria": "sostantivo femminile",
+      "zh": "支架；结构框架",
+      "en": "framework",
+      "esempio": "costituiscono l'impalcatura del Dna e dell'Rna"
+    },
+    {
+      "parola": "chimica prebiotica",
+      "categoria": "locuzione nominale",
+      "zh": "前生物化学",
+      "en": "prebiotic chemistry",
+      "esempio": "Esperimenti di chimica prebiotica condotti finora indicano"
+    },
+    {
+      "parola": "monosaccaridi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "单糖",
+      "en": "monosaccharides",
+      "esempio": "Quanto ai monosaccaridi, i meteoriti e i campioni asteroidali ne contengono diversi"
+    },
+    {
+      "parola": "mezzo interstellare",
+      "categoria": "locuzione nominale",
+      "zh": "星际介质",
+      "en": "interstellar medium",
+      "esempio": "nel mezzo interstellare"
+    },
+    {
+      "parola": "autoabbronzanti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "美黑产品",
+      "en": "self-tanning products",
+      "esempio": "alcuni autoabbronzanti"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi *(esistere)* __esistono (0)__ molte montagne. Per queste *(valere)* __(1)__ la pena dedicare una vita alla salita. Oggi la cima non *(avere)* __(2)__ valore: è un punto geografico.\n\n**Perché quel viaggio fu speciale?**\n\nFinora il viaggio *(definire)* __(3)__ da Andrea «unico e indimenticabile». Durante quei mesi, ogni giorno la determinazione mi *(trasportare)* __(4)__ verso la vetta, mentre la motivazione mi *(regalare)* __(5)__ emozioni. In questi anni io *(incontrare)* __(6)__ persone e fino a oggi io *(vivere)* __(7)__ difficoltà, dubbi e sogni. Nei mesi prima della partenza, ogni giorno io *(allenarsi)* __(8)__ e pensavo al cammino. Fu solo dopo *(allenarsi)* __(9)__ per mesi che partii per il Nepal. In questi anni l'impegno quotidiano *(rafforzare)* __(10)__ la mia motivazione.\n\n**Cosa ricordi del Nepal?**\n\nFu nell'intervista che Andrea *(dire)* __(11)__: il Nepal resta nel cuore. Adesso io *(desiderare)* __(12)__ tornarci il prima possibile. È possibile che il desiderio *(dipendere)* __(13)__ dalla bontà e semplicità dei nepalesi. Se io *(dovere)* __(14)__ descriverlo, io *(dire)* __(15)__ che è un posto magico.\n\n**Qual è la montagna più bella?**\n\nFinora io *(fare)* __(16)__ molte salite; ogni salita che io *(fare)* __(17)__ in futuro sarà unica. Sebbene finora io *(vivere)* __(18)__ emozioni, è impossibile che io *(riuscire)* __(19)__ a stilare una classifica. Se oggi dovessi indicarle, io *(scegliere)* __(20)__ le Alpi Apuane, le mie montagne di casa.",
+    "T5_TITLE": "INCONTRO CON ANDREA LANFRI"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- «Oggi» fissa **vale** e **ha** al presente; «Fu ... che Andrea» rende puntuale **disse** e forza il passato remoto.（明确现在与远过去）\n- «Durante quei mesi, ogni giorno» e «mentre» collocano **trasportava** e **regalava** nello sfondo abituale passato; «Nei mesi prima della partenza, ogni giorno» forza anche **mi allenavo**.（过去习惯与背景用未完成过去时）\n- «Finora», «In questi anni» e «fino a oggi» richiedono **è stato definito**, **ho incontrato**, **ho vissuto**, **ha rafforzato** e **ho fatto**; «da Andrea» forza il passivo, mentre i soggetti espliciti escludono il «si» impersonale o riflessivo.（延续至今、被动与明确主语）\n- «Fu solo dopo ... per mesi che partii» esprime anteriorità conclusa e il soggetto è Andrea: **essermi allenato** comprende pronome, ausiliare e participio.（完整形式都在空格内）\n- «Adesso» forza **desidero** al presente; «È possibile che», «Sebbene finora» ed «è impossibile che» richiedono il congiuntivo, mentre «Se oggi dovessi» forza **sceglierei**.（现在、虚拟与条件结构）",
+    "ANS_S2_ROWS": "| S2.1 | vale | indicativo presente | S2.11 | disse | indicativo passato remoto |\n| S2.2 | ha | indicativo presente | S2.12 | desidero | indicativo presente |\n| S2.3 | è stato definito | indicativo passato prossimo passivo | S2.13 | dipenda | congiuntivo presente |\n| S2.4 | trasportava | indicativo imperfetto | S2.14 | dovessi | congiuntivo imperfetto |\n| S2.5 | regalava | indicativo imperfetto | S2.15 | direi | condizionale presente |\n| S2.6 | ho incontrato | indicativo passato prossimo | S2.16 | ho fatto | indicativo passato prossimo |\n| S2.7 | ho vissuto | indicativo passato prossimo | S2.17 | farò | indicativo futuro semplice |\n| S2.8 | mi allenavo | indicativo imperfetto | S2.18 | abbia vissuto | congiuntivo passato |\n| S2.9 | essermi allenato | infinito passato | S2.19 | riesca | congiuntivo presente |\n| S2.10 | ha rafforzato | indicativo passato prossimo | S2.20 | sceglierei | condizionale presente |"
+  },
+  "key": {
+    "S2.1": "vale",
+    "S2.2": "ha",
+    "S2.3": "è stato definito",
+    "S2.4": "trasportava",
+    "S2.5": "regalava",
+    "S2.6": "ho incontrato",
+    "S2.7": "ho vissuto",
+    "S2.8": "mi allenavo",
+    "S2.9": "essermi allenato",
+    "S2.10": "ha rafforzato",
+    "S2.11": "disse",
+    "S2.12": "desidero",
+    "S2.13": "dipenda",
+    "S2.14": "dovessi",
+    "S2.15": "direi",
+    "S2.16": "ho fatto",
+    "S2.17": "farò",
+    "S2.18": "abbia vissuto",
+    "S2.19": "riesca",
+    "S2.20": "sceglierei"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "vetta",
+      "categoria": "sostantivo femminile",
+      "zh": "山顶",
+      "en": "summit",
+      "esempio": "verso la vetta"
+    },
+    {
+      "parola": "determinazione",
+      "categoria": "sostantivo femminile",
+      "zh": "决心",
+      "en": "determination",
+      "esempio": "La determinazione"
+    },
+    {
+      "parola": "dubbi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "疑虑",
+      "en": "doubts",
+      "esempio": "dubbi e sogni"
+    },
+    {
+      "parola": "stilare una classifica",
+      "categoria": "espressione verbale",
+      "zh": "列出排名",
+      "en": "draw up a ranking",
+      "esempio": "stilare una classifica"
+    },
+    {
+      "parola": "semplicità",
+      "categoria": "sostantivo femminile",
+      "zh": "朴实",
+      "en": "simplicity",
+      "esempio": "semplicità dei nepalesi"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "B", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "A", "confidence": "hi"},
+  "L1.6": {"answer": "B", "confidence": "hi"},
+  "L1.7": {"answer": "C", "confidence": "hi"},
+
+  "L2.1": {"answer": "V", "confidence": "hi"},
+  "L2.2": {"answer": "F", "confidence": "hi"},
+  "L2.3": {"answer": "V", "confidence": "hi"},
+  "L2.4": {"answer": "F", "confidence": "hi"},
+  "L2.5": {"answer": "V", "confidence": "hi"},
+  "L2.6": {"answer": "F", "confidence": "hi"},
+  "L2.7": {"answer": "V", "confidence": "hi"},
+  "L2.8": {"answer": "F", "confidence": "hi"},
+  "L2.9": {"answer": "V", "confidence": "hi"},
+  "L2.10": {"answer": "F", "confidence": "hi"},
+  "L2.11": {"answer": "V", "confidence": "hi"},
+  "L2.12": {"answer": "F", "confidence": "hi"},
+  "L2.13": {"answer": "V", "confidence": "hi"},
+  "L2.14": {"answer": "F", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-C-J-B-H-E-K-D-I-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "a", "confidence": "hi"},
+  "S1.2": {"answer": "da", "confidence": "hi"},
+  "S1.3": {"answer": "dallo", "confidence": "hi"},
+  "S1.4": {"answer": "di", "confidence": "hi"},
+  "S1.5": {"answer": "il", "confidence": "hi"},
+  "S1.6": {"answer": "a", "confidence": "hi"},
+  "S1.7": {"answer": "in", "confidence": "hi"},
+  "S1.8": {"answer": "con", "confidence": "hi"},
+  "S1.9": {"answer": "di", "confidence": "hi"},
+  "S1.10": {"answer": "al", "confidence": "hi"},
+  "S1.11": {"answer": "di", "confidence": "hi"},
+  "S1.12": {"answer": "di", "confidence": "hi"},
+  "S1.13": {"answer": "di", "confidence": "hi"},
+  "S1.14": {"answer": "sul", "confidence": "hi"},
+  "S1.15": {"answer": "in", "confidence": "hi"},
+  "S1.16": {"answer": "la", "confidence": "hi"},
+  "S1.17": {"answer": "di", "confidence": "hi"},
+  "S1.18": {"answer": "di", "confidence": "hi"},
+  "S1.19": {"answer": "a", "confidence": "hi"},
+  "S1.20": {"answer": "all'", "confidence": "hi"},
+
+  "S2.1": {"answer": "sarebbe", "confidence": "hi"},
+  "S2.2": {"answer": "scoprirebbe", "confidence": "hi"},
+  "S2.3": {"answer": "è svanita", "confidence": "hi"},
+  "S2.4": {"answer": "si è trasformata", "confidence": "hi"},
+  "S2.5": {"answer": "penso", "confidence": "hi"},
+  "S2.6": {"answer": "guarderebbe", "confidence": "hi"},
+  "S2.7": {"answer": "ho affrontato", "confidence": "hi"},
+  "S2.8": {"answer": "le ho superate", "confidence": "hi"},
+  "S2.9": {"answer": "è sembrata", "confidence": "hi"},
+  "S2.10": {"answer": "ho scelto", "confidence": "hi"},
+  "S2.11": {"answer": "chiamavo", "confidence": "hi"},
+  "S2.12": {"answer": "ho iniziato", "confidence": "hi"},
+  "S2.13": {"answer": "direi", "confidence": "hi"},
+  "S2.14": {"answer": "consiglierei", "confidence": "hi"},
+  "S2.15": {"answer": "si riveleranno", "confidence": "hi"},
+  "S2.16": {"answer": "sarà", "confidence": "hi"},
+  "S2.17": {"answer": "sembrava", "confidence": "hi"},
+  "S2.18": {"answer": "acquista", "confidence": "med"},
+  "S2.19": {"answer": "guarderà", "confidence": "hi"},
+  "S2.20": {"answer": "capirà", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "D", "confidence": "hi"},
+  "S3.5": {"answer": "A", "confidence": "hi"},
+  "S3.6": {"answer": "D", "confidence": "hi"},
+  "S3.7": {"answer": "B", "confidence": "hi"},
+  "S3.8": {"answer": "A", "confidence": "hi"},
+  "S3.9": {"answer": "A", "confidence": "hi"},
+  "S3.10": {"answer": "B", "confidence": "hi"},
+  "S3.11": {"answer": "C", "confidence": "hi"},
+  "S3.12": {"answer": "A", "confidence": "hi"},
+  "S3.13": {"answer": "D", "confidence": "hi"},
+  "S3.14": {"answer": "C", "confidence": "hi"},
+  "S3.15": {"answer": "A", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "C", "confidence": "hi"},
+  "S4.3": {"answer": "A", "confidence": "hi"},
+  "S4.4": {"answer": "D", "confidence": "hi"},
+  "S4.5": {"answer": "B", "confidence": "hi"},
+  "S4.6": {"answer": "A", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "D", "confidence": "hi"},
+  "S4.9": {"answer": "A", "confidence": "hi"},
+  "S4.10": {"answer": "B", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.18",
+    "reason": "Both \"acquista\" and \"acquisterà\" are grammatically plausible: the sentence can express either a general truth or a future development."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```

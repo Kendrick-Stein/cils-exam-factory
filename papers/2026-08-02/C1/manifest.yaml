@@ -1,0 +1,130 @@
+exam: cils
+level: C1
+session: '2026-08-02'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.gamberorosso.it/notizie/vino/vinitaly-2026-migliori-vini-degustati-10-etichette/
+  title: I dieci vini imperdibili assaggiati a Vinitaly 2026
+  publisher: Gambero Rosso
+  published: null
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 675
+  origin: pool/3829840c7c75.md
+- id: T2
+  url: https://www.inpa.gov.it/faq-domande-e-risposte/
+  title: FAQ – Domande e risposte
+  publisher: inPA – Dipartimento della Funzione Pubblica
+  published: null
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 555
+- id: T3
+  url: https://it.wikisource.org/wiki/Il_fanciullo_nascosto/Ritorno
+  title: Ritorno
+  publisher: Wikisource (Grazia Deledda)
+  published: '1921'
+  accessed: '2026-08-02'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 519
+  origin: pool/a9e02fa88b62.md
+- id: T4
+  url: https://www.gamberorosso.it/notizie/attualita/dopo-lomologazione-il-wine-bar-che-vorremmo-nel-2026/
+  title: 'Dopo l''omologazione: il wine bar che vorremmo nel 2026'
+  publisher: Gambero Rosso
+  published: null
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 322
+  origin: pool/6e4cc97dd290.md
+- id: T5
+  url: https://www.rainews.it/tgr/campania/video/2026/02/michele-riondino-teatro-vero-amore-colpito-dallaffetto-del-pubblico-art-teatro-nuovo-yasmine-reza-bagnoli-vivaldi-primavera-taranto-ilva-bonifiche-arte-contemporanea-9cfdb3d4-df4c-4bf4-b7f4-fc423c98800a.html
+  title: 'Michele Riondino: "Teatro vero amore: colpito dall''affetto del pubblico"'
+  publisher: RaiNews TGR Campania
+  published: '2026-02-14'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 278
+- id: T6
+  url: https://www.rainews.it/articoli/2026/07/scoperta-una-possibile-luna-aliena-orbita-attorno-a-una-nana-bruna-30-volte-piu-grande-di-giove-9a36c72f-b91e-4d08-b24d-febb313b6851.html
+  title: 'Scoperta una possibile "luna aliena": orbita attorno a una nana bruna 30
+    volte più grande di Giove'
+  publisher: RaiNews (fonte ANSA)
+  published: '2026-07-23'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 227
+- id: T7
+  url: https://creativitacontemporanea.cultura.gov.it/pac2026/
+  title: PAC2026
+  publisher: Direzione Generale Creatività Contemporanea – Ministero della Cultura
+  published: '2026-03-05'
+  accessed: '2026-08-02'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: true
+  words_used: 175
+pipeline:
+  generator: genpapers/claude-code
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: scaffold
+    at: '2026-08-02'
+  - stage: corpus
+    at: '2026-08-02'
+  - stage: authoring
+    at: '2026-08-02'
+  - stage: blind_validation
+    at: '2026-08-02T02:37:33+00:00'
+    agreement: 72/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-02T02:45:48+00:00'
+    agreement: 83/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-02T03:01:58+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: reconcile
+    at: '2026-08-02'
+    rounds: 2
+    executor: fresh item-writers per prova plus isolated partial blind solve
+    fixed_items:
+    - L3 (chain cues), S1 (relative-pronoun anchors), S2.1 (explicit object), S4 (accepted-variant
+      key extension)
+    length_trims:
+    - L3
+    - S1
+  - stage: format_audit
+    at: '2026-08-02T03:02:57+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-02T03:02:57+00:00'
+    result: pass
+    issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0

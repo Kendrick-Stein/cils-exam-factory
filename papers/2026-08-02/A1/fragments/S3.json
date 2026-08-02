@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "La __biblioteca (0)__ si trova in via Museo 47, a Bolzano.\n\nL'orario __(1)__ va dal primo luglio al trentuno __(2)__ 2026. Dal lunedì al __(3)__: __(4)__ dalle 8 alle 19:45; sabato dalle 8 alle 12:45; domenica __(5)__.\n\nI servizi di iscrizione e __(6)__ terminano quindici minuti prima della __(7)__. L'email è prestito@comune.bolzano.it.\n\nIl sistema bibliotecario del Comune di Bolzano comprende sei biblioteche di __(8)__.\n\nTelefono: 0471 997940.",
+    "T6_TITLE": "BIBLIOTECA CIVICA: ORARIO ESTIVO",
+    "S3_OPT0_A": "biblioteca",
+    "S3_OPT0_B": "scuola",
+    "S3_OPT0_C": "farmacia",
+    "S3_OPTION_ROWS": "| 1. | notturno | estivo | invernale |\n| 2. | agosto | novembre | dicembre |\n| 3. | domenica | sabato | venerdì |\n| 4. | aperta | chiusa | occupata |\n| 5. | aperta | chiusa | occupata |\n| 6. | studio | lettura | prestito |\n| 7. | chiusura | apertura | iscrizione |\n| 8. | telefono | quartiere | chiusura |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | L'espressione corretta è «L'orario estivo», perché va da luglio ad agosto. 夏季时间。 |\n| S3.2 | A | L'orario estivo termina il trentuno agosto 2026. 结束月份是八月。 |\n| S3.3 | C | La biblioteca è aperta «dal lunedì al venerdì» fino alle 19:45; il sabato ha un altro orario. 工作日到周五。 |\n| S3.4 | A | L'indicazione «dalle 8 alle 19:45» mostra che la biblioteca è aperta. 这里需要“开放”。 |\n| S3.5 | B | Il testo completa l'orario con «domenica chiusa». 周日闭馆。 |\n| S3.6 | C | L'indirizzo «prestito@comune.bolzano.it» conferma la parola prestito. 借书服务。 |\n| S3.7 | A | Iscrizione e prestito terminano quindici minuti prima della chiusura. 服务在闭馆前结束。 |\n| S3.8 | B | L'espressione corretta è «sei biblioteche di quartiere». 六个社区图书馆。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "orario",
+      "categoria": "nome maschile",
+      "zh": "开放时间；时刻表",
+      "en": "opening hours; timetable",
+      "esempio": "L'orario estivo va dal primo luglio al trentuno agosto 2026."
+    },
+    {
+      "parola": "iscrizione",
+      "categoria": "nome femminile",
+      "zh": "注册",
+      "en": "registration",
+      "esempio": "I servizi di iscrizione e prestito terminano quindici minuti prima della chiusura."
+    },
+    {
+      "parola": "chiusura",
+      "categoria": "nome femminile",
+      "zh": "关闭；闭馆",
+      "en": "closing",
+      "esempio": "I servizi di iscrizione e prestito terminano quindici minuti prima della chiusura."
+    },
+    {
+      "parola": "sistema bibliotecario",
+      "categoria": "espressione nominale",
+      "zh": "图书馆系统",
+      "en": "library system",
+      "esempio": "Il sistema bibliotecario del Comune di Bolzano comprende sei biblioteche di quartiere."
+    },
+    {
+      "parola": "quartiere",
+      "categoria": "nome maschile",
+      "zh": "城区；社区",
+      "en": "neighborhood",
+      "esempio": "Il sistema bibliotecario del Comune di Bolzano comprende sei biblioteche di quartiere."
+    }
+  ]
+}

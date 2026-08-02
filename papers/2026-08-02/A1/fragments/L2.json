@@ -1,0 +1,51 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Durante l'estate sono aperte le piscine comunali della città.**  Vero ○ Falso ○\n\n**2. La piscina Lido è in via Villa Glori, 21.**  Vero ○ Falso ○\n\n**3. La vasca olimpica del Lido resta sempre coperta.**  Vero ○ Falso ○\n\n**4. Dal 19 luglio al 30 agosto, il lunedì la piscina apre alle 13:00.**  Vero ○ Falso ○\n\n**5. Dal 19 luglio al 30 agosto, dal martedì alla domenica la piscina apre alle 13:00.**  Vero ○ Falso ○\n\n**6. Dal 31 agosto all'11 settembre, dal lunedì al venerdì la piscina chiude alle 19:00.**  Vero ○ Falso ○\n\n**7. Dal 31 agosto all'11 settembre, il sabato e la domenica la piscina apre alle 13:00.**  Vero ○ Falso ○\n\n**8. Per entrare in piscina è già obbligatorio prenotare online.**  Vero ○ Falso ○",
+    "T2_TEXT": "Qui di seguito trovi gli orari ed i periodi di apertura della piscine comunali cittadine durante il periodo estivo.\n\nLido - via Villa Glori, 21\n\nDotata di una vasca olimpica che si trasforma, grazie alla sua copertura apribile, in una piscina estiva scoperta.\n\nDa domenica 19 luglio a domenica 30 agosto 2026:\n\n* lunedì, dalle 13:00 alle 19:00\n* dal martedì alla domenica, dalle 09:00 alle 19:00\n\nDa lunedì 31 agosto a venerdì 11 settembre 2026:\n\n* dal lunedì al venerdì, dalle 13:00 alle 19:00\n* sabato e domenica, dalle 09:00 alle 19:00\n\nGli orari e le eventuali variazioni sono pubblicati sulla pagina della piscina.\n\nL'accesso in Piscina è libero e non è necessario prenotare. La Circoscrizione 8 sta predisponendo una nuova procedura di prenotazione on-line obbligatoria.",
+    "T2_TITLE": "Orari estivi delle piscine"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo presenta «gli orari ed i periodi di apertura della piscine comunali cittadine durante il periodo estivo». |\n| L2.2 | Vero | Nel testo si legge «Lido - via Villa Glori, 21». |\n| L2.3 | Falso | La vasca «si trasforma [...] in una piscina estiva scoperta»: non resta sempre coperta. |\n| L2.4 | Vero | Per il periodo dal 19 luglio al 30 agosto, il lunedì l'orario è «dalle 13:00 alle 19:00». |\n| L2.5 | Falso | Dal martedì alla domenica l'apertura è alle «09:00», non alle 13:00. |\n| L2.6 | Vero | Dal 31 agosto all'11 settembre, dal lunedì al venerdì l'orario termina alle «19:00». |\n| L2.7 | Falso | Il sabato e la domenica l'apertura è alle «09:00», non alle 13:00. |\n| L2.8 | Falso | Il testo dice che «non è necessario prenotare»; la nuova procedura obbligatoria è ancora in preparazione. 中文：现在还不用预约。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "vasca olimpica",
+      "categoria": "locuzione nominale",
+      "zh": "奥林匹克规格泳池",
+      "en": "Olympic-size pool",
+      "esempio": "Dotata di una vasca olimpica che si trasforma, grazie alla sua copertura apribile, in una piscina estiva scoperta."
+    },
+    {
+      "parola": "copertura apribile",
+      "categoria": "locuzione nominale",
+      "zh": "可开启的顶棚",
+      "en": "retractable roof",
+      "esempio": "Dotata di una vasca olimpica che si trasforma, grazie alla sua copertura apribile, in una piscina estiva scoperta."
+    },
+    {
+      "parola": "variazioni",
+      "categoria": "nome femminile plurale",
+      "zh": "变更",
+      "en": "changes",
+      "esempio": "Gli orari e le eventuali variazioni sono pubblicati sulla pagina della piscina."
+    },
+    {
+      "parola": "prenotare",
+      "categoria": "verbo",
+      "zh": "预约",
+      "en": "to book",
+      "esempio": "L'accesso in Piscina è libero e non è necessario prenotare."
+    }
+  ]
+}

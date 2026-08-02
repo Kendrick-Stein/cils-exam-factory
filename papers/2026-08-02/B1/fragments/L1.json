@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Alla finale del Premio Strega dell'8 luglio Bianca Pitzorno**\n\nA) proverà a essere presente di persona.\nB) parteciperà soltanto con un video.\nC) resterà a Benevento per la votazione.\nD) seguirà la cerimonia senza intervenire.\n\n**2. La scrittrice continua ad avere problemi perché**\n\nA) il lavoro all'aperto è troppo faticoso.\nB) le questioni tecniche le impediscono di viaggiare.\nC) l'osteoporosi le causa frequenti fratture.\nD) la preparazione delle interviste richiede tempo.\n\n**3. La protagonista del romanzo _La sonnambula_ è una donna che**\n\nA) raccoglie vecchie fotografie per ricostruire il passato.\nB) perde i sensi e durante gli svenimenti vede il futuro.\nC) scrive libri per ragazzi ispirati alla propria infanzia.\nD) offre consulti per cinque lire alla fine dell'Ottocento.\n\n**4. Secondo Pitzorno, il romanzo ha raggiunto molti lettori soprattutto grazie**\n\nA) alle numerose interviste dell'autrice.\nB) a una grande campagna pubblicitaria.\nC) alla vittoria di un premio letterario.\nD) ai consigli passati da una persona all'altra.\n\n**5. L'idea del romanzo è nata quando Pitzorno**\n\nA) ha trovato una pubblicità tra i ritagli conservati dalla nonna.\nB) ha ricevuto una valigia piena di libri dell'Ottocento.\nC) ha pagato cinque lire per una consultazione sul futuro.\nD) ha deciso di trasformare sei fotografie in altrettanti romanzi.\n\n**6. Quando è entrata nella dozzina del Premio Strega, Pitzorno**\n\nA) era sicura che avrebbe vinto Michele Mari.\nB) pensava di poter arrivare tra i cinque finalisti.\nC) considerava Matteo Nucci il concorrente favorito.\nD) sperava soprattutto nel successo di Alcide Pierantozzi.\n\n**7. Per Pitzorno, essere arrivata in cinquina è importante perché**\n\nA) le permetterà di abbandonare la letteratura per ragazzi.\nB) dimostra che il suo romanzo è il più amato dai lettori.\nC) mette in discussione l'etichetta di scrittrice per bambini.\nD) garantisce che parteciperà ad altri premi letterari.",
+    "T1_TEXT": "Entrata in cinquina con _La sonnambula_, Bianca Pitzorno, 84 anni il prossimo agosto, non ha potuto partecipare il 3 giugno alla prima votazione del Premio Strega 2026 a Benevento. Farà però di tutto per esserci l'8 luglio alla proclamazione del vincitore, che si terrà per la prima volta in Piazza del Campidoglio a Roma, in occasione dell'ottantesimo anniversario del più importante premio letterario italiano.\n\n«L'età non è uno scherzo, continuo a fratturarmi a causa dell'osteoporosi. Al Teatro Romano di Benevento volevo fare un collegamento video, ma non è facile, per questioni tecniche, all'aperto. Alla finale però ci sarò, cercherò di venire», dice la scrittrice, autrice di quasi 70 libri e punto di riferimento per la letteratura per ragazzi.\n\n_La sonnambula_, storia di una donna di fine Ottocento che fin dall'infanzia ha svenimenti in cui vede il futuro, è «un libro che mi ha spiazzata perché da quando è uscito, il 5 gennaio 2026, la settimana dopo era già primo in classifica, dove è rimasto per diverse settimane. Oggi è ancora tra i dieci libri più venduti in Italia: abbiamo venduto 60 mila copie, che oggi è una cosa sbalorditiva. Senza fare grandi pubblicità, senza fare interviste, evidentemente con il passaparola hanno cominciato a leggerlo in tanti», racconta.\n\n**Come è nata l'idea?**\n\n«Mia nonna ci ha lasciato un tesoro, una grande valigia piena di ritagli di giornali, di vecchie fotografie, una memoria di carta da cui io potrei ricavare ancora sei libri. Tra questi ritagli ho visto la pubblicità della sonnambula, che diceva di dare consulti su tutti gli argomenti per cinque lire, una bella cifra all'epoca. Da lì ho cominciato a ricostruire».\n\n**Ma si aspettava di entrare in cinquina?**\n\n«Una volta nella dozzina dello Strega, pensavo che sarei stata tra i finalisti. Non è stata una grande sorpresa. _I convitati di pietra_ di Michele Mari o è adorato o non piace, ma in tanti lo hanno apprezzato ed è dato da tutti come vincitore. Il libro di Matteo Nucci, _Platone. Una storia d'amore_, è più complicato, è un librone grosso, però se vincesse lui quella sì sarebbe una grossa sorpresa. A me era piaciuto molto anche _Lo sbilico_ di Alcide Pierantozzi, ma è difficile fare previsioni».\n\n**E se vincesse _La sonnambula_?**\n\n«Non lo so, io ho questa specie di marchio, che non riesco a togliermi di dosso, di scrittrice per bambini. Essere arrivata nella cinquina è forse il primo passo decisivo che dimostra che questa divisione è un po' una stupidaggine. Se vincessi io sarebbe un'enorme sorpresa, però non è che ci tenga tanto: è già per me un gran traguardo essere entrata in cinquina. Ovviamente sarei contenta. Farò il tifo per chi vince».",
+    "T1_TITLE": "BIANCA PITZORNO E IL SUCCESSO DI _LA SONNAMBULA_"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Pitzorno «farà però di tutto per esserci l'8 luglio» e aggiunge: «Alla finale però ci sarò, cercherò di venire». |\n| L1.2 | C | Dice: «continuo a fratturarmi a causa dell'osteoporosi». |\n| L1.3 | B | La protagonista «ha svenimenti in cui vede il futuro». |\n| L1.4 | D | Il libro si è diffuso «senza fare grandi pubblicità, senza fare interviste» e «con il passaparola». 中文：不是广告或采访。 |\n| L1.5 | A | Tra i ritagli della nonna, Pitzorno ha visto «la pubblicità della sonnambula» e da lì ha iniziato a ricostruire. |\n| L1.6 | B | Afferma: «Una volta nella dozzina dello Strega, pensavo che sarei stata tra i finalisti». |\n| L1.7 | C | La cinquina è un passo che mette in dubbio la divisione legata al suo «marchio» di «scrittrice per bambini». 中文：重点是摆脱标签。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "C",
+    "L1.3": "B",
+    "L1.4": "D",
+    "L1.5": "A",
+    "L1.6": "B",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cinquina",
+      "categoria": "sostantivo",
+      "zh": "五人决选名单",
+      "en": "final shortlist of five",
+      "esempio": "Entrata in cinquina con _La sonnambula_, Bianca Pitzorno, 84 anni il prossimo agosto, non ha potuto partecipare il 3 giugno alla prima votazione del Premio Strega 2026 a Benevento."
+    },
+    {
+      "parola": "proclamazione",
+      "categoria": "sostantivo",
+      "zh": "宣布（结果）",
+      "en": "announcement",
+      "esempio": "Farà però di tutto per esserci l'8 luglio alla proclamazione del vincitore, che si terrà per la prima volta in Piazza del Campidoglio a Roma, in occasione dell'ottantesimo anniversario del più importante premio letterario italiano."
+    },
+    {
+      "parola": "passaparola",
+      "categoria": "sostantivo",
+      "zh": "口口相传",
+      "en": "word of mouth",
+      "esempio": "Senza fare grandi pubblicità, senza fare interviste, evidentemente con il passaparola hanno cominciato a leggerlo in tanti"
+    },
+    {
+      "parola": "ritagli",
+      "categoria": "sostantivo plurale",
+      "zh": "剪报",
+      "en": "clippings",
+      "esempio": "Mia nonna ci ha lasciato un tesoro, una grande valigia piena di ritagli di giornali, di vecchie fotografie, una memoria di carta da cui io potrei ricavare ancora sei libri."
+    },
+    {
+      "parola": "traguardo",
+      "categoria": "sostantivo",
+      "zh": "重要成果",
+      "en": "milestone",
+      "esempio": "è già per me un gran traguardo essere entrata in cinquina"
+    }
+  ]
+}

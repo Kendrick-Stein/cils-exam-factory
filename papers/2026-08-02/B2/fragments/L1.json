@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. La guida \"Osterie d'Italia Slow Food 2026\" deve confrontarsi con**\n\nA) la scarsa attenzione degli addetti ai lavori.\n\nB) un settore della ristorazione che cambia velocemente.\n\nC) la difficoltà di riunire molti locali in un volume.\n\nD) una diminuzione generale dell'interesse del pubblico.\n\n**2. In materia di prezzi, l'obiettivo principale della guida è**\n\nA) indicare locali popolari alla portata di tutti.\n\nB) fissare lo stesso costo in ogni zona d'Italia.\n\nC) avvicinare le osterie ai criteri dell'alta ristorazione.\n\nD) selezionare soltanto pasti completi inferiori a 35 euro.\n\n**3. La guida può accettare un prezzo superiore al riferimento standard quando**\n\nA) il locale elimina dal pasto il dolce e il coperto.\n\nB) la città è frequentata soprattutto da turisti stranieri.\n\nC) l'esperienza vale il costo nel suo specifico territorio.\n\nD) il ristoratore utilizza esclusivamente pesce di laguna.\n\n**4. Secondo Bogliotti, alcuni grandi chef aprono osterie e locande perché**\n\nA) desiderano tornare a una cucina meno curata.\n\nB) preferiscono locali lontani dalle tradizioni regionali.\n\nC) vogliono evitare i cambiamenti del settore gastronomico.\n\nD) riconoscono che il modello informale è più accessibile.\n\n**5. Un'\"uscita per merito\" avviene quando un locale**\n\nA) evolve verso una ristorazione di livello più alto e diversa.\n\nB) perde qualità a causa dell'aumento dei prezzi.\n\nC) rinuncia a comparire in qualunque guida gastronomica.\n\nD) modifica gli orari per accogliere più clienti.\n\n**6. Trippa è uscita dalla guida soprattutto perché**\n\nA) aveva smesso di proporre piatti di alta qualità.\n\nB) non offriva più un pasto completo ai clienti.\n\nC) aveva perso il legame con il territorio lombardo.\n\nD) aveva reso troppo complicato il sistema di apertura.\n\n**7. Per il lettore comune, il limite di Cascina Lago Scuro era**\n\nA) la provenienza non locale degli ingredienti.\n\nB) la difficoltà di accedere al locale per i suoi orari.\n\nC) l'offerta gastronomica ormai poco apprezzata.\n\nD) il passaggio a un modello di alta ristorazione.",
+    "T1_TEXT": "La nuova \"Osterie d'Italia Slow Food 2026\" è stata presentata, e mai come in questo momento storico la guida più letta d'Italia dei ristoranti più amati attira l'attenzione del pubblico e degli addetti ai lavori: un lavoro che riunisce in un unico volume un ampio ventaglio di attività di ristorazione, e che deve vedersela con una scena in rapidissima evoluzione.\n\nRincari e crisi dei consumi, nuove leve che ridefiniscono il concetto stesso di osteria, grandi nomi che vivono un naturale percorso di crescita: abbiamo fatto una chiacchierata con Carlo Bogliotti, nuovo responsabile editoriale della guida, per capire come questi temi stanno venendo affrontati.\n\nLe osterie appaiono come luoghi rifugio da caro prezzi e inflazione, ma la situazione sta cambiando anche lì: come vi state regolando? \"La questione del prezzo non è un dettaglio, ma uno dei pilastri fondamentali della nostra guida. Il nostro obiettivo principale è fare l'opposto dell'alta ristorazione: vogliamo segnalare locali popolari e accessibili, dove possono andare tutti. Il nostro riferimento standard per il prezzo di un pasto completo — che include antipasto, un primo o un secondo, dolce e coperto — si aggira intorno ai 40 euro. È una cifra che cerchiamo di mantenere, ma dobbiamo anche adeguarci all'inflazione, dato che obiettivamente i prezzi sono cresciuti. Ovviamente siamo consci delle realtà locali complesse e facciamo delle eccezioni, sebbene molto poche. Per esempio, se ci troviamo in località come il centro di Venezia, dove è oggettivamente impossibile trovare pesce buono di laguna sotto i 35-40 euro, ma l'esperienza offerta vale la pena, allora lo segnaliamo ugualmente. Quindi il prezzo è cruciale, ma la decisione è sempre bilanciata sulla base del servizio che vogliamo offrire e del valore dell'esperienza nel suo contesto territoriale.\"\n\nIl cambiamento in corso è anche gastronomico: nuovi locali si pongono con spirito da osteria ma offrono una cucina decisamente più curata e moderna. \"La tendenza più evidente che abbiamo osservato è che l'attenzione verso il mondo delle osterie e delle trattorie non è mai stata così alta. È un mondo in grande fermento, tanto che si moltiplicano anche i grandi chef che aprono osterie e locande, orientandosi verso un modello di ristorazione più informale, perché si sono resi conto che questo modello è più accessibile. Negli anni siamo stati un osservatorio abbastanza credibile, intercettando per primi questi movimenti. Riconosciamo questa evoluzione anche quando si verificano quelle che chiamiamo 'uscite per merito': succede quando un locale decide di fare un percorso evolutivo verso un modello di ristorazione più alta e diversa. Un esempio che mi è molto caro è l'Antica Corona Reale di Cervere, che abbiamo visto crescere da osteria dove mangiavamo le rane a bistellato.\"\n\nA proposito di uscite, la perdita delle Chiocciole di Trippa a Milano, di Cascina Lago Scuro e de La Crepa fa discutere. \"Trippa è proprio l'esempio di un'uscita per merito. Pur offrendo piatti di altissima qualità, il locale ha virato verso un modello di ristorazione più alta e diversa. La discriminante è stata la mancanza di attenzione al territorio: non c'era più riferimento alla tradizione lombarda o milanese e gli ingredienti, pur ottimi, non provenivano più dalla Lombardia. Allo stesso modo, l'accessibilità è cruciale: Cascina Lago Scuro era perfetta e molto apprezzata, ma ha un sistema di apertura un po' complicato, che rende estremamente difficile l'accesso per il lettore comune.\"",
+    "T1_TITLE": "Come cambiano le osterie italiane?"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | La guida \"deve vedersela con una scena in rapidissima evoluzione\". 中文：重点是行业变化快。 |\n| L1.2 | A | L'obiettivo è \"segnalare locali popolari e accessibili, dove possono andare tutti\". |\n| L1.3 | C | La decisione considera \"il valore dell'esperienza nel suo contesto territoriale\". 中文：例外取决于地点与体验价值。 |\n| L1.4 | D | I grandi chef scelgono il modello informale perché \"si sono resi conto che questo modello è più accessibile\". |\n| L1.5 | A | L'uscita per merito riguarda \"un percorso evolutivo verso un modello di ristorazione più alta e diversa\". 中文：退出并非因质量下降。 |\n| L1.6 | C | Per Trippa mancavano il riferimento alla tradizione locale e ingredienti provenienti dalla Lombardia. |\n| L1.7 | B | Il \"sistema di apertura un po' complicato\" rende difficile l'accesso al lettore comune. |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "D",
+    "L1.5": "A",
+    "L1.6": "C",
+    "L1.7": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ampio ventaglio",
+      "categoria": "locuzione nominale",
+      "zh": "广泛多样的范围",
+      "en": "wide range",
+      "esempio": "un lavoro che riunisce in un unico volume un ampio ventaglio di attività di ristorazione"
+    },
+    {
+      "parola": "Rincari",
+      "categoria": "nome maschile plurale",
+      "zh": "涨价",
+      "en": "price increases",
+      "esempio": "Rincari e crisi dei consumi, nuove leve che ridefiniscono il concetto stesso di osteria"
+    },
+    {
+      "parola": "si aggira intorno",
+      "categoria": "locuzione verbale",
+      "zh": "大约为",
+      "en": "is around",
+      "esempio": "si aggira intorno ai 40 euro"
+    },
+    {
+      "parola": "in grande fermento",
+      "categoria": "locuzione aggettivale",
+      "zh": "活跃变化中",
+      "en": "in great ferment",
+      "esempio": "È un mondo in grande fermento"
+    },
+    {
+      "parola": "ha virato verso",
+      "categoria": "locuzione verbale",
+      "zh": "转向了",
+      "en": "shifted toward",
+      "esempio": "il locale ha virato verso un modello di ristorazione più alta e diversa"
+    }
+  ]
+}

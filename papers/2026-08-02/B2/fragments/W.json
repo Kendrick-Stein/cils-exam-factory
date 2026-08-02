@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione di quartiere che ha organizzato una giornata di scambio e riparazione di piccoli oggetti. Scrivi un articolo in cui racconti l'esperienza, spieghi perché può ridurre gli sprechi, valuti le difficoltà incontrate e proponi come rendere più efficace una futura edizione.",
+    "W2_PROMPT": "Hai richiesto al Comune un contenitore per il compostaggio domestico, ma dopo un mese non hai ricevuto né il contenitore né comunicazioni. Scrivi un'e-mail formale all'Ufficio ambiente.",
+    "W2_REQ_1": "indicare la data della richiesta, il numero di protocollo e l'indirizzo di consegna;",
+    "W2_REQ_2": "chiedere a che punto è la pratica e quando sarà consegnato il contenitore;",
+    "W2_REQ_3": "domandare se sono previste istruzioni sul compostaggio e una riduzione della tassa sui rifiuti."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato ho partecipato alla giornata di scambio e riparazione organizzata dalla nostra associazione nella sala del quartiere. Ho portato una lampada che non funzionava e, grazie all'aiuto di una volontaria, ho imparato a sostituire il cavo. Intanto altri partecipanti scambiavano libri, giocattoli e piccoli elettrodomestici ancora utili. L'iniziativa ha mostrato che molti oggetti possono avere una seconda vita: così si riducono i rifiuti e si condividono competenze pratiche. Il clima era collaborativo, ma l'attesa per le riparazioni è stata lunga e mancavano alcuni strumenti. Alla prossima edizione proporrei di raccogliere le iscrizioni in anticipo, dividere i tavoli per categoria e pubblicare l'elenco dei materiali disponibili. Sarebbe utile anche invitare più tecnici volontari e creare un angolo per spiegare la raccolta differenziata. Con una migliore organizzazione, l'evento potrebbe coinvolgere ancora più residenti.",
+    "MODEL_W1_PHRASES": "grazie all'aiuto di…（多亏……的帮助）; avere una seconda vita（获得第二次生命）; Il clima era collaborativo（氛围充满合作精神）; Alla prossima edizione proporrei di…（下一届我建议……）; Con una migliore organizzazione…（通过更好的组织……）",
+    "MODEL_W2": "Gentile Ufficio ambiente,\n\nil 28 giugno ho richiesto online un contenitore per il compostaggio domestico, con protocollo CA-1846, da consegnare in via Manzoni 12. A distanza di un mese non ho ricevuto comunicazioni. Vorrei sapere a che punto è la pratica e in quale data è prevista la consegna. Potreste inoltre indicarmi se il Comune fornisce istruzioni per usare correttamente il contenitore e se chi pratica il compostaggio può ottenere una riduzione della tassa sui rifiuti?\n\nRingrazio anticipatamente e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nElena Moretti",
+    "MODEL_W2_PHRASES": "A distanza di un mese…（一个月后……）; Vorrei sapere a che punto è la pratica（我想了解申请的办理进度）; in quale data è prevista…（预计在哪一天……）; Potreste inoltre indicarmi se…?（此外，您能否告知我是否……？）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

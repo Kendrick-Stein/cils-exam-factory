@@ -1,0 +1,70 @@
+{
+ "prova": "S1",
+ "slots": {
+  "S1_TEXT_WITH_GAPS": "Negli ultimi due anni Milano è diventata una sorta di habitat del wine bar contemporaneo, __ovvero (0)__ delle collaudate «enoteche con piccola cucina». Le aperture orientate alla qualità si sono moltiplicate a tal punto __(1)__ se ne possono contare più di trenta. Il fenomeno descrive non tanto ristoranti classici __(2)__ luoghi fluidi, nei __(3)__ si beve un calice e si mangia «qualcosa». Il problema non è tanto il successo del formato __(4)__ la tendenza a replicarsi, che rischia __(5)__ uniformare il paesaggio urbano.\n\nIl risultato è uno standard, al __(6)__ il paesaggio appare sempre più vicino. Lo compongono luci basse e tavolini piccoli, ai __(7)__ si aggiunge un design minimal al punto __(8)__ apparire quasi brutalista. È un'omologazione alla __(9)__ contribuisce anche la ripetizione degli stessi dettagli. La chiusura di Associazione Salumi e Vini Naturali ha però lasciato un vuoto, dal __(10)__ emerge che i locali non sono tutti intercambiabili. Era l'esempio concreto di un luogo nel __(11)__ il formato funzionava senza __(12)__ diventasse una formula.\n\nI menu sembrano scritti dallo stesso autore invisibile, come __(13)__ un unico copione guidasse le scelte. Sono menu i __(14)__ accostamenti comprendono toast con shokupan e porro brasato con nocciole, piatto al __(15)__ si riferisce il confronto fra città. Milano, nella __(16)__ lo si è mangiato, non è un caso isolato: Verona e Sanremo sono le altre città nelle __(17)__ è comparso identico. Sono piatti corretti e anche buoni, la __(18)__ somiglianza è però tale __(19)__ farli apparire prodotti di un catalogo universale, come __(20)__ esistesse un solo «piattino giusto».",
+  "T4_TITLE": "Dopo l'omologazione: il wine bar che vorremmo nel 2026"
+ },
+ "answer_slots": {
+  "ANS_S1_NOTES": "- **S1.2 e S1.4 — quanto:** completa la correlazione *non tanto … quanto*. 中文：固定关联结构。\n- **S1.3, S1.6–S1.7, S1.9–S1.11 e S1.15–S1.17 — quale/quali:** l'articolo e la preposizione già stampati impongono la forma flessa del relativo. 中文：可见的介词和冠词锁定关系代词的性数。\n- **S1.8 e S1.19 — da:** completa le consecutive *al punto/tale da + infinito*. 中文：结果结构由可见框架锁定。\n- **S1.12 — che:** *senza che* richiede il congiuntivo. 中文：固定句法框架。\n- **S1.13 e S1.20 — se:** completa *come se + congiuntivo imperfetto*. 中文：非现实比较。\n- **S1.14 e S1.18 — cui:** completa il relativo possessivo *i/la cui*. 中文：冠词与先行词使形式唯一。",
+  "ANS_S1_ROWS": "| S1.1 | che | S1.11 | quale |\n| S1.2 | quanto | S1.12 | che |\n| S1.3 | quali | S1.13 | se |\n| S1.4 | quanto | S1.14 | cui |\n| S1.5 | di | S1.15 | quale |\n| S1.6 | quale | S1.16 | quale |\n| S1.7 | quali | S1.17 | quali |\n| S1.8 | da | S1.18 | cui |\n| S1.9 | quale | S1.19 | da |\n| S1.10 | quale | S1.20 | se |"
+ },
+ "key": {
+  "S1.1": "che",
+  "S1.2": "quanto",
+  "S1.3": "quali",
+  "S1.4": "quanto",
+  "S1.5": "di",
+  "S1.6": "quale",
+  "S1.7": "quali",
+  "S1.8": "da",
+  "S1.9": "quale",
+  "S1.10": "quale",
+  "S1.11": "quale",
+  "S1.12": "che",
+  "S1.13": "se",
+  "S1.14": "cui",
+  "S1.15": "quale",
+  "S1.16": "quale",
+  "S1.17": "quali",
+  "S1.18": "cui",
+  "S1.19": "da",
+  "S1.20": "se"
+ },
+ "glossario_candidates": [
+  {
+   "parola": "omologazione",
+   "categoria": "sostantivo femminile",
+   "zh": "同质化",
+   "en": "homogenization",
+   "esempio": "Il nodo centrale resta dunque l'omologazione."
+  },
+  {
+   "parola": "intercambiabili",
+   "categoria": "aggettivo",
+   "zh": "可互换的",
+   "en": "interchangeable",
+   "esempio": "i locali non sono tutti intercambiabili."
+  },
+  {
+   "parola": "elementi d'arredo",
+   "categoria": "locuzione nominale",
+   "zh": "装饰元素",
+   "en": "decorative elements",
+   "esempio": "le bottiglie restano in vista come elementi d'arredo."
+  },
+  {
+   "parola": "autore invisibile",
+   "categoria": "locuzione nominale",
+   "zh": "无形的作者",
+   "en": "invisible author",
+   "esempio": "scritti dallo stesso autore invisibile"
+  },
+  {
+   "parola": "replicarsi",
+   "categoria": "verbo pronominale",
+   "zh": "复制自身；重复出现",
+   "en": "to replicate",
+   "esempio": "la tendenza a replicarsi"
+  }
+ ]
+}

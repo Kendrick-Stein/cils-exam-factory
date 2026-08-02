@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__Il (0)__ Residence Vezzoli si trova in una posizione tranquilla e soleggiata, è aperto tutto __(1)__ anno. Comprende appartamenti monolocali e bilocali, arredati e accessoriati e dotati di ogni comfort: __(2)__ telefono, __(3)__ televisore, __(4)__ aria condizionata, __(5)__ riscaldamento autonomo, __(6)__ parcheggio privato, __(7)__ wi-fi, un accogliente bar e ampio giardino. Nei dintorni si trovano __(8)__ Terme, __(9)__ Parco delle incisioni rupestri di Luine e __(10)__ parco archeologico romano di Cividate Camuno.",
+    "T4_TITLE": "RESIDENCE VEZZOLI"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "Gli articoli dipendono dal genere, dal numero e dal suono iniziale del nome. Davanti a «anno» e «aria» serve l’elisione: **l’**（元音前省音）.",
+    "ANS_S1_ROWS": "| 1 | l' | 6 | il |\n| 2 | il | 7 | il |\n| 3 | il | 8 | le |\n| 4 | l' | 9 | il |\n| 5 | il | 10 | il |"
+  },
+  "key": {
+    "S1.1": "l'",
+    "S1.2": "il",
+    "S1.3": "il",
+    "S1.4": "l'",
+    "S1.5": "il",
+    "S1.6": "il",
+    "S1.7": "il",
+    "S1.8": "le",
+    "S1.9": "il",
+    "S1.10": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "soleggiata",
+      "categoria": "aggettivo",
+      "zh": "阳光充足的",
+      "en": "sunny",
+      "esempio": "una posizione tranquilla e soleggiata"
+    },
+    {
+      "parola": "appartamenti monolocali",
+      "categoria": "locuzione nominale",
+      "zh": "单间公寓",
+      "en": "studio apartments",
+      "esempio": "Comprende appartamenti monolocali e bilocali"
+    },
+    {
+      "parola": "parcheggio privato",
+      "categoria": "locuzione nominale",
+      "zh": "私人停车场",
+      "en": "private parking",
+      "esempio": "parcheggio privato"
+    },
+    {
+      "parola": "dintorni",
+      "categoria": "nome plurale",
+      "zh": "周边地区",
+      "en": "surroundings",
+      "esempio": "Nei dintorni si trovano"
+    },
+    {
+      "parola": "incisioni rupestri",
+      "categoria": "locuzione nominale",
+      "zh": "岩画",
+      "en": "rock carvings",
+      "esempio": "Parco delle incisioni rupestri di Luine"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un laboratorio pratico al quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e che cosa puoi imparare da questa esperienza.",
+    "W2_PROMPT": "Un'amica ti ha prestato una macchina fotografica, che dovevi restituirle domani. Scrivile un'email.",
+    "W2_REQ_1": "ringraziarla e raccontare brevemente come hai usato la macchina fotografica;",
+    "W2_REQ_2": "spiegare perché non puoi restituirla domani;",
+    "W2_REQ_3": "proporre un altro giorno e un luogo per incontrarvi e chiedere una conferma."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Lo scorso maggio ho partecipato a un laboratorio di cucina organizzato in una piccola fattoria fuori città. Sono andata con la mia amica Elisa, perché entrambe volevamo imparare a preparare la pasta fresca. La cuoca ci ha diviso in gruppi e ci ha mostrato come mescolare farina e uova. All'inizio il mio impasto era troppo secco e si rompeva, ma un signore del mio gruppo mi ha aiutata ad aggiungere un po' d'acqua. Dopo abbiamo tagliato le tagliatelle e preparato un sugo con le verdure dell'orto. Alla fine ci siamo seduti tutti insieme e abbiamo assaggiato i piatti. Mi è piaciuta soprattutto l'atmosfera allegra: ho imparato una ricetta utile e ho conosciuto persone con cui condividere una passione.",
+    "MODEL_W1_PHRASES": "«Ho partecipato a un laboratorio di…»（我参加了一个……工作坊）; «Ci ha mostrato come…»（他/她向我们展示了如何……）; «All'inizio…, ma poi…»（起初……，但后来……）; «Alla fine ci siamo…»（最后我们……）; «Ho imparato… e ho conosciuto…»（我学会了……并认识了……）",
+    "MODEL_W2": "Ciao Marta,\n\ngrazie ancora per avermi prestato la macchina fotografica: l'ho usata durante la gita al lago e le foto sono venute benissimo. Purtroppo domani non posso restituirtela, perché devo accompagnare mio fratello dal medico. Posso portartela sabato pomeriggio al bar vicino a casa tua? Fammi sapere se per te va bene.\n\nUn abbraccio,\nGiulia",
+    "MODEL_W2_PHRASES": "«Grazie ancora per avermi prestato…»（再次谢谢你借给我……）; «Purtroppo non posso…»（很遗憾我不能……）; «Posso portartela…?»（我可以把它带给你吗？）; «Fammi sapere se per te va bene»（告诉我你是否方便）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

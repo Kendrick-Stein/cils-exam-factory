@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ prenotazione del biglietto è facoltativa e a pagamento, ma ai singoli visitatori si consiglia __(1)__ prenotare nei periodi di grande affluenza, per evitare lunghe file all'ingresso. La prenotazione riduce i tempi di attesa. Ogni biglietto è valido __(2)__ un solo accesso e va conservato per tutta __(3)__ durata della visita. Durante tutto __(4)__ percorso, il personale è autorizzato __(5)__ chiedere ai visitatori __(6)__ mostrare il biglietto.\n\nPrima __(7)__ entrare, bisogna depositare tutti __(8)__ zaini, le borse, gli ombrelli e tutti __(9)__ altri oggetti voluminosi al guardaroba. Il deposito è gratuito. In alcuni musei, prima __(10)__ accedere, è previsto un controllo al metal detector.",
+    "T4_TITLE": "REGOLE PER LA VISITA AL MUSEO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — di.** Il verbo «consigliare» introduce qui l'infinito con «di»: «si consiglia di prenotare». 中文：consigliare 后接 di。\n- **S1.2 — per.** L'aggettivo «valido» introduce l'uso con «per»: «valido per un solo accesso». 中文：表示用途时 valido 后接 per。\n- **S1.3 — la.** Dopo «tutta» serve l'articolo femminile singolare: «tutta la durata». 中文：tutta 后接 la。\n- **S1.4 — il.** Dopo «tutto» serve l'articolo maschile singolare: «tutto il percorso». 中文：tutto 后接 il。\n- **S1.5 — a.** L'aggettivo «autorizzato» regge «a + infinito»: «autorizzato a chiedere». 中文：autorizzato 后接 a。\n- **S1.6 — di.** La costruzione è «chiedere a qualcuno di + infinito»: «chiedere ai visitatori di mostrare». 中文：chiedere a qualcuno di fare qualcosa。\n- **S1.7 — di.** Davanti all'infinito, «prima» richiede «di»: «prima di entrare». 中文：prima di + 不定式。\n- **S1.8 — gli.** Dopo «tutti», davanti al plurale «zaini», serve «gli»: «tutti gli zaini». 中文：z 开头的阳性复数用 gli。\n- **S1.9 — gli.** Dopo «tutti», davanti a «altri», serve «gli»: «tutti gli altri oggetti». 中文：元音开头的阳性复数用 gli。\n- **S1.10 — di.** Davanti all'infinito, «prima» richiede «di»: «prima di accedere». 中文：prima di + 不定式。",
+    "ANS_S1_ROWS": "| S1.1 | di | S1.6 | di |\n| S1.2 | per | S1.7 | di |\n| S1.3 | la | S1.8 | gli |\n| S1.4 | il | S1.9 | gli |\n| S1.5 | a | S1.10 | di |"
+  },
+  "key": {
+    "S1.1": "di",
+    "S1.2": "per",
+    "S1.3": "la",
+    "S1.4": "il",
+    "S1.5": "a",
+    "S1.6": "di",
+    "S1.7": "di",
+    "S1.8": "gli",
+    "S1.9": "gli",
+    "S1.10": "di"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "grande affluenza",
+      "categoria": "espressione nominale",
+      "zh": "人流量大",
+      "en": "large crowds",
+      "esempio": "nei periodi di grande affluenza"
+    },
+    {
+      "parola": "tempi di attesa",
+      "categoria": "espressione nominale",
+      "zh": "等待时间",
+      "en": "waiting times",
+      "esempio": "La prenotazione riduce i tempi di attesa"
+    },
+    {
+      "parola": "metal detector",
+      "categoria": "sostantivo maschile invariabile",
+      "zh": "金属探测器",
+      "en": "metal detector",
+      "esempio": "al metal detector"
+    },
+    {
+      "parola": "guardaroba",
+      "categoria": "sostantivo maschile singolare",
+      "zh": "寄存处",
+      "en": "cloakroom",
+      "esempio": "al guardaroba"
+    },
+    {
+      "parola": "oggetti voluminosi",
+      "categoria": "espressione nominale",
+      "zh": "大件物品",
+      "en": "bulky objects",
+      "esempio": "altri oggetti voluminosi"
+    }
+  ]
+}

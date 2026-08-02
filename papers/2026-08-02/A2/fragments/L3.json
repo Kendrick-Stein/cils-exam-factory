@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Iscrizione gratuita**\n\nL'iscrizione alle Biblioteche civiche torinesi è gratuita. Prima di ricevere la tessera, però, bisogna consegnare alla biblioteca alcuni dati e documenti personali necessari per completare la richiesta.\n\n○ **2. Una tessera per più biblioteche**\n\nChi frequenta più biblioteche non deve chiedere una nuova tessera in ogni sede. Nel sistema BI.TO, infatti, basta una sola tessera per accedere ai servizi disponibili.\n\n○ **3. I servizi della tessera**\n\nChi possiede la tessera può usare diversi servizi della biblioteca, sia negli spazi fisici sia attraverso il catalogo online e l'area personale MyDiscovery.\n\n○ **4. Validità e aggiornamento**\n\nLa tessera resta valida nel tempo, ma l'iscrizione richiede comunque attenzione. Bisogna infatti aggiornare periodicamente i dati personali registrati nel sistema, anche se la tessera continua a funzionare.\n\n○ **5. Tessera persa**\n\nQuando perdi la tessera, devi avvisare subito la biblioteca: in questo modo il documento viene bloccato. Dopo la segnalazione puoi chiedere una nuova copia.\n\n○ **6. Iscrizione di enti e associazioni**\n\nLe Biblioteche civiche torinesi accettano anche richieste di iscrizione da parte di enti e associazioni. Per queste organizzazioni è prevista una condizione precisa.",
+    "L3_OPTIONS": "**A.** Per completare la richiesta bisogna presentare un documento d'identità valido, il codice fiscale e i dati di contatto.\n\n**B.** La stessa tessera è valida in tutte le biblioteche del sistema urbano e metropolitano BI.TO.\n\n**C.** Permette il prestito, l'uso delle postazioni digitali, l'accesso ai servizi online, agli ebook e all'area personale.\n\n**D.** I dati anagrafici vanno aggiornati ogni tre anni; dopo cinque anni d'inattività, bisogna rifare l'iscrizione.\n\n**E.** Il duplicato della tessera è disponibile, ma per riceverlo occorre pagare la tariffa prevista dal servizio.\n\n**F.** Per potersi iscrivere, ogni ente o associazione deve indicare il nome di un referente incaricato.\n\n**G.** Dopo tre anni di inattività, l'iscrizione viene cancellata e la tessera deve essere richiesta di nuovo.\n\n**H.** Per ottenere la tessera basta comunicare i dati di contatto alla biblioteca, senza mostrare documenti personali."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | Il testo parla di «dati e documenti personali»; A precisa documento d'identità, codice fiscale e contatti. 中文：三类材料缺一不可。 |\n| L3.2 | B | «Una sola tessera» serve nel sistema BI.TO; B conferma che vale in tutte le biblioteche urbane e metropolitane. 中文：不是每馆一张卡。 |\n| L3.3 | C | Il testo cita servizi negli spazi fisici e online; C elenca prestito, postazioni digitali, servizi online, ebook e area personale. 中文：对应实体与线上服务。 |\n| L3.4 | D | La tessera «resta valida nel tempo», ma i dati devono essere aggiornati: D indica tre anni e cinque anni d'inattività. 中文：区分资料更新与停用期限。 |\n| L3.5 | E | Dopo lo smarrimento si può chiedere «una nuova copia»; E spiega che il duplicato richiede la tariffa prevista. 中文：补卡需要付规定费用。 |\n| L3.6 | F | Per enti e associazioni c'è «una condizione precisa»; F indica il referente incaricato. 中文：机构须指定负责人。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D",
+    "L3.5": "E",
+    "L3.6": "F"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tessera",
+      "categoria": "sostantivo femminile",
+      "zh": "借阅卡；会员卡",
+      "en": "card; membership card",
+      "esempio": "La tessera resta valida nel tempo, ma l'iscrizione richiede comunque attenzione."
+    },
+    {
+      "parola": "dati anagrafici",
+      "categoria": "locuzione nominale plurale",
+      "zh": "个人登记资料",
+      "en": "personal registry details",
+      "esempio": "I dati anagrafici vanno aggiornati ogni tre anni; dopo cinque anni d'inattività, bisogna rifare l'iscrizione."
+    },
+    {
+      "parola": "inattività",
+      "categoria": "sostantivo femminile",
+      "zh": "未使用；不活跃",
+      "en": "inactivity",
+      "esempio": "I dati anagrafici vanno aggiornati ogni tre anni; dopo cinque anni d'inattività, bisogna rifare l'iscrizione."
+    },
+    {
+      "parola": "duplicato",
+      "categoria": "sostantivo maschile",
+      "zh": "补发件；副本",
+      "en": "replacement; duplicate",
+      "esempio": "Il duplicato della tessera è disponibile, ma per riceverlo occorre pagare la tariffa prevista dal servizio."
+    },
+    {
+      "parola": "referente incaricato",
+      "categoria": "locuzione nominale maschile",
+      "zh": "指定联系人",
+      "en": "appointed contact person",
+      "esempio": "Per potersi iscrivere, ogni ente o associazione deve indicare il nome di un referente incaricato."
+    }
+  ]
+}

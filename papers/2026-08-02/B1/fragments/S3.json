@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "Parte la __(0)__ edizione del progetto organizzato dall’Assessorato al Decentramento che __(1)__ ogni anno centinaia di ragazze e ragazzi dai 14 ai 19 anni in progetti di __(2)__ al servizio della propria __(3)__.\n\nQuest’anno sono presenti ben 90 __(4)__ laboratoriali per oltre 800 __(5)__, con progetti che, come tradizione, __(6)__ dalla __(7)__ ambientale al decoro urbano, dal __(8)__ in servizi rivolti a categorie fragili ad __(9)__ di riciclo e riuso, dall’abbellimento __(10)__ di spazi pubblici alla promozione turistica, dall’impegno nella salute e sicurezza alla prevenzione e tutela del territorio.\n\nL’elenco e la __(11)__ dettagliata dei laboratori sono in allegato.\n\nLe iscrizioni si effettueranno __(12)__ dal 26 al 28 maggio, chiamando i seguenti numeri dalle 14.30 alle 18.00 (al di fuori di questi giorni e orari i telefoni saranno __(13)__).\n\nMassimo due iscrizioni per telefonata; ogni iscritto può __(14)__ ad un solo __(15)__.\n\n3XX XXXXXXX – 3XX XXXXXXX\n3XX XXXXXXX – 3XX XXXXXXX\n3XX XXXXXXX – 3XX XXXXXXX",
+    "T6_TITLE": "LAVORI IN COMUNE – ESTATE 2026",
+    "S3_OPT0_A": "quindicesima",
+    "S3_OPT0_B": "dettagliata",
+    "S3_OPT0_C": "telefonica",
+    "S3_OPT0_D": "temporanea",
+    "S3_OPTION_ROWS": "| 1. | coinvolge | interrompe | separa | nasconde |\n| 2. | turismo | volontariato | traffico | allegato |\n| 3. | sicurezza | proposta | comunità | telefonata |\n| 4. | telefonate | risposte | domande | proposte |\n| 5. | posti | orari | numeri | territori |\n| 6. | riposano | telefonano | partecipano | spaziano |\n| 7. | attesa | cura | linea | tutela |\n| 8. | supporto | decoro | riciclo | impegno |\n| 9. | attività | allegati | orari | assessorati |\n| 10. | telefonico | artistico | ambientale | fragile |\n| 11. | iscrizione | telefonata | descrizione | prevenzione |\n| 12. | telefonicamente | dettagliatamente | artisticamente | temporaneamente |\n| 13. | presenti | rivolti | dettagliati | spenti |\n| 14. | rinunciare | arrivare | partecipare | restare |\n| 15. | laboratorio | territorio | telefono | allegato |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Il progetto «coinvolge ogni anno centinaia di ragazze e ragazzi». 中文：表示让青年参加项目。 |\n| S3.2 | B | I ragazzi partecipano a «progetti di volontariato» al servizio della comunità. 中文：固定搭配为志愿服务项目。 |\n| S3.3 | C | Il servizio è rivolto alla «propria comunità», cioè al territorio in cui vivono. 中文：指本地社区。 |\n| S3.4 | D | Il numero 90 indica le «proposte laboratoriali» disponibili. 中文：90项工作坊方案。 |\n| S3.5 | A | Gli «oltre 800 posti» indicano quanti giovani possono essere accolti. 中文：指可参加的名额。 |\n| S3.6 | D | I progetti «spaziano dalla cura ambientale» fino alla tutela del territorio. 中文：表示项目范围广泛。 |\n| S3.7 | B | La collocazione corretta è «cura ambientale». 中文：固定搭配“环境保护”。 |\n| S3.8 | A | Il testo parla del «supporto in servizi rivolti a categorie fragili». 中文：指为弱势群体服务提供支持。 |\n| S3.9 | A | Riciclo e riuso sono presentati come «attività». 中文：回收与再利用活动。 |\n| S3.10 | B | L’«abbellimento artistico di spazi pubblici» riguarda la decorazione degli spazi. 中文：艺术性美化公共空间。 |\n| S3.11 | C | In allegato si trovano «l’elenco e la descrizione dettagliata» dei laboratori. 中文：附件含详细说明。 |\n| S3.12 | A | L’espressione «chiamando i seguenti numeri» mostra che le iscrizioni avvengono telefonicamente. 中文：通过电话报名。 |\n| S3.13 | D | Fuori dai giorni e dagli orari indicati «i telefoni saranno spenti». 中文：非规定时段电话会关闭。 |\n| S3.14 | C | Ogni iscritto può «partecipare ad un solo laboratorio». 中文：每人只能参加一个工作坊。 |\n| S3.15 | A | La regola limita la partecipazione «ad un solo laboratorio». 中文：每人只能参加一个工作坊。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "D",
+    "S3.5": "A",
+    "S3.6": "D",
+    "S3.7": "B",
+    "S3.8": "A",
+    "S3.9": "A",
+    "S3.10": "B",
+    "S3.11": "C",
+    "S3.12": "A",
+    "S3.13": "D",
+    "S3.14": "C",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "centinaia di ragazze e ragazzi",
+      "categoria": "locuzione nominale",
+      "zh": "数百名青少年",
+      "en": "hundreds of young people",
+      "esempio": "centinaia di ragazze e ragazzi dai 14 ai 19 anni"
+    },
+    {
+      "parola": "decoro urbano",
+      "categoria": "locuzione nominale",
+      "zh": "市容维护",
+      "en": "urban beautification",
+      "esempio": "al decoro urbano"
+    },
+    {
+      "parola": "categorie fragili",
+      "categoria": "locuzione nominale",
+      "zh": "弱势群体",
+      "en": "vulnerable groups",
+      "esempio": "servizi rivolti a categorie fragili"
+    },
+    {
+      "parola": "riciclo e riuso",
+      "categoria": "locuzione nominale",
+      "zh": "回收与再利用",
+      "en": "recycling and reuse",
+      "esempio": "di riciclo e riuso"
+    },
+    {
+      "parola": "iscrizioni per telefonata",
+      "categoria": "locuzione nominale",
+      "zh": "每通电话的报名数量",
+      "en": "registrations per phone call",
+      "esempio": "Massimo due iscrizioni per telefonata"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi Michele Pascarella *(essere)* __è (0)__ un giovane ciclista originario di Maddaloni. Oggi *(raccontare)* __(1)__ la sua passione per la bici. Adesso *(andare)* __(2)__ in bicicletta. Da bambino, quando *(avere)* __(3)__ sei anni, ha iniziato ad andare in bici. Oggi *(avere)* __(4)__ ancora molta strada da fare. Mentre *(andare)* __(5)__ in bici, nessuno nella sua famiglia praticava il ciclismo. In questi anni la passione *(nascere)* __(6)__ in lui e, fino a oggi, Michele *(fare)* __(7)__ molta strada. Oggi tutti i 139 giovani corridori *(aspettare)* __(8)__ la tappa Bacoli-Bacoli. Adesso Michele *(sentire)* __(9)__ una forte emozione: da due mesi *(stare)* __(10)__ sognando questa gara.",
+    "T5_TITLE": "LA PASSIONE DI MICHELE PER LA BICI"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1 — presente:** «Oggi» colloca il racconto nel presente. 中文：现在的叙述。\n- **S2.2 — presente:** «Adesso» indica un'azione attuale. 中文：现在的动作。\n- **S2.3 — imperfetto:** «Da bambino, quando» introduce l'età di Michele nel passato. 中文：明确表示童年时的年龄。\n- **S2.4 — presente:** «oggi» richiede la situazione attuale. 中文：现在仍有很长的路。\n- **S2.5 — imperfetto:** «Mentre» presenta un'azione in corso nel passato. 中文：过去背景中的持续动作。\n- **S2.6 — passato prossimo:** «In questi anni» collega la nascita della passione al presente. 中文：这些年来形成的热爱。\n- **S2.7 — passato prossimo:** «fino a oggi» esclude un passato concluso e lontano. 中文：截至今天。\n- **S2.8 — presente:** «Oggi» indica l'attesa attuale dei corridori. 中文：今天正在等待。\n- **S2.9 — presente:** «Adesso» fissa l'emozione nel momento presente. 中文：此刻的感受。\n- **S2.10 — presente progressivo:** «da due mesi» e il gerundio «sognando» richiedono *sta*. 中文：动作已持续两个月。",
+    "ANS_S2_ROWS": "| S2.1 | racconta | presente | S2.6 | è nata | passato prossimo |\n| S2.2 | va | presente | S2.7 | ha fatto | passato prossimo |\n| S2.3 | aveva | imperfetto | S2.8 | aspettano | presente |\n| S2.4 | ha | presente | S2.9 | sente | presente |\n| S2.5 | andava | imperfetto | S2.10 | sta | presente progressivo |"
+  },
+  "key": {
+    "S2.1": "racconta",
+    "S2.2": "va",
+    "S2.3": "aveva",
+    "S2.4": "ha",
+    "S2.5": "andava",
+    "S2.6": "è nata",
+    "S2.7": "ha fatto",
+    "S2.8": "aspettano",
+    "S2.9": "sente",
+    "S2.10": "sta"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "originario",
+      "categoria": "aggettivo",
+      "zh": "来自……的；原籍……的",
+      "en": "originally from",
+      "esempio": "un giovane ciclista originario di Maddaloni"
+    },
+    {
+      "parola": "molta strada da fare",
+      "categoria": "espressione",
+      "zh": "还有很长的路要走",
+      "en": "a long way to go",
+      "esempio": "ancora molta strada da fare"
+    },
+    {
+      "parola": "praticava il ciclismo",
+      "categoria": "espressione verbale",
+      "zh": "从事自行车运动",
+      "en": "practised cycling",
+      "esempio": "nessuno nella sua famiglia praticava il ciclismo"
+    },
+    {
+      "parola": "corridori",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "自行车选手",
+      "en": "cyclists",
+      "esempio": "tutti i 139 giovani corridori"
+    },
+    {
+      "parola": "forte emozione",
+      "categoria": "espressione",
+      "zh": "强烈的激动心情",
+      "en": "strong emotion",
+      "esempio": "una forte emozione"
+    }
+  ]
+}

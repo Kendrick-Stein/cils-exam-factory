@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Nel fine settimana, Extracon**\n\nA) ha totalizzato 16 mila presenze.\n\nB) ha presentato solo videogiochi degli anni Ottanta.\n\nC) ha ospitato soltanto persone giovani.\n\n**2. La giovane cosplayer arrivata da Udine dice che**\n\nA) è arrivata alla manifestazione da Pordenone.\n\nB) racconta di disegnare le storie di Paperino.\n\nC) il cosplay le ha fatto scoprire un nuovo mondo.\n\n**3. Secondo Lucio Campani, alla manifestazione**\n\nA) si possono usare solamente i videogiochi delle sale giochi.\n\nB) ci sono giochi di epoche diverse e disegnatori al lavoro.\n\nC) lavorano soltanto gli autori delle storie di Paperino.\n\n**4. Francesco Guerrini racconta che**\n\nA) ha iniziato a lavorare nel mondo del fumetto negli anni Ottanta.\n\nB) ha lasciato il disegno perché il lavoro era troppo difficile.\n\nC) ha imparato il suo mestiere grazie a Giovan Battista Carpi.",
+    "T1_TEXT": "In Fiera a Pordenone una manifestazione per tutte le generazioni, con il trionfo della cultura pop. Gettonatissimi i videogames anni '80.\n\nFumetti, giochi e cultura pop alla Fiera di Pordenone per la manifestazione Extracon, che nel fine settimana ha totalizzato 16 mila presenze. \"Da quando ho iniziato a fare la cosplayer mi si è aperto un mondo\", racconta una giovane cosplayer arrivata da Udine.\n\nLucio Campani, direttore artistico della manifestazione, spiega che è un evento intergenerazionale in cui c’è di tutto. Ci sono il gioco di ieri e il gioco di oggi, i videogiochi Arcade degli anni ‘80, quelli che si trovano nelle sale giochi, e i videogiochi di nuova generazione. Ci sono anche tanti disegnatori che lavorano dal vivo e infine il cosplay. \"È un mondo estremamente colorato, variegato e divertente per tutte le generazioni\", aggiunge Campani.\n\nSono presenti una cinquantina di autori di manga e di fumetti. Francesco Guerrini, disegnatore delle storie di Paperino, racconta: \"Ho iniziato negli anni '90, quando il mondo del fumetto sembrava inarrivabile. Grazie all’insegnamento di Giovan Battista Carpi sono riuscito a fare questo mestiere. Si dice che quando fai un lavoro che ti piace è come se non lavorassi tutta la vita\".",
+    "T1_TITLE": "Cosplay, fumetti, giochi: a Extracon 16 mila presenze"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice che Extracon «ha totalizzato 16 mila presenze». 中文：不是只有某一种游戏或某一年龄的人。 |\n| L1.2 | C | La giovane afferma: «mi si è aperto un mondo». 中文：cosplay让她发现了新天地。 |\n| L1.3 | B | Il testo presenta «il gioco di ieri e il gioco di oggi» e «disegnatori che lavorano dal vivo». 中文：活动内容跨时代且很多样。 |\n| L1.4 | C | Guerrini dice: «Grazie all’insegnamento di Giovan Battista Carpi sono riuscito a fare questo mestiere». 中文：老师的指导帮助他进入这一职业。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "C",
+    "L1.3": "B",
+    "L1.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "intergenerazionale",
+      "categoria": "aggettivo",
+      "zh": "跨代的",
+      "en": "intergenerational",
+      "esempio": "un evento intergenerazionale"
+    },
+    {
+      "parola": "dal vivo",
+      "categoria": "locuzione avverbiale",
+      "zh": "现场地",
+      "en": "live",
+      "esempio": "disegnatori che lavorano dal vivo"
+    },
+    {
+      "parola": "una cinquantina",
+      "categoria": "nome numerale",
+      "zh": "大约五十",
+      "en": "about fifty",
+      "esempio": "una cinquantina di autori"
+    },
+    {
+      "parola": "inarrivabile",
+      "categoria": "aggettivo",
+      "zh": "难以达到的",
+      "en": "unattainable",
+      "esempio": "il mondo del fumetto sembrava inarrivabile"
+    },
+    {
+      "parola": "mestiere",
+      "categoria": "nome",
+      "zh": "职业；手艺",
+      "en": "profession; trade",
+      "esempio": "sono riuscito a fare questo mestiere"
+    }
+  ]
+}

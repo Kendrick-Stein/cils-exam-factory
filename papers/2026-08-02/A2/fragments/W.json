@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Racconta una visita a un mercatino nel tuo quartiere. Scrivi quando ci sei andato, con chi eri, che cosa hai visto o comprato e perché il luogo ti è piaciuto.",
+    "W2_PROMPT": "Scrivi un messaggio a un amico o a un'amica che frequenta una piscina. Chiedi informazioni su un corso di nuoto: domanda in quali giorni si svolge, quanto costa e se è adatto ai principianti."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Domenica scorsa sono andata al mercatino dei libri nel parco vicino a casa. Ero con il mio amico Luca. C'erano molte bancarelle colorate e tanta gente. Ho comprato un romanzo usato e abbiamo bevuto un caffè. Il parco era tranquillo e pieno di alberi. Mi è piaciuta molto l'atmosfera allegra.",
+    "MODEL_W1_PHRASES": "**Domenica scorsa sono andato/a…**（上周日我去了……）；**Ero con…**（我和……在一起）；**Ho comprato…**（我买了……）；**Mi è piaciuto/a perché…**（我喜欢……，因为……）",
+    "MODEL_W2": "Ciao Marta, vorrei frequentare il corso di nuoto della tua piscina. Sai dirmi in quali giorni si svolge e quanto costa? È adatto ai principianti? Grazie per le informazioni! A presto, Giulia",
+    "MODEL_W2_PHRASES": "**Vorrei frequentare…**（我想参加……）；**Sai dirmi…?**（你能告诉我……吗？）；**Quanto costa?**（多少钱？）；**Grazie per le informazioni!**（谢谢你的信息！）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}
