@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "**Fru, (raccontare) __racconta (0)__: fino a oggi (studiare) __(1)__ tutto?**\n\nTutto.\n\n**Adesso (essere) __(2)__ pronto e (sapere) __(3)__ cucinare?**\n\nAdesso, di solito, (cucinare) __(4)__ per i valori nutrizionali, non per il gusto.\n\n**Mentre (imparare) __(5)__, che cosa preparavi?**\n\nIn quel periodo (preparare) __(6)__ sempre pasta col tonno. Fino a oggi è la prima cosa che (imparare) __(7)__. Finora (fare) __(8)__ questo piatto più spesso.\n\n**Se dovessi scegliere, quale piatto (dire) __(9)__ che è il tuo cavallo di battaglia?**\n\nLa pasta col tonno: adesso (essere) __(10)__ il mio cavallo di battaglia. Fra qualche anno (preparare) __(11)__ ancora questo piatto!\n\n**Adesso che cosa (mangiare) __(12)__ a colazione?**\n\nTantissimo latte. Adesso (bere) __(13)__ sia quello vaccino sia quello vegetale.\n\n**Se dovessi sceglierne uno, quale (preferire) __(14)__?**\n\nForse quello d'avena o di soia. Se volessi un alimento solido, (scegliere) __(15)__ carboidrati: pan bauletto o muesli integrale. Fino a oggi (consumare) __(16)__ molti prodotti di origine vegetale.\n\n**Oggi questa attenzione (rientrare) __(17)__ nel tuo carattere?**\n\nSì. Adesso (dovere) __(18)__ pensare al cibo. Mentre facevo ordine tra proteine, carboidrati e grassi, (pensare) __(19)__ sempre alle quantità. In futuro (continuare) __(20)__ a calcolarle: sono un po' compulsivo e strambo.",
+    "T5_TITLE": "LA DIETA IRONICA DI FRU"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1:** «fino a oggi» richiede il passato prossimo: l'esperienza arriva al presente（延续至今）.\n- **S2.5–S2.6:** «mentre» e «in quel periodo... sempre» descrivono azioni abituali in corso nel passato（过去的持续与习惯）.\n- **S2.9, S2.14–S2.15:** le frasi con *se* presentano situazioni ipotetiche e richiedono il condizionale（假设情境）.\n- **S2.10–S2.11 e S2.20:** «adesso», «fra qualche anno» e «in futuro» distinguono presente e futuro（现在与将来的明确标记）.",
+    "ANS_S2_ROWS": "| 1 | hai studiato | passato prossimo | 11 | preparerò | futuro semplice |\n| 2 | sei | presente indicativo | 12 | mangi | presente indicativo |\n| 3 | sai | presente indicativo | 13 | bevo | presente indicativo |\n| 4 | cucino | presente indicativo | 14 | preferiresti | condizionale presente |\n| 5 | imparavi | imperfetto indicativo | 15 | sceglierei | condizionale presente |\n| 6 | preparavo | imperfetto indicativo | 16 | ho consumato | passato prossimo |\n| 7 | ho imparato | passato prossimo | 17 | rientra | presente indicativo |\n| 8 | ho fatto | passato prossimo | 18 | devo | presente indicativo |\n| 9 | diresti | condizionale presente | 19 | pensavo | imperfetto indicativo |\n| 10 | è | presente indicativo | 20 | continuerò | futuro semplice |"
+  },
+  "key": {
+    "S2.1": "hai studiato",
+    "S2.2": "sei",
+    "S2.3": "sai",
+    "S2.4": "cucino",
+    "S2.5": "imparavi",
+    "S2.6": "preparavo",
+    "S2.7": "ho imparato",
+    "S2.8": "ho fatto",
+    "S2.9": "diresti",
+    "S2.10": "è",
+    "S2.11": "preparerò",
+    "S2.12": "mangi",
+    "S2.13": "bevo",
+    "S2.14": "preferiresti",
+    "S2.15": "sceglierei",
+    "S2.16": "ho consumato",
+    "S2.17": "rientra",
+    "S2.18": "devo",
+    "S2.19": "pensavo",
+    "S2.20": "continuerò"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "valori nutrizionali",
+      "categoria": "locuzione nominale",
+      "zh": "营养价值",
+      "en": "nutritional values",
+      "esempio": "Adesso, di solito, (cucinare) __(4)__ per i valori nutrizionali, non per il gusto."
+    },
+    {
+      "parola": "cavallo di battaglia",
+      "categoria": "locuzione nominale",
+      "zh": "拿手好戏",
+      "en": "signature dish",
+      "esempio": "quale piatto (dire) __(9)__ che è il tuo cavallo di battaglia?"
+    },
+    {
+      "parola": "di origine vegetale",
+      "categoria": "locuzione aggettivale",
+      "zh": "植物来源的",
+      "en": "plant-based",
+      "esempio": "Fino a oggi (consumare) __(16)__ molti prodotti di origine vegetale."
+    },
+    {
+      "parola": "facevo ordine",
+      "categoria": "locuzione verbale",
+      "zh": "整理；理清",
+      "en": "to put in order",
+      "esempio": "Mentre facevo ordine tra proteine, carboidrati e grassi"
+    },
+    {
+      "parola": "strambo",
+      "categoria": "aggettivo",
+      "zh": "古怪的",
+      "en": "quirky",
+      "esempio": "sono un po' compulsivo e strambo"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "IL CAMMINO NELLE TERRE MUTATE",
+    "T3_PART_A": "Sono arrivata in treno da Milano alle cinque del mattino e ho raggiunto subito la piazza principale di Fabriano. Da lì mi sono messa in cammino, pronta ad affrontare la prima tappa del viaggio.",
+    "T3_PART_B": "Nella tappa successiva, vegetazione e campi aperti hanno lasciato Camerino alle mie spalle. Un sentiero stretto tra le ginestre mi ha condotta al lago di Polverina; poi, seguendo i segnali, sono entrata nel bosco.",
+    "T3_PART_C": "Trascorse poco più di due ore su quella strada silenziosa, sono giunta al borgo di Esanatoglia. Qui mi sono concessa una pausa per mangiare e riprendere le forze prima di rimettermi in marcia.",
+    "T3_PART_D": "Poco prima dell'ultima salita verso quel centro, particolarmente impegnativa, ho fatto la spesa. Mi sarebbe servita nella cucina della foresteria dove le suore Clarisse mi avrebbero ospitata in cambio di un'offerta libera.",
+    "T3_PART_E": "Al termine di quella ripida salita, le forti pendenze si sono fatte dimenticare. Davanti a me si è aperta infatti la vista sul lago, un panorama capace di ripagare pienamente tutti gli sforzi della giornata.",
+    "T3_PART_F": "Dopo i primi otto chilometri ho raggiunto l'eremo di San Silvestro. Lungo una carrozzabile deserta e silenziosa ho incrociato un gregge, che mi ha dato il primo brivido del cammino.",
+    "T3_PART_G": "Dopo il punto in cui i due cammini si separavano, il bosco poteva essere fangoso dopo la pioggia e ogni rumore faceva pensare a incontri inattesi. Infine sono arrivata a Fiastra, dove ho dormito al rifugio il Tribbio.",
+    "T3_PART_H": "All'inizio della seconda tappa, uscendo da Matelica, mi sono immersa rapidamente nella macchia vegetativa. Non c'erano bar lungo il percorso; in lontananza, però, vedevo Camerino e le gru della ricostruzione postsismica.",
+    "T3_PART_I": "All'avvio della quarta tappa, proprio accanto al rifugio, il sentiero sembrava disegnato con un righello. Saliva ripidamente per circa due chilometri e mezzo nel bosco ed era molto bagnato dopo il temporale della sera precedente.",
+    "T3_PART_J": "Una volta superata quella salita, ho raggiunto il centro di Camerino. I palazzi nobiliari e le chiese erano di grande bellezza, ma la città appariva anche come un vasto cantiere a cielo aperto.",
+    "T3_PART_K": "Conclusa quella breve pausa, sono ripartita su un sentiero semplice. Dopo sette ore e mezza di cammino sono arrivata a Matelica, dove ho alloggiato all'Hotel La Loggia e ho trovato un paese fornito di tutto."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l'inizio: l'arrivo a Fabriano avvia esplicitamente la prima tappa. |\n| 2 | F | «Dopo i primi otto chilometri» riprende il cammino iniziato nella parte A. |\n| 3 | C | «quella strada silenziosa» richiama la carrozzabile della parte F. |\n| 4 | K | «quella breve pausa» è la sosta a Esanatoglia descritta nella parte C. |\n| 5 | H | «la seconda tappa» comincia dopo l'arrivo e il pernottamento a Matelica. |\n| 6 | D | «quel centro» è Camerino, visto in lontananza nella parte H. |\n| 7 | J | «quella salita» è l'ultima salita verso Camerino annunciata nella parte D. |\n| 8 | B | «Nella tappa successiva» riparte da Camerino dopo la visita al centro. |\n| 9 | G | «il punto in cui i due cammini si separavano» segue i segnali citati nella parte B. |\n| 10 | I | La quarta tappa parte «proprio accanto al rifugio» di Fiastra nominato nella parte G. |\n| 11 | E | «quella ripida salita» riprende il tratto boschivo descritto nella parte I. |",
+    "ANS_L3_SEQUENCE": "A–F–C–K–H–D–J–B–G–I–E"
+  },
+  "key": {
+    "L3": "A–F–C–K–H–D–J–B–G–I–E"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "macchia vegetativa",
+      "categoria": "espressione nominale",
+      "zh": "茂密植被",
+      "en": "dense vegetation",
+      "esempio": "All'inizio della seconda tappa, uscendo da Matelica, mi sono immersa rapidamente nella macchia vegetativa."
+    },
+    {
+      "parola": "carrozzabile",
+      "categoria": "nome femminile",
+      "zh": "车行道",
+      "en": "carriage road",
+      "esempio": "Lungo una carrozzabile deserta e silenziosa ho incrociato un gregge, che mi ha dato il primo brivido del cammino."
+    },
+    {
+      "parola": "gregge",
+      "categoria": "nome maschile",
+      "zh": "羊群",
+      "en": "flock",
+      "esempio": "Lungo una carrozzabile deserta e silenziosa ho incrociato un gregge, che mi ha dato il primo brivido del cammino."
+    },
+    {
+      "parola": "fangoso",
+      "categoria": "aggettivo",
+      "zh": "泥泞的",
+      "en": "muddy",
+      "esempio": "Dopo il punto in cui i due cammini si separavano, il bosco poteva essere fangoso dopo la pioggia e ogni rumore faceva pensare a incontri inattesi."
+    },
+    {
+      "parola": "cantiere a cielo aperto",
+      "categoria": "espressione nominale",
+      "zh": "露天工地",
+      "en": "open-air construction site",
+      "esempio": "I palazzi nobiliari e le chiese erano di grande bellezza, ma la città appariva anche come un vasto cantiere a cielo aperto."
+    }
+  ]
+}

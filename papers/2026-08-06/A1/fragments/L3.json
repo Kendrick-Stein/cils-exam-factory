@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "1. **Armadio in vendita**\n\n   Vendo un armadio come nuovo, in ottimo legno, con due ante scorrevoli a specchio e tre sportelli. Mi trasferisco e non mi serve. Ritiro a carico dell'acquirente.\n\n2. **Prenotazione del festival**\n\n   Per entrare all'Aquileia Film Festival 2026, la prenotazione online è obbligatoria dal 14 luglio. Usa il link indicato per effettuare la prenotazione.\n\n3. **Film del sabato**\n\n   Sabato 1 agosto, la rassegna INCinema OUTSIDE presenta REAR WINDOW (La finestra sul cortile), in versione originale con sottotitoli in italiano.\n\n4. **Film del lunedì**\n\n   Lunedì 3 agosto, il festival presenta Aquileia e i cristianesimi perduti, diretto da Massimo Garlatti Costa. Il film italiano del 2026 dura 68 minuti ed è in italiano.",
+    "L3_OPTIONS": "A. Un mobile con specchi è in vendita perché il proprietario si trasferisce.\n\nB. Per entrare al festival è necessaria una prenotazione online.\n\nC. Il sabato c'è un film in versione originale con sottotitoli italiani.\n\nD. Il lunedì c'è un film italiano che dura 68 minuti.\n\nE. Dal 14 luglio è possibile entrare al festival senza prenotazione.\n\nF. Il lunedì c'è REAR WINDOW in lingua italiana."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | A | «Mi trasferisco e non mi serve» e «ante scorrevoli a specchio». 中文：因搬家出售带镜子的衣柜。 |\n| L3.2 | B | «la prenotazione online è obbligatoria». 中文：进入电影节必须在线预约。 |\n| L3.3 | C | «Sabato 1 agosto» e «versione originale con sottotitoli in italiano». 中文：周六的影片是原声加意大利语字幕。 |\n| L3.4 | D | «Lunedì 3 agosto», «film italiano» e «dura 68 minuti». 中文：周一是时长68分钟的意大利影片。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "A",
+    "L3.2": "B",
+    "L3.3": "C",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ante scorrevoli",
+      "categoria": "espressione nominale",
+      "zh": "推拉门",
+      "en": "sliding doors",
+      "esempio": "Vendo un armadio come nuovo, in ottimo legno, con due ante scorrevoli a specchio e tre sportelli."
+    },
+    {
+      "parola": "a carico dell'acquirente",
+      "categoria": "espressione",
+      "zh": "由买方承担",
+      "en": "at the buyer's expense",
+      "esempio": "Ritiro a carico dell'acquirente."
+    },
+    {
+      "parola": "prenotazione online",
+      "categoria": "espressione nominale",
+      "zh": "在线预约",
+      "en": "online booking",
+      "esempio": "Per entrare all'Aquileia Film Festival 2026, la prenotazione online è obbligatoria dal 14 luglio."
+    },
+    {
+      "parola": "versione originale",
+      "categoria": "espressione nominale",
+      "zh": "原声版本",
+      "en": "original-language version",
+      "esempio": "Sabato 1 agosto, la rassegna INCinema OUTSIDE presenta REAR WINDOW (La finestra sul cortile), in versione originale con sottotitoli in italiano."
+    },
+    {
+      "parola": "sottotitoli in italiano",
+      "categoria": "espressione nominale",
+      "zh": "意大利语字幕",
+      "en": "Italian subtitles",
+      "esempio": "Sabato 1 agosto, la rassegna INCinema OUTSIDE presenta REAR WINDOW (La finestra sul cortile), in versione originale con sottotitoli in italiano."
+    }
+  ]
+}

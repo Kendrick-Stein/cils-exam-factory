@@ -1,0 +1,486 @@
+---
+exam: CILS
+level: B2
+level_name: "CILS DUE — B2"
+session: "2026-08-06"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello DUE-B2 — Prova di esercitazione · 6 agosto 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello dei quaderni d'esame CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Le chiavi, i criteri di punteggio e il glossario sono nel fascicolo delle risposte.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 50 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 20**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### Pupazzi di neve ai confini del Sistema solare
+
+Chiunque abbia visto il cartone animato Frozen ricorderà Olaf, il pupazzo di neve fragile eppure sorprendentemente stabile. Ebbene, a miliardi di chilometri dalla Terra, nella regione più remota del Sistema solare, esistono oggetti reali che ricordano proprio la forma del personaggio animato: un “pupazzo di neve” cosmico composto da due sfere sovrapposte e poi fuse insieme. Una sorta di Frosty che si muove nello spazio.
+
+Ma facciamo un passo indietro. Ben oltre l’orbita dei pianeti giganti, al di là di Nettuno, s’incontra la fascia di Kuiper: una regione a forma di ciambella estesa tra 4,5 e 8 miliardi di chilometri dal Sole, popolata da migliaia di corpi ghiacciati, residui della formazione del Sistema solare. In questa regione si trovano pianeti nani come Plutone, comete e planetesimi, ovvero i primi “mattoni” della costruzione planetaria.
+
+Si tratta di materiali rimasti quasi intatti fin dall’epoca in cui il Sistema solare stava prendendo forma, più di quattro miliardi e mezzo di anni fa. La densità di oggetti in questa zona del cosmo è relativamente bassa e le collisioni sono meno frequenti rispetto alle regioni interne del Sistema solare; per questo motivo molte strutture originarie sono sopravvissute.
+
+È proprio in questo ambiente freddo e poco disturbato che gli astronomi hanno osservato un’abbondanza sorprendente di oggetti dalla forma bilobata, che ricorda – appunto – quella di un pupazzo di neve. Una frazione significativa – circa il dieci per cento – dei piccoli corpi della fascia di Kuiper mostra questa morfologia a “due lobi”.
+
+Sono chiamati asteroidi binari a contatto, cioè corpi originariamente separati che, nel tempo, si sono avvicinati fino a toccarsi e fondersi senza distruggersi.
+
+La domanda che ha incuriosito per anni gli astronomi è stata: perché nello spazio molti oggetti ghiacciati assumono proprio questa strana configurazione? A rispondere è ora uno studio, pubblicato ieri su Monthly Notices of the Royal Astronomical Society, condotto da un gruppo di ricercatori della Michigan State University avvalendosi di una nuova generazione di simulazioni.
+
+Il meccanismo individuato sarebbe legato al collasso gravitazionale nelle prime fasi del disco protoplanetario. Ma per comprendere l’origine di tali oggetti è necessario tornare al momento in cui il Sistema solare si stava formando. All’inizio, la giovane Via Lattea era caratterizzata da dischi di gas e polveri. Anche intorno al Sole nascente, minuscoli granelli solidi iniziarono a scontrarsi e aggregarsi.
+
+Il processo avvenne gradualmente: le polveri micrometriche si unirono formando aggregati sempre più grandi, poi piccoli ciottoli, quindi ammassi di dimensioni maggiori. A un certo punto, la gravità divenne la forza dominante e questi agglomerati iniziarono ad attirare ulteriore materiale, dando origine ai planetesimi. Un’analogia efficace è quella dei fiocchi di neve che si accumulano a formare una palla: all’inizio la struttura è fragile, ma man mano che cresce diventa più compatta e resistente.
+
+Nello spazio, questo processo avverrebbe su scale immensamente più grandi, ma secondo gli stessi principi fisici.
+
+> *Completa le frasi. Scegli una delle quattro proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. Il riferimento al personaggio di Olaf serve a**
+
+A) spiegare perché i corpi ghiacciati restano stabili.
+
+B) rendere immediatamente riconoscibile la forma degli oggetti descritti.
+
+C) indicare il materiale di cui sono composti i pianeti nani.
+
+D) localizzare la regione più lontana del Sistema solare.
+
+**2. La fascia di Kuiper viene presentata come una regione che**
+
+A) contiene soprattutto pianeti giganti ancora in formazione.
+
+B) occupa lo spazio compreso tra la Terra e Nettuno.
+
+C) conserva numerosi corpi ghiacciati nati durante la formazione del Sistema solare.
+
+D) è costituita da materiali modificati frequentemente dalle collisioni.
+
+**3. Molte strutture originarie sono sopravvissute nella fascia di Kuiper soprattutto perché**
+
+A) gli oggetti sono poco concentrati e si scontrano raramente.
+
+B) i corpi ghiacciati si trovano vicini ai pianeti nani.
+
+C) il freddo rende ogni agglomerato più compatto e resistente.
+
+D) le collisioni sono più frequenti che nelle regioni interne.
+
+**4. Secondo il testo, la forma bilobata riguarda**
+
+A) quasi tutti i pianeti nani situati oltre Nettuno.
+
+B) soltanto i corpi osservati nelle regioni interne.
+
+C) la metà degli oggetti che compongono la fascia di Kuiper.
+
+D) circa un decimo dei piccoli corpi della fascia di Kuiper.
+
+**5. Gli asteroidi binari a contatto si sono formati quando due corpi**
+
+A) sono entrati in collisione distruggendosi reciprocamente.
+
+B) si sono avvicinati gradualmente fino a unirsi senza rompersi.
+
+C) hanno attirato i pianeti nani presenti nella stessa regione.
+
+D) si sono separati dopo essere rimasti a lungo sovrapposti.
+
+**6. Le nuove simulazioni impiegate dai ricercatori mirano a chiarire**
+
+A) perché numerosi oggetti ghiacciati presentano una configurazione a due lobi.
+
+B) quanto tempo impiegano le comete per attraversare la fascia di Kuiper.
+
+C) in quale modo Plutone abbia conservato la propria struttura originaria.
+
+D) perché il disco protoplanetario fosse composto solo da polveri.
+
+**7. L'analogia dei fiocchi di neve mette in evidenza che la formazione dei planetesimi**
+
+A) dipende dalla presenza di acqua allo stato solido.
+
+B) comincia con strutture già compatte e resistenti.
+
+C) procede per accumulo, da particelle minuscole ad aggregati più solidi.
+
+D) si conclude prima che la gravità diventi la forza dominante.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### NATALE 2026: DUE AVVISI PER IL CENTRO STORICO DI RAVENNA
+
+Il Comune di Ravenna ha pubblicato due avvisi di indagine di mercato finalizzati a individuare gli operatori economici da invitare alle successive procedure negoziate per la realizzazione del Natale 2026 nel centro storico.
+
+I due affidamenti riguardano, da un lato, la progettazione, l’organizzazione e la gestione del Villaggio di Natale e del programma di animazione e, dall’altro, la progettazione, il noleggio, l’installazione e la gestione delle luminarie artistiche che illumineranno le principali piazze e vie del centro storico.
+
+Il progetto del Villaggio di Natale previsto in piazza del Popolo dovrà essere composto indicativamente da dodici casette in legno, di cui non più di quattro destinate alla somministrazione di alimenti e bevande. Oltre agli allestimenti scenografici e agli impianti necessari, il progetto dovrà comprendere la gestione delle attività commerciali, la manutenzione e la pulizia quotidiana dell’area, assicurando un’elevata qualità estetica e funzionale.
+
+Il Villaggio sarà operativo indicativamente dal 27 novembre 2026 al 6 gennaio 2027.
+
+Accanto al Villaggio va presentato anche un programma di animazione natalizia rivolto soprattutto a bambini e famiglie, con spettacoli, intrattenimento e iniziative che si svolgeranno dall’8 dicembre 2026 al 6 gennaio 2027, con una maggiore concentrazione di eventi nei giorni festivi e durante il periodo compreso tra il 23 dicembre e l’Epifania. Il progetto comprenderà anche l’organizzazione dell’evento inaugurale in occasione dell’accensione dell’Albero di Natale in piazza del Popolo.
+
+Il secondo avviso riguarda invece il servizio di ideazione e realizzazione delle luminarie artistiche del centro storico. Il progetto dovrà proporre un concept illuminotecnico originale e in armonia con il patrimonio storico e monumentale della città e con l’illuminazione dell’Albero di Natale di Piazza del Popolo, che sarà allestito direttamente dal Comune di Ravenna con il supporto tecnico-operativo di Azimut S.p.A.
+
+Le luminarie, realizzate con tecnologia LED a luce calda, interesseranno le principali piazze e vie del centro storico e comprenderanno tutte le attività di progettazione, noleggio, installazione, assistenza tecnica, manutenzione e successivo smontaggio. L’allestimento dovrà essere completato entro il 27 novembre 2026 per consentire l’accensione inaugurale prevista il 28 novembre. Le installazioni rimarranno in funzione per tutto il periodo natalizio e saranno rimosse entro il 31 gennaio 2027.
+
+Possono presentare manifestazione di interesse gli operatori economici in possesso dei requisiti previsti dai rispettivi avvisi, tra cui l’abilitazione al Mercato Elettronico della Pubblica Amministrazione (MEPA), adeguata capacità economica ed esperienza nei settori dell’organizzazione di eventi o della realizzazione di allestimenti illuminotecnici.
+
+Le manifestazioni di interesse dovranno essere presentate esclusivamente attraverso il Portale delle gare telematiche del Comune di Ravenna entro le ore 12.30 di giovedì 6 agosto 2026.
+
+> *Leggi le informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. I due avvisi servono a individuare gli operatori da invitare a successive procedure negoziate.**  Vero ○ Falso ○
+
+**2. I due affidamenti riguardano entrambi esclusivamente la gestione del Villaggio di Natale.**  Vero ○ Falso ○
+
+**3. Un affidamento comprende il Villaggio e l'animazione, mentre l'altro riguarda le luminarie artistiche.**  Vero ○ Falso ○
+
+**4. Il progetto deve prevedere esattamente dodici casette in legno.**  Vero ○ Falso ○
+
+**5. Al massimo quattro casette possono essere destinate alla somministrazione di alimenti e bevande.**  Vero ○ Falso ○
+
+**6. La pulizia dell'area del Villaggio è richiesta soltanto nei giorni festivi.**  Vero ○ Falso ○
+
+**7. Il periodo indicativo di attività del Villaggio va dal 27 novembre 2026 al 6 gennaio 2027.**  Vero ○ Falso ○
+
+**8. Il programma di animazione comincia nello stesso giorno in cui apre il Villaggio.**  Vero ○ Falso ○
+
+**9. Gli eventi di animazione devono essere più numerosi nei giorni festivi e tra il 23 dicembre e l'Epifania.**  Vero ○ Falso ○
+
+**10. L'operatore incaricato delle luminarie deve occuparsi anche dell'allestimento dell'Albero di Natale.**  Vero ○ Falso ○
+
+**11. Il progetto illuminotecnico deve armonizzarsi sia con il patrimonio cittadino sia con l'illuminazione dell'Albero.**  Vero ○ Falso ○
+
+**12. Per le luminarie è prevista una tecnologia LED a luce fredda.**  Vero ○ Falso ○
+
+**13. Tra i requisiti richiesti figurano l'abilitazione al MEPA, una capacità economica adeguata e un'esperienza pertinente.**  Vero ○ Falso ○
+
+**14. Le manifestazioni di interesse possono essere inviate anche con modalità diverse dal Portale delle gare telematiche.**  Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi il testo. Il testo è diviso in 11 parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d'ordine accanto a ciascuna parte. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### IL CAMMINO NELLE TERRE MUTATE
+
+| Ordine | Parte |
+|---|---|
+| **1** | **A.** Sono arrivata in treno da Milano alle cinque del mattino e ho raggiunto subito la piazza principale di Fabriano. Da lì mi sono messa in cammino, pronta ad affrontare la prima tappa del viaggio. |
+| ☐ | **B.** Nella tappa successiva, vegetazione e campi aperti hanno lasciato Camerino alle mie spalle. Un sentiero stretto tra le ginestre mi ha condotta al lago di Polverina; poi, seguendo i segnali, sono entrata nel bosco. |
+| ☐ | **C.** Trascorse poco più di due ore su quella strada silenziosa, sono giunta al borgo di Esanatoglia. Qui mi sono concessa una pausa per mangiare e riprendere le forze prima di rimettermi in marcia. |
+| ☐ | **D.** Poco prima dell'ultima salita verso quel centro, particolarmente impegnativa, ho fatto la spesa. Mi sarebbe servita nella cucina della foresteria dove le suore Clarisse mi avrebbero ospitata in cambio di un'offerta libera. |
+| ☐ | **E.** Al termine di quella ripida salita, le forti pendenze si sono fatte dimenticare. Davanti a me si è aperta infatti la vista sul lago, un panorama capace di ripagare pienamente tutti gli sforzi della giornata. |
+| ☐ | **F.** Dopo i primi otto chilometri ho raggiunto l'eremo di San Silvestro. Lungo una carrozzabile deserta e silenziosa ho incrociato un gregge, che mi ha dato il primo brivido del cammino. |
+| ☐ | **G.** Dopo il punto in cui i due cammini si separavano, il bosco poteva essere fangoso dopo la pioggia e ogni rumore faceva pensare a incontri inattesi. Infine sono arrivata a Fiastra, dove ho dormito al rifugio il Tribbio. |
+| ☐ | **H.** All'inizio della seconda tappa, uscendo da Matelica, mi sono immersa rapidamente nella macchia vegetativa. Non c'erano bar lungo il percorso; in lontananza, però, vedevo Camerino e le gru della ricostruzione postsismica. |
+| ☐ | **I.** All'avvio della quarta tappa, proprio accanto al rifugio, il sentiero sembrava disegnato con un righello. Saliva ripidamente per circa due chilometri e mezzo nel bosco ed era molto bagnato dopo il temporale della sera precedente. |
+| ☐ | **J.** Una volta superata quella salita, ho raggiunto il centro di Camerino. I palazzi nobiliari e le chiese erano di grande bellezza, ma la città appariva anche come un vasto cantiere a cielo aperto. |
+| ☐ | **K.** Conclusa quella breve pausa, sono ripartita su un sentiero semplice. Dopo sette ore e mezza di cammino sono arrivata a Matelica, dove ho alloggiato all'Hotel La Loggia e ho trovato un paese fornito di tutto. |
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 1 ora** · Numero delle prove: **4** · Punteggio totale: **punti 20**
+*(punteggio massimo grezzo 24, riportato a 20 mediante la proporzione 20 : 24 = x : punteggio ottenuto)*
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli aggettivi e i pronomi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### ACROPHYLLA ALTA, L'INSETTO STECCO DEI RECORD
+
+Gli insetti stecco appartengono all'ordine dei Fasmoidei. __Il loro (0)__ aspetto ricorda un ramo. Quest'ordine __(1)__ compone delle specie chiamate "insetti stecco". In Italia ne sono registrate due: il Bacillus rossius, la specie la __(2)__ diffusione copre tutto il territorio, e il Clonopsis gallica, che __(3)__ trova soltanto sulle isole.
+
+Vivono ovunque; l'Antartide è l'unico continente nel __(4)__ non sono presenti. Un caso particolare è l'Australia, nella __(5)__ si contano oltre cento specie. Una di queste __(6)__ distingue per il peso: è un insetto il __(7)__ nome è Acrophylla alta. Quanto alla nuova specie, uno studio su Zootaxa __(8)__ descrive come l'insetto più pesante d'Australia. Quanto agli esemplari, la ricerca __(9)__ descrive nascosti tra le fronde in zone remote, nelle __(10)__ è difficile osservarli.
+
+Ross Coupland ha ricevuto via social la foto di un grande insetto stecco. Quell'immagine __(11)__ spinse a chiedere il parere di Angus Emmott. I due __(12)__ occuparono insieme e conclusero che era una specie nuova.
+
+I due partirono verso l'area in __(13)__ l'insetto era stato individuato: l'altopiano Atherton, un plateau del Queensland sul __(14)__ restano gli ultimi pezzi di foresta pluviale. Quella foresta, della __(15)__ restano poche macchie, è stata tagliata per colture e pascoli, ai __(16)__ il taglio ha fatto spazio. In una macchia in __(17)__ la foresta sopravvive, i ricercatori cercarono l'esemplare del __(18)__ Coupland aveva ricevuto la foto; __(19)__ cercarono lì e alla fine __(20)__ trovarono uno: forse proprio quello segnalato.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme giuste dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### BAJANI E LA LINGUA DEL SUO ROMANZO
+
+Oggi Andrea Bajani *(vivere)* __vive (0)__ a Houston. Finora *L'Anniversario* *(vincere)* __(1)__ il Premio Strega. In questi mesi il *New Yorker* *(pubblicare)* __(2)__ un capitolo; fino a oggi quel capitolo *(tradurre)* __(3)__ in inglese da Geoffrey Brock.
+
+**Che pensa della traduzione?**
+
+Dopo *(leggerla)* __(4)__, mi sono detto: «Questa è una rivelazione»; adesso io *(pensare)* __(5)__ lo stesso. Se avessi potuto scegliere la lingua, *(volere)* __(6)__ scriverlo in inglese; mentre preparavo il libro, per ragioni linguistiche non *(potere)* __(7)__ farlo. Perciò ho dovuto *(scrivere)* __(8)__ il romanzo in italiano; mentre lo scrivevo, mi sembrava che ogni frase *(nascere)* __(9)__ in quel momento in inglese.
+
+**Pensava già ai lettori americani?**
+
+Mentre *(lavorare)* __(10)__ al romanzo, *(pensare)* __(11)__ sempre a loro e ogni giorno *(cercare)* __(12)__ di far emergere dalla storia italiana qualcosa di universale. Volevo che quel tema *(riguardare)* __(13)__ il mio Paese e *(potere)* __(14)__ interessare chiunque altro.
+
+**Dove è nato il romanzo?**
+
+Oggi io *(insegnare)* __(15)__ scrittura creativa alla Rice University e adesso *(raccontare)* __(16)__ la genesi di *L'Anniversario*: il romanzo è nato dalle lezioni del corso *Writing the Family*. Ancora oggi la famiglia *(portare)* __(17)__ con sé la politica e le emozioni primordiali. Questi due elementi *(alzare)* __(18)__ sempre la temperatura di ogni storia e *(rappresentare)* __(19)__ tutto ciò che ancora oggi per me *(contare)* __(20)__ nella letteratura.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento che ti diamo. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### GUIDA A PA DIGITALE 2026
+
+Scopri le __(0)__ per usare la piattaforma e __(1)__ i problemi tecnici più comuni.
+
+**Attivare il profilo della tua PA**
+
+L’__(2)__ del profilo della PA è il primo passo per partecipare agli avvisi pubblici e richiedere i finanziamenti per __(3)__ il processo di transizione digitale.
+
+Un rappresentante della PA può __(4)__ alla piattaforma con SPID o CIE e, attraverso un percorso guidato, __(5)__ il processo di attivazione.
+
+**Candidare la tua PA agli avvisi**
+
+In base alla __(6)__ e agli obiettivi della tua PA, puoi __(7)__ gli avvisi pubblici più __(8)__ e __(9)__ una candidatura direttamente tramite PA digitale 2026.
+
+**Ricevere assistenza**
+
+Per qualsiasi __(10)__ o problema, puoi trovare __(11)__ risposta alle domande più frequenti o richiedere assistenza __(12)__.
+
+**Rendicontare un progetto**
+
+PA digitale 2026 permette di __(13)__ i progetti all’interno della piattaforma, così da completare le attività __(14)__ e richiedere il finanziamento.
+
+Inserimento del CUP, ingaggio dei fornitori e completamento delle attività, questi sono i passaggi principali per __(15)__ il finanziamento e raggiungere gli obiettivi della candidatura.
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 0. | ~~indicazioni~~ | esitazioni | discussioni | sanzioni |
+| 1. | risolvere | aggravare | nascondere | rimandare |
+| 2. | sospensione | cancellazione | attivazione | dismissione |
+| 3. | arrestare | avviare | ritardare | abbandonare |
+| 4. | rinunciare | obbedire | reagire | accedere |
+| 5. | completare | interrompere | evitare | delegare |
+| 6. | tipologia | posizione | età | grandezza |
+| 7. | identificare | confondere | ignorare | scartare |
+| 8. | casuali | scaduti | idonei | estranei |
+| 9. | respingere | inviare | cancellare | nascondere |
+| 10. | successo | vantaggio | premio | dubbio |
+| 11. | raramente | casualmente | segretamente | facilmente |
+| 12. | dedicata | vietata | occasionale | superflua |
+| 13. | smarrire | nascondere | gestire | bloccare |
+| 14. | vietate | estranee | previste | casuali |
+| 15. | restituire | ottenere | perdere | rifiutare |
+
+## Analisi delle strutture di comunicazione — Prova n. 4
+
+> *Scegli per ogni espressione una delle quattro situazioni di comunicazione che ti diamo. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. Venerdì sera il planetario propone un'osservazione guidata del cielo dal terrazzo. L'attività si svolgerà solo se le condizioni meteorologiche saranno favorevoli; l'eventuale annullamento sarà comunicato entro le 18 agli iscritti tramite messaggio.**
+
+A) È l'annuncio di un'attività serale che dipende dalle condizioni del tempo.
+B) È la comunicazione della chiusura definitiva del terrazzo del planetario.
+C) È la richiesta agli iscritti di inviare fotografie del cielo entro le 18.
+D) È l'offerta di un corso online dedicato alle previsioni meteorologiche.
+
+**2. Gentile cliente, abbiamo verificato che il rinnovo annuale del suo abbonamento è stato addebitato due volte. La seconda somma verrà restituita sullo stesso metodo di pagamento entro cinque giorni lavorativi; non deve inviarci altra documentazione.**
+
+A) È la richiesta di documenti per contestare il costo di un abbonamento.
+B) È la proposta di trasformare un abbonamento annuale in due abbonamenti mensili.
+C) È il riconoscimento di un doppio addebito con conferma del rimborso.
+D) È l'avviso che il metodo di pagamento del cliente non è più valido.
+
+**3. Oggi a «Parole in viaggio» parleremo delle espressioni regionali che usiamo in famiglia. Mandateci una frase tipica della vostra zona, spiegandone il significato: alcune testimonianze saranno commentate in diretta da una linguista.**
+
+A) È la pubblicità di lezioni individuali tenute da una linguista.
+B) È l'invito agli ascoltatori a condividere espressioni locali per una trasmissione.
+C) È l'annuncio di un viaggio organizzato attraverso diverse regioni italiane.
+D) È la richiesta di tradurre in italiano i programmi di una radio straniera.
+
+**4. Vendo una macchina da cucire portatile acquistata l'anno scorso e usata pochissimo. È completa di custodia, pedale e manuale; posso mostrarla in funzione prima dell'acquisto, ma non effettuo spedizioni. Prezzo leggermente trattabile.**
+
+A) È l'offerta di lezioni di cucito con materiale incluso nel prezzo.
+B) È la ricerca di un tecnico che ripari una macchina da cucire.
+C) È il noleggio temporaneo di un apparecchio con consegna a domicilio.
+D) È l'annuncio di vendita di un oggetto usato da ritirare di persona.
+
+**5. Ciao Paolo, domani il tecnico deve controllare una perdita nel mio appartamento proprio all'ora del nostro incontro. Ti dispiace se ci vediamo alle 18 invece che alle 16? Se per te è tardi, possiamo rimandare a giovedì.**
+
+A) È la conferma che un appuntamento è già stato spostato a giovedì.
+B) È la richiesta di cambiare l'orario di un incontro, con una data alternativa.
+C) È l'invito a essere presente durante un intervento tecnico in casa.
+D) È l'avviso che Paolo deve annullare la visita di un tecnico.
+
+**6. Benvenuti nello spazio di lavoro Officina 21. Alla reception riceverete la tessera per accedere alle sale; le cabine per le videochiamate vanno prenotate dall'app. Vi chiediamo di liberare le scrivanie ogni sera e di usare le cuffie nelle aree comuni.**
+
+A) È la ricerca di personale per la reception di un nuovo ufficio.
+B) È la comunicazione del trasferimento di un'azienda in un'altra sede.
+C) È un messaggio di accoglienza con le regole di uno spazio di lavoro condiviso.
+D) È la pubblicità di un'app per organizzare videochiamate professionali.
+
+**7. A causa delle temperature elevate, sabato il mercato agricolo aprirà alle 7 e chiuderà alle 12, due ore prima del consueto. Gli ordini già effettuati potranno essere ritirati fino alle 11.30; nel pomeriggio l'area resterà vuota.**
+
+A) È un avviso di modifica temporanea dell'orario del mercato per il caldo.
+B) È l'annuncio dell'apertura di un nuovo mercato nel pomeriggio.
+C) È la richiesta ai clienti di annullare gli ordini già effettuati.
+D) È la comunicazione di uno sciopero degli agricoltori per tutta la giornata.
+
+**8. Le ricordiamo la visita di lunedì alle 9. Presenti la tessera sanitaria all'accettazione e arrivi a digiuno da almeno sei ore; può bere acqua. Se assume farmaci al mattino, contatti l'ambulatorio prima di modificare la terapia.**
+
+A) È la comunicazione dei risultati di una visita già effettuata.
+B) È la richiesta di sospendere autonomamente tutti i farmaci prima di una visita.
+C) È l'annuncio del cambiamento di sede e orario di un ambulatorio.
+D) È un promemoria per un appuntamento medico con indicazioni preparatorie.
+
+**9. La biblioteca raccoglie giochi da tavolo completi e in buone condizioni per creare uno spazio gratuito dedicato alle famiglie. Potete consegnarli al banco prestiti entro fine mese; non accettiamo giocattoli elettronici né confezioni con pezzi mancanti.**
+
+A) È l'invito a donare giochi adatti a un nuovo servizio della biblioteca.
+B) È la vendita di giochi elettronici non più utilizzati dalla biblioteca.
+C) È l'avviso che il banco prestiti resterà chiuso fino a fine mese.
+D) È la richiesta alle famiglie di restituire giochi presi in prestito.
+
+**10. Il produttore richiama i vasetti di crema di mandorle del lotto L248, scadenza 10 novembre, perché l'etichetta non segnala la possibile presenza di arachidi. Chi li ha acquistati non li consumi e li riporti al negozio per il rimborso.**
+
+A) È la pubblicità di una nuova crema preparata con mandorle e arachidi.
+B) È la richiesta di conservare un prodotto fino alla data di scadenza.
+C) È un avviso di richiamo di un alimento per un rischio non indicato sull'etichetta.
+D) È la comunicazione dell'aumento di prezzo di alcuni prodotti alimentari.
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 1 ora e 10 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 20**
+
+## Produzione scritta — Prova n. 1
+
+> *Collabori con il blog di un'associazione che promuove la memoria del territorio e ha organizzato una mostra fotografica sui mestieri del quartiere. Scrivi un articolo in cui racconti la visita, spieghi il valore dell'iniziativa, valuti gli aspetti riusciti e quelli da migliorare e proponi idee per una futura edizione.*
+> *Devi scrivere da 120 a 140 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Hai acquistato un abbonamento al servizio cittadino di biciclette condivise, ma l'importo è stato addebitato due volte. Scrivi un'e-mail formale al servizio clienti.*
+> *Nell'email devi:*
+> *- indicare la data dell'acquisto, il codice dell'abbonamento e gli addebiti ricevuti;*
+> *- chiedere la verifica dei pagamenti e il rimborso della somma non dovuta;*
+> *- domandare se l'abbonamento resta attivo e come evitare che il problema si ripeta.*
+> *Devi scrivere da 80 a 100 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 20**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: scegli un argomento, prepara la risposta e parla ad alta voce rispettando la durata indicata, poi confrontati con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Dialogo faccia a faccia. Conversa con l'esaminatore su uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Racconta un'occasione in cui hai ricevuto una critica utile e spiega come ha cambiato il tuo modo di lavorare o studiare.
+
+**2.** Esprimi la tua opinione sulle casse automatiche nei negozi, indicandone vantaggi e possibili problemi.
+
+**3.** Racconta come hai risolto un piccolo conflitto con un vicino, un collega o un compagno di studi e spiega che cosa hai imparato.
+
+**4.** Spiega se i musei dovrebbero restare aperti fino a tarda sera almeno una volta alla settimana, motivando la tua opinione.
+
+## Produzione orale — Prova n. 2
+
+> *Monologo. Esponi uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Una biblioteca itinerante che raggiunge i quartieri con un autobus: descrivi come dovrebbe funzionare e quali servizi potrebbe offrire.
+
+**2.** Seguire un corso online oppure frequentare lezioni in presenza: confronta le due modalità e presenta la tua preferenza.
+
+**3.** Presenta un luogo della tua città che cambia molto nelle diverse stagioni, descrivilo e spiega perché ti piace frequentarlo.
+
+**4.** Dedicare ogni giorno un periodo senza telefono e senza connessione: illustra possibili vantaggi e difficoltà e presenta la tua opinione.
+
+---
+
+# Foglio delle risposte
+
+**Comprensione della lettura — Prova n. 1** *(annerisci una lettera per riga)*
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 1 | ○ | ○ | ○ | ○ |
+| 2 | ○ | ○ | ○ | ○ |
+| 3 | ○ | ○ | ○ | ○ |
+| 4 | ○ | ○ | ○ | ○ |
+| 5 | ○ | ○ | ○ | ○ |
+| 6 | ○ | ○ | ○ | ○ |
+| 7 | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 2** *(V = vero, F = falso)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| V | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| F | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 3** *(scrivi la lettera della parte per ogni posizione)*
+
+| Posizione | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Parte | A |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 1 e Prova n. 2** *(scrivi la risposta in STAMPATELLO)*
+
+| n. | Prova 1 | Prova 2 | n. | Prova 1 | Prova 2 |
+|---|---|---|---|---|---|
+| 1 |  |  | 11 |  |  |
+| 2 |  |  | 12 |  |  |
+| 3 |  |  | 13 |  |  |
+| 4 |  |  | 14 |  |  |
+| 5 |  |  | 15 |  |  |
+| 6 |  |  | 16 |  |  |
+| 7 |  |  | 17 |  |  |
+| 8 |  |  | 18 |  |  |
+| 9 |  |  | 19 |  |  |
+| 10 |  |  | 20 |  |  |
+
+**Analisi delle strutture — Prova n. 3** *(annerisci una lettera per riga)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 4**
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*

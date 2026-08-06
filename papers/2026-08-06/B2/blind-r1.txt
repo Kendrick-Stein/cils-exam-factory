@@ -1,0 +1,59 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "si", "confidence": "hi"},
+  "S1.2": {"answer": "cui", "confidence": "hi"},
+  "S1.3": {"answer": "si", "confidence": "hi"},
+  "S1.4": {"answer": "quale", "confidence": "hi"},
+  "S1.5": {"answer": "quale", "confidence": "hi"},
+  "S1.6": {"answer": "si", "confidence": "hi"},
+  "S1.7": {"answer": "cui", "confidence": "hi"},
+  "S1.8": {"answer": "la", "confidence": "hi"},
+  "S1.9": {"answer": "li", "confidence": "hi"},
+  "S1.10": {"answer": "quali", "confidence": "hi"},
+  "S1.11": {"answer": "lo", "confidence": "hi"},
+  "S1.12": {"answer": "se ne", "confidence": "hi"},
+  "S1.13": {"answer": "cui", "confidence": "hi"},
+  "S1.14": {"answer": "quale", "confidence": "hi"},
+  "S1.15": {"answer": "quale", "confidence": "hi"},
+  "S1.16": {"answer": "quali", "confidence": "hi"},
+  "S1.17": {"answer": "cui", "confidence": "hi"},
+  "S1.18": {"answer": "quale", "confidence": "hi"},
+  "S1.19": {"answer": "lo", "confidence": "hi"},
+  "S1.20": {"answer": "ne", "confidence": "hi"},
+  "S2.1": {"answer": "ha vinto", "confidence": "hi"},
+  "S2.2": {"answer": "ha pubblicato", "confidence": "hi"},
+  "S2.3": {"answer": "è stato tradotto", "confidence": "hi"},
+  "S2.4": {"answer": "averla letta", "confidence": "hi"},
+  "S2.5": {"answer": "penso", "confidence": "hi"},
+  "S2.6": {"answer": "avrei voluto", "confidence": "hi"},
+  "S2.7": {"answer": "potevo", "confidence": "hi"},
+  "S2.8": {"answer": "scriverlo", "confidence": "hi"},
+  "S2.9": {"answer": "nascesse", "confidence": "hi"},
+  "S2.10": {"answer": "scrivevo", "confidence": "hi"},
+  "S2.11": {"answer": "pensavo", "confidence": "hi"},
+  "S2.12": {"answer": "cercavo", "confidence": "hi"},
+  "S2.13": {"answer": "riguardasse", "confidence": "hi"},
+  "S2.14": {"answer": "potesse", "confidence": "hi"},
+  "S2.15": {"answer": "insegno", "confidence": "hi"},
+  "S2.16": {"answer": "racconto", "confidence": "hi"},
+  "S2.17": {"answer": "porta", "confidence": "hi"},
+  "S2.18": {"answer": "alzano", "confidence": "hi"},
+  "S2.19": {"answer": "rappresentano", "confidence": "hi"},
+  "S2.20": {"answer": "conta", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "writing_tasks_present": false,
+  "oral_tasks_present": false,
+  "checks": []
+}
+```

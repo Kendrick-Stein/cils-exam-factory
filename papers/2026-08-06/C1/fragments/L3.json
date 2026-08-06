@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "Il Cammino dei Cappuccini: arriva la versione ciclabile",
+    "T3_PART_A": "Il 2026 segna gli ottocento anni dalla morte di San Francesco d’Assisi: la ricorrenza non è soltanto liturgica, ma diventa, nel panorama dei cammini italiani, un’occasione di ripensamento e apertura.",
+    "T3_PART_B": "Grazie a queste varianti, il percorso valorizza strade secondarie, sterrati, sentieri di campagna e asfalto a basso scorrimento; la continuità narrativa e paesaggistica resta intatta: cambia il ritmo, non il senso.",
+    "T3_PART_C": "A comporre questa varietà sono boschi, crinali, colline coltivate e borghi che resistono all’abbandono: ambienti diversi, ma tutti lontani dai grandi flussi che percorrono altri itinerari.",
+    "T3_PART_D": "Questa apertura, tuttavia, non è cosmesi né inseguimento delle mode del turismo all’aperto: è coerente con l’identità di un cammino nato dai territori, prima ancora che dall’esigenza di intercettare flussi.",
+    "T3_PART_E": "È appunto tale rarità — attraversare in profondità l’Appennino marchigiano, senza forzature, lungo un asse di significati precedente al turismo — a rendere il Cammino dei Cappuccini difficile da paragonare ad altri itinerari.",
+    "T3_PART_F": "Dopo Frontone, l’itinerario raggiunge Fonte Avellana, Fabriano, Cupramontana e Camerino; prosegue quindi verso i Monti Sibillini, Sarnano e, infine, il fermano e l’ascolano.",
+    "T3_PART_G": "Di fronte a questo limite, la bicicletta elettrica smette di essere una comodità e diventa uno strumento d’inclusione: permette di affrontare le salite più impegnative senza rinunciare al viaggio.",
+    "T3_PART_H": "Su questo anniversario si innesta la scelta del Cammino dei Cappuccini, unico percorso italiano affidato a un Ordine religioso: aprire alle due ruote i suoi 404 chilometri di dorsale appenninica marchigiana.",
+    "T3_PART_I": "Nonostante questa scansione precisa, non c’è un unico paesaggio dominante: il cammino è, per sua natura, una sequenza di variazioni che cambia volto lungo la dorsale marchigiana.",
+    "T3_PART_J": "A spiegare questa valenza simbolica sono gli effetti della bicicletta elettrica: riduce l’impatto, rallenta la percezione e permette di guardarsi intorno senza affanno; qui la bicicletta non è strumento di velocità, ma di connessione con il paesaggio.",
+    "T3_PART_K": "Conservato così il senso originario, il tragitto va dal Santuario del Beato Benedetto a Fossombrone a quello di San Serafino ad Ascoli Piceno, toccando dapprima la Gola del Furlo, Cagli e Frontone.",
+    "T3_PART_L": "A questa rarità paesaggistica si accompagna, però, un impegno fisico reale: oltre 12.000 metri di dislivello in dieci tappe rendono il percorso accessibile a chi ha confidenza con la pedalata, ma non a tutti.",
+    "T3_PART_M": "Proprio in questo contesto appartato, il viaggio conserva intatta una dimensione intima, difficile da incontrare sulle grandi vie verdi o sui tracciati che corrono a fondovalle.",
+    "T3_PART_N": "Chiarito che non si tratta di una moda, il tracciato ciclabile non è una proiezione di quello pedonale, bensì un progetto costruito ex novo, con varianti studiate per evitare i tratti inadatti alla bicicletta.",
+    "T3_PART_O": "Proprio questa funzione inclusiva apre l’itinerario a persone meno allenate, viaggiatori maturi e coppie con preparazione atletica differente; nell’anno dell’eredità francescana, la mobilità elettrica acquista inoltre una coerente valenza simbolica.",
+    "T3_PART_P": "Lungo questa successione di luoghi, il viaggio si articola in dieci tappe modulabili, con percorrenze giornaliere fra 30 e 50 chilometri e un dislivello complessivo superiore ai 12.000 metri."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | H | «Su questo anniversario» riprende gli ottocento anni introdotti in A. |\n| 3 | D | «Questa apertura» rinvia all’apertura alle due ruote annunciata in H. |\n| 4 | N | «Chiarito che non si tratta di una moda» riprende e chiude il giudizio espresso in D. |\n| 5 | B | «Grazie a queste varianti» riprende le varianti del tracciato presentate in N. |\n| 6 | K | «Conservato così il senso originario» conclude l’effetto delle varianti prima di introdurre gli estremi geografici. |\n| 7 | F | «Dopo Frontone» continua senza alternative l’elenco di luoghi concluso con Frontone in K. |\n| 8 | P | «Lungo questa successione di luoghi» riepiloga le località appena elencate e introduce tappe, distanze e dislivello. |\n| 9 | I | parte data |\n| 10 | C | «A comporre questa varietà» specifica la «sequenza di variazioni» presentata in I. |\n| 11 | M | «Proprio in questo contesto appartato» riprende gli ambienti lontani dai grandi flussi descritti in C. |\n| 12 | E | «È appunto tale rarità» richiama la dimensione intima e difficile da incontrare di M. |\n| 13 | L | «A questa rarità paesaggistica» riprende la rarità di E e introduce il contrasto con l’impegno fisico. |\n| 14 | G | «Di fronte a questo limite» rinvia al fatto che il percorso non sia accessibile a tutti. 中文：指代唯一。 |\n| 15 | O | «Proprio questa funzione inclusiva» riprende lo «strumento d’inclusione» di G e ne identifica i beneficiari. |\n| 16 | J | «A spiegare questa valenza simbolica» riprende la valenza introdotta in O e ne esplicita gli effetti conclusivi. |",
+    "ANS_L3_SEQUENCE": "A–H–D–N–B–K–F–P–I–C–M–E–L–G–O–J"
+  },
+  "key": {
+    "L3": "A–H–D–N–B–K–F–P–I–C–M–E–L–G–O–J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "intercettare flussi",
+      "categoria": "locuzione verbale",
+      "zh": "吸引流量；承接客流",
+      "en": "to attract visitor flows",
+      "esempio": "dall’esigenza di intercettare flussi"
+    },
+    {
+      "parola": "a basso scorrimento",
+      "categoria": "locuzione aggettivale",
+      "zh": "低车流量的",
+      "en": "low-traffic",
+      "esempio": "strade secondarie, sterrati, sentieri di campagna e asfalto a basso scorrimento"
+    },
+    {
+      "parola": "borghi che resistono all’abbandono",
+      "categoria": "locuzione nominale",
+      "zh": "抵抗人口流失的村镇",
+      "en": "villages resisting abandonment",
+      "esempio": "boschi, crinali, colline coltivate e borghi che resistono all’abbandono"
+    },
+    {
+      "parola": "dislivello complessivo",
+      "categoria": "locuzione nominale",
+      "zh": "累计爬升",
+      "en": "total elevation gain",
+      "esempio": "un dislivello complessivo superiore ai 12.000 metri"
+    },
+    {
+      "parola": "senza affanno",
+      "categoria": "locuzione avverbiale",
+      "zh": "不气喘吁吁地；从容地",
+      "en": "without breathlessness",
+      "esempio": "permette di guardarsi intorno senza affanno"
+    }
+  ]
+}

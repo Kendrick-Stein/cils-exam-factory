@@ -1,0 +1,39 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "ha vinto", "confidence": "hi"},
+  "S2.2": {"answer": "ha pubblicato", "confidence": "hi"},
+  "S2.3": {"answer": "è stato tradotto", "confidence": "hi"},
+  "S2.4": {"answer": "averla letta", "confidence": "hi"},
+  "S2.5": {"answer": "penso", "confidence": "hi"},
+  "S2.6": {"answer": "avrei voluto", "confidence": "hi"},
+  "S2.7": {"answer": "potevo", "confidence": "hi"},
+  "S2.8": {"answer": "scrivere", "confidence": "hi"},
+  "S2.9": {"answer": "nascesse", "confidence": "hi"},
+  "S2.10": {"answer": "lavoravo", "confidence": "hi"},
+  "S2.11": {"answer": "pensavo", "confidence": "hi"},
+  "S2.12": {"answer": "cercavo", "confidence": "hi"},
+  "S2.13": {"answer": "riguardasse", "confidence": "hi"},
+  "S2.14": {"answer": "potesse", "confidence": "hi"},
+  "S2.15": {"answer": "insegno", "confidence": "hi"},
+  "S2.16": {"answer": "racconto", "confidence": "hi"},
+  "S2.17": {"answer": "porta", "confidence": "hi"},
+  "S2.18": {"answer": "alzano", "confidence": "hi"},
+  "S2.19": {"answer": "rappresentano", "confidence": "hi"},
+  "S2.20": {"answer": "conta", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "status": "not_applicable",
+  "checks": [],
+  "note": "Il file selezionato non contiene prove di produzione scritta o orale."
+}
+```

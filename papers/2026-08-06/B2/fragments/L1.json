@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Il riferimento al personaggio di Olaf serve a**\n\nA) spiegare perché i corpi ghiacciati restano stabili.\n\nB) rendere immediatamente riconoscibile la forma degli oggetti descritti.\n\nC) indicare il materiale di cui sono composti i pianeti nani.\n\nD) localizzare la regione più lontana del Sistema solare.\n\n**2. La fascia di Kuiper viene presentata come una regione che**\n\nA) contiene soprattutto pianeti giganti ancora in formazione.\n\nB) occupa lo spazio compreso tra la Terra e Nettuno.\n\nC) conserva numerosi corpi ghiacciati nati durante la formazione del Sistema solare.\n\nD) è costituita da materiali modificati frequentemente dalle collisioni.\n\n**3. Molte strutture originarie sono sopravvissute nella fascia di Kuiper soprattutto perché**\n\nA) gli oggetti sono poco concentrati e si scontrano raramente.\n\nB) i corpi ghiacciati si trovano vicini ai pianeti nani.\n\nC) il freddo rende ogni agglomerato più compatto e resistente.\n\nD) le collisioni sono più frequenti che nelle regioni interne.\n\n**4. Secondo il testo, la forma bilobata riguarda**\n\nA) quasi tutti i pianeti nani situati oltre Nettuno.\n\nB) soltanto i corpi osservati nelle regioni interne.\n\nC) la metà degli oggetti che compongono la fascia di Kuiper.\n\nD) circa un decimo dei piccoli corpi della fascia di Kuiper.\n\n**5. Gli asteroidi binari a contatto si sono formati quando due corpi**\n\nA) sono entrati in collisione distruggendosi reciprocamente.\n\nB) si sono avvicinati gradualmente fino a unirsi senza rompersi.\n\nC) hanno attirato i pianeti nani presenti nella stessa regione.\n\nD) si sono separati dopo essere rimasti a lungo sovrapposti.\n\n**6. Le nuove simulazioni impiegate dai ricercatori mirano a chiarire**\n\nA) perché numerosi oggetti ghiacciati presentano una configurazione a due lobi.\n\nB) quanto tempo impiegano le comete per attraversare la fascia di Kuiper.\n\nC) in quale modo Plutone abbia conservato la propria struttura originaria.\n\nD) perché il disco protoplanetario fosse composto solo da polveri.\n\n**7. L'analogia dei fiocchi di neve mette in evidenza che la formazione dei planetesimi**\n\nA) dipende dalla presenza di acqua allo stato solido.\n\nB) comincia con strutture già compatte e resistenti.\n\nC) procede per accumulo, da particelle minuscole ad aggregati più solidi.\n\nD) si conclude prima che la gravità diventi la forza dominante.",
+    "T1_TEXT": "Chiunque abbia visto il cartone animato Frozen ricorderà Olaf, il pupazzo di neve fragile eppure sorprendentemente stabile. Ebbene, a miliardi di chilometri dalla Terra, nella regione più remota del Sistema solare, esistono oggetti reali che ricordano proprio la forma del personaggio animato: un “pupazzo di neve” cosmico composto da due sfere sovrapposte e poi fuse insieme. Una sorta di Frosty che si muove nello spazio.\n\nMa facciamo un passo indietro. Ben oltre l’orbita dei pianeti giganti, al di là di Nettuno, s’incontra la fascia di Kuiper: una regione a forma di ciambella estesa tra 4,5 e 8 miliardi di chilometri dal Sole, popolata da migliaia di corpi ghiacciati, residui della formazione del Sistema solare. In questa regione si trovano pianeti nani come Plutone, comete e planetesimi, ovvero i primi “mattoni” della costruzione planetaria.\n\nSi tratta di materiali rimasti quasi intatti fin dall’epoca in cui il Sistema solare stava prendendo forma, più di quattro miliardi e mezzo di anni fa. La densità di oggetti in questa zona del cosmo è relativamente bassa e le collisioni sono meno frequenti rispetto alle regioni interne del Sistema solare; per questo motivo molte strutture originarie sono sopravvissute.\n\nÈ proprio in questo ambiente freddo e poco disturbato che gli astronomi hanno osservato un’abbondanza sorprendente di oggetti dalla forma bilobata, che ricorda – appunto – quella di un pupazzo di neve. Una frazione significativa – circa il dieci per cento – dei piccoli corpi della fascia di Kuiper mostra questa morfologia a “due lobi”.\n\nSono chiamati asteroidi binari a contatto, cioè corpi originariamente separati che, nel tempo, si sono avvicinati fino a toccarsi e fondersi senza distruggersi.\n\nLa domanda che ha incuriosito per anni gli astronomi è stata: perché nello spazio molti oggetti ghiacciati assumono proprio questa strana configurazione? A rispondere è ora uno studio, pubblicato ieri su Monthly Notices of the Royal Astronomical Society, condotto da un gruppo di ricercatori della Michigan State University avvalendosi di una nuova generazione di simulazioni.\n\nIl meccanismo individuato sarebbe legato al collasso gravitazionale nelle prime fasi del disco protoplanetario. Ma per comprendere l’origine di tali oggetti è necessario tornare al momento in cui il Sistema solare si stava formando. All’inizio, la giovane Via Lattea era caratterizzata da dischi di gas e polveri. Anche intorno al Sole nascente, minuscoli granelli solidi iniziarono a scontrarsi e aggregarsi.\n\nIl processo avvenne gradualmente: le polveri micrometriche si unirono formando aggregati sempre più grandi, poi piccoli ciottoli, quindi ammassi di dimensioni maggiori. A un certo punto, la gravità divenne la forza dominante e questi agglomerati iniziarono ad attirare ulteriore materiale, dando origine ai planetesimi. Un’analogia efficace è quella dei fiocchi di neve che si accumulano a formare una palla: all’inizio la struttura è fragile, ma man mano che cresce diventa più compatta e resistente.\n\nNello spazio, questo processo avverrebbe su scale immensamente più grandi, ma secondo gli stessi principi fisici.",
+    "T1_TITLE": "Pupazzi di neve ai confini del Sistema solare"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il richiamo introduce oggetti che «ricordano proprio la forma del personaggio animato». 中文：Olaf是形状类比，不是科学原因。 |\n| L1.2 | C | La fascia è «popolata da migliaia di corpi ghiacciati, residui della formazione del Sistema solare». |\n| L1.3 | A | Il testo collega la sopravvivenza delle strutture alla «densità [...] relativamente bassa» e alle collisioni «meno frequenti». 中文：因果关系由“per questo motivo”明确标出。 |\n| L1.4 | D | La quantità indicata è «circa il dieci per cento» dei piccoli corpi della fascia. |\n| L1.5 | B | Sono corpi «originariamente separati» che si sono avvicinati fino a «fondersi senza distruggersi». 中文：接触融合不等于破坏性碰撞。 |\n| L1.6 | A | Lo studio risponde alla domanda sul perché molti oggetti ghiacciati assumano «questa strana configurazione». |\n| L1.7 | C | I fiocchi «si accumulano a formare una palla» e la struttura, crescendo, diventa «più compatta e resistente». 中文：类比说明逐步聚集过程。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "A",
+    "L1.7": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fascia di Kuiper",
+      "categoria": "locuzione nominale",
+      "zh": "柯伊伯带",
+      "en": "Kuiper belt",
+      "esempio": "Ben oltre l’orbita dei pianeti giganti, al di là di Nettuno, s’incontra la fascia di Kuiper: una regione a forma di ciambella estesa tra 4,5 e 8 miliardi di chilometri dal Sole, popolata da migliaia di corpi ghiacciati, residui della formazione del Sistema solare."
+    },
+    {
+      "parola": "planetesimi",
+      "categoria": "nome maschile plurale",
+      "zh": "微行星",
+      "en": "planetesimals",
+      "esempio": "In questa regione si trovano pianeti nani come Plutone, comete e planetesimi, ovvero i primi “mattoni” della costruzione planetaria."
+    },
+    {
+      "parola": "forma bilobata",
+      "categoria": "locuzione nominale",
+      "zh": "双叶形状",
+      "en": "bilobed shape",
+      "esempio": "È proprio in questo ambiente freddo e poco disturbato che gli astronomi hanno osservato un’abbondanza sorprendente di oggetti dalla forma bilobata, che ricorda – appunto – quella di un pupazzo di neve."
+    },
+    {
+      "parola": "collasso gravitazionale",
+      "categoria": "locuzione nominale",
+      "zh": "引力坍缩",
+      "en": "gravitational collapse",
+      "esempio": "Il meccanismo individuato sarebbe legato al collasso gravitazionale nelle prime fasi del disco protoplanetario."
+    },
+    {
+      "parola": "agglomerati",
+      "categoria": "nome maschile plurale",
+      "zh": "团块；聚合体",
+      "en": "agglomerates",
+      "esempio": "A un certo punto, la gravità divenne la forza dominante e questi agglomerati iniziarono ad attirare ulteriore materiale, dando origine ai planetesimi."
+    }
+  ]
+}

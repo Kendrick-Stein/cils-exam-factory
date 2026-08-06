@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi Andrea Bajani *(vivere)* __vive (0)__ a Houston. Finora *L'Anniversario* *(vincere)* __(1)__ il Premio Strega. In questi mesi il *New Yorker* *(pubblicare)* __(2)__ un capitolo; fino a oggi quel capitolo *(tradurre)* __(3)__ in inglese da Geoffrey Brock.\n\n**Che pensa della traduzione?**\n\nDopo *(leggerla)* __(4)__, mi sono detto: «Questa è una rivelazione»; adesso io *(pensare)* __(5)__ lo stesso. Se avessi potuto scegliere la lingua, *(volere)* __(6)__ scriverlo in inglese; mentre preparavo il libro, per ragioni linguistiche non *(potere)* __(7)__ farlo. Perciò ho dovuto *(scrivere)* __(8)__ il romanzo in italiano; mentre lo scrivevo, mi sembrava che ogni frase *(nascere)* __(9)__ in quel momento in inglese.\n\n**Pensava già ai lettori americani?**\n\nMentre *(lavorare)* __(10)__ al romanzo, *(pensare)* __(11)__ sempre a loro e ogni giorno *(cercare)* __(12)__ di far emergere dalla storia italiana qualcosa di universale. Volevo che quel tema *(riguardare)* __(13)__ il mio Paese e *(potere)* __(14)__ interessare chiunque altro.\n\n**Dove è nato il romanzo?**\n\nOggi io *(insegnare)* __(15)__ scrittura creativa alla Rice University e adesso *(raccontare)* __(16)__ la genesi di *L'Anniversario*: il romanzo è nato dalle lezioni del corso *Writing the Family*. Ancora oggi la famiglia *(portare)* __(17)__ con sé la politica e le emozioni primordiali. Questi due elementi *(alzare)* __(18)__ sempre la temperatura di ogni storia e *(rappresentare)* __(19)__ tutto ciò che ancora oggi per me *(contare)* __(20)__ nella letteratura.",
+    "T5_TITLE": "BAJANI E LA LINGUA DEL SUO ROMANZO"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.1–S2.3:** «Finora», «In questi mesi» e «fino a oggi» impongono il passato prossimo; in S2.3 la forma è passiva e il soggetto maschile è espresso. 中文：开放时间段锁定现在完成时，主语性别明确。\n- **S2.4–S2.5:** in «averla letta» ausiliare e clitico sono nel gap; «adesso io» impone il presente in prima persona. 中文：过去不定式含助动词与代词，时间标记锁定现在时。\n- **S2.6–S2.9:** la protasi irreale forza il condizionale passato; «mentre» segnala l'imperfetto; in S2.8 «il romanzo» è l'oggetto espresso dopo il gap e dopo «ho dovuto» serve l'infinito senza clitico; «in quel momento» indica contemporaneità al passato. 中文：虚拟条件、同时性、显性宾语和动词支配分别锁定形式。\n- **S2.10–S2.14:** «Mentre lavoravo al romanzo» elimina un possibile clitico oggetto; «mentre», «sempre» e «ogni giorno» impongono gli imperfetti, mentre «volevo che» regge i congiuntivi imperfetti. 中文：介词结构排除宾语代词，背景动作与过去时主句锁定未完成过去时和虚拟式。\n- **S2.15–S2.20:** «Oggi io», «adesso» e «ancora oggi» fissano persona e presente; «questi due elementi» rende esplicito il soggetto plurale. 中文：显性主语和现在时间标记消除人称与时态歧义。",
+    "ANS_S2_ROWS": "| 1 | ha vinto | indicativo passato prossimo | 11 | pensavo | indicativo imperfetto |\n| 2 | ha pubblicato | indicativo passato prossimo | 12 | cercavo | indicativo imperfetto |\n| 3 | è stato tradotto | indicativo passato prossimo, forma passiva | 13 | riguardasse | congiuntivo imperfetto |\n| 4 | averla letta | infinito passato | 14 | potesse | congiuntivo imperfetto |\n| 5 | penso | indicativo presente | 15 | insegno | indicativo presente |\n| 6 | avrei voluto | condizionale passato | 16 | racconto | indicativo presente |\n| 7 | potevo | indicativo imperfetto | 17 | porta | indicativo presente |\n| 8 | scrivere | infinito presente | 18 | alzano | indicativo presente |\n| 9 | nascesse | congiuntivo imperfetto | 19 | rappresentano | indicativo presente |\n| 10 | lavoravo | indicativo imperfetto | 20 | conta | indicativo presente |"
+  },
+  "key": {
+    "S2.1": "ha vinto",
+    "S2.2": "ha pubblicato",
+    "S2.3": "è stato tradotto",
+    "S2.4": "averla letta",
+    "S2.5": "penso",
+    "S2.6": "avrei voluto",
+    "S2.7": "potevo",
+    "S2.8": "scrivere",
+    "S2.9": "nascesse",
+    "S2.10": "lavoravo",
+    "S2.11": "pensavo",
+    "S2.12": "cercavo",
+    "S2.13": "riguardasse",
+    "S2.14": "potesse",
+    "S2.15": "insegno",
+    "S2.16": "racconto",
+    "S2.17": "porta",
+    "S2.18": "alzano",
+    "S2.19": "rappresentano",
+    "S2.20": "conta"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "rivelazione",
+      "categoria": "nome femminile",
+      "zh": "启示；令人豁然开朗的发现",
+      "en": "revelation",
+      "esempio": "«Questa è una rivelazione»"
+    },
+    {
+      "parola": "ragioni linguistiche",
+      "categoria": "locuzione nominale",
+      "zh": "语言方面的原因",
+      "en": "linguistic reasons",
+      "esempio": "per ragioni linguistiche"
+    },
+    {
+      "parola": "far emergere",
+      "categoria": "locuzione verbale",
+      "zh": "使显现；突出",
+      "en": "to bring out",
+      "esempio": "di far emergere dalla storia italiana qualcosa di universale."
+    },
+    {
+      "parola": "emozioni primordiali",
+      "categoria": "locuzione nominale",
+      "zh": "原始而根本的情感",
+      "en": "primal emotions",
+      "esempio": "la politica e le emozioni primordiali"
+    },
+    {
+      "parola": "chiunque altro",
+      "categoria": "pronome indefinito",
+      "zh": "其他任何人",
+      "en": "anyone else",
+      "esempio": "interessare chiunque altro."
+    }
+  ]
+}

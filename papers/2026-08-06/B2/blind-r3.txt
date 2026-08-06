@@ -1,0 +1,38 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "si", "confidence": "hi"},
+  "S1.2": {"answer": "cui", "confidence": "hi"},
+  "S1.3": {"answer": "si", "confidence": "hi"},
+  "S1.4": {"answer": "quale", "confidence": "hi"},
+  "S1.5": {"answer": "quale", "confidence": "hi"},
+  "S1.6": {"answer": "si", "confidence": "hi"},
+  "S1.7": {"answer": "cui", "confidence": "hi"},
+  "S1.8": {"answer": "la", "confidence": "hi"},
+  "S1.9": {"answer": "li", "confidence": "hi"},
+  "S1.10": {"answer": "quali", "confidence": "hi"},
+  "S1.11": {"answer": "lo", "confidence": "hi"},
+  "S1.12": {"answer": "se ne", "confidence": "hi"},
+  "S1.13": {"answer": "cui", "confidence": "hi"},
+  "S1.14": {"answer": "quale", "confidence": "hi"},
+  "S1.15": {"answer": "quale", "confidence": "hi"},
+  "S1.16": {"answer": "quali", "confidence": "hi"},
+  "S1.17": {"answer": "cui", "confidence": "hi"},
+  "S1.18": {"answer": "quale", "confidence": "hi"},
+  "S1.19": {"answer": "lo", "confidence": "hi"},
+  "S1.20": {"answer": "ne", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+{
+  "tasks_present": false,
+  "checks": []
+}
+```

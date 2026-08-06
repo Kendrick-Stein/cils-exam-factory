@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Il Parco Ruffini è un luogo di incontro**\n\nA) solo per i bambini.\n\nB) per persone di diverse età.\n\nC) solo per chi fa ginnastica.\n\n**2. Nel parco ci sono**\n\nA) due aree giochi.\n\nB) tre aree giochi.\n\nC) quattro aree giochi.\n\n**3. Le rastrelliere per le biciclette sono**\n\nA) vicino agli ingressi.\n\nB) dentro il parcheggio interno.\n\nC) lungo corso Brunelleschi.\n\n**4. Il parco**\n\nA) è aperto solo di giorno.\n\nB) chiude nei giorni festivi.\n\nC) è sempre aperto.",
+    "T1_TEXT": "Il Parco Ruffini è un luogo di incontro e di svago per bambini, adulti e anziani. Nel parco ci sono un percorso ginnico, due aree giochi per bambini, giochi per le bocce e una scacchiera gigante. Il parco ha tre servizi igienici, fontanelle di acqua potabile e aree per i cani. Ci sono anche tavoli per il picnic e un punto per la sosta dei camper. È possibile arrivare in bici e lasciare la bici nelle rastrelliere vicino agli ingressi. Per chi arriva in auto, c'è un parcheggio interno su corso Trattati di Roma e ci sono parcheggi lungo i corsi vicini. L'indirizzo è corso Trapani 200, a Torino. Il parco è sempre aperto ai cittadini.",
+    "T1_TITLE": "PARCO RUFFINI"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Il parco è per «bambini, adulti e anziani», quindi per persone di diverse età. |\n| L1.2 | A | Il testo indica «due aree giochi per bambini». |\n| L1.3 | A | Le rastrelliere sono «vicino agli ingressi»; 注意不要混淆汽车停车处。 |\n| L1.4 | C | La frase finale dice: «Il parco è sempre aperto ai cittadini». |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "A",
+    "L1.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "percorso ginnico",
+      "categoria": "espressione nominale",
+      "zh": "健身路径",
+      "en": "fitness trail",
+      "esempio": "Nel parco ci sono un percorso ginnico, due aree giochi per bambini, giochi per le bocce e una scacchiera gigante."
+    },
+    {
+      "parola": "scacchiera gigante",
+      "categoria": "espressione nominale",
+      "zh": "巨型棋盘",
+      "en": "giant chessboard",
+      "esempio": "Nel parco ci sono un percorso ginnico, due aree giochi per bambini, giochi per le bocce e una scacchiera gigante."
+    },
+    {
+      "parola": "fontanelle",
+      "categoria": "nome femminile plurale",
+      "zh": "饮水泉",
+      "en": "drinking fountains",
+      "esempio": "Il parco ha tre servizi igienici, fontanelle di acqua potabile e aree per i cani."
+    },
+    {
+      "parola": "rastrelliere",
+      "categoria": "nome femminile plurale",
+      "zh": "自行车架",
+      "en": "bike racks",
+      "esempio": "È possibile arrivare in bici e lasciare la bici nelle rastrelliere vicino agli ingressi."
+    },
+    {
+      "parola": "ingressi",
+      "categoria": "nome maschile plurale",
+      "zh": "入口",
+      "en": "entrances",
+      "esempio": "È possibile arrivare in bici e lasciare la bici nelle rastrelliere vicino agli ingressi."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. Al momento dello sbarco, i passeggeri**\n\nA) mostrano soltanto sollievo per la fine del viaggio.\n\nB) appaiono stanchi, arrabbiati e ancora impauriti.\n\nC) protestano perché non hanno ricevuto i giubbotti.\n\nD) chiedono di ripartire subito sulla stessa nave.\n\n**2. I passeggeri che saliranno su un altro traghetto Gnv**\n\nA) arriveranno in Liguria la mattina seguente.\n\nB) partiranno per la Corsica alle 18:15.\n\nC) resteranno a Porto Torres fino al giorno dopo.\n\nD) raggiungeranno Genova con il rimorchiatore.\n\n**3. La donna sarda ha pensato che fosse la fine quando**\n\nA) le informazioni sono diventate più precise.\n\nB) la nave si è fermata davanti a Porto Torres.\n\nC) le scialuppe sono state calate per metà.\n\nD) i passeggeri sono scesi senza i giubbotti.\n\n**4. Quando il fumo ha iniziato a invadere la nave, la passeggera**\n\nA) aveva appena raggiunto il ponte con la famiglia.\n\nB) stava finendo di cenare nella pizzeria.\n\nC) aiutava l'equipaggio nella sala macchine.\n\nD) aspettava informazioni vicino alle scialuppe.\n\n**5. L'Azzurra è arrivata a Porto Torres**\n\nA) accompagnata da un secondo traghetto Gnv.\n\nB) usando uno dei suoi motori ancora attivi.\n\nC) guidata dai vigili del fuoco della Corsica.\n\nD) trainata da un rimorchiatore e assistita dalla Capitaneria.\n\n**6. Il rientro a Porto Torres è stato imposto**\n\nA) dalla compagnia di navigazione.\n\nB) dalle autorità marittime francesi.\n\nC) dalla prefettura di Sassari.\n\nD) dall'Azienda regionale per l'emergenza urgenza.\n\n**7. Per chiarire le cause e le conseguenze dell'incendio, Gnv**\n\nA) svolgerà approfondimenti con la società tecnica e le autorità competenti.\n\nB) affiderà tutte le indagini ai passeggeri presenti nella pizzeria.\n\nC) chiederà alla Capitaneria di riparare i due motori in avaria.\n\nD) aspetterà il nuovo viaggio prima di esaminare gli aspetti tecnici.",
+    "T1_TEXT": "Stanchezza, rabbia e ancora un filo di paura nei volti dei 673 passeggeri che oggi, intorno alle 18, sbarcano dal traghetto Gnv Azzurra. Il traghetto è approdato finalmente a Porto Torres dopo una notte di terrore per un incendio scoppiato nella sala macchine, che ha bloccato la nave al largo di Propriano, nel sud ovest della Corsica. Tutti sono rientrati sani e salvi da dove erano partiti la sera prima, alle 18:15, direzione Genova. Se avranno la forza di reimbarcarsi su un altro traghetto Gnv, dove gli è stato garantito il posto, in Liguria ci arriveranno domani mattina.\n\nPrima però devono superare il trauma di una notte in cui hanno creduto di morire. «Quando hanno calato per metà le scialuppe di salvataggio abbiamo pensato, è la fine», racconta all'ANSA una donna sarda di Esporlatu in viaggio con la famiglia. Insieme agli altri passeggeri ha passato la notte sul ponte, con indosso i giubbotti di salvataggio e il terrore di non scendere mai più da quella nave. «Stavamo finendo di cenare nella pizzeria della nave. Abbiamo sentito un forte rumore di motori e poi il fumo ha iniziato a invadere la nave», ricostruisce la passeggera. «Abbiamo pensato alla Moby Prince. È stato terribile: molti piangevano, le informazioni continuavano a essere frammentarie».\n\nAzzurra è arrivata a Porto Torres intorno alle 16, trainata dal rimorchiatore «Alessandro Onorato» e assistita dai mezzi della Capitaneria. Il rientro era iniziato alle 5 del mattino, quando l'armatore si è convinto che con due motori in avaria, messi fuori uso dall'incendio, non era possibile proseguire la navigazione fino a Genova. Il rientro è stato imposto dalle autorità marittime francesi, intervenute a bordo con i vigili del fuoco della Corsica per aiutare l'equipaggio a domare le fiamme. «La salute e la sicurezza dei passeggeri e dell'equipaggio sono state tutelate in ogni momento e l'evento è stato gestito senza conseguenze per le persone a bordo», dichiara la compagnia di navigazione. Al porto un presidio medico avanzato predisposto dall'Azienda regionale per l'emergenza urgenza e dalla prefettura di Sassari accoglie i passeggeri per verificare le loro condizioni di salute.\n\nNel frattempo, partono le indagini sul rogo. «Gnv effettuerà tutti gli approfondimenti necessari sulle cause dell'accaduto, sulle relative dinamiche, sugli aspetti tecnici della nave e sulle eventuali conseguenze operative. Gli approfondimenti saranno svolti insieme alla società responsabile della gestione tecnica dell'unità e in coordinamento con le autorità competenti», fa sapere la compagnia.",
+    "T1_TITLE": "ROGO SULLA NAVE AL LARGO DELLA CORSICA: «HO TEMUTO DI MORIRE»"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Nei loro volti ci sono «stanchezza, rabbia e ancora un filo di paura»: non provano soltanto sollievo. |\n| L1.2 | A | Se si reimbarcano, «in Liguria ci arriveranno domani mattina». |\n| L1.3 | C | La donna dice: «Quando hanno calato per metà le scialuppe di salvataggio abbiamo pensato, è la fine». |\n| L1.4 | B | La passeggera racconta: «Stavamo finendo di cenare nella pizzeria della nave» prima del rumore e del fumo. |\n| L1.5 | D | La nave è arrivata «trainata dal rimorchiatore» e «assistita dai mezzi della Capitaneria». |\n| L1.6 | B | Il testo afferma che il rientro «è stato imposto dalle autorità marittime francesi». |\n| L1.7 | A | Gnv farà gli approfondimenti «insieme alla società responsabile della gestione tecnica» e «in coordinamento con le autorità competenti». |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "A",
+    "L1.3": "C",
+    "L1.4": "B",
+    "L1.5": "D",
+    "L1.6": "B",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "un filo di paura",
+      "categoria": "locuzione nominale",
+      "zh": "一丝恐惧",
+      "en": "a hint of fear",
+      "esempio": "Stanchezza, rabbia e ancora un filo di paura nei volti dei 673 passeggeri che oggi, intorno alle 18, sbarcano dal traghetto Gnv Azzurra."
+    },
+    {
+      "parola": "sani e salvi",
+      "categoria": "locuzione aggettivale",
+      "zh": "安然无恙",
+      "en": "safe and sound",
+      "esempio": "Tutti sono rientrati sani e salvi da dove erano partiti la sera prima, alle 18:15, direzione Genova."
+    },
+    {
+      "parola": "scialuppe di salvataggio",
+      "categoria": "locuzione nominale",
+      "zh": "救生艇",
+      "en": "lifeboats",
+      "esempio": "«Quando hanno calato per metà le scialuppe di salvataggio abbiamo pensato, è la fine», racconta all'ANSA una donna sarda di Esporlatu in viaggio con la famiglia."
+    },
+    {
+      "parola": "in avaria",
+      "categoria": "locuzione aggettivale",
+      "zh": "发生故障",
+      "en": "out of order",
+      "esempio": "Il rientro era iniziato alle 5 del mattino, quando l'armatore si è convinto che con due motori in avaria, messi fuori uso dall'incendio, non era possibile proseguire la navigazione fino a Genova."
+    },
+    {
+      "parola": "domare le fiamme",
+      "categoria": "locuzione verbale",
+      "zh": "控制火势",
+      "en": "bring the flames under control",
+      "esempio": "Il rientro è stato imposto dalle autorità marittime francesi, intervenute a bordo con i vigili del fuoco della Corsica per aiutare l'equipaggio a domare le fiamme."
+    }
+  ]
+}

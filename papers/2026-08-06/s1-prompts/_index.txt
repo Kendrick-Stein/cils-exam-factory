@@ -1,0 +1,5 @@
+A1 medium
+A2 medium
+B1 medium
+B2 medium
+C1 medium

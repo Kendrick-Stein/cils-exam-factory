@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Nel 2016 produrre vino *(essere)* __è stato (0)__ quasi naturale: una scelta di pancia.\n\nOgni giorno, mentre *(scrivere)* __(1)__, *(concentrarsi)* __(2)__ sull’Etna; il territorio iniziava a far parlare di sé e mi *(affascinare)* __(3)__ sempre. Benché allora io *(provenire)* __(4)__ dalla Sicilia occidentale, prima di conoscere Benedetto *(capire)* __(5)__ già che lì c’era un potenziale enorme.\n\nFu nel 2016 che *(conoscere)* __(6)__ Benedetto. Allora non sapevo ancora che *(diventare)* __(7)__ mio marito. Poiché allora noi *(amare)* __(8)__ ogni giorno di più il vino dell’Etna, ci siamo buttati nell’avventura. Oggi, se dovessi descriverla, la *(definire)* __(9)__ una follia giovanile. Dopo nove mesi di ricerche, siamo riusciti a *(trovare)* __(10)__ il primo appezzamento.\n\nL’appezzamento *(scegliere)* __(11)__ da Giulia e Benedetto si trovava presso l’Alcantara, accanto a una chiesa bizantina, con vecchi vigneti, suoli argillosi e un microclima unico. Io lo descrivo *(ricordare)* __(12)__ l’influenza del fiume. Fu allora che io *(dire)* __(13)__: «Questo è il posto».\n\nBenché finora l’azienda *(crescere)* __(14)__, resta legata ai luoghi. Fino a oggi, noi *(concentrare)* __(15)__ gli investimenti sui versanti nord ed est. Oggi noi *(avere)* __(16)__ sette ettari; i vini che io *(produrre)* __(17)__, tranne l’Etna Bianco, sono single vineyard. È essenziale che la territorialità *(rimanere)* __(18)__ centrale. Adesso noi *(lavorare)* __(19)__ a nord sul nerello mascalese; oggi a est il caricante *(rispondere)* __(20)__ bene al gusto contemporaneo e ha grande capacità di invecchiamento.",
+    "T5_TITLE": "DALLA SCRITTURA AL VINO DELL’ETNA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "- **S2.2 e S2.8:** «ogni giorno» e «mentre» impongono l’imperfetto abituale（过去反复动作）; «Poiché» rende esplicito il rapporto causale in S2.8.\n- **S2.6 e S2.13:** la struttura «Fu … che» vincola il passato remoto; in S2.13 è stampato anche il soggetto «io».\n- **S2.7:** «Allora non sapevo ancora» presenta un futuro nel passato e richiede il condizionale passato（过去将来）.\n- **S2.11:** il sintagma «l’appezzamento scelto da Giulia e Benedetto» richiede il participio attributivo con valore passivo; **S2.15:** «fino a oggi» richiede il passato prossimo, mentre «noi» e l’oggetto «gli investimenti» impongono la forma attiva.",
+    "ANS_S2_ROWS": "| 1 | scrivevo | indicativo imperfetto | 11 | scelto | participio passato attributivo con valore passivo |\n| 2 | mi concentravo | indicativo imperfetto | 12 | ricordando | gerundio presente |\n| 3 | affascinava | indicativo imperfetto | 13 | dissi | indicativo passato remoto |\n| 4 | provenissi | congiuntivo imperfetto | 14 | sia cresciuta | congiuntivo passato |\n| 5 | avevo capito | indicativo trapassato prossimo | 15 | abbiamo concentrato | indicativo passato prossimo, forma attiva |\n| 6 | conobbi | indicativo passato remoto | 16 | abbiamo | indicativo presente |\n| 7 | sarebbe diventato | condizionale passato | 17 | produco | indicativo presente |\n| 8 | amavamo | indicativo imperfetto | 18 | rimanga | congiuntivo presente |\n| 9 | definirei | condizionale presente | 19 | lavoriamo | indicativo presente |\n| 10 | trovare | infinito presente | 20 | risponde | indicativo presente |"
+  },
+  "key": {
+    "S2.1": "scrivevo",
+    "S2.2": "mi concentravo",
+    "S2.3": "affascinava",
+    "S2.4": "provenissi",
+    "S2.5": "avevo capito",
+    "S2.6": "conobbi",
+    "S2.7": "sarebbe diventato",
+    "S2.8": "amavamo",
+    "S2.9": "definirei",
+    "S2.10": "trovare",
+    "S2.11": "scelto",
+    "S2.12": "ricordando",
+    "S2.13": "dissi",
+    "S2.14": "sia cresciuta",
+    "S2.15": "abbiamo concentrato",
+    "S2.16": "abbiamo",
+    "S2.17": "produco",
+    "S2.18": "rimanga",
+    "S2.19": "lavoriamo",
+    "S2.20": "risponde"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "una scelta di pancia",
+      "categoria": "locuzione nominale",
+      "zh": "凭直觉作出的选择",
+      "en": "a gut decision",
+      "esempio": "una scelta di pancia"
+    },
+    {
+      "parola": "un potenziale enorme",
+      "categoria": "locuzione nominale",
+      "zh": "巨大的潜力",
+      "en": "enormous potential",
+      "esempio": "un potenziale enorme"
+    },
+    {
+      "parola": "un microclima unico",
+      "categoria": "locuzione nominale",
+      "zh": "独特的微气候",
+      "en": "a unique microclimate",
+      "esempio": "un microclima unico"
+    },
+    {
+      "parola": "single vineyard",
+      "categoria": "locuzione nominale invariabile",
+      "zh": "单一葡萄园酒",
+      "en": "single-vineyard wine",
+      "esempio": "single vineyard"
+    },
+    {
+      "parola": "capacità di invecchiamento",
+      "categoria": "locuzione nominale",
+      "zh": "陈年能力",
+      "en": "ageing potential",
+      "esempio": "capacità di invecchiamento"
+    }
+  ]
+}

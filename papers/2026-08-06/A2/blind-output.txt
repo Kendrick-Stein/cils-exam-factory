@@ -1,0 +1,92 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "F", "confidence": "hi"},
+  "L3.2": {"answer": "E", "confidence": "hi"},
+  "L3.3": {"answer": "D", "confidence": "hi"},
+  "L3.4": {"answer": "C", "confidence": "hi"},
+  "L3.5": {"answer": "A", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+
+  "S1.1": {"answer": "di", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "un", "confidence": "hi"},
+  "S1.4": {"answer": "per", "confidence": "hi"},
+  "S1.5": {"answer": "una", "confidence": "hi"},
+  "S1.6": {"answer": "un'", "confidence": "hi"},
+  "S1.7": {"answer": "i", "confidence": "hi"},
+  "S1.8": {"answer": "a", "confidence": "hi"},
+  "S1.9": {"answer": "con", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+
+  "S2.1": {"answer": "arrivavo", "confidence": "hi"},
+  "S2.2": {"answer": "ho vissuto", "confidence": "hi"},
+  "S2.3": {"answer": "vivevo", "confidence": "hi"},
+  "S2.4": {"answer": "sono", "confidence": "hi"},
+  "S2.5": {"answer": "permette", "confidence": "med"},
+  "S2.6": {"answer": "è stata", "confidence": "hi"},
+  "S2.7": {"answer": "ha aperto", "confidence": "hi"},
+  "S2.8": {"answer": "sono riuscita", "confidence": "hi"},
+  "S2.9": {"answer": "mi sono messa", "confidence": "hi"},
+  "S2.10": {"answer": "continuo", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "A", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.5",
+    "reason": "La frase «l’esperienza permette di crescere» è grammaticalmente possibile, ma nel contesto personale sarebbe più naturale «mi permette» o «mi ha permesso»; il testo non indica chiaramente se il pronome debba essere aggiunto."
+  }
+]
+```
+
+WRITING_CHECKS
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa"
+  }
+}
+```

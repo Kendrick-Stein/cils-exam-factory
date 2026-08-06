@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "Oggi Barcellona *(essere)* __è (0)__ dinamica e *(essere)* __(1)__ vitale, *(avere)* __(2)__ gente ed *(essere)* __(3)__ ideale; una persona *(potere)* __(4)__ scegliere cultura e divertimento. Due mesi fa noi *(prenotare)* __(5)__ il volo. Quel martedì noi *(viaggiare)* __(6)__ da Treviso. Anche adesso partire di martedì *(costare)* __(7)__ meno. Due mesi fa noi *(pagare)* __(8)__ circa 50 euro a persona, andata e ritorno. Al ritorno noi *(trovare)* __(9)__ il viaggio tranquillo e comodo. Adesso noi *(avere)* __(10)__ nostalgia di Barcellona.",
+    "T5_TITLE": "UN VIAGGIO A BARCELLONA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "*«Oggi» e «Adesso» richiedono il presente; «due mesi fa», «quel martedì» e «al ritorno» indicano azioni concluse al passato prossimo. 中文：每个空格都有明确的时间标记；第10题用 avere nostalgia，避免缺少代词 ci 的歧义。*",
+    "ANS_S2_ROWS": "| 1 | è | presente indicativo | 6 | abbiamo viaggiato | passato prossimo |\n| 2 | ha | presente indicativo | 7 | costa | presente indicativo |\n| 3 | è | presente indicativo | 8 | abbiamo pagato | passato prossimo |\n| 4 | può | presente indicativo | 9 | abbiamo trovato | passato prossimo |\n| 5 | abbiamo prenotato | passato prossimo | 10 | abbiamo | presente indicativo |"
+  },
+  "key": {
+    "S2.1": "è",
+    "S2.2": "ha",
+    "S2.3": "è",
+    "S2.4": "può",
+    "S2.5": "abbiamo prenotato",
+    "S2.6": "abbiamo viaggiato",
+    "S2.7": "costa",
+    "S2.8": "abbiamo pagato",
+    "S2.9": "abbiamo trovato",
+    "S2.10": "abbiamo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cultura e divertimento",
+      "categoria": "espressione",
+      "zh": "文化与娱乐",
+      "en": "culture and entertainment",
+      "esempio": "cultura e divertimento"
+    },
+    {
+      "parola": "due mesi fa",
+      "categoria": "espressione di tempo",
+      "zh": "两个月前",
+      "en": "two months ago",
+      "esempio": "Due mesi fa"
+    },
+    {
+      "parola": "circa 50 euro a persona",
+      "categoria": "espressione",
+      "zh": "每人约50欧元",
+      "en": "about 50 euros per person",
+      "esempio": "circa 50 euro a persona"
+    },
+    {
+      "parola": "andata e ritorno",
+      "categoria": "espressione",
+      "zh": "往返",
+      "en": "round trip",
+      "esempio": "andata e ritorno"
+    },
+    {
+      "parola": "tranquillo e comodo",
+      "categoria": "espressione",
+      "zh": "平静而舒适",
+      "en": "calm and comfortable",
+      "esempio": "tranquillo e comodo"
+    }
+  ]
+}

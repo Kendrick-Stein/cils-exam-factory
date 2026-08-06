@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Hai prenotato due posti per lo spettacolo di venerdì, ma il pagamento non risulta ancora completato. Per conservare i posti, entra nel tuo profilo e paga entro le 20 di oggi; dopo quell'ora la prenotazione scadrà.»**  \nA) È la conferma dell'acquisto di due biglietti.  \nB) È il promemoria di completare un pagamento entro una scadenza.  \nC) È l'annuncio che lo spettacolo finirà prima del previsto.  \nD) È la proposta di scegliere posti diversi per lo spettacolo.\n\n**2. «Abbiamo registrato un pagamento di 86 euro con la sua carta in un negozio di Firenze. Se riconosce l'operazione, risponda SÌ; se non l'ha fatta lei, risponda NO e bloccheremo subito la carta.»**  \nA) È la richiesta di confermare o negare un'operazione bancaria.  \nB) È la comunicazione che una carta è già stata bloccata.  \nC) È l'invito a pagare un acquisto rimasto in sospeso.  \nD) È l'offerta di aumentare il limite della carta.\n\n**3. «Ciao Marta, sei stata scelta per il piccolo ruolo di Anna nello spettacolo del quartiere. Puoi confermare entro venerdì che parteciperai alle prove? Se non sei disponibile, assegneremo il ruolo a un'altra persona.»**  \nA) È il rifiuto di una candidata per uno spettacolo.  \nB) È il consiglio di provare un ruolo più semplice.  \nC) È la richiesta di confermare la disponibilità per un ruolo.  \nD) È l'annuncio del rinvio delle prove teatrali.\n\n**4. «Il rifugio cerca una famiglia disponibile a ospitare Milo, un cane tranquillo, per tre settimane durante i lavori nella sua area. Cibo e assistenza veterinaria saranno forniti. Per candidarvi, compilate il modulo sul nostro sito.»**  \nA) È l'annuncio della vendita di un animale domestico.  \nB) È la ricerca di una sistemazione temporanea per un cane.  \nC) È la richiesta di donare cibo a un rifugio.  \nD) È l'offerta di lavoro per un assistente veterinario.\n\n**5. «Da lunedì, nel frigorifero comune ogni contenitore dovrà avere nome e data. La domenica sera il personale eliminerà il cibo senza etichetta o lasciato da più di sette giorni. Grazie per la collaborazione.»**  \nA) È l'invito a condividere il proprio pranzo con i colleghi.  \nB) È la comunicazione della chiusura della cucina comune.  \nC) È il consiglio di consumare tutti gli alimenti entro domenica.  \nD) È l'avviso di una nuova regola per usare il frigorifero comune.\n\n**6. «Ci dispiace, la lampada ordinata arriverà con circa dieci giorni di ritardo perché il fornitore non l'ha ancora consegnata. Può attendere la nuova data oppure annullare subito l'ordine e ricevere l'intero rimborso.»**  \nA) È la segnalazione di un ritardo con due possibilità per il cliente.  \nB) È la conferma che un ordine è stato consegnato.  \nC) È la richiesta di scegliere un altro modello di lampada.  \nD) È l'offerta di uno sconto su un acquisto futuro.\n\n**7. «I posti in sala per l'incontro con la scrittrice sono terminati. Sarà però possibile seguire gratuitamente la diretta sul canale del centro culturale; il collegamento apparirà nella pagina dell'evento dieci minuti prima dell'inizio.»**  \nA) È la cancellazione di un incontro per mancanza di spazio.  \nB) È la richiesta di arrivare in sala con dieci minuti di anticipo.  \nC) È l'offerta di seguire online un evento senza più posti disponibili.  \nD) È l'invito ad acquistare un libro sul canale del centro.\n\n**8. «Buongiorno, sulla sua giacca abbiamo trovato una macchia che richiede un trattamento più forte del normale. Il tessuto potrebbe perdere un po' di colore. Prima di procedere, abbiamo bisogno della sua autorizzazione telefonica.»**  \nA) È la comunicazione che un capo non può essere ritirato.  \nB) È la richiesta di autorizzare un trattamento con un possibile rischio.  \nC) È la protesta per una giacca consegnata in ritardo.  \nD) È il consiglio di scegliere un tessuto di un altro colore.\n\n**9. «Come richiesto, abbiamo disattivato il tesserino che hai smarrito, quindi nessuno potrà usarlo per entrare negli uffici. Da domani puoi ritirarne uno nuovo alla reception, mostrando un documento di identità.»**  \nA) È l'avviso che un ufficio resterà chiuso il giorno seguente.  \nB) È la richiesta di cercare un tesserino alla reception.  \nC) È il divieto di entrare negli uffici senza appuntamento.  \nD) È la conferma del blocco di un tesserino con le istruzioni per sostituirlo.\n\n**10. «Ciao Elisa, domenica vengono a pranzo mia sorella e il suo bambino. Potresti prestarmi il tuo seggiolone solo per quel giorno? Passo io a prenderlo sabato pomeriggio e te lo riporto lunedì mattina.»**  \nA) È la richiesta di prendere in prestito un oggetto per poco tempo.  \nB) È l'invito a un pranzo di famiglia con un bambino.  \nC) È l'offerta di regalare un seggiolone non più usato.  \nD) È la proposta di custodire un bambino durante il fine settimana."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «Per conservare i posti» bisogna pagare «entro le 20 di oggi»; 中文：提醒在截止时间前完成付款，并非确认购买。 |\n| S4.2 | A | Le risposte «SÌ» e «NO» servono a riconoscere o negare il pagamento registrato; 中文：银行要求核实交易。 |\n| S4.3 | C | «Puoi confermare entro venerdì che parteciperai alle prove?» chiede una conferma di disponibilità; 中文：角色已提供，但仍需确认参加。 |\n| S4.4 | B | «ospitare Milo ... per tre settimane» indica che il rifugio cerca una casa solo temporanea; 中文：不是出售或领养。 |\n| S4.5 | D | «Da lunedì» introduce l'obbligo di mettere «nome e data» sui contenitori del frigorifero comune; 中文：通知新的使用规则。 |\n| S4.6 | A | Il messaggio segnala «dieci giorni di ritardo» e permette di attendere oppure ottenere il rimborso; 中文：延误后提供等待或退款两种选择。 |\n| S4.7 | C | Benché i posti siano terminati, «sarà però possibile seguire gratuitamente la diretta»; 中文：线下满座，但可免费在线观看。 |\n| S4.8 | B | «Prima di procedere» la lavanderia chiede l'autorizzazione perché il tessuto «potrebbe perdere un po' di colore»; 中文：同意前明确说明处理风险。 |\n| S4.9 | D | «abbiamo disattivato il tesserino» conferma il blocco e «puoi ritirarne uno nuovo» spiega come sostituirlo; 中文：旧卡已停用，并说明补办方式。 |\n| S4.10 | A | «Potresti prestarmi il tuo seggiolone solo per quel giorno?» è una richiesta di prestito temporaneo; 中文：借一天，不是索要或赠送。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "A",
+    "S4.3": "C",
+    "S4.4": "B",
+    "S4.5": "D",
+    "S4.6": "A",
+    "S4.7": "C",
+    "S4.8": "B",
+    "S4.9": "D",
+    "S4.10": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "in sospeso",
+      "categoria": "locuzione avverbiale",
+      "zh": "待处理；未完成",
+      "en": "pending",
+      "esempio": "un acquisto rimasto in sospeso"
+    },
+    {
+      "parola": "sistemazione temporanea",
+      "categoria": "locuzione nominale",
+      "zh": "临时安置",
+      "en": "temporary accommodation",
+      "esempio": "È la ricerca di una sistemazione temporanea per un cane."
+    },
+    {
+      "parola": "intero rimborso",
+      "categoria": "locuzione nominale",
+      "zh": "全额退款",
+      "en": "full refund",
+      "esempio": "ricevere l'intero rimborso"
+    },
+    {
+      "parola": "diretta",
+      "categoria": "nome femminile",
+      "zh": "直播",
+      "en": "live stream",
+      "esempio": "seguire gratuitamente la diretta sul canale del centro culturale"
+    },
+    {
+      "parola": "disattivato",
+      "categoria": "participio passato",
+      "zh": "已停用的",
+      "en": "deactivated",
+      "esempio": "abbiamo disattivato il tesserino che hai smarrito"
+    }
+  ]
+}

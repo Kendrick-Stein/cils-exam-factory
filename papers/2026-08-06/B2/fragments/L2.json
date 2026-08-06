@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. I due avvisi servono a individuare gli operatori da invitare a successive procedure negoziate.**  Vero ○ Falso ○\n\n**2. I due affidamenti riguardano entrambi esclusivamente la gestione del Villaggio di Natale.**  Vero ○ Falso ○\n\n**3. Un affidamento comprende il Villaggio e l'animazione, mentre l'altro riguarda le luminarie artistiche.**  Vero ○ Falso ○\n\n**4. Il progetto deve prevedere esattamente dodici casette in legno.**  Vero ○ Falso ○\n\n**5. Al massimo quattro casette possono essere destinate alla somministrazione di alimenti e bevande.**  Vero ○ Falso ○\n\n**6. La pulizia dell'area del Villaggio è richiesta soltanto nei giorni festivi.**  Vero ○ Falso ○\n\n**7. Il periodo indicativo di attività del Villaggio va dal 27 novembre 2026 al 6 gennaio 2027.**  Vero ○ Falso ○\n\n**8. Il programma di animazione comincia nello stesso giorno in cui apre il Villaggio.**  Vero ○ Falso ○\n\n**9. Gli eventi di animazione devono essere più numerosi nei giorni festivi e tra il 23 dicembre e l'Epifania.**  Vero ○ Falso ○\n\n**10. L'operatore incaricato delle luminarie deve occuparsi anche dell'allestimento dell'Albero di Natale.**  Vero ○ Falso ○\n\n**11. Il progetto illuminotecnico deve armonizzarsi sia con il patrimonio cittadino sia con l'illuminazione dell'Albero.**  Vero ○ Falso ○\n\n**12. Per le luminarie è prevista una tecnologia LED a luce fredda.**  Vero ○ Falso ○\n\n**13. Tra i requisiti richiesti figurano l'abilitazione al MEPA, una capacità economica adeguata e un'esperienza pertinente.**  Vero ○ Falso ○\n\n**14. Le manifestazioni di interesse possono essere inviate anche con modalità diverse dal Portale delle gare telematiche.**  Vero ○ Falso ○",
+    "T2_TEXT": "Il Comune di Ravenna ha pubblicato due avvisi di indagine di mercato finalizzati a individuare gli operatori economici da invitare alle successive procedure negoziate per la realizzazione del Natale 2026 nel centro storico.\n\nI due affidamenti riguardano, da un lato, la progettazione, l’organizzazione e la gestione del Villaggio di Natale e del programma di animazione e, dall’altro, la progettazione, il noleggio, l’installazione e la gestione delle luminarie artistiche che illumineranno le principali piazze e vie del centro storico.\n\nIl progetto del Villaggio di Natale previsto in piazza del Popolo dovrà essere composto indicativamente da dodici casette in legno, di cui non più di quattro destinate alla somministrazione di alimenti e bevande. Oltre agli allestimenti scenografici e agli impianti necessari, il progetto dovrà comprendere la gestione delle attività commerciali, la manutenzione e la pulizia quotidiana dell’area, assicurando un’elevata qualità estetica e funzionale.\n\nIl Villaggio sarà operativo indicativamente dal 27 novembre 2026 al 6 gennaio 2027.\n\nAccanto al Villaggio va presentato anche un programma di animazione natalizia rivolto soprattutto a bambini e famiglie, con spettacoli, intrattenimento e iniziative che si svolgeranno dall’8 dicembre 2026 al 6 gennaio 2027, con una maggiore concentrazione di eventi nei giorni festivi e durante il periodo compreso tra il 23 dicembre e l’Epifania. Il progetto comprenderà anche l’organizzazione dell’evento inaugurale in occasione dell’accensione dell’Albero di Natale in piazza del Popolo.\n\nIl secondo avviso riguarda invece il servizio di ideazione e realizzazione delle luminarie artistiche del centro storico. Il progetto dovrà proporre un concept illuminotecnico originale e in armonia con il patrimonio storico e monumentale della città e con l’illuminazione dell’Albero di Natale di Piazza del Popolo, che sarà allestito direttamente dal Comune di Ravenna con il supporto tecnico-operativo di Azimut S.p.A.\n\nLe luminarie, realizzate con tecnologia LED a luce calda, interesseranno le principali piazze e vie del centro storico e comprenderanno tutte le attività di progettazione, noleggio, installazione, assistenza tecnica, manutenzione e successivo smontaggio. L’allestimento dovrà essere completato entro il 27 novembre 2026 per consentire l’accensione inaugurale prevista il 28 novembre. Le installazioni rimarranno in funzione per tutto il periodo natalizio e saranno rimosse entro il 31 gennaio 2027.\n\nPossono presentare manifestazione di interesse gli operatori economici in possesso dei requisiti previsti dai rispettivi avvisi, tra cui l’abilitazione al Mercato Elettronico della Pubblica Amministrazione (MEPA), adeguata capacità economica ed esperienza nei settori dell’organizzazione di eventi o della realizzazione di allestimenti illuminotecnici.\n\nLe manifestazioni di interesse dovranno essere presentate esclusivamente attraverso il Portale delle gare telematiche del Comune di Ravenna entro le ore 12.30 di giovedì 6 agosto 2026.",
+    "T2_TITLE": "NATALE 2026: DUE AVVISI PER IL CENTRO STORICO DI RAVENNA"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il Comune intende «individuare gli operatori economici da invitare alle successive procedure negoziate». |\n| L2.2 | Falso | Gli affidamenti sono distinti: uno riguarda Villaggio e animazione, l'altro le «luminarie artistiche». |\n| L2.3 | Vero | Il testo distingue «la gestione del Villaggio di Natale e del programma di animazione» dalla gestione delle luminarie. |\n| L2.4 | Falso | Le casette sono «indicativamente» dodici: il numero non è imposto in modo esatto. 中文：indicativamente ≠ esattamente。 |\n| L2.5 | Vero | Il testo stabilisce «non più di quattro» casette per alimenti e bevande. |\n| L2.6 | Falso | È prevista la «pulizia quotidiana dell'area», non soltanto nei festivi. |\n| L2.7 | Vero | Il Villaggio sarà operativo «dal 27 novembre 2026 al 6 gennaio 2027». |\n| L2.8 | Falso | Il Villaggio apre indicativamente il 27 novembre, mentre l'animazione si svolge «dall'8 dicembre 2026». |\n| L2.9 | Vero | È richiesta «una maggiore concentrazione di eventi nei giorni festivi» e tra il 23 dicembre e l'Epifania. |\n| L2.10 | Falso | L'Albero «sarà allestito direttamente dal Comune di Ravenna» con il supporto di Azimut S.p.A. |\n| L2.11 | Vero | Il concept deve essere «in armonia con il patrimonio storico e monumentale» e con l'illuminazione dell'Albero. |\n| L2.12 | Falso | Le luminarie saranno realizzate «con tecnologia LED a luce calda», non fredda. |\n| L2.13 | Vero | Sono richieste «l'abilitazione» al MEPA, «adeguata capacità economica ed esperienza» nei settori indicati. |\n| L2.14 | Falso | Le domande devono passare «esclusivamente attraverso il Portale delle gare telematiche». |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "V || Vero",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "indagine di mercato",
+      "categoria": "locuzione nominale",
+      "zh": "市场调查",
+      "en": "market survey",
+      "esempio": "Il Comune di Ravenna ha pubblicato due avvisi di indagine di mercato"
+    },
+    {
+      "parola": "procedure negoziate",
+      "categoria": "locuzione nominale",
+      "zh": "协商程序",
+      "en": "negotiated procedures",
+      "esempio": "da invitare alle successive procedure negoziate"
+    },
+    {
+      "parola": "somministrazione di alimenti e bevande",
+      "categoria": "locuzione nominale",
+      "zh": "餐饮供应",
+      "en": "food and beverage service",
+      "esempio": "non più di quattro destinate alla somministrazione di alimenti e bevande"
+    },
+    {
+      "parola": "concept illuminotecnico",
+      "categoria": "locuzione nominale",
+      "zh": "照明设计概念",
+      "en": "lighting design concept",
+      "esempio": "Il progetto dovrà proporre un concept illuminotecnico originale"
+    },
+    {
+      "parola": "manifestazione di interesse",
+      "categoria": "locuzione nominale",
+      "zh": "意向申请",
+      "en": "expression of interest",
+      "esempio": "Possono presentare manifestazione di interesse gli operatori economici"
+    }
+  ]
+}

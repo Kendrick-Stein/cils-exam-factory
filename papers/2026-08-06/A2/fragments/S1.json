@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Noi abbiamo fatto, con i bambini dell'età __(1)__ sei anni, il sentiero del Gran Cono e vi assicuriamo che è un'esperienza unica, sia __(2)__ l'emozione di camminare lungo il cratere di un vulcano sia per gli scorci suggestivi che si possono godere.\n\n__La (0)__ passeggiata si svolge sempre __(3)__ salita per tutti __(4)__ 800 metri, ma è molto dolce (non si può fare però con i passeggini).\n\nQualsiasi sentiero scegliate regalerà un'esperienza unica a tutti __(5)__ vostri bambini. Quando avranno finito __(6)__ camminare, torneranno fino __(7)__ casa con entrambe __(8)__ tasche piene __(9)__ pietre vulcaniche nere e gialle: saranno stanchi e sporchi, ma tutti __(10)__ bambini saranno felici.",
+    "T4_TITLE": "VESUVIO CON I BAMBINI"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — di.** L'espressione «dell'età di sei anni» richiede la preposizione «di». 年龄表达中的固定介词。\n- **S1.2 — per.** La struttura parallela è «sia per l'emozione ... sia per gli scorci». 并列结构强制重复 *per*。\n- **S1.3 — in.** Il verbo pronominale «si svolge» introduce il modo con «in salita». 固定表达。\n- **S1.4 — gli.** Dopo «tutti» e davanti a «800 metri» serve l'articolo maschile plurale «gli». 可见的一致关系限定答案。\n- **S1.5 — i.** «Tutti i vostri bambini» richiede l'articolo determinativo maschile plurale. *tutti* 后的冠词一致。\n- **S1.6 — di.** La costruzione «finire di + infinito» richiede «di». 固定搭配。\n- **S1.7 — a.** La locuzione «fino a casa» richiede «a». *fino a* 固定搭配。\n- **S1.8 — le.** Dopo «entrambe» serve l'articolo femminile plurale: «entrambe le tasche». 性数一致限定答案。\n- **S1.9 — di.** L'aggettivo «piene» introduce il contenuto con «di»: «piene di pietre». 固定搭配。\n- **S1.10 — i.** Dopo «tutti» e davanti a «bambini» serve «i». 可见的一致关系限定答案。",
+    "ANS_S1_ROWS": "| S1.1 | di | S1.6 | di |\n| S1.2 | per | S1.7 | a |\n| S1.3 | in | S1.8 | le |\n| S1.4 | gli | S1.9 | di |\n| S1.5 | i | S1.10 | i |"
+  },
+  "key": {
+    "S1.1": "di",
+    "S1.2": "per",
+    "S1.3": "in",
+    "S1.4": "gli",
+    "S1.5": "i",
+    "S1.6": "di",
+    "S1.7": "a",
+    "S1.8": "le",
+    "S1.9": "di",
+    "S1.10": "i"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sentiero",
+      "categoria": "nome maschile",
+      "zh": "小径；步道",
+      "en": "trail; path",
+      "esempio": "il sentiero del Gran Cono"
+    },
+    {
+      "parola": "cratere",
+      "categoria": "nome maschile",
+      "zh": "火山口",
+      "en": "crater",
+      "esempio": "lungo il cratere"
+    },
+    {
+      "parola": "scorci suggestivi",
+      "categoria": "espressione",
+      "zh": "迷人的景色",
+      "en": "striking views",
+      "esempio": "gli scorci suggestivi che si possono godere"
+    },
+    {
+      "parola": "passeggini",
+      "categoria": "nome maschile plurale",
+      "zh": "婴儿车",
+      "en": "strollers",
+      "esempio": "con i passeggini"
+    },
+    {
+      "parola": "pietre vulcaniche",
+      "categoria": "espressione nominale",
+      "zh": "火山石",
+      "en": "volcanic stones",
+      "esempio": "pietre vulcaniche nere e gialle"
+    }
+  ]
+}

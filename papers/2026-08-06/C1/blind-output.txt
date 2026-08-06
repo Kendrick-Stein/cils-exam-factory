@@ -1,0 +1,130 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "C", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "D", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+  "L1.5": {"answer": "C", "confidence": "hi"},
+  "L1.6": {"answer": "A", "confidence": "hi"},
+  "L1.7": {"answer": "D", "confidence": "hi"},
+
+  "L2.1": {"answer": "V", "confidence": "hi"},
+  "L2.2": {"answer": "V", "confidence": "hi"},
+  "L2.3": {"answer": "F", "confidence": "hi"},
+  "L2.4": {"answer": "V", "confidence": "hi"},
+  "L2.5": {"answer": "F", "confidence": "hi"},
+  "L2.6": {"answer": "F", "confidence": "hi"},
+  "L2.7": {"answer": "V", "confidence": "hi"},
+  "L2.8": {"answer": "F", "confidence": "hi"},
+  "L2.9": {"answer": "F", "confidence": "hi"},
+  "L2.10": {"answer": "V", "confidence": "hi"},
+  "L2.11": {"answer": "F", "confidence": "hi"},
+  "L2.12": {"answer": "V", "confidence": "hi"},
+  "L2.13": {"answer": "F", "confidence": "hi"},
+  "L2.14": {"answer": "V", "confidence": "hi"},
+
+  "L3": {"answer": "A,H,D,N,B,K,F,P,I,C,M,E,L,G,O,J", "confidence": "hi"},
+
+  "S1.1": {"answer": "chi", "confidence": "hi"},
+  "S1.2": {"answer": "come", "confidence": "hi"},
+  "S1.3": {"answer": "chi", "confidence": "hi"},
+  "S1.4": {"answer": "chi", "confidence": "hi"},
+  "S1.5": {"answer": "per", "confidence": "hi"},
+  "S1.6": {"answer": "chi", "confidence": "hi"},
+  "S1.7": {"answer": "difende", "confidence": "hi"},
+  "S1.8": {"answer": "come", "confidence": "hi"},
+  "S1.9": {"answer": "di", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+  "S1.11": {"answer": "se", "confidence": "hi"},
+  "S1.12": {"answer": "non", "confidence": "hi"},
+  "S1.13": {"answer": "di", "confidence": "hi"},
+  "S1.14": {"answer": "a", "confidence": "hi"},
+  "S1.15": {"answer": "ai", "confidence": "hi"},
+  "S1.16": {"answer": "al", "confidence": "hi"},
+  "S1.17": {"answer": "di", "confidence": "hi"},
+  "S1.18": {"answer": "da", "confidence": "hi"},
+  "S1.19": {"answer": "alla", "confidence": "hi"},
+  "S1.20": {"answer": "di", "confidence": "hi"},
+
+  "S2.1": {"answer": "scrivevo", "confidence": "hi"},
+  "S2.2": {"answer": "mi concentravo", "confidence": "hi"},
+  "S2.3": {"answer": "affascinava", "confidence": "hi"},
+  "S2.4": {"answer": "provenissi", "confidence": "hi"},
+  "S2.5": {"answer": "avevo capito", "confidence": "hi"},
+  "S2.6": {"answer": "conobbi", "confidence": "hi"},
+  "S2.7": {"answer": "sarebbe diventato", "confidence": "hi"},
+  "S2.8": {"answer": "eravamo", "confidence": "hi"},
+  "S2.9": {"answer": "definirei", "confidence": "hi"},
+  "S2.10": {"answer": "trovare", "confidence": "hi"},
+  "S2.11": {"answer": "situato", "confidence": "hi"},
+  "S2.12": {"answer": "ricordando", "confidence": "hi"},
+  "S2.13": {"answer": "dissi", "confidence": "hi"},
+  "S2.14": {"answer": "sia cresciuta", "confidence": "hi"},
+  "S2.15": {"answer": "sono stati concentrati", "confidence": "med"},
+  "S2.16": {"answer": "abbiamo", "confidence": "hi"},
+  "S2.17": {"answer": "produco", "confidence": "hi"},
+  "S2.18": {"answer": "rimanga", "confidence": "hi"},
+  "S2.19": {"answer": "lavoriamo", "confidence": "hi"},
+  "S2.20": {"answer": "risponde", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "D", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "D", "confidence": "hi"},
+  "S3.7": {"answer": "A", "confidence": "hi"},
+  "S3.8": {"answer": "C", "confidence": "hi"},
+  "S3.9": {"answer": "B", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "B", "confidence": "hi"},
+  "S3.14": {"answer": "D", "confidence": "hi"},
+  "S3.15": {"answer": "A", "confidence": "hi"},
+
+  "S4.1": {"answer": "Sull'esterno della busta devono figurare il nominativo del mittente e la dicitura indicata nell'avviso.", "confidence": "hi"},
+  "S4.2": {"answer": "La presentazione delle istanze alla Città di Torino deve avvenire entro le ore 12 di martedì 15 settembre 2026.", "confidence": "hi"},
+  "S4.3": {"answer": "L'avviso dispone che le istanze siano inviate a mezzo posta o mediante un'agenzia di recapito autorizzata oppure siano consegnate a mano.", "confidence": "hi"},
+  "S4.4": {"answer": "Qualora il richiedente consegni l'istanza a mano dal lunedì al giovedì, deve farlo dalle ore 9.00 alle ore 16.00.", "confidence": "hi"},
+  "S4.5": {"answer": "Le istanze consegnate a mano vengono ricevute dall'Ufficio Protocollo della Divisione Patrimonio della Città di Torino.", "confidence": "hi"},
+  "S4.6": {"answer": "È obbligatorio che nel plico siano contenuti lo statuto, l'atto costitutivo e l'ultimo bilancio o rendiconto approvato.", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.15",
+    "reason": "La forma passiva «sono stati concentrati da noi» è favorita dalla presenza di «da noi», ma sarebbe semanticamente naturale anche una costruzione pronominale come «si sono concentrati», eliminando però la funzione agentiva di «da noi»."
+  }
+]
+```
+
+WRITING checks
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "160-180 parole",
+    "notes": "Entrambe le tracce forniscono tema, genere o prospettiva e aspetti da sviluppare."
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole",
+    "notes": "Entrambe le tracce precisano destinatario, contesto, problema e richieste da formulare."
+  },
+  "O1": {
+    "self_contained": true,
+    "notes": "Le quattro situazioni definiscono interlocutore, contesto e obiettivi comunicativi; preparazione e durata sono stampate."
+  },
+  "O2": {
+    "self_contained": true,
+    "notes": "I quattro argomenti indicano chiaramente il problema e le prospettive da discutere; preparazione e durata sono stampate."
+  }
+}
+```

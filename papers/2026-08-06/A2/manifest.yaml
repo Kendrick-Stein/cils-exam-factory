@@ -1,0 +1,121 @@
+exam: cils
+level: A2
+session: '2026-08-06'
+title: CILS A2 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.italia.it/it/lazio/roccasecca/casa-di-san-tommaso
+  title: Casa di San Tommaso
+  publisher: Italia.it
+  published: null
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 206
+  origin: pool/cbc77544c0ed.md
+- id: T2
+  url: https://www.comune.perugia.it/novita/biblioteche-orario-estivo-2026/
+  title: BiblioComPg & Orario estivo
+  publisher: Comune di Perugia
+  published: '2026-06-16'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 186
+  origin: pool/2860d804492c.md
+- id: T3
+  url: https://www.visittrentino.info/it/guida/cosa-fare/eventi/ossana-medievale_e_130160316
+  title: Ossana Medievale — sei voci del programma
+  publisher: Visit Trentino
+  published: null
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 174
+- id: T4
+  url: https://www.viaggiapiccoli.com/tre-sentieri-per-bambini-e-famiglie-sul-vesuvio/
+  title: 'Vesuvio con i bambini: i sentieri più belli e come salire al cratere'
+  publisher: Viaggiapiccoli.com
+  published: '2025-11-27'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 129
+  origin: pool/1f137c569ad9.md
+- id: T5
+  url: https://www.alberghierospoleto.edu.it/2026/07/14/dal-de-carolis-alla-francia-la-mia-esperienza-formativa-alla-maison-carciofi/
+  title: 'Dal De Carolis alla Francia: la mia esperienza formativa alla Maison Carciofi'
+  publisher: IPSEOASC Alberghiero Giancarlo De Carolis
+  published: '2026-07-14'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 129
+  origin: pool/6dcce3592e26.md
+- id: T6
+  url: https://www.eventbrite.it/e/piccoli-van-gogh-laboratorio-artistico-per-bambini-girasoli-al-castello-tickets-1983429703636
+  title: PICCOLI VAN GOGH - Laboratorio artistico per bambini (Girasoli al Castello)
+  publisher: Castello di Malpaga / Eventbrite Italia
+  published: null
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 118
+pipeline:
+  generator: genpapers
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-08-06'
+  - stage: authoring
+    at: '2026-08-06'
+  - stage: format_audit
+    at: '2026-08-06T11:40:40+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-08-06T11:42:19+00:00'
+    agreement: 43/46
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T11:45:51+00:00'
+    agreement: 43/46
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T12:00:30+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-06T12:07:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:07:04+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:08:24+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-08-06T12:09:14+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass

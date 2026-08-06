@@ -1,102 +1,7 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 15
+count: 11
 sources:
-- url: https://www.comune.piacenza.it/it/news/tornano-gli-orari-estivi-delle-biblioteche-del-comune-di-piacenza
-  title: Biblioteca Passerini-Landi, Piacenza — orario estivo
-  publisher: Comune di Piacenza
-  published: '2026-06-29'
-  fetched: '2026-07-23'
-  genre: practical_realia
-  cefr: A1
-  usable_levels:
-  - A1
-  - A2
-  words: 76
-  perishable: true
-  perishable_until: null
-  fetch_intent: A1/reharvest
-  source_file: factory/corpus/pool/666104fb9b77.md
-- url: https://www.subito.it/arredamento-casalinghi/armadio-con-2-ante-specchio-e-3-con-sportelli-livorno-655035944.htm
-  title: Armadio con 2 ante specchio e 3 con sportelli
-  publisher: Subito.it
-  published: null
-  fetched: '2026-07-23'
-  genre: practical_realia
-  cefr: A2
-  usable_levels:
-  - A1
-  - A2
-  - B1
-  words: 57
-  perishable: true
-  perishable_until: null
-  fetch_intent: A2B1/reharvest
-  source_file: factory/corpus/pool/b7d2dc67ddc7.md
-- url: https://www.viaggiapiccoli.com/tre-sentieri-per-bambini-e-famiglie-sul-vesuvio/
-  title: 'Vesuvio con i bambini: i sentieri più belli e come salire al cratere'
-  publisher: Viaggiapiccoli.com
-  published: 27 novembre 2025
-  fetched: '2026-07-28'
-  genre: blogs_lifestyle
-  cefr: B1
-  usable_levels:
-  - A2
-  - B1
-  words: 153
-  perishable: false
-  perishable_until: null
-  fetch_intent: 2026-07-28/overfetch
-  source_file: factory/corpus/pool/1f137c569ad9.md
-- url: https://comune.ravenna.it/novita/comunicato-stampa/natale-2026-il-comune-di-ravenna-pubblica-due-avvisi-di-indagine-di-mercato-per-il-villaggio-di-natale-il-programma-di-animazione-e-le-luminarie-del-centro-storico/
-  title: Natale 2026, il Comune di Ravenna pubblica due avvisi di indagine di mercato
-    per il Villaggio di Natale, il programma di animazione e le luminarie del centro
-    storico
-  publisher: Comune di Ravenna
-  published: '2026-07-17'
-  fetched: '2026-08-02'
-  genre: practical_realia
-  cefr: B2
-  usable_levels:
-  - B1
-  - B2
-  words: 513
-  perishable: true
-  perishable_until: null
-  fetch_intent: B1/over-fetch
-  source_file: factory/corpus/pool/6c788fbbdfe1.md
-- url: https://www.alberghierospoleto.edu.it/2026/07/14/dal-de-carolis-alla-francia-la-mia-esperienza-formativa-alla-maison-carciofi/
-  title: 'Dal De Carolis alla Francia: la mia esperienza formativa alla Maison Carciofi'
-  publisher: IPSEOASC Alberghiero Giancarlo De Carolis
-  published: '2026-07-14'
-  fetched: '2026-08-02'
-  genre: blogs_lifestyle
-  cefr: B1
-  usable_levels:
-  - A2
-  - B1
-  - B2
-  words: 117
-  perishable: false
-  perishable_until: null
-  fetch_intent: A1/T5-extra
-  source_file: factory/corpus/pool/6dcce3592e26.md
-- url: https://www.ansa.it/lazio/notizie/2026/06/02/in-un-manoscritto-di-giuseppe-gioachino-belli-la-sua-passione-per-la-cina_a0d98463-bf92-46b8-9707-429d566b66c8.html
-  title: In un manoscritto di Giuseppe Gioachino Belli la sua passione per la Cina
-  publisher: ANSA
-  published: '2026-06-02'
-  fetched: '2026-08-02'
-  genre: news_general
-  cefr: B2
-  usable_levels:
-  - B1
-  - B2
-  - C1
-  words: 574
-  perishable: true
-  perishable_until: null
-  fetch_intent: A2/T1-extra
-  source_file: factory/corpus/pool/79c9b123238e.md
 - url: https://www.ansa.it/sito/notizie/cultura/tv/2026/05/25/storia-pop-100-pillole-rai-per-raccontare-il-passato-con-il-linguaggio_0ab765ec-c999-438b-8625-45ae21f1f320.html
   title: Storia Pop, 100 pillole Rai per raccontare il passato con il linguaggio di
     oggi
@@ -114,114 +19,6 @@ sources:
   perishable_until: null
   fetch_intent: A2/T1-extra
   source_file: factory/corpus/pool/7aa7c4fc9ad1.md
-- url: https://www.comune.perugia.it/novita/biblioteche-orario-estivo-2026/
-  title: BiblioComPg & Orario estivo
-  publisher: Comune di Perugia
-  published: '2026-06-16'
-  fetched: '2026-08-02'
-  genre: practical_realia
-  cefr: A2
-  usable_levels:
-  - A1
-  - A2
-  - B1
-  words: 189
-  perishable: true
-  perishable_until: null
-  fetch_intent: A1/T2-extra
-  source_file: factory/corpus/pool/2860d804492c.md
-- url: https://www.comune.torino.it/novita/notizie/iscrizioni-estate-ragazzi-2026
-  title: Iscrizioni Estate Ragazzi 2026
-  publisher: Città di Torino
-  published: '2026-04-13'
-  fetched: '2026-08-02'
-  genre: practical_realia
-  cefr: A2
-  usable_levels:
-  - A2
-  - B1
-  words: 258
-  perishable: true
-  perishable_until: null
-  fetch_intent: A2/T6-extra
-  source_file: factory/corpus/pool/e26148efca5a.md
-- url: https://www.italia.it/it/lazio/roccasecca/casa-di-san-tommaso
-  title: Casa di San Tommaso
-  publisher: Italia.it
-  published: unknown
-  fetched: '2026-08-02'
-  genre: practical_realia
-  cefr: A2
-  usable_levels:
-  - A1
-  - A2
-  - B1
-  words: 181
-  perishable: true
-  perishable_until: null
-  fetch_intent: A1/T4
-  source_file: factory/corpus/pool/cbc77544c0ed.md
-- url: https://www.media.inaf.it/2026/02/20/forma-bilobata-transnettuniani/
-  title: Pupazzi di neve ai confini del Sistema solare
-  publisher: Media INAF
-  published: '2026-02-20'
-  fetched: '2026-08-02'
-  genre: culture_science
-  cefr: B2
-  usable_levels:
-  - B2
-  - C1
-  words: 485
-  perishable: false
-  perishable_until: null
-  fetch_intent: B2/T4-overfetch
-  source_file: factory/corpus/pool/3f9a5f277d3f.md
-- url: https://www.media.inaf.it/2026/07/06/euclid-quasar-piu-antichi/
-  title: Euclid scopre i due quasar più antichi mai osservati
-  publisher: MEDIA INAF
-  published: '2026-07-06'
-  fetched: '2026-08-02'
-  genre: culture_science
-  cefr: C1
-  usable_levels:
-  - B2
-  - C1
-  words: 592
-  perishable: false
-  perishable_until: null
-  fetch_intent: C1/T6-extra
-  source_file: factory/corpus/pool/748f28fe9dec.md
-- url: https://www.mountainblog.it/redazionale/il-cammino-dei-cappuccini-arriva-la-versione-bike/
-  title: 'Il Cammino dei Cappuccini: arriva la versione bike'
-  publisher: MountainBlog
-  published: '2026-03-20'
-  fetched: '2026-08-02'
-  genre: blogs_lifestyle
-  cefr: C1
-  usable_levels:
-  - B2
-  - C1
-  words: 500
-  perishable: false
-  perishable_until: null
-  fetch_intent: B2/T3-overfetch
-  source_file: factory/corpus/pool/92aa26100bbb.md
-- url: https://www.padigitale2026.gov.it/supporto/guida-a-pa-digitale-2026
-  title: Guida a PA digitale 2026
-  publisher: PA digitale 2026 – Dipartimento per la trasformazione digitale
-  published: unknown
-  fetched: '2026-08-02'
-  genre: practical_realia
-  cefr: B2
-  usable_levels:
-  - B1
-  - B2
-  - C1
-  words: 213
-  perishable: true
-  perishable_until: null
-  fetch_intent: C1/T2-extra
-  source_file: factory/corpus/pool/2f49db8aa8b8.md
 - url: https://www.rainews.it/tgr/trento/video/2026/06/storo-darzo-vecchia-miniera-visite-trentino-cdeff85b-5c3c-4119-957f-203af4f586ca.html
   title: A Darzo riprende vita la vecchia miniera
   publisher: RaiNews TGR Trento
@@ -238,3 +35,146 @@ sources:
   perishable_until: null
   fetch_intent: A2/T5-extra
   source_file: factory/corpus/pool/479a5da5aa25.md
+- url: https://decentramento.comune.torino.it/circoscrizione5/vivere-circoscrizione/luoghi/giardino-don-gnocchi
+  title: Giardino Don Gnocchi — giochi d’acqua
+  publisher: Città di Torino, Circoscrizione 5
+  published: '2026-06-04'
+  fetched: '2026-08-06'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 163
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T1-backup
+  source_file: factory/corpus/pool/7d5720811232.md
+- url: https://turistipercaso.it/diari-di-viaggio/transilvania-la-vacanza-che-non-ti-aspetti.html
+  title: Transilvania, la vacanza che non ti aspetti
+  publisher: Turisti per Caso
+  published: unknown
+  fetched: '2026-08-06'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 385
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/T3-overfetch
+  source_file: factory/corpus/pool/ed59cac8ee6e.md
+- url: https://www.ansa.it/sito/notizie/cultura/arte/2026/07/25/mic-e-mitur-apertura-serale-straordinaria-grandi-monumenti-si-parte-da-roma-e-milano_b2722d2d-0663-457f-ae81-0313b62d0e4c.html
+  title: 'Mic e MiTur, apertura serale straordinaria grandi monumenti: si parte da
+    Roma e Milano'
+  publisher: ANSA
+  published: '2026-07-25'
+  fetched: '2026-08-06'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  - B2
+  words: 204
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T6-extra
+  source_file: factory/corpus/pool/acfbd1054be2.md
+- url: https://www.comune.modena.it/novita/avvisi/2026/avviso-pubblico-per-contributi-a-progetti-del-terzo-settore-per-il-periodo-primavera-estate-2026
+  title: Avviso pubblico per contributi a progetti del Terzo Settore per il periodo
+    primavera/estate 2026
+  publisher: Comune di Modena
+  published: '2026-03-19'
+  fetched: '2026-08-06'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A2
+  - B1
+  words: 224
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T2-extra
+  source_file: factory/corpus/pool/42205436ba68.md
+- url: https://www.gamberorosso.it/notizie/vino/evoluzione-vendite-modello-bordeaux-intervista-sarzi-amade-massimo-bernardi/
+  title: 'Meno négociant, più incontri diretti: così la crisi ha cambiato il modello
+    Bordeaux. Intervista a Sarzi Amadé'
+  publisher: Gambero Rosso
+  published: '2026-04-02'
+  fetched: '2026-08-06'
+  genre: blogs_lifestyle
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  - C1
+  words: 338
+  perishable: false
+  perishable_until: null
+  fetch_intent: C1/T5-extra
+  source_file: factory/corpus/pool/b9f5a61be0fd.md
+- url: https://www.media.inaf.it/2026/04/20/vermi-nello-spazio/
+  title: Vermi nello spazio
+  publisher: Media INAF
+  published: '2026-04-20'
+  fetched: '2026-08-06'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 469
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/T4-overfetch
+  source_file: factory/corpus/pool/7ae239ade5dc.md
+- url: https://www.subito.it/arredamento-casalinghi/armadio-ikea-smastad-platsa-come-nuovo-60x57x181-roma-650644707.htm
+  title: Armadio IKEA SMÅSTAD/PLATSA come nuovo - 60x57x181
+  publisher: Subito.it
+  published: null
+  fetched: '2026-08-06'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 85
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T4-backup
+  source_file: factory/corpus/pool/a1f66fd53c07.md
+- url: https://www.visittrentino.info/it/guida/cosa-fare/eventi/summer-eco-tour-folgaria_e_133501352
+  title: Green Kids Village
+  publisher: Visit Trentino
+  published: unknown
+  fetched: '2026-08-06'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 176
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T6-extra
+  source_file: factory/corpus/pool/0306b636e74e.md
+- url: https://www.visittrentino.info/it/guida/cosa-fare/eventi/vivi-tesino-l-orto-dei-bambini_e_54399709
+  title: 'Vivi Tesino: L''orto dei bambini'
+  publisher: Visit Trentino
+  published: unknown
+  fetched: '2026-08-06'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  - B1
+  words: 124
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T2-extra
+  source_file: factory/corpus/pool/7ed7bc80cff6.md

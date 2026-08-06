@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Il volume curato da Marina Battaglini rivela un interesse di Belli rimasto a lungo poco noto.**  Vero ○ Falso ○\n\n**2. La presentazione del libro è prevista per il 10 giugno alle 16.30 alla Biblioteca nazionale di Roma.**  Vero ○ Falso ○\n\n**3. Belli deve la propria fama soprattutto alle conferenze tenute presso l'Accademia tiberina.**  Vero ○ Falso ○\n\n**4. Battaglini ha rinvenuto fra le carte di Belli un manoscritto destinato a una serie di conferenze.**  Vero ○ Falso ○\n\n**5. Quando tornò in Italia nel 1823, Martucci lasciò in Cina la collezione raccolta durante i suoi viaggi.**  Vero ○ Falso ○\n\n**6. Il Museo cinese allestito da Martucci in via del Corso era riservato agli studiosi.**  Vero ○ Falso ○\n\n**7. Gli oggetti esposti documentavano, oltre all'arte, anche aspetti quotidiani, storici e politici della Cina.**  Vero ○ Falso ○\n\n**8. Nel manoscritto Belli approva l'usanza cinese di modificare i piedi delle donne.**  Vero ○ Falso ○\n\n**9. La biblioteca descritta da Belli conteneva meno di tremila volumi, tutti di carattere letterario.**  Vero ○ Falso ○\n\n**10. I ritratti della galleria erano esclusivamente femminili e offrirono a Belli materia di riflessione.**  Vero ○ Falso ○\n\n**11. Nelle sue annotazioni Belli presenta la civiltà cinese soltanto in termini negativi, senza riconoscerle meriti intellettuali.**  Vero ○ Falso ○\n\n**12. Secondo Battaglini, Belli attraversò consapevolmente un'epoca compresa fra la Rivoluzione francese e il Regno d'Italia.**  Vero ○ Falso ○\n\n**13. Belli riteneva ragionevole valutare il gusto di un popolo applicando i principi di un altro.**  Vero ○ Falso ○\n\n**14. Dopo il fallimento delle trattative con il governo pontificio, Martucci cedette la collezione al re di Baviera.**  Vero ○ Falso ○",
+    "T2_TEXT": "*Castelvecchi pubblica 'Di alcune cinesi curiosità' a cura di Marina Battaglini*\n\nUn libro, appena pubblicato per le edizioni Castelvecchi, ci porta a scoprire un aspetto sconosciuto del poeta romanesco, Giuseppe Gioachino Belli. Uomo colto e appassionato di altre culture e di altri Paesi, Belli amava in particolare la Cina. A raccontarcelo è il libro dal titolo 'Di alcune cinesi curiosità', curato dalla storica Marina Battaglini, che verrà presentato alla Biblioteca nazionale di Roma il 10 giugno alle 16.30.\n\nGioachino Belli nasce a Roma nel settembre 1791. Di famiglia benestante, da appassionato studioso entrò presto, prima come segretario e poi presidente, nell'Accademia tiberina, che comprendeva gli oppositori dell'Impero, liberali e clericali. Ma ciò che lo renderà famoso sono appunto i suoi 2.279 sonetti, composti in vernacolo romanesco, \"un monumento di quello che oggi è la plebe di Roma\" scrive il poeta. Una plebe che Belli definisce \"non casta, non pia talvolta, sebbene devota e superstiziosa\".\n\nMa il libro della sinologa Marina Battaglini ci racconta, invece, l'artista appassionato della cultura e dell'arte cinese. Tra le carte belliane conservate alla Biblioteca nazionale di Roma, l'autrice ha scoperto un autografo inedito di Gioachino Belli dal titolo 'Di alcune cinesi curiosità' che sarebbe servito allo scrittore per una serie di conferenze all'Accademia Tiberina.\n\nTutto nasce dall'amicizia del Belli con Onorato Martucci (1774-1843), viaggiatore instancabile e mercante dalla vita avventurosa. I suoi traffici commerciali lo portano in vari paesi orientali, tra cui India e poi Cina, fino a quando nel 1823 decide di tornare in Italia, ma portando con sé 326 casse piene di cineserie antiche e moderne.\n\nUna raccolta di oggetti che testimoniano la vita quotidiana, la cultura, l'arte, ma anche la storia e la politica di quel lontano paese, con cui a Roma allestisce, in via del Corso, un Museo cinese aperto al pubblico. Quattro grandi sale, stipate all'inverosimile di oggetti da enormi a piccolissimi, quadri, stampe, monete, monili, \"curiosità vaghissime e pregevoli\" le definisce il Belli, che amava visitare il museo pieno di oggetti di uso quotidiano, tabacchiere, gioielli e scarpe.\n\nQueste ultime danno lo spunto al poeta per criticare \"il barbaro costume di storpiare i piedi alle donne\" messo in atto in Cina. Belli nel manoscritto ci descrive anche la grande biblioteca di più di 3 mila libri, tra poemi, testi di scienza, carte geografiche e testi religiosi. E infine, la galleria dei ritratti, tutti di donne, che consentono allo scrittore una serie di riflessioni sulla donna cinese.\n\nCon le sue annotazioni Belli cerca di farci conoscere una civiltà e un popolo che è \"stravagante, astuto, formalista e superstizioso\" ma anche capace di profondità filosofiche e letterarie, artistiche e scientifiche.\n\nMarina Battaglini, nel libro, ci racconta dunque un Belli intellettuale che attraversa in maniera consapevole \"il suo periodo storico, segnato da trasformazioni e contrasti, dalla Rivoluzione francese al Regno d'Italia\", forte della propria convinzione, chiaramente espressa nel manoscritto \"che in fatto di gusto il giudicare un popolo secondo i principi di un altro non sia buon raziocinio\".\n\nIntanto lo scaltro Martucci alla fine del 1832, dopo vani tentativi di vendere la collezione al governo pontificio, ottenuti solo rifiuti la cede al re di Baviera Luigi I di Wittelsbach. Alla presentazione del libro il 10 giugno partecipano il direttore della Biblioteca nazionale centrale di Roma, Stefano Campagnolo, e tra gli altri il presidente del centro studi Giuseppe Gioacchino Belli, Marcello Teodonio.",
+    "T2_TITLE": "IN UN MANOSCRITTO DI GIUSEPPE GIOACHINO BELLI LA SUA PASSIONE PER LA CINA"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il libro fa scoprire \"un aspetto sconosciuto\" di Belli, che \"amava in particolare la Cina\". 中文：此前鲜为人知。 |\n| L2.2 | Vero | Il testo indica la presentazione \"alla Biblioteca nazionale di Roma il 10 giugno alle 16.30\". |\n| L2.3 | Falso | A renderlo famoso sono i suoi \"2.279 sonetti\", non le conferenze. 中文：成名原因被替换。 |\n| L2.4 | Vero | L'autrice ha scoperto \"un autografo inedito\" che sarebbe servito \"per una serie di conferenze\". |\n| L2.5 | Falso | Martucci torna in Italia \"portando con sé 326 casse\", quindi non lascia la raccolta in Cina. |\n| L2.6 | Falso | Il Museo cinese era esplicitamente \"aperto al pubblico\". |\n| L2.7 | Vero | La raccolta testimonia \"la vita quotidiana, la cultura, l'arte, ma anche la storia e la politica\". |\n| L2.8 | Falso | Belli critica l'usanza definendola \"il barbaro costume di storpiare i piedi alle donne\". |\n| L2.9 | Falso | La biblioteca aveva \"più di 3 mila libri\" e comprendeva scienza, geografia e religione oltre ai poemi. |\n| L2.10 | Vero | La galleria aveva ritratti \"tutti di donne\", dai quali nascono riflessioni sulla donna cinese. |\n| L2.11 | Falso | Accanto ai giudizi critici, Belli riconosce profondità \"filosofiche e letterarie, artistiche e scientifiche\". 中文：评价并非单向否定。 |\n| L2.12 | Vero | Battaglini descrive il periodo storico \"dalla Rivoluzione francese al Regno d'Italia\" attraversato consapevolmente da Belli. |\n| L2.13 | Falso | Per Belli giudicare un popolo secondo i principi di un altro \"non sia buon raziocinio\". 中文：否定判断。 |\n| L2.14 | Vero | Dopo i rifiuti del governo pontificio, Martucci \"la cede al re di Baviera Luigi I di Wittelsbach\". |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "vernacolo romanesco",
+      "categoria": "locuzione nominale",
+      "zh": "罗马方言",
+      "en": "Roman dialect",
+      "esempio": "composti in vernacolo romanesco"
+    },
+    {
+      "parola": "autografo inedito",
+      "categoria": "locuzione nominale",
+      "zh": "未发表的亲笔手稿",
+      "en": "unpublished autograph manuscript",
+      "esempio": "l'autrice ha scoperto un autografo inedito di Gioachino Belli"
+    },
+    {
+      "parola": "stipate all'inverosimile",
+      "categoria": "locuzione aggettivale",
+      "zh": "挤得满满当当",
+      "en": "packed beyond belief",
+      "esempio": "Quattro grandi sale, stipate all'inverosimile di oggetti da enormi a piccolissimi"
+    },
+    {
+      "parola": "buon raziocinio",
+      "categoria": "locuzione nominale",
+      "zh": "合理的推理",
+      "en": "sound reasoning",
+      "esempio": "non sia buon raziocinio"
+    },
+    {
+      "parola": "vani tentativi",
+      "categoria": "locuzione nominale",
+      "zh": "徒劳的尝试",
+      "en": "unsuccessful attempts",
+      "esempio": "dopo vani tentativi di vendere la collezione al governo pontificio"
+    }
+  ]
+}

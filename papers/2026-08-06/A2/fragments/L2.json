@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. L'orario estivo delle Biblioteche comunali di Perugia comincia lunedì 6 luglio.**\n\nVero ○ Falso ○\n\n**2. La biblioteca Arconi è aperta soltanto dal lunedì al venerdì.**\n\nVero ○ Falso ○\n\n**3. Il lunedì e il mercoledì la biblioteca Augusta è aperta fino alle 18.30.**\n\nVero ○ Falso ○\n\n**4. La biblioteca Augusta è chiusa dal 7 al 18 agosto.**\n\nVero ○ Falso ○\n\n**5. Il martedì e il giovedì la biblioteca Biblionet è aperta anche nel pomeriggio.**\n\nVero ○ Falso ○\n\n**6. La biblioteca San Matteo degli Armeni è aperta ogni sabato pomeriggio.**\n\nVero ○ Falso ○\n\n**7. La biblioteca San Matteo degli Armeni è chiusa dal 3 al 7 agosto.**\n\nVero ○ Falso ○\n\n**8. La biblioteca Sandro Penna è aperta nel pomeriggio il martedì e il giovedì.**\n\nVero ○ Falso ○",
+    "T2_TEXT": "Da lunedì 6 luglio a sabato 29 agosto 2026 le Biblioteche comunali di Perugia sono aperte con orario estivo.\n\n**Arconi**\n\ndal lunedì al sabato 10.00-19.00\n\nChiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 31 agosto al 5 settembre\n\n**Augusta**\n\nlunedì e mercoledì 9.00-18.30 | martedì, giovedì e venerdì 9.00-13.30\n\nChiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 7 al 18 settembre\n\n**Biblionet**\n\ndal lunedì al sabato 9.00-13.00 | martedì e giovedì 15.00-19.00\n\nChiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 10 al 22 agosto\n\n**San Matteo degli Armeni**\n\ndal lunedì al venerdì 9.30-13.00 | martedì e giovedì 15.30-19.30\n\nultimo sabato del mese 15.30-19.30\n\nChiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 3 al 7 agosto\n\n**Sandro Penna**\n\ndal lunedì al sabato 9.00-13.00 | lunedì e mercoledì 15.00-19.00\n\nChiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 24 al 29 agosto\n\nOrario invernale da lunedì 31 agosto",
+    "T2_TITLE": "BiblioComPg & Orario estivo"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica: «Da lunedì 6 luglio [...] sono aperte con orario estivo». 中文：夏季时间从7月6日开始。 |\n| L2.2 | Falso | Per Arconi è scritto «dal lunedì al sabato», non solo fino al venerdì. 中文：周六也开放。 |\n| L2.3 | Vero | Augusta è aperta «lunedì e mercoledì 9.00-18.30». 中文：这两天开到18:30。 |\n| L2.4 | Falso | La chiusura di Augusta è «dal 7 al 18 settembre», non ad agosto. 中文：月份是九月。 |\n| L2.5 | Vero | Biblionet apre «martedì e giovedì 15.00-19.00». 中文：周二和周四下午开放。 |\n| L2.6 | Falso | San Matteo degli Armeni apre soltanto l'«ultimo sabato del mese». 中文：不是每个周六。 |\n| L2.7 | Vero | Il periodo di chiusura indicato è «dal 3 al 7 agosto». 中文：日期与原文一致。 |\n| L2.8 | Falso | Sandro Penna apre nel pomeriggio «lunedì e mercoledì 15.00-19.00». 中文：不是周二和周四。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "orario estivo",
+      "categoria": "locuzione nominale",
+      "zh": "夏季开放时间",
+      "en": "summer opening hours",
+      "esempio": "Da lunedì 6 luglio a sabato 29 agosto 2026 le Biblioteche comunali di Perugia sono aperte con orario estivo."
+    },
+    {
+      "parola": "Chiusa al pubblico",
+      "categoria": "locuzione",
+      "zh": "暂停对外开放",
+      "en": "closed to the public",
+      "esempio": "Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi"
+    },
+    {
+      "parola": "revisione",
+      "categoria": "nome femminile",
+      "zh": "检查整理",
+      "en": "inspection",
+      "esempio": "Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi"
+    },
+    {
+      "parola": "spolveratura",
+      "categoria": "nome femminile",
+      "zh": "除尘",
+      "en": "dusting",
+      "esempio": "Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi"
+    },
+    {
+      "parola": "sistemazione dei volumi",
+      "categoria": "locuzione nominale",
+      "zh": "图书整理",
+      "en": "arrangement of the books",
+      "esempio": "Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. MERCATINO MEDIEVALE**\n\nda giovedì 6 a domenica 9 agosto\nore 10:30-19:30 in Via Venezia e presso la Piazzetta del Castello\n\n○ **2. I FALCONIERI DEL RE**\n\ngiovedì 6 agosto\nore 10:00\nCastello San Michele\nspettacoli di falconeria. Ingresso al castello a pagamento.\n\n○ **3. COSTUMI MEDIEVALI**\n\nvenerdì 7 agosto\ndalle 10:00\nSala Jacopo Aconcio\nRivivi l'atmosfera di un tempo, costumi disponibili gratuitamente.\n\n○ **4. LABORATORIO DI LANA**\n\nvenerdì 7 agosto\ndalle ore 14:00 alle 17:00\nCastello San Michele\nScopri l'antica arte della lavorazione della lana attraverso dimostrazioni e attività pratiche: lavaggio, cardatura e le principali fasi della trasformazione della fibra. Laboratorio gratuito, ingresso al castello a pagamento.\n\n○ **5. DANTICADANZA**\n\nvenerdì 7 agosto\nore 16:00\nCastello San Michele\ndanze con musica medievale. Ingresso al Castello a pagamento.\n\n○ **6. SFILATA MEDIEVALE**\n\nsabato 8 agosto\nore 17:30\nitinerante\ncon i tamburini di San Marino, cavalli, e abiti medievali. Partenza dal centro storico di Ossana con arrivo castello di San Michele e alle 19.30 sfilata di ritorno in via Venezia",
+    "L3_OPTIONS": "A. Chi vuole ascoltare musica medievale e vedere le danze entra nel castello venerdì alle ore 16:00.\n\nB. Questo evento attraversa Ossana con tamburini, cavalli e abiti medievali, poi torna in via Venezia.\n\nC. I partecipanti scoprono come si lavora la fibra con lavaggio, cardatura, dimostrazioni e diverse attività pratiche.\n\nD. Qui i visitatori possono usare gratuitamente abiti di altri tempi e rivivere insieme l'atmosfera medievale.\n\nE. È lo spettacolo per vedere i falconieri al Castello San Michele giovedì mattina alle dieci.\n\nF. Le bancarelle sono aperte per quattro giorni, dalle dieci e trenta fino alle diciannove e trenta.\n\nG. L'attività gratuita insegna a ballare nel centro storico sabato mattina, senza bisogno di entrare nel castello.\n\nH. Questo appuntamento permette di acquistare vestiti moderni nella Sala Jacopo Aconcio venerdì pomeriggio, a pagamento."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | F | «da giovedì 6 a domenica 9 agosto» e «ore 10:30-19:30» indicano quattro giorni e gli stessi orari di F. 中文：日期和时间唯一对应。 |\n| L3.2 | E | «I FALCONIERI DEL RE», «giovedì 6 agosto» e «ore 10:00» corrispondono allo spettacolo di E. 中文：表演、星期和时间唯一对应。 |\n| L3.3 | D | «costumi disponibili gratuitamente» e «Rivivi l'atmosfera di un tempo» sono ripresi solo da D. 中文：可免费使用古装。 |\n| L3.4 | C | «lavorazione della lana», «lavaggio, cardatura» e «attività pratiche» identificano C. 中文：羊毛加工步骤唯一对应。 |\n| L3.5 | A | «danze con musica medievale» e «venerdì 7 agosto, ore 16:00» corrispondono ad A. 中文：舞蹈、音乐和时间唯一对应。 |\n| L3.6 | B | «tamburini», «cavalli», «abiti medievali» e «sfilata di ritorno in via Venezia» identificano B. 中文：游行元素和返回地点唯一对应。 |",
+    "ANS_L3_UNUSED": "G, H"
+  },
+  "key": {
+    "L3.1": "F",
+    "L3.2": "E",
+    "L3.3": "D",
+    "L3.4": "C",
+    "L3.5": "A",
+    "L3.6": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "spettacoli di falconeria",
+      "categoria": "locuzione nominale",
+      "zh": "猎鹰表演",
+      "en": "falconry shows",
+      "esempio": "spettacoli di falconeria. Ingresso al castello a pagamento."
+    },
+    {
+      "parola": "costumi disponibili gratuitamente",
+      "categoria": "espressione nominale",
+      "zh": "可免费使用的服装",
+      "en": "costumes available free of charge",
+      "esempio": "Rivivi l'atmosfera di un tempo, costumi disponibili gratuitamente."
+    },
+    {
+      "parola": "lavorazione della lana",
+      "categoria": "locuzione nominale",
+      "zh": "羊毛加工",
+      "en": "wool processing",
+      "esempio": "Scopri l'antica arte della lavorazione della lana attraverso dimostrazioni e attività pratiche"
+    },
+    {
+      "parola": "attività pratiche",
+      "categoria": "locuzione nominale",
+      "zh": "实践活动",
+      "en": "practical activities",
+      "esempio": "Scopri l'antica arte della lavorazione della lana attraverso dimostrazioni e attività pratiche"
+    },
+    {
+      "parola": "sfilata di ritorno",
+      "categoria": "locuzione nominale",
+      "zh": "返程游行",
+      "en": "return parade",
+      "esempio": "alle 19.30 sfilata di ritorno in via Venezia"
+    }
+  ]
+}

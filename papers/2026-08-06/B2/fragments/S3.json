@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "Scopri le __(0)__ per usare la piattaforma e __(1)__ i problemi tecnici più comuni.\n\n**Attivare il profilo della tua PA**\n\nL’__(2)__ del profilo della PA è il primo passo per partecipare agli avvisi pubblici e richiedere i finanziamenti per __(3)__ il processo di transizione digitale.\n\nUn rappresentante della PA può __(4)__ alla piattaforma con SPID o CIE e, attraverso un percorso guidato, __(5)__ il processo di attivazione.\n\n**Candidare la tua PA agli avvisi**\n\nIn base alla __(6)__ e agli obiettivi della tua PA, puoi __(7)__ gli avvisi pubblici più __(8)__ e __(9)__ una candidatura direttamente tramite PA digitale 2026.\n\n**Ricevere assistenza**\n\nPer qualsiasi __(10)__ o problema, puoi trovare __(11)__ risposta alle domande più frequenti o richiedere assistenza __(12)__.\n\n**Rendicontare un progetto**\n\nPA digitale 2026 permette di __(13)__ i progetti all’interno della piattaforma, così da completare le attività __(14)__ e richiedere il finanziamento.\n\nInserimento del CUP, ingaggio dei fornitori e completamento delle attività, questi sono i passaggi principali per __(15)__ il finanziamento e raggiungere gli obiettivi della candidatura.",
+    "T6_TITLE": "GUIDA A PA DIGITALE 2026",
+    "S3_OPT0_A": "indicazioni",
+    "S3_OPT0_B": "esitazioni",
+    "S3_OPT0_C": "discussioni",
+    "S3_OPT0_D": "sanzioni",
+    "S3_OPTION_ROWS": "| 1. | risolvere | aggravare | nascondere | rimandare |\n| 2. | sospensione | cancellazione | attivazione | dismissione |\n| 3. | arrestare | avviare | ritardare | abbandonare |\n| 4. | rinunciare | obbedire | reagire | accedere |\n| 5. | completare | interrompere | evitare | delegare |\n| 6. | tipologia | posizione | età | grandezza |\n| 7. | identificare | confondere | ignorare | scartare |\n| 8. | casuali | scaduti | idonei | estranei |\n| 9. | respingere | inviare | cancellare | nascondere |\n| 10. | successo | vantaggio | premio | dubbio |\n| 11. | raramente | casualmente | segretamente | facilmente |\n| 12. | dedicata | vietata | occasionale | superflua |\n| 13. | smarrire | nascondere | gestire | bloccare |\n| 14. | vietate | estranee | previste | casuali |\n| 15. | restituire | ottenere | perdere | rifiutare |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | La guida serve a «risolvere i problemi tecnici più comuni»; le altre azioni non eliminano il problema. |\n| S3.2 | C | Il titolo della sezione è «Attivare il profilo»: si parla quindi dell’«attivazione del profilo». |\n| S3.3 | B | I finanziamenti servono ad «avviare il processo di transizione digitale», cioè a farlo iniziare. |\n| S3.4 | D | Con SPID o CIE si può «accedere alla piattaforma»; gli altri verbi non descrivono l’ingresso in un servizio digitale. |\n| S3.5 | A | Il percorso guidato consente di «completare il processo di attivazione», non di interromperlo o evitarlo. |\n| S3.6 | A | Gli avvisi vengono selezionati «in base alla tipologia e agli obiettivi» della PA. |\n| S3.7 | A | La PA può «identificare gli avvisi pubblici» coerenti con le proprie caratteristiche. |\n| S3.8 | C | Gli avvisi da scegliere sono «più idonei», ossia più adatti alla PA. 这里考查“idoneo”与选择标准的搭配。 |\n| S3.9 | B | Dopo aver individuato l’avviso, la PA può «inviare una candidatura» tramite la piattaforma. |\n| S3.10 | D | L’assistenza è prevista «per qualsiasi dubbio o problema»; le altre parole indicano situazioni positive. |\n| S3.11 | D | La guida promette di «trovare facilmente risposta» alle domande frequenti. |\n| S3.12 | A | In alternativa alle domande frequenti, l’utente può «richiedere assistenza dedicata». |\n| S3.13 | C | La piattaforma permette di «gestire i progetti» durante la rendicontazione. |\n| S3.14 | C | Per rendicontare bisogna «completare le attività previste», cioè quelle stabilite dal progetto. |\n| S3.15 | B | I passaggi elencati sono necessari per «ottenere il finanziamento» e raggiungere gli obiettivi. |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "C",
+    "S3.3": "B",
+    "S3.4": "D",
+    "S3.5": "A",
+    "S3.6": "A",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "D",
+    "S3.12": "A",
+    "S3.13": "C",
+    "S3.14": "C",
+    "S3.15": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "transizione digitale",
+      "categoria": "locuzione nominale",
+      "zh": "数字化转型",
+      "en": "digital transition",
+      "esempio": "il processo di transizione digitale"
+    },
+    {
+      "parola": "percorso guidato",
+      "categoria": "locuzione nominale",
+      "zh": "引导式流程",
+      "en": "guided process",
+      "esempio": "attraverso un percorso guidato"
+    },
+    {
+      "parola": "avvisi pubblici",
+      "categoria": "locuzione nominale",
+      "zh": "公共项目通知",
+      "en": "public calls",
+      "esempio": "partecipare agli avvisi pubblici"
+    },
+    {
+      "parola": "domande più frequenti",
+      "categoria": "locuzione nominale",
+      "zh": "常见问题",
+      "en": "frequently asked questions",
+      "esempio": "domande più frequenti"
+    },
+    {
+      "parola": "ingaggio dei fornitori",
+      "categoria": "locuzione nominale",
+      "zh": "供应商聘用",
+      "en": "supplier engagement",
+      "esempio": "ingaggio dei fornitori"
+    }
+  ]
+}

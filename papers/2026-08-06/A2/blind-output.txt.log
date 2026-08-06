@@ -1,0 +1,497 @@
+Reading additional input from stdin...
+OpenAI Codex v0.146.0
+--------
+workdir: /Users/kendrickstein/Code/CILS_Exam_AUTOGEN
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: low
+reasoning summaries: none
+session id: 019fd6e0-4f57-7b53-8201-7f09535c4b85
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-08-06-A2/paper.md using ONLY that file. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. For every multiple-choice item answer with the option LETTER ONLY (A, B, C or D) exactly as labelled in the paper, never with the option's word or phrase. Do not open any other file or the web. For every multiple-choice item answer with the option LETTER ONLY (A, B, C or D) exactly as labelled in the paper, never with the word itself.
+codex
+I’ll solve from the isolated student paper only, then return the three requested sections in machine-readable form.
+exec
+/bin/zsh -lc "sed -n '1,260p' /tmp/cils-blind-2026-08-06-A2/paper.md" in /tmp
+ succeeded in 0ms:
+---
+exam: CILS
+level: A2
+level_name: "CILS A2"
+session: "2026-08-06"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello A2 — Prova di esercitazione · 6 agosto 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello degli esami CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Punteggio per abilità: massimo 12, sufficienza 7.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 12**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### UNA CASA MEDIEVALE DAL NOME MISTERIOSO
+
+Nel borgo medievale di Roccasecca si trova un edificio noto come Casa di San Tommaso. Per chi esplora il centro storico, questa casa è una tappa fondamentale. Tuttavia, il suo nome nasconde un segreto che gli abitanti del luogo conoscono bene: nonostante il nome e un'iscrizione sopra l'arco d'ingresso, il famoso santo non è nato qui. L'edificio resta comunque un affascinante esempio di architettura medievale ed è facile da riconoscere per le sue finestre, tra cui una rara bifora.
+
+Il nome della casa nasce da un'epigrafe che si vede ancora oggi, scolpita sopra il grande arco a sesto acuto. Nell'iscrizione si legge il nome «Tho(mas)», ma probabilmente non indica il santo. Secondo la spiegazione più probabile, si riferisce a un altro personaggio importante con lo stesso nome, vissuto in un periodo successivo.
+
+L'edificio è formato da un grosso corpo di fabbrica. Nel tempo, a questa parte principale sono state aggiunte altre strutture. Sulla facciata si può osservare una monofora, cioè una semplice finestra con un solo arco ogivale. C'è anche una splendida bifora trilobata, che rappresenta l'elemento più particolare della casa.
+
+La Casa di San Tommaso è visibile dall'esterno. Si trova nel borgo medievale e si può osservare liberamente durante una passeggiata nel centro storico.
+
+> *Completa le seguenti frasi. Scegli una delle tre proposte di completamento che ti diamo per ogni frase. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 1 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. La Casa di San Tommaso ha un nome particolare perché**
+
+A) il santo non è nato in questo edificio.
+
+B) il santo è nato qui, ma la casa è cambiata.
+
+C) l'edificio non ha nessuna iscrizione.
+
+**2. Il nome «Tho(mas)» sull'epigrafe probabilmente indica**
+
+A) il santo nato nella casa.
+
+B) un altro personaggio vissuto più tardi.
+
+C) un personaggio vissuto prima del santo.
+
+**3. La monofora sulla facciata è**
+
+A) una finestra semplice con un solo arco ogivale.
+
+B) una finestra rara con due aperture trilobate.
+
+C) un grande arco usato come ingresso.
+
+**4. Durante una passeggiata, i visitatori possono**
+
+A) osservare la casa soltanto dall'interno.
+
+B) osservare liberamente la casa dall'esterno.
+
+C) vedere la casa solo dopo aver comprato un biglietto.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### BiblioComPg & Orario estivo
+
+Da lunedì 6 luglio a sabato 29 agosto 2026 le Biblioteche comunali di Perugia sono aperte con orario estivo.
+
+**Arconi**
+
+dal lunedì al sabato 10.00-19.00
+
+Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 31 agosto al 5 settembre
+
+**Augusta**
+
+lunedì e mercoledì 9.00-18.30 | martedì, giovedì e venerdì 9.00-13.30
+
+Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 7 al 18 settembre
+
+**Biblionet**
+
+dal lunedì al sabato 9.00-13.00 | martedì e giovedì 15.00-19.00
+
+Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 10 al 22 agosto
+
+**San Matteo degli Armeni**
+
+dal lunedì al venerdì 9.30-13.00 | martedì e giovedì 15.30-19.30
+
+ultimo sabato del mese 15.30-19.30
+
+Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 3 al 7 agosto
+
+**Sandro Penna**
+
+dal lunedì al sabato 9.00-13.00 | lunedì e mercoledì 15.00-19.00
+
+Chiusa al pubblico per revisione, spolveratura e sistemazione dei volumi → dal 24 al 29 agosto
+
+Orario invernale da lunedì 31 agosto
+
+> *Leggi le seguenti informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,5 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. L'orario estivo delle Biblioteche comunali di Perugia comincia lunedì 6 luglio.**
+
+Vero ○ Falso ○
+
+**2. La biblioteca Arconi è aperta soltanto dal lunedì al venerdì.**
+
+Vero ○ Falso ○
+
+**3. Il lunedì e il mercoledì la biblioteca Augusta è aperta fino alle 18.30.**
+
+Vero ○ Falso ○
+
+**4. La biblioteca Augusta è chiusa dal 7 al 18 agosto.**
+
+Vero ○ Falso ○
+
+**5. Il martedì e il giovedì la biblioteca Biblionet è aperta anche nel pomeriggio.**
+
+Vero ○ Falso ○
+
+**6. La biblioteca San Matteo degli Armeni è aperta ogni sabato pomeriggio.**
+
+Vero ○ Falso ○
+
+**7. La biblioteca San Matteo degli Armeni è chiusa dal 3 al 7 agosto.**
+
+Vero ○ Falso ○
+
+**8. La biblioteca Sandro Penna è aperta nel pomeriggio il martedì e il giovedì.**
+
+Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi i testi. Scegli tra i testi da A a H i sei che completano i testi da 1 a 6. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — ~0,67 punti per ogni abbinamento esatto; punti 0 per ogni abbinamento sbagliato o omesso.*
+
+○ **1. MERCATINO MEDIEVALE**
+
+da giovedì 6 a domenica 9 agosto
+ore 10:30-19:30 in Via Venezia e presso la Piazzetta del Castello
+
+○ **2. I FALCONIERI DEL RE**
+
+giovedì 6 agosto
+ore 10:00
+Castello San Michele
+spettacoli di falconeria. Ingresso al castello a pagamento.
+
+○ **3. COSTUMI MEDIEVALI**
+
+venerdì 7 agosto
+dalle 10:00
+Sala Jacopo Aconcio
+Rivivi l'atmosfera di un tempo, costumi disponibili gratuitamente.
+
+○ **4. LABORATORIO DI LANA**
+
+venerdì 7 agosto
+dalle ore 14:00 alle 17:00
+Castello San Michele
+Scopri l'antica arte della lavorazione della lana attraverso dimostrazioni e attività pratiche: lavaggio, cardatura e le principali fasi della trasformazione della fibra. Laboratorio gratuito, ingresso al castello a pagamento.
+
+○ **5. DANTICADANZA**
+
+venerdì 7 agosto
+ore 16:00
+Castello San Michele
+danze con musica medievale. Ingresso al Castello a pagamento.
+
+○ **6. SFILATA MEDIEVALE**
+
+sabato 8 agosto
+ore 17:30
+itinerante
+con i tamburini di San Marino, cavalli, e abiti medievali. Partenza dal centro storico di Ossana con arrivo castello di San Michele e alle 19.30 sfilata di ritorno in via Venezia
+
+---
+
+A. Chi vuole ascoltare musica medievale e vedere le danze entra nel castello venerdì alle ore 16:00.
+
+B. Questo evento attraversa Ossana con tamburini, cavalli e abiti medievali, poi torna in via Venezia.
+
+C. I partecipanti scoprono come si lavora la fibra con lavaggio, cardatura, dimostrazioni e diverse attività pratiche.
+
+D. Qui i visitatori possono usare gratuitamente abiti di altri tempi e rivivere insieme l'atmosfera medievale.
+
+E. È lo spettacolo per vedere i falconieri al Castello San Michele giovedì mattina alle dieci.
+
+F. Le bancarelle sono aperte per quattro giorni, dalle dieci e trenta fino alle diciannove e trenta.
+
+G. L'attività gratuita insegna a ballare nel centro storico sabato mattina, senza bisogno di entrare nel castello.
+
+H. Questo appuntamento permette di acquistare vestiti moderni nella Sala Jacopo Aconcio venerdì pomeriggio, a pagamento.
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 12**
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### VESUVIO CON I BAMBINI
+
+Noi abbiamo fatto, con i bambini __(1)__ sei anni, il sentiero del Gran Cono e vi assicuriamo che: è un'esperienza unica, per l'emozione __(2)__ camminare lungo il cratere di __(3)__ vulcano e __(4)__ gli scorci suggestivi che si possono godere.
+
+__La (0)__ passeggiata è __(5)__ salita continua per 800 metri, ma molto dolce (non si può fare però con i passeggini).
+
+Qualsiasi sentiero scegliate sarà __(6)__ esperienza unica per __(7)__ vostri bambini. Torneranno __(8)__ casa __(9)__ le tasche piene __(10)__ pietre vulcaniche nere e gialle, stanchi, sporchi, ma felici.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### LA MIA ESPERIENZA IN ALSAZIA
+
+A metà giugno, mentre *(arrivare)* __(1)__ a Drusenheim, ero entusiasta. Questa *(essere)* __è (0)__ la mia esperienza alla Maison Carciofi. Fino a oggi *(vivere)* __(2)__ qui. Mentre *(vivere)* __(3)__ l’esperienza, la scuola mi dava sempre supporto. Adesso *(essere)* __(4)__ studentessa del ‘De Carolis’ di Spoleto e l’esperienza *(permettere)* __(5)__ di crescere professionalmente e personalmente. Finora la qualità dei percorsi *(essere)* __(6)__ fondamentale e *(aprire)* __(7)__ le porte della realtà internazionale. I cugini titolari mi hanno dato l’opportunità. A metà giugno *(riuscire)* __(8)__ a venire qui e *(mettersi)* __(9)__ alla prova fuori dall’Italia. Adesso *(continuare)* __(10)__ l’esperienza. Finirà a metà agosto.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,5 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### PICCOLI VAN GOGH - LABORATORIO ARTISTICO PER BAMBINI (GIRASOLI AL CASTELLO)
+
+In occasione dell'evento "Girasoli al Castello" i __bambini (0)__ avranno la possibilità di divenire piccoli artisti __(1)__ dei coloratissimi girasoli.
+
+exec
+/bin/zsh -lc "sed -n '261,520p' /tmp/cils-blind-2026-08-06-A2/paper.md" in /tmp
+ succeeded in 0ms:
+
+Scegliendo tra varie __(2)__, materiali e colori i bimbi si cimenteranno nella __(3)__ dei propri personali "Girasoli" alla Van Gogh.
+
+Nel frattempo i __(4)__ potranno __(5)__ un aperitivo o passeggiare nel campo di girasoli al tramonto.
+
+ORARIO: dalle 15.00 alle 15.45
+
+RITROVO: ingresso __(6)__ di girasoli
+
+N.B. Per accedere all'evento è necessario __(7)__ il biglietto d'ingresso a 5€ a persona con 1 girasole omaggio incluso (gratis fino ai 10 anni) sul sito del Castello di Malpaga.
+
+PRENOTAZIONE __(8)__.
+
+| n. | A | B | C |
+|---|---|---|---|
+| 0. | ~~bambini~~ | genitori | insegnanti |
+| 1. | visitando | realizzando | vendendo |
+| 2. | bevande | passeggiate | tecniche |
+| 3. | creazione | prenotazione | descrizione |
+| 4. | artisti | bambini | genitori |
+| 5. | visitare | gustare | dipingere |
+| 6. | campo | biglietto | laboratorio |
+| 7. | conservare | mostrare | acquistare |
+| 8. | inclusa | obbligatoria | rimborsabile |
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 12**
+
+## Produzione scritta — Prova n. 1
+
+> *Racconta una visita a una fattoria. Scrivi quando ci sei andato, con chi eri, che cosa hai fatto, com'era il luogo e che cosa ti è piaciuto di più.*
+> *Devi scrivere da 40 a 60 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Scrivi un messaggio per invitare un amico o un'amica alla tua festa di compleanno al parco. Indica il giorno e l'ora, chiedi di portare una bevanda e di confermare la sua presenza.*
+> *Devi scrivere da 25 a 40 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 12**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: rispondi ad alta voce rispettando la durata indicata, poi confronta le tue risposte con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Dialogo con l'esaminatore. Rispondi alle domande.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Preferisci studiare o lavorare in un luogo tranquillo oppure insieme ad altre persone? Perché?
+
+**2.** Racconta l'ultima volta che hai fatto la spesa in un negozio del tuo quartiere: che cosa hai comprato?
+
+**3.** A che ora fai la pausa pranzo nei giorni di lavoro o di studio? Che cosa fai durante la pausa?
+
+**4.** Come vai a un appuntamento in una zona che non conosci? Come trovi la strada?
+
+**5.** Durante una vacanza passata il brutto tempo ha cambiato i tuoi programmi? Racconta che cosa hai fatto.
+
+**6.** Come preparerai la tua prossima vacanza? Quando prenoterai il viaggio e che cosa porterai?
+
+## Produzione orale — Prova n. 2
+
+> *Parla di uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Racconta una volta in cui hai aiutato una persona a cambiare casa: spiega chi hai aiutato, che cosa hai fatto e come è finita la giornata.
+
+**2.** Descrivi le tue abitudini del fine settimana a casa: parla delle faccende domestiche, dei momenti di riposo e delle persone con cui passi il tempo.
+
+---
+
+# Foglio delle risposte
+
+**Lettura — Prova n. 1** | **Prova n. 2** | **Prova n. 3**
+
+| n. | A/B/C | | n. | V/F | n. | V/F | | n. | A–H |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 |  | | 1 |  | 5 |  | | 1 |  |
+| 2 |  | | 2 |  | 6 |  | | 2 |  |
+| 3 |  | | 3 |  | 7 |  | | 3 |  |
+| 4 |  | | 4 |  | 8 |  | | 4 |  |
+|  |  | |  |  |  |  | | 5 |  |
+|  |  | |  |  |  |  | | 6 |  |
+
+**Strutture — Prova n. 1 e n. 2** *(scrivi la risposta in STAMPATELLO)* | **Prova n. 3**
+
+| n. | Prova 1 | Prova 2 | | n. | Prova 1 | Prova 2 | | n. | A/B/C |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 |  |  | | 6 |  |  | | 1 |  |
+| 2 |  |  | | 7 |  |  | | 2 |  |
+| 3 |  |  | | 8 |  |  | | 3 |  |
+| 4 |  |  | | 9 |  |  | | 4 |  |
+| 5 |  |  | | 10 |  |  | | 5 |  |
+|  |  |  | |  |  |  | | 6 |  |
+|  |  |  | |  |  |  | | 7 |  |
+|  |  |  | |  |  |  | | 8 |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*
+
+codex
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "A", "confidence": "hi"},
+  "L1.2": {"answer": "B", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Vero", "confidence": "hi"},
+  "L2.4": {"answer": "Falso", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+
+  "L3.1": {"answer": "F", "confidence": "hi"},
+  "L3.2": {"answer": "E", "confidence": "hi"},
+  "L3.3": {"answer": "D", "confidence": "hi"},
+  "L3.4": {"answer": "C", "confidence": "hi"},
+  "L3.5": {"answer": "A", "confidence": "hi"},
+  "L3.6": {"answer": "B", "confidence": "hi"},
+
+  "S1.1": {"answer": "di", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "un", "confidence": "hi"},
+  "S1.4": {"answer": "per", "confidence": "hi"},
+  "S1.5": {"answer": "una", "confidence": "hi"},
+  "S1.6": {"answer": "un'", "confidence": "hi"},
+  "S1.7": {"answer": "i", "confidence": "hi"},
+  "S1.8": {"answer": "a", "confidence": "hi"},
+  "S1.9": {"answer": "con", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+
+  "S2.1": {"answer": "arrivavo", "confidence": "hi"},
+  "S2.2": {"answer": "ho vissuto", "confidence": "hi"},
+  "S2.3": {"answer": "vivevo", "confidence": "hi"},
+  "S2.4": {"answer": "sono", "confidence": "hi"},
+  "S2.5": {"answer": "permette", "confidence": "med"},
+  "S2.6": {"answer": "è stata", "confidence": "hi"},
+  "S2.7": {"answer": "ha aperto", "confidence": "hi"},
+  "S2.8": {"answer": "sono riuscita", "confidence": "hi"},
+  "S2.9": {"answer": "mi sono messa", "confidence": "hi"},
+  "S2.10": {"answer": "continuo", "confidence": "hi"},
+
+  "S3.1": {"answer": "B", "confidence": "hi"},
+  "S3.2": {"answer": "C", "confidence": "hi"},
+  "S3.3": {"answer": "A", "confidence": "hi"},
+  "S3.4": {"answer": "C", "confidence": "hi"},
+  "S3.5": {"answer": "B", "confidence": "hi"},
+  "S3.6": {"answer": "A", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.5",
+    "reason": "La frase «l’esperienza permette di crescere» è grammaticalmente possibile, ma nel contesto personale sarebbe più naturale «mi permette» o «mi ha permesso»; il testo non indica chiaramente se il pronome debba essere aggiunto."
+  }
+]
+```
+
+WRITING_CHECKS
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "40-60 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "25-40 parole"
+  },
+  "O1": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa"
+  },
+  "O2": {
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa"
+  }
+}
+```
+tokens used
+19,763

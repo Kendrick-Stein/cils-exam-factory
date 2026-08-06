@@ -1,0 +1,44 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN) running a **stage S4 repair**. You are a FRESH agent: you did not write this prova.
+
+Read first:
+1. `.claude/agents/item-writer.md` — your full role, especially "Stage S4 — repair" and the hard rules.
+2. `factory/exams/cils/templates/C1.md` — the HTML comments next to your {{SLOT}} placeholders (formats, counts, examples).
+3. Your current fragment: `papers/2026-08-06/C1/fragments/S1.json`.
+
+Your ONE source text: the '## Slot T4' section of papers/2026-08-06/C1/sources.md — read ONLY that section.
+
+Assignment: level C1, session 2026-08-06, fragment ID **S1**.
+
+Prova spec from exam.yaml:
+n: 1
+tipo: cloze_aperto
+focus: connettivi
+items: 20
+punti_item: 0.3
+punti: 6
+testo:
+  slot: T4
+  genere: testo espositivo/argomentativo
+  parole:
+  - 250
+  - 300
+
+## Blind-validation defects to fix
+
+An independent solver received ONLY the printed student paper (no key, no source, no web) and reported these problems:
+
+- **S1.7** — la tua chiave: `per` | risposta del solutore cieco: `difende` → leggendo SOLO il testo stampato il solutore ha scelto un'altra risposta difendibile.
+
+## What to do
+
+- For EACH defect decide whether the KEY is wrong or the ITEM is ambiguous. Ambiguity is the usual cause: fix the item so that exactly ONE answer is defensible from the printed text alone — re-cut the gap, add the printed time marker / disambiguating cue the rule requires, change what the item tests, or replace the item outright. A flagged item fails the gate even when the solver's answer matched your key, so a flag must be designed away, not argued away.
+- Then **rescan every other item in this prova for the same defect class** and fix those too, even if the solver did not catch them. A second failure on this prova would drop the level to `draft`.
+- Keep item COUNT, point values, consegna and slot names identical. Do not renumber.
+- Cloze connettivi: each gap takes exactly ONE connettivo that the logical relation makes obligatory; no interchangeable pairs («ma»/«però»), and the gap must not admit a verb or noun instead of a connective.
+- Keep the text inside its exam.yaml word band (measured on the *_TEXT / *_WITH_GAPS body, title and items excluded).
+
+## Output
+
+Rewrite EXACTLY ONE file, `papers/2026-08-06/C1/fragments/S1.json`, same JSON shape (`prova`, `slots`, `answer_slots`, `key`, `glossario_candidates`), with all the slot keys it already has. Update the chiavi rows and spiegazioni to match your fixes. Do NOT touch manifest.yaml, paper.md, answers.md or any other file.
+
+Reply (short, no fragment content): one line per defect saying what you changed, plus any other items you preemptively fixed.

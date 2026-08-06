@@ -1,0 +1,136 @@
+exam: cils
+level: C1
+session: '2026-08-06'
+title: CILS TRE — C1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/07/06/euclid-quasar-piu-antichi/
+  title: Euclid scopre i due quasar più antichi mai osservati
+  publisher: MEDIA INAF
+  published: '2026-07-06'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 583
+  origin: pool/748f28fe9dec.md
+- id: T2
+  url: https://www.ansa.it/lazio/notizie/2026/06/02/in-un-manoscritto-di-giuseppe-gioachino-belli-la-sua-passione-per-la-cina_a0d98463-bf92-46b8-9707-429d566b66c8.html
+  title: In un manoscritto di Giuseppe Gioachino Belli la sua passione per la Cina
+  publisher: ANSA
+  published: '2026-06-02'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 561
+  origin: pool/79c9b123238e.md
+- id: T3
+  url: https://www.mountainblog.it/redazionale/il-cammino-dei-cappuccini-arriva-la-versione-bike/
+  title: 'Il Cammino dei Cappuccini: arriva la versione bike'
+  publisher: MountainBlog
+  published: '2026-03-20'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 497
+  origin: pool/92aa26100bbb.md
+- id: T4
+  url: https://www.doppiozero.com/chatgpt-e-una-lei
+  title: ChatGPT è una lei?
+  publisher: doppiozero
+  published: '2026-07-27'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 283
+- id: T5
+  url: https://www.gamberorosso.it/notizie/vino/giulia-monteleone-vinodonna-dimostrare-doppio-uomo/
+  title: “Nel vino una donna è costretta a dimostrare più di un uomo di essere credibile”.
+    Intervista a Giulia Monteleone
+  publisher: Gambero Rosso
+  published: '2026-03-06'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 278
+- id: T6
+  url: https://www.focus.it/scienza/spazio/falcon-9-impatto-luna-agosto-2026
+  title: 'Uno stadio del Falcon 9 si schianterà sulla Luna: ecco quando e dove avverrà
+    l’impatto'
+  publisher: Focus
+  published: '2026-05-04'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 233
+- id: T7
+  url: https://bandi.comune.torino.it/sites/default/files/allegati/avvisi/2026/4290/1_2026_assoc_confisc_allegato_A_avviso_pubblico.pdf
+  title: Avviso Pubblico Beni Confiscati 1/2026
+  publisher: Città di Torino
+  published: '2026-07-09'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 4
+  adapted: true
+  words_used: 159
+pipeline:
+  generator: genpapers
+  template: factory/exams/cils/templates/C1.md
+  stages:
+  - stage: corpus
+    at: '2026-08-06'
+  - stage: authoring
+    at: '2026-08-06'
+  - stage: format_audit
+    at: '2026-08-06T11:40:40+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-08-06T11:42:19+00:00'
+    agreement: 75/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T11:44:54+00:00'
+    agreement: 81/83
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T12:00:30+00:00'
+    agreement: 83/83
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T12:06:56+00:00'
+    agreement: 83/83
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-06T12:07:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:07:04+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:08:24+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-08-06T12:09:14+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 83
+  final_agreement: 83
+  agreement: 83/83
+  flags: 0
+  mismatches: 0
+  result: pass

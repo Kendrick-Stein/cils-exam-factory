@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "__Dal (0)__ 1 luglio cambiano gli __(1)__ della __(2)__ Passerini-Landi. In luglio, lunedì apre di __(3)__, dalle 14 alle 19; da martedì a venerdì apre alle 9 e __(4)__ alle 19. In agosto, giovedì apre alle 9 e resta __(5)__ fino alle 19. Attenzione: non apre nei giorni di __(6)__, il 4 luglio e dall'8 al 22 agosto. Per chiedere informazioni, puoi __(7)__ al numero 0523 492410 oppure __(8)__ un'email.",
+    "T6_TITLE": "ORARIO ESTIVO DELLA BIBLIOTECA PASSERINI-LANDI",
+    "S3_OPT0_A": "Dal",
+    "S3_OPT0_B": "Fra",
+    "S3_OPT0_C": "Con",
+    "S3_OPTION_ROWS": "| 1. | uffici | orari | indirizzi |\n| 2. | farmacia | scuola | Biblioteca |\n| 3. | pomeriggio | mattina | sera |\n| 4. | comincia | chiude | arriva |\n| 5. | chiusa | vuota | aperta |\n| 6. | chiusura | lettura | apertura |\n| 7. | lavorare | telefonare | arrivare |\n| 8. | leggere | ricevere | scrivere |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Dal 1 luglio cambiano gli orari»: il testo presenta i nuovi orari estivi. 中文：后文列出开放时间。 |\n| S3.2 | C | Il nome completo è «Biblioteca Passerini-Landi», ripreso poi dagli orari di apertura. 中文：场所是图书馆。 |\n| S3.3 | A | L'orario «dalle 14 alle 19» indica il pomeriggio. 中文：14点到19点是下午。 |\n| S3.4 | B | La biblioteca «apre alle 9» e quindi chiude alle 19. 中文：与“开门”对应的是“关门”。 |\n| S3.5 | C | Il giovedì «apre alle 9» e resta aperta «fino alle 19». 中文：周四开放到19点。 |\n| S3.6 | A | «Non apre» introduce i giorni di chiusura. 中文：“不开门”表示闭馆。 |\n| S3.7 | B | Per «chiedere informazioni», con il numero indicato si può telefonare. 中文：电话号码对应打电话。 |\n| S3.8 | C | Per «chiedere informazioni» si può scrivere «un'email». 中文：邮件对应动词“写”。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "A",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "lunedì",
+      "categoria": "nome maschile invariabile",
+      "zh": "星期一",
+      "en": "Monday",
+      "esempio": "In luglio, lunedì apre"
+    },
+    {
+      "parola": "Attenzione",
+      "categoria": "nome femminile",
+      "zh": "注意",
+      "en": "attention",
+      "esempio": "Attenzione: non apre"
+    },
+    {
+      "parola": "venerdì",
+      "categoria": "nome maschile invariabile",
+      "zh": "星期五",
+      "en": "Friday",
+      "esempio": "da martedì a venerdì"
+    },
+    {
+      "parola": "numero",
+      "categoria": "nome maschile",
+      "zh": "号码",
+      "en": "number",
+      "esempio": "al numero 0523 492410"
+    },
+    {
+      "parola": "giovedì",
+      "categoria": "nome maschile invariabile",
+      "zh": "星期四",
+      "en": "Thursday",
+      "esempio": "In agosto, giovedì apre"
+    }
+  ]
+}

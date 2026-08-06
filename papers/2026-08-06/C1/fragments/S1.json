@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__Ogni tanto (0)__ il dibattito sul genere delle parole raggiunge temperature da caso nazionale. Si comincia con una sindaca, una ministra, una direttrice d’orchestra, e in pochi minuti ci si ritrova nel pieno di una guerra civile grammaticale. C’è __(1)__ considera il femminile professionale alla stregua __(2)__ un gesto minimo di realtà. C’è __(3)__ preferisce il maschile, magari anche tra le donne direttamente interessate: direttrice no, meglio direttore d’orchestra.\n\nC’è __(4)__ si appassiona __(5)__ schwa; c’è __(6)__ fa lo stesso per l’asterisco e chi finisce __(7)__ difendere la tradizione.\n\nPoi arrivano i puristi, che spesso attribuiscono all’Accademia della Crusca il ruolo __(8)__ autorità d’ultima istanza. Il tono è quello __(9)__ chi, suo malgrado, si sente in dovere __(10)__ salvare la civiltà. La lingua italiana non si può storpiare. Non si può dire “ingegnera”, perché suona male. Non si può dire “ministra”, perché sembra una minestra.\n\nOra, consentitemi __(11)__ essere franco: cari puristi, avete torto. Perché la lingua __(12)__ è un’architettura __(13)__ cristallo, è un animale sociale. Prima che bella, ha lo scopo __(14)__ permetterci di convivere. Cambia quando cambiano le cose che deve nominare, e deve poter cambiare quando una società cerca parole più fedeli __(15)__ suoi nuovi valori.\n\nL’italiano, invece, continua ad affidare __(16)__ maschile il compito __(17)__ fare anche __(18)__ neutro. Un servizio apparentemente universale, ma con un piccolo difetto: __(19)__ lunga, l’universale prende la forma __(20)__ qualcuno.",
+    "T4_TITLE": "ChatGPT è una lei?"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1, S1.3–S1.4 e S1.6 — chi:** completa ogni struttura autonoma *c’è chi* davanti a un verbo finito. 中文：固定句式要求关系代词，不能填实义动词。\n- **S1.2 e S1.8 — di:** completa le locuzioni *alla stregua di* e *il ruolo di*. 中文：固定搭配锁定介词。\n- **S1.5 e S1.7 — reggenze:** *appassionarsi a* richiede *allo* davanti a *schwa*; *finire per* introduce l’infinito *difendere*. 中文：动词支配关系与冠词使答案唯一。\n- **S1.11–S1.14 e S1.19 — forme vincolate:** *consentire di*, *non … è …, è …*, *architettura di*, *lo scopo di* e *alla lunga* fissano le parole funzionali. 中文：固定结构排除可替换答案。\n- **S1.9–S1.10 e S1.15–S1.20 — reggenze:** *quello di*, *in dovere di*, *fedeli ai*, *affidare al*, *compito di*, *fare da* e *forma di* impongono la parola funzionale. 中文：固定搭配决定唯一介词。",
+    "ANS_S1_ROWS": "| S1.1 | chi | S1.11 | di |\n| S1.2 | di | S1.12 | non |\n| S1.3 | chi | S1.13 | di |\n| S1.4 | chi | S1.14 | di |\n| S1.5 | allo | S1.15 | ai |\n| S1.6 | chi | S1.16 | al |\n| S1.7 | per | S1.17 | di |\n| S1.8 | di | S1.18 | da |\n| S1.9 | di | S1.19 | alla |\n| S1.10 | di | S1.20 | di |"
+  },
+  "key": {
+    "S1.1": "chi",
+    "S1.2": "di",
+    "S1.3": "chi",
+    "S1.4": "chi",
+    "S1.5": "allo",
+    "S1.6": "chi",
+    "S1.7": "per",
+    "S1.8": "di",
+    "S1.9": "di",
+    "S1.10": "di",
+    "S1.11": "di",
+    "S1.12": "non",
+    "S1.13": "di",
+    "S1.14": "di",
+    "S1.15": "ai",
+    "S1.16": "al",
+    "S1.17": "di",
+    "S1.18": "da",
+    "S1.19": "alla",
+    "S1.20": "di"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "guerra civile grammaticale",
+      "categoria": "locuzione nominale",
+      "zh": "语法上的内战",
+      "en": "grammatical civil war",
+      "esempio": "ci si ritrova nel pieno di una guerra civile grammaticale"
+    },
+    {
+      "parola": "suo malgrado",
+      "categoria": "locuzione avverbiale",
+      "zh": "尽管本人不情愿",
+      "en": "in spite of oneself",
+      "esempio": "Il tono è quello di chi, suo malgrado, si sente in dovere di salvare la civiltà."
+    },
+    {
+      "parola": "architettura di cristallo",
+      "categoria": "locuzione nominale",
+      "zh": "水晶般的建筑结构",
+      "en": "crystal architecture",
+      "esempio": "la lingua non è un’architettura di cristallo"
+    },
+    {
+      "parola": "animale sociale",
+      "categoria": "locuzione nominale",
+      "zh": "社会性动物",
+      "en": "social animal",
+      "esempio": "è un animale sociale"
+    },
+    {
+      "parola": "storpiare",
+      "categoria": "verbo",
+      "zh": "扭曲；糟蹋",
+      "en": "to distort; to mangle",
+      "esempio": "La lingua italiana non si può storpiare."
+    }
+  ]
+}

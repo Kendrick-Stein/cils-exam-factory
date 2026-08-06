@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "Sono __aperte (0)__ le pre-iscrizioni ai centri estivi di Estate Ragazzi 2026. Si può inviare la domanda __(1)__ il sito estateragazzitorino.it oppure usare la scheda __(2)__.\n\nIl servizio è __(3)__ alle bambine e ai bambini che hanno __(4)__ la scuola primaria nell’anno scolastico 2025/2026. Possono partecipare i residenti a Torino, se sono andati a scuola fuori città, e i non residenti che hanno studiato in una scuola primaria torinese.\n\nIl programma __(5)__ attività creative, esperienziali, di __(6)__, socialità e __(7)__. Si svolgono __(8)__ musei, istituzioni culturali e associazioni del __(9)__, a Torino e nella prima __(10)__.\n\nI 50 centri estivi, __(11)__ nelle otto circoscrizioni, funzioneranno da lunedì 15 giugno a __(12)__ 31 luglio 2026. Apriranno dal lunedì al venerdì, con __(13)__ dalle 8:00 alle 17:30. Il programma copre sette __(14)__ consecutive. Non sarà possibile frequentare i centri mercoledì 24 giugno: resteranno __(15)__ in occasione della festività del Santo Patrono della città.",
+    "T6_TITLE": "ESTATE RAGAZZI 2026: APERTE LE PRE-ISCRIZIONI",
+    "S3_OPT0_A": "aperte",
+    "S3_OPT0_B": "chiuse",
+    "S3_OPT0_C": "finite",
+    "S3_OPT0_D": "perdute",
+    "S3_OPTION_ROWS": "| 1. | attraverso | durante | sopra | contro |\n| 2. | sportiva | dedicata | rumorosa | lontana |\n| 3. | chiuso | estraneo | rivolto | opposto |\n| 4. | venduto | frequentato | costruito | lasciato |\n| 5. | interrompe | nasconde | rifiuta | prevede |\n| 6. | vendita | scoperta | partenza | chiusura |\n| 7. | silenzio | ritardo | movimento | sonno |\n| 8. | contro | presso | senza | oltre |\n| 9. | viaggio | calendario | territorio | orario |\n| 10. | fermata | pagina | scelta | cintura |\n| 11. | attivi | segreti | lenti | soli |\n| 12. | lunedì | martedì | venerdì | mercoledì |\n| 13. | prezzo | orario | indirizzo | biglietto |\n| 14. | sedi | attività | settimane | circoscrizioni |\n| 15. | aperti | presenti | riuniti | chiusi |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Si invia la domanda «attraverso il sito»: indica il mezzo usato. |\n| S3.2 | B | La scheda è «dedicata» al servizio Estate Ragazzi. |\n| S3.3 | C | Il servizio è «rivolto alle bambine e ai bambini», cioè è destinato a loro. 中文：后文列出可参加的儿童，排除“chiuso”。 |\n| S3.4 | B | I bambini «hanno frequentato la scuola primaria»: è l’attività scolastica richiesta. |\n| S3.5 | D | Il programma «prevede attività», cioè le include. |\n| S3.6 | B | Le esperienze sono «di scoperta», insieme ad attività creative ed esperienziali. |\n| S3.7 | C | L’elenco delle attività termina con «socialità e movimento». |\n| S3.8 | B | Le attività si svolgono «presso musei, istituzioni culturali e associazioni». |\n| S3.9 | C | Le associazioni appartengono al «territorio» locale. |\n| S3.10 | D | L’espressione geografica completa è «nella prima cintura» di Torino. 中文：这里的 cintura 指城市周边地区。 |\n| S3.11 | A | I centri sono «attivi nelle otto circoscrizioni», quindi funzionano in quelle zone. |\n| S3.12 | C | La data finale è «venerdì 31 luglio 2026». |\n| S3.13 | B | «Dalle 8:00 alle 17:30» indica l’orario di apertura. |\n| S3.14 | C | Il periodo dal 15 giugno al 31 luglio copre «sette settimane consecutive». |\n| S3.15 | D | «Non sarà possibile frequentare i centri» perché resteranno «chiusi» il 24 giugno. 中文：否定句直接锁定答案。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "D",
+    "S3.6": "B",
+    "S3.7": "C",
+    "S3.8": "B",
+    "S3.9": "C",
+    "S3.10": "D",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "C",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "pre-iscrizioni",
+      "categoria": "nome femminile plurale",
+      "zh": "预报名",
+      "en": "pre-registrations",
+      "esempio": "le pre-iscrizioni ai centri estivi"
+    },
+    {
+      "parola": "scuola primaria",
+      "categoria": "locuzione nominale",
+      "zh": "小学",
+      "en": "primary school",
+      "esempio": "la scuola primaria nell’anno scolastico 2025/2026"
+    },
+    {
+      "parola": "circoscrizioni",
+      "categoria": "nome femminile plurale",
+      "zh": "行政区",
+      "en": "districts",
+      "esempio": "nelle otto circoscrizioni"
+    },
+    {
+      "parola": "frequentare",
+      "categoria": "verbo",
+      "zh": "参加；就读",
+      "en": "to attend",
+      "esempio": "Non sarà possibile frequentare i centri mercoledì 24 giugno"
+    },
+    {
+      "parola": "festività",
+      "categoria": "nome femminile",
+      "zh": "节日",
+      "en": "holiday",
+      "esempio": "in occasione della festività del Santo Patrono della città"
+    }
+  ]
+}

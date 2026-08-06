@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Venerdì sera il planetario propone un'osservazione guidata del cielo dal terrazzo. L'attività si svolgerà solo se le condizioni meteorologiche saranno favorevoli; l'eventuale annullamento sarà comunicato entro le 18 agli iscritti tramite messaggio.**\n\nA) È l'annuncio di un'attività serale che dipende dalle condizioni del tempo.\nB) È la comunicazione della chiusura definitiva del terrazzo del planetario.\nC) È la richiesta agli iscritti di inviare fotografie del cielo entro le 18.\nD) È l'offerta di un corso online dedicato alle previsioni meteorologiche.\n\n**2. Gentile cliente, abbiamo verificato che il rinnovo annuale del suo abbonamento è stato addebitato due volte. La seconda somma verrà restituita sullo stesso metodo di pagamento entro cinque giorni lavorativi; non deve inviarci altra documentazione.**\n\nA) È la richiesta di documenti per contestare il costo di un abbonamento.\nB) È la proposta di trasformare un abbonamento annuale in due abbonamenti mensili.\nC) È il riconoscimento di un doppio addebito con conferma del rimborso.\nD) È l'avviso che il metodo di pagamento del cliente non è più valido.\n\n**3. Oggi a «Parole in viaggio» parleremo delle espressioni regionali che usiamo in famiglia. Mandateci una frase tipica della vostra zona, spiegandone il significato: alcune testimonianze saranno commentate in diretta da una linguista.**\n\nA) È la pubblicità di lezioni individuali tenute da una linguista.\nB) È l'invito agli ascoltatori a condividere espressioni locali per una trasmissione.\nC) È l'annuncio di un viaggio organizzato attraverso diverse regioni italiane.\nD) È la richiesta di tradurre in italiano i programmi di una radio straniera.\n\n**4. Vendo una macchina da cucire portatile acquistata l'anno scorso e usata pochissimo. È completa di custodia, pedale e manuale; posso mostrarla in funzione prima dell'acquisto, ma non effettuo spedizioni. Prezzo leggermente trattabile.**\n\nA) È l'offerta di lezioni di cucito con materiale incluso nel prezzo.\nB) È la ricerca di un tecnico che ripari una macchina da cucire.\nC) È il noleggio temporaneo di un apparecchio con consegna a domicilio.\nD) È l'annuncio di vendita di un oggetto usato da ritirare di persona.\n\n**5. Ciao Paolo, domani il tecnico deve controllare una perdita nel mio appartamento proprio all'ora del nostro incontro. Ti dispiace se ci vediamo alle 18 invece che alle 16? Se per te è tardi, possiamo rimandare a giovedì.**\n\nA) È la conferma che un appuntamento è già stato spostato a giovedì.\nB) È la richiesta di cambiare l'orario di un incontro, con una data alternativa.\nC) È l'invito a essere presente durante un intervento tecnico in casa.\nD) È l'avviso che Paolo deve annullare la visita di un tecnico.\n\n**6. Benvenuti nello spazio di lavoro Officina 21. Alla reception riceverete la tessera per accedere alle sale; le cabine per le videochiamate vanno prenotate dall'app. Vi chiediamo di liberare le scrivanie ogni sera e di usare le cuffie nelle aree comuni.**\n\nA) È la ricerca di personale per la reception di un nuovo ufficio.\nB) È la comunicazione del trasferimento di un'azienda in un'altra sede.\nC) È un messaggio di accoglienza con le regole di uno spazio di lavoro condiviso.\nD) È la pubblicità di un'app per organizzare videochiamate professionali.\n\n**7. A causa delle temperature elevate, sabato il mercato agricolo aprirà alle 7 e chiuderà alle 12, due ore prima del consueto. Gli ordini già effettuati potranno essere ritirati fino alle 11.30; nel pomeriggio l'area resterà vuota.**\n\nA) È un avviso di modifica temporanea dell'orario del mercato per il caldo.\nB) È l'annuncio dell'apertura di un nuovo mercato nel pomeriggio.\nC) È la richiesta ai clienti di annullare gli ordini già effettuati.\nD) È la comunicazione di uno sciopero degli agricoltori per tutta la giornata.\n\n**8. Le ricordiamo la visita di lunedì alle 9. Presenti la tessera sanitaria all'accettazione e arrivi a digiuno da almeno sei ore; può bere acqua. Se assume farmaci al mattino, contatti l'ambulatorio prima di modificare la terapia.**\n\nA) È la comunicazione dei risultati di una visita già effettuata.\nB) È la richiesta di sospendere autonomamente tutti i farmaci prima di una visita.\nC) È l'annuncio del cambiamento di sede e orario di un ambulatorio.\nD) È un promemoria per un appuntamento medico con indicazioni preparatorie.\n\n**9. La biblioteca raccoglie giochi da tavolo completi e in buone condizioni per creare uno spazio gratuito dedicato alle famiglie. Potete consegnarli al banco prestiti entro fine mese; non accettiamo giocattoli elettronici né confezioni con pezzi mancanti.**\n\nA) È l'invito a donare giochi adatti a un nuovo servizio della biblioteca.\nB) È la vendita di giochi elettronici non più utilizzati dalla biblioteca.\nC) È l'avviso che il banco prestiti resterà chiuso fino a fine mese.\nD) È la richiesta alle famiglie di restituire giochi presi in prestito.\n\n**10. Il produttore richiama i vasetti di crema di mandorle del lotto L248, scadenza 10 novembre, perché l'etichetta non segnala la possibile presenza di arachidi. Chi li ha acquistati non li consumi e li riporti al negozio per il rimborso.**\n\nA) È la pubblicità di una nuova crema preparata con mandorle e arachidi.\nB) È la richiesta di conservare un prodotto fino alla data di scadenza.\nC) È un avviso di richiamo di un alimento per un rischio non indicato sull'etichetta.\nD) È la comunicazione dell'aumento di prezzo di alcuni prodotti alimentari."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | A | L'«osservazione guidata» è prevista venerdì sera, ma si terrà «solo se le condizioni meteorologiche saranno favorevoli». 中文：晚间观测活动取决于天气。 |\n| S4.2 | C | «addebitato due volte» riconosce l'errore e «verrà restituita» conferma il rimborso della seconda somma. 中文：确认重复扣款并安排退款。 |\n| S4.3 | B | «Mandateci una frase tipica della vostra zona» invita il pubblico a contribuire alla trasmissione con espressioni regionali. 中文：邀请听众分享地方表达。 |\n| S4.4 | D | «Vendo», la descrizione degli accessori e «non effettuo spedizioni» definiscono la vendita diretta di un oggetto usato. 中文：出售需当面自取的二手物品。 |\n| S4.5 | B | La domanda «alle 18 invece che alle 16?» chiede di cambiare orario; «rimandare a giovedì» offre un'alternativa. 中文：请求改时间并提供备选日期。 |\n| S4.6 | C | «Benvenuti» introduce le istruzioni su tessera, prenotazioni, scrivanie e cuffie nello spazio condiviso. 中文：欢迎新用户并说明共享办公规则。 |\n| S4.7 | A | «A causa delle temperature elevate» motiva l'apertura anticipata e la chiusura «due ore prima del consueto». 中文：因高温临时调整市场时间。 |\n| S4.8 | D | «Le ricordiamo la visita» segnala l'appuntamento e le istruzioni su tessera, digiuno e farmaci spiegano come prepararsi. 中文：医疗预约提醒及准备事项。 |\n| S4.9 | A | «raccoglie giochi da tavolo» e «Potete consegnarli» invitano a donare materiali completi per un nuovo spazio gratuito. 中文：征集桌游用于图书馆新服务。 |\n| S4.10 | C | «richiama i vasetti» e «non segnala la possibile presenza di arachidi» indicano un richiamo per rischio allergenico non dichiarato. 中文：因未标注过敏原召回食品。 |"
+  },
+  "key": {
+    "S4.1": "A",
+    "S4.2": "C",
+    "S4.3": "B",
+    "S4.4": "D",
+    "S4.5": "B",
+    "S4.6": "C",
+    "S4.7": "A",
+    "S4.8": "D",
+    "S4.9": "A",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "addebitato",
+      "categoria": "participio passato",
+      "zh": "被扣款",
+      "en": "charged",
+      "esempio": "il rinnovo annuale del suo abbonamento è stato addebitato due volte"
+    },
+    {
+      "parola": "Prezzo leggermente trattabile",
+      "categoria": "locuzione aggettivale",
+      "zh": "价格可小幅商议",
+      "en": "slightly negotiable price",
+      "esempio": "Prezzo leggermente trattabile"
+    },
+    {
+      "parola": "a digiuno",
+      "categoria": "locuzione avverbiale",
+      "zh": "空腹",
+      "en": "on an empty stomach",
+      "esempio": "arrivi a digiuno da almeno sei ore"
+    },
+    {
+      "parola": "banco prestiti",
+      "categoria": "locuzione nominale",
+      "zh": "借阅台",
+      "en": "circulation desk",
+      "esempio": "consegnarli al banco prestiti entro fine mese"
+    },
+    {
+      "parola": "richiama",
+      "categoria": "verbo",
+      "zh": "召回",
+      "en": "recalls",
+      "esempio": "Il produttore richiama i vasetti di crema di mandorle"
+    }
+  ]
+}
