@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "**1. Le domande devono arrivare entro le 12.30 del 15 maggio 2026.**\n\nVero ○ Falso ○\n\n**2. Il modello di domanda può essere inviato anche se non è stato compilato.**\n\nVero ○ Falso ○\n\n**3. Tutte le famiglie possono consegnare la domanda in forma cartacea.**\n\nVero ○ Falso ○\n\n**4. Il martedì il Servizio sociale riceve anche dalle 15 alle 17.**\n\nVero ○ Falso ○\n\n**5. La domanda deve essere redatta da un genitore o da chi ha la responsabilità genitoriale.**\n\nVero ○ Falso ○\n\n**6. È sufficiente allegare un documento che dimostra l'iscrizione all'attività sportiva, senza provare il pagamento.**\n\nVero ○ Falso ○\n\n**7. Le domande che non contengono tutti i dati richiesti vengono escluse.**\n\nVero ○ Falso ○\n\n**8. Se due famiglie hanno lo stesso valore Isee, conta la data di arrivo della domanda.**\n\nVero ○ Falso ○\n\n**9. Ogni famiglia può presentare una domanda diversa per ciascun figlio.**\n\nVero ○ Falso ○\n\n**10. Il contributo è destinato a famiglie con figli minori tra i 6 e i 18 anni e con Isee fino a 15mila euro.**\n\nVero ○ Falso ○\n\n**11. Al momento della domanda basta essere residenti nel Comune di Ravenna da sei mesi.**\n\nVero ○ Falso ○\n\n**12. La disciplina sportiva deve essere praticata per almeno quattro mesi nell'anno sportivo 2025/2026.**\n\nVero ○ Falso ○\n\n**13. Ogni minore riceve sempre 150 euro, anche quando la spesa documentata è più bassa.**\n\nVero ○ Falso ○\n\n**14. Una famiglia non può ricevere in totale più di 150 euro.**\n\nVero ○ Falso ○",
+    "T2_TEXT": "Le domande potranno essere presentate entro le 12.30 di venerdì 15 maggio 2026.\n\nIl modello di domanda, debitamente compilato, e unitamente a copia fotostatica del documento di identità del sottoscrittore, deve essere inviato esclusivamente all’indirizzo di posta elettronica bandosport@comune.ra.it.\n\nSolo in caso di grave impossibilità di inviare l’istanza nella suddetta modalità, la domanda può essere presentata in forma cartacea alla sede del Servizio sociale, in via Massimo d’Azeglio 2, previo appuntamento, dal lunedì al venerdì, dalle 9 alle 12.30 e martedì dalle 15 alle 17.\n\nAlla domanda, che va redatta da uno dei genitori o da chi esercita la responsabilità genitoriale, devono essere allegati, a pena di esclusione: copia di un documento di identità del dichiarante, in corso di validità; documentazione rilasciata dalle associazioni/società sportive attestante l’effettiva iscrizione ai corsi/attività e l’avvenuto pagamento delle relative quote di iscrizione e frequenza. Le domande incomplete o non riportanti tutti i dati richiesti saranno escluse.\n\nIn caso di identico valore Isee, si procede in ordine alla data di arrivo della domanda, desumibile dal protocollo. Si precisa che per ogni nucleo familiare può essere presentata un’unica domanda.\n\nPer accedere al contributo occorre essere in possesso dei seguenti requisiti: famiglie con figli minori, di età compresa fra i 6 ed i 18 anni (il contributo verrà riconosciuto fino al compimento del 18° anno di età) con Isee fino a 15mila euro; residenza nel Comune di Ravenna da almeno 12 mesi all’atto di presentazione dell’istanza; iscrizione e pratica di una disciplina sportiva nell’anno sportivo 2025/2026 per una durata minima di 4 mesi.\n\nIl contributo, per ciascun minore interessato, sarà una tantum fino a un massimo di 150 euro. Se la somma delle spese giustificate risulterà inferiore a 150 euro, l’ammontare del contributo sarà pari all’importo effettivamente pagato.\n\nPer ciascun nucleo familiare non potrà essere erogata una somma di contributo superiore a 400 euro. Il Comune procederà alla formulazione della graduatoria fino ad esaurimento delle risorse disponibili, quantificate in 40mila euro.",
+    "T2_TITLE": "CONTRIBUTI PER LA PRATICA SPORTIVA GIOVANILE"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il termine indicato è «entro le 12.30 di venerdì 15 maggio 2026». |\n| L2.2 | Falso | Il modello deve essere «debitamente compilato». |\n| L2.3 | Falso | La consegna cartacea è ammessa «solo in caso di grave impossibilità» di usare l'email e richiede un appuntamento. 中文：纸质提交是例外。 |\n| L2.4 | Vero | L'orario indicato comprende «martedì dalle 15 alle 17». |\n| L2.5 | Vero | La domanda va redatta «da uno dei genitori o da chi esercita la responsabilità genitoriale». |\n| L2.6 | Falso | Occorre documentare sia «l’effettiva iscrizione» sia «l’avvenuto pagamento» delle quote. |\n| L2.7 | Vero | Il testo stabilisce che le domande senza tutti i dati richiesti «saranno escluse». |\n| L2.8 | Vero | Con identico Isee, si segue «la data di arrivo della domanda». |\n| L2.9 | Falso | Per ogni nucleo familiare è consentita «un’unica domanda», non una per figlio. 中文：家庭只能提交一份。 |\n| L2.10 | Vero | I requisiti indicano figli «fra i 6 ed i 18 anni» e «Isee fino a 15mila euro». |\n| L2.11 | Falso | È richiesta la residenza a Ravenna «da almeno 12 mesi», non da sei. |\n| L2.12 | Vero | La pratica sportiva deve avere «una durata minima di 4 mesi» nell'anno 2025/2026. |\n| L2.13 | Falso | Se le spese sono inferiori a 150 euro, il contributo equivale «all’importo effettivamente pagato». |\n| L2.14 | Falso | Il limite complessivo per nucleo familiare è «400 euro», non 150. |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "copia fotostatica",
+      "categoria": "locuzione nominale",
+      "zh": "复印件",
+      "en": "photocopy",
+      "esempio": "unitamente a copia fotostatica del documento di identità del sottoscrittore"
+    },
+    {
+      "parola": "previo appuntamento",
+      "categoria": "locuzione avverbiale",
+      "zh": "须事先预约",
+      "en": "by prior appointment",
+      "esempio": "previo appuntamento"
+    },
+    {
+      "parola": "a pena di esclusione",
+      "categoria": "locuzione",
+      "zh": "否则将被排除",
+      "en": "under penalty of exclusion",
+      "esempio": "devono essere allegati, a pena di esclusione"
+    },
+    {
+      "parola": "nucleo familiare",
+      "categoria": "locuzione nominale",
+      "zh": "家庭单位",
+      "en": "household",
+      "esempio": "per ogni nucleo familiare può essere presentata un’unica domanda"
+    },
+    {
+      "parola": "una tantum",
+      "categoria": "locuzione avverbiale",
+      "zh": "一次性地",
+      "en": "one-off",
+      "esempio": "sarà una tantum fino a un massimo di 150 euro"
+    }
+  ]
+}

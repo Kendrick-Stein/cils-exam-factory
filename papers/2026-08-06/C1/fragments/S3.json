@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "S3_TEXT_WITH_GAPS": "Il prossimo 5 agosto 2026 la superficie lunare __accoglierà (0)__ un ospite inatteso: lo stadio superiore __(1)__ di un razzo Falcon 9 di SpaceX. L'oggetto è __(2)__ in orbita per oltre un anno dopo aver __(3)__ la sua missione. Nessun dramma e nessun pericolo immediato, ma l'evento __(4)__ domande cruciali sulla gestione dei detriti spaziali.\n\n**Da dove viene il “proiettile” spaziale?**\n\nTutto inizia il 15 gennaio 2025, quando un Falcon 9 __(5)__ per __(6)__ in orbita due sonde lunari private: il lander Blue Ghost 1 di Firefly Aerospace e il giapponese HAKUTO-R M2 di ispace.\n\nMentre il primo ha __(7)__ la storia con un __(8)__ perfetto sul Mare Crisium il 2 marzo, il secondo si è purtroppo schiantato a __(9)__ di un guasto tecnico. Lo stadio superiore del razzo (catalogato come 2025-010D) è rimasto __(10)__ in un'orbita altamente ellittica __(11)__ alla Terra. Ogni 26 giorni la sua traiettoria si è __(12)__ oltre la Luna, fino a oggi: il percorso ha ora un __(13)__ definito.\n\n**I dettagli tecnici dell'impatto**\n\nSecondo Bill Gray, astronomo e __(14)__ del software Project Pluto, lo stadio colpirà la Luna in __(15)__ del cratere Einstein, sul lembo occidentale, alle 8:44 ora italiana del 5 agosto 2026.",
+    "T6_TITLE": "UNO STADIO DEL FALCON 9 SI SCHIANTERÀ SULLA LUNA",
+    "S3_OPT0_A": "accoglierà",
+    "S3_OPT0_B": "rifiuterà",
+    "S3_OPT0_C": "eviterà",
+    "S3_OPT0_D": "allontanerà",
+    "S3_OPTION_ROWS": "| 1. | concluso | esaurito | esausto | sfinito |\n| 2. | entrato | transitato | tornato | rimasto |\n| 3. | completato | compilato | percorso | smaltito |\n| 4. | elude | dissipa | solleva | appiana |\n| 5. | atterra | decolla | devia | precipita |\n| 6. | trascinare | guidare | accompagnare | portare |\n| 7. | scritto | narrato | inciso | descritto |\n| 8. | attracco | ammaraggio | allunaggio | decollo |\n| 9. | forza | causa | mezzo | merito |\n| 10. | impigliato | recluso | arenato | intrappolato |\n| 11. | attorno | davanti | insieme | accanto |\n| 12. | gettata | cacciata | spinta | scaraventata |\n| 13. | principio | epilogo | preludio | esordio |\n| 14. | lettore | fruitore | editore | autore |\n| 15. | prossimità | presenza | distanza | assenza |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Lo «stadio superiore» è detto «esaurito» perché ha già svolto la propria funzione; gli altri aggettivi si riferiscono tipicamente a esseri viventi o non indicano l'esaurimento del propellente. 中文：航天器级段已耗尽。 |\n| S3.2 | D | La durata «per oltre un anno» richiede «è rimasto in orbita», non un verbo puntuale di ingresso, transito o ritorno. 中文：持续时长限定“rimasto”。 |\n| S3.3 | A | La collocazione naturale è «completare una missione»; compilare, percorrere e smaltire reggono l'oggetto ma non esprimono il compimento dell'incarico. 中文：固定搭配。 |\n| S3.4 | C | Un evento «solleva domande cruciali»; gli altri verbi esprimono l'eliminazione o l'elusione delle domande. 中文：事件“引发问题”。 |\n| S3.5 | B | Un razzo «decolla» per iniziare il volo e portare sonde in orbita; le altre azioni contraddicono lo scopo espresso da «per». 中文：火箭起飞。 |\n| S3.6 | D | La reggenza idiomatica è «portare in orbita» un oggetto; trascinare, guidare o accompagnare descrivono rapporti diversi tra i mezzi coinvolti. 中文：送入轨道。 |\n| S3.7 | A | «Scrivere la storia» è la locuzione che segnala un'impresa memorabile; gli altri verbi non formano qui una collocazione equivalente. 中文：创造历史。 |\n| S3.8 | C | Sul «Mare Crisium» si compie un «allunaggio»; attracco e ammaraggio indicano manovre diverse, mentre il decollo è la partenza. 中文：月面着陆。 |\n| S3.9 | B | Il guasto tecnico introduce una causa negativa: «a causa di»; «a merito di» è scorretto e «a forza di» o «a mezzo di» esprimono rapporti diversi. 中文：由于故障。 |\n| S3.10 | D | L'orbita ha trattenuto lo stadio: «rimasto intrappolato» rende questa condizione; impigliato, arenato e recluso richiedono contesti differenti. 中文：被困在轨道中。 |\n| S3.11 | A | Un'orbita si sviluppa «attorno alla Terra»; davanti, insieme e accanto non esprimono il moto orbitale. 中文：绕地球运行。 |\n| S3.12 | C | La costruzione idiomatica è «spingersi oltre» un limite; gli altri participi, pur compatibili con il riflessivo, implicano un'azione violenta non espressa dal contesto. 中文：越过某个界限。 |\n| S3.13 | B | Dopo «fino a oggi», l'impatto costituisce l'«epilogo» del percorso, non il suo principio, preludio o esordio. 中文：轨迹的结局。 |\n| S3.14 | D | Bill Gray è indicato come «autore del software»; lettore e fruitore sono utenti, mentre editore designa chi pubblica o distribuisce. 中文：软件作者。 |\n| S3.15 | A | La costruzione locativa corretta è «in prossimità del cratere»; presenza, distanza e assenza non descrivono il luogo ravvicinato dell'impatto. 中文：在陨石坑附近。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "D",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "detriti spaziali",
+      "categoria": "locuzione nominale",
+      "zh": "太空碎片",
+      "en": "space debris",
+      "esempio": "Nessun dramma e nessun pericolo immediato, ma l'evento __(4)__ domande cruciali sulla gestione dei detriti spaziali."
+    },
+    {
+      "parola": "sonde lunari",
+      "categoria": "locuzione nominale",
+      "zh": "月球探测器",
+      "en": "lunar probes",
+      "esempio": "Tutto inizia il 15 gennaio 2025, quando un Falcon 9 __(5)__ per __(6)__ in orbita due sonde lunari private: il lander Blue Ghost 1 di Firefly Aerospace e il giapponese HAKUTO-R M2 di ispace."
+    },
+    {
+      "parola": "guasto tecnico",
+      "categoria": "locuzione nominale",
+      "zh": "技术故障",
+      "en": "technical failure",
+      "esempio": "Mentre il primo ha __(7)__ la storia con un __(8)__ perfetto sul Mare Crisium il 2 marzo, il secondo si è purtroppo schiantato a __(9)__ di un guasto tecnico."
+    },
+    {
+      "parola": "orbita altamente ellittica",
+      "categoria": "locuzione nominale",
+      "zh": "高椭圆轨道",
+      "en": "highly elliptical orbit",
+      "esempio": "Lo stadio superiore del razzo (catalogato come 2025-010D) è rimasto __(10)__ in un'orbita altamente ellittica __(11)__ alla Terra."
+    },
+    {
+      "parola": "lembo occidentale",
+      "categoria": "locuzione nominale",
+      "zh": "西侧边缘",
+      "en": "western limb",
+      "esempio": "Secondo Bill Gray, astronomo e __(14)__ del software Project Pluto, lo stadio colpirà la Luna in __(15)__ del cratere Einstein, sul lembo occidentale, alle 8:44 ora italiana del 5 agosto 2026."
+    }
+  ]
+}

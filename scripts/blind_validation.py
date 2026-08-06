@@ -230,6 +230,15 @@ def answer_variants(expected: str) -> list[str]:
 TYPOGRAPHIC_MAP = str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"', "–": "-", "—": "-"})
 
 
+def collapse(text: str) -> str:
+    """Whitespace-collapsed, case-folded, without terminal sentence punctuation.
+
+    Solvers routinely end a written-out transformation with a full stop that the key
+    omits; the period is never what an item tests.
+    """
+    return " ".join(text.split()).casefold().rstrip(".;!")
+
+
 def single_answer_matches(expected: str, actual: str | None) -> bool:
     if actual is None:
         return False
@@ -237,16 +246,18 @@ def single_answer_matches(expected: str, actual: str | None) -> bool:
     actual = actual.translate(TYPOGRAPHIC_MAP)
     if actual.casefold() == expected.casefold():
         return True
-    if " ".join(actual.split()).casefold() == " ".join(expected.split()).casefold():
+    if collapse(actual) == collapse(expected):
         return True
     if "-" in expected:
         expected_parts = [part.casefold() for part in re.split(r"\s*-\s*", expected.strip()) if part]
         actual_parts = [part.casefold() for part in re.split(r"[\s,-]+", actual.strip()) if part]
         if expected_parts and expected_parts == actual_parts:
             return True
-    if not expected.endswith("'"):
-        return False
-    return actual.casefold().startswith(expected.casefold()) and len(actual) > len(expected)
+    if expected.endswith("'"):
+        return actual.casefold().startswith(expected.casefold()) and len(actual) > len(expected)
+    # Trasformazioni: the key lists both the completion alone and the whole rewritten
+    # sentence, so a solver writing out the full sentence must still match.
+    return False
 
 
 def answers_match(expected: str, actual: str | None) -> bool:

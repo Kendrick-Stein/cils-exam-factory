@@ -1,0 +1,133 @@
+exam: cils
+level: B2
+session: '2026-08-06'
+title: CILS DUE — B2 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.media.inaf.it/2026/02/20/forma-bilobata-transnettuniani/
+  title: Pupazzi di neve ai confini del Sistema solare
+  publisher: Media INAF
+  published: '2026-02-20'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 480
+  origin: pool/3f9a5f277d3f.md
+- id: T2
+  url: https://comune.ravenna.it/novita/comunicato-stampa/natale-2026-il-comune-di-ravenna-pubblica-due-avvisi-di-indagine-di-mercato-per-il-villaggio-di-natale-il-programma-di-animazione-e-le-luminarie-del-centro-storico/
+  title: Natale 2026, il Comune di Ravenna pubblica due avvisi di indagine di mercato
+    per il Villaggio di Natale, il programma di animazione e le luminarie del centro
+    storico
+  publisher: Comune di Ravenna
+  published: '2026-07-17'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 442
+  origin: pool/6c788fbbdfe1.md
+- id: T3
+  url: https://camminiditalia.org/cammino-nelle-terre-mutate-il-viaggio-di-stefania-tra-le-rovine-e-la-speranza/
+  title: 'Cammino nelle Terre Mutate: il viaggio di Stefania tra le rovine e la speranza'
+  publisher: Cammini d’Italia
+  published: '2025-09-15'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 370
+- id: T4
+  url: https://www.focus.it/ambiente/animali/abbiamo-scoperto-l-insetto-stecco-piu-pesante-del-mondo
+  title: Abbiamo scoperto l’insetto stecco più pesante del mondo
+  publisher: Focus.it
+  published: '2025-08-24'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 309
+- id: T5
+  url: https://www.ansa.it/sito/notizie/cultura/libri/2026/06/08/bajani-sul-new-yorker-con-un-capitolo-di-lanniversario_b8aebc7a-04c5-41aa-9d58-ef3151438aa4.html
+  title: Bajani sul New Yorker con un capitolo di L'Anniversario
+  publisher: ANSA
+  published: '2026-06-08'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 260
+- id: T6
+  url: https://www.padigitale2026.gov.it/supporto/guida-a-pa-digitale-2026
+  title: Guida a PA digitale 2026
+  publisher: PA digitale 2026 – Dipartimento per la trasformazione digitale
+  published: null
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 201
+  origin: pool/2f49db8aa8b8.md
+pipeline:
+  generator: genpapers
+  template: factory/exams/cils/templates/B2.md
+  stages:
+  - stage: corpus
+    at: '2026-08-06'
+  - stage: authoring
+    at: '2026-08-06'
+  - stage: format_audit
+    at: '2026-08-06T11:40:40+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-08-06T11:42:19+00:00'
+    agreement: 83/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T11:45:51+00:00'
+    agreement: 83/87
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T12:00:30+00:00'
+    agreement: 86/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T12:06:55+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-06T12:07:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:07:04+00:00'
+    result: fail
+    issues: 1
+  - stage: quality_audit
+    at: '2026-08-06T12:08:24+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-08-06T12:09:04+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-06T12:09:14+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass
+reason: quality_audit

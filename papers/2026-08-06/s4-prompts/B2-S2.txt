@@ -1,0 +1,48 @@
+You are an item-writer for the CILS Exam Factory (repo at /Users/kendrickstein/Code/CILS_Exam_AUTOGEN) running a **stage S4 repair**. You are a FRESH agent: you did not write this prova.
+
+Read first:
+1. `.claude/agents/item-writer.md` — your full role, especially "Stage S4 — repair" and the hard rules.
+2. `factory/exams/cils/templates/B2.md` — the HTML comments next to your {{SLOT}} placeholders (formats, counts, examples).
+3. Your current fragment: `papers/2026-08-06/B2/fragments/S2.json`.
+
+Your ONE source text: the '## Slot T5' section of papers/2026-08-06/B2/sources.md — read ONLY that section.
+
+Assignment: level B2, session 2026-08-06, fragment ID **S2**.
+
+Prova spec from exam.yaml:
+n: 2
+tipo: cloze_verbi
+focus: indicativo, congiuntivo, condizionale, passiva
+items: 20
+punti_item: 0.3
+punti: 6
+testo:
+  slot: T5
+  genere: intervista o racconto
+  parole:
+  - 220
+  - 260
+
+## Blind-validation defects to fix
+
+An independent solver received ONLY the printed student paper (no key, no source, no web) and reported these problems:
+
+- **S2.6** — la tua chiave: `avrei voluto` | risposta del solutore cieco: `volevo` → leggendo SOLO il testo stampato il solutore ha scelto un'altra risposta difendibile.
+- **S2.9** — la tua chiave: `l'avessi pensato` | risposta del solutore cieco: `lo pensassi` → leggendo SOLO il testo stampato il solutore ha scelto un'altra risposta difendibile.
+- **S2.16** — la tua chiave: `ho raccontato` | risposta del solutore cieco: `racconto` → leggendo SOLO il testo stampato il solutore ha scelto un'altra risposta difendibile.
+- **S2.1** — AMBIGUITY FLAG dal solutore: «Sia «vinse» sia «ha vinto» sono grammaticalmente plausibili; il testo non impone inequivocabilmente la scelta tra passato remoto e passato prossimo.» → l'item va reso univoco (un flag fa fallire il gate anche se la risposta coincide).
+- **S2.16** — AMBIGUITY FLAG dal solutore: ««Racconto» è coerente con la risposta in prima persona, ma la formulazione «Nell'intervista pubblicata questa settimana» rende plausibile anche una cornice narrativa in terza persona («ha raccontato»).» → l'item va reso univoco (un flag fa fallire il gate anche se la risposta coincide).
+
+## What to do
+
+- For EACH defect decide whether the KEY is wrong or the ITEM is ambiguous. Ambiguity is the usual cause: fix the item so that exactly ONE answer is defensible from the printed text alone — re-cut the gap, add the printed time marker / disambiguating cue the rule requires, change what the item tests, or replace the item outright. A flagged item fails the gate even when the solver's answer matched your key, so a flag must be designed away, not argued away.
+- Then **rescan every other item in this prova for the same defect class** and fix those too, even if the solver did not catch them. A second failure on this prova would drop the level to `draft`.
+- Keep item COUNT, point values, consegna and slot names identical. Do not renumber.
+- Cloze verbi: the printed text must force ONE tense/form per gap — hard past anchor up front («Domenica scorsa», «Nel 2019»); «ogni giorno / sempre / mentre + verbo» for imperfetto; «Adesso/Oggi» pivot for presente; «In questi anni / finora / fino a oggi» to force passato prossimo and block the remoto; passato remoto only with an unmistakable cue («Fu … che»). Auxiliary AND clitic go INSIDE the gap, and the printed sentence must make an obligatory clitic unmistakable (if the key is «mi permette», the surrounding text must rule out the clitic-less reading — otherwise re-cut the gap so the clitic is not optional). Never passato prossimo with essere when the subject's gender is unspecified.
+- Keep the text inside its exam.yaml word band (measured on the *_TEXT / *_WITH_GAPS body, title and items excluded).
+
+## Output
+
+Rewrite EXACTLY ONE file, `papers/2026-08-06/B2/fragments/S2.json`, same JSON shape (`prova`, `slots`, `answer_slots`, `key`, `glossario_candidates`), with all the slot keys it already has. Update the chiavi rows and spiegazioni to match your fixes. Do NOT touch manifest.yaml, paper.md, answers.md or any other file.
+
+Reply (short, no fragment content): one line per defect saying what you changed, plus any other items you preemptively fixed.

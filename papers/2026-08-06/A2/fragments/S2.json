@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "S2_TEXT_WITH_GAPS": "A metà giugno, mentre *(arrivare)* __(1)__ a Drusenheim, ero entusiasta. Questa *(essere)* __è (0)__ la mia esperienza. Fino a oggi *(vivere)* __(2)__ qui. Mentre *(vivere)* __(3)__ l’esperienza, la scuola mi dava sempre supporto. Adesso *(essere)* __(4)__ studentessa del ‘De Carolis’ di Spoleto e, grazie all’esperienza, ogni giorno *(potere)* __(5)__ crescere professionalmente e personalmente. Finora la qualità dei percorsi *(essere)* __(6)__ fondamentale. Fino a oggi, grazie a questi percorsi, *(conoscere)* __(7)__ questa realtà internazionale. I cugini titolari mi hanno dato l’opportunità. A metà giugno *(riuscire)* __(8)__ a venire qui e *(mettersi)* __(9)__ alla prova fuori dall’Italia. Adesso *(continuare)* __(10)__ l’esperienza. Finirà a metà agosto.",
+    "T5_TITLE": "LA MIA ESPERIENZA IN ALSAZIA"
+  },
+  "answer_slots": {
+    "ANS_S2_NOTES": "«A metà giugno» fissa il passato; «fino a oggi» e «finora» richiedono il passato prossimo; «mentre» e «sempre» presentano azioni o situazioni in corso nel passato; «Adesso» richiede il presente, quindi la studentessa dice «posso». Con «fino a oggi», il soggetto narrante in prima persona dice «ho conosciuto». La studentessa è un soggetto femminile espresso, quindi «riuscita» e «messa» hanno una sola forma. 中文提示：时间标记决定时态；助动词和代词都写在空格里。",
+    "ANS_S2_ROWS": "| 1 | arrivavo | imperfetto | 6 | è stata | passato prossimo |\n| 2 | ho vissuto | passato prossimo | 7 | ho conosciuto | passato prossimo |\n| 3 | vivevo | imperfetto | 8 | sono riuscita | passato prossimo |\n| 4 | sono | presente | 9 | mi sono messa | passato prossimo |\n| 5 | posso | presente | 10 | continuo | presente |"
+  },
+  "key": {
+    "S2.1": "arrivavo",
+    "S2.2": "ho vissuto",
+    "S2.3": "vivevo",
+    "S2.4": "sono",
+    "S2.5": "posso",
+    "S2.6": "è stata",
+    "S2.7": "ho conosciuto",
+    "S2.8": "sono riuscita",
+    "S2.9": "mi sono messa",
+    "S2.10": "continuo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "supporto",
+      "categoria": "nome maschile",
+      "zh": "支持",
+      "en": "support",
+      "esempio": "la scuola mi dava sempre supporto"
+    },
+    {
+      "parola": "professionalmente",
+      "categoria": "avverbio",
+      "zh": "在职业方面",
+      "en": "professionally",
+      "esempio": "crescere professionalmente e personalmente"
+    },
+    {
+      "parola": "qualità dei percorsi",
+      "categoria": "locuzione nominale",
+      "zh": "培训课程",
+      "en": "training programmes",
+      "esempio": "la qualità dei percorsi"
+    },
+    {
+      "parola": "realtà internazionale",
+      "categoria": "locuzione nominale",
+      "zh": "国际机构",
+      "en": "international organisation",
+      "esempio": "questa realtà internazionale"
+    },
+    {
+      "parola": "alla prova",
+      "categoria": "locuzione",
+      "zh": "接受考验",
+      "en": "to the test",
+      "esempio": "alla prova fuori dall’Italia"
+    }
+  ]
+}

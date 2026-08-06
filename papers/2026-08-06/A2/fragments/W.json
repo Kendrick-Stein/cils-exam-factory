@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Racconta una visita a una fattoria. Scrivi quando ci sei andato, con chi eri, che cosa hai fatto, com'era il luogo e che cosa ti è piaciuto di più.",
+    "W2_PROMPT": "Scrivi un messaggio per invitare un amico o un'amica alla tua festa di compleanno al parco. Indica il giorno e l'ora, chiedi di portare una bevanda e di confermare la sua presenza."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho visitato una fattoria vicino al lago con i miei cugini. Abbiamo dato da mangiare alle capre e raccolto alcune uova. Poi abbiamo fatto merenda sotto un grande albero. Il posto era semplice, verde e silenzioso. Mi è piaciuta soprattutto la gentilezza del proprietario, che ci ha spiegato molte cose sugli animali.",
+    "MODEL_W1_PHRASES": "**Sabato scorso ho visitato…**（上周六我参观了……）；**Abbiamo dato da mangiare a…**（我们喂了……）；**Il posto era…**（那个地方……）；**Mi è piaciuto/a soprattutto…**（我最喜欢的是……）",
+    "MODEL_W2": "Ciao Elisa, sabato 15 agosto festeggio il mio compleanno al parco, alle quattro. Ti va di venire? Porta una bevanda, se puoi. Fammi sapere entro giovedì. Spero davvero di vederti! Un abbraccio, Sara",
+    "MODEL_W2_PHRASES": "**Festeggio il mio compleanno…**（我要庆祝生日……）；**Ti va di venire?**（你想来吗？）；**Porta…, se puoi.**（如果可以，请带……）；**Fammi sapere entro…**（请在……之前告诉我）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

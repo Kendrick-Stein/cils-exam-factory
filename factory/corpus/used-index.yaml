@@ -1,7 +1,7 @@
 generated_by: scripts/build_used_index.py
 note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
   not edit by hand — regenerate.
-unique_sources: 496
+unique_sources: 529
 sources:
 - url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
   title: Bruschetta al pomodoro fresco
@@ -4487,7 +4487,19 @@ sources:
     prova: Analisi delle strutture di comunicazione, Prova n. 2
     words: 89
     status: published
-- url: https://castello-sforzesco.milano.it/orari/ ; https://castello-sforzesco.milano.it/biglietti/
+- url: https://castello-sforzesco.milano.it/biglietti/
+  title: Orari" e "Biglietti" — Castello Sforzesco (Comune di Milano)
+  publisher: Comune di Milano — Castello Sforzesco (sito ufficiale civico)
+  genre: off-whitelist
+  first_used: '2026-07-22'
+  times_used: 1
+  uses:
+  - date: '2026-07-22'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 177
+    status: published
+- url: https://castello-sforzesco.milano.it/orari/
   title: Orari" e "Biglietti" — Castello Sforzesco (Comune di Milano)
   publisher: Comune di Milano — Castello Sforzesco (sito ufficiale civico)
   genre: off-whitelist
@@ -6360,4 +6372,397 @@ sources:
     level: B2
     prova: Comprensione della lettura, Prova n. 3
     words: 380
+    status: published
+- url: https://bandi.comune.torino.it/sites/default/files/allegati/avvisi/2026/4290/1_2026_assoc_confisc_allegato_A_avviso_pubblico.pdf
+  title: Avviso Pubblico Beni Confiscati 1/2026
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 4
+    words: 159
+    status: published
+- url: https://camminiditalia.org/cammino-nelle-terre-mutate-il-viaggio-di-stefania-tra-le-rovine-e-la-speranza/
+  title: 'Cammino nelle Terre Mutate: il viaggio di Stefania tra le rovine e la speranza'
+  publisher: Cammini d’Italia
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 370
+    status: published
+- url: https://comune.ravenna.it/novita/comunicato-stampa/contributi-a-sostegno-della-pratica-sportiva-giovanile-domande-entro-il-15-maggio-2026-2/
+  title: Contributi a sostegno della pratica sportiva giovanile, domande entro il
+    15 maggio 2026
+  publisher: Comune di Ravenna
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 343
+    status: published
+- url: https://comune.ravenna.it/novita/comunicato-stampa/natale-2026-il-comune-di-ravenna-pubblica-due-avvisi-di-indagine-di-mercato-per-il-villaggio-di-natale-il-programma-di-animazione-e-le-luminarie-del-centro-storico/
+  title: Natale 2026, il Comune di Ravenna pubblica due avvisi di indagine di mercato
+    per il Villaggio di Natale, il programma di animazione e le luminarie del centro
+    storico
+  publisher: Comune di Ravenna
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 442
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/abbiamo-scelto-questa-citta-di-provincia-per-un-weekend-e-non-ci-siamo-pentiti-qui-tutto-e-tranquillo-e-rilassante.html
+  title: 'Abbiamo scelto questa città di provincia per un weekend e non ci siamo pentiti:
+    qui tutto è tranquillo e rilassante'
+  publisher: Turisti per Caso
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 275
+    status: published
+- url: https://turistipercaso.it/diari-di-viaggio/gaudi-e-cerveza.html
+  title: Gaudì e Cerveza
+  publisher: Turisti per Caso
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 100
+    status: published
+- url: https://www.alberghierospoleto.edu.it/2026/07/14/dal-de-carolis-alla-francia-la-mia-esperienza-formativa-alla-maison-carciofi/
+  title: 'Dal De Carolis alla Francia: la mia esperienza formativa alla Maison Carciofi'
+  publisher: IPSEOASC Alberghiero Giancarlo De Carolis
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 129
+    status: published
+- url: https://www.ansa.it/amp/sito/notizie/cronaca/2026/06/20/nave-gnv-ferma-al-largo-della-corsica-dopo-un-incendio-a-bordo_bd347480-8f76-40bc-ac63-6c9b00ecc53e.html
+  title: 'Rogo sulla nave al largo della Corsica: "Ho temuto di morire"'
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 400
+    status: published
+- url: https://www.ansa.it/lazio/notizie/2026/06/02/in-un-manoscritto-di-giuseppe-gioachino-belli-la-sua-passione-per-la-cina_a0d98463-bf92-46b8-9707-429d566b66c8.html
+  title: In un manoscritto di Giuseppe Gioachino Belli la sua passione per la Cina
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 561
+    status: published
+- url: https://www.ansa.it/sito/notizie/cultura/libri/2026/06/08/bajani-sul-new-yorker-con-un-capitolo-di-lanniversario_b8aebc7a-04c5-41aa-9d58-ef3151438aa4.html
+  title: Bajani sul New Yorker con un capitolo di L'Anniversario
+  publisher: ANSA
+  genre: news_general
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 260
+    status: published
+- url: https://www.biblioteche.comune.parma.it/pavese/it-IT/Orario-estivo-2026.aspx
+  title: Orario estivo 2026
+  publisher: Biblioteca Pavese / Comune di Parma
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 2
+    words: 118
+    status: published
+- url: https://www.comune.perugia.it/novita/biblioteche-orario-estivo-2026/
+  title: BiblioComPg & Orario estivo
+  publisher: Comune di Perugia
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 2
+    words: 186
+    status: published
+- url: https://www.comune.piacenza.it/it/news/tornano-gli-orari-estivi-delle-biblioteche-del-comune-di-piacenza
+  title: Biblioteca Passerini-Landi, Piacenza — orario estivo
+  publisher: Comune di Piacenza
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 88
+    status: published
+- url: https://www.comune.torino.it/novita/notizie/iscrizioni-estate-ragazzi-2026
+  title: Iscrizioni Estate Ragazzi 2026
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 188
+    status: published
+- url: https://www.comune.torino.it/vivere-comune/luoghi/parco-ruffini
+  title: Parco Ruffini
+  publisher: Città di Torino
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 116
+    status: published
+- url: https://www.doppiozero.com/chatgpt-e-una-lei
+  title: ChatGPT è una lei?
+  publisher: doppiozero
+  genre: opinion_essay
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 283
+    status: published
+- url: https://www.eventbrite.it/e/piccoli-van-gogh-laboratorio-artistico-per-bambini-girasoli-al-castello-tickets-1983429703636
+  title: PICCOLI VAN GOGH - Laboratorio artistico per bambini (Girasoli al Castello)
+  publisher: Castello di Malpaga / Eventbrite Italia
+  genre: practical_realia
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 118
+    status: published
+- url: https://www.focus.it/ambiente/animali/abbiamo-scoperto-l-insetto-stecco-piu-pesante-del-mondo
+  title: Abbiamo scoperto l’insetto stecco più pesante del mondo
+  publisher: Focus.it
+  genre: culture_science
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 309
+    status: published
+- url: https://www.focus.it/scienza/spazio/falcon-9-impatto-luna-agosto-2026
+  title: 'Uno stadio del Falcon 9 si schianterà sulla Luna: ecco quando e dove avverrà
+    l’impatto'
+  publisher: Focus
+  genre: culture_science
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 233
+    status: published
+- url: https://www.fondazioneaquileia.it/it/attivita/aquileia-film-festival-2026
+  title: Armadio con 2 ante specchio e 3 con sportelli; Aquileia Film Festival 2026
+    — tre micro-avvisi
+  publisher: Subito.it; Fondazione Aquileia
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 114
+    status: published
+- url: https://www.gamberorosso.it/notizie/attualita/fru-the-jackal-sanremo-chef-cattivi-tv-simpatici-cucine/
+  title: '"Litri di latte, pasta col tonno e sfogliatelle". La dieta ironica di Fru
+    dei The Jackal'
+  publisher: Gambero Rosso
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 233
+    status: published
+- url: https://www.gamberorosso.it/notizie/vino/giulia-monteleone-vinodonna-dimostrare-doppio-uomo/
+  title: “Nel vino una donna è costretta a dimostrare più di un uomo di essere credibile”.
+    Intervista a Giulia Monteleone
+  publisher: Gambero Rosso
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Analisi delle strutture di comunicazione, Prova n. 2
+    words: 278
+    status: published
+- url: https://www.italia.it/it/lazio/roccasecca/casa-di-san-tommaso
+  title: Casa di San Tommaso
+  publisher: Italia.it
+  genre: practical_realia
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 206
+    status: published
+- url: https://www.media.inaf.it/2026/02/20/forma-bilobata-transnettuniani/
+  title: Pupazzi di neve ai confini del Sistema solare
+  publisher: Media INAF
+  genre: culture_science
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B2
+    prova: Comprensione della lettura, Prova n. 1
+    words: 480
+    status: published
+- url: https://www.media.inaf.it/2026/07/06/euclid-quasar-piu-antichi/
+  title: Euclid scopre i due quasar più antichi mai osservati
+  publisher: MEDIA INAF
+  genre: culture_science
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 1
+    words: 583
+    status: published
+- url: https://www.mountainblog.it/redazionale/il-cammino-dei-cappuccini-arriva-la-versione-bike/
+  title: 'Il Cammino dei Cappuccini: arriva la versione bike'
+  publisher: MountainBlog
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: C1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 497
+    status: published
+- url: https://www.padigitale2026.gov.it/supporto/guida-a-pa-digitale-2026
+  title: Guida a PA digitale 2026
+  publisher: PA digitale 2026 – Dipartimento per la trasformazione digitale
+  genre: off-whitelist
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B2
+    prova: Analisi delle strutture di comunicazione, Prova n. 3
+    words: 201
+    status: published
+- url: https://www.rainews.it/tgr/bolzano/articoli/2026/06/sarentino-piume-pavoni-punta-marina-ricamo-artigianato--70ba1ff8-7b3f-4aa4-a894-b2f09798b5b3.html
+  title: A Sarentino si ricama con le piume di pavone
+  publisher: RaiNews TGR Bolzano
+  genre: news_general
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: B1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 256
+    status: published
+- url: https://www.subito.it/arredamento-casalinghi/armadio-con-2-ante-specchio-e-3-con-sportelli-livorno-655035944.htm
+  title: Armadio con 2 ante specchio e 3 con sportelli; Aquileia Film Festival 2026
+    — tre micro-avvisi
+  publisher: Subito.it; Fondazione Aquileia
+  genre: practical_realia
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Comprensione della lettura, Prova n. 3
+    words: 114
+    status: published
+- url: https://www.viaggiapiccoli.com/tre-sentieri-per-bambini-e-famiglie-sul-vesuvio/
+  title: 'Vesuvio con i bambini: i sentieri più belli e come salire al cratere'
+  publisher: Viaggiapiccoli.com
+  genre: blogs_lifestyle
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A2
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 129
+    status: published
+- url: https://www.visittrentino.info/it/dove-dormire/cerca-prenota/ANIA-VISTA-CASTELLO-appartamento-vacanze-Tenno_ad-84663301
+  title: Ania Vista Castello
+  publisher: Visit Trentino / Trentino Marketing
+  genre: practical_realia
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A1
+    prova: Analisi delle strutture di comunicazione, Prova n. 1
+    words: 90
+    status: published
+- url: https://www.visittrentino.info/it/guida/cosa-fare/eventi/ossana-medievale_e_130160316
+  title: Ossana Medievale — sei voci del programma
+  publisher: Visit Trentino
+  genre: practical_realia
+  first_used: '2026-08-06'
+  times_used: 1
+  uses:
+  - date: '2026-08-06'
+    level: A2
+    prova: Comprensione della lettura, Prova n. 3
+    words: 174
     status: published

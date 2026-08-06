@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione che promuove la memoria del territorio e ha organizzato una mostra fotografica sui mestieri del quartiere. Scrivi un articolo in cui racconti la visita, spieghi il valore dell'iniziativa, valuti gli aspetti riusciti e quelli da migliorare e proponi idee per una futura edizione.",
+    "W2_PROMPT": "Hai acquistato un abbonamento al servizio cittadino di biciclette condivise, ma l'importo è stato addebitato due volte. Scrivi un'e-mail formale al servizio clienti.",
+    "W2_REQ_1": "indicare la data dell'acquisto, il codice dell'abbonamento e gli addebiti ricevuti;",
+    "W2_REQ_2": "chiedere la verifica dei pagamenti e il rimborso della somma non dovuta;",
+    "W2_REQ_3": "domandare se l'abbonamento resta attivo e come evitare che il problema si ripeta."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Domenica ho visitato la mostra fotografica sui mestieri del quartiere, allestita dalla nostra associazione in un negozio inutilizzato. Le immagini ritraevano falegnami, sarte, fornai e giovani artigiani mentre lavoravano; accanto a ogni fotografia, una breve testimonianza raccontava la loro esperienza. Ho apprezzato soprattutto l'incontro con una restauratrice, che ha spiegato come sono cambiate le tecniche nel tempo. La mostra valorizza competenze spesso poco visibili e permette a generazioni diverse di riconoscersi nella storia del luogo. Tuttavia, lo spazio era affollato e alcune didascalie risultavano difficili da leggere. Per una futura edizione proporrei visite su prenotazione, testi più grandi e registrazioni audio accessibili tramite un codice digitale. Si potrebbero inoltre coinvolgere le scuole e raccogliere fotografie portate dagli abitanti. Così l'esposizione diventerebbe un archivio collettivo, capace di conservare il passato e raccontare anche i nuovi lavori.",
+    "MODEL_W1_PHRASES": "Ho apprezzato soprattutto…（我尤其欣赏……）; valorizzare competenze poco visibili（重视不太受关注的技能）; Tuttavia, …（然而，……）; Per una futura edizione proporrei…（对于下一届活动，我建议……）; Si potrebbero inoltre…（此外还可以……）",
+    "MODEL_W2": "Gentile Servizio clienti,\n\nil 3 agosto ho acquistato l'abbonamento mensile al servizio di biciclette condivise, codice BC-7294. Sulla mia carta risultano due addebiti identici di 25 euro. Vi chiedo cortesemente di verificare i pagamenti e di comunicarmi modalità e tempi del rimborso della somma non dovuta. Vorrei inoltre sapere se il mio abbonamento resta attivo durante la verifica e quali precauzioni devo adottare per evitare che il doppio addebito si ripeta al prossimo rinnovo.\n\nAllego le ricevute e resto in attesa di un vostro riscontro.\n\nCordiali saluti,\nMarco Riva",
+    "MODEL_W2_PHRASES": "Sulla mia carta risultano…（我的银行卡上显示……）; Vi chiedo cortesemente di…（谨请贵方……）; comunicarmi modalità e tempi（告知我方式和时间）; Vorrei inoltre sapere se…（我还想了解是否……）; resto in attesa di un vostro riscontro（静候贵方回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

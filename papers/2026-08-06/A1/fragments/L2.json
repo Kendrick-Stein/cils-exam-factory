@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "L2_ITEMS": "1. La Biblioteca Pavese segue l'orario estivo dall'8 giugno al 21 agosto 2026.  Vero ○ Falso ○\n\n2. Il lunedì la biblioteca è aperta solo la mattina.  Vero ○ Falso ○\n\n3. Il martedì la biblioteca chiude alle 13.00.  Vero ○ Falso ○\n\n4. Il giovedì la biblioteca è aperta anche nel pomeriggio.  Vero ○ Falso ○\n\n5. Il venerdì la biblioteca riapre alle 15.00.  Vero ○ Falso ○\n\n6. La domenica la biblioteca apre alle 9.00.  Vero ○ Falso ○\n\n7. Il 15 agosto la Biblioteca Pavese è chiusa.  Vero ○ Falso ○\n\n8. Venerdì 21 agosto la biblioteca è chiusa per tutta la giornata.  Vero ○ Falso ○",
+    "T2_TEXT": "Orario Estivo della Biblioteca Pavese da lunedì 8 giugno a venerdì 21 agosto 2026\n\nDall'8 giugno al 21 agosto 2026 la Biblioteca Pavese sarà aperta:\n\nLUNEDÌ e MERCOLEDÌ\ndalle 9.00 alle 13.00 e dalle 14.00 alle 19.00\n\nMARTEDÌ e GIOVEDÌ\ndalle 9.00 alle 13.00\n\nVENERDÌ e SABATO\ndalle 9.00 alle 13.00 e dalle 15.00 alle 19.00\n\nDOMENICA\ndalle 15.00 alle 19.00\n\nLa Biblioteca Pavese sarà CHIUSA il 15 AGOSTO e dalle ore 13.00 di venerdì 21 AGOSTO a domenica 30 AGOSTO 2026 compresa.\n\nBuona estate e buone letture!\n\nBiblioteca Pavese via Newton 8/a 43123 Parma. Tel 0521.218170 e-mail pavese@comune.parma.it",
+    "T2_TITLE": "ORARIO ESTIVO 2026"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica: «Dall'8 giugno al 21 agosto 2026». 日期范围相同。 |\n| L2.2 | Falso | Il lunedì l'orario è «dalle 9.00 alle 13.00 e dalle 14.00 alle 19.00», non solo la mattina. 下午也开放。 |\n| L2.3 | Vero | Per il martedì è scritto «dalle 9.00 alle 13.00». 13点结束。 |\n| L2.4 | Falso | Il giovedì l'orario è «dalle 9.00 alle 13.00»; non c'è apertura pomeridiana. 周四下午不开放。 |\n| L2.5 | Vero | Il venerdì l'orario pomeridiano comincia «dalle 15.00». 15点重新开门。 |\n| L2.6 | Falso | La domenica la biblioteca apre «dalle 15.00 alle 19.00», non alle 9.00. 周日下午开门。 |\n| L2.7 | Vero | Il testo dice: «sarà CHIUSA il 15 AGOSTO». 8月15日关闭。 |\n| L2.8 | Falso | La chiusura comincia «dalle ore 13.00 di venerdì 21 AGOSTO», quindi non dura tutta la giornata. 当天13点后才关闭。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Orario Estivo",
+      "categoria": "locuzione nominale",
+      "zh": "夏季开放时间",
+      "en": "summer opening hours",
+      "esempio": "Orario Estivo della Biblioteca Pavese da lunedì 8 giugno a venerdì 21 agosto 2026"
+    },
+    {
+      "parola": "sarà aperta",
+      "categoria": "locuzione verbale",
+      "zh": "将开放",
+      "en": "will be open",
+      "esempio": "Dall'8 giugno al 21 agosto 2026 la Biblioteca Pavese sarà aperta:"
+    },
+    {
+      "parola": "sarà CHIUSA",
+      "categoria": "locuzione verbale",
+      "zh": "将关闭",
+      "en": "will be closed",
+      "esempio": "La Biblioteca Pavese sarà CHIUSA il 15 AGOSTO e dalle ore 13.00 di venerdì 21 AGOSTO a domenica 30 AGOSTO 2026 compresa."
+    },
+    {
+      "parola": "compresa",
+      "categoria": "aggettivo",
+      "zh": "包括在内的",
+      "en": "included",
+      "esempio": "La Biblioteca Pavese sarà CHIUSA il 15 AGOSTO e dalle ore 13.00 di venerdì 21 AGOSTO a domenica 30 AGOSTO 2026 compresa."
+    },
+    {
+      "parola": "buone letture",
+      "categoria": "espressione",
+      "zh": "阅读愉快",
+      "en": "enjoy your reading",
+      "esempio": "Buona estate e buone letture!"
+    }
+  ]
+}

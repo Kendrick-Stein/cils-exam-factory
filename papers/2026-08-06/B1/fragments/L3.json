@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "UN WEEKEND TRANQUILLO A VIGEVANO",
+    "T3_PART_A": "Per chi come noi parte da Torino, Vigevano è una città in cui ti devi recare in autonomia. Ci vai perché vuoi vedere la piazza.",
+    "T3_PART_B": "Dopo il parcheggio ci avviciniamo al centro e decidiamo di goderci un caffè non proprio sotto i portici, ma accanto: ci sono diversi bar.",
+    "T3_PART_C": "Così si parte, un qualsiasi sabato mattina: Torino-Milano e via. Il viaggio è piatto e tranquillo come solo questa autostrada sa offrire.",
+    "T3_PART_D": "Quando oltrepassiamo la prima arcata, lo stupore è la prima sensazione che si prova: la meraviglia verso la perfezione di questa struttura, nella prima luce del mattino.",
+    "T3_PART_E": "Terminata quella contemplazione, iniziamo a passeggiare con lentezza, osservando vetrine alla nostra destra, ma soprattutto senza staccare gli occhi dagli archi, dal pavimento e dalla raffinata precisione del tutto.",
+    "T3_PART_F": "All'inizio non pensi ad altre destinazioni vicine, ma poi scopri che ci sono e che questo weekend nato per caso diventa una bella idea.",
+    "T3_PART_G": "Infine ci facciamo attrarre dalle viuzze che attraversano la piazza, per poi tornare alla base. Vigevano è la piazza: tutto il resto non regge il confronto.",
+    "T3_PART_H": "Arriviamo quindi velocemente a destinazione e troviamo parcheggio nelle vicinanze della piazza, in un parking dichiarato a pagamento, ma diventato gratuito.",
+    "T3_PART_I": "Subito dopo, la struttura ci appare vuota di turisti e di locali, immensa ma intima, dipinta minuziosamente, ma semplice nella sua totalità.",
+    "T3_PART_J": "Da uno di quei bar possiamo sederci e godere la vista dei primi portici, mentre le biciclette escono dalla piazza verso l'esterno con estrema calma.",
+    "T3_PART_K": "Di fronte a quel capolavoro continuo a girare su me stessa, per fissare disegni e ornamenti, chiedendomi quanto avrebbero fatto pagare all'estero per avere accesso a qualcosa di simile."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Presenta Vigevano come meta scelta per vedere la piazza. |\n| 2 | F | «All'inizio» riprende il progetto appena presentato e introduce la scoperta delle mete vicine. |\n| 3 | C | «Così si parte» trasforma la bella idea del weekend nella partenza effettiva. |\n| 4 | H | «Arriviamo quindi» segue necessariamente il viaggio e porta al parcheggio. |\n| 5 | B | «Dopo il parcheggio» riprende in modo univoco l'azione della parte H. |\n| 6 | J | «Da uno di quei bar» riprende i «diversi bar» della parte B. 中文：指示语直接衔接。 |\n| 7 | D | «Quando oltrepassiamo la prima arcata» segue la vista esterna dei portici e introduce l'ingresso nella piazza. |\n| 8 | I | «Subito dopo, la struttura» riprende esattamente «questa struttura» della parte D e la descrive. |\n| 9 | K | «Quel capolavoro» riassume la struttura appena descritta e motiva il gesto di osservarne disegni e ornamenti. |\n| 10 | E | «Terminata quella contemplazione» chiude l'osservazione della parte K e avvia la passeggiata. |\n| 11 | G | «Infine» introduce le viuzze e il giudizio conclusivo su Vigevano. |",
+    "ANS_L3_SEQUENCE": "A–F–C–H–B–J–D–I–K–E–G"
+  },
+  "key": {
+    "L3": "A–F–C–H–B–J–D–I–K–E–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "recare",
+      "categoria": "verbo",
+      "zh": "前往",
+      "en": "to go",
+      "esempio": "ti devi recare in autonomia"
+    },
+    {
+      "parola": "nelle vicinanze",
+      "categoria": "locuzione avverbiale",
+      "zh": "在附近",
+      "en": "nearby",
+      "esempio": "troviamo parcheggio nelle vicinanze della piazza"
+    },
+    {
+      "parola": "arcata",
+      "categoria": "sostantivo",
+      "zh": "拱廊",
+      "en": "archway",
+      "esempio": "Quando oltrepassiamo la prima arcata"
+    },
+    {
+      "parola": "ornamenti",
+      "categoria": "sostantivo",
+      "zh": "装饰",
+      "en": "ornaments",
+      "esempio": "per fissare disegni e ornamenti"
+    },
+    {
+      "parola": "viuzze",
+      "categoria": "sostantivo",
+      "zh": "小巷",
+      "en": "little streets",
+      "esempio": "ci facciamo attrarre dalle viuzze che attraversano la piazza"
+    }
+  ]
+}

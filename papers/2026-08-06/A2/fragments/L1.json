@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "L1_ITEMS": "**1. La Casa di San Tommaso ha un nome particolare perché**\n\nA) il santo non è nato in questo edificio.\n\nB) il santo è nato qui, ma la casa è cambiata.\n\nC) l'edificio non ha nessuna iscrizione.\n\n**2. Il nome «Tho(mas)» sull'epigrafe probabilmente indica**\n\nA) il santo nato nella casa.\n\nB) un altro personaggio vissuto più tardi.\n\nC) un personaggio vissuto prima del santo.\n\n**3. La monofora sulla facciata è**\n\nA) una finestra semplice con un solo arco ogivale.\n\nB) una finestra rara con due aperture trilobate.\n\nC) un grande arco usato come ingresso.\n\n**4. Durante una passeggiata, i visitatori possono**\n\nA) osservare la casa soltanto dall'interno.\n\nB) osservare liberamente la casa dall'esterno.\n\nC) vedere la casa solo dopo aver comprato un biglietto.",
+    "T1_TEXT": "Nel borgo medievale di Roccasecca si trova un edificio noto come Casa di San Tommaso. Per chi esplora il centro storico, questa casa è una tappa fondamentale. Tuttavia, il suo nome nasconde un segreto che gli abitanti del luogo conoscono bene: nonostante il nome e un'iscrizione sopra l'arco d'ingresso, il famoso santo non è nato qui. L'edificio resta comunque un affascinante esempio di architettura medievale ed è facile da riconoscere per le sue finestre, tra cui una rara bifora.\n\nIl nome della casa nasce da un'epigrafe che si vede ancora oggi, scolpita sopra il grande arco a sesto acuto. Nell'iscrizione si legge il nome «Tho(mas)», ma probabilmente non indica il santo. Secondo la spiegazione più probabile, si riferisce a un altro personaggio importante con lo stesso nome, vissuto in un periodo successivo.\n\nL'edificio è formato da un grosso corpo di fabbrica. Nel tempo, a questa parte principale sono state aggiunte altre strutture. Sulla facciata si può osservare una monofora, cioè una semplice finestra con un solo arco ogivale. C'è anche una splendida bifora trilobata, che rappresenta l'elemento più particolare della casa.\n\nLa Casa di San Tommaso è visibile dall'esterno. Si trova nel borgo medievale e si può osservare liberamente durante una passeggiata nel centro storico.",
+    "T1_TITLE": "UNA CASA MEDIEVALE DAL NOME MISTERIOSO"
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo precisa che, «nonostante il nome e un'iscrizione», il santo «non è nato qui». 中文：名称容易误导。 |\n| L1.2 | B | Il nome probabilmente si riferisce a «un altro personaggio importante con lo stesso nome, vissuto in un periodo successivo». 中文：不是圣人本人。 |\n| L1.3 | A | La monofora è definita «una semplice finestra con un solo arco ogivale». 中文：注意只有一个拱。 |\n| L1.4 | B | Il testo dice che la casa «si può osservare liberamente» ed è «visibile dall'esterno». 中文：可免费参观的是外部。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "borgo medievale",
+      "categoria": "locuzione nominale",
+      "zh": "中世纪村镇",
+      "en": "medieval village",
+      "esempio": "Nel borgo medievale di Roccasecca si trova un edificio noto come Casa di San Tommaso."
+    },
+    {
+      "parola": "epigrafe",
+      "categoria": "nome femminile",
+      "zh": "碑文",
+      "en": "inscription",
+      "esempio": "Il nome della casa nasce da un'epigrafe che si vede ancora oggi, scolpita sopra il grande arco a sesto acuto."
+    },
+    {
+      "parola": "facciata",
+      "categoria": "nome femminile",
+      "zh": "建筑正面",
+      "en": "facade",
+      "esempio": "Sulla facciata si può osservare una monofora, cioè una semplice finestra con un solo arco ogivale."
+    },
+    {
+      "parola": "monofora",
+      "categoria": "nome femminile",
+      "zh": "单拱窗",
+      "en": "single-light window",
+      "esempio": "Sulla facciata si può osservare una monofora, cioè una semplice finestra con un solo arco ogivale."
+    },
+    {
+      "parola": "bifora trilobata",
+      "categoria": "locuzione nominale",
+      "zh": "三叶形双联窗",
+      "en": "trilobed mullioned window",
+      "esempio": "C'è anche una splendida bifora trilobata, che rappresenta l'elemento più particolare della casa."
+    }
+  ]
+}

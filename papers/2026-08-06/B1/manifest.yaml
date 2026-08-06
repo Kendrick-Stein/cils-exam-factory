@@ -1,0 +1,121 @@
+exam: cils
+level: B1
+session: '2026-08-06'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/amp/sito/notizie/cronaca/2026/06/20/nave-gnv-ferma-al-largo-della-corsica-dopo-un-incendio-a-bordo_bd347480-8f76-40bc-ac63-6c9b00ecc53e.html
+  title: 'Rogo sulla nave al largo della Corsica: "Ho temuto di morire"'
+  publisher: ANSA
+  published: '2026-06-20'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 400
+- id: T2
+  url: https://comune.ravenna.it/novita/comunicato-stampa/contributi-a-sostegno-della-pratica-sportiva-giovanile-domande-entro-il-15-maggio-2026-2/
+  title: Contributi a sostegno della pratica sportiva giovanile, domande entro il
+    15 maggio 2026
+  publisher: Comune di Ravenna
+  published: '2026-04-15'
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 343
+- id: T3
+  url: https://turistipercaso.it/diari-di-viaggio/abbiamo-scelto-questa-citta-di-provincia-per-un-weekend-e-non-ci-siamo-pentiti-qui-tutto-e-tranquillo-e-rilassante.html
+  title: 'Abbiamo scelto questa città di provincia per un weekend e non ci siamo pentiti:
+    qui tutto è tranquillo e rilassante'
+  publisher: Turisti per Caso
+  published: null
+  accessed: '2026-08-06'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 275
+- id: T4
+  url: https://www.rainews.it/tgr/bolzano/articoli/2026/06/sarentino-piume-pavoni-punta-marina-ricamo-artigianato--70ba1ff8-7b3f-4aa4-a894-b2f09798b5b3.html
+  title: A Sarentino si ricama con le piume di pavone
+  publisher: RaiNews TGR Bolzano
+  published: '2026-06-18'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 256
+- id: T5
+  url: https://www.gamberorosso.it/notizie/attualita/fru-the-jackal-sanremo-chef-cattivi-tv-simpatici-cucine/
+  title: '"Litri di latte, pasta col tonno e sfogliatelle". La dieta ironica di Fru
+    dei The Jackal'
+  publisher: Gambero Rosso
+  published: '2026-02-26'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 233
+- id: T6
+  url: https://www.comune.torino.it/novita/notizie/iscrizioni-estate-ragazzi-2026
+  title: Iscrizioni Estate Ragazzi 2026
+  publisher: Città di Torino
+  published: '2026-04-13'
+  accessed: '2026-08-06'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 188
+  origin: pool/e26148efca5a.md
+pipeline:
+  generator: genpapers
+  template: factory/exams/cils/templates/B1.md
+  stages:
+  - stage: corpus
+    at: '2026-08-06'
+  - stage: authoring
+    at: '2026-08-06'
+  - stage: format_audit
+    at: '2026-08-06T11:40:40+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-08-06T11:42:19+00:00'
+    agreement: 84/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T11:45:51+00:00'
+    agreement: 84/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-06T12:00:30+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-06T12:07:03+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:07:04+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-06T12:08:24+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-08-06T12:09:14+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

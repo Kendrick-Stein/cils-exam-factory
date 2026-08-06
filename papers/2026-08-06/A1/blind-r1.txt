@@ -1,0 +1,25 @@
+ANSWERS
+```json
+{
+  "S2.1": {"answer": "è", "confidence": "hi"},
+  "S2.2": {"answer": "ha", "confidence": "hi"},
+  "S2.3": {"answer": "è", "confidence": "hi"},
+  "S2.4": {"answer": "può", "confidence": "hi"},
+  "S2.5": {"answer": "abbiamo prenotato", "confidence": "hi"},
+  "S2.6": {"answer": "abbiamo viaggiato", "confidence": "hi"},
+  "S2.7": {"answer": "costa", "confidence": "hi"},
+  "S2.8": {"answer": "abbiamo pagato", "confidence": "hi"},
+  "S2.9": {"answer": "abbiamo trovato", "confidence": "hi"},
+  "S2.10": {"answer": "abbiamo", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[]
+```

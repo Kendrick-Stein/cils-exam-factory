@@ -1,0 +1,64 @@
+ANSWERS
+```json
+{
+  "S1.1": {"answer": "chi", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "chi", "confidence": "hi"},
+  "S1.4": {"answer": "chi", "confidence": "hi"},
+  "S1.5": {"answer": "allo", "confidence": "hi"},
+  "S1.6": {"answer": "chi", "confidence": "hi"},
+  "S1.7": {"answer": "per", "confidence": "hi"},
+  "S1.8": {"answer": "di", "confidence": "hi"},
+  "S1.9": {"answer": "di", "confidence": "hi"},
+  "S1.10": {"answer": "di", "confidence": "hi"},
+  "S1.11": {"answer": "di", "confidence": "hi"},
+  "S1.12": {"answer": "non", "confidence": "hi"},
+  "S1.13": {"answer": "di", "confidence": "hi"},
+  "S1.14": {"answer": "di", "confidence": "hi"},
+  "S1.15": {"answer": "ai", "confidence": "hi"},
+  "S1.16": {"answer": "al", "confidence": "hi"},
+  "S1.17": {"answer": "di", "confidence": "hi"},
+  "S1.18": {"answer": "da", "confidence": "hi"},
+  "S1.19": {"answer": "alla", "confidence": "hi"},
+  "S1.20": {"answer": "di", "confidence": "hi"},
+  "S2.1": {"answer": "scrivevo", "confidence": "hi"},
+  "S2.2": {"answer": "mi concentravo", "confidence": "hi"},
+  "S2.3": {"answer": "affascinava", "confidence": "hi"},
+  "S2.4": {"answer": "provenissi", "confidence": "med"},
+  "S2.5": {"answer": "avevo capito", "confidence": "hi"},
+  "S2.6": {"answer": "conobbi", "confidence": "hi"},
+  "S2.7": {"answer": "sarebbe diventato", "confidence": "hi"},
+  "S2.8": {"answer": "eravamo", "confidence": "med"},
+  "S2.9": {"answer": "definirei", "confidence": "hi"},
+  "S2.10": {"answer": "trovare", "confidence": "hi"},
+  "S2.11": {"answer": "scelto", "confidence": "med"},
+  "S2.12": {"answer": "ricordando", "confidence": "hi"},
+  "S2.13": {"answer": "dissi", "confidence": "hi"},
+  "S2.14": {"answer": "sia cresciuta", "confidence": "hi"},
+  "S2.15": {"answer": "abbiamo concentrato", "confidence": "hi"},
+  "S2.16": {"answer": "abbiamo", "confidence": "hi"},
+  "S2.17": {"answer": "produco", "confidence": "hi"},
+  "S2.18": {"answer": "rimanga", "confidence": "hi"},
+  "S2.19": {"answer": "lavoriamo", "confidence": "hi"},
+  "S2.20": {"answer": "risponde", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[
+  {
+    "item_id": "S2.8",
+    "reason": "La frase «Mentre noi eravamo sempre innamorati...» è semanticamente poco naturale; «poiché eravamo» esprimerebbe meglio il rapporto logico."
+  },
+  {
+    "item_id": "S2.11",
+    "reason": "La costruzione passiva «scelto da Giulia e Benedetto» è grammaticalmente possibile, ma il seguito ripete il soggetto e rende il periodo poco naturale."
+  }
+]
+```
+
+WRITING checks
+```json
+[]
+```

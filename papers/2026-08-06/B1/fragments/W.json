@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una giornata di volontariato per migliorare un luogo pubblico alla quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi vai, che cosa è successo o potrebbe succedere e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Un amico ti ha invitato a trascorrere un fine settimana nella sua casa in montagna. Scrivigli un'email.",
+    "W2_REQ_1": "ringraziarlo per l'invito e dire come ti senti all'idea del fine settimana;",
+    "W2_REQ_2": "comunicare quando e come arriverai e chiedere come raggiungere la sua casa;",
+    "W2_REQ_3": "dire che cosa porterai, chiedere se serve altro e proporre un'attività da fare insieme."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Lo scorso aprile ho partecipato a una giornata di volontariato nel parco vicino al fiume. Sono andato con due compagni di corso, dopo aver visto l'invito del comune sui social. Al mattino un volontario ci ha distribuito guanti e sacchi, poi abbiamo raccolto bottiglie, carte e altri rifiuti lungo i sentieri. A un certo punto ha cominciato a piovere, ma nessuno voleva fermarsi. Dopo una breve pausa, abbiamo dipinto alcune panchine rovinate e piantato dei fiori accanto all'ingresso. Nel pomeriggio il parco sembrava più pulito e accogliente. Ero stanco, ma molto soddisfatto: ho capito che anche poche ore di lavoro possono migliorare un luogo usato da tutti. Mi piacerebbe ripetere presto questa esperienza.",
+    "MODEL_W1_PHRASES": "«Ho partecipato a una giornata di…»（我参加了一天的……活动）; «Dopo aver visto…»（在看到……之后）; «A un certo punto…»（在某个时刻……）; «Ero stanco, ma molto soddisfatto»（我很累，但非常满足）; «Mi piacerebbe ripetere questa esperienza»（我想再次体验这段经历）",
+    "MODEL_W2": "Ciao Paolo,\n\ngrazie per l'invito: sono davvero felice di passare il fine settimana in montagna con te. Sabato arriverò alla stazione di Trento alle undici, perché il treno precedente è già completo. Puoi venire a prendermi oppure devo prendere l'autobus? Porterò gli scarponi e una giacca pesante. Dimmi se devo comprare qualcosa per la cena. Domenica mi piacerebbe fare una passeggiata al lago: che ne pensi?\n\nA presto,\nMarco",
+    "MODEL_W2_PHRASES": "«Grazie per l'invito»（谢谢你的邀请）; «Arriverò alla stazione alle…»（我将在……点到达车站）; «Dimmi se devo portare…»（告诉我是否需要带……）; «Mi piacerebbe fare…: che ne pensi?»（我想做……：你觉得怎么样？）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "__La (0)__ casa vacanze \"Ania Vista Castello\" si trova a Tenno, un paese del Trentino. Qui __(1)__ appartamento comprende __(2)__ soggiorno, __(3)__ cucina con lavastoviglie, __(4)__ camera da letto con finestra e __(5)__ bagno. Può ospitare cinque persone. Ci sono anche __(6)__ televisore e __(7)__ lavatrice. Fuori, __(8)__ ospiti possono usare __(9)__ mobili da giardino e prendere il sole sulla terrazza privata. Vedono __(10)__ montagne, Tenno e il castello.",
+    "T4_TITLE": "ANIA VISTA CASTELLO"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "Gli articoli dipendono dal genere, dal numero e dal suono iniziale del nome. Davanti a «appartamento» serve **l'** e davanti a «ospiti» serve **gli**（元音前的单数省音和阳性复数形式）.",
+    "ANS_S1_ROWS": "| 1 | l' | 6 | il |\n| 2 | il | 7 | la |\n| 3 | la | 8 | gli |\n| 4 | la | 9 | i |\n| 5 | il | 10 | le |"
+  },
+  "key": {
+    "S1.1": "l'",
+    "S1.2": "il",
+    "S1.3": "la",
+    "S1.4": "la",
+    "S1.5": "il",
+    "S1.6": "il",
+    "S1.7": "la",
+    "S1.8": "gli",
+    "S1.9": "i",
+    "S1.10": "le"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "casa vacanze",
+      "categoria": "locuzione nominale",
+      "zh": "度假屋",
+      "en": "holiday home",
+      "esempio": "casa vacanze \"Ania Vista Castello\" si trova a Tenno"
+    },
+    {
+      "parola": "ospitare",
+      "categoria": "verbo",
+      "zh": "容纳",
+      "en": "accommodate",
+      "esempio": "Può ospitare cinque persone"
+    },
+    {
+      "parola": "lavastoviglie",
+      "categoria": "nome femminile",
+      "zh": "洗碗机",
+      "en": "dishwasher",
+      "esempio": "cucina con lavastoviglie"
+    },
+    {
+      "parola": "mobili da giardino",
+      "categoria": "locuzione nominale",
+      "zh": "户外家具",
+      "en": "garden furniture",
+      "esempio": "mobili da giardino"
+    },
+    {
+      "parola": "terrazza privata",
+      "categoria": "locuzione nominale",
+      "zh": "私人露台",
+      "en": "private terrace",
+      "esempio": "sulla terrazza privata"
+    }
+  ]
+}

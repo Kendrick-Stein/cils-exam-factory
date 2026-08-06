@@ -49,6 +49,15 @@ def normalize_url(url: str) -> str:
     return url.strip().rstrip("/").lower()
 
 
+def split_urls(url_field: str) -> list[str]:
+    """One slot may be built from several texts (e.g. the abbinamento micro-testi).
+
+    Those manifests carry `url: <a> ; <b>`; each URL has to reach the blacklist on its
+    own line, or exact-match consumers (pool prune, pool_select) never see it consumed.
+    """
+    return [part.strip() for part in re.split(r"[;\s]+(?=https?://)", url_field) if part.strip()]
+
+
 def clean_str(value: Any) -> str | None:
     """Coerce a manifest field to a trimmed string. Lists (e.g. a used_in that
     feeds several prove) are joined; None/empty become None."""
@@ -111,32 +120,33 @@ def collect(papers_root: Path, domain_to_genre: dict[str, str]) -> dict[str, dic
         for source in manifest.get("sources") or []:
             if not isinstance(source, dict) or not source.get("url"):
                 continue
-            key = normalize_url(str(source["url"]))
-            entry = index.get(key)
-            if entry is None:
-                entry = {
-                    "url": str(source["url"]).strip(),
-                    "title": clean_str(source.get("title")),
-                    "publisher": clean_str(source.get("publisher")),
-                    "genre": classify(str(source["url"]), domain_to_genre),
-                    "first_used": session,
-                    "times_used": 0,
-                    "uses": [],
-                }
-                index[key] = entry
-            entry["times_used"] += 1
-            entry["first_used"] = min(entry["first_used"], session)
-            if not entry["title"]:
-                entry["title"] = clean_str(source.get("title"))
-            entry["uses"].append(
-                {
-                    "date": session,
-                    "level": level,
-                    "prova": clean_str(source.get("used_in")),
-                    "words": source.get("words_used"),
-                    "status": status,
-                }
-            )
+            for url in split_urls(str(source["url"])):
+                key = normalize_url(url)
+                entry = index.get(key)
+                if entry is None:
+                    entry = {
+                        "url": url,
+                        "title": clean_str(source.get("title")),
+                        "publisher": clean_str(source.get("publisher")),
+                        "genre": classify(url, domain_to_genre),
+                        "first_used": session,
+                        "times_used": 0,
+                        "uses": [],
+                    }
+                    index[key] = entry
+                entry["times_used"] += 1
+                entry["first_used"] = min(entry["first_used"], session)
+                if not entry["title"]:
+                    entry["title"] = clean_str(source.get("title"))
+                entry["uses"].append(
+                    {
+                        "date": session,
+                        "level": level,
+                        "prova": clean_str(source.get("used_in")),
+                        "words": source.get("words_used"),
+                        "status": status,
+                    }
+                )
     return index
 
 

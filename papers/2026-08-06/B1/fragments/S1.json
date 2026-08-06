@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Katharina Stuefer si dedica *(a)* __al (0)__ ricamo. Ci apre le porte *(di)* __(1)__ suo laboratorio, __(2)__ Campolasta. Qui, __(3)__ suo è un lavoro creativo ma __(4)__ precisione: servono occhi buoni, molta luce e una mano ferma.\n\nKatharina ha iniziato quasi __(5)__ caso a ricamare __(6)__ le piume di pavone. Avrebbe voluto seguire le orme materne e fare l'ostetrica. Ma proprio sua madre glielo sconsigliò e lei decise __(7)__ iniziare a dare una mano al cugino artigiano, invece __(8)__ fare l'ostetrica. Al momento è una delle pochissime donne della regione che lavorano __(9)__ questa tecnica.\n\nCosì da 40 anni __(10)__ laboratorio è un luogo __(11)__ creatività conosciuto e amato __(12)__ chi vive nel posto e dai turisti stranieri e italiani che, tramite passaparola, vengono a sapere *(di)* __(13)__ suoi lavori. E oggi, con la crisi economica che incombe, non è facile __(14)__ un'artigiana.\n\nLe piume che utilizza Katharina provengono in minima parte *(da)* __(15)__ Alto Adige e in parte *(da)* __(16)__ India, passando per la Germania. Ogni anno servono migliaia __(17)__ piume e quindi approvvigionarsi non è semplice. È inevitabile chiederle cosa pensi *(di)* __(18)__ invasione dei pavoni nella località romagnola __(19)__ Punta Marina. Le piacerebbe però andare __(20)__ vedere con i suoi occhi e, scherza, provare a recuperare qualche piuma per il suo laboratorio.",
+    "T4_TITLE": "A SARENTINO SI RICAMA CON LE PIUME DI PAVONE"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — del:** *di* si unisce all'articolo di «suo laboratorio». 中文：介词与阳性单数定冠词合并。\n- **S1.3 — il:** «il suo» sostituisce «il suo lavoro», già nominato nella frase. 中文：定冠词使物主形容词名词化。\n- **S1.8 — di:** la locuzione «invece di» davanti all'infinito richiede la preposizione *di*. 中文：固定结构 «invece di + 不定式» 排除物主词。\n- **S1.13 — dei:** *di* si unisce all'articolo richiesto davanti a «suoi lavori». 中文：介词与阳性复数定冠词合并，后面的物主形容词使冠词不可省略。\n- **S1.15–S1.16 — dall':** *da* si unisce all'articolo eliso davanti ad «Alto Adige» e «India». 中文：两个地名都要求介词与省音定冠词合并。\n- **S1.18 — dell':** *di* si unisce all'articolo eliso davanti a «invasione». 中文：元音前使用 *dell'*.",
+    "ANS_S1_ROWS": "| S1.1 | del | S1.11 | di |\n| S1.2 | a | S1.12 | da |\n| S1.3 | il | S1.13 | dei |\n| S1.4 | di | S1.14 | per |\n| S1.5 | per | S1.15 | dall' |\n| S1.6 | con | S1.16 | dall' |\n| S1.7 | di | S1.17 | di |\n| S1.8 | di | S1.18 | dell' |\n| S1.9 | con | S1.19 | di |\n| S1.10 | il | S1.20 | a |"
+  },
+  "key": {
+    "S1.1": "del",
+    "S1.2": "a",
+    "S1.3": "il",
+    "S1.4": "di",
+    "S1.5": "per",
+    "S1.6": "con",
+    "S1.7": "di",
+    "S1.8": "di",
+    "S1.9": "con",
+    "S1.10": "il",
+    "S1.11": "di",
+    "S1.12": "da",
+    "S1.13": "dei",
+    "S1.14": "per",
+    "S1.15": "dall'",
+    "S1.16": "dall'",
+    "S1.17": "di",
+    "S1.18": "dell'",
+    "S1.19": "di",
+    "S1.20": "a"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mano ferma",
+      "categoria": "locuzione nominale",
+      "zh": "稳定的手",
+      "en": "steady hand",
+      "esempio": "una mano ferma"
+    },
+    {
+      "parola": "seguire le orme materne",
+      "categoria": "locuzione verbale",
+      "zh": "追随母亲的脚步",
+      "en": "follow in her mother's footsteps",
+      "esempio": "Avrebbe voluto seguire le orme materne"
+    },
+    {
+      "parola": "tramite passaparola",
+      "categoria": "locuzione avverbiale",
+      "zh": "通过口口相传",
+      "en": "by word of mouth",
+      "esempio": "tramite passaparola"
+    },
+    {
+      "parola": "approvvigionarsi",
+      "categoria": "verbo pronominale",
+      "zh": "采购；获得供应",
+      "en": "obtain supplies",
+      "esempio": "approvvigionarsi non è semplice"
+    },
+    {
+      "parola": "crisi economica",
+      "categoria": "locuzione nominale",
+      "zh": "经济危机",
+      "en": "economic crisis",
+      "esempio": "con la crisi economica che incombe"
+    }
+  ]
+}

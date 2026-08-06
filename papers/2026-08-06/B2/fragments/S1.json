@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "S1_TEXT_WITH_GAPS": "Gli insetti stecco appartengono all'ordine dei Fasmoidei. __Il loro (0)__ aspetto ricorda un ramo. Quest'ordine __(1)__ compone delle specie chiamate \"insetti stecco\". In Italia ne sono registrate due: il Bacillus rossius, la specie la __(2)__ diffusione copre tutto il territorio, e il Clonopsis gallica, che __(3)__ trova soltanto sulle isole.\n\nVivono ovunque; l'Antartide è l'unico continente nel __(4)__ non sono presenti. Un caso particolare è l'Australia, nella __(5)__ si contano oltre cento specie. Una di queste __(6)__ distingue per il peso: è un insetto il __(7)__ nome è Acrophylla alta. Quanto alla nuova specie, uno studio su Zootaxa __(8)__ descrive come l'insetto più pesante d'Australia. Quanto agli esemplari, la ricerca __(9)__ descrive nascosti tra le fronde in zone remote, nelle __(10)__ è difficile osservarli.\n\nRoss Coupland ha ricevuto via social la foto di un grande insetto stecco. Quell'immagine __(11)__ spinse a chiedere il parere di Angus Emmott. I due __(12)__ occuparono insieme e conclusero che era una specie nuova.\n\nI due partirono verso l'area in __(13)__ l'insetto era stato individuato: l'altopiano Atherton, un plateau del Queensland sul __(14)__ restano gli ultimi pezzi di foresta pluviale. Quella foresta, della __(15)__ restano poche macchie, è stata tagliata per colture e pascoli, ai __(16)__ il taglio ha fatto spazio. In una macchia in __(17)__ la foresta sopravvive, i ricercatori cercarono l'esemplare del __(18)__ Coupland aveva ricevuto la foto; __(19)__ cercarono lì e alla fine __(20)__ trovarono uno: forse proprio quello segnalato.",
+    "T4_TITLE": "ACROPHYLLA ALTA, L'INSETTO STECCO DEI RECORD"
+  },
+  "answer_slots": {
+    "ANS_S1_NOTES": "- **S1.1 — si**: la locuzione verbale fissa \"si compone di\" richiede il pronome riflessivo.（中文：固定搭配）\n- **S1.2/S1.7 — cui**: i nomi-reggenti \"specie/insetto\" e l'articolo già stampato impongono il relativo possessivo.（中文：所属关系）\n- **S1.5 — quale**: la preposizione articolata \"nella\" determina genere, numero e forma del relativo.（中文：介词关系代词）\n- **S1.8/S1.9 — la/li**: genere, numero e antecedente esplicito distinguono la specie dagli esemplari.（中文：注意单复数）\n- **S1.12/S1.20 — se ne/ne**: \"occuparsi di\" richiede il combinato, mentre \"trovarne uno\" impone il partitivo.（中文：组合代词与部分代词）",
+    "ANS_S1_ROWS": "| S1.1 | si | S1.11 | lo |\n| S1.2 | cui | S1.12 | se ne |\n| S1.3 | si | S1.13 | cui |\n| S1.4 | quale | S1.14 | quale |\n| S1.5 | quale | S1.15 | quale |\n| S1.6 | si | S1.16 | quali |\n| S1.7 | cui | S1.17 | cui |\n| S1.8 | la | S1.18 | quale |\n| S1.9 | li | S1.19 | lo |\n| S1.10 | quali | S1.20 | ne |"
+  },
+  "key": {
+    "S1.1": "si",
+    "S1.2": "cui",
+    "S1.3": "si",
+    "S1.4": "quale",
+    "S1.5": "quale",
+    "S1.6": "si",
+    "S1.7": "cui",
+    "S1.8": "la",
+    "S1.9": "li",
+    "S1.10": "quali",
+    "S1.11": "lo",
+    "S1.12": "se ne",
+    "S1.13": "cui",
+    "S1.14": "quale",
+    "S1.15": "quale",
+    "S1.16": "quali",
+    "S1.17": "cui",
+    "S1.18": "quale",
+    "S1.19": "lo",
+    "S1.20": "ne"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Fasmoidei",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "竹节虫目",
+      "en": "stick insects",
+      "esempio": "Gli insetti stecco appartengono all'ordine dei Fasmoidei"
+    },
+    {
+      "parola": "fronde",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "树叶；枝叶",
+      "en": "foliage",
+      "esempio": "nascosti tra le fronde"
+    },
+    {
+      "parola": "altopiano",
+      "categoria": "sostantivo maschile",
+      "zh": "高原",
+      "en": "plateau",
+      "esempio": "l'altopiano Atherton"
+    },
+    {
+      "parola": "plateau vulcanico",
+      "categoria": "locuzione nominale",
+      "zh": "火山高原",
+      "en": "volcanic plateau",
+      "esempio": "un plateau vulcanico del Queensland"
+    },
+    {
+      "parola": "foresta pluviale",
+      "categoria": "locuzione nominale",
+      "zh": "热带雨林",
+      "en": "rainforest",
+      "esempio": "gli ultimi pezzi della foresta pluviale"
+    }
+  ]
+}

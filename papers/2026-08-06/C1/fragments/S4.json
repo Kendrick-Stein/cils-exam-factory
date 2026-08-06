@@ -1,0 +1,59 @@
+{
+  "prova": "S4",
+  "slots": {
+    "T7_TITLE": "AVVISO PUBBLICO BENI CONFISCATI 1/2026",
+    "T7_TEXT": "Le istanze di assegnazione, redatte in lingua italiana, dovranno pervenire in busta chiusa, recante all'esterno il nominativo del mittente e la dicitura: “Contiene DOMANDA per la concessione dell’immobile sito in Torino, via ------------------------------”, contenente la documentazione e il progetto di utilizzo, come indicati nel prosieguo, alla Città di Torino entro e non oltre le ore 12 del giorno martedì 15 settembre 2026 a mezzo posta o mediante agenzia di recapito autorizzata o consegnate a mano nei giorni lavorativi dalle ore 9.00 alle ore 16.00 (dal lunedì al giovedì) e dalle ore 9.00 alle ore 12.00 (il venerdì) presso l’Ufficio Protocollo della Divisione Patrimonio della Città di Torino – piazza Palazzo di Città 7, 4° piano – Torino.\n\nIl plico di cui al precedente punto dovrà contenere la seguente documentazione: istanza di partecipazione contenente la dichiarazione sostitutiva di certificazione, accompagnata da copia fotostatica di un documento di riconoscimento; statuto e atto costitutivo; ultimo bilancio o rendiconto approvato.",
+    "S4_ITEMS": "**1. La busta deve recare all'esterno il nominativo del mittente e la dicitura indicata nell'avviso.**\n\n→ SULL'ESTERNO DELLA BUSTA DEVONO …………………………………\n\n**2. Le istanze devono pervenire alla Città di Torino entro le ore 12 di martedì 15 settembre 2026.**\n\n→ LA PRESENTAZIONE DELLE ISTANZE ALLA CITTÀ DI TORINO …………………………………\n\n**3. Le istanze dovranno pervenire a mezzo posta o mediante agenzia di recapito autorizzata oppure essere consegnate a mano.**\n\n→ L'AVVISO DISPONE CHE LE ISTANZE …………………………………\n\n**4. Dal lunedì al giovedì, le istanze possono essere consegnate a mano dalle ore 9.00 alle ore 16.00.**\n\n→ QUALORA IL RICHIEDENTE …………………………………\n\n**5. L'Ufficio Protocollo della Divisione Patrimonio della Città di Torino riceve le istanze consegnate a mano.**\n\n→ LE ISTANZE CONSEGNATE A MANO …………………………………\n\n**6. Il plico deve contenere lo statuto, l'atto costitutivo e l'ultimo bilancio o rendiconto approvato.**\n\n→ È OBBLIGATORIO CHE NEL PLICO …………………………………",
+    "S4_SOURCE_0": "Le istanze di assegnazione, redatte in lingua italiana, dovranno pervenire in busta chiusa.",
+    "S4_REWRITE_0": "È RICHIESTO CHE LE ISTANZE DI ASSEGNAZIONE SIANO REDATTE IN LINGUA ITALIANA E PERVENGANO IN BUSTA CHIUSA."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | SULL'ESTERNO DELLA BUSTA DEVONO FIGURARE IL NOMINATIVO DEL MITTENTE E LA DICITURA INDICATA NELL'AVVISO. |\n| S4.2 | LA PRESENTAZIONE DELLE ISTANZE ALLA CITTÀ DI TORINO DEVE AVVENIRE ENTRO LE ORE 12 DI MARTEDÌ 15 SETTEMBRE 2026. |\n| S4.3 | L'AVVISO DISPONE CHE LE ISTANZE PERVENGANO A MEZZO POSTA O MEDIANTE AGENZIA DI RECAPITO AUTORIZZATA OPPURE SIANO CONSEGNATE A MANO. |\n| S4.4 | QUALORA IL RICHIEDENTE INTENDA CONSEGNARE A MANO DAL LUNEDÌ AL GIOVEDÌ, PUÒ FARLO DALLE ORE 9.00 ALLE ORE 16.00. |\n| S4.5 | LE ISTANZE CONSEGNATE A MANO SONO RICEVUTE DALL'UFFICIO PROTOCOLLO DELLA DIVISIONE PATRIMONIO DELLA CITTÀ DI TORINO. |\n| S4.6 | È OBBLIGATORIO CHE NEL PLICO SIANO INSERITI LO STATUTO, L'ATTO COSTITUTIVO E L'ULTIMO BILANCIO O RENDICONTO APPROVATO. |",
+    "ANS_S4_NOTES": "- Sono accettate le varianti lessicali indicate nelle chiavi, purché conservino agente, modalità, scadenza e documenti richiesti. 中文：不得改变责任主体、方式、期限或材料。\n- Dopo **QUALORA** occorre il congiuntivo; dopo **È OBBLIGATORIO CHE** sono ammesse costruzioni passive o impersonali al congiuntivo. 中文：注意虚拟式。\n- L'inizio dato non può essere modificato e la struttura sintattica deve cambiare; la semplice copia della frase originale non è sufficiente. 中文：必须改写句法结构。"
+  },
+  "key": {
+    "S4.1": "figurare il nominativo del mittente e la dicitura indicata nell'avviso || essere riportati il nominativo del mittente e la dicitura indicata nell'avviso || SULL'ESTERNO DELLA BUSTA DEVONO FIGURARE IL NOMINATIVO DEL MITTENTE E LA DICITURA INDICATA NELL'AVVISO || SULL'ESTERNO DELLA BUSTA DEVONO ESSERE RIPORTATI IL NOMINATIVO DEL MITTENTE E LA DICITURA INDICATA NELL'AVVISO",
+    "S4.2": "deve avvenire entro le ore 12 di martedì 15 settembre 2026 || dovrà avvenire entro le ore 12 di martedì 15 settembre 2026 || LA PRESENTAZIONE DELLE ISTANZE ALLA CITTÀ DI TORINO DEVE AVVENIRE ENTRO LE ORE 12 DI MARTEDÌ 15 SETTEMBRE 2026 || LA PRESENTAZIONE DELLE ISTANZE ALLA CITTÀ DI TORINO DOVRÀ AVVENIRE ENTRO LE ORE 12 DI MARTEDÌ 15 SETTEMBRE 2026",
+    "S4.3": "pervengano a mezzo posta o mediante agenzia di recapito autorizzata oppure siano consegnate a mano || debbano pervenire a mezzo posta o mediante agenzia di recapito autorizzata oppure essere consegnate a mano || L'AVVISO DISPONE CHE LE ISTANZE PERVENGANO A MEZZO POSTA O MEDIANTE AGENZIA DI RECAPITO AUTORIZZATA OPPURE SIANO CONSEGNATE A MANO || L'AVVISO DISPONE CHE LE ISTANZE DEBBANO PERVENIRE A MEZZO POSTA O MEDIANTE AGENZIA DI RECAPITO AUTORIZZATA OPPURE ESSERE CONSEGNATE A MANO || siano inviate a mezzo posta o mediante un'agenzia di recapito autorizzata oppure siano consegnate a mano || L'AVVISO DISPONE CHE LE ISTANZE SIANO INVIATE A MEZZO POSTA O MEDIANTE UN'AGENZIA DI RECAPITO AUTORIZZATA OPPURE SIANO CONSEGNATE A MANO",
+    "S4.4": "intenda consegnare a mano dal lunedì al giovedì, può farlo dalle ore 9.00 alle ore 16.00 || voglia consegnare a mano dal lunedì al giovedì, può farlo dalle ore 9.00 alle ore 16.00 || QUALORA IL RICHIEDENTE INTENDA CONSEGNARE A MANO DAL LUNEDÌ AL GIOVEDÌ, PUÒ FARLO DALLE ORE 9.00 ALLE ORE 16.00 || QUALORA IL RICHIEDENTE VOGLIA CONSEGNARE A MANO DAL LUNEDÌ AL GIOVEDÌ, PUÒ FARLO DALLE ORE 9.00 ALLE ORE 16.00 || consegni l'istanza a mano dal lunedì al giovedì, deve farlo dalle ore 9.00 alle ore 16.00 || QUALORA IL RICHIEDENTE CONSEGNI L'ISTANZA A MANO DAL LUNEDÌ AL GIOVEDÌ, DEVE FARLO DALLE ORE 9.00 ALLE ORE 16.00",
+    "S4.5": "sono ricevute dall'Ufficio Protocollo della Divisione Patrimonio della Città di Torino || vengono ricevute dall'Ufficio Protocollo della Divisione Patrimonio della Città di Torino || LE ISTANZE CONSEGNATE A MANO SONO RICEVUTE DALL'UFFICIO PROTOCOLLO DELLA DIVISIONE PATRIMONIO DELLA CITTÀ DI TORINO || LE ISTANZE CONSEGNATE A MANO VENGONO RICEVUTE DALL'UFFICIO PROTOCOLLO DELLA DIVISIONE PATRIMONIO DELLA CITTÀ DI TORINO",
+    "S4.6": "siano inseriti lo statuto, l'atto costitutivo e l'ultimo bilancio o rendiconto approvato || vengano inseriti lo statuto, l'atto costitutivo e l'ultimo bilancio o rendiconto approvato || si inseriscano lo statuto, l'atto costitutivo e l'ultimo bilancio o rendiconto approvato || È OBBLIGATORIO CHE NEL PLICO SIANO INSERITI LO STATUTO, L'ATTO COSTITUTIVO E L'ULTIMO BILANCIO O RENDICONTO APPROVATO || È OBBLIGATORIO CHE NEL PLICO VENGANO INSERITI LO STATUTO, L'ATTO COSTITUTIVO E L'ULTIMO BILANCIO O RENDICONTO APPROVATO || È OBBLIGATORIO CHE NEL PLICO SI INSERISCANO LO STATUTO, L'ATTO COSTITUTIVO E L'ULTIMO BILANCIO O RENDICONTO APPROVATO || siano contenuti lo statuto, l'atto costitutivo e l'ultimo bilancio o rendiconto approvato || È OBBLIGATORIO CHE NEL PLICO SIANO CONTENUTI LO STATUTO, L'ATTO COSTITUTIVO E L'ULTIMO BILANCIO O RENDICONTO APPROVATO"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "istanze di assegnazione",
+      "categoria": "locuzione nominale",
+      "zh": "分配申请",
+      "en": "allocation applications",
+      "esempio": "Le istanze di assegnazione, redatte in lingua italiana, dovranno pervenire in busta chiusa"
+    },
+    {
+      "parola": "agenzia di recapito autorizzata",
+      "categoria": "locuzione nominale",
+      "zh": "获授权的递送机构",
+      "en": "authorised delivery agency",
+      "esempio": "a mezzo posta o mediante agenzia di recapito autorizzata"
+    },
+    {
+      "parola": "Ufficio Protocollo",
+      "categoria": "locuzione nominale",
+      "zh": "收文登记处",
+      "en": "records office",
+      "esempio": "presso l’Ufficio Protocollo della Divisione Patrimonio della Città di Torino"
+    },
+    {
+      "parola": "dichiarazione sostitutiva di certificazione",
+      "categoria": "locuzione nominale",
+      "zh": "替代证明声明",
+      "en": "self-certification declaration",
+      "esempio": "istanza di partecipazione contenente la dichiarazione sostitutiva di certificazione"
+    },
+    {
+      "parola": "rendiconto approvato",
+      "categoria": "locuzione nominale",
+      "zh": "经批准的财务报告",
+      "en": "approved financial statement",
+      "esempio": "ultimo bilancio o rendiconto approvato"
+    }
+  ]
+}

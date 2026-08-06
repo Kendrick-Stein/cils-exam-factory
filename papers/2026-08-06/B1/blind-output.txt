@@ -1,0 +1,131 @@
+ANSWERS
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "A", "confidence": "hi"},
+  "L1.3": {"answer": "C", "confidence": "hi"},
+  "L1.4": {"answer": "B", "confidence": "hi"},
+  "L1.5": {"answer": "D", "confidence": "hi"},
+  "L1.6": {"answer": "B", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Vero", "confidence": "hi"},
+  "L2.2": {"answer": "Falso", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Vero", "confidence": "hi"},
+  "L2.6": {"answer": "Falso", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Vero", "confidence": "hi"},
+  "L2.9": {"answer": "Falso", "confidence": "hi"},
+  "L2.10": {"answer": "Vero", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Falso", "confidence": "hi"},
+
+  "L3": {"answer": "A-F-C-H-B-J-D-I-K-E-G", "confidence": "hi"},
+
+  "S1.1": {"answer": "del", "confidence": "hi"},
+  "S1.2": {"answer": "a", "confidence": "hi"},
+  "S1.3": {"answer": "il", "confidence": "hi"},
+  "S1.4": {"answer": "di", "confidence": "hi"},
+  "S1.5": {"answer": "per", "confidence": "hi"},
+  "S1.6": {"answer": "con", "confidence": "hi"},
+  "S1.7": {"answer": "di", "confidence": "hi"},
+  "S1.8": {"answer": "suo", "confidence": "hi"},
+  "S1.9": {"answer": "con", "confidence": "hi"},
+  "S1.10": {"answer": "il", "confidence": "hi"},
+  "S1.11": {"answer": "di", "confidence": "hi"},
+  "S1.12": {"answer": "da", "confidence": "hi"},
+  "S1.13": {"answer": "dei", "confidence": "hi"},
+  "S1.14": {"answer": "per", "confidence": "hi"},
+  "S1.15": {"answer": "dall'", "confidence": "hi"},
+  "S1.16": {"answer": "dall'", "confidence": "hi"},
+  "S1.17": {"answer": "di", "confidence": "hi"},
+  "S1.18": {"answer": "dell'", "confidence": "hi"},
+  "S1.19": {"answer": "di", "confidence": "hi"},
+  "S1.20": {"answer": "a", "confidence": "hi"},
+
+  "S2.1": {"answer": "hai studiato", "confidence": "hi"},
+  "S2.2": {"answer": "sei", "confidence": "hi"},
+  "S2.3": {"answer": "sai", "confidence": "hi"},
+  "S2.4": {"answer": "cucino", "confidence": "hi"},
+  "S2.5": {"answer": "imparavi", "confidence": "hi"},
+  "S2.6": {"answer": "preparavo", "confidence": "hi"},
+  "S2.7": {"answer": "ho imparato", "confidence": "hi"},
+  "S2.8": {"answer": "ho fatto", "confidence": "hi"},
+  "S2.9": {"answer": "diresti", "confidence": "hi"},
+  "S2.12": {"answer": "mangi", "confidence": "hi"},
+  "S2.13": {"answer": "bevo", "confidence": "hi"},
+  "S2.14": {"answer": "preferiresti", "confidence": "hi"},
+  "S2.15": {"answer": "sceglierei", "confidence": "hi"},
+  "S2.16": {"answer": "ho consumato", "confidence": "hi"},
+  "S2.17": {"answer": "rientra", "confidence": "hi"},
+  "S2.18": {"answer": "devo", "confidence": "hi"},
+  "S2.19": {"answer": "pensavo", "confidence": "hi"},
+  "S2.20": {"answer": "continuerò", "confidence": "hi"},
+
+  "S3.1": {"answer": "A", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "C", "confidence": "hi"},
+  "S3.4": {"answer": "B", "confidence": "hi"},
+  "S3.5": {"answer": "D", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "C", "confidence": "hi"},
+  "S3.8": {"answer": "B", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "C", "confidence": "hi"},
+  "S3.13": {"answer": "B", "confidence": "hi"},
+  "S3.14": {"answer": "C", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {"answer": "B", "confidence": "hi"},
+  "S4.2": {"answer": "A", "confidence": "hi"},
+  "S4.3": {"answer": "C", "confidence": "hi"},
+  "S4.4": {"answer": "B", "confidence": "hi"},
+  "S4.5": {"answer": "D", "confidence": "hi"},
+  "S4.6": {"answer": "A", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "B", "confidence": "hi"},
+  "S4.9": {"answer": "D", "confidence": "hi"},
+  "S4.10": {"answer": "A", "confidence": "hi"}
+}
+```
+
+FLAGS
+```json
+[]
+```
+
+WRITING checks
+```json
+[
+  {
+    "item_id": "W1",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  {
+    "item_id": "W2",
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  {
+    "item_id": "O1",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "2-3 minuti circa"
+  },
+  {
+    "item_id": "O2",
+    "self_contained": true,
+    "duration_printed": true,
+    "duration": "1 minuto e mezzo circa"
+  }
+]
+```
