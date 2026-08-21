@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "PORTO A MILANO LA MIA PIZZA AGRICOLA E SOCIALE",
+    "T3_PART_A": "Gabriele Bonci è tirato come un atleta dei Giochi Olimpici nella città che li ha appena ospitati. Giacca di velluto, maglia bianca, collana di perle, è irrefrenabile.",
+    "T3_PART_B": "Non l’ho voluto brevettare, penso che abbia più valore parlarne che farci i soldi. Rigenerare deve essere un mantra. Collaborerà con gli artigiani del territorio?",
+    "T3_PART_C": "E nasceranno delle cose. È questo il futuro? Il futuro è l’agricoltura, che è alla base di tutto e spero che accada al più presto possibile. E poi il futuro è tecnica e filosofia.",
+    "T3_PART_D": "Qui non parliamo solo di pizza ma di una visione ramificata, che abbraccia tutto, che parla di agricoltura, di ambiente e di sociale. Come? Lo vedi questo vassoio?",
+    "T3_PART_E": "ho messo insieme tanti agricoltori, tanti produttori, tanti tecnici, coltivo quasi settanta ettari di grano su Roma. Quindi qui non si parla più di ingredienti ma del pensiero che c’è dietro. Vedi la pizza con il prosciutto?",
+    "T3_PART_F": "No, mi sono portato i miei produttori da Roma, quelli che lavorano con me da tanto tempo e che sono parte integrante del progetto. E sai perché? No.",
+    "T3_PART_G": "Noi non abbiamo il prosciutto e nemmeno il maiale, ma il sangue del maiale, il suo dna. Non abbiamo un pomodoro ma il suo seme, non abbiamo il grano ma il chicco. Questa è sperimentazione.",
+    "T3_PART_H": "È a Milano per lanciare il suo primo Bonci meneghino, in via Nicola Piccinni 3, tra Loreto e Lima (apre oggi). Allora, Gabriele Bonci. Cosa porta a Milano?",
+    "T3_PART_I": "Quella filosofia è un punto di evoluzione e non di rivoluzione perché le rivoluzioni si fanno con le armi. Il nostro pensiero è distruggere le industrie, rivendicare nuovi mercati e cambiare quelli vecchi. Questo è un punto zero,",
+    "T3_PART_J": "Sarebbe stato facile utilizzare la retorica degli agricoltori milanesi. Ma avrei bloccato lo scambio. Così i miei produttori ogni tanto verranno a Milano, faremo delle feste, degli eventi, e dialogheranno con i produttori di Davide Longoni, di Adriano Delmastro.",
+    "T3_PART_K": "È fatto con la crusca di scarto del grano che coltivo a Ladispoli. Solo crusca e poca acqua. Un atto di rigenerazione. Ci abbiamo messo anni a sviluppare questo progetto. Lo ha brevettato?"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l’inizio dato: presenta Gabriele Bonci e il suo arrivo nella città che ha appena ospitato i Giochi Olimpici. |\n| 2 | H | «È a Milano» riprende direttamente Gabriele Bonci; la domanda finale chiede che cosa porta nella città. |\n| 3 | D | «Qui non parliamo solo di pizza» risponde a «Cosa porta a Milano?» e introduce il vassoio. |\n| 4 | K | «È fatto» può riferirsi soltanto a «questo vassoio»; la parte termina con la domanda sul brevetto. |\n| 5 | B | «Non l’ho voluto brevettare» risponde esattamente a «Lo ha brevettato?» e apre il tema degli artigiani locali. |\n| 6 | F | «No, mi sono portato i miei produttori da Roma» risponde alla domanda sulla collaborazione con gli artigiani del territorio. |\n| 7 | J | «Sarebbe stato facile utilizzare la retorica degli agricoltori milanesi» spiega il motivo richiesto da «E sai perché?». 中文：先问原因，再给出假设与选择。 |\n| 8 | C | «E nasceranno delle cose» completa la frase sui produttori che «dialogheranno» e conduce alla domanda sul futuro. 中文：两个将来时构成结果链。 |\n| 9 | I | «Quella filosofia» riprende soltanto «il futuro è tecnica e filosofia» della parte C, poi contrappone evoluzione e rivoluzione. 中文：明确回指使这一段不能提前到米兰问题之后。 |\n| 10 | E | La minuscola «ho messo insieme» completa grammaticalmente «Questo è un punto zero,» dopo la virgola. 中文：这是唯一的跨段句法续接。 |\n| 11 | G | «Noi non abbiamo il prosciutto» risponde all’invito «Vedi la pizza con il prosciutto?» e chiude con «Questa è sperimentazione». |",
+    "ANS_L3_SEQUENCE": "A–H–D–K–B–F–J–C–I–E–G"
+  },
+  "key": {
+    "L3.1": "A–H–D–K–B–F–J–C–I–E–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "visione ramificata",
+      "categoria": "locuzione nominale",
+      "zh": "多层面延展的理念",
+      "en": "wide-ranging vision",
+      "esempio": "Qui non parliamo solo di pizza ma di una visione ramificata, che abbraccia tutto, che parla di agricoltura, di ambiente e di sociale."
+    },
+    {
+      "parola": "crusca di scarto",
+      "categoria": "locuzione nominale",
+      "zh": "废弃麸皮",
+      "en": "waste bran",
+      "esempio": "È fatto con la crusca di scarto del grano che coltivo a Ladispoli."
+    },
+    {
+      "parola": "atto di rigenerazione",
+      "categoria": "locuzione nominale",
+      "zh": "再生之举",
+      "en": "act of regeneration",
+      "esempio": "Un atto di rigenerazione."
+    },
+    {
+      "parola": "parte integrante",
+      "categoria": "locuzione nominale",
+      "zh": "不可分割的一部分",
+      "en": "integral part",
+      "esempio": "No, mi sono portato i miei produttori da Roma, quelli che lavorano con me da tanto tempo e che sono parte integrante del progetto."
+    },
+    {
+      "parola": "rivendicare nuovi mercati",
+      "categoria": "locuzione verbale",
+      "zh": "争取新的市场空间",
+      "en": "claim new markets",
+      "esempio": "Il nostro pensiero è distruggere le industrie, rivendicare nuovi mercati e cambiare quelli vecchi."
+    }
+  ]
+}

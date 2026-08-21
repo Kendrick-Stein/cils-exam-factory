@@ -1,0 +1,176 @@
+1. ANSWERS
+
+```json
+{
+  "S1.1": {"answer": "i", "confidence": "hi"},
+  "S1.2": {"answer": "degli", "confidence": "hi"},
+  "S1.3": {"answer": "in", "confidence": "hi"},
+  "S1.4": {"answer": "sullo", "confidence": "hi"},
+  "S1.5": {"answer": "Il", "confidence": "hi"},
+  "S1.6": {"answer": "sui", "confidence": "hi"},
+  "S1.7": {"answer": "il", "confidence": "hi"},
+  "S1.8": {"answer": "l’", "confidence": "hi"},
+  "S1.9": {"answer": "sull’", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+  "S1.11": {"answer": "un", "confidence": "hi"},
+  "S1.12": {"answer": "dello", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "I", "confidence": "hi"},
+  "S1.15": {"answer": "i", "confidence": "hi"},
+  "S1.16": {"answer": "dal", "confidence": "hi"},
+  "S1.17": {"answer": "i", "confidence": "hi"},
+  "S1.18": {"answer": "gli", "confidence": "hi"},
+  "S1.19": {"answer": "alle", "confidence": "hi"},
+  "S1.20": {"answer": "la", "confidence": "hi"},
+  "S2.1": {"answer": "seguiranno", "confidence": "hi"},
+  "S2.2": {"answer": "si è occupato", "confidence": "hi"},
+  "S2.3": {"answer": "rendere", "confidence": "hi"},
+  "S2.4": {"answer": "essere", "confidence": "hi"},
+  "S2.5": {"answer": "C’erano", "confidence": "hi"},
+  "S2.6": {"answer": "accreditati", "confidence": "hi"},
+  "S2.7": {"answer": "Eravamo", "confidence": "hi"},
+  "S2.8": {"answer": "è stata", "confidence": "hi"},
+  "S2.9": {"answer": "preparati", "confidence": "hi"},
+  "S2.10": {"answer": "sceglieresti", "confidence": "hi"},
+  "S2.11": {"answer": "ha cambiato", "confidence": "hi"},
+  "S2.12": {"answer": "Fotografare", "confidence": "hi"},
+  "S2.13": {"answer": "è diventato", "confidence": "hi"},
+  "S2.14": {"answer": "costano", "confidence": "hi"},
+  "S2.15": {"answer": "sbagliano", "confidence": "hi"},
+  "S2.16": {"answer": "è", "confidence": "hi"},
+  "S2.17": {"answer": "sei", "confidence": "hi"},
+  "S2.18": {"answer": "aiuta", "confidence": "hi"},
+  "S2.19": {"answer": "si notano", "confidence": "hi"},
+  "S2.20": {"answer": "scattano", "confidence": "hi"}
+}
+```
+
+2. FLAGS
+
+```json
+[]
+```
+
+3. WRITING checks
+
+No writing or oral tasks are included in the supplied file, so there are no `W<prova>` or `O<prova>` prompts to verify.
+
+Reading additional input from stdin...
+OpenAI Codex v0.146.0
+--------
+workdir: /private/tmp
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a02281-f3cd-7163-81c4-25410bd475ba
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-08-21-B1-s1-s2/paper.md using ONLY that file. The file contains only selected prove extracted from the paper; solve every item in it. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. For every multiple-choice item answer with the option LETTER ONLY (A, B, C or D) exactly as labelled in the paper, never with the option's word or phrase. Do not open any other file or the web.
+codex
+I’ll read only the specified `paper.md`, then solve every included item and audit the writing/oral prompts for self-containment and printed word ranges.
+exec
+/bin/zsh -lc "sed -n '1,260p' /tmp/cils-blind-2026-08-21-B1-s1-s2/paper.md" in /private/tmp
+ succeeded in 0ms:
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici e articolate: utilizza le preposizioni fra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,3 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### Sciame di api invade la spiaggia di Cattolica e trasforma un ombrellone nel suo alveare
+
+Uno sciame di api ha invaso la spiaggia di Cattolica e ha trasformato un ombrellone nel suo alveare, prima del recupero in sicurezza da parte dell'apicoltore giunto sul posto, che lo ha depositato nell'arnia. Episodio curioso per __(1)__ gestori *(di)* __(2)__ stabilimenti 31-32 di Cattolica. Lo sciame di api si è posato in parte su __un (0)__ lettino ed __(3)__ parte *(su)* __(4)__ stesso ombrellone ed ha nidificato. __(5)__ fenomeno è stato ripreso e postato *(su)* __(6)__ social e in poche ore ha già fatto __(7)__ giro del web. «Si vede che __(8)__ ape regina ha scelto di posarsi *(su)* __(9)__ ombrellone e, in poco tempo, hanno cominciato ad arrivare api da tutte __(10)__ parti, che si sono posate anche sul lettino corrispondente», racconta __(11)__ testimone.
+
+È stato necessario attendere l'arrivo *(di)* __(12)__ stesso apicoltore per portare via in sicurezza __(13)__ sciame.
+
+__(14)__ lettini circostanti, nonostante fossero tra __(15)__ più ambiti, trovandosi in seconda fila *(da)* __(16)__ bagnasciuga, sono stati velocemente sgomberati, mettendo in sicurezza __(17)__ bagnanti e lasciando __(18)__ animali tranquilli. Fortunatamente i presenti non hanno perso la calma ed hanno atteso l'arrivo dell'apicoltore che, una volta giunto sul posto, ha dato il via *(a)* __(19)__ operazioni di recupero, prelevando il gruppo di api dove, verosimilmente, si trovava l'ape regina e depositandolo nell'arnia.
+
+A quel punto tutti gli altri insetti hanno iniziato ordinatamente ad entrare all'interno del contenitore. Non è __(20)__ prima volta che un gruppo così numeroso di insetti vada in cerca di luoghi prossimi al mare in cui nidificare. Un episodio analogo si era verificato, a Riccione, soltanto alcuni giorni fa.
+
+
+---
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,3 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### LE IMMAGINI AL CUORE DI OLIMPIADI E PARALIMPIADI
+
+Alessandro Trovati *(essere)* __è (0)__ un fotografo sportivo stimato dai colleghi e benvoluto dagli addetti ai lavori. Nel 1992 ad Albertville è il più giovane accreditato ai Giochi. In futuro, altre undici edizioni di Olimpiadi e un numero impressionante di Mondiali ed eventi *(seguire)* __(1)__ questa esperienza. Nella recente edizione di Milano Cortina 2026 *(occuparsi)* __(2)__ di *(rendere)* __(3)__ il lavoro dei colleghi fluido e veloce.
+
+**Cosa significa *(essere)* __(4)__ Photo Chief Manager alle Olimpiadi?**
+
+*(esserci)* __(5)__ 740 fotografi *(accreditare)* __(6)__ da tutto il mondo. Molti giovani e anche tantissime donne. *(essere)* __(7)__ tre nel Photo Operation: io, Ivo Gonzalez e Federica Rosa. Lei *(essere)* __(8)__ fondamentale. Abbiamo coordinato le Venue, scelto i Photo Manager, i Photo Supervisor. Alcuni con tanta esperienza olimpica, altri alla loro prima edizione però molto *(preparare)* __(9)__. L’80% delle Photo Position era cablato.
+
+**Ipoteticamente, se tu dovessi portare solo due obiettivi in montagna, quali *(scegliere)* __(10)__?**
+
+Un 600mm, perché si è sempre più lontani rispetto all’atleta e un 50 o un 24/70 per contestualizzare di più l’immagine. Un’ottica usata tantissimo ai Giochi è stata il 100/300, ottima anche con il moltiplicatore, non pesante e versatile.
+
+**L’evoluzione tecnologica *(cambiare)* __(11)__ molto la professione?**
+
+*(fotografare)* __(12)__ *(diventare)* __(13)__ più facile. Ora le macchine *(costare)* __(14)__ ma non *(sbagliare)* __(15)__. Il risultato *(essere)* __(16)__ più alla portata. Adesso, se *(essere)* __(17)__ un po’ scarso, la tecnologia *(aiutare)* __(18)__ molto fotografi come te. Poi i fotografi bravi *(notarsi)* __(19)__, per inquadratura, creatività, grafica, per come *(scattare)* __(20)__.
+
+codex
+1. ANSWERS
+
+```json
+{
+  "S1.1": {"answer": "i", "confidence": "hi"},
+  "S1.2": {"answer": "degli", "confidence": "hi"},
+  "S1.3": {"answer": "in", "confidence": "hi"},
+  "S1.4": {"answer": "sullo", "confidence": "hi"},
+  "S1.5": {"answer": "Il", "confidence": "hi"},
+  "S1.6": {"answer": "sui", "confidence": "hi"},
+  "S1.7": {"answer": "il", "confidence": "hi"},
+  "S1.8": {"answer": "l’", "confidence": "hi"},
+  "S1.9": {"answer": "sull’", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+  "S1.11": {"answer": "un", "confidence": "hi"},
+  "S1.12": {"answer": "dello", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "I", "confidence": "hi"},
+  "S1.15": {"answer": "i", "confidence": "hi"},
+  "S1.16": {"answer": "dal", "confidence": "hi"},
+  "S1.17": {"answer": "i", "confidence": "hi"},
+  "S1.18": {"answer": "gli", "confidence": "hi"},
+  "S1.19": {"answer": "alle", "confidence": "hi"},
+  "S1.20": {"answer": "la", "confidence": "hi"},
+  "S2.1": {"answer": "seguiranno", "confidence": "hi"},
+  "S2.2": {"answer": "si è occupato", "confidence": "hi"},
+  "S2.3": {"answer": "rendere", "confidence": "hi"},
+  "S2.4": {"answer": "essere", "confidence": "hi"},
+  "S2.5": {"answer": "C’erano", "confidence": "hi"},
+  "S2.6": {"answer": "accreditati", "confidence": "hi"},
+  "S2.7": {"answer": "Eravamo", "confidence": "hi"},
+  "S2.8": {"answer": "è stata", "confidence": "hi"},
+  "S2.9": {"answer": "preparati", "confidence": "hi"},
+  "S2.10": {"answer": "sceglieresti", "confidence": "hi"},
+  "S2.11": {"answer": "ha cambiato", "confidence": "hi"},
+  "S2.12": {"answer": "Fotografare", "confidence": "hi"},
+  "S2.13": {"answer": "è diventato", "confidence": "hi"},
+  "S2.14": {"answer": "costano", "confidence": "hi"},
+  "S2.15": {"answer": "sbagliano", "confidence": "hi"},
+  "S2.16": {"answer": "è", "confidence": "hi"},
+  "S2.17": {"answer": "sei", "confidence": "hi"},
+  "S2.18": {"answer": "aiuta", "confidence": "hi"},
+  "S2.19": {"answer": "si notano", "confidence": "hi"},
+  "S2.20": {"answer": "scattano", "confidence": "hi"}
+}
+```
+
+2. FLAGS
+
+```json
+[]
+```
+
+3. WRITING checks
+
+No writing or oral tasks are included in the supplied file, so there are no `W<prova>` or `O<prova>` prompts to verify.
+tokens used
+4,037

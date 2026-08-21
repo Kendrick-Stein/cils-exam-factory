@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "BIBLIOTECA CIVICA",
+    "T2_TEXT": "Via Cappello, 43\n37121 Verona\n\nOrario:\n\nLunedì 14,00-19,00\ndal martedì al venerdì\n09,00-19,00\nSabato 09,00-14,00\n\nLa chiusura dei servizi bibliotecari è prevista un quarto d'ora prima dell'orario di chiusura della biblioteca.\n\nLa Biblioteca Civica possiede oltre 700.000 fra libri (dal IX al XXI secolo), opuscoli, documenti, stampe, fotografie e annate di riviste e periodici.\n\nÈ aperta a tutti. Offre servizi di prestito, lettura in sede, riproduzione, consulenze e ricerche bibliografiche; periodicamente vengono proposte attività culturali e mostre dedicate ad illustrare le raccolte possedute.\n\nLa tessera è obbligatoria per il prestito, la prenotazione e il ritiro dei libri.\nL'accesso alla Biblioteca e la fruizione dei servizi sono GRATUITI.",
+    "L2_ITEMS": "1. La Biblioteca Civica è in Via Cappello 43, a Verona.  \n   Vero ○ Falso ○\n\n2. Il lunedì la biblioteca apre alle 9,00.  \n   Vero ○ Falso ○\n\n3. Dal martedì al venerdì la biblioteca chiude alle 19,00.  \n   Vero ○ Falso ○\n\n4. Il sabato la biblioteca chiude alle 19,00.  \n   Vero ○ Falso ○\n\n5. I servizi bibliotecari chiudono un quarto d'ora prima della biblioteca.  \n   Vero ○ Falso ○\n\n6. La Biblioteca Civica possiede meno di 700.000 fra libri e altri documenti.  \n   Vero ○ Falso ○\n\n7. La tessera è obbligatoria per il prestito e la prenotazione dei libri.  \n   Vero ○ Falso ○\n\n8. L'accesso alla Biblioteca e i servizi sono a pagamento.  \n   Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | «Via Cappello, 43» e «Verona»; 中文：地址和城市都与原文一致。 |\n| L2.2 | Falso | «Lunedì 14,00-19,00»; 中文：周一14点开门，不是9点。 |\n| L2.3 | Vero | «dal martedì al venerdì 09,00-19,00»; 中文：周二至周五的闭馆时间是19点。 |\n| L2.4 | Falso | «Sabato 09,00-14,00»; 中文：周六14点闭馆，不是19点。 |\n| L2.5 | Vero | «un quarto d'ora prima dell'orario di chiusura della biblioteca»; 中文：服务提前十五分钟结束。 |\n| L2.6 | Falso | «possiede oltre 700.000 fra libri [...] documenti»; 中文：原文是超过70万，不是少于70万。 |\n| L2.7 | Vero | «La tessera è obbligatoria per il prestito, la prenotazione»; 中文：借阅和预约都必须使用借书证。 |\n| L2.8 | Falso | «L'accesso alla Biblioteca e la fruizione dei servizi sono GRATUITI»; 中文：进入图书馆和使用服务都是免费的。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prestito",
+      "categoria": "nome maschile",
+      "zh": "借阅",
+      "en": "loan",
+      "esempio": "Offre servizi di prestito, lettura in sede, riproduzione, consulenze e ricerche bibliografiche"
+    },
+    {
+      "parola": "lettura in sede",
+      "categoria": "locuzione nominale",
+      "zh": "馆内阅读",
+      "en": "reading on site",
+      "esempio": "Offre servizi di prestito, lettura in sede, riproduzione, consulenze e ricerche bibliografiche"
+    },
+    {
+      "parola": "ricerche bibliografiche",
+      "categoria": "locuzione nominale",
+      "zh": "文献检索",
+      "en": "bibliographic searches",
+      "esempio": "Offre servizi di prestito, lettura in sede, riproduzione, consulenze e ricerche bibliografiche"
+    },
+    {
+      "parola": "tessera",
+      "categoria": "nome femminile",
+      "zh": "借书证；会员卡",
+      "en": "library card",
+      "esempio": "La tessera è obbligatoria per il prestito, la prenotazione e il ritiro dei libri."
+    },
+    {
+      "parola": "fruizione dei servizi",
+      "categoria": "locuzione nominale",
+      "zh": "服务的使用",
+      "en": "use of services",
+      "esempio": "L'accesso alla Biblioteca e la fruizione dei servizi sono GRATUITI."
+    }
+  ]
+}

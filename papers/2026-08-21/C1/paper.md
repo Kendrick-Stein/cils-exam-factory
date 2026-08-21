@@ -1,0 +1,483 @@
+---
+exam: CILS
+level: C1
+level_name: "CILS TRE — C1"
+session: "2026-08-21"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello TRE-C1 — Prova di esercitazione · 21 agosto 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello dei quaderni d'esame CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Le chiavi, i criteri di punteggio e il glossario sono nel fascicolo delle risposte.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 1 ora e 10 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 20**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### Così respiravano i giganti del cosmo
+
+Nell’universo locale, i grandi ammassi di galassie sono immersi in gigantesche e dense “atmosfere” di gas caldissimo, a temperature di decine di milioni di kelvin, noto come mezzo intra-ammasso (in inglese intracluster medium, da cui Icm). Al contrario, guardando all’universo più lontano e antico, i telescopi hanno finora rilevato quasi sempre soltanto la componente di gas freddo. Oggi uno studio pubblicato sulla rivista Astronomy & Astrophysics svela, per la prima volta e con chiarezza, il momento esatto in cui questa imponente atmosfera calda comincia a formarsi, quando l’universo aveva appena una frazione della sua età attuale.
+
+La scoperta è stata ottenuta analizzando ben 634 mila secondi (circa 180 ore) di dati del telescopio spaziale a raggi X Chandra della Nasa. Il lavoro di ricerca – guidato da Andrea Travascio ricercatore presso l’Istituto nazionale di astrofisica (Inaf) e da Sebastiano Cantalupo, professore di astrofisica all’Università di Milano-Bicocca – ha permesso di identificare una struttura di gas ad altissima temperatura e densità che si estende fino a circa 100mila anni luce attorno a un quasar, ovvero il nucleo molto luminoso e attivo di una galassia lontanissima, posizionato al centro del gigantesco protoammasso MQN01, un agglomerato di galassie ancora in fase di formazione risalente a quando l’universo aveva circa due miliardi di anni.
+
+«La domanda scientifica centrale», dice Travascio, che ha condotto la ricerca come postdoc all’Università di Milano-Bicocca, «è capire come si formi questa fase calda: quali siano le condizioni fisiche del gas durante la sua formazione e quali processi contribuiscano al suo riscaldamento». I dati «mostrano proprietà del gas straordinarie che potrebbero darci le prime informazioni su come si è formata questa fase calda del mezzo circumgalattico, che oggi vediamo sotto forma di mezzo intra-ammasso».
+
+Fino a oggi, le rarissime emissioni X estese individuate a tali distanze erano associate a galassie attive (active galactic nuclei o Agn) “radio-forti”, in cui la radiazione X è prodotta da getti di particelle che viaggiano a velocità prossime a quella della luce. Il quasar al centro di MQN01 è invece radio-quiet (silenzioso nello spettro radio), il che esclude contaminazioni dovute a getti.
+
+«Siamo di fronte a una delle più lontane rilevazioni di emissione X termica estesa associata alla formazione di gas caldo in regioni dense dell’universo, che probabilmente evolverà nel conosciuto Icm locale», aggiunge Cantalupo, che guida il gruppo di ricerca Cosmic Web che ha prodotto questo lavoro. «Pensiamo di aver identificato una fase di vita in cui il gas freddo precipita verso il potenziale gravitazionale di questo alone massiccio e si scalda per effetto di shock gravitazionali, raggiungendo temperature di circa 20 milioni di kelvin. Le densità e le pressioni che abbiamo misurato sono elevate: da uno a due ordini di grandezza superiori rispetto a quelle degli ammassi del nostro universo locale».
+
+A rendere possibile il risultato è stata un’intuizione metodologica di Travascio. «Mi è venuta la curiosità di applicare a questi lontanissimi e iperluminosi quasar dell’universo primordiale un metodo di analisi solitamente riservato alle galassie di Seyfert, che ospitano i buchi neri attivi dell’universo locale», racconta. La sfida è stata quindi isolare la flebile luce diffusa del gas dall’accecante bagliore del buco nero centrale.
+
+«All’inizio eravamo noi stessi estremamente scettici», ricorda Travascio. «Vista l’eccezionalità del dato, abbiamo setacciato ogni spiegazione alternativa: dai deflussi artificiali alle contaminazioni strumentali o ad altri effetti insospettati. Ma ogni scenario alternativo si è scontrato con limiti teorici insuperabili. La spiegazione termica è l’unica coerente con i dati fisici. Considerando quanto il risultato fosse peculiare e tenendo conto anche delle difficoltà tecniche di Chandra nelle ultime fasi della sua missione, il satellite ha dimostrato ancora una volta di essere uno strumento straordinario, capace di produrre risultati scientificamente rilevanti anche dopo decenni di attività».
+
+> *Completa le seguenti frasi. Scegli una delle quattro proposte di completamento che ti diamo per ogni frase. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. Rispetto alle osservazioni precedenti dell’universo remoto, lo studio descritto nell’articolo ha il merito di**
+
+A) dimostrare che il gas freddo manca nei protoammassi antichi.
+B) individuare con chiarezza l’avvio della formazione di una vasta atmosfera calda.
+C) provare che il mezzo intra-ammasso locale mantiene sempre la stessa densità.
+D) stabilire che tutti i quasar lontani possiedono un’atmosfera già matura.
+
+**2. L’analisi dei dati raccolti dal telescopio Chandra ha consentito ai ricercatori di**
+
+A) misurare la temperatura di tutte le galassie del protoammasso.
+B) osservare un nucleo inattivo in un ammasso dell’universo locale.
+C) identificare gas molto caldo e denso esteso attorno al quasar di MQN01.
+D) determinare l’età attuale delle galassie poste intorno al quasar.
+
+**3. Secondo Travascio, le proprietà rilevate potrebbero**
+
+A) offrire i primi indizi sull’origine della fase calda oggi osservata nei grandi ammassi.
+B) dimostrare la scomparsa completa del gas freddo da ogni quasar primordiale.
+C) spiegare come i getti delle galassie radio-forti producano emissioni X.
+D) quantificare l’età dei mezzi intra-ammasso presenti nell’universo locale.
+
+**4. Il fatto che il quasar al centro di MQN01 sia radio-quiet è rilevante perché**
+
+A) conferma che il quasar non emette alcun tipo di radiazione.
+B) indica che la struttura osservata appartiene a una galassia di Seyfert.
+C) dimostra che il gas circostante ha già raggiunto la densità degli ammassi locali.
+D) esclude che l’emissione X estesa sia contaminata da getti di particelle.
+
+**5. L’ipotesi proposta per spiegare il riscaldamento del gas prevede che esso**
+
+A) venga compresso dai getti radio prodotti dal buco nero centrale.
+B) cada nel potenziale gravitazionale dell’alone e si scaldi attraverso degli shock.
+C) acquisti energia dalle contaminazioni strumentali registrate da Chandra.
+D) resti immobile nell’alone e assorba la radiazione X delle galassie.
+
+**6. L’intuizione metodologica di Travascio è consistita nel**
+
+A) riservare ai quasar radio-forti una tecnica ideata per MQN01.
+B) combinare le osservazioni di Chandra con quelle di un nuovo satellite radio.
+C) applicare ai quasar primordiali un metodo usato per le galassie di Seyfert locali.
+D) sostituire l’analisi della luce diffusa con lo studio del solo buco nero centrale.
+
+**7. Il racconto dello scetticismo iniziale dei ricercatori mette in evidenza che**
+
+A) l’interpretazione termica è stata accettata dopo aver vagliato le spiegazioni alternative.
+B) l’eccezionalità della scoperta ha reso superflua ogni verifica strumentale.
+C) i limiti teorici individuati hanno smentito l’origine termica dell’emissione.
+D) le difficoltà tecniche di Chandra hanno impedito di ottenere dati attendibili.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### BANDO DI ESAME PER IL CONSEGUIMENTO DELL’ABILITAZIONE ALL’ESERCIZIO DELLA PROFESSIONE DI GUIDA TURISTICA
+
+**Articolo 2 — Requisiti per l’ammissione**
+
+Per l’ammissione all’esame i candidati devono possedere i seguenti requisiti alla data di scadenza del termine stabilito per la presentazione delle domande previsto dal bando:
+
+a. essere cittadino italiano o di uno Stato membro dell’Unione europea o, se cittadino di Stati non appartenenti all’Unione europea, essere in regola con le disposizioni vigenti in materia di immigrazione e di lavoro, fatti salvi eventuali accordi internazionali in materia;
+
+b. aver compiuto la maggiore età;
+
+c. godere dei diritti civili e politici;
+
+d. non avere subito condanne passate in giudicato o applicazione della pena su richiesta delle parti per reato doloso per il quale legge preveda la pena della reclusione o dell’arresto;
+
+e. non avere riportato condanne, anche non definitive, o l’applicazione della pena su richiesta delle parti per reati commessi con abuso di una professione, arte, industria, commercio o mestiere o con violazione dei doveri ad essi inerenti, che comportino l’interdizione o la sospensione degli stessi, ai sensi degli articoli 31 e 35 del Codice penale;
+
+f. aver conseguito il diploma di istruzione secondaria di secondo grado o altro diploma dichiarato equipollente o equivalente dalle competenti autorità oppure una laurea triennale ovvero una laurea specialistica, magistrale o del vecchio ordinamento.
+
+Per i candidati non cittadini italiani e non titolari dello status di rifugiato o di protezione sussidiaria, il godimento dei diritti civili e politici di cui al comma 1, lettera c), è riferito al Paese di cittadinanza.
+
+I candidati vengono ammessi alle prove d’esame con riserva.
+
+**Articolo 3 — Prove d’esame**
+
+L’esame per il conseguimento dell’abilitazione alla professione di guida turistica deve accertare la professionalità del candidato.
+
+Le prove di esame consistono in una prova scritta, una prova orale e una prova tecnico-pratica.
+
+Per ogni prova è assegnato un punteggio massimo pari a 40 punti e la prova si intende superata se il candidato ha riportato un punteggio pari o superiore a 25 punti.
+
+La prova scritta, in lingua italiana, consiste nella somministrazione di quesiti a risposta multipla nelle seguenti materie: storia dell’arte; geografia; storia; archeologia; diritto del turismo, accessibilità e inclusività dell’offerta turistica; disciplina dei beni culturali e del paesaggio.
+
+Alla prova orale e alla prova tecnico-pratica sono ammessi i candidati che abbiano conseguito un punteggio pari o superiore a 25 punti nella prova scritta.
+
+La prova orale valuta la capacità di comunicazione, la conoscenza e l’approfondimento dei contenuti e consiste in un colloquio, in lingua italiana, sulle materie oggetto della prova scritta, nonché nella verifica della conoscenza della lingua straniera scelta dal candidato al momento della presentazione della domanda in un grado non inferiore al livello di competenza B2.
+
+Sono esonerati dall’obbligo di verifica della conoscenza linguistica coloro che rientrano nell’ipotesi prevista dall’articolo 4, comma 1, ultimo periodo, della legge 13 dicembre 2023, n. 190 ovvero coloro che hanno conseguito nella lingua straniera prescelta, all’esito di un corso di studi tenuto presso un istituto scolastico o universitario straniero, un diploma di scuola secondaria o altro diploma dichiarato equipollente o equivalente dalle competenti autorità oppure un titolo di studio superiore riconosciuto ai sensi della normativa vigente.
+
+La prova tecnico-pratica valuta le competenze pratiche della guida turistica, la capacità di condurre visite guidate e fornire informazioni pertinenti e consiste nella simulazione di una visita guidata in lingua italiana e nella lingua straniera prescelta dal candidato.
+
+L’abilitazione si intende conseguita solo se sono superate tutte le prove previste.
+
+> *Leggi le informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+**1. I requisiti di ammissione devono essere posseduti entro la scadenza fissata per presentare la domanda.**
+
+Vero ○ Falso ○
+
+**2. I cittadini di Stati esterni all’Unione europea sono esclusi dall’esame anche quando rispettano le norme sull’immigrazione e sul lavoro.**
+
+Vero ○ Falso ○
+
+**3. Per i reati dolosi punibili con la reclusione o l’arresto, rilevano le condanne passate in giudicato o l’applicazione della pena richiesta dalle parti.**
+
+Vero ○ Falso ○
+
+**4. Per i reati commessi abusando di una professione, sono rilevanti esclusivamente le condanne definitive.**
+
+Vero ○ Falso ○
+
+**5. Tra i titoli di studio ammessi rientrano sia un diploma secondario riconosciuto sia una laurea triennale.**
+
+Vero ○ Falso ○
+
+**6. Per ogni candidato straniero, i diritti civili e politici sono valutati con riferimento al Paese di cittadinanza.**
+
+Vero ○ Falso ○
+
+**7. Il bando prevede che l’ammissione alle prove avvenga con riserva.**
+
+Vero ○ Falso ○
+
+**8. L’esame comprende tre prove, ciascuna valutata su un massimo di 40 punti.**
+
+Vero ○ Falso ○
+
+**9. Per superare una singola prova è necessario ottenere più di 25 punti.**
+
+Vero ○ Falso ○
+
+**10. La prova scritta verifica, mediante domande a risposta multipla, anche temi legati all’accessibilità dell’offerta turistica.**
+
+Vero ○ Falso ○
+
+**11. Il raggiungimento della soglia nella prova scritta è necessario per accedere sia all’orale sia alla prova tecnico-pratica.**
+
+Vero ○ Falso ○
+
+**12. Durante la prova orale, il candidato deve sostenere nella lingua straniera scelta un colloquio su tutte le materie della prova scritta.**
+
+Vero ○ Falso ○
+
+**13. Il titolo che può dare luogo all’esonero dalla verifica linguistica deve essere stato conseguito dopo un corso di studi tenuto presso un istituto italiano.**
+
+Vero ○ Falso ○
+
+**14. La simulazione della visita guidata si svolge soltanto nella lingua straniera scelta dal candidato.**
+
+Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi il testo. Il testo è diviso in 16 parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d'ordine accanto a ciascuna parte. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### Una voce
+
+| Ordine | Parte |
+|---|---|
+| **1** | **A.** Veramente, la prima visita aveva lasciato alla marchesa defunta una pessima impressione del dottore. La signorina Lydia Venturi, rimasta come governante e lettrice del giovane marchese, lo ricordava bene. |
+| ☐ | **B.** E in quest’altro bujo, più freddo e più tenebroso, sua madre era scomparsa, silenziosamente, lasciandolo solo, in un vuoto orrendo. Poi, a un tratto — |
+| ☐ | **C.** stimò da ciarlatano e peggio la seconda visita, quel venire proprio nel giorno che la marchesa era morta a manifestare un dubbio, ad accendere una speranza di quella sorta. |
+| ☐ | **D.** E sua madre — egli lo ricordava — parlandogli di lei, gli aveva detto ch’era buona e attenta, di squisite maniere, colta, intelligente; e tale egli ora la sperimentava. |
+| ☐ | **E.** le aveva preso una mano e vi aveva appoggiato il bel volto pallido, gemendo: «Non mi lasci!... non mi lasci!», s’era sentita vincere dalla compassione, dalla tenerezza, |
+| ☐ | **F.** il quale s’era sentito addensare più dentro che attorno, terribile, di fronte al quale, è vero, tutti gli uomini sono ciechi. Ma da questo bujo, |
+| ☐ | **G.** Costei, prendendola al suo servizio, non avrebbe veduto male, nel suo egoismo materno, che il figlio infelice si fosse in qualche modo consolato con lei. |
+| ☐ | **H.** Per istintivo malanimo contro quell’antipaticissimo dottore non considerava intanto se, per avventura, non sarebbe stata diversa quell’impressione della marchesa, ove il Falci fin da principio le avesse fatto sperare non improbabile la guarigione del figlio. Per conto suo, |
+| **9** | **I.** s’era aggrappata. Non era altro che una voce per lui la signorina Lydia. Ma era pur colei che più di tutti, negli ultimi mesi, era stata vicina a sua madre. |
+| ☐ | **J.** Con quella curiosità, egli s’era messo a torturarla. Voleva «vederla» nel suo bujo; voleva che la voce di lei diventasse immagine dentro di sé. |
+| ☐ | **K.** Nelle cure che aveva per lui e nei conforti che gli dava, Lydia aveva già maturato, fin dai primi giorni, questo sospetto sulla marchesa Borghi: |
+| ☐ | **L.** Chi abbia gli occhi sani può almeno distrarsi con la vista delle cose intorno: egli no, cieco per la vita, cieco ora anche per la morte. |
+| ☐ | **M.** Anche Lydia, mossa da quella tenerezza, s’era dedicata a lui, senza più sospetto. Presto, con la timida ma ostinata e accorante curiosità dei ciechi, |
+| ☐ | **N.** Tanto più che il giovane marchese pareva ormai rassegnato alla sciagura. Mortagli così d’un tratto la madre, oltre al bujo della sua cecità, un altro bujo, |
+| ☐ | **O.** Di quel sospetto Lydia s’era acerbamente offesa e aveva costretto la sua naturale alterezza a irrigidirsi in un contegno addirittura severo. Ma, dopo la sciagura, quand’egli, tra il pianto disperato, |
+| ☐ | **P.** egli non sapeva bene da chi — una voce d’una dolcezza infinita era venuta a lui, come una luce soavissima. E a questa voce tutta l’anima sua, sperduta in quel vuoto orrendo, |
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 1 ora e 15 minuti** · Numero delle prove: **4** · Punteggio totale: **punti 20**
+*(punteggio massimo grezzo 24, riportato a 20 mediante la proporzione 20 : 24 = x : punteggio ottenuto)*
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo. Devi scrivere LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### NON SOLO METANO: LE CORTECCE DEGLI ALBERI ASSORBONO DIVERSI GAS SERRA DALL’ATMOSFERA
+
+Le cortecce degli alberi ospitano migliaia di miliardi di microbi in grado __di (0)__ ripulire l'aria dai gas serra, assorbendo metano, idrogeno __(1)__ monossido di carbonio.
+
+Un team di ricerca australiano ha individuato un nuovo superpotere climatico degli alberi, che si aggiunge __(2)__ loro nota capacità __(3)__ assorbire CO2 dall'atmosfera tramite fotosintesi e __(4)__ quella, scoperta __(5)__ di recente, di assorbire metano. __(6)__ lo studio, pubblicato __(7)__ Science, la corteccia degli alberi ospiterebbe migliaia di miliardi di microbi diversi, capaci __(8)__ ripulire l'aria __(9)__ diversi gas tossici e climalteranti.
+
+**Assorbitori di gas serra.** I ricercatori hanno raccolto per cinque anni campioni di alberi di diverse specie nell'Australia orientale; hanno poi utilizzato delle tecniche genomiche e biogeochimiche __(10)__ determinare l'identità, le capacità __(11)__ le attività __(12)__ microbi che vivevano nella corteccia. «La maggior parte __(13)__ questi microbi è costituita __(14)__ specialisti adattati agli alberi che si nutrono __(15)__ gas serra», ha spiegato Bob Leung, coordinatore __(16)__ ricerca.
+
+**Un gigacontinente di corteccia.** Se contassimo tutti gli alberi presenti sulla Terra, la loro corteccia ricoprirebbe un'area pari all'incirca all'estensione di tutti i sette continenti: «Questo "continente di corteccia" sta potenzialmente rimuovendo milioni di tonnellate di gas serra ogni anno», commenta Luke Jeffrey, coordinatore dello studio insieme a Leung.
+
+**Un enorme potenziale.** Quanto scoperto, sottolineano gli autori, potrebbe avere benefici per il clima e per la nostra salute: __(17)__ riuscissimo a individuare gli alberi con la maggior presenza di microbi gas-assorbenti, potremmo tentare __(18)__ utilizzarli il più possibile per riforestare __(19)__ creare aree verdi in città.
+
+Questo studio rappresenta solo il primo passo per comprendere a fondo il ruolo degli alberi nella lotta ai cambiamenti climatici: come ricorda Damien Maher, un altro degli autori, «potremmo dover ripensare al modo in __(20)__ alberi e foreste regolano il clima della Terra, oggi e in futuro».
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo. Inserisci i verbi. Devi scrivere LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### Saverio Strati ci insegna che la cultura può cambiare il destino di un paese
+
+Fu nel 2016 che Domenico Stranieri *(diventare)* __divenne (0)__ sindaco di Sant’Agata del Bianco. Fu allora che l’amministrazione *(ideare)* __(1)__ un percorso sull’esperienza letteraria di Saverio Strati. Da allora e fino a oggi il progetto *(ridefinire)* __(2)__ l’assetto urbano; la letteratura si è fatta trama d’arte, *(trasformare)* __(3)__ il paese in uno spazio narrativo.
+
+**Perché Strati è ancora attuale?**
+
+Proprio in questo momento la sua scrittura *(continuare)* __(4)__ a interrogare il presente. Strati non ha mai considerato il Sud un luogo fermo: finora *(raccontare)* __(5)__ come una domanda aperta. I personaggi dei suoi libri sono persone che *(pensare)* __(6)__. È essenziale che il lettore *(riconoscere)* __(7)__ in loro un dolore che riguarda tutti i popoli umiliati. È sorprendente che, fino a oggi, la memoria di Strati *(rimanere)* __(8)__ confinata in una dimensione locale.
+
+Fino a oggi Strati spesso *(ridurre)* __(9)__ a scrittore “calabrese”. Come accade alle opere *(destinare)* __(10)__ a superare il proprio tempo, la sua scrittura interroga il presente. Se questa definizione *(diventare)* __(11)__ una gabbia, la sua opera *(perdere)* __(12)__ la dimensione universale.
+
+**Che cosa avete fatto a Sant’Agata del Bianco?**
+
+In questi anni *(provare)* __(13)__ a non separare Saverio Strati dal suo mondo. Oggi le sue parole *(fare)* __(14)__ parte della nostra aria. Crediamo che il compito della cultura sia quello di *(riconoscere)* __(15)__, raccontare e trasformare la realtà. Oggi il paese è un libro aperto, che non si guarda soltanto con gli occhi, ma *(attraversare)* __(16)__ passo dopo passo. Il visitatore vede le parole di Strati *(diventare)* __(17)__ parte del paesaggio. Se nel 2016 il percorso non *(creare)* __(18)__, il patrimonio culturale *(rimanere)* __(19)__ locale. La nostra visione, *(promuovere)* __(20)__ dal comune, interpreta la cultura come leva di sviluppo e partecipazione.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento che ti diamo. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### Gli scienziati italiani riconosciuti all’estero, ma non la scienza
+
+Gli scienziati __italiani (0)__ sono molto riconosciuti all’estero, ma non accade lo stesso per la scienza italiana. Lo ha detto il segretario generale di Aspen Institute Italia, Angelo Maria Petroni, a margine della tavola rotonda organizzata dall’istituto sul soft power, ossia la capacità di uno Stato di ottenere consenso facendo __(1)__ sulla sua cultura, i valori politici e le politiche estere.
+
+La scienza non riesce quindi a far __(2)__ del soft power italiano e, più in __(3)__, l’Italia __(4)__ a __(5)__ il suo __(6)__ culturale in una strategia __(7)__ sullo scenario internazionale.
+
+«Non vedo un modello scientifico italiano riconosciuto in __(8)__ per il mondo. Sono riconosciuti gli scienziati italiani, questo sì: si __(9)__ all’estero per la loro __(10)__, la capacità di __(11)__ problemi e di cooperare», osserva Petroni. «È ovvio che hanno anche una buona formazione, ma a __(12)__ è soprattutto la capacità di __(13)__ e gestire conflitti, aggiudicandosi così ruoli __(14)__. Per quanto riguarda la scienza però, al massimo l’Italia resta, tra i fisici, il Paese di Fermi».
+
+In generale, dalla tavola rotonda è emerso che manca una piattaforma unitaria in grado di ridurre la __(15)__ del soft power italiano, per esempio migliorando il coordinamento con gli enti locali e valorizzando il ruolo dell’iniziativa privata e del mecenatismo d’impresa.
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 0. | ~~italiani~~ | francesi | tedeschi | spagnoli |
+| 1. | pressione | silenzio | chiarezza | leva |
+| 2. | sfoggio | parte | tesoro | menzione |
+| 3. | concreto | generale | breve | profondo |
+| 4. | aspira | provvede | stenta | rinuncia |
+| 5. | disperdere | tradurre | dividere | raccogliere |
+| 6. | capitale | confine | archivio | mercato |
+| 7. | autonoma | provvisoria | redditizia | coerente |
+| 8. | viaggio | cammino | giro | moto |
+| 9. | trasferiscono | distinguono | riuniscono | candidano |
+| 10. | anzianità | notorietà | rigidità | flessibilità |
+| 11. | elencare | rinviare | creare | risolvere |
+| 12. | seguire | colpire | mancare | bastare |
+| 13. | provocare | ignorare | mediare | alimentare |
+| 14. | provvisori | direttivi | marginali | individuali |
+| 15. | continuità | visibilità | influenza | frammentazione |
+
+## Analisi delle strutture di comunicazione — Prova n. 4
+
+> *Riscrivi le frasi. Inizia dalle parole che ti diamo e cambia la struttura sintattica. Se necessario, usa anche parole non presenti nel testo. Ogni frase deve avere lo stesso significato della frase corrispondente nel testo. DEVI SCRIVERE LE FRASI NEL "FOGLIO DELL'ANALISI DELLE STRUTTURE DI COMUNICAZIONE – PROVA N. 4".*
+
+### ISTRUZIONI TECNICHE PER LA PROVA ORALE E TECNICO-PRATICA
+
+Le prove si svolgeranno secondo la procedura telematica di seguito descritta, articolata in una fase preliminare di registrazione e in una successiva fase di verifica del possesso, da parte del candidato, dei requisiti tecnici necessari (c.d. check requirement).
+
+I candidati dovranno collegarsi alla piattaforma informatica nel giorno e nell’orario stabiliti, utilizzando le credenziali personali che saranno fornite in fase di registrazione e trasmesse all’indirizzo e-mail personale indicato dal candidato.
+
+Successivamente, sarà inviata apposita comunicazione di convocazione contenente la data, l’orario di svolgimento della prova e le istruzioni operative per l’accesso alla piattaforma.
+
+I candidati sono tenuti in ogni caso a effettuare l’accesso con un anticipo di almeno trenta minuti rispetto all’orario fissato per l’inizio della prova.
+
+Prima dell’avvio della prova, ciascun candidato sarà sottoposto a procedura di identificazione mediante esibizione tramite webcam di un documento di riconoscimento in corso di validità.
+
+**0. I candidati dovranno collegarsi alla piattaforma informatica nel giorno e nell’orario stabiliti.**
+
+→ NEL GIORNO E NELL’ORARIO STABILITI, I CANDIDATI DOVRANNO EFFETTUARE IL COLLEGAMENTO ALLA PIATTAFORMA INFORMATICA.
+
+**1. Le prove si svolgeranno secondo la procedura telematica di seguito descritta, articolata in una fase preliminare di registrazione e in una successiva fase di verifica del possesso, da parte del candidato, dei requisiti tecnici necessari (c.d. check requirement).**
+
+→ L’ARTICOLAZIONE DELLA PROCEDURA TELEMATICA SECONDO CUI SI SVOLGERANNO LE PROVE PREVEDE UNA FASE PRELIMINARE DI REGISTRAZIONE E …………………………………
+
+**2. Le prove si svolgeranno secondo la procedura telematica di seguito descritta.**
+
+→ PER LO SVOLGIMENTO DELLE PROVE SARÀ SEGUITA …………………………………
+
+**3. I candidati dovranno collegarsi alla piattaforma informatica nel giorno e nell’orario stabiliti, utilizzando le credenziali personali che saranno fornite in fase di registrazione e trasmesse all’indirizzo e-mail personale indicato dal candidato.**
+
+→ IL COLLEGAMENTO DEI CANDIDATI ALLA PIATTAFORMA INFORMATICA DOVRÀ AVVENIRE NEL GIORNO E NELL’ORARIO STABILITI MEDIANTE LE CREDENZIALI PERSONALI …………………………………
+
+**4. Successivamente, sarà inviata apposita comunicazione di convocazione contenente la data, l’orario di svolgimento della prova e le istruzioni operative per l’accesso alla piattaforma.**
+
+→ L’APPOSITA COMUNICAZIONE DI CONVOCAZIONE, CHE SARÀ INVIATA SUCCESSIVAMENTE, INDICHERÀ …………………………………
+
+**5. I candidati sono tenuti in ogni caso a effettuare l’accesso con un anticipo di almeno trenta minuti rispetto all’orario fissato per l’inizio della prova.**
+
+→ È IN OGNI CASO OBBLIGATORIO CHE I CANDIDATI …………………………………
+
+**6. Prima dell’avvio della prova, ciascun candidato sarà sottoposto a procedura di identificazione mediante esibizione tramite webcam di un documento di riconoscimento in corso di validità.**
+
+→ PRIMA CHE LA PROVA ABBIA INIZIO, L’IDENTIFICAZIONE DI CIASCUN CANDIDATO AVVERRÀ MEDIANTE …………………………………
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 1 ora e 30 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 20**
+
+## Produzione scritta — Prova n. 1
+
+> *Puoi scegliere di trattare uno dei seguenti argomenti. Scegli una delle due tracce.*
+> *Devi scrivere da 160 a 180 parole.*
+
+**1.** «Valutare un servizio pubblico soltanto in base alla rapidità può renderlo più efficiente, ma rischia di trascurare i bisogni delle persone che richiedono più tempo e attenzione». Esprimi il tuo parere in merito, considerando qualità, inclusione e uso responsabile delle risorse.
+
+**2.** Una rivista online dedica un numero alle abitazioni condivise tra persone di generazioni diverse, nelle quali studenti, famiglie e anziani dispongono di spazi privati e servizi comuni. Scrivi un articolo in cui analizzi opportunità, difficoltà e condizioni necessarie perché questa forma dell'abitare sia una scelta libera e sostenibile.
+
+*Traccia scelta: ☐ 1 ☐ 2 — Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Puoi scegliere di trattare uno dei seguenti argomenti. Scegli una delle due tracce.*
+> *Devi scrivere da 100 a 120 parole.*
+
+**1.** Hai acquistato un abbonamento da 240 euro per sei spettacoli al Teatro Aurora, con posti in platea. Due rappresentazioni, previste il 7 e il 21 ottobre, sono state trasferite in una sala periferica non accessibile con i mezzi pubblici serali; per la prima hai inoltre ricevuto un posto con visibilità limitata. Scrivi alla direzione: ricostruisci i fatti, descrivi i disagi, chiedi una soluzione equivalente o un rimborso parziale e indica un termine per la risposta.
+
+**2.** La tua associazione ha affittato dal Comune un locale in via Verdi per organizzare corsi serali. Da dieci giorni l'impianto di riscaldamento non funziona e, nonostante due segnalazioni, non è stato effettuato alcun intervento; hai già dovuto annullare tre lezioni e rimborsare gli iscritti. Scrivi all'Ufficio Patrimonio: documenta il problema, quantifica le conseguenze, chiedi una riparazione urgente e una riduzione del canone, specificando entro quando desideri ricevere risposta.
+
+*Traccia scelta: ☐ 1 ☐ 2 — Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 20**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: scegli una traccia, prepara nel tempo indicato e parla ad alta voce rispettando la durata, poi confrontati con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Conversazione faccia a faccia. Scegli una delle seguenti situazioni. Hai 2-3 minuti per prepararti.*
+> *Durata della conversazione: 3-4 minuti circa.*
+
+**1.** Hai soggiornato per tre notti in un albergo che pubblicizzava camere silenziose e accessibili, ma l’ascensore è rimasto guasto e i lavori notturni ti hanno impedito di riposare. Parla con il direttore: descrivi con precisione i disagi, contesta il conto e proponi una forma di rimborso adeguata.
+
+**2.** Nel tuo quartiere la biblioteca comunale chiuderà per sei mesi per lavori. Incontri l’assessore alla cultura durante un’assemblea pubblica: chiedi chiarimenti sul progetto, illustra le conseguenze per studenti e anziani e proponi un servizio temporaneo alternativo.
+
+**3.** L’azienda per cui lavori intende abolire completamente il lavoro da remoto. Ne discuti con una collega che approva la decisione perché ritiene indispensabile la presenza in ufficio. Confrontate le vostre posizioni e cercate una soluzione che concili collaborazione, produttività e bisogni personali.
+
+**4.** Fai parte di un’associazione che organizza un festival gratuito in una piazza. Il responsabile di un esercizio commerciale teme rumore e perdita di clienti. Negozia orari, accessi e misure di sicurezza per raggiungere un accordo vantaggioso per entrambe le parti.
+
+## Produzione orale — Prova n. 2
+
+> *Parlato faccia a faccia monodirezionale. Esponi uno dei seguenti temi. Hai 3 minuti per prepararti.*
+> *Durata dell'esposizione: 2-3 minuti circa.*
+
+**1. Trasparenza degli algoritmi.** Sistemi automatici aiutano già a selezionare candidati, concedere prestiti e distribuire servizi. Rifletti sui vantaggi di queste tecnologie e sul diritto delle persone a comprendere e contestare le decisioni che le riguardano.
+
+**2. Abitare nei centri storici.** La crescita degli affitti brevi può favorire il turismo, ma anche ridurre le case disponibili per i residenti. Esponi possibili criteri per conciliare economia locale, diritto all’abitazione e tutela dei quartieri.
+
+**3. Il diritto alla disconnessione.** Messaggi e riunioni online rendono il lavoro flessibile, ma possono prolungarlo oltre l’orario previsto. Argomenta se siano necessarie regole più rigorose e indica quali responsabilità spettino alle aziende e ai lavoratori.
+
+**4. La scienza partecipata.** In alcuni progetti i cittadini raccolgono dati su aria, biodiversità o consumi energetici. Valuta opportunità e limiti di questa collaborazione tra esperti e non esperti e spiega a quali condizioni i dati possono diventare affidabili e utili.
+
+---
+
+# Foglio delle risposte
+
+**Comprensione della lettura — Prova n. 1** *(annerisci una lettera per riga)*
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 1 | ○ | ○ | ○ | ○ |
+| 2 | ○ | ○ | ○ | ○ |
+| 3 | ○ | ○ | ○ | ○ |
+| 4 | ○ | ○ | ○ | ○ |
+| 5 | ○ | ○ | ○ | ○ |
+| 6 | ○ | ○ | ○ | ○ |
+| 7 | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 2** *(V = vero, F = falso)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| V | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| F | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 3** *(scrivi la lettera della parte per ogni posizione; le posizioni 1 e 9 sono date)*
+
+| Posizione | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Parte | A |  |  |  |  |  |  |  | I |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 1 e Prova n. 2** *(scrivi la risposta in STAMPATELLO)*
+
+| n. | Prova 1 | Prova 2 | n. | Prova 1 | Prova 2 |
+|---|---|---|---|---|---|
+| 1 |  |  | 11 |  |  |
+| 2 |  |  | 12 |  |  |
+| 3 |  |  | 13 |  |  |
+| 4 |  |  | 14 |  |  |
+| 5 |  |  | 15 |  |  |
+| 6 |  |  | 16 |  |  |
+| 7 |  |  | 17 |  |  |
+| 8 |  |  | 18 |  |  |
+| 9 |  |  | 19 |  |  |
+| 10 |  |  | 20 |  |  |
+
+**Analisi delle strutture — Prova n. 3** *(annerisci una lettera per riga)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 4** *(riscrivi le frasi per intero, a partire dall'inizio dato)*
+
+| n. | Frase riscritta |
+|---|---|
+| 1 | &nbsp; |
+| 2 | &nbsp; |
+| 3 | &nbsp; |
+| 4 | &nbsp; |
+| 5 | &nbsp; |
+| 6 | &nbsp; |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*

@@ -1,0 +1,118 @@
+1. ANSWERS
+
+```json
+{
+  "S1.1": {"answer": "di", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "Il", "confidence": "hi"},
+  "S1.4": {"answer": "da", "confidence": "hi"},
+  "S1.5": {"answer": "a", "confidence": "hi"},
+  "S1.6": {"answer": "con", "confidence": "hi"},
+  "S1.7": {"answer": "in", "confidence": "hi"},
+  "S1.8": {"answer": "con", "confidence": "hi"},
+  "S1.9": {"answer": "con", "confidence": "hi"},
+  "S1.10": {"answer": "con", "confidence": "hi"},
+  "S2.1": {"answer": "frequentavo", "confidence": "hi"},
+  "S2.2": {"answer": "guardavo", "confidence": "hi"},
+  "S2.3": {"answer": "tornavano", "confidence": "hi"},
+  "S2.4": {"answer": "raccontavano", "confidence": "hi"},
+  "S2.5": {"answer": "parlavano", "confidence": "hi"},
+  "S2.6": {"answer": "pensavo", "confidence": "hi"},
+  "S2.7": {"answer": "vedevo", "confidence": "hi"},
+  "S2.8": {"answer": "ho", "confidence": "hi"},
+  "S2.9": {"answer": "ha", "confidence": "hi"},
+  "S2.10": {"answer": "abbiamo iniziato", "confidence": "hi"}
+}
+```
+
+2. FLAGS
+
+```json
+[]
+```
+
+3. WRITING checks
+
+No writing or oral tasks are present in the supplied file. No word-range or self-containment checks apply.
+
+Reading additional input from stdin...
+OpenAI Codex v0.146.0
+--------
+workdir: /private/tmp
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a02277-e9fc-7000-906a-5c715c281eb2
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-08-21-A2-s1-s2/paper.md using ONLY that file. The file contains only selected prove extracted from the paper; solve every item in it. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. For every multiple-choice item answer with the option LETTER ONLY (A, B, C or D) exactly as labelled in the paper, never with the option's word or phrase. Do not open any other file or the web.
+codex
+I’ll inspect only the specified `paper.md`, solve every included item, and keep writing/oral tasks out of the objective answer key.
+exec
+/bin/zsh -lc "sed -n '1,260p' /tmp/cils-blind-2026-08-21-A2-s1-s2/paper.md" in /private/tmp
+ succeeded in 0ms:
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### Al Cantuccio
+
+__I (0)__ balconi fioriti si affacciano sul dehor del bar nella piazzetta al centro __(1)__ Scopello, un tranquillo paese ai piedi dei verdi declivi dell'Alpe __(2)__ Mera, stazione sciistica e centro per escursioni. __(3)__ Residence Al Cantuccio offre quindici unità abitative __(4)__ due __(5)__ quattro posti letto e due mansarde da cinque posti letto. Monolocali __(6)__ cucina o camere arredati __(7)__ legno __(8)__ bagno e balcone privati, oltre ai servizi di TV satellitare, ascensore al piano e parcheggio riservato. Nel tepore del caminetto e __(9)__ un buon vino in tavola, il piacevole ristorante vi delizierà __(10)__ una cucina tradizionale e raffinata.
+
+
+---
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### IL MIO ANNO DEI TRENTA
+
+A metà degli anni 2000, mentre *(frequentare)* __(1)__ le elementari, dopo ogni vacanza di Natale o di Pasqua di solito *(guardare)* __(2)__ le mie maestre Carla ed Elena. Loro *(tornare)* __(3)__ sempre abbronzate e rilassate e ogni volta *(raccontare)* __(4)__ dei viaggi con i fidanzati: Santo Domingo o Egitto. Mentre loro *(parlare)* __(5)__, in quei momenti, tra me e me di solito *(pensare)* __(6)__ ai miei trent'anni e, ogni volta, non *(vedere)* __(7)__ l'ora di andare anch'io in luoghi esotici. Oggi, nel 2026, questo *(essere)* __è (0)__ il mio anno dei trenta. Adesso *(avere)* __(8)__ trent'anni ed è il momento di agire. Arianna, invece, adesso *(avere)* __(9)__ già trent'anni. Finora, nel 2026, io e Arianna *(iniziare)* __(10)__ a pensare a una fuga tropicale per i mesi più freddi.
+
+codex
+1. ANSWERS
+
+```json
+{
+  "S1.1": {"answer": "di", "confidence": "hi"},
+  "S1.2": {"answer": "di", "confidence": "hi"},
+  "S1.3": {"answer": "Il", "confidence": "hi"},
+  "S1.4": {"answer": "da", "confidence": "hi"},
+  "S1.5": {"answer": "a", "confidence": "hi"},
+  "S1.6": {"answer": "con", "confidence": "hi"},
+  "S1.7": {"answer": "in", "confidence": "hi"},
+  "S1.8": {"answer": "con", "confidence": "hi"},
+  "S1.9": {"answer": "con", "confidence": "hi"},
+  "S1.10": {"answer": "con", "confidence": "hi"},
+  "S2.1": {"answer": "frequentavo", "confidence": "hi"},
+  "S2.2": {"answer": "guardavo", "confidence": "hi"},
+  "S2.3": {"answer": "tornavano", "confidence": "hi"},
+  "S2.4": {"answer": "raccontavano", "confidence": "hi"},
+  "S2.5": {"answer": "parlavano", "confidence": "hi"},
+  "S2.6": {"answer": "pensavo", "confidence": "hi"},
+  "S2.7": {"answer": "vedevo", "confidence": "hi"},
+  "S2.8": {"answer": "ho", "confidence": "hi"},
+  "S2.9": {"answer": "ha", "confidence": "hi"},
+  "S2.10": {"answer": "abbiamo iniziato", "confidence": "hi"}
+}
+```
+
+2. FLAGS
+
+```json
+[]
+```
+
+3. WRITING checks
+
+No writing or oral tasks are present in the supplied file. No word-range or self-containment checks apply.
+tokens used
+12,232

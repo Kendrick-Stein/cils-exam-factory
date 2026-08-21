@@ -1,0 +1,326 @@
+---
+exam: CILS
+level: A2
+level_name: "CILS A2"
+session: "2026-08-21"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello A2 — Prova di esercitazione · 21 agosto 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello degli esami CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Punteggio per abilità: massimo 12, sufficienza 7.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 12**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### Potrà frequentare la prima media a Filicudi la scolara che aveva scritto a Meloni
+
+“A Filicudi ha vinto il diritto allo studio”. Con questa frase genitori, docenti e alunni hanno accolto la notizia che Anastasia Tiziana, 10 anni, potrà il prossimo anno scolastico frequentare la prima media nella sua isola, dopo la soluzione trovata dalla dirigente scolastica dell'Istituto comprensivo Isole Eolie, Patrizia Muscolino.
+
+La notizia, arrivata proprio mentre nella piccola scuola isolana si stava festeggiando la fine dell'anno scolastico, chiude una vicenda che si trascinava da diversi mesi, tra richieste, da parte della mamma della bambina Linda, dell'apertura di un Corso preparazione esami sull'isola, spiragli e dinieghi.
+
+Il lieto fine di questa vicenda, oltre che dalle dirette interessate, è stata accolta con grande gioia nell'isola eoliana anche perché “apre una porta” per situazioni analoghe che si verificheranno nei prossimi anni quando altri scolari saranno chiamati a compiere il salto dalle elementari alla scuola media: due a conclusione dell'anno scolastico 2026/27.
+
+Raggiante e consapevole di aver centrato un importante obiettivo per il futuro didattico della sua bambina è mamma Linda: “Io e Anastasia Tiziana ringraziamo quanti, a vari livelli, si sono impegnati affinché venisse trovata una giusta soluzione, garantendo il diritto allo studio senza doversi sobbarcare trasferimenti che avrebbero pesato su di noi”.
+
+> *Completa le seguenti frasi. Scegli una delle tre proposte di completamento che ti diamo per ogni frase. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 1 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. Il prossimo anno scolastico Anastasia Tiziana potrà**
+
+A) frequentare la prima media nella sua isola.
+
+B) continuare la scuola elementare in un'altra isola.
+
+C) preparare gli esami a casa con sua madre.
+
+**2. La soluzione per Anastasia Tiziana è stata trovata**
+
+A) dai genitori degli alunni della scuola.
+
+B) dalla dirigente dell'Istituto comprensivo.
+
+C) dagli scolari che finiranno le elementari.
+
+**3. La notizia è arrivata mentre nella scuola**
+
+A) iniziava il nuovo anno scolastico.
+
+B) apriva un corso di preparazione.
+
+C) si festeggiava la fine dell'anno.
+
+**4. La decisione è importante anche per il futuro perché**
+
+A) rende più facili i trasferimenti tra le isole.
+
+B) può aiutare altri scolari in situazioni simili.
+
+C) permette a Linda di lavorare nella scuola.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### AVVISO PUBBLICO PER LA GESTIONE DI ALCUNI CENTRI DI INCONTRO DELLA CIRCOSCRIZIONE 5
+
+Individuazione di Associazioni o raggruppamenti di Associazioni interessati alla Gestione sperimentale di alcuni Centri di incontro della Circoscrizione 5.
+
+Integrazione pubblicata il 9 aprile 2026
+
+Il giorno mercoledì 15 aprile 2026 alle ore 14:00, in modalità da remoto, le Associazioni interessate sono invitate ad un incontro di presentazione dell'Avviso Pubblico per la gestione di alcuni Centri di incontro della Circoscrizione 5 e delle relative modalità di partecipazione.
+
+In applicazione del Capo III bis del Regolamento cittadino dei Centri d’incontro n. 372 e del Regolamento per l’acquisizione gestione e valorizzazione dei beni immobili n. 397 la Circoscrizione 5 ha indetto una procedura ad evidenza pubblica per la ricerca di Soggetti Proponenti interessati a sperimentare la gestione di alcuni Centri d’Incontro.
+
+Tutte le informazioni sono contenute nell’avviso e nei documenti in allegato. Le istanze devono pervenire entro e non oltre le ore 12:00 del giorno 15 maggio 2026 a mezzo posta elettronica certificata (PEC) al seguente indirizzo di posta elettronica: circoscrizione.v@cert.comune.torino.it
+
+> *Leggi le seguenti informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,5 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1.** L’avviso è rivolto alle singole Associazioni, ma non ai raggruppamenti di Associazioni.  
+Vero ○ Falso ○
+
+**2.** Le Associazioni possono sperimentare la gestione di alcuni Centri di incontro.  
+Vero ○ Falso ○
+
+**3.** L’integrazione è stata pubblicata il 9 aprile 2026.  
+Vero ○ Falso ○
+
+**4.** L’incontro del 15 aprile si svolge in presenza.  
+Vero ○ Falso ○
+
+**5.** Durante l’incontro sono presentate anche le modalità di partecipazione.  
+Vero ○ Falso ○
+
+**6.** La procedura riguarda la gestione di tutti i Centri d’Incontro della Circoscrizione 5.  
+Vero ○ Falso ○
+
+**7.** Le informazioni si trovano nell’avviso e nei documenti allegati.  
+Vero ○ Falso ○
+
+**8.** Il termine per inviare le istanze è il 15 aprile 2026.  
+Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi i testi. Scegli tra i testi da A a H i sei che completano i testi da 1 a 6. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — ~0,67 punti per ogni abbinamento esatto; punti 0 per ogni abbinamento sbagliato o omesso.*
+
+○ **1. Il cielo in una stanza 3.0**
+
+Spettacoli al Planetario. Tutti i mercoledì di luglio e agosto, ore 11.00.
+
+○ **2. Filmati a tutta cupola**
+
+Proiezioni fulldome al Planetario per tutte le età e KIDS per i più piccoli. Ogni sabato, ore 16.00 e ore 17.00.
+
+○ **3. Sulle tracce dei dinosauri**
+
+Visite guidate al sito paleontologico dei Lavini di Marco. 13 e 27 giugno, 11 e 25 luglio, ore 8.00-10.00.
+
+○ **4. Un sabato con il sole sul Monte Zugna**
+
+Osservazioni del cielo diurno all’Osservatorio astronomico di Monte Zugna. 27 giugno, 18 luglio, 22 agosto e 26 settembre.
+
+○ **5. Tartarugando a Sperimentarea**
+
+Conoscere e nutrire le testuggini di terra e di acqua. Tutti i giovedì dal 18 giugno al 10 settembre, ore 9.00 e 10.15.
+
+○ **6. Esplorazioni sull’Isola dei Tesori**
+
+Visita guidata al sito archeologico dell’Isola di Sant’Andrea a Loppio (Mori). 20 giugno, 18 luglio, 1 agosto e 5 settembre, ore 10.00.
+
+---
+
+**A.** Il giovedì mattina i partecipanti possono conoscere e nutrire le testuggini di terra e di acqua.
+
+**B.** Questa attività permette di osservare il cielo durante il giorno all'Osservatorio astronomico di Monte Zugna.
+
+**C.** Il sabato pomeriggio il Planetario propone due proiezioni, una alle 16.00 e una alle 17.00.
+
+**D.** Le visite ai dinosauri si svolgono ogni giovedì alle 9.00 e alle 10.15, fino a settembre.
+
+**E.** La visita all'Isola di Sant'Andrea parte alle 10.00 in quattro date tra giugno e settembre.
+
+**F.** Gli spettacoli del mercoledì si tengono alle 11.00 durante i mesi di luglio e agosto.
+
+**G.** Le osservazioni del cielo diurno iniziano alle 8.00 ai Lavini di Marco nei mesi estivi.
+
+**H.** Le visite al sito paleontologico durano dalle 8.00 alle 10.00 in quattro giornate tra giugno e luglio.
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 12**
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### Al Cantuccio
+
+__I (0)__ balconi fioriti si affacciano sul dehor del bar nella piazzetta al centro __(1)__ Scopello, un tranquillo paese ai piedi dei verdi declivi dell'Alpe __(2)__ Mera, stazione sciistica e centro per escursioni. __(3)__ Residence Al Cantuccio offre quindici unità abitative __(4)__ due __(5)__ quattro posti letto e due mansarde da cinque posti letto. Monolocali __(6)__ cucina o camere arredati __(7)__ legno __(8)__ bagno e balcone privati, oltre ai servizi di TV satellitare, ascensore al piano e parcheggio riservato. Nel tepore del caminetto e __(9)__ un buon vino in tavola, il piacevole ristorante vi delizierà __(10)__ una cucina tradizionale e raffinata.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### IL MIO ANNO DEI TRENTA
+
+A metà degli anni 2000, mentre *(frequentare)* __(1)__ le elementari, dopo ogni vacanza di Natale o di Pasqua di solito *(guardare)* __(2)__ le mie maestre Carla ed Elena. Loro *(tornare)* __(3)__ sempre abbronzate e rilassate e ogni volta *(raccontare)* __(4)__ dei viaggi con i fidanzati: Santo Domingo o Egitto. Mentre loro *(parlare)* __(5)__, in quei momenti, tra me e me di solito *(pensare)* __(6)__ ai miei trent'anni e, ogni volta, non *(vedere)* __(7)__ l'ora di andare anch'io in luoghi esotici. Oggi, nel 2026, questo *(essere)* __è (0)__ il mio anno dei trenta. Adesso *(avere)* __(8)__ trent'anni ed è il momento di agire. Arianna, invece, adesso *(avere)* __(9)__ già trent'anni. Finora, nel 2026, io e Arianna *(iniziare)* __(10)__ a pensare a una fuga tropicale per i mesi più freddi.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 4 — punti 0,5 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### MOUNTAIN BIKE MARATHON WORLD CHAMPIONSHIPS 2026
+
+Nel 2026 Primiero-San Martino di Castrozza ospiterà il Campionato del Mondo UCI Marathon, un __evento (0)__ che per la prima volta vedrà __(1)__, nello stesso weekend e sullo stesso __(2)__, sia la categoria Elite che la Master.
+
+Programma
+
+Dalle ore 9.00 alle ore 17.00: ispezione __(3)__ da parte della __(4)__ UCI/FCI.
+
+Dalle ore 09.00 alle ore 19.00: Mythos Bike & Tech Expo.
+
+Dalle ore 15.00 alle ore 18.00: __(5)__ __(6)__ e consegna __(7)__ categorie Elite/Pass.
+
+Ore 17.00: Presentazione Stampa.
+
+Ore 17.30: Team Manager Meeting.
+
+Ore 18.00: Cerimonia di __(8)__.
+
+| n. | A | B | C |
+|---|---|---|---|
+| 0. | ~~evento~~ | orario | accredito |
+| 1. | spettatori | protagonisti | allenatori |
+| 2. | tracciato | spettacolo | stadio |
+| 3. | partenza | accrediti | percorso |
+| 4. | squadra | giuria | stampa |
+| 5. | registrazione | premiazione | partenza |
+| 6. | giornalisti | manager | atleti |
+| 7. | biciclette | accrediti | medaglie |
+| 8. | Chiusura | Premiazione | Apertura |
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 40 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 12**
+
+## Produzione scritta — Prova n. 1
+
+> *Hai trascorso una giornata speciale fuori casa. Racconta dove sei andato/a, con chi eri, che cosa hai fatto e perché ti è piaciuta.*
+> *Devi scrivere da 40 a 60 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Organizzi un pranzo per il tuo compleanno. Scrivi un messaggio a un amico o a un'amica: invitalo/a, indica giorno e ora e chiedi di portare qualcosa.*
+> *Devi scrivere da 25 a 40 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 12**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: rispondi ad alta voce rispettando la durata indicata, poi confronta le tue risposte con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Dialogo con l'esaminatore. Rispondi alle domande.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Quale strumento usi più spesso per lavorare o studiare? Spiega perché ti è utile.
+
+**2.** Quando fai la spesa, preferisci il mercato o il supermercato? Che cosa hai comprato l'ultima volta?
+
+**3.** Come organizzi la pausa pranzo nei giorni di lavoro o di studio?
+
+**4.** Come vai di solito al lavoro o a scuola? Che cosa fai quando c'è molto traffico?
+
+**5.** Racconta un piccolo problema che hai avuto durante un viaggio o una vacanza. Come lo hai risolto?
+
+**6.** Dove andrai per la tua prossima vacanza e come organizzerai il viaggio?
+
+## Produzione orale — Prova n. 2
+
+> *Parla di uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Racconta la prima volta che hai preparato un piatto nuovo: spiega quale ricetta hai scelto, chi era con te e com'è andata.
+
+**2.** Descrivi le tue abitudini della sera prima di una giornata importante: parla di quello che prepari, dell'ora in cui vai a dormire e di come ti senti.
+
+---
+
+# Foglio delle risposte
+
+**Lettura — Prova n. 1** | **Prova n. 2** | **Prova n. 3**
+
+| n. | A/B/C | | n. | V/F | n. | V/F | | n. | A–H |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 |  | | 1 |  | 5 |  | | 1 |  |
+| 2 |  | | 2 |  | 6 |  | | 2 |  |
+| 3 |  | | 3 |  | 7 |  | | 3 |  |
+| 4 |  | | 4 |  | 8 |  | | 4 |  |
+|  |  | |  |  |  |  | | 5 |  |
+|  |  | |  |  |  |  | | 6 |  |
+
+**Strutture — Prova n. 1 e n. 2** *(scrivi la risposta in STAMPATELLO)* | **Prova n. 3**
+
+| n. | Prova 1 | Prova 2 | | n. | Prova 1 | Prova 2 | | n. | A/B/C |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 |  |  | | 6 |  |  | | 1 |  |
+| 2 |  |  | | 7 |  |  | | 2 |  |
+| 3 |  |  | | 8 |  |  | | 3 |  |
+| 4 |  |  | | 9 |  |  | | 4 |  |
+| 5 |  |  | | 10 |  |  | | 5 |  |
+|  |  |  | |  |  |  | | 6 |  |
+|  |  |  | |  |  |  | | 7 |  |
+|  |  |  | |  |  |  | | 8 |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*

@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "LA SCUOLA RIPARTE INSIEME / 2 – IL BANDO",
+    "T2_TEXT": "Domande esclusivamente online, partecipazione gratuita, priorità ai bambini con disabilità certificata e assegnazione dei posti fino a esaurimento della disponibilità.\n\nSono questi i principali elementi dell'avviso pubblico con cui il Comune di Modena disciplina le iscrizioni a \"La scuola riparte insieme\", il progetto sperimentale promosso dalla Regione Emilia-Romagna che consentirà agli alunni delle scuole primarie di partecipare, prima dell'inizio dell'anno scolastico, ad attività educative, sportive e laboratoriali negli spazi scolastici.\n\nLe iscrizioni sono aperte da giovedì 16 luglio fino alle ore 12 di giovedì 31 luglio. Per quanto riguarda le scuole primarie statali, le domande dovranno essere presentate esclusivamente attraverso il portale del Comune di Modena (www.comune.modena.it/argomenti/istruzione), accedendo con credenziali Spid, Carta d'identità elettronica (Cie) o Carta nazionale dei servizi (Cns).\n\nLa partecipazione è gratuita e ogni domanda dovrà essere riferita alla scuola frequentata dal bambino nell'anno scolastico 2026-2027.\n\nLe attività si svolgeranno dal 31 agosto all'11 settembre, dal lunedì al venerdì, nella fascia oraria 8.30-12.30, e sono rivolte agli alunni che frequenteranno le classi dalla seconda alla quinta della scuola primaria. Per le scuole primarie paritarie, invece, le attività potranno proseguire fino al 14 settembre e le iscrizioni dovranno essere effettuate direttamente presso i singoli istituti aderenti.\n\nLe famiglie potranno iscrivere i bambini e le bambine esclusivamente nella scuola primaria di riferimento del proprio istituto comprensivo.\n\nLe domande saranno accolte fino a esaurimento dei posti, con priorità ai minori con disabilità certificata; i posti rimanenti saranno assegnati seguendo l'ordine cronologico di presentazione delle richieste. Per gli alunni con disabilità verrà garantito, inoltre, il servizio di assistenza educativa.\n\nLe attività saranno ospitate nelle scuole, nelle palestre e negli altri spazi messi a disposizione dagli istituti comprensivi e comprenderanno laboratori, giochi, esperienze sportive e iniziative ricreative, con l'obiettivo di accompagnare il rientro a scuola attraverso momenti di socialità, benessere e apprendimento.",
+    "L2_ITEMS": "**1.** Il progetto \"La scuola riparte insieme\" è promosso dal Comune di Modena.  \nVero ○ Falso ○\n\n**2.** Gli alunni partecipano alle attività prima dell'inizio dell'anno scolastico.  \nVero ○ Falso ○\n\n**3.** Le iscrizioni terminano alla mezzanotte del 31 luglio.  \nVero ○ Falso ○\n\n**4.** Per le scuole statali, la domanda si presenta sul portale comunale usando una delle credenziali indicate.  \nVero ○ Falso ○\n\n**5.** La partecipazione prevede il pagamento di una quota.  \nVero ○ Falso ○\n\n**6.** La domanda deve riferirsi alla scuola frequentata dal bambino nell'anno scolastico 2026-2027.  \nVero ○ Falso ○\n\n**7.** Dal 31 agosto all'11 settembre le attività si tengono dal lunedì al venerdì, dalle 8.30 alle 12.30.  \nVero ○ Falso ○\n\n**8.** Possono partecipare soltanto gli alunni che frequenteranno la prima o la seconda classe.  \nVero ○ Falso ○\n\n**9.** Nelle scuole paritarie le attività possono continuare fino al 14 settembre.  \nVero ○ Falso ○\n\n**10.** Anche per le scuole paritarie l'iscrizione deve essere fatta sul portale del Comune.  \nVero ○ Falso ○\n\n**11.** Le famiglie possono scegliere liberamente qualsiasi scuola primaria di Modena.  \nVero ○ Falso ○\n\n**12.** Dopo la priorità data ai minori con disabilità certificata, i posti rimanenti seguono l'ordine di presentazione delle richieste.  \nVero ○ Falso ○\n\n**13.** Il bando non garantisce l'assistenza educativa agli alunni con disabilità.  \nVero ○ Falso ○\n\n**14.** Il programma comprende laboratori, giochi, esperienze sportive e iniziative ricreative.  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | F | Il testo distingue il Comune, che \"disciplina le iscrizioni\", dalla Regione Emilia-Romagna, che ha \"promosso\" il progetto. 中文：注意主办方和管理报名的机构不同。 |\n| L2.2 | V | Le attività sono previste \"prima dell'inizio dell'anno scolastico\". 中文：时间关系是开学前。 |\n| L2.3 | F | La scadenza è \"fino alle ore 12 di giovedì 31 luglio\", non a mezzanotte. 中文：陷阱是具体截止时间。 |\n| L2.4 | V | Per le scuole statali le domande vanno presentate \"esclusivamente attraverso il portale del Comune\", con Spid, Cie o Cns. 中文：三种凭证任选其一。 |\n| L2.5 | F | Il testo afferma chiaramente: \"La partecipazione è gratuita\". 中文：gratuita 表示免费。 |\n| L2.6 | V | \"Ogni domanda dovrà essere riferita alla scuola frequentata dal bambino nell'anno scolastico 2026-2027.\" 中文：申请必须对应孩子就读的学校。 |\n| L2.7 | V | Le attività vanno \"dal 31 agosto all'11 settembre, dal lunedì al venerdì\" e nella fascia \"8.30-12.30\". 中文：日期、工作日和上午时段都一致。 |\n| L2.8 | F | Le attività sono rivolte alle classi \"dalla seconda alla quinta\", non soltanto alla prima e alla seconda. 中文：范围是二至五年级。 |\n| L2.9 | V | Per le scuole paritarie le attività \"potranno proseguire fino al 14 settembre\". 中文：paritarie 的结束日期更晚。 |\n| L2.10 | F | Per le paritarie le iscrizioni si effettuano \"direttamente presso i singoli istituti aderenti\". 中文：不是通过市政府网站。 |\n| L2.11 | F | È possibile iscrivere i bambini \"esclusivamente nella scuola primaria di riferimento del proprio istituto comprensivo\". 中文：不能自由选择任意学校。 |\n| L2.12 | V | I posti rimanenti sono assegnati \"seguendo l'ordine cronologico di presentazione delle richieste\". 中文：优先名额之后按提交先后排序。 |\n| L2.13 | F | Il testo precisa: \"Per gli alunni con disabilità verrà garantito, inoltre, il servizio di assistenza educativa.\" 中文：题干与原文直接相反。 |\n| L2.14 | V | Il testo elenca \"laboratori, giochi, esperienze sportive e iniziative ricreative\". 中文：四类活动与原文完全对应。 |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "F || Falso",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "esaurimento",
+      "categoria": "sostantivo maschile",
+      "zh": "用尽；满额",
+      "en": "exhaustion; until filled",
+      "esempio": "Le domande saranno accolte fino a esaurimento dei posti, con priorità ai minori con disabilità certificata; i posti rimanenti saranno assegnati seguendo l'ordine cronologico di presentazione delle richieste."
+    },
+    {
+      "parola": "credenziali",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "登录凭证",
+      "en": "login credentials",
+      "esempio": "Per quanto riguarda le scuole primarie statali, le domande dovranno essere presentate esclusivamente attraverso il portale del Comune di Modena (www.comune.modena.it/argomenti/istruzione), accedendo con credenziali Spid, Carta d'identità elettronica (Cie) o Carta nazionale dei servizi (Cns)."
+    },
+    {
+      "parola": "paritarie",
+      "categoria": "aggettivo femminile plurale",
+      "zh": "获认可的非公立（学校）",
+      "en": "state-recognized private",
+      "esempio": "Per le scuole primarie paritarie, invece, le attività potranno proseguire fino al 14 settembre e le iscrizioni dovranno essere effettuate direttamente presso i singoli istituti aderenti."
+    },
+    {
+      "parola": "istituto comprensivo",
+      "categoria": "locuzione nominale maschile",
+      "zh": "综合学校机构",
+      "en": "comprehensive school institute",
+      "esempio": "Le famiglie potranno iscrivere i bambini e le bambine esclusivamente nella scuola primaria di riferimento del proprio istituto comprensivo."
+    },
+    {
+      "parola": "ordine cronologico",
+      "categoria": "locuzione nominale maschile",
+      "zh": "时间先后顺序",
+      "en": "chronological order",
+      "esempio": "Le domande saranno accolte fino a esaurimento dei posti, con priorità ai minori con disabilità certificata; i posti rimanenti saranno assegnati seguendo l'ordine cronologico di presentazione delle richieste."
+    }
+  ]
+}

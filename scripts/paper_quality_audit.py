@@ -20,6 +20,10 @@ except ImportError:
 
 
 WORD_RE = re.compile(r"\b[\wÀ-ÿ']+\b", re.UNICODE)
+# Cloze gaps are rendered `__(n)__`; WORD_RE would score each one as three words
+# (`__`, `n`, `__`), inflating structure texts by 3 per gap. The exam.yaml bands
+# count the Italian text only (see factory/exams/cils/analysis/*.md), so drop them.
+GAP_RE = re.compile(r"__\(\d+\)__")
 HEADING_RE = re.compile(r"^#{1,2}\s+", re.MULTILINE)
 PROVA_HEADING_RE = re.compile(
     r"^##\s+Comprensione della lettura\s+[—-]\s+Prova n\.\s+(\d+)\s*$",
@@ -203,6 +207,7 @@ def adapted_text_from_block(block: str, stop_table: bool = False) -> str:
     text = re.sub(r"^>\s*.*$", " ", text, flags=re.MULTILINE)
     text = re.sub(r"^\*Testo adattato da:.*$", " ", text, flags=re.IGNORECASE | re.MULTILINE)
     text = re.sub(r"\|", " ", text)
+    text = GAP_RE.sub(" ", text)
     return text.strip()
 
 

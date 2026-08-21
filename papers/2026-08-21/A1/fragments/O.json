@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Dove abiti e con chi vivi?\n\n**2.** Che cosa mangi e bevi di solito a colazione?\n\n**3.** Come vai al lavoro o a scuola e quanto dura il viaggio?\n\n**4.** Che cosa fai quando torni a casa nel pomeriggio?\n\n**5.** Con quale amico passi il tempo libero e che cosa fate insieme?\n\n**6.** Che cosa hai fatto domenica scorsa?",
+    "O2_ARGOMENTI": "**1.** Parla del tuo negozio preferito: dove si trova, che cosa compri, quando ci vai e perché ti piace.\n\n**2.** Racconta una festa di compleanno recente: dove è stata, chi era presente e che cosa avete fatto."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Dove abiti e con chi vivi?**\n\n*Esaminatore:* Dove abiti e con chi vivi?\n\n*Candidato:* Abito in un appartamento in centro. Vivo con mia moglie e nostro figlio.\n\n**2. Che cosa mangi e bevi di solito a colazione?**\n\n*Esaminatore:* Che cosa mangi e bevi di solito a colazione?\n\n*Candidato:* Di solito mangio pane e marmellata. Bevo una tazza di latte.\n\n**3. Come vai al lavoro o a scuola e quanto dura il viaggio?**\n\n*Esaminatore:* Come vai al lavoro o a scuola e quanto dura il viaggio?\n\n*Candidato:* Vado al lavoro in bicicletta. Il viaggio dura circa quindici minuti.\n\n**4. Che cosa fai quando torni a casa nel pomeriggio?**\n\n*Esaminatore:* Che cosa fai quando torni a casa nel pomeriggio?\n\n*Candidato:* Quando torno a casa, preparo un tè e riposo. Poi telefono a mia madre.\n\n**5. Con quale amico passi il tempo libero e che cosa fate insieme?**\n\n*Esaminatore:* Con quale amico passi il tempo libero e che cosa fate insieme?\n\n*Candidato:* Passo il tempo libero con Luca. Insieme passeggiamo nel parco e parliamo.\n\n**6. Che cosa hai fatto domenica scorsa?**\n\n*Esaminatore:* Che cosa hai fatto domenica scorsa?\n\n*Candidato:* Domenica scorsa ho visitato un museo con due amici. Dopo abbiamo mangiato una pizza.",
+    "MODEL_O1_PHRASES": "Abito a…（我住在……） · Di solito…（通常……） · Il viaggio dura…（路程需要……） · Domenica scorsa ho…（上周日我……了）",
+    "MODEL_O2": "**Argomento n. 1 — Il mio negozio preferito**\n\nIl mio negozio preferito è una piccola libreria vicino alla stazione. Ci vado una volta al mese, di solito il sabato mattina. Compro libri facili in italiano e qualche quaderno. La commessa è gentile e mi aiuta a scegliere. Mi piace questo negozio perché è tranquillo, luminoso e ha molti libri interessanti. Dopo gli acquisti, bevo un caffè al bar accanto.\n\n**Argomento n. 2 — Una festa di compleanno recente**\n\nSabato scorso sono andato alla festa di compleanno di Marco. La festa è stata a casa sua e c'erano otto amici. Abbiamo mangiato panini, una torta al cioccolato e della frutta. Poi abbiamo ascoltato musica e giocato a carte. Io ho regalato a Marco un libro. Sono tornato a casa alle undici. È stata una serata allegra e divertente.",
+    "MODEL_O2_PHRASES": "Il mio posto preferito è…（我最喜欢的地方是……） · Ci vado…（我去那里……） · Sabato scorso sono andato…（上周六我去了……） · Poi abbiamo…（然后我们……了）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "marmellata",
+      "categoria": "nome",
+      "zh": "果酱",
+      "en": "jam",
+      "esempio": "Di solito mangio pane e marmellata."
+    },
+    {
+      "parola": "bicicletta",
+      "categoria": "nome",
+      "zh": "自行车",
+      "en": "bicycle",
+      "esempio": "Vado al lavoro in bicicletta."
+    },
+    {
+      "parola": "libreria",
+      "categoria": "nome",
+      "zh": "书店",
+      "en": "bookshop",
+      "esempio": "Il mio negozio preferito è una piccola libreria vicino alla stazione."
+    },
+    {
+      "parola": "commessa",
+      "categoria": "nome",
+      "zh": "女店员",
+      "en": "shop assistant",
+      "esempio": "La commessa è gentile e mi aiuta a scegliere."
+    },
+    {
+      "parola": "allegra",
+      "categoria": "aggettivo",
+      "zh": "欢乐的",
+      "en": "cheerful",
+      "esempio": "È stata una serata allegra e divertente."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "CNR - UNIONCAMERE: ALLEANZA PER PORTARE LA RICERCA A \"CASA\" DELLE IMPRESE",
+    "S3_TEXT_WITH_GAPS": "__(0)__ la distanza tra ricerca e imprese, valorizzare le eccellenze scientifiche e accelerare il trasferimento di conoscenze: è l’__(1)__ dell’Accordo CNR-Unioncamere, approvato dal Consiglio di Amministrazione delle due istituzioni.\n\nL’Intesa rinnova ed __(2)__ una collaborazione __(3)__ da anni, __(4)__ a trasferire tecnologie d’avanguardia nel cuore del sistema produttivo italiano. Mentre crescono del 60% in 10 anni le pubblicazioni scientifiche italiane di alta qualità e di altrettanto quelle di area Stem, i __(5)__ della ricerca faticano ancora ad __(6)__ nel tessuto produttivo nazionale: spesso le imprese, __(7)__ da __(8)__ di risorse umane e finanziarie, faticano persino a identificare i propri bisogni di innovazione.\n\nBanco di prova delle azioni previste dall’Accordo saranno un nucleo di 30mila piccole e medie imprese __(9)__ di un elevato __(10)__ innovativo. Si tratta di soggetti __(11)__ da un __(12)__ dinamismo, con tassi di crescita medi superiori al 15% annuo, una __(13)__ propensione alla tutela brevettuale e una forte proiezione sui mercati internazionali.\n\n“Questo accordo rappresenta un passo in avanti per avvicinare la ricerca al sistema produttivo e __(14)__ un modello di sviluppo fondato __(15)__ tra scienza e impresa, bilateralmente”, afferma Andrea Lenzi, Presidente del Consiglio nazionale delle ricerche.",
+    "S3_OPT0_A": "Accorciare",
+    "S3_OPT0_B": "Aumentare",
+    "S3_OPT0_C": "Conservare",
+    "S3_OPT0_D": "Ignorare",
+    "S3_OPTION_ROWS": "| 1. | conseguenza | obiettivo | ostacolo | effetto |\n| 2. | limita | annulla | sospende | amplia |\n| 3. | in atto | in dubbio | in ritardo | in pericolo |\n| 4. | contraria | estranea | diretta | indifferente |\n| 5. | metodi | risultati | strumenti | settori |\n| 6. | galleggiare | decollare | viaggiare | atterrare |\n| 7. | frenate | favorite | aiutate | sostenute |\n| 8. | abbondanza | disponibilità | limiti | presenza |\n| 9. | prive | dotate | carenti | bisognose |\n| 10. | costo | rischio | fabbisogno | potenziale |\n| 11. | protetti | separati | contraddistinti | esclusi |\n| 12. | marcato | debole | modesto | ridotto |\n| 13. | limitata | debole | scarsa | spiccata |\n| 14. | abbandonare | rafforzare | superare | indebolire |\n| 15. | sulla competizione | sulla separazione | sull’integrazione | sulla distanza |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «È l’obiettivo dell’Accordo»: l’elenco iniziale presenta proprio gli scopi dell’intesa. 中文：不是已经发生的“结果”。 |\n| S3.2 | D | «rinnova ed amplia una collaborazione»: i due verbi indicano continuità e sviluppo. 中文：“rinnova”与“amplia”语义同向。 |\n| S3.3 | A | «una collaborazione in atto da anni» è la locuzione che indica un’attività già operativa. 中文：表示“多年来一直在进行”。 |\n| S3.4 | C | La collaborazione è «diretta a trasferire tecnologie», cioè ha questo obiettivo. 中文：“diretta a”表示“旨在”。 |\n| S3.5 | B | Sono i «risultati della ricerca» che devono arrivare nel sistema produttivo, non i metodi o i settori. 中文：这里指科研成果的转化。 |\n| S3.6 | D | «atterrare nel tessuto produttivo» descrive metaforicamente i risultati che raggiungono le imprese. 中文：“atterrare”表示成果真正落地。 |\n| S3.7 | A | Le imprese sono «frenate da limiti» di risorse: i limiti ostacolano, non aiutano. 中文：限制会阻碍企业。 |\n| S3.8 | C | «limiti di risorse umane e finanziarie» spiega perché le imprese faticano. 中文：后文给出困难的原因。 |\n| S3.9 | B | Le imprese sono «dotate di un elevato potenziale innovativo»; le caratteristiche successive lo confermano. 中文：“dotate di”表示“具备”。 |\n| S3.10 | D | La collocazione è «potenziale innovativo», coerente con crescita, brevetti e mercati internazionali. 中文：这里说的是创新潜力。 |\n| S3.11 | C | I soggetti sono «contraddistinti da» alcune caratteristiche che li distinguono. 中文：“contraddistinti da”表示“以……为特征”。 |\n| S3.12 | A | Il «marcato dinamismo» è confermato dai tassi di crescita superiori al 15%. 中文：“marcato”表示显著。 |\n| S3.13 | D | «spiccata propensione alla tutela brevettuale» descrive una tendenza forte e riconoscibile. 中文：“spiccata propensione”是固定搭配。 |\n| S3.14 | B | L’accordo vuole «avvicinare la ricerca» e «rafforzare un modello di sviluppo»: entrambi sono obiettivi positivi. 中文：两个不定式目标方向一致。 |\n| S3.15 | C | Il modello è «fondato sull’integrazione tra scienza e impresa», coerente con l’idea di avvicinarle. 中文：强调科学与企业的融合。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "D",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "C",
+    "S3.12": "A",
+    "S3.13": "D",
+    "S3.14": "B",
+    "S3.15": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tecnologie d’avanguardia",
+      "categoria": "locuzione nominale",
+      "zh": "前沿技术",
+      "en": "cutting-edge technologies",
+      "esempio": "trasferire tecnologie d’avanguardia nel cuore del sistema produttivo italiano"
+    },
+    {
+      "parola": "tessuto produttivo",
+      "categoria": "locuzione nominale",
+      "zh": "生产体系",
+      "en": "productive fabric",
+      "esempio": "ad atterrare nel tessuto produttivo nazionale"
+    },
+    {
+      "parola": "bisogni di innovazione",
+      "categoria": "locuzione nominale",
+      "zh": "创新需求",
+      "en": "innovation needs",
+      "esempio": "i propri bisogni di innovazione"
+    },
+    {
+      "parola": "tutela brevettuale",
+      "categoria": "locuzione nominale",
+      "zh": "专利保护",
+      "en": "patent protection",
+      "esempio": "alla tutela brevettuale"
+    },
+    {
+      "parola": "proiezione sui mercati internazionali",
+      "categoria": "locuzione nominale",
+      "zh": "面向国际市场的发展",
+      "en": "international market reach",
+      "esempio": "una forte proiezione sui mercati internazionali"
+    }
+  ]
+}

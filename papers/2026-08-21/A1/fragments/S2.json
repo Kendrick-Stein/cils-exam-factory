@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "STATI UNITI CON BAMBINI: UN SOGNO CHE SI REALIZZA",
+    "S2_TEXT_WITH_GAPS": "Il mio sogno *(essere)* __è (0)__ andare in America. Fino a oggi, il 25 aprile 2014 io *(realizzare)* __(1)__ questo sogno. In questi anni io, mio marito e Gabriele *(partire)* __(2)__ presto da Savona. Oggi io *(abitare)* __(3)__ a Savona. Fino a oggi noi *(arrivare)* __(4)__ a Milano Malpensa. Da Milano, con un volo American Airlines, in questi anni noi *(partire)* __(5)__ per New York. Fino a oggi Gabriele *(viaggiare)* __(6)__ con noi. Fino a oggi il viaggio *(durare)* __(7)__ due settimane ed *(essere)* __(8)__ il primo in un altro continente. In questi anni noi *(viaggiare)* __(9)__ in un altro continente. Finora Gabriele *(viaggiare)* __(10)__ anche in Europa."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ho realizzato | passato prossimo | S2.6 | ha viaggiato | passato prossimo |\n| S2.2 | siamo partiti | passato prossimo | S2.7 | è durato | passato prossimo |\n| S2.3 | abito | presente indicativo | S2.8 | è stato | passato prossimo |\n| S2.4 | siamo arrivati | passato prossimo | S2.9 | abbiamo viaggiato | passato prossimo |\n| S2.5 | siamo partiti | passato prossimo | S2.10 | ha viaggiato | passato prossimo |",
+    "ANS_S2_NOTES": "- **S2.1:** «Fino a oggi» collega l'esperienza al presente e richiede **ho realizzato**. 中文：截至今日的时间范围锁定近过去时。\n- **S2.2:** «In questi anni» richiede **siamo partiti**; il soggetto è «io, mio marito e Gabriele». 中文：时间范围延续到现在，复数主语也明确。\n- **S2.3:** «Oggi io» forza il presente e il soggetto di prima persona: **abito**. 中文：现在时标记和 io 同时排除 abitiamo。\n- **S2.4:** «Fino a oggi» e il soggetto «noi» richiedono **siamo arrivati**. 中文：截至现在的范围排除远过去时。\n- **S2.5:** «In questi anni» richiede **siamo partiti**; il soggetto resta «noi». 中文：明确的现在相关时间范围锁定近过去时。\n- **S2.6:** «Fino a oggi» con il soggetto «Gabriele» richiede **ha viaggiato**. 中文：时间范围到今天，主语为第三人称单数。\n- **S2.7:** «Fino a oggi» richiede **è durato**; «il viaggio» fissa il maschile singolare. 中文：截至今日锁定近过去时，性数也唯一。\n- **S2.8:** Lo stesso «Fino a oggi» e il soggetto «il viaggio» richiedono **è stato**. 中文：时态与阳性单数分词都被明确限定。\n- **S2.9:** «In questi anni» e il soggetto «noi» richiedono **abbiamo viaggiato**. 中文：延续到现在的时间范围排除其他过去时态。\n- **S2.10:** «Finora» richiede **ha viaggiato**. 中文：Finora 表示截至目前，锁定近过去时。"
+  },
+  "key": {
+    "S2.1": "ho realizzato",
+    "S2.2": "siamo partiti",
+    "S2.3": "abito",
+    "S2.4": "siamo arrivati",
+    "S2.5": "siamo partiti",
+    "S2.6": "ha viaggiato",
+    "S2.7": "è durato",
+    "S2.8": "è stato",
+    "S2.9": "abbiamo viaggiato",
+    "S2.10": "ha viaggiato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sogno",
+      "categoria": "nome maschile",
+      "zh": "梦想",
+      "en": "dream",
+      "esempio": "Il mio sogno"
+    },
+    {
+      "parola": "volo",
+      "categoria": "nome maschile",
+      "zh": "航班",
+      "en": "flight",
+      "esempio": "con un volo American Airlines"
+    },
+    {
+      "parola": "presto",
+      "categoria": "avverbio",
+      "zh": "很早",
+      "en": "early",
+      "esempio": "presto da Savona"
+    },
+    {
+      "parola": "settimane",
+      "categoria": "nome femminile plurale",
+      "zh": "周",
+      "en": "weeks",
+      "esempio": "due settimane"
+    },
+    {
+      "parola": "continente",
+      "categoria": "nome maschile",
+      "zh": "大洲",
+      "en": "continent",
+      "esempio": "in un altro continente"
+    }
+  ]
+}

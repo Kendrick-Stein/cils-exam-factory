@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "IL GIGANTE DELLA TASMANIA: NEIL È LA NUOVA STAR DEI SOCIAL",
+    "S1_TEXT_WITH_GAPS": "Neil pesa circa una tonnellata e sembra aver scelto una cittadina della Tasmania come __suo (0)__ luogo preferito per riposare. Il problema è che spesso __(1)__ sdraia in mezzo alla strada. Le transenne? __(2)__ abbatte. Il traffico? __(3)__ manda in tilt, mentre decine di curiosi si fermano e __(4)__ filmano.\n\nNegli ultimi giorni Neil è diventato un fenomeno sui social. I video, i __(5)__ hanno milioni di visualizzazioni, __(6)__ ritraggono mentre abbatte paletti stradali.\n\nProprio questa popolarità, però, è la principale preoccupazione delle autorità. La località in __(7)__ Neil __(8)__ trova preoccupa il Department: l'ente teme che la fama dell'animale __(9)__ trasformi in una meta per curiosi e influencer, aumentando il rischio di incontri ravvicinati con un animale selvatico, al __(10)__ non bisogna avvicinarsi.\n\nÈ proprio questo rischio __(11)__ spinge le autorità a chiedere a residenti e visitatori che __(12)__ mantengano ad almeno 20 metri dall'animale e tengano i cani ad almeno 50 metri. La distanza è riassunta nelle campagne informative con lo slogan \"sei Neil\", nel __(13)__ \"sei\" indica sei volte la lunghezza dell'animale. Quanto alla posizione di Neil, le autorità chiedono che non __(14)__ parlino con altri. L'obiettivo è tutelare sia la sicurezza delle persone sia il benessere dell'animale.\n\nGli esperti spiegano che Neil è un giovane maschio della specie, per il __(15)__ questo comportamento è del tutto normale. Gli elefanti marini tornano regolarmente a terra, sulla __(16)__ riposano, digiunano e cambiano il mantello, mentre i maschi giovani iniziano a esercitarsi nei combattimenti, i __(17)__ da adulti serviranno a contendersi il territorio e l'accesso alla riproduzione. In assenza di altri esemplari con __(18)__ confrontarsi, Neil __(19)__ misura con tutto ciò __(20)__ trova, automobili parcheggiate comprese."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | si | S1.11 | che |\n| S1.2 | le | S1.12 | si |\n| S1.3 | lo | S1.13 | quale |\n| S1.4 | lo | S1.14 | ne |\n| S1.5 | quali | S1.15 | quale |\n| S1.6 | lo | S1.16 | quale |\n| S1.7 | cui | S1.17 | quali |\n| S1.8 | si | S1.18 | cui |\n| S1.9 | la | S1.19 | si |\n| S1.10 | quale | S1.20 | che |",
+    "ANS_S1_NOTES": "- **S1.1 — si:** «si sdraia» è la forma pronominale del verbo; **S1.2 — le:** «Le transenne?» impone il clitico femminile plurale; **S1.3 — lo:** riprende «Il traffico?»; **S1.4 — lo:** riprende Neil in «lo filmano». 中文：先行词的性数锁定代词。\n- **S1.5 — quali:** l'articolo già stampato in «i quali» esclude *che*; **S1.6 — lo:** nei video «lo ritraggono» riprende Neil; **S1.7 — cui:** la preposizione già stampata forma «in cui»; **S1.8 — si:** «si trova» è la forma pronominale. 中文：冠词和介词已经限定关系代词。\n- **S1.9 — la:** «la trasformi» riprende «La località»; **S1.10 — quale:** «al quale» riprende «un animale selvatico»; **S1.11 — che:** la frase scissa «È proprio questo rischio che…» impone il relativo; **S1.12 — si:** «si mantengano» richiede il pronome riflessivo. 中文：句法结构排除了近义替代。\n- **S1.13 — quale:** la preposizione articolata già stampata forma «nel quale»; **S1.14 — ne:** «Quanto alla posizione di Neil» impone «ne parlino»; **S1.15 — quale:** l'articolo già stampato forma «per il quale»; **S1.16 — quale:** la preposizione articolata già stampata forma «sulla quale». 中文：冠词、介词和先行词锁定关系代词。\n- **S1.17 — quali:** l'articolo già stampato forma «i quali» e riprende «combattimenti»; **S1.18 — cui:** «con cui confrontarsi» è retto da *con*; **S1.19 — si:** «si misura con» è la forma pronominale; **S1.20 — che:** «tutto ciò che trova» è la costruzione relativa completa. 中文：固定结构让每个空只有一个自然答案。"
+  },
+  "key": {
+    "S1.1": "si",
+    "S1.2": "le",
+    "S1.3": "lo",
+    "S1.4": "lo",
+    "S1.5": "quali",
+    "S1.6": "lo",
+    "S1.7": "cui",
+    "S1.8": "si",
+    "S1.9": "la",
+    "S1.10": "quale",
+    "S1.11": "che",
+    "S1.12": "si",
+    "S1.13": "quale",
+    "S1.14": "ne",
+    "S1.15": "quale",
+    "S1.16": "quale",
+    "S1.17": "quali",
+    "S1.18": "cui",
+    "S1.19": "si",
+    "S1.20": "che"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "manda in tilt",
+      "categoria": "locuzione verbale",
+      "zh": "使陷入瘫痪",
+      "en": "brings to a standstill",
+      "esempio": "Il traffico? Lo manda in tilt"
+    },
+    {
+      "parola": "incontri ravvicinati",
+      "categoria": "locuzione nominale",
+      "zh": "近距离接触",
+      "en": "close encounters",
+      "esempio": "il rischio di incontri ravvicinati con un animale selvatico"
+    },
+    {
+      "parola": "campagne informative",
+      "categoria": "locuzione nominale",
+      "zh": "宣传活动",
+      "en": "information campaigns",
+      "esempio": "La distanza è riassunta nelle campagne informative"
+    },
+    {
+      "parola": "benessere dell'animale",
+      "categoria": "locuzione nominale",
+      "zh": "动物福祉",
+      "en": "animal welfare",
+      "esempio": "tutelare sia la sicurezza delle persone sia il benessere dell'animale"
+    },
+    {
+      "parola": "contendersi il territorio",
+      "categoria": "locuzione verbale",
+      "zh": "争夺领地",
+      "en": "compete for territory",
+      "esempio": "serviranno a contendersi il territorio"
+    }
+  ]
+}

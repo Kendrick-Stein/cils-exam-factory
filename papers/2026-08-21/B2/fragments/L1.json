@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Europa: nessuna finestra sull’oceano globale",
+    "T1_TEXT": "Europa, una delle 95 lune di Giove, è da decenni al centro dell’attenzione della comunità scientifica. Il motivo di tanto interesse si trova nelle sue profondità: a decine di chilometri sotto la sua spessa crosta ghiacciata, il satellite galileiano nasconde infatti un vasto oceano globale d’acqua liquida, considerato uno degli ambienti più promettenti del Sistema solare per la ricerca di tracce di vita o di condizioni favorevoli al suo sviluppo.\n\nDa tempo gli scienziati ipotizzano che parte di quest’acqua possa risalire verso la superficie attraverso una fitta rete di fratture e canalicoli verticali, chiamati dicchi, per poi accumularsi in serbatoi poco profondi noti come “shallow sills”. Il meccanismo di risalita sarebbe concettualmente simile a quello con cui il magma terrestre attraversa le fratture della crosta alimentando il vulcanismo. Nel caso dei mondi ghiacciati come Europa, si parla però di criovulcanismo, poiché il materiale in movimento è costituito da acqua e ghiaccio anziché da roccia fusa.\n\nLa possibile esistenza di questi bacini d’acqua poco profondi, che si ritiene siano responsabili di caratteristiche superficiali note come lenticole e doppie creste, rende Europa un obiettivo scientifico ancora più interessante. Trovandosi a profondità molto inferiori rispetto all’oceano globale nascosto sotto decine di chilometri di ghiaccio, tali sacche d’acqua sarebbero infatti più facilmente individuabili e campionabili da parte di future missioni di esplorazione, offrendo un accesso privilegiato ad ambienti potenzialmente abitabili altrimenti difficilmente raggiungibili.\n\nUn nuovo studio condotto da un team di astronomi guidati dalla Rutgers University, negli Usa, mette però ora in discussione questo scenario. I risultati della ricerca, pubblicata la settimana scorsa su Nature Astronomy, indicano che, qualora questi bacini d’acqua fossero presenti, difficilmente potrebbero essere alimentati direttamente dall’oceano globale di Europa. La risalita dell’acqua attraverso l’intero spessore della crosta ghiacciata sarebbe infatti molto meno probabile di quanto ipotizzato finora, sottolineano gli scienziati.\n\nPer giungere a questa conclusione, i ricercatori hanno simulato la risalita dell’acqua dall’interfaccia oceano-ghiaccio fino a poco sotto la superficie. Per farlo hanno utilizzato sofisticati modelli di fluidodinamica, in grado di descrivere contemporaneamente sia la dinamica dell’acqua che gli scambi di calore con il ghiaccio circostante. L’obiettivo era stimare quanta acqua liquida potesse realmente risalire verso gli strati superficiali e verificare così il modello geofisico oggi più accreditato per spiegare il trasporto dell’acqua dall’oceano della luna verso la crosta.\n\n«La domanda che ci siamo posti è se l’acqua liquida potesse davvero risalire dall’oceano di Europa fino agli strati superficiali senza congelare durante il tragitto», sottolinea Lujendra Ojha, scienziato planetario della Rutgers University e primo autore della pubblicazione.\n\nSecondo i risultati dello studio, la risposta è negativa. Le simulazioni, condotte considerando sia un flusso laminare che turbolento dell’acqua – i due principali regimi di movimento di un fluido, il primo caratterizzato da un moto ordinato, il secondo da un comportamento caotico – mostrano infatti che esistono importanti ostacoli, sia termodinamici sia meccanici, alla risalita diretta d’acqua liquida dall’oceano profondo di Europa verso la superficie attraverso i dicchi.",
+    "L1_ITEMS": "**1. Europa suscita particolare interesse nella comunità scientifica perché**\n\nA) la sua crosta può essere attraversata facilmente dalle missioni.\n\nB) le sue caratteristiche superficiali dimostrano la presenza di vita.\n\nC) il suo oceano potrebbe offrire condizioni favorevoli alla vita.\n\nD) è la luna più grande tra quelle che orbitano intorno a Giove.\n\n**2. Secondo l’ipotesi descritta all’inizio, l’acqua proveniente dalle profondità**\n\nA) scioglierebbe la roccia della crosta creando nuovi vulcani.\n\nB) risalirebbe nei dicchi e si raccoglierebbe in serbatoi poco profondi.\n\nC) formerebbe lenticole soltanto dopo aver raggiunto la superficie.\n\nD) resterebbe nei canalicoli verticali senza accumularsi altrove.\n\n**3. Il criovulcanismo dei mondi ghiacciati si distingue dal vulcanismo terrestre soprattutto perché**\n\nA) avviene esclusivamente sotto una crosta molto spessa.\n\nB) produce fratture più strette e regolari.\n\nC) è alimentato da un movimento più lento.\n\nD) coinvolge acqua e ghiaccio invece di roccia fusa.\n\n**4. Gli eventuali bacini poco profondi sarebbero preziosi per l’esplorazione perché**\n\nA) renderebbero più accessibili ambienti potenzialmente abitabili.\n\nB) permetterebbero di raggiungere direttamente l’oceano globale.\n\nC) eliminerebbero la necessità di campionare il ghiaccio.\n\nD) confermerebbero da soli l’esistenza di forme di vita.\n\n**5. Il nuovo studio mette in dubbio soprattutto che i bacini poco profondi**\n\nA) possano produrre lenticole e doppie creste.\n\nB) si trovino a una profondità inferiore rispetto all’oceano.\n\nC) ricevano acqua direttamente dall’oceano globale.\n\nD) siano osservabili durante future missioni.\n\n**6. I modelli di fluidodinamica sono stati impiegati per**\n\nA) confrontare le caratteristiche di Europa con quelle della Terra.\n\nB) valutare il percorso dell’acqua e il suo scambio di calore con il ghiaccio.\n\nC) stabilire quale regime di movimento sia più comune nell’oceano.\n\nD) localizzare con precisione le lenticole e le doppie creste.\n\n**7. Considerando sia il flusso laminare sia quello turbolento, le simulazioni indicano che**\n\nA) il moto caotico impedisce il congelamento dell’acqua durante la risalita.\n\nB) soltanto il flusso ordinato consente all’acqua di attraversare i dicchi.\n\nC) gli ostacoli meccanici sono meno importanti di quelli termodinamici.\n\nD) la risalita diretta dell’acqua incontra ostacoli di due diverse nature."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | C | Il testo definisce l’oceano «uno degli ambienti più promettenti [...] per la ricerca di tracce di vita o di condizioni favorevoli». 中文：说的是潜在宜居条件，不是已经发现生命。 |\n| L1.2 | B | L’acqua potrebbe «risalire [...] attraverso [...] i dicchi, per poi accumularsi in serbatoi poco profondi». 中文：先上升，再汇集，顺序明确。 |\n| L1.3 | D | Nel criovulcanismo «il materiale in movimento è costituito da acqua e ghiaccio anziché da roccia fusa». 中文：关键对比是物质类型。 |\n| L1.4 | A | Le sacche sarebbero «più facilmente individuabili e campionabili», offrendo accesso ad «ambienti potenzialmente abitabili». 中文：更容易接近不等于能直接到达深层海洋。 |\n| L1.5 | C | I bacini, anche se presenti, «difficilmente potrebbero essere alimentati direttamente dall’oceano globale». 中文：研究质疑的是直接补给机制，并非浅层水库是否可能存在。 |\n| L1.6 | B | I modelli descrivono «sia la dinamica dell’acqua che gli scambi di calore con il ghiaccio circostante». 中文：方法同时研究水的运动和热交换。 |\n| L1.7 | D | Le simulazioni mostrano «importanti ostacoli, sia termodinamici sia meccanici» alla risalita diretta. 中文：两种流动状态都纳入后，结论仍是存在两类障碍。 |"
+  },
+  "key": {
+    "L1.1": "C",
+    "L1.2": "B",
+    "L1.3": "D",
+    "L1.4": "A",
+    "L1.5": "C",
+    "L1.6": "B",
+    "L1.7": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "crosta ghiacciata",
+      "categoria": "locuzione nominale",
+      "zh": "冰壳",
+      "en": "icy crust",
+      "esempio": "a decine di chilometri sotto la sua spessa crosta ghiacciata"
+    },
+    {
+      "parola": "fratture",
+      "categoria": "nome femminile plurale",
+      "zh": "裂缝",
+      "en": "fractures",
+      "esempio": "attraverso una fitta rete di fratture e canalicoli verticali"
+    },
+    {
+      "parola": "campionabili",
+      "categoria": "aggettivo plurale",
+      "zh": "可取样的",
+      "en": "sampleable",
+      "esempio": "più facilmente individuabili e campionabili da parte di future missioni di esplorazione"
+    },
+    {
+      "parola": "più accreditato",
+      "categoria": "locuzione aggettivale",
+      "zh": "最受认可的",
+      "en": "most widely accepted",
+      "esempio": "il modello geofisico oggi più accreditato"
+    },
+    {
+      "parola": "flusso laminare",
+      "categoria": "locuzione nominale",
+      "zh": "层流",
+      "en": "laminar flow",
+      "esempio": "sia un flusso laminare che turbolento dell’acqua"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Il cielo in una stanza 3.0**\n\nSpettacoli al Planetario. Tutti i mercoledì di luglio e agosto, ore 11.00.\n\n○ **2. Filmati a tutta cupola**\n\nProiezioni fulldome al Planetario per tutte le età e KIDS per i più piccoli. Ogni sabato, ore 16.00 e ore 17.00.\n\n○ **3. Sulle tracce dei dinosauri**\n\nVisite guidate al sito paleontologico dei Lavini di Marco. 13 e 27 giugno, 11 e 25 luglio, ore 8.00-10.00.\n\n○ **4. Un sabato con il sole sul Monte Zugna**\n\nOsservazioni del cielo diurno all’Osservatorio astronomico di Monte Zugna. 27 giugno, 18 luglio, 22 agosto e 26 settembre.\n\n○ **5. Tartarugando a Sperimentarea**\n\nConoscere e nutrire le testuggini di terra e di acqua. Tutti i giovedì dal 18 giugno al 10 settembre, ore 9.00 e 10.15.\n\n○ **6. Esplorazioni sull’Isola dei Tesori**\n\nVisita guidata al sito archeologico dell’Isola di Sant’Andrea a Loppio (Mori). 20 giugno, 18 luglio, 1 agosto e 5 settembre, ore 10.00.",
+    "L3_OPTIONS": "**A.** Il giovedì mattina i partecipanti possono conoscere e nutrire le testuggini di terra e di acqua.\n\n**B.** Questa attività permette di osservare il cielo durante il giorno all'Osservatorio astronomico di Monte Zugna.\n\n**C.** Il sabato pomeriggio il Planetario propone due proiezioni, una alle 16.00 e una alle 17.00.\n\n**D.** Le visite ai dinosauri si svolgono ogni giovedì alle 9.00 e alle 10.15, fino a settembre.\n\n**E.** La visita all'Isola di Sant'Andrea parte alle 10.00 in quattro date tra giugno e settembre.\n\n**F.** Gli spettacoli del mercoledì si tengono alle 11.00 durante i mesi di luglio e agosto.\n\n**G.** Le osservazioni del cielo diurno iniziano alle 8.00 ai Lavini di Marco nei mesi estivi.\n\n**H.** Le visite al sito paleontologico durano dalle 8.00 alle 10.00 in quattro giornate tra giugno e luglio."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | F | «Tutti i mercoledì di luglio e agosto, ore 11.00» corrisponde soltanto a F. 中文：星期、月份和时间三项同时对应。 |\n| L3.2 | C | «Ogni sabato, ore 16.00 e ore 17.00» identifica le due proiezioni indicate in C. 中文：周六有两个放映时段。 |\n| L3.3 | H | «sito paleontologico» e «ore 8.00-10.00» rendono unico l'abbinamento con H. 中文：恐龙遗址参观持续两小时。 |\n| L3.4 | B | «cielo diurno» e «Osservatorio astronomico di Monte Zugna» compaiono insieme solo in B. 中文：关键是白天观测和地点。 |\n| L3.5 | A | «nutrire le testuggini» e «Tutti i giovedì» corrispondono esattamente ad A. 中文：周四上午认识并喂养陆龟和水龟。 |\n| L3.6 | E | «Isola di Sant'Andrea», «ore 10.00» e le quattro date tra giugno e settembre identificano E. 中文：地点、时间和日期范围唯一对应。 |",
+    "ANS_L3_UNUSED": "D, G"
+  },
+  "key": {
+    "L3.1": "F",
+    "L3.2": "C",
+    "L3.3": "H",
+    "L3.4": "B",
+    "L3.5": "A",
+    "L3.6": "E"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "a tutta cupola",
+      "categoria": "locuzione avverbiale",
+      "zh": "全穹幕",
+      "en": "full-dome",
+      "esempio": "Filmati a tutta cupola"
+    },
+    {
+      "parola": "Proiezioni fulldome",
+      "categoria": "locuzione nominale plurale",
+      "zh": "全穹幕放映",
+      "en": "full-dome screenings",
+      "esempio": "Proiezioni fulldome al Planetario per tutte le età e KIDS per i più piccoli."
+    },
+    {
+      "parola": "sito paleontologico",
+      "categoria": "locuzione nominale maschile",
+      "zh": "古生物遗址",
+      "en": "palaeontological site",
+      "esempio": "Visite guidate al sito paleontologico dei Lavini di Marco."
+    },
+    {
+      "parola": "cielo diurno",
+      "categoria": "locuzione nominale maschile",
+      "zh": "白昼天空",
+      "en": "daytime sky",
+      "esempio": "Osservazioni del cielo diurno all’Osservatorio astronomico di Monte Zugna."
+    },
+    {
+      "parola": "testuggini",
+      "categoria": "nome femminile plurale",
+      "zh": "龟类",
+      "en": "tortoises and turtles",
+      "esempio": "Conoscere e nutrire le testuggini di terra e di acqua."
+    }
+  ]
+}

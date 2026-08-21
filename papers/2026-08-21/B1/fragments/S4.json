@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Il pacco è arrivato al punto di ritiro di via Verdi. Per aprire l'armadietto usi il codice 472918 entro venerdì sera. Dopo la scadenza, il pacco tornerà automaticamente al nostro deposito.»**  \nA) È la conferma che un pacco è stato consegnato a casa.  \nB) È l'avviso che un pacco danneggiato sarà sostituito.  \nC) È l'invito a ritirare un pacco entro una data precisa.  \nD) È la richiesta di spedire un pacco da un altro deposito.\n\n**2. «Martedì dalle 8.30 alle 11.30 i tecnici controlleranno l'ascensore del condominio, che resterà fermo durante l'intervento. Chi ha difficoltà a usare le scale può chiamare l'amministratore entro lunedì.»**  \nA) È l'avviso di un controllo che renderà temporaneamente inutilizzabile l'ascensore.  \nB) È la richiesta di pagare una riparazione urgente dell'ascensore.  \nC) È l'annuncio dell'installazione di un nuovo ascensore nel palazzo.  \nD) È il divieto permanente di usare l'ascensore senza autorizzazione.\n\n**3. «Gentile cliente, il corso di fotografia scelto non partirà perché non abbiamo raggiunto il numero minimo di iscritti. Può trasferire la quota a un altro corso oppure chiedere il rimborso completo.»**  \nA) È la conferma dell'iscrizione a un corso molto richiesto.  \nB) È la proposta di pagare una quota più bassa per un corso.  \nC) È la comunicazione del cambio di insegnante di un corso.  \nD) È l'annullamento di un corso con due possibilità per chi ha pagato.\n\n**4. «La sua auto è pronta: abbiamo sostituito la batteria e controllato le luci. L'officina chiude alle 18.30; se oggi non riesce a venire, ci telefoni per concordare un altro momento.»**  \nA) È il preventivo per alcuni lavori ancora da autorizzare.  \nB) È la comunicazione che un'auto riparata può essere ritirata.  \nC) È la richiesta di portare un'auto in officina per un controllo.  \nD) È l'offerta di acquistare una batteria a prezzo ridotto.\n\n**5. «Ciao Paolo, durante la riunione di domani sarò fuori ufficio. Puoi presentare tu i risultati del nostro gruppo? Ti mando le diapositive stasera e, se vuoi, possiamo rivederle insieme al telefono.»**  \nA) È la richiesta a un collega di sostituire una persona in una presentazione.  \nB) È l'invito a partecipare per telefono a una riunione.  \nC) È la proposta di preparare nuovi risultati per il gruppo.  \nD) È la comunicazione che una riunione è stata rinviata.\n\n**6. «Per motivi di sicurezza, da oggi non lasciate biciclette davanti all'uscita del cortile. Usate le rastrelliere vicino al cancello. Da lunedì quelle parcheggiate nell'area vietata saranno spostate dal personale.»**  \nA) È l'annuncio della vendita di alcune biciclette abbandonate.  \nB) È la richiesta di riparare le rastrelliere vicino al cancello.  \nC) È il consiglio di chiudere sempre il cancello del cortile.  \nD) È l'avviso sulle nuove regole per parcheggiare le biciclette.\n\n**7. «La ricetta per il suo farmaco abituale è pronta. Può scaricarla dall'app oppure ritirare una copia in ambulatorio, dal lunedì al venerdì. Non è necessario prenotare una visita con il medico.»**  \nA) È il consiglio di cambiare un farmaco con l'aiuto del medico.  \nB) È l'avviso che un ambulatorio resterà chiuso per alcuni giorni.  \nC) È la comunicazione che una ricetta è disponibile in due modi.  \nD) È la conferma di una visita medica già prenotata.\n\n**8. «Domani il mercato settimanale si terrà eccezionalmente in piazza Roma, perché in piazza Garibaldi ci sarà una gara sportiva. Gli orari non cambiano: i banchi saranno aperti dalle 7 alle 13.»**  \nA) È l'annuncio del trasferimento temporaneo di un mercato senza cambio di orario.  \nB) È la cancellazione di un mercato a causa di una gara sportiva.  \nC) È l'invito a visitare nuovi banchi aperti nel pomeriggio.  \nD) È la richiesta ai venditori di partecipare a una gara in piazza.\n\n**9. «Abbiamo trovato il suo portafoglio sul treno regionale 2187. Per riceverlo, compili il modulo online indicando il contenuto; dopo la verifica potrà scegliere se ritirarlo in stazione o riceverlo a casa.»**  \nA) È la denuncia di un furto avvenuto su un treno regionale.  \nB) È l'avviso di un oggetto ritrovato con le modalità per recuperarlo.  \nC) È la richiesta di consegnare un portafoglio trovato in stazione.  \nD) È la conferma che un oggetto è già stato spedito a casa.\n\n**10. «Buongiorno, sabato festeggiamo il compleanno di Giulia nel giardino comune. La musica finirà entro le 22. Ci scusiamo in anticipo per il possibile rumore e vi invitiamo a passare per un dolce.»**  \nA) È la protesta contro il rumore causato da una festa.  \nB) È la richiesta di prenotare il giardino per una riunione.  \nC) È l'avviso ai vicini di una festa con un invito a partecipare.  \nD) È il divieto di ascoltare musica nel giardino comune."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «usi il codice ... entro venerdì sera» indica come e fino a quando ritirare il pacco; 中文：包裹在自提点，须在截止日前领取。 |\n| S4.2 | A | L'ascensore «resterà fermo durante l'intervento» mentre i tecnici lo controlleranno; 中文：检查期间暂时停用，并非永久禁止。 |\n| S4.3 | D | Il corso «non partirà» e chi ha pagato può scegliere un altro corso o «il rimborso completo»; 中文：课程取消后可转课或退款。 |\n| S4.4 | B | «La sua auto è pronta» e l'orario dell'officina serve a organizzarne il ritiro; 中文：维修已完成，通知取车。 |\n| S4.5 | A | «Puoi presentare tu i risultati» chiede a Paolo di sostituire chi sarà fuori ufficio; 中文：请同事代做汇报，不是延期会议。 |\n| S4.6 | D | Il messaggio indica dove usare le rastrelliere e avverte che le biciclette nell'«area vietata» saranno spostate; 中文：公布自行车停放新规。 |\n| S4.7 | C | La ricetta «è pronta» e si può ottenerla «dall'app» oppure «in ambulatorio»; 中文：处方可线上下载或线下领取。 |\n| S4.8 | A | Il mercato si terrà «eccezionalmente in piazza Roma», ma «gli orari non cambiano»; 中文：只临时换地点，时间不变。 |\n| S4.9 | B | «Abbiamo trovato il suo portafoglio» e il modulo permette di scegliere come recuperarlo; 中文：失物招领并给出取回步骤。 |\n| S4.10 | C | Il messaggio informa i vicini della festa, anticipa il possibile rumore e dice «vi invitiamo a passare»; 中文：提前告知邻居并邀请来吃甜点。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "A",
+    "S4.6": "D",
+    "S4.7": "C",
+    "S4.8": "A",
+    "S4.9": "B",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "punto di ritiro",
+      "categoria": "locuzione nominale",
+      "zh": "自提点",
+      "en": "pickup point",
+      "esempio": "Il pacco è arrivato al punto di ritiro di via Verdi."
+    },
+    {
+      "parola": "numero minimo di iscritti",
+      "categoria": "locuzione nominale",
+      "zh": "最低报名人数",
+      "en": "minimum number of participants",
+      "esempio": "non abbiamo raggiunto il numero minimo di iscritti"
+    },
+    {
+      "parola": "rastrelliere",
+      "categoria": "nome femminile plurale",
+      "zh": "自行车架",
+      "en": "bicycle racks",
+      "esempio": "Usate le rastrelliere vicino al cancello."
+    },
+    {
+      "parola": "farmaco abituale",
+      "categoria": "locuzione nominale",
+      "zh": "常用药",
+      "en": "regular medication",
+      "esempio": "La ricetta per il suo farmaco abituale è pronta."
+    },
+    {
+      "parola": "eccezionalmente",
+      "categoria": "avverbio",
+      "zh": "临时破例地",
+      "en": "exceptionally",
+      "esempio": "Domani il mercato settimanale si terrà eccezionalmente in piazza Roma"
+    }
+  ]
+}

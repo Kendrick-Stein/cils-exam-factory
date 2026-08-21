@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "MOUNTAIN BIKE MARATHON WORLD CHAMPIONSHIPS 2026",
+    "S3_TEXT_WITH_GAPS": "Nel 2026 Primiero-San Martino di Castrozza ospiterà il Campionato del Mondo UCI Marathon, un __evento (0)__ che per la prima volta vedrà __(1)__, nello stesso weekend e sullo stesso __(2)__, sia la categoria Elite che la Master.\n\nProgramma\n\nDalle ore 9.00 alle ore 17.00: ispezione __(3)__ da parte della __(4)__ UCI/FCI.\n\nDalle ore 09.00 alle ore 19.00: Mythos Bike & Tech Expo.\n\nDalle ore 15.00 alle ore 18.00: __(5)__ __(6)__ e consegna __(7)__ categorie Elite/Pass.\n\nOre 17.00: Presentazione Stampa.\n\nOre 17.30: Team Manager Meeting.\n\nOre 18.00: Cerimonia di __(8)__.",
+    "S3_OPT0_A": "evento",
+    "S3_OPT0_B": "orario",
+    "S3_OPT0_C": "accredito",
+    "S3_OPTION_ROWS": "| 1. | spettatori | protagonisti | allenatori |\n| 2. | tracciato | spettacolo | stadio |\n| 3. | partenza | accrediti | percorso |\n| 4. | squadra | giuria | stampa |\n| 5. | registrazione | premiazione | partenza |\n| 6. | giornalisti | manager | atleti |\n| 7. | biciclette | accrediti | medaglie |\n| 8. | Chiusura | Premiazione | Apertura |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Il testo dice che l'evento «vedrà protagonisti» gli atleti delle categorie Elite e Master. 中文：两类运动员是赛事主角。 |\n| S3.2 | A | Le due categorie gareggiano «sullo stesso tracciato», cioè sul medesimo percorso. 中文：这里指同一条赛道。 |\n| S3.3 | C | La giuria svolge l'«ispezione percorso»: controlla il luogo della gara. 中文：检查的对象是赛道。 |\n| S3.4 | B | L'espressione completa è «da parte della giuria UCI/FCI». 中文：执行检查的是裁判组。 |\n| S3.5 | A | Tra le 15.00 e le 18.00 è prevista la «registrazione atleti». 中文：这是运动员报到环节。 |\n| S3.6 | C | Il programma specifica «registrazione atleti» e subito dopo cita le categorie Elite/Pass. 中文：报名对象是运动员。 |\n| S3.7 | B | Durante la registrazione avviene la «consegna accrediti» per le categorie indicate. 中文：报到时发放证件。 |\n| S3.8 | C | Alle 18.00 il programma indica la «Cerimonia di Apertura». 中文：这是开幕仪式。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "A",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Campionato del Mondo",
+      "categoria": "locuzione nominale",
+      "zh": "世界锦标赛",
+      "en": "World Championship",
+      "esempio": "il Campionato del Mondo UCI Marathon"
+    },
+    {
+      "parola": "categoria Elite",
+      "categoria": "locuzione nominale",
+      "zh": "精英组",
+      "en": "Elite category",
+      "esempio": "sia la categoria Elite che la Master"
+    },
+    {
+      "parola": "stesso weekend",
+      "categoria": "locuzione nominale",
+      "zh": "同一个周末",
+      "en": "same weekend",
+      "esempio": "nello stesso weekend"
+    },
+    {
+      "parola": "ispezione",
+      "categoria": "sostantivo femminile",
+      "zh": "检查",
+      "en": "inspection",
+      "esempio": "ispezione percorso da parte della giuria UCI/FCI"
+    },
+    {
+      "parola": "Cerimonia di Apertura",
+      "categoria": "locuzione nominale",
+      "zh": "开幕式",
+      "en": "Opening Ceremony",
+      "esempio": "Ore 18.00: Cerimonia di Apertura"
+    }
+  ]
+}

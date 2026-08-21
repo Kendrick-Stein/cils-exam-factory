@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "IL MIO ANNO DEI TRENTA",
+    "S2_TEXT_WITH_GAPS": "A metà degli anni 2000, mentre *(frequentare)* __(1)__ le elementari, dopo ogni vacanza di Natale o di Pasqua di solito *(guardare)* __(2)__ le mie maestre Carla ed Elena. Loro *(tornare)* __(3)__ sempre abbronzate e rilassate e ogni volta *(raccontare)* __(4)__ dei viaggi con i fidanzati: Santo Domingo o Egitto. Mentre loro *(parlare)* __(5)__, in quei momenti, tra me e me di solito *(pensare)* __(6)__ ai miei trent'anni e, ogni volta, non *(vedere)* __(7)__ l'ora di andare anch'io in luoghi esotici. Oggi, nel 2026, questo *(essere)* __è (0)__ il mio anno dei trenta. Adesso *(avere)* __(8)__ trent'anni ed è il momento di agire. Arianna, invece, adesso *(avere)* __(9)__ già trent'anni. Finora, nel 2026, io e Arianna *(iniziare)* __(10)__ a pensare a una fuga tropicale per i mesi più freddi."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | frequentavo | imperfetto | S2.6 | pensavo | imperfetto |\n| S2.2 | guardavo | imperfetto | S2.7 | vedevo | imperfetto |\n| S2.3 | tornavano | imperfetto | S2.8 | ho | presente |\n| S2.4 | raccontavano | imperfetto | S2.9 | ha | presente |\n| S2.5 | parlavano | imperfetto | S2.10 | abbiamo iniziato | passato prossimo |",
+    "ANS_S2_NOTES": "- **S2.1** — «A metà degli anni 2000, mentre» presenta un'azione in corso nel passato. 中文：「mentre」锁定过去背景，用未完成过去时。\n- **S2.2** — «dopo ogni vacanza ... di solito» indica un'azione abituale e ripetuta. 中文：「每次假期后通常」明确标记过去习惯。\n- **S2.3** — «sempre» forza l'abitudine nel passato. 中文：「sempre」在过去叙事中锁定未完成过去时。\n- **S2.4** — «ogni volta» segnala una ripetizione nel passato. 中文：每次都讲旅行，是过去习惯。\n- **S2.5** — «Mentre» introduce l'azione di sfondo. 中文：她们说话是同时持续的过去背景。\n- **S2.6** — «in quei momenti ... di solito» richiama un pensiero abituale di quel periodo. 中文：「当时通常」锁定过去习惯。\n- **S2.7** — «in quei momenti ... ogni volta» colloca l'attesa in un'abitudine passata. 中文：「当时……每次」明确锁定未完成过去时。\n- **S2.8** — «Adesso» richiede il presente. 中文：「现在」明确锁定现在时。\n- **S2.9** — Il secondo «adesso» colloca anche l'età di Arianna nel presente. 中文：阿里安娜现在已经三十岁。\n- **S2.10** — «Finora, nel 2026» collega l'inizio al presente e richiede il passato prossimo. 中文：「截至目前」锁定近过去时。"
+  },
+  "key": {
+    "S2.1": "frequentavo",
+    "S2.2": "guardavo",
+    "S2.3": "tornavano",
+    "S2.4": "raccontavano",
+    "S2.5": "parlavano",
+    "S2.6": "pensavo",
+    "S2.7": "vedevo",
+    "S2.8": "ho",
+    "S2.9": "ha",
+    "S2.10": "abbiamo iniziato"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "elementari",
+      "categoria": "nome plurale",
+      "zh": "小学",
+      "en": "primary school",
+      "esempio": "frequentavo le elementari"
+    },
+    {
+      "parola": "abbronzate",
+      "categoria": "aggettivo femminile plurale",
+      "zh": "晒黑的",
+      "en": "tanned",
+      "esempio": "sempre abbronzate e rilassate"
+    },
+    {
+      "parola": "tra me e me",
+      "categoria": "espressione",
+      "zh": "心里暗想",
+      "en": "to myself",
+      "esempio": "tra me e me di solito pensavo"
+    },
+    {
+      "parola": "luoghi esotici",
+      "categoria": "espressione nominale",
+      "zh": "异国风情的地方",
+      "en": "exotic places",
+      "esempio": "andare anch'io in luoghi esotici"
+    },
+    {
+      "parola": "fuga tropicale",
+      "categoria": "espressione nominale",
+      "zh": "热带短途度假",
+      "en": "tropical getaway",
+      "esempio": "pensare a una fuga tropicale"
+    }
+  ]
+}

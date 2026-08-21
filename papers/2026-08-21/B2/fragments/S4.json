@@ -1,0 +1,58 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. Da lunedì la biblioteca apre una sala per chi deve partecipare a riunioni online. I posti, dotati di cuffie, si prenotano per un'ora tramite il catalogo digitale. Nelle altre sale resta obbligatorio tenere spenti microfono e suoneria.**\n\nA) È il divieto di usare qualsiasi dispositivo elettronico in biblioteca.\nB) È la vendita di cuffie agli utenti che studiano nelle sale comuni.\nC) È l'annuncio di uno spazio prenotabile per collegamenti online.\nD) È la comunicazione della chiusura temporanea del catalogo digitale.\n\n**2. Gentile cliente, abbiamo ricevuto la sua segnalazione: il pacco è stato lasciato in un punto di ritiro diverso da quello scelto. Abbiamo disposto il trasferimento; entro 48 ore riceverà un nuovo codice, senza costi aggiuntivi.**\n\nA) È la risposta a un reclamo con la soluzione e i tempi previsti.\nB) È la richiesta di pagare una seconda spedizione per ritirare un pacco.\nC) È l'avviso che un ordine è stato restituito definitivamente al venditore.\nD) È la conferma che il cliente ha indicato un indirizzo inesistente.\n\n**3. Domani a «Voci in cucina» parleremo delle ricette imparate da amici e vicini. Raccontateci con un messaggio vocale chi ve ne ha insegnata una e in quale occasione: alcune testimonianze saranno trasmesse durante la puntata delle 12.**\n\nA) È l'offerta di lezioni individuali tenute da cuochi alla radio.\nB) È la presentazione di un concorso per premiare la ricetta più economica.\nC) È la pubblicità di un servizio che consegna pasti a mezzogiorno.\nD) È l'invito agli ascoltatori a contribuire a una trasmissione con un racconto.\n\n**4. Vendo abbonamento trasferibile per sei ingressi alla piscina comunale, valido fino al 30 novembre. L'ho ricevuto in regalo, ma non posso utilizzarlo. Prezzo 35 euro, non trattabile; consegna a mano davanti all'ingresso principale.**\n\nA) È la richiesta di prolungare la validità di una tessera sportiva.\nB) È un annuncio per cedere a pagamento un abbonamento non utilizzato.\nC) È l'offerta di accompagnare gratuitamente sei persone in piscina.\nD) È la promozione della piscina per acquistare nuovi ingressi alla cassa.\n\n**5. Ciao Paolo, il mio treno ha già quaranta minuti di ritardo e non arriverò in tempo all'uscita da scuola. Puoi prendere tu Sara alle 16 e aspettarmi a casa nostra? Ho lasciato una copia delle chiavi a tua sorella.**\n\nA) È la comunicazione che una bambina oggi uscirà da scuola più tardi.\nB) È l'invito a raggiungere una persona alla stazione insieme a sua sorella.\nC) È la richiesta di prendere una bambina e sorvegliarla fino all'arrivo del genitore.\nD) È la proposta di cambiare l'orario quotidiano di uscita da scuola.\n\n**6. Benvenuta nello spazio di lavoro Officina 12. Il codice ricevuto apre la porta dalle 7 alle 22; per le telefonate lunghe usa le cabine al piano terra. Prima di andare via, libera la scrivania e riponi la tazza nella cucina comune.**\n\nA) È un messaggio di accoglienza con istruzioni per usare uno spazio condiviso.\nB) È la richiesta di restituire il codice di accesso a un ufficio chiuso.\nC) È l'annuncio di lavori che renderanno inutilizzabile il piano terra.\nD) È l'offerta di un impiego per riordinare scrivanie e cucina.\n\n**7. Per la sostituzione delle travi, dal 4 al 18 ottobre il ponte sul torrente sarà chiuso anche a pedoni e biciclette. Il percorso alternativo, segnalato in giallo, passa da via dei Mulini e allunga il tragitto di circa dieci minuti.**\n\nA) È l'annuncio di una gara ciclistica che attraverserà un ponte.\nB) È la richiesta ai pedoni di aiutare durante alcuni lavori stradali.\nC) È la comunicazione della riapertura di un percorso dopo la manutenzione.\nD) È un avviso di chiusura temporanea con l'indicazione di una deviazione.\n\n**8. Si è liberato un appuntamento dal dentista domani alle 15. Se desidera anticipare la visita fissata per il 22, risponda SÌ entro mezzogiorno. Altrimenti conserveremo la prenotazione attuale e proporremo l'orario disponibile a un altro paziente.**\n\nA) È la cancellazione di una visita perché il dentista domani è assente.\nB) È la proposta di anticipare un appuntamento lasciando invariato quello attuale se non si accetta.\nC) È il promemoria per confermare obbligatoriamente una visita entro mezzogiorno.\nD) È la richiesta di scegliere una nuova data perché la prenotazione è scaduta.\n\n**9. Il Museo del Porto cerca volontari per digitalizzare vecchie cartoline donate dai cittadini. Dopo un breve incontro formativo, ciascuno potrà scegliere un turno settimanale di due ore. Non occorrono competenze tecniche: scanner e istruzioni saranno forniti dal museo.**\n\nA) È la ricerca di volontari da formare per un progetto di archivio digitale.\nB) È l'invito ai cittadini a comprare cartoline riprodotte dal museo.\nC) È l'offerta di un corso a pagamento sull'uso professionale dello scanner.\nD) È la richiesta ai visitatori di donare computer a un museo.\n\n**10. A causa di un errore nell'etichetta, ritiriamo i biscotti «Mattino» del lotto L314: contengono mandorle, ma l'ingrediente non è indicato sulla confezione, con un rischio per chi è allergico. Chi li ha acquistati non deve consumarli e può riportarli al negozio per il rimborso.**\n\nA) È la pubblicità di nuovi biscotti alle mandorle con una confezione diversa.\nB) È la richiesta ai clienti di controllare il prezzo indicato sull'etichetta.\nC) È un avviso di richiamo di un prodotto per un allergene non dichiarato.\nD) È la comunicazione che un negozio ha terminato un tipo di biscotti."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | C | «apre una sala» per riunioni online e i posti «si prenotano»: è un nuovo spazio dedicato, non un divieto generale. 中文：注意服务对象和预约方式。 |\n| S4.2 | A | «abbiamo ricevuto la sua segnalazione» e «disposto il trasferimento» identificano la risposta a un reclamo già accolto. 中文：不是要求再次付款。 |\n| S4.3 | D | «Raccontateci con un messaggio vocale» e «saranno trasmesse» chiedono agli ascoltatori di partecipare alla puntata. 中文：重点是征集听众故事。 |\n| S4.4 | B | «Vendo abbonamento trasferibile» e «Prezzo 35 euro» indicano chiaramente una cessione a pagamento. 中文：不是泳池官方促销。 |\n| S4.5 | C | Il mittente chiede «Puoi prendere tu Sara» e «aspettarmi a casa nostra» a causa del ritardo. 中文：两个动作都必须包含。 |\n| S4.6 | A | «Benvenuta» introduce regole su accesso, telefonate e riordino dello «spazio di lavoro». 中文：这是共享办公空间的使用说明。 |\n| S4.7 | D | Il ponte «sarà chiuso» dal 4 al 18 ottobre e viene indicato «Il percorso alternativo»: chiusura temporanea più deviazione. 中文：时间范围排除永久关闭。 |\n| S4.8 | B | «Se desidera anticipare» offre le 15 di domani, mentre «conserveremo la prenotazione attuale» se il paziente rifiuta. 中文：原预约不会自动取消。 |\n| S4.9 | A | Il museo «cerca volontari per digitalizzare» cartoline e prevede «un breve incontro formativo». 中文：是志愿档案项目，不是收费课程。 |\n| S4.10 | C | I biscotti «contengono mandorle» non dichiarate e vanno riportati «per il rimborso»: è un richiamo per rischio allergeni. 中文：问题不是价格或缺货。 |"
+  },
+  "key": {
+    "S4.1": "C",
+    "S4.2": "A",
+    "S4.3": "D",
+    "S4.4": "B",
+    "S4.5": "C",
+    "S4.6": "A",
+    "S4.7": "D",
+    "S4.8": "B",
+    "S4.9": "A",
+    "S4.10": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "punto di ritiro",
+      "categoria": "locuzione nominale",
+      "zh": "取件点",
+      "en": "pickup point",
+      "esempio": "il pacco è stato lasciato in un punto di ritiro diverso da quello scelto."
+    },
+    {
+      "parola": "trasferibile",
+      "categoria": "aggettivo",
+      "zh": "可转让的",
+      "en": "transferable",
+      "esempio": "Vendo abbonamento trasferibile per sei ingressi alla piscina comunale, valido fino al 30 novembre."
+    },
+    {
+      "parola": "percorso alternativo",
+      "categoria": "locuzione nominale",
+      "zh": "替代路线",
+      "en": "alternative route",
+      "esempio": "Il percorso alternativo, segnalato in giallo, passa da via dei Mulini e allunga il tragitto di circa dieci minuti."
+    },
+    {
+      "parola": "incontro formativo",
+      "categoria": "locuzione nominale",
+      "zh": "培训会",
+      "en": "training session",
+      "esempio": "Dopo un breve incontro formativo, ciascuno potrà scegliere un turno settimanale di due ore."
+    },
+    {
+      "parola": "rimborso",
+      "categoria": "nome maschile",
+      "zh": "退款",
+      "en": "refund",
+      "esempio": "può riportarli al negozio per il rimborso."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione che promuove la vita di quartiere. Hai partecipato a un'iniziativa che ha trasformato temporaneamente uno spazio urbano inutilizzato. Scrivi un articolo in cui descrivi le attività organizzate, valuti i risultati e proponi come rendere stabile o migliorare l'iniziativa.",
+    "W2_PROMPT": "Hai frequentato un corso gratuito di fotografia organizzato dall'Ufficio Cultura del tuo Comune. Scrivi un'e-mail formale alla responsabile delle attività culturali.",
+    "W2_REQ_1": "esprimere una valutazione sul corso appena concluso, indicando un aspetto positivo e uno da migliorare;",
+    "W2_REQ_2": "proporre il tema di un nuovo corso e spiegare brevemente perché potrebbe interessare i cittadini;",
+    "W2_REQ_3": "chiedere quando sarà pubblicato il prossimo programma e come sarà possibile iscriversi."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso la nostra associazione ha trasformato per un giorno il parcheggio inutilizzato di via Verdi in uno spazio condiviso. Abbiamo organizzato un laboratorio itinerante di riparazione delle biciclette, un tavolo per lo scambio dei libri e alcuni giochi per bambini. L'iniziativa ha attirato persone di età diverse e ha permesso a molti vicini, che prima si salutavano appena, di conoscersi e discutere dei bisogni della zona. Il risultato dimostra che recuperare luoghi trascurati può avere ricadute positive sulla qualità della vita. Non sono però mancati problemi: nel pomeriggio c'erano pochi posti a sedere e alcuni residenti si sono lamentati del rumore. Per il prossimo incontro proporrei un sopralluogo con il Comune, più panchine e attività distribuite su orari diversi. Sarebbe inoltre importante coinvolgere i negozianti e raccogliere suggerimenti prima dell'evento. Così lo spazio diventerebbe utile e accogliente per tutti.",
+    "MODEL_W1_PHRASES": "trasformare uno spazio inutilizzato（改造闲置空间）; Il risultato dimostra che…（结果表明……）; Non sono però mancati problemi（不过也出现了一些问题）; Per il prossimo incontro proporrei…（对于下次活动，我建议……）; Sarebbe inoltre importante…（此外，……也很重要）",
+    "MODEL_W2": "Gentile Responsabile dell'Ufficio Cultura,\n\nho concluso il corso gratuito di fotografia e ho apprezzato soprattutto le esercitazioni pratiche. Sarebbe però utile dedicare più tempo alla revisione dei lavori dei partecipanti. Per il prossimo programma propongo un corso di produzione video con lo smartphone: potrebbe interessare sia i giovani sia le associazioni che desiderano raccontare le proprie attività online. Vorrei inoltre sapere quando sarà pubblicato il calendario dei nuovi corsi e attraverso quale procedura sarà possibile iscriversi.\n\nLa ringrazio per l'attenzione e resto in attesa di un gentile riscontro.\n\nCordiali saluti,\nMarta Neri",
+    "MODEL_W2_PHRASES": "ho apprezzato soprattutto…（我尤其欣赏……）; Sarebbe però utile…（不过，……会很有帮助）; Per il prossimo programma propongo…（对于下一期计划，我建议……）; Vorrei inoltre sapere…（此外，我还想了解……）; resto in attesa di un gentile riscontro（静候您的回复）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "spazio condiviso",
+      "categoria": "locuzione nominale",
+      "zh": "共享空间",
+      "en": "shared space",
+      "esempio": "il parcheggio inutilizzato di via Verdi in uno spazio condiviso"
+    },
+    {
+      "parola": "laboratorio itinerante",
+      "categoria": "locuzione nominale",
+      "zh": "流动工作坊",
+      "en": "travelling workshop",
+      "esempio": "un laboratorio itinerante di riparazione delle biciclette"
+    },
+    {
+      "parola": "ricadute positive",
+      "categoria": "locuzione nominale",
+      "zh": "积极影响",
+      "en": "positive effects",
+      "esempio": "può avere ricadute positive sulla qualità della vita"
+    },
+    {
+      "parola": "sopralluogo",
+      "categoria": "nome maschile",
+      "zh": "现场勘察",
+      "en": "site inspection",
+      "esempio": "proporrei un sopralluogo con il Comune"
+    },
+    {
+      "parola": "gentile riscontro",
+      "categoria": "locuzione nominale",
+      "zh": "友善回复；正式回复",
+      "en": "kind reply",
+      "esempio": "resto in attesa di un gentile riscontro"
+    }
+  ]
+}

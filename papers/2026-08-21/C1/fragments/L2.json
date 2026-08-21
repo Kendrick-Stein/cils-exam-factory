@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "BANDO DI ESAME PER IL CONSEGUIMENTO DELL’ABILITAZIONE ALL’ESERCIZIO DELLA PROFESSIONE DI GUIDA TURISTICA",
+    "T2_TEXT": "**Articolo 2 — Requisiti per l’ammissione**\n\nPer l’ammissione all’esame i candidati devono possedere i seguenti requisiti alla data di scadenza del termine stabilito per la presentazione delle domande previsto dal bando:\n\na. essere cittadino italiano o di uno Stato membro dell’Unione europea o, se cittadino di Stati non appartenenti all’Unione europea, essere in regola con le disposizioni vigenti in materia di immigrazione e di lavoro, fatti salvi eventuali accordi internazionali in materia;\n\nb. aver compiuto la maggiore età;\n\nc. godere dei diritti civili e politici;\n\nd. non avere subito condanne passate in giudicato o applicazione della pena su richiesta delle parti per reato doloso per il quale legge preveda la pena della reclusione o dell’arresto;\n\ne. non avere riportato condanne, anche non definitive, o l’applicazione della pena su richiesta delle parti per reati commessi con abuso di una professione, arte, industria, commercio o mestiere o con violazione dei doveri ad essi inerenti, che comportino l’interdizione o la sospensione degli stessi, ai sensi degli articoli 31 e 35 del Codice penale;\n\nf. aver conseguito il diploma di istruzione secondaria di secondo grado o altro diploma dichiarato equipollente o equivalente dalle competenti autorità oppure una laurea triennale ovvero una laurea specialistica, magistrale o del vecchio ordinamento.\n\nPer i candidati non cittadini italiani e non titolari dello status di rifugiato o di protezione sussidiaria, il godimento dei diritti civili e politici di cui al comma 1, lettera c), è riferito al Paese di cittadinanza.\n\nI candidati vengono ammessi alle prove d’esame con riserva.\n\n**Articolo 3 — Prove d’esame**\n\nL’esame per il conseguimento dell’abilitazione alla professione di guida turistica deve accertare la professionalità del candidato.\n\nLe prove di esame consistono in una prova scritta, una prova orale e una prova tecnico-pratica.\n\nPer ogni prova è assegnato un punteggio massimo pari a 40 punti e la prova si intende superata se il candidato ha riportato un punteggio pari o superiore a 25 punti.\n\nLa prova scritta, in lingua italiana, consiste nella somministrazione di quesiti a risposta multipla nelle seguenti materie: storia dell’arte; geografia; storia; archeologia; diritto del turismo, accessibilità e inclusività dell’offerta turistica; disciplina dei beni culturali e del paesaggio.\n\nAlla prova orale e alla prova tecnico-pratica sono ammessi i candidati che abbiano conseguito un punteggio pari o superiore a 25 punti nella prova scritta.\n\nLa prova orale valuta la capacità di comunicazione, la conoscenza e l’approfondimento dei contenuti e consiste in un colloquio, in lingua italiana, sulle materie oggetto della prova scritta, nonché nella verifica della conoscenza della lingua straniera scelta dal candidato al momento della presentazione della domanda in un grado non inferiore al livello di competenza B2.\n\nSono esonerati dall’obbligo di verifica della conoscenza linguistica coloro che rientrano nell’ipotesi prevista dall’articolo 4, comma 1, ultimo periodo, della legge 13 dicembre 2023, n. 190 ovvero coloro che hanno conseguito nella lingua straniera prescelta, all’esito di un corso di studi tenuto presso un istituto scolastico o universitario straniero, un diploma di scuola secondaria o altro diploma dichiarato equipollente o equivalente dalle competenti autorità oppure un titolo di studio superiore riconosciuto ai sensi della normativa vigente.\n\nLa prova tecnico-pratica valuta le competenze pratiche della guida turistica, la capacità di condurre visite guidate e fornire informazioni pertinenti e consiste nella simulazione di una visita guidata in lingua italiana e nella lingua straniera prescelta dal candidato.\n\nL’abilitazione si intende conseguita solo se sono superate tutte le prove previste.",
+    "L2_ITEMS": "**1. I requisiti di ammissione devono essere posseduti entro la scadenza fissata per presentare la domanda.**\n\nVero ○ Falso ○\n\n**2. I cittadini di Stati esterni all’Unione europea sono esclusi dall’esame anche quando rispettano le norme sull’immigrazione e sul lavoro.**\n\nVero ○ Falso ○\n\n**3. Per i reati dolosi punibili con la reclusione o l’arresto, rilevano le condanne passate in giudicato o l’applicazione della pena richiesta dalle parti.**\n\nVero ○ Falso ○\n\n**4. Per i reati commessi abusando di una professione, sono rilevanti esclusivamente le condanne definitive.**\n\nVero ○ Falso ○\n\n**5. Tra i titoli di studio ammessi rientrano sia un diploma secondario riconosciuto sia una laurea triennale.**\n\nVero ○ Falso ○\n\n**6. Per ogni candidato straniero, i diritti civili e politici sono valutati con riferimento al Paese di cittadinanza.**\n\nVero ○ Falso ○\n\n**7. Il bando prevede che l’ammissione alle prove avvenga con riserva.**\n\nVero ○ Falso ○\n\n**8. L’esame comprende tre prove, ciascuna valutata su un massimo di 40 punti.**\n\nVero ○ Falso ○\n\n**9. Per superare una singola prova è necessario ottenere più di 25 punti.**\n\nVero ○ Falso ○\n\n**10. La prova scritta verifica, mediante domande a risposta multipla, anche temi legati all’accessibilità dell’offerta turistica.**\n\nVero ○ Falso ○\n\n**11. Il raggiungimento della soglia nella prova scritta è necessario per accedere sia all’orale sia alla prova tecnico-pratica.**\n\nVero ○ Falso ○\n\n**12. Durante la prova orale, il candidato deve sostenere nella lingua straniera scelta un colloquio su tutte le materie della prova scritta.**\n\nVero ○ Falso ○\n\n**13. Il titolo che può dare luogo all’esonero dalla verifica linguistica deve essere stato conseguito dopo un corso di studi tenuto presso un istituto italiano.**\n\nVero ○ Falso ○\n\n**14. La simulazione della visita guidata si svolge soltanto nella lingua straniera scelta dal candidato.**\n\nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | V | Il testo richiede i requisiti «alla data di scadenza del termine stabilito per la presentazione delle domande». 中文：时间条件是申请截止日。 |\n| L2.2 | F | Anche il cittadino extra-UE può essere ammesso se è «in regola con le disposizioni vigenti in materia di immigrazione e di lavoro». 中文：国籍本身不构成绝对排除。 |\n| L2.3 | V | La lettera d considera le «condanne passate in giudicato» o l’«applicazione della pena su richiesta delle parti» per un reato doloso punibile con reclusione o arresto. 中文：题干保留了罪名、刑罚和两种法律情形。 |\n| L2.4 | F | La lettera e include condanne «anche non definitive» per i reati professionali descritti. 中文：陷阱是把“包括未终审”改成“仅限终审”。 |\n| L2.5 | V | Sono ammessi il «diploma di istruzione secondaria di secondo grado» o equivalente e anche «una laurea triennale». 中文：两类学历均被明确列出。 |\n| L2.6 | F | La regola sul Paese di cittadinanza riguarda i non italiani «non titolari dello status di rifugiato o di protezione sussidiaria», non ogni candidato straniero. 中文：题干错误地扩大了适用范围。 |\n| L2.7 | V | Il bando afferma espressamente: «I candidati vengono ammessi alle prove d’esame con riserva». 中文：这是直接规定。 |\n| L2.8 | V | Le prove sono «una prova scritta, una prova orale e una prova tecnico-pratica» e per ciascuna il massimo è «40 punti». 中文：需合并相邻两项规定。 |\n| L2.9 | F | La prova è superata con un punteggio «pari o superiore a 25 punti»; non occorre superare 25. 中文：“至少25”并非“高于25”。 |\n| L2.10 | V | Fra le materie dei quesiti a risposta multipla compare «accessibilità e inclusività dell’offerta turistica». 中文：题干只概括了明确列出的科目。 |\n| L2.11 | V | All’orale e alla prova tecnico-pratica accedono i candidati con «un punteggio pari o superiore a 25 punti nella prova scritta». 中文：同一门槛控制两项后续考试。 |\n| L2.12 | F | Il colloquio sulle materie della prova scritta è «in lingua italiana»; per la lingua straniera è prevista una distinta verifica di conoscenza. 中文：题干混淆了口试内容与外语能力核验。 |\n| L2.13 | F | Il corso di studi richiesto deve essere stato tenuto «presso un istituto scolastico o universitario straniero», non italiano. 中文：题干把办学机构所在国改反了。 |\n| L2.14 | F | La simulazione avviene «in lingua italiana e nella lingua straniera prescelta», non soltanto in quest’ultima. 中文：两种语言都要求使用。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "V || Vero",
+    "L2.9": "F || Falso",
+    "L2.10": "V || Vero",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "F || Falso",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "passate in giudicato",
+      "categoria": "locuzione giuridica",
+      "zh": "已发生法律效力的（判决）",
+      "en": "final and binding",
+      "esempio": "non avere subito condanne passate in giudicato"
+    },
+    {
+      "parola": "equipollente",
+      "categoria": "aggettivo",
+      "zh": "同等效力的",
+      "en": "equivalent",
+      "esempio": "altro diploma dichiarato equipollente o equivalente"
+    },
+    {
+      "parola": "con riserva",
+      "categoria": "locuzione avverbiale",
+      "zh": "有条件地；保留审查地",
+      "en": "provisionally; subject to verification",
+      "esempio": "I candidati vengono ammessi alle prove d’esame con riserva."
+    },
+    {
+      "parola": "esonerati",
+      "categoria": "aggettivo",
+      "zh": "获豁免的",
+      "en": "exempted",
+      "esempio": "Sono esonerati dall’obbligo di verifica della conoscenza linguistica"
+    },
+    {
+      "parola": "pertinenti",
+      "categoria": "aggettivo",
+      "zh": "相关且恰当的",
+      "en": "relevant",
+      "esempio": "fornire informazioni pertinenti"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "APERTURA DEL MUSEO NAZIONALE ATESTINO",
+    "S3_TEXT_WITH_GAPS": "Data di __apertura (0)__: 2 giugno 2026.\n\nEvento giornaliero.\n\nPrenotazione non richiesta.\n\nOrario di apertura:\n\nLunedì 08:30 - 19:30  \n__(1)__ 08:30 - 19:30  \nMercoledì 08:00 - 18:00  \n__(2)__ 08:00 - 18:00  \nVenerdì 08:00 - 18:00  \n__(3)__ 08:00 - 18:00  \nDomenica 08:00 - 18:00\n\nOrario di apertura nella giornata della Festa della Repubblica e 80° __(4)__ della __(5)__ della Repubblica italiana: dalle 8:30 alle 19:30.\n\nLa __(6)__ chiude alle 19:00. Ingresso __(7)__.\n\nSi segnala che il museo sarà aperto anche lunedì 1 giugno, con __(8)__ regolare.",
+    "S3_OPT0_A": "apertura",
+    "S3_OPT0_B": "visita",
+    "S3_OPT0_C": "prenotazione",
+    "S3_OPTION_ROWS": "| 1. | Martedì | Sabato | Giovedì |\n| 2. | Domenica | Giovedì | Martedì |\n| 3. | Lunedì | Mercoledì | Sabato |\n| 4. | giorno | anniversario | anno |\n| 5. | nascita | storia | festa |\n| 6. | prenotazione | visita | biglietteria |\n| 7. | gratuito | regolare | giornaliero |\n| 8. | prenotazione | tariffa | biglietteria |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | Dopo «Lunedì» e prima di «Mercoledì» viene «Martedì». 中文：星期顺序锁定答案。 |\n| S3.2 | B | Dopo «Mercoledì» e prima di «Venerdì» viene «Giovedì». 中文：前后日期唯一确定星期四。 |\n| S3.3 | C | Dopo «Venerdì» e prima di «Domenica» viene «Sabato». 中文：星期顺序锁定星期六。 |\n| S3.4 | B | L'espressione «80° anniversario» indica gli ottant'anni dalla nascita della Repubblica. 中文：序数词和纪念年数构成固定表达。 |\n| S3.5 | A | Il testo parla dell'«anniversario della nascita della Repubblica italiana». 中文：指共和国诞生八十周年。 |\n| S3.6 | C | «La biglietteria chiude alle 19:00», prima della chiusura del museo alle 19:30. 中文：售票处比博物馆早半小时关闭。 |\n| S3.7 | A | «Ingresso gratuito» significa che il 2 giugno non si paga. 中文：后文1日票价正常形成对比。 |\n| S3.8 | B | Il 1 giugno il museo è aperto «con tariffa regolare», in contrasto con l'ingresso gratuito del 2 giugno. 中文：免费与正常票价形成明确对比。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "A",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "giornaliero",
+      "categoria": "aggettivo",
+      "zh": "每日的",
+      "en": "daily",
+      "esempio": "Evento giornaliero"
+    },
+    {
+      "parola": "Prenotazione",
+      "categoria": "nome femminile",
+      "zh": "预约",
+      "en": "reservation",
+      "esempio": "Prenotazione non richiesta"
+    },
+    {
+      "parola": "orario di apertura",
+      "categoria": "locuzione nominale",
+      "zh": "开放时间",
+      "en": "opening hours",
+      "esempio": "Orario di apertura"
+    },
+    {
+      "parola": "Festa della Repubblica",
+      "categoria": "nome proprio",
+      "zh": "共和国日",
+      "en": "Republic Day",
+      "esempio": "nella giornata della Festa della Repubblica"
+    },
+    {
+      "parola": "museo",
+      "categoria": "nome maschile",
+      "zh": "博物馆",
+      "en": "museum",
+      "esempio": "il museo sarà aperto"
+    }
+  ]
+}

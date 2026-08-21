@@ -1,0 +1,125 @@
+exam: cils
+level: B1
+session: '2026-08-21'
+title: CILS UNO — B1 · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.ansa.it/lombardia/notizie/2026/07/11/federico-quaranta-torno-con-le-storie-del-territorio-storie-di-tutti_71ab29ce-0350-49df-ac9f-6820ae766674.html
+  title: Federico Quaranta, torno con le storie del territorio, storie di tutti
+  publisher: ANSA
+  published: '2026-07-11'
+  accessed: '2026-08-08'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 428
+  origin: pool/7101215b7898.md
+- id: T2
+  url: https://www.comune.modena.it/novita/comunicati/2026/luglio/la-scuola-riparte-insieme-2-il-bando
+  title: La scuola riparte insieme / 2 – Il bando
+  publisher: Comune di Modena
+  published: '2026-07-16'
+  accessed: '2026-08-08'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 310
+  origin: pool/97b504d646d1.md
+- id: T3
+  url: https://www.bimbieviaggi.it/weekend-a-olbia-gallura-fuori-stagione
+  title: 'Weekend a Olbia: la Gallura tra mare, musei e trekking'
+  publisher: Bimbi e Viaggi
+  published: '2025-04-02'
+  accessed: '2026-08-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 283
+  origin: pool/2cc647774b6d.md
+- id: T4
+  url: https://www.rainews.it/articoli/2026/06/sciame-di-api-invade-la-spiaggia-di-cattolica-e-trasforma-un-ombrellone-nel-suo-alveare-673a489a-34f4-49f6-8914-64797086014f.html
+  title: Sciame di api invade la spiaggia di Cattolica e trasforma un ombrellone nel suo alveare
+  publisher: RaiNews
+  published: '2026-06-10'
+  accessed: '2026-08-08'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 246
+  origin: pool/fea46676b0eb.md
+- id: T5
+  url: https://www.treccani.it/magazine/atlante/cultura/le-immagini-al-cuore-di-olimpiadi-e-paralimpiadi/
+  title: Le immagini al cuore di Olimpiadi e Paralimpiadi
+  publisher: Treccani
+  published: '2026-04-23'
+  accessed: '2026-08-08'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 236
+  origin: pool/b279c937c985.md
+- id: T6
+  url: https://www.ansa.it/marche/notizie/2026/07/10/alluniversita-camerino-open-day-e-laboratori-aperti-per-lorientamento-estivo_6b4e9a24-4bb6-4478-a45c-49fcc26a624f.html
+  title: All'Università Camerino open day e laboratori aperti per l'orientamento estivo
+  publisher: ANSA
+  published: '2026-07-10'
+  accessed: '2026-08-08'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 179
+  origin: pool/0a1cf11e15ad.md
+pipeline:
+  generator: genpapers
+  template: factory/exams/cils/templates/B1.md
+  variant_profile: cils-2024-standard
+  stages:
+  - stage: scaffold
+    at: '2026-08-21'
+  - stage: corpus
+    at: '2026-08-21'
+  - stage: blind_validation
+    at: '2026-08-21T03:43:06+00:00'
+    agreement: 83/87
+    flags: 3
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-21T04:03:09+00:00'
+    agreement: 83/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-21T04:04:06+00:00'
+    agreement: 84/87
+    flags: 0
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-21T04:09:54+00:00'
+    agreement: 87/87
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-21T04:10:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-21T04:10:06+00:00'
+    result: pass
+    issues: 0
+  - stage: authoring
+    at: '2026-08-21'
+  - stage: assembly
+    at: '2026-08-21'
+  - stage: publish
+    at: '2026-08-21'
+    agreement: 87/87
+    repair_rounds: 2
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 87
+  final_agreement: 87
+  agreement: 87/87
+  flags: 0
+  mismatches: 0
+  result: pass

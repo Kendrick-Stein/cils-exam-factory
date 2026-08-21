@@ -1,0 +1,51 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Hai trascorso una giornata speciale fuori casa. Racconta dove sei andato/a, con chi eri, che cosa hai fatto e perché ti è piaciuta.",
+    "W2_PROMPT": "Organizzi un pranzo per il tuo compleanno. Scrivi un messaggio a un amico o a un'amica: invitalo/a, indica giorno e ora e chiedi di portare qualcosa."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho passato una giornata bellissima al lago con due amici. Siamo partiti la mattina presto in autobus. Al lago abbiamo camminato, fatto molte foto e mangiato panini sull'erba. Nel pomeriggio ha piovuto, ma siamo entrati in un piccolo bar. Sono tornato a casa stanco e felice.",
+    "MODEL_W1_PHRASES": "Sabato scorso（上周六）; Siamo partiti la mattina presto（我们一大早出发了）; Nel pomeriggio（下午）; Sono tornato a casa（我回到了家）",
+    "MODEL_W2": "Ciao Marta, domenica organizzo un pranzo a casa mia per il mio compleanno. Vieni alle dodici? Puoi portare una bibita? Fammi sapere entro venerdì. A presto, Luca.",
+    "MODEL_W2_PHRASES": "Organizzo un pranzo（我组织一顿午餐）; Vieni alle dodici?（你十二点来吗？）; Puoi portare…?（你能带……吗？）; Fammi sapere（请告诉我）; A presto（回头见）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "la mattina presto",
+      "categoria": "locuzione avverbiale",
+      "zh": "一大早",
+      "en": "early in the morning",
+      "esempio": "Siamo partiti la mattina presto in autobus."
+    },
+    {
+      "parola": "molte foto",
+      "categoria": "locuzione nominale",
+      "zh": "拍很多照片",
+      "en": "to take many photos",
+      "esempio": "Al lago abbiamo camminato, fatto molte foto e mangiato panini sull'erba."
+    },
+    {
+      "parola": "stanco",
+      "categoria": "aggettivo",
+      "zh": "疲惫的",
+      "en": "tired",
+      "esempio": "Sono tornato a casa stanco e felice."
+    },
+    {
+      "parola": "portare una bibita",
+      "categoria": "locuzione verbale",
+      "zh": "带一瓶饮料",
+      "en": "to bring a drink",
+      "esempio": "Puoi portare una bibita?"
+    },
+    {
+      "parola": "Fammi sapere",
+      "categoria": "espressione",
+      "zh": "请告诉我",
+      "en": "let me know",
+      "esempio": "Fammi sapere entro venerdì."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "LE IMMAGINI AL CUORE DI OLIMPIADI E PARALIMPIADI",
+    "S2_TEXT_WITH_GAPS": "Alessandro Trovati *(essere)* __è (0)__ un fotografo sportivo stimato dai colleghi e benvoluto dagli addetti ai lavori. Nel 1992 ad Albertville è il più giovane accreditato ai Giochi. In futuro, altre undici edizioni di Olimpiadi e un numero impressionante di Mondiali ed eventi *(seguire)* __(1)__ questa esperienza. Nella recente edizione di Milano Cortina 2026 *(occuparsi)* __(2)__ di *(rendere)* __(3)__ il lavoro dei colleghi fluido e veloce.\n\n**Cosa significa *(essere)* __(4)__ Photo Chief Manager alle Olimpiadi?**\n\n*(esserci)* __(5)__ 740 fotografi *(accreditare)* __(6)__ da tutto il mondo. Molti giovani e anche tantissime donne. *(essere)* __(7)__ tre nel Photo Operation: io, Ivo Gonzalez e Federica Rosa. Lei *(essere)* __(8)__ fondamentale. Abbiamo coordinato le Venue, scelto i Photo Manager, i Photo Supervisor. Alcuni con tanta esperienza olimpica, altri alla loro prima edizione però molto *(preparare)* __(9)__. L’80% delle Photo Position era cablato.\n\n**Ipoteticamente, se tu dovessi portare solo due obiettivi in montagna, quali *(scegliere)* __(10)__?**\n\nUn 600mm, perché si è sempre più lontani rispetto all’atleta e un 50 o un 24/70 per contestualizzare di più l’immagine. Un’ottica usata tantissimo ai Giochi è stata il 100/300, ottima anche con il moltiplicatore, non pesante e versatile.\n\n**L’evoluzione tecnologica *(cambiare)* __(11)__ molto la professione?**\n\n*(fotografare)* __(12)__ *(diventare)* __(13)__ più facile. Ora le macchine *(costare)* __(14)__ ma non *(sbagliare)* __(15)__. Il risultato *(essere)* __(16)__ più alla portata. Adesso, se *(essere)* __(17)__ un po’ scarso, la tecnologia *(aiutare)* __(18)__ molto fotografi come te. Poi i fotografi bravi *(notarsi)* __(19)__, per inquadratura, creatività, grafica, per come *(scattare)* __(20)__."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | seguiranno | futuro semplice | S2.11 | ha cambiato | passato prossimo |\n| S2.2 | si è occupato | passato prossimo | S2.12 | Fotografare | infinito presente |\n| S2.3 | rendere | infinito presente | S2.13 | è diventato | passato prossimo |\n| S2.4 | essere | infinito presente | S2.14 | costano | presente indicativo |\n| S2.5 | C’erano | imperfetto indicativo | S2.15 | sbagliano | presente indicativo |\n| S2.6 | accreditati | participio passato | S2.16 | è | presente indicativo |\n| S2.7 | Eravamo | imperfetto indicativo | S2.17 | sei | presente indicativo |\n| S2.8 | è stata | passato prossimo | S2.18 | aiuta | presente indicativo |\n| S2.9 | preparati | participio passato | S2.19 | si notano | presente indicativo |\n| S2.10 | sceglieresti | condizionale presente | S2.20 | scattano | presente indicativo |",
+    "ANS_S2_NOTES": "- S2.1: «In futuro» fissa il tempo, mentre il soggetto plurale anteposto «altre undici edizioni ... e ... Mondiali ed eventi» forza «seguiranno». 中文：明确的未来标记和前置复数主语共同锁定第三人称复数将来时。\n- S2.2: «Nella recente edizione di Milano Cortina 2026» presenta un’attività conclusa: «si è occupato». 中文：明确的近期已完成事件要求近过去时。\n- S2.3: la preposizione «di» dopo «si è occupato» richiede l’infinito «rendere». 中文：介词 di 后接动词不定式。\n- S2.4: dopo «significa» il verbo che definisce il ruolo resta all’infinito: «essere». 中文：这里用不定式说明职位意味着什么。\n- S2.5: nel quadro della «recente edizione» il numero dei fotografi è uno sfondo descrittivo: «c’erano». 中文：过去场景中的背景数量用未完成过去时。\n- S2.6: «fotografi» è maschile plurale e forza «accreditati». 中文：过去分词必须与阳性复数名词一致。\n- S2.7: «tre nel Photo Operation» descrive la composizione del gruppo durante quell’edizione: «eravamo». 中文：过去持续状态用未完成过去时。\n- S2.8: «è stata fondamentale» esprime la valutazione complessiva del contributo di Federica Rosa. 中文：对已结束赛事中的贡献作总结，用近过去时。\n- S2.9: «altri» è maschile plurale e forza il participio «preparati». 中文：前置的阳性复数指代词锁定过去分词的性数。\n- S2.10: «se tu dovessi …» è il periodo ipotetico con soggetto esplicito di 2ª persona singolare, che impone il condizionale presente «sceglieresti». 中文：显性主语 *tu* 加虚拟条件句，锁定第二人称单数条件式。\n- S2.11: la domanda valuta l’effetto prodotto fino al presente: «ha cambiato». 中文：技术演变对现在造成的结果用近过去时。\n- S2.12: «Fotografare» è il soggetto della frase e richiede l’infinito. 中文：动词作主语时用不定式。\n- S2.13: «è diventato» presenta il cambiamento ormai compiuto. 中文：已经发生并影响现在的变化用近过去时。\n- S2.14: «Ora» introduce il presente «costano». 中文：Ora 明确把叙述切换到现在。\n- S2.15: lo stesso «Ora» regge anche il presente «non sbagliano». 中文：同一当前时间框架排除过去时。\n- S2.16: «Il risultato» continua la descrizione attuale introdotta da «Ora»: «è». 中文：这里继续说明目前的状态。\n- S2.17: «Adesso» e l’apodosi all’indicativo «la tecnologia aiuta» forzano la condizione reale «se sei». 中文：当前时间标记和主句直陈式共同锁定现在时。\n- S2.18: l’oggetto esplicito «fotografi come te» esclude il clitico «ti»; «Adesso» forza il presente. 中文：显式宾语排除 ti；Adesso 锁定现在时。\n- S2.19: «Poi» prosegue il giudizio attuale sui fotografi bravi: «si notano». 中文：代词 si 必须与动词一起写进空格。\n- S2.20: «per come» introduce il modo osservato, non la concessione di «per quanto», e richiede l’indicativo «scattano». 中文：per come 表示实际方式，不触发让步虚拟式。"
+  },
+  "key": {
+    "S2.1": "seguiranno",
+    "S2.2": "si è occupato",
+    "S2.3": "rendere",
+    "S2.4": "essere",
+    "S2.5": "C’erano",
+    "S2.6": "accreditati",
+    "S2.7": "Eravamo",
+    "S2.8": "è stata",
+    "S2.9": "preparati",
+    "S2.10": "sceglieresti",
+    "S2.11": "ha cambiato",
+    "S2.12": "Fotografare",
+    "S2.13": "è diventato",
+    "S2.14": "costano",
+    "S2.15": "sbagliano",
+    "S2.16": "è",
+    "S2.17": "sei",
+    "S2.18": "aiuta",
+    "S2.19": "si notano",
+    "S2.20": "scattano"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "addetti ai lavori",
+      "categoria": "espressione",
+      "zh": "业内人士",
+      "en": "industry professionals",
+      "esempio": "benvoluto dagli addetti ai lavori"
+    },
+    {
+      "parola": "accreditato",
+      "categoria": "aggettivo",
+      "zh": "获准采访的；已认证的",
+      "en": "accredited",
+      "esempio": "il più giovane accreditato ai Giochi"
+    },
+    {
+      "parola": "fluido e veloce",
+      "categoria": "espressione",
+      "zh": "顺畅而快速的",
+      "en": "smooth and fast",
+      "esempio": "il lavoro dei colleghi fluido e veloce"
+    },
+    {
+      "parola": "alla portata",
+      "categoria": "locuzione aggettivale",
+      "zh": "容易实现的；力所能及的",
+      "en": "within reach",
+      "esempio": "più alla portata"
+    },
+    {
+      "parola": "inquadratura",
+      "categoria": "nome",
+      "zh": "取景；构图",
+      "en": "framing",
+      "esempio": "per inquadratura, creatività, grafica"
+    }
+  ]
+}

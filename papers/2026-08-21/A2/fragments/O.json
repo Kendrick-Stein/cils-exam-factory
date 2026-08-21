@@ -1,0 +1,51 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Quale strumento usi più spesso per lavorare o studiare? Spiega perché ti è utile.\n\n**2.** Quando fai la spesa, preferisci il mercato o il supermercato? Che cosa hai comprato l'ultima volta?\n\n**3.** Come organizzi la pausa pranzo nei giorni di lavoro o di studio?\n\n**4.** Come vai di solito al lavoro o a scuola? Che cosa fai quando c'è molto traffico?\n\n**5.** Racconta un piccolo problema che hai avuto durante un viaggio o una vacanza. Come lo hai risolto?\n\n**6.** Dove andrai per la tua prossima vacanza e come organizzerai il viaggio?",
+    "O2_ARGOMENTI": "**1.** Racconta la prima volta che hai preparato un piatto nuovo: spiega quale ricetta hai scelto, chi era con te e com'è andata.\n\n**2.** Descrivi le tue abitudini della sera prima di una giornata importante: parla di quello che prepari, dell'ora in cui vai a dormire e di come ti senti."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Quale strumento usi più spesso per lavorare o studiare? Spiega perché ti è utile.**\n\n*Esaminatore:* Quale strumento usi più spesso per lavorare o studiare? Spiega perché ti è utile.\n\n*Candidato:* Uso soprattutto il computer, perché posso scrivere, cercare informazioni e parlare con i miei compagni. Quando devo ricordare qualcosa, prendo anche qualche appunto su un quaderno.\n\n**2. Quando fai la spesa, preferisci il mercato o il supermercato? Che cosa hai comprato l'ultima volta?**\n\n*Esaminatore:* Quando fai la spesa, preferisci il mercato o il supermercato? Che cosa hai comprato l'ultima volta?\n\n*Candidato:* Preferisco il mercato perché la frutta è fresca e posso parlare con i venditori. Sabato scorso ho comprato mele, pomodori e un chilo di patate.\n\n**3. Come organizzi la pausa pranzo nei giorni di lavoro o di studio?**\n\n*Esaminatore:* Come organizzi la pausa pranzo nei giorni di lavoro o di studio?\n\n*Candidato:* Porto da casa un panino o un'insalata e mangio verso l'una con due colleghi. Dopo pranzo facciamo una breve passeggiata prima di tornare al lavoro.\n\n**4. Come vai di solito al lavoro o a scuola? Che cosa fai quando c'è molto traffico?**\n\n*Esaminatore:* Come vai di solito al lavoro o a scuola? Che cosa fai quando c'è molto traffico?\n\n*Candidato:* Di solito prendo l'autobus, ma quando c'è molto traffico scendo due fermate prima e continuo a piedi. Così arrivo quasi sempre in orario.\n\n**5. Racconta un piccolo problema che hai avuto durante un viaggio o una vacanza. Come lo hai risolto?**\n\n*Esaminatore:* Racconta un piccolo problema che hai avuto durante un viaggio o una vacanza. Come lo hai risolto?\n\n*Candidato:* L'estate scorsa ho perso la coincidenza per Firenze perché il primo treno era in ritardo. Ho chiesto aiuto in biglietteria e ho preso il treno successivo senza pagare un altro biglietto.\n\n**6. Dove andrai per la tua prossima vacanza e come organizzerai il viaggio?**\n\n*Esaminatore:* Dove andrai per la tua prossima vacanza e come organizzerai il viaggio?\n\n*Candidato:* Andrò tre giorni in montagna con due amici. Questa settimana prenoterò una piccola casa e controllerò gli orari degli autobus e i sentieri più facili.",
+    "MODEL_O1_PHRASES": "*Uso soprattutto…, perché…*（我主要使用……，因为……）; *Sabato scorso ho comprato…*（上周六我买了……）; *Di solito…, ma quando…*（通常……，但当……时……）; *Ho chiesto aiuto…*（我寻求了帮助……）; *Questa settimana prenoterò…*（这周我会预订……）",
+    "MODEL_O2": "**Argomento n. 1 — La prima volta che ho preparato un piatto nuovo**\n\nLo scorso inverno ho preparato per la prima volta una ricetta di verdure al forno. Mia cugina era a casa mia e mi ha aiutato a tagliare le patate e le carote. Mentre le verdure cuocevano, abbiamo preparato la tavola e ascoltato musica. All'inizio avevo paura di usare troppo sale, ma il piatto è venuto bene. Abbiamo cenato insieme e mia cugina ha chiesto un'altra porzione. Ero molto contento e il giorno dopo ho scritto la ricetta sul mio quaderno.\n\n**Argomento n. 2 — La sera prima di una giornata importante**\n\nQuando il giorno dopo ho un appuntamento importante, cerco di organizzare tutto con calma. Dopo cena preparo i vestiti, controllo i documenti e metto nella borsa le chiavi e una bottiglia d'acqua. Poi guardo il percorso e preparo la sveglia. Di solito vado a dormire prima delle undici, anche se sono un po' nervoso. Non uso il telefono a letto e leggo qualche pagina. La mattina mi sento più tranquillo perché ogni cosa è già pronta.",
+    "MODEL_O2_PHRASES": "*Per la prima volta…*（第一次……）; *Mentre…, abbiamo…*（当……时，我们……）; *All'inizio avevo paura di…*（一开始我担心……）; *Quando il giorno dopo…*（当第二天……时）; *Ogni cosa è già pronta.*（一切都已经准备好了。）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "coincidenza",
+      "categoria": "nome femminile",
+      "zh": "换乘；衔接车次",
+      "en": "connection",
+      "esempio": "L'estate scorsa ho perso la coincidenza per Firenze perché il primo treno era in ritardo."
+    },
+    {
+      "parola": "sentieri",
+      "categoria": "nome maschile plurale",
+      "zh": "小路；步道",
+      "en": "paths; trails",
+      "esempio": "Questa settimana prenoterò una piccola casa e controllerò gli orari degli autobus e i sentieri più facili."
+    },
+    {
+      "parola": "ricetta",
+      "categoria": "nome femminile",
+      "zh": "食谱",
+      "en": "recipe",
+      "esempio": "Lo scorso inverno ho preparato per la prima volta una ricetta di verdure al forno."
+    },
+    {
+      "parola": "porzione",
+      "categoria": "nome femminile",
+      "zh": "一份；一客",
+      "en": "portion",
+      "esempio": "Abbiamo cenato insieme e mia cugina ha chiesto un'altra porzione."
+    },
+    {
+      "parola": "sveglia",
+      "categoria": "nome femminile",
+      "zh": "闹钟",
+      "en": "alarm clock",
+      "esempio": "Poi guardo il percorso e preparo la sveglia."
+    }
+  ]
+}

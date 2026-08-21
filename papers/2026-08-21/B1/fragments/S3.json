@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "All'Università Camerino open day e laboratori aperti per l'orientamento estivo",
+    "S3_TEXT_WITH_GAPS": "L'Università di Camerino orienta anche in estate con open day, laboratori __(1)__, incontri online e visite __(2)__ nelle proprie __sedi (0)__. Il 14 luglio a Camerino e il 15 luglio ad Ascoli Piceno e San Benedetto del Tronto sono in __(3)__ gli __(4)__ __(5)__ a studentesse, studenti e famiglie per __(6)__ da __(7)__ l'Ateneo, le strutture didattiche e i laboratori.\n\nI partecipanti potranno ricevere __(8)__ su didattica, servizi, __(9)__ di studio, agevolazioni, alloggi e corsi di laurea __(10)__ dalle cinque __(11)__ di Ateneo: Architettura e Design, Bioscienze e Medicina Veterinaria, Giurisprudenza, Scienze del Farmaco e dei Prodotti della __(12)__, Scienze e Tecnologie. Sarà inoltre possibile approfondire il percorso di __(13)__ della Scuola di Studi Superiori \"Carlo Urbani\", il cui titolo è __(14)__ a un master di secondo livello.\n\nNel pomeriggio del 14 luglio, dalle 17 alle 19, è previsto anche un incontro formativo online dedicato ai genitori sui servizi e sulle opportunità offerte da Unicam. Dall'1 al 31 luglio e dal 17 agosto al 4 settembre torna inoltre \"Porte aperte in Unicam - estate 2026\", nelle sedi di Camerino, Ascoli Piceno, Matelica e San Benedetto del Tronto, sia in presenza sia in __(15)__ telematica.",
+    "S3_OPT0_A": "sedi",
+    "S3_OPT0_B": "scuole",
+    "S3_OPT0_C": "borse",
+    "S3_OPT0_D": "visite",
+    "S3_OPTION_ROWS": "| 1. | guidati | equiparati | aperti | attivati |\n| 2. | dedicate | guidate | attivate | equiparate |\n| 3. | servizio | percorso | livello | programma |\n| 4. | appuntamenti | alloggi | studenti | edifici |\n| 5. | attivati | guidati | dedicati | equiparati |\n| 6. | ricevere | conoscere | orientare | approfondire |\n| 7. | lontano | fuori | altrove | vicino |\n| 8. | informazioni | visite | agevolazioni | strutture |\n| 9. | sedi | visite | borse | scuole |\n| 10. | dedicati | equiparati | guidati | attivati |\n| 11. | Scuole | sedi | borse | visite |\n| 12. | laurea | Salute | didattica | eccellenza |\n| 13. | laurea | presenza | eccellenza | didattica |\n| 14. | dedicato | equiparato | guidato | attivato |\n| 15. | eccellenza | laurea | presenza | modalità |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | C | «laboratori aperti»: indica i laboratori accessibili durante l'iniziativa. 中文：这里是固定、自然的搭配。 |\n| S3.2 | B | «visite guidate»: le visite si svolgono con una guida. 中文：不是被“启动”或“等同”的参观。 |\n| S3.3 | D | «sono in programma gli appuntamenti»: gli eventi sono previsti nel calendario. 中文：in programma 表示“已安排”。 |\n| S3.4 | A | «gli appuntamenti dedicati a studentesse, studenti e famiglie» identifica gli eventi destinati al pubblico. 中文：其他名词不可能同时被安排并面向这些人。 |\n| S3.5 | C | «appuntamenti dedicati a» richiede l'idea di destinazione a un pubblico. 中文：介词 a 也支持 dedicati。 |\n| S3.6 | B | «per conoscere da vicino l'Ateneo» esprime lo scopo delle visite. 中文：目的是深入了解大学。 |\n| S3.7 | D | «conoscere da vicino» significa fare conoscenza diretta. 中文：da vicino 是固定表达。 |\n| S3.8 | A | «ricevere informazioni su didattica, servizi» introduce l'elenco degli argomenti. 中文：su 后面列的是信息内容。 |\n| S3.9 | C | «borse di studio» è l'espressione che indica gli aiuti economici agli studenti. 中文：固定搭配“奖学金”。 |\n| S3.10 | D | «corsi di laurea attivati dalle cinque Scuole» indica corsi istituiti dalle Scuole. 中文：dalle 引出动作执行者。 |\n| S3.11 | A | «cinque Scuole di Ateneo» sono le unità che attivano i corsi elencati. 中文：后面的五个名称对应五个学院。 |\n| S3.12 | B | «Prodotti della Salute» completa il nome della Scuola universitaria. 中文：这里是院系名称的一部分。 |\n| S3.13 | C | «percorso di eccellenza» indica un percorso formativo di livello particolarmente alto. 中文：固定搭配指卓越培养项目。 |\n| S3.14 | B | «titolo è equiparato a un master» significa che ha lo stesso valore riconosciuto. 中文：equiparato regge a。 |\n| S3.15 | D | «in modalità telematica» indica che l'attività può svolgersi online. 中文：modalità telematica 是固定表达。 |"
+  },
+  "key": {
+    "S3.1": "C",
+    "S3.2": "B",
+    "S3.3": "D",
+    "S3.4": "A",
+    "S3.5": "C",
+    "S3.6": "B",
+    "S3.7": "D",
+    "S3.8": "A",
+    "S3.9": "C",
+    "S3.10": "D",
+    "S3.11": "A",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "agevolazioni",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "优惠；补助措施",
+      "en": "benefits; concessions",
+      "esempio": "agevolazioni, alloggi"
+    },
+    {
+      "parola": "alloggi",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "住宿；住房",
+      "en": "accommodation",
+      "esempio": "agevolazioni, alloggi"
+    },
+    {
+      "parola": "master di secondo livello",
+      "categoria": "espressione nominale",
+      "zh": "二级硕士课程",
+      "en": "second-level master's degree",
+      "esempio": "un master di secondo livello"
+    },
+    {
+      "parola": "incontro formativo online",
+      "categoria": "espressione nominale",
+      "zh": "线上培训说明会",
+      "en": "online training meeting",
+      "esempio": "un incontro formativo online dedicato ai genitori"
+    },
+    {
+      "parola": "Porte aperte in Unicam",
+      "categoria": "nome di iniziativa",
+      "zh": "Unicam 大学开放活动",
+      "en": "Unicam open-house event",
+      "esempio": "Porte aperte in Unicam - estate 2026"
+    }
+  ]
+}

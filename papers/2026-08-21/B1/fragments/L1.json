@@ -1,0 +1,57 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Federico Quaranta, torno con le storie del territorio, storie di tutti",
+    "T1_TEXT": "Di quello che è successo «non voglio più parlare. Vorrei derubricarla a rapina. Può succedere, è capitato. Secondo me non è colpa di Milano, non è colpa di niente. Avrei tante cose da dire, magari poi lo farò anche chiamando a confronto il sindaco Sala. Ci siamo già sentiti, mi ha telefonato naturalmente e mi ha espresso la sua vicinanza, ma non è successo niente di che, se non una rapina».\n\nLo dice fermo ma con un sorriso Federico Quaranta, parlando con l'ANSA a proposito dell'aggressione sventata a Milano qualche giorno fa. Il conduttore è stato tra i protagonisti dell'incontro «Matera Capitale Mediterranea della Cultura e del Dialogo» alla 25ª edizione de Il Libro Possibile, il festival sostenuto da Pirelli in corso a Polignano a Mare.\n\n«Un altro sindaco che amo, quello di Matera, Antonio Nicoletti, mi ha chiamato per raccontare la città. E questa cosa mi riempie di orgoglio perché io non sono materano ma genovese.\n\nNon ho mai raccontato Genova, ma mi chiamano per raccontare Matera, perché l'ho attraversata, sono sceso nelle profondità della Gravina, l'ho studiata e ogni volta che ci vado sento un radicamento profondissimo. E allora ho detto sì, proprio per l'amore che ho per la città». Quaranta sarà di nuovo nella prossima stagione in onda sia su Rai 1 che su Rai 3: sull'ammiraglia Rai «torno nella fascia del sabato, che è quella che va da mezzogiorno» dove si succederanno alcuni spinoff di Linea verde.\n\nPoi c'è «Il provinciale» su Rai 3, a cui tengo tantissimo: un programma di antropologia, di sociologia.\n\n«Stavolta cominciamo il 7 di settembre alle ore 20.10 e sono viaggi che durano una settimana. Le puntate le puoi vedere anche singolarmente, è la logica della serie, però tutte insieme raccontano un territorio per 5 giorni, da lunedì al venerdì».\n\nContemporaneamente alla messa in onda «noi saremo in campo a registrare le altre 60 puntate, che varieranno un po' nel tema portante perché parleremo della cucina italiana come patrimonio dell'Unesco. Sappiamo meglio di chiunque altro che la cucina è antropologia pura. Per capire un popolo sulla Terra si deve prima di tutto guardare come e dove quel popolo mangia».\n\nSono 20 anni «che faccio questo mestiere e che io ogni settimana sono in giro su uno o due o tre territori diversi per raccontarli. Ancora oggi le persone si stupiscono, mi dicono che faccio un lavoro incredibile perché le storie che racconto sono così profonde. Quelle sono il nostro patrimonio, la nostra ricchezza. Sono le storie di tutti. È per questo che continuo a camminare e a raccontare».",
+    "L1_ITEMS": "**1. Riguardo all'aggressione subita a Milano, Federico Quaranta**\n\nA) pensa che la città sia responsabile dell'accaduto.\n\nB) considera l'episodio una rapina e non accusa la città.\n\nC) vuole parlarne subito in pubblico con il sindaco.\n\nD) dice di non avere niente da comunicare al sindaco.\n\n**2. Quaranta è orgoglioso della richiesta del sindaco di Matera perché**\n\nA) il sindaco lo ha invitato a dirigere il festival.\n\nB) finalmente può raccontare la città in cui è nato.\n\nC) pur essendo genovese, è stato chiamato a raccontare Matera.\n\nD) può presentare al pubblico un suo libro sulla città.\n\n**3. Quaranta ha accettato di raccontare Matera perché**\n\nA) ha studiato la città e sente un legame profondo con essa.\n\nB) vuole conoscere per la prima volta la Gravina.\n\nC) il sindaco di Genova gli ha chiesto di presentare la Gravina.\n\nD) deve preparare un programma dedicato a Genova.\n\n**4. Nella prossima stagione, su Rai 1 Quaranta**\n\nA) presenterà ogni sera una puntata de «Il provinciale».\n\nB) condurrà un programma di sociologia il venerdì.\n\nC) registrerà un festival culturale da Polignano a Mare.\n\nD) tornerà il sabato da mezzogiorno con alcuni spinoff di «Linea verde».\n\n**5. Le puntate de «Il provinciale»**\n\nA) saranno trasmesse tutte insieme il 7 settembre.\n\nB) si potranno vedere singolarmente, ma insieme racconteranno un territorio dal lunedì al venerdì.\n\nC) racconteranno ogni giorno un territorio diverso per una settimana.\n\nD) andranno in onda soltanto il lunedì e il venerdì.\n\n**6. Il tema portante delle altre 60 puntate sarà**\n\nA) il riconoscimento di Matera come capitale della cultura.\n\nB) il modo in cui i festival fanno conoscere un territorio.\n\nC) la cucina italiana come patrimonio dell'Unesco.\n\nD) il lavoro dei sociologi che studiano i popoli.\n\n**7. Dopo vent'anni Quaranta continua a viaggiare e a raccontare perché**\n\nA) considera le storie dei territori un patrimonio comune.\n\nB) desidera cambiare completamente il proprio mestiere.\n\nC) vuole lavorare ogni settimana in un unico territorio.\n\nD) cerca storie meno profonde rispetto a quelle del passato."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Dice che «non è colpa di Milano» e definisce l'accaduto «una rapina». 中文：他淡化事件，但并没有否认抢劫发生。 |\n| L1.2 | C | La richiesta lo rende orgoglioso «perché io non sono materano ma genovese». 中文：关键是外地人受邀讲述马泰拉。 |\n| L1.3 | A | Spiega: «l'ho attraversata», «l'ho studiata» e sente «un radicamento profondissimo». 中文：接受邀请的原因是了解和感情，不是首次参观。 |\n| L1.4 | D | Su Rai 1 torna «nella fascia del sabato, che è quella che va da mezzogiorno», con spinoff di «Linea verde». 中文：不要与 Rai 3 的《Il provinciale》混淆。 |\n| L1.5 | B | Le puntate sono visibili «anche singolarmente», ma insieme raccontano un territorio «per 5 giorni, da lunedì al venerdì». 中文：单集可看，同时五集构成一次完整旅程。 |\n| L1.6 | C | Le 60 puntate «parleremo della cucina italiana come patrimonio dell'Unesco». 中文：这是未来录制内容的主线。 |\n| L1.7 | A | Le storie sono «il nostro patrimonio, la nostra ricchezza» e «le storie di tutti». 中文：继续行走讲述是因为这些故事属于大家。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "B",
+    "L1.6": "C",
+    "L1.7": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "derubricarla a rapina",
+      "categoria": "locuzione verbale",
+      "zh": "把它归为抢劫事件",
+      "en": "to classify it as a robbery",
+      "esempio": "Vorrei derubricarla a rapina."
+    },
+    {
+      "parola": "vicinanza",
+      "categoria": "nome femminile",
+      "zh": "关心；支持",
+      "en": "support; sympathy",
+      "esempio": "mi ha telefonato naturalmente e mi ha espresso la sua vicinanza"
+    },
+    {
+      "parola": "radicamento profondissimo",
+      "categoria": "espressione nominale",
+      "zh": "极深的归属感",
+      "en": "very deep sense of rootedness",
+      "esempio": "ogni volta che ci vado sento un radicamento profondissimo"
+    },
+    {
+      "parola": "tema portante",
+      "categoria": "espressione nominale",
+      "zh": "核心主题",
+      "en": "main theme",
+      "esempio": "le altre 60 puntate, che varieranno un po' nel tema portante"
+    },
+    {
+      "parola": "patrimonio",
+      "categoria": "nome maschile",
+      "zh": "遗产；共同财富",
+      "en": "heritage",
+      "esempio": "Quelle sono il nostro patrimonio, la nostra ricchezza."
+    }
+  ]
+}

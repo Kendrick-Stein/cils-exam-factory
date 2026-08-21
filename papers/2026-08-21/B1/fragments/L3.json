@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "WEEKEND A OLBIA: LA GALLURA TRA MARE, MUSEI E TREKKING",
+    "T3_PART_A": "Non smetterò mai di ringraziare Ryanair, che mi consente di viaggiare low cost e organizzare viaggi anche all’ultimo momento in destinazioni non scontate.",
+    "T3_PART_B": "Fra quelle esperienze c’è stato anche un giro in barca per avvistare i delfini, perfetto, come le altre attività, anche per chi viaggia in famiglia.",
+    "T3_PART_C": "Per fare una di queste escursioni, abbiamo scelto il Centro Immersioni Figarolo e siamo partite in gommone dalla Marina di Baia Caddinas.",
+    "T3_PART_D": "Una di queste destinazioni è stata Olbia, dove ho trascorso un fine settimana di fine marzo: partenza venerdì mattina da Bologna e rientro domenica sera.",
+    "T3_PART_E": "Quei pesci nutriti attirano i delfini, che sanno di poter trovare cibo in zona. Per questo le escursioni in barca consentono di avvistarli vicino alla riva.",
+    "T3_PART_F": "Proprio durante quel tragitto fino a Capo Figari, purtroppo, non abbiamo visto i delfini: solo lo skipper ha notato due volte le loro pinne.",
+    "T3_PART_G": "Fra quelle rocce abbiamo visto grotte, insenature, spaccature e una forma simile a un viso. Non ci siamo bagnate perché il Maestrale rendeva l’aria fredda.",
+    "T3_PART_H": "Durante quelle tre giornate piene, con la mia cara amica Yara, ho visitato un museo etnografico, visto ulivi millenari e fatto un bellissimo trekking.",
+    "T3_PART_I": "Nonostante quella delusione, il giro è stato stupendo: abbiamo osservato aironi, altri uccelli e, da vicino, le rocce calcaree di questo tratto di costa.",
+    "T3_PART_J": "Quei delfini frequentano una zona precisa: al largo di Golfo Aranci si trova un impianto per l’allevamento dei pesci, nutriti qui durante il giorno.",
+    "T3_PART_K": "Da quella marina siamo passate dall’impianto, abbiamo fiancheggiato l’isola di Figarolo e seguito la costa della penisola fino a Capo Figari."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | È l’inizio dato: presenta la possibilità di partire all’ultimo momento verso destinazioni non scontate. 中文：开篇提出非热门目的地。 |\n| 2 | D | «Una di queste destinazioni» riprende soltanto le «destinazioni non scontate» della parte A e identifica Olbia. 中文：指示语锁定奥尔比亚。 |\n| 3 | H | «Durante quelle tre giornate piene» riprende il fine settimana da venerdì a domenica indicato nella parte D. 中文：三天对应周五至周日。 |\n| 4 | B | «Fra quelle esperienze» riprende l’elenco di museo, ulivi e trekking della parte H e aggiunge il giro in barca. 中文：先列活动，再补充乘船。 |\n| 5 | J | I «delfini» appena nominati introducono la spiegazione del luogo in cui è possibile incontrarli: l’impianto al largo di Golfo Aranci. 中文：从看海豚转到其出没地点。 |\n| 6 | E | «Quei pesci nutriti» riprende unicamente i pesci dell’allevamento nutriti durante il giorno nella parte J e ne spiega l’effetto sui delfini. 中文：投喂的鱼吸引海豚。 |\n| 7 | C | «Una di queste escursioni» riprende le escursioni in barca della parte E e introduce quella organizzata dalle due viaggiatrici. 中文：泛指的游船活动转为本次行程。 |\n| 8 | K | «Da quella marina» rinvia soltanto alla Marina di Baia Caddinas, punto di partenza nominato alla fine della parte C. 中文：从刚提到的码头出发。 |\n| 9 | F | «Quel tragitto fino a Capo Figari» riprende l’itinerario concluso proprio a Capo Figari nella parte K. 中文：路线终点形成唯一衔接。 |\n| 10 | I | «Nonostante quella delusione» si riferisce al mancato avvistamento dei delfini nella parte F e introduce gli aspetti positivi del giro. 中文：虽未看到海豚，行程仍精彩。 |\n| 11 | G | «Fra quelle rocce» riprende esclusivamente le rocce calcaree osservate nella parte I; il mancato bagno chiude il racconto. 中文：岩石景观延续并收束全文。 |",
+    "ANS_L3_SEQUENCE": "A–D–H–B–J–E–C–K–F–I–G"
+  },
+  "key": {
+    "L3.1": "A–D–H–B–J–E–C–K–F–I–G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "allevamento dei pesci",
+      "categoria": "locuzione nominale",
+      "zh": "养鱼场；鱼类养殖",
+      "en": "fish farm; fish farming",
+      "esempio": "Quei delfini frequentano una zona precisa: al largo di Golfo Aranci si trova un impianto per l’allevamento dei pesci, nutriti qui durante il giorno."
+    },
+    {
+      "parola": "fiancheggiato",
+      "categoria": "participio passato",
+      "zh": "沿着……经过",
+      "en": "skirted; passed alongside",
+      "esempio": "Da quella marina siamo passate dall’impianto, abbiamo fiancheggiato l’isola di Figarolo e seguito la costa della penisola fino a Capo Figari."
+    },
+    {
+      "parola": "pinne",
+      "categoria": "nome femminile plurale",
+      "zh": "鳍",
+      "en": "fins",
+      "esempio": "Proprio durante quel tragitto fino a Capo Figari, purtroppo, non abbiamo visto i delfini: solo lo skipper ha notato due volte le loro pinne."
+    },
+    {
+      "parola": "rocce calcaree",
+      "categoria": "locuzione nominale",
+      "zh": "石灰岩",
+      "en": "limestone rocks",
+      "esempio": "Nonostante quella delusione, il giro è stato stupendo: abbiamo osservato aironi, altri uccelli e, da vicino, le rocce calcaree di questo tratto di costa."
+    },
+    {
+      "parola": "insenature",
+      "categoria": "nome femminile plurale",
+      "zh": "海湾；小海湾",
+      "en": "inlets; coves",
+      "esempio": "Fra quelle rocce abbiamo visto grotte, insenature, spaccature e una forma simile a un viso."
+    }
+  ]
+}
