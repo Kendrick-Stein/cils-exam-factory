@@ -184,31 +184,84 @@ def run_test() -> None:
         draft_dir = docs / "papers" / "2000-01-01" / "FD"
         index = docs / "index.html"
 
-        for name in ("paper.html", "answers.html", "paper.md", "answers.md"):
-            if not (paper_dir / name).exists():
-                raise AssertionError(f"missing expected output: {paper_dir / name}")
-
-        assert_contains(paper_dir / "paper.html", "Fascicolo fixture")
-        assert_contains(paper_dir / "paper.html", "Fixture Level")
-        assert_contains(paper_dir / "answers.html", "Chiavi fixture")
-        assert_contains(paper_dir / "paper.md", "Fascicolo fixture")
-        assert_contains(paper_dir / "answers.md", "Chiavi fixture")
+        # The site ships PDFs only: the rendered page and the markdown copy are
+        # print intermediates and are unlinked once the PDF exists, so with
+        # --no-pdf a published level leaves no per-paper artifact at all.
+        leftovers = sorted(path.name for path in paper_dir.glob("*")) if paper_dir.exists() else []
+        if leftovers:
+            raise AssertionError(f"render intermediates should not survive the build: {leftovers}")
 
         if draft_dir.exists():
             raise AssertionError(f"draft output directory should be absent: {draft_dir}")
 
-        assert_contains(index, "Fixture Published Paper")
-        assert_contains(index, "papers/2000-01-01/FX/paper.html")
-        assert_contains(index, "papers/2000-01-01/FX/paper.md")
-        assert_contains(index, 'class="session-nav"')
-        assert_contains(index, 'href="#session-2000-01-01"')
-        assert_contains(index, 'class="level-card"')
-        assert_contains(index, 'class="download-button download-button-primary"')
-        assert_contains(paper_dir / "paper.html", 'class="paper-actions"')
-        assert_contains(paper_dir / "paper.html", "Torna all'indice")
-        assert_contains(paper_dir / "paper.html", "Scarica Markdown")
+        assert_contains(index, 'class="chip chip-FX"')
+        assert_contains(index, 'id="sessione-2000-01-01"')
+        assert_contains(index, 'class="paper-card reveal"')
+        assert_contains(index, 'class="arch-row"')
         assert_not_contains(index, "Fixture Draft Paper")
         assert_not_contains(index, "papers/2000-01-01/FD/")
+        assert_not_contains(index, 'chip-FD')
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-pdf-links-") as tmp:
+        # The index only offers a download once the PDF is on disk; seeding the PDFs
+        # pins that wiring without needing Chrome in the test environment.
+        tmp_root = Path(tmp)
+        papers, docs = make_fixture(tmp_root)
+        paper_dir = docs / "papers" / "2000-01-01" / "FX"
+        paper_dir.mkdir(parents=True, exist_ok=True)
+        for stem in ("paper", "answers"):
+            (paper_dir / f"{stem}.pdf").write_bytes(b"%PDF-1.4 fixture\n")
+
+        completed = subprocess.run(
+            [
+                sys.executable,
+                str(build_script),
+                "--papers-root",
+                str(papers),
+                "--out",
+                str(docs),
+                "--no-pdf",
+            ],
+            cwd=repo_root,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if completed.returncode != 0:
+            raise AssertionError(
+                "build_site.py exited with "
+                f"{completed.returncode}\nSTDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
+            )
+
+        for stem in ("paper", "answers"):
+            if not (paper_dir / f"{stem}.pdf").exists():
+                raise AssertionError(f"published {stem}.pdf should survive the build")
+        index = docs / "index.html"
+        assert_contains(index, 'href="papers/2000-01-01/FX/paper.pdf"')
+        assert_contains(index, 'href="papers/2000-01-01/FX/answers.pdf"')
+        assert_not_contains(index, "papers/2000-01-01/FD/answers.pdf")
+
+    with tempfile.TemporaryDirectory(prefix="cils-build-site-rendered-page-") as tmp:
+        # paper.html never ships, but it is what Chrome prints, so its shape still matters.
+        tmp_root = Path(tmp)
+        papers, _ = make_fixture(tmp_root)
+        sys.path.insert(0, str(repo_root / "scripts"))
+        import build_site
+
+        paper_root = papers / "2000-01-01" / "FX"
+        paper = build_site.Paper(
+            date="2000-01-01",
+            level="FX",
+            root=paper_root,
+            manifest=build_site.load_yaml(paper_root / "manifest.yaml"),
+        )
+        page = build_site.render_page(paper_root / "paper.md", paper, "paper")
+        for needle in ("Fascicolo fixture", "Fixture Level", 'class="paper-actions"', "Torna all'indice"):
+            if needle not in page:
+                raise AssertionError(f"rendered paper page is missing {needle!r}")
+        answers_page = build_site.render_page(paper_root / "answers.md", paper, "answers")
+        if "Chiavi fixture" not in answers_page:
+            raise AssertionError("rendered answers page is missing its body")
 
     with tempfile.TemporaryDirectory(prefix="cils-build-site-legacy-gate-") as tmp:
         tmp_root = Path(tmp)
@@ -253,7 +306,7 @@ def run_test() -> None:
                 "build_site.py should keep building legacy published papers without quality_audit\n"
                 f"STDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
             )
-        assert_contains(docs / "index.html", "Fixture Published Paper")
+        assert_contains(docs / "index.html", 'class="chip chip-FX"')
 
     with tempfile.TemporaryDirectory(prefix="cils-build-site-invalid-") as tmp:
         tmp_root = Path(tmp)
@@ -422,7 +475,7 @@ def run_test() -> None:
         index = (docs / "index.html").read_text(encoding="utf-8")
         if index.find(">2000-01-01-r10<") > index.find(">2000-01-01-r9<"):
             raise AssertionError("revision session r10 should sort before r9")
-        if '<h2>2000-01-01-r10</h2>' not in index:
+        if 'id="sessione-2000-01-01-r10"' not in index:
             raise AssertionError("latest revision session r10 should be rendered")
 
     with tempfile.TemporaryDirectory(prefix="cils-build-site-missing-audit-") as tmp:
