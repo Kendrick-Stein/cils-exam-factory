@@ -386,6 +386,43 @@ FLAGS
         if report["result"] != "pass":
             raise AssertionError(f"comma-separated sequence answer should match hyphenated key: {report}")
 
+    with tempfile.TemporaryDirectory(prefix="cils-blind-validation-sequence-bare-id-") as tmp:
+        # Assembled keys store a single-item ricostruzione as `L3.1`, but the solver
+        # prompt permits answering the whole sequence under the bare prova id.
+        tmp_root = Path(tmp)
+        paper_dir = make_paper(tmp_root)
+        write_text(
+            paper_dir / "key.json",
+            json.dumps({"L3.1": "A\u2013D\u2013H"}, ensure_ascii=False, indent=2),
+        )
+        blind_output = tmp_root / "blind-output.txt"
+        write_text(
+            blind_output,
+            """ANSWERS
+{
+  "L3": {"answer": "A, D, H", "confidence": "hi"}
+}
+FLAGS
+[]
+""",
+        )
+        reconcile = run_cmd(
+            [
+                str(script),
+                "reconcile",
+                "--paper-dir",
+                str(paper_dir),
+                "--blind-output",
+                str(blind_output),
+            ],
+            cwd=repo_root,
+        )
+        report = json.loads(reconcile.stdout)
+        if report["result"] != "pass":
+            raise AssertionError(f"bare `L3` answer should reconcile against an `L3.1` key: {report}")
+        if report["extra_answers"] != []:
+            raise AssertionError(f"adopted sequence answer should not be extra: {report}")
+
     with tempfile.TemporaryDirectory(prefix="cils-blind-validation-elision-") as tmp:
         tmp_root = Path(tmp)
         paper_dir = make_paper(tmp_root)

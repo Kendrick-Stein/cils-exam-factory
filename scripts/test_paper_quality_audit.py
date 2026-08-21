@@ -419,9 +419,32 @@ def run_test() -> None:
             raise AssertionError(f"quality failure should keep manifest draft:\n{manifest_after}")
 
 
+def check_gap_markers_excluded_from_word_count() -> None:
+    """`__(n)__` cloze gaps are not words of the text.
+
+    WORD_RE would otherwise score each gap as three words (`__`, `n`, `__`),
+    inflating every structure text by 3 per gap. The exam.yaml bands count the
+    Italian prose only (factory/exams/cils/analysis/*.md).
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import paper_quality_audit
+
+    block = (
+        "### IL TESTO\n\n"
+        "Ieri Marco __(1)__ al mare con __(2)__ amici e __(3)__ molto contento.\n"
+    )
+    text = paper_quality_audit.adapted_text_from_block(block, stop_table=True)
+    if "__" in text:
+        raise AssertionError(f"gap markers should be stripped before counting:\n{text}")
+    count = paper_quality_audit.word_count(text)
+    if count != 9:
+        raise AssertionError(f"expected 9 Italian words after stripping gaps, got {count}")
+
+
 def main() -> int:
     try:
         run_test()
+        check_gap_markers_excluded_from_word_count()
     except Exception as exc:  # noqa: BLE001 - dependency-free fixture test.
         print(f"FAIL: {exc}")
         return 1

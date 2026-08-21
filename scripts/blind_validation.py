@@ -196,6 +196,7 @@ def parse_blind_output(path: Path) -> tuple[dict[str, str], list[dict[str, str]]
 def collapse_split_sequence_answers(key: dict[str, str], blind_answers: dict[str, str]) -> dict[str, str]:
     collapsed = dict(blind_answers)
     for item_id, expected in key.items():
+        expected = expected.translate(TYPOGRAPHIC_MAP)
         if item_id in collapsed or "-" not in expected:
             continue
 
@@ -220,6 +221,30 @@ def collapse_split_sequence_answers(key: dict[str, str], blind_answers: dict[str
         for _, blind_item_id, _ in split_items:
             collapsed.pop(blind_item_id, None)
     return collapsed
+
+
+def adopt_whole_sequence_answers(key: dict[str, str], blind_answers: dict[str, str]) -> dict[str, str]:
+    """Accept a reconstruction returned as one bare `L3` when the key stores it as `L3.1`.
+
+    The solver prompt explicitly allows either shape ("the whole sequence as L3 or each
+    slot as L3.<n>"); assembled keys use `L3.1` because the prova has a single item, so
+    without this the permitted bare id reconciles as unanswered.
+    """
+    adopted = dict(blind_answers)
+    for item_id, expected in key.items():
+        # Keys print reconstruction orders with en dashes; normalise before the shape test.
+        if item_id in adopted or "-" not in expected.translate(TYPOGRAPHIC_MAP):
+            continue
+        match = re.fullmatch(r"([A-Z]+\d+)\.1", item_id)
+        if not match:
+            continue
+        prova_id = match.group(1)
+        if prova_id not in adopted:
+            continue
+        if any(other != item_id and other.startswith(f"{prova_id}.") for other in key):
+            continue
+        adopted[item_id] = adopted.pop(prova_id)
+    return adopted
 
 
 def answer_variants(expected: str) -> list[str]:
@@ -271,6 +296,7 @@ def compare_answers(key: dict[str, str], blind_answers: dict[str, str], flags: l
         if (normalized_item_id := normalize_item_id(item_id)) is not None
     }
     blind_answers = collapse_split_sequence_answers(key, blind_answers)
+    blind_answers = adopt_whole_sequence_answers(key, blind_answers)
     mismatches: list[dict[str, Any]] = []
     matches = 0
     for item_id, expected in key.items():
