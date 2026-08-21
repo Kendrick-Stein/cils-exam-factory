@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "GRAN RESIDENCE MARISA",
+    "S1_TEXT_WITH_GAPS": "__Il (0)__ Gran Residence Marisa è ubicato in pieno centro a Lampedusa. __(1)__ centralissima Via Roma è a breve distanza. __(2)__ spiaggia della Guitgia ha __(3)__ sabbie bianchissime e __(4)__ mare cristallino. È tra __(5)__ spiagge più famose dell'isola e dista un chilometro. __(6)__ residence si compone di un unico corpo disposto su due livelli. __(7)__ appartamenti sono bilocali: __(8)__ appartamenti al piano terra hanno una veranda attrezzata; __(9)__ appartamenti al primo piano hanno un balconcino. Ci sono appartamenti per disabili. __(10)__ dotazioni sono: servizi con doccia e phon, angolo cottura, TV, telefono, Wi-Fi, cassetta di sicurezza e aria condizionata."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| 1 | la | 6 | il |\n| 2 | la | 7 | gli |\n| 3 | le | 8 | gli |\n| 4 | il | 9 | gli |\n| 5 | le | 10 | le |",
+    "ANS_S1_NOTES": "**Nota.** S1.1–S1.5: «Via Roma» e «spiaggia» richiedono *la*; «sabbie» e «spiagge» richiedono *le*; «mare» richiede *il*. S1.6–S1.10: «residence» richiede *il*; davanti al plurale maschile «appartamenti» serve *gli*; «dotazioni» richiede *le*. 中文提示：注意元音开头的阳性复数 *appartamenti* 用 *gli*。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "la",
+    "S1.3": "le",
+    "S1.4": "il",
+    "S1.5": "le",
+    "S1.6": "il",
+    "S1.7": "gli",
+    "S1.8": "gli",
+    "S1.9": "gli",
+    "S1.10": "le"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ubicato",
+      "categoria": "aggettivo",
+      "zh": "位于",
+      "en": "located",
+      "esempio": "è ubicato in pieno centro"
+    },
+    {
+      "parola": "sabbie bianchissime",
+      "categoria": "espressione nominale",
+      "zh": "洁白的沙滩",
+      "en": "very white sands",
+      "esempio": "sabbie bianchissime"
+    },
+    {
+      "parola": "mare cristallino",
+      "categoria": "espressione nominale",
+      "zh": "清澈的海水",
+      "en": "crystal-clear sea",
+      "esempio": "mare cristallino"
+    },
+    {
+      "parola": "veranda attrezzata",
+      "categoria": "espressione nominale",
+      "zh": "配有设施的露台",
+      "en": "equipped veranda",
+      "esempio": "una veranda attrezzata"
+    },
+    {
+      "parola": "cassetta di sicurezza",
+      "categoria": "espressione nominale",
+      "zh": "保险箱",
+      "en": "safe",
+      "esempio": "cassetta di sicurezza"
+    }
+  ]
+}

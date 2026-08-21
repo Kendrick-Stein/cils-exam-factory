@@ -1,0 +1,799 @@
+### (1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Falso", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A,D,H,B,J,E,C,K,F,I,G", "confidence": "hi"},
+
+  "S1.1": {"answer": "i", "confidence": "hi"},
+  "S1.2": {"answer": "degli", "confidence": "hi"},
+  "S1.3": {"answer": "Uno", "confidence": "hi"},
+  "S1.4": {"answer": "sull'", "confidence": "hi"},
+  "S1.5": {"answer": "Il", "confidence": "hi"},
+  "S1.6": {"answer": "sui", "confidence": "hi"},
+  "S1.7": {"answer": "il", "confidence": "hi"},
+  "S1.8": {"answer": "l'", "confidence": "hi"},
+  "S1.9": {"answer": "sull'", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+  "S1.11": {"answer": "un", "confidence": "hi"},
+  "S1.12": {"answer": "dell'", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "I", "confidence": "hi"},
+  "S1.15": {"answer": "i", "confidence": "hi"},
+  "S1.16": {"answer": "dal", "confidence": "hi"},
+  "S1.17": {"answer": "i", "confidence": "hi"},
+  "S1.18": {"answer": "gli", "confidence": "hi"},
+  "S1.19": {"answer": "alle", "confidence": "hi"},
+  "S1.20": {"answer": "la", "confidence": "hi"},
+
+  "S2.1": {"answer": "seguiranno", "confidence": "med"},
+  "S2.2": {"answer": "si è occupato", "confidence": "hi"},
+  "S2.3": {"answer": "rendere", "confidence": "hi"},
+  "S2.4": {"answer": "essere", "confidence": "hi"},
+  "S2.5": {"answer": "C'erano", "confidence": "hi"},
+  "S2.6": {"answer": "accreditati", "confidence": "hi"},
+  "S2.7": {"answer": "Eravamo", "confidence": "hi"},
+  "S2.8": {"answer": "è stata", "confidence": "hi"},
+  "S2.9": {"answer": "Ho coordinato", "confidence": "hi"},
+  "S2.10": {"answer": "era", "confidence": "med"},
+  "S2.11": {"answer": "ha cambiato", "confidence": "hi"},
+  "S2.12": {"answer": "Fotografare", "confidence": "hi"},
+  "S2.13": {"answer": "è diventato", "confidence": "hi"},
+  "S2.14": {"answer": "costano", "confidence": "hi"},
+  "S2.15": {"answer": "sbagliano", "confidence": "hi"},
+  "S2.16": {"answer": "è", "confidence": "hi"},
+  "S2.17": {"answer": "sei", "confidence": "hi"},
+  "S2.18": {"answer": "aiuta", "confidence": "hi"},
+  "S2.19": {"answer": "si notano", "confidence": "hi"},
+  "S2.20": {"answer": "scattano", "confidence": "med"},
+
+  "S3.1": {"answer": "C", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "D", "confidence": "hi"},
+  "S3.8": {"answer": "A", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "B", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {"answer": "C", "confidence": "hi"},
+  "S4.2": {"answer": "A", "confidence": "hi"},
+  "S4.3": {"answer": "D", "confidence": "hi"},
+  "S4.4": {"answer": "B", "confidence": "hi"},
+  "S4.5": {"answer": "A", "confidence": "hi"},
+  "S4.6": {"answer": "D", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "A", "confidence": "hi"},
+  "S4.9": {"answer": "B", "confidence": "hi"},
+  "S4.10": {"answer": "C", "confidence": "hi"}
+}
+```
+
+### (2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.1",
+    "issue": "The historical-present narrative favors “seguiranno”, but “ha seguito” could also produce a grammatical biographical reading."
+  },
+  {
+    "item_id": "S2.10",
+    "issue": "“Era” fits the description of the completed event; “è stato” is also grammatically possible without broader context."
+  },
+  {
+    "item_id": "S2.20",
+    "issue": "The printed wording supports indicative “scattano”, although a concessive interpretation of “per quanto” could suggest “scattino”."
+  }
+]
+```
+
+### (3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "all_four_topics_self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "all_four_topics_self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```
+
+Reading additional input from stdin...
+OpenAI Codex v0.146.0
+--------
+workdir: /private/tmp
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a02267-6e45-7371-b92e-e1d70f22aef6
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-08-21-B1/paper.md using ONLY that file. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. For every multiple-choice item answer with the option LETTER ONLY (A, B, C or D) exactly as labelled in the paper, never with the option's word or phrase. Do not open any other file or the web.
+2026-08-21T03:40:03.911765Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+codex
+I’ll read only the specified paper, solve its objective items using the printed labels, and audit the writing/oral prompts for self-containment and printed writing ranges.
+exec
+/bin/zsh -lc "sed -n '1,240p' /tmp/cils-blind-2026-08-21-B1/paper.md" in /private/tmp
+ succeeded in 0ms:
+---
+exam: CILS
+level: B1
+level_name: "CILS UNO — B1"
+session: "2026-08-21"
+kind: paper
+---
+
+# CILS — Certificazione di Italiano come Lingua Straniera
+## Quaderno di esame
+### Livello UNO-B1 — Prova di esercitazione · 21 agosto 2026
+
+> **Esercitazione non ufficiale** generata da testi autentici, sul modello dei quaderni d'esame CILS.
+> Questo fascicolo comprende: comprensione della lettura, analisi delle strutture di comunicazione, produzione scritta e produzione orale.
+> *Non* comprende il test di ascolto.
+> Punteggio massimo: 80 su 100 dell'esame completo (20 + 20 + 20 + 20). Soglia di sufficienza per abilità: 11/20.
+
+---
+
+## ESEMPIO DI FOGLIO DELLE RISPOSTE
+
+Compila le risposte con una penna nera. Per le prove a scelta, annerisci una sola lettera per ogni item. Per le prove aperte, scrivi in STAMPATELLO negli spazi indicati.
+
+---
+
+# Test di comprensione della lettura
+
+**Tempo a disposizione: 50 minuti** · Numero delle prove: **3** · Punteggio totale: **punti 20**
+
+## Comprensione della lettura — Prova n. 1
+
+> *Leggi il testo.*
+
+### Federico Quaranta, torno con le storie del territorio, storie di tutti
+
+Di quello che è successo «non voglio più parlare. Vorrei derubricarla a rapina. Può succedere, è capitato. Secondo me non è colpa di Milano, non è colpa di niente. Avrei tante cose da dire, magari poi lo farò anche chiamando a confronto il sindaco Sala. Ci siamo già sentiti, mi ha telefonato naturalmente e mi ha espresso la sua vicinanza, ma non è successo niente di che, se non una rapina».
+
+Lo dice fermo ma con un sorriso Federico Quaranta, parlando con l'ANSA a proposito dell'aggressione sventata a Milano qualche giorno fa. Il conduttore è stato tra i protagonisti dell'incontro «Matera Capitale Mediterranea della Cultura e del Dialogo» alla 25ª edizione de Il Libro Possibile, il festival sostenuto da Pirelli in corso a Polignano a Mare.
+
+«Un altro sindaco che amo, quello di Matera, Antonio Nicoletti, mi ha chiamato per raccontare la città. E questa cosa mi riempie di orgoglio perché io non sono materano ma genovese.
+
+Non ho mai raccontato Genova, ma mi chiamano per raccontare Matera, perché l'ho attraversata, sono sceso nelle profondità della Gravina, l'ho studiata e ogni volta che ci vado sento un radicamento profondissimo. E allora ho detto sì, proprio per l'amore che ho per la città». Quaranta sarà di nuovo nella prossima stagione in onda sia su Rai 1 che su Rai 3: sull'ammiraglia Rai «torno nella fascia del sabato, che è quella che va da mezzogiorno» dove si succederanno alcuni spinoff di Linea verde.
+
+Poi c'è «Il provinciale» su Rai 3, a cui tengo tantissimo: un programma di antropologia, di sociologia.
+
+«Stavolta cominciamo il 7 di settembre alle ore 20.10 e sono viaggi che durano una settimana. Le puntate le puoi vedere anche singolarmente, è la logica della serie, però tutte insieme raccontano un territorio per 5 giorni, da lunedì al venerdì».
+
+Contemporaneamente alla messa in onda «noi saremo in campo a registrare le altre 60 puntate, che varieranno un po' nel tema portante perché parleremo della cucina italiana come patrimonio dell'Unesco. Sappiamo meglio di chiunque altro che la cucina è antropologia pura. Per capire un popolo sulla Terra si deve prima di tutto guardare come e dove quel popolo mangia».
+
+Sono 20 anni «che faccio questo mestiere e che io ogni settimana sono in giro su uno o due o tre territori diversi per raccontarli. Ancora oggi le persone si stupiscono, mi dicono che faccio un lavoro incredibile perché le storie che racconto sono così profonde. Quelle sono il nostro patrimonio, la nostra ricchezza. Sono le storie di tutti. È per questo che continuo a camminare e a raccontare».
+
+> *Completa le seguenti frasi. Scegli una delle quattro proposte di completamento che ti diamo per ogni frase. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 7 — punti 1 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. Riguardo all'aggressione subita a Milano, Federico Quaranta**
+
+A) pensa che la città sia responsabile dell'accaduto.
+
+B) considera l'episodio una rapina e non accusa la città.
+
+C) vuole parlarne subito in pubblico con il sindaco.
+
+D) dice di non avere niente da comunicare al sindaco.
+
+**2. Quaranta è orgoglioso della richiesta del sindaco di Matera perché**
+
+A) il sindaco lo ha invitato a dirigere il festival.
+
+B) finalmente può raccontare la città in cui è nato.
+
+C) pur essendo genovese, è stato chiamato a raccontare Matera.
+
+D) può presentare al pubblico un suo libro sulla città.
+
+**3. Quaranta ha accettato di raccontare Matera perché**
+
+A) ha studiato la città e sente un legame profondo con essa.
+
+B) vuole conoscere per la prima volta la Gravina.
+
+C) il sindaco di Genova gli ha chiesto di presentare la Gravina.
+
+D) deve preparare un programma dedicato a Genova.
+
+**4. Nella prossima stagione, su Rai 1 Quaranta**
+
+A) presenterà ogni sera una puntata de «Il provinciale».
+
+B) condurrà un programma di sociologia il venerdì.
+
+C) registrerà un festival culturale da Polignano a Mare.
+
+D) tornerà il sabato da mezzogiorno con alcuni spinoff di «Linea verde».
+
+**5. Le puntate de «Il provinciale»**
+
+A) saranno trasmesse tutte insieme il 7 settembre.
+
+B) si potranno vedere singolarmente, ma insieme racconteranno un territorio dal lunedì al venerdì.
+
+C) racconteranno ogni giorno un territorio diverso per una settimana.
+
+D) andranno in onda soltanto il lunedì e il venerdì.
+
+**6. Il tema portante delle altre 60 puntate sarà**
+
+A) il riconoscimento di Matera come capitale della cultura.
+
+B) il modo in cui i festival fanno conoscere un territorio.
+
+C) la cucina italiana come patrimonio dell'Unesco.
+
+D) il lavoro dei sociologi che studiano i popoli.
+
+**7. Dopo vent'anni Quaranta continua a viaggiare e a raccontare perché**
+
+A) considera le storie dei territori un patrimonio comune.
+
+B) desidera cambiare completamente il proprio mestiere.
+
+C) vuole lavorare ogni settimana in un unico territorio.
+
+D) cerca storie meno profonde rispetto a quelle del passato.
+
+## Comprensione della lettura — Prova n. 2
+
+> *Leggi il testo.*
+
+### LA SCUOLA RIPARTE INSIEME / 2 – IL BANDO
+
+Domande esclusivamente online, partecipazione gratuita, priorità ai bambini con disabilità certificata e assegnazione dei posti fino a esaurimento della disponibilità.
+
+Sono questi i principali elementi dell'avviso pubblico con cui il Comune di Modena disciplina le iscrizioni a "La scuola riparte insieme", il progetto sperimentale promosso dalla Regione Emilia-Romagna che consentirà agli alunni delle scuole primarie di partecipare, prima dell'inizio dell'anno scolastico, ad attività educative, sportive e laboratoriali negli spazi scolastici.
+
+Le iscrizioni sono aperte da giovedì 16 luglio fino alle ore 12 di giovedì 31 luglio. Per quanto riguarda le scuole primarie statali, le domande dovranno essere presentate esclusivamente attraverso il portale del Comune di Modena (www.comune.modena.it/argomenti/istruzione), accedendo con credenziali Spid, Carta d'identità elettronica (Cie) o Carta nazionale dei servizi (Cns).
+
+La partecipazione è gratuita e ogni domanda dovrà essere riferita alla scuola frequentata dal bambino nell'anno scolastico 2026-2027.
+
+Le attività si svolgeranno dal 31 agosto all'11 settembre, dal lunedì al venerdì, nella fascia oraria 8.30-12.30, e sono rivolte agli alunni che frequenteranno le classi dalla seconda alla quinta della scuola primaria. Per le scuole primarie paritarie, invece, le attività potranno proseguire fino al 14 settembre e le iscrizioni dovranno essere effettuate direttamente presso i singoli istituti aderenti.
+
+Le famiglie potranno iscrivere i bambini e le bambine esclusivamente nella scuola primaria di riferimento del proprio istituto comprensivo.
+
+Le domande saranno accolte fino a esaurimento dei posti, con priorità ai minori con disabilità certificata; i posti rimanenti saranno assegnati seguendo l'ordine cronologico di presentazione delle richieste. Per gli alunni con disabilità verrà garantito, inoltre, il servizio di assistenza educativa.
+
+Le attività saranno ospitate nelle scuole, nelle palestre e negli altri spazi messi a disposizione dagli istituti comprensivi e comprenderanno laboratori, giochi, esperienze sportive e iniziative ricreative, con l'obiettivo di accompagnare il rientro a scuola attraverso momenti di socialità, benessere e apprendimento.
+
+> *Leggi le seguenti informazioni. Indica se le informazioni sono vere o false. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 7 — punti 0,5 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1.** Il progetto "La scuola riparte insieme" è promosso dal Comune di Modena.  
+Vero ○ Falso ○
+
+**2.** Gli alunni partecipano alle attività prima dell'inizio dell'anno scolastico.  
+Vero ○ Falso ○
+
+**3.** Le iscrizioni terminano alla mezzanotte del 31 luglio.  
+Vero ○ Falso ○
+
+**4.** Per le scuole statali, la domanda si presenta sul portale comunale usando una delle credenziali indicate.  
+Vero ○ Falso ○
+
+**5.** La partecipazione prevede il pagamento di una quota.  
+Vero ○ Falso ○
+
+**6.** La domanda deve riferirsi alla scuola frequentata dal bambino nell'anno scolastico 2026-2027.  
+Vero ○ Falso ○
+
+**7.** Dal 31 agosto all'11 settembre le attività si tengono dal lunedì al venerdì, dalle 8.30 alle 12.30.  
+Vero ○ Falso ○
+
+**8.** Possono partecipare soltanto gli alunni che frequenteranno la prima o la seconda classe.  
+Vero ○ Falso ○
+
+**9.** Nelle scuole paritarie le attività possono continuare fino al 14 settembre.  
+Vero ○ Falso ○
+
+**10.** Anche per le scuole paritarie l'iscrizione deve essere fatta sul portale del Comune.  
+Vero ○ Falso ○
+
+**11.** Le famiglie possono scegliere liberamente qualsiasi scuola primaria di Modena.  
+Vero ○ Falso ○
+
+**12.** Dopo la priorità data ai minori con disabilità certificata, i posti rimanenti seguono l'ordine di presentazione delle richieste.  
+Vero ○ Falso ○
+
+**13.** Il bando non garantisce l'assistenza educativa agli alunni con disabilità.  
+Vero ○ Falso ○
+
+**14.** Il programma comprende laboratori, giochi, esperienze sportive e iniziative ricreative.  
+Vero ○ Falso ○
+
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi il testo. Il testo è diviso in 11 parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d'ordine accanto a ciascuna parte. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,6 per ogni legame ricostruito in modo consequenziale; punti 0 per ogni legame ricostruito in modo non consequenziale o omesso.*
+
+### WEEKEND A OLBIA: LA GALLURA TRA MARE, MUSEI E TREKKING
+
+| Ordine | Parte |
+|---|---|
+| **1** | **A.** Non smetterò mai di ringraziare Ryanair, che mi consente di viaggiare low cost e organizzare viaggi anche all’ultimo momento in destinazioni non scontate. |
+| ☐ | **B.** Fra quelle esperienze c’è stato anche un giro in barca per avvistare i delfini, perfetto, come le altre attività, anche per chi viaggia in famiglia. |
+| ☐ | **C.** Per fare una di queste escursioni, abbiamo scelto il Centro Immersioni Figarolo e siamo partite in gommone dalla Marina di Baia Caddinas. |
+| ☐ | **D.** Una di queste destinazioni è stata Olbia, dove ho trascorso un fine settimana di fine marzo: partenza venerdì mattina da Bologna e rientro domenica sera. |
+| ☐ | **E.** Quei pesci nutriti attirano i delfini, che sanno di poter trovare cibo in zona. Per questo le escursioni in barca consentono di avvistarli vicino alla riva. |
+| ☐ | **F.** Proprio durante quel tragitto fino a Capo Figari, purtroppo, non abbiamo visto i delfini: solo lo skipper ha notato due volte le loro pinne. |
+| ☐ | **G.** Fra quelle rocce abbiamo visto grotte, insenature, spaccature e una forma simile a un viso. Non ci siamo bagnate perché il Maestrale rendeva l’aria fredda. |
+| ☐ | **H.** Durante quelle tre giornate piene, con la mia cara amica Yara, ho visitato un museo etnografico, visto ulivi millenari e fatto un bellissimo trekking. |
+| ☐ | **I.** Nonostante quella delusione, il giro è stato stupendo: abbiamo osservato aironi, altri uccelli e, da vicino, le rocce calcaree di questo tratto di costa. |
+| ☐ | **J.** Quei delfini frequentano una zona precisa: al largo di Golfo Aranci si trova un impianto per l’allevamento dei pesci, nutriti qui durante il giorno. |
+| ☐ | **K.** Da quella marina siamo passate dall’impianto, abbiamo fiancheggiato l’isola di Figarolo e seguito la costa della penisola fino a Capo Figari. |
+
+---
+
+# Test di analisi delle strutture di comunicazione
+
+**Tempo a disposizione: 1 ora** · Numero delle prove: **4** · Punteggio totale: **punti 20**
+*(punteggio massimo grezzo 24, riportato a 20 mediante la proporzione 20 : 24 = x : punteggio ottenuto)*
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli articoli e le preposizioni semplici e articolate: utilizza le preposizioni fra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,3 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### Sciame di api invade la spiaggia di Cattolica e trasforma un ombrellone nel suo alveare
+
+Uno sciame di api ha invaso la spiaggia di Cattolica e ha trasformato un ombrellone nel suo alveare, prima del recupero in sicurezza da parte dell'apicoltore giunto sul posto, che lo ha depositato nell'arnia. Episodio curioso per __(1)__ gestori *(di)* __(2)__ stabilimenti 31-32 di Cattolica. __(3)__ sciame di api si è posato in parte su __un (0)__ lettino ed in parte *(su)* __(4)__ ombrellone corrispondente ed ha nidificato. __(5)__ fenomeno è stato ripreso e postato *(su)* __(6)__ social e in poche ore ha già fatto __(7)__ giro del web. «Si vede che __(8)__ ape regina ha scelto di posarsi *(su)* __(9)__ ombrellone e, in poco tempo, hanno cominciato ad arrivare api da tutte __(10)__ parti, che si sono posate anche sul lettino corrispondente», racconta __(11)__ testimone.
+
+È stato necessario attendere l'arrivo *(di)* __(12)__ apicoltore per portare via in sicurezza __(13)__ sciame.
+
+__(14)__ lettini circostanti, nonostante fossero tra __(15)__ più ambiti, trovandosi in seconda fila *(da)* __(16)__ bagnasciuga, sono stati velocemente sgomberati, mettendo in sicurezza __(17)__ bagnanti e lasciando __(18)__ animali tranquilli. Fortunatamente i presenti non hanno perso la calma ed hanno atteso l'arrivo dell'apicoltore che, una volta giunto sul posto, ha dato il via *(a)* __(19)__ operazioni di recupero, prelevando il gruppo di api dove, verosimilmente, si trovava l'ape regina e depositandolo nell'arnia.
+
+A quel punto tutti gli altri insetti hanno iniziato ordinatamente ad entrare all'interno del contenitore. Non è __(20)__ prima volta che un gruppo così numeroso di insetti vada in cerca di luoghi prossimi al mare in cui nidificare. Un episodio analogo si era verificato, a Riccione, soltanto alcuni giorni fa.
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+
+exec
+/bin/zsh -lc "sed -n '241,520p' /tmp/cils-blind-2026-08-21-B1/paper.md" in /private/tmp
+ succeeded in 0ms:
+> *Completa il testo con le forme dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,3 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### LE IMMAGINI AL CUORE DI OLIMPIADI E PARALIMPIADI
+
+Alessandro Trovati *(essere)* __è (0)__ un fotografo sportivo stimato dai colleghi e benvoluto dagli addetti ai lavori. Nel 1992 ad Albertville è il più giovane accreditato ai Giochi, *(seguire)* __(1)__ altre undici edizioni di Olimpiadi e un numero impressionante di Mondiali ed eventi. Nella recente edizione di Milano Cortina 2026 *(occuparsi)* __(2)__ di *(rendere)* __(3)__ il lavoro dei colleghi fluido e veloce.
+
+**Cosa significa *(essere)* __(4)__ Photo Chief Manager alle Olimpiadi?**
+
+*(esserci)* __(5)__ 740 fotografi *(accreditare)* __(6)__ da tutto il mondo. Molti giovani e anche tantissime donne. *(essere)* __(7)__ tre nel Photo Operation: io, Ivo Gonzalez e Federica Rosa. Lei *(essere)* __(8)__ fondamentale. *(coordinare)* __(9)__ le Venue, scelto i Photo Manager, i Photo Supervisor. Alcuni con tanta esperienza olimpica, altri alla loro prima edizione però molto preparati. L’80% delle Photo Position *(essere)* __(10)__ cablato.
+
+**Dovendo portare solo due obiettivi in montagna, quale sceglieresti?**
+
+Un 600mm, perché si è sempre più lontani rispetto all’atleta e un 50 o un 24/70 per contestualizzare di più l’immagine. Un’ottica usata tantissimo ai Giochi è stata il 100/300, ottima anche con il moltiplicatore, non pesante e versatile.
+
+**L’evoluzione tecnologica *(cambiare)* __(11)__ molto la professione?**
+
+*(fotografare)* __(12)__ *(diventare)* __(13)__ più facile. Ora le macchine *(costare)* __(14)__ ma non *(sbagliare)* __(15)__. Il risultato *(essere)* __(16)__ più alla portata, se *(essere)* __(17)__ un po’ scarso la tecnologia *(aiutare)* __(18)__ molto. Poi i fotografi bravi *(notarsi)* __(19)__, per inquadratura, creatività, grafica, per quanto *(scattare)* __(20)__.
+
+## Analisi delle strutture di comunicazione — Prova n. 3
+
+> *Completa il testo. Scegli una delle proposte di completamento. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,4 per ogni completamento esatto; punti 0 per ogni completamento sbagliato o omesso.*
+
+### All'Università Camerino open day e laboratori aperti per l'orientamento estivo
+
+L'Università di Camerino orienta anche in estate con open day, laboratori __(1)__, incontri online e visite __(2)__ nelle proprie __sedi (0)__. Il 14 luglio a Camerino e il 15 luglio ad Ascoli Piceno e San Benedetto del Tronto sono in __(3)__ gli __(4)__ __(5)__ a studentesse, studenti e famiglie per __(6)__ da __(7)__ l'Ateneo, le strutture didattiche e i laboratori.
+
+I partecipanti potranno ricevere __(8)__ su didattica, servizi, __(9)__ di studio, agevolazioni, alloggi e corsi di laurea __(10)__ dalle cinque __(11)__ di Ateneo: Architettura e Design, Bioscienze e Medicina Veterinaria, Giurisprudenza, Scienze del Farmaco e dei Prodotti della __(12)__, Scienze e Tecnologie. Sarà inoltre possibile approfondire il percorso di __(13)__ della Scuola di Studi Superiori "Carlo Urbani", il cui titolo è __(14)__ a un master di secondo livello.
+
+Nel pomeriggio del 14 luglio, dalle 17 alle 19, è previsto anche un incontro formativo online dedicato ai genitori sui servizi e sulle opportunità offerte da Unicam. Dall'1 al 31 luglio e dal 17 agosto al 4 settembre torna inoltre "Porte aperte in Unicam - estate 2026", nelle sedi di Camerino, Ascoli Piceno, Matelica e San Benedetto del Tronto, sia in presenza sia in __(15)__ telematica.
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 0. | ~~sedi~~ | scuole | borse | visite |
+| 1. | guidati | equiparati | aperti | attivati |
+| 2. | dedicate | guidate | attivate | equiparate |
+| 3. | servizio | percorso | livello | programma |
+| 4. | appuntamenti | alloggi | studenti | edifici |
+| 5. | attivati | guidati | dedicati | equiparati |
+| 6. | ricevere | conoscere | orientare | approfondire |
+| 7. | lontano | fuori | altrove | vicino |
+| 8. | informazioni | visite | agevolazioni | strutture |
+| 9. | sedi | visite | borse | scuole |
+| 10. | dedicati | equiparati | guidati | attivati |
+| 11. | Scuole | sedi | borse | visite |
+| 12. | laurea | Salute | didattica | eccellenza |
+| 13. | laurea | presenza | eccellenza | didattica |
+| 14. | dedicato | equiparato | guidato | attivato |
+| 15. | eccellenza | laurea | presenza | modalità |
+
+## Analisi delle strutture di comunicazione — Prova n. 4
+
+> *Scegli per ogni espressione una delle quattro situazioni di comunicazione. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+>
+> *Punteggio massimo: punti 6 — punti 0,6 per ogni risposta esatta; punti 0 per ogni risposta sbagliata o omessa.*
+
+**1. «Il pacco è arrivato al punto di ritiro di via Verdi. Per aprire l'armadietto usi il codice 472918 entro venerdì sera. Dopo la scadenza, il pacco tornerà automaticamente al nostro deposito.»**  
+A) È la conferma che un pacco è stato consegnato a casa.  
+B) È l'avviso che un pacco danneggiato sarà sostituito.  
+C) È l'invito a ritirare un pacco entro una data precisa.  
+D) È la richiesta di spedire un pacco da un altro deposito.
+
+**2. «Martedì dalle 8.30 alle 11.30 i tecnici controlleranno l'ascensore del condominio, che resterà fermo durante l'intervento. Chi ha difficoltà a usare le scale può chiamare l'amministratore entro lunedì.»**  
+A) È l'avviso di un controllo che renderà temporaneamente inutilizzabile l'ascensore.  
+B) È la richiesta di pagare una riparazione urgente dell'ascensore.  
+C) È l'annuncio dell'installazione di un nuovo ascensore nel palazzo.  
+D) È il divieto permanente di usare l'ascensore senza autorizzazione.
+
+**3. «Gentile cliente, il corso di fotografia scelto non partirà perché non abbiamo raggiunto il numero minimo di iscritti. Può trasferire la quota a un altro corso oppure chiedere il rimborso completo.»**  
+A) È la conferma dell'iscrizione a un corso molto richiesto.  
+B) È la proposta di pagare una quota più bassa per un corso.  
+C) È la comunicazione del cambio di insegnante di un corso.  
+D) È l'annullamento di un corso con due possibilità per chi ha pagato.
+
+**4. «La sua auto è pronta: abbiamo sostituito la batteria e controllato le luci. L'officina chiude alle 18.30; se oggi non riesce a venire, ci telefoni per concordare un altro momento.»**  
+A) È il preventivo per alcuni lavori ancora da autorizzare.  
+B) È la comunicazione che un'auto riparata può essere ritirata.  
+C) È la richiesta di portare un'auto in officina per un controllo.  
+D) È l'offerta di acquistare una batteria a prezzo ridotto.
+
+**5. «Ciao Paolo, durante la riunione di domani sarò fuori ufficio. Puoi presentare tu i risultati del nostro gruppo? Ti mando le diapositive stasera e, se vuoi, possiamo rivederle insieme al telefono.»**  
+A) È la richiesta a un collega di sostituire una persona in una presentazione.  
+B) È l'invito a partecipare per telefono a una riunione.  
+C) È la proposta di preparare nuovi risultati per il gruppo.  
+D) È la comunicazione che una riunione è stata rinviata.
+
+**6. «Per motivi di sicurezza, da oggi non lasciate biciclette davanti all'uscita del cortile. Usate le rastrelliere vicino al cancello. Da lunedì quelle parcheggiate nell'area vietata saranno spostate dal personale.»**  
+A) È l'annuncio della vendita di alcune biciclette abbandonate.  
+B) È la richiesta di riparare le rastrelliere vicino al cancello.  
+C) È il consiglio di chiudere sempre il cancello del cortile.  
+D) È l'avviso sulle nuove regole per parcheggiare le biciclette.
+
+**7. «La ricetta per il suo farmaco abituale è pronta. Può scaricarla dall'app oppure ritirare una copia in ambulatorio, dal lunedì al venerdì. Non è necessario prenotare una visita con il medico.»**  
+A) È il consiglio di cambiare un farmaco con l'aiuto del medico.  
+B) È l'avviso che un ambulatorio resterà chiuso per alcuni giorni.  
+C) È la comunicazione che una ricetta è disponibile in due modi.  
+D) È la conferma di una visita medica già prenotata.
+
+**8. «Domani il mercato settimanale si terrà eccezionalmente in piazza Roma, perché in piazza Garibaldi ci sarà una gara sportiva. Gli orari non cambiano: i banchi saranno aperti dalle 7 alle 13.»**  
+A) È l'annuncio del trasferimento temporaneo di un mercato senza cambio di orario.  
+B) È la cancellazione di un mercato a causa di una gara sportiva.  
+C) È l'invito a visitare nuovi banchi aperti nel pomeriggio.  
+D) È la richiesta ai venditori di partecipare a una gara in piazza.
+
+**9. «Abbiamo trovato il suo portafoglio sul treno regionale 2187. Per riceverlo, compili il modulo online indicando il contenuto; dopo la verifica potrà scegliere se ritirarlo in stazione o riceverlo a casa.»**  
+A) È la denuncia di un furto avvenuto su un treno regionale.  
+B) È l'avviso di un oggetto ritrovato con le modalità per recuperarlo.  
+C) È la richiesta di consegnare un portafoglio trovato in stazione.  
+D) È la conferma che un oggetto è già stato spedito a casa.
+
+**10. «Buongiorno, sabato festeggiamo il compleanno di Giulia nel giardino comune. La musica finirà entro le 22. Ci scusiamo in anticipo per il possibile rumore e vi invitiamo a passare per un dolce.»**  
+A) È la protesta contro il rumore causato da una festa.  
+B) È la richiesta di prenotare il giardino per una riunione.  
+C) È l'avviso ai vicini di una festa con un invito a partecipare.  
+D) È il divieto di ascoltare musica nel giardino comune.
+
+---
+
+# Test di produzione scritta
+
+**Tempo a disposizione: 1 ora e 10 minuti** · Numero delle prove: **2** · Punteggio totale: **punti 20**
+
+## Produzione scritta — Prova n. 1
+
+> *Descrivi un'attività di volontariato alla quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi partecipi, che cosa è successo o potrebbe succedere, come ti senti e perché questa esperienza è importante per te.*
+> *Devi scrivere da 100 a 120 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+## Produzione scritta — Prova n. 2
+
+> *Hai promesso di aiutare un'amica con il trasloco sabato mattina, ma non puoi più andare a quell'ora. Scrivile un'email.*
+> *Nell'email devi:*
+> *- scusarti e spiegare perché non puoi andare sabato mattina;*
+> *- proporre un altro giorno o un altro orario per aiutarla;*
+> *- dire che cosa puoi portare e chiedere di quale aiuto ha ancora bisogno.*
+> *Devi scrivere da 50 a 80 parole.*
+
+*Scrivi qui il tuo testo:*
+
+|  |
+|---|
+| &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; |
+
+---
+
+# Test di produzione orale
+
+**Numero delle prove: 2** · Punteggio totale: **punti 20**
+
+> *All'esame ufficiale il test di produzione orale è individuale: si svolge con l'esaminatore e viene registrato. Per l'esercitazione: scegli un argomento, prepara la risposta e parla ad alta voce rispettando la durata indicata, poi confrontati con i testi modello nel fascicolo delle risposte.*
+
+## Produzione orale — Prova n. 1
+
+> *Interazione faccia a faccia. Conversa con l'esaminatore su uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata della conversazione: 2-3 minuti circa.*
+
+**1.** Organizzare uno scambio di libri nel quartiere: scegli il luogo, stabilisci che cosa devono portare i partecipanti e dividi i compiti con l'esaminatore.
+
+**2.** Un appuntamento importante al quale sei arrivato in ritardo: racconta che cosa è successo, come hai avvisato l'altra persona e come hai risolto la situazione.
+
+**3.** Studiare o lavorare con un orario fisso oppure con un orario flessibile: confronta le due possibilità, esprimi la tua preferenza e chiedi l'opinione dell'esaminatore.
+
+**4.** Comprare un telefono o un computer ricondizionato invece di uno nuovo: parla dei vantaggi, dei possibili rischi e delle informazioni da controllare prima dell'acquisto.
+
+## Produzione orale — Prova n. 2
+
+> *Parlato faccia a faccia monodirezionale. Esponi uno dei seguenti argomenti. Scegli tu l'argomento.*
+> *Durata dell'esposizione: 1 minuto e mezzo circa.*
+
+**1.** Un piccolo negozio del tuo quartiere che conosci bene: descrivilo, presenta le persone che ci lavorano e spiega perché è utile agli abitanti.
+
+**2.** Una giornata in cui non hai potuto usare Internet: racconta che cosa è successo, quali difficoltà hai incontrato e come hai cambiato i tuoi programmi.
+
+**3.** Una persona che ti ha insegnato ad avere pazienza: descrivi questa persona, racconta un episodio significativo e spiega che cosa hai imparato.
+
+**4.** Una festa o un incontro che hai organizzato con successo: racconta come hai preparato l'evento, quali imprevisti hai affrontato e perché ne conservi un bel ricordo.
+
+---
+
+# Foglio delle risposte
+
+**Comprensione della lettura — Prova n. 1** *(annerisci una lettera per riga)*
+
+| n. | A | B | C | D |
+|---|---|---|---|---|
+| 1 | ○ | ○ | ○ | ○ |
+| 2 | ○ | ○ | ○ | ○ |
+| 3 | ○ | ○ | ○ | ○ |
+| 4 | ○ | ○ | ○ | ○ |
+| 5 | ○ | ○ | ○ | ○ |
+| 6 | ○ | ○ | ○ | ○ |
+| 7 | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 2** *(V = vero, F = falso)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| V | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| F | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+
+**Comprensione della lettura — Prova n. 3** *(scrivi la lettera della parte per ogni posizione)*
+
+| Posizione | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Parte | A |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 1 e Prova n. 2** *(scrivi la risposta in STAMPATELLO)*
+
+| n. | Prova 1 | Prova 2 | n. | Prova 1 | Prova 2 |
+|---|---|---|---|---|---|
+| 1 |  |  | 11 |  |  |
+| 2 |  |  | 12 |  |  |
+| 3 |  |  | 13 |  |  |
+| 4 |  |  | 14 |  |  |
+| 5 |  |  | 15 |  |  |
+| 6 |  |  | 16 |  |  |
+| 7 |  |  | 17 |  |  |
+| 8 |  |  | 18 |  |  |
+| 9 |  |  | 19 |  |  |
+| 10 |  |  | 20 |  |  |
+
+**Analisi delle strutture — Prova n. 3** *(annerisci una lettera per riga)*
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+
+**Analisi delle strutture — Prova n. 4**
+
+| n. | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A/B/C/D |  |  |  |  |  |  |  |  |  |  |
+
+---
+
+*Materiale di esercitazione non ufficiale — non affiliato all'Università per Stranieri di Siena.*
+
+codex
+### (1) ANSWERS
+
+```json
+{
+  "L1.1": {"answer": "B", "confidence": "hi"},
+  "L1.2": {"answer": "C", "confidence": "hi"},
+  "L1.3": {"answer": "A", "confidence": "hi"},
+  "L1.4": {"answer": "D", "confidence": "hi"},
+  "L1.5": {"answer": "B", "confidence": "hi"},
+  "L1.6": {"answer": "C", "confidence": "hi"},
+  "L1.7": {"answer": "A", "confidence": "hi"},
+
+  "L2.1": {"answer": "Falso", "confidence": "hi"},
+  "L2.2": {"answer": "Vero", "confidence": "hi"},
+  "L2.3": {"answer": "Falso", "confidence": "hi"},
+  "L2.4": {"answer": "Vero", "confidence": "hi"},
+  "L2.5": {"answer": "Falso", "confidence": "hi"},
+  "L2.6": {"answer": "Vero", "confidence": "hi"},
+  "L2.7": {"answer": "Vero", "confidence": "hi"},
+  "L2.8": {"answer": "Falso", "confidence": "hi"},
+  "L2.9": {"answer": "Vero", "confidence": "hi"},
+  "L2.10": {"answer": "Falso", "confidence": "hi"},
+  "L2.11": {"answer": "Falso", "confidence": "hi"},
+  "L2.12": {"answer": "Vero", "confidence": "hi"},
+  "L2.13": {"answer": "Falso", "confidence": "hi"},
+  "L2.14": {"answer": "Vero", "confidence": "hi"},
+
+  "L3": {"answer": "A,D,H,B,J,E,C,K,F,I,G", "confidence": "hi"},
+
+  "S1.1": {"answer": "i", "confidence": "hi"},
+  "S1.2": {"answer": "degli", "confidence": "hi"},
+  "S1.3": {"answer": "Uno", "confidence": "hi"},
+  "S1.4": {"answer": "sull'", "confidence": "hi"},
+  "S1.5": {"answer": "Il", "confidence": "hi"},
+  "S1.6": {"answer": "sui", "confidence": "hi"},
+  "S1.7": {"answer": "il", "confidence": "hi"},
+  "S1.8": {"answer": "l'", "confidence": "hi"},
+  "S1.9": {"answer": "sull'", "confidence": "hi"},
+  "S1.10": {"answer": "le", "confidence": "hi"},
+  "S1.11": {"answer": "un", "confidence": "hi"},
+  "S1.12": {"answer": "dell'", "confidence": "hi"},
+  "S1.13": {"answer": "lo", "confidence": "hi"},
+  "S1.14": {"answer": "I", "confidence": "hi"},
+  "S1.15": {"answer": "i", "confidence": "hi"},
+  "S1.16": {"answer": "dal", "confidence": "hi"},
+  "S1.17": {"answer": "i", "confidence": "hi"},
+  "S1.18": {"answer": "gli", "confidence": "hi"},
+  "S1.19": {"answer": "alle", "confidence": "hi"},
+  "S1.20": {"answer": "la", "confidence": "hi"},
+
+  "S2.1": {"answer": "seguiranno", "confidence": "med"},
+  "S2.2": {"answer": "si è occupato", "confidence": "hi"},
+  "S2.3": {"answer": "rendere", "confidence": "hi"},
+  "S2.4": {"answer": "essere", "confidence": "hi"},
+  "S2.5": {"answer": "C'erano", "confidence": "hi"},
+  "S2.6": {"answer": "accreditati", "confidence": "hi"},
+  "S2.7": {"answer": "Eravamo", "confidence": "hi"},
+  "S2.8": {"answer": "è stata", "confidence": "hi"},
+  "S2.9": {"answer": "Ho coordinato", "confidence": "hi"},
+  "S2.10": {"answer": "era", "confidence": "med"},
+  "S2.11": {"answer": "ha cambiato", "confidence": "hi"},
+  "S2.12": {"answer": "Fotografare", "confidence": "hi"},
+  "S2.13": {"answer": "è diventato", "confidence": "hi"},
+  "S2.14": {"answer": "costano", "confidence": "hi"},
+  "S2.15": {"answer": "sbagliano", "confidence": "hi"},
+  "S2.16": {"answer": "è", "confidence": "hi"},
+  "S2.17": {"answer": "sei", "confidence": "hi"},
+  "S2.18": {"answer": "aiuta", "confidence": "hi"},
+  "S2.19": {"answer": "si notano", "confidence": "hi"},
+  "S2.20": {"answer": "scattano", "confidence": "med"},
+
+  "S3.1": {"answer": "C", "confidence": "hi"},
+  "S3.2": {"answer": "B", "confidence": "hi"},
+  "S3.3": {"answer": "D", "confidence": "hi"},
+  "S3.4": {"answer": "A", "confidence": "hi"},
+  "S3.5": {"answer": "C", "confidence": "hi"},
+  "S3.6": {"answer": "B", "confidence": "hi"},
+  "S3.7": {"answer": "D", "confidence": "hi"},
+  "S3.8": {"answer": "A", "confidence": "hi"},
+  "S3.9": {"answer": "C", "confidence": "hi"},
+  "S3.10": {"answer": "D", "confidence": "hi"},
+  "S3.11": {"answer": "A", "confidence": "hi"},
+  "S3.12": {"answer": "B", "confidence": "hi"},
+  "S3.13": {"answer": "C", "confidence": "hi"},
+  "S3.14": {"answer": "B", "confidence": "hi"},
+  "S3.15": {"answer": "D", "confidence": "hi"},
+
+  "S4.1": {"answer": "C", "confidence": "hi"},
+  "S4.2": {"answer": "A", "confidence": "hi"},
+  "S4.3": {"answer": "D", "confidence": "hi"},
+  "S4.4": {"answer": "B", "confidence": "hi"},
+  "S4.5": {"answer": "A", "confidence": "hi"},
+  "S4.6": {"answer": "D", "confidence": "hi"},
+  "S4.7": {"answer": "C", "confidence": "hi"},
+  "S4.8": {"answer": "A", "confidence": "hi"},
+  "S4.9": {"answer": "B", "confidence": "hi"},
+  "S4.10": {"answer": "C", "confidence": "hi"}
+}
+```
+
+### (2) FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.1",
+    "issue": "The historical-present narrative favors “seguiranno”, but “ha seguito” could also produce a grammatical biographical reading."
+  },
+  {
+    "item_id": "S2.10",
+    "issue": "“Era” fits the description of the completed event; “è stato” is also grammatically possible without broader context."
+  },
+  {
+    "item_id": "S2.20",
+    "issue": "The printed wording supports indicative “scattano”, although a concessive interpretation of “per quanto” could suggest “scattino”."
+  }
+]
+```
+
+### (3) WRITING checks
+
+```json
+{
+  "W1": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "100-120 parole"
+  },
+  "W2": {
+    "self_contained": true,
+    "word_range_printed": true,
+    "word_range": "50-80 parole"
+  },
+  "O1": {
+    "all_four_topics_self_contained": true,
+    "duration_printed": "2-3 minuti circa"
+  },
+  "O2": {
+    "all_four_topics_self_contained": true,
+    "duration_printed": "1 minuto e mezzo circa"
+  }
+}
+```
+tokens used
+22,847

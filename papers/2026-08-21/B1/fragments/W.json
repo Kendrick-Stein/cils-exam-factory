@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un'attività di volontariato alla quale hai partecipato o a cui ti piacerebbe partecipare. Racconta dove e quando si svolge, con chi partecipi, che cosa è successo o potrebbe succedere, come ti senti e perché questa esperienza è importante per te.",
+    "W2_PROMPT": "Hai promesso di aiutare un'amica con il trasloco sabato mattina, ma non puoi più andare a quell'ora. Scrivile un'email.",
+    "W2_REQ_1": "scusarti e spiegare perché non puoi andare sabato mattina;",
+    "W2_REQ_2": "proporre un altro giorno o un altro orario per aiutarla;",
+    "W2_REQ_3": "dire che cosa puoi portare e chiedere di quale aiuto ha ancora bisogno."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Lo scorso aprile ho partecipato a una giornata di volontariato nel parco vicino a casa mia. Sono andata con due compagni di corso e abbiamo incontrato una ventina di abitanti del quartiere. All'inizio, un volontario ci ha divisi in piccoli gruppi e ci ha consegnato guanti e sacchi. Io ho raccolto i rifiuti lungo i sentieri, mentre altri hanno sistemato le panchine e piantato nuovi fiori. Durante la pausa abbiamo bevuto un succo e parlato dei problemi della zona. Ero stanca, ma vedere il parco più pulito mi ha dato molta soddisfazione. Questa esperienza è stata importante perché ho conosciuto i miei vicini e ho capito che anche poche ore di lavoro possono migliorare un luogo usato da tutti.",
+    "MODEL_W1_PHRASES": "«Ho partecipato a una giornata di…»（我参加了一天的……活动）; «All'inizio…»（一开始……）; «Durante la pausa…»（休息时……）; «Mi ha dato molta soddisfazione»（这给了我很大的满足感）; «Ho capito che…»（我明白了……）",
+    "MODEL_W2": "Ciao Sara,\n\nmi dispiace, ma sabato mattina non posso aiutarti con il trasloco: devo accompagnare mia nonna dal medico. Posso però venire nel pomeriggio, verso le quattro, e restare fino a cena. Porterò alcune scatole vuote e il nastro adesivo. Hai ancora bisogno di aiuto per smontare i mobili? Se preferisci, posso passare anche domenica.\n\nUn abbraccio,\nLuca",
+    "MODEL_W2_PHRASES": "«Mi dispiace, ma…»（很抱歉，但是……）; «Posso però venire…»（不过我可以来……）; «Hai ancora bisogno di aiuto per…?»（你还需要有人帮忙……吗？）; «Se preferisci…»（如果你更愿意……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "giornata di volontariato",
+      "categoria": "locuzione nominale",
+      "zh": "志愿服务日",
+      "en": "volunteer day",
+      "esempio": "Lo scorso aprile ho partecipato a una giornata di volontariato nel parco vicino a casa mia."
+    },
+    {
+      "parola": "abitanti del quartiere",
+      "categoria": "locuzione nominale",
+      "zh": "社区居民",
+      "en": "neighborhood residents",
+      "esempio": "Sono andata con due compagni di corso e abbiamo incontrato una ventina di abitanti del quartiere."
+    },
+    {
+      "parola": "raccolto i rifiuti",
+      "categoria": "locuzione verbale",
+      "zh": "捡拾了垃圾",
+      "en": "picked up litter",
+      "esempio": "Io ho raccolto i rifiuti lungo i sentieri, mentre altri hanno sistemato le panchine e piantato nuovi fiori."
+    },
+    {
+      "parola": "trasloco",
+      "categoria": "nome maschile",
+      "zh": "搬家",
+      "en": "move",
+      "esempio": "mi dispiace, ma sabato mattina non posso aiutarti con il trasloco: devo accompagnare mia nonna dal medico."
+    },
+    {
+      "parola": "nastro adesivo",
+      "categoria": "locuzione nominale",
+      "zh": "胶带",
+      "en": "adhesive tape",
+      "esempio": "Porterò alcune scatole vuote e il nastro adesivo."
+    }
+  ]
+}

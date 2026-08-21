@@ -1,0 +1,221 @@
+1. ANSWERS
+
+```json
+{
+  "L3": {
+    "answer": "A H D K B F J C I E G",
+    "confidence": "hi"
+  },
+  "S1.1": {"answer": "si", "confidence": "hi"},
+  "S1.2": {"answer": "le", "confidence": "hi"},
+  "S1.3": {"answer": "lo", "confidence": "hi"},
+  "S1.4": {"answer": "lo", "confidence": "hi"},
+  "S1.5": {"answer": "quali", "confidence": "hi"},
+  "S1.6": {"answer": "lo", "confidence": "hi"},
+  "S1.7": {"answer": "cui", "confidence": "hi"},
+  "S1.8": {"answer": "si", "confidence": "hi"},
+  "S1.9": {"answer": "la", "confidence": "hi"},
+  "S1.10": {"answer": "quale", "confidence": "hi"},
+  "S1.11": {"answer": "che", "confidence": "hi"},
+  "S1.12": {"answer": "si", "confidence": "hi"},
+  "S1.13": {"answer": "quale", "confidence": "hi"},
+  "S1.14": {"answer": "ne", "confidence": "hi"},
+  "S1.15": {"answer": "quale", "confidence": "hi"},
+  "S1.16": {"answer": "quale", "confidence": "hi"},
+  "S1.17": {"answer": "quali", "confidence": "hi"},
+  "S1.18": {"answer": "cui", "confidence": "hi"},
+  "S1.19": {"answer": "si", "confidence": "hi"},
+  "S1.20": {"answer": "che", "confidence": "hi"},
+  "S2.1": {"answer": "si mise", "confidence": "hi"},
+  "S2.2": {"answer": "difese", "confidence": "hi"},
+  "S2.3": {"answer": "diede", "confidence": "hi"},
+  "S2.4": {"answer": "fu folgorato", "confidence": "hi"},
+  "S2.5": {"answer": "aveva", "confidence": "hi"},
+  "S2.6": {"answer": "fecero", "confidence": "hi"},
+  "S2.7": {"answer": "scapparono", "confidence": "hi"},
+  "S2.8": {"answer": "sono", "confidence": "hi"},
+  "S2.9": {"answer": "stanno", "confidence": "hi"},
+  "S2.10": {"answer": "cantava", "confidence": "hi"},
+  "S2.11": {"answer": "nasceva", "confidence": "med"},
+  "S2.12": {"answer": "dovesse", "confidence": "hi"},
+  "S2.13": {"answer": "durò", "confidence": "hi"},
+  "S2.14": {"answer": "fece", "confidence": "hi"},
+  "S2.15": {"answer": "conobbe", "confidence": "hi"},
+  "S2.16": {"answer": "copiava", "confidence": "hi"},
+  "S2.17": {"answer": "chiedeva", "confidence": "hi"},
+  "S2.18": {"answer": "consideri", "confidence": "hi"},
+  "S2.19": {"answer": "ha saputo", "confidence": "hi"},
+  "S2.20": {"answer": "sarebbe", "confidence": "hi"}
+}
+```
+
+2. FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.11",
+    "issue": "Possibile anche «nacque» per due eventi puntuali simultanei, ma «nasceva» è più naturale come azione di sfondo introdotta da «mentre»."
+  }
+]
+```
+
+3. WRITING checks
+
+```json
+{
+  "writing_tasks_present": false,
+  "oral_tasks_present": false,
+  "checks": []
+}
+```
+
+Reading additional input from stdin...
+OpenAI Codex v0.146.0
+--------
+workdir: /private/tmp
+model: gpt-5.6-sol
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a02278-110e-7ee3-8387-079c0b82a99f
+--------
+user
+You are a candidate taking a CILS exam. Solve the paper at /tmp/cils-blind-2026-08-21-B2-l3-s1-s2/paper.md using ONLY that file. The file contains only selected prove extracted from the paper; solve every item in it. Return: (1) ANSWERS as JSON object {"item_id": {"answer": "...", "confidence": "hi|med|lo"}}, (2) FLAGS as JSON array for ambiguous or unanswerable items, (3) WRITING checks. Use item IDs by section: L<prova>.<n> for Comprensione della lettura, S<prova>.<n> for Analisi delle strutture, and W<prova>/O<prova> only for writing and produzione orale checks (never inside ANSWERS: writing and oral tasks have no objective key; verify instead that each consegna/argomento is self-contained and, for writing, that the word range is printed). For reading reconstruction, either return the whole sequence as L3 or each slot as L3.<n>. For every multiple-choice item answer with the option LETTER ONLY (A, B, C or D) exactly as labelled in the paper, never with the option's word or phrase. Do not open any other file or the web.
+codex
+I’ll read only the specified `paper.md`, solve every included objective item, and separately verify the writing prompts’ self-containment and printed word ranges.
+exec
+/bin/zsh -lc "sed -n '1,260p' /tmp/cils-blind-2026-08-21-B2-l3-s1-s2/paper.md" in /private/tmp
+ succeeded in 0ms:
+## Comprensione della lettura — Prova n. 3
+
+> *Leggi il testo. Il testo è diviso in 11 parti. Le parti non sono in ordine. Ricostruisci il testo. Scrivi il numero d'ordine accanto a ciascuna parte. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### PORTO A MILANO LA MIA PIZZA AGRICOLA E SOCIALE
+
+| Ordine | Parte |
+|---|---|
+| **1** | **A.** Gabriele Bonci è tirato come un atleta dei Giochi Olimpici nella città che li ha appena ospitati. Giacca di velluto, maglia bianca, collana di perle, è irrefrenabile. |
+| ☐ | **B.** Non l’ho voluto brevettare, penso che abbia più valore parlarne che farci i soldi. Rigenerare deve essere un mantra. Collaborerà con gli artigiani del territorio? |
+| ☐ | **C.** E nasceranno delle cose. È questo il futuro? Il futuro è l’agricoltura, che è alla base di tutto e spero che accada al più presto possibile. E poi il futuro è tecnica e filosofia. |
+| ☐ | **D.** Qui non parliamo solo di pizza ma di una visione ramificata, che abbraccia tutto, che parla di agricoltura, di ambiente e di sociale. Come? Lo vedi questo vassoio? |
+| ☐ | **E.** ho messo insieme tanti agricoltori, tanti produttori, tanti tecnici, coltivo quasi settanta ettari di grano su Roma. Quindi qui non si parla più di ingredienti ma del pensiero che c’è dietro. Vedi la pizza con il prosciutto? |
+| ☐ | **F.** No, mi sono portato i miei produttori da Roma, quelli che lavorano con me da tanto tempo e che sono parte integrante del progetto. E sai perché? No. |
+| ☐ | **G.** Noi non abbiamo il prosciutto e nemmeno il maiale, ma il sangue del maiale, il suo dna. Non abbiamo un pomodoro ma il suo seme, non abbiamo il grano ma il chicco. Questa è sperimentazione. |
+| ☐ | **H.** È a Milano per lanciare il suo primo Bonci meneghino, in via Nicola Piccinni 3, tra Loreto e Lima (apre oggi). Allora, Gabriele Bonci. Cosa porta a Milano? |
+| ☐ | **I.** Quella filosofia è un punto di evoluzione e non di rivoluzione perché le rivoluzioni si fanno con le armi. Il nostro pensiero è distruggere le industrie, rivendicare nuovi mercati e cambiare quelli vecchi. Questo è un punto zero, |
+| ☐ | **J.** Sarebbe stato facile utilizzare la retorica degli agricoltori milanesi. Ma avrei bloccato lo scambio. Così i miei produttori ogni tanto verranno a Milano, faremo delle feste, degli eventi, e dialogheranno con i produttori di Davide Longoni, di Adriano Delmastro. |
+| ☐ | **K.** È fatto con la crusca di scarto del grano che coltivo a Ladispoli. Solo crusca e poca acqua. Un atto di rigenerazione. Ci abbiamo messo anni a sviluppare questo progetto. Lo ha brevettato? |
+
+---
+
+
+---
+
+## Analisi delle strutture di comunicazione — Prova n. 1
+
+> *Completa il testo con gli aggettivi e i pronomi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### IL GIGANTE DELLA TASMANIA: NEIL È LA NUOVA STAR DEI SOCIAL
+
+Neil pesa circa una tonnellata e sembra aver scelto una cittadina della Tasmania come __suo (0)__ luogo preferito per riposare. Il problema è che spesso __(1)__ sdraia in mezzo alla strada. Le transenne? __(2)__ abbatte. Il traffico? __(3)__ manda in tilt, mentre decine di curiosi si fermano e __(4)__ filmano.
+
+Negli ultimi giorni Neil è diventato un fenomeno sui social. I video, i __(5)__ hanno milioni di visualizzazioni, __(6)__ ritraggono mentre abbatte paletti stradali.
+
+Proprio questa popolarità, però, è la principale preoccupazione delle autorità. La località in __(7)__ Neil __(8)__ trova preoccupa il Department: l'ente teme che la fama dell'animale __(9)__ trasformi in una meta per curiosi e influencer, aumentando il rischio di incontri ravvicinati con un animale selvatico, al __(10)__ non bisogna avvicinarsi.
+
+È proprio questo rischio __(11)__ spinge le autorità a chiedere a residenti e visitatori che __(12)__ mantengano ad almeno 20 metri dall'animale e tengano i cani ad almeno 50 metri. La distanza è riassunta nelle campagne informative con lo slogan "sei Neil", nel __(13)__ "sei" indica sei volte la lunghezza dell'animale. Quanto alla posizione di Neil, le autorità chiedono che non __(14)__ parlino con altri. L'obiettivo è tutelare sia la sicurezza delle persone sia il benessere dell'animale.
+
+Gli esperti spiegano che Neil è un giovane maschio della specie, per il __(15)__ questo comportamento è del tutto normale. Gli elefanti marini tornano regolarmente a terra, sulla __(16)__ riposano, digiunano e cambiano il mantello, mentre i maschi giovani iniziano a esercitarsi nei combattimenti, i __(17)__ da adulti serviranno a contendersi il territorio e l'accesso alla riproduzione. In assenza di altri esemplari con __(18)__ confrontarsi, Neil __(19)__ misura con tutto ciò __(20)__ trova, automobili parcheggiate comprese.
+
+
+---
+
+## Analisi delle strutture di comunicazione — Prova n. 2
+
+> *Completa il testo con le forme giuste dei verbi che sono tra parentesi. DEVI SCRIVERE LE RISPOSTE NEL "FOGLIO DELLE RISPOSTE".*
+
+### NINO D'ANGELO, LE MIE TANTE VITE
+
+Nel 2026, durante un’intervista, Nino D’Angelo racconta le sue molte vite. Quando *(avere)* __aveva (0)__ 17 anni, suo padre voleva picchiarlo. Fu in quel momento che uno sconosciuto *(mettersi)* __(1)__ in mezzo, *(difendere)* __(2)__ il ragazzo e *(dare)* __(3)__ a Nino una grande lezione di vita. Fu a casa di quell’uomo che Nino *(folgorare)* __(4)__ dalla figlia, che all’epoca *(avere)* __(5)__ 11 anni. Fu allora che i due *(fare)* __(6)__ la fuitina e *(scappare)* __(7)__. Più tardi lei restò incinta, ma ancora oggi i due *(essere)* __(8)__ inseparabili. Proprio in questo periodo *(stare)* __(9)__ festeggiando 47 anni di matrimonio.
+
+Da ragazzo, D’Angelo viveva in periferia con cinque fratelli: il frigorifero era vuoto e i genitori avevano la seconda e la terza elementare. Con la licenza media, lui era l’intellettuale di famiglia e aveva il compito di leggere le bollette. Prima del successo nazionale, di solito *(cantare)* __(10)__ ai matrimoni e ne faceva a decine. Mentre a Napoli *(nascere)* __(11)__ il figlio Toni, uno spettacolo teatrale ottenne un risultato inatteso. Sebbene *(dovere)* __(12)__ durare soltanto due giorni, fu proprio quello spettacolo che *(durare)* __(13)__ diciotto giorni.
+
+Fu con il jeans e la maglietta che D’Angelo *(fare)* __(14)__ la svolta nazionale e che il pubblico fuori Napoli e Palermo *(conoscere)* __(15)__ D’Angelo. Per anni, suo padre *(copiare)* __(16)__ sempre le cassette e le vendeva; ogni volta *(chiedere)* __(17)__ a Nino l’anteprima prima che il disco uscisse. Benché oggi il pubblico *(considerare)* __(18)__ D’Angelo un artista popolare, il cantante ricorda le sofferenze. Finora *(sapere)* __(19)__ rinascere. Oggi dice che, se adesso gli mancasse il successo popolare, *(essere)* __(20)__ disperato.
+
+codex
+1. ANSWERS
+
+```json
+{
+  "L3": {
+    "answer": "A H D K B F J C I E G",
+    "confidence": "hi"
+  },
+  "S1.1": {"answer": "si", "confidence": "hi"},
+  "S1.2": {"answer": "le", "confidence": "hi"},
+  "S1.3": {"answer": "lo", "confidence": "hi"},
+  "S1.4": {"answer": "lo", "confidence": "hi"},
+  "S1.5": {"answer": "quali", "confidence": "hi"},
+  "S1.6": {"answer": "lo", "confidence": "hi"},
+  "S1.7": {"answer": "cui", "confidence": "hi"},
+  "S1.8": {"answer": "si", "confidence": "hi"},
+  "S1.9": {"answer": "la", "confidence": "hi"},
+  "S1.10": {"answer": "quale", "confidence": "hi"},
+  "S1.11": {"answer": "che", "confidence": "hi"},
+  "S1.12": {"answer": "si", "confidence": "hi"},
+  "S1.13": {"answer": "quale", "confidence": "hi"},
+  "S1.14": {"answer": "ne", "confidence": "hi"},
+  "S1.15": {"answer": "quale", "confidence": "hi"},
+  "S1.16": {"answer": "quale", "confidence": "hi"},
+  "S1.17": {"answer": "quali", "confidence": "hi"},
+  "S1.18": {"answer": "cui", "confidence": "hi"},
+  "S1.19": {"answer": "si", "confidence": "hi"},
+  "S1.20": {"answer": "che", "confidence": "hi"},
+  "S2.1": {"answer": "si mise", "confidence": "hi"},
+  "S2.2": {"answer": "difese", "confidence": "hi"},
+  "S2.3": {"answer": "diede", "confidence": "hi"},
+  "S2.4": {"answer": "fu folgorato", "confidence": "hi"},
+  "S2.5": {"answer": "aveva", "confidence": "hi"},
+  "S2.6": {"answer": "fecero", "confidence": "hi"},
+  "S2.7": {"answer": "scapparono", "confidence": "hi"},
+  "S2.8": {"answer": "sono", "confidence": "hi"},
+  "S2.9": {"answer": "stanno", "confidence": "hi"},
+  "S2.10": {"answer": "cantava", "confidence": "hi"},
+  "S2.11": {"answer": "nasceva", "confidence": "med"},
+  "S2.12": {"answer": "dovesse", "confidence": "hi"},
+  "S2.13": {"answer": "durò", "confidence": "hi"},
+  "S2.14": {"answer": "fece", "confidence": "hi"},
+  "S2.15": {"answer": "conobbe", "confidence": "hi"},
+  "S2.16": {"answer": "copiava", "confidence": "hi"},
+  "S2.17": {"answer": "chiedeva", "confidence": "hi"},
+  "S2.18": {"answer": "consideri", "confidence": "hi"},
+  "S2.19": {"answer": "ha saputo", "confidence": "hi"},
+  "S2.20": {"answer": "sarebbe", "confidence": "hi"}
+}
+```
+
+2. FLAGS
+
+```json
+[
+  {
+    "item_id": "S2.11",
+    "issue": "Possibile anche «nacque» per due eventi puntuali simultanei, ma «nasceva» è più naturale come azione di sfondo introdotta da «mentre»."
+  }
+]
+```
+
+3. WRITING checks
+
+```json
+{
+  "writing_tasks_present": false,
+  "oral_tasks_present": false,
+  "checks": []
+}
+```
+tokens used
+23,680

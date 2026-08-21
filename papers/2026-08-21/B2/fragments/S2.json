@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "NINO D'ANGELO, LE MIE TANTE VITE",
+    "S2_TEXT_WITH_GAPS": "Nel 2026, durante un’intervista, Nino D’Angelo racconta le sue molte vite. Quando *(avere)* __aveva (0)__ 17 anni, suo padre voleva picchiarlo. Fu in quel momento che uno sconosciuto *(mettersi)* __(1)__ in mezzo, *(difendere)* __(2)__ il ragazzo e *(dare)* __(3)__ a Nino una grande lezione di vita. Fu a casa di quell’uomo che Nino *(folgorare)* __(4)__ dalla figlia, che all’epoca *(avere)* __(5)__ 11 anni. Fu allora che i due *(fare)* __(6)__ la fuitina e *(scappare)* __(7)__. Più tardi lei restò incinta, ma ancora oggi i due *(essere)* __(8)__ inseparabili. Proprio in questo periodo *(stare)* __(9)__ festeggiando 47 anni di matrimonio.\n\nDa ragazzo, D’Angelo viveva in periferia con cinque fratelli: il frigorifero era vuoto e i genitori avevano la seconda e la terza elementare. Con la licenza media, lui era l’intellettuale di famiglia e aveva il compito di leggere le bollette. Prima del successo nazionale, di solito *(cantare)* __(10)__ ai matrimoni e ne faceva a decine. Mentre a Napoli la moglie *(aspettare)* __(11)__ il primo figlio Toni, uno spettacolo teatrale ottenne un risultato inatteso. Sebbene *(dovere)* __(12)__ durare soltanto due giorni, fu proprio quello spettacolo che *(durare)* __(13)__ diciotto giorni.\n\nFu con il jeans e la maglietta che D’Angelo *(fare)* __(14)__ la svolta nazionale e che il pubblico fuori Napoli e Palermo *(conoscere)* __(15)__ D’Angelo. Per anni, suo padre *(copiare)* __(16)__ sempre le cassette e le vendeva; ogni volta *(chiedere)* __(17)__ a Nino l’anteprima prima che il disco uscisse. Benché oggi il pubblico *(considerare)* __(18)__ D’Angelo un artista popolare, il cantante ricorda le sofferenze. Finora *(sapere)* __(19)__ rinascere. Oggi dice che, se adesso gli mancasse il successo popolare, *(essere)* __(20)__ disperato."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | si mise | indicativo passato remoto | S2.11 | aspettava | indicativo imperfetto |\n| S2.2 | difese | indicativo passato remoto | S2.12 | dovesse | congiuntivo imperfetto |\n| S2.3 | diede | indicativo passato remoto | S2.13 | durò | indicativo passato remoto |\n| S2.4 | fu folgorato | passivo, indicativo passato remoto | S2.14 | fece | indicativo passato remoto |\n| S2.5 | aveva | indicativo imperfetto | S2.15 | conobbe | indicativo passato remoto |\n| S2.6 | fecero | indicativo passato remoto | S2.16 | copiava | indicativo imperfetto |\n| S2.7 | scapparono | indicativo passato remoto | S2.17 | chiedeva | indicativo imperfetto |\n| S2.8 | sono | indicativo presente | S2.18 | consideri | congiuntivo presente |\n| S2.9 | stanno | indicativo presente | S2.19 | ha saputo | indicativo passato prossimo |\n| S2.10 | cantava | indicativo imperfetto | S2.20 | sarebbe | condizionale presente |",
+    "ANS_S2_NOTES": "- **S2.1:** «Fu in quel momento che» àncora *si mise* al passato remoto. 中文：强调句锁定一次完成的过去动作。\n- **S2.2:** lo stesso «Fu … che» regge la seconda azione conclusa, *difese*. 中文：与第1空同属连续事件。\n- **S2.3:** la stessa struttura scissa impone l’azione conclusa *diede*. 中文：明确受事者后只填写动词。\n- **S2.4:** «Fu a casa … che» impone il passivo concluso *fu folgorato*. 中文：助动词和分词都在空内。\n- **S2.5:** «all’epoca» e l’età descrivono lo sfondo: *aveva*. 中文：年龄背景用未完成过去时。\n- **S2.6:** «Fu allora che» introduce l’evento puntuale *fecero*. 中文：强调句限定远过去时。\n- **S2.7:** *scapparono* è la seconda azione coordinata sotto «Fu allora che». 中文：与第6空共享时间锚点。\n- **S2.8:** «ancora oggi» richiede il presente *sono*. 中文：状态延续到现在。\n- **S2.9:** «Proprio in questo periodo … festeggiando» richiede il presente di *stare*: *stanno*. 中文：进行结构只填写 stare。\n- **S2.10:** «di solito» segnala l’abitudine passata: *cantava*. 中文：过去习惯用未完成过去时。\n- **S2.11:** «mentre» con un verbo di stato durativo come *aspettare* ammette solo l'imperfetto: *aspettava*. 中文：*mentre* 引导持续性背景动作，只能用未完成过去时。\n- **S2.12:** «Sebbene» richiede il congiuntivo e il racconto è al passato: *dovesse*. 中文：让步从句加过去语境。\n- **S2.13:** «fu proprio quello spettacolo che» fissa l’esito concluso *durò*. 中文：强调句锁定远过去时。\n- **S2.14:** «Fu con il jeans e la maglietta che» impone l’evento concluso *fece*. 中文：明确的一次转折。\n- **S2.15:** la stessa struttura scissa regge *conobbe*; l’oggetto «D’Angelo» è stampato. 中文：宾语明确，不需补代词。\n- **S2.16:** «Per anni» e «sempre» marcano l’abitudine: *copiava*. 中文：长期反复行为用未完成过去时。\n- **S2.17:** «ogni volta» forza l’azione abituale *chiedeva*; «a Nino» è già stampato. 中文：只填写动词。\n- **S2.18:** «Benché oggi» richiede il congiuntivo presente *consideri*. 中文：让步连词锁定虚拟式。\n- **S2.19:** «Finora» blocca il passato remoto e richiede *ha saputo*. 中文：截至目前用近过去时。\n- **S2.20:** «se adesso gli mancasse» colloca la condizione irreale nel presente e richiede *sarebbe*. 中文：现在的假设锁定条件式现在时。"
+  },
+  "key": {
+    "S2.1": "si mise",
+    "S2.2": "difese",
+    "S2.3": "diede",
+    "S2.4": "fu folgorato",
+    "S2.5": "aveva",
+    "S2.6": "fecero",
+    "S2.7": "scapparono",
+    "S2.8": "sono",
+    "S2.9": "stanno",
+    "S2.10": "cantava",
+    "S2.11": "aspettava",
+    "S2.12": "dovesse",
+    "S2.13": "durò",
+    "S2.14": "fece",
+    "S2.15": "conobbe",
+    "S2.16": "copiava",
+    "S2.17": "chiedeva",
+    "S2.18": "consideri",
+    "S2.19": "ha saputo",
+    "S2.20": "sarebbe"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "periferia",
+      "categoria": "sostantivo femminile",
+      "zh": "郊区；城市边缘地区",
+      "en": "outskirts",
+      "esempio": "Da ragazzo, D’Angelo viveva in periferia con cinque fratelli: il frigorifero era vuoto e i genitori avevano la seconda e la terza elementare."
+    },
+    {
+      "parola": "licenza media",
+      "categoria": "locuzione nominale",
+      "zh": "初中毕业证书",
+      "en": "lower secondary school diploma",
+      "esempio": "Con la licenza media, lui era l’intellettuale di famiglia e aveva il compito di leggere le bollette."
+    },
+    {
+      "parola": "bollette",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "账单（水电费等）",
+      "en": "utility bills",
+      "esempio": "Con la licenza media, lui era l’intellettuale di famiglia e aveva il compito di leggere le bollette."
+    },
+    {
+      "parola": "risultato inatteso",
+      "categoria": "locuzione nominale",
+      "zh": "出乎意料的结果",
+      "en": "unexpected result",
+      "esempio": "uno spettacolo teatrale ottenne un risultato inatteso."
+    },
+    {
+      "parola": "sofferenze",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "痛苦；磨难",
+      "en": "sufferings",
+      "esempio": "il cantante ricorda le sofferenze."
+    }
+  ]
+}

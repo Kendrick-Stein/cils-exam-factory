@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "AVVISO PUBBLICO PER LA GESTIONE DI ALCUNI CENTRI DI INCONTRO DELLA CIRCOSCRIZIONE 5",
+    "T2_TEXT": "Individuazione di Associazioni o raggruppamenti di Associazioni interessati alla Gestione sperimentale di alcuni Centri di incontro della Circoscrizione 5.\n\nIntegrazione pubblicata il 9 aprile 2026\n\nIl giorno mercoledì 15 aprile 2026 alle ore 14:00, in modalità da remoto, le Associazioni interessate sono invitate ad un incontro di presentazione dell'Avviso Pubblico per la gestione di alcuni Centri di incontro della Circoscrizione 5 e delle relative modalità di partecipazione.\n\nIn applicazione del Capo III bis del Regolamento cittadino dei Centri d’incontro n. 372 e del Regolamento per l’acquisizione gestione e valorizzazione dei beni immobili n. 397 la Circoscrizione 5 ha indetto una procedura ad evidenza pubblica per la ricerca di Soggetti Proponenti interessati a sperimentare la gestione di alcuni Centri d’Incontro.\n\nTutte le informazioni sono contenute nell’avviso e nei documenti in allegato. Le istanze devono pervenire entro e non oltre le ore 12:00 del giorno 15 maggio 2026 a mezzo posta elettronica certificata (PEC) al seguente indirizzo di posta elettronica: circoscrizione.v@cert.comune.torino.it",
+    "L2_ITEMS": "**1.** L’avviso è rivolto alle singole Associazioni, ma non ai raggruppamenti di Associazioni.  \nVero ○ Falso ○\n\n**2.** Le Associazioni possono sperimentare la gestione di alcuni Centri di incontro.  \nVero ○ Falso ○\n\n**3.** L’integrazione è stata pubblicata il 9 aprile 2026.  \nVero ○ Falso ○\n\n**4.** L’incontro del 15 aprile si svolge in presenza.  \nVero ○ Falso ○\n\n**5.** Durante l’incontro sono presentate anche le modalità di partecipazione.  \nVero ○ Falso ○\n\n**6.** La procedura riguarda la gestione di tutti i Centri d’Incontro della Circoscrizione 5.  \nVero ○ Falso ○\n\n**7.** Le informazioni si trovano nell’avviso e nei documenti allegati.  \nVero ○ Falso ○\n\n**8.** Il termine per inviare le istanze è il 15 aprile 2026.  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Falso | Il testo include «Associazioni o raggruppamenti di Associazioni». 中文：协会团体也可以参加。 |\n| L2.2 | Vero | Il testo parla di soggetti interessati alla «Gestione sperimentale di alcuni Centri di incontro». 中文：只涉及部分活动中心的试验性管理。 |\n| L2.3 | Vero | Nel testo si legge «Integrazione pubblicata il 9 aprile 2026». 中文：发布日期与题目一致。 |\n| L2.4 | Falso | L’incontro è previsto «in modalità da remoto», non in presenza. 中文：会议为线上形式。 |\n| L2.5 | Vero | L’incontro presenta l’avviso e le «relative modalità di partecipazione». 中文：也会说明参加方式。 |\n| L2.6 | Falso | La procedura riguarda «alcuni Centri d’Incontro», non tutti. 中文：范围是部分中心，并非全部。 |\n| L2.7 | Vero | «Tutte le informazioni sono contenute nell’avviso e nei documenti in allegato». 中文：信息同时在公告和附件中。 |\n| L2.8 | Falso | Le istanze devono arrivare entro le ore 12:00 del «15 maggio 2026», non il 15 aprile. 中文：申请截止日是5月15日。 |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "V || Vero",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "raggruppamenti di Associazioni",
+      "categoria": "espressione nominale",
+      "zh": "协会团体",
+      "en": "groups of associations",
+      "esempio": "Individuazione di Associazioni o raggruppamenti di Associazioni interessati alla Gestione sperimentale di alcuni Centri di incontro della Circoscrizione 5."
+    },
+    {
+      "parola": "modalità da remoto",
+      "categoria": "espressione nominale",
+      "zh": "远程方式",
+      "en": "remote format",
+      "esempio": "Il giorno mercoledì 15 aprile 2026 alle ore 14:00, in modalità da remoto, le Associazioni interessate sono invitate ad un incontro di presentazione dell'Avviso Pubblico per la gestione di alcuni Centri di incontro della Circoscrizione 5 e delle relative modalità di partecipazione."
+    },
+    {
+      "parola": "modalità di partecipazione",
+      "categoria": "espressione nominale",
+      "zh": "参加方式",
+      "en": "participation procedures",
+      "esempio": "Il giorno mercoledì 15 aprile 2026 alle ore 14:00, in modalità da remoto, le Associazioni interessate sono invitate ad un incontro di presentazione dell'Avviso Pubblico per la gestione di alcuni Centri di incontro della Circoscrizione 5 e delle relative modalità di partecipazione."
+    },
+    {
+      "parola": "procedura ad evidenza pubblica",
+      "categoria": "espressione nominale",
+      "zh": "公开程序",
+      "en": "public procedure",
+      "esempio": "In applicazione del Capo III bis del Regolamento cittadino dei Centri d’incontro n. 372 e del Regolamento per l’acquisizione gestione e valorizzazione dei beni immobili n. 397 la Circoscrizione 5 ha indetto una procedura ad evidenza pubblica per la ricerca di Soggetti Proponenti interessati a sperimentare la gestione di alcuni Centri d’Incontro."
+    },
+    {
+      "parola": "posta elettronica certificata",
+      "categoria": "espressione nominale",
+      "zh": "认证电子邮件",
+      "en": "certified email",
+      "esempio": "Le istanze devono pervenire entro e non oltre le ore 12:00 del giorno 15 maggio 2026 a mezzo posta elettronica certificata (PEC) al seguente indirizzo di posta elettronica: circoscrizione.v@cert.comune.torino.it"
+    }
+  ]
+}

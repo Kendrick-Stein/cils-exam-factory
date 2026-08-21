@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "AGRITURISMO RESIDENCE CAPORALE",
+    "T1_TEXT": "Il nostro agriturismo è composto da sei bellissimi appartamentini tutti dotati di angolo cottura con una o due camere, wi-fi e climatizzazione. I nostri ospiti hanno a disposizione una piccola area verde, e servizi di bici a noleggio con centro massaggi.\n\n**Servizi disponibili per gli ospiti**\n\n**Struttura**\n\n- Camere per famiglie\n- Camere per ospiti disabili\n- Connessione WiFi gratuita\n- Parcheggio\n- Animali ammessi\n\n**Camere**\n\n- Bagno privato\n- Asciugacapelli\n- Aria condizionata\n- Bollitore elettrico\n- Macchina da caffè\n- Camera per ospiti disabili\n- Cucina / angolo cottura\n- Scrivania\n- TV a schermo piatto\n- Vista\n\n**Prima di prenotare**\n\nCheck-in: dalle ore 10:00\n\nCheck-out: fino alle 10:00",
+    "L1_ITEMS": "**1. Negli appartamentini ci sono**\n\nA) una o due camere.\nB) tre camere.\nC) quattro camere.\n\n**2. Gli ospiti possono noleggiare**\n\nA) le automobili.\nB) le biciclette.\nC) gli scooter.\n\n**3. La connessione WiFi è**\n\nA) a pagamento.\nB) non disponibile.\nC) gratuita.\n\n**4. Il check-out deve avvenire entro le ore**\n\nA) 9:00.\nB) 10:00.\nC) 11:00."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice «con una o due camere». 中文：房间数量是一间或两间。 |\n| L1.2 | B | Il testo indica «bici a noleggio». 中文：可租用的是自行车。 |\n| L1.3 | C | Nell’elenco compare «Connessione WiFi gratuita». 中文：关键词是 gratuita。 |\n| L1.4 | B | Il testo dice «Check-out: fino alle 10:00». 中文：退房最晚时间是10点。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "angolo cottura",
+      "categoria": "locuzione nominale",
+      "zh": "小厨房；烹饪区",
+      "en": "kitchenette",
+      "esempio": "Il nostro agriturismo è composto da sei bellissimi appartamentini tutti dotati di angolo cottura con una o due camere, wi-fi e climatizzazione."
+    },
+    {
+      "parola": "area verde",
+      "categoria": "locuzione nominale",
+      "zh": "绿地区域",
+      "en": "green area",
+      "esempio": "I nostri ospiti hanno a disposizione una piccola area verde, e servizi di bici a noleggio con centro massaggi."
+    },
+    {
+      "parola": "bici a noleggio",
+      "categoria": "locuzione nominale",
+      "zh": "出租自行车",
+      "en": "rental bicycles",
+      "esempio": "I nostri ospiti hanno a disposizione una piccola area verde, e servizi di bici a noleggio con centro massaggi."
+    },
+    {
+      "parola": "Animali ammessi",
+      "categoria": "espressione",
+      "zh": "允许携带宠物",
+      "en": "pets allowed",
+      "esempio": "Animali ammessi"
+    },
+    {
+      "parola": "Bagno privato",
+      "categoria": "locuzione nominale",
+      "zh": "私人浴室",
+      "en": "private bathroom",
+      "esempio": "Bagno privato"
+    }
+  ]
+}

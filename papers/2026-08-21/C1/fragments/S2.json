@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "Saverio Strati ci insegna che la cultura può cambiare il destino di un paese",
+    "S2_TEXT_WITH_GAPS": "Fu nel 2016 che Domenico Stranieri *(diventare)* __divenne (0)__ sindaco di Sant’Agata del Bianco. Fu allora che l’amministrazione *(ideare)* __(1)__ un percorso sull’esperienza letteraria di Saverio Strati. Da allora e fino a oggi il progetto *(ridefinire)* __(2)__ l’assetto urbano; la letteratura si è fatta trama d’arte, *(trasformare)* __(3)__ il paese in uno spazio narrativo.\n\n**Perché Strati è ancora attuale?**\n\nProprio in questo momento la sua scrittura *(continuare)* __(4)__ a interrogare il presente. Strati non ha mai considerato il Sud un luogo fermo: finora *(raccontare)* __(5)__ come una domanda aperta. I personaggi dei suoi libri sono persone che *(pensare)* __(6)__. È essenziale che il lettore *(riconoscere)* __(7)__ in loro un dolore che riguarda tutti i popoli umiliati. È sorprendente che, fino a oggi, la memoria di Strati *(rimanere)* __(8)__ confinata in una dimensione locale.\n\nFino a oggi Strati spesso *(ridurre)* __(9)__ a scrittore “calabrese”. Come accade alle opere *(destinare)* __(10)__ a superare il proprio tempo, la sua scrittura interroga il presente. Se questa definizione *(diventare)* __(11)__ una gabbia, la sua opera *(perdere)* __(12)__ la dimensione universale.\n\n**Che cosa avete fatto a Sant’Agata del Bianco?**\n\nIn questi anni *(provare)* __(13)__ a non separare Saverio Strati dal suo mondo. Oggi le sue parole *(fare)* __(14)__ parte della nostra aria. Crediamo che il compito della cultura sia quello di *(riconoscere)* __(15)__, raccontare e trasformare la realtà. Oggi il paese è un libro aperto, che non si guarda soltanto con gli occhi, ma *(attraversare)* __(16)__ passo dopo passo. Il visitatore vede le parole di Strati *(diventare)* __(17)__ parte del paesaggio. Se nel 2016 il percorso non *(creare)* __(18)__, il patrimonio culturale *(rimanere)* __(19)__ locale. La nostra visione, *(promuovere)* __(20)__ dal comune, interpreta la cultura come leva di sviluppo e partecipazione."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ideò | passato remoto | S2.11 | diventasse | congiuntivo imperfetto |\n| S2.2 | ha ridefinito | passato prossimo | S2.12 | perderebbe | condizionale presente |\n| S2.3 | trasformando | gerundio presente | S2.13 | abbiamo provato | passato prossimo |\n| S2.4 | continua | indicativo presente | S2.14 | fanno | indicativo presente |\n| S2.5 | lo ha raccontato | passato prossimo con pronome | S2.15 | riconoscere | infinito presente |\n| S2.6 | pensano | indicativo presente | S2.16 | si attraversa | indicativo presente con si passivante |\n| S2.7 | riconosca | congiuntivo presente | S2.17 | diventare | infinito presente |\n| S2.8 | sia rimasta | congiuntivo passato | S2.18 | fosse stato creato | congiuntivo trapassato passivo |\n| S2.9 | è stato ridotto | passato prossimo passivo | S2.19 | sarebbe rimasto | condizionale passato |\n| S2.10 | destinate | participio passato | S2.20 | promossa | participio passato |",
+    "ANS_S2_NOTES": "- **S2.1 — ideò.** «Fu proprio allora che» isola un evento concluso nel 2016 e forza il passato remoto. 中文：分裂句把动作钉在过去。\n- **S2.2 — ha ridefinito.** «Da allora e fino a oggi» collega l’azione passata al presente e richiede il passato prossimo. 中文：动作延续至今。\n- **S2.3 — trasformando.** Dopo «si è fatta trama d’arte», la forma implicita esprime il risultato contemporaneo. 中文：逗号后的伴随结果用副动词。\n- **S2.4 — continua.** «Proprio in questo momento» impone il presente. 中文：明确是此刻。\n- **S2.5 — lo ha raccontato.** «Finora» richiede il passato prossimo; il pronome «lo» deve stare nella forma completa. 中文：截至现在，代词也在空格内。\n- **S2.6 — pensano.** «Sono persone che» descrive una qualità attuale e generale dei personaggi. 中文：与现在时“sono”保持一致。\n- **S2.7 — riconosca.** «È essenziale che» regge il congiuntivo presente. 中文：必要性结构要求虚拟式。\n- **S2.8 — sia rimasta.** «È sorprendente che» richiede il congiuntivo e «fino a oggi» ne forza il passato composto. 中文：截至今天的结果用虚拟式过去时。\n- **S2.9 — è stato ridotto.** «Fino a oggi» impone il passato prossimo; Strati subisce l’azione, quindi la forma è passiva. 中文：延续至今且主语是承受者。\n- **S2.10 — destinate.** «Le opere … a superare» richiede il participio con accordo femminile plurale. 中文：与“opere”阴性复数一致。\n- **S2.11 — diventasse.** La protasi irreale introdotta da «Se» e seguita dal condizionale richiede il congiuntivo imperfetto. 中文：非现实条件句前半句。\n- **S2.12 — perderebbe.** È la conseguenza della condizione «Se … diventasse», quindi richiede il condizionale presente. 中文：非现实条件句的结果。\n- **S2.13 — abbiamo provato.** «In questi anni» include il presente e forza il passato prossimo. 中文：这些年包括现在。\n- **S2.14 — fanno.** «Oggi» impone il presente nella locuzione «fare parte». 中文：今天仍然如此。\n- **S2.15 — riconoscere.** «Quello di» regge direttamente l’infinito, coordinato con «raccontare e trasformare». 中文：介词“di”后用不定式。\n- **S2.16 — si attraversa.** «Oggi» e il parallelo «non si guarda … ma» impongono il presente con si passivante. 中文：与前面的“si guarda”平行。\n- **S2.17 — diventare.** Dopo il verbo di percezione «vede», il soggetto dell’infinito è «le parole». 中文：感知动词后接不定式。\n- **S2.18 — fosse stato creato.** La condizione irreale riferita esplicitamente al 2016, con conseguenza al condizionale passato, richiede il congiuntivo trapassato passivo. 中文：过去未实现条件，且“percorso”是承受者。\n- **S2.19 — sarebbe rimasto.** È la conseguenza passata della protasi «Se nel 2016 … fosse stato creato». 中文：过去非现实结果用条件式过去时。\n- **S2.20 — promossa.** Il participio passivo concorda con «la nostra visione», femminile singolare. 中文：与阴性单数“visione”一致。"
+  },
+  "key": {
+    "S2.1": "ideò",
+    "S2.2": "ha ridefinito",
+    "S2.3": "trasformando",
+    "S2.4": "continua",
+    "S2.5": "lo ha raccontato",
+    "S2.6": "pensano",
+    "S2.7": "riconosca",
+    "S2.8": "sia rimasta",
+    "S2.9": "è stato ridotto",
+    "S2.10": "destinate",
+    "S2.11": "diventasse",
+    "S2.12": "perderebbe",
+    "S2.13": "abbiamo provato",
+    "S2.14": "fanno",
+    "S2.15": "riconoscere",
+    "S2.16": "si attraversa",
+    "S2.17": "diventare",
+    "S2.18": "fosse stato creato",
+    "S2.19": "sarebbe rimasto",
+    "S2.20": "promossa"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "trama d’arte",
+      "categoria": "locuzione nominale",
+      "zh": "艺术脉络",
+      "en": "artistic fabric",
+      "esempio": "la letteratura si è fatta trama d’arte"
+    },
+    {
+      "parola": "domanda aperta",
+      "categoria": "locuzione nominale",
+      "zh": "开放性问题",
+      "en": "open question",
+      "esempio": "come una domanda aperta"
+    },
+    {
+      "parola": "dimensione locale",
+      "categoria": "locuzione nominale",
+      "zh": "地方层面",
+      "en": "local dimension",
+      "esempio": "confinata in una dimensione locale"
+    },
+    {
+      "parola": "gabbia",
+      "categoria": "nome femminile",
+      "zh": "牢笼；束缚",
+      "en": "cage; constraint",
+      "esempio": "una gabbia"
+    },
+    {
+      "parola": "leva di sviluppo",
+      "categoria": "locuzione nominale",
+      "zh": "发展杠杆",
+      "en": "driver of development",
+      "esempio": "la cultura come leva di sviluppo e partecipazione"
+    }
+  ]
+}

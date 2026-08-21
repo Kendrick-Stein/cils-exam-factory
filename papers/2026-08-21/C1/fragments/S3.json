@@ -1,0 +1,69 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Gli scienziati italiani riconosciuti all’estero, ma non la scienza",
+    "S3_TEXT_WITH_GAPS": "Gli scienziati __italiani (0)__ sono molto riconosciuti all’estero, ma non accade lo stesso per la scienza italiana. Lo ha detto il segretario generale di Aspen Institute Italia, Angelo Maria Petroni, a margine della tavola rotonda organizzata dall’istituto sul soft power, ossia la capacità di uno Stato di ottenere consenso facendo __(1)__ sulla sua cultura, i valori politici e le politiche estere.\n\nLa scienza non riesce quindi a far __(2)__ del soft power italiano e, più in __(3)__, l’Italia __(4)__ a __(5)__ il suo __(6)__ culturale in una strategia __(7)__ sullo scenario internazionale.\n\n«Non vedo un modello scientifico italiano riconosciuto in __(8)__ per il mondo. Sono riconosciuti gli scienziati italiani, questo sì: si __(9)__ all’estero per la loro __(10)__, la capacità di __(11)__ problemi e di cooperare», osserva Petroni. «È ovvio che hanno anche una buona formazione, ma a __(12)__ è soprattutto la capacità di __(13)__ e gestire conflitti, aggiudicandosi così ruoli __(14)__. Per quanto riguarda la scienza però, al massimo l’Italia resta, tra i fisici, il Paese di Fermi».\n\nIn generale, dalla tavola rotonda è emerso che manca una piattaforma unitaria in grado di ridurre la __(15)__ del soft power italiano, per esempio migliorando il coordinamento con gli enti locali e valorizzando il ruolo dell’iniziativa privata e del mecenatismo d’impresa.",
+    "S3_OPT0_A": "italiani",
+    "S3_OPT0_B": "francesi",
+    "S3_OPT0_C": "tedeschi",
+    "S3_OPT0_D": "spagnoli",
+    "S3_OPTION_ROWS": "| 1. | pressione | silenzio | chiarezza | leva |\n| 2. | sfoggio | parte | tesoro | menzione |\n| 3. | concreto | generale | breve | profondo |\n| 4. | aspira | provvede | stenta | rinuncia |\n| 5. | disperdere | tradurre | dividere | raccogliere |\n| 6. | capitale | confine | archivio | mercato |\n| 7. | autonoma | provvisoria | redditizia | coerente |\n| 8. | viaggio | cammino | giro | moto |\n| 9. | trasferiscono | distinguono | riuniscono | candidano |\n| 10. | anzianità | notorietà | rigidità | flessibilità |\n| 11. | elencare | rinviare | creare | risolvere |\n| 12. | seguire | colpire | mancare | bastare |\n| 13. | provocare | ignorare | mediare | alimentare |\n| 14. | provvisori | direttivi | marginali | individuali |\n| 15. | continuità | visibilità | influenza | frammentazione |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | D | La locuzione «fare leva sulla sua cultura» indica l’impiego della cultura come strumento di persuasione. 中文：固定搭配 *fare leva su* 表示“借助、利用”。 |\n| S3.2 | B | La scienza non riesce a «far parte del soft power italiano», cioè a esserne una componente. 中文：固定搭配 *far parte di*。 |\n| S3.3 | B | «Più in generale» introduce il passaggio dalla scienza all’intero capitale culturale italiano. 中文：论述范围从科学扩大到整体文化资本。 |\n| S3.4 | C | «Stenta a tradurre» riprende l’idea precedente che la scienza «non riesce» a contribuire al soft power. 中文：*stentare a* 表示做某事有困难。 |\n| S3.5 | B | Il testo parla di «tradurre il suo capitale culturale in una strategia», ossia convertirlo in azione internazionale. 中文：*tradurre X in Y* 表示“把X转化为Y”。 |\n| S3.6 | A | «Capitale culturale» designa l’insieme di risorse culturali che l’Italia non sa trasformare in strategia. 中文：这里是“文化资本”的固定表达。 |\n| S3.7 | D | La strategia deve essere «coerente» perché il problema denunciato è la mancanza di coordinamento unitario. 中文：后文的“缺少统一平台”锁定“连贯一致”。 |\n| S3.8 | C | «In giro per il mondo» è la locuzione che significa “in diversi Paesi del mondo”. 中文：固定搭配 *in giro per il mondo*。 |\n| S3.9 | B | Gli scienziati «si distinguono all’estero per» qualità specifiche che li rendono riconoscibili. 中文：*distinguersi per* 表示“因……而突出”。 |\n| S3.10 | D | La «flessibilità» è coerente con le capacità subito elencate: risolvere problemi, cooperare e mediare. 中文：后面的能力清单说明其灵活适应性。 |\n| S3.11 | D | «Risolvere problemi» è la collocazione che descrive una competenza positiva degli scienziati. 中文：固定搭配为“解决问题”。 |\n| S3.12 | B | Nella struttura «a colpire è soprattutto», *colpire* indica ciò che suscita particolare attenzione. 中文：强调句表示“最引人注意的是”。 |\n| S3.13 | C | «Mediare e gestire conflitti» descrive due azioni complementari che favoriscono l’accesso a ruoli direttivi. 中文：调解并管理冲突，语义相互呼应。 |\n| S3.14 | B | I «ruoli direttivi» sono incarichi di guida, ottenuti grazie alla capacità di gestire conflitti. 中文：前面的管理能力对应领导职务。 |\n| S3.15 | D | Una «piattaforma unitaria» serve a ridurre la «frammentazione», cioè la dispersione degli attori del soft power. 中文：“统一平台”与“碎片化”构成明确对立。 |"
+  },
+  "key": {
+    "S3.1": "D",
+    "S3.2": "B",
+    "S3.3": "B",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "D",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "D",
+    "S3.12": "B",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "soft power",
+      "categoria": "locuzione nominale",
+      "zh": "软实力",
+      "en": "soft power",
+      "esempio": "far parte del soft power italiano"
+    },
+    {
+      "parola": "fare leva",
+      "categoria": "locuzione verbale",
+      "zh": "借助；利用",
+      "en": "to leverage",
+      "esempio": "facendo leva sulla sua cultura"
+    },
+    {
+      "parola": "capitale culturale",
+      "categoria": "locuzione nominale",
+      "zh": "文化资本",
+      "en": "cultural capital",
+      "esempio": "il suo capitale culturale"
+    },
+    {
+      "parola": "ruoli direttivi",
+      "categoria": "locuzione nominale",
+      "zh": "领导职务",
+      "en": "leadership roles",
+      "esempio": "aggiudicandosi così ruoli direttivi"
+    },
+    {
+      "parola": "mecenatismo d’impresa",
+      "categoria": "locuzione nominale",
+      "zh": "企业赞助文化事业",
+      "en": "corporate patronage",
+      "esempio": "del mecenatismo d’impresa"
+    }
+  ]
+}

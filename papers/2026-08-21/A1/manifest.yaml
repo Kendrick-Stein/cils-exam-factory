@@ -1,0 +1,115 @@
+exam: cils
+level: A1
+session: '2026-08-21'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  url: https://www.italia.it/it/friuli-venezia-giulia/remanzacco/dove-dormire/agriturismo-residence-caporale
+  title: Agriturismo Residence Caporale
+  publisher: Italia.it
+  published: null
+  accessed: '2026-08-08'
+  used_in: Comprensione della lettura, Prova n. 1
+  adapted: true
+  words_used: 100
+  origin: pool/edc7a6c16822.md
+- id: T2
+  url: https://biblioteche.comune.verona.it/nqcontent.cfm?a_id=79983
+  title: Biblioteca Civica
+  publisher: Biblioteche del Comune di Verona
+  published: null
+  accessed: '2026-08-08'
+  used_in: Comprensione della lettura, Prova n. 2
+  adapted: true
+  words_used: 117
+  origin: pool/be54b658d1bc.md
+- id: T3
+  url: https://www.visittrentino.info/it/guida/cosa-fare/eventi/castelfolk-2026_e_15438
+  title: Castelfolk 2026
+  publisher: Visit Trentino
+  published: null
+  accessed: '2026-08-08'
+  used_in: Comprensione della lettura, Prova n. 3
+  adapted: true
+  words_used: 106
+  origin: pool/7e58fd3579e2.md
+- id: T4
+  url: https://www.italia.it/it/sicilia/lampedusa-e-linosa/dove-dormire/gran-residence-marisa
+  title: Gran Residence Marisa
+  publisher: Italia.it
+  published: null
+  accessed: '2026-08-08'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 1
+  adapted: true
+  words_used: 92
+  origin: pool/46e0ded4ce8d.md
+- id: T5
+  url: https://www.bimbieviaggi.it/2014/06/04/stati-uniti-on-the-road-con-bambini/
+  title: 'Stati Uniti on the road con bambini: un sogno che si realizza'
+  publisher: Bimbi e Viaggi
+  published: '2014-06-04'
+  accessed: '2026-08-08'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 2
+  adapted: true
+  words_used: 99
+  origin: pool/b75b2b020f85.md
+- id: T6
+  url: https://cultura.gov.it/evento/apertura-del-2-giugno-2026-del-museo-nazionale-atestino-este-pd-ingresso-gratuito
+  title: Apertura del 2 giugno 2026 del Museo Nazionale Atestino (Este-PD) - ingresso gratuito
+  publisher: Ministero della Cultura
+  published: '2026-05-12'
+  accessed: '2026-08-08'
+  used_in: Analisi delle strutture di comunicazione, Prova n. 3
+  adapted: true
+  words_used: 88
+  origin: pool/63cbd8c7c5d4.md
+pipeline:
+  generator: genpapers
+  template: factory/exams/cils/templates/A1.md
+  variant_profile: cils-2024-standard
+  stages:
+  - stage: scaffold
+    at: '2026-08-21'
+  - stage: corpus
+    at: '2026-08-21'
+  - stage: blind_validation
+    at: '2026-08-21T03:43:06+00:00'
+    agreement: 43/44
+    flags: 1
+    result: fail
+  - stage: blind_validation
+    at: '2026-08-21T04:03:09+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-08-21T04:10:06+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-08-21T04:10:06+00:00'
+    result: pass
+    issues: 0
+  - stage: authoring
+    at: '2026-08-21'
+  - stage: assembly
+    at: '2026-08-21'
+  - stage: publish
+    at: '2026-08-21'
+    agreement: 44/44
+    repair_rounds: 1
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

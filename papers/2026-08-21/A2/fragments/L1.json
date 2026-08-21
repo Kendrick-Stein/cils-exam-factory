@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Potrà frequentare la prima media a Filicudi la scolara che aveva scritto a Meloni",
+    "T1_TEXT": "“A Filicudi ha vinto il diritto allo studio”. Con questa frase genitori, docenti e alunni hanno accolto la notizia che Anastasia Tiziana, 10 anni, potrà il prossimo anno scolastico frequentare la prima media nella sua isola, dopo la soluzione trovata dalla dirigente scolastica dell'Istituto comprensivo Isole Eolie, Patrizia Muscolino.\n\nLa notizia, arrivata proprio mentre nella piccola scuola isolana si stava festeggiando la fine dell'anno scolastico, chiude una vicenda che si trascinava da diversi mesi, tra richieste, da parte della mamma della bambina Linda, dell'apertura di un Corso preparazione esami sull'isola, spiragli e dinieghi.\n\nIl lieto fine di questa vicenda, oltre che dalle dirette interessate, è stata accolta con grande gioia nell'isola eoliana anche perché “apre una porta” per situazioni analoghe che si verificheranno nei prossimi anni quando altri scolari saranno chiamati a compiere il salto dalle elementari alla scuola media: due a conclusione dell'anno scolastico 2026/27.\n\nRaggiante e consapevole di aver centrato un importante obiettivo per il futuro didattico della sua bambina è mamma Linda: “Io e Anastasia Tiziana ringraziamo quanti, a vari livelli, si sono impegnati affinché venisse trovata una giusta soluzione, garantendo il diritto allo studio senza doversi sobbarcare trasferimenti che avrebbero pesato su di noi”.",
+    "L1_ITEMS": "**1. Il prossimo anno scolastico Anastasia Tiziana potrà**\n\nA) frequentare la prima media nella sua isola.\n\nB) continuare la scuola elementare in un'altra isola.\n\nC) preparare gli esami a casa con sua madre.\n\n**2. La soluzione per Anastasia Tiziana è stata trovata**\n\nA) dai genitori degli alunni della scuola.\n\nB) dalla dirigente dell'Istituto comprensivo.\n\nC) dagli scolari che finiranno le elementari.\n\n**3. La notizia è arrivata mentre nella scuola**\n\nA) iniziava il nuovo anno scolastico.\n\nB) apriva un corso di preparazione.\n\nC) si festeggiava la fine dell'anno.\n\n**4. La decisione è importante anche per il futuro perché**\n\nA) rende più facili i trasferimenti tra le isole.\n\nB) può aiutare altri scolari in situazioni simili.\n\nC) permette a Linda di lavorare nella scuola."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | Il testo dice che Anastasia «potrà il prossimo anno scolastico frequentare la prima media nella sua isola». 中文：时间是下一学年，地点仍在本岛。 |\n| L1.2 | B | La soluzione è stata «trovata dalla dirigente scolastica dell'Istituto comprensivo», Patrizia Muscolino. 中文：不要把欢迎消息的家长和解决问题的校长混淆。 |\n| L1.3 | C | La notizia è arrivata «mentre nella piccola scuola isolana si stava festeggiando la fine dell'anno scolastico». 中文：mentre 说明消息到来时正在进行的活动。 |\n| L1.4 | B | Il risultato «apre una porta» per «situazioni analoghe» che riguarderanno altri scolari. 中文：影响不只限于 Anastasia，也可能帮助未来的学生。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "diritto allo studio",
+      "categoria": "locuzione nominale",
+      "zh": "受教育权",
+      "en": "right to education",
+      "esempio": "A Filicudi ha vinto il diritto allo studio"
+    },
+    {
+      "parola": "dirigente scolastica",
+      "categoria": "nome",
+      "zh": "女校长；学校负责人",
+      "en": "headteacher; school principal",
+      "esempio": "dopo la soluzione trovata dalla dirigente scolastica"
+    },
+    {
+      "parola": "si trascinava",
+      "categoria": "verbo",
+      "zh": "拖延了；持续未决",
+      "en": "dragged on",
+      "esempio": "una vicenda che si trascinava da diversi mesi"
+    },
+    {
+      "parola": "dinieghi",
+      "categoria": "nome",
+      "zh": "拒绝；否决",
+      "en": "refusals",
+      "esempio": "spiragli e dinieghi"
+    },
+    {
+      "parola": "sobbarcare",
+      "categoria": "verbo",
+      "zh": "承担（沉重负担）",
+      "en": "to shoulder; to take on",
+      "esempio": "senza doversi sobbarcare trasferimenti"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "Una voce",
+    "T3_PART_A": "Veramente, la prima visita aveva lasciato alla marchesa defunta una pessima impressione del dottore. La signorina Lydia Venturi, rimasta come governante e lettrice del giovane marchese, lo ricordava bene.",
+    "T3_PART_B": "E in quest’altro bujo, più freddo e più tenebroso, sua madre era scomparsa, silenziosamente, lasciandolo solo, in un vuoto orrendo. Poi, a un tratto —",
+    "T3_PART_C": "stimò da ciarlatano e peggio la seconda visita, quel venire proprio nel giorno che la marchesa era morta a manifestare un dubbio, ad accendere una speranza di quella sorta.",
+    "T3_PART_D": "E sua madre — egli lo ricordava — parlandogli di lei, gli aveva detto ch’era buona e attenta, di squisite maniere, colta, intelligente; e tale egli ora la sperimentava.",
+    "T3_PART_E": "le aveva preso una mano e vi aveva appoggiato il bel volto pallido, gemendo: «Non mi lasci!... non mi lasci!», s’era sentita vincere dalla compassione, dalla tenerezza,",
+    "T3_PART_F": "il quale s’era sentito addensare più dentro che attorno, terribile, di fronte al quale, è vero, tutti gli uomini sono ciechi. Ma da questo bujo,",
+    "T3_PART_G": "Costei, prendendola al suo servizio, non avrebbe veduto male, nel suo egoismo materno, che il figlio infelice si fosse in qualche modo consolato con lei.",
+    "T3_PART_H": "Per istintivo malanimo contro quell’antipaticissimo dottore non considerava intanto se, per avventura, non sarebbe stata diversa quell’impressione della marchesa, ove il Falci fin da principio le avesse fatto sperare non improbabile la guarigione del figlio. Per conto suo,",
+    "T3_PART_I": "s’era aggrappata. Non era altro che una voce per lui la signorina Lydia. Ma era pur colei che più di tutti, negli ultimi mesi, era stata vicina a sua madre.",
+    "T3_PART_J": "Con quella curiosità, egli s’era messo a torturarla. Voleva «vederla» nel suo bujo; voleva che la voce di lei diventasse immagine dentro di sé.",
+    "T3_PART_K": "Nelle cure che aveva per lui e nei conforti che gli dava, Lydia aveva già maturato, fin dai primi giorni, questo sospetto sulla marchesa Borghi:",
+    "T3_PART_L": "Chi abbia gli occhi sani può almeno distrarsi con la vista delle cose intorno: egli no, cieco per la vita, cieco ora anche per la morte.",
+    "T3_PART_M": "Anche Lydia, mossa da quella tenerezza, s’era dedicata a lui, senza più sospetto. Presto, con la timida ma ostinata e accorante curiosità dei ciechi,",
+    "T3_PART_N": "Tanto più che il giovane marchese pareva ormai rassegnato alla sciagura. Mortagli così d’un tratto la madre, oltre al bujo della sua cecità, un altro bujo,",
+    "T3_PART_O": "Di quel sospetto Lydia s’era acerbamente offesa e aveva costretto la sua naturale alterezza a irrigidirsi in un contegno addirittura severo. Ma, dopo la sciagura, quand’egli, tra il pianto disperato,",
+    "T3_PART_P": "egli non sapeva bene da chi — una voce d’una dolcezza infinita era venuta a lui, come una luce soavissima. E a questa voce tutta l’anima sua, sperduta in quel vuoto orrendo,"
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | parte data |\n| 2 | H | «quell’antipaticissimo dottore» riprende «il dottore»; 中文：指示词锁定前文。 |\n| 3 | C | «Per conto suo,» alla fine di H richiede la continuazione sintattica «stimò...» all’inizio di C; 中文：跨段句法唯一锁定顺序。 |\n| 4 | N | «Tanto più che» rafforza il giudizio sulla seconda visita appena espresso; 中文：递进连接。 |\n| 5 | F | «il quale» riprende soltanto «un altro bujo»; 中文：关系代词唯一回指。 |\n| 6 | L | «Chi abbia gli occhi sani» completa «Ma da questo bujo» e introduce il contrasto con «egli no»; 中文：句法与对比锁定。 |\n| 7 | B | «quest’altro bujo» riprende il bujo «anche per la morte»; 中文：同一意象递进。 |\n| 8 | P | «egli non sapeva bene da chi» completa l’inciso aperto da «Poi, a un tratto —»; 中文：插入语必须接在其后。 |\n| 9 | I | parte data |\n| 10 | D | «E sua madre» riprende la madre cui Lydia era stata vicina; 中文：人物线索续接。 |\n| 11 | K | «Nelle cure... nei conforti» precisa «tale egli ora la sperimentava»; 中文：具体说明前句。 |\n| 12 | G | «Costei» può riferirsi solo alla «marchesa Borghi»; 中文：代词指向唯一。 |\n| 13 | O | «quel sospetto» riprende «questo sospetto»; 中文：指示词直接回指。 |\n| 14 | E | «le aveva preso una mano» completa «quand’egli» e il pronome «le» indica Lydia; 中文：从句与代词共同锁定。 |\n| 15 | M | «quella tenerezza» riprende «dalla tenerezza»; 中文：指示词直接回指。 |\n| 16 | J | «quella curiosità» riprende «curiosità dei ciechi»; 中文：末段由同一心理线索衔接。 |",
+    "ANS_L3_SEQUENCE": "A-H-C-N-F-L-B-P-I-D-K-G-O-E-M-J"
+  },
+  "key": {
+    "L3.1": "A-H-C-N-F-L-B-P-I-D-K-G-O-E-M-J"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "malanimo",
+      "categoria": "sostantivo",
+      "zh": "恶意；反感",
+      "en": "ill will",
+      "esempio": "Per istintivo malanimo contro quell’antipaticissimo dottore non considerava intanto"
+    },
+    {
+      "parola": "ciarlatano",
+      "categoria": "sostantivo",
+      "zh": "江湖骗子；庸医",
+      "en": "charlatan",
+      "esempio": "stimò da ciarlatano e peggio la seconda visita"
+    },
+    {
+      "parola": "addensare",
+      "categoria": "verbo",
+      "zh": "聚集；变得浓重",
+      "en": "to thicken; to gather",
+      "esempio": "s’era sentito addensare più dentro che attorno"
+    },
+    {
+      "parola": "squisite maniere",
+      "categoria": "locuzione nominale",
+      "zh": "优雅得体的举止",
+      "en": "exquisite manners",
+      "esempio": "di squisite maniere, colta, intelligente"
+    },
+    {
+      "parola": "alterezza",
+      "categoria": "sostantivo",
+      "zh": "高傲；自尊",
+      "en": "pride; haughtiness",
+      "esempio": "la sua naturale alterezza a irrigidirsi in un contegno addirittura severo"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Sciame di api invade la spiaggia di Cattolica e trasforma un ombrellone nel suo alveare",
+    "S1_TEXT_WITH_GAPS": "Uno sciame di api ha invaso la spiaggia di Cattolica e ha trasformato un ombrellone nel suo alveare, prima del recupero in sicurezza da parte dell'apicoltore giunto sul posto, che lo ha depositato nell'arnia. Episodio curioso per __(1)__ gestori *(di)* __(2)__ stabilimenti 31-32 di Cattolica. Lo sciame di api si è posato in parte su __un (0)__ lettino ed __(3)__ parte *(su)* __(4)__ stesso ombrellone ed ha nidificato. __(5)__ fenomeno è stato ripreso e postato *(su)* __(6)__ social e in poche ore ha già fatto __(7)__ giro del web. «Si vede che __(8)__ ape regina ha scelto di posarsi *(su)* __(9)__ ombrellone e, in poco tempo, hanno cominciato ad arrivare api da tutte __(10)__ parti, che si sono posate anche sul lettino corrispondente», racconta __(11)__ testimone.\n\nÈ stato necessario attendere l'arrivo *(di)* __(12)__ stesso apicoltore per portare via in sicurezza __(13)__ sciame.\n\n__(14)__ lettini circostanti, nonostante fossero tra __(15)__ più ambiti, trovandosi in seconda fila *(da)* __(16)__ bagnasciuga, sono stati velocemente sgomberati, mettendo in sicurezza __(17)__ bagnanti e lasciando __(18)__ animali tranquilli. Fortunatamente i presenti non hanno perso la calma ed hanno atteso l'arrivo dell'apicoltore che, una volta giunto sul posto, ha dato il via *(a)* __(19)__ operazioni di recupero, prelevando il gruppo di api dove, verosimilmente, si trovava l'ape regina e depositandolo nell'arnia.\n\nA quel punto tutti gli altri insetti hanno iniziato ordinatamente ad entrare all'interno del contenitore. Non è __(20)__ prima volta che un gruppo così numeroso di insetti vada in cerca di luoghi prossimi al mare in cui nidificare. Un episodio analogo si era verificato, a Riccione, soltanto alcuni giorni fa."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | i | S1.11 | un |\n| S1.2 | degli | S1.12 | dello |\n| S1.3 | in | S1.13 | lo |\n| S1.4 | sullo | S1.14 | I |\n| S1.5 | Il | S1.15 | i |\n| S1.6 | sui | S1.16 | dal |\n| S1.7 | il | S1.17 | i |\n| S1.8 | l' | S1.18 | gli |\n| S1.9 | sull' | S1.19 | alle |\n| S1.10 | le | S1.20 | la |",
+    "ANS_S1_NOTES": "- **S1.2 — degli:** «gestori degli stabilimenti» richiede *di + gli* davanti a *stabilimenti*. 中文：介词与复数定冠词合并。\n- **S1.3 — in:** il parallelismo «in parte … ed in parte» richiede la stessa preposizione nella seconda espressione. 中文：并列结构重复同一介词 *in*。\n- **S1.4 — sullo:** «stesso» esige l'articolo determinativo *lo* davanti a *s + consonante*, quindi *su + lo*. 中文：*stesso* 必须搭配定冠词，*su + lo → sullo*。\n- **S1.12 — dello:** «lo stesso apicoltore» riprende l'apicoltore già citato e impone *di + lo*. 中文：*stesso* 回指前文，故用 *di + lo → dello*。\n- **S1.19 — alle:** «dare il via alle operazioni» richiede *a + le*. 中文：固定搭配中使用复数介词冠词。\n- **S1.9 — sull':** *su + l'* davanti a *ombrellone*. 中文：元音前定冠词省音。"
+  },
+  "key": {
+    "S1.1": "i",
+    "S1.2": "degli",
+    "S1.3": "in",
+    "S1.4": "sullo",
+    "S1.5": "Il",
+    "S1.6": "sui",
+    "S1.7": "il",
+    "S1.8": "l'",
+    "S1.9": "sull'",
+    "S1.10": "le",
+    "S1.11": "un",
+    "S1.12": "dello",
+    "S1.13": "lo",
+    "S1.14": "I",
+    "S1.15": "i",
+    "S1.16": "dal",
+    "S1.17": "i",
+    "S1.18": "gli",
+    "S1.19": "alle",
+    "S1.20": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sciame",
+      "categoria": "nome maschile",
+      "zh": "蜂群",
+      "en": "swarm",
+      "esempio": "Lo sciame di api si è posato in parte su un lettino ed in parte sull'ombrellone corrispondente ed ha nidificato."
+    },
+    {
+      "parola": "bagnasciuga",
+      "categoria": "nome maschile",
+      "zh": "水边；浪打岸边处",
+      "en": "waterline",
+      "esempio": "trovandosi in seconda fila dal bagnasciuga"
+    },
+    {
+      "parola": "sgomberati",
+      "categoria": "participio passato",
+      "zh": "被清空；被腾空",
+      "en": "cleared",
+      "esempio": "sono stati velocemente sgomberati"
+    },
+    {
+      "parola": "arnia",
+      "categoria": "nome femminile",
+      "zh": "蜂箱",
+      "en": "beehive",
+      "esempio": "depositandolo nell'arnia"
+    },
+    {
+      "parola": "nidificare",
+      "categoria": "verbo",
+      "zh": "筑巢",
+      "en": "to nest",
+      "esempio": "Non è la prima volta che un gruppo così numeroso di insetti vada in cerca di luoghi prossimi al mare in cui nidificare."
+    }
+  ]
+}

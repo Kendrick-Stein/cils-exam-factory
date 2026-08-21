@@ -1,0 +1,57 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1A_PROMPT": "«Valutare un servizio pubblico soltanto in base alla rapidità può renderlo più efficiente, ma rischia di trascurare i bisogni delle persone che richiedono più tempo e attenzione». Esprimi il tuo parere in merito, considerando qualità, inclusione e uso responsabile delle risorse.",
+    "W1B_PROMPT": "Una rivista online dedica un numero alle abitazioni condivise tra persone di generazioni diverse, nelle quali studenti, famiglie e anziani dispongono di spazi privati e servizi comuni. Scrivi un articolo in cui analizzi opportunità, difficoltà e condizioni necessarie perché questa forma dell'abitare sia una scelta libera e sostenibile.",
+    "W2A_PROMPT": "Hai acquistato un abbonamento da 240 euro per sei spettacoli al Teatro Aurora, con posti in platea. Due rappresentazioni, previste il 7 e il 21 ottobre, sono state trasferite in una sala periferica non accessibile con i mezzi pubblici serali; per la prima hai inoltre ricevuto un posto con visibilità limitata. Scrivi alla direzione: ricostruisci i fatti, descrivi i disagi, chiedi una soluzione equivalente o un rimborso parziale e indica un termine per la risposta.",
+    "W2B_PROMPT": "La tua associazione ha affittato dal Comune un locale in via Verdi per organizzare corsi serali. Da dieci giorni l'impianto di riscaldamento non funziona e, nonostante due segnalazioni, non è stato effettuato alcun intervento; hai già dovuto annullare tre lezioni e rimborsare gli iscritti. Scrivi all'Ufficio Patrimonio: documenta il problema, quantifica le conseguenze, chiedi una riparazione urgente e una riduzione del canone, specificando entro quando desideri ricevere risposta."
+  },
+  "answer_slots": {
+    "MODEL_W1A": "La rapidità è un criterio importante per valutare un servizio pubblico: attese più brevi riducono i costi, semplificano la vita dei cittadini e possono segnalare un'organizzazione efficace. Tuttavia, trasformare il tempo impiegato nell'unico indicatore di qualità produce conseguenze paradossali. Una pratica complessa, una persona anziana o chi non padroneggia gli strumenti digitali richiedono spesso un ascolto più lungo, non un trattamento inefficiente.\n\nSe gli operatori vengono premiati esclusivamente per il numero di richieste chiuse, saranno indotti a privilegiare i casi semplici e a scoraggiare quelli difficili. L'efficienza va quindi misurata insieme all'accuratezza delle decisioni, alla capacità di risolvere il problema e all'accessibilità del percorso. Anche le risorse devono essere distribuite con criterio: procedure automatiche per le operazioni ordinarie possono liberare tempo da dedicare alle situazioni delicate.\n\nCiò non significa accettare ritardi indefiniti. Occorrono tempi massimi trasparenti, personale adeguatamente formato e canali alternativi per chi necessita di assistenza. In conclusione, un servizio è davvero efficiente quando usa bene il tempo di tutti, ma sa anche riconoscere che trattare equamente persone diverse può richiedere interventi differenti.",
+    "MODEL_W1A_PHRASES": "«trasformare … nell'unico indicatore»（把……变成唯一指标）; «produce conseguenze paradossali»（产生矛盾的后果）; «va quindi misurata insieme a…»（因此应结合……来衡量）; «Ciò non significa accettare…»（这并不意味着接受……）; «può richiedere interventi differenti»（可能需要不同的干预措施）",
+    "MODEL_W1B": "Condividere un edificio senza rinunciare a una casa privata può offrire una risposta interessante alla solitudine urbana e all'aumento dei costi abitativi. Spazi comuni, piccoli servizi reciproci e attività organizzate insieme favoriscono relazioni tra persone che difficilmente si incontrerebbero. Gli anziani potrebbero ricevere un aiuto occasionale, mentre studenti e famiglie troverebbero reti di sostegno vicine.\n\nNon bisogna però idealizzare la convivenza. Differenze negli orari, nel rumore o nell'uso degli ambienti comuni possono generare conflitti; inoltre, la disponibilità ad aiutarsi non deve trasformarsi in assistenza gratuita imposta ai residenti più giovani. Il rischio maggiore sarebbe presentare questa soluzione come obbligatoria per chi non può permettersi un alloggio autonomo.\n\nServono pertanto contratti chiari, quote sostenibili e regole decise dai residenti. La progettazione dovrebbe garantire accessibilità, isolamento acustico e autentici spazi privati. Un coordinatore può facilitare il confronto iniziale, senza sostituirsi all'autonomia della comunità. Infine, Comuni e gestori dovrebbero verificare periodicamente soddisfazione e inclusione. Se fondata sulla libertà di scelta e su responsabilità esplicite, l'abitazione intergenerazionale non elimina i problemi della città, ma può rendere più solidale il modo di abitarla.",
+    "MODEL_W1B_PHRASES": "«può offrire una risposta interessante a…»（可为……提供一种有意义的回应）; «Non bisogna però idealizzare…»（不过不应理想化……）; «non deve trasformarsi in…»（不应演变成……）; «Servono pertanto…»（因此需要……）; «Se fondata su…»（如果建立在……基础上）",
+    "MODEL_W2A": "Gentile Direzione,\n\nho acquistato un abbonamento da 240 euro per sei spettacoli al Teatro Aurora, con posti in platea. Le rappresentazioni del 7 e del 21 ottobre sono state trasferite in una sala periferica, irraggiungibile con i mezzi pubblici serali. Inoltre, il 7 ottobre mi è stato assegnato un posto con visibilità limitata, diverso da quello previsto.\n\nChiedo pertanto, per il prossimo spettacolo, un servizio navetta e una sistemazione equivalente in platea. Qualora non possiate garantirli, domando il rimborso proporzionato dei due eventi modificati. Allego abbonamento e biglietto già utilizzato. Vi prego di comunicarmi la soluzione entro dieci giorni.\n\nIn attesa di un cortese riscontro, porgo distinti saluti.\n\nLaura Bassi",
+    "MODEL_W2A_PHRASES": "«diverso da quello previsto»（与原定安排不同）; «Chiedo pertanto…»（因此我请求……）; «una sistemazione equivalente»（同等的座位安排）; «Qualora non possiate garantirli»（若贵方无法保证这些条件）; «il rimborso proporzionato»（按比例退款）",
+    "MODEL_W2B": "Spett.le Ufficio Patrimonio,\n\nda dieci giorni il riscaldamento del locale comunale di via Verdi, affittato dalla nostra associazione per corsi serali, non funziona. Sebbene abbiamo inviato due segnalazioni, non è ancora stato effettuato alcun intervento. La temperatura insufficiente ci ha costretti ad annullare tre lezioni e a rimborsare complessivamente 360 euro agli iscritti.\n\nVi chiediamo di ripristinare l'impianto entro quarantotto ore e di comunicarci subito i tempi tecnici. Domandiamo inoltre una riduzione del canone mensile, proporzionata ai giorni in cui il locale è rimasto inutilizzabile. Alleghiamo le segnalazioni e le ricevute dei rimborsi. Attendiamo un riscontro scritto entro il 25 novembre.\n\nDistinti saluti.\n\nAssociazione Percorsi",
+    "MODEL_W2B_PHRASES": "«non è ancora stato effettuato…»（尚未实施……）; «ci ha costretti ad annullare…»（迫使我们取消……）; «ripristinare l'impianto»（修复该设备）; «proporzionata ai giorni in cui…»（与……的天数成比例）; «Attendiamo un riscontro scritto»（我们等待书面回复）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "conseguenze paradossali",
+      "categoria": "locuzione nominale",
+      "zh": "看似矛盾的后果",
+      "en": "paradoxical consequences",
+      "esempio": "Tuttavia, trasformare il tempo impiegato nell'unico indicatore di qualità produce conseguenze paradossali."
+    },
+    {
+      "parola": "privilegiare",
+      "categoria": "verbo",
+      "zh": "优先考虑",
+      "en": "to prioritize",
+      "esempio": "Se gli operatori vengono premiati esclusivamente per il numero di richieste chiuse, saranno indotti a privilegiare i casi semplici e a scoraggiare quelli difficili."
+    },
+    {
+      "parola": "isolamento acustico",
+      "categoria": "locuzione nominale",
+      "zh": "隔音",
+      "en": "sound insulation",
+      "esempio": "La progettazione dovrebbe garantire accessibilità, isolamento acustico e autentici spazi privati."
+    },
+    {
+      "parola": "irraggiungibile",
+      "categoria": "aggettivo",
+      "zh": "无法到达的",
+      "en": "unreachable",
+      "esempio": "Le rappresentazioni del 7 e del 21 ottobre sono state trasferite in una sala periferica, irraggiungibile con i mezzi pubblici serali."
+    },
+    {
+      "parola": "proporzionata",
+      "categoria": "aggettivo",
+      "zh": "成比例的",
+      "en": "proportionate",
+      "esempio": "Domandiamo inoltre una riduzione del canone mensile, proporzionata ai giorni in cui il locale è rimasto inutilizzabile."
+    }
+  ]
+}

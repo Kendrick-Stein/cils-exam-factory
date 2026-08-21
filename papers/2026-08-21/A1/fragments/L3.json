@@ -1,0 +1,54 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1. Workshop di tessuti aerei**\n\nOre 14:00 | Laboratorio pratico e prove aperte per bambini, ragazzi e adulti, assistiti dagli istruttori di Danza acrobatica aerea Elementi.\n\n**2. Laboratorio e aperitivo analcolico per bambini**\n\nOre 15:00 | Laboratorio e aperitivo analcolico per bambini a cura del servizio Macramé della cooperativa Villa Maria.\n\n**3. Esibizione cinofila**\n\nOre 18:00 | Esibizione cinofila a cura della Croce Rossa Italiana – Comitato di Trento, con dimostrazioni di agilità e intesa tra cane e conduttore.\n\n**4. Spettacolo di danza acrobatica aerea e fuoco**\n\nOre 19:30 | Coreografie mozzafiato su strutture autoportanti, performance con led, trampoli e giocoleria infuocata a cura del gruppo Elementi.",
+    "L3_OPTIONS": "**A.** È per chi vuole vedere esercizi con un cane e il suo conduttore.\n\n**B.** È per bambini, ragazzi e adulti che vogliono fare prove di tessuti aerei.\n\n**C.** È uno spettacolo con danza aerea, led, trampoli e giocoleria infuocata.\n\n**D.** È un laboratorio per bambini con una bevanda senza alcol.\n\n**E.** È una lezione di baby dance solo per adulti.\n\n**F.** È un laboratorio di tessuti aerei solo per istruttori."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | B | Il testo dice «prove aperte per bambini, ragazzi e adulti». 中文：参加者是儿童、青少年和成人。 |\n| L3.2 | D | Il testo indica «aperitivo analcolico per bambini». 中文：这是儿童参加的无酒精饮品活动。 |\n| L3.3 | A | Il testo parla di «agilità e intesa tra cane e conduttore». 中文：活动展示狗与训导员的配合。 |\n| L3.4 | C | Il testo cita «led, trampoli e giocoleria infuocata». 中文：这些元素只出现在晚间表演中。 |",
+    "ANS_L3_UNUSED": "E, F"
+  },
+  "key": {
+    "L3.1": "B",
+    "L3.2": "D",
+    "L3.3": "A",
+    "L3.4": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tessuti aerei",
+      "categoria": "locuzione nominale",
+      "zh": "空中绸吊",
+      "en": "aerial silks",
+      "esempio": "Workshop di tessuti aerei"
+    },
+    {
+      "parola": "aperitivo analcolico",
+      "categoria": "locuzione nominale",
+      "zh": "无酒精餐前饮品",
+      "en": "non-alcoholic aperitif",
+      "esempio": "Laboratorio e aperitivo analcolico per bambini"
+    },
+    {
+      "parola": "Esibizione cinofila",
+      "categoria": "locuzione nominale",
+      "zh": "犬类表演",
+      "en": "dog show",
+      "esempio": "Esibizione cinofila"
+    },
+    {
+      "parola": "conduttore",
+      "categoria": "nome maschile",
+      "zh": "训导员",
+      "en": "handler",
+      "esempio": "intesa tra cane e conduttore"
+    },
+    {
+      "parola": "trampoli",
+      "categoria": "nome maschile plurale",
+      "zh": "高跷",
+      "en": "stilts",
+      "esempio": "performance con led, trampoli e giocoleria infuocata"
+    }
+  ]
+}

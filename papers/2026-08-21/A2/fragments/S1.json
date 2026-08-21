@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Al Cantuccio",
+    "S1_TEXT_WITH_GAPS": "__I (0)__ balconi fioriti si affacciano sul dehor del bar nella piazzetta al centro __(1)__ Scopello, un tranquillo paese ai piedi dei verdi declivi dell'Alpe __(2)__ Mera, stazione sciistica e centro per escursioni. __(3)__ Residence Al Cantuccio offre quindici unità abitative __(4)__ due __(5)__ quattro posti letto e due mansarde da cinque posti letto. Monolocali __(6)__ cucina o camere arredati __(7)__ legno __(8)__ bagno e balcone privati, oltre ai servizi di TV satellitare, ascensore al piano e parcheggio riservato. Nel tepore del caminetto e __(9)__ un buon vino in tavola, il piacevole ristorante vi delizierà __(10)__ una cucina tradizionale e raffinata."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | di | S1.6 | con |\n| S1.2 | di | S1.7 | in |\n| S1.3 | Il | S1.8 | con |\n| S1.4 | da | S1.9 | con |\n| S1.5 | a | S1.10 | con |",
+    "ANS_S1_NOTES": "- **S1.1 — di.** «al centro di Scopello» esprime la posizione interna al paese. 中文：*al centro di* 是固定结构。\n- **S1.2 — di.** La denominazione completa è «Alpe di Mera». 中文：地名所属关系固定用 *di*。\n- **S1.3 — Il.** «Il Residence Al Cantuccio» indica la struttura precisa nominata nel titolo. 中文：标题已经点明这家住所，因此用定冠词 *Il*。\n- **S1.4 — da.** Nella sequenza «da due a quattro» introduce il numero minimo. 中文：范围起点固定用 *da*。\n- **S1.5 — a.** Nella sequenza «da due a quattro» introduce il numero massimo. 中文：范围终点固定用 *a*。\n- **S1.6 — con.** «Monolocali con cucina» segnala una dotazione presente. 中文：这里表示配有厨房，用 *con*。\n- **S1.7 — in.** «arredati in legno» indica il materiale dell'arredamento. 中文：这里表示装修材质，用 *in*。\n- **S1.8 — con.** «con bagno e balcone privati» elenca le dotazioni delle camere. 中文：这里表示客房配有的设施，用 *con*。\n- **S1.9 — con.** «con un buon vino» accompagna il tepore del caminetto. 中文：这里表示伴随，用 *con*。\n- **S1.10 — con.** Il verbo regge la costruzione «vi delizierà con una cucina tradizionale e raffinata». 中文：*deliziare con* 表示用某物带来享受。"
+  },
+  "key": {
+    "S1.1": "di",
+    "S1.2": "di",
+    "S1.3": "Il",
+    "S1.4": "da",
+    "S1.5": "a",
+    "S1.6": "con",
+    "S1.7": "in",
+    "S1.8": "con",
+    "S1.9": "con",
+    "S1.10": "con"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "balconi fioriti",
+      "categoria": "locuzione nominale",
+      "zh": "开满花的阳台",
+      "en": "flower-filled balconies",
+      "esempio": "balconi fioriti"
+    },
+    {
+      "parola": "ai piedi",
+      "categoria": "locuzione preposizionale",
+      "zh": "在……脚下",
+      "en": "at the foot of",
+      "esempio": "ai piedi dei verdi declivi"
+    },
+    {
+      "parola": "unità abitative",
+      "categoria": "locuzione nominale",
+      "zh": "住宿单元",
+      "en": "accommodation units",
+      "esempio": "quindici unità abitative"
+    },
+    {
+      "parola": "mansarde",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "阁楼房",
+      "en": "attic rooms",
+      "esempio": "due mansarde"
+    },
+    {
+      "parola": "parcheggio riservato",
+      "categoria": "locuzione nominale",
+      "zh": "专用停车位",
+      "en": "reserved parking",
+      "esempio": "parcheggio riservato"
+    }
+  ]
+}
