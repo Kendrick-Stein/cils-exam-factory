@@ -1,0 +1,11 @@
+/* MuPDF printable layout; intentionally independent of browser-only CSS. */
+body { font-family: serif; font-size: 11pt; line-height: 1.35; color: #182b28; }
+h1 { font-size: 19pt; color: #176b5b; margin-top: 20pt; }
+h2 { font-size: 14pt; margin-top: 15pt; }
+h3 { font-size: 12pt; }
+table { border-collapse: collapse; width: 100%; font-size: 9pt; }
+td, th { border: 0.5pt solid #bac8c0; padding: 5pt; }
+th { background-color: #edf3ef; }
+blockquote { background-color: #edf3ef; margin: 8pt 0; padding: 9pt; }
+p { margin: 6pt 0; }
+li { margin: 3pt 0; }

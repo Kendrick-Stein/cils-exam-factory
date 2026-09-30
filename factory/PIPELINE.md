@@ -91,3 +91,7 @@ A drafted level never blocks the others; the session publishes whatever passed a
 ## Extensibility
 
 `--exam <name>` switches every read to `factory/exams/<name>/` (exam.yaml, templates, style-guide, analysis). The pipeline, roles, checklist mechanics and build layer are exam- and language-agnostic.
+
+## Browser-free cloud rendering
+
+For S6 on a host where Chrome cannot run, use `python3 scripts/build_site.py --pdf-engine mupdf` after the same S0–S5b gates. See `scripts/README.md` for dependencies. MuPDF uses a dedicated printable layout and bundled CJK fonts; it does not need browser sockets or a Codex task. Review every new PDF visually, especially long tables and writing spaces. The default build preserves existing PDF pairs regardless of modification timestamps; do not use `--force` on published docs. Commit the new source levels and reviewed docs together for the existing Pages deployment. No additional GitHub workflow, permissions, or secrets are needed.

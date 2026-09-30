@@ -26,7 +26,7 @@ authentic web texts ──► corpus hunter (search, clean, CEFR-grade)
 
 ## Run it yourself
 
-Open this repo in Claude Code and run `/genpapers` (see `CLAUDE.md`), or ask Codex for `Make Paper` / `genpapers` and follow `AGENTS.md`. Session names are `YYYY-MM-DD`; same-day revisions use `YYYY-MM-DD-rN`. Requirements: Python 3.10+, Google Chrome (for PDF rendering), `pip install markdown pyyaml`.
+Open this repo in Claude Code and run `/genpapers` (see `CLAUDE.md`), or ask Codex for `Make Paper` / `genpapers` and follow `AGENTS.md`. Session names are `YYYY-MM-DD`; same-day revisions use `YYYY-MM-DD-rN`. Requirements: Python 3.10+, Google Chrome/Chromium or the browser-free PyMuPDF renderer, and the Python dependencies in `requirements-build.txt`. See [build setup](scripts/README.md) for isolated installation and browser discovery. PDF errors fail publication; `--no-pdf` is preview-only.
 
 Published papers are built into `docs/`. The GitHub Actions workflow in `.github/workflows/pages.yml` deploys that directory to GitHub Pages after a push to `main`.
 

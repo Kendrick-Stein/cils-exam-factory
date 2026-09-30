@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import argparse
 import html
+import os
+import tempfile
 import re
 import shutil
 import subprocess
@@ -69,13 +71,38 @@ class Paper:
         return len(sources) if isinstance(sources, list) else 0
 
 
+def find_chrome() -> Path:
+    """Use an explicit executable override, then macOS or PATH discovery."""
+    override = os.environ.get("CILS_CHROME")
+    if override:
+        candidate = Path(override).expanduser()
+        if not candidate.is_file() or not os.access(candidate, os.X_OK):
+            raise BuildError(f"CILS_CHROME is not an executable file: {candidate}")
+        return candidate
+    if CHROME.is_file() and os.access(CHROME, os.X_OK):
+        return CHROME
+    for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser"):
+        executable = shutil.which(name)
+        if executable:
+            return Path(executable)
+    raise BuildError("Chrome/Chromium not found; install a supported browser or set CILS_CHROME. "
+                     "Use --no-pdf only for a preview, never publication.")
+
+
+def valid_pdf(path: Path) -> bool:
+    try:
+        with path.open("rb") as stream:
+            return stream.read(5) == b"%PDF-"
+    except OSError:
+        return False
+
+
 class PdfPrinter:
     def __init__(self, force: bool) -> None:
         self.force = force
-        self._warned_missing = False
 
     def render(self, html_path: Path, pdf_path: Path, source_paths: list[Path]) -> None:
-        if pdf_path.exists() and not self.force:
+        if valid_pdf(pdf_path) and not self.force:
             newest = max(
                 (path.stat().st_mtime for path in source_paths if path.exists()),
                 default=0.0,
@@ -83,33 +110,81 @@ class PdfPrinter:
             if pdf_path.stat().st_mtime >= newest:
                 return
 
-        if not CHROME.exists():
-            if not self._warned_missing:
-                warn(f"Chrome not found at {CHROME}; skipping PDF generation.")
-                self._warned_missing = True
-            return
-
+        chrome = find_chrome()
         pdf_path.parent.mkdir(parents=True, exist_ok=True)
-        cmd = [
-            str(CHROME),
-            "--headless=new",
-            "--disable-gpu",
-            "--no-pdf-header-footer",
-            f"--print-to-pdf={pdf_path.resolve()}",
-            html_path.resolve().as_uri(),
-        ]
-        completed = subprocess.run(
-            cmd,
-            text=True,
-            capture_output=True,
-            check=False,
-        )
-        if completed.returncode != 0:
-            detail = (completed.stderr or completed.stdout or "").strip()
-            if detail:
-                warn(f"Chrome failed for {html_path}: {detail}")
-            else:
-                warn(f"Chrome failed for {html_path} with exit code {completed.returncode}.")
+        # Fresh output prevents a stale PDF from disguising a failed print.
+        # A private browser profile avoids conflicts with an interactive browser.
+        with tempfile.TemporaryDirectory(prefix="cils-print-", dir=pdf_path.parent) as tmp:
+            output = Path(tmp) / "output.pdf"
+            cmd = [
+                str(chrome), "--headless=new", "--disable-gpu",
+                "--no-pdf-header-footer",
+                f"--user-data-dir={Path(tmp) / 'profile'}",
+                f"--print-to-pdf={output.resolve()}",
+                html_path.resolve().as_uri(),
+            ]
+            try:
+                completed = subprocess.run(cmd, text=True, capture_output=True,
+                                           check=False, timeout=120)
+            except (OSError, subprocess.TimeoutExpired) as exc:
+                raise BuildError(f"Chrome could not print {html_path}: {exc}") from exc
+            if completed.returncode != 0:
+                detail = (completed.stderr or completed.stdout or "").strip()
+                raise BuildError(f"Chrome failed for {html_path} (exit {completed.returncode}): {detail}")
+            if not valid_pdf(output):
+                raise BuildError(f"Chrome did not produce a valid PDF for {html_path}")
+            output.replace(pdf_path)
+
+
+class MuPdfPrinter:
+    """Browser-free printable layout with MuPDF's bundled CJK fonts."""
+    def render(self, html_path: Path, pdf_path: Path, source_paths: list[Path]) -> None:
+        try:
+            import pymupdf as fitz
+        except ImportError as exc:
+            raise BuildError("MuPDF renderer requires PyMuPDF; install requirements-pdf-mupdf.txt") from exc
+        source, manifest_path = source_paths
+        manifest = load_yaml(manifest_path)
+        paper = Paper(str(manifest["session"]), str(manifest["level"]), source.parent, manifest)
+        _, body = render_markdown(source)
+        if source.stem == "answers":
+            body += render_fonti(paper)
+        css = Path(__file__).with_name("assets").joinpath("mupdf.css").read_text(encoding="utf-8")
+        chunks = (re.split(r"(?=<h1[^>]*>Test di|<h2[^>]*>Foglio delle risposte)", body)
+                  if source.stem == "paper" else [body])
+        pdf_path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with tempfile.TemporaryDirectory(prefix="cils-mupdf-", dir=pdf_path.parent) as tmp:
+                raw, final = Path(tmp)/"raw.pdf", Path(tmp)/"final.pdf"
+                count = 0
+                def rectfn(_number, _filled):
+                    nonlocal count
+                    count += 1
+                    if count > 100:
+                        raise BuildError("MuPDF pagination exceeded 100 pages; check oversized content")
+                    return fitz.Rect(0, 0, 595, 842), fitz.Rect(51, 48, 544, 785), None
+                writer = fitz.DocumentWriter(str(raw))
+                try:
+                    for chunk in chunks:
+                        if chunk.strip():
+                            fitz.Story(html=chunk, user_css=css).write(writer, rectfn)
+                finally:
+                    writer.close()
+                with fitz.open(raw) as document:
+                    if not len(document):
+                        raise BuildError(f"MuPDF produced no pages for {source}")
+                    for number, page in enumerate(document):
+                        page.insert_text((285, 813), f"{number+1} / {len(document)}",
+                                         fontsize=9, color=(.3, .3, .3))
+                    document.save(final)
+                with fitz.open(final) as document:
+                    if not len(document) or any(not page.get_text().strip() for page in document):
+                        raise BuildError(f"MuPDF produced empty pages for {source}")
+                final.replace(pdf_path)
+        except BuildError:
+            raise
+        except Exception as exc:
+            raise BuildError(f"MuPDF could not render {source}: {exc}") from exc
 
 
 def warn(message: str) -> None:
@@ -424,7 +499,7 @@ def copy_assets(out_root: Path) -> None:
             shutil.copy2(asset, target_dir / asset.name)
 
 
-def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | None) -> None:
+def build_paper_outputs(paper: Paper, out_root: Path, pdf_printer: PdfPrinter | MuPdfPrinter | None) -> None:
     out_dir = out_root / "papers" / paper.date / paper.level
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -822,9 +897,17 @@ def build(args: argparse.Namespace) -> int:
     papers = scan_papers(papers_root)
 
     copy_assets(out_root)
-    pdf_printer = None if args.no_pdf else PdfPrinter(force=args.force)
+    pdf_printer = (None if args.no_pdf else MuPdfPrinter()
+                   if args.pdf_engine == "mupdf" else PdfPrinter(force=args.force))
 
     for paper in papers:
+        pair = [out_root/"papers"/paper.date/paper.level/f"{kind}.pdf"
+                for kind in ("paper", "answers")]
+        if not args.no_pdf and not args.force:
+            if all(valid_pdf(path) for path in pair):
+                continue  # Published PDF bytes are immutable, regardless of checkout mtimes.
+            if any(path.exists() for path in pair):
+                raise BuildError(f"Incomplete/invalid existing PDF pair: {pair[0].parent}; use a revision session")
         build_paper_outputs(paper, out_root, pdf_printer)
 
     write_index(papers, out_root)
@@ -834,6 +917,7 @@ def build(args: argparse.Namespace) -> int:
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build the CILS Exam Factory static site.")
+    parser.add_argument("--pdf-engine", choices=("chrome", "mupdf"), default="chrome", help="PDF renderer; mupdf needs no browser")
     parser.add_argument("--no-pdf", action="store_true", help="skip PDF generation")
     parser.add_argument("--force", action="store_true", help="regenerate PDFs even if cached")
     parser.add_argument("--papers-root", type=Path, default=Path("papers"), help="papers root")
