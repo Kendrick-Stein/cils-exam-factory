@@ -77,8 +77,13 @@ https://educazione.comune.fi.it/dalle-redazioni/centri-estivi-2026
 https://eventi.comune.torino.it/estate-2026/
 https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
 https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
 https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
+https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan
+https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo
+https://it.wikipedia.org/wiki/Bibliobus
 https://it.wikisource.org/wiki/Ci%C3%A0ula_scopre_la_Luna
+https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
 https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XXX
 https://it.wikisource.org/wiki/Fior_di_passione_%28Serao%29/Novella_Greca
 https://it.wikisource.org/wiki/Il_Ventaglino
@@ -89,6 +94,8 @@ https://it.wikisource.org/wiki/La_giara_%28Novella%2C_1928%29
 https://it.wikisource.org/wiki/La_giara_(Novella,_1928)
 https://it.wikisource.org/wiki/La_novella_del_buon_vecchio_e_della_bella_fanciulla_ed_altri_scritti/Una_burla_riuscita/IV
 https://it.wikisource.org/wiki/La_patente_%28novella%29
+https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_24
+https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9
 https://it.wikisource.org/wiki/Lettera_a_Melitta_%2816_marzo_1909%29
 https://it.wikisource.org/wiki/Naufraghi_in_porto/Capitolo_I
 https://it.wikisource.org/wiki/Novelle_rusticane/La_roba
@@ -108,6 +115,7 @@ https://it.wikisource.org/wiki/Vita_dei_campi_(1881)/Rosso_Malpelo
 https://it.wikisource.org/wiki/Vita_dei_campi_(1897)/Fantasticheria
 https://it.wikivoyage.org/wiki/Bari
 https://it.wikivoyage.org/wiki/Catania
+https://it.wikivoyage.org/wiki/Viaggiare_in_treno_in_Europa
 https://liberta.it/event/sagra-della-rana-e-del-pesce/662
 https://morninggaro.wordpress.com/2025/06/28/provenza-moto-itinerario-7-giorni/
 https://museireali.beniculturali.it/organizza-la-tua-visita/
@@ -560,7 +568,11 @@ https://www.visittrentino.info/it/guida/cosa-fare/eventi/estate-con-il-museo_e_1
 https://www.visittrentino.info/it/guida/cosa-fare/eventi/feste-sagre-estate/la-magnalonga-dell-alta-vallagarina_e_1875674
 https://www.visittrentino.info/it/guida/cosa-fare/eventi/mountain-bike-marathon-world-championships-2026_e_133502686
 https://www.visittrentino.info/it/guida/cosa-fare/eventi/ossana-medievale_e_130160316
+https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/
+https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/
 https://www.wikimedia.it/news/wiki-loves-monuments-italia-2025-regolamento/
+https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/
 https://www.wired.it/article/arrivano-primi-orologi-nucleari-come-potrebbero-cambiare-modo-in-cui-misuriamo-tempo/
 https://www.wired.it/article/caffe-a-ultrasuoni-che-si-prepara-senza-acqua-calda/
 https://www.wired.it/article/corsa-quantistica-italia-inciampa-prima-di-partire-quantum-strategia-nazionale/

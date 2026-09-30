@@ -1,0 +1,54 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Collabori con il blog di un'associazione culturale della tua città. Hai partecipato a una serata di cinema all'aperto in un parco. Scrivi una recensione in cui descrivi come si è svolta la serata, valuti almeno un vantaggio e un limite rispetto al cinema in una sala tradizionale e proponi un miglioramento per le prossime serate.",
+    "W2_PROMPT": "Un centro di formazione della tua città ha annunciato nuovi corsi serali di cucina, senza pubblicare tutti i dettagli. Scrivi un'e-mail formale alla persona responsabile dei corsi per chiedere informazioni prima di decidere se iscriverti.",
+    "W2_REQ_1": "spiegare perché ti interessa il corso e descrivere brevemente la tua esperienza in cucina;",
+    "W2_REQ_2": "chiedere in quali giorni si terranno le lezioni e quanto durerà complessivamente il corso;",
+    "W2_REQ_3": "chiedere il costo dell'iscrizione e se comprende gli ingredienti e l'uso dell'attrezzatura."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Venerdì ho partecipato alla prima serata di cinema all'aperto organizzata nel parco comunale. Il film era preceduto da una breve presentazione e, alla fine, chi voleva poteva discutere con gli organizzatori. Ho apprezzato soprattutto questa possibilità di confrontarmi con persone che avevano interpretato la storia in modo diverso dal mio. Rispetto a una sala tradizionale, l'atmosfera era più informale e il biglietto meno caro. Tuttavia, i rumori provenienti dalla strada rendevano difficile seguire alcuni dialoghi; inoltre, dopo un'ora le sedie risultavano scomode. Nonostante questi limiti, consiglierei l'esperienza a chi cerca un'occasione per uscire e conoscere altri appassionati. Per le prossime serate suggerirei di scegliere una zona più lontana dal traffico e di mettere a disposizione qualche cuscino. Piccoli cambiamenti renderebbero un'iniziativa già interessante ancora più piacevole.",
+    "MODEL_W1_PHRASES": "Ho apprezzato soprattutto…（我尤其欣赏……）; Rispetto a…（与……相比）; Nonostante questi limiti…（尽管存在这些局限……）; Per le prossime serate suggerirei di…（对于接下来的晚间活动，我建议……）; mettere a disposizione（提供，供人使用）",
+    "MODEL_W2": "Gentile Responsabile,\n\nho letto l'annuncio dei corsi serali del vostro centro e sarei interessata al corso di cucina. Vorrei imparare a preparare piatti semplici ed equilibrati, perché cucino spesso ma tendo a ripetere le stesse ricette.\n\nPotrebbe indicarmi in quali giorni si svolgeranno le lezioni e quanto durerà complessivamente il corso? Vorrei inoltre conoscere la quota d'iscrizione e sapere se comprende gli ingredienti e l'uso dell'attrezzatura.\n\nLe sarei grata se potesse inviarmi queste informazioni, così da valutare la compatibilità con i miei impegni di lavoro.\n\nCordiali saluti,\nElena Mori",
+    "MODEL_W2_PHRASES": "sarei interessata al corso di…（我对……课程感兴趣）; Potrebbe indicarmi…?（您能告知我……吗？）; Vorrei inoltre conoscere…（此外，我想了解……）; Le sarei grata se potesse…（如果您能……，我将不胜感激）; così da valutare…（以便评估……）"
+  },
+  "key": {},
+  "glossario_candidates": [
+    {
+      "parola": "confrontarsi con",
+      "categoria": "locuzione verbale",
+      "zh": "与……交流看法",
+      "en": "to exchange views with",
+      "esempio": "questa possibilità di confrontarmi con persone che avevano interpretato la storia in modo diverso dal mio"
+    },
+    {
+      "parola": "mettere a disposizione",
+      "categoria": "locuzione verbale",
+      "zh": "提供，供人使用",
+      "en": "to make available",
+      "esempio": "mettere a disposizione qualche cuscino"
+    },
+    {
+      "parola": "complessivamente",
+      "categoria": "avverbio",
+      "zh": "总共，整体上",
+      "en": "in total",
+      "esempio": "quanto durerà complessivamente il corso"
+    },
+    {
+      "parola": "quota d'iscrizione",
+      "categoria": "locuzione nominale",
+      "zh": "报名费",
+      "en": "registration fee",
+      "esempio": "Vorrei inoltre conoscere la quota d'iscrizione"
+    },
+    {
+      "parola": "attrezzatura",
+      "categoria": "nome femminile",
+      "zh": "设备，用具",
+      "en": "equipment",
+      "esempio": "se comprende gli ingredienti e l'uso dell'attrezzatura"
+    }
+  ]
+}

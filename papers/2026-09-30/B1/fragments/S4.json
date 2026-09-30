@@ -1,0 +1,93 @@
+{
+  "prova": "S4",
+  "slots": {
+    "S4_ITEMS": "**1. «Buongiorno, sono l'idraulico. Per un imprevisto, domani potrei venire alle undici invece che alle nove. Mi richiami per dirmi se il nuovo orario le va bene; prima della sua risposta non cambierò l'appuntamento.»**  \nA. È la conferma definitiva di un appuntamento spostato a un altro orario.  \nB. È la proposta di spostare un appuntamento in attesa del consenso del cliente.  \nC. È la richiesta di annullare un appuntamento senza fissare una nuova data.  \nD. È l'avviso che un tecnico arriverà prima dell'orario concordato con il cliente.\n\n**2. «Gentile lettrice, non possiamo prolungare il prestito del romanzo perché un altro utente lo ha prenotato. La preghiamo di riportarlo entro la scadenza indicata sulla ricevuta. Potrà richiederlo nuovamente dopo la restituzione.»**  \nA. È l'avviso che un libro prenotato è disponibile per essere ritirato.  \nB. È il sollecito a restituire un libro dopo la scadenza del prestito.  \nC. È la conferma che la durata di un prestito è stata prolungata.  \nD. È il rifiuto di prolungare un prestito per una prenotazione già ricevuta.\n\n**3. «Ciao Marta, parto venerdì e torno lunedì. Potresti passare a bagnare le piante sul balcone domenica? Ti lascio le chiavi nella busta che ti porto stasera. Dimmi se puoi, altrimenti chiedo a mio fratello.»**  \nA. È la richiesta a una conoscente di occuparsi delle piante durante una breve assenza.  \nB. È l'invito a una conoscente a partire insieme per un viaggio di pochi giorni.  \nC. È il consiglio a una conoscente di spostare le piante prima della partenza.  \nD. È la richiesta a una conoscente di restituire le chiavi prima di un viaggio.\n\n**4. «Gentile cliente, le magliette del suo ordine sono state spedite oggi. Il cappello arriverà con una seconda spedizione, senza costi aggiuntivi, appena sarà disponibile. Non occorre effettuare un nuovo ordine: la richiesta è già registrata.»**  \nA. È l'annullamento di un intero ordine perché alcuni articoli non sono disponibili.  \nB. È la richiesta di ordinare di nuovo un articolo escluso dalla prima spedizione.  \nC. È l'avviso che un ordine sarà consegnato in due spedizioni senza supplementi.  \nD. È la conferma che tutti gli articoli ordinati sono partiti nella stessa spedizione.\n\n**5. «Avviso agli iscritti: fino a giovedì lo spogliatoio al piano terra resterà chiuso per lavori. Usate quello al primo piano, raggiungibile anche con l'ascensore. Le lezioni in palestra si svolgeranno nelle sale e agli orari abituali.»**  \nA. È l'avviso che le lezioni della palestra sono trasferite in un altro edificio.  \nB. È la comunicazione che la palestra sospende le lezioni fino alla fine dei lavori.  \nC. È l'annuncio di un nuovo orario delle lezioni per ridurre l'affollamento degli spogliatoi.  \nD. È l'indicazione di uno spogliatoio alternativo durante una chiusura temporanea per lavori.\n\n**6. «La prenotazione telefonica dei suoi due posti al cinema è valida fino a venti minuti prima dello spettacolo. Entro quel momento passi alla cassa per pagare e ritirare i biglietti; successivamente i posti saranno rimessi in vendita.»**  \nA. È la conferma di un acquisto già pagato con ritiro dei biglietti alla cassa.  \nB. È l'indicazione del termine per acquistare i biglietti corrispondenti ai posti prenotati.  \nC. È l'invito a prenotare altri posti perché quelli richiesti sono stati venduti.  \nD. È l'avviso che lo spettacolo inizierà più tardi per un problema alla cassa.\n\n**7. «Buongiorno, chiamiamo dal laboratorio di assistenza. Abbiamo controllato il suo computer: la sostituzione dello schermo costa centoventi euro. Prima di procedere aspettiamo la sua autorizzazione. Ci telefoni anche se preferisce ritirare il computer senza farlo riparare.»**  \nA. È l'avviso che un computer è stato riparato e può essere ritirato.  \nB. È la richiesta di portare un computer in laboratorio per individuare il guasto.  \nC. È la comunicazione del costo di una riparazione da autorizzare prima dei lavori.  \nD. È il rifiuto di riparare un computer perché il ricambio necessario non è disponibile.\n\n**8. «Ciao Luca, nella relazione che ti ho inviato mancano ancora i dati sulle vendite di agosto. Ti mando la versione completa entro domani mattina. Aspetta quella prima di inoltrare il documento agli altri colleghi, per favore.»**  \nA. È la richiesta di attendere una versione completa prima di condividere un documento.  \nB. È l'invito a inviare subito ai colleghi un documento già completo di tutti i dati.  \nC. È la richiesta a un collega di correggere i dati sbagliati in una relazione.  \nD. È il ringraziamento a un collega per avere già distribuito la versione definitiva.\n\n**9. «Sabato prepariamo le cassette per l'orto del quartiere e cerchiamo persone disponibili a darci una mano. Non serve esperienza: un volontario vi mostrerà come fare. Per partecipare, scrivete il vostro nome sul foglio in bacheca entro venerdì.»**  \nA. È l'annuncio di un corso a pagamento per diventare giardinieri professionisti.  \nB. È l'invito a collaborare a un'attività di quartiere con iscrizione preventiva.  \nC. È la comunicazione che i posti per un'attività di volontariato sono esauriti.  \nD. È la richiesta di donare materiali per l'orto senza partecipare ai lavori.\n\n**10. «Gentili ospiti, dopo le ventitré il portone dell'albergo rimane chiuso. Per entrare, avvicinate la tessera della camera al lettore accanto al campanello. Se la tessera non funziona, chiamate il numero dell'assistenza notturna stampato sul retro.»**  \nA. È la richiesta agli ospiti di restituire la tessera prima della chiusura serale.  \nB. È l'avviso che gli ospiti devono rientrare prima della chiusura del portone.  \nC. È l'invito agli ospiti a cambiare camera per un problema alla serratura.  \nD. È la spiegazione di come rientrare in albergo quando il portone è chiuso."
+  },
+  "answer_slots": {
+    "ANS_S4_ROWS": "| S4.1 | B | «Mi richiami» e «prima della sua risposta non cambierò l'appuntamento» indicano una proposta ancora da accettare. 中文：改约时间尚未确定，需要客户同意。 |\n| S4.2 | D | «Non possiamo prolungare il prestito» esprime il rifiuto; la causa è la prenotazione di un altro utente. 中文：已有其他读者预约，所以不能续借；文本并未说已经逾期。 |\n| S4.3 | A | «Potresti passare a bagnare le piante» chiede un favore durante il viaggio di chi scrive. 中文：请熟人在自己外出时帮忙浇花，钥匙是为此提供的。 |\n| S4.4 | C | Le magliette sono partite, mentre il cappello arriverà «con una seconda spedizione, senza costi aggiuntivi». 中文：同一订单分两次发货，不加收费用，也不用重新下单。 |\n| S4.5 | D | «Usate quello al primo piano» indica l'alternativa allo spogliatoio chiuso; sale e orari delle lezioni restano abituali. 中文：仅更衣室暂时更换，课程地点和时间不变。 |\n| S4.6 | B | I posti sono soltanto prenotati: occorre «pagare e ritirare i biglietti» entro venti minuti prima dello spettacolo. 中文：电话预订尚未付款，必须在规定时限内购票。 |\n| S4.7 | C | «Prima di procedere aspettiamo la sua autorizzazione» chiarisce che il controllo è concluso, ma la riparazione non è ancora iniziata. 中文：这是维修报价，须获同意后才会维修。 |\n| S4.8 | A | «Aspetta quella prima di inoltrare» chiede di non distribuire la relazione incompleta e di attendere la nuova versione. 中文：请先等完整版本，再转发给同事。 |\n| S4.9 | B | «Cerchiamo persone disponibili a darci una mano» invita a collaborare; il nome sul foglio va scritto prima dell'attività. 中文：招募社区活动帮手，需提前登记，不要求经验。 |\n| S4.10 | D | Il messaggio spiega «per entrare» come usare la tessera e chi contattare se non funziona. 中文：说明夜间大门关闭后的入门方式，并非要求提前回酒店。 |"
+  },
+  "key": {
+    "S4.1": "B",
+    "S4.2": "D",
+    "S4.3": "A",
+    "S4.4": "C",
+    "S4.5": "D",
+    "S4.6": "B",
+    "S4.7": "C",
+    "S4.8": "A",
+    "S4.9": "B",
+    "S4.10": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "imprevisto",
+      "categoria": "nome maschile",
+      "zh": "意外情况",
+      "en": "unexpected event",
+      "esempio": "Per un imprevisto, domani potrei venire alle undici invece che alle nove."
+    },
+    {
+      "parola": "prolungare il prestito",
+      "categoria": "locuzione verbale",
+      "zh": "续借",
+      "en": "extend the loan",
+      "esempio": "non possiamo prolungare il prestito del romanzo"
+    },
+    {
+      "parola": "bagnare le piante",
+      "categoria": "locuzione verbale",
+      "zh": "给植物浇水",
+      "en": "water the plants",
+      "esempio": "Potresti passare a bagnare le piante sul balcone domenica?"
+    },
+    {
+      "parola": "costi aggiuntivi",
+      "categoria": "locuzione nominale",
+      "zh": "额外费用",
+      "en": "additional costs",
+      "esempio": "Il cappello arriverà con una seconda spedizione, senza costi aggiuntivi, appena sarà disponibile."
+    },
+    {
+      "parola": "spogliatoio",
+      "categoria": "nome maschile",
+      "zh": "更衣室",
+      "en": "changing room",
+      "esempio": "lo spogliatoio al piano terra resterà chiuso per lavori"
+    },
+    {
+      "parola": "rimessi in vendita",
+      "categoria": "locuzione verbale",
+      "zh": "重新出售",
+      "en": "put back on sale",
+      "esempio": "successivamente i posti saranno rimessi in vendita"
+    },
+    {
+      "parola": "autorizzazione",
+      "categoria": "nome femminile",
+      "zh": "授权；同意",
+      "en": "authorization",
+      "esempio": "Prima di procedere aspettiamo la sua autorizzazione."
+    },
+    {
+      "parola": "inoltrare",
+      "categoria": "verbo",
+      "zh": "转发",
+      "en": "forward",
+      "esempio": "Aspetta quella prima di inoltrare il documento agli altri colleghi, per favore."
+    },
+    {
+      "parola": "dare una mano",
+      "categoria": "locuzione verbale",
+      "zh": "帮忙",
+      "en": "lend a hand",
+      "esempio": "cerchiamo persone disponibili a darci una mano"
+    },
+    {
+      "parola": "sul retro",
+      "categoria": "locuzione avverbiale",
+      "zh": "在背面",
+      "en": "on the back",
+      "esempio": "chiamate il numero dell'assistenza notturna stampato sul retro"
+    }
+  ]
+}

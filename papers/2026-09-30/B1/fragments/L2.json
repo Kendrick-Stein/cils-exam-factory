@@ -1,0 +1,64 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Wiki Loves Monuments 2026: regolamento",
+    "T2_TEXT": "Il concorso Wiki Loves Monuments Italia 2026 si svolge dal 1º al 30 settembre 2026 ed è strutturato in due livelli: il concorso nazionale e i concorsi regionali e locali.\n\nLa partecipazione al concorso è gratuita e aperta a tutti, italiani o stranieri, dopo la registrazione sul sito Wikimedia Commons. I partecipanti dovranno specificare un proprio indirizzo e-mail valido per poter essere contattati privatamente da Wikimedia Italia. Senza un indirizzo e-mail valido non è possibile concorrere al premio.\n\nTutti i partecipanti devono rispettare le regole dei luoghi dove si trovano i monumenti. Se è vietato utilizzare il cavalletto o il flash, tale divieto va rispettato; se è richiesto il pagamento di un biglietto d’ingresso a un museo, sarà necessario acquistarlo. I partecipanti non hanno diritto al rimborso dei costi sostenuti, inclusi quelli di accesso ai monumenti.\n\nLe fotografie devono essere realizzate e caricate esclusivamente dal fotografo che partecipa al concorso. Possono essere state scattate anche precedentemente, ma non devono essere già state pubblicate su Wikimedia Commons o su altri siti web, social network o pubblicazioni cartacee prima dell’inizio del concorso. Devono avere come soggetto un bene culturale o una vista di insieme scelti tra quelli presenti nelle liste pubblicate sull’applicazione del concorso. Devono essere caricate in uno dei formati ammessi da Wikimedia Commons, come per esempio JPEG, PNG e TIFF, accettando la licenza «Creative Commons Attribuzione – Condividi allo stesso modo 4.0» o licenze più aperte. Non devono riportare firme, filigrane, cornici, scritte o disegni sovraimpressi.\n\nLe fotografie possono essere caricate dalle 00:00:00 del 1º settembre 2026 alle 23:59:59 del 30 settembre 2026, secondo l’ora italiana.\n\nLa premiazione del concorso nazionale avverrà entro quattro mesi dal termine del concorso. Le premiazioni dei concorsi regionali e locali avverranno entro cinque mesi dal termine del concorso. Le date e i luoghi verranno definiti successivamente.",
+    "L2_ITEMS": "**1.** L’edizione italiana del concorso del 2026 termina il 31 ottobre.  \nVero ○ Falso ○\n\n**2.** L’iniziativa comprende anche concorsi regionali e locali.  \nVero ○ Falso ○\n\n**3.** Per partecipare, gli stranieri devono versare una quota.  \nVero ○ Falso ○\n\n**4.** Per partecipare è necessario registrarsi su Wikimedia Commons.  \nVero ○ Falso ○\n\n**5.** Per concorrere al premio, è necessario fornire un indirizzo e-mail valido.  \nVero ○ Falso ○\n\n**6.** I partecipanti possono usare il flash anche nei musei che lo vietano.  \nVero ○ Falso ○\n\n**7.** Il costo dei biglietti d’ingresso viene rimborsato ai partecipanti.  \nVero ○ Falso ○\n\n**8.** Ogni partecipante deve caricare fotografie realizzate personalmente.  \nVero ○ Falso ○\n\n**9.** Sono ammesse anche fotografie scattate prima dell’inizio del concorso.  \nVero ○ Falso ○\n\n**10.** Si può presentare una fotografia già pubblicata su un social network prima del concorso.  \nVero ○ Falso ○\n\n**11.** Il soggetto delle fotografie deve essere scelto negli elenchi indicati dal concorso.  \nVero ○ Falso ○\n\n**12.** Per caricare una fotografia, il formato JPEG è obbligatorio.  \nVero ○ Falso ○\n\n**13.** Le fotografie devono riportare la firma dell’autore sull’immagine.  \nVero ○ Falso ○\n\n**14.** Le premiazioni regionali e locali sono previste entro cinque mesi dalla fine del concorso.  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | F | Il concorso italiano si svolge dal 1º al 30 settembre 2026. 中文：意大利赛区于九月三十日结束，不是十月三十一日。 |\n| L2.2 | V | Il testo distingue il concorso nazionale dai concorsi regionali e locali. 中文：比赛既有全国级，也有地区和地方级。 |\n| L2.3 | F | La partecipazione è gratuita sia per gli italiani sia per gli stranieri. 中文：外国参赛者同样免费。 |\n| L2.4 | V | La partecipazione è aperta a tutti dopo la registrazione sul sito indicato. 中文：需要先在该网站注册。 |\n| L2.5 | V | Senza un indirizzo e-mail valido non si può concorrere al premio. 中文：有效邮箱是获得奖项资格的必要条件。 |\n| L2.6 | F | Il divieto di utilizzare il flash deve essere rispettato anche dai partecipanti. 中文：参赛并不能免除遵守馆内禁用闪光灯的规定。 |\n| L2.7 | F | Non è previsto il diritto al rimborso dei costi, compresi quelli di accesso ai monumenti. 中文：门票等支出不能要求报销。 |\n| L2.8 | V | Le fotografie devono essere realizzate e caricate esclusivamente dal fotografo che partecipa. 中文：照片必须由参赛摄影者本人拍摄并上传。 |\n| L2.9 | V | Il testo permette fotografie scattate precedentemente, purché non già pubblicate prima del concorso. 中文：可以提前拍摄，但比赛开始前不能已发表。 |\n| L2.10 | F | Le fotografie non devono essere state pubblicate su social network prima dell’inizio del concorso. 中文：比赛前已在社交平台发表的照片不符合规定。 |\n| L2.11 | V | Il bene culturale o la vista di insieme devono essere presenti nelle liste dell’applicazione. 中文：拍摄对象必须在比赛应用公布的名单中。 |\n| L2.12 | F | JPEG è solo un esempio: sono ammessi anche PNG, TIFF e gli altri formati accettati da Wikimedia Commons. 中文：JPEG并非唯一格式，PNG和TIFF也允许。 |\n| L2.13 | F | Il testo vieta le firme sulle fotografie. 中文：图像上不得带有作者签名。 |\n| L2.14 | V | Il termine per le premiazioni regionali e locali è di cinque mesi; quello nazionale è di quattro. 中文：地区和地方颁奖期限为五个月，全国颁奖为四个月。 |"
+  },
+  "key": {
+    "L2.1": "F || Falso",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "F || Falso",
+    "L2.8": "V || Vero",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "F || Falso",
+    "L2.13": "F || Falso",
+    "L2.14": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "concorrere al premio",
+      "categoria": "locuzione verbale",
+      "zh": "参与奖项角逐",
+      "en": "compete for the prize",
+      "esempio": "Senza un indirizzo e-mail valido non è possibile concorrere al premio."
+    },
+    {
+      "parola": "cavalletto",
+      "categoria": "sostantivo maschile",
+      "zh": "三脚架",
+      "en": "tripod",
+      "esempio": "Se è vietato utilizzare il cavalletto o il flash, tale divieto va rispettato; se è richiesto il pagamento di un biglietto d’ingresso a un museo, sarà necessario acquistarlo."
+    },
+    {
+      "parola": "rimborso",
+      "categoria": "sostantivo maschile",
+      "zh": "报销；退款",
+      "en": "reimbursement; refund",
+      "esempio": "I partecipanti non hanno diritto al rimborso dei costi sostenuti, inclusi quelli di accesso ai monumenti."
+    },
+    {
+      "parola": "scattate",
+      "categoria": "participio passato femminile plurale",
+      "zh": "拍摄的",
+      "en": "taken; shot",
+      "esempio": "Possono essere state scattate anche precedentemente, ma non devono essere già state pubblicate su Wikimedia Commons o su altri siti web, social network o pubblicazioni cartacee prima dell’inizio del concorso."
+    },
+    {
+      "parola": "premiazione",
+      "categoria": "sostantivo femminile",
+      "zh": "颁奖",
+      "en": "award ceremony",
+      "esempio": "La premiazione del concorso nazionale avverrà entro quattro mesi dal termine del concorso."
+    }
+  ]
+}

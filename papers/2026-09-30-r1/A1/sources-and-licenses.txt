@@ -1,0 +1,54 @@
+CILS A1 — Esercitazione non ufficiale — 30 settembre 2026
+Fonti, attribuzioni, licenze e modifiche
+
+Ogni testo adattato è distribuito con la licenza specificata per la relativa fonte. La raccolta è pubblicata gratuitamente e senza uso commerciale. Nessuna affiliazione o approvazione degli autori delle fonti è implicata. Le fotografie delle fonti non sono riprodotte.
+
+T1 — Bambini e ragazzi
+Autore/contributori: Biblioteca Salaborsa / Comune di Bologna
+Fonte: https://www.bibliotecasalaborsa.it/documents/bambini-e-ragazzi
+Licenza dell'originale e del testo adattato: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T2 — Vedere un film
+Autore/contributori: Biblioteca Salaborsa / Comune di Bologna
+Fonte: https://www.bibliotecasalaborsa.it/documents/vedere_un_film
+Licenza dell'originale e del testo adattato: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T3 — Bari — quattro schede di servizi
+Autore/contributori: Wikivoyage contributors
+Fonte: https://it.wikivoyage.org/wiki/Bari
+Licenza dell'originale e del testo adattato: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikivoyage.org/wiki/Bari
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T4 — Bari — piatti quotidiani
+Autore/contributori: Wikivoyage contributors
+Fonte: https://it.wikivoyage.org/wiki/Bari
+Licenza dell'originale e del testo adattato: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikivoyage.org/wiki/Bari
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T5 — Intervista a Luca Botturi — il lavoro e la famiglia
+Autore/contributori: Aurelio; Eleonora; Elia; Elisa; Linde; Wikinotizie contributors
+Fonte: https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
+Licenza dell'originale e del testo adattato: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T6 — Caricare telefono, tablet e PC
+Autore/contributori: Biblioteca Salaborsa / Comune di Bologna
+Fonte: https://www.bibliotecasalaborsa.it/documents/caricare-telefono-tablet-e-pc
+Licenza dell'originale e del testo adattato: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+Variante di esercitazione guidata: {"S2": "Explicit tense/mood labels"}

@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Vedere un film",
+    "T2_TEXT": "In biblioteca puoi guardare DVD e blu-ray al primo piano. Per prenotare un posto, vai al banco informazioni della biblioteca.\n\nIl lunedì puoi guardare i film dalle 16 alle 19. Dal martedì al sabato puoi scegliere questi orari: dalle 10 alle 13, dalle 13 alle 16 o dalle 16 alle 19. Puoi vedere un film al giorno, fino a tre film alla settimana.\n\nPer usare il servizio, vai al banco informazioni del primo piano. Porta le tue cuffie. Se le dimentichi, puoi chiederle in biblioteca. Devi guardare il film da solo: non puoi guardarlo con un'altra persona. Il servizio al primo piano è per le persone con più di 16 anni. Bambini e ragazzi possono usare le postazioni in Salaborsa Ragazzi.",
+    "L2_ITEMS": "**1. Puoi guardare i film al primo piano della biblioteca.**  Vero ○ Falso ○\n\n**2. Per prenotare un posto puoi andare al banco informazioni.**  Vero ○ Falso ○\n\n**3. Il lunedì puoi guardare un film alle 10.**  Vero ○ Falso ○\n\n**4. Il sabato puoi guardare un film dalle 13 alle 16.**  Vero ○ Falso ○\n\n**5. Puoi guardare tre film nello stesso giorno.**  Vero ○ Falso ○\n\n**6. Se dimentichi le cuffie, puoi chiederle in biblioteca.**  Vero ○ Falso ○\n\n**7. Puoi guardare un film insieme a un'altra persona.**  Vero ○ Falso ○\n\n**8. I ragazzi di 14 anni possono usare il servizio al primo piano.**  Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo indica le postazioni al primo piano. 中文：观影地点在地面层的上一层。 |\n| L2.2 | Vero | Per prenotare si va al banco informazioni della biblioteca. 中文：可以在图书馆咨询台预约。 |\n| L2.3 | Falso | Il lunedì il servizio è disponibile dalle 16 alle 19. 中文：星期一只能在16点至19点观看，10点不行。 |\n| L2.4 | Vero | Dal martedì al sabato è disponibile anche la fascia dalle 13 alle 16. 中文：星期六也有13点至16点这一时段。 |\n| L2.5 | Falso | Puoi vedere un solo film al giorno; tre è il limite settimanale. 中文：每天一部，每周最多三部。 |\n| L2.6 | Vero | Il testo permette di chiedere le cuffie in biblioteca quando le dimentichi. 中文：忘带耳机时可以向图书馆借用。 |\n| L2.7 | Falso | Il film si guarda da soli, non con un'altra persona. 中文：必须单独观看，不能两人一起看。 |\n| L2.8 | Falso | Il servizio al primo piano è per chi ha più di 16 anni; i ragazzi possono usare Salaborsa Ragazzi. 中文：该楼层的服务只面向16岁以上的人，14岁不符合要求。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "F || Falso",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prenotare",
+      "categoria": "verbo",
+      "zh": "预约",
+      "en": "to book",
+      "esempio": "Per prenotare un posto, vai al banco informazioni della biblioteca."
+    },
+    {
+      "parola": "banco informazioni",
+      "categoria": "locuzione nominale",
+      "zh": "咨询台",
+      "en": "information desk",
+      "esempio": "Per usare il servizio, vai al banco informazioni del primo piano."
+    },
+    {
+      "parola": "cuffie",
+      "categoria": "nome femminile plurale",
+      "zh": "耳机",
+      "en": "headphones",
+      "esempio": "Porta le tue cuffie."
+    },
+    {
+      "parola": "da solo",
+      "categoria": "locuzione avverbiale",
+      "zh": "独自",
+      "en": "alone",
+      "esempio": "Devi guardare il film da solo: non puoi guardarlo con un'altra persona."
+    },
+    {
+      "parola": "settimana",
+      "categoria": "nome femminile",
+      "zh": "周；星期",
+      "en": "week",
+      "esempio": "Puoi vedere un film al giorno, fino a tre film alla settimana."
+    }
+  ]
+}

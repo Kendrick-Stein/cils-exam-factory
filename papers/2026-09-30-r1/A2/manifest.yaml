@@ -1,0 +1,580 @@
+exam: cils
+level: A2
+session: 2026-09-30-r1
+title: CILS A2 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  slot: T1
+  level: A2
+  used_in:
+  - L1
+  url: https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
+  title: 'Carnevale alcamese 2020: grande successo di pubblico'
+  publisher: Wikinotizie; Wikinotizie contributors; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  authors:
+  - Wikinotizie contributors
+  published: '2020-02-26'
+  accessed: '2026-09-30'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  original_words: 255
+  band:
+  - 180
+  - 240
+  target_completed_words: 205
+  average_words_per_sentence_approx: 31.9
+  word_count_method: scripts/pool_add.py WORD_RE; approximate sentence segmentation
+    treats list lines as units
+  cefr_evidence:
+  - 'Chronological local-event article: passato prossimo ha visto/ha scritto/hanno
+    animato and imperfetto variavano.'
+  - Embedded relatives and participial constructions; specialist terms affluenza,
+    coreografie, maestranze are cuttable or replaceable with everyday equivalents.
+    Estimated nonbasic share5%.
+  - 'A2 article anchor: people, public event, handmade objects, music and simple environmental
+    reason, with explicit facts and no implied cultural knowledge.'
+  adaptation_plan: Keep 2020 explicit in title/date; convert scorso to the named 2020
+    event context without inventing a date. Cut quoted titles except one familiar
+    example, simplify long relative/passive phrases and specialist craft/event vocabulary.
+    Preserve place, three event days, new Giucà float dimensions, music, dancers,
+    >1000 participants, recyclable materials and market. Target200–220 words with
+    short paragraphs.
+  adapted: true
+  words_used: 201
+  verdict: ACCEPT WITH ADAPTATION (B1 → A2)
+  status: accepted_with_adaptation
+  license_verified: true
+  license_evidence_url: https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
+  text_file: papers/2026-09-30/A2/corpus/T1-original.txt
+  source_section: null
+  notes: Coordinator accepted dated historical event exception to preferred news recency;
+    never describe as current/upcoming. First round recent news candidates failed
+    length/level; this is second-round licensed alternative. Bank as historical cultural
+    reading, with original date preserved.
+  dedup_checked: Canonical URL plus percent-decoded equivalence checked against historical
+    blacklist and other current levels; within-level same-URL reuse uses different
+    sections.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence: Actual article footer explicitly states that content created after
+    25 September 2005 is available under Creative Commons Attribution 4.0 except where
+    specified. All selected articles postdate that date and contain no contrary text
+    notice. No images copied.
+  attribution_requirements: Credit title, named authors where present, Wikinotizie
+    contributors, source URL and its history; link CC BY 4.0; indicate cuts/simplifications
+    and do not imply endorsement.
+  pool_source_file: factory/corpus/pool/dc31101f3c2d.md
+  publisher_original: Wikinotizie
+  adaptation_status: Fragment authored from accepted original with documented cuts/simplifications;
+    exercise gaps and questions added. See sources.md and fragments/L1.json.
+- id: T2
+  slot: T2
+  level: A2
+  used_in:
+  - L2
+  url: https://www.bibliotecasalaborsa.it/documents/navigare-in-internet
+  title: Navigare in internet
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  authors:
+  - Biblioteca Salaborsa / Comune di Bologna
+  published: '2021-09-02'
+  accessed: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  original_words: 195
+  band:
+  - 150
+  - 200
+  target_completed_words: 180
+  average_words_per_sentence_approx: 17.7
+  word_count_method: scripts/pool_add.py WORD_RE; approximate sentence segmentation
+    treats list lines as units
+  cefr_evidence:
+  - Genuine library instructions with puoi/devi, a conditional se non hai and concrete
+    numeric daily/weekly limits.
+  - Passive verranno rilasciati, impersonal è soggetto and institutional cedibile
+    are bounded B1 features to simplify. Estimated nonbasic share4–5%.
+  - 'A2 regulatory anchor: clearly stated service access, limits, cards, prints and
+    wifi.'
+  adaptation_plan: Preserve two PCs, second-floor location, one daily access/max60min
+    and180weekly, personal password, no-card identity route, paid prints, one-month
+    suspension for misuse, age18 and open wifi. Cut detailed ID character typing and
+    linked downloads; split long booking sentence. Target170–190 words.
+  adapted: true
+  words_used: 172
+  verdict: ACCEPT WITH ADAPTATION (B1 → A2)
+  status: accepted_with_adaptation
+  license_verified: true
+  license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+  text_file: papers/2026-09-30/A2/corpus/T2-original.txt
+  source_section: null
+  notes: Last page update2025-01-20. Do not confuse registered desktop access with
+    no-authentication wifi. Original library prose, no linked forms copied.
+  dedup_checked: Canonical URL plus percent-decoded equivalence checked against historical
+    blacklist and other current levels; within-level same-URL reuse uses different
+    sections.
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  license_evidence: The site licensing page explicitly distributes original site materials
+    under CC BY-NC-SA 4.0 unless otherwise specified. Selected pages are original
+    library service prose and show no contrary notice; no third-party images or linked
+    attachments are included.
+  attribution_requirements: Credit Biblioteca Salaborsa / Comune di Bologna, title
+    and source URL; link CC BY-NC-SA 4.0; indicate excerpts and simplifications. Release
+    each adapted excerpt under CC BY-NC-SA 4.0 and use only noncommercially. Public
+    accessible credits must accompany the PDFs; a private manifest is insufficient.
+  pool_source_file: factory/corpus/pool/2678b9494d9a.md
+  publisher_original: Biblioteca Salaborsa / Comune di Bologna
+  adaptation_status: Fragment authored from accepted original with documented cuts/simplifications;
+    exercise gaps and questions added. See sources.md and fragments/L2.json.
+- id: T3
+  slot: T3
+  level: A2
+  used_in:
+  - L3
+  url: https://it.wikivoyage.org/wiki/Catania
+  title: Catania — sei servizi e attività
+  publisher: Wikivoyage; Wikivoyage contributors; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  authors:
+  - Wikivoyage contributors
+  published: null
+  accessed: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  original_words: 322
+  band:
+  - 120
+  - 180
+  target_completed_words: 155
+  average_words_per_sentence_approx: 12.4
+  word_count_method: scripts/pool_add.py WORD_RE; approximate sentence segmentation
+    treats list lines as units
+  cefr_evidence:
+  - Six authentic service listings include visits, excursions, train, theme park and
+    language courses.
+  - Present tense and schedules; bureaucratic archive detail and teaching-method participles
+    can be cut. Estimated nonbasic share4–5%.
+  - 'A2 microtext anchor: explicit functional services with distinct actors, places
+    or offerings.'
+  adaptation_plan: Produce six20–30-word bodies total120–180; reserve source-grounded
+    15–20-word continuation for each. Keep Etnaland, EtnaWay, archive, Arci course,
+    Federico II Italian school and Circumetnea separate. Omit phone/email and specialist/historical
+    terms; expand abbreviations or nominal listings into short grammatical clauses
+    only, preserving facts. Two distractor continuations are exercise material, not
+    source corpus.
+  adapted: true
+  words_used: 149
+  verdict: ACCEPT WITH ADAPTATION (B1 → A2)
+  status: accepted_with_adaptation
+  license_verified: true
+  license_evidence_url: https://it.wikivoyage.org/wiki/Catania
+  text_file: papers/2026-09-30/A2/corpus/T3-original.txt
+  source_section: Etnaland; EtnaWay; Archivio storico; Arci Catania; Federico II;
+    Circumetnea
+  notes: Same URL as T6, nonoverlapping sections. Do not use Etnaland’s explicitly2015
+    prices, already omitted. Listed service hours are guide snapshot values.
+  dedup_checked: Canonical URL plus percent-decoded equivalence checked against historical
+    blacklist and other current levels; within-level same-URL reuse uses different
+    sections.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  license_evidence: Actual Wikivoyage article footer licenses the text CC BY-SA. The
+    Bari footer href was checked in the cloud browser and is //creativecommons.org/licenses/by-sa/4.0/deed.it.
+    Catania has the same license footer. No images, quotations or linked business
+    websites are copied.
+  attribution_requirements: Credit Wikivoyage contributors, article title, canonical
+    URL and history; link CC BY-SA 4.0; state selections/simplifications. Release
+    adapted excerpts under CC BY-SA 4.0 with no extra restrictions. Keep NC excerpts
+    separately identifiable rather than relicensing BY-SA excerpts as NC.
+  pool_source_file: factory/corpus/pool/5dc0d9dba313.md
+  publisher_original: Wikivoyage
+  adaptation_status: Fragment authored from accepted original with documented cuts/simplifications;
+    exercise gaps and questions added. See sources.md and fragments/L3.json.
+- id: T4
+  slot: T4
+  level: A2
+  used_in:
+  - S1
+  url: https://www.bibliotecasalaborsa.it/documents/studiare-in-biblioteca
+  title: Studiare in biblioteca
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  authors:
+  - Biblioteca Salaborsa / Comune di Bologna
+  published: '2023-01-18'
+  accessed: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  original_words: 211
+  band:
+  - 90
+  - 130
+  target_completed_words: 120
+  average_words_per_sentence_approx: 23.4
+  word_count_method: scripts/pool_add.py WORD_RE; approximate sentence segmentation
+    treats list lines as units
+  cefr_evidence:
+  - Everyday study-room/floor/table vocabulary and simple modal puoi.
+  - Long gerund booking sentence and conditional potrebbero are cuttable B1 additions.
+    Estimated nonbasic share4%.
+  - A2 daily-service informational anchor with concrete location and booking actions.
+  adaptation_plan: Retain opening service description, a selection of actual listed
+    study spaces, library-card booking and one booking route. Omit app/catalogue detail
+    and optional closure paragraph; cut complex ammezzato if needed. Keep no-unattended-objects/only-approved-sockets/do-not-move-chairs
+    instruction if room. Completed115–125 words so10gaps still yield90–130 counted
+    words.
+  adapted: true
+  words_used: 107
+  verdict: ACCEPT WITH ADAPTATION (B1 → A2)
+  status: accepted_with_adaptation
+  license_verified: true
+  license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+  text_file: papers/2026-09-30/A2/corpus/T4-original.txt
+  source_section: null
+  notes: Last page update2025-02-19. NC suitability limited to this free batch.
+  dedup_checked: Canonical URL plus percent-decoded equivalence checked against historical
+    blacklist and other current levels; within-level same-URL reuse uses different
+    sections.
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  license_evidence: The site licensing page explicitly distributes original site materials
+    under CC BY-NC-SA 4.0 unless otherwise specified. Selected pages are original
+    library service prose and show no contrary notice; no third-party images or linked
+    attachments are included.
+  attribution_requirements: Credit Biblioteca Salaborsa / Comune di Bologna, title
+    and source URL; link CC BY-NC-SA 4.0; indicate excerpts and simplifications. Release
+    each adapted excerpt under CC BY-NC-SA 4.0 and use only noncommercially. Public
+    accessible credits must accompany the PDFs; a private manifest is insufficient.
+  pool_source_file: factory/corpus/pool/c7944a8ede03.md
+  publisher_original: Biblioteca Salaborsa / Comune di Bologna
+  adaptation_status: Fragment authored from accepted original with documented cuts/simplifications;
+    exercise gaps and questions added. See sources.md and fragments/S1.json.
+- id: T5
+  slot: T5
+  level: A2
+  used_in:
+  - S2
+  url: https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+  title: Intervista a Daniela Persico — lavoro quotidiano e inizio della carriera
+  publisher: Wikinotizie; Wikinotizie contributors; Locarno Kids news lab; CC BY 4.0;
+    https://creativecommons.org/licenses/by/4.0/; estratto adattato con tagli e semplificazioni;
+    modifiche documentate nel manifest; adattamento distribuito con la stessa licenza
+    della fonte
+  authors:
+  - Wikinotizie contributors
+  - Locarno Kids news lab
+  published: '2019-08-08'
+  accessed: '2026-09-30'
+  genre: interview
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  original_words: 148
+  band:
+  - 90
+  - 130
+  target_completed_words: 120
+  average_words_per_sentence_approx: 18.5
+  word_count_method: scripts/pool_add.py WORD_RE; approximate sentence segmentation
+    treats list lines as units
+  cefr_evidence:
+  - 'First-person routine and career: passiamo/mi sveglio/guardo, piaceva/sapevo/scrivevo/venivo,
+    ho cercato.'
+  - Single congiuntivo duri and institutional recensire/ambito are bounded removable
+    difficulty. Estimated nonbasic share3–4%.
+  - A2 interview/personal-account anchor with familiar work and cinema subject and
+    naturally contrasted tenses.
+  adaptation_plan: Drop two interviewer questions and clause pero’ questo non vuol
+    dire che il nostro lavoro duri solo due settimane. Split long coordinate sentences;
+    optionally simplify recensire/ambito in source-grounded wording. Keep personal
+    routine and career sequence. Target110–125 words, 11 eligible verbs including
+    example.
+  adapted: true
+  words_used: 121
+  verdict: ACCEPT WITH ADAPTATION (B1 → A2)
+  status: accepted_with_adaptation
+  license_verified: true
+  license_evidence_url: https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+  text_file: papers/2026-09-30/A2/corpus/T5-original.txt
+  source_section: null
+  notes: 2019 career narrative treated as nonperishable; no current-employment claim.
+    Revision980570.
+  dedup_checked: Canonical URL plus percent-decoded equivalence checked against historical
+    blacklist and other current levels; within-level same-URL reuse uses different
+    sections.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence: Actual article footer explicitly states that content created after
+    25 September 2005 is available under Creative Commons Attribution 4.0 except where
+    specified. All selected articles postdate that date and contain no contrary text
+    notice. No images copied.
+  attribution_requirements: Credit title, named authors where present, Wikinotizie
+    contributors, source URL and its history; link CC BY 4.0; indicate cuts/simplifications
+    and do not imply endorsement.
+  pool_source_file: factory/corpus/pool/f9c5db64fee4.md
+  publisher_original: Wikinotizie
+  adaptation_status: Fragment authored from accepted original with documented cuts/simplifications;
+    exercise gaps and questions added. See sources.md and fragments/S2.json.
+- id: T6
+  slot: T6
+  level: A2
+  used_in:
+  - S3
+  url: https://it.wikivoyage.org/wiki/Catania
+  title: Catania — negozi e mercati
+  publisher: Wikivoyage; Wikivoyage contributors; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  authors:
+  - Wikivoyage contributors
+  published: null
+  accessed: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  original_words: 139
+  band:
+  - 90
+  - 130
+  target_completed_words: 115
+  average_words_per_sentence_approx: 19.9
+  word_count_method: scripts/pool_add.py WORD_RE; approximate sentence segmentation
+    treats list lines as units
+  cefr_evidence:
+  - Present-tense description of shops, commercial centres, transport and markets.
+  - Long relative grazie ai quali, lexical ovviare/mineralizzazione are B1; irrelevant
+    water paragraph can be cut. Estimated nonbasic share5%.
+  - 'A2 everyday informative anchor: shopping locations and getting there, no tourism
+    expertise needed.'
+  adaptation_plan: Omit water/mineralisation/beverage paragraph; simplify ovviare
+    alla distanza and mercatini rionali, split long relative sentences while keeping
+    original facts. Retain Via Etnea shops, centres outside town, shuttle transport
+    and weekly/daily fish markets. Completed110–125 words so8gaps meet90-word floor.
+  adapted: true
+  words_used: 112
+  verdict: ACCEPT WITH ADAPTATION (B1 → A2)
+  status: accepted_with_adaptation
+  license_verified: true
+  license_evidence_url: https://it.wikivoyage.org/wiki/Catania
+  text_file: papers/2026-09-30/A2/corpus/T6-original.txt
+  source_section: Acquisti
+  notes: Same page as T3, shopping section only; no repeated listing sentences.
+  dedup_checked: Canonical URL plus percent-decoded equivalence checked against historical
+    blacklist and other current levels; within-level same-URL reuse uses different
+    sections.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  license_evidence: Actual Wikivoyage article footer licenses the text CC BY-SA. The
+    Bari footer href was checked in the cloud browser and is //creativecommons.org/licenses/by-sa/4.0/deed.it.
+    Catania has the same license footer. No images, quotations or linked business
+    websites are copied.
+  attribution_requirements: Credit Wikivoyage contributors, article title, canonical
+    URL and history; link CC BY-SA 4.0; state selections/simplifications. Release
+    adapted excerpts under CC BY-SA 4.0 with no extra restrictions. Keep NC excerpts
+    separately identifiable rather than relicensing BY-SA excerpts as NC.
+  pool_source_file: factory/corpus/pool/5dc0d9dba313.md
+  publisher_original: Wikivoyage
+  adaptation_status: Fragment authored from accepted original with documented cuts/simplifications;
+    exercise gaps and questions added. See sources.md and fragments/S3.json.
+pipeline:
+  generator: cils-exam-factory — per-prova pipeline
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: corpus
+    at: '2026-09-30T03:14:59.934431+00:00'
+    result: pass
+    license_verified: true
+  - stage: authoring
+    at: '2026-09-30T03:37:11.279290+00:00'
+    fragments:
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+    glossario_rows: 20
+    words_used:
+      T1: 201
+      T2: 172
+      T3: 149
+      T4: 107
+      T5: 101
+      T6: 112
+  - stage: format_audit
+    at: '2026-09-30T03:37:11+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-09-30T03:37:11+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-09-30T03:40:33+00:00'
+    agreement: 46/46
+    flags: 10
+    result: fail
+  - stage: authoring
+    at: '2026-09-30T03:43:21.224921+00:00'
+    fragments:
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+    glossario_rows: 20
+    words_used:
+      T1: 201
+      T2: 172
+      T3: 149
+      T4: 107
+      T5: 121
+      T6: 112
+  - stage: reconcile
+    round: 1
+    at: '2026-09-30T03:43:21.472954+00:00'
+    fixed_items:
+    - S2.1
+    - S2.2
+    - S2.3
+    - S2.4
+    - S2.5
+    - S2.6
+    - S2.7
+    - S2.8
+    - S2.9
+    - S2.10
+    repair: Explicit tense/mood labels in parenthetical verb cues; guided conjugation;
+      unchanged source narrative
+  - stage: authoring
+    at: '2026-09-30T03:50:59.954286+00:00'
+    fragments:
+    - L1
+    - L2
+    - L3
+    - O
+    - S1
+    - S2
+    - S3
+    - W
+    glossario_rows: 20
+    words_used:
+      T1: 201
+      T2: 172
+      T3: 149
+      T4: 107
+      T5: 121
+      T6: 112
+  - stage: blind_validation
+    at: '2026-09-30T03:53:31+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-09-30T03:53:31+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-09-30T03:53:31+00:00'
+    result: pass
+    issues: 0
+  - stage: build
+    at: '2026-09-30T04:07:07.589057+00:00'
+    result: pass
+    pdf_engine: mupdf
+    text_coverage: pass
+    visual_review: pass
+    historical_pdf_changes: 0
+  - stage: format_revision
+    at: '2026-09-30T04:44:10.289490+00:00'
+    original_session: '2026-09-30'
+    reason: Correct rendering of worked-example strikethrough; preserve exact authored
+      content, keys, models and sources
+    authored_content_identical: true
+    independent_blind_validation_reused_from_commit: 655e43ac5a94e9557fc36e2f5cce428e8128a986
+  - stage: format_audit
+    at: '2026-09-30T04:44:10+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-09-30T04:44:10+00:00'
+    result: pass
+    issues: 0
+  - stage: build
+    at: '2026-09-30T04:56:01.555694+00:00'
+    result: pass
+    pdf_engine: mupdf
+    text_coverage: pass
+    visual_review: pass
+    font_subsetting: native lossless
+    protected_pdf_changes: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+  guided_practice:
+    S2: Explicit tense/mood labels
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass
+revision:
+  revision_of:
+    session: '2026-09-30'
+    level: A2
+    commit: 655e43ac5a94e9557fc36e2f5cce428e8128a986
+  revision_kind: format-only
+  reason: Correct rendering of worked-example strikethrough; preserve exact authored
+    content, keys, models and sources
+  content_hashes:
+    paper.md:
+      original: 246e9610793b2069fe178f625f18f763586c42486cdb6cb3ad2520a5c57f9e2c
+      revision: 246e9610793b2069fe178f625f18f763586c42486cdb6cb3ad2520a5c57f9e2c
+      excludes: front matter only
+    answers.md:
+      original: 555f0c5dcfaddeae1222052aac837d033b453eec14faec5a6277247367e571d5
+      revision: 555f0c5dcfaddeae1222052aac837d033b453eec14faec5a6277247367e571d5
+      excludes: front matter only
+    key.json: 5f4180691e8089da45be1a617054104a2f52bc1e8195109b928517a58dac1313
+    sources.md: f0181d6f836b4a93cee9a241c4922f3a73f86a4a0e7a8d16d5133b61746a5aa2
+    blind-round-0.json: bddad4cb3be8509dda0225d29f25e5a96e74399a0fba4fbe6b758783e5d5cc9d
+    blind-round-1.json: e56c0d2788151b8243ebef7545df6d9b10ed283e80fae27e5194067f2a040faa
+    blind-validation.json: 640f9ad98cf79ac353d4d998f6eb63a3b9c93ea3051b65d29ea621137f68025b
+  independent_validation_reused: true
+  new_corpus_claim: false

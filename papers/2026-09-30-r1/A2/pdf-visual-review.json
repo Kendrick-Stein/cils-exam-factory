@@ -1,0 +1,30 @@
+{
+  "session": "2026-09-30-r1",
+  "level": "A2",
+  "result": "pass",
+  "protected_pdfs_checked": 184,
+  "protected_pdf_changes": 0,
+  "visual_review": "Every final page visually checked; worked examples struck through; all Italian/Chinese and decorative icon text correctly rendered/extracted; tables, writing spaces, models and page numbers complete",
+  "pdfs": {
+    "paper": {
+      "pages": 12,
+      "bytes": 129568,
+      "sha256": "be6805d3451250cbdf061e0cdfcf09fedc9bd1e8a943269b101f0f321839326f",
+      "checked_text_nodes": 210,
+      "missing_text_nodes": 0,
+      "embedded_source_credits": true,
+      "strikethrough_markup_leak": false,
+      "decorative_emoji_unicode_correct": false
+    },
+    "answers": {
+      "pages": 10,
+      "bytes": 175604,
+      "sha256": "818f78f816699a8facec2ab3f94d93fa7f401cbce67e8c22b2f936553ef57d47",
+      "checked_text_nodes": 244,
+      "missing_text_nodes": 0,
+      "embedded_source_credits": true,
+      "strikethrough_markup_leak": false,
+      "decorative_emoji_unicode_correct": true
+    }
+  }
+}

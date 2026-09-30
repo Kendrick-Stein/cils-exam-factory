@@ -1,0 +1,70 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "GIOVANNI DE MAURO E WIKIPEDIA",
+    "S1_TEXT_WITH_GAPS": "Wiki@Home intervista Giovanni De Mauro, fondatore e direttore di Internazionale, settimanale di informazione.\n\n**Come ha conosciuto Wikipedia? E cosa __ne (0)__ pensa?**\n\nGuardi, come __(1)__ ho conosciuta non __(2)__ *(clitico diretto)* __(3)__ ricordo. __(4)__ perde nella notte dei tempi la *(ordinale: uno)* __(5)__ volta *(pronome relativo: una parola)* __(6)__ sono andato su Wikipedia... __(7)__ uso tantissimo la rete, la posta elettronica, navigo molto e vado molto a caccia di cose interessanti. D'altronde, penso faccia anche parte del *(possessivo, 1ª persona singolare)* __(8)__ mestiere, non __(9)__ faccio solo per diletto. Quando è nata Internazionale nel 1993, non c'era il web e neanche la posta elettronica, riservata ai soli ambienti economici e scientifici, quindi __(10)__ tanto faccio lo sforzo di ricordare anche cos'era fare Internazionale a quell'epoca e devo dire che era davvero tutto molto diverso, imparagonabile ad oggi...\n\nEcco, non so come ho scoperto per la prima volta Wikipedia, ma *(pronome atono)* __(11)__ penso __(12)__ il bene possibile. Sono *(pronome numerale)* __(13)__ di quelli convinti della \"saggezza della folla\", che esistano i lati positivi di una intelligenza collettiva, soprattutto nella capacità di autocorreggersi rapidamente. Ogni volta che trovo un aggiornamento o una correzione o un update in tempo reale, resto sempre piacevolmente stupito e sorpreso. Non penso sia immaginabile un altro modello per una idea come la *(possessivo, 2ª persona plurale)* __(14)__.\n\n**Oltre alle potenzialità di Wikipedia, vede anche dei potenziali punti deboli?**\n\nNo, non vedo punti deboli significativi *(pronome relativo: una parola)* __(15)__ non siano quelli *(preposizione di + relativo invariabile)* __(16)__ *(forma impersonale)* __(17)__ parla tante volte, ad esempio la possibilità che possano essere inserite informazioni sballate e che possano rimanere per un tempo sufficiente per essere replicate in rete prima che qualcuno __(18)__ __(19)__ accorga. Non vedo cose specifiche *(pronome relativo: una parola)* __(20)__ altri non vedono."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | L' / LA | S1.11 | NE |\n| S1.2 | ME | S1.12 | TUTTO |\n| S1.3 | LO | S1.13 | UNO |\n| S1.4 | SI | S1.14 | VOSTRA |\n| S1.5 | PRIMA | S1.15 | CHE |\n| S1.6 | CHE | S1.16 | DI CUI |\n| S1.7 | IO | S1.17 | SI |\n| S1.8 | MIO | S1.18 | SE |\n| S1.9 | LO | S1.19 | NE |\n| S1.10 | OGNI | S1.20 | CHE |",
+    "ANS_S1_NOTES": "- **S1.1**: Riprende Wikipedia come oggetto femminile singolare di «conosciuta»; la forma elisa è l’. 中文：指代阴性单数的Wikipedia，作直接宾语，通常省音为l’。 **S1.2**: «Non so come ho scoperto» chiarisce che manca il ricordo al parlante: mi diventa me davanti a lo. 中文：后文说自己不记得如何发现，mi在lo前变为me。 **S1.3**: Il suggerimento richiede un clitico diretto: lo riprende «come l’ho conosciuta», contenuto del ricordo. Ne appartiene invece alla costruzione ricordarsi di e non soddisfa il suggerimento. 中文：提示要求直接宾语非重读代词，lo指代“如何认识维基百科”这件事；ne用于ricordarsi di结构，不符合提示。 **S1.4**: La costruzione è «perdersi nella notte dei tempi», con soggetto singolare «la prima volta». 中文：主语是la prima volta，固定结构为perdersi nella notte dei tempi。\n\n- **S1.5**: Il suggerimento chiede l’ordinale di uno; l’accordo con volta è femminile singolare. 中文：按提示将一变成序数词，并与阴性单数volta配合。 **S1.6**: Il suggerimento richiede un pronome relativo di una parola: che collega «la prima volta» alla frase seguente; in cui e nella quale superano il limite indicato. 中文：提示限定关系代词只能有一个词，因此用che；in cui和nella quale均超出词数限制。 **S1.7**: Uso, navigo e vado sono alla prima persona singolare: il soggetto pronominale è io. 中文：uso、navigo、vado都是第一人称单数，因此用io。 **S1.8**: Il suggerimento fissa la prima persona singolare; mestiere impone il maschile singolare mio. 中文：提示指定第一人称单数，且mestiere为阳性单数，故用mio。\n\n- **S1.9**: Lo richiama l’attività appena descritta, cioè usare la rete e cercarvi informazioni. 中文：lo概括前面使用网络并寻找信息的行为。 **S1.10**: Ogni è richiesto nella locuzione fissa ogni tanto. 中文：固定表达ogni tanto表示“时不时”。 **S1.11**: Il suggerimento richiede un pronome atono: ne riprende «di Wikipedia», con pensare bene di qualcosa. 中文：提示要求非重读代词，ne代替di Wikipedia。 **S1.12**: Tutto concorda con il bene nella locuzione «pensarne tutto il bene possibile». 中文：tutto与阳性单数il bene配合，构成高度肯定的固定说法。\n\n- **S1.13**: Il suggerimento richiede un numerale pronominale: il parlante si identifica come uno del gruppo. 中文：提示要求数词作代词，单个说话者是群体中的uno。 **S1.14**: Il suggerimento fissa la seconda persona plurale; il possessivo concorda con idea, sottinteso dopo la. 中文：提示指定第二人称复数；所指idea为阴性单数，因此用vostra。 **S1.15**: Il suggerimento richiede un pronome relativo di una parola: che è soggetto di «non siano» e riprende punti deboli; i quali richiederebbe due parole. 中文：关系代词作non siano的主语，指代punti deboli；提示只允许一个词，故用che，而非两个词的i quali。 **S1.16**: Il suggerimento richiede di seguito dal relativo invariabile cui: di cui completa parlare di qualcosa. Dei quali contiene un relativo variabile e non soddisfa il suggerimento. 中文：提示要求介词di加不变形的关系代词cui，构成di cui；dei quali使用可变形的关系代词，不符合提示。\n\n- **S1.17**: Il suggerimento impone la forma impersonale si parla, senza un interlocutore particolare. 中文：提示要求无人称表达si parla，而非指某个特定说话者。 **S1.18**: Accorgersi è pronominale: si assume la forma se davanti a ne, con soggetto qualcuno. 中文：accorgersi是代词式动词，si在ne前变为se。 **S1.19**: Ne riprende il contenuto di cui qualcuno si accorge; accorgersi regge di. 中文：ne代替所察觉的内容，因为accorgersi与di搭配。 **S1.20**: Il suggerimento richiede un pronome relativo di una parola: che riprende cose specifiche ed è oggetto di vedono; le quali richiederebbe due parole. 中文：关系代词指代cose specifiche，作vedono的宾语；提示只允许一个词，故用che，而非两个词的le quali。"
+  },
+  "key": {
+    "S1.1": "L' || LA",
+    "S1.2": "ME",
+    "S1.3": "LO",
+    "S1.4": "SI",
+    "S1.5": "PRIMA",
+    "S1.6": "CHE",
+    "S1.7": "IO",
+    "S1.8": "MIO",
+    "S1.9": "LO",
+    "S1.10": "OGNI",
+    "S1.11": "NE",
+    "S1.12": "TUTTO",
+    "S1.13": "UNO",
+    "S1.14": "VOSTRA",
+    "S1.15": "CHE",
+    "S1.16": "DI CUI",
+    "S1.17": "SI",
+    "S1.18": "SE",
+    "S1.19": "NE",
+    "S1.20": "CHE"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "nella notte dei tempi",
+      "categoria": "locuzione avverbiale",
+      "zh": "在遥远的过去",
+      "en": "in the distant past",
+      "esempio": "Si perde nella notte dei tempi la prima volta che sono andato su Wikipedia"
+    },
+    {
+      "parola": "per diletto",
+      "categoria": "locuzione avverbiale",
+      "zh": "为了消遣",
+      "en": "for pleasure",
+      "esempio": "non lo faccio solo per diletto"
+    },
+    {
+      "parola": "intelligenza collettiva",
+      "categoria": "locuzione nominale",
+      "zh": "集体智慧",
+      "en": "collective intelligence",
+      "esempio": "che esistano i lati positivi di una intelligenza collettiva"
+    },
+    {
+      "parola": "autocorreggersi",
+      "categoria": "verbo pronominale",
+      "zh": "自我纠正",
+      "en": "to self-correct",
+      "esempio": "soprattutto nella capacità di autocorreggersi rapidamente"
+    },
+    {
+      "parola": "accorgersi",
+      "categoria": "verbo pronominale",
+      "zh": "察觉，注意到",
+      "en": "to notice",
+      "esempio": "prima che qualcuno se ne accorga"
+    }
+  ]
+}

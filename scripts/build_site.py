@@ -259,6 +259,30 @@ def require_pdf_coverage(document, source_nodes, source):
         raise BuildError(f"PDF text coverage failed for {source}: {len(missing)} missing source text nodes: {preview}")
 
 
+def repair_story_tounicode(document):
+    """Correct MuPDF's non-BMP scalar values in direct ToUnicode mappings."""
+    def utf16_mapping(match):
+        codepoint = int(match[2], 16)
+        if not 0x10000 <= codepoint <= 0x10FFFF:
+            return match[0]
+        encoded = chr(codepoint).encode("utf-16-be").hex().encode("ascii")
+        return match[1] + b"<" + encoded + b">" + match[3]
+
+    for xref in range(1, document.xref_length()):
+        kind, reference = document.xref_get_key(xref, "ToUnicode")
+        if kind != "xref":
+            continue
+        cmap_xref = int(reference.split()[0])
+        original = document.xref_stream(cmap_xref)
+        # Only two-token bfchar entries; preserve ranges and valid UTF-16.
+        corrected = re.sub(
+            rb"(?m)^([ \t]*<[0-9a-fA-F]{4}>[ \t]+)<([0-9a-fA-F]{5,6})>([ \t]*$)",
+            utf16_mapping, original,
+        )
+        if corrected != original:
+            document.update_stream(cmap_xref, corrected)
+
+
 class MuPdfPrinter:
     """Browser-free printable layout with MuPDF's bundled CJK fonts."""
     def render(self, html_path: Path, pdf_path: Path, source_paths: list[Path]) -> None:
@@ -332,6 +356,7 @@ class MuPdfPrinter:
                 finally:
                     writer.close()
                 with fitz.open(raw) as document:
+                    repair_story_tounicode(document)
                     if not len(document):
                         raise BuildError(f"MuPDF produced no pages for {source}")
                     for number, page in enumerate(document):
@@ -509,7 +534,17 @@ def slug(value: str) -> str:
 
 def render_markdown(path: Path) -> tuple[dict[str, Any], str]:
     front_matter, body = split_front_matter(path)
-    rendered = markdown_lib.markdown(body, extensions=MARKDOWN_EXTENSIONS)
+    parser = markdown_lib.Markdown(extensions=MARKDOWN_EXTENSIONS)
+    # Python-Markdown has no built-in strikethrough extension. Parse worked
+    # examples after code/escapes/links, but before emphasis, in both renderers.
+    parser.ESCAPED_CHARS.append("~")
+    parser.inlinePatterns.register(
+        markdown_lib.inlinepatterns.SimpleTagInlineProcessor(
+            r"(?<!~)(~~)(?!~)(?=\S)(.+?)(?<=\S)(?<!~)\1(?!~)", "del"
+        ),
+        "strikethrough", 65,
+    )
+    rendered = parser.convert(body)
     return front_matter, rendered
 
 

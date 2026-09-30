@@ -9,6 +9,94 @@ import build_site
 from test_build_site import make_fixture
 
 class MuPdfTests(unittest.TestCase):
+    def test_glossary_icon_extracts_correctly_without_changing_pixels(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            papers, _ = make_fixture(root)
+            source = papers / '2000-01-01/FX/answers.md'
+            source.write_text('# 📚 Glossario\n\nCittà, caffè, più. 中文解释。\n', encoding='utf-8')
+            paths = [source, source.with_name('manifest.yaml')]
+            original, corrected = root / 'original.pdf', root / 'corrected.pdf'
+            with patch.object(build_site, 'repair_story_tounicode', return_value=None):
+                build_site.MuPdfPrinter().render(root / 'original.html', original, paths)
+            build_site.MuPdfPrinter().render(root / 'corrected.html', corrected, paths)
+            with fitz.open(original) as before, fitz.open(corrected) as after:
+                self.assertEqual(len(before), len(after))
+                self.assertIn('📚 Glossario', after[0].get_text())
+                self.assertIn('Città, caffè, più. 中文解释。', after[0].get_text(flags=0))
+                for old, new in zip(before, after):
+                    self.assertEqual(old.get_pixmap(alpha=False).samples,
+                                     new.get_pixmap(alpha=False).samples)
+
+    def test_strikethrough_preserves_inline_markdown_and_literals(self):
+        cases = (
+            ('~~laboratorio~~', '<p><del>laboratorio</del></p>'),
+            ('~~**esempio**~~', '<p><del><strong>esempio</strong></del></p>'),
+            ('`~~codice~~`', '<p><code>~~codice~~</code></p>'),
+            (r'\~\~letterale\~\~', '<p>~~letterale~~</p>'),
+            ('~~~letterale~~~', '<p>~~~letterale~~~</p>'),
+            ('~~ aperto ~~', '<p>~~ aperto ~~</p>'),
+            ('[link](https://example.com/~~path~~)',
+             '<p><a href="https://example.com/~~path~~">link</a></p>'),
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            source = Path(tmp) / 'inline.md'
+            for markdown, expected in cases:
+                with self.subTest(markdown=markdown):
+                    source.write_text(markdown, encoding='utf-8')
+                    self.assertEqual(build_site.render_markdown(source)[1], expected)
+
+    def test_worked_examples_have_visible_strikethrough_in_html_and_pdf(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            papers, _ = make_fixture(root)
+            source = papers / '2000-01-01/FX/paper.md'
+            source.write_text(
+                '# Esempi svolti\n\n'
+                '| Esempio | A | B | C | D |\n|---|---|---|---|---|\n'
+                '| 0. | ~~laboratorio~~ | concerto | convegno | festival |\n'
+                '| 0. | ~~fotografico~~ | teatrale | sportivo | letterario |\n',
+                encoding='utf-8',
+            )
+            manifest_path = source.with_name('manifest.yaml')
+            paper = build_site.Paper('2000-01-01', 'FX', source.parent,
+                                     build_site.load_yaml(manifest_path))
+            html = build_site.render_page(source, paper, 'paper')
+            self.assertNotIn('~~', html)
+            for word in ('laboratorio', 'fotografico'):
+                self.assertIn(f'<del>{word}</del>', html)
+            pdf = root / 'example.pdf'
+            build_site.MuPdfPrinter().render(root / 'example.html', pdf, [source, manifest_path])
+            with fitz.open(pdf) as document:
+                self.assertEqual(len(document), 1)
+                page = document[0]
+                self.assertNotIn('~', page.get_text())
+                for word in ('laboratorio', 'fotografico', 'concerto', 'teatrale'):
+                    with self.subTest(word=word):
+                        matches = page.search_for(word, flags=0)
+                        self.assertEqual(len(matches), 1)
+                        bounds = matches[0]
+                        rules = [d for d in page.get_drawings()
+                                 if d['type'] == 's' and d['rect'].height < 0.1
+                                 and abs(d['rect'].x0 - bounds.x0) < 1
+                                 and abs(d['rect'].x1 - bounds.x1) < 1
+                                 and bounds.y0 + bounds.height * 0.25 < d['rect'].y0
+                                 < bounds.y1 - bounds.height * 0.25]
+                        if word in ('concerto', 'teatrale'):
+                            self.assertEqual(rules, [])
+                            continue
+                        self.assertEqual(len(rules), 1)
+                        # Require actual dark raster pixels across the word,
+                        # not just stripped tildes or an invisible PDF path.
+                        y = rules[0]['rect'].y0
+                        pixels = page.get_pixmap(
+                            matrix=fitz.Matrix(4, 4), colorspace=fitz.csGRAY, alpha=False,
+                            clip=fitz.Rect(bounds.x0, y - 0.5, bounds.x1, y + 0.5),
+                        )
+                        dark_columns = sum(min(pixels.samples[x::pixels.width]) < 160
+                                           for x in range(pixels.width))
+                        self.assertGreater(dark_columns, pixels.width * 0.9)
+
     def test_native_font_subsets_preserve_pixels_text_and_credits(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

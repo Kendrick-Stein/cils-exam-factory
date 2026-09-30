@@ -1,0 +1,54 @@
+CILS B1 — Esercitazione non ufficiale — 30 settembre 2026
+Fonti, attribuzioni, licenze e modifiche
+
+Ogni testo adattato è distribuito con la licenza specificata per la relativa fonte. La raccolta è pubblicata gratuitamente e senza uso commerciale. Nessuna affiliazione o approvazione degli autori delle fonti è implicata. Le fotografie delle fonti non sono riprodotte.
+
+T1 — Intervista a Mario Furlan
+Autore/contributori: Ferdi2005; Bramfab; Wikinotizie contributors
+Fonte: https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan
+Licenza dell'originale e del testo adattato: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T2 — Wiki Loves Monuments 2026 – Regolamento
+Autore/contributori: Simona Cannataro; Wikimedia Italia
+Fonte: https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T3 — Le avventure di Pinocchio (1892), Capitolo IX
+Autore/contributori: Carlo Collodi; Wikisource contributors
+Fonte: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 (transcription); underlying 1892 Collodi text public domain — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T4 — Le fontanelle nelle città italiane: il progetto di OpenStreetMap Italia si rivela un servizio per la comunità
+Autore/contributori: Adriana Marino
+Fonte: https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T5 — Intervista a Vincent Russo
+Autore/contributori: Bramfab; Wikinotizie contributors
+Fonte: https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo
+Licenza dell'originale e del testo adattato: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T6 — Wikipedia per i beni culturali: il laboratorio Wikimedia all’Università degli Studi di Milano
+Autore/contributori: Adriana Marino
+Fonte: https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+Variante di esercitazione guidata: {"S1": "Definite-article cues at items2,6,17; prescribed preposition hints", "S2": "Explicit mood/tense cues; all five required tense groups represented"}

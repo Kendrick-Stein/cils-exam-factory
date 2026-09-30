@@ -1,0 +1,67 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "Il lavoro e la famiglia",
+    "S2_TEXT_WITH_GAPS": "Io *(avere)* __ho avuto (0)__ difficoltà nella vita. Io *(iniziare; passato prossimo)* __(1)__ a programmare e infine *(arrivare; passato prossimo)* __(2)__ qui. Prima io *(lavorare; passato prossimo)* __(3)__ in un laboratorio sui fumetti, poi sul suono: noi *(lavorare; passato prossimo)* __(4)__ con dei microfoni. Adesso noi *(lavorare; presente indicativo)* __(5)__ con le telecamere. Io *(occuparsi; presente indicativo)* __(6)__ di tecnologie digitali. Io *(essere; presente indicativo)* __(7)__ figlio di un insegnante; mio padre *(essere; presente indicativo)* __(8)__ figlio di una maestra. Mi piace lavorare, imparare e insegnare con i giovani. Quando il lavoro *(essere; presente indicativo)* __(9)__ grande, la difficoltà *(essere; presente indicativo)* __(10)__ gigante, ma avere problemi fa bene."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ho iniziato | passato prossimo | S2.6 | mi occupo | presente indicativo |\n| S2.2 | sono arrivato | passato prossimo | S2.7 | sono | presente indicativo |\n| S2.3 | ho lavorato | passato prossimo | S2.8 | è | presente indicativo |\n| S2.4 | abbiamo lavorato | passato prossimo | S2.9 | è | presente indicativo |\n| S2.5 | lavoriamo | presente indicativo | S2.10 | è | presente indicativo |",
+    "ANS_S2_NOTES": "- **S2.1:** La parentesi richiede il passato prossimo di *iniziare*; con «io» la forma è *ho iniziato*. 中文：括号明确要求近过去时；io 对应 ho iniziato，不能改用远过去时。\n- **S2.2:** È richiesto il passato prossimo di *arrivare*: *sono arrivato*. «Figlio» identifica il parlante come uomo e determina il participio maschile. 中文：arrivare 的近过去时用 essere；figlio 明确说话人为男性，因此填 sono arrivato。\n- **S2.3:** La parentesi richiede il passato prossimo, non l’imperfetto; il soggetto «io» determina *ho lavorato*. 中文：题目已指定近过去时，排除未完成过去时；第一人称单数为 ho lavorato。\n- **S2.4:** Il passato prossimo richiesto, con il soggetto «noi», è *abbiamo lavorato*. 中文：括号指定近过去时，noi 用 abbiamo lavorato；lavoravamo 不符合指定时态。\n- **S2.5:** Il presente indicativo del verbo *lavorare*, con «noi», è *lavoriamo*. La perifrasi progressiva non è la forma richiesta. 中文：要求 lavorare 的直陈式现在时，noi 对应 lavoriamo；进行式 stiamo lavorando 不符合动词提示。\n- **S2.6:** Il presente indicativo di *occuparsi*, con «io», è *mi occupo*; il pronome deve essere dentro lo spazio. 中文：occuparsi 的第一人称直陈式现在时是 mi occupo，代词 mi 也须填入空内；不使用进行式。\n- **S2.7:** La parentesi richiede il presente indicativo di *essere*; con «io» si usa *sono*. 中文：括号指定直陈式现在时，io 对应 sono。\n- **S2.8:** È richiesto il presente indicativo: il soggetto singolare «mio padre» determina *è*. 中文：按括号要求使用直陈式现在时；mio padre 是第三人称单数，因此填 è。\n- **S2.9:** Il presente indicativo richiesto concorda con «il lavoro», terza persona singolare: *è*. 中文：题目指定现在时，il lavoro 是第三人称单数，用 è；不能改为 era。\n- **S2.10:** Anche qui è richiesto il presente indicativo; «la difficoltà» è singolare, quindi *è*. 中文：本空同样指定直陈式现在时；la difficoltà 为单数，因此填 è。"
+  },
+  "key": {
+    "S2.1": "ho iniziato",
+    "S2.2": "sono arrivato",
+    "S2.3": "ho lavorato",
+    "S2.4": "abbiamo lavorato",
+    "S2.5": "lavoriamo",
+    "S2.6": "mi occupo",
+    "S2.7": "sono",
+    "S2.8": "è",
+    "S2.9": "è",
+    "S2.10": "è"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "difficoltà",
+      "categoria": "sostantivo femminile invariabile",
+      "zh": "困难",
+      "en": "difficulty",
+      "esempio": "difficoltà nella vita"
+    },
+    {
+      "parola": "laboratorio",
+      "categoria": "sostantivo maschile",
+      "zh": "工作坊；实验室",
+      "en": "workshop; laboratory",
+      "esempio": "in un laboratorio sui fumetti"
+    },
+    {
+      "parola": "fumetti",
+      "categoria": "sostantivo maschile plurale",
+      "zh": "漫画",
+      "en": "comics",
+      "esempio": "un laboratorio sui fumetti"
+    },
+    {
+      "parola": "telecamere",
+      "categoria": "sostantivo femminile plurale",
+      "zh": "摄像机",
+      "en": "video cameras",
+      "esempio": "con le telecamere"
+    },
+    {
+      "parola": "insegnare",
+      "categoria": "verbo",
+      "zh": "教；教授",
+      "en": "to teach",
+      "esempio": "Mi piace lavorare, imparare e insegnare con i giovani."
+    },
+    {
+      "parola": "figlio",
+      "categoria": "sostantivo maschile",
+      "zh": "儿子",
+      "en": "son",
+      "esempio": "figlio di un insegnante"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "PINOCCHIO ALL’ISOLA DELLE API INDUSTRIOSE",
+    "S2_TEXT_WITH_GAPS": "Pinocchio *(nuotare)* __nuotò (0)__ tutta quanta la notte.\n\nDopo *(guardare, infinito passato)* __(1)__, non *(vedere, passato remoto)* __(2)__ altro davanti a sé che cielo, mare e qualche vela di nave, ma così lontana lontana, che *(parere, indicativo imperfetto)* __(3)__ una mosca.\n\n— *(sapere, congiuntivo imperfetto)* __(4)__ almeno come *(chiamarsi, indicativo presente)* __(5)__ quest’isola! — andava dicendo. — Sapessi almeno se quest’isola *(essere abitato, indicativo presente)* __(6)__ da gente di garbo, voglio dire da gente che non *(avere, congiuntivo presente)* __(7)__ il vizio di attaccare i ragazzi ai rami degli alberi! ma a chi mai *(potere, indicativo presente)* __(8)__ domandarlo? a chi, se non c’è nessuno?...—\n\nQuest’idea di trovarsi solo *(mettergli, passato remoto)* __(9)__ addosso tanta malinconia, che *(stare, indicativo imperfetto)* __(10)__ lì lì per piangere; quando tutt’a un tratto vide passare un grosso pesce, che *(andarsene, indicativo imperfetto)* __(11)__ con tutta la testa fuori dell’acqua.\n\nNon *(sapere, gerundio presente)* __(12)__ come chiamarlo per nome, il burattino *(gridargli, passato remoto)* __(13)__ a voce alta, per farsi sentire:\n\n— Ehi, signor pesce, che *(permettermi, condizionale presente, Lei)* __(14)__ una parola?\n\n— Anche due — *(rispondere, passato remoto)* __(15)__ il pesce, il quale *(essere, indicativo imperfetto)* __(16)__ un Delfino.\n\n— *(farmi, condizionale presente, Lei)* __(17)__ il piacere di dirmi se in quest’isola vi sono dei paesi dove *(potere, congiuntivo presente impersonale)* __(18)__ mangiare, senza pericolo d’esser mangiati?\n\n— Ve ne sono sicuro — rispose il Delfino. — Anzi, *(trovarne, futuro semplice, tu)* __(19)__ uno poco lontano di qui.\n\n— Mi dica un’altra cosa. Lei che passeggia tutto il giorno e tutta la notte per il mare, non *(incontrare, condizionale passato)* __(20)__ per caso una barchettina con dentro il mio babbo?"
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | AVER GUARDATO / AVERE GUARDATO | infinito passato | S2.11 | SE NE ANDAVA | indicativo imperfetto |\n| S2.2 | VIDE | indicativo passato remoto | S2.12 | SAPENDO | gerundio presente |\n| S2.3 | PAREVA | indicativo imperfetto | S2.13 | GLI GRIDÒ | indicativo passato remoto |\n| S2.4 | SAPESSI | congiuntivo imperfetto | S2.14 | MI PERMETTEREBBE | condizionale presente |\n| S2.5 | SI CHIAMA | indicativo presente | S2.15 | RISPOSE | indicativo passato remoto |\n| S2.6 | È ABITATA | indicativo presente passivo | S2.16 | ERA | indicativo imperfetto |\n| S2.7 | ABBIA | congiuntivo presente | S2.17 | MI FAREBBE | condizionale presente |\n| S2.8 | POSSO | indicativo presente | S2.18 | SI POSSA | congiuntivo presente |\n| S2.9 | GLI MISE | indicativo passato remoto | S2.19 | NE TROVERAI | indicativo futuro semplice |\n| S2.10 | STAVA | indicativo imperfetto | S2.20 | AVREBBE INCONTRATO | condizionale passato |",
+    "ANS_S2_NOTES": "- **S2.1**: Dopo introduce l’azione anteriore; il suggerimento richiede l’infinito passato attivo. 中文：dopo引出先发生的动作，提示要求主动过去不定式；aver和avere均可。 **S2.2**: Passato remoto di vedere, terza persona singolare riferita a Pinocchio. 中文：主语是匹诺曹，按提示用vedere的远过去时第三人称单数。 **S2.3**: L’imperfetto indicativo descrive l’aspetto della vela durante l’osservazione. 中文：未完成过去时描述观察时远处船帆的样子。 **S2.4**: Il congiuntivo imperfetto di sapere esprime il desiderio del parlante di conoscere il nome dell’isola. 中文：虚拟式未完成过去时表达“要是我知道就好了”的愿望。\n\n- **S2.5**: Il soggetto quest’isola è singolare; il pronome di chiamarsi resta dentro la risposta completa. 中文：主语岛屿为单数，完整答案必须包括si。 **S2.6**: Il verbo dato è essere abitato: al presente indicativo il soggetto isola richiede è abitata. 中文：给出的被动不定式为essere abitato，与阴性单数isola配合得到è abitata。 **S2.7**: Il suggerimento richiede il congiuntivo presente: gente è grammaticalmente singolare. 中文：按提示用虚拟式现在时，集合名词gente在语法上是单数。 **S2.8**: Nel discorso diretto Pinocchio parla di sé; l’indicativo presente di potere è posso. 中文：直接引语中匹诺曹指自己，potere用第一人称单数现在时。\n\n- **S2.9**: Il soggetto è quest’idea; il passato remoto moderno è mise e gli, presente nel lemma, va riportato. 中文：主语是这个想法，mettere的远过去时为mise，同时写出提示中的间接宾语代词gli。 **S2.10**: L’indicativo imperfetto di stare descrive la condizione emotiva in corso. 中文：未完成过去时表示当时持续的情绪状态。 **S2.11**: Andarsene richiede se ne andava: entrambi i clitici appartengono alla forma da scrivere. 中文：andarsene的完整形式为se ne andava，两个代词都要写入。 **S2.12**: Il gerundio presente di sapere è sapendo e ha lo stesso soggetto di gridò. 中文：sapere的现在副动词为sapendo，与后句共享主语。\n\n- **S2.13**: Il soggetto il burattino impone gridò; gli è l’indiretto già incluso in gridargli. 中文：主语木偶对应gridò；gridargli所含的gli也必须保留。 **S2.14**: Il suggerimento Lei fissa la terza persona; il condizionale presente cortese è mi permetterebbe. 中文：提示Lei固定第三人称，用礼貌条件式，并保留mi。 **S2.15**: Il pesce è soggetto singolare; il passato remoto di rispondere è rispose. 中文：主语鱼为单数，rispondere的远过去时为rispose。 **S2.16**: Il suggerimento impone l’indicativo imperfetto di essere: era, con il soggetto il quale. 中文：提示指定essere的陈述式未完成过去时，因此用era。\n\n- **S2.17**: La forma cortese è mi farebbe, alla terza persona per Lei, con il clitico dato in farmi. 中文：礼貌条件式用第三人称farebbe，并写出farmi中的mi。 **S2.18**: La forma richiesta è impersonale al congiuntivo presente: si possa, con si dentro il vuoto. 中文：提示要求虚拟式现在时的无人称形式，完整写为si possa。 **S2.19**: Il suggerimento tu fissa troverai; ne riprende uno dei paesi ed è incluso nel lemma trovarne. 中文：提示tu固定troverai，ne指前述村镇中的一个，必须包含在答案中。 **S2.20**: Il soggetto esplicito Lei e il condizionale passato richiedono avrebbe incontrato. 中文：显式主语Lei加过去条件式，得到avrebbe incontrato。"
+  },
+  "key": {
+    "S2.1": "AVER GUARDATO || AVERE GUARDATO",
+    "S2.2": "VIDE",
+    "S2.3": "PAREVA",
+    "S2.4": "SAPESSI",
+    "S2.5": "SI CHIAMA",
+    "S2.6": "È ABITATA",
+    "S2.7": "ABBIA",
+    "S2.8": "POSSO",
+    "S2.9": "GLI MISE",
+    "S2.10": "STAVA",
+    "S2.11": "SE NE ANDAVA",
+    "S2.12": "SAPENDO",
+    "S2.13": "GLI GRIDÒ",
+    "S2.14": "MI PERMETTEREBBE",
+    "S2.15": "RISPOSE",
+    "S2.16": "ERA",
+    "S2.17": "MI FAREBBE",
+    "S2.18": "SI POSSA",
+    "S2.19": "NE TROVERAI",
+    "S2.20": "AVREBBE INCONTRATO"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "di garbo",
+      "categoria": "locuzione aggettivale",
+      "zh": "有礼貌的",
+      "en": "well-mannered",
+      "esempio": "gente di garbo"
+    },
+    {
+      "parola": "malinconia",
+      "categoria": "nome femminile",
+      "zh": "忧郁，惆怅",
+      "en": "melancholy",
+      "esempio": "tanta malinconia"
+    },
+    {
+      "parola": "lì lì per",
+      "categoria": "locuzione avverbiale",
+      "zh": "眼看就要",
+      "en": "on the verge of",
+      "esempio": "stava lì lì per piangere"
+    },
+    {
+      "parola": "per caso",
+      "categoria": "locuzione avverbiale",
+      "zh": "偶然，碰巧",
+      "en": "by chance",
+      "esempio": "non avrebbe incontrato per caso una barchettina"
+    },
+    {
+      "parola": "dirmi",
+      "categoria": "infinito con pronome",
+      "zh": "告诉我",
+      "en": "to tell me",
+      "esempio": "Mi farebbe il piacere di dirmi"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "answers": {
+    "L1.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.4": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L1.5": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.6": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.7": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L2.1": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.2": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.3": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.4": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.5": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.6": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.7": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.8": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.9": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.10": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.11": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.12": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.13": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.14": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.2": {
+      "answer": "G",
+      "confidence": "hi"
+    },
+    "L3.3": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L3.4": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "L3.5": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L3.6": {
+      "answer": "K",
+      "confidence": "hi"
+    },
+    "L3.7": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.8": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L3.9": {
+      "answer": "J",
+      "confidence": "hi"
+    },
+    "L3.10": {
+      "answer": "E",
+      "confidence": "hi"
+    },
+    "L3.11": {
+      "answer": "H",
+      "confidence": "hi"
+    },
+    "S1.1": {
+      "answer": "L'",
+      "confidence": "hi"
+    },
+    "S1.2": {
+      "answer": "ME",
+      "confidence": "hi"
+    },
+    "S1.3": {
+      "answer": "LO",
+      "confidence": "hi"
+    },
+    "S1.4": {
+      "answer": "SI",
+      "confidence": "hi"
+    },
+    "S1.5": {
+      "answer": "PRIMA",
+      "confidence": "hi"
+    },
+    "S1.6": {
+      "answer": "CHE",
+      "confidence": "hi"
+    },
+    "S1.7": {
+      "answer": "IO",
+      "confidence": "hi"
+    },
+    "S1.8": {
+      "answer": "MIO",
+      "confidence": "hi"
+    },
+    "S1.9": {
+      "answer": "LO",
+      "confidence": "hi"
+    },
+    "S1.10": {
+      "answer": "OGNI",
+      "confidence": "hi"
+    },
+    "S1.11": {
+      "answer": "NE",
+      "confidence": "hi"
+    },
+    "S1.12": {
+      "answer": "TUTTO",
+      "confidence": "hi"
+    },
+    "S1.13": {
+      "answer": "UNO",
+      "confidence": "hi"
+    },
+    "S1.14": {
+      "answer": "VOSTRA",
+      "confidence": "hi"
+    },
+    "S1.15": {
+      "answer": "CHE",
+      "confidence": "hi"
+    },
+    "S1.16": {
+      "answer": "DI CUI",
+      "confidence": "hi"
+    },
+    "S1.17": {
+      "answer": "SI",
+      "confidence": "hi"
+    },
+    "S1.18": {
+      "answer": "SE",
+      "confidence": "hi"
+    },
+    "S1.19": {
+      "answer": "NE",
+      "confidence": "hi"
+    },
+    "S1.20": {
+      "answer": "CHE",
+      "confidence": "hi"
+    },
+    "S2.1": {
+      "answer": "AVER GUARDATO",
+      "confidence": "hi"
+    },
+    "S2.2": {
+      "answer": "VIDE",
+      "confidence": "hi"
+    },
+    "S2.3": {
+      "answer": "PAREVA",
+      "confidence": "hi"
+    },
+    "S2.4": {
+      "answer": "SAPESSI",
+      "confidence": "hi"
+    },
+    "S2.5": {
+      "answer": "SI CHIAMA",
+      "confidence": "hi"
+    },
+    "S2.6": {
+      "answer": "È ABITATA",
+      "confidence": "hi"
+    },
+    "S2.7": {
+      "answer": "ABBIA",
+      "confidence": "hi"
+    },
+    "S2.8": {
+      "answer": "POSSO",
+      "confidence": "hi"
+    },
+    "S2.9": {
+      "answer": "GLI MISE",
+      "confidence": "hi"
+    },
+    "S2.10": {
+      "answer": "STAVA",
+      "confidence": "hi"
+    },
+    "S2.11": {
+      "answer": "SE NE ANDAVA",
+      "confidence": "hi"
+    },
+    "S2.12": {
+      "answer": "SAPENDO",
+      "confidence": "hi"
+    },
+    "S2.13": {
+      "answer": "GLI GRIDÒ",
+      "confidence": "hi"
+    },
+    "S2.14": {
+      "answer": "MI PERMETTEREBBE",
+      "confidence": "hi"
+    },
+    "S2.15": {
+      "answer": "RISPOSE",
+      "confidence": "hi"
+    },
+    "S2.16": {
+      "answer": "ERA",
+      "confidence": "hi"
+    },
+    "S2.17": {
+      "answer": "MI FAREBBE",
+      "confidence": "hi"
+    },
+    "S2.18": {
+      "answer": "SI POSSA",
+      "confidence": "hi"
+    },
+    "S2.19": {
+      "answer": "NE TROVERAI",
+      "confidence": "hi"
+    },
+    "S2.20": {
+      "answer": "AVREBBE INCONTRATO",
+      "confidence": "hi"
+    },
+    "S3.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.2": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.4": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.5": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.6": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.7": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.8": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.9": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.10": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.11": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.12": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.13": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.14": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.15": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S4.1": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S4.2": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S4.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S4.4": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S4.5": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S4.6": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S4.7": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S4.8": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S4.9": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S4.10": {
+      "answer": "B",
+      "confidence": "hi"
+    }
+  },
+  "flags": [
+    {
+      "item_id": "S1.3",
+      "reason": "LO is the most natural answer, but NE is also defensible if the clause is construed with ricordarsi di (non me ne ricordo). The open instruction does not explicitly fix the construction."
+    },
+    {
+      "item_id": "S1.6",
+      "reason": "CHE and IN CUI both fit la prima volta ... sono andato. No one-word restriction or relative-pronoun cue excludes IN CUI."
+    },
+    {
+      "item_id": "S1.15",
+      "reason": "CHE is the natural answer; I QUALI is also a grammatical relative-pronoun completion agreeing with punti deboli significativi. The gap has no word-count restriction."
+    },
+    {
+      "item_id": "S1.16",
+      "reason": "DI CUI and DEI QUALI are both grammatical completions of quelli ... si parla tante volte."
+    },
+    {
+      "item_id": "S1.20",
+      "reason": "CHE is the natural answer; LE QUALI is also a grammatical relative-pronoun completion agreeing with cose specifiche."
+    }
+  ],
+  "writing_checks": {
+    "W1": {
+      "self_contained": true,
+      "level": "B2-appropriate",
+      "range_or_duration": "120–140 words",
+      "check": "The audience, review genre, event premise and required description, balanced evaluation and improvement proposal are explicit. No external source is needed."
+    },
+    "W2": {
+      "self_contained": true,
+      "level": "B2-appropriate",
+      "range_or_duration": "80–100 words",
+      "check": "The formal email recipient, purpose and all information requests are specified. Personal motivation and cooking experience can be supplied by the candidate. The range is tight but feasible."
+    },
+    "O1": {
+      "self_contained": true,
+      "level": "B2-appropriate",
+      "range_or_duration": "Approximately 2–3 minutes",
+      "check": "Four independent topics support personal explanation, narration, comparison and hypothetical responses. The examiner-dialogue format and choice of one topic are explicit."
+    },
+    "O2": {
+      "self_contained": true,
+      "level": "B2-appropriate",
+      "range_or_duration": "Approximately 1.5 minutes",
+      "check": "Four independent monologue topics provide clear development points, personal or hypothetical content, and enough scope for the stated duration."
+    }
+  }
+}

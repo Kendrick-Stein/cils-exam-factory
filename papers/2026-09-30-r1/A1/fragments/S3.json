@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Caricare telefono, tablet e PC",
+    "S3_TEXT_WITH_GAPS": "La __biblioteca (0)__ Salaborsa mette a __(1)__ strumenti per __(2)__ e utilizzare i tuoi __(3)__ elettronici. La maggior parte delle postazioni di __(4)__ ha __(5)__ elettriche per la ricarica. Sono nei tavoli della sala studio al primo piano e nei tavoli del ballatoio al secondo piano.\n\nCi sono anche quattro __(6)__ di ricarica, di uso libero e collegati alla rete __(7)__. Puoi trovarli al piano terra in Piazza Coperta, davanti alla sala bebè, e al primo piano davanti alla sala studio. Durante la ricarica, ti consigliamo di non lasciare mai i dispositivi senza __(8)__.",
+    "S3_OPT0_A": "biblioteca",
+    "S3_OPT0_B": "farmacia",
+    "S3_OPT0_C": "palestra",
+    "S3_OPTION_ROWS": "| 1. | confronto | disposizione | riposo |\n| 2. | vendere | riparare | caricare |\n| 3. | dispositivi | documenti | messaggi |\n| 4. | cottura | lettura | partenza |\n| 5. | lampade | porte | prese |\n| 6. | punti | libri | corsi |\n| 7. | stradale | elettrica | ferroviaria |\n| 8. | controllo | rumore | riposo |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Mettere a disposizione» significa offrire strumenti che le persone possono usare. “提供”某物供人使用。 |\n| S3.2 | C | Le prese e i punti di ricarica servono a caricare gli apparecchi, non a venderli o ripararli. 插座和充电点用于给设备充电。 |\n| S3.3 | A | Telefono, tablet e PC sono dispositivi elettronici; documenti e messaggi non si ricaricano. 手机、平板和电脑都是电子设备。 |\n| S3.4 | B | Le postazioni nei tavoli della sala studio sono postazioni di lettura. 自习室桌旁的座位供阅读使用。 |\n| S3.5 | C | Per la ricarica servono prese elettriche, non lampade o porte. 充电需要电源插座。 |\n| S3.6 | A | Luoghi attrezzati per caricare i dispositivi sono «punti di ricarica»; libri e corsi non si collegano alla rete elettrica. “充电点”指配有充电设施的地方。 |\n| S3.7 | B | Per caricare i dispositivi i punti sono collegati alla rete elettrica, non a una rete di strade o ferrovie. 充电设施接入的是电网。 |\n| S3.8 | A | «Senza controllo» significa che nessuno sorveglia i dispositivi durante la ricarica. “无人看管”是这里提醒避免的情况。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "B",
+    "S3.5": "C",
+    "S3.6": "A",
+    "S3.7": "B",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mettere a disposizione",
+      "categoria": "espressione verbale",
+      "zh": "提供；供使用",
+      "en": "to make available",
+      "esempio": "La biblioteca Salaborsa mette a disposizione strumenti per caricare e utilizzare i tuoi dispositivi elettronici."
+    },
+    {
+      "parola": "caricare",
+      "categoria": "verbo",
+      "zh": "充电",
+      "en": "to charge",
+      "esempio": "La biblioteca Salaborsa mette a disposizione strumenti per caricare e utilizzare i tuoi dispositivi elettronici."
+    },
+    {
+      "parola": "prese elettriche",
+      "categoria": "espressione nominale",
+      "zh": "电源插座",
+      "en": "electrical sockets",
+      "esempio": "La maggior parte delle postazioni di lettura ha prese elettriche per la ricarica."
+    },
+    {
+      "parola": "piano terra",
+      "categoria": "espressione nominale",
+      "zh": "底层；地面层",
+      "en": "ground floor",
+      "esempio": "Puoi trovarli al piano terra in Piazza Coperta, davanti alla sala bebè, e al primo piano davanti alla sala studio."
+    },
+    {
+      "parola": "senza controllo",
+      "categoria": "espressione",
+      "zh": "无人看管",
+      "en": "unattended",
+      "esempio": "Durante la ricarica, ti consigliamo di non lasciare mai i dispositivi senza controllo."
+    }
+  ]
+}

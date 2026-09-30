@@ -1,6 +1,6 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 91
+count: 103
 sources:
 - url: https://www.ansa.it/sito/notizie/cultura/tv/2026/05/25/storia-pop-100-pillole-rai-per-raccontare-il-passato-con-il-linguaggio_0ab765ec-c999-438b-8625-45ae21f1f320.html
   title: Storia Pop, 100 pillole Rai per raccontare il passato con il linguaggio di
@@ -1328,6 +1328,21 @@ sources:
   perishable_until: null
   fetch_intent: A2/T5
   source_file: factory/corpus/pool/f9c5db64fee4.md
+- url: https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
+  title: Giovanni De Mauro racconta il suo rapporto con Wikipedia
+  publisher: Wikinotizie / Wiki@Home
+  published: '2009-05-09'
+  fetched: '2026-09-30'
+  genre: interview
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 250
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/T4; license=CC BY 4.0; evidence=https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
+  source_file: factory/corpus/pool/7e3789a97e07.md
 - url: https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
   title: Intervista a Luca Botturi — il lavoro e la famiglia
   publisher: Wikinotizie
@@ -1343,6 +1358,98 @@ sources:
   perishable_until: null
   fetch_intent: A1/T5
   source_file: factory/corpus/pool/be7c460d8509.md
+- url: https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan
+  title: Intervista a Mario Furlan
+  publisher: Wikinotizie
+  published: '2023-01-30'
+  fetched: '2026-09-30'
+  genre: interview
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 657
+  perishable: false
+  perishable_until: null
+  fetch_intent: B1/T1
+  source_file: factory/corpus/pool/eb97c97012b6.md
+- url: https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo
+  title: Intervista a Vincent Russo
+  publisher: Wikinotizie
+  published: '2023-06-12'
+  fetched: '2026-09-30'
+  genre: interview
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 777
+  perishable: false
+  perishable_until: null
+  fetch_intent: B1/T5
+  source_file: factory/corpus/pool/28cc2c248340.md
+- url: https://it.wikipedia.org/wiki/Bibliobus
+  title: Bibliobus
+  publisher: Wikipedia in italiano
+  published: null
+  fetched: '2026-09-30'
+  genre: culture_science
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 485
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/T1; license=CC BY-SA 4.0; evidence=https://it.wikipedia.org/wiki/Bibliobus
+  source_file: factory/corpus/pool/264aed414e92.md
+- url: https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
+  title: Cuore — Il piccolo scrivano fiorentino
+  publisher: Wikisource; edizione di Cuore del 1889
+  published: '1886'
+  fetched: '2026-09-30'
+  genre: literature_public_domain
+  cefr: C1
+  usable_levels:
+  - B2
+  - C1
+  words: 395
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/T3; license=CC BY-SA 3.0 (dichiarazione specifica del testo); opera
+    originale di pubblico dominio; evidence=https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
+  source_file: factory/corpus/pool/fe8885df07f7.md
+- url: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_24
+  title: Pinocchio arriva all’isola delle Api industriose
+  publisher: Wikisource; edizione Bemporad del 1892
+  published: 1881–1883
+  fetched: '2026-09-30'
+  genre: literature_public_domain
+  cefr: B2
+  usable_levels:
+  - B2
+  - C1
+  words: 250
+  perishable: false
+  perishable_until: null
+  fetch_intent: B2/T5; license=CC BY-SA 3.0 (dichiarazione specifica del testo); opera
+    originale di pubblico dominio; evidence=https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_24
+  source_file: factory/corpus/pool/0bc761873a9a.md
+- url: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9
+  title: Le avventure di Pinocchio (1892), Capitolo IX
+  publisher: Wikisource
+  published: '1892'
+  fetched: '2026-09-30'
+  genre: literature_public_domain
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 653
+  perishable: false
+  perishable_until: null
+  fetch_intent: B1/T3-second-live-attempt
+  source_file: factory/corpus/pool/58ecdd35aca4.md
 - url: https://it.wikivoyage.org/wiki/Bari
   title: Bari — quattro schede di servizi
   publisher: Wikivoyage
@@ -1373,6 +1480,20 @@ sources:
   perishable_until: null
   fetch_intent: A2/T3,A2/T6
   source_file: factory/corpus/pool/5dc0d9dba313.md
+- url: https://it.wikivoyage.org/wiki/Viaggiare_in_treno_in_Europa
+  title: Viaggiare in treno in Europa — Pianificare il viaggio e abbonamenti ferroviari
+  publisher: Wikivoyage in italiano
+  published: null
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: B2
+  usable_levels:
+  - B2
+  words: 486
+  perishable: true
+  perishable_until: null
+  fetch_intent: B2/T2; license=CC BY-SA 4.0; evidence=https://it.wikivoyage.org/wiki/Viaggiare_in_treno_in_Europa
+  source_file: factory/corpus/pool/273b1141f838.md
 - url: https://www.bibliotecasalaborsa.it/documents/caricare-telefono-tablet-e-pc
   title: Caricare telefono, tablet e PC
   publisher: Biblioteca Salaborsa / Comune di Bologna
@@ -1433,3 +1554,66 @@ sources:
   perishable_until: null
   fetch_intent: A1/T2
   source_file: factory/corpus/pool/701ee6bbb1ec.md
+- url: https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+  title: 'Fotografa la cultura, condividila con il mondo: al via Wiki Loves Monuments
+    2026'
+  publisher: Wikimedia Italia
+  published: '2026-09-01'
+  fetched: '2026-09-30'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 204
+  perishable: true
+  perishable_until: '2026-09-30'
+  fetch_intent: B2/T6; license=CC BY-SA 3.0; evidence=https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+  source_file: factory/corpus/pool/0daa61a9aa78.md
+- url: https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/
+  title: 'Le fontanelle nelle città italiane: il progetto di OpenStreetMap Italia
+    si rivela un servizio per la comunità'
+  publisher: Wikimedia Italia
+  published: '2026-07-24'
+  fetched: '2026-09-30'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 269
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T4
+  source_file: factory/corpus/pool/b7fa7302c41f.md
+- url: https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/
+  title: Wiki Loves Monuments 2026 – Regolamento
+  publisher: Wikimedia Italia
+  published: '2026-07-08'
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 1696
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T2
+  source_file: factory/corpus/pool/244b5c7d7e52.md
+- url: https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/
+  title: 'Wikipedia per i beni culturali: il laboratorio Wikimedia all’Università
+    degli Studi di Milano'
+  publisher: Wikimedia Italia
+  published: '2026-09-10'
+  fetched: '2026-09-30'
+  genre: news_general
+  cefr: B2
+  usable_levels:
+  - B1
+  - B2
+  words: 870
+  perishable: true
+  perishable_until: null
+  fetch_intent: B1/T6
+  source_file: factory/corpus/pool/54a71910e744.md

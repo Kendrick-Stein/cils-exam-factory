@@ -1,0 +1,71 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "VIAGGIARE IN TRENO IN EUROPA",
+    "T2_TEXT": "Le ferrovie nazionali tedesche dispongono del comodissimo router Deutsche Bahn, che copre quasi l'intera rete ferroviaria europea (e non solo), oltre a collegamenti con autobus, metropolitana e traghetti in Germania. Primo nel suo genere, è stato introdotto negli anni '90. Sono disponibili informazioni sui prezzi per i viaggi in treno che partono o arrivano in Germania. Per i prezzi su altre tratte è comunque necessario consultare i siti web nazionali; la maggior parte dei paesi dispone di orari e pianificatori di viaggio disponibili sui siti delle proprie ferrovie nazionali.\n\nA livello locale, consultate gli orari di partenza pubblicati in alcune stazioni. Il personale alla biglietteria potrebbe aiutarvi a pianificare il vostro viaggio. La maggior parte delle biglietterie automatiche fornirà anche informazioni sugli orari, sebbene i dettagli possano variare. Il servizio sul sito web delle ferrovie o al telefono varia da paese a paese, ma può essere molto comodo.\n\nUn sito web prezioso per pianificare i viaggi in treno è Seat61.com. Non è un'azienda o un'agenzia di viaggi, ma un sito personale. Tuttavia, offre una delle guide più complete su tutti gli aspetti del viaggio in treno. Se desiderate un orario cartaceo da portare con voi, valutate l'acquisto di un orario ferroviario europeo.\n\nPrestate particolare attenzione quando pianificate un viaggio a dicembre, poiché è il periodo in cui molti paesi europei apportano il principale cambiamento di orario dell'anno. Il giorno del cambio e per alcuni giorni successivi, le reti potrebbero subire ritardi aggiuntivi, poiché i sistemi e i passeggeri abituali si stanno adattando al nuovo regime. In questo periodo si verificano anche aumenti tariffari generali.\n\nSe avete esigenze particolari, ad esempio se viaggiate con disabilità, con bambini, con la bici o con animali domestici, potreste voler consultare le singole compagnie ferroviarie per consigli e servizi. I servizi possono variare notevolmente a seconda del tipo di treno e del paese. Alcuni treni dispongono di servizi igienici accessibili e aree gioco o di intrattenimento per bambini, e gli animali domestici potrebbero essere ammessi solo in alcuni scompartimenti. Anche la capacità di biciclette e passeggini varia. Sulle tratte a lungo raggio potreste aver bisogno di vagoni letto, vagoni ristorante o snack (propri o acquistati a bordo). Portare cibo e bevande sui treni a lunga percorrenza è del tutto normale, previsto e generalmente una buona idea.\n\nSe state pianificando un viaggio più lungo con molte fermate, soprattutto se non vi piace un itinerario fisso, un pass ferroviario potrebbe essere la scelta migliore. Il pass ferroviario vi consente di viaggiare illimitatamente per un numero di giorni specificato (non vi piace la città? Prendete il primo treno in partenza) o per un numero specificato di \"segmenti\" entro un determinato periodo di tempo. Esistono pass ferroviari per quasi tutti i paesi europei, così come pass globali per tutta l'Europa. Tenete presente, tuttavia, che la maggior parte dei treni in alcuni paesi richiede la prenotazione del posto (a volte costosa) non inclusa nel pass.",
+    "L2_ITEMS": "**1.** Il pianificatore Deutsche Bahn comprende, per la Germania, collegamenti ferroviari e collegamenti con altri mezzi di trasporto.\n\nVero ○ Falso ○\n\n**2.** Per i prezzi di una tratta che non parte né arriva in Germania, la guida rimanda ai siti ferroviari nazionali.\n\nVero ○ Falso ○\n\n**3.** Le biglietterie automatiche danno informazioni sugli orari soltanto in una minoranza di casi.\n\nVero ○ Falso ○\n\n**4.** L’assistenza attraverso il sito delle ferrovie o il telefono viene presentata come un servizio uniforme nei diversi paesi.\n\nVero ○ Falso ○\n\n**5.** Seat61.com è il sito di un’agenzia di viaggi specializzata nei percorsi ferroviari.\n\nVero ○ Falso ○\n\n**6.** Chi desidera portare con sé gli orari su carta può valutare l’acquisto di un orario ferroviario europeo.\n\nVero ○ Falso ○\n\n**7.** Durante il cambio d’orario di dicembre, ritardi aggiuntivi possono verificarsi anche nei giorni successivi alla modifica.\n\nVero ○ Falso ○\n\n**8.** Gli aumenti tariffari citati si verificano in un periodo diverso da quello del principale cambio d’orario.\n\nVero ○ Falso ○\n\n**9.** Chi ha esigenze particolari può trovare utile consultare la compagnia, poiché i servizi dipendono dal tipo di treno e dal paese.\n\nVero ○ Falso ○\n\n**10.** Gli animali domestici possono viaggiare in qualsiasi scompartimento del treno che li ammette.\n\nVero ○ Falso ○\n\n**11.** Sui percorsi a lunga distanza, comprare snack a bordo è un’alternativa a portarli con sé.\n\nVero ○ Falso ○\n\n**12.** Un pass ferroviario può risultare utile a chi preferisce non fissare rigidamente le tappe del viaggio.\n\nVero ○ Falso ○\n\n**13.** Un pass che consente viaggi illimitati per un certo numero di giorni rimane valido senza limiti di tempo.\n\nVero ○ Falso ○\n\n**14.** Il costo del pass comprende la prenotazione obbligatoria del posto sui treni per i quali essa è richiesta.\n\nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo include autobus, metropolitana e traghetti in Germania, oltre alla rete ferroviaria. 中文：该工具的德国交通信息不局限于火车。 |\n| L2.2 | Vero | La copertura degli itinerari è ampia, ma per i prezzi su «altre tratte» occorre consultare i siti nazionali. 中文：线路覆盖范围广，不代表票价信息覆盖范围同样广。 |\n| L2.3 | Falso | La guida dice «la maggior parte delle biglietterie automatiche», non una minoranza; possono variare i dettagli. 中文：多数机器提供时刻信息，变化的是具体细节。 |\n| L2.4 | Falso | Il servizio «varia da paese a paese», pur potendo essere molto comodo. 中文：便利性不等于各国服务完全一致。 |\n| L2.5 | Falso | È definito un sito personale, e il testo precisa che non è un’azienda né un’agenzia di viaggi. 中文：内容专业并不意味着它是旅行社网站。 |\n| L2.6 | Vero | La guida propone proprio l’acquisto di un orario europeo per chi vuole una copia cartacea da portare con sé. 中文：想携带纸质时刻表，可以考虑购买欧洲铁路时刻表。 |\n| L2.7 | Vero | L’adattamento riguarda il giorno del cambio «e per alcuni giorni successivi». 中文：额外延误可能持续到调整后的几天，而非仅发生在当天。 |\n| L2.8 | Falso | Dopo aver descritto il cambio d’orario, il testo aggiunge «In questo periodo» per gli aumenti tariffari. 中文：票价上调与主要时刻调整发生在同一时期。 |\n| L2.9 | Vero | Il consiglio di consultare le singole compagnie è seguito dalla spiegazione che i servizi possono variare notevolmente. 中文：应咨询具体铁路公司，因为服务不能按统一标准想当然。 |\n| L2.10 | Falso | La guida avverte che potrebbero essere ammessi «solo in alcuni scompartimenti». 中文：允许携带宠物不等于所有车厢都允许。 |\n| L2.11 | Vero | Gli snack possono essere «propri o acquistati a bordo»; portare cibo e bevande è inoltre descritto come normale. 中文：自带与车上购买是两种可选方式。 |\n| L2.12 | Vero | Il pass è consigliato soprattutto a chi non ama un itinerario fisso; l’esempio permette di ripartire se una città non piace. 中文：通票有利于灵活改变停留地点。 |\n| L2.13 | Falso | «Illimitatamente» riguarda i viaggi, mentre i giorni sono «specificati»; l’assenza di limite ai viaggi non elimina il limite temporale. 中文：不限乘车次数，不等于有效期无限。 |\n| L2.14 | Falso | La prenotazione del posto può essere obbligatoria e costosa, ma viene indicata come «non inclusa nel pass». 中文：通票可能仍需另行付费订座。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "V || Vero",
+    "L2.3": "F || Falso",
+    "L2.4": "F || Falso",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso",
+    "L2.9": "V || Vero",
+    "L2.10": "F || Falso",
+    "L2.11": "V || Vero",
+    "L2.12": "V || Vero",
+    "L2.13": "F || Falso",
+    "L2.14": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tratte",
+      "categoria": "nome femminile plurale",
+      "zh": "线路区段",
+      "en": "routes; sections",
+      "esempio": "Per i prezzi su altre tratte è comunque necessario consultare i siti web nazionali"
+    },
+    {
+      "parola": "aumenti tariffari",
+      "categoria": "locuzione nominale",
+      "zh": "票价上涨",
+      "en": "fare increases",
+      "esempio": "In questo periodo si verificano anche aumenti tariffari generali."
+    },
+    {
+      "parola": "scompartimenti",
+      "categoria": "nome maschile plurale",
+      "zh": "车厢隔间",
+      "en": "compartments",
+      "esempio": "gli animali domestici potrebbero essere ammessi solo in alcuni scompartimenti"
+    },
+    {
+      "parola": "a lungo raggio",
+      "categoria": "locuzione aggettivale",
+      "zh": "长距离的",
+      "en": "long-distance",
+      "esempio": "Sulle tratte a lungo raggio potreste aver bisogno di vagoni letto"
+    },
+    {
+      "parola": "itinerario fisso",
+      "categoria": "locuzione nominale",
+      "zh": "固定行程",
+      "en": "fixed itinerary",
+      "esempio": "soprattutto se non vi piace un itinerario fisso, un pass ferroviario potrebbe essere la scelta migliore"
+    },
+    {
+      "parola": "prenotazione del posto",
+      "categoria": "locuzione nominale",
+      "zh": "座位预订",
+      "en": "seat reservation",
+      "esempio": "la maggior parte dei treni in alcuni paesi richiede la prenotazione del posto"
+    }
+  ]
+}

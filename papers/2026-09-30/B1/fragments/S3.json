@@ -1,0 +1,76 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Wikipedia per i beni culturali: un laboratorio a Milano",
+    "S3_TEXT_WITH_GAPS": "Dal 13 giugno al 1° agosto 2026 si è svolta la settima edizione del __(0)__ “I progetti Wikimedia per i beni culturali”, inserito nel Master dell’Università degli Studi di Milano. L’attività __(1)__ 27 studenti e ha proposto un percorso __(2)__ dedicato all’utilizzo di Wikipedia per la diffusione del __(3)__ culturale.\n\nIl laboratorio, svolto interamente online in diretta, ha accompagnato gli studenti dalla conoscenza delle principali __(4)__ di Wikipedia fino alla realizzazione e __(5)__ di contenuti enciclopedici.\n\nOgni partecipante ha scelto un __(6)__ su cui lavorare. Gli studenti hanno continuato a sviluppare le proprie voci, lavorando in particolare sull’utilizzo delle __(7)__ e sulla corretta organizzazione di note e __(8)__. Una parte importante della lezione è stata dedicata al __(9)__ d’autore, alle immagini in pubblico __(10)__ e alle licenze libere.\n\nPrima della pubblicazione, gli studenti hanno avuto la possibilità di sottoporre più volte le proprie __(11)__ alla __(12)__ dei docenti, intervenendo sui contenuti, sulle fonti, sulla struttura e sugli aspetti __(13)__.\n\nIl lavoro ha prodotto 16 voci ampliate, 9 nuove voci __(14)__ e 2 voci __(15)__ da altre lingue. Tra gli argomenti affrontati figurano opere letterarie, artisti, edifici e complessi monumentali, istituzioni culturali e opere d’arte.",
+    "S3_OPT0_A": "laboratorio",
+    "S3_OPT0_B": "concerto",
+    "S3_OPT0_C": "convegno",
+    "S3_OPT0_D": "festival",
+    "S3_OPTION_ROWS": "| 1. | ha assunto | ha coinvolto | ha trasferito | ha ricoverato |\n| 2. | turistico | commerciale | pratico | sportivo |\n| 3. | patrimonio | calendario | bilancio | indirizzo |\n| 4. | tariffe | scadenze | sedi | regole |\n| 5. | cancellazione | pubblicazione | vendita | sospensione |\n| 6. | contratto | alloggio | argomento | permesso |\n| 7. | fonti | tariffe | aule | sedi |\n| 8. | segreteria | cittadinanza | burocrazia | bibliografia |\n| 9. | biglietto | diritto | compenso | orario |\n| 10. | trasporto | concorso | dominio | impiego |\n| 11. | bozze | fatture | scadenze | buste |\n| 12. | partenza | distrazione | riduzione | revisione |\n| 13. | sportivi | sanitari | formali | turistici |\n| 14. | distrutte | create | ritirate | sospese |\n| 15. | tradotte | sospese | premiate | corrette |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Coinvolgere» significa far partecipare: gli studenti hanno seguito il percorso e scritto le voci. 中文：coinvolgere 表示让某人参与；学生参加课程并编写了条目。 |\n| S3.2 | C | Gli studenti hanno lavorato direttamente sui contenuti di Wikipedia: il percorso è quindi «pratico». 中文：学生亲自编写百科内容，因此这是实践性课程。 |\n| S3.3 | A | «Patrimonio culturale» indica l’insieme dei beni culturali, come le opere e gli edifici citati. 中文：patrimonio culturale 指文化遗产，包括文中提到的作品和建筑。 |\n| S3.4 | D | Per scrivere correttamente su Wikipedia occorre conoscerne le «regole». 中文：学习百科写作需要了解其规则，regole 与后面的写作活动相符。 |\n| S3.5 | B | Il percorso porta a rendere disponibili i contenuti; il testo descrive poi la preparazione «prima della pubblicazione». 中文：学生最终把内容发布到百科上；后文也明确提到发布前的步骤。 |\n| S3.6 | C | Si sceglie un «argomento» da sviluppare in una voce; in fondo sono elencati alcuni temi. 中文：为百科条目选择的是主题，后文列举了作品、艺术家等主题。 |\n| S3.7 | A | Le «fonti» forniscono le informazioni usate nella voce e vengono indicate nelle note e nella bibliografia. 中文：条目使用信息来源，并通过注释和参考书目列出来源。 |\n| S3.8 | D | Nella scrittura documentata si organizzano «note e bibliografia», cioè i riferimenti ai testi consultati. 中文：note e bibliografia 是注释和参考书目，属于有来源依据的写作。 |\n| S3.9 | B | Il «diritto d’autore» riguarda l’uso dei testi e delle immagini; il riferimento alle licenze conferma l’ambito. 中文：diritto d’autore 是版权，与后面提到的图片使用和许可相关。 |\n| S3.10 | C | «In pubblico dominio» è l’espressione usata per opere non più o non soggette a tutela del diritto d’autore. 中文：in pubblico dominio 表示属于公有领域，与版权和自由许可这一主题一致。 |\n| S3.11 | A | Prima di pubblicare le voci, gli studenti presentano ai docenti le «bozze», cioè versioni ancora da controllare. 中文：bozze 指待检查和修改的草稿，因此出现在正式发布之前。 |\n| S3.12 | D | «Sottoporre alla revisione» significa far controllare un testo: i docenti verificano contenuti, fonti e forma. 中文：sottoporre alla revisione 表示提交审核，教师会检查内容、来源和形式。 |\n| S3.13 | C | La revisione riguarda anche gli aspetti «formali», cioè il modo in cui il testo è presentato e scritto. 中文：formali 指文字表达和呈现形式，与内容、来源和结构一起接受审核。 |\n| S3.14 | B | Le nove voci sono «nuove» e fanno parte dei risultati prodotti: sono state «create». 中文：这九个条目是新条目，因此是创建出来的，而不是撤销或删除的。 |\n| S3.15 | A | «Da altre lingue» indica un passaggio da una lingua all’altra: le due voci sono state «tradotte». 中文：da altre lingue 明确表示从其他语言翻译而来。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "D",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "D",
+    "S3.9": "B",
+    "S3.10": "C",
+    "S3.11": "A",
+    "S3.12": "D",
+    "S3.13": "C",
+    "S3.14": "B",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "patrimonio culturale",
+      "categoria": "locuzione nominale",
+      "zh": "文化遗产",
+      "en": "cultural heritage",
+      "esempio": "per la diffusione del patrimonio culturale"
+    },
+    {
+      "parola": "in diretta",
+      "categoria": "locuzione avverbiale",
+      "zh": "实时；直播",
+      "en": "live",
+      "esempio": "svolto interamente online in diretta"
+    },
+    {
+      "parola": "fonti",
+      "categoria": "nome femminile plurale",
+      "zh": "信息来源；资料来源",
+      "en": "sources",
+      "esempio": "lavorando in particolare sull’utilizzo delle fonti"
+    },
+    {
+      "parola": "bibliografia",
+      "categoria": "nome femminile",
+      "zh": "参考书目",
+      "en": "bibliography",
+      "esempio": "sulla corretta organizzazione di note e bibliografia"
+    },
+    {
+      "parola": "bozze",
+      "categoria": "nome femminile plurale",
+      "zh": "草稿",
+      "en": "drafts",
+      "esempio": "sottoporre più volte le proprie bozze alla revisione dei docenti"
+    },
+    {
+      "parola": "revisione",
+      "categoria": "nome femminile",
+      "zh": "审核；修订",
+      "en": "review",
+      "esempio": "alla revisione dei docenti"
+    }
+  ]
+}

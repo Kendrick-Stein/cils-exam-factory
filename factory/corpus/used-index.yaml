@@ -1,7 +1,7 @@
 generated_by: scripts/build_used_index.py
 note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
   not edit by hand — regenerate.
-unique_sources: 570
+unique_sources: 582
 sources:
 - url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
   title: Bruschetta al pomodoro fresco
@@ -7154,9 +7154,14 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: off-whitelist
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
+    level: A2
+    prova: L1
+    words: 201
+    status: published
+  - date: 2026-09-30-r1
     level: A2
     prova: L1
     words: 201
@@ -7169,12 +7174,32 @@ sources:
     della fonte
   genre: off-whitelist
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
     level: A2
     prova: S2
     words: 121
+    status: published
+  - date: 2026-09-30-r1
+    level: A2
+    prova: S2
+    words: 121
+    status: published
+- url: https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
+  title: Giovanni De Mauro racconta il suo rapporto con Wikipedia
+  publisher: Wikinotizie / Wiki@Home; Sannita (intervistatore); Giovanni De Mauro
+    (risposte); contributori di Wikinotizie; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B2
+    prova: S1
+    words: 280
     status: published
 - url: https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
   title: Intervista a Luca Botturi — il lavoro e la famiglia
@@ -7184,12 +7209,107 @@ sources:
     con la stessa licenza della fonte
   genre: off-whitelist
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
     level: A1
     prova: S2
     words: 100
+    status: published
+  - date: 2026-09-30-r1
+    level: A1
+    prova: S2
+    words: 100
+    status: published
+- url: https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan
+  title: Intervista a Mario Furlan
+  publisher: Wikinotizie; Ferdi2005; Bramfab; Wikinotizie contributors; CC BY 4.0;
+    https://creativecommons.org/licenses/by/4.0/; estratto adattato con tagli e semplificazioni;
+    modifiche documentate nel manifest; adattamento distribuito con la stessa licenza
+    della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B1
+    prova: L1
+    words: 415
+    status: published
+- url: https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo
+  title: Intervista a Vincent Russo
+  publisher: Wikinotizie; Bramfab; Wikinotizie contributors; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B1
+    prova: S2
+    words: 237
+    status: published
+- url: https://it.wikipedia.org/wiki/Bibliobus
+  title: Bibliobus
+  publisher: Wikipedia in italiano; Contributori di Wikipedia; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B2
+    prova: L1
+    words: 484
+    status: published
+- url: https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
+  title: Cuore — Il piccolo scrivano fiorentino
+  publisher: Wikisource; edizione di Cuore del 1889; Edmondo De Amicis; trascrizione
+    dei contributori di Wikisource; CC BY-SA 3.0 (dichiarazione specifica del testo);
+    opera originale di pubblico dominio; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: literature_public_domain
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B2
+    prova: L3
+    words: 371
+    status: published
+- url: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_24
+  title: Pinocchio arriva all’isola delle Api industriose
+  publisher: Wikisource; edizione Bemporad del 1892; Carlo Collodi; trascrizione dei
+    contributori di Wikisource; CC BY-SA 3.0 (dichiarazione specifica del testo);
+    opera originale di pubblico dominio; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: literature_public_domain
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B2
+    prova: S2
+    words: 256
+    status: published
+- url: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9
+  title: Le avventure di Pinocchio (1892), Capitolo IX
+  publisher: Wikisource; Carlo Collodi; Wikisource contributors; CC BY-SA 3.0 (transcription);
+    underlying 1892 Collodi text public domain; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: literature_public_domain
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B1
+    prova: L3
+    words: 270
     status: published
 - url: https://it.wikivoyage.org/wiki/Bari
   title: Bari — quattro schede di servizi
@@ -7198,7 +7318,7 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: off-whitelist
   first_used: '2026-09-30'
-  times_used: 2
+  times_used: 4
   uses:
   - date: '2026-09-30'
     level: A1
@@ -7210,6 +7330,16 @@ sources:
     prova: S1
     words: 87
     status: published
+  - date: 2026-09-30-r1
+    level: A1
+    prova: L3
+    words: 95
+    status: published
+  - date: 2026-09-30-r1
+    level: A1
+    prova: S1
+    words: 87
+    status: published
 - url: https://it.wikivoyage.org/wiki/Catania
   title: Catania — sei servizi e attività
   publisher: Wikivoyage; Wikivoyage contributors; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
@@ -7217,7 +7347,7 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: off-whitelist
   first_used: '2026-09-30'
-  times_used: 2
+  times_used: 4
   uses:
   - date: '2026-09-30'
     level: A2
@@ -7229,6 +7359,30 @@ sources:
     prova: S3
     words: 112
     status: published
+  - date: 2026-09-30-r1
+    level: A2
+    prova: L3
+    words: 149
+    status: published
+  - date: 2026-09-30-r1
+    level: A2
+    prova: S3
+    words: 112
+    status: published
+- url: https://it.wikivoyage.org/wiki/Viaggiare_in_treno_in_Europa
+  title: Viaggiare in treno in Europa — Pianificare il viaggio e abbonamenti ferroviari
+  publisher: Wikivoyage in italiano; Contributori di Wikivoyage; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B2
+    prova: L2
+    words: 486
+    status: published
 - url: https://www.bibliotecasalaborsa.it/documents/bambini-e-ragazzi
   title: Bambini e ragazzi
   publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
@@ -7237,9 +7391,14 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: practical_realia
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
+    level: A1
+    prova: L1
+    words: 112
+    status: published
+  - date: 2026-09-30-r1
     level: A1
     prova: L1
     words: 112
@@ -7252,9 +7411,14 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: practical_realia
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
+    level: A1
+    prova: S3
+    words: 87
+    status: published
+  - date: 2026-09-30-r1
     level: A1
     prova: S3
     words: 87
@@ -7267,9 +7431,14 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: practical_realia
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
+    level: A2
+    prova: L2
+    words: 172
+    status: published
+  - date: 2026-09-30-r1
     level: A2
     prova: L2
     words: 172
@@ -7282,9 +7451,14 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: practical_realia
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
+    level: A2
+    prova: S1
+    words: 107
+    status: published
+  - date: 2026-09-30-r1
     level: A2
     prova: S1
     words: 107
@@ -7297,10 +7471,75 @@ sources:
     adattamento distribuito con la stessa licenza della fonte
   genre: practical_realia
   first_used: '2026-09-30'
-  times_used: 1
+  times_used: 2
   uses:
   - date: '2026-09-30'
     level: A1
     prova: L2
     words: 122
+    status: published
+  - date: 2026-09-30-r1
+    level: A1
+    prova: L2
+    words: 122
+    status: published
+- url: https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+  title: 'Fotografa la cultura, condividila con il mondo: al via Wiki Loves Monuments
+    2026'
+  publisher: Wikimedia Italia; Simona Cannataro / Wikimedia Italia; CC BY-SA 3.0;
+    https://creativecommons.org/licenses/by-sa/3.0/; estratto adattato con tagli e
+    semplificazioni; modifiche documentate nel manifest; adattamento distribuito con
+    la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B2
+    prova: S3
+    words: 191
+    status: published
+- url: https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/
+  title: 'Le fontanelle nelle città italiane: il progetto di OpenStreetMap Italia
+    si rivela un servizio per la comunità'
+  publisher: Wikimedia Italia; Adriana Marino; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B1
+    prova: S1
+    words: 250
+    status: published
+- url: https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/
+  title: Wiki Loves Monuments 2026 – Regolamento
+  publisher: Wikimedia Italia; Simona Cannataro; Wikimedia Italia; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B1
+    prova: L2
+    words: 312
+    status: published
+- url: https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/
+  title: 'Wikipedia per i beni culturali: il laboratorio Wikimedia all’Università
+    degli Studi di Milano'
+  publisher: Wikimedia Italia; Adriana Marino; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: B1
+    prova: S3
+    words: 184
     status: published

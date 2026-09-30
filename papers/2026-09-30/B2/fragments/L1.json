@@ -1,0 +1,64 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "BIBLIOBUS",
+    "T1_TEXT": "Un bibliobus o biblioteca mobile o biblioteca itinerante è un veicolo che contiene libri sistemati su scaffali in modo da consentirne l'accesso agli utenti quando è in sosta, come se fosse una biblioteca.\n\nIn conformità con le linee guida IFLA/UNESCO, il bibliobus spesso fornisce servizi bibliotecari a luoghi privi di edifici adibiti a biblioteche, situati in zone rurali o montane. Può raggiungere gruppi o singoli individui che abbiano difficoltà a recarsi in biblioteca, come gli ospiti delle case di riposo, o può essere destinato alla giocosa educazione alla lettura dei bambini. Alcuni bibliobus visitano le classi elementari in orario di lezione, fungendo in questo modo da biblioteche scolastiche.\n\nLa forma e le dimensioni del bibliobus possono variare. A volte vengono modificati degli autobus, spesso vengono utilizzati camion di diversa grandezza. Talvolta sono semplici rimorchi anche di grandi dimensioni, dotati di sistemi di incastro sostenuti da pistoni. Con tali mezzi di trasporto speciali vengono stabilite fermate in un itinerario preciso, con cadenze settimanali o più lunghe, in modo che l'utenza possa effettuare prestiti e restituzioni, prenotare titoli o usufruire dei servizi interbibliotecari.\n\nIn genere le collezioni offerte dai bibliobus sono organizzate e gestite da personale adeguatamente preparato. Oltre ai libri, un bibliobus può contenere documenti cartacei di grandi dimensioni, audiolibri, CD-ROM, videocassette, DVD ed attrezzature informatiche anche con accesso ad Internet.\n\nUna delle prime biblioteche mobili statunitensi fu quella creata nel 1904 dalla People's Free Library per le aree rurali della Contea di Chester (Carolina del Sud), costituita da un carro con contenitori in legno ricolmi di libri trainato da un mulo.\n\nUn'altra fra le prime biblioteche mobili statunitensi fu quella sviluppata da Mary Lemist Titcomb (1857–1932), bibliotecaria presso la Free Library della Contea di Washington (Maryland), che si rese conto di come la sua biblioteca non riuscisse a raggiungere tutte le persone che avrebbe potuto, in particolare nelle zone rurali. Non essendo stata efficace nemmeno la presenza di casse contenenti, ciascuna, collezioni di 50 libri disponibili presso le botteghe e gli uffici postali della contea, nel 1905 la Free Library predispose l'utilizzo di un carro che provvedesse alla distribuzione porta a porta anche nelle parti più remote della contea stessa.\n\nDurante i giorni della Works Progress Administration tra il 1936 ed il 1943, bibliotecari a cavallo o a piedi visitarono gli accessi più remoti del Kentucky e dei vicini Appalachi portando libri e documenti a chi non potesse raggiungere autonomamente una biblioteca. Talvolta facevano affidamento su un contatto centralizzato che li aiutava nella distribuzione.\n\nNel XXI secolo i bibliobus vengono ancora utilizzati da biblioteche, scuole, attivisti ed altre organizzazioni. Alcuni li trovano fuori moda a causa dei costi elevati e della loro scarsa funzionalità, mentre altri li considerano più convenienti rispetto alla costruzione di nuove biblioteche: la seconda tendenza è quella prevalente. Per venire incontro alle esigenze ambientali, alcuni produttori hanno effettuato modifiche per diminuire l'inquinamento, ricorrendo per esempio all'energia elettrica.",
+    "L1_ITEMS": "**1. Dagli esempi di destinatari emerge che la funzione principale del bibliobus è**\n\nA) riunire in un unico edificio lettori che vivono in territori molto distanti.\nB) avvicinare il servizio a chi incontra ostacoli geografici o personali nell’accedervi.\nC) riservare i servizi di lettura alle località che non possiedono biblioteche scolastiche.\nD) sostituire il personale delle biblioteche con insegnanti e operatori delle case di riposo.\n\n**2. La previsione di fermate periodiche lungo un itinerario preciso ha lo scopo di**\n\nA) spostare le raccolte verso una nuova destinazione dopo aver concluso ogni prestito.\nB) ridurre le soste nei piccoli centri per aumentare il tempo disponibile nelle città.\nC) permettere agli utenti di utilizzare con continuità servizi che richiedono più incontri.\nD) sostituire la prenotazione dei titoli con una scelta immediata dei libri disponibili.\n\n**3. La presenza di materiali diversi dai libri presenta il bibliobus come un servizio capace di**\n\nA) soddisfare esigenze informative che vanno oltre il prestito di volumi stampati.\nB) affidare agli utenti la gestione autonoma delle collezioni e delle attrezzature.\nC) convertire in formato digitale i documenti delle biblioteche visitate lungo il percorso.\nD) sostituire gradualmente le raccolte librarie con apparecchiature per la navigazione online.\n\n**4. Nell’esperienza avviata nella contea di Chester nel 1904, i libri venivano trasportati**\n\nA) da bibliotecari a piedi, con l’aiuto di un punto di distribuzione centralizzato.\nB) su camion adattati, destinati a collegare le scuole con la biblioteca cittadina.\nC) in casse collocate presso negozi e uffici postali dei centri rurali.\nD) su un carro trainato da un animale, con contenitori di legno a bordo.\n\n**5. La decisione presa dalla biblioteca di Mary Lemist Titcomb nel 1905 dipende dalla constatazione che**\n\nA) la consegna a domicilio richiedeva più risorse rispetto alla costruzione di nuove biblioteche.\nB) il prestito attraverso i negozi aveva creato una domanda superiore alla quantità di libri disponibili.\nC) depositare libri in luoghi di servizio non bastava a raggiungere adeguatamente gli abitanti.\nD) gli uffici postali erano più adatti dei carri a servire le zone lontane della contea.\n\n**6. Dal riferimento al contatto centralizzato utilizzato negli Appalachi si deduce che**\n\nA) i bibliotecari potevano contare su un sostegno organizzativo durante la distribuzione.\nB) gli abitanti dovevano raggiungere un unico ufficio per ottenere i libri richiesti.\nC) i bibliotecari lasciavano ai referenti locali il compito di visitare le aree più remote.\nD) la consegna dei documenti seguiva le stesse fermate settimanali dei bibliobus moderni.\n\n**7. Dal confronto tra le opinioni attuali sui bibliobus emerge che la loro convenienza**\n\nA) viene riconosciuta soprattutto da chi considera poco funzionale il servizio itinerante.\nB) è legata al confronto con l’alternativa di realizzare nuove sedi bibliotecarie.\nC) è attribuita alla riduzione del personale incaricato di gestire le collezioni.\nD) deriva dalla disponibilità dei lettori ad accettare un’offerta più limitata."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Zone isolate, case di riposo e scuole hanno bisogni diversi, accomunati dall’utilità di un servizio che raggiunga gli utenti. 中文：要综合不同服务对象，找出共同目的：让不便到馆的人也能使用图书馆。 |\n| L1.2 | C | Prestiti, restituzioni e prenotazioni presuppongono che il servizio ritorni: la periodicità rende possibile un uso continuativo. 中文：借出、归还和预约通常不是一次完成，定期停靠保证服务连续。 |\n| L1.3 | A | Audiolibri, supporti audiovisivi e accesso a Internet ampliano l’offerta; il testo dice «oltre ai libri», non al loro posto. 中文：“除了书籍”说明服务扩展，不是用电子设备替代藏书。 |\n| L1.4 | D | L’esperienza di Chester è descritta come un carro con contenitori di legno trainato da un mulo; le altre modalità appartengono ad altri passaggi. 中文：注意区分不同案例，1904年切斯特县采用的是骡子拉车。 |\n| L1.5 | C | Le casse presso botteghe e uffici postali non erano state efficaci; il carro porta a porta mirava a superare il limite di quei punti fissi. 中文：关键不是书太少，而是固定存放点仍未充分覆盖居民，因此改为送书上门。 |\n| L1.6 | A | Il contatto «li aiutava nella distribuzione»: gli spostamenti a piedi o a cavallo potevano quindi essere sostenuti da un’organizzazione. 中文：中心联络人起协助作用，不能推断居民必须到中心取书或已有固定周班。 |\n| L1.7 | B | Chi li sostiene li considera più convenienti rispetto a nuove biblioteche: il giudizio economico è relativo all’alternativa, pur in presenza di critiche ai costi. 中文：经济性是相对于新建图书馆而言，并不等于车辆服务本身没有成本。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "D",
+    "L1.5": "C",
+    "L1.6": "A",
+    "L1.7": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "biblioteca itinerante",
+      "categoria": "locuzione nominale",
+      "zh": "流动图书馆",
+      "en": "mobile library",
+      "esempio": "Un bibliobus o biblioteca mobile o biblioteca itinerante è un veicolo che contiene libri sistemati su scaffali in modo da consentirne l'accesso agli utenti quando è in sosta, come se fosse una biblioteca."
+    },
+    {
+      "parola": "adibiti a",
+      "categoria": "locuzione participiale",
+      "zh": "用作，供……使用",
+      "en": "used as",
+      "esempio": "il bibliobus spesso fornisce servizi bibliotecari a luoghi privi di edifici adibiti a biblioteche"
+    },
+    {
+      "parola": "cadenze settimanali",
+      "categoria": "locuzione nominale",
+      "zh": "每周一次的频率",
+      "en": "weekly intervals",
+      "esempio": "vengono stabilite fermate in un itinerario preciso, con cadenze settimanali o più lunghe"
+    },
+    {
+      "parola": "usufruire di",
+      "categoria": "locuzione verbale",
+      "zh": "使用，享用",
+      "en": "to make use of",
+      "esempio": "prenotare titoli o usufruire dei servizi interbibliotecari"
+    },
+    {
+      "parola": "porta a porta",
+      "categoria": "locuzione avverbiale",
+      "zh": "挨家挨户，上门",
+      "en": "door to door",
+      "esempio": "un carro che provvedesse alla distribuzione porta a porta anche nelle parti più remote della contea stessa"
+    },
+    {
+      "parola": "fuori moda",
+      "categoria": "locuzione aggettivale",
+      "zh": "过时的",
+      "en": "outdated",
+      "esempio": "Alcuni li trovano fuori moda a causa dei costi elevati e della loro scarsa funzionalità"
+    }
+  ]
+}

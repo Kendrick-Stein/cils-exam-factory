@@ -1,0 +1,77 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "Pinocchio e il teatro dei burattini",
+    "T3_PART_A": "Quando ha smesso di nevicare, Pinocchio, col suo bravo Abbecedario nuovo sotto il braccio, ha preso la strada che portava alla scuola. Gli è parso di sentire in lontananza una musica di pifferi e di colpi di grancassa.",
+    "T3_PART_B": "Detto fatto, ha infilato giù per la strada traversa. Si è trovato in una piazza piena di gente, la quale si affollava intorno a un gran baraccone di legno e di tela dipinta di mille colori.",
+    "T3_PART_C": "Gran Teatro dei Burattini». «È molto che è incominciata la commedia?» «Comincia ora». «E quanto si spende per entrare?»",
+    "T3_PART_D": "Si è fermato. Quei suoni venivano di fondo a una lunghissima strada traversa, che conduceva a un piccolo paesetto sulla spiaggia del mare. A ogni modo, bisognava prendere una decisione:",
+    "T3_PART_E": "«Lo leggerei volentieri, ma per l'appunto oggi non so leggere». «Allora te lo leggerò io. Sappi dunque che in quel cartello c'è scritto:",
+    "T3_PART_F": "«Te li darei volentieri, ma oggi per l'appunto non te li posso dare». «Vuoi darmi quattro soldi di quest'Abbecedario nuovo?»",
+    "T3_PART_G": "«Per quattro soldi l'Abbecedario lo prendo io» ha gridato un rivenditore di panni usati, che si era trovato presente alla conversazione. E il libro è stato venduto.",
+    "T3_PART_H": "o a scuola, o a sentire i pifferi. «Oggi andrò a sentire i pifferi, e domani a scuola. Per andare a scuola c'è sempre tempo».",
+    "T3_PART_I": "«Io sono un ragazzo e non compro nulla dai ragazzi».",
+    "T3_PART_J": "«Che cos'è quel baraccone?» ha domandato Pinocchio a un ragazzetto. «Leggi il cartello, che c'è scritto, e lo saprai».",
+    "T3_PART_K": "«Quattro soldi». «Mi daresti quattro soldi fino a domani?»"
+  },
+  "answer_slots": {
+    "ANS_L3_SEQUENCE": "A–D–H–B–J–E–C–K–F–I–G",
+    "ANS_L3_ROWS": "| 1 | A | È l'inizio dato: presenta Pinocchio, il libro e la musica che interrompe il cammino verso la scuola. 中文：已给出的开头交代人物、课本及音乐。 |\n| 2 | D | «Quei suoni» riprende la musica di pifferi e grancassa della parte A; la frase finale introduce la scelta. 中文：这些声音承接刚听到的音乐，末尾冒号引出选择。 |\n| 3 | H | «o a scuola, o a sentire i pifferi» completa sintatticamente «prendere una decisione:» della parte D; segue la scelta di Pinocchio. 中文：两个 o 补全冒号后的二选一，并给出决定。 |\n| 4 | B | «Detto fatto» lega l'azione alla decisione di sentire i pifferi; la strada traversa conduce al baraccone. 中文：说做就做承接决定，人物沿岔路来到棚屋前。 |\n| 5 | J | «quel baraccone» indica quello appena raggiunto nella parte B; la risposta invita Pinocchio a leggere il cartello. 中文：那个棚屋回指刚出现的棚屋，答话要求读牌子。 |\n| 6 | E | «Lo leggerei» risponde all'invito «Leggi il cartello»; «Allora te lo leggerò io» nasce dall'incapacità di Pinocchio di leggere. 中文：回答读牌子的要求，再由男孩代读。 |\n| 7 | C | «Gran Teatro dei Burattini» completa la citazione aperta dopo «c'è scritto:» nella parte E; segue la domanda sul prezzo. 中文：剧院名称补全尚未结束的引文，随后询问票价。 |\n| 8 | K | «Quattro soldi» risponde al costo dell'ingresso chiesto nella parte C; Pinocchio domanda in prestito proprio quella somma. 中文：四个钱回答票价问题，接着请求借同样的金额。 |\n| 9 | F | «Te li darei» risponde alla richiesta di prestito della parte K; il rifiuto è seguito dalla proposta di vendere l'Abbecedario. 中文：条件式回应借钱请求，遭拒后提出卖课本。 |\n| 10 | I | «non compro nulla dai ragazzi» rifiuta la proposta di vendita del libro nella parte F, non la precedente richiesta di prestito. 中文：不向孩子买东西回应卖书提议，而不是借钱请求。 |\n| 11 | G | «lo prendo io» introduce l'acquirente adulto dopo il rifiuto del ragazzo; la vendita conclude la vicenda. 中文：男孩拒绝后，旧衣商愿意购买，卖书结束故事。 |"
+  },
+  "key": {
+    "L3.2": "D",
+    "L3.3": "H",
+    "L3.4": "B",
+    "L3.5": "J",
+    "L3.6": "E",
+    "L3.7": "C",
+    "L3.8": "K",
+    "L3.9": "F",
+    "L3.10": "I",
+    "L3.11": "G"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "Abbecedario",
+      "categoria": "nome maschile",
+      "zh": "识字课本",
+      "en": "primer; alphabet book",
+      "esempio": "«Vuoi darmi quattro soldi di quest'Abbecedario nuovo?»"
+    },
+    {
+      "parola": "pifferi",
+      "categoria": "nome maschile plurale",
+      "zh": "笛子；管乐器",
+      "en": "pipes; fifes",
+      "esempio": "Gli è parso di sentire in lontananza una musica di pifferi e di colpi di grancassa."
+    },
+    {
+      "parola": "grancassa",
+      "categoria": "nome femminile",
+      "zh": "大鼓",
+      "en": "bass drum",
+      "esempio": "Gli è parso di sentire in lontananza una musica di pifferi e di colpi di grancassa."
+    },
+    {
+      "parola": "strada traversa",
+      "categoria": "locuzione nominale",
+      "zh": "岔路；支路",
+      "en": "side road",
+      "esempio": "Detto fatto, ha infilato giù per la strada traversa."
+    },
+    {
+      "parola": "baraccone",
+      "categoria": "nome maschile",
+      "zh": "临时搭建的大棚屋",
+      "en": "large booth; show tent",
+      "esempio": "«Che cos'è quel baraccone?» ha domandato Pinocchio a un ragazzetto."
+    },
+    {
+      "parola": "rivenditore di panni usati",
+      "categoria": "locuzione nominale",
+      "zh": "旧衣商",
+      "en": "second-hand clothes dealer",
+      "esempio": "«Per quattro soldi l'Abbecedario lo prendo io» ha gridato un rivenditore di panni usati, che si era trovato presente alla conversazione."
+    }
+  ]
+}

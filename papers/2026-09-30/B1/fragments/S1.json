@@ -1,0 +1,133 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Le fontanelle nelle città italiane",
+    "S1_TEXT_WITH_GAPS": "Con l'arrivo *(di)* __delle (0)__ alte temperature, una mappa delle fontanelle pubbliche *(in)* __(1)__ principali città italiane ha attirato *(articolo determinativo)* __(2)__ attenzione del pubblico. Mostra dove trovare punti d'acqua in luoghi come Roma, Milano, Torino e Venezia. La mappa nasce *(da)* __(3)__ un lavoro di raccolta e aggiornamento dei dati geografici portato avanti *(da)* __(4)__ comunità italiana di OpenStreetMap.\n\n*(a)* __(5)__ base di questo risultato c'è *(articolo determinativo)* __(6)__ progetto “Comuni senza POI”. È un'iniziativa *(di)* __(7)__ comunità italiana di OpenStreetMap sviluppata *(in)* __(8)__ mese di luglio 2025. Il progetto aveva l'obiettivo di individuare e completare la presenza *(di)* __(9)__ alcuni punti di interesse, ancora mancanti *(in)* __(10)__ molti comuni italiani, migliorando la qualità e la completezza *(di)* __(11)__ mappa libera.\n\nTra le categorie prese *(in)* __(12)__ considerazione c'erano anche le fontanelle pubbliche, insieme ad altri elementi di interesse quotidiano come scuole, parchi giochi, uffici postali, municipi e luoghi di culto. Grazie *(a)* __(13)__ contributo dei volontari della comunità, numerosi dati sono stati aggiunti o aggiornati *(su)* __(14)__ OpenStreetMap. Queste informazioni sono così disponibili per mappe, applicazioni e servizi realizzati *(da)* __(15)__ chiunque.\n\nLa diffusione della mappa delle fontanelle dimostra il valore dei dati aperti. Informazioni raccolte dalla comunità possono trasformarsi in strumenti utili *(per)* __(16)__ affrontare esigenze quotidiane: dalla ricerca di una fonte d'acqua durante *(articolo determinativo)* __(17)__ giornate più calde fino *(a)* __(18)__ conoscenza più approfondita del territorio.\n\nÈ questo uno *(di)* __(19)__ obiettivi di OpenStreetMap: costruire una rappresentazione aggiornata e condivisa *(di)* __(20)__ mondo che ci circonda, grazie al contributo di migliaia di persone che ogni giorno s'impegnano a verificare e migliorare le informazioni geografiche."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | nelle | S1.11 | della |\n| S1.2 | l' | S1.12 | in |\n| S1.3 | da | S1.13 | al |\n| S1.4 | dalla | S1.14 | su |\n| S1.5 | Alla | S1.15 | da |\n| S1.6 | il | S1.16 | per |\n| S1.7 | della | S1.17 | le |\n| S1.8 | nel | S1.18 | alla |\n| S1.9 | di | S1.19 | degli |\n| S1.10 | in | S1.20 | del |",
+    "ANS_S1_NOTES": "- **S1.1 — nelle:** «In + le» davanti a «principali città italiane», femminile plurale. 中文：città 为阴性复数，与 in 合并为 nelle。 **S1.2 — l':** La traccia richiede un articolo determinativo: «attenzione» è femminile singolare e comincia per vocale. 中文：题目指定定冠词，attenzione 以元音开头，la 省音为 l’。 **S1.3 — da:** Davanti all’articolo indeterminativo già scritto «un» resta la preposizione semplice: «da un lavoro». 中文：un 已写出，前面保留简单介词 da。 **S1.4 — dalla:** La comunità italiana che svolge il lavoro è introdotta da «da + la». 中文：comunità italiana 为阴性单数，da + la 合并为 dalla。\n\n- **S1.5 — Alla:** La locuzione è «alla base di»: «a + la», con iniziale maiuscola a inizio frase. 中文：固定表达 alla base di，句首首字母大写。 **S1.6 — il:** La traccia richiede l’articolo determinativo; «progetto» è maschile singolare e inizia per consonante ordinaria. 中文：题目指定定冠词；progetto 为阳性单数，使用 il。 **S1.7 — della:** «Comunità italiana» è femminile singolare: «di + la». 中文：表示所属关系，di + la 合并为 della。 **S1.8 — nel:** Davanti al nome maschile singolare «mese» si usa «in + il». 中文：mese 为阳性单数，in + il 合并为 nel。\n\n- **S1.9 — di:** «Alcuni» è già un determinante: si scrive «la presenza di alcuni punti», senza aggiungere un articolo. 中文：alcuni 已限定名词，前面只用 di，不再加冠词。 **S1.10 — in:** «Molti comuni» ha già il quantificatore «molti»: qui la preposizione resta semplice. 中文：molti 已表示数量，使用简单介词 in。 **S1.11 — della:** La mappa già nominata è femminile singolare: «di + la mappa». 中文：mappa 为阴性单数，di + la 合并为 della。 **S1.12 — in:** «Prendere in considerazione» è una locuzione fissa senza articolo. 中文：固定搭配 prendere in considerazione，considerazione 前不加冠词。\n\n- **S1.13 — al:** «Grazie al contributo» contiene «a + il» davanti a «contributo», maschile singolare. 中文：grazie a 后接阳性单数名词，a + il 合并为 al。 **S1.14 — su:** Il nome della piattaforma «OpenStreetMap» non prende l’articolo: la preposizione data resta semplice. 中文：平台名 OpenStreetMap 前不加冠词，保留 su。 **S1.15 — da:** «Chiunque» è un pronome e non vuole l’articolo: «realizzati da chiunque». 中文：chiunque 是代词，前面使用简单介词 da。 **S1.16 — per:** La preposizione data «per» introduce l’infinito «affrontare» e indica lo scopo. 中文：per 后接动词不定式 affrontare，表示目的。\n\n- **S1.17 — le:** La traccia richiede l’articolo determinativo; «giornate» è femminile plurale. 中文：题目指定定冠词，giornate 为阴性复数，使用 le。 **S1.18 — alla:** In «fino alla conoscenza» la preposizione «a» si unisce a «la», davanti al femminile singolare. 中文：fino a 后接阴性单数名词 conoscenza，a + la 合并为 alla。 **S1.19 — degli:** «Uno degli obiettivi» indica un elemento del gruppo; «di + gli» davanti a «obiettivi», maschile plurale con iniziale vocalica. 中文：表示多个目标中的一个；obiettivi 以元音开头，di + gli 合并为 degli。 **S1.20 — del:** «Mondo» è maschile singolare: «una rappresentazione del mondo» richiede «di + il». 中文：mondo 为阳性单数，di + il 合并为 del。"
+  },
+  "key": {
+    "S1.1": "nelle",
+    "S1.2": "l'",
+    "S1.3": "da",
+    "S1.4": "dalla",
+    "S1.5": "Alla",
+    "S1.6": "il",
+    "S1.7": "della",
+    "S1.8": "nel",
+    "S1.9": "di",
+    "S1.10": "in",
+    "S1.11": "della",
+    "S1.12": "in",
+    "S1.13": "al",
+    "S1.14": "su",
+    "S1.15": "da",
+    "S1.16": "per",
+    "S1.17": "le",
+    "S1.18": "alla",
+    "S1.19": "degli",
+    "S1.20": "del"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fontanelle",
+      "categoria": "nome femminile plurale",
+      "zh": "公共饮水泉；饮水设施",
+      "en": "public drinking fountains",
+      "esempio": "una mappa delle fontanelle pubbliche"
+    },
+    {
+      "parola": "attirare l'attenzione",
+      "categoria": "espressione verbale",
+      "zh": "引起注意",
+      "en": "to attract attention",
+      "esempio": "ha attirato l'attenzione del pubblico"
+    },
+    {
+      "parola": "aggiornamento",
+      "categoria": "nome maschile",
+      "zh": "更新",
+      "en": "updating",
+      "esempio": "un lavoro di raccolta e aggiornamento dei dati geografici"
+    },
+    {
+      "parola": "portare avanti",
+      "categoria": "espressione verbale",
+      "zh": "推进；开展",
+      "en": "to carry forward",
+      "esempio": "portato avanti dalla comunità italiana di OpenStreetMap"
+    },
+    {
+      "parola": "comunità",
+      "categoria": "nome femminile",
+      "zh": "社群；社区",
+      "en": "community",
+      "esempio": "dalla comunità italiana di OpenStreetMap"
+    },
+    {
+      "parola": "punti di interesse",
+      "categoria": "espressione nominale",
+      "zh": "兴趣点；重要地点",
+      "en": "points of interest",
+      "esempio": "la presenza di alcuni punti di interesse"
+    },
+    {
+      "parola": "completezza",
+      "categoria": "nome femminile",
+      "zh": "完整性",
+      "en": "completeness",
+      "esempio": "la qualità e la completezza della mappa libera"
+    },
+    {
+      "parola": "prendere in considerazione",
+      "categoria": "espressione verbale",
+      "zh": "考虑；纳入考量",
+      "en": "to take into consideration",
+      "esempio": "Tra le categorie prese in considerazione"
+    },
+    {
+      "parola": "contributo",
+      "categoria": "nome maschile",
+      "zh": "贡献",
+      "en": "contribution",
+      "esempio": "Grazie al contributo dei volontari della comunità"
+    },
+    {
+      "parola": "volontari",
+      "categoria": "nome maschile plurale",
+      "zh": "志愿者",
+      "en": "volunteers",
+      "esempio": "dei volontari della comunità"
+    },
+    {
+      "parola": "dati aperti",
+      "categoria": "espressione nominale",
+      "zh": "开放数据",
+      "en": "open data",
+      "esempio": "dimostra il valore dei dati aperti"
+    },
+    {
+      "parola": "esigenze quotidiane",
+      "categoria": "espressione nominale",
+      "zh": "日常需求",
+      "en": "everyday needs",
+      "esempio": "affrontare esigenze quotidiane"
+    },
+    {
+      "parola": "condivisa",
+      "categoria": "aggettivo femminile",
+      "zh": "共享的",
+      "en": "shared",
+      "esempio": "una rappresentazione aggiornata e condivisa del mondo"
+    },
+    {
+      "parola": "verificare",
+      "categoria": "verbo",
+      "zh": "核实；检查",
+      "en": "to verify",
+      "esempio": "verificare e migliorare le informazioni geografiche"
+    }
+  ]
+}

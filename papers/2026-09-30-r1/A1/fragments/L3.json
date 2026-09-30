@@ -1,0 +1,61 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1. Libreria Laterza**\n\nVia Dante Alighieri, 49/53. Dal lunedì al sabato. In questa libreria trovi libri di tanti generi, per tutte le età: …\n\n**2. Multicinema Galleria**\n\nCorso Italia 15. Il cinema è nel centro di Bari, vicino alla stazione. Ha sette sale e anche una sala …\n\n**3. Pizzeria Bari Napoli**\n\nVia Piccinni, 187/189. Pizze di tanti gusti per una cena con gli amici, un pranzo veloce o una serata …\n\n**4. Hotel Boston**\n\nVia Nicolò Piccinni, 155, a dieci minuti dal centro storico. Di fronte c'è un piccolo supermercato. Le camere sono grandi ma …",
+    "L3_OPTIONS": "**A.** con tutta la famiglia.\n\n**B.** libri per bambini e adulti.\n\n**C.** libri solo per lettori adulti.\n\n**D.** all'aperto: l'Arena Quattro Palme.\n\n**E.** piccole. La colazione è abbondante.\n\n**F.** semplici. La colazione è abbondante."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | B | «Per tutte le età» comprende bambini e adulti; C limita i libri agli adulti. 中文：适合所有年龄，包括儿童和成人。 |\n| L3.2 | D | L'Arena è la sala in più del cinema; «all'aperto» completa la descrizione della sala. 中文：这里补充说明电影院另有一间露天放映厅。 |\n| L3.3 | A | «Una serata con tutta la famiglia» completa l'elenco delle occasioni per mangiare la pizza. 中文：披萨店适合与全家一起度过一个晚上。 |\n| L3.4 | F | Le camere sono grandi ma semplici; E le descrive come piccole e contraddice il testo. 中文：房间宽敞但简单，不能同时说房间小。 |",
+    "ANS_L3_UNUSED": "C, E"
+  },
+  "key": {
+    "L3.1": "B",
+    "L3.2": "D",
+    "L3.3": "A",
+    "L3.4": "F"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "libreria",
+      "categoria": "nome femminile",
+      "zh": "书店",
+      "en": "bookshop",
+      "esempio": "In questa libreria trovi libri di tanti generi"
+    },
+    {
+      "parola": "vicino alla stazione",
+      "categoria": "espressione di luogo",
+      "zh": "在车站附近",
+      "en": "near the station",
+      "esempio": "Il cinema è nel centro di Bari, vicino alla stazione."
+    },
+    {
+      "parola": "all'aperto",
+      "categoria": "locuzione avverbiale",
+      "zh": "在露天；在户外",
+      "en": "outdoors",
+      "esempio": "all'aperto: l'Arena Quattro Palme."
+    },
+    {
+      "parola": "un pranzo veloce",
+      "categoria": "espressione nominale",
+      "zh": "一顿快捷的午餐",
+      "en": "a quick lunch",
+      "esempio": "un pranzo veloce o una serata"
+    },
+    {
+      "parola": "di fronte",
+      "categoria": "locuzione avverbiale",
+      "zh": "在对面",
+      "en": "opposite",
+      "esempio": "Di fronte c'è un piccolo supermercato."
+    },
+    {
+      "parola": "abbondante",
+      "categoria": "aggettivo",
+      "zh": "丰富的；充足的",
+      "en": "plentiful",
+      "esempio": "La colazione è abbondante."
+    }
+  ]
+}

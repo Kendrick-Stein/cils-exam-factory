@@ -1,0 +1,339 @@
+{
+  "session": "2026-09-30",
+  "level": "B1",
+  "corpus_status": "accepted_with_adaptation",
+  "sources": [
+    {
+      "slot": "T1",
+      "used_in": [
+        "L1"
+      ],
+      "url": "https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan",
+      "title": "Intervista a Mario Furlan",
+      "publisher": "Wikinotizie",
+      "authors": [
+        "Ferdi2005",
+        "Bramfab",
+        "Wikinotizie contributors"
+      ],
+      "published": "2023-01-30",
+      "genre": "interview",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        400,
+        480
+      ],
+      "target_words": 410,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence": "Original HTML footer explicitly licenses post-25-09-2005 texts CC BY 4.0; article is dated 2023. Full interview fetched in Italian with curl browser UA.",
+      "features": [
+        "Passato prossimo and imperfetto in personal experience: «ho cancellato», «volevo», «Mi sembrava»",
+        "Relative and conditional structures: «se chiunque può», «Se non esistesse, bisognerebbe»",
+        "Ordinary internet/study vocabulary; some harder terms «veridicità», «soppesate», «distopico»"
+      ],
+      "hard_lexis": "5–7%",
+      "anchor": "Authentic question-answer human-interest text, comparable in layout and personal-experience register to the B1 Alessandra Pallanti anchor; thematic abstraction is slightly harder.",
+      "plan": "Select introduction plus question-answer blocks 1–4 and the final block on paper/digital reading or sibling projects to reach about 410 words. Drop the 52-word historical Encyclopédie question, legal-license question, Fahrenheit allusion and institutional thanks. Split at most four long sentences; replace at most six harder words with common synonyms. Preserve the speaker’s opinions, tense distinctions, question-answer structure and attribution; no new biographical facts. This is a historical interview, not a current endorsement or current news.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "accepted_with_adaptation",
+      "license_evidence_url": "https://it.wikinews.org/wiki/Intervista_a_Mario_Furlan",
+      "text_file": "papers/2026-09-30/B1/source-texts/T1.txt",
+      "original_words": 655,
+      "average_words_per_sentence": 15.6,
+      "attribution_requirements": "Credit title, named author(s), publisher, original URL and license link; indicate excerpting/simplification and do not imply endorsement.",
+      "pool_source_file": "factory/corpus/pool/eb97c97012b6.md"
+    },
+    {
+      "slot": "T2",
+      "used_in": [
+        "L2"
+      ],
+      "url": "https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/",
+      "title": "Wiki Loves Monuments 2026 – Regolamento",
+      "publisher": "Wikimedia Italia",
+      "authors": [
+        "Simona Cannataro",
+        "Wikimedia Italia"
+      ],
+      "published": "2026-07-08",
+      "genre": "practical_realia",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        300,
+        360
+      ],
+      "target_words": 305,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "evidence": "Original HTML footer: «Tutti i contenuti del sito sono disponibili con licenza CC BY-SA 3.0 salvo diversamente specificato.» No exception on the regulation text. The separate CC BY-SA 4.0 rule concerns entrants’ photographs, not this article.",
+      "features": [
+        "Real binding contest rules use dovere, potere, future and impersonal/passive forms",
+        "Clear conditional duties: valid email, museum entrance rules and photograph requirements",
+        "Legal references and embedded clauses raise full regulation to B2; concrete participation clauses fit B1 after selection"
+      ],
+      "hard_lexis": "6–8% full regulation; selected concrete clauses about 4–5%",
+      "anchor": "Same genuine photo-contest-regulation genre as the B1 #quellidellabiblioteca anchor, with explicit eligibility, format and deadlines.",
+      "plan": "Select only participation, dates, authorship/originality, permitted formats, site access costs and award timing clauses from arts 1–3 and 8, for about 305 words. Remove addresses, identifiers, legal citations and liability provisions rather than rewriting them. Split long clauses and replace «previa» by «dopo la» if needed; preserve all quantities, limits and dates. Do not imply this is a current invitation after the stated 30-09-2026 deadline.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "accepted_with_adaptation",
+      "license_evidence_url": "https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/",
+      "text_file": "papers/2026-09-30/B1/source-texts/T2.txt",
+      "original_words": 1643,
+      "average_words_per_sentence": 23.1,
+      "attribution_requirements": "Credit title, named author(s), publisher, original URL and license link; indicate excerpting/simplification and do not imply endorsement. Keep adapted text under CC BY-SA 3.0 (or an explicitly permitted compatible successor); no additional restrictions.",
+      "pool_source_file": "factory/corpus/pool/244b5c7d7e52.md"
+    },
+    {
+      "slot": "T3",
+      "used_in": [
+        "L3"
+      ],
+      "url": "https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9",
+      "title": "Le avventure di Pinocchio (1892), Capitolo IX",
+      "publisher": "Wikisource",
+      "authors": [
+        "Carlo Collodi",
+        "Wikisource contributors"
+      ],
+      "published": "1892",
+      "genre": "literature_public_domain",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        250,
+        300
+      ],
+      "target_words": 255,
+      "license": "CC BY-SA 3.0 (transcription); underlying 1892 Collodi text public domain",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "evidence": "Page metadata explicitly says CC BY-SA 3.0 and GFDL for the transcription; page names Carlo Collodi and the 1892 edition. Current footer links CC BY-SA. For conservative reuse, comply with transcription CC BY-SA 3.0 even though the original nineteenth-century novel is public domain. Text fetched directly from original HTML and compared to the displayed page.",
+      "features": [
+        "Concrete sequential action and dialogue: school journey, heard music, arrival, sign-reading, ticket price, unsuccessful offers and sale",
+        "Narration has passato remoto and a few archaic lexical forms; speech has ordinary present/future/conditional, simple clauses",
+        "Repeated demonstratives and responses supply authentic coherence: «Quei suoni», «quel baraccone», «Allora», «Quattro soldi», «ultima offerta», «E il libro fu venduto»"
+      ],
+      "hard_lexis": "5–7% untrimmed chapter; selected action/dialogue 4–5%",
+      "anchor": "An authentic concrete action narrative, replacing the weak school diary; dialogue and financial problem are self-contained like the B1 travel-story anchor, though the source tense/orthography requires one-level modernization.",
+      "plan": "Retain the first school-route sentence then select the music-to-theatre and ticket-price-to-book-sale chain; omit the fantasy paragraph, sound imitations, clothing-offer repetitions and final moralizing aside to approach 255–280 words. Modernize at most ten narrator passato-remoto forms and at most six archaic/common lexical forms (e.g. menava→portava, anderò→andrò, risoluzione→decisione), and split long sentences. Keep direct dialogue, price of four soldi, book identity and cause/effect unchanged. Preserve at least 11 genuine connected units with explicit source anaphora and question/answer dependencies; no invented transport, chronology or actions. If 11 unique units cannot be kept under the allowed changes, flag rather than force a reconstruction.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "accepted_with_adaptation",
+      "license_evidence_url": "https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_9",
+      "text_file": "papers/2026-09-30/B1/source-texts/T3.txt",
+      "original_words": 652,
+      "average_words_per_sentence": 13.6,
+      "attribution_requirements": "Credit Carlo Collodi, novel/chapter/edition, Wikisource contributors, source URL and CC BY-SA 3.0 link; identify cuts and modernization, retain share-alike for adapted transcription, and do not imply endorsement.",
+      "pool_source_file": "factory/corpus/pool/58ecdd35aca4.md"
+    },
+    {
+      "slot": "T4",
+      "used_in": [
+        "S1"
+      ],
+      "url": "https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/",
+      "title": "Le fontanelle nelle città italiane: il progetto di OpenStreetMap Italia si rivela un servizio per la comunità",
+      "publisher": "Wikimedia Italia",
+      "authors": [
+        "Adriana Marino"
+      ],
+      "published": "2026-07-24",
+      "genre": "news_general",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        230,
+        260
+      ],
+      "target_words": 240,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "evidence": "Original article HTML footer explicitly applies CC BY-SA 3.0 to all site content unless otherwise stated. No textual exception; image excluded.",
+      "features": [
+        "Concrete light-news curiosity on locating public water fountains",
+        "Present and passato prossimo plus simple relative clauses; nouns support article/preposition gaps",
+        "Full-source sentence length is above B1 rhythm but can be split without changing facts; «approvvigionamento» is the one main technical noun"
+      ],
+      "hard_lexis": "4–6%",
+      "anchor": "Light civic/technology news close to Due strani camerieri in topic accessibility and structure-gap opportunities.",
+      "plan": "Retain almost the whole 259-word original; omit the Il Post cross-reference and shorten the seven-city list to about 240 words. Split four long sentences and substitute at most four terms such as approvvigionamento. Do not alter project date, relationship between volunteer data and the fountain map, or add claims of completeness.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "accepted_with_adaptation",
+      "license_evidence_url": "https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/",
+      "text_file": "papers/2026-09-30/B1/source-texts/T4.txt",
+      "original_words": 259,
+      "average_words_per_sentence": 32.4,
+      "attribution_requirements": "Credit title, named author(s), publisher, original URL and license link; indicate excerpting/simplification and do not imply endorsement. Keep adapted text under CC BY-SA 3.0 (or an explicitly permitted compatible successor); no additional restrictions.",
+      "pool_source_file": "factory/corpus/pool/b7fa7302c41f.md"
+    },
+    {
+      "slot": "T5",
+      "used_in": [
+        "S2"
+      ],
+      "url": "https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo",
+      "title": "Intervista a Vincent Russo",
+      "publisher": "Wikinotizie",
+      "authors": [
+        "Bramfab",
+        "Wikinotizie contributors"
+      ],
+      "published": "2023-06-12",
+      "genre": "interview",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        200,
+        240
+      ],
+      "target_words": 225,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence": "Original article footer explicitly licenses post-25-09-2005 text CC BY 4.0. No exception indicated. Interview is dated 12 June 2023.",
+      "features": [
+        "Authentic questions and first-person responses with «ho frequentato», «erano», «l’ho letta», «sono comparse»",
+        "Future «resterà», present «posso immaginare» and completed study/work experiences",
+        "Some abstract or colloquial terms; omit the biographical/profanity passage and philosophical long question"
+      ],
+      "hard_lexis": "4–6% selected interview",
+      "anchor": "Question-answer personal learning/work experience matches INTERVISTA A VITTORIA; future print/digital topic offers temporal contrasts.",
+      "plan": "Select first encounter and changing habits blocks plus the question-answer block about the future of paper reading; trim to 225 words. Keep questions bold at authoring and preserve authentic past/present/future distinctions. No invented interviewer prompts, speaker’s future plans or tense changes. Additional selected clauses may be taken from the work/study block to provide sufficient distinct verbs, but do not force all tense categories if unsupported. Exclude profanity and speculative biographical/mortality passages.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "accepted_with_adaptation",
+      "license_evidence_url": "https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo",
+      "text_file": "papers/2026-09-30/B1/source-texts/T5.txt",
+      "original_words": 772,
+      "average_words_per_sentence": 18.4,
+      "attribution_requirements": "Credit title, named author(s), publisher, original URL and license link; indicate excerpting/simplification and do not imply endorsement.",
+      "pool_source_file": "factory/corpus/pool/28cc2c248340.md",
+      "authoring_caution": "The suggested early-experience + future-paper selection has no conditional. The original also contains «dovrebbero», «eviterei», «trasformerei» in a biography-policy answer, but that passage is more abstract. Do not invent conditional content merely to satisfy a desired tense mix; choose genuine original clauses or flag the slot."
+    },
+    {
+      "slot": "T6",
+      "used_in": [
+        "S3"
+      ],
+      "url": "https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/",
+      "title": "Wikipedia per i beni culturali: il laboratorio Wikimedia all’Università degli Studi di Milano",
+      "publisher": "Wikimedia Italia",
+      "authors": [
+        "Adriana Marino"
+      ],
+      "published": "2026-09-10",
+      "genre": "news_general",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        170,
+        200
+      ],
+      "target_words": 185,
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "evidence": "Original HTML footer explicitly applies CC BY-SA 3.0 to all site content unless otherwise stated. No textual exception; separately credited image omitted.",
+      "features": [
+        "Authentic report of a local university cultural initiative, with dates and 27 participants",
+        "Past tense, passives and purpose clauses describe course activities and results",
+        "Abstract nominal vocabulary can be reduced by selecting practical descriptions rather than data-structure passages"
+      ],
+      "hard_lexis": "6–8% original; selected practical section about 4–5%",
+      "anchor": "Local initiative report with concrete activities and participants comparable to Parchi in movimento, though more academic.",
+      "plan": "Use the opening two paragraphs plus a shortened course-objective paragraph and concrete final results to about 185 words. Remove staff names/titles, English jargon, sandbox/disorfanizzazione, and advanced programme detail. Split at most three sentences and replace at most five abstract words; do not turn the completed June–August event into a future invitation, or invent costs, enrolment routes or requirements.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "accepted_with_adaptation",
+      "license_evidence_url": "https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/",
+      "text_file": "papers/2026-09-30/B1/source-texts/T6.txt",
+      "original_words": 842,
+      "average_words_per_sentence": 29.0,
+      "attribution_requirements": "Credit title, named author(s), publisher, original URL and license link; indicate excerpting/simplification and do not imply endorsement. Keep adapted text under CC BY-SA 3.0 (or an explicitly permitted compatible successor); no additional restrictions.",
+      "pool_source_file": "factory/corpus/pool/54a71910e744.md"
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "slot": "T3",
+      "used_in": [
+        "L3"
+      ],
+      "url": "https://www.istitutocomprensivoniscemi.edu.it/2026/04/25/racconti-di-un-viaggio/",
+      "title": "Racconti di un viaggio",
+      "publisher": "Istituto Comprensivo Niscemi",
+      "authors": [
+        "Gli alunni delle classi I media del plesso Manzoni",
+        "published by Francesco Cannia"
+      ],
+      "published": "2026-04-25",
+      "genre": "blogs_lifestyle",
+      "cefr": "B2",
+      "usable_levels": [
+        "B1",
+        "B2"
+      ],
+      "band": [
+        250,
+        300
+      ],
+      "target_words": 255,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence": "Full indexed original Italian article says «Eccetto dove diversamente specificato, questo articolo è stato rilasciato sotto Licenza Creative Commons Attribuzione 4.0 Italia.» That is the site’s label; the version is CC BY 4.0 International. Browser-UA fetch hit a Cloudflare response; original indexed article body and page-specific license were retrieved via web search.",
+      "features": [
+        "Genuine first-person-plural travel narrative with departure, travel, visits and retrospective ending",
+        "Passato prossimo versus imperfetto: «abbiamo provato», «sembrava», «C’era»",
+        "Emotional but common vocabulary; one hypothetical comparison «come se il passato prendesse vita» can be omitted"
+      ],
+      "hard_lexis": "4–6%",
+      "anchor": "Authentic school-trip account in the same experiential travel-diary genre as La nostra visita a Palermo; less event-driven and more reflective.",
+      "plan": "Retain departure, journey, a compact selection of visits, and the shared-memory conclusion to about 255 words. Remove the final thanks sentence and any adult names; no minor names, images or personal identifiers appear in the corpus. Drop ornamental metaphors and the single congiuntivo-imperfetto sentence; split long sentences rather than inventing events. For 11-part reconstruction, preserve source sequence and source anaphora; do not fabricate timings, transport or causal links. If the authentic links cannot support a unique sequence, reject this slot at authoring rather than forcing an answer.",
+      "accessed": "2026-09-30",
+      "adapted": true,
+      "words_used": null,
+      "license_verified": true,
+      "status": "rejected",
+      "license_evidence_url": "https://www.istitutocomprensivoniscemi.edu.it/2026/04/25/racconti-di-un-viaggio/",
+      "text_file": "papers/2026-09-30/B1/source-texts/T3.txt",
+      "original_words": 404,
+      "average_words_per_sentence": 23.8,
+      "attribution_requirements": "Credit title, named author(s), publisher, original URL and license link; indicate excerpting/simplification and do not imply endorsement.",
+      "pool_source_file": "factory/corpus/pool/7a8290b5be9a.md",
+      "rejection_reason": "Parallel place descriptions do not support uniquely constrained 11-part reconstruction without invented sequence markers."
+    }
+  ]
+}

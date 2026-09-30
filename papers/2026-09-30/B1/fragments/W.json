@@ -1,0 +1,18 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Racconta una volta in cui hai imparato a fare qualcosa con l'aiuto di un'altra persona. Spiega dove e quando è successo, chi ti ha aiutato, quale difficoltà hai incontrato e come l'hai superata. Concludi descrivendo come ti sei sentito.",
+    "W2_PROMPT": "Hai organizzato un pomeriggio a casa tua per scambiare libri. Scrivi un'email a un amico per invitarlo.",
+    "W2_REQ_1": "indicare il giorno, l'orario e l'indirizzo dell'incontro;",
+    "W2_REQ_2": "spiegare quali libri portare e perché sarà piacevole partecipare;",
+    "W2_REQ_3": "chiedere una conferma e precisare entro quando vuoi riceverla."
+  },
+  "answer_slots": {
+    "MODEL_W1": "La scorsa primavera ho imparato ad andare in bicicletta con l'aiuto di mia cugina Sara. Da bambino avevo paura di cadere, così preferivo sempre camminare. Abbiamo cominciato nel cortile della sua casa, dove non passavano macchine. All'inizio non riuscivo a tenere l'equilibrio e mettevo subito i piedi a terra. Sara mi ha consigliato di guardare davanti a me invece di fissare le ruote. Dopo molti tentativi sono riuscito a fare un giro completo senza fermarmi. Ero stanco, ma anche molto felice: finalmente avevo superato una paura. Ora uso la bicicletta per andare al mercato e ogni domenica faccio un giro con Sara. Vorrei imparare anche a ripararla.",
+    "MODEL_W1_PHRASES": "«con l'aiuto di»（在……的帮助下）；«avevo paura di cadere»（我害怕摔倒）；«mi ha consigliato di»（她建议我……）；«sono riuscito a»（我成功地……）",
+    "MODEL_W2": "Ciao Luca,\n\nsabato alle quattro organizzo uno scambio di libri a casa mia, in via Roma 12. Ti va di venire? Porta due o tre libri che hai già letto e che vorresti scambiare. Ci saranno anche alcuni compagni del corso: potremo conoscere storie nuove e fare merenda insieme. Fammi sapere entro giovedì se puoi partecipare, così preparo qualcosa per tutti.\n\nA presto,\nAndrea",
+    "MODEL_W2_PHRASES": "«Ti va di venire?»（你想来吗？）；«Porta due o tre libri»（带两三本书来）；«fare merenda insieme»（一起吃点心）；«Fammi sapere entro giovedì»（请在星期四之前告诉我）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

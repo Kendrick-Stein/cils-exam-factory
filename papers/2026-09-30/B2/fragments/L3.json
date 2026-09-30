@@ -1,0 +1,70 @@
+{
+  "prova": "L3",
+  "slots": {
+    "T3_TITLE": "IL PICCOLO SCRIVANO FIORENTINO",
+    "T3_PART_A": "Faceva la quarta elementare. Era un grazioso fiorentino di dodici anni, nero di capelli e bianco di viso, figlio maggiore d’un impiegato delle ferrovie, il quale, avendo molta famiglia e poco stipendio, viveva nelle strettezze.",
+    "T3_PART_G": "— Il figlio gli disse un giorno: — Babbo, fammi lavorare al posto tuo; tu sai che scrivo come te, tale e quale. — Ma il padre gli rispose:",
+    "T3_PART_D": "— No figlio; tu devi studiare; la tua scuola è una cosa molto più importante delle mie fasce; avrei rimorsi di rubarti un’ora; ti ringrazio, ma non voglio, e non parlarmene più.",
+    "T3_PART_I": "Il figlio sapeva che con suo padre, in quelle cose, era inutile insistere, e non insistette. Ma ecco che cosa fece. Egli sapeva che a mezzanotte in punto suo padre smetteva di scrivere,",
+    "T3_PART_B": "e usciva dal suo stanzino da lavoro per andare nella camera da letto. Qualche volta l’aveva sentito: scoccati i dodici colpi al pendolo, aveva sentito immediatamente il rumore della sedia smossa e il passo lento di suo padre.",
+    "T3_PART_K": "Una notte aspettò ch’egli fosse a letto, si vestì piano piano, andò a tentoni nello stanzino, riaccese il lume a petrolio, sedette alla scrivania,",
+    "T3_PART_F": "dov’era un mucchio di fasce bianche e l’elenco degli indirizzi, e cominciò a scrivere, rifacendo esattamente la scrittura di suo padre. E scriveva di buona voglia, contento, con un po’ di paura,",
+    "T3_PART_C": "e le fasce s’ammontavano, e tratto tratto egli smetteva la penna per fregarsi le mani, e poi ricominciava con più energia, tendendo l’orecchio, e sorrideva. Centosessanta ne scrisse: una lira!",
+    "T3_PART_J": "Allora si fermò, rimise la penna dove l’aveva presa, spense il lume, e tornò a letto, in punta di piedi. Quel giorno, a mezzodì, il padre sedette a tavola di buon umore. Non s’era accorto di nulla.",
+    "T3_PART_E": "Sedette a tavola di buonumore, e battendo una mano sulla spalla al figlio: — Eh, Giulio, — disse, — è ancora un buon lavoratore tuo padre! In due ore",
+    "T3_PART_H": "ho fatto un buon terzo di lavoro più del solito, ieri sera. — E Giulio, contento, muto, diceva tra sé: “Povero babbo, oltre al guadagno, io gli do ancora questa soddisfazione, di credersi ringiovanito. Ebbene, coraggio„."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| 1 | A | Presenta il ragazzo e la situazione familiare; è l’inizio dato. 中文：给定开头，介绍男孩及其家庭。 |\n| 2 | G | Il figlio appena presentato propone di aiutare il padre; il finale introduce la risposta paterna. 中文：提出替父亲工作，并引出父亲的回答。 |\n| 3 | D | «No figlio» completa il dialogo introdotto da «gli rispose» e spiega il successivo mancato insistere. 中文：直接接上父亲的拒绝，说明男孩为何不再坚持请求。 |\n| 4 | I | «In quelle cose» rinvia al rifiuto; «Ma ecco che cosa fece» introduce la scelta segreta e l’abitudine del padre. 中文：由拒绝转入男孩暗中的打算，并介绍父亲每晚的习惯。 |\n| 5 | B | «E usciva» completa la routine iniziata con «smetteva di scrivere»; i rumori spiegano come il ragazzo la conoscesse. 中文：续接父亲停止工作后离开的动作，钟声和脚步声是男孩的判断依据。 |\n| 6 | K | Conosciuta la routine, il ragazzo aspetta che il padre sia a letto ed entra nello stanzino; si siede alla scrivania. 中文：掌握父亲的作息后，男孩趁其睡下进入工作间。 |\n| 7 | F | «Dov’era» si riferisce alla scrivania; fasce e indirizzi permettono al ragazzo di cominciare a scrivere. 中文：关系副词承接书桌，随后开始抄写地址。 |\n| 8 | C | Le fasce già introdotte aumentano mentre scrive; «ne scrisse» ne indica infine il totale. 中文：写好的纸条不断增加，最后交代完成数量。 |\n| 9 | J | «Allora si fermò» segue il totale raggiunto: chiude il lavoro, torna a letto e il racconto passa al mezzogiorno. 中文：完成一定数量后停笔回床，时间推进至中午。 |\n| 10 | E | Riprende il padre a tavola, che ignora l’aiuto e attribuisce il risultato al proprio lavoro; «In due ore» introduce il bilancio. 中文：父亲尚不知真相，把多完成的工作归功于自己。 |\n| 11 | H | «Ho fatto» completa «In due ore»; Giulio comprende la soddisfazione involontariamente procurata al padre e chiude la scena. 中文：补足父亲的话，随后以男孩心中的感受结束这一情节。 |",
+    "ANS_L3_SEQUENCE": "A–G–D–I–B–K–F–C–J–E–H"
+  },
+  "key": {
+    "L3.2": "G",
+    "L3.3": "D",
+    "L3.4": "I",
+    "L3.5": "B",
+    "L3.6": "K",
+    "L3.7": "F",
+    "L3.8": "C",
+    "L3.9": "J",
+    "L3.10": "E",
+    "L3.11": "H"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "nelle strettezze",
+      "categoria": "locuzione avverbiale",
+      "zh": "经济拮据",
+      "en": "in financial hardship",
+      "esempio": "avendo molta famiglia e poco stipendio, viveva nelle strettezze"
+    },
+    {
+      "parola": "a tentoni",
+      "categoria": "locuzione avverbiale",
+      "zh": "摸索着",
+      "en": "groping in the dark",
+      "esempio": "andò a tentoni nello stanzino"
+    },
+    {
+      "parola": "lume a petrolio",
+      "categoria": "locuzione nominale",
+      "zh": "煤油灯",
+      "en": "kerosene lamp",
+      "esempio": "riaccese il lume a petrolio"
+    },
+    {
+      "parola": "fregarsi le mani",
+      "categoria": "locuzione verbale",
+      "zh": "搓手",
+      "en": "to rub one’s hands",
+      "esempio": "egli smetteva la penna per fregarsi le mani"
+    },
+    {
+      "parola": "in punta di piedi",
+      "categoria": "locuzione avverbiale",
+      "zh": "踮着脚，轻手轻脚地",
+      "en": "on tiptoe",
+      "esempio": "tornò a letto, in punta di piedi"
+    }
+  ]
+}

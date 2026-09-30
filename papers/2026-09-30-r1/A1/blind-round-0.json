@@ -1,0 +1,89 @@
+{
+  "answers": {
+    "L1.1": {"answer": "B", "confidence": "hi"},
+    "L1.2": {"answer": "C", "confidence": "hi"},
+    "L1.3": {"answer": "A", "confidence": "hi"},
+    "L1.4": {"answer": "B", "confidence": "hi"},
+    "L2.1": {"answer": "V", "confidence": "hi"},
+    "L2.2": {"answer": "V", "confidence": "hi"},
+    "L2.3": {"answer": "F", "confidence": "hi"},
+    "L2.4": {"answer": "V", "confidence": "hi"},
+    "L2.5": {"answer": "F", "confidence": "hi"},
+    "L2.6": {"answer": "V", "confidence": "hi"},
+    "L2.7": {"answer": "F", "confidence": "hi"},
+    "L2.8": {"answer": "F", "confidence": "hi"},
+    "L3.1": {"answer": "B", "confidence": "hi"},
+    "L3.2": {"answer": "D", "confidence": "hi"},
+    "L3.3": {"answer": "A", "confidence": "hi"},
+    "L3.4": {"answer": "F", "confidence": "hi"},
+    "S1.1": {"answer": "I", "confidence": "hi"},
+    "S1.2": {"answer": "LE", "confidence": "hi"},
+    "S1.3": {"answer": "LA", "confidence": "hi"},
+    "S1.4": {"answer": "L'", "confidence": "hi"},
+    "S1.5": {"answer": "IL", "confidence": "hi"},
+    "S1.6": {"answer": "LA", "confidence": "hi"},
+    "S1.7": {"answer": "GLI", "confidence": "hi"},
+    "S1.8": {"answer": "LA", "confidence": "hi"},
+    "S1.9": {"answer": "LA", "confidence": "hi"},
+    "S1.10": {"answer": "LA", "confidence": "hi"},
+    "S2.1": {"answer": "HO INIZIATO", "confidence": "lo"},
+    "S2.2": {"answer": "SONO ARRIVATO", "confidence": "lo"},
+    "S2.3": {"answer": "HO LAVORATO", "confidence": "lo"},
+    "S2.4": {"answer": "LAVORAVAMO", "confidence": "lo"},
+    "S2.5": {"answer": "LAVORIAMO", "confidence": "lo"},
+    "S2.6": {"answer": "MI OCCUPO", "confidence": "lo"},
+    "S2.7": {"answer": "SONO", "confidence": "hi"},
+    "S2.8": {"answer": "È", "confidence": "lo"},
+    "S2.9": {"answer": "È", "confidence": "lo"},
+    "S2.10": {"answer": "È", "confidence": "lo"},
+    "S3.1": {"answer": "B", "confidence": "hi"},
+    "S3.2": {"answer": "C", "confidence": "hi"},
+    "S3.3": {"answer": "A", "confidence": "hi"},
+    "S3.4": {"answer": "B", "confidence": "hi"},
+    "S3.5": {"answer": "C", "confidence": "hi"},
+    "S3.6": {"answer": "A", "confidence": "hi"},
+    "S3.7": {"answer": "B", "confidence": "hi"},
+    "S3.8": {"answer": "A", "confidence": "hi"}
+  },
+  "flags": [
+    {"item_id": "S2.1", "reason": "No tense is prescribed. HO INIZIATO is natural, but INIZIAI is also grammatical for the past narrative, especially paired with ARRIVAI in item 2. The example HO AVUTO does not explicitly constrain the remaining verbs."},
+    {"item_id": "S2.2", "reason": "SONO ARRIVATO and ARRIVAI both express a completed arrival in this narrative. The passage gives no date or tense instruction that excludes the second."},
+    {"item_id": "S2.3", "reason": "HO LAVORATO and LAVORAVO are both natural: a completed earlier job or background employment before the present work. LAVORAI is also a grammatical narrative alternative."},
+    {"item_id": "S2.4", "reason": "LAVORAVAMO and ABBIAMO LAVORATO are both natural for the earlier laboratory: habitual/background work or a completed experience. The text does not determine aspect."},
+    {"item_id": "S2.5", "reason": "LAVORIAMO is the simplest A1 completion, but STIAMO LAVORANDO also fits Adesso noi ... con le telecamere. The instructions do not exclude progressive forms."},
+    {"item_id": "S2.6", "reason": "MI OCCUPO naturally states the speaker's occupation; MI STO OCCUPANDO also fits the immediately preceding present-work context. No restriction to simple present forms is printed."},
+    {"item_id": "S2.8", "reason": "Both È and ERA are ordinary completions of mio padre ... figlio di una maestra. The text does not establish whether the father is alive or whether his background is being described retrospectively."},
+    {"item_id": "S2.9", "reason": "È is strongly preferred for the generalization. However, ERA, paired with ERA in item 10, gives a grammatical retrospective generalization about the preceding work experiences. In generale alone does not fix present tense."},
+    {"item_id": "S2.10", "reason": "È is strongly preferred. ERA remains defensible when item 9 is also ERA, yielding a past generalization before the present conclusion ma avere problemi fa bene. The tense/aspect of the pair is not explicitly constrained."}
+  ],
+  "writing": {
+    "W1": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_word_range": [20, 40],
+      "printed_oral_duration": null,
+      "notes": "Clear familiar personal topic with all three requested details stated: time, food/drink, and company. The word range is feasible for simple A1 sentences. No external stimulus is needed."
+    },
+    "W2": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_word_range": [15, 30],
+      "printed_oral_duration": null,
+      "notes": "The hotel scenario supplies Saturday night, a room for two, and both required questions. The generic hotel addressee is sufficient for this short practice email. The range is feasible using simple formulaic language."
+    },
+    "O1": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_word_range": null,
+      "printed_oral_duration": "2-3 minuti circa",
+      "notes": "Six clear A1 questions on family, home, breakfast, transport, rainy-day activities, and Sunday company. No image or missing source is required. The stated duration is plausible as an examiner dialogue with brief elaboration; minimal one-clause answers alone would be shorter."
+    },
+    "O2": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_word_range": null,
+      "printed_oral_duration": "2 minuti circa",
+      "notes": "Both choices are familiar A1 topics with three concrete prompts. No image or outside information is needed. Two minutes is relatively demanding for the narrow bag description, but possible with simple elaboration; the Saturday-morning sequence provides easier scope for a sustained answer."
+    }
+  }
+}

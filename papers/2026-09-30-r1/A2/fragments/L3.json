@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Etnaland**\n\nEtnaland è un parco divertimenti a Belpasso, vicino a Catania. Ci sono un parco acquatico con piscine e scivoli e un parco a tema.\n\n○ **2. EtnaWay**\n\nEtnaWay organizza escursioni guidate sull'Etna. Il servizio comprende il trasporto da Catania, Giarre o Taormina in Jeep e veicoli quattro per quattro.\n\n○ **3. Archivio storico**\n\nL'Archivio storico di Catania conserva documenti degli uffici comunali. Organizza visite guidate per gruppi di studenti e scuole, con appuntamento telefonico.\n\n○ **4. Arci Catania**\n\nArci Catania si trova in piazza Carlo Alberto. Qui gli italiani possono frequentare un corso di arabo due volte alla settimana.\n\n○ **5. Federico II**\n\nLa scuola Federico II è in via Crociferi. Offre lezioni di italiano con conversazione, ascolto, lettura e comprensione di testi, scrittura e grammatica.\n\n○ **6. Circumetnea**\n\nLa Circumetnea parte dal centro di Catania, in piazza Stesicoro. Il percorso ferroviario passa intorno al monte Etna e arriva fino a Riposto.",
+    "L3_OPTIONS": "**A.** La scuola d'italiano fornisce il materiale per lo studio; il prezzo dipende dal numero di ore richieste.\n\n**B.** Il corso di arabo si svolge ogni giorno dal lunedì al venerdì, nelle ore della sera.\n\n**C.** Su questo treno è possibile portare anche le biciclette, oltre a viaggiare intorno al territorio dell'Etna.\n\n**D.** Nel parco divertimenti si trovano anche ristoranti, spazi per mangiare e negozi a disposizione dei visitatori.\n\n**E.** Le lezioni di arabo si svolgono il lunedì e il venerdì, dalle diciannove alle venti e trenta.\n\n**F.** Questi documenti riguardano attività concluse da oltre quarant'anni e restano nell'archivio per il loro valore storico.\n\n**G.** Il percorso ferroviario termina in piazza Stesicoro, nel centro di Catania, dopo la partenza da Riposto.\n\n**H.** Durante queste escursioni con una guida si visitano i crateri e altri luoghi interessanti del vulcano."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | D | D completa la descrizione del parco divertimenti con i servizi per mangiare e fare acquisti. 中文：主题公园还有餐厅、餐饮区和商店。 |\n| L3.2 | H | H continua la descrizione delle escursioni guidate sull'Etna e precisa i luoghi visitati. 中文：火山导览游与参观火山口相对应。 |\n| L3.3 | F | F riprende i documenti degli uffici comunali e spiega perché sono conservati nell'archivio. 中文：这些文件具有历史价值，因此保存在档案馆。 |\n| L3.4 | E | E indica i due giorni del corso di arabo. B è esclusa: propone cinque giorni invece di due. 中文：阿拉伯语课每周两次，不是周一至周五每天都有。 |\n| L3.5 | A | A riguarda la scuola d'italiano e completa le informazioni sulle lezioni con materiale e prezzo. 中文：意大利语学校提供学习材料，费用由课时决定。 |\n| L3.6 | C | C aggiunge il trasporto delle biciclette sul treno. G inverte partenza e arrivo indicati nel testo. 中文：列车可以携带自行车；G把出发地和目的地颠倒了。 |",
+    "ANS_L3_UNUSED": "B, G"
+  },
+  "key": {
+    "L3.1": "D",
+    "L3.2": "H",
+    "L3.3": "F",
+    "L3.4": "E",
+    "L3.5": "A",
+    "L3.6": "C"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "parco divertimenti",
+      "categoria": "locuzione nominale maschile",
+      "zh": "游乐园",
+      "en": "amusement park",
+      "esempio": "Etnaland è un parco divertimenti a Belpasso, vicino a Catania."
+    },
+    {
+      "parola": "escursioni guidate",
+      "categoria": "locuzione nominale plurale",
+      "zh": "导览游；有向导的游览",
+      "en": "guided excursions",
+      "esempio": "EtnaWay organizza escursioni guidate sull'Etna."
+    },
+    {
+      "parola": "appuntamento telefonico",
+      "categoria": "locuzione nominale maschile",
+      "zh": "电话预约",
+      "en": "appointment made by telephone",
+      "esempio": "Organizza visite guidate per gruppi di studenti e scuole, con appuntamento telefonico."
+    },
+    {
+      "parola": "due volte alla settimana",
+      "categoria": "espressione di frequenza",
+      "zh": "每周两次",
+      "en": "twice a week",
+      "esempio": "Qui gli italiani possono frequentare un corso di arabo due volte alla settimana."
+    },
+    {
+      "parola": "percorso ferroviario",
+      "categoria": "locuzione nominale maschile",
+      "zh": "铁路线路",
+      "en": "rail route",
+      "esempio": "Il percorso ferroviario passa intorno al monte Etna e arriva fino a Riposto."
+    }
+  ]
+}

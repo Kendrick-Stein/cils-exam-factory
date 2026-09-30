@@ -1,0 +1,68 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Catania: negozi e mercati",
+    "S3_TEXT_WITH_GAPS": "A Catania è possibile fare __(0)__ in buona parte della città. La maggior __(1)__ dei negozi si trova nelle vie centrali, soprattutto in Via Etnea. Qui ci sono alcuni dei migliori negozi della città siciliana. Catania presenta anche un elevato __(2)__ di centri commerciali. Questi centri si trovano generalmente nei paesi della provincia, fuori città.\n\nPer ridurre il problema della __(3)__ dal centro cittadino, alcuni offrono servizi di __(4)__ con navette. Grazie a questi mezzi, i turisti possono __(5)__ facilmente i centri commerciali.\n\nI piccoli mercati dei quartieri si svolgono a __(6)__, in giorni diversi durante la settimana. Altri sono __(7)__: si svolgono ogni giorno, come quello del pesce. Questi mercati __(8)__ i turisti per le tradizioni locali e la genuinità.",
+    "S3_OPT0_A": "acquisti",
+    "S3_OPT0_B": "viaggi",
+    "S3_OPT0_C": "esercizi",
+    "S3_OPTION_ROWS": "| 1. | spesa | parte | scelta |\n| 2. | numero | prezzo | livello |\n| 3. | partenza | consegna | distanza |\n| 4. | parcheggio | trasporto | pagamento |\n| 5. | raggiungere | arredare | costruire |\n| 6. | richiesta | distanza | rotazione |\n| 7. | giornalieri | settimanali | stagionali |\n| 8. | accompagnano | attraggono | trasportano |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «La maggior parte dei negozi» significa che molti negozi si trovano nelle vie centrali; qui si parla della loro distribuzione. 中文：la maggior parte di 表示“大多数”，此处说明商店分布的位置。 |\n| S3.2 | A | «Un elevato numero di» indica che i centri commerciali sono numerosi; non si parla del loro prezzo o livello. 中文：numero 表示数量，与 elevato 搭配表示“数量很多”。 |\n| S3.3 | C | I centri sono fuori città: le navette risolvono il problema della distanza dal centro cittadino. 中文：前文说购物中心位于城外，因此需要解决的是“距离”问题。 |\n| S3.4 | B | Le navette sono mezzi che portano le persone da un luogo a un altro: offrono quindi un servizio di trasporto. 中文：接驳车提供的是“交通运输”服务，而不是停车或付款服务。 |\n| S3.5 | A | Con le navette i turisti possono raggiungere i centri commerciali, cioè arrivare fino a questi luoghi. 中文：raggiungere 表示“到达”，符合乘车前往购物中心的语境。 |\n| S3.6 | C | «A rotazione» esprime l’alternanza dei mercati nei diversi giorni della settimana. 中文：a rotazione 表示“轮流”，对应后面的不同日期。 |\n| S3.7 | A | La frase «si svolgono ogni giorno» chiarisce il significato di «giornalieri». 中文：ogni giorno 意为“每天”，对应 giornalieri。 |\n| S3.8 | B | I mercati attraggono i turisti grazie alle tradizioni e alla genuinità; non li accompagnano né li trasportano. 中文：attrarre 表示“吸引”，传统和地道特色吸引游客前来。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "C",
+    "S3.4": "B",
+    "S3.5": "A",
+    "S3.6": "C",
+    "S3.7": "A",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "fare acquisti",
+      "categoria": "locuzione verbale",
+      "zh": "购物",
+      "en": "to shop",
+      "esempio": "A Catania è possibile fare acquisti in buona parte della città."
+    },
+    {
+      "parola": "centro commerciale",
+      "categoria": "nome maschile",
+      "zh": "购物中心",
+      "en": "shopping centre",
+      "esempio": "Catania presenta anche un elevato numero di centri commerciali."
+    },
+    {
+      "parola": "navetta",
+      "categoria": "nome femminile",
+      "zh": "接驳车",
+      "en": "shuttle",
+      "esempio": "Per ridurre il problema della distanza dal centro cittadino, alcuni offrono servizi di trasporto con navette."
+    },
+    {
+      "parola": "raggiungere",
+      "categoria": "verbo",
+      "zh": "到达",
+      "en": "to reach",
+      "esempio": "Grazie a questi mezzi, i turisti possono raggiungere facilmente i centri commerciali."
+    },
+    {
+      "parola": "a rotazione",
+      "categoria": "locuzione avverbiale",
+      "zh": "轮流",
+      "en": "in rotation",
+      "esempio": "I piccoli mercati dei quartieri si svolgono a rotazione, in giorni diversi durante la settimana."
+    },
+    {
+      "parola": "giornaliero",
+      "categoria": "aggettivo",
+      "zh": "每日的",
+      "en": "daily",
+      "esempio": "Altri sono giornalieri: si svolgono ogni giorno, come quello del pesce."
+    }
+  ]
+}

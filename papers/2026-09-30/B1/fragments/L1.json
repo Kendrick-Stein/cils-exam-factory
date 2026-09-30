@@ -1,0 +1,71 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Intervista a Mario Furlan",
+    "T1_TEXT": "Mario Furlan, giornalista, docente e formatore, fondatore dei City Angels, risponde ad alcune domande sulla sua esperienza con Wikipedia e sul suo giudizio su di essa.\n\n**Quando Lei ha incontrato per la prima volta Wikipedia? Per quale motivo?**\n\nÈ stato una ventina di anni fa. Mi sembrava strana l'idea di dare vita ad una enciclopedia online cui tutti potessero contribuire: come si fa, pensavo, a controllare la correttezza di quanto scritto, se chiunque può mettere mano al testo? Invece i miei dubbi sono stati eliminati dalla serietà e dal rigore di Wikipedia. Che secondo me è, insieme ai motori di ricerca, la più utile creatura del web.\n\n**Col passare degli anni, come è cambiata la sua confidenza con l'enciclopedia? È rimasta invariata o ne è diventato un utilizzatore abitudinario?**\n\nDa almeno una quindicina di anni sono un quotidiano utilizzatore di Wikipedia. È accurata, degna di fiducia e democratica: chiunque può farsi una cultura gratuitamente.\n\n**Ha mai modificato delle pagine di Wikipedia? Come è andata?**\n\nÈ stato un disastro: ho cancellato tutta una voce che volevo semplicemente modificare. Per fortuna sono riuscito a tornare indietro e azzerare i danni...\n\n**Come valuta l'impatto che Wikipedia ha avuto nel suo ambiente di lavoro/studio?**\n\nHa avuto un grande impatto positivo. Consiglio ai miei studenti all'università di consultare Wikipedia, soprattutto quando si tratta di argomenti delicati, che possono influenzare l'opinione pubblica. Una sola parola in più o in meno può fare la differenza, quando, ad esempio, si parla di politica. E su Wikipedia anche le singole parole vengono, giustamente, valutate con attenzione.\n\n**Cosa ne pensa di un possibile futuro senza testi cartacei?**\n\nMi auguro che anche in futuro i testi digitali possano convivere con quelli cartacei. Certamente sono favorevole ad un futuro in cui la conoscenza sia sempre più accessibile a tutti, gratuitamente, in tutto il mondo.\n\n**Ha mai sentito parlare dei progetti fratelli di Wikipedia, come Wikinotizie? O anche Wikisource, la libreria che si pone lo scopo di raccogliere e preservare i testi entrati nel pubblico dominio? Che cosa ne pensa a riguardo?**\n\nNe penso tutto il bene possibile, così come di Wikimedia Commons! Sono tutti strumenti atti a divulgare cultura e conoscenza, quindi preziosi. Credo che mai come oggi, nell'era delle notizie false, questo sia fondamentale. Non solo per la nostra formazione intellettuale, ma anche per farci un'idea di ciò che avviene nel mondo. Pertanto ritengo che Wikipedia sia utile anche per la difesa della democrazia, che per vivere ha bisogno che i cittadini conoscano la verità.",
+    "L1_ITEMS": "**1. All’inizio, Furlan aveva dubbi su Wikipedia perché**\n\nA) pensava che i lettori dovessero pagare per consultarla.\nB) riteneva che i suoi articoli fossero riservati agli esperti.\nC) si chiedeva come verificare testi modificabili da chiunque.\nD) credeva che fosse difficile trovare gli argomenti desiderati.\n\n**2. Al momento dell’intervista, Furlan utilizzava Wikipedia**\n\nA) ogni giorno, ma soltanto da pochi mesi.\nB) circa una volta alla settimana da molti anni.\nC) in poche occasioni, durante gli anni di studio.\nD) ogni giorno, da almeno una quindicina di anni.\n\n**3. Quando ha provato a modificare una pagina, Furlan**\n\nA) ha cambiato una voce che desiderava cancellare.\nB) ha cancellato una voce che desiderava cambiare.\nC) ha eliminato le correzioni preparate da un collega.\nD) ha pubblicato una nuova voce al posto di un’altra.\n\n**4. Furlan consiglia Wikipedia ai suoi studenti perché l’enciclopedia**\n\nA) valuta con cura le parole anche su argomenti delicati.\nB) esclude gli argomenti politici dalle pagine disponibili.\nC) affida la scelta delle parole soltanto agli insegnanti.\nD) permette di studiare evitando i temi che dividono le persone.\n\n**5. Per il futuro, Furlan si augura che**\n\nA) i libri di carta prendano il posto dei testi digitali.\nB) i testi digitali siano consultabili pagando un abbonamento.\nC) i testi digitali e i libri di carta continuino a convivere.\nD) i libri di carta restino disponibili soltanto nelle biblioteche.\n\n**6. Per Furlan, i progetti fratelli di Wikipedia sono preziosi perché**\n\nA) raccolgono soltanto libri che si possono ancora acquistare.\nB) organizzano corsi per insegnare a modificare le pagine.\nC) scelgono le letture da proporre agli studenti universitari.\nD) aiutano a far conoscere la cultura e a diffondere il sapere.\n\n**7. Secondo Furlan, Wikipedia può contribuire alla difesa della democrazia perché**\n\nA) permette ai cittadini di sostituire il lavoro dei giornalisti.\nB) aiuta i cittadini a conoscere la verità su ciò che accade.\nC) trasforma le opinioni dei lettori in nuove decisioni politiche.\nD) consente ai cittadini di evitare i temi su cui non concordano."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | C | Si domandava come controllare «la correttezza di quanto scritto» se tutti potevano modificare il testo. 中文：疑问在于开放编辑时如何保证内容正确。 |\n| L1.2 | D | Si definisce «un quotidiano utilizzatore» da almeno quindici anni. 中文：quotidiano 表示每天；注意使用频率和持续时间。 |\n| L1.3 | B | Dice: «ho cancellato tutta una voce che volevo semplicemente modificare». 中文：本来只想修改，却删除了整个条目。 |\n| L1.4 | A | Nei temi delicati una parola può fare la differenza; su Wikipedia le parole sono «valutate con attenzione». 中文：推荐的理由是措辞经过认真考虑，并非回避政治话题。 |\n| L1.5 | C | Si augura che «i testi digitali possano convivere con quelli cartacei». 中文：他希望数字文本与纸质书共同存在。 |\n| L1.6 | D | Sono «strumenti atti a divulgare cultura e conoscenza». 中文：价值在于传播文化和知识。 |\n| L1.7 | B | La democrazia «ha bisogno che i cittadini conoscano la verità». 中文：这里强调了解事实的公民对民主的重要性。 |"
+  },
+  "key": {
+    "L1.1": "C",
+    "L1.2": "D",
+    "L1.3": "B",
+    "L1.4": "A",
+    "L1.5": "C",
+    "L1.6": "D",
+    "L1.7": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mettere mano al testo",
+      "categoria": "espressione verbale",
+      "zh": "动手修改文本",
+      "en": "to edit the text",
+      "esempio": "se chiunque può mettere mano al testo"
+    },
+    {
+      "parola": "degna di fiducia",
+      "categoria": "espressione aggettivale",
+      "zh": "值得信任的",
+      "en": "trustworthy",
+      "esempio": "È accurata, degna di fiducia e democratica"
+    },
+    {
+      "parola": "voce",
+      "categoria": "sostantivo femminile",
+      "zh": "百科词条",
+      "en": "encyclopedia entry",
+      "esempio": "ho cancellato tutta una voce che volevo semplicemente modificare"
+    },
+    {
+      "parola": "cartacei",
+      "categoria": "aggettivo maschile plurale",
+      "zh": "纸质的",
+      "en": "printed; paper-based",
+      "esempio": "Mi auguro che anche in futuro i testi digitali possano convivere con quelli cartacei."
+    },
+    {
+      "parola": "accessibile",
+      "categoria": "aggettivo",
+      "zh": "可获取的；易接近的",
+      "en": "accessible",
+      "esempio": "la conoscenza sia sempre più accessibile a tutti"
+    },
+    {
+      "parola": "divulgare",
+      "categoria": "verbo",
+      "zh": "普及；传播",
+      "en": "to disseminate",
+      "esempio": "Sono tutti strumenti atti a divulgare cultura e conoscenza, quindi preziosi."
+    },
+    {
+      "parola": "pubblico dominio",
+      "categoria": "espressione nominale",
+      "zh": "公有领域",
+      "en": "public domain",
+      "esempio": "raccogliere e preservare i testi entrati nel pubblico dominio"
+    }
+  ]
+}

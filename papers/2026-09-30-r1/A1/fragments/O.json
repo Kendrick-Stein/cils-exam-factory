@@ -1,0 +1,15 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Come si chiama una persona della tua famiglia e che lavoro fa?\n\n**2.** In quale stanza di casa studi o leggi?\n\n**3.** A che ora fai colazione e che cosa mangi?\n\n**4.** Come vai a scuola o al lavoro?\n\n**5.** Che cosa fai a casa quando piove?\n\n**6.** Con chi passi di solito la domenica?",
+    "O2_ARGOMENTI": "**1.** Descrivi la borsa che usi ogni giorno: il colore, gli oggetti dentro e quando la usi.\n\n**2.** Parla del tuo sabato mattina: a che ora ti alzi, dove vai e che cosa fai."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Come si chiama una persona della tua famiglia e che lavoro fa?**\n\nMia sorella si chiama Elena. Fa la maestra in una scuola vicino a casa.\n\n**2. In quale stanza di casa studi o leggi?**\n\nStudio in camera mia. Ho un piccolo tavolo vicino alla finestra e leggo lì.\n\n**3. A che ora fai colazione e che cosa mangi?**\n\nFaccio colazione alle sette. Mangio pane con la marmellata e bevo un tè.\n\n**4. Come vai a scuola o al lavoro?**\n\nVado a scuola in autobus. La fermata è davanti a casa mia.\n\n**5. Che cosa fai a casa quando piove?**\n\nQuando piove, ascolto musica o guardo un film. A volte preparo una torta con mia sorella.\n\n**6. Con chi passi di solito la domenica?**\n\nDi solito passo la domenica con i miei nonni. Pranziamo insieme e poi giochiamo a carte.",
+    "MODEL_O1_PHRASES": "Si chiama…（他／她叫……） · Vicino a casa（在家附近） · Quando piove…（下雨的时候……） · Di solito…（通常……）",
+    "MODEL_O2": "**Argomento n. 1 — La mia borsa**\n\nHo una borsa blu, piccola e leggera. La uso ogni giorno per andare a scuola. Dentro ci sono un libro, un quaderno e due penne. Porto anche una bottiglia di acqua e una mela per la pausa. Il telefono è in una tasca. La sera metto la borsa vicino alla porta. Mi piace molto perché è comoda e ha tante tasche.\n\n**Argomento n. 2 — Il mio sabato mattina**\n\nIl sabato mattina mi alzo alle otto. Faccio colazione in cucina con mia sorella. Poi andiamo a piedi al mercato vicino a casa. Compriamo il pane, la frutta e le verdure. Dopo la spesa, beviamo un caffè al bar. Torniamo a casa alle undici e prepariamo il pranzo insieme. Mi piace il sabato perché ho tempo per parlare con lei.",
+    "MODEL_O2_PHRASES": "La uso ogni giorno（我每天都用它） · Dentro ci sono…（里面有……） · Andiamo a piedi（我们步行去） · Dopo la spesa…（买完东西后……）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

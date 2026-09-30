@@ -1,0 +1,54 @@
+CILS A2 — Esercitazione non ufficiale — 30 settembre 2026
+Fonti, attribuzioni, licenze e modifiche
+
+Ogni testo adattato è distribuito con la licenza specificata per la relativa fonte. La raccolta è pubblicata gratuitamente e senza uso commerciale. Nessuna affiliazione o approvazione degli autori delle fonti è implicata. Le fotografie delle fonti non sono riprodotte.
+
+T1 — Carnevale alcamese 2020: grande successo di pubblico
+Autore/contributori: Wikinotizie contributors
+Fonte: https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
+Licenza dell'originale e del testo adattato: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T2 — Navigare in internet
+Autore/contributori: Biblioteca Salaborsa / Comune di Bologna
+Fonte: https://www.bibliotecasalaborsa.it/documents/navigare-in-internet
+Licenza dell'originale e del testo adattato: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T3 — Catania — sei servizi e attività
+Autore/contributori: Wikivoyage contributors
+Fonte: https://it.wikivoyage.org/wiki/Catania
+Licenza dell'originale e del testo adattato: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikivoyage.org/wiki/Catania
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T4 — Studiare in biblioteca
+Autore/contributori: Biblioteca Salaborsa / Comune di Bologna
+Fonte: https://www.bibliotecasalaborsa.it/documents/studiare-in-biblioteca
+Licenza dell'originale e del testo adattato: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://www.bibliotecasalaborsa.it/documents/licenze-e-disclaimer-salaborsa
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T5 — Intervista a Daniela Persico — lavoro quotidiano e inizio della carriera
+Autore/contributori: Wikinotizie contributors; Locarno Kids news lab
+Fonte: https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+Licenza dell'originale e del testo adattato: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T6 — Catania — negozi e mercati
+Autore/contributori: Wikivoyage contributors
+Fonte: https://it.wikivoyage.org/wiki/Catania
+Licenza dell'originale e del testo adattato: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Consultato: 2026-09-30
+license_evidence_url: https://it.wikivoyage.org/wiki/Catania
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+Variante di esercitazione guidata: {"S2": "Explicit tense/mood labels"}

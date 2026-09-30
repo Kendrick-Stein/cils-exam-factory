@@ -1,0 +1,83 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Fotografa la cultura, condividila con il mondo: al via Wiki Loves Monuments 2026",
+    "S3_TEXT_WITH_GAPS": "Dal 1° al 30 settembre torna Wiki Loves Monuments, il concorso __fotografico (0)__ che invita tutti a __(1)__ il __(2)__ culturale italiano e a condividerlo con milioni di persone. Al concorso tradizionale si __(3)__ quello tematico, quest’anno dedicato a ville e palazzi storici.\n\nCi sono posti che attraversiamo ogni giorno, spesso senza guardarli davvero. Sono palazzi, ville, chiese, monumenti: tutti luoghi che raccontano la storia e la cultura del nostro Paese.\n\nWiki Loves Monuments nasce per __(4)__ e renderli __(5)__ a tutti.\n\nOrganizzato da Wikimedia Italia con la collaborazione di FIAF – Federazione Italiana Associazioni Fotografiche e il patrocinio di Anci, il concorso invita fotografi e __(6)__ a raccontare il patrimonio culturale italiano attraverso immagini rilasciate con __(7)__ libera, disponibili su Wikimedia Commons, Wikipedia e sugli altri progetti Wikimedia.\n\nLe fotografie possono essere state __(8)__ anche in __(9)__: l’importante è __(10)__ durante il mese di settembre 2026.\n\nLe 10 foto migliori scelte dalla __(11)__ nazionale __(12)__ l’Italia al concorso internazionale.\n\nLe fotografie caricate durante il concorso saranno pubblicate su Wikimedia Commons, l’__(13)__ multimediale libero e gratuito che __(14)__ Wikipedia e gli altri progetti Wikimedia, contribuendo a far conoscere la __(15)__ del patrimonio culturale italiano a milioni di persone in tutto il mondo.",
+    "S3_OPT0_A": "fotografico",
+    "S3_OPT0_B": "teatrale",
+    "S3_OPT0_C": "sportivo",
+    "S3_OPT0_D": "letterario",
+    "S3_OPTION_ROWS": "| 1. | restaurare | documentare | finanziare | amministrare |\n| 2. | calendario | commercio | bilancio | patrimonio |\n| 3. | affianca | arrende | ribella | sottrae |\n| 4. | alienarli | recintarli | svelarli | demolirli |\n| 5. | abitabili | accessibili | edificabili | trasportabili |\n| 6. | concessionari | committenti | appaltatori | appassionati |\n| 7. | licenza | cauzione | delega | ricevuta |\n| 8. | redatte | emanate | scattate | formulate |\n| 9. | giacenza | precedenza | consegna | scadenza |\n| 10. | ritoccarle | incorniciarle | autografarle | caricarle |\n| 11. | giuria | procura | dogana | questura |\n| 12. | riforniranno | risarciranno | rappresenteranno | raggiungeranno |\n| 13. | abbonamento | archivio | allestimento | annuncio |\n| 14. | collauda | prenota | sorveglia | alimenta |\n| 15. | ricchezza | liquidità | giacenza | scadenza |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | Le fotografie servono a documentare i beni culturali, cioè a registrarne e mostrarne l’aspetto; non costituiscono interventi edilizi, finanziamenti o gestione dei beni. 中文：摄影用于记录、展示文化遗产，而不是修复、资助或管理这些建筑。 |\n| S3.2 | D | Palazzi, ville, chiese e monumenti sono presentati come un insieme di beni culturali: la collocazione è «patrimonio culturale». 中文：后文列举宫殿、别墅、教堂和古迹，说明这里指文化遗产这一整体。 |\n| S3.3 | A | Il concorso tematico viene aggiunto a quello tradizionale: «affiancarsi a» esprime la presenza delle due iniziative una accanto all’altra. 中文：主题竞赛与传统竞赛并行，affiancarsi a表示在原有活动之外增设并列的活动。 |\n| S3.4 | C | Il pronome riprende i luoghi che attraversiamo senza guardarli: svelarli significa farli scoprire, coerentemente con lo scopo fotografico e culturale. 中文：这些地方平时容易被忽略；svelarli在此指让人发现、认识它们。 |\n| S3.5 | B | La condivisione delle immagini permette a tutti di conoscere i luoghi: «accessibili» esprime questa possibilità, senza trasformazioni fisiche degli edifici. 中文：共享照片让所有人都能了解这些地方；这里的accessibili指可接触、可了解。 |\n| S3.6 | D | Accanto ai fotografi, l’invito rivolto a tutti comprende gli appassionati, cioè chi coltiva un interesse per la fotografia e il patrimonio culturale. 中文：活动向所有人开放，除摄影师外还邀请摄影和文化遗产爱好者。 |\n| S3.7 | A | Le condizioni che autorizzano l’uso delle immagini sono espresse dalla «licenza libera»; le altre parole indicano atti o garanzie di diversa natura. 中文：规定图像使用权限的是开放许可licenza libera，其他选项属于不同的法律或交易文件。 |\n| S3.8 | C | «Scattare una fotografia» è la collocazione relativa alla produzione di immagini fotografiche; redigere, emanare e formulare riguardano altri tipi di contenuti o atti. 中文：拍摄照片的固定搭配是scattare una fotografia。 |\n| S3.9 | B | «In precedenza» indica che il momento dello scatto può essere anteriore al settembre 2026; il termine temporale riguarda invece il caricamento. 中文：in precedenza表示拍摄时间可以更早，九月这一时间要求针对上传。 |\n| S3.10 | D | Il testo riprende subito dopo «le fotografie caricate» e ne prevede la pubblicazione online: è il caricamento che deve avvenire a settembre. 中文：后文明确说“已上传的照片”会在线发布，因此九月必须完成的是上传。 |\n| S3.11 | A | Nel concorso fotografico l’organo che valuta e sceglie le fotografie migliori è la giuria; le altre istituzioni hanno funzioni estranee alla selezione artistica. 中文：在摄影竞赛中评选最佳作品的是评审团giuria，其他机构不承担艺术评奖职责。 |\n| S3.12 | C | Le fotografie selezionate a livello nazionale parteciperanno al concorso internazionale per l’Italia: «rappresentare» esprime questo ruolo. 中文：全国评选出的照片将在国际比赛中代表意大利，故用rappresentare。 |\n| S3.13 | B | Wikimedia Commons raccoglie e rende disponibili le fotografie pubblicate: è dunque un archivio multimediale, non un contratto, un’esposizione o un messaggio promozionale. 中文：Wikimedia Commons收集并提供照片，因此是多媒体档案库，而非订阅、展陈或广告。 |\n| S3.14 | D | L’archivio fornisce immagini a Wikipedia e agli altri progetti: «alimenta» è usato figuratamente nel senso di fornire contenuti. 中文：alimenta在这里是比喻用法，指向维基百科等项目提供内容。 |\n| S3.15 | A | La varietà di palazzi, ville, chiese e monumenti esprime la ricchezza del patrimonio culturale, che le immagini fanno conoscere nel mondo. 中文：各种宫殿、别墅、教堂和古迹体现文化遗产的丰富性，这里不指财务流动性、库存或期限。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "D",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "D",
+    "S3.7": "A",
+    "S3.8": "C",
+    "S3.9": "B",
+    "S3.10": "D",
+    "S3.11": "A",
+    "S3.12": "C",
+    "S3.13": "B",
+    "S3.14": "D",
+    "S3.15": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "patrimonio culturale",
+      "categoria": "locuzione nominale",
+      "zh": "文化遗产",
+      "en": "cultural heritage",
+      "esempio": "documentare il patrimonio culturale italiano"
+    },
+    {
+      "parola": "affiancarsi a",
+      "categoria": "verbo pronominale",
+      "zh": "与……并行；增设于……之外",
+      "en": "to run alongside",
+      "esempio": "Al concorso tradizionale si affianca quello tematico"
+    },
+    {
+      "parola": "svelare",
+      "categoria": "verbo transitivo",
+      "zh": "揭示；使人发现",
+      "en": "to reveal",
+      "esempio": "Wiki Loves Monuments nasce per svelarli"
+    },
+    {
+      "parola": "licenza libera",
+      "categoria": "locuzione nominale",
+      "zh": "开放许可",
+      "en": "free licence",
+      "esempio": "immagini rilasciate con licenza libera"
+    },
+    {
+      "parola": "in precedenza",
+      "categoria": "locuzione avverbiale",
+      "zh": "此前",
+      "en": "previously",
+      "esempio": "Le fotografie possono essere state scattate anche in precedenza"
+    },
+    {
+      "parola": "giuria",
+      "categoria": "sostantivo femminile",
+      "zh": "评审团",
+      "en": "jury",
+      "esempio": "Le 10 foto migliori scelte dalla giuria nazionale"
+    },
+    {
+      "parola": "archivio multimediale",
+      "categoria": "locuzione nominale",
+      "zh": "多媒体档案库",
+      "en": "multimedia repository",
+      "esempio": "l’archivio multimediale libero e gratuito"
+    }
+  ]
+}

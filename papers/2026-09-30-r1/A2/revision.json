@@ -1,0 +1,28 @@
+{
+  "revision_of": {
+    "session": "2026-09-30",
+    "level": "A2",
+    "commit": "655e43ac5a94e9557fc36e2f5cce428e8128a986"
+  },
+  "revision_kind": "format-only",
+  "reason": "Correct rendering of worked-example strikethrough; preserve exact authored content, keys, models and sources",
+  "content_hashes": {
+    "paper.md": {
+      "original": "246e9610793b2069fe178f625f18f763586c42486cdb6cb3ad2520a5c57f9e2c",
+      "revision": "246e9610793b2069fe178f625f18f763586c42486cdb6cb3ad2520a5c57f9e2c",
+      "excludes": "front matter only"
+    },
+    "answers.md": {
+      "original": "555f0c5dcfaddeae1222052aac837d033b453eec14faec5a6277247367e571d5",
+      "revision": "555f0c5dcfaddeae1222052aac837d033b453eec14faec5a6277247367e571d5",
+      "excludes": "front matter only"
+    },
+    "key.json": "5f4180691e8089da45be1a617054104a2f52bc1e8195109b928517a58dac1313",
+    "sources.md": "f0181d6f836b4a93cee9a241c4922f3a73f86a4a0e7a8d16d5133b61746a5aa2",
+    "blind-round-0.json": "bddad4cb3be8509dda0225d29f25e5a96e74399a0fba4fbe6b758783e5d5cc9d",
+    "blind-round-1.json": "e56c0d2788151b8243ebef7545df6d9b10ed283e80fae27e5194067f2a040faa",
+    "blind-validation.json": "640f9ad98cf79ac353d4d998f6eb63a3b9c93ea3051b65d29ea621137f68025b"
+  },
+  "independent_validation_reused": true,
+  "new_corpus_claim": false
+}

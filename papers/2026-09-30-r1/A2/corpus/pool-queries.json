@@ -1,0 +1,578 @@
+[
+  {
+    "level": "A2",
+    "slot": "T1",
+    "command": "python3 scripts/pool_select.py --level A2 --genre news_general --words 180-240 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.ansa.it/sito/notizie/cultura/arte/2026/07/25/mic-e-mitur-apertura-serale-straordinaria-grandi-monumenti-si-parte-da-roma-e-milano_b2722d2d-0663-457f-ae81-0313b62d0e4c.html",
+        "title": "Mic e MiTur, apertura serale straordinaria grandi monumenti: si parte da Roma e Milano",
+        "publisher": "ANSA",
+        "published": "2026-07-25",
+        "fetched": "2026-08-06",
+        "genre": "news_general",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 204,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "B1/T6-extra",
+        "source_file": "factory/corpus/pool/acfbd1054be2.md"
+      },
+      {
+        "url": "https://www.rainews.it/tgr/trento/video/2026/06/storo-darzo-vecchia-miniera-visite-trentino-cdeff85b-5c3c-4119-957f-203af4f586ca.html",
+        "title": "A Darzo riprende vita la vecchia miniera",
+        "publisher": "RaiNews TGR Trento",
+        "published": "2026-06-27",
+        "fetched": "2026-08-02",
+        "genre": "news_general",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 214,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T5-extra",
+        "source_file": "factory/corpus/pool/479a5da5aa25.md"
+      },
+      {
+        "url": "https://www.rainews.it/tgr/sicilia/articoli/2026/05/sicilia-scuole-aperte-anche-destate-5110d6cb-8704-481e-b73b-d58c8508eb64.html",
+        "title": "Sicilia: scuole aperte anche d'estate",
+        "publisher": "RaiNews",
+        "published": "2026-05-18",
+        "fetched": "2026-08-08",
+        "genre": "news_general",
+        "cefr": "A2",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 224,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T1",
+        "source_file": "factory/corpus/pool/be13d8b452dc.md"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "slot": "T2",
+    "command": "python3 scripts/pool_select.py --level A2 --genre practical_realia --words 150-200 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/summer-eco-tour-folgaria_e_133501352",
+        "title": "Green Kids Village",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 176,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T6-extra",
+        "source_file": "factory/corpus/pool/0306b636e74e.md"
+      },
+      {
+        "url": "https://www.comune.torino.it/vivere-comune/eventi?f%5B0%5D=argomenti_eventi%3A388&f%5B1%5D=quando%3Anext_seven_days&f%5B2%5D=quando_picker%3A2026-05-16&page=2",
+        "title": "Eventi",
+        "publisher": "Città di Torino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 167,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T3",
+        "source_file": "factory/corpus/pool/8bd1f11f3106.md"
+      },
+      {
+        "url": "https://www.rainews.it/amp/tgr/piemonte/articoli/2026/06/gli-eventi-nei-punti-estivi-e-le-aperture-delle-piscine-comunali-214e67c9-16b4-4020-87d7-356b041bdc73.html",
+        "title": "L'estate è iniziata. Ecco gli eventi nei punti estivi e le aperture delle piscine comunali",
+        "publisher": "RaiNews",
+        "published": "2026-06-22",
+        "fetched": "2026-08-08",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 162,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T3",
+        "source_file": "factory/corpus/pool/60d4b40a763b.md"
+      },
+      {
+        "url": "https://decentramento.comune.torino.it/circoscrizione5/vivere-circoscrizione/luoghi/giardino-don-gnocchi",
+        "title": "Giardino Don Gnocchi — giochi d’acqua",
+        "publisher": "Città di Torino, Circoscrizione 5",
+        "published": "2026-06-04",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 163,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1-backup",
+        "source_file": "factory/corpus/pool/7d5720811232.md"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "slot": "T3",
+    "command": "python3 scripts/pool_select.py --level A2 --genre practical_realia --words 120-180 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.comune.torino.it/vivere-comune/eventi?f%5B0%5D=argomenti_eventi%3A388&f%5B1%5D=quando%3Anext_seven_days&f%5B2%5D=quando_picker%3A2026-05-16&page=2",
+        "title": "Eventi",
+        "publisher": "Città di Torino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 167,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T3",
+        "source_file": "factory/corpus/pool/8bd1f11f3106.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/da-vedere/castelli/castel-thun_md_2666",
+        "title": "Castel Thun",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 133,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1-extra",
+        "source_file": "factory/corpus/pool/3e41a122b3b7.md"
+      },
+      {
+        "url": "https://www.trenitalia.com/it/regionale/nuovo-biglietto-digitale-regionale.html",
+        "title": "Biglietto Digitale Regionale",
+        "publisher": "Trenitalia",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 129,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T4-extra",
+        "source_file": "factory/corpus/pool/6aeed0f1da72.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/summer-eco-tour-folgaria_e_133501352",
+        "title": "Green Kids Village",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 176,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T6-extra",
+        "source_file": "factory/corpus/pool/0306b636e74e.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/vivi-tesino-l-orto-dei-bambini_e_54399709",
+        "title": "Vivi Tesino: L'orto dei bambini",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 124,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T2-extra",
+        "source_file": "factory/corpus/pool/7ed7bc80cff6.md"
+      },
+      {
+        "url": "https://www.rainews.it/amp/tgr/piemonte/articoli/2026/06/gli-eventi-nei-punti-estivi-e-le-aperture-delle-piscine-comunali-214e67c9-16b4-4020-87d7-356b041bdc73.html",
+        "title": "L'estate è iniziata. Ecco gli eventi nei punti estivi e le aperture delle piscine comunali",
+        "publisher": "RaiNews",
+        "published": "2026-06-22",
+        "fetched": "2026-08-08",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 162,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T3",
+        "source_file": "factory/corpus/pool/60d4b40a763b.md"
+      },
+      {
+        "url": "https://decentramento.comune.torino.it/circoscrizione5/vivere-circoscrizione/luoghi/giardino-don-gnocchi",
+        "title": "Giardino Don Gnocchi — giochi d’acqua",
+        "publisher": "Città di Torino, Circoscrizione 5",
+        "published": "2026-06-04",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 163,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1-backup",
+        "source_file": "factory/corpus/pool/7d5720811232.md"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "slot": "T4",
+    "command": "python3 scripts/pool_select.py --level A2 --genre practical_realia --words 90-130 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/programma-pro-loco-monte-bondone_e_104720571",
+        "title": "Programma Pro Loco - Monte Bondone",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A1",
+        "usable_levels": [
+          "A1",
+          "A2"
+        ],
+        "words": 105,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T3",
+        "source_file": "factory/corpus/pool/99ec1cdd8d1f.md"
+      },
+      {
+        "url": "https://girolamini.cultura.gov.it/eventi-e-news/domenicalmuseo-3-maggio-2026/",
+        "title": "#domenicalmuseo 3 maggio 2026",
+        "publisher": "Complesso monumentale e Biblioteca dei Girolamini",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 116,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "B2/T6-overfetch",
+        "source_file": "factory/corpus/pool/fb16666a9652.md"
+      },
+      {
+        "url": "https://www.trenitalia.com/it/offerte/offerta-viaggia-con-me.html",
+        "title": "Offerta Viaggia con me",
+        "publisher": "Trenitalia",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 117,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T4",
+        "source_file": "factory/corpus/pool/64b26d0a8c2c.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/vivi-tesino-l-orto-dei-bambini_e_54399709",
+        "title": "Vivi Tesino: L'orto dei bambini",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 124,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T2-extra",
+        "source_file": "factory/corpus/pool/7ed7bc80cff6.md"
+      },
+      {
+        "url": "https://www.trenitalia.com/it/regionale/nuovo-biglietto-digitale-regionale.html",
+        "title": "Biglietto Digitale Regionale",
+        "publisher": "Trenitalia",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 129,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T4-extra",
+        "source_file": "factory/corpus/pool/6aeed0f1da72.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "slot": "T5",
+    "command": "python3 scripts/pool_select.py --level A2 --genre blogs_lifestyle --words 90-130 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://turistipercaso.it/diari-di-viaggio/corfu-ci-aspettavamo-di-piu-DIARI-63874.html",
+        "title": "Corfù: ci aspettavamo di più…",
+        "publisher": "Turisti per Caso",
+        "published": "unknown",
+        "fetched": "2026-08-21",
+        "genre": "blogs_lifestyle",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 111,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A2/extra",
+        "source_file": "factory/corpus/pool/830e13888de7.md"
+      },
+      {
+        "url": "https://www.bimbieviaggi.it/giappone-con-3-gemelli-si-puo/",
+        "title": "Viaggio in Giappone con 3 gemelli? Si può!",
+        "publisher": "Bimbi e Viaggi",
+        "published": "2019-02-06",
+        "fetched": "2026-08-07",
+        "genre": "blogs_lifestyle",
+        "cefr": "A2",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 116,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A2/T5-extra",
+        "source_file": "factory/corpus/pool/6a071ef7349b.md"
+      },
+      {
+        "url": "https://www.bimbieviaggi.it/2018/06/11/family-hotel-in-romagna-blu-suite-igea-marina/",
+        "title": "Family Hotel in Romagna: la nostra esperienza al Blu Suite Hotel di Bellaria Igea Marina (Rimini)",
+        "publisher": "Bimbi e Viaggi",
+        "published": "2018-06-11",
+        "fetched": "2026-08-07",
+        "genre": "blogs_lifestyle",
+        "cefr": "A2",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 118,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A2/T5",
+        "source_file": "factory/corpus/pool/5fcc79325d4e.md"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "slot": "T6",
+    "command": "python3 scripts/pool_select.py --level A2 --genre practical_realia --words 90-130 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/programma-pro-loco-monte-bondone_e_104720571",
+        "title": "Programma Pro Loco - Monte Bondone",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A1",
+        "usable_levels": [
+          "A1",
+          "A2"
+        ],
+        "words": 105,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T3",
+        "source_file": "factory/corpus/pool/99ec1cdd8d1f.md"
+      },
+      {
+        "url": "https://girolamini.cultura.gov.it/eventi-e-news/domenicalmuseo-3-maggio-2026/",
+        "title": "#domenicalmuseo 3 maggio 2026",
+        "publisher": "Complesso monumentale e Biblioteca dei Girolamini",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "words": 116,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "B2/T6-overfetch",
+        "source_file": "factory/corpus/pool/fb16666a9652.md"
+      },
+      {
+        "url": "https://www.trenitalia.com/it/offerte/offerta-viaggia-con-me.html",
+        "title": "Offerta Viaggia con me",
+        "publisher": "Trenitalia",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 117,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T4",
+        "source_file": "factory/corpus/pool/64b26d0a8c2c.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/vivi-tesino-l-orto-dei-bambini_e_54399709",
+        "title": "Vivi Tesino: L'orto dei bambini",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 124,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T2-extra",
+        "source_file": "factory/corpus/pool/7ed7bc80cff6.md"
+      },
+      {
+        "url": "https://www.trenitalia.com/it/regionale/nuovo-biglietto-digitale-regionale.html",
+        "title": "Biglietto Digitale Regionale",
+        "publisher": "Trenitalia",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "B1",
+        "usable_levels": [
+          "A2",
+          "B1"
+        ],
+        "words": 129,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T4-extra",
+        "source_file": "factory/corpus/pool/6aeed0f1da72.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Studiare in biblioteca",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ biblioteca offre __(1)__ seguenti spazi __(2)__ studiare e leggere liberamente: la Sala studio al primo piano, la Saletta studio al piano ammezzato e i tavoli della Sala Scuderie al piano terra. Sono __(3)__ tua disposizione anche i tavoli di entrambi __(4)__ ballatoi, il primo e il secondo. La tessera ti permette __(5)__ prenotare una postazione nella sala dedicata alla raccolta locale e ai viaggi. Hai la possibilità __(6)__ farlo direttamente al banco informazioni. Puoi anche telefonare, dal lunedì al venerdì, dalle 9 alle 13. Ecco __(7)__ seguenti raccomandazioni: ti raccomandiamo __(8)__ non lasciare incustoditi gli oggetti personali, __(9)__ utilizzare solo le prese elettriche predisposte e __(10)__ non spostare le sedie che trovi ai tavoli."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | i | S1.6 | di |\n| S1.2 | per | S1.7 | le |\n| S1.3 | a | S1.8 | di |\n| S1.4 | i | S1.9 | di |\n| S1.5 | di | S1.10 | di |",
+    "ANS_S1_NOTES": "**S1.1.** «I seguenti spazi»: articolo determinativo maschile plurale davanti a «seguenti». 中文：spazi 为阳性复数，seguenti 前用 i。\n\n**S1.2.** «Spazi per studiare»: «per» introduce lo scopo, espresso con due infiniti. 中文：per 加不定式表示用途，即供学习和阅读的空间。\n\n**S1.3.** «A tua disposizione» è una locuzione fissa. 中文：固定搭配 a disposizione 表示可供使用。\n\n**S1.4.** Dopo «entrambi» e prima di «ballatoi» serve l’articolo maschile plurale «i». 中文：entrambi 后接阳性复数名词 ballatoi，使用冠词 i。\n\n**S1.5.** «Permettere di» introduce l’azione possibile, qui «prenotare». 中文：固定结构 permettere di 加不定式，表示允许做某事。\n\n**S1.6.** «La possibilità di» regge l’infinito «farlo». 中文：名词 possibilità 后用 di 连接不定式。\n\n**S1.7.** «Le seguenti raccomandazioni»: articolo determinativo femminile plurale. 中文：raccomandazioni 为阴性复数，冠词用 le。\n\n**S1.8.** «Raccomandare di» regge l’infinito, anche con «non». 中文：raccomandare di 后接不定式；否定词 non 不改变介词。\n\n**S1.9.** Il secondo consiglio dipende ancora da «ti raccomandiamo di». 中文：第二项建议仍使用 raccomandare di 的结构。\n\n**S1.10.** Anche il terzo consiglio richiede «di»: «raccomandiamo di non spostare». 中文：第三项建议也由 di 引出，即建议不要移动椅子。"
+  },
+  "key": {
+    "S1.1": "i",
+    "S1.2": "per",
+    "S1.3": "a",
+    "S1.4": "i",
+    "S1.5": "di",
+    "S1.6": "di",
+    "S1.7": "le",
+    "S1.8": "di",
+    "S1.9": "di",
+    "S1.10": "di"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "postazione",
+      "categoria": "nome femminile",
+      "zh": "学习或工作位置",
+      "en": "study or work station",
+      "esempio": "prenotare una postazione nella sala dedicata alla raccolta locale e ai viaggi"
+    },
+    {
+      "parola": "tessera",
+      "categoria": "nome femminile",
+      "zh": "借书证；会员卡",
+      "en": "library card; membership card",
+      "esempio": "La tessera ti permette"
+    },
+    {
+      "parola": "banco informazioni",
+      "categoria": "locuzione nominale",
+      "zh": "咨询台",
+      "en": "information desk",
+      "esempio": "direttamente al banco informazioni"
+    },
+    {
+      "parola": "incustodito",
+      "categoria": "aggettivo",
+      "zh": "无人看管的",
+      "en": "unattended",
+      "esempio": "non lasciare incustoditi gli oggetti personali"
+    },
+    {
+      "parola": "presa elettrica",
+      "categoria": "locuzione nominale",
+      "zh": "电源插座",
+      "en": "electrical socket",
+      "esempio": "utilizzare solo le prese elettriche predisposte"
+    },
+    {
+      "parola": "piano terra",
+      "categoria": "locuzione nominale",
+      "zh": "底层；一楼",
+      "en": "ground floor",
+      "esempio": "i tavoli della Sala Scuderie al piano terra"
+    }
+  ]
+}

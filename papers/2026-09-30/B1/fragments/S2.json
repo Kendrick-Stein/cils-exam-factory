@@ -1,0 +1,77 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "INTERVISTA A VINCENT RUSSO",
+    "S2_TEXT_WITH_GAPS": "**Quando Lei *(imbattersi; passato prossimo)* __si è imbattuto (0)__ per la prima volta in Wikipedia?**\n\nInsieme ad Amazon.com, il sito Wikipedia *(essere; passato prossimo)* __(1)__ uno dei primi siti internazionali che io *(frequentare; passato prossimo)* __(2)__. Le pagine *(essere; imperfetto indicativo)* __(3)__ ancora in inglese, per tanti anni io *(leggerla; passato prossimo)* __(4)__ in inglese, poi mano a mano sono comparse le voci anche in italiano.\n\n**La sua confidenza con l'enciclopedia *(cambiare; passato prossimo)* __(5)__? *(rimanere; passato prossimo)* __(6)__ invariata?**\n\nIo non *(riuscire; presente indicativo)* __(7)__ a immaginare l'internet senza Wikipedia. *(essere; presente indicativo)* __(8)__ quasi sempre la mia prima fonte di informazione.\n\n**Se presente, Lei *(leggere; passato prossimo)* __(9)__ la sua biografia scritta in Wikipedia? Cosa *(pensarne; presente indicativo)* __(10)__?**\n\nNon *(esserci; presente indicativo)* __(11)__ ancora una mia biografia su Wikipedia. Io *(pensare; presente indicativo)* __(12)__ che le voci di bio *(dovere; condizionale presente)* __(13)__ comparire, se meritevoli di una voce, solo dopo la scomparsa dell'autore; *(evitare; condizionale presente)* __(14)__ le voci di persone in vita o *(trasformarle; condizionale presente)* __(15)__ in schede in un forum.\n\n**Cosa *(pensarne; presente indicativo)* __(16)__ di un possibile futuro senza testi cartacei?**\n\nIo non *(credere; presente indicativo)* __(17)__ di vedere questo futuro, senza carta, almeno non in questa mia vita. In generale la lettura sulla carta *(essere; presente indicativo)* __(18)__ ancora la preferita non solo di noi persone di mezza età, ma anche dei giovani. Quindi un giorno io *(potere; presente indicativo)* __(19)__ immaginare l'invenzione di un supporto che gli somigli, ma la carta *(restare; futuro semplice)* __(20)__."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | è stato | passato prossimo | S2.11 | c'è | presente indicativo |\n| S2.2 | ho frequentato | passato prossimo | S2.12 | penso | presente indicativo |\n| S2.3 | erano | imperfetto indicativo | S2.13 | dovrebbero | condizionale presente |\n| S2.4 | l'ho letta | passato prossimo | S2.14 | eviterei | condizionale presente |\n| S2.5 | è cambiata | passato prossimo | S2.15 | le trasformerei | condizionale presente |\n| S2.6 | è rimasta | passato prossimo | S2.16 | ne pensa | presente indicativo |\n| S2.7 | riesco | presente indicativo | S2.17 | credo | presente indicativo |\n| S2.8 | è | presente indicativo | S2.18 | è | presente indicativo |\n| S2.9 | ha letto | passato prossimo | S2.19 | posso | presente indicativo |\n| S2.10 | ne pensa | presente indicativo | S2.20 | resterà | futuro semplice |",
+    "ANS_S2_NOTES": "- S2.1: Il soggetto espresso «il sito Wikipedia» è maschile singolare; il passato prossimo indicato richiede «è stato». 中文：明确的主语 il sito Wikipedia 是阳性单数，因此近过去时须写 è stato。\n- S2.2: Il soggetto espresso «io» richiede «ho frequentato», al passato prossimo indicato. 中文：主语 io 锁定第一人称单数，近过去时为 ho frequentato。\n- S2.3: «Le pagine» è plurale; l'imperfetto indicativo richiesto dà «erano». 中文：主语是复数，essere 的直陈式未完成过去时应为 erano。\n- S2.4: «Io» e l'infinito «leggerla» richiedono «l'ho letta»: il pronome femminile indica Wikipedia e impone l'accordo del participio. 中文：leggerla 包含阴性宾语代词 la；完整答案须包括代词和助动词，分词写 letta。\n- S2.5: «La sua confidenza» è il soggetto femminile singolare; cambiare è usato senza oggetto, con l'ausiliare essere: «è cambiata». 中文：主语 confidenza 是阴性单数；这里 cambiare 为不及物用法，近过去时用 essere，分词须为 cambiata。\n- S2.6: Il soggetto ripreso è «la sua confidenza», femminile singolare; rimanere al passato prossimo dà «è rimasta». 中文：省略的主语是阴性单数 confidenza，所以用 è rimasta。\n- S2.7: Il soggetto «io» e il presente indicativo richiesto danno «riesco», con la forma irregolare in -esc-. 中文：riuscire 的第一人称单数现在时是不规则形式 riesco。\n- S2.8: Il soggetto sottinteso resta Wikipedia; il presente indicativo di essere alla terza persona singolare è «è». 中文：主语仍为 Wikipedia，essere 的第三人称单数现在时为 è。\n- S2.9: Il «Lei» di cortesia richiede la terza persona singolare; il passato prossimo di leggere è «ha letto». 中文：敬称 Lei 使用第三人称单数；leggere 的过去分词是不规则形式 letto。\n- S2.10: La domanda è rivolta con il «Lei» di cortesia; «pensarne» richiede di includere il pronome: «ne pensa». 中文：问题沿用敬称 Lei；pensarne 的 ne 必须一起写入空格。\n- S2.11: Il soggetto è «una mia biografia», singolare; al presente «esserci» diventa «c'è». 中文：esserci 表示存在；主语是单数，因此完整形式为 c'è。\n- S2.12: Il soggetto espresso «io» richiede la prima persona del presente indicativo: «penso». 中文：显性主语 io 要求第一人称单数现在时 penso。\n- S2.13: Il condizionale presente è indicato; il soggetto plurale «le voci di bio» richiede «dovrebbero». 中文：括号指定现在条件式，主语为复数，故用 dovrebbero。\n- S2.14: Il soggetto resta «io»; il condizionale presente di evitare è «eviterei». 中文：主语延续为 io，evitare 的第一人称单数现在条件式为 eviterei。\n- S2.15: Il soggetto resta «io»; l'infinito «trasformarle» include il pronome femminile plurale riferito alle voci: «le trasformerei». 中文：le 指代阴性复数 voci，须与第一人称单数条件式一起写入空格。\n- S2.16: L'intervistatore continua a usare il «Lei» di cortesia; al presente «pensarne» dà «ne pensa». 中文：采访者继续使用敬称 Lei，因此用第三人称单数 ne pensa。\n- S2.17: Il soggetto «io» richiede «credo», al presente indicativo esplicitamente richiesto. 中文：主语 io 与括号中的直陈式现在时共同锁定 credo。\n- S2.18: Il soggetto «la lettura sulla carta» è singolare; il presente indicativo richiesto dà «è». 中文：主语 la lettura 是单数，因此 essere 用 è。\n- S2.19: Il soggetto espresso «io» e il presente indicativo indicato richiedono «posso», anche se l'ipotesi riguarda «un giorno». 中文：显性主语 io 与指定的直陈式现在时共同锁定 posso；un giorno 不改变括号要求的时态。\n- S2.20: Il soggetto «la carta» è singolare; il futuro semplice indicato richiede «resterà». 中文：主语 la carta 为单数，指定的简单将来时为 resterà，注意重音。"
+  },
+  "key": {
+    "S2.1": "è stato",
+    "S2.2": "ho frequentato",
+    "S2.3": "erano",
+    "S2.4": "l'ho letta",
+    "S2.5": "è cambiata",
+    "S2.6": "è rimasta",
+    "S2.7": "riesco",
+    "S2.8": "è",
+    "S2.9": "ha letto",
+    "S2.10": "ne pensa",
+    "S2.11": "c'è",
+    "S2.12": "penso",
+    "S2.13": "dovrebbero",
+    "S2.14": "eviterei",
+    "S2.15": "le trasformerei",
+    "S2.16": "ne pensa",
+    "S2.17": "credo",
+    "S2.18": "è",
+    "S2.19": "posso",
+    "S2.20": "resterà"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "mano a mano",
+      "categoria": "locuzione avverbiale",
+      "zh": "逐渐地",
+      "en": "gradually",
+      "esempio": "poi mano a mano sono comparse le voci anche in italiano"
+    },
+    {
+      "parola": "confidenza",
+      "categoria": "nome femminile",
+      "zh": "熟悉程度",
+      "en": "familiarity",
+      "esempio": "La sua confidenza con l'enciclopedia è cambiata?"
+    },
+    {
+      "parola": "fonte di informazione",
+      "categoria": "espressione",
+      "zh": "信息来源",
+      "en": "source of information",
+      "esempio": "È quasi sempre la mia prima fonte di informazione."
+    },
+    {
+      "parola": "testi cartacei",
+      "categoria": "espressione",
+      "zh": "纸质文本",
+      "en": "printed texts",
+      "esempio": "un possibile futuro senza testi cartacei"
+    },
+    {
+      "parola": "di mezza età",
+      "categoria": "locuzione aggettivale",
+      "zh": "中年的",
+      "en": "middle-aged",
+      "esempio": "persone di mezza età"
+    },
+    {
+      "parola": "supporto",
+      "categoria": "nome maschile",
+      "zh": "载体；媒介",
+      "en": "medium",
+      "esempio": "l'invenzione di un supporto che gli somigli"
+    }
+  ]
+}

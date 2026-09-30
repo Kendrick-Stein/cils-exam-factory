@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Bambini e ragazzi",
+    "T1_TEXT": "La biblioteca ha uno spazio per bambine e bambini da zero a dieci anni circa. Ci sono due sale. La sala più piccola è per i bebè e ha arredi morbidi. I bambini possono prendere i libri facilmente.\n\nNelle sale si trovano libri facili da leggere, libri con lettere speciali e audiolibri. Ci sono anche libri senza parole, fumetti, riviste e libri di poesia. Si trovano libri in altre lingue e proposte musicali del programma «Nati per la musica».\n\nLa biblioteca organizza letture, laboratori e incontri aperti al pubblico. C'è anche un doposcuola per i bambini della scuola primaria. Per questa attività, la biblioteca lavora insieme ai Servizi educativi del Quartiere Navile.",
+    "L1_ITEMS": "**1. Lo spazio della biblioteca è per bambini**\n\nA) dai dieci ai quindici anni.\n\nB) da zero a circa dieci anni.\n\nC) dai quindici ai venti anni.\n\n**2. La sala per i bebè è**\n\nA) più grande dell'altra.\n\nB) grande come l'altra.\n\nC) più piccola dell'altra.\n\n**3. Insieme ai fumetti si trovano anche**\n\nA) riviste e libri di poesia.\n\nB) carte e giochi da tavolo.\n\nC) quaderni e matite colorate.\n\n**4. Il doposcuola è per i bambini**\n\nA) della scuola media.\n\nB) della scuola primaria.\n\nC) della scuola materna."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | Lo spazio è per bambini «da zero a dieci anni circa». 中文：年龄范围是零岁至十岁左右。 |\n| L1.2 | C | Per i bebè c'è «la sala più piccola». 中文：两间房中较小的一间供婴幼儿使用。 |\n| L1.3 | A | Il testo elenca «fumetti, riviste e libri di poesia». 中文：漫画之外，文中还明确列出杂志和诗集。 |\n| L1.4 | B | Il doposcuola è per «i bambini della scuola primaria». 中文：课后活动面向小学儿童。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sala",
+      "categoria": "nome femminile",
+      "zh": "房间；厅",
+      "en": "room",
+      "esempio": "La sala più piccola è per i bebè e ha arredi morbidi."
+    },
+    {
+      "parola": "facilmente",
+      "categoria": "avverbio",
+      "zh": "容易地",
+      "en": "easily",
+      "esempio": "I bambini possono prendere i libri facilmente."
+    },
+    {
+      "parola": "fumetti",
+      "categoria": "nome maschile plurale",
+      "zh": "漫画",
+      "en": "comics",
+      "esempio": "Ci sono anche libri senza parole, fumetti, riviste e libri di poesia."
+    },
+    {
+      "parola": "riviste",
+      "categoria": "nome femminile plurale",
+      "zh": "杂志",
+      "en": "magazines",
+      "esempio": "Ci sono anche libri senza parole, fumetti, riviste e libri di poesia."
+    },
+    {
+      "parola": "scuola primaria",
+      "categoria": "locuzione nominale",
+      "zh": "小学",
+      "en": "primary school",
+      "esempio": "C'è anche un doposcuola per i bambini della scuola primaria."
+    }
+  ]
+}

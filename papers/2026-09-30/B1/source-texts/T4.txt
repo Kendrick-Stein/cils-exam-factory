@@ -1,0 +1,9 @@
+Con l’arrivo delle alte temperature, una mappa delle fontanelle pubbliche nelle principali città italiane ha attirato l’attenzione del pubblico, mostrando dove trovare punti di approvvigionamento d’acqua in luoghi come Roma, Milano, Torino, Venezia, Bologna, Palermo e Bari. La mappa, rilanciata recentemente da Il Post, nasce da un lavoro di raccolta e aggiornamento dei dati geografici portato avanti dalla comunità italiana di OpenStreetMap.
+
+Alla base di questo risultato c’è infatti il progetto “Comuni senza POI”, l’iniziativa della comunità italiana di OpenStreetMap sviluppata nel luglio 2025. Il progetto aveva l’obiettivo di individuare e completare la presenza di alcuni punti di interesse POI, dall’inglese “Point of Interest”, ancora mancanti in molti comuni italiani, migliorando la qualità e la completezza della mappa libera.
+
+Tra le categorie prese in considerazione c’erano anche le fontanelle pubbliche, insieme ad altri elementi di interesse quotidiano come scuole, parchi giochi, uffici postali, municipi e luoghi di culto. Grazie al contributo dei volontari della comunità, numerosi dati sono stati aggiunti o aggiornati su OpenStreetMap, rendendo queste informazioni disponibili per mappe, applicazioni e servizi realizzati da chiunque.
+
+La diffusione della mappa delle fontanelle dimostra concretamente il valore dei dati aperti: informazioni raccolte in modo collaborativo dalla comunità possono trasformarsi in strumenti utili per affrontare esigenze quotidiane, dalla ricerca di una fonte d’acqua durante le giornate più calde fino alla conoscenza più approfondita del territorio.
+
+È questo uno degli obiettivi di OpenStreetMap: costruire una rappresentazione aggiornata e condivisa del mondo che ci circonda, grazie al contributo di migliaia di persone che ogni giorno s’impegnano a verificare e migliorare le informazioni geografiche.

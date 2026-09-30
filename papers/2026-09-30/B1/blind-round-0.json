@@ -1,0 +1,428 @@
+{
+  "answers": {
+    "L1.1": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.2": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L1.3": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.4": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.5": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.6": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L1.7": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L2.1": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.2": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.3": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.4": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.5": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.6": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.7": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.8": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.9": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.10": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.11": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.12": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.13": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.14": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L3.2": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L3.3": {
+      "answer": "H",
+      "confidence": "hi"
+    },
+    "L3.4": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L3.5": {
+      "answer": "J",
+      "confidence": "hi"
+    },
+    "L3.6": {
+      "answer": "E",
+      "confidence": "hi"
+    },
+    "L3.7": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L3.8": {
+      "answer": "K",
+      "confidence": "hi"
+    },
+    "L3.9": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.10": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "L3.11": {
+      "answer": "G",
+      "confidence": "hi"
+    },
+    "S1.1": {
+      "answer": "NELLE",
+      "confidence": "hi"
+    },
+    "S1.2": {
+      "answer": "L'",
+      "confidence": "hi"
+    },
+    "S1.3": {
+      "answer": "DA",
+      "confidence": "hi"
+    },
+    "S1.4": {
+      "answer": "DALLA",
+      "confidence": "hi"
+    },
+    "S1.5": {
+      "answer": "ALLA",
+      "confidence": "hi"
+    },
+    "S1.6": {
+      "answer": "IL",
+      "confidence": "hi"
+    },
+    "S1.7": {
+      "answer": "DELLA",
+      "confidence": "hi"
+    },
+    "S1.8": {
+      "answer": "NEL",
+      "confidence": "hi"
+    },
+    "S1.9": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.10": {
+      "answer": "IN",
+      "confidence": "hi"
+    },
+    "S1.11": {
+      "answer": "DELLA",
+      "confidence": "hi"
+    },
+    "S1.12": {
+      "answer": "IN",
+      "confidence": "hi"
+    },
+    "S1.13": {
+      "answer": "AL",
+      "confidence": "hi"
+    },
+    "S1.14": {
+      "answer": "SU",
+      "confidence": "hi"
+    },
+    "S1.15": {
+      "answer": "DA",
+      "confidence": "hi"
+    },
+    "S1.16": {
+      "answer": "PER",
+      "confidence": "hi"
+    },
+    "S1.17": {
+      "answer": "LE",
+      "confidence": "hi"
+    },
+    "S1.18": {
+      "answer": "ALLA",
+      "confidence": "hi"
+    },
+    "S1.19": {
+      "answer": "DEGLI",
+      "confidence": "hi"
+    },
+    "S1.20": {
+      "answer": "DEL",
+      "confidence": "hi"
+    },
+    "S2.1": {
+      "answer": "È STATO",
+      "confidence": "med"
+    },
+    "S2.2": {
+      "answer": "HO FREQUENTATO",
+      "confidence": "hi"
+    },
+    "S2.3": {
+      "answer": "ERANO",
+      "confidence": "hi"
+    },
+    "S2.4": {
+      "answer": "L'HO LETTA",
+      "confidence": "hi"
+    },
+    "S2.5": {
+      "answer": "SONO COMPARSE",
+      "confidence": "hi"
+    },
+    "S2.6": {
+      "answer": "È RIMASTA",
+      "confidence": "hi"
+    },
+    "S2.7": {
+      "answer": "RIESCO",
+      "confidence": "hi"
+    },
+    "S2.8": {
+      "answer": "È",
+      "confidence": "hi"
+    },
+    "S2.9": {
+      "answer": "HA LETTO",
+      "confidence": "hi"
+    },
+    "S2.10": {
+      "answer": "NE PENSA",
+      "confidence": "hi"
+    },
+    "S2.11": {
+      "answer": "C'È",
+      "confidence": "hi"
+    },
+    "S2.12": {
+      "answer": "PENSO",
+      "confidence": "hi"
+    },
+    "S2.13": {
+      "answer": "DOVREBBERO",
+      "confidence": "hi"
+    },
+    "S2.14": {
+      "answer": "EVITEREI",
+      "confidence": "hi"
+    },
+    "S2.15": {
+      "answer": "LE TRASFORMEREI",
+      "confidence": "hi"
+    },
+    "S2.16": {
+      "answer": "NE PENSA",
+      "confidence": "hi"
+    },
+    "S2.17": {
+      "answer": "CREDO",
+      "confidence": "hi"
+    },
+    "S2.18": {
+      "answer": "È",
+      "confidence": "hi"
+    },
+    "S2.19": {
+      "answer": "POSSIAMO",
+      "confidence": "med"
+    },
+    "S2.20": {
+      "answer": "RESTERÀ",
+      "confidence": "hi"
+    },
+    "S3.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.4": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.5": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.6": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.7": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.8": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.9": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.10": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.11": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.12": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S3.13": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.14": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.15": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S4.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S4.2": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S4.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S4.4": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S4.5": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S4.6": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S4.7": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S4.8": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S4.9": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S4.10": {
+      "answer": "D",
+      "confidence": "hi"
+    }
+  },
+  "flags": [
+    {
+      "item_id": "S2.1",
+      "reason": "Agreement is under-specified because the implicit subject is Wikipedia. Preferred È STATO treats it as a site; È STATA is also possible when Wikipedia is understood as the encyclopedia. Both comply with the printed passato prossimo hint."
+    },
+    {
+      "item_id": "S2.5",
+      "reason": "SONO COMPARSE is the normal answer; the less-common participle variant SONO COMPARITE is also a possible conjugation of comparire. This is an acceptable-form variant rather than a comprehension problem."
+    },
+    {
+      "item_id": "S2.19",
+      "reason": "The present-tense hint gives no subject. POSSIAMO fits a general collective conclusion; POSSO also fits the interviewee's first-person perspective already established by Io non credo. A subject or person hint is needed for a unique answer."
+    }
+  ],
+  "writing_checks": {
+    "W1": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_range": "100–120 words",
+      "check": "Clear B1 personal narrative with place/time, helper, difficulty, solution, and feelings; feasible within the printed range."
+    },
+    "W2": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_range": "50–80 words",
+      "check": "Clear informal invitation with day/time/address, suitable books, attraction, and confirmation deadline. The candidate can invent the event details; feasible within the printed range."
+    },
+    "O1": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_duration": "about 2–3 minutes",
+      "check": "Four accessible B1 interaction topics; selecting one is explicit. An examiner or practice partner is naturally required for the specified conversation."
+    },
+    "O2": {
+      "self_contained": true,
+      "level_appropriate": true,
+      "printed_duration": "about 1.5 minutes",
+      "check": "Four self-contained B1 monologue topics with adequate prompts; selecting one is explicit and the duration is feasible."
+    }
+  }
+}

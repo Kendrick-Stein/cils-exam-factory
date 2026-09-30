@@ -1,0 +1,65 @@
+CILS B2 — Esercitazione non ufficiale — 30 settembre 2026
+Fonti, attribuzioni, licenze e modifiche
+
+Ogni testo adattato è distribuito con la licenza specificata per la relativa fonte. La raccolta è pubblicata gratuitamente e senza uso commerciale. Nessuna affiliazione o approvazione degli autori delle fonti è implicata. Le fotografie delle fonti non sono riprodotte.
+
+T1 — Bibliobus
+Autore/contributori: Contributori di Wikipedia
+Fonte: https://it.wikipedia.org/wiki/Bibliobus
+Licenza dell'originale e del testo adattato: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Consultato: 2026-09-30
+permalink: https://it.wikipedia.org/w/index.php?title=Bibliobus&oldid=152526934
+history_url: https://it.wikipedia.org/w/index.php?title=Bibliobus&action=history
+license_evidence_url: https://it.wikipedia.org/wiki/Bibliobus
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T2 — Viaggiare in treno in Europa — Pianificare il viaggio e abbonamenti ferroviari
+Autore/contributori: Contributori di Wikivoyage
+Fonte: https://it.wikivoyage.org/wiki/Viaggiare_in_treno_in_Europa
+Licenza dell'originale e del testo adattato: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Consultato: 2026-09-30
+permalink: https://it.wikivoyage.org/w/index.php?title=Viaggiare_in_treno_in_Europa&oldid=931353
+history_url: https://it.wikivoyage.org/w/index.php?title=Viaggiare_in_treno_in_Europa&action=history
+license_evidence_url: https://it.wikivoyage.org/wiki/Viaggiare_in_treno_in_Europa
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T3 — Cuore — Il piccolo scrivano fiorentino
+Autore/contributori: Edmondo De Amicis; trascrizione dei contributori di Wikisource
+Fonte: https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 (dichiarazione specifica del testo); opera originale di pubblico dominio — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+permalink: https://it.wikisource.org/w/index.php?title=Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino&oldid=3681244
+history_url: https://it.wikisource.org/w/index.php?title=Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino&action=history
+license_evidence_url: https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T4 — Giovanni De Mauro racconta il suo rapporto con Wikipedia
+Autore/contributori: Sannita (intervistatore); Giovanni De Mauro (risposte); contributori di Wikinotizie
+Fonte: https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
+Licenza dell'originale e del testo adattato: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Consultato: 2026-09-30
+permalink: https://it.wikinews.org/w/index.php?title=Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale&oldid=943195
+history_url: https://it.wikinews.org/w/index.php?title=Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale&action=history
+license_evidence_url: https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T5 — Pinocchio arriva all’isola delle Api industriose
+Autore/contributori: Carlo Collodi; trascrizione dei contributori di Wikisource
+Fonte: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_24
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 (dichiarazione specifica del testo); opera originale di pubblico dominio — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+permalink: https://it.wikisource.org/w/index.php?title=Le_avventure_di_Pinocchio_(1892)/Capitolo_24&oldid=3814269
+history_url: https://it.wikisource.org/w/index.php?title=Le_avventure_di_Pinocchio_(1892)/Capitolo_24&action=history
+license_evidence_url: https://it.wikisource.org/wiki/Le_avventure_di_Pinocchio_(1892)/Capitolo_24
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+T6 — Fotografa la cultura, condividila con il mondo: al via Wiki Loves Monuments 2026
+Autore/contributori: Simona Cannataro / Wikimedia Italia
+Fonte: https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+Licenza dell'originale e del testo adattato: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Consultato: 2026-09-30
+permalink: https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+license_evidence_url: https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
+Modifiche: selezione, tagli e semplificazioni documentate in sources.md e manifest.yaml; trasformazione in esercizio mediante lacune, domande e opzioni.
+
+Variante di esercitazione guidata: {"S1": "Grammatical cues on selected ordinal, possessive, atonic and impersonal items", "S2": "Explicit mood/tense cues on all verb gaps; full mandated tense inventory represented"}
