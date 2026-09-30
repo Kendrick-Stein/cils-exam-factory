@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Carnevale alcamese 2020: grande successo di pubblico",
+    "T1_TEXT": "Nel 2020, ad Alcamo, tante persone hanno partecipato alla sesta edizione del Carnevale Alcamese. La festa si è svolta sabato, domenica e martedì. Il pubblico ha apprezzato molto i carri che sono passati in Piazza della Repubblica.\n\nIn questa edizione Giucà è diventato la maschera del carnevale della città. È stato presentato su un carro lungo dieci metri, largo quattro e alto nove. I due musicisti Calandra e Calandra hanno scritto e cantato una canzone per Giucà. Questa canzone è diventata l'inno della festa.\n\nC'erano luci, colori e musica. I carri presentavano temi diversi, come la tradizione siciliana e i cartoni animati: uno era dedicato ad Aladdin. Dietro ai carri, gruppi con maschere e costumi colorati hanno ballato. La maggior parte di questi gruppi veniva dalle scuole di danza della zona.\n\nPiù di mille persone hanno lavorato alla festa, tra associazioni, scuole di ballo e volontari. Gli artigiani hanno costruito i carri con materiali come cartone, legno e metallo. Alex Portuesi, direttore artistico della manifestazione, ha spiegato che questi materiali sono riciclabili: si possono usare di nuovo. Questo è importante per rispettare l'ambiente.\n\nNella piazza c'erano anche piccoli stand dove si poteva mangiare e un mercatino con oggetti fatti a mano.",
+    "L1_ITEMS": "**1. Il Carnevale Alcamese del 2020 si è svolto**\n\nA. venerdì, sabato e domenica.\n\nB. sabato, domenica e martedì.\n\nC. sabato, domenica e lunedì.\n\n**2. Il carro con Giucà era**\n\nA. lungo nove metri e alto quattro.\n\nB. lungo quattro metri e alto dieci.\n\nC. lungo dieci metri e alto nove.\n\n**3. La maggior parte dei gruppi che hanno ballato veniva**\n\nA. dalle scuole di danza della zona.\n\nB. dalle associazioni degli artigiani.\n\nC. dai gruppi dei due musicisti.\n\n**4. Secondo Alex Portuesi, i materiali dei carri rispettano l'ambiente perché**\n\nA. si possono usare di nuovo.\n\nB. hanno tanti colori diversi.\n\nC. sono facili da trasportare."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | La festa si è svolta sabato, domenica e martedì. 中文：第三天是星期二，不是星期一。 |\n| L1.2 | C | Il carro era lungo dieci metri, largo quattro e alto nove. 中文：注意区分长度、宽度和高度。 |\n| L1.3 | A | La maggior parte dei gruppi veniva dalle scuole di danza della zona. 中文：多数舞蹈团队来自当地舞蹈学校。 |\n| L1.4 | A | Portuesi collega il rispetto dell'ambiente ai materiali riciclabili, che si possono usare di nuovo. 中文：环保的原因是材料可以回收再利用。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "carro",
+      "categoria": "nome maschile",
+      "zh": "花车",
+      "en": "parade float",
+      "esempio": "È stato presentato su un carro lungo dieci metri, largo quattro e alto nove."
+    },
+    {
+      "parola": "la maggior parte",
+      "categoria": "espressione",
+      "zh": "大多数",
+      "en": "most",
+      "esempio": "La maggior parte di questi gruppi veniva dalle scuole di danza della zona."
+    },
+    {
+      "parola": "volontario",
+      "categoria": "nome maschile",
+      "zh": "志愿者",
+      "en": "volunteer",
+      "esempio": "Più di mille persone hanno lavorato alla festa, tra associazioni, scuole di ballo e volontari."
+    },
+    {
+      "parola": "riciclabile",
+      "categoria": "aggettivo",
+      "zh": "可回收利用的",
+      "en": "recyclable",
+      "esempio": "Alex Portuesi, direttore artistico della manifestazione, ha spiegato che questi materiali sono riciclabili: si possono usare di nuovo."
+    },
+    {
+      "parola": "fatto a mano",
+      "categoria": "espressione",
+      "zh": "手工制作的",
+      "en": "handmade",
+      "esempio": "Nella piazza c'erano anche piccoli stand dove si poteva mangiare e un mercatino con oggetti fatti a mano."
+    }
+  ]
+}

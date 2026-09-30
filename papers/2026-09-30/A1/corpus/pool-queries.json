@@ -1,0 +1,364 @@
+[
+  {
+    "level": "A1",
+    "slot": "T1",
+    "command": "python3 scripts/pool_select.py --level A1 --genre practical_realia --words 100-140 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/vivi-tesino-l-orto-dei-bambini_e_54399709",
+        "title": "Vivi Tesino: L'orto dei bambini",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 124,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T2-extra",
+        "source_file": "factory/corpus/pool/7ed7bc80cff6.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/programma-pro-loco-monte-bondone_e_104720571",
+        "title": "Programma Pro Loco - Monte Bondone",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A1",
+        "usable_levels": [
+          "A1",
+          "A2"
+        ],
+        "words": 105,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T3",
+        "source_file": "factory/corpus/pool/99ec1cdd8d1f.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "slot": "T2",
+    "command": "python3 scripts/pool_select.py --level A1 --genre practical_realia --words 100-140 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/vivi-tesino-l-orto-dei-bambini_e_54399709",
+        "title": "Vivi Tesino: L'orto dei bambini",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 124,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A2/T2-extra",
+        "source_file": "factory/corpus/pool/7ed7bc80cff6.md"
+      },
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/programma-pro-loco-monte-bondone_e_104720571",
+        "title": "Programma Pro Loco - Monte Bondone",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A1",
+        "usable_levels": [
+          "A1",
+          "A2"
+        ],
+        "words": 105,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T3",
+        "source_file": "factory/corpus/pool/99ec1cdd8d1f.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "slot": "T3",
+    "command": "python3 scripts/pool_select.py --level A1 --genre practical_realia --words 80-120 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.visittrentino.info/it/guida/cosa-fare/eventi/programma-pro-loco-monte-bondone_e_104720571",
+        "title": "Programma Pro Loco - Monte Bondone",
+        "publisher": "Visit Trentino",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A1",
+        "usable_levels": [
+          "A1",
+          "A2"
+        ],
+        "words": 105,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T3",
+        "source_file": "factory/corpus/pool/99ec1cdd8d1f.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/events/spazio-mamma-2026",
+        "title": "Spazio mamma",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 86,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T6",
+        "source_file": "factory/corpus/pool/a57e7cd52764.md"
+      },
+      {
+        "url": "https://www.subito.it/arredamento-casalinghi/armadio-ikea-smastad-platsa-come-nuovo-60x57x181-roma-650644707.htm",
+        "title": "Armadio IKEA SMÅSTAD/PLATSA come nuovo - 60x57x181",
+        "publisher": "Subito.it",
+        "published": null,
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 85,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T4-backup",
+        "source_file": "factory/corpus/pool/a1f66fd53c07.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "slot": "T4",
+    "command": "python3 scripts/pool_select.py --level A1 --genre practical_realia --words 70-100 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.bibliotecasalaborsa.it/events/spazio-mamma-2026",
+        "title": "Spazio mamma",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 86,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T6",
+        "source_file": "factory/corpus/pool/a57e7cd52764.md"
+      },
+      {
+        "url": "https://www.subito.it/arredamento-casalinghi/armadio-ikea-smastad-platsa-come-nuovo-60x57x181-roma-650644707.htm",
+        "title": "Armadio IKEA SMÅSTAD/PLATSA come nuovo - 60x57x181",
+        "publisher": "Subito.it",
+        "published": null,
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 85,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T4-backup",
+        "source_file": "factory/corpus/pool/a1f66fd53c07.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "slot": "T5",
+    "command": "python3 scripts/pool_select.py --level A1 --genre blogs_lifestyle --words 70-100 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.viaggiapiccoli.com/parigi-con-i-bambini-itinerario-per-sentirsi-veri-parigini/",
+        "title": "Parigi con i bambini: itinerario per sentirsi veri parigini",
+        "publisher": "Viaggiapiccoli",
+        "published": "2021-10-12",
+        "fetched": "2026-08-07",
+        "genre": "blogs_lifestyle",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 77,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T5",
+        "source_file": "factory/corpus/pool/7286d6ccea96.md"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "slot": "T6",
+    "command": "python3 scripts/pool_select.py --level A1 --genre practical_realia --words 70-100 --today 2026-09-30 --limit 100 --json",
+    "results": [
+      {
+        "url": "https://www.bibliotecasalaborsa.it/events/spazio-mamma-2026",
+        "title": "Spazio mamma",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "unknown",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 86,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T6",
+        "source_file": "factory/corpus/pool/a57e7cd52764.md"
+      },
+      {
+        "url": "https://www.subito.it/arredamento-casalinghi/armadio-ikea-smastad-platsa-come-nuovo-60x57x181-roma-650644707.htm",
+        "title": "Armadio IKEA SMÅSTAD/PLATSA come nuovo - 60x57x181",
+        "publisher": "Subito.it",
+        "published": null,
+        "fetched": "2026-08-06",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 85,
+        "perishable": true,
+        "perishable_until": null,
+        "fetch_intent": "A1/T4-backup",
+        "source_file": "factory/corpus/pool/a1f66fd53c07.md"
+      },
+      {
+        "url": "https://www.bibliotecasalaborsa.it/objects/bambini-e-ragazzi",
+        "title": "Bambini e ragazzi",
+        "publisher": "Biblioteca Salaborsa",
+        "published": "2022-02-04",
+        "fetched": "2026-08-07",
+        "genre": "practical_realia",
+        "cefr": "A2",
+        "usable_levels": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "words": 100,
+        "perishable": false,
+        "perishable_until": null,
+        "fetch_intent": "A1/T1",
+        "source_file": "factory/corpus/pool/45b71f0376c8.md"
+      }
+    ]
+  }
+]

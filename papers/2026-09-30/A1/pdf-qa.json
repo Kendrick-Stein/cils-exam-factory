@@ -1,0 +1,30 @@
+{
+  "level": "A1",
+  "session": "2026-09-30",
+  "result": "pass",
+  "historical_pdf_hashes_checked": 180,
+  "historical_pdf_changes": 0,
+  "renderer": "MuPDF block flow with source-text coverage gate",
+  "pdfs": {
+    "paper": {
+      "pages": 11,
+      "bytes": 124070,
+      "sha256": "133b29e9a98e8b4c3356eb2294fe89c82e907d389d6871f7ee7ab0223c900d27",
+      "checked_text_nodes": 193,
+      "missing_text_nodes": 0,
+      "replacement_characters": 0,
+      "embedded_source_credits": true
+    },
+    "answers": {
+      "pages": 9,
+      "bytes": 164949,
+      "sha256": "3b6021adbf08e6d5505164fbe367717df6342c8981f3c76ed7ee05ef02a2da4c",
+      "checked_text_nodes": 243,
+      "missing_text_nodes": 0,
+      "replacement_characters": 0,
+      "embedded_source_credits": true
+    }
+  },
+  "visual_review": "All pages reviewed, including final corrected writing tasks; fonts, Chinese text, tables, spacing and page transitions checked. Metadata/embedded source credits added with exact pixel preservation.",
+  "font_subsetting": "Lossless native MuPDF subsetting; every page pixel and exact extracted text compared identical; embedded credits preserved"
+}

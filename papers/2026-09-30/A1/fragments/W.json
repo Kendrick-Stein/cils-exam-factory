@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi la tua colazione: scrivi a che ora mangi, che cosa mangi e bevi e con chi fai colazione.",
+    "W2_PROMPT": "Vuoi passare sabato notte in un albergo. Scrivi una breve e-mail: chiedi se è disponibile una camera per due persone e quanto costa una notte."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Ogni mattina faccio colazione alle otto con mio marito. Mangio pane e marmellata e bevo un tè. La domenica abbiamo più tempo: prepariamo anche una torta e facciamo colazione in giardino.",
+    "MODEL_W1_PHRASES": "«Ogni mattina…»（每天早上……） · «Faccio colazione alle…»（我……点吃早饭） · «Mangio pane e marmellata»（我吃面包和果酱） · «Bevo un tè»（我喝一杯茶） · «Con mio marito»（和我丈夫一起）",
+    "MODEL_W2": "Buongiorno, cerco una camera per due persone per sabato notte. Avete una camera libera? Quanto costa una notte? Grazie per la risposta. Marco",
+    "MODEL_W2_PHRASES": "«Cerco una camera»（我想找一个房间） · «Per due persone»（供两个人使用） · «Avete una camera libera?»（你们有空房间吗？） · «Quanto costa una notte?»（住一晚多少钱？） · «Grazie per la risposta»（感谢您的回复）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

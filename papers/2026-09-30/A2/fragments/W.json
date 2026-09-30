@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Racconta una volta in cui hai preparato un piatto insieme a un'altra persona. Scrivi quando è successo, con chi eri, che cosa avete preparato e perché questa esperienza ti è piaciuta.",
+    "W2_PROMPT": "Devi partire per un breve viaggio e non hai una valigia. Scrivi un messaggio a un amico o a un'amica: chiedi una valigia in prestito, indica quando puoi ritirarla e quando la restituisci."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Sabato scorso ho preparato una torta con mia sorella. Abbiamo comprato le mele al mercato e poi siamo tornati a casa. Io ho tagliato la frutta e lei ha preparato il resto. La torta era buona, ma la cucina era molto sporca! Mi sono divertito perché abbiamo lavorato e parlato insieme.",
+    "MODEL_W1_PHRASES": "**Sabato scorso ho preparato…**（上周六我做了……）；**Siamo tornati a casa.**（我们回家了）；**Io ho… e lei ha…**（我……而她……）；**Mi sono divertito perché…**（我玩得很开心，因为……）",
+    "MODEL_W2": "Ciao Marta, venerdì parto per un breve viaggio. Puoi prestarmi la tua valigia piccola? Posso prenderla domani sera alle sette? La restituisco lunedì. Grazie mille per il tuo aiuto! Luca",
+    "MODEL_W2_PHRASES": "**Parto per un breve viaggio.**（我要去短途旅行）；**Puoi prestarmi…?**（你能借给我……吗？）；**Posso prenderla domani sera?**（我明天晚上可以去取吗？）；**La restituisco lunedì.**（我星期一归还它）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

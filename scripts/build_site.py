@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import argparse
 import html
+from html.parser import HTMLParser
+import unicodedata
 import os
 import tempfile
 import re
@@ -136,6 +138,127 @@ class PdfPrinter:
             output.replace(pdf_path)
 
 
+def expand_blank_writing_tables(body: str) -> str:
+    """Give empty Markdown writing boxes real block width in MuPDF.
+
+    MuPDF shrink-wraps an otherwise empty table. Only a single empty header
+    and a single blank body cell are converted; content tables are untouched.
+    Preserve the original number of blank lines rather than inventing space.
+    """
+    def replace(match: re.Match) -> str:
+        table = match.group(0)
+        headers = re.findall(r"<th\b[^>]*>(.*?)</th>", table, re.S | re.I)
+        cells = re.findall(r"<td\b[^>]*>(.*?)</td>", table, re.S | re.I)
+        if len(headers) != 1 or len(cells) != 1:
+            return table
+        text = html.unescape(re.sub(r"<[^>]+>", "", headers[0] + cells[0]))
+        if text.strip():
+            return table
+        lines = len(re.findall(r"<br\s*/?>", cells[0], re.I)) + 1
+        return '<div class="writing-space">' + (
+            '<p class="writing-line">&#160;</p>' * lines
+        ) + '</div>'
+    return re.sub(r"<table\b[^>]*>.*?</table>", replace, body, flags=re.S | re.I)
+
+
+class PrintableBlocks(HTMLParser):
+    """Split generated body HTML at top-level boundaries, retaining text nodes."""
+    VOID = {"br", "hr", "img", "meta", "input", "link"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.depth, self.current, self.blocks, self.text_nodes = 0, [], [], []
+
+    def flush(self):
+        if self.current:
+            self.blocks.append("".join(self.current))
+            self.current = []
+
+    def handle_starttag(self, tag, attrs):
+        self.current.append(self.get_starttag_text())
+        if tag not in self.VOID:
+            self.depth += 1
+        if not self.depth:
+            self.flush()
+
+    def handle_endtag(self, tag):
+        self.current.append(f"</{tag}>")
+        self.depth -= 1
+        if not self.depth:
+            self.flush()
+
+    def handle_startendtag(self, tag, attrs):
+        self.current.append(self.get_starttag_text())
+        if not self.depth:
+            self.flush()
+
+    def handle_data(self, data):
+        if self.depth or data.strip():
+            self.current.append(data)
+        self.text_nodes.append(data)
+
+    def handle_entityref(self, name):
+        self.current.append(f"&{name};")
+        self.text_nodes.append(html.unescape(f"&{name};"))
+
+    def handle_charref(self, name):
+        self.current.append(f"&#{name};")
+        self.text_nodes.append(html.unescape(f"&#{name};"))
+
+
+def group_writing_tasks(blocks: list[str]) -> list[str]:
+    """Keep each writing prompt and its answer lines in one placeable Story."""
+    grouped, index = [], 0
+    while index < len(blocks):
+        if re.match(r"<h[23]\b[^>]*>Produzione scritta.*Prova n\.", blocks[index]):
+            end = index + 1
+            while end < len(blocks) and not re.match(r"<h[123]\b", blocks[end]):
+                if blocks[end].startswith('<div class="writing-space">'):
+                    grouped.append('<section class="writing-task">' +
+                                   "".join(blocks[index:end+1]) + '</section>')
+                    index = end + 1
+                    break
+                end += 1
+            else:
+                grouped.append(blocks[index])
+                index += 1
+            continue
+        grouped.append(blocks[index])
+        index += 1
+    return grouped
+
+
+def bounded_table_blocks(block: str):
+    """Avoid MuPDF's lossy table continuation by repeating headers in small groups."""
+    if not re.match(r"<table\b", block):
+        return [block]
+    header = re.search(r"<thead\b[^>]*>.*?</thead>", block, re.S)
+    body = re.search(r"<tbody\b[^>]*>(.*?)</tbody>", block, re.S)
+    if not body:
+        return [block]
+    rows = re.findall(r"<tr\b[^>]*>.*?</tr>", body.group(1), re.S)
+    opening = block[:block.index(">")+1]
+    return [opening + (header.group(0) if header else "") + "<tbody>" +
+            "".join(rows[i:i+8]) + "</tbody></table>" for i in range(0,len(rows),8)] or [block]
+
+
+def normalized_pdf_text(text: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFKC", text) if c.isalnum())
+
+
+def require_pdf_coverage(document, source_nodes, source):
+    # Remove footer numbering before joining page text, so a paragraph split
+    # over pages still compares continuously. NFKC expands typography ligatures.
+    actual = normalized_pdf_text("".join(
+        page.get_text(clip=(0, 0, 595, 800)) for page in document
+    ))
+    missing = [node for node in source_nodes
+               if (normalized := normalized_pdf_text(node)) and normalized not in actual]
+    if missing:
+        preview = "; ".join(repr(node[:90]) for node in missing[:3])
+        raise BuildError(f"PDF text coverage failed for {source}: {len(missing)} missing source text nodes: {preview}")
+
+
 class MuPdfPrinter:
     """Browser-free printable layout with MuPDF's bundled CJK fonts."""
     def render(self, html_path: Path, pdf_path: Path, source_paths: list[Path]) -> None:
@@ -147,27 +270,65 @@ class MuPdfPrinter:
         manifest = load_yaml(manifest_path)
         paper = Paper(str(manifest["session"]), str(manifest["level"]), source.parent, manifest)
         _, body = render_markdown(source)
+        body = expand_blank_writing_tables(body)
         if source.stem == "answers":
             body += render_fonti(paper)
         css = Path(__file__).with_name("assets").joinpath("mupdf.css").read_text(encoding="utf-8")
-        chunks = (re.split(r"(?=<h1[^>]*>Test di|<h2[^>]*>Foglio delle risposte)", body)
-                  if source.stem == "paper" else [body])
+        blocks = PrintableBlocks()
+        blocks.feed(body)
+        blocks.flush()
         pdf_path.parent.mkdir(parents=True, exist_ok=True)
         try:
             with tempfile.TemporaryDirectory(prefix="cils-mupdf-", dir=pdf_path.parent) as tmp:
                 raw, final = Path(tmp)/"raw.pdf", Path(tmp)/"final.pdf"
-                count = 0
-                def rectfn(_number, _filled):
-                    nonlocal count
-                    count += 1
-                    if count > 100:
-                        raise BuildError("MuPDF pagination exceeded 100 pages; check oversized content")
-                    return fitz.Rect(0, 0, 595, 842), fitz.Rect(51, 48, 544, 785), None
+                page_count, y, device = 0, 48, None
                 writer = fitz.DocumentWriter(str(raw))
+                def new_page():
+                    nonlocal page_count, y, device
+                    if device is not None:
+                        writer.end_page()
+                    page_count += 1
+                    if page_count > 100:
+                        raise BuildError("MuPDF pagination exceeded 100 pages; check oversized content")
+                    device = writer.begin_page(fitz.Rect(0, 0, 595, 842))
+                    y = 48
                 try:
-                    for chunk in chunks:
-                        if chunk.strip():
-                            fitz.Story(html=chunk, user_css=css).write(writer, rectfn)
+                    for block in [part for original in group_writing_tasks(blocks.blocks) for part in bounded_table_blocks(original)]:
+                        # A monolithic Story can silently skip prose following a
+                        # split table. Isolate each top-level block and retain an
+                        # explicit page cursor, then verify every source text node.
+                        if re.match(r"<hr\b", block) and y > 690:
+                            continue  # Do not create a page containing only a separator.
+                        section_break = source.stem == "paper" and re.match(r"<h1[^>]*>Test di", block)
+                        if device is None or y > 720 or (re.match(r"<h[123]", block) and y > 660) or (section_break and y > 48):
+                            new_page()
+                        story = fitz.Story(html=block, user_css=css)
+                        while True:
+                            more, filled = story.place(fitz.Rect(51, y, 544, 785))
+                            if more and block.startswith('<section class="writing-task">') and y > 48:
+                                # Move the entire prompt and writing space before
+                                # drawing; only oversized tasks may span pages.
+                                story.reset()
+                                new_page()
+                                more, filled = story.place(fitz.Rect(51, y, 544, 785))
+                            if more and re.match(r"<table\b", block):
+                                # Never draw a partially placed table. Restart this
+                                # bounded group on a fresh page or fail explicitly.
+                                if y <= 48:
+                                    raise BuildError("A table group exceeds one page; split its rows/text before publication")
+                                story.reset()
+                                new_page()
+                                more, filled = story.place(fitz.Rect(51, y, 544, 785))
+                                if more:
+                                    raise BuildError("A table group exceeds one page; split its rows/text before publication")
+                            story.draw(device)
+                            if not more:
+                                y = max(y + 1, filled[3])
+                                break
+                            new_page()
+                    if device is not None:
+                        writer.end_page()
+                        device = None
                 finally:
                     writer.close()
                 with fitz.open(raw) as document:
@@ -176,10 +337,14 @@ class MuPdfPrinter:
                     for number, page in enumerate(document):
                         page.insert_text((285, 813), f"{number+1} / {len(document)}",
                                          fontsize=9, color=(.3, .3, .3))
-                    document.save(final)
+                    require_pdf_coverage(document, blocks.text_nodes, source)
+                    # Use MuPDF's native subsetter, without the fontTools fallback.
+                    document.subset_fonts()
+                    document.save(final, garbage=4, deflate=True)
                 with fitz.open(final) as document:
                     if not len(document) or any(not page.get_text().strip() for page in document):
                         raise BuildError(f"MuPDF produced empty pages for {source}")
+                    require_pdf_coverage(document, blocks.text_nodes, source)
                 final.replace(pdf_path)
         except BuildError:
             raise

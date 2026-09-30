@@ -1,7 +1,7 @@
 generated_by: scripts/build_used_index.py
 note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
   not edit by hand — regenerate.
-unique_sources: 560
+unique_sources: 570
 sources:
 - url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
   title: Bruschetta al pomodoro fresco
@@ -7146,4 +7146,161 @@ sources:
     level: A2
     prova: Analisi delle strutture di comunicazione, Prova n. 3
     words: 93
+    status: published
+- url: https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
+  title: 'Carnevale alcamese 2020: grande successo di pubblico'
+  publisher: Wikinotizie; Wikinotizie contributors; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A2
+    prova: L1
+    words: 201
+    status: published
+- url: https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+  title: Intervista a Daniela Persico — lavoro quotidiano e inizio della carriera
+  publisher: Wikinotizie; Wikinotizie contributors; Locarno Kids news lab; CC BY 4.0;
+    https://creativecommons.org/licenses/by/4.0/; estratto adattato con tagli e semplificazioni;
+    modifiche documentate nel manifest; adattamento distribuito con la stessa licenza
+    della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A2
+    prova: S2
+    words: 121
+    status: published
+- url: https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
+  title: Intervista a Luca Botturi — il lavoro e la famiglia
+  publisher: Wikinotizie; Aurelio; Eleonora; Elia; Elisa; Linde; Wikinotizie contributors;
+    CC BY 4.0; https://creativecommons.org/licenses/by/4.0/; estratto adattato con
+    tagli e semplificazioni; modifiche documentate nel manifest; adattamento distribuito
+    con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A1
+    prova: S2
+    words: 100
+    status: published
+- url: https://it.wikivoyage.org/wiki/Bari
+  title: Bari — quattro schede di servizi
+  publisher: Wikivoyage; Wikivoyage contributors; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 2
+  uses:
+  - date: '2026-09-30'
+    level: A1
+    prova: L3
+    words: 95
+    status: published
+  - date: '2026-09-30'
+    level: A1
+    prova: S1
+    words: 87
+    status: published
+- url: https://it.wikivoyage.org/wiki/Catania
+  title: Catania — sei servizi e attività
+  publisher: Wikivoyage; Wikivoyage contributors; CC BY-SA 4.0; https://creativecommons.org/licenses/by-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: off-whitelist
+  first_used: '2026-09-30'
+  times_used: 2
+  uses:
+  - date: '2026-09-30'
+    level: A2
+    prova: L3
+    words: 149
+    status: published
+  - date: '2026-09-30'
+    level: A2
+    prova: S3
+    words: 112
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/bambini-e-ragazzi
+  title: Bambini e ragazzi
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: practical_realia
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A1
+    prova: L1
+    words: 112
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/caricare-telefono-tablet-e-pc
+  title: Caricare telefono, tablet e PC
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: practical_realia
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A1
+    prova: S3
+    words: 87
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/navigare-in-internet
+  title: Navigare in internet
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: practical_realia
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A2
+    prova: L2
+    words: 172
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/studiare-in-biblioteca
+  title: Studiare in biblioteca
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: practical_realia
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A2
+    prova: S1
+    words: 107
+    status: published
+- url: https://www.bibliotecasalaborsa.it/documents/vedere_un_film
+  title: Vedere un film
+  publisher: Biblioteca Salaborsa / Comune di Bologna; Biblioteca Salaborsa / Comune
+    di Bologna; CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/;
+    estratto adattato con tagli e semplificazioni; modifiche documentate nel manifest;
+    adattamento distribuito con la stessa licenza della fonte
+  genre: practical_realia
+  first_used: '2026-09-30'
+  times_used: 1
+  uses:
+  - date: '2026-09-30'
+    level: A1
+    prova: L2
+    words: 122
     status: published

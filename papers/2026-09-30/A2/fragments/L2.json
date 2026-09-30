@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Navigare in internet in biblioteca",
+    "T2_TEXT": "In Biblioteca Salaborsa, al secondo piano, ci sono due computer per navigare gratuitamente in internet. Con la tessera puoi collegarti una volta al giorno, per un massimo di 60 minuti. In una settimana puoi usare il servizio per un totale di 180 minuti.\n\nDevi chiedere una password al punto informazioni del secondo piano. La password è personale: non puoi darla ad altre persone. Per entrare nel servizio devi usare come nome utente il numero utente indicato sulla tessera. Se non hai la tessera, puoi presentare un documento d'identità valido e ricevere un nome utente e una password temporanei.\n\nPuoi stampare dai computer o da una chiavetta USB. Le stampe si pagano con la tessera fotocopie. Se usi male i computer, non puoi utilizzare nessun servizio della biblioteca per un mese. Questi computer sono riservati alle persone con più di 18 anni.\n\nIn biblioteca puoi anche navigare gratuitamente con il wifi, senza inserire un nome utente o una password. Per collegarti, cerca BolognaWiFi tra le reti disponibili sul tuo telefono, tablet o computer.",
+    "L2_ITEMS": "**1. Per navigare gratuitamente sono disponibili due computer.**  \nVero ○ Falso ○\n\n**2. In un giorno si possono usare i computer per 180 minuti.**  \nVero ○ Falso ○\n\n**3. È permesso dare la propria password a un amico.**  \nVero ○ Falso ○\n\n**4. Chi non ha la tessera può ricevere i dati di accesso con un documento d'identità valido.**  \nVero ○ Falso ○\n\n**5. Le stampe fatte in biblioteca sono gratuite.**  \nVero ○ Falso ○\n\n**6. Chi usa male i computer perde per un mese la possibilità di usare tutti i servizi della biblioteca.**  \nVero ○ Falso ○\n\n**7. Le postazioni sono destinate alle persone con più di 18 anni.**  \nVero ○ Falso ○\n\n**8. Per collegarsi al wifi è necessario inserire la password personale.**  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo presenta due computer per navigare gratuitamente. 中文：共有两台可免费上网的电脑。 |\n| L2.2 | Falso | Il limite giornaliero è di 60 minuti; 180 minuti è il totale settimanale. 中文：每天最多60分钟，180分钟是每周的总时长。 |\n| L2.3 | Falso | La password è personale e non si può dare ad altre persone. 中文：密码只供本人使用，不能转给朋友。 |\n| L2.4 | Vero | Presentando un documento valido si ricevono un nome utente e una password temporanei. 中文：没有借书证也可凭有效身份证件获得临时登录信息。 |\n| L2.5 | Falso | Le stampe si pagano con la tessera fotocopie. 中文：打印收费，使用复印卡付款。 |\n| L2.6 | Vero | Per un mese non si può utilizzare nessun servizio della biblioteca. 中文：违规使用电脑会导致一个月内无法使用图书馆的全部服务。 |\n| L2.7 | Vero | Il testo riserva questi computer alle persone con più di 18 anni. 中文：这些电脑仅供18岁以上的人使用。 |\n| L2.8 | Falso | Il wifi permette di navigare senza inserire un nome utente o una password. 中文：连接无线网络不需要输入用户名或密码。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "V || Vero",
+    "L2.5": "F || Falso",
+    "L2.6": "V || Vero",
+    "L2.7": "V || Vero",
+    "L2.8": "F || Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "tessera",
+      "categoria": "nome femminile",
+      "zh": "借书证；会员卡",
+      "en": "library card; membership card",
+      "esempio": "Con la tessera puoi collegarti una volta al giorno, per un massimo di 60 minuti."
+    },
+    {
+      "parola": "punto informazioni",
+      "categoria": "espressione nominale",
+      "zh": "咨询处",
+      "en": "information desk",
+      "esempio": "Devi chiedere una password al punto informazioni del secondo piano."
+    },
+    {
+      "parola": "documento d'identità",
+      "categoria": "espressione nominale",
+      "zh": "身份证件",
+      "en": "identity document",
+      "esempio": "Se non hai la tessera, puoi presentare un documento d'identità valido e ricevere un nome utente e una password temporanei."
+    },
+    {
+      "parola": "stampare",
+      "categoria": "verbo",
+      "zh": "打印",
+      "en": "to print",
+      "esempio": "Puoi stampare dai computer o da una chiavetta USB."
+    },
+    {
+      "parola": "collegarsi",
+      "categoria": "verbo pronominale",
+      "zh": "连接；登录",
+      "en": "to connect; to log on",
+      "esempio": "Per collegarti, cerca BolognaWiFi tra le reti disponibili sul tuo telefono, tablet o computer."
+    }
+  ]
+}

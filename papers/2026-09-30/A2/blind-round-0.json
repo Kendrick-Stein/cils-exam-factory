@@ -1,0 +1,236 @@
+{
+  "answers": {
+    "L1.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.4": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L2.1": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.2": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.3": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.4": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.5": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.6": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.7": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.8": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.1": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "L3.2": {
+      "answer": "H",
+      "confidence": "hi"
+    },
+    "L3.3": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.4": {
+      "answer": "E",
+      "confidence": "hi"
+    },
+    "L3.5": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L3.6": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S1.1": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "S1.2": {
+      "answer": "PER",
+      "confidence": "hi"
+    },
+    "S1.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S1.4": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "S1.5": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.6": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.7": {
+      "answer": "LE",
+      "confidence": "hi"
+    },
+    "S1.8": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.9": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.10": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S2.1": {
+      "answer": "SAPEVO",
+      "confidence": "med"
+    },
+    "S2.2": {
+      "answer": "VENIVO",
+      "confidence": "med"
+    },
+    "S2.3": {
+      "answer": "PASSIAMO",
+      "confidence": "med"
+    },
+    "S2.4": {
+      "answer": "DURA",
+      "confidence": "med"
+    },
+    "S2.5": {
+      "answer": "CI VEDIAMO",
+      "confidence": "med"
+    },
+    "S2.6": {
+      "answer": "MI SVEGLIO",
+      "confidence": "med"
+    },
+    "S2.7": {
+      "answer": "MI ALZO",
+      "confidence": "med"
+    },
+    "S2.8": {
+      "answer": "INIZIO",
+      "confidence": "med"
+    },
+    "S2.9": {
+      "answer": "ANDATE",
+      "confidence": "med"
+    },
+    "S2.10": {
+      "answer": "GUARDO",
+      "confidence": "med"
+    },
+    "S3.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.2": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.3": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.4": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.5": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.6": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.7": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.8": {
+      "answer": "B",
+      "confidence": "hi"
+    }
+  },
+  "flags": [
+    {
+      "item_id": "S2.1",
+      "reason": "SAPEVO is the natural background-state answer. No tense constraint is printed, however, and HO SAPUTO / SEPPI can give a completed-period or eventive reading of not knowing what to do at that time; the following opportunity can mark the end of that uncertainty."
+    },
+    {
+      "item_id": "S2.2",
+      "reason": "VENIVO is the natural recurrent-background answer after Mentre scrivevo. SONO VENUTO (or VENNI) is also defensible as a completed series of Festival visits during the bounded period when the speaker wrote for that newspaper; sempre does not force the imperfetto."
+    },
+    {
+      "item_id": "S2.3",
+      "reason": "PASSIAMO is the preferred current-habit answer. PASSEREMO is also defensible if Adesso introduces the team’s current plan for an upcoming June. The month has no year or explicit habitual/future restriction."
+    },
+    {
+      "item_id": "S2.4",
+      "reason": "DURA is the preferred general-present answer. DURERA is also defensible when the preceding June work is interpreted as a current future plan; the sentence does not independently constrain the tense. The fully accented form is DURERÀ."
+    },
+    {
+      "item_id": "S2.5",
+      "reason": "CI VEDIAMO is the preferred current routine. CI VEDREMO also works as a planned annual schedule together with PASSEREMO / DURERÀ; February and May are not anchored to a specific year."
+    },
+    {
+      "item_id": "S2.6",
+      "reason": "MI SVEGLIO is the preferred habitual present. A febbraio, ogni mattina also allows a past February routine (MI SVEGLIAVO) or a future February routine (MI SVEGLIERÒ), if items 7–8 use corresponding tenses. No tense list or year is printed."
+    },
+    {
+      "item_id": "S2.7",
+      "reason": "MI ALZO is the preferred habitual present. MI ALZAVO or MI ALZERÒ also works coherently with the past/future February interpretations in items 6 and 8."
+    },
+    {
+      "item_id": "S2.8",
+      "reason": "INIZIO is the preferred habitual present. INIZIAVO or INIZIERÒ also works coherently with the past/future February interpretations in items 6–7."
+    },
+    {
+      "item_id": "S2.9",
+      "reason": "ANDATE is the preferred general-present comparison. ANDAVATE or ANDRETE can be used with corresponding GUARDAVO or GUARDERÒ in item 10 if the final comparison concerns the past/future February routine. The printed instructions do not restrict tense."
+    },
+    {
+      "item_id": "S2.10",
+      "reason": "GUARDO is the preferred general-present answer. GUARDAVO or GUARDERÒ gives a coherent past/future work routine when the preceding February sequence and comparison are read in that time frame; no explicit tense constraint rules these out."
+    }
+  ],
+  "writing": {
+    "W1": "Self-contained and suitable for A2. The 40–60-word range is printed and feasible for the requested when, companion, dish, and reason for enjoying the shared cooking experience. Requires short past narration. No essay produced.",
+    "W2": "Self-contained and suitable for A2. The 25–40-word range is printed and feasible for a brief message asking a friend to lend a suitcase and specifying collection and return times. No message produced.",
+    "O1": "Self-contained and suitable for A2. Six familiar personal questions support the printed 2–3-minute conversation, about 20–30 seconds per answer including examiner interaction. Covers routine, preferences, travel to friends, and a future activity. No speech produced.",
+    "O2": "Self-contained and suitable for A2. Both selectable topics provide clear content prompts and can support the printed approximately 1.5-minute exposition. Topic 1 asks for past narration; topic 2 asks for habitual domestic activities and feelings. No speech produced."
+  }
+}

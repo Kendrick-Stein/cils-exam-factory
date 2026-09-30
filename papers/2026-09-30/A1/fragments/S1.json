@@ -1,0 +1,60 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Piatti di Bari",
+    "S1_TEXT_WITH_GAPS": "__Il (0)__ minestrone di verdure, __(1)__ ceci, __(2)__ fave, __(3)__ cicoria, il sedano e il finocchio sono spesso primi piatti o contorni. Nei piatti di carne e nel ragù della zona ci sono spesso __(4)__ agnello e __(5)__ maiale.\n\nA Bari __(6)__ pasta al forno è molto popolare. Si prepara con le penne o con altri tipi di pasta simili. __(7)__ ingredienti sono salsa di pomodoro, piccole polpette di carne e uova sode tagliate a metà. Poi si mette __(8)__ mozzarella o un formaggio simile sulla pasta. Durante __(9)__ cottura in forno, __(10)__ pasta diventa croccante."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| 1 | i | 6 | la |\n| 2 | le | 7 | Gli |\n| 3 | la | 8 | la |\n| 4 | l' | 9 | la |\n| 5 | il | 10 | la |",
+    "ANS_S1_NOTES": "S1.1: «Ceci» è maschile plurale e comincia con una consonante semplice: i ceci. 中文：ceci 是阳性复数，前面用 i。\n\nS1.2: «Fave» è femminile plurale: le fave. 中文：fave 是阴性复数，前面用 le。\n\nS1.3: «Cicoria» è femminile singolare e comincia con consonante: la cicoria. 中文：cicoria 是阴性单数，以辅音开头，用 la。\n\nS1.4: «Agnello» è maschile singolare e comincia con vocale: l’agnello. 中文：agnello 是阳性单数，以元音开头，必须省音，用 l’。\n\nS1.5: «Maiale» è maschile singolare e comincia con una consonante semplice: il maiale. 中文：maiale 是阳性单数，以普通辅音开头，用 il。\n\nS1.6: «Pasta» è femminile singolare e comincia con consonante: la pasta. 中文：pasta 是阴性单数，以辅音开头，用 la。\n\nS1.7: «Ingredienti» è maschile plurale e comincia con vocale: gli ingredienti. 中文：ingredienti 是阳性复数，以元音开头，用 gli；句首大写。\n\nS1.8: «Mozzarella» è femminile singolare e comincia con consonante: la mozzarella. 中文：mozzarella 是阴性单数，以辅音开头，用 la。\n\nS1.9: «Cottura» è femminile singolare e comincia con consonante: la cottura. 中文：cottura 是阴性单数，以辅音开头，用 la。\n\nS1.10: «Pasta» è femminile singolare e comincia con consonante: la pasta. 中文：pasta 是阴性单数，以辅音开头，用 la。"
+  },
+  "key": {
+    "S1.1": "i",
+    "S1.2": "le",
+    "S1.3": "la",
+    "S1.4": "l'",
+    "S1.5": "il",
+    "S1.6": "la",
+    "S1.7": "gli",
+    "S1.8": "la",
+    "S1.9": "la",
+    "S1.10": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ceci",
+      "categoria": "nome maschile plurale",
+      "zh": "鹰嘴豆",
+      "en": "chickpeas",
+      "esempio": "Il minestrone di verdure, i ceci, le fave, la cicoria, il sedano e il finocchio sono spesso primi piatti o contorni."
+    },
+    {
+      "parola": "fave",
+      "categoria": "nome femminile plurale",
+      "zh": "蚕豆",
+      "en": "broad beans",
+      "esempio": "Il minestrone di verdure, i ceci, le fave, la cicoria, il sedano e il finocchio sono spesso primi piatti o contorni."
+    },
+    {
+      "parola": "contorni",
+      "categoria": "nome maschile plurale",
+      "zh": "配菜",
+      "en": "side dishes",
+      "esempio": "Il minestrone di verdure, i ceci, le fave, la cicoria, il sedano e il finocchio sono spesso primi piatti o contorni."
+    },
+    {
+      "parola": "ingredienti",
+      "categoria": "nome maschile plurale",
+      "zh": "食材；配料",
+      "en": "ingredients",
+      "esempio": "Gli ingredienti sono salsa di pomodoro, piccole polpette di carne e uova sode tagliate a metà."
+    },
+    {
+      "parola": "croccante",
+      "categoria": "aggettivo",
+      "zh": "酥脆的",
+      "en": "crisp",
+      "esempio": "Durante la cottura in forno, la pasta diventa croccante."
+    }
+  ]
+}

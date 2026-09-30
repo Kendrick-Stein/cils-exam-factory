@@ -1,0 +1,60 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "Lavorare per il Festival",
+    "S2_TEXT_WITH_GAPS": "All'epoca mi *(piacere)* __piaceva (0)__ moltissimo il cinema, però io non *(sapere, imperfetto indicativo)* __(1)__ bene cosa fare. Poi mi è capitata l'opportunità di scrivere per un giornale ticinese. Mentre scrivevo per quel giornale, io *(venire, imperfetto indicativo)* __(2)__ sempre al Festival a recensire i film. Mi piaceva sempre di più, così ho cercato il modo di lavorare qui.\n\nAdesso noi tutti insieme *(passare, presente indicativo)* __(3)__ due settimane a giugno. Il nostro lavoro non *(durare, presente indicativo)* __(4)__ solo due settimane: noi *(vedersi, presente indicativo)* __(5)__ anche a febbraio e a maggio. A febbraio, ogni mattina, io *(svegliarsi, presente indicativo)* __(6)__, *(alzarsi, presente indicativo)* __(7)__ e *(iniziare, presente indicativo)* __(8)__ a guardare i film. Come voi *(andare, presente indicativo)* __(9)__ a scuola, io *(guardare, presente indicativo)* __(10)__ i film."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| 1 | sapevo | imperfetto indicativo | 6 | mi sveglio | presente indicativo |\n| 2 | venivo | imperfetto indicativo | 7 | mi alzo | presente indicativo |\n| 3 | passiamo | presente indicativo | 8 | inizio | presente indicativo |\n| 4 | dura | presente indicativo | 9 | andate | presente indicativo |\n| 5 | ci vediamo | presente indicativo | 10 | guardo | presente indicativo |",
+    "ANS_S2_NOTES": "S2.1 — La parentesi richiede l’imperfetto indicativo di sapere; con io la forma è sapevo. La frase descrive una situazione passata. 中文：括号明确要求直陈式未完成过去时；sapere 的第一人称单数是 sapevo，表示过去的状态。\n\nS2.2 — La parentesi richiede l’imperfetto indicativo di venire; il soggetto io richiede venivo. Si descrivono visite abituali nel passato. 中文：括号明确要求直陈式未完成过去时；venire 与 io 搭配用 venivo，描述过去经常去电影节的习惯。\n\nS2.3 — La parentesi richiede il presente indicativo di passare; con noi si usa passiamo. 中文：括号明确要求直陈式现在时；主语 noi 对应 passiamo。\n\nS2.4 — La parentesi richiede il presente indicativo di durare; il soggetto singolare «il nostro lavoro» richiede dura. 中文：括号明确要求直陈式现在时；主语 il nostro lavoro 是第三人称单数，所以用 dura。\n\nS2.5 — La parentesi richiede il presente indicativo di vedersi; con noi la forma completa è ci vediamo. Anche il pronome ci va nello spazio. 中文：括号明确要求直陈式现在时；vedersi 与 noi 搭配用 ci vediamo，表示相互见面，代词 ci 也要填入空格。\n\nS2.6 — La parentesi richiede il presente indicativo di svegliarsi; con io la forma completa è mi sveglio. Anche il pronome mi va nello spazio. 中文：括号明确要求直陈式现在时；svegliarsi 与 io 搭配用 mi sveglio，反身代词 mi 也要填入空格。\n\nS2.7 — La parentesi richiede il presente indicativo di alzarsi; il soggetto resta io, quindi si scrive mi alzo, con il pronome nello spazio. 中文：括号明确要求直陈式现在时；主语仍为 io，需填写完整的反身形式 mi alzo。\n\nS2.8 — La parentesi richiede il presente indicativo di iniziare; il soggetto resta io e la forma è inizio, seguita da «a guardare». 中文：括号明确要求直陈式现在时；主语仍为 io，iniziare 变为 inizio，后接 a guardare。\n\nS2.9 — La parentesi richiede il presente indicativo di andare; il soggetto voi richiede andate. 中文：括号明确要求直陈式现在时；andare 与主语 voi 搭配用 andate。\n\nS2.10 — La parentesi richiede il presente indicativo di guardare; con il soggetto io si usa guardo. 中文：括号明确要求直陈式现在时；guardare 与主语 io 搭配用 guardo。"
+  },
+  "key": {
+    "S2.1": "sapevo",
+    "S2.2": "venivo",
+    "S2.3": "passiamo",
+    "S2.4": "dura",
+    "S2.5": "ci vediamo",
+    "S2.6": "mi sveglio",
+    "S2.7": "mi alzo",
+    "S2.8": "inizio",
+    "S2.9": "andate",
+    "S2.10": "guardo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "opportunità",
+      "categoria": "nome femminile invariabile",
+      "zh": "机会",
+      "en": "opportunity",
+      "esempio": "mi è capitata l'opportunità di scrivere per un giornale"
+    },
+    {
+      "parola": "giornale",
+      "categoria": "nome maschile",
+      "zh": "报纸",
+      "en": "newspaper",
+      "esempio": "scrivere per un giornale ticinese"
+    },
+    {
+      "parola": "recensire",
+      "categoria": "verbo",
+      "zh": "评论；撰写影评",
+      "en": "to review",
+      "esempio": "venivo sempre al Festival a recensire i film"
+    },
+    {
+      "parola": "svegliarsi",
+      "categoria": "verbo riflessivo",
+      "zh": "醒来",
+      "en": "to wake up",
+      "esempio": "ogni mattina, io mi sveglio"
+    },
+    {
+      "parola": "alzarsi",
+      "categoria": "verbo riflessivo",
+      "zh": "起床；起身",
+      "en": "to get up",
+      "esempio": "mi alzo e inizio a guardare i film"
+    }
+  ]
+}

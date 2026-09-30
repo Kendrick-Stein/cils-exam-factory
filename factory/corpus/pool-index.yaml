@@ -1,6 +1,6 @@
 generated_by: scripts/build_pool_index.py
 note: Derived from factory/corpus/pool/*.md. Do not edit by hand — regenerate.
-count: 82
+count: 91
 sources:
 - url: https://www.ansa.it/sito/notizie/cultura/tv/2026/05/25/storia-pop-100-pillole-rai-per-raccontare-il-passato-con-il-linguaggio_0ab765ec-c999-438b-8625-45ae21f1f320.html
   title: Storia Pop, 100 pillole Rai per raccontare il passato con il linguaggio di
@@ -1298,3 +1298,138 @@ sources:
   perishable_until: null
   fetch_intent: A2/extra
   source_file: factory/corpus/pool/ab162eb6699b.md
+- url: https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
+  title: 'Carnevale alcamese 2020: grande successo di pubblico'
+  publisher: Wikinotizie
+  published: '2020-02-26'
+  fetched: '2026-09-30'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 255
+  perishable: false
+  perishable_until: null
+  fetch_intent: A2/T1
+  source_file: factory/corpus/pool/dc31101f3c2d.md
+- url: https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
+  title: Intervista a Daniela Persico — lavoro quotidiano e inizio della carriera
+  publisher: Wikinotizie
+  published: '2019-08-08'
+  fetched: '2026-09-30'
+  genre: interviews
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 148
+  perishable: false
+  perishable_until: null
+  fetch_intent: A2/T5
+  source_file: factory/corpus/pool/f9c5db64fee4.md
+- url: https://it.wikinews.org/wiki/Intervista_a_Luca_Botturi
+  title: Intervista a Luca Botturi — il lavoro e la famiglia
+  publisher: Wikinotizie
+  published: '2019-08-17'
+  fetched: '2026-09-30'
+  genre: interview
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words: 165
+  perishable: false
+  perishable_until: null
+  fetch_intent: A1/T5
+  source_file: factory/corpus/pool/be7c460d8509.md
+- url: https://it.wikivoyage.org/wiki/Bari
+  title: Bari — quattro schede di servizi
+  publisher: Wikivoyage
+  published: null
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words: 288
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T3,A1/T4
+  source_file: factory/corpus/pool/85344ec976b7.md
+- url: https://it.wikivoyage.org/wiki/Catania
+  title: Catania — sei servizi e attività
+  publisher: Wikivoyage
+  published: null
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 461
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T3,A2/T6
+  source_file: factory/corpus/pool/5dc0d9dba313.md
+- url: https://www.bibliotecasalaborsa.it/documents/caricare-telefono-tablet-e-pc
+  title: Caricare telefono, tablet e PC
+  publisher: Biblioteca Salaborsa / Comune di Bologna
+  published: '2022-07-11'
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words: 118
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T6
+  source_file: factory/corpus/pool/7ee7a843f504.md
+- url: https://www.bibliotecasalaborsa.it/documents/navigare-in-internet
+  title: Navigare in internet
+  publisher: Biblioteca Salaborsa / Comune di Bologna
+  published: '2021-09-02'
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 195
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T2
+  source_file: factory/corpus/pool/2678b9494d9a.md
+- url: https://www.bibliotecasalaborsa.it/documents/studiare-in-biblioteca
+  title: Studiare in biblioteca
+  publisher: Biblioteca Salaborsa / Comune di Bologna
+  published: '2023-01-18'
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words: 211
+  perishable: true
+  perishable_until: null
+  fetch_intent: A2/T4
+  source_file: factory/corpus/pool/c7944a8ede03.md
+- url: https://www.bibliotecasalaborsa.it/documents/vedere_un_film
+  title: Vedere un film
+  publisher: Biblioteca Salaborsa / Comune di Bologna
+  published: '2021-09-02'
+  fetched: '2026-09-30'
+  genre: practical_realia
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words: 182
+  perishable: true
+  perishable_until: null
+  fetch_intent: A1/T2
+  source_file: factory/corpus/pool/701ee6bbb1ec.md
