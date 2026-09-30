@@ -859,12 +859,21 @@ def render_ultima(session: str, papers: list[Paper], out_root: Path) -> str:
           <p class="paper-card-secondary">{chiavi}</p>
         </article>""")
     joined = "\n".join(cards)
+    missing = [level for level in LEVEL_ORDER if level not in {p.level for p in papers}]
+    availability = ""
+    if missing:
+        availability = (f"<p class=\"section-sub\">{html.escape(', '.join(missing))}: "
+                        "per questa data non è disponibile un fascicolo che abbia superato tutti i controlli. "
+                        "Le edizioni precedenti restano nell'<a href=\"#archivio\">archivio</a>.</p>")
+    noun = "fascicolo pubblicato" if len(papers) == 1 else "fascicoli pubblicati"
     return f"""    <section class="section section-alt" id="sessione">
       <header class="section-head reveal">
         <p class="kicker">Ultima sessione</p>
         <h2><span class="num">{html.escape(session)}</span></h2>
-        <p class="section-sub">Cinque fascicoli pubblicati dopo verifica alla cieca e audit editoriale. Le sessioni precedenti sono nell'<a href="#archivio">archivio</a>.</p>
+        <p class="section-sub">{len(papers)} {noun} dopo verifica alla cieca e audit editoriale. Per ogni livello è mostrata la versione più recente della giornata. Le sessioni precedenti sono nell'<a href="#archivio">archivio</a>.</p>
       </header>
+      {availability}
+      <p class="section-sub">C2 non è incluso nella configurazione attuale della raccolta (A1–C1).</p>
       <div class="session-grid">
 {joined}
       </div>
@@ -1030,7 +1039,13 @@ def render_index(papers: list[Paper], out_root: Path) -> str:
     )
 
     if sessions:
-        ultima = render_ultima(latest_session, papers_by_date[latest_session], out_root)
+        latest_day = session_sort_key(latest_session)[0]
+        latest_by_level: dict[str, Paper] = {}
+        for session in sessions:  # numeric revision order, newest first
+            if session_sort_key(session)[0] == latest_day:
+                for paper in papers_by_date[session]:
+                    latest_by_level.setdefault(paper.level, paper)
+        ultima = render_ultima(latest_day, list(latest_by_level.values()), out_root)
         archivio = render_archivio(sessions, papers_by_date, out_root, latest_session, years)
     else:
         ultima = '    <section class="section" id="sessione"><p class="archive-empty">Nessun fascicolo pubblicato.</p></section>'
