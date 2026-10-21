@@ -1,0 +1,44 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Gruppi, famiglie e scuole al VIVE",
+    "T2_TEXT": "I gruppi con una propria guida sono benvenuti al VIVE. I gruppi, fino a 25 persone, inclusi i minori, possono entrare senza prenotazione. Devono però rispettare le esigenze degli altri visitatori. I gruppi fra le 11 e le 25 persone, inclusi i minori, devono portare i propri auricolari.\n\nIl VIVE organizza attività per le famiglie. Le famiglie con bambini dai 5 ai 12 anni possono partecipare ad attività al costo di € 5 a partecipante, oltre il prezzo del biglietto di ingresso. I percorsi sono condotti da educatori museali specializzati e si svolgono nei giorni di sabato, domenica e festivi.\n\nTutte le scuole sono benvenute al VIVE. I gruppi di studenti delle scuole pubbliche e private dell’Unione Europea e i loro docenti entrano gratuitamente. Il VIVE offre gratuitamente attività didattiche per le scuole di ogni ordine e grado in italiano, inglese e francese. I percorsi sono condotti da educatori museali specializzati. Per informazioni è possibile telefonare dal lunedì al venerdì, dalle 9.30 alle 18.00. La prenotazione è obbligatoria almeno 7 giorni prima della data scelta.",
+    "L2_ITEMS": "**1. Un gruppo di venti persone con la propria guida può entrare senza prenotazione.**  \nVero ○ Falso ○\n\n**2. Il VIVE fornisce gli auricolari ai gruppi da undici a venticinque persone.**  \nVero ○ Falso ○\n\n**3. Le attività per famiglie sono rivolte ai bambini dai cinque ai dodici anni.**  \nVero ○ Falso ○\n\n**4. I cinque euro per l’attività comprendono il prezzo del biglietto di ingresso.**  \nVero ○ Falso ○\n\n**5. I percorsi per famiglie si svolgono anche il sabato.**  \nVero ○ Falso ○\n\n**6. Gli insegnanti che accompagnano i gruppi scolastici dell’Unione Europea pagano l’ingresso.**  \nVero ○ Falso ○\n\n**7. Per le scuole sono disponibili attività in tre lingue.**  \nVero ○ Falso ○\n\n**8. Le scuole devono prenotare il giorno prima dell’attività.**  \nVero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | 带自己的导游、人数不超过25人的团体无需预约。 |\n| L2.2 | Falso | 原文要求团体自行准备耳机，并非由博物馆提供。 |\n| L2.3 | Vero | 活动适合5至12岁的儿童。 |\n| L2.4 | Falso | 活动费之外还需另付适用的门票费用。 |\n| L2.5 | Vero | 家庭活动在周六、周日及节假日举行。 |\n| L2.6 | Falso | 欧盟公私立学校的学生团体及其教师免费进入。 |\n| L2.7 | Vero | 学校活动提供意大利语、英语及法语三种语言。 |\n| L2.8 | Falso | 必须至少提前7天预约，而不是前一天。 |"
+  },
+  "key": {
+    "L2.1": "V",
+    "L2.2": "F",
+    "L2.3": "V",
+    "L2.4": "F",
+    "L2.5": "V",
+    "L2.6": "F",
+    "L2.7": "V",
+    "L2.8": "F"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "prenotazione",
+      "categoria": "nome femminile",
+      "zh": "预约",
+      "en": "booking",
+      "esempio": "La prenotazione è obbligatoria."
+    },
+    {
+      "parola": "auricolari",
+      "categoria": "nome maschile plurale",
+      "zh": "耳机",
+      "en": "earphones",
+      "esempio": "I gruppi devono munirsi di auricolari."
+    },
+    {
+      "parola": "docente",
+      "categoria": "nome",
+      "zh": "教师",
+      "en": "teacher",
+      "esempio": "I docenti entrano gratuitamente."
+    }
+  ]
+}

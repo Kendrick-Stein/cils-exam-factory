@@ -84,6 +84,7 @@ https://it.wikinews.org/wiki/Intervista_a_Vincent_Russo
 https://it.wikipedia.org/wiki/Bibliobus
 https://it.wikisource.org/wiki/Ci%C3%A0ula_scopre_la_Luna
 https://it.wikisource.org/wiki/Cuore_(1889)/Dicembre/Il_piccolo_scrivano_fiorentino
+https://it.wikisource.org/wiki/Cuore_(1889)/Ottobre/Il_primo_giorno_di_scuola
 https://it.wikisource.org/wiki/Dei_delitti_e_delle_pene/Capitolo_XXX
 https://it.wikisource.org/wiki/Fior_di_passione_%28Serao%29/Novella_Greca
 https://it.wikisource.org/wiki/Il_Ventaglino
@@ -150,6 +151,10 @@ https://turistipercaso.it/diari-di-viaggio/tour-della-sicilia-diario-di-bordo.ht
 https://turistipercaso.it/diari-di-viaggio/una-fuga-con-destinazione-capo-verde-tutti-i-consigli-per-passare-una-settimana-a-boa-vista-in-totale-autonomia.html
 https://turistipercaso.it/diari-di-viaggio/viaggio-in-italia.html
 https://unduetresiviaggia.it/da-informatico-a-travel-blogger-storytime/
+https://vive.cultura.gov.it/it/famiglie/visite-guidateanimate-su-prenotazione
+https://vive.cultura.gov.it/it/faq
+https://vive.cultura.gov.it/it/mostre-ed-eventi/come-nasce-una-collezione-darte-2
+https://vive.cultura.gov.it/it/visita
 https://voitg.net/2026/06/grande-festa-per-lapertura-del-bocciodromo-comunale
 https://wiki.wikimedia.it/wiki/Wiki_Loves_Monuments/2025/Regolamento
 https://www.agriturismocomenavolta.it/chi-siamo/
@@ -570,6 +575,7 @@ https://www.visittrentino.info/it/guida/cosa-fare/eventi/mountain-bike-marathon-
 https://www.visittrentino.info/it/guida/cosa-fare/eventi/ossana-medievale_e_130160316
 https://www.wikimedia.it/news/al-via-wiki-loves-monuments-2026/
 https://www.wikimedia.it/news/le-fontanelle-nelle-citta-italiane-i-dati-aperti-di-openstreetmap-si-rivelano-un-servizio-per-la-comunita/
+https://www.wikimedia.it/news/scatta-sulle-sponde-del-lago-partecipa-wiki-loves-lake-como/
 https://www.wikimedia.it/news/wiki-loves-monuments-2026-regolamento/
 https://www.wikimedia.it/news/wiki-loves-monuments-italia-2025-regolamento/
 https://www.wikimedia.it/news/wikipedia-per-i-beni-culturali-il-laboratorio-wikimedia-alluniversita-degli-studi-di-milano/

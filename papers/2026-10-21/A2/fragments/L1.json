@@ -1,0 +1,54 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Una passeggiata sul lago di Como: il programma del 2018",
+    "T1_TEXT": "Domenica 16 settembre 2018 ci sarà il primo appuntamento con il tour «Sulle orme di Volta», alla scoperta dei luoghi legati alla vita dello scienziato Alessandro Volta.\n\nIl tour partirà alle 9,30 dal monumento «The life electric», sulle sponde del lago, vicino alla stazione della funicolare. Con la funicolare si raggiungerà insieme Brunate, oggi chiamata «Balcone sulle Alpi», un tempo piccolo paese di contadini dove Volta ha passato la sua infanzia.\n\nIn cima comincerà la passeggiata. Si visiteranno la Biblioteca e il parco Volta, la Chiesa di Sant’Andrea, il Faro voltiano, alto 29 metri e costruito per ricordare i cento anni dalla morte dello scienziato, e altri importanti monumenti. La passeggiata finirà alle 13 al Parco Marenghi, da cui si può vedere il bellissimo panorama sul lago.\n\nLa passeggiata del 16 sarà gratuita, ma sarà necessario pagare 5,39 euro tramite Eventbrite per la funicolare Como-Brunate. Gli organizzatori compreranno i biglietti in anticipo per evitare code.\n\nAl termine della gita, chi vorrà potrà prenotare un tavolo per il pranzo a prezzo ridotto presso tre diversi ristoranti.\n\nTutte le informazioni sul tour e sulle iscrizioni alla gita sono sul sito dell’evento. I partecipanti sono invitati a portare le macchine fotografiche.",
+    "L1_ITEMS": "**1. Il punto di partenza del tour sarà**    \n○ **A.** il Parco Marenghi.  \n○ **B.** il monumento «The life electric».  \n○ **C.** la Chiesa di Sant’Andrea.\n\n**2. Il Faro voltiano è**    \n○ **A.** il luogo dove Volta ha passato la sua infanzia.  \n○ **B.** il luogo dove finirà la passeggiata.  \n○ **C.** un monumento alto ventinove metri.\n\n**3. I partecipanti dovranno pagare 5,39 euro per**    \n○ **A.** il viaggio in funicolare.  \n○ **B.** la passeggiata tra i monumenti.  \n○ **C.** il pranzo in un ristorante.\n\n**4. Dopo la gita i partecipanti potranno**    \n○ **A.** pranzare gratuitamente in tre ristoranti.  \n○ **B.** prenotare un pranzo a prezzo ridotto.  \n○ **C.** comprare i biglietti per la funicolare."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | 集合出发点是湖边的纪念碑；公园是终点，教堂是途经地点。 |\n| L1.2 | C | 29米是灯塔的高度；Brunate是童年居住地，公园是终点。 |\n| L1.3 | A | 5.39欧元是缆车费用，散步免费，这不是餐费。 |\n| L1.4 | B | 可预订优惠午餐，并非免费用餐；缆车票由组织者提前购买。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "funicolare",
+      "categoria": "nome femminile",
+      "zh": "缆索铁路",
+      "en": "funicular",
+      "esempio": "Con la funicolare si raggiungerà Brunate."
+    },
+    {
+      "parola": "sponda",
+      "categoria": "nome femminile",
+      "zh": "岸",
+      "en": "shore",
+      "esempio": "Il monumento è sulle sponde del lago."
+    },
+    {
+      "parola": "in anticipo",
+      "categoria": "espressione",
+      "zh": "提前",
+      "en": "in advance",
+      "esempio": "Gli organizzatori compreranno i biglietti in anticipo."
+    },
+    {
+      "parola": "prenotare",
+      "categoria": "verbo",
+      "zh": "预订",
+      "en": "to book",
+      "esempio": "Chi vorrà potrà prenotare un tavolo."
+    },
+    {
+      "parola": "a prezzo ridotto",
+      "categoria": "espressione",
+      "zh": "优惠价格",
+      "en": "at a reduced price",
+      "esempio": "Il pranzo sarà a prezzo ridotto."
+    }
+  ]
+}

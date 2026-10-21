@@ -1,0 +1,47 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Una collezione a Palazzo Venezia: un programma di visita",
+    "S3_TEXT_WITH_GAPS": "Come nasce una __(0)__? A questa e ad altre __(1)__ daremo risposta con il percorso dedicato alle collezioni di Palazzo Venezia. Si parte con la __(2)__ animata del libro Mostri & meraviglie. Si prosegue con una passeggiata nel palazzo per __(3)__ le collezioni. In laboratorio, i bambini __(4)__ una personale collezione d’arte in cui raccogliere le “meraviglie” di Palazzo Venezia.\n\nOgni partecipante paga 5€: questo è il __(5)__ della visita. A questa somma va aggiunto il costo del __(6)__ d’ingresso al VIVE. Per partecipare alla visita è necessario __(7)__ e acquistare il biglietto almeno 2 giorni prima. È necessario presentarsi 15 minuti prima dell’inizio della visita nel punto d’__(8)__ per incontrare gli altri partecipanti.",
+    "S3_OPT0_A": "collezione",
+    "S3_OPT0_B": "stazione",
+    "S3_OPT0_C": "stagione",
+    "S3_OPTION_ROWS": "| 1. | domande | risposte | notizie |\n| 2. | scrittura | lettura | pittura |\n| 3. | trasferire | scoprire | prestare |\n| 4. | cancellano | nascondono | realizzano |\n| 5. | resto | costo | rimborso |\n| 6. | biglietto | quaderno | programma |\n| 7. | prenotare | parcheggiare | pernottare |\n| 8. | incontro | ascolto | allenamento |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | A | dare risposta alle domande：回答问题，前句是疑问句。 |\n| S3.2 | B | 书籍活动是lettura animata，即生动的朗读。 |\n| S3.3 | B | 在宫殿中散步参观是为了了解藏品，不是搬运或借出藏品。 |\n| S3.4 | C | 在工作坊制作个人艺术收藏，realizzare表示制作；不是销毁或藏起来。 |\n| S3.5 | B | 参加者为参观支付的5欧元是费用，不是找零或退款。 |\n| S3.6 | A | 进入场馆购买的是biglietto d’ingresso，即门票。 |\n| S3.7 | A | 提前两天办理参加手续需要prenotare，即预约。 |\n| S3.8 | A | 提前到达是为了与其他参加者会合，因此是集合点。 |"
+  },
+  "key": {
+    "S3.1": "A",
+    "S3.2": "B",
+    "S3.3": "B",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "A",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "collezione",
+      "categoria": "nome femminile",
+      "zh": "收藏；藏品",
+      "en": "collection",
+      "esempio": "Come nasce una collezione?"
+    },
+    {
+      "parola": "laboratorio",
+      "categoria": "nome maschile",
+      "zh": "工作坊",
+      "en": "workshop",
+      "esempio": "In laboratorio i bambini realizzano una collezione."
+    },
+    {
+      "parola": "prenotare",
+      "categoria": "verbo",
+      "zh": "预约",
+      "en": "to book",
+      "esempio": "È necessario prenotare almeno due giorni prima."
+    }
+  ]
+}

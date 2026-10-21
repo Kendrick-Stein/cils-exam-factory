@@ -1,0 +1,46 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "Gli esploratori del VIVE",
+    "S1_TEXT_WITH_GAPS": "Vuoi visitare __il (0)__ VIVE con __(1)__ tua famiglia? Vuoi organizzare un percorso guidato a misura __(2)__ bambino per tutto __(3)__ tuo gruppo? Il VIVE organizza visite per famiglie e bambini. Le visite sono disponibili __(4)__ più lingue.\n\nDurante il percorso, ogni bambino diventa un esploratore __(5)__ Palazzo Venezia e del Vittoriano. Tutti __(6)__ partecipanti ricevono una piccola mappa. Sulla mappa possono annotare, disegnare o completare semplici prove __(7)__ osservazione. Con giochi e indovinelli, tutti __(8)__ bambini cercano particolari nascosti e imparano __(9)__ conoscere __(10)__ Vittoriano e Palazzo Venezia. Anche i genitori partecipano: diventano compagni di squadra nella scoperta."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | la | S1.6 | i |\n| S1.2 | di | S1.7 | di |\n| S1.3 | il | S1.8 | i |\n| S1.4 | in | S1.9 | a |\n| S1.5 | di | S1.10 | il |",
+    "ANS_S1_NOTES": "**S1.1.** la tua famiglia：阴性单数家庭前用la。\n\n**S1.2.** a misura di bambino：适合儿童的。\n\n**S1.3.** tutto il tuo gruppo：整个团体，tutto后接定冠词。\n\n**S1.4.** in più lingue：以多种语言。\n\n**S1.5.** esploratore di Palazzo Venezia：探索该场馆的人，di连接对象。\n\n**S1.6.** tutti i partecipanti：所有参加者，复数阳性定冠词i。\n\n**S1.7.** prove di osservazione：观察练习，di说明类别。\n\n**S1.8.** tutti i bambini：所有儿童，阳性复数用i。\n\n**S1.9.** imparare a conoscere：学着了解，imparare后接a。\n\n**S1.10.** il Vittoriano：建筑专名使用il。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "di",
+    "S1.3": "il",
+    "S1.4": "in",
+    "S1.5": "di",
+    "S1.6": "i",
+    "S1.7": "di",
+    "S1.8": "i",
+    "S1.9": "a",
+    "S1.10": "il"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "percorso",
+      "categoria": "nome maschile",
+      "zh": "路线；行程",
+      "en": "route",
+      "esempio": "Durante il percorso i partecipanti riceveranno una mappa."
+    },
+    {
+      "parola": "mappa",
+      "categoria": "nome femminile",
+      "zh": "地图",
+      "en": "map",
+      "esempio": "una piccola mappa dell’esploratore"
+    },
+    {
+      "parola": "indovinello",
+      "categoria": "nome maschile",
+      "zh": "谜语",
+      "en": "riddle",
+      "esempio": "Attraverso giochi e indovinelli."
+    }
+  ]
+}

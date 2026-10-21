@@ -1,0 +1,201 @@
+{
+  "answers": {
+    "L1.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.4": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L2.1": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.2": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.3": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.4": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.5": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.6": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.7": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.8": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.1": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L3.3": {
+      "answer": "H",
+      "confidence": "hi"
+    },
+    "L3.4": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L3.5": {
+      "answer": "E",
+      "confidence": "hi"
+    },
+    "L3.6": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S1.1": {
+      "answer": "LA",
+      "confidence": "hi"
+    },
+    "S1.2": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.3": {
+      "answer": "IL",
+      "confidence": "hi"
+    },
+    "S1.4": {
+      "answer": "IN",
+      "confidence": "hi"
+    },
+    "S1.5": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.6": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "S1.7": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.8": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "S1.9": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S1.10": {
+      "answer": "IL",
+      "confidence": "hi"
+    },
+    "S2.1": {
+      "answer": "HA",
+      "confidence": "hi"
+    },
+    "S2.2": {
+      "answer": "HA",
+      "confidence": "hi"
+    },
+    "S2.3": {
+      "answer": "GUARDA",
+      "confidence": "hi"
+    },
+    "S2.4": {
+      "answer": "RIDE",
+      "confidence": "hi"
+    },
+    "S2.5": {
+      "answer": "DICEVO",
+      "confidence": "hi"
+    },
+    "S2.6": {
+      "answer": "AVEVO",
+      "confidence": "hi"
+    },
+    "S2.7": {
+      "answer": "SONO CORSO",
+      "confidence": "hi"
+    },
+    "S2.8": {
+      "answer": "HA DETTO",
+      "confidence": "hi"
+    },
+    "S2.9": {
+      "answer": "SONO TORNATO",
+      "confidence": "hi"
+    },
+    "S2.10": {
+      "answer": "HO",
+      "confidence": "hi"
+    },
+    "S3.1": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.2": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.3": {
+      "answer": "B",
+      "confidence": "med"
+    },
+    "S3.4": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.5": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.6": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.7": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.8": {
+      "answer": "A",
+      "confidence": "med"
+    }
+  },
+  "flags": [
+    {
+      "item_id": "S3.3",
+      "reason": "B intended; volata can mean rapid run or dash through palace, not explicitly ruled out."
+    },
+    {
+      "item_id": "S3.8",
+      "reason": "A conventional; punto d’ascolto could be a service point; gathering location not identified."
+    }
+  ],
+  "checks": "46 items answered. W1/W2 printed word ranges and standalone oral tasks verified.",
+  "reviewer": "independent native blind solver",
+  "paper_sha256": "967546174caa1d981f4e4685e5c686046745d31844a21fe7797749643ea9e815"
+}

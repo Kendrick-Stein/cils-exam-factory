@@ -1,0 +1,341 @@
+exam: cils
+level: A2
+session: '2026-10-21'
+title: CILS A2 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  slot: T1
+  level: A2
+  used_in:
+  - L1
+  url: https://www.wikimedia.it/news/scatta-sulle-sponde-del-lago-partecipa-wiki-loves-lake-como/
+  title: 'Scatta sulle sponde del lago: partecipa a Wiki Loves Lake Como!'
+  publisher: Wikimedia Italia; Paolo Casagrande; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato; tagli e semplificazioni; adattamento distribuito sotto la licenza
+    indicata
+  authors:
+  - Paolo Casagrande
+  published: '2018-09-10'
+  accessed: '2026-10-21'
+  genre: news_general
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words_used: 203
+  adapted: true
+  source_section: 'Tour Sulle orme di Volta: event schedule paragraphs'
+  adaptation_notes: Historical 2018 programme explicitly labelled in title and first
+    sentence. Simplified relative clauses/passive forms, cut promotion, retain locations,
+    fees, times and conditions. Historical-material exception to preferred recency;
+    not current news.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  license_evidence_url: https://www.wikimedia.it/news/scatta-sulle-sponde-del-lago-partecipa-wiki-loves-lake-como/
+  license_evidence: Official source text explicitly covered by the stated licence;
+    media, logos and third-party works excluded. Only text used. Independently checked
+    2026-10-21.
+  dedup_checked: Canonical URL checked against latest main historical used-sources
+    and pool; no previous published usage. Different FAQ sections within T3 only.
+  cefr_evidence: Selected excerpt assessed B1; syntax and nonessential specialised
+    vocabulary simplified at most one level to A2. Not a grade for the entire site/chapter.
+- id: T2
+  slot: T2
+  level: A2
+  used_in:
+  - L2
+  url: https://vive.cultura.gov.it/it/visita
+  title: Visita — Gruppi, Famiglie, Scuole
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  authors:
+  - VIVE
+  published: null
+  accessed: '2026-10-21'
+  genre: public_notice
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words_used: 177
+  adapted: true
+  source_section: Gruppi; Famiglie; Scuole
+  adaptation_notes: Selected service rules shortened; munirsi simplified to portare;
+    entro 7 giorni clarified as almeno 7 giorni; no changes to conditions or prices.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_evidence_url: https://vive.cultura.gov.it/it/note-legali
+  license_evidence: Official source text explicitly covered by the stated licence;
+    media, logos and third-party works excluded. Only text used. Independently checked
+    2026-10-21.
+  dedup_checked: Canonical URL checked against latest main historical used-sources
+    and pool; no previous published usage. Different FAQ sections within T3 only.
+  cefr_evidence: Selected excerpt assessed B1; syntax and nonessential specialised
+    vocabulary simplified at most one level to A2. Not a grade for the entire site/chapter.
+- id: T3
+  slot: T3
+  level: A2
+  used_in:
+  - L3
+  url: https://vive.cultura.gov.it/it/faq
+  title: FAQ del VIVE
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  authors:
+  - VIVE
+  published: null
+  accessed: '2026-10-21'
+  genre: public_notice
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words_used: 132
+  adapted: true
+  source_section: Ticket purchase/payment; free first Sunday; photos/videos; school
+    activities; library lockers; bibliographic support
+  adaptation_notes: Six distinct FAQ extracts shortened into linked notices. Distractors
+    are authored exercise options and not claimed official guidance.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_evidence_url: https://vive.cultura.gov.it/it/note-legali
+  license_evidence: Official source text explicitly covered by the stated licence;
+    media, logos and third-party works excluded. Only text used. Independently checked
+    2026-10-21.
+  dedup_checked: Canonical URL checked against latest main historical used-sources
+    and pool; no previous published usage. Different FAQ sections within T3 only.
+  cefr_evidence: Selected excerpt assessed B1; syntax and nonessential specialised
+    vocabulary simplified at most one level to A2. Not a grade for the entire site/chapter.
+  subslots:
+  - T3a
+  - T3b
+  - T3c
+  - T3d
+  - T3e
+  - T3f
+- id: T4
+  slot: T4
+  level: A2
+  used_in:
+  - S1
+  url: https://vive.cultura.gov.it/it/famiglie/visite-guidateanimate-su-prenotazione
+  title: Visite guidate/animate su prenotazione
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  authors:
+  - VIVE
+  published: null
+  accessed: '2026-10-21'
+  genre: public_notice
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words_used: 98
+  adapted: true
+  source_section: Intro and Esploratori del patrimonio
+  adaptation_notes: Short sentences; abstract ability nouns and gerund removed; map,
+    games, discovery and parents as teammates preserved. Inserted tutti/tutto only
+    makes participant reference explicit to force article gaps; no new service claimed.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_evidence_url: https://vive.cultura.gov.it/it/note-legali
+  license_evidence: Official source text explicitly covered by the stated licence;
+    media, logos and third-party works excluded. Only text used. Independently checked
+    2026-10-21.
+  dedup_checked: Canonical URL checked against latest main historical used-sources
+    and pool; no previous published usage. Different FAQ sections within T3 only.
+  cefr_evidence: Selected excerpt assessed B1; syntax and nonessential specialised
+    vocabulary simplified at most one level to A2. Not a grade for the entire site/chapter.
+- id: T5
+  slot: T5
+  level: A2
+  used_in:
+  - S2
+  url: https://it.wikisource.org/wiki/Cuore_(1889)/Ottobre/Il_primo_giorno_di_scuola
+  title: Cuore (1889), Ottobre, Il primo giorno di scuola
+  publisher: Wikisource; Edmondo De Amicis; Wikisource contributors; CC BY-SA 3.0;
+    https://creativecommons.org/licenses/by-sa/3.0/; estratto adattato; tagli e semplificazioni;
+    adattamento distribuito sotto la licenza indicata
+  authors:
+  - Edmondo De Amicis; Wikisource contributors
+  published: '1889'
+  accessed: '2026-10-21'
+  genre: narrative
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words_used: 106
+  adapted: true
+  source_section: Teacher description and return home; stable oldid 3681334
+  adaptation_notes: Historical literary first-person diary, not a factual modern interview.
+    1889 edition; original work 1886. Split first sentence; corsi/disse/tornai changed
+    to sono corso/ha detto/sono tornato; expand trovar/par; remove one simile. Tenses
+    explicitly cued in parentheses.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  license_evidence_url: https://it.wikisource.org/wiki/Cuore_(1889)/Ottobre/Il_primo_giorno_di_scuola
+  license_evidence: Official source text explicitly covered by the stated licence;
+    media, logos and third-party works excluded. Only text used. Independently checked
+    2026-10-21.
+  dedup_checked: Canonical URL checked against latest main historical used-sources
+    and pool; no previous published usage. Different FAQ sections within T3 only.
+  cefr_evidence: Selected excerpt assessed B1; syntax and nonessential specialised
+    vocabulary simplified at most one level to A2. Not a grade for the entire site/chapter.
+- id: T6
+  slot: T6
+  level: A2
+  used_in:
+  - S3
+  url: https://vive.cultura.gov.it/it/mostre-ed-eventi/come-nasce-una-collezione-darte-2
+  title: Come nasce una collezione d’arte?
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  authors:
+  - VIVE
+  published: null
+  accessed: '2026-10-21'
+  genre: public_notice
+  cefr: B1
+  usable_levels:
+  - A2
+  - B1
+  words_used: 117
+  adapted: true
+  source_section: Activity description and ticket/booking instructions
+  adaptation_notes: Programme excerpt of a specific event, not a permanent service/current
+    announcement. Source displays Sunday 12 October 16:00 without verified year; no
+    year inferred. Book title is named, no book text copied; object enumeration cut
+    and long clauses simplified. The student title marks this as a programme of a
+    visit, not a current offer. Payment defined as the visit cost; meeting point explained
+    as meeting other participants. These clarify existing source meanings, not new
+    services.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_evidence_url: https://vive.cultura.gov.it/it/note-legali
+  license_evidence: Official source text explicitly covered by the stated licence;
+    media, logos and third-party works excluded. Only text used. Independently checked
+    2026-10-21.
+  dedup_checked: Canonical URL checked against latest main historical used-sources
+    and pool; no previous published usage. Different FAQ sections within T3 only.
+  cefr_evidence: Selected excerpt assessed B1; syntax and nonessential specialised
+    vocabulary simplified at most one level to A2. Not a grade for the entire site/chapter.
+pipeline:
+  generator: native assistant
+  template: factory/exams/cils/templates/A2.md
+  stages:
+  - stage: scaffold
+    at: '2026-10-21'
+  - stage: corpus_check
+    at: '2026-10-21'
+    result: incomplete
+  - stage: authoring
+    at: '2026-10-21'
+    result: assembled; independent review in progress
+  - stage: quality_audit
+    at: '2026-10-21T03:31:26+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-21T03:31:26+00:00'
+    result: pass
+    issues: 0
+  - stage: source_review
+    at: '2026-10-21'
+    result: Licences and source facts checked independently; S1 simplified, L1/L2
+      expanded from same sources to meet total reading band. Final full blind review
+      pending.
+  - stage: blind_validation
+    at: '2026-10-21T03:34:26+00:00'
+    agreement: 46/46
+    flags: 2
+    result: fail
+  - stage: quality_audit
+    at: '2026-10-21T03:35:10+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-21T03:35:10+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-10-21T03:36:29+00:00'
+    agreement: 46/46
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-10-21T03:36:29+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-21T03:36:29+00:00'
+    result: pass
+    issues: 0
+  - stage: reconcile
+    at: '2026-10-21'
+    result: 'pass: 46/46, 0 flags, first repair round; fresh full-paper blind review'
+  - stage: format_audit
+    at: '2026-10-21T03:37:12+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-10-21T03:38:47+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-21T03:38:47+00:00'
+    result: pass
+    issues: 0
+  - stage: render
+    at: '2026-10-21'
+    result: 'pass: official MuPDF command; source coverage verified; L3 answer table
+      split to prevent renderer omission without code changes'
+  - stage: visual_review
+    at: '2026-10-21'
+    result: 'pass: student12 + answers9 pages rendered and individually inspected;
+      Chinese/Italian, tables, page numbers, writing spaces, no clipping/missing content;
+      historical192 PDF hashes unchanged'
+  - stage: publish_ready
+    at: '2026-10-21'
+    result: All content/PDF checks pass; metadata-only source register approved for
+      this A2 release
+  - stage: quality_audit
+    at: '2026-10-21T03:45:39+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-21T03:45:39+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 46
+  final_agreement: 46
+  agreement: 46/46
+  flags: 0
+  mismatches: 0
+  result: pass

@@ -1,7 +1,7 @@
 generated_by: scripts/build_used_index.py
 note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
   not edit by hand — regenerate.
-unique_sources: 582
+unique_sources: 588
 sources:
 - url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
   title: Bruschetta al pomodoro fresco
@@ -7542,4 +7542,88 @@ sources:
     level: B1
     prova: S3
     words: 184
+    status: published
+- url: https://it.wikisource.org/wiki/Cuore_(1889)/Ottobre/Il_primo_giorno_di_scuola
+  title: Cuore (1889), Ottobre, Il primo giorno di scuola
+  publisher: Wikisource; Edmondo De Amicis; Wikisource contributors; CC BY-SA 3.0;
+    https://creativecommons.org/licenses/by-sa/3.0/; estratto adattato; tagli e semplificazioni;
+    adattamento distribuito sotto la licenza indicata
+  genre: literature_public_domain
+  first_used: '2026-10-21'
+  times_used: 1
+  uses:
+  - date: '2026-10-21'
+    level: A2
+    prova: S2
+    words: 106
+    status: published
+- url: https://vive.cultura.gov.it/it/famiglie/visite-guidateanimate-su-prenotazione
+  title: Visite guidate/animate su prenotazione
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  genre: practical_realia
+  first_used: '2026-10-21'
+  times_used: 1
+  uses:
+  - date: '2026-10-21'
+    level: A2
+    prova: S1
+    words: 98
+    status: published
+- url: https://vive.cultura.gov.it/it/faq
+  title: FAQ del VIVE
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  genre: practical_realia
+  first_used: '2026-10-21'
+  times_used: 1
+  uses:
+  - date: '2026-10-21'
+    level: A2
+    prova: L3
+    words: 132
+    status: published
+- url: https://vive.cultura.gov.it/it/mostre-ed-eventi/come-nasce-una-collezione-darte-2
+  title: Come nasce una collezione d’arte?
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  genre: practical_realia
+  first_used: '2026-10-21'
+  times_used: 1
+  uses:
+  - date: '2026-10-21'
+    level: A2
+    prova: S3
+    words: 117
+    status: published
+- url: https://vive.cultura.gov.it/it/visita
+  title: Visita — Gruppi, Famiglie, Scuole
+  publisher: VIVE – Vittoriano e Palazzo Venezia, Ministero della Cultura; VIVE; CC
+    BY 3.0; https://creativecommons.org/licenses/by/3.0/; estratto adattato; tagli
+    e semplificazioni; adattamento distribuito sotto la licenza indicata
+  genre: practical_realia
+  first_used: '2026-10-21'
+  times_used: 1
+  uses:
+  - date: '2026-10-21'
+    level: A2
+    prova: L2
+    words: 177
+    status: published
+- url: https://www.wikimedia.it/news/scatta-sulle-sponde-del-lago-partecipa-wiki-loves-lake-como/
+  title: 'Scatta sulle sponde del lago: partecipa a Wiki Loves Lake Como!'
+  publisher: Wikimedia Italia; Paolo Casagrande; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    estratto adattato; tagli e semplificazioni; adattamento distribuito sotto la licenza
+    indicata
+  genre: off-whitelist
+  first_used: '2026-10-21'
+  times_used: 1
+  uses:
+  - date: '2026-10-21'
+    level: A2
+    prova: L1
+    words: 203
     status: published

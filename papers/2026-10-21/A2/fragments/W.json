@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Racconta la prima volta che hai partecipato a un laboratorio di lavori manuali nel tuo quartiere. Scrivi quando e con chi sei andato, che cosa hai fatto e perché questa esperienza ti è piaciuta.",
+    "W2_PROMPT": "Scrivi un messaggio a un amico o a un'amica per visitare insieme una mostra nel fine settimana. Indica quale mostra vuoi vedere; proponi un giorno, un orario e un luogo per incontrarvi; spiega perché ti interessa la mostra."
+  },
+  "answer_slots": {
+    "MODEL_W1": "中文说明：描述第一次参加社区手工活动的经历，交代时间和同行者、制作了什么，以及喜欢这次经历的原因。\n\nSabato scorso ho partecipato per la prima volta a un laboratorio di lavori manuali nel centro del quartiere. Ero con una vicina e abbiamo costruito una piccola scatola di legno. All'inizio era difficile, ma un insegnante ci ha aiutato. Mi è piaciuto molto perché ho imparato qualcosa di nuovo.",
+    "MODEL_W1_PHRASES": "**Ho partecipato per la prima volta a…**（我第一次参加了……）；**Abbiamo costruito…**（我们制作了……）；**All'inizio era difficile.**（一开始很难）；**Ci ha aiutato.**（他帮助了我们）；**Ho imparato qualcosa di nuovo.**（我学到了新东西）",
+    "MODEL_W2": "中文说明：给朋友发消息，邀请对方周末一起看展览，包含展览、见面日期时间地点以及感兴趣的原因。\n\nCiao Anna, vuoi visitare una mostra di fotografie con me sabato? Possiamo incontrarci alle dieci davanti al museo. Mi interessa perché ci sono immagini della nostra città. Fammi sapere! Luca",
+    "MODEL_W2_PHRASES": "**Vuoi visitare una mostra con me?**（你想和我一起看展览吗？）；**Possiamo incontrarci alle…**（我们可以在……点见面）；**Davanti al museo.**（在博物馆前）；**Mi interessa perché…**（我对此感兴趣，因为……）；**Fammi sapere!**（告诉我一声！）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

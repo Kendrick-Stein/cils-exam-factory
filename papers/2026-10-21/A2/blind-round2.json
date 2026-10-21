@@ -1,0 +1,192 @@
+{
+  "answers": {
+    "L1.1": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L1.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L1.3": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L1.4": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "L2.1": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.2": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.3": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.4": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.5": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.6": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L2.7": {
+      "answer": "V",
+      "confidence": "hi"
+    },
+    "L2.8": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.1": {
+      "answer": "F",
+      "confidence": "hi"
+    },
+    "L3.2": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "L3.3": {
+      "answer": "H",
+      "confidence": "hi"
+    },
+    "L3.4": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "L3.5": {
+      "answer": "E",
+      "confidence": "hi"
+    },
+    "L3.6": {
+      "answer": "D",
+      "confidence": "hi"
+    },
+    "S1.1": {
+      "answer": "LA",
+      "confidence": "hi"
+    },
+    "S1.2": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.3": {
+      "answer": "IL",
+      "confidence": "hi"
+    },
+    "S1.4": {
+      "answer": "IN",
+      "confidence": "hi"
+    },
+    "S1.5": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.6": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "S1.7": {
+      "answer": "DI",
+      "confidence": "hi"
+    },
+    "S1.8": {
+      "answer": "I",
+      "confidence": "hi"
+    },
+    "S1.9": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S1.10": {
+      "answer": "IL",
+      "confidence": "hi"
+    },
+    "S2.1": {
+      "answer": "HA",
+      "confidence": "hi"
+    },
+    "S2.2": {
+      "answer": "HA",
+      "confidence": "hi"
+    },
+    "S2.3": {
+      "answer": "GUARDA",
+      "confidence": "hi"
+    },
+    "S2.4": {
+      "answer": "RIDE",
+      "confidence": "hi"
+    },
+    "S2.5": {
+      "answer": "DICEVO",
+      "confidence": "hi"
+    },
+    "S2.6": {
+      "answer": "AVEVO",
+      "confidence": "hi"
+    },
+    "S2.7": {
+      "answer": "SONO CORSO",
+      "confidence": "hi"
+    },
+    "S2.8": {
+      "answer": "HA DETTO",
+      "confidence": "hi"
+    },
+    "S2.9": {
+      "answer": "SONO TORNATO",
+      "confidence": "hi"
+    },
+    "S2.10": {
+      "answer": "HO",
+      "confidence": "hi"
+    },
+    "S3.1": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.2": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.3": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.4": {
+      "answer": "C",
+      "confidence": "hi"
+    },
+    "S3.5": {
+      "answer": "B",
+      "confidence": "hi"
+    },
+    "S3.6": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.7": {
+      "answer": "A",
+      "confidence": "hi"
+    },
+    "S3.8": {
+      "answer": "A",
+      "confidence": "hi"
+    }
+  },
+  "flags": [],
+  "checks": "46/46; no substantive alternative; MC forms/context, matching uniqueness, tense cues, writing ranges and oral prompts checked.",
+  "reviewer": "fresh independent native blind solver, repaired full paper",
+  "paper_sha256": "9c5088ae9adfa116b59b932f0625b835e0fe4730c7e4a3fc8c238c92a285aaf3"
+}

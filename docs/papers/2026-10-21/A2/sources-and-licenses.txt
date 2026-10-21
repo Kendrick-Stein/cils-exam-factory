@@ -1,0 +1,52 @@
+CILS A2 — Esercitazione non ufficiale — 21 ottobre 2026
+Fonti, attribuzioni, licenze e modifiche
+
+Ogni adattamento conserva la licenza indicata. Nessuna immagine, opera di terzi o pagina web integrale riprodotta. Nessuna approvazione degli autori è implicata.
+
+T1 — Scatta sulle sponde del lago: partecipa a Wiki Loves Lake Como!
+Autore/contributori: Paolo Casagrande
+Fonte: https://www.wikimedia.it/news/scatta-sulle-sponde-del-lago-partecipa-wiki-loves-lake-como/
+Licenza originale e adattamento: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Data originale: 2018-09-10; consultato: 2026-10-21
+Prova della licenza: https://www.wikimedia.it/news/scatta-sulle-sponde-del-lago-partecipa-wiki-loves-lake-como/
+Modifiche: Historical 2018 programme explicitly labelled in title and first sentence. Simplified relative clauses/passive forms, cut promotion, retain locations, fees, times and conditions. Historical-material exception to preferred recency; not current news.
+
+T2 — Visita — Gruppi, Famiglie, Scuole
+Autore/contributori: VIVE
+Fonte: https://vive.cultura.gov.it/it/visita
+Licenza originale e adattamento: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Data originale: non dichiarata / anno non verificato; consultato: 2026-10-21
+Prova della licenza: https://vive.cultura.gov.it/it/note-legali
+Modifiche: Selected service rules shortened; munirsi simplified to portare; entro 7 giorni clarified as almeno 7 giorni; no changes to conditions or prices.
+
+T3 — FAQ del VIVE
+Autore/contributori: VIVE
+Fonte: https://vive.cultura.gov.it/it/faq
+Licenza originale e adattamento: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Data originale: non dichiarata / anno non verificato; consultato: 2026-10-21
+Prova della licenza: https://vive.cultura.gov.it/it/note-legali
+Modifiche: Six distinct FAQ extracts shortened into linked notices. Distractors are authored exercise options and not claimed official guidance.
+
+T4 — Visite guidate/animate su prenotazione
+Autore/contributori: VIVE
+Fonte: https://vive.cultura.gov.it/it/famiglie/visite-guidateanimate-su-prenotazione
+Licenza originale e adattamento: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Data originale: non dichiarata / anno non verificato; consultato: 2026-10-21
+Prova della licenza: https://vive.cultura.gov.it/it/note-legali
+Modifiche: Short sentences; abstract ability nouns and gerund removed; map, games, discovery and parents as teammates preserved. Inserted tutti/tutto only makes participant reference explicit to force article gaps; no new service claimed.
+
+T5 — Cuore (1889), Ottobre, Il primo giorno di scuola
+Autore/contributori: Edmondo De Amicis; Wikisource contributors
+Fonte: https://it.wikisource.org/wiki/Cuore_(1889)/Ottobre/Il_primo_giorno_di_scuola
+Licenza originale e adattamento: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Data originale: 1889; consultato: 2026-10-21
+Prova della licenza: https://it.wikisource.org/wiki/Cuore_(1889)/Ottobre/Il_primo_giorno_di_scuola
+Modifiche: Historical literary first-person diary, not a factual modern interview. 1889 edition; original work 1886. Split first sentence; corsi/disse/tornai changed to sono corso/ha detto/sono tornato; expand trovar/par; remove one simile. Tenses explicitly cued in parentheses.
+
+T6 — Come nasce una collezione d’arte?
+Autore/contributori: VIVE
+Fonte: https://vive.cultura.gov.it/it/mostre-ed-eventi/come-nasce-una-collezione-darte-2
+Licenza originale e adattamento: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Data originale: non dichiarata / anno non verificato; consultato: 2026-10-21
+Prova della licenza: https://vive.cultura.gov.it/it/note-legali
+Modifiche: Programme excerpt of a specific event, not a permanent service/current announcement. Source displays Sunday 12 October 16:00 without verified year; no year inferred. Book title is named, no book text copied; object enumeration cut and long clauses simplified. The student title marks this as a programme of a visit, not a current offer. Payment defined as the visit cost; meeting point explained as meeting other participants. These clarify existing source meanings, not new services.

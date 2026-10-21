@@ -1,0 +1,46 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "Il primo giorno di scuola",
+    "S2_TEXT_WITH_GAPS": "Il nostro maestro *(essere)* __è (0)__ alto, senza barba, coi capelli grigi e lunghi. *(Avere, presente indicativo)* __(1)__ una ruga diritta sulla fronte. *(Avere, presente indicativo)* __(2)__ la voce grossa e ci *(guardare, presente indicativo)* __(3)__ tutti fisso, l’un dopo l’altro. Non *(ridere, presente indicativo)* __(4)__ mai.\n\nIo *(dire, imperfetto indicativo)* __(5)__ tra me: «Ecco il primo giorno. Ancora nove mesi. Quanti lavori, quanti esami mensili, quante fatiche!» *(Avere, imperfetto indicativo)* __(6)__ proprio bisogno di trovare mia madre all’uscita e *(correre, passato prossimo)* __(7)__ a baciarle la mano. Essa mi *(dire, passato prossimo)* __(8)__: «Coraggio Enrico! Studieremo insieme». E *(tornare, passato prossimo)* __(9)__ a casa contento. Ma non *(avere, presente indicativo)* __(10)__ più il mio maestro, con quel sorriso buono e allegro, e non mi pare più bella come prima la scuola."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | ha | presente indicativo | S2.6 | avevo | imperfetto indicativo |\n| S2.2 | ha | presente indicativo | S2.7 | sono corso | passato prossimo |\n| S2.3 | guarda | presente indicativo | S2.8 | ha detto | passato prossimo |\n| S2.4 | ride | presente indicativo | S2.9 | sono tornato | passato prossimo |\n| S2.5 | dicevo | imperfetto indicativo | S2.10 | ho | presente indicativo |",
+    "ANS_S2_NOTES": "**S2.1.** 主语是老师，avere第三人称单数现在时为ha。\n\n**S2.2.** 主语仍为老师，用ha。\n\n**S2.3.** ci是宾语“我们”，主语老师对应guarda。\n\n**S2.4.** ridere第三人称单数现在时为ride。\n\n**S2.5.** 括号指定未完成过去时，io对应dicevo。\n\n**S2.6.** 主语io，avere未完成过去时为avevo。\n\n**S2.7.** 向目的地跑去，此处近过去时用essere；Enrico为男性，用sono corso。\n\n**S2.8.** Essa指母亲，dire近过去时为ha detto。\n\n**S2.9.** tornare用essere，叙述者Enrico为男性，用sono tornato。\n\n**S2.10.** 主语io，avere现在时为ho。"
+  },
+  "key": {
+    "S2.1": "ha",
+    "S2.2": "ha",
+    "S2.3": "guarda",
+    "S2.4": "ride",
+    "S2.5": "dicevo",
+    "S2.6": "avevo",
+    "S2.7": "sono corso",
+    "S2.8": "ha detto",
+    "S2.9": "sono tornato",
+    "S2.10": "ho"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "ruga",
+      "categoria": "nome femminile",
+      "zh": "皱纹",
+      "en": "wrinkle",
+      "esempio": "Ha una ruga sulla fronte."
+    },
+    {
+      "parola": "fronte",
+      "categoria": "nome femminile",
+      "zh": "额头",
+      "en": "forehead",
+      "esempio": "una ruga sulla fronte"
+    },
+    {
+      "parola": "coraggio",
+      "categoria": "nome maschile",
+      "zh": "勇气；加油",
+      "en": "courage",
+      "esempio": "Coraggio Enrico!"
+    }
+  ]
+}

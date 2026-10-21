@@ -1,0 +1,56 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "○ **1. Comprare i biglietti**\nPuoi comprare i biglietti del VIVE alla biglietteria del Vittoriano oppure online. Non è quindi necessario andare al museo per acquistarli.\n\n○ **2. Una domenica gratuita**\nLa prima domenica di ogni mese puoi visitare gratuitamente il VIVE. Per entrare in questa giornata si usa un biglietto gratuito.\n\n○ **3. Fotografie al museo**\nAl VIVE puoi fare fotografie per uso personale o per una ricerca. Durante la visita non puoi usare il flash o il bastone per selfie.\n\n○ **4. Attività per le scuole**\nIl VIVE organizza attività e laboratori per le scuole di ogni ordine e grado. Gli insegnanti possono conoscere le diverse proposte.\n\n○ **5. Gli armadietti della biblioteca**\nNella Biblioteca di Archeologia e Storia dell'Arte puoi usare gli armadietti. Durante tutta la visita devi tenere con te la chiave del tuo armadietto.\n\n○ **6. Aiuto nella ricerca**\nSe hai bisogno di aiuto per una ricerca bibliografica, puoi contattare il personale della Biblioteca di Archeologia e Storia dell'Arte.",
+    "L3_OPTIONS": "**A.** Per conoscere il programma completo dei laboratori scolastici, consulta la sezione Educazione sul sito del museo.\n\n**B.** Al tuo arrivo, lascia la chiave nella serratura dell'armadietto; durante la visita non devi portarla con te.\n\n**C.** Il biglietto gratuito di quella domenica è valido soltanto per il giorno in cui viene acquistato.\n\n**D.** Per ricevere questo aiuto nella ricerca di libri, invia la tua richiesta per posta elettronica a vi-ve.biasa.ricerca@cultura.gov.it.\n\n**E.** Quando esci dalla biblioteca, lascia la chiave nella serratura: non devi portarla a casa dopo la visita.\n\n**F.** Per pagare il tuo biglietto, puoi utilizzare una carta di credito oppure una carta di tipo bancomat.\n\n**G.** Per fare queste fotografie durante la visita, usa il flash; il museo permette questo strumento per uso personale.\n\n**H.** Puoi anche realizzare video amatoriali per gli stessi scopi personali o di ricerca, ma senza utilizzare treppiedi."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | F | F补充购票付款方式。 |\n| L3.2 | C | C补充免费周日门票只在当天有效。 |\n| L3.3 | H | H补充相同用途的业余录像；G违反禁用闪光灯的规定。 |\n\nL3 — continuazione\n\n| Item | Risposta | Spiegazione |\n|---|---|---|\n| L3.4 | A | A指明学校活动完整介绍的栏目。 |\n| L3.5 | E | E说明离馆时归还钥匙；B错误地要求抵达时放回钥匙。 |\n| L3.6 | D | D给出书目检索支持的联系邮箱。 |",
+    "ANS_L3_UNUSED": "B, G"
+  },
+  "key": {
+    "L3.1": "F",
+    "L3.2": "C",
+    "L3.3": "H",
+    "L3.4": "A",
+    "L3.5": "E",
+    "L3.6": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "biglietteria",
+      "categoria": "nome femminile",
+      "zh": "售票处",
+      "en": "ticket office",
+      "esempio": "Puoi comprare i biglietti alla biglietteria."
+    },
+    {
+      "parola": "gratuitamente",
+      "categoria": "avverbio",
+      "zh": "免费",
+      "en": "free of charge",
+      "esempio": "Puoi visitare gratuitamente il VIVE."
+    },
+    {
+      "parola": "armadietto",
+      "categoria": "nome maschile",
+      "zh": "储物柜",
+      "en": "locker",
+      "esempio": "Puoi usare gli armadietti."
+    },
+    {
+      "parola": "tenere con te",
+      "categoria": "espressione",
+      "zh": "随身保管",
+      "en": "keep with you",
+      "esempio": "Devi tenere con te la chiave."
+    },
+    {
+      "parola": "ricerca bibliografica",
+      "categoria": "nome femminile",
+      "zh": "书目检索",
+      "en": "bibliographic research",
+      "esempio": "Hai bisogno di aiuto per una ricerca bibliografica."
+    }
+  ]
+}

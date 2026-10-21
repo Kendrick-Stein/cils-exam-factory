@@ -1,0 +1,15 @@
+{
+  "result": "pass",
+  "scope": "Final text quality, not a PDF re-review or L3 independent blind solve",
+  "checks": [
+    "S3 revised semantics and Chinese explanations correct",
+    "All6 O1 models2sentences",
+    "W1/W2 49/30words",
+    "O2 models80/81words",
+    "Glossary20accurate entries with text fragments",
+    "S2 qualified IDs",
+    "L3 all6answers and unused options retained"
+  ],
+  "paper_sha256": "8707484ba8e11b32626818aabb446bb259e8e26b9cef5ced8f705ecd31455c37",
+  "answers_sha256": "40d319e50f451854f2d48498f445c254159cbde12e96f0f7d0e936196fbc3e6b"
+}
