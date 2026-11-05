@@ -1,0 +1,20 @@
+{
+  "historical_pdf_count": 194,
+  "historical_changed": 0,
+  "engine": "mupdf",
+  "pages": {
+    "paper": {
+      "count": 10,
+      "sha256": "bb49899d9ff106c4930b76e02e2d12e8a3b44e50e82556e752724e0e27dcc595",
+      "bytes": 107285
+    },
+    "answers": {
+      "count": 9,
+      "sha256": "3c3012542fd25dc74ece2b46ceed0f65e73d7c5a36c007c1750b405bd0008fa8",
+      "bytes": 148961
+    }
+  },
+  "visual_result": "pass",
+  "visual_pages_reviewed": 19,
+  "open_issues": 0
+}

@@ -1,0 +1,15 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1.** Come ti chiami e dove abiti?\n\n**2.** Con chi abiti?\n\n**3.** Che cosa fai la mattina?\n\n**4.** Che cosa mangi a colazione?\n\n**5.** Che cosa ti piace fare nel tempo libero?\n\n**6.** Come vai a scuola o al lavoro?",
+    "O2_ARGOMENTI": "**1.** Descrivi la tua casa: le stanze, i mobili e il tuo posto preferito.\n\n**2.** Descrivi una tua giornata libera: che cosa fai, dove vai e con chi passi il tempo."
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1. Come ti chiami e dove abiti?**\n\nMi chiamo Anna e abito a Firenze. La mia casa è vicino al centro.\n\n**2. Con chi abiti?**\n\nAbito con mia sorella. Abbiamo due camere e una cucina piccola.\n\n**3. Che cosa fai la mattina?**\n\nLa mattina mi alzo alle sette e faccio colazione. Poi vado a scuola.\n\n**4. Che cosa mangi a colazione?**\n\nA colazione mangio pane e marmellata. Bevo anche una tazza di latte.\n\n**5. Che cosa ti piace fare nel tempo libero?**\n\nMi piace ascoltare la musica. Il sabato gioco a calcio con i miei amici.\n\n**6. Come vai a scuola o al lavoro?**\n\nVado a scuola in autobus. La fermata è davanti a casa mia.",
+    "MODEL_O1_PHRASES": "abito con（我和……住）；la mattina（早上）；mi piace（我喜欢）；vado in autobus（我坐公交去）",
+    "MODEL_O2": "**Argomento n. 1 — La mia casa**\n\nAbito in un appartamento con mia sorella. La casa ha due camere, un bagno e una cucina. La mia camera è piccola, ma ha una grande finestra. Vicino al letto ci sono un tavolo e una sedia. Sul tavolo ci sono i miei libri. Mi piace la cucina perché la sera mangiamo e parliamo insieme.\n\n**Argomento n. 2 — Una giornata libera**\n\nLa domenica non lavoro. La mattina faccio colazione a casa e poi vado al parco con un amico. Camminiamo e parliamo. A pranzo torno a casa e preparo la pasta. Nel pomeriggio ascolto la musica o leggo un libro. La sera mangio con la mia famiglia. Dopo cena guardiamo un film. È una giornata semplice e piacevole.",
+    "MODEL_O2_PHRASES": "vicino al letto（在床边）；ci sono（有，复数）；nel pomeriggio（下午）；dopo cena（晚饭后）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

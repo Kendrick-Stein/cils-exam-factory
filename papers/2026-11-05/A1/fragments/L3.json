@@ -1,0 +1,47 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1.** **Affittasi in via dei Foraggi**\n\n   Affittasi. 95 m². 3 camere da letto, cucina, bagno, terrazza. Con mobili. 5º piano. Ascensore. Studenti stranieri, sì.\n\n**2.** **Affittasi in via dei Cerchi**\n\n   Affittasi. Appartamento moderno. Ristrutturato. Senza mobili. 62 m². 6º piano. Condominio con ascensore. Terrazza. Garage.\n\n**3.** **Vendesi in via Claudia**\n\n   Vendesi. Appartamento spazioso con una stanza. 45 m². Cucina, bagno, balcone. 4º piano. Senza ascensore. Agenzia: Romabitiamo.\n\n**4.** **Comprasi in via delle Sette Scale**\n\n   Comprasi per anziani. Appartamento con due stanze. Camera da letto, soggiorno con cucina. Luminoso. Pianoterra. Min. 50 m².",
+    "L3_OPTIONS": "A. Si cerca un appartamento da comprare al piano terra per persone anziane.\n\nB. Si vende un appartamento con garage e ascensore.\n\nC. Si affitta un appartamento senza mobili, ma con terrazza e garage.\n\nD. Si cerca un appartamento da affittare vicino a una scuola.\n\nE. Si vende un appartamento con balcone, ma senza ascensore.\n\nF. Si affitta un appartamento con mobili anche a studenti stranieri."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | F | «Affittasi», «con mobili», «studenti stranieri, sì». 中文：这是带家具的出租房，接受外国学生。 |\n| L3.2 | C | L’annuncio offre un affitto «senza mobili», con terrazza e garage. 中文：无家具、有露台和车库三项都吻合。 |\n| L3.3 | E | «Vendesi», «balcone» e «senza ascensore». 中文：出售住房，有阳台，没有电梯；B所说的有电梯不符。 |\n| L3.4 | A | «Comprasi per anziani» e «pianoterra». 中文：为老人求购底层住房；不是求租，也不是在校附近。 |",
+    "ANS_L3_UNUSED": "B, D"
+  },
+  "key": {
+    "L3.1": "F",
+    "L3.2": "C",
+    "L3.3": "E",
+    "L3.4": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "affittasi",
+      "categoria": "formula di annuncio",
+      "zh": "出租",
+      "en": "for rent",
+      "esempio": "Affittasi in via dei Foraggi."
+    },
+    {
+      "parola": "mobili",
+      "categoria": "nome maschile plurale",
+      "zh": "家具",
+      "en": "furniture",
+      "esempio": "Senza mobili."
+    },
+    {
+      "parola": "ascensore",
+      "categoria": "nome maschile",
+      "zh": "电梯",
+      "en": "lift",
+      "esempio": "Senza ascensore."
+    },
+    {
+      "parola": "pianoterra",
+      "categoria": "nome maschile",
+      "zh": "底层；一楼",
+      "en": "ground floor",
+      "esempio": "Pianoterra."
+    }
+  ]
+}

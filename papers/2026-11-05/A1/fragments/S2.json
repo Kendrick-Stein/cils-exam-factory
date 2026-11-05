@@ -1,0 +1,46 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "In ufficio",
+    "S2_TEXT_WITH_GAPS": "Buongiorno. *(chiamarsi)* __Mi chiamo (0)__ Vincenzo e faccio l’impiegato. Ogni giorno *(arrivare)* __(1)__ in ufficio alle 9. *(accendere)* __(2)__ il computer e per prima cosa *(controllare)* __(3)__ se ci sono nuove e-mail. Purtroppo, a volte *(arrivare)* __(4)__ molto spam, quindi lo *(cancellare)* __(5)__. Poi vado a prendere un caffè con un collega e dopo *(partecipare)* __(6)__ alle riunioni con il capo. Per ogni riunione devo preparare dei documenti. Di solito, li *(stampare)* __(7)__, ma quando la stampante *(bloccarsi)* __(8)__, *(salvare)* __(9)__ i file sulla chiavetta USB e li *(stampare)* __(10)__ nell'altro ufficio."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | arrivo | presente | S2.6 | partecipo | presente |\n| S2.2 | Accendo | presente | S2.7 | stampo | presente |\n| S2.3 | controllo | presente | S2.8 | si blocca | presente |\n| S2.4 | arriva | presente | S2.9 | salvo | presente |\n| S2.5 | cancello | presente | S2.10 | stampo | presente |",
+    "ANS_S2_NOTES": "**S2.1.** 日常叙述的主语是io，arrivare现在时第一人称单数为arrivo。\n\n**S2.2.** accendere的主语仍是io，现在时为accendo；位于句首，写作Accendo。\n\n**S2.3.** controllare的主语是io，形式为controllo；后面的se ci sono nuove e-mail保留原文，不设空。\n\n**S2.4.** molto spam按单数处理，所以arrivare用arriva。\n\n**S2.5.** 主语是io，cancellare用cancello。lo是已有的宾语代词，不属于反身结构。\n\n**S2.6.** partecipare用第一人称单数partecipo，后接alle riunioni。\n\n**S2.7.** Di solito说明目前通常的做法；io加stampare得到stampo。\n\n**S2.8.** la stampante为单数；bloccarsi须连同代词写作si blocca。\n\n**S2.9.** 主语是io，salvare用salvo，表示打印机卡住时保存文件。\n\n**S2.10.** 主语仍是io，stampare用stampo，表示在另一个办公室打印文件；li是原有的宾语代词。\n\nOgni giorno、a volte、per ogni riunione和Di solito都属于原文。整段延续开头的当前日常介绍，没有加入过去时间线。原文的ci sono与devo均完整保留，不再作为填空考点。"
+  },
+  "key": {
+    "S2.1": "arrivo",
+    "S2.2": "Accendo",
+    "S2.3": "controllo",
+    "S2.4": "arriva",
+    "S2.5": "cancello",
+    "S2.6": "partecipo",
+    "S2.7": "stampo",
+    "S2.8": "si blocca",
+    "S2.9": "salvo",
+    "S2.10": "stampo"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "impiegato",
+      "categoria": "nome maschile",
+      "zh": "职员",
+      "en": "office worker",
+      "esempio": "Faccio l’impiegato."
+    },
+    {
+      "parola": "riunione",
+      "categoria": "nome femminile",
+      "zh": "会议",
+      "en": "meeting",
+      "esempio": "Per ogni riunione devo preparare dei documenti."
+    },
+    {
+      "parola": "stampare",
+      "categoria": "verbo",
+      "zh": "打印",
+      "en": "to print",
+      "esempio": "Di solito, li stampo."
+    }
+  ]
+}

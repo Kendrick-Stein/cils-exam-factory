@@ -1,0 +1,47 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "Muoversi in città",
+    "T1_TEXT": "Gli italiani amano le auto. Purtroppo in Italia la benzina è cara e parcheggiare in città è molto difficile. Spesso il traffico è intenso. Una buona soluzione è usare il motorino. È piccolo, comodo e abbastanza economico. Molte persone usano anche la bicicletta.\nCerto, è possibile usare anche i mezzi di trasporto pubblico. Una buona idea è usare la metro – è davvero veloce. Purtroppo solo alcune grandi città, come Roma, Milano e Napoli hanno la metropolitana. Tante altre hanno invece gli autobus, un mezzo di trasporto molto popolare. È possibile viaggiare anche in tram, ma solo in poche città. Purtroppo i mezzi pubblici spesso sono molto affollati.",
+    "L1_ITEMS": "**1.** **Per chi usa l’auto in città, è difficile...**  \nA. trovare un posto per parcheggiare.  \nB. trovare un posto sull’autobus.  \nC. trovare la fermata della metro.\n\n**2.** **Il motorino è...**  \nA. grande e poco economico.  \nB. piccolo e abbastanza economico.  \nC. comodo ma molto caro.\n\n**3.** **Il testo consiglia la metro perché...**  \nA. costa meno della bicicletta.  \nB. arriva anche nelle piccole città.  \nC. è un mezzo molto veloce.\n\n**4.** **Spesso, sui mezzi pubblici ci sono...**  \nA. poche persone.  \nB. molte persone.  \nC. posti liberi per tutti."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | A | «Parcheggiare in città è molto difficile». 中文：考的是开车后的停车困难，不是寻找公交座位或地铁站。 |\n| L1.2 | B | Il motorino è «piccolo, comodo e abbastanza economico». 中文：原文同时说明体积小、比较经济；A与C都改变了这些特点。 |\n| L1.3 | C | La metro «è davvero veloce». 中文：速度快是原文给出的理由；没有与自行车比价，也没有说小城市都有地铁。 |\n| L1.4 | B | I mezzi pubblici sono spesso «molto affollati». 中文：affollato表示人多、拥挤，不是人少或人人有空座。 |"
+  },
+  "key": {
+    "L1.1": "A",
+    "L1.2": "B",
+    "L1.3": "C",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "parcheggiare",
+      "categoria": "verbo",
+      "zh": "停车",
+      "en": "to park",
+      "esempio": "Parcheggiare in città è molto difficile."
+    },
+    {
+      "parola": "comodo",
+      "categoria": "aggettivo",
+      "zh": "方便的；舒适的",
+      "en": "convenient; comfortable",
+      "esempio": "È piccolo, comodo e abbastanza economico."
+    },
+    {
+      "parola": "veloce",
+      "categoria": "aggettivo",
+      "zh": "快的",
+      "en": "fast",
+      "esempio": "La metro è davvero veloce."
+    },
+    {
+      "parola": "affollato",
+      "categoria": "aggettivo",
+      "zh": "拥挤的",
+      "en": "crowded",
+      "esempio": "I mezzi pubblici spesso sono molto affollati."
+    }
+  ]
+}

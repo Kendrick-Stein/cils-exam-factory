@@ -1,0 +1,331 @@
+exam: cils
+level: A1
+session: '2026-11-05'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- slot: T1
+  used_in:
+  - L1
+  url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DwWe0jIzK
+  title: I mezzi di trasporto in città italiane
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Adriana Grzelak-Krzymianowska;
+    Tamara Roszak; Marta Sterna; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    Deleted final taxi sentence only; source Italian educational prose, not current
+    exhaustive transport census. Adapted excerpt remains CC BY-SA 3.0.
+  authors:
+  - Adriana Grzelak-Krzymianowska
+  - Tamara Roszak
+  - Marta Sterna
+  published: null
+  accessed: '2026-11-03'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  license_verified: true
+  license_evidence_url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DwWe0jIzK
+  license_scope: License attached to named educational prose/resource; not image license
+    or permission for upstream commercial originals.
+  status: accepted_for_authoring
+  words_used: 107
+  adapted: true
+  adaptation: Deleted final taxi sentence only; source Italian educational prose,
+    not current exhaustive transport census.
+  text_file: papers/2026-11-05/A1/source-texts/T1.txt
+  sha256: f6593234b4b9c50848c3dfdd4bd3bb1927cd89ca3b443ce93e24e2eef7a0a1eb
+  cefr: A1
+  usable_levels:
+  - A1
+  - A2
+  verified: '2026-11-05'
+  id: T1
+  level: A1
+- slot: T2
+  used_in:
+  - L2
+  url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DxHKWDST9
+  title: Un’e-mail agli alunni
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Adriana Grzelak-Krzymianowska;
+    Tamara Roszak; Marta Sterna; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    Removed interactive glossary duplicates; retained educational email in full.
+  authors:
+  - Adriana Grzelak-Krzymianowska
+  - Tamara Roszak
+  - Marta Sterna
+  published: null
+  accessed: '2026-11-03'
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_verified: true
+  license_evidence_url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DxHKWDST9
+  license_scope: License attached to named educational prose/resource; not image license
+    or permission for upstream commercial originals.
+  status: accepted_for_authoring
+  words_used: 117
+  adapted: true
+  adaptation: Removed interactive glossary duplicates; retained educational email
+    in full.
+  text_file: papers/2026-11-05/A1/source-texts/T2.txt
+  sha256: d8d966e0cdd28716ae633ccfc9a5a3b187953a5cf3d047f45555f4b71bba0f37
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  verified: '2026-11-05'
+  id: T2
+  level: A1
+- slot: T3
+  used_in:
+  - L3
+  url: https://zpe.gov.pl/a/mapa-interaktywna/D4o5N2Jsk
+  title: Vendesi e affittasi a Roma
+  publisher: 'Zintegrowana Platforma Edukacyjna (ZPE); Zespół autorski Politechniki
+    Łódzkiej i Uniwersytetu Łódzkiego; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    Retained original street headings; redacted contacts, simplified monolocale, normalized
+    punctuation. No images. For Nov5: arredato→con mobili, non ammobiliato→senza mobili,
+    bilocale→appartamento con due stanze; meaning unchanged. Original functional street
+    headings remain part of each microtext.'
+  authors:
+  - Zespół autorski Politechniki Łódzkiej i Uniwersytetu Łódzkiego
+  published: null
+  accessed: '2026-11-03'
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_verified: true
+  license_evidence_url: https://zpe.gov.pl/a/mapa-interaktywna/D4o5N2Jsk
+  license_scope: License attached to named educational prose/resource; not image license
+    or permission for upstream commercial originals.
+  status: accepted_for_authoring
+  words_used: 88
+  adapted: true
+  adaptation: 'Retained original street headings; redacted contacts, simplified monolocale,
+    normalized punctuation. No images. For Nov5: arredato→con mobili, non ammobiliato→senza
+    mobili, bilocale→appartamento con due stanze; meaning unchanged. Original functional
+    street headings remain part of each microtext.'
+  text_file: papers/2026-11-05/A1/source-texts/T3.txt
+  sha256: 9c71dfe440ca0096266a97097e0f2c79a8fd58bf29e28cdb8b05dd59e38b6637
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  verified: '2026-11-05'
+  id: T3
+  level: A1
+- slot: T4
+  used_in:
+  - S1
+  url: https://zpe.gov.pl/a/przeczytaj/posluchaj/D9TpzasKi
+  title: La camera di Anna
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Katarzyna Kowalik; CC BY-SA
+    3.0; https://creativecommons.org/licenses/by-sa/3.0/; Excerpted simple room description;
+    deleted celebrity detail and complex clauses, split one colon. Based on https://www.scandolamobili.it/consigli/cameretta-ragazzi.html
+    . Adapted excerpt remains CC BY-SA 3.0.
+  authors:
+  - Katarzyna Kowalik
+  published: null
+  accessed: '2026-11-03'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/
+  license_verified: true
+  license_evidence_url: https://zpe.gov.pl/a/przeczytaj/posluchaj/D9TpzasKi
+  license_scope: License attached to named educational prose/resource; not image license
+    or permission for upstream commercial originals.
+  status: accepted_for_authoring
+  words_used: 91
+  adapted: true
+  adaptation: Excerpted simple room description; deleted celebrity detail and complex
+    clauses, split one colon. Based on https://www.scandolamobili.it/consigli/cameretta-ragazzi.html
+    .
+  text_file: papers/2026-11-05/A1/source-texts/T4.txt
+  sha256: 1bb0fae99e7b7ced693de08c64fb462f46cba78d57314e41028b5597f2e4719f
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  verified: '2026-11-05'
+  id: T4
+  level: A1
+- slot: T5
+  used_in:
+  - S2
+  url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DcWaOQmka
+  title: In ufficio
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Damian Rogala; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    Excerpted daily office routine, no invented tense anchors; based on https://www.rikaformica.it/organizzare-il-lavoro-da-freelance/
+    .
+  authors:
+  - Damian Rogala
+  published: null
+  accessed: '2026-11-03'
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_verified: true
+  license_evidence_url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DcWaOQmka
+  license_scope: License attached to named educational prose/resource; not image license
+    or permission for upstream commercial originals.
+  status: accepted_for_authoring
+  words_used: 83
+  adapted: true
+  adaptation: Excerpted daily office routine, no invented tense anchors; based on
+    https://www.rikaformica.it/organizzare-il-lavoro-da-freelance/ .
+  text_file: papers/2026-11-05/A1/source-texts/T5.txt
+  sha256: 599c8689ebe89bae3b225a36b5515afd9fd0b9d4ec46238221a9bbf8cc1be454
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  verified: '2026-11-05'
+  id: T5
+  level: A1
+- slot: T6
+  used_in:
+  - S3
+  url: https://zpe.gov.pl/a/katalog-interaktywny/DvCC0KfGh
+  title: Artisti del palcoscenico e professioni creative
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Zespół autorski Politechniki
+    Łódzkiej i Uniwersytetu Łódzkiego; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    excerpted occupational descriptions with deletions only and normalized punctuation;
+    no images/audio/existing exercises copied.
+  authors:
+  - Zespół autorski Politechniki Łódzkiej i Uniwersytetu Łódzkiego
+  published: null
+  accessed: '2026-11-05'
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  license_verified: true
+  license_evidence_url: https://zpe.gov.pl/a/katalog-interaktywny/DvCC0KfGh
+  license_scope: Explicit CC BY 3.0 attached to the author-team interactive catalog,
+    including its accessible prose descriptions. Images/audio/existing exercise questions
+    excluded.
+  status: accepted_for_authoring
+  words_used: 91
+  adapted: true
+  adaptation: Nine catalog profession descriptions excerpted into short paragraphs.
+    Deleted longer clauses/lists, not replaced with invented facts. Normalized Cyrillic-like
+    ѐ to Italian è. No author-supplied questions reused.
+  text_file: papers/2026-11-05/A1/source-texts/T6.txt
+  sha256: af993c56eadd726980cfb635d6601c3210353d5326675f3ec9f8b07bc75a6190
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  id: T6
+  level: A1
+pipeline:
+  generator: native-cloud
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: scaffold
+    at: '2026-11-05'
+    result: done
+  - stage: corpus
+    at: '2026-11-05'
+    result: accepted_with_adaptation
+    note: A1 T6 licensed occupational definitions accepted with lexical caution; independent
+      full-paper S3 still required.
+  - stage: authoring
+    at: '2026-11-05'
+    result: pass
+    fragments: 9
+    objective_items: 44
+    note: Deterministic assembly of per-prova fragments; later single S2 repair recorded
+      separately.
+  - stage: format_audit
+    at: '2026-11-05T03:40:35+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-05T03:40:35+00:00'
+    result: fail
+    issues: 6
+  - stage: quality_audit
+    at: '2026-11-05T03:40:44+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-11-05T03:40:44+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-11-05T03:43:55+00:00'
+    agreement: 36/44
+    flags: 2
+    result: fail
+  - stage: blind_validation
+    at: '2026-11-05T03:44:18+00:00'
+    agreement: 44/44
+    flags: 2
+    result: fail
+  - stage: reconcile
+    at: '2026-11-05T03:45:00Z'
+    round: 1
+    fixed_items:
+    - S2.3
+    - S2.7
+    note: Fresh writer replaced ambiguous targets with accendere and final stampare,
+      renumbered entire S2. Original licensed source wording unchanged; fresh per-prova
+      blind review pending.
+  - stage: blind_validation
+    at: '2026-11-05T03:46:07+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-11-05T03:46:08+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-05T03:46:08+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-11-05T03:47:50+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-05T03:47:50+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-11-05T03:51:07+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-05T03:51:08+00:00'
+    result: pass
+    issues: 0
+  - stage: typeset
+    at: '2026-11-05T03:51:00Z'
+    result: pass
+    note: 'Presentation-only new-paper formatting: literal reading item labels, MC
+      line breaks, VF controls alongside statement, NBSP blank verb cells for handwriting
+      space, grouped oral blocks and glossary header. Exact question/template words,
+      counts, key, consegne and glossary rows preserved; shared renderer unchanged.'
+  - stage: build
+    at: '2026-11-05T03:51:09Z'
+    result: pass
+    pdf_engine: mupdf
+    paper_pages: 10
+    answers_pages: 9
+    historical_pdfs_checked: 194
+    historical_pdfs_changed: 0
+  - stage: visual_audit
+    at: '2026-11-05T03:53:04Z'
+    result: pass
+    pages_reviewed: 19
+    issues: 0
+    note: 'All final pages inspected: Italian and Chinese glyphs, tables, numbering,
+      writing space, completeness, clipping and pagination.'
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass

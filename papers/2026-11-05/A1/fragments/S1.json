@@ -1,0 +1,53 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "La camera di Anna",
+    "S1_TEXT_WITH_GAPS": "Ti presento __la (0)__ mia camera. __(1)__ pareti sono blu. Sopra __(2)__ letto ci sono tanti poster. C’è una grande finestra e un balcone. Sopra __(3)__ finestra c’è un grande lampadario. Fra __(4)__ letto e __(5)__ finestra c’è uno scaffale nero. Sullo scaffale ci sono __(6)__ miei dischi. Mi piace anche __(7)__ musica, canto e suono __(8)__ chitarra. Al centro c’è un piccolo tavolo bianco. Anche sulle due sedie dietro __(9)__ tavolo ci sono sempre tante cose. Sotto c’è un tappeto viola. Ti piace __(10)__ mia camera?"
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | le | S1.6 | i |\n| S1.2 | il | S1.7 | la |\n| S1.3 | la | S1.8 | la |\n| S1.4 | il | S1.9 | il |\n| S1.5 | la | S1.10 | la |",
+    "ANS_S1_NOTES": "**S1.1.** pareti为阴性复数，定冠词用le。\n\n**S1.2.** letto为普通辅音开头的阳性单数，定冠词用il。\n\n**S1.3.** finestra为阴性单数，定冠词用la。\n\n**S1.4.** 第二次出现的letto仍是阳性单数，用il。\n\n**S1.5.** finestra为阴性单数，用la。\n\n**S1.6.** miei dischi为阳性复数，m开头的miei前用i。\n\n**S1.7.** musica为阴性单数，泛指音乐时用la。\n\n**S1.8.** chitarra为阴性单数，乐器名称前用la。\n\n**S1.9.** tavolo为普通辅音开头的阳性单数，用il。\n\n**S1.10.** mia camera为阴性单数；camera不是亲属称谓，使用la。"
+  },
+  "key": {
+    "S1.1": "le",
+    "S1.2": "il",
+    "S1.3": "la",
+    "S1.4": "il",
+    "S1.5": "la",
+    "S1.6": "i",
+    "S1.7": "la",
+    "S1.8": "la",
+    "S1.9": "il",
+    "S1.10": "la"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "parete",
+      "categoria": "nome femminile",
+      "zh": "墙壁",
+      "en": "wall",
+      "esempio": "Le pareti sono blu."
+    },
+    {
+      "parola": "scaffale",
+      "categoria": "nome maschile",
+      "zh": "架子",
+      "en": "shelf",
+      "esempio": "Fra il letto e la finestra c’è uno scaffale nero."
+    },
+    {
+      "parola": "lampadario",
+      "categoria": "nome maschile",
+      "zh": "吊灯",
+      "en": "chandelier",
+      "esempio": "Sopra la finestra c’è un grande lampadario."
+    },
+    {
+      "parola": "tappeto",
+      "categoria": "nome maschile",
+      "zh": "地毯",
+      "en": "carpet",
+      "esempio": "Sotto c’è un tappeto viola."
+    }
+  ]
+}

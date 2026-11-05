@@ -1,0 +1,51 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "Una giornata in città",
+    "T2_TEXT": "Cari Ragazzi,\ncome sapete, questo venerdì tutta la nostra classe va in giro per la città. Il giro inizia di mattina, ci incontriamo alle 7:30 al parcheggio davanti alla scuola. Prendiamo l’autobus numero 98 e andiamo al centro storico. Dovete avere un biglietto di andata e ritorno, un po’ di soldi e una merendina. Prima andiamo al Museo nazionale alla mostra di Leonardo Da Vinci e più tardi in pizzeria a mangiare una pizza deliziosa. Dopo il pranzo andiamo al cinema. Il film finisce alle 17:00, quindi alle 17:30 prendiamo l’autobus per il ritorno. Alle 18:00 siamo di nuovo a scuola.\nMi raccomando, venite puntualmente!\nSaluti,\nLa vostra insegnante,\nMaria Ferrari",
+    "L2_ITEMS": "**1.** Il giro della classe è previsto per venerdì.  Vero ○ Falso ○\n\n**2.** Gli alunni si incontrano dentro la scuola.  Vero ○ Falso ○\n\n**3.** La classe va in centro in autobus.  Vero ○ Falso ○\n\n**4.** Gli alunni devono portare un biglietto di andata e ritorno.  Vero ○ Falso ○\n\n**5.** La classe visita il museo dopo pranzo.  Vero ○ Falso ○\n\n**6.** Gli alunni pranzano a scuola.  Vero ○ Falso ○\n\n**7.** Il film finisce alle 17:00.  Vero ○ Falso ○\n\n**8.** Alle 17:30 la classe è già di nuovo a scuola.  Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | La mail dice «questo venerdì». 中文：活动日期是星期五。 |\n| L2.2 | Falso | L’appuntamento è al parcheggio davanti alla scuola. 中文：集合地点在校门前的停车场，不在校内。 |\n| L2.3 | Vero | Prende l’autobus numero 98 per il centro storico. 中文：去市中心乘98路公交车。 |\n| L2.4 | Vero | L’insegnante richiede un biglietto di andata e ritorno. 中文：明确要求往返车票。 |\n| L2.5 | Falso | Prima va al museo, poi in pizzeria e dopo pranzo al cinema. 中文：博物馆在午餐前，不是午餐后。 |\n| L2.6 | Falso | Vanno in pizzeria a mangiare una pizza. 中文：午餐地点是披萨店，不是学校。 |\n| L2.7 | Vero | Il testo indica esattamente le 17:00. 中文：电影结束时间与题目一致。 |\n| L2.8 | Falso | Alle 17:30 prende il bus; torna a scuola alle 18:00. 中文：17点半才坐返程公交，18点回校。 |"
+  },
+  "key": {
+    "L2.1": "Vero",
+    "L2.2": "Falso",
+    "L2.3": "Vero",
+    "L2.4": "Vero",
+    "L2.5": "Falso",
+    "L2.6": "Falso",
+    "L2.7": "Vero",
+    "L2.8": "Falso"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "merendina",
+      "categoria": "nome femminile",
+      "zh": "小点心",
+      "en": "snack",
+      "esempio": "Dovete avere un biglietto di andata e ritorno, un po’ di soldi e una merendina."
+    },
+    {
+      "parola": "ritorno",
+      "categoria": "nome maschile",
+      "zh": "返程",
+      "en": "return",
+      "esempio": "Alle 17:30 prendiamo l’autobus per il ritorno."
+    },
+    {
+      "parola": "davanti",
+      "categoria": "avverbio",
+      "zh": "在前面",
+      "en": "in front",
+      "esempio": "Ci incontriamo alle 7:30 al parcheggio davanti alla scuola."
+    },
+    {
+      "parola": "puntualmente",
+      "categoria": "avverbio",
+      "zh": "准时地",
+      "en": "punctually",
+      "esempio": "Mi raccomando, venite puntualmente!"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi una persona della tua famiglia: come si chiama, che cosa fa e che cosa vi piace fare insieme.",
+    "W2_PROMPT": "Scrivi una breve e-mail a una scuola di italiano. Chiedi a che ora inizia il corso e quanto costa."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Mia sorella si chiama Elena e ha diciotto anni. Studia italiano e lavora in un bar. Nel tempo libero ci piace camminare in città e ascoltare la musica insieme.",
+    "MODEL_W1_PHRASES": "si chiama（名叫）；lavora in（在……工作）；nel tempo libero（在空闲时间）；ci piace（我们喜欢）",
+    "MODEL_W2": "Buongiorno, mi chiamo Luca e cerco un corso di italiano. A che ora inizia il vostro corso? Quanto costa? Grazie, Luca.",
+    "MODEL_W2_PHRASES": "mi chiamo（我叫）；cerco un corso（我想找一个课程）；a che ora inizia?（几点开始？）；quanto costa?（多少钱？）"
+  },
+  "key": {},
+  "glossario_candidates": []
+}

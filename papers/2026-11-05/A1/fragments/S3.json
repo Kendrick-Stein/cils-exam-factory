@@ -1,0 +1,47 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "Professioni artistiche",
+    "S3_TEXT_WITH_GAPS": "Gli __attori (0)__ recitano nei film, a teatro, in televisione oppure in pubblicità.\nI __(1)__ cantano durante concerti.\nI __(2)__ sono artisti molto sensibili alla musica. Sanno interpretare la musica con il proprio corpo.\nIl compito di un __(3)__ è far ridere la gente.\nL’__(4)__ diverte la gente con trucchi di magia.\nUn bravo __(5)__ sa dipingere tutto ciò che vede.\nLo __(6)__ usa marmo o legno per creare le sculture.\nIl __(7)__ scatta foto di persone, oggetti, luoghi, eventi.\nGli __(8)__ scrivono diversi tipi di libri e altri testi letterari.",
+    "S3_OPT0_A": "attori",
+    "S3_OPT0_B": "cuochi",
+    "S3_OPT0_C": "medici",
+    "S3_OPTION_ROWS": "| 1. | pittori | cantanti | medici |\n| 2. | ballerini | fotografi | scrittori |\n| 3. | cuoco | pittore | comico |\n| 4. | illusionista | impiegato | infermiere |\n| 5. | cantante | pittore | ballerino |\n| 6. | scrittore | scienziato | scultore |\n| 7. | cuoco | fotografo | ballerino |\n| 8. | scrittori | atleti | autisti |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B — cantanti | Il verbo «cantano» e il contesto «concerti» definiscono i cantanti. 中文：在演唱会上以唱歌为职业的是歌手。 |\n| S3.2 | A — ballerini | «Interpretare la musica con il proprio corpo» descrive i ballerini. 中文：用身体表现音乐对应舞蹈演员。 |\n| S3.3 | C — comico | Il compito indicato è «far ridere la gente». 中文：以逗人发笑为工作的是喜剧演员。 |\n| S3.4 | A — illusionista | L’attività caratteristica sono i «trucchi di magia». 中文：通过魔术表演娱乐观众的是魔术师。 |\n| S3.5 | B — pittore | «Dipingere» identifica il pittore. 中文：dipinge表示画画，对应画家，不是歌手或舞蹈演员。 |\n| S3.6 | C — scultore | Il professionista crea «sculture» con marmo o legno. 中文：用大理石或木材制作雕塑的是雕塑家。 |\n| S3.7 | B — fotografo | «Scatta foto» descrive il lavoro del fotografo. 中文：拍摄人物、物品和场景照片是摄影师的工作。 |\n| S3.8 | A — scrittori | Scrivere libri e testi letterari è l’attività degli scrittori. 中文：这里描述写书和文学作品的作家。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "A",
+    "S3.3": "C",
+    "S3.4": "A",
+    "S3.5": "B",
+    "S3.6": "C",
+    "S3.7": "B",
+    "S3.8": "A"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "cantante",
+      "categoria": "nome maschile/femminile",
+      "zh": "歌手",
+      "en": "singer",
+      "esempio": "I cantanti cantano durante concerti."
+    },
+    {
+      "parola": "fotografo",
+      "categoria": "nome maschile",
+      "zh": "摄影师",
+      "en": "photographer",
+      "esempio": "Il fotografo scatta foto di persone, oggetti, luoghi, eventi."
+    },
+    {
+      "parola": "scrittore",
+      "categoria": "nome maschile",
+      "zh": "作家",
+      "en": "writer",
+      "esempio": "Gli scrittori scrivono diversi tipi di libri e altri testi letterari."
+    }
+  ]
+}
