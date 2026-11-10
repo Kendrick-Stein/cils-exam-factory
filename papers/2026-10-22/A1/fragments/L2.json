@@ -1,0 +1,58 @@
+{
+  "prova": "L2",
+  "slots": {
+    "T2_TITLE": "LA BIBLIOTECA DELLA SCUOLA",
+    "T2_TEXT": "Gli studenti, gli insegnanti e il personale della scuola possono usare la biblioteca. L'ingresso è libero e gratuito.\n\nQuando la biblioteca è aperta, gli studenti possono prendere o riportare i libri. Quando è chiusa, gli studenti non possono entrare da soli.\n\nIn biblioteca non si può mangiare o bere. Non si può scrivere sui tavoli o fare danni. Per prendere i libri dagli scaffali, serve il permesso del bibliotecario o del suo aiutante.\n\nSi può prendere un solo libro alla volta per leggere a casa. Di solito il prestito dura venti giorni. È possibile chiedere altri giorni di prestito. I libri si riportano quando la biblioteca è aperta.",
+    "L2_ITEMS": "1. Anche gli insegnanti possono usare la biblioteca. Vero ○ Falso ○\n\n2. Per entrare in biblioteca bisogna pagare. Vero ○ Falso ○\n\n3. Gli studenti possono entrare da soli quando la biblioteca è chiusa. Vero ○ Falso ○\n\n4. In biblioteca si può bere. Vero ○ Falso ○\n\n5. Per prendere i libri dagli scaffali serve un permesso. Vero ○ Falso ○\n\n6. Si possono prendere due libri alla volta. Vero ○ Falso ○\n\n7. Di solito si può tenere il libro per venti giorni. Vero ○ Falso ○\n\n8. È possibile chiedere più giorni di prestito. Vero ○ Falso ○"
+  },
+  "answer_slots": {
+    "ANS_L2_ROWS": "| L2.1 | Vero | Il testo include «gli insegnanti». 中文：使用者包括教师，不只是学生。 |\n| L2.2 | Falso | L'ingresso è «libero e gratuito». 中文：进入图书馆免费，不需要付钱。 |\n| L2.3 | Falso | Quando è chiusa, gli studenti «non possono entrare da soli». 中文：闭馆时，学生不能独自进入。 |\n| L2.4 | Falso | Il testo dice «non si può mangiare o bere». 中文：图书馆内不允许饮食。 |\n| L2.5 | Vero | Per prendere i libri dagli scaffali «serve il permesso del bibliotecario o del suo aiutante». 中文：从书架取书需要管理员或其助手的许可。 |\n| L2.6 | Falso | Si può prendere «un solo libro alla volta». 中文：每次只能借一本，不是两本。 |\n| L2.7 | Vero | Di solito «il prestito dura venti giorni». 中文：通常借阅期限为二十天。 |\n| L2.8 | Vero | Il testo dice «È possibile chiedere altri giorni di prestito». 中文：可以申请延长借阅时间。 |"
+  },
+  "key": {
+    "L2.1": "V || Vero",
+    "L2.2": "F || Falso",
+    "L2.3": "F || Falso",
+    "L2.4": "F || Falso",
+    "L2.5": "V || Vero",
+    "L2.6": "F || Falso",
+    "L2.7": "V || Vero",
+    "L2.8": "V || Vero"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "biblioteca",
+      "categoria": "nome femminile",
+      "zh": "图书馆",
+      "en": "library",
+      "esempio": "In biblioteca non si può mangiare o bere."
+    },
+    {
+      "parola": "gratuito",
+      "categoria": "aggettivo",
+      "zh": "免费的",
+      "en": "free of charge",
+      "esempio": "L'ingresso è libero e gratuito."
+    },
+    {
+      "parola": "scaffali",
+      "categoria": "nome maschile plurale",
+      "zh": "书架；架子",
+      "en": "shelves",
+      "esempio": "Per prendere i libri dagli scaffali, serve il permesso del bibliotecario o del suo aiutante."
+    },
+    {
+      "parola": "permesso",
+      "categoria": "nome maschile",
+      "zh": "许可",
+      "en": "permission",
+      "esempio": "Per prendere i libri dagli scaffali, serve il permesso del bibliotecario o del suo aiutante."
+    },
+    {
+      "parola": "prestito",
+      "categoria": "nome maschile",
+      "zh": "借阅",
+      "en": "loan",
+      "esempio": "Di solito il prestito dura venti giorni."
+    }
+  ]
+}

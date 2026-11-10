@@ -1,0 +1,47 @@
+{
+  "prova": "L1",
+  "slots": {
+    "T1_TITLE": "LA BIBLIOTECA DI TAVIANO",
+    "T1_TEXT": "La biblioteca di Taviano si trova nel Palazzo Marchesale, in Piazza del Popolo. Offre una sala per leggere e una sala per studiare. Ci sono quarantacinque posti per la lettura e tre postazioni Internet. Per i bambini piccoli ci sono sette posti. La biblioteca organizza attività per bambini e ragazzi e visite guidate. Qui puoi trovare anche riviste, giornali e materiali multimediali.\n\nSono disponibili anche materiali da ascoltare e da vedere. In biblioteca c’è inoltre un servizio di fotocopie. La biblioteca è aperta il lunedì mattina, dalle otto e trenta alle tredici. Dal martedì al venerdì apre anche nel pomeriggio, dalle sedici e trenta alle diciannove e trenta.",
+    "L1_ITEMS": "**1. La biblioteca si trova**<br />\nA. vicino alla stazione.\nB. in Piazza del Popolo.\nC. dentro una scuola.\n\n**2. Per i bambini piccoli ci sono**<br />\nA. tre posti per leggere.\nB. quarantacinque posti per leggere.\nC. sette posti per leggere.\n\n**3. In biblioteca puoi anche**<br />\nA. leggere riviste e giornali.\nB. comprare giornali nuovi.\nC. seguire un corso di cucina.\n\n**4. Il lunedì la biblioteca è aperta**<br />\nA. solo nel pomeriggio.\nB. solo nella mattina.\nC. mattina e pomeriggio."
+  },
+  "answer_slots": {
+    "ANS_L1_ROWS": "| L1.1 | B | 地点是Piazza del Popolo。 |\n| L1.2 | C | 儿童阅读位置是7个，网络工作位才是3个。 |\n| L1.3 | A | 原文列有可阅读的杂志和报纸，没有售卖或烹饪课程信息。 |\n| L1.4 | B | 周一只列上午开放，周二到周五另有下午时间。 |"
+  },
+  "key": {
+    "L1.1": "B",
+    "L1.2": "C",
+    "L1.3": "A",
+    "L1.4": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "sala",
+      "categoria": "nome femminile",
+      "zh": "房间、大厅",
+      "en": "room",
+      "esempio": "una sala per leggere"
+    },
+    {
+      "parola": "pomeriggio",
+      "categoria": "nome maschile",
+      "zh": "下午",
+      "en": "afternoon",
+      "esempio": "apre anche nel pomeriggio"
+    },
+    {
+      "parola": "giornali",
+      "categoria": "nome maschile plurale",
+      "zh": "报纸",
+      "en": "newspapers",
+      "esempio": "riviste, giornali e materiali multimediali"
+    },
+    {
+      "parola": "fotocopie",
+      "categoria": "nome femminile plurale",
+      "zh": "复印件",
+      "en": "photocopies",
+      "esempio": "un servizio di fotocopie"
+    }
+  ]
+}

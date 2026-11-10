@@ -1,0 +1,53 @@
+{
+  "prova": "S1",
+  "slots": {
+    "T4_TITLE": "LA SCUOLA CAVOUR",
+    "S1_TEXT_WITH_GAPS": "__La (0)__ scuola Cavour si trova a Modena, in via Amundsen 80. Qui ci sono __(1)__ segreteria e __(2)__ presidenza dell’istituto. __(3)__ spazi comuni sono grandi e luminosi. __(4)__ atrio, __(5)__ teatro e __(6)__ palestra sono molto ampi. Anche __(7)__ aule sono luminose. In ogni aula c’è una lavagna digitale o un computer con un videoproiettore. __(8)__ lezioni sono dal lunedì al venerdì, dalle otto alle quattordici. Fuori c’è __(9)__ giardino: qui __(10)__ alunni possono fare sport e la ricreazione. L’orario della scuola comprende trenta ore di lezione ogni settimana."
+  },
+  "answer_slots": {
+    "ANS_S1_ROWS": "| S1.1 | la | S1.6 | la |\n| S1.2 | la | S1.7 | le |\n| S1.3 | gli | S1.8 | le |\n| S1.4 | l' | S1.9 | il |\n| S1.5 | il | S1.10 | gli |",
+    "ANS_S1_NOTES": "**S1.1.** segreteria为阴性单数，用la。\n\n**S1.2.** presidenza为阴性单数，用la。\n\n**S1.3.** spazi为阳性复数且以s+辅音开头，用gli。\n\n**S1.4.** atrio以元音开头，单数定冠词省音为l’。\n\n**S1.5.** teatro为阳性单数，用il。\n\n**S1.6.** palestra为阴性单数，用la。\n\n**S1.7.** aule为阴性复数，用le。\n\n**S1.8.** lezioni为阴性复数，用le。\n\n**S1.9.** giardino为阳性单数，用il。\n\n**S1.10.** alunni为阳性复数且元音开头，用gli。"
+  },
+  "key": {
+    "S1.1": "la",
+    "S1.2": "la",
+    "S1.3": "gli",
+    "S1.4": "l'",
+    "S1.5": "il",
+    "S1.6": "la",
+    "S1.7": "le",
+    "S1.8": "le",
+    "S1.9": "il",
+    "S1.10": "gli"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "aule",
+      "categoria": "nome femminile plurale",
+      "zh": "教室",
+      "en": "classrooms",
+      "esempio": "le aule sono luminose"
+    },
+    {
+      "parola": "luminose",
+      "categoria": "aggettivo",
+      "zh": "明亮的",
+      "en": "bright",
+      "esempio": "le aule sono luminose"
+    },
+    {
+      "parola": "giardino",
+      "categoria": "nome maschile",
+      "zh": "花园",
+      "en": "garden",
+      "esempio": "Fuori c’è il giardino"
+    },
+    {
+      "parola": "ricreazione",
+      "categoria": "nome femminile",
+      "zh": "课间休息",
+      "en": "break",
+      "esempio": "gli alunni fanno sport e la ricreazione"
+    }
+  ]
+}

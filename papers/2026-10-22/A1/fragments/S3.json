@@ -1,0 +1,61 @@
+{
+  "prova": "S3",
+  "slots": {
+    "T6_TITLE": "LA SCUOLA SANDRO PERTINI — ANNO SCOLASTICO 2024/2025",
+    "S3_TEXT_WITH_GAPS": "La __scuola (0)__ primaria Sandro Pertini di Bollengo ha cinque gruppi di alunni, cioè cinque __(1)__. Le lezioni si svolgono dalle 8.30 alle 16.30, dal lunedì al venerdì: quaranta __(2)__ alla settimana. Nella __(3)__ si trovano __(4)__ da leggere e materiali per ragazzi e insegnanti. Le classi mangiano in due sale da __(5)__ della mensa. I cibi sono __(6)__ sul posto dal personale del Comune. Il pre-scuola comincia alle 7.00 di __(7)__, nella sala mensa; il post-scuola si svolge nella scuola primaria dalle 16.30 alle 18.30: __(8)__ alle 18.30.",
+    "S3_OPT0_A": "scuola",
+    "S3_OPT0_B": "banca",
+    "S3_OPT0_C": "stazione",
+    "S3_OPTION_ROWS": "| 1. | libri. | classi. | orologi. |\n| 2. | anni. | mesi. | ore. |\n| 3. | biblioteca. | mensa. | palestra. |\n| 4. | piatti. | tavoli. | libri. |\n| 5. | gioco. | pranzo. | lettura. |\n| 6. | cucinati. | letti. | ascoltati. |\n| 7. | sera. | pomeriggio. | mattina. |\n| 8. | inizia. | finisce. | apre. |"
+  },
+  "answer_slots": {
+    "ANS_S3_ROWS": "| S3.1 | B | «Cinque gruppi di alunni» indica le classi della scuola. 中文：这里说的是五个学生班级，不是书本或钟表。 |\n| S3.2 | C | «Dalle 8.30 alle 16.30, dal lunedì al venerdì» indica quaranta ore alla settimana. 中文：印出的时间段合计每周四十小时，不能填月份或年份。 |\n| S3.3 | A | «Da leggere» e «materiali per ragazzi e insegnanti» descrivono la biblioteca. 中文：读书和学习材料对应图书馆，不是食堂或体育馆。 |\n| S3.4 | C | «Da leggere» richiede libri, non piatti o tavoli. 中文：可以阅读的是书本；盘子和桌子不符合阅读这一动作。 |\n| S3.5 | B | «Mangiano» e «della mensa» indicano le sale da pranzo. 中文：食堂里用来吃饭的是餐厅，不是游戏室或阅览室。 |\n| S3.6 | A | «I cibi» e «sul posto dal personale del Comune» richiedono cucinati. 中文：这里说明食物由市政工作人员在现场烹饪，不是阅读或聆听。 |\n| S3.7 | C | «Alle 7.00» indica la mattina. 中文：按文中的二十四小时制，7.00 是早上，不是下午或晚上。 |\n| S3.8 | B | «Dalle 16.30 alle 18.30» indica che il post-scuola finisce alle 18.30; non inizia e non apre a quell’ora. 中文：课后托管的时间是16:30至18:30，因此18:30是结束时间，不是开始或开放时间。 |"
+  },
+  "key": {
+    "S3.1": "B",
+    "S3.2": "C",
+    "S3.3": "A",
+    "S3.4": "C",
+    "S3.5": "B",
+    "S3.6": "A",
+    "S3.7": "C",
+    "S3.8": "B"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "alunni",
+      "categoria": "nome maschile plurale",
+      "zh": "小学生；学生",
+      "en": "pupils",
+      "esempio": "La scuola primaria Sandro Pertini di Bollengo ha cinque gruppi di alunni, cioè cinque classi."
+    },
+    {
+      "parola": "biblioteca",
+      "categoria": "nome femminile",
+      "zh": "图书馆",
+      "en": "library",
+      "esempio": "Nella biblioteca si trovano libri da leggere e materiali per ragazzi e insegnanti."
+    },
+    {
+      "parola": "insegnanti",
+      "categoria": "nome plurale",
+      "zh": "教师",
+      "en": "teachers",
+      "esempio": "Nella biblioteca si trovano libri da leggere e materiali per ragazzi e insegnanti."
+    },
+    {
+      "parola": "mensa",
+      "categoria": "nome femminile",
+      "zh": "食堂",
+      "en": "canteen",
+      "esempio": "Le classi mangiano in due sale da pranzo della mensa."
+    },
+    {
+      "parola": "cucinati",
+      "categoria": "participio passato, maschile plurale",
+      "zh": "烹饪好的",
+      "en": "cooked",
+      "esempio": "I cibi sono cucinati sul posto dal personale del Comune."
+    }
+  ]
+}

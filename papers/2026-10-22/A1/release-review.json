@@ -1,0 +1,27 @@
+{
+  "session": "2026-10-22",
+  "level": "A1",
+  "reviewed_on": "2026-11-10",
+  "independent_blind_validation": {
+    "agreement": "44/44",
+    "flags": 0,
+    "mismatches": 0
+  },
+  "repair_rounds_used": 1,
+  "format_audit": "pass",
+  "quality_audit": "pass",
+  "pdf_pages": {
+    "paper": 10,
+    "answers": 8
+  },
+  "pdf_visual_review": "pass",
+  "historical_pdf_integrity": {
+    "checked": 196,
+    "changed": 0
+  },
+  "layout_change": "Widened answer lines for multiword uppercase verb answers. Objective text and keys unchanged.",
+  "pdf_sha256": {
+    "paper": "a372b62d115ec036dae0e5254b8d4c81e2072e50d2e89e89db76f440aa51f233",
+    "answers": "ec4c0f5f29351e58c750fdd6e011b8152f620f50932f7e2c6ef7abf95b2691f1"
+  }
+}

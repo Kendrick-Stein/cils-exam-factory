@@ -1,7 +1,7 @@
 generated_by: scripts/build_used_index.py
 note: Derived from every papers/<session>/<LEVEL>/manifest.yaml sources block. Do
   not edit by hand — regenerate.
-unique_sources: 588
+unique_sources: 600
 sources:
 - url: https://blog.giallozafferano.it/semplicibonta/bruschetta-al-pomodoro-fresco/
   title: Bruschetta al pomodoro fresco
@@ -7626,4 +7626,173 @@ sources:
     level: A2
     prova: L1
     words: 203
+    status: published
+- url: https://icalbanocecchina.edu.it/la-scuola/le-carte/84-regolamento-biblioteca-scolastica
+  title: Regolamento Biblioteca Scolastica
+  publisher: Istituto Comprensivo Albano - Loc. Cecchina; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  genre: off-whitelist
+  first_used: '2026-10-22'
+  times_used: 1
+  uses:
+  - date: '2026-10-22'
+    level: A1
+    prova: L2
+    words: 108
+    status: published
+- url: https://www.comune.taviano.le.it/Vivere-il-comune/Luoghi/Biblioteca-Comunale-M.-Abatelillo
+  title: Biblioteca Comunale M. Abatelillo
+  publisher: Comune di Taviano; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  genre: off-whitelist
+  first_used: '2026-10-22'
+  times_used: 1
+  uses:
+  - date: '2026-10-22'
+    level: A1
+    prova: L1
+    words: 109
+    status: published
+- url: https://www.comune.trento.it/Novita/Comunicati/Biblioteca-comunale-gli-eventi-della-settimana
+  title: 'Biblioteca comunale: programma di maggio'
+  publisher: Comune di Trento, Biblioteca e archivio storico; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  genre: off-whitelist
+  first_used: '2026-10-22'
+  times_used: 1
+  uses:
+  - date: '2026-10-22'
+    level: A1
+    prova: L3
+    words: 120
+    status: published
+- url: https://www.ic1modena.edu.it/struttura/scuola-secondaria-di-i-grado-cavour/
+  title: La scuola Cavour
+  publisher: Istituto Comprensivo1 Modena; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  genre: off-whitelist
+  first_used: '2026-10-22'
+  times_used: 1
+  uses:
+  - date: '2026-10-22'
+    level: A1
+    prova: S1
+    words: 94
+    status: published
+- url: https://www.icazeglio.edu.it/struttura/istituto-comprensivo/so-p-bollengo/
+  title: Orari e servizi della scuola di Bollengo
+  publisher: Istituto Comprensivo di Azeglio; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  genre: off-whitelist
+  first_used: '2026-10-22'
+  times_used: 1
+  uses:
+  - date: '2026-10-22'
+    level: A1
+    prova: S3
+    words: 97
+    status: published
+- url: https://www.icrudiano.edu.it/uraghesi-a-cerveno/
+  title: Uraghesi a Cerveno
+  publisher: Istituto Comprensivo M. A. Chiecca, Rudiano; Alunni delle classi prime
+    di Urago d’Oglio; institutional byline Personale scolastico; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  genre: off-whitelist
+  first_used: '2026-10-22'
+  times_used: 1
+  uses:
+  - date: '2026-10-22'
+    level: A1
+    prova: S2
+    words: 84
+    status: published
+- url: https://zpe.gov.pl/a/katalog-interaktywny/DvCC0KfGh
+  title: Artisti del palcoscenico e professioni creative
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Zespół autorski Politechniki
+    Łódzkiej i Uniwersytetu Łódzkiego; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    excerpted occupational descriptions with deletions only and normalized punctuation;
+    no images/audio/existing exercises copied.
+  genre: off-whitelist
+  first_used: '2026-11-05'
+  times_used: 1
+  uses:
+  - date: '2026-11-05'
+    level: A1
+    prova: S3
+    words: 91
+    status: published
+- url: https://zpe.gov.pl/a/mapa-interaktywna/D4o5N2Jsk
+  title: Vendesi e affittasi a Roma
+  publisher: 'Zintegrowana Platforma Edukacyjna (ZPE); Zespół autorski Politechniki
+    Łódzkiej i Uniwersytetu Łódzkiego; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    Retained original street headings; redacted contacts, simplified monolocale, normalized
+    punctuation. No images. For Nov5: arredato→con mobili, non ammobiliato→senza mobili,
+    bilocale→appartamento con due stanze; meaning unchanged. Original functional street
+    headings remain part of each microtext.'
+  genre: off-whitelist
+  first_used: '2026-11-05'
+  times_used: 1
+  uses:
+  - date: '2026-11-05'
+    level: A1
+    prova: L3
+    words: 88
+    status: published
+- url: https://zpe.gov.pl/a/przeczytaj/posluchaj/D9TpzasKi
+  title: La camera di Anna
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Katarzyna Kowalik; CC BY-SA
+    3.0; https://creativecommons.org/licenses/by-sa/3.0/; Excerpted simple room description;
+    deleted celebrity detail and complex clauses, split one colon. Based on https://www.scandolamobili.it/consigli/cameretta-ragazzi.html
+    . Adapted excerpt remains CC BY-SA 3.0.
+  genre: off-whitelist
+  first_used: '2026-11-05'
+  times_used: 1
+  uses:
+  - date: '2026-11-05'
+    level: A1
+    prova: S1
+    words: 91
+    status: published
+- url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DcWaOQmka
+  title: In ufficio
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Damian Rogala; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    Excerpted daily office routine, no invented tense anchors; based on https://www.rikaformica.it/organizzare-il-lavoro-da-freelance/
+    .
+  genre: off-whitelist
+  first_used: '2026-11-05'
+  times_used: 1
+  uses:
+  - date: '2026-11-05'
+    level: A1
+    prova: S2
+    words: 83
+    status: published
+- url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DwWe0jIzK
+  title: I mezzi di trasporto in città italiane
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Adriana Grzelak-Krzymianowska;
+    Tamara Roszak; Marta Sterna; CC BY-SA 3.0; https://creativecommons.org/licenses/by-sa/3.0/;
+    Deleted final taxi sentence only; source Italian educational prose, not current
+    exhaustive transport census. Adapted excerpt remains CC BY-SA 3.0.
+  genre: off-whitelist
+  first_used: '2026-11-05'
+  times_used: 1
+  uses:
+  - date: '2026-11-05'
+    level: A1
+    prova: L1
+    words: 107
+    status: published
+- url: https://zpe.gov.pl/a/przeczytaj/posluchaj/DxHKWDST9
+  title: Un’e-mail agli alunni
+  publisher: Zintegrowana Platforma Edukacyjna (ZPE); Adriana Grzelak-Krzymianowska;
+    Tamara Roszak; Marta Sterna; CC BY 3.0; https://creativecommons.org/licenses/by/3.0/;
+    Removed interactive glossary duplicates; retained educational email in full.
+  genre: off-whitelist
+  first_used: '2026-11-05'
+  times_used: 1
+  uses:
+  - date: '2026-11-05'
+    level: A1
+    prova: L2
+    words: 117
     status: published

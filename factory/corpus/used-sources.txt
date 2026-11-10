@@ -75,6 +75,7 @@ https://diariodiavventure.com/da-marciac-a-maubourguet/
 https://direzionemuseiroma.cultura.gov.it/domenicalmuseo-5-luglio/
 https://educazione.comune.fi.it/dalle-redazioni/centri-estivi-2026
 https://eventi.comune.torino.it/estate-2026/
+https://icalbanocecchina.edu.it/la-scuola/le-carte/84-regolamento-biblioteca-scolastica
 https://it.wikinews.org/wiki/Carnevale_alcamese_2020:_grande_successo_di_pubblico
 https://it.wikinews.org/wiki/Intervista_a_Daniela_Persico
 https://it.wikinews.org/wiki/Intervista_a_Giovanni_De_Mauro:_la_lettura_innovativa_di_Internazionale
@@ -315,6 +316,7 @@ https://www.comune.roma.it/web/it/notizia/nuovo-sistema-tariffario-musei-monumen
 https://www.comune.roma.it/web/it/notizia/ztl-veicoli-elettrici-idrogeno-accesso-luglio-2026.page
 https://www.comune.sandonatomilanese.mi.it/novita/comunicati/orti-urbani-al-via-le-domande-per-lassegnazione
 https://www.comune.siena.it/novita/bando-contributo-affitto-2026
+https://www.comune.taviano.le.it/Vivere-il-comune/Luoghi/Biblioteca-Comunale-M.-Abatelillo
 https://www.comune.torino.it/media/11395
 https://www.comune.torino.it/novita/avvisi/aperture-straordinarie-per-rilascio-carte-didentita
 https://www.comune.torino.it/novita/avvisi/avviso-per-presentazione-progetti-per-promozione-sostegno-alle-reti-solidarieta
@@ -333,6 +335,7 @@ https://www.comune.torino.it/vivere-comune/luoghi/casa-della-cultura
 https://www.comune.torino.it/vivere-comune/luoghi/mercato-repubblicaporta-palazzo
 https://www.comune.torino.it/vivere-comune/luoghi/parco-ruffini
 https://www.comune.torino.it/vivere-comune/luoghi/parco-valentino-0
+https://www.comune.trento.it/Novita/Comunicati/Biblioteca-comunale-gli-eventi-della-settimana
 https://www.comune.trento.it/Novita/Notizie/Biblioteca-dal-10-giugno-2026-in-vigore-l-orario-estivo-in-tutte-le-sedi
 https://www.comune.udine.it/Novita/Comunicati/La-nuova-app-per-avere-tutte-le-informazioni-sulla-raccolta-differenziata-a-portata-di-mano
 https://www.comune.venezia.it/es/node/71532
@@ -402,7 +405,10 @@ https://www.gamberorosso.it/notizie/vino/giulia-monteleone-vinodonna-dimostrare-
 https://www.gamberorosso.it/notizie/vino/rapporto-ristorazione-fipe-2026-consumi-vino-intervista-stoppani/
 https://www.gamberorosso.it/notizie/vino/vinitaly-2026-migliori-vini-degustati-10-etichette/
 https://www.gbviaggi.it/blog/diari-di-viaggio/cosa-vedere-a-pisa-in-un-giorno
+https://www.ic1modena.edu.it/struttura/scuola-secondaria-di-i-grado-cavour/
+https://www.icazeglio.edu.it/struttura/istituto-comprensivo/so-p-bollengo/
 https://www.iclavagna.edu.it/pagine/nuestro-viaje-a-espaa---il-nostro-viaggio-in-spagna
+https://www.icrudiano.edu.it/uraghesi-a-cerveno/
 https://www.ilmiodiariodiviaggio.it/303-roma-toccata-fuga.htm
 https://www.ilpost.it/2022/08/14/gelati-pericolosi/
 https://www.ilpost.it/2023/08/31/cinghiali-radioattivi/
@@ -588,3 +594,9 @@ https://www.wired.it/article/un-nuovo-modello-matematico-ipotizza-che-la-popolaz
 https://www2.comune.milano.it/web/casadellamemoria/sala-studio-giovanni-pirelli
 https://www2.comune.milano.it/web/museo-archeologico-milano/-/campus-2026-un-estate...mitica?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_viewSingleAsset=true&redirect=%2Fweb%2Fmuseo-archeologico-milano%2Fmostre_eventi%2Fdettaglio-evento%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_cur%3D1%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_delta%3D20%26p_r_p_resetCur%3Dfalse%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_2XoHRjMUIbV2_assetEntryId%3D343916709
 https://youth.europa.eu/discovereu/rules_it
+https://zpe.gov.pl/a/katalog-interaktywny/DvCC0KfGh
+https://zpe.gov.pl/a/mapa-interaktywna/D4o5N2Jsk
+https://zpe.gov.pl/a/przeczytaj/posluchaj/D9TpzasKi
+https://zpe.gov.pl/a/przeczytaj/posluchaj/DcWaOQmka
+https://zpe.gov.pl/a/przeczytaj/posluchaj/DwWe0jIzK
+https://zpe.gov.pl/a/przeczytaj/posluchaj/DxHKWDST9

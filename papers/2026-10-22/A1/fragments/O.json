@@ -1,0 +1,14 @@
+{
+  "prova": "O",
+  "slots": {
+    "O1_DOMANDE": "**1. Come ti chiami e dove abiti?**<br />\n**2. Con chi abiti?**<br />\n**3. A che ora fai colazione?**<br />\n**4. Come vai a scuola o al lavoro?**<br />\n**5. Che cosa fai nel tempo libero?**<br />\n**6. Quale cibo ti piace preparare?**",
+    "O2_ARGOMENTI": "**1. Descrivi una stanza della tua casa.**\n\n**2. Parla della tua domenica.**"
+  },
+  "answer_slots": {
+    "MODEL_O1": "**1.**\nEsaminatore: Come ti chiami e dove abiti?\nCandidato: Mi chiamo Anna. Abito a Torino, vicino a un parco.\n\n**2.**\nEsaminatore: Con chi abiti?\nCandidato: Abito con mia sorella. La nostra casa è piccola, ma comoda.\n\n**3.**\nEsaminatore: A che ora fai colazione?\nCandidato: Faccio colazione alle sette. Bevo un tè e mangio del pane.\n\n**4.**\nEsaminatore: Come vai a scuola o al lavoro?\nCandidato: Vado al lavoro in autobus. La fermata è davanti a casa.\n\n**5.**\nEsaminatore: Che cosa fai nel tempo libero?\nCandidato: Leggo libri e ascolto musica. Il sabato incontro i miei amici.\n\n**6.**\nEsaminatore: Quale cibo ti piace preparare?\nCandidato: Mi piace preparare la pasta. Cucino spesso con mia sorella.",
+    "MODEL_O1_PHRASES": "abito con（我和……住）; alle sette（在七点）; in autobus（乘公交车）; nel tempo libero（空闲时）",
+    "MODEL_O2": "**Argomento n. 1 — Una stanza della mia casa**\n\nLa mia camera è piccola e luminosa. Vicino alla finestra c’è una scrivania. Sulla scrivania ci sono due libri e una lampada. Il letto è davanti alla porta. Ho anche un armadio per i vestiti. Mi piace questa stanza perché è tranquilla. Qui leggo, ascolto musica e studio italiano ogni sera.\n\n**Argomento n. 2 — La mia domenica**\n\nLa domenica mi alzo alle nove e faccio colazione con la mia famiglia. Poi vado al mercato a piedi. Compro frutta e verdura per il pranzo. Nel pomeriggio incontro un’amica al parco. Parliamo e camminiamo insieme. La sera resto a casa. Preparo la cena, guardo un film e vado a letto presto.",
+    "MODEL_O2_PHRASES": "vicino alla finestra（在窗边）; c’è / ci sono（有）; ogni sera（每天晚上）; a piedi（步行）"
+  },
+  "key": {}
+}

@@ -1,0 +1,397 @@
+exam: cils
+level: A1
+session: '2026-10-22'
+title: CILS A1 (adulti) · Esercitazione
+status: published
+sources:
+- id: T1
+  slot: T1
+  level: A1
+  used_in:
+  - L1
+  url: https://www.comune.taviano.le.it/Vivere-il-comune/Luoghi/Biblioteca-Comunale-M.-Abatelillo
+  title: Biblioteca Comunale M. Abatelillo
+  publisher: Comune di Taviano; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  authors:
+  - Comune di Taviano
+  published: null
+  accessed: '2026-10-22'
+  genre: public_notice
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words_used: 109
+  adapted: true
+  source_section: A2 for concrete facility list and timetable, B1 for formal loan-rule
+    clauses; EXCLUDE loan rules from A1 excerpt
+  adaptation_notes: Concrete facilities and timetable only; formal loan rules excluded.
+    Lists simplified to short clauses; no dates invented.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence_url: https://www.comune.taviano.le.it/Note-legali
+  license_evidence: Official source-specific article footer or legal notice covers
+    attributed adaptation and republication. Independently checked on 2026-10-22.
+    Only institution-authored text used; third-party quotations, photographs and logos
+    excluded.
+  dedup_checked: Canonical URL checked against existing repository manifests and used-source
+    registry; no prior use found.
+  cefr_evidence: Selected concrete excerpt assessed A2 independently; adaptation to
+    A1 is at most one level. This does not grade the full source page.
+  word_count_basis: Restored adapted source passage, excluding cloze helper labels
+    and gap numbers.
+- id: T2
+  slot: T2
+  level: A1
+  used_in:
+  - L2
+  url: https://icalbanocecchina.edu.it/la-scuola/le-carte/84-regolamento-biblioteca-scolastica
+  title: Regolamento Biblioteca Scolastica
+  publisher: Istituto Comprensivo Albano - Loc. Cecchina; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  authors:
+  - Istituto Comprensivo Albano - Loc. Cecchina
+  published: null
+  accessed: '2026-10-22'
+  genre: public_notice
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words_used: 108
+  adapted: true
+  source_section: A2 for selected concrete access rules; omit complex staff provisions,
+    purposes, and cataloguing paragraphs
+  adaptation_notes: Concrete access rules simplified; permissions, prohibitions and
+    renewable 20-day loan retained.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence_url: https://icalbanocecchina.edu.it/la-scuola/le-carte/84-regolamento-biblioteca-scolastica
+  license_evidence: Official source-specific article footer or legal notice covers
+    attributed adaptation and republication. Independently checked on 2026-10-22.
+    Only institution-authored text used; third-party quotations, photographs and logos
+    excluded.
+  dedup_checked: Canonical URL checked against existing repository manifests and used-source
+    registry; no prior use found.
+  cefr_evidence: Selected concrete excerpt assessed A2 independently; adaptation to
+    A1 is at most one level. This does not grade the full source page.
+  word_count_basis: Restored adapted source passage, excluding cloze helper labels
+    and gap numbers.
+- id: T3
+  slot: T3
+  level: A1
+  used_in:
+  - L3
+  url: https://www.comune.trento.it/Novita/Comunicati/Biblioteca-comunale-gli-eventi-della-settimana
+  title: 'Biblioteca comunale: programma di maggio'
+  publisher: Comune di Trento, Biblioteca e archivio storico; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  authors:
+  - Comune di Trento, Biblioteca e archivio storico
+  published: '2026-05-22'
+  accessed: '2026-10-22'
+  genre: public_notice
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words_used: 120
+  adapted: true
+  source_section: A2 selected concrete event notices (omit abstract final sentence
+    of family paragraph)
+  adaptation_notes: Four May 2026 event notices. Original dates retained, not presented
+    as current events. Contacts omitted; recommended reservation not made mandatory.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence_url: https://www.comune.trento.it/Note-legali
+  license_evidence: Official source-specific article footer or legal notice covers
+    attributed adaptation and republication. Independently checked on 2026-10-22.
+    Only institution-authored text used; third-party quotations, photographs and logos
+    excluded.
+  dedup_checked: Canonical URL checked against existing repository manifests and used-source
+    registry; no prior use found.
+  cefr_evidence: Selected concrete excerpt assessed A2 independently; adaptation to
+    A1 is at most one level. This does not grade the full source page.
+  word_count_basis: Restored adapted source passage, excluding cloze helper labels
+    and gap numbers.
+- id: T4
+  slot: T4
+  level: A1
+  used_in:
+  - S1
+  url: https://www.ic1modena.edu.it/struttura/scuola-secondaria-di-i-grado-cavour/
+  title: La scuola Cavour
+  publisher: Istituto Comprensivo1 Modena; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  authors:
+  - Istituto Comprensivo1 Modena
+  published: null
+  accessed: '2026-10-22'
+  genre: personal
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words_used: 94
+  adapted: true
+  source_section: A2 selected everyday school-facilities extract; longer excluded
+    DADA paragraphs are B2
+  adaptation_notes: Concrete school facilities and timetable only; abstract educational-method
+    discussion excluded. Original modal wording retained.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence_url: https://www.ic1modena.edu.it/struttura/scuola-secondaria-di-i-grado-cavour/
+  license_evidence: Official source-specific article footer or legal notice covers
+    attributed adaptation and republication. Independently checked on 2026-10-22.
+    Only institution-authored text used; third-party quotations, photographs and logos
+    excluded.
+  dedup_checked: Canonical URL checked against existing repository manifests and used-source
+    registry; no prior use found.
+  cefr_evidence: Selected concrete excerpt assessed A2 independently; adaptation to
+    A1 is at most one level. This does not grade the full source page.
+  word_count_basis: Restored adapted source passage, excluding cloze helper labels
+    and gap numbers.
+- id: T5
+  slot: T5
+  level: A1
+  used_in:
+  - S2
+  url: https://www.icrudiano.edu.it/uraghesi-a-cerveno/
+  title: Uraghesi a Cerveno
+  publisher: Istituto Comprensivo M. A. Chiecca, Rudiano; Alunni delle classi prime
+    di Urago d’Oglio; institutional byline Personale scolastico; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  authors:
+  - Alunni delle classi prime di Urago d’Oglio; institutional byline Personale scolastico
+  published: '2016-05-25'
+  accessed: '2026-10-22'
+  genre: personal
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words_used: 84
+  adapted: true
+  source_section: B1 full article; concrete extract after removing museum relative
+    clause/tradition aside may be A2, but assess cautiously
+  adaptation_notes: Concrete 2016 school-trip excerpt simplified by at most one CEFR
+    level. Specialized building names generalized; no new facts. Explicit subjects
+    and tense cues retained.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence_url: https://www.icrudiano.edu.it/uraghesi-a-cerveno/
+  license_evidence: Official source-specific article footer or legal notice covers
+    attributed adaptation and republication. Independently checked on 2026-10-22.
+    Only institution-authored text used; third-party quotations, photographs and logos
+    excluded.
+  dedup_checked: Canonical URL checked against existing repository manifests and used-source
+    registry; no prior use found.
+  cefr_evidence: Selected concrete excerpt assessed A2 independently; adaptation to
+    A1 is at most one level. This does not grade the full source page.
+  word_count_basis: Restored adapted source passage, excluding cloze helper labels
+    and gap numbers.
+- id: T6
+  slot: T6
+  level: A1
+  used_in:
+  - S3
+  url: https://www.icazeglio.edu.it/struttura/istituto-comprensivo/so-p-bollengo/
+  title: Orari e servizi della scuola di Bollengo
+  publisher: Istituto Comprensivo di Azeglio; CC BY 4.0; https://creativecommons.org/licenses/by/4.0/;
+    estratto adattato, tagli e semplificazioni; nessuna immagine riprodotta
+  authors:
+  - Istituto Comprensivo di Azeglio
+  published: null
+  accessed: '2026-10-22'
+  genre: public_notice
+  cefr: A2
+  usable_levels:
+  - A1
+  - A2
+  words_used: 97
+  adapted: true
+  source_section: A2 concrete schedules, rooms, mealservices; exclude formal lastsentence
+    if judgedB1
+  adaptation_notes: Historical 2024/25 school-year section labeled explicitly. Concrete
+    services and times simplified, with no claim that these are current 2026/27 arrangements.
+  status: accepted_with_adaptation
+  license_verified: true
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  license_evidence_url: https://www.icazeglio.edu.it/struttura/istituto-comprensivo/so-p-bollengo/
+  license_evidence: Official source-specific article footer or legal notice covers
+    attributed adaptation and republication. Independently checked on 2026-10-22.
+    Only institution-authored text used; third-party quotations, photographs and logos
+    excluded.
+  dedup_checked: Canonical URL checked against existing repository manifests and used-source
+    registry; no prior use found.
+  cefr_evidence: Selected concrete excerpt assessed A2 independently; adaptation to
+    A1 is at most one level. This does not grade the full source page.
+  word_count_basis: Restored adapted source passage, excluding cloze helper labels
+    and gap numbers.
+pipeline:
+  generator: native-assistant
+  template: factory/exams/cils/templates/A1.md
+  stages:
+  - stage: scaffold
+    at: '2026-10-22'
+  - stage: corpus
+    at: '2026-10-22'
+    recorded_at: '2026-10-22T04:35:30Z'
+    result: pass
+    sources: 6
+    note: Source metadata, permissions, selected excerpts and duplicate checks recorded
+      in the source ledger.
+  - stage: authoring
+    at: '2026-10-22'
+    recorded_at: '2026-10-22T04:35:30Z'
+    result: pass
+    note: Complete per-prova fragments, deterministic assembly, keys, Chinese explanations,
+      writing/oral models and glossary produced.
+  - stage: quality_audit
+    at: '2026-10-22T03:42:39+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-22T03:43:01+00:00'
+    result: pass
+    issues: 0
+  - stage: blind_validation
+    at: '2026-10-22T03:44:07+00:00'
+    agreement: 44/44
+    flags: 7
+    result: fail
+  - stage: blind_validation
+    at: '2026-10-22T03:46:43+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: quality_audit
+    at: '2026-10-22T03:46:43+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-22T03:46:43+00:00'
+    result: pass
+    issues: 0
+  - stage: editorial_review
+    at: '2026-10-22'
+    result: pass
+    notes: Independent source-specific rights, source fidelity and A2-to-A1 excerpt
+      review. S1 modality, S2 explicit subjects and historical year, S3 school-year
+      label and interval endpoint corrected. One repair round; 44/44 blind agreement,
+      zero remaining flags.
+  - stage: quality_audit
+    at: '2026-10-22T03:57:54+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-22T03:57:54+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-10-22T04:18:01+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-22T04:18:01+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-10-22T04:35:17+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-10-22T04:35:17+00:00'
+    result: pass
+    issues: 0
+  - stage: pdf_build
+    at: '2026-10-22T04:35:30Z'
+    result: pass
+    engine: mupdf
+  - stage: pdf_visual_review
+    at: '2026-10-22T04:35:30Z'
+    result: pass
+    pages: 17
+    blocking_issues: 0
+  - stage: historical_pdf_integrity
+    at: '2026-10-22T04:35:30Z'
+    result: pass
+    checked: 194
+    changed: 0
+  - stage: blind_validation
+    at: '2026-11-10T03:55:13+00:00'
+    agreement: 44/44
+    flags: 0
+    result: pass
+  - stage: format_audit
+    at: '2026-11-10T03:55:13+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-10T03:55:13+00:00'
+    result: pass
+    issues: 0
+  - stage: format_audit
+    at: '2026-11-10T03:55:49+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-10T03:55:49+00:00'
+    result: pass
+    issues: 0
+  - stage: pdf_build
+    at: '2026-11-10T03:57:52.621025+00:00'
+    result: pass
+    engine: mupdf
+    paper_pages: 10
+    answers_pages: 8
+  - stage: pdf_visual_review
+    at: '2026-11-10T03:57:52.621025+00:00'
+    result: pass
+    pages: 18
+    blocking_issues: 0
+    note: All pages inspected; final answer-sheet width repaired and rechecked. Unchanged
+      pages verified against reviewed renders.
+  - stage: historical_pdf_integrity
+    at: '2026-11-10T03:57:52.621025+00:00'
+    result: pass
+    checked: 196
+    changed: 0
+  - stage: format_audit
+    at: '2026-11-10T03:57:52+00:00'
+    result: pass
+    issues: 0
+  - stage: quality_audit
+    at: '2026-11-10T03:57:52+00:00'
+    result: pass
+    issues: 0
+quality:
+  variant_profile: cils-2024-standard
+  source_policy: excerpt-first
+  source_attribution: manifest-only
+  max_rewrite: level_simplification
+  audit_result: pass
+  audit_issues: 0
+validation:
+  objective_items: 44
+  final_agreement: 44
+  agreement: 44/44
+  flags: 0
+  mismatches: 0
+  result: pass
+publication_note: Previously unpublished 22 October session, revalidated on 10 November.
+  Student/answer content retained; answer-sheet writing space widened. Release includes
+  minimal source attribution, license and adaptation records, without full-page snapshots.
+repair_rounds: 1

@@ -1,0 +1,67 @@
+{
+  "prova": "S2",
+  "slots": {
+    "T5_TITLE": "UNA GITA A CERVENO",
+    "S2_TEXT_WITH_GAPS": "*(essere)* __Siamo (0)__ gli alunni delle classi prime di Urago d’Oglio. Il 10 maggio 2016 *(visitare, passato prossimo)* __(1)__ Cerveno con le guide del CAI. Due guide *(mostrare, passato prossimo)* __(2)__ il paese. Poi noi *(visitare, passato prossimo)* __(3)__ un edificio e la casa museo. Il museo *(conservare, presente indicativo)* __(4)__ oggetti del passato. Noi *(visitare, passato prossimo)* __(5)__ anche un altro edificio. Noi *(pranzare, passato prossimo)* __(6)__. Dopo noi *(camminare, passato prossimo)* __(7)__ fino a Capo di Ponte e noi *(giocare, passato prossimo)* __(8)__ vicino a un torrente. Noi *(sostare, passato prossimo)* __(9)__ per la merenda. Per noi la gita *(essere, presente indicativo)* __(10)__ bellissima."
+  },
+  "answer_slots": {
+    "ANS_S2_ROWS": "| S2.1 | abbiamo visitato | passato prossimo | S2.6 | abbiamo pranzato | passato prossimo |\n| S2.2 | hanno mostrato | passato prossimo | S2.7 | abbiamo camminato | passato prossimo |\n| S2.3 | abbiamo visitato | passato prossimo | S2.8 | abbiamo giocato | passato prossimo |\n| S2.4 | conserva | presente indicativo | S2.9 | abbiamo sostato | passato prossimo |\n| S2.5 | abbiamo visitato | passato prossimo | S2.10 | è | presente indicativo |",
+    "ANS_S2_NOTES": "**S2.1.** 括号指定近过去时；主语noi，用abbiamo加规则过去分词visitato。\n\n**S2.2.** 主语due guide为第三人称复数；mostrare近过去时是hanno mostrato。\n\n**S2.3.** 句中明确给出主语noi，visitare用avere：abbiamo visitato。\n\n**S2.4.** 主语il museo为第三人称单数；conservare现在时是conserva。\n\n**S2.5.** 句中明确给出主语noi，visitare近过去时是abbiamo visitato。\n\n**S2.6.** 主语noi；pranzare用avere，近过去时是abbiamo pranzato。\n\n**S2.7.** 主语noi；camminare用avere，近过去时是abbiamo camminato。\n\n**S2.8.** 主语noi；giocare用avere，近过去时是abbiamo giocato。\n\n**S2.9.** 主语noi；sostare表示短暂停留，近过去时是abbiamo sostato。\n\n**S2.10.** 主语la gita为单数，essere现在时为è。"
+  },
+  "key": {
+    "S2.1": "abbiamo visitato",
+    "S2.2": "hanno mostrato",
+    "S2.3": "abbiamo visitato",
+    "S2.4": "conserva",
+    "S2.5": "abbiamo visitato",
+    "S2.6": "abbiamo pranzato",
+    "S2.7": "abbiamo camminato",
+    "S2.8": "abbiamo giocato",
+    "S2.9": "abbiamo sostato",
+    "S2.10": "è"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "gita",
+      "categoria": "nome femminile",
+      "zh": "短途旅行",
+      "en": "outing",
+      "esempio": "la gita è bellissima"
+    },
+    {
+      "parola": "guide",
+      "categoria": "nome femminile plurale",
+      "zh": "导游",
+      "en": "guides",
+      "esempio": "Due guide hanno mostrato il paese"
+    },
+    {
+      "parola": "oggetti",
+      "categoria": "nome maschile plurale",
+      "zh": "物品",
+      "en": "objects",
+      "esempio": "Il museo conserva oggetti del passato"
+    },
+    {
+      "parola": "torrente",
+      "categoria": "nome maschile",
+      "zh": "溪流",
+      "en": "stream",
+      "esempio": "vicino a un torrente"
+    },
+    {
+      "parola": "merenda",
+      "categoria": "nome femminile",
+      "zh": "点心",
+      "en": "snack",
+      "esempio": "Abbiamo sostato per la merenda"
+    },
+    {
+      "parola": "sostare",
+      "categoria": "verbo regolare",
+      "zh": "短暂停留",
+      "en": "to stop briefly",
+      "esempio": "Abbiamo sostato per la merenda."
+    }
+  ]
+}

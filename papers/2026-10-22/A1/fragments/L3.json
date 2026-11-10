@@ -1,0 +1,47 @@
+{
+  "prova": "L3",
+  "slots": {
+    "L3_ITEMS": "**1. Letture in inglese**\nIl 27 maggio 2026, alle 16:30, la biblioteca di Villazzano propone letture in inglese. L’attività è per bambini a partire da tre anni.\n\n**2. Corso di scacchi**\nIl 27 maggio 2026, dalle 17:00 alle 18:30, a Meano c’è un corso gratuito di scacchi, dai sei anni. È consigliata la prenotazione.\n\n**3. Spazio famiglie**\nIl 28 maggio 2026, dalle 9:00 alle 12:00, all’Argentario ci sono giochi, musica e letture per genitori con bambini da zero a sei anni.\n\n**4. Giochi da tavolo**\nIl 29 maggio 2026, dalle 14:30, nella biblioteca di Povo c’è un pomeriggio con giochi da tavolo. L’attività è dedicata al divertimento in biblioteca.",
+    "L3_OPTIONS": "**A.** Vuoi giocare a scacchi, hai otto anni e sei libero mercoledì dopo le cinque.\n\n**B.** Cerchi letture in inglese per tua figlia di quattro anni, il mercoledì pomeriggio.\n\n**C.** Vuoi imparare a suonare la chitarra in una lezione individuale.\n\n**D.** Cerchi un’attività con giochi da tavolo a Povo il venerdì pomeriggio.\n\n**E.** Vuoi partecipare con tuo figlio di due anni a un incontro il giovedì mattina.\n\n**F.** Cerchi un corso serale di inglese per adulti."
+  },
+  "answer_slots": {
+    "ANS_L3_ROWS": "| L3.1 | B | 三岁起英语朗读，符合四岁孩子。 |\n| L3.2 | A | 六岁起棋课，17点开始。 |\n\n| Item | Risposta | Spiegazione |\n|---|---|---|\n| L3.3 | E | 家长携0至6岁孩子，周四上午。 |\n| L3.4 | D | Povo周五下午有桌游。 |",
+    "ANS_L3_UNUSED": "C, F"
+  },
+  "key": {
+    "L3.1": "B",
+    "L3.2": "A",
+    "L3.3": "E",
+    "L3.4": "D"
+  },
+  "glossario_candidates": [
+    {
+      "parola": "letture",
+      "categoria": "nome femminile plurale",
+      "zh": "朗读活动",
+      "en": "readings",
+      "esempio": "letture in inglese"
+    },
+    {
+      "parola": "scacchi",
+      "categoria": "nome maschile plurale",
+      "zh": "国际象棋",
+      "en": "chess",
+      "esempio": "un corso gratuito di scacchi"
+    },
+    {
+      "parola": "prenotazione",
+      "categoria": "nome femminile",
+      "zh": "预约",
+      "en": "booking",
+      "esempio": "È consigliata la prenotazione"
+    },
+    {
+      "parola": "giochi da tavolo",
+      "categoria": "locuzione nominale",
+      "zh": "桌游",
+      "en": "board games",
+      "esempio": "un pomeriggio con giochi da tavolo"
+    }
+  ]
+}

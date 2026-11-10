@@ -1,0 +1,14 @@
+{
+  "prova": "W",
+  "slots": {
+    "W1_PROMPT": "Descrivi un posto dove ti piace leggere. Dove si trova? Che cosa c’è? Quando vai in questo posto?",
+    "W2_PROMPT": "Vuoi visitare una biblioteca. Scrivi una breve e-mail: chiedi l’orario di apertura e se puoi entrare il sabato."
+  },
+  "answer_slots": {
+    "MODEL_W1": "Mi piace leggere nel parco vicino a casa. Ci sono molti alberi e una panchina grande. Vado lì il pomeriggio, dopo il lavoro. Porto un libro e una bottiglia d’acqua.",
+    "MODEL_W1_PHRASES": "vicino a casa（在家附近）; ci sono（有）; dopo il lavoro（下班后）; mi piace leggere（我喜欢阅读）",
+    "MODEL_W2": "Buongiorno, vorrei visitare la biblioteca. A che ora apre? Posso entrare anche il sabato? Grazie per le informazioni. Cordiali saluti, Elena.",
+    "MODEL_W2_PHRASES": "a che ora（几点）; posso entrare（我可以进去吗）; grazie per le informazioni（感谢提供信息）"
+  },
+  "key": {}
+}
